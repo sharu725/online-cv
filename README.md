@@ -34,7 +34,7 @@ You have to create a new ``gh-pages`` branch using the master branch. Go back to
 
 ![create gh-pages branch](http://blog.webjeda.com/images/create-gh-pages-branch.JPG)
 
-Now, go to settings and check the **Github Pages** section. You should see a URL where the blog is hosted.
+Now, go to settings and check the **Github Pages** section. You should see a URL where the blog is hosted. If not select a branch as source.
 
 
 Check out for more themes: [**Jekyll Themes**](http://blog.webjeda.com/jekyll-themes)
