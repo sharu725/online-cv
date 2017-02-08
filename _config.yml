@@ -1,7 +1,7 @@
 
 title: My Resume
 url: 'http://progmmer.com'
-baseurl: '/aruizcastro' #change it according to your repository name
+baseurl: '/aruizcastro.github.io' #change it according to your repository name
 
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
