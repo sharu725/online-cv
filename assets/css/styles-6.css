@@ -11,7 +11,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #545E6C;
-  background-image: online-cv/assets/images/background.jpg;
+  background: #CCD1D1;
   font-size: 14px;
   padding: 30px;
   -webkit-font-smoothing: antialiased;
