@@ -13,16 +13,15 @@ baseurl: '/online-cv' #change it according to your repository name
 
 
 #Profile information
-name: Alan Doe
-tagline: Full Stack Developer
+name: Matthew Stevenson, M.D.
+tagline: Neurologist
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
-email: hello@webjeda.com
-phone: 012 345 6789
+email: stevensonmt@yahoo.com
 website: blog.webjeda.com #do not add http://
-linkedin: alandoe
-github: sharu725
-twitter: '@webjeda'
+linkedin: Matt Stevenson
+github: stevensonmt
+twitter: '@stevenson_mt'
 
 #Update all the sections by editing the files inside _includes folder.
