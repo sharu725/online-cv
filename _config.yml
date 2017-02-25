@@ -1,7 +1,7 @@
 
 title: My Resume
 url: 'https://bigsergey.github.io/'
-baseurl: '/online-cv' #change it according to your repository name
+baseurl: '' #change it according to your repository name
 
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
@@ -19,7 +19,6 @@ pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and pro
 
 #sidebar links
 email: bolszow@gmail.com
-phone: +48 *** *** ***
 website: bigsergey.github.io #do not add http://
 linkedin: bolshovsergey
 github: bigsergey
