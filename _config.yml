@@ -1,7 +1,7 @@
 
-title: My Resume
-url: 'http://webjeda.com'
-baseurl: '/online-cv' #change it according to your repository name
+title: Kamran Azmat - Personal Portfolio
+url: 'kamranazmat'
+baseurl: '' #change it according to your repository name
 
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
@@ -13,16 +13,16 @@ baseurl: '/online-cv' #change it according to your repository name
 
 
 #Profile information
-name: Alan Doe
-tagline: Full Stack Developer
+name: Kamran Azmat
+tagline: MSc Computer Science
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
-email: hello@webjeda.com
-phone: 012 345 6789
-website: blog.webjeda.com #do not add http://
-linkedin: alandoe
-github: sharu725
-twitter: '@webjeda'
+email: kamran.azmat@ucdconnect.ie
+phone: +353 89 988 7029
+website: kamranazmat.com #do not add http://
+linkedin: kamranazmat
+github: kamranazmat
+twitter: '@kamran_azmat'
 
 #Update all the sections by editing the files inside _includes folder.
