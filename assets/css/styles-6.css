@@ -11,7 +11,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #545E6C;
-  background: #f5f5f5;
+  background: smoky-white;
   font-size: 14px;
   padding: 30px;
   -webkit-font-smoothing: antialiased;
@@ -55,7 +55,7 @@ p {
   background: #4B6A78;
   position: absolute;
   right: 0;
-  width: 240px;
+  width: 260px;
   height: 100%;
   min-height: 800px;
   color: #fff;
