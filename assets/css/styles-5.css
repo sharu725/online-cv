@@ -17,6 +17,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@media (max-width: 767px) {
+    body{ 
+        padding: 0;
+    }
+}
 h1,
 h2,
 h3,
