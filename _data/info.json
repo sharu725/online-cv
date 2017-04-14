@@ -8,5 +8,17 @@
 	"linkedin":"ironicnet",
 	"github":"ironicnet",
 	"twitter":"ironicnet",
-	"interests":["DDD", "Game Development"]
+	"interests":["DDD", "Game Development"],
+	"languages":[
+		{ "name":"Spanish", "level": "Native"},
+		{ "name":"English", "level": "Professional"}
+	],
+	"projectsIntro": null,
+	"projects":[
+		{ "title":"DuskBunnies" , "description": "DuskBunnies was an uncompleted videogame project. It was a 2D Platformer, using sprites and art from [Andrew Chason](http://www.andrewchasondesign.com/)."},
+		{ "title":"Jam.Ar", "description": "Jam.Ar was a 48hs Game Jam organized by me and Bruno Martinez in La Plata, Buenos Aires, Argentina. "}
+	],
+	"skills":[
+		{"name":"C#", "notes":"Notes test"}
+	]
 }

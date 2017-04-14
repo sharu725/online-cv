@@ -8,6 +8,7 @@
 								<div class="time">{{ experience.from | date: '%B %Y' }} - {% if experience.to != '' %}{{ experience.to | date: '%B %Y' }}{% else %}Present{% endif %}</div>
 							</div><!--//upper-row-->
 							<div class="company">{{ experience.company }}</div>
+							<ul class="tags list-inline">{% for tag in experience.tags %}<li class="label label-primary">{{tag}}</li> {% endfor %}</ul>
 						</div><!--//meta-->
 						<div class="details">
 							{{ experience.details | markdownify }}
