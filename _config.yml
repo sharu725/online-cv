@@ -20,5 +20,5 @@ pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and pro
 #sidebar links
     
 # Tracker
-analytics: XX-83979019-1
+analytics: UA-43446106-1
 #Update all the sections by editing the files inside _includes folder.
