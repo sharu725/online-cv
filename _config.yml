@@ -1,7 +1,7 @@
 
 title: My Resume
 url: 'http://webjeda.com'
-baseurl: '/online-cv' #change it according to your repository name
+baseurl: '/Resume' #change it according to your repository name
 
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
@@ -13,17 +13,17 @@ baseurl: '/online-cv' #change it according to your repository name
 
 
 #Profile information
-name: Alan Doe
-tagline: Full Stack Developer
+name: Jake Armstrong
+tagline: Security Engineer
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
-email: hello@webjeda.com
+email: hi@jakearmstrong.me
 phone: 012 345 6789
 website: blog.webjeda.com #do not add http://
 linkedin: alandoe
-github: sharu725
-twitter: '@webjeda'
+github: aristotljake
+twitter: '@jakemarmstrong'
 
 
 # Tracker
