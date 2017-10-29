@@ -29,3 +29,10 @@ twitter: '@webjeda'
 # Tracker
 analytics: UA-83979019-1
 #Update all the sections by editing the files inside _includes folder.
+
+# Build settings
+encoding: "utf-8"
+compress_html: # - http://jch.penibelst.de/
+  clippings: all
+  ignore:
+    envs: development
