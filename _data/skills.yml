@@ -1,10 +1,10 @@
-- skill:
-  name: Python & Django
-  level: 98%
-- skill:
-  name: Javascript & jQuery
-  level: 98%
-- skill:
+# - skill:
+#   name: Python & Django
+#   level: 98%
+# - skill:
+#   name: Javascript & jQuery
+#   level: 98%
+# - skill:
 #   name: Angular
 #   level: 98%
 # - skill:
@@ -16,3 +16,17 @@
 # - skill:
 #   name: Sketch & Photoshop
 #   level: 60%
+
+- skill:
+  name: Python 
+  level: 80%
+- skill:
+  name: Java
+  level: 40%
+- skill:
+  name: Javascript
+  level: 60%
+- skill:
+  name: C/C++
+  level: 70%
+
