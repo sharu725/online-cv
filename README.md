@@ -23,5 +23,6 @@ There are 6 color schemes available
 
 [Watch my video on instlallation](https://www.youtube.com/embed/T2nx6tj-ZH4)
 
+Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao)
 
 Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com)
