@@ -5,7 +5,13 @@
 
     <ul class="list-unstyled interests-list">
       {% for interest in site.data.interests %}
-      <li>{{ interest.item }}</li>
+
+      {% if interest.link %}
+        <li><a href="{{ interest.link }}">{{ interest.item }}</a></li>
+        {% else %}
+        <li>{{ interest.item }}</li>
+        {% endif %}
+
       {% endfor %}
     </ul>
 
