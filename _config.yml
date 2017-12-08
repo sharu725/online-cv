@@ -11,8 +11,8 @@ baseurl: '/online-cv' #change it according to your repository name
 #style: styles-6
 
 #Profile information
-name: Alan Doe
-tagline: Full Stack Developer
+name: Eugenio Alcalde
+tagline: Synthetic Biology, Metabolomics and carotenoids production in filamentous fungi and yeasts.
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 summary: 'Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 You can <a href="#" target="_blank">download this free resume/CV template here</a>. Aenean
