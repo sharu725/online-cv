@@ -14,19 +14,18 @@ baseurl: '/online-cv' #change it according to your repository name
 name: Eugenio Alcalde
 tagline: Synthetic Biology, Metabolomics and carotenoids production in filamentous fungi and yeasts.
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-summary: I am currently working at Royal Holloway, University of London, as a Postdoctoral researcher in a European funded project focusing on the exploitation of the yeast Xanthophyllomyces dendrorhous as a sustainable platform for the production of high-value carotenoids. This project is an academic and industrial partnership of five European countries, which combines Genetics and Molecular Biology with Analytical Techniques to develop new strains. The project has been an excellent opportunity to collaborate with the industry to achieve a common goal, developing myself as an effective communicator and critical thinker.
-
-During my Master and PhD, I worked on the identification and characterization of the apocarotenoids involved in the sexual interaction in mucorales fungi Phycomyces Blakesleeanus, Blakeslea trispora and Mucor circinelloides and their implication in the regulation of the biosynthetic pathway of carotenoids. The PhD project was in collaboration with an Organic Chemistry laboratory and I acquired the capacity to interact effectively in a multidisciplinary atmosphere.
-
-After my PhD, I continued my academic work as a postdoctoral researcher studying the molecular basis of the carotenoids regulation of Phycomyces in different mutant strains and the effects across the metabolism. I had the opportunity to learn how to work on the analysis of big data sets. I have teamed up with researchers with different expertise across Europe and USA and I have mentored undergraduate, Master and PhD students. This has helped me greatly to improve my organizational, leadership, motivational and decision-making skills.
+summary: 'Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+You can <a href="#" target="_blank">download this free resume/CV template here</a>. Aenean
+commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.'
 
 #sidebar links
-email: eugenalc@gmail.com
+email: hello@webjeda.com
 phone: 012 345 6789
-website: //eugenalc.wixsite.com/eugenio-alcalde
-linkedin: eugenio-alcalde
-github: Eugenio-Alcalde
-twitter: @eugenio_alcalde
+website: blog.webjeda.com #do not add http://
+linkedin: alandoe
+github: sharu725
+twitter: '@webjeda'
 #Update all the sections by editing the files inside _data folder.
 
 # Tracker
