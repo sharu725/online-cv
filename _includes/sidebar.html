@@ -8,8 +8,11 @@
             
             <div class="contact-container container-block">
                 <ul class="list-unstyled contact-list">
-                   {% if site.data.info.email %}
+                    {% if site.data.info.email %}
                     <li class="email"><i class="fa fa-envelope"></i><a href="mailto: {{site.data.info.email}}">{{site.data.info.email}}</a></li>
+					{% endif %}
+					{% if site.data.info.emailImage %}
+					<li class="email"><i class="fa fa-envelope"></i><img src="{{site.data.info.emailImage}}" alt="Real email text not included to avoid crawlers, sorry"/></li>
                     {% endif %}
                     
                     {% if site.data.info.phone %}
