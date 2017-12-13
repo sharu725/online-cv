@@ -2,7 +2,7 @@
 	"pic": null,
 	"fullname": "Ezequiel Calderara",
 	"tagline":"Software Developer",
-	"email":"ezechico@gmail.com",
+	"emailImage":"/online-cv/assets/images/mail.png",
 	"phone":null,
 	"website":null,
 	"linkedin":"ironicnet",
@@ -19,6 +19,8 @@
 		{ "title":"Jam.Ar", "description": "Jam.Ar was a 48hs Game Jam organized by me and Bruno Martinez in La Plata, Buenos Aires, Argentina. "}
 	],
 	"skills":[
-		{"name":"C#", "notes":"Notes test"}
+		{"name":"C#", "notes":"My everyday language"},
+		{"name":"Unit Testing", "notes":"Always trying to enforcing it. Implemented it into monolithic projects"},
+		{"name":"Resourceful", "notes":"There is always a workaround"},
 	]
 }

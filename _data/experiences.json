@@ -1,5 +1,5 @@
 [{
-    "jobtitle": "Software Developer Sr",
+    "jobtitle": ".Net Developer Sr",
     "company": "Television Federal S.A.",
     "from": "2011-11-01",
     "to": "",
@@ -73,7 +73,7 @@ Research of new technologies and solutions.
 	It involved loading models, textures, animations and information from a rest API."
 },
 {
-    "jobtitle": "Software Developer .Net Sr",
+    "jobtitle": ".Net Developer Sr",
     "company": "Telecom Argentina",
     "from": "2010-08-01",
     "to": "2011-10-01",
@@ -89,7 +89,7 @@ Research of new technologies and solutions.
 - Research, configuration and implementacion of Apache Solr (a Lucene implementation) as content repository for frontend and as Search Engine
 - Participation in the development of an SSO (Single Sign On) unifing the endpoints for systems of external users."
 },{
-    "jobtitle": "Analyst Developer Sr",
+    "jobtitle": ".Net Developer Sr",
     "company": "S4M S.A.",
     "from": "2009-07-01",
     "to": "2010-08-01",
@@ -97,18 +97,18 @@ Research of new technologies and solutions.
     "details": "Development and maintenance of administration site.   
 
 
-Development and maintenance of customer sales platform with high concurrency and volume.   
+- Development and maintenance of customer sales platform with high concurrency and volume.   
 
 
-Development and implementation of communication protocols between cell phone carriers and telcoms.   
+- Development and implementation of communication protocols between cell phone carriers and telcoms.   
 
 
-Development and Maintenance of werbservices for communication between internal platforms.   
+- Development and Maintenance of werbservices for communication between internal platforms.   
 
 
-Maintenance, architecture and database optimization."
+- Maintenance, architecture and database optimization."
 },{
-    "jobtitle": "Analyst Developer .Net Ssr",
+    "jobtitle": ".Net Developer Ssr",
     "company": "ECOSISTEMAS",
     "from": "2008-07-01",
     "to": "2009-07-01",
