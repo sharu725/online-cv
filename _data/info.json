@@ -8,7 +8,7 @@
 	"linkedin":"ironicnet",
 	"github":"ironicnet",
 	"twitter":"ironicnet",
-	"interests":["DDD", "Game Development"],
+	"interests":["Domain Driven Design","Refactoring", "Profiling", "Game Development"],
 	"languages":[
 		{ "name":"Spanish", "level": "Native"},
 		{ "name":"English", "level": "Professional"}
