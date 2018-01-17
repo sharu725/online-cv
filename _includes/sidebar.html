@@ -48,6 +48,8 @@
   {% include education.html %}
   {% include language.html %}
   {% include interests.html %}
-  {% include about.html %}
+  {% if site.about %}
+    {% include about.html %}
+  {% endif %}
 
 </div><!--//sidebar-wrapper-->

@@ -43,7 +43,7 @@ p {
 }
 .wrapper {
   background: #42A8C0;
-  max-width: 960px;
+  max-width: 1000px;
   margin: 0 auto;
   position: relative;
   -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -54,7 +54,7 @@ p {
   background: #42A8C0;
   position: absolute;
   right: 0;
-  width: 240px;
+  width: 280px;
   height: 100%;
   min-height: 800px;
   color: #fff;
@@ -161,7 +161,7 @@ p {
 .main-wrapper {
   background: #fff;
   padding: 60px;
-  padding-right: 300px;
+  padding-right: 340px;
 }
 .main-wrapper .section-title {
   text-transform: uppercase;
@@ -196,7 +196,8 @@ p {
 .main-wrapper .section {
   margin-bottom: 60px;
 }
-.main-wrapper .experiences-section .item {
+.main-wrapper .experiences-section .item,
+.main-wrapper .educations-section .item {
   margin-bottom: 30px;
 }
 .main-wrapper .upper-row {
@@ -204,7 +205,8 @@ p {
   overflow: hidden;
   margin-bottom: 2px;
 }
-.main-wrapper .job-title {
+.main-wrapper .job-title,
+.main-wrapper .degree {
   color: #3F4650;
   font-size: 16px;
   margin-top: 0;
@@ -217,7 +219,8 @@ p {
   top: 0;
   color: #97AAC3;
 }
-.main-wrapper .company {
+.main-wrapper .company,
+.main-wrapper .university {
   margin-bottom: 10px;
   color: #97AAC3;
 }
@@ -231,6 +234,21 @@ p {
   margin-bottom: 30px;
 }
 .main-wrapper .projects-section .item {
+  margin-bottom: 15px;
+}
+.main-wrapper .publication-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 1px;
+}
+.main-wrapper .publication-authors {
+  font-style: italic;
+  margin-bottom: 1px;
+}
+.main-wrapper .publications-section .intro {
+  margin-bottom: 30px;
+}
+.main-wrapper .publications-section .item {
   margin-bottom: 15px;
 }
 .skillset .item {
@@ -251,8 +269,7 @@ p {
   background: #7bc2d3;
 }
 .footer {
-  padding: 30px;
-  padding-top: 60px;
+  padding-top: 30px;
 }
 .footer .copyright {
   line-height: 1.6;
