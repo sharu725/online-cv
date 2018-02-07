@@ -1,15 +1,43 @@
 {% if site.data.educations %}
-<div class="education-container container-block">
+    {% if site.education_in_main %}
+    
+        <section class="section educations-section">
+        <h2 class="section-title"><i class="fa fa-graduation-cap"></i>Education</h2>
+        {% for education in site.data.educations %}
+          <div class="item">
+          
+            <div class="meta">
+            
+              <div class="upper-row">
+                <h3 class="degree">{{ education.degree }}</h3>
+                <div class="time">{{ education.time }}</div>
+              </div><!--//upper-row-->
+              
+              <div class="university">{{ education.university }}</div>
+            </div><!--//meta-->
+            
+            {% if education.details %}
+            <div class="details">
+              <p>{{ education.details }}</p>
+            </div><!--//details-->
+            {% endif %}
+          </div><!--//item-->
+        {% endfor %}
+        
+        </section><!--//section-->
+    {% else %}
+        <div class="education-container container-block">
 
-  <h2 class="container-block-title">Education</h2>
+        <h2 class="container-block-title">Education</h2>
 
-  {% for education in site.data.educations %}
-    <div class="item">
-      <h4 class="degree">{{ education.degree }}</h4>
-      <h5 class="meta">{{ education.university }}</h5>
-      <div class="time">{{ education.time }}</div>
-    </div><!--//item-->
-  {% endfor %}
+        {% for education in site.data.educations %}
+            <div class="item">
+            <h4 class="degree">{{ education.degree }}</h4>
+          <h5 class="meta">{{ education.university }}</h5>
+          <div class="time">{{ education.time }}</div>
+        </div><!--//item-->
+      {% endfor %}
 
-</div><!--//education-container-->
+    </div><!--//education-container-->
+    {% endif %}
 {% endif %}
