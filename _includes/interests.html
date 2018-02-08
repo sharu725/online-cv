@@ -1,8 +1,19 @@
+{% if site.data.interests %}
 <div class="interests-container container-block">
-<h2 class="container-block-title">Interests</h2>
-<ul class="list-unstyled interests-list">
-<li>Climbing</li>
-<li>Snowboarding</li>
-<li>Cooking</li>
-</ul>
+
+  <h2 class="container-block-title">Interests</h2>
+
+    <ul class="list-unstyled interests-list">
+      {% for interest in site.data.interests %}
+
+      {% if interest.link %}
+        <li><a href="{{ interest.link }}">{{ interest.item }}</a></li>
+        {% else %}
+        <li>{{ interest.item }}</li>
+        {% endif %}
+
+      {% endfor %}
+    </ul>
+
 </div><!--//interests-->
+{% endif %}

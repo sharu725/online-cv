@@ -31,7 +31,7 @@ p {
 
 .wrapper {
     background:@theme-color;
-    max-width: 960px;
+    max-width: 1000px;
     margin: 0 auto;
     position: relative;
     .box-shadow(0px 2px 4px rgba(0,0,0,0.1));
@@ -41,7 +41,7 @@ p {
     background: @theme-color;
     position: absolute;
     right: 0;
-    width: 240px;
+    width: 280px;
     height: 100%;
     min-height: 800px;
     color: #fff;
@@ -70,6 +70,15 @@ p {
     }
     .profile {
         margin-bottom: 15px;
+    }
+   
+    .profile-img {
+        //used for profile image
+        max-width: 100px;
+        margin-bottom: 15px;
+        border: 0px solid #fff;
+        border-radius: 100%;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     }
     .contact-list {
         .fa {
@@ -153,7 +162,7 @@ p {
 .main-wrapper {
     background: #fff;
     padding: 60px;
-    padding-right: 300px;
+    padding-right: 340px;
     .section-title {
         text-transform: uppercase;
         font-size: 20px;
@@ -182,7 +191,7 @@ p {
         margin-bottom: 60px;
     }
     
-    .experiences-section {
+    .experiences-section, .educations-section {
         .item {
             margin-bottom: 30px;
         }
@@ -192,7 +201,7 @@ p {
         overflow: hidden;
         margin-bottom: 2px;
     }
-    .job-title {
+    .job-title, .degree {
         color: @text-color;
         font-size: 16px;
         margin-top: 0;
@@ -205,7 +214,7 @@ p {
         top: 0;
         color: @text-grey;
     }
-    .company {
+    .company, .university {
         margin-bottom: 10px;
         color: @text-grey;
     }
@@ -225,6 +234,23 @@ p {
         }
     }
     
+    .publication-title {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 1px;
+    }
+    .publication-authors {
+      font-style: italic;
+      margin-bottom: 1px;
+    }
+    .publications-section {
+        .intro {
+            margin-bottom: 30px;
+        }
+        .item {
+            margin-bottom: 15px;
+        }
+    }    
 }
 
 
@@ -252,8 +278,7 @@ p {
 
 
 .footer {
-    padding: 30px;
-    padding-top: 60px;
+    padding-top: 30px;
     .copyright {
         line-height: 1.6;
         color: @text-color-secondary;
