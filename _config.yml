@@ -2,6 +2,7 @@
 title: My Resume
 url: 'http://webjeda.com'
 baseurl: '/online-cv' #change it according to your repository name
+about: True # set to False or comment line if you want to remove the "How to use?" in the sidebar
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
 #style: styles-2
@@ -27,6 +28,9 @@ linkedin: alandoe
 github: sharu725
 twitter: '@webjeda'
 #Update all the sections by editing the files inside _data folder.
+
+# uncomment the next line, if you want the education section displayed in main instead of the sidebar
+#education_in_main: True
 
 # Tracker
 analytics: UA-83979019-1
