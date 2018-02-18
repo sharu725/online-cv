@@ -18,6 +18,9 @@
    <div class="contact-container container-block">
        <ul class="list-unstyled contact-list">
 
+           {% if site.institution %}
+           <li class="institution"><i class="fa fa-institution"></i>{{site.institution}}</li>
+           {% endif %}  
           
            {% if site.address %}
            <li class="address"><i class="fa fa-map-marker"></i>{{site.address}}</li>
