@@ -22,11 +22,8 @@ summary: 'Currently I am a PhD student at London School of Economics working und
 <a href="http://personal.lse.ac.uk/sorkin/" target="_defualt">Gregory Sorkin</a>.'
 
 #sidebar links
-address: 'Department of Mathematics \\
-London School of Economics and Political Science;\\
-Houghton Street
-London, WC2A 2AE
-United Kingdom'
+institution: 'Department of Mathematics, London School of Economics and Political Science'
+address: 'Houghton Street, London, WC2A 2AE, UK'
 email: e.husic at lse.ac.uk
 github: zhero9
 #Update all the sections by editing the files inside _data folder.
