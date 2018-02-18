@@ -9,8 +9,8 @@ about: False # set to False or comment line if you want to remove the "How to us
 #style: styles-2
 #style: styles-3
 #style: styles-4
-style: styles-5
-#style: styles-6
+#style: styles-5
+style: styles-6
 
 
 #Profile information
@@ -19,7 +19,7 @@ name: Edin Husić
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 summary: 'Currently I am a PhD student at London School of Economics working under supervision of 
 <a href="http://personal.lse.ac.uk/veghl/" target="_defualt">László A. Végh</a>
-and Gregory Sorkin.'
+<a href="http://personal.lse.ac.uk/sorkin/" target="_defualt">Gregory Sorkin</a>.'
 
 #sidebar links
 email: e.husic at lse.ac.uk
