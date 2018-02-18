@@ -23,7 +23,7 @@
            {% endif %}  
           
            {% if site.address %}
-           <li class="address"><i class="fa fa-map-marker"></i>{{site.address}}</li>
+           <li class="address"><i class="fa fa-map-marker"></i><a href="http://maps.google.com/?q={{site.address}}" target="_blank">{{site.address}}</a></li>
            {% endif %}
           
            {% if site.email %}
