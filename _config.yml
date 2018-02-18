@@ -6,8 +6,8 @@ about: False # set to False or comment line if you want to remove the "How to us
 
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
-style: styles-2
-#style: styles-3
+#style: styles-2
+style: styles-3
 #style: styles-4
 #style: styles-5
 #style: styles-6
@@ -17,13 +17,12 @@ style: styles-2
 name: Edin Husić 
 #tagline: Full Stack Developer
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-summary: 'Currently I am a PhD student at London School of Economics wokrking under supervision of László A. Végh
-and Gregory Sorkin. I am interested in combinatorial optimization.
-'
+summary: 'Currently I am a PhD student at London School of Economics working under supervision of László A. Végh
+and Gregory Sorkin.'
 
 #sidebar links
 email: e.husic at lse.ac.uk
-github: sharu725
+github: zhero9
 #Update all the sections by editing the files inside _data folder.
 
 # uncomment the next line, if you want the education section displayed in main instead of the sidebar
