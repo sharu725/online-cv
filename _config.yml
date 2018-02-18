@@ -18,7 +18,7 @@ name: Edin Husić
 #tagline: Full Stack Developer
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 summary: 'Currently I am a PhD student at London School of Economics working under supervision of 
-<a href="#" target="http://personal.lse.ac.uk/veghl/">László A. Végh</a>
+<a href="http://personal.lse.ac.uk/veghl/" target="_defualt">László A. Végh</a>
 and Gregory Sorkin.'
 
 #sidebar links
