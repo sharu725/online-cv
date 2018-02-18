@@ -18,7 +18,12 @@
    <div class="contact-container container-block">
        <ul class="list-unstyled contact-list">
 
-          {% if site.email %}
+          
+           {% if site.address %}
+           <li class="address"><i class="fa fa-address"></i>{{site.address}}</li>
+           {% endif %}
+          
+           {% if site.email %}
            <li class="email"><i class="fa fa-envelope"></i><a href="mailto: {{site.email}}">{{site.email}}</a></li>
            {% endif %}
 
