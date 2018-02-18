@@ -7,10 +7,10 @@ about: False # set to False or comment line if you want to remove the "How to us
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
 #style: styles-2
-#style: styles-3
+style: styles-3
 #style: styles-4
 #style: styles-5
-style: styles-6
+#style: styles-6
 
 
 #Profile information
@@ -22,6 +22,11 @@ summary: 'Currently I am a PhD student at London School of Economics working und
 <a href="http://personal.lse.ac.uk/sorkin/" target="_defualt">Gregory Sorkin</a>.'
 
 #sidebar links
+address: Department of Mathematics,
+London School of Economics and Political Science 
+Houghton Street
+London, WC2A 2AE
+United Kingdom
 email: e.husic at lse.ac.uk
 github: zhero9
 #Update all the sections by editing the files inside _data folder.
