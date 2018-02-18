@@ -21,8 +21,9 @@ summary: 'Currently I am a PhD student at London School of Economics working und
 <a href="http://personal.lse.ac.uk/veghl/" target="_defualt">László A. Végh</a> and 
 <a href="http://personal.lse.ac.uk/sorkin/" target="_defualt">Gregory Sorkin</a>.'
 
-#sidebar links
+#sidebar links if you enter institution, you have to enter instutition site in instSite!
 institution: 'Department of Mathematics, London School of Economics and Political Science'
+instSite: 'http://www.lse.ac.uk/Mathematics'
 address: 'Houghton Street, London, WC2A 2AE, United Kingdom'
 email: e.husic at lse.ac.uk
 github: zhero9
