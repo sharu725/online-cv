@@ -3,7 +3,7 @@ intro: "You can list your CCpublications in this section. Lorem ipsum dolor
 publications:
   - paper:
     title: The Art of Computer Programming
-    authors: Donald E. Knuth
+    authors: Donald Knuth
     conference: Addison-Wesley, 1968
   - paper:
     title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
