@@ -1,14 +1,14 @@
 # Site Settings
-title: My Resume
+title: E. Husić
 url: 'http://webjeda.com'
 baseurl: '/page' #change it according to your repository name
 about: False # set to False or comment line if you want to remove the "How to use?" in the sidebar
 
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
-#style: styles-2
+style: styles-2
 #style: styles-3
-style: styles-4
+#style: styles-4
 #style: styles-5
 #style: styles-6
 
@@ -17,25 +17,20 @@ style: styles-4
 name: Edin Husić 
 #tagline: Full Stack Developer
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-summary: 'Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-You can <a href="#" target="_blank">download this free resume/CV template here</a>. Aenean
-commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.'
+summary: 'Currently I am a PhD student at London School of Economics wokrking under supervision of László A. Végh
+and Gregory Sorkin. I am interested in combinatorial optimization.
+'
 
 #sidebar links
-email: hello@webjeda.com
-phone: 012 345 6789
-website: blog.webjeda.com #do not add http://
-linkedin: alandoe
+email: e.husic at lse.ac.uk
 github: sharu725
-twitter: '@webjeda'
 #Update all the sections by editing the files inside _data folder.
 
 # uncomment the next line, if you want the education section displayed in main instead of the sidebar
 #education_in_main: True
 
-# Tracker
-analytics: UA-83979019-1
+# Tracker#
+#analytics: UA-83979019-1
 
 # Build settings
 encoding: "utf-8"
