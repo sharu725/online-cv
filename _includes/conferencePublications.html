@@ -9,11 +9,11 @@
   </div><!--//intro-->
   {% endif %}
 
-  {% for publications in site.data.conferencePublications.publications %}
+  {% for publication in site.data.conferencePublications.publications %}
     <div class="item">
-      <div class="publications-title">{{ publication.title }}</div>
-      <div class="publications-authors">{{ publication.authors }}</div>
-      <div class="publications-conference">{{ publication.conference }}</div>
+      <div class="publication-title">{{ publication.title }}</div>
+      <div class="publication-authors">{{ publication.authors }}</div>
+      <div class="publication-conference">{{ publication.conference }}</div>
     </div><!--//item-->
   {% endfor %}
 
