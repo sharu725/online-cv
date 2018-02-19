@@ -4,5 +4,5 @@ publications:
     title:  The minimum conflict-free row split problem revisited
     authors: A. Hujdurović, E. Husić, M. Milanič, R. Rizzi, A. I. Tomescu
     conference: Proceedings of the 43rd International Workshop on Graph-Theoretic Concepts in Computer Science (WG 2017), Lecture Notes in Computer Science 10520 (2017) 303-315
-    conferenceLink:
-    fullVersion:
+    conferenceLink: https://link.springer.com/chapter/10.1007/978-3-319-68705-6_23
+    fullVersion: https://arxiv.org/abs/1701.05492
