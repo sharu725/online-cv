@@ -2,25 +2,14 @@
 <section class="section news-section">
   <h2 class="section-title"><i class="fa fa-newspaper-o"></i>News</h2>
 
-{% for news in site.data.news %}
-  <div class="item">
+{% for project in site.data.projects.projects %}
+    <div class="item">
 
-    <div class="meta">
+      <span class="news-date">{{news.date}}</span>
 
-      <div class="upper-row">
-        <div class="time">{{ news.time }}</div>
-      </div><!--//upper-row-->
+      - <span class="details">{{ news.details }}</span>
 
-    </div><!--//meta-->
-
-    {% if news.details %}
-    <div class="details">
-      <p>{{ news.details }}</p>
-    </div><!--//details-->
-    {% endif %}
-
-  </div><!--//item-->
-{% endfor %}
-
+    </div><!--//item-->
+  {% endfor %}
 </section><!--//section-->
 {% endif %}
