@@ -219,6 +219,7 @@ p {
   top: 0;
   color: #97AAC3;
 }
+.main-wrapper .place,
 .main-wrapper .company,
 .main-wrapper .university {
   margin-bottom: 10px;
