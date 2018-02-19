@@ -36,7 +36,7 @@ a:hover {
   color: #1a454f;
 }
 a:visited {
-  color: #7163cf; /*Change visited color*/
+  color: #1fada6; /*Change visited color*/
 }
 a:focus {
   text-decoration: none;
