@@ -1,1 +1,4 @@
-t
+- talk:
+  time: 2017
+  place: LSE, London, UK
+  title: "Independent Set is FPT for even-hole-free graphs"
