@@ -1,6 +1,6 @@
 # Site Settings
 title: E. Husić
-url: 'http://webjeda.com'
+#url: 'http://webjeda.com'
 baseurl: '/page' #change it according to your repository name
 about: False # set to False or comment line if you want to remove the "How to use?" in the sidebar
 
