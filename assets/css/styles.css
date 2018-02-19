@@ -241,6 +241,7 @@ p {
   margin-bottom: 15px;
 }
 .main-wrapper .title,
+.main-wrapper .publication-title :link,
 .main-wrapper .publication-title {
   font-size: 16px;
   font-weight: 500;
