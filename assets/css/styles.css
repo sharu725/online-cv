@@ -207,7 +207,6 @@ p {
   overflow: hidden;
   margin-bottom: 2px;
 }
-.main-wrapper .title,
 .main-wrapper .job-title,
 .main-wrapper .degree {
   color: #3F4650;
@@ -240,6 +239,7 @@ p {
 .main-wrapper .projects-section .item {
   margin-bottom: 15px;
 }
+.main-wrapper .title,
 .main-wrapper .publication-title {
   font-size: 16px;
   font-weight: 500;
