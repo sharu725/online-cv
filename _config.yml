@@ -15,7 +15,7 @@ style: styles-4
 
 #Profile information
 name: Nikhil Bhatewara
-tagline: Data Viz
+tagline: Data Vizard
 pic: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 summary: 'Summarise your career here '
 
