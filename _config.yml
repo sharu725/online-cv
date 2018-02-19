@@ -16,7 +16,7 @@ about: False # set to False or comment line if you want to remove the "How to us
 #Profile information
 name: Edin Husić 
 #tagline: Full Stack Developer
-pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+pic: pic1.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 summary: 'Currently I am a PhD student at London School of Economics working under supervision of 
 <a href="http://personal.lse.ac.uk/veghl/" target="_defualt">László A. Végh</a> and 
 <a href="http://personal.lse.ac.uk/sorkin/" target="_defualt">Gregory Sorkin</a>.'
