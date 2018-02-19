@@ -196,6 +196,8 @@ p {
 .main-wrapper .section {
   margin-bottom: 60px;
 }
+.main-wrapper .talks-section .item,
+.main-wrapper .news-section .item,
 .main-wrapper .experiences-section .item,
 .main-wrapper .educations-section .item {
   margin-bottom: 30px;
