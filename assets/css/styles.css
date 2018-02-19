@@ -227,6 +227,7 @@ p {
   margin-bottom: 10px;
   color: #97AAC3;
 }
+.main-wrapper .news-date,
 .main-wrapper .project-title {
   font-size: 16px;
   font-weight: 400;
