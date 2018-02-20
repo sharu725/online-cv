@@ -16,7 +16,7 @@
 
     </div><!--//meta-->
 <ul>
-    {% if experience.details %}
+    {% for detail in  site.data.experience.details %}
     <div class="details">
       <li> <p>{{ experience.details }}</p> </li>
     </div><!--//details-->
@@ -25,5 +25,18 @@
   </div><!--//item-->
 {% endfor %}
 
+<!--
+    {% if experience.details %}
+    <div class="details">
+       <p>{{ experience.details }}</p>
+    </div><!--//details-->
+<!--  
+    {% endif %}   
+  </div><!--//item-->
+<!--
+  {% endfor %}
+  
+//-->  
+  
 </section><!--//section-->
 {% endif %}
