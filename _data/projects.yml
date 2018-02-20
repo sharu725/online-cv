@@ -1,23 +1,11 @@
-intro: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor
-  sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
+intro: "Below are the list of Academic and side projects which I have done over the years."
 projects:
   - project:
-    title: Velocity
+    title: Descriptive Analytics on SAS
     link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    tagline: "Performed descriptive analysis using SAS on datasets to identify key factors for increasing alcohol consumption among high school students"
   - project:
-    title: DevStudio
+    title:  Storytelling with Tableau
     link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
-  - project:
-    title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-  - project:
-    title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-  - project:
-    title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    tagline: "Developed a story on mass shooting incidents in America on Tableau while aggregating data from various federal data sources."
+
