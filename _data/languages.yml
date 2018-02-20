@@ -1,9 +1,6 @@
 - language:
   idiom: English
+  level: Professional
+- language:
+  idiom: Hindi
   level: Native
-- language:
-  idiom: French
-  level: Professional
-- language:
-  idiom: Spanish
-  level: Professional
