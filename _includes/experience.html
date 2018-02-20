@@ -18,12 +18,30 @@
 
     {% if experience.details %}
     <div class="details">
-      <p>{{ experience.details }}</p>
+      {%for d in experience.detail %}
+      <li> <p>{{ d }}</p> </li>
     </div><!--//details-->
     {% endif %}
-
+    
   </div><!--//item-->
 {% endfor %}
 
+<!--
+    {% if experience.details %}
+    <div class="details">
+       <p>{{ experience.details }}</p>
+    </div> 
+  
+-->
+<!--  
+    {% endif %}   
+  </div>
+-->
+  
+<!--
+  {% endfor %}
+  
+-->  
+  
 </section><!--//section-->
 {% endif %}
