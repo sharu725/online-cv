@@ -20,7 +20,7 @@ pic: pic1.png  #place a 100x100 picture inside /assets/images/ folder and provid
 summary: 'Currently I am a PhD student at London School of Economics working under supervision of 
 <a href="http://personal.lse.ac.uk/veghl/" target="_defualt">László A. Végh</a> and 
 <a href="http://personal.lse.ac.uk/sorkin/" target="_defualt">Gregory Sorkin</a>. 
-You can find out more about me in <a href="https://github.com/zhero9/page/blob/master/cv.pdf?raw=true" target="_defualt">CV</a> (February 2018).'
+You can find out more about me in <a href="https://github.com/zhero9/page/blob/master/cv.pdf?raw=true" target="_defualt"><b>CV</b></a> (February 2018).'
 
 #sidebar links if you enter institution, you have to enter instutition site in instSite!
 institution: 'Department of Mathematics, London School of Economics and Political Science'
