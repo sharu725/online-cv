@@ -15,15 +15,32 @@
       <div class="company">{{ experience.company }}</div>
 
     </div><!--//meta-->
-
-    {% if experience.details %}
+<ul>
+    {% for detail in  site.data.experience.details %}
     <div class="details">
-      <p>{{ experience.details }}</p>
+      <li> <p>{{ experience.detail }}</p> </li>
     </div><!--//details-->
     {% endif %}
-
+</ul>    
   </div><!--//item-->
 {% endfor %}
 
+<!--
+    {% if experience.details %}
+    <div class="details">
+       <p>{{ experience.details }}</p>
+    </div> 
+  
+-->
+<!--  
+    {% endif %}   
+  </div>
+-->
+  
+<!--
+  {% endfor %}
+  
+-->  
+  
 </section><!--//section-->
 {% endif %}
