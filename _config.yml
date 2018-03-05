@@ -1,8 +1,8 @@
 # Site Settings
-title: My Resume
-url: 'http://webjeda.com'
-baseurl: '/online-cv' #change it according to your repository name
-about: True # set to False or comment line if you want to remove the "How to use?" in the sidebar
+title: E. Husić
+#url: 'http://webjeda.com'
+baseurl: '/page' #change it according to your repository name
+about: False # set to False or comment line if you want to remove the "How to use?" in the sidebar
 
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
@@ -14,28 +14,28 @@ about: True # set to False or comment line if you want to remove the "How to use
 
 
 #Profile information
-name: Alan Doe
-tagline: Full Stack Developer
-pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-summary: 'Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-You can <a href="#" target="_blank">download this free resume/CV template here</a>. Aenean
-commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.'
+name: Edin Husić 
+#tagline: Full Stack Developer
+pic: pic1.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+summary: 'Currently I am a PhD student at London School of Economics working under supervision of 
+<a href="http://personal.lse.ac.uk/veghl/" target="_defualt">László A. Végh</a> and 
+<a href="http://personal.lse.ac.uk/sorkin/" target="_defualt">Gregory Sorkin</a>. 
+You can find out more about me in <a href="https://github.com/zhero9/page/blob/master/cv.pdf?raw=true" target="_defualt"><b>CV</b></a> (February 2018).'
 
-#sidebar links
-email: hello@webjeda.com
-phone: 012 345 6789
-website: blog.webjeda.com #do not add http://
-linkedin: alandoe
-github: sharu725
-twitter: '@webjeda'
+#sidebar links if you enter institution, you have to enter instutition site in instSite!
+institution: 'Department of Mathematics, London School of Economics and Political Science'
+instSite: 'http://www.lse.ac.uk/Mathematics'
+address: 'Houghton Street, London, WC2A 2AE, United Kingdom'
+email: e.husic at lse.ac.uk
+github: zhero9
+quora: 'profile/Edin-Husić'
 #Update all the sections by editing the files inside _data folder.
 
 # uncomment the next line, if you want the education section displayed in main instead of the sidebar
-#education_in_main: True
+education_in_main: True
 
-# Tracker
-analytics: UA-83979019-1
+# Tracker#
+#analytics: UA-83979019-1
 
 # Build settings
 encoding: "utf-8"

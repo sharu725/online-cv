@@ -35,6 +35,9 @@ a:hover {
   text-decoration: underline;
   color: #1a454f;
 }
+a:visited {
+  color: #1fada6; /*Change visited color*/
+}
 a:focus {
   text-decoration: none;
 }
@@ -196,6 +199,8 @@ p {
 .main-wrapper .section {
   margin-bottom: 60px;
 }
+.main-wrapper .talks-section .item,
+.main-wrapper .news-section .item,
 .main-wrapper .experiences-section .item,
 .main-wrapper .educations-section .item {
   margin-bottom: 30px;
@@ -217,13 +222,14 @@ p {
   position: absolute;
   right: 0;
   top: 0;
-  color: #97AAC3;
 }
+.main-wrapper .place,
 .main-wrapper .company,
 .main-wrapper .university {
   margin-bottom: 10px;
   color: #97AAC3;
 }
+.main-wrapper .news-date,
 .main-wrapper .project-title {
   font-size: 16px;
   font-weight: 400;
@@ -236,10 +242,17 @@ p {
 .main-wrapper .projects-section .item {
   margin-bottom: 15px;
 }
+.main-wrapper .title,
 .main-wrapper .publication-title {
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 1px;
+}
+.main-wrapper .publication-title :link {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 1px;
+  color: #3F4650;
 }
 .main-wrapper .publication-authors {
   font-style: italic;

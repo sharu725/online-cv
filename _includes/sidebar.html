@@ -18,7 +18,15 @@
    <div class="contact-container container-block">
        <ul class="list-unstyled contact-list">
 
-          {% if site.email %}
+           {% if site.institution %}
+           <li class="institution"><i class="fa fa-institution"></i><a href="{{site.instSite}}" target="_blank">{{site.institution}}</a></li>
+           {% endif %}  
+          
+           {% if site.address %}
+           <li class="address"><i class="fa fa-map-marker"></i><a href="http://maps.google.com/?q={{site.address}}" target="_blank">{{site.address}}</a></li>
+           {% endif %}
+          
+           {% if site.email %}
            <li class="email"><i class="fa fa-envelope"></i><a href="mailto: {{site.email}}">{{site.email}}</a></li>
            {% endif %}
 
@@ -41,17 +49,28 @@
            {% if site.twitter %}
            <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/{{site.twitter}}" target="_blank">{{site.twitter}}</a></li>
            {% endif %}
-
+          
+           {% if site.quora %}
+           <li class="quora"><i class="fa fa-quora"></i><a href="https://www.quora.com/{{site.quora}}" target="_blank">{{site.quora}}</a></li>
+           {% endif %}
+          
+          fa fa-quora
+          
        </ul>
    </div><!--//contact-container-->
+   
+   
 
+  {% include interests.html %}
   {% if site.education_in_main == null or site.education_in_main == false %}
     {% include education.html %}
-  {% endif %}
-  {% include language.html %}
-  {% include interests.html %}
+  {% endif %}<!-- add include languages here if you want -->
   {% if site.about %}
     {% include about.html %}
   {% endif %}
-
+  
+  <div class="contact-container container-block" align="center">
+      <a href="https://info.flagcounter.com/v2QS"><img src="https://s01.flagcounter.com/count2/v2QS/bg_D9FBFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a></li>
+  </div>
+   
 </div><!--//sidebar-wrapper-->

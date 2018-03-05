@@ -1,0 +1,31 @@
+{% if site.data.conferencePublications %}
+<section class="section conferencePublications-section">
+
+  <h2 class="section-title"><i class="fa fa-file-powerpoint-o"></i>Refereed Conference Publications</h2>
+
+  {% if site.data.conferencePublications.intro %}
+  <div class="intro">
+      <p>{{ site.data.conferencePublications.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for publication in site.data.conferencePublications.publications %}
+    <div class="item">
+      {% if publication.conferenceLink %}
+        <div class="publication-title"><a href="{{ publication.conferenceLink }}" target="_blank">{{ publication.title }}</a></div>
+      {% else %}
+        <div class="publication-title">{{ publication.title }}</div>
+      {% endif %}
+      
+      <div class="publication-authors">{{ publication.authors }}</div>
+      
+      {% if publication.fullVersion %}
+        <div class="publication-conference">{{ publication.conference }}. <a href="{{ publication.fullVersion }}" target="_blank"> [full preprint]</a></div>
+      {% else %}
+        <div class="publication-conference">{{ publication.conference }}</div>
+      {% endif %}
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

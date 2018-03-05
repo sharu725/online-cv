@@ -1,15 +1,8 @@
-intro: "You can list your publications in this section. Lorem ipsum dolor
-  sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
+intro: ""
 publications:
   - paper:
-    title: The Art of Computer Programming
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
-  - paper:
-    title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-  - paper:
-    title: A syntax directed compiler for Algol 60
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+    title: Perfect phylogenies via branchings in acyclic digraphs and a generalization of Dilworth's theorem
+    authors: A. Hujdurović, E. Husić, M. Milanič, R. Rizzi, A. I. Tomescu,
+    journal: ACM Transactions on Algorithms, accepted.
+    link:
+    arxiv:
