@@ -1,8 +1,8 @@
 # Site Settings
 title: My Resume
-url: 'http://webjeda.com'
-baseurl: '/online-cv' #change it according to your repository name
-about: True # set to False or comment line if you want to remove the "How to use?" in the sidebar
+url: 'http://luar.roji.net'
+baseurl: '/' #change it according to your repository name
+about: False # set to False or comment line if you want to remove the "How to use?" in the sidebar
 
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
@@ -14,28 +14,31 @@ about: True # set to False or comment line if you want to remove the "How to use
 
 
 #Profile information
-name: Alan Doe
-tagline: Full Stack Developer
+name: Luar Roji
+tagline: Self Taught SysAdmin and Developer
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-summary: 'Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-You can <a href="#" target="_blank">download this free resume/CV template here</a>. Aenean
-commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.'
+summary: 'Experienced self-taught Systems Administrator and Developer with a demonstrated history of working in the information technology and services industry, using mostly OpenSource tools.
+
+Good experience in Python, Linux System Administration (mostly Debian based systems), IPv4/IPv6 networking, Ci/CD systems, BigData administration (Hadoop, Kafka, and others).
+
+Currently experimenting with Internet of Things, using ESP8266, Arduinos and Raspberry Pi, building applications and hardware for different needs, like power measurement and control, thermal management, home security, between other things.
+
+Also with past experience in PHP, Java, asterisk (VoIP), Scala, Pascal, MS-DOS 6.22 :), etc'
 
 #sidebar links
-email: hello@webjeda.com
-phone: 012 345 6789
-website: blog.webjeda.com #do not add http://
-linkedin: alandoe
-github: sharu725
-twitter: '@webjeda'
+email: luar-cv@roji.net
+phone: +1 (315) 217 5827
+website: blog.roji.net #do not add http://
+linkedin: cyberplant
+github: cyberplant
+twitter: '@cyberplant'
 #Update all the sections by editing the files inside _data folder.
 
 # uncomment the next line, if you want the education section displayed in main instead of the sidebar
 #education_in_main: True
 
 # Tracker
-analytics: UA-83979019-1
+analytics: UA-116563843-1
 
 # Build settings
 encoding: "utf-8"
