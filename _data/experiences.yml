@@ -3,41 +3,31 @@
   role: Systems Administrator / Developer
   start_date: Jan 2013 - now
   details: |
-    My duties:
+    <p>My duties:</p>
 
-    1) Keep all the servers/services working.
-    2) Improve the uptime of the service and the efficiency/speed
-    when possible.
-    3) Being proactive to avoid upcoming issues, creating new
-    strategies, and applying them without affecting service
+    <ol>
+     <li>Keep all the servers/services working.</li>
+     <li>Improve the uptime of the service and the efficiency/speed when possible.</li>
+     <li>Being proactive to avoid upcoming issues, creating new strategies, and applying them without affecting service</li>
+    </ol>
 
-    That involves the administration of hundreds of linux servers
-    (baremetal and virtualized), using different tools like fabric,
-    ansible, SaltStack.
+    <p>That involves the administration of hundreds of linux servers (baremetal and virtualized), using different tools like fabric, ansible, SaltStack.</p>
 
-    The services to maintain include docker containers with
-    orchestration tools (mesos + marathon),
-    BigData (hadoop/kafka/elasticsearch), visualization
-    tools (Grafana/Kibana), etc.
+    <p>The services to maintain include docker containers with orchestration tools (mesos + marathon), BigData (hadoop/kafka/elasticsearch), visualization tools (Grafana/Kibana), etc.</p>
 
 - experience: 
   company: AyR Consultores
   role: Co-Owner / Lead Developer
   time: 2008 - now
   details: |
-    We are a small team of network experts / developers that give solutions
-    to companies in the market, using mostly OpenSource tools.
+    <p>We are a small team of network experts / developers that give solutions to companies in the market, using mostly OpenSource tools.</p>
 
-    So far we've built the infrastructure needed for a system that can process
-    thousands of queries per second, with two different datacenters on two
-    physical locations (Argentina/Brazil), supporting automatic failover.
+    <p>So far we've built the infrastructure needed for a system that can process thousands of queries per second, with two different datacenters on two physical locations (Argentina/Brazil), supporting automatic failover.
     Also the connections to/from offices on other Latin American countries
     to the service using different VPN methods (related to the available
-    hardware on the local offices).
+    hardware on the local offices).</p>
 
-    Also we had created some solutions with django, including a public
-    web application for selling bus tickets for long trips inside
-    Uruguay, for one of the biggest bus companies in the country.
+    <p>Also we had created some solutions with django, including a public web application for selling bus tickets for long trips inside Uruguay, for one of the biggest bus companies in the country.</p>
 
 - experience: 
   company: roji.net
@@ -62,9 +52,7 @@
   role: IT Manager / Software Developer
   time: Jul 1999 - 2014
   description: |
-    Linux server administration,
-    Java software development,
-    jPOS applications development.
+    <p>Linux server administration, Java software development, jPOS applications development.</p>
 
 - experience: 
   company: jPOS Consulting
@@ -76,19 +64,15 @@
   role: IT Manager/Developer
   time: Mar 2005 - 2011
   details: |
-    Software development of internal custom tools in PHP and
-    Python + django (Warehouse stock control,
-    product handling, contactbook, etc)
+    <p>Software development of internal custom tools in PHP and Python + django (Warehouse stock control, product handling, contactbook, etc)</p>
 
-    Administration of multiple Linux servers in different
-    locations (Argentina/Uruguay).
+    <p>Administration of multiple Linux servers in different locations (Argentina/Uruguay).</p>
 
-    Built a cross-country VoIP network using Asterisk + VPNs,
-    and hardware FXO/FXS devices.
+    <p>Built a cross-country VoIP network using Asterisk + VPNs, and hardware FXO/FXS devices.</p>
 
 - experience: 
   company: Colegio Nacional Jose Pedro Varela
   role: Computers Lab Manager
   time: Jul 1998 - Nov 1999
   details: |
-    Was in charge of 5 computer laboratories, their hardware and software.
+    <p>Was in charge of 5 computer laboratories, their hardware and software.</p>

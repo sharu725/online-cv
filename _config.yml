@@ -1,41 +1,37 @@
 # Site Settings
 title: My Resume
 url: 'http://luar.roji.net'
-baseurl: '/' #change it according to your repository name
-about: False # set to False or comment line if you want to remove the "How to use?" in the sidebar
-
+baseurl: ''
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
 #style: styles-2
 #style: styles-3
 #style: styles-4
 #style: styles-5
-#style: styles-6
+style: styles-6
 
 
 #Profile information
 name: Luar Roji
 tagline: Self Taught SysAdmin and Developer
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-summary: 'Experienced self-taught Systems Administrator and Developer with a demonstrated history of working in the information technology and services industry, using mostly OpenSource tools.
+summary: '
+<p>Experienced self-taught Systems Administrator and Developer with a demonstrated history of working in the information technology and services industry, using mostly OpenSource tools.</p>
 
-Good experience in Python, Linux System Administration (mostly Debian based systems), IPv4/IPv6 networking, Ci/CD systems, BigData administration (Hadoop, Kafka, and others).
+<p>Good experience in Python, Linux System Administration (mostly Debian based systems), IPv4/IPv6 networking, CI/CD systems, BigData administration (Hadoop, Kafka, and others).</p>
 
-Currently experimenting with Internet of Things, using ESP8266, Arduinos and Raspberry Pi, building applications and hardware for different needs, like power measurement and control, thermal management, home security, between other things.
+<p>Currently experimenting with Internet of Things, using ESP8266, Arduinos and Raspberry Pi, building applications and hardware for different needs, like power measurement and control, thermal management, home automation (using home-assistant.io), home security, between other things.</p>
 
-Also with past experience in PHP, Java, asterisk (VoIP), Scala, Pascal, MS-DOS 6.22 :), etc'
+<p>Also with past experience in PHP, Java, asterisk (VoIP), Scala, Pascal, MS-DOS 3.30 / 6.22 :), etc</p>
+'
 
 #sidebar links
 email: luar-cv@roji.net
 phone: +1 (315) 217 5827
-website: blog.roji.net #do not add http://
+website: blog.roji.net
 linkedin: cyberplant
 github: cyberplant
 twitter: '@cyberplant'
-#Update all the sections by editing the files inside _data folder.
-
-# uncomment the next line, if you want the education section displayed in main instead of the sidebar
-#education_in_main: True
 
 # Tracker
 analytics: UA-116563843-1
