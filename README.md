@@ -14,11 +14,11 @@ The theme is responsive:
 
 There are 6 color schemes available:
 
-| Default | Style 2 | Style 3 |
+| Blue | Turquoise | Green |
 |---------|---------|---------|
 | <img src="http://themes.3rdwavemedia.com/wp-content/uploads/2016/01/free-resume-cv-bootstrap-template-for-developer-color-1.jpg" width="300"/> | <img src="http://themes.3rdwavemedia.com/wp-content/uploads/2016/01/free-resume-cv-bootstrap-template-for-developer-color-2.jpg" width="300"/> | <img src="http://themes.3rdwavemedia.com/wp-content/uploads/2016/01/free-resume-cv-bootstrap-template-for-developer-color-3.jpg" width="300"/> |
 
-| Style 4 | Style 5 | Style 6 |
+| Berry | Orange | Ceramic |
 |---------|---------|---------|
 | <img src="http://themes.3rdwavemedia.com/wp-content/uploads/2016/01/free-resume-cv-bootstrap-template-for-developer-color-4.jpg" width="300"/> | <img src="http://themes.3rdwavemedia.com/wp-content/uploads/2016/01/free-resume-cv-bootstrap-template-for-developer-color-5.jpg" width="300"/> | <img src="http://themes.3rdwavemedia.com/wp-content/uploads/2016/01/free-resume-cv-bootstrap-template-for-developer-color-6.jpg" width="300"/> |
 

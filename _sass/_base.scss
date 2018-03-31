@@ -1,8 +1,8 @@
 /* ======= Base ======= */
 body {
-    font-family: 'Roboto', sans-serif;  
-    color: @text-color-secondary;
-    background: @smoky-white;
+    font-family: 'Roboto', sans-serif;
+    color: $text-color-secondary;
+    background: $smoky-white;
     font-size: 14px;
     padding: 30px;
     -webkit-font-smoothing: antialiased;
@@ -14,11 +14,10 @@ h1, h2, h3, h4, h5, h6  {
 }
 
 a {
-    color: darken(@theme-color, 15%);
-    .transition (all 0.4s ease-in-out);
+    color: darken($theme-color, 15%);
     &:hover {
         text-decoration: underline;
-        color: darken(@theme-color, 30%);
+        color: darken($theme-color, 30%);
     }
     &:focus {
         text-decoration: none;
@@ -30,15 +29,15 @@ p {
 }
 
 .wrapper {
-    background:@theme-color;
+    background:$theme-color;
     max-width: 1000px;
     margin: 0 auto;
     position: relative;
-    .box-shadow(0px 2px 4px rgba(0,0,0,0.1));
+    @include box-shadow(0px 2px 4px rgba(0,0,0,0.1));
 }
 
 .sidebar-wrapper {
-    background: @theme-color;
+    background: $theme-color;
     position: absolute;
     right: 0;
     width: 280px;
@@ -50,7 +49,7 @@ p {
     }
     .profile-container {
         padding: 30px;
-        //background: darken(@theme-color, 10%);
+        //background: darken($theme-color, 10%);
         background: rgba(0, 0, 0, 0.2);
         text-align: center;
         color: #fff;
@@ -71,7 +70,7 @@ p {
     .profile {
         margin-bottom: 15px;
     }
-   
+
     .profile-img {
         //used for profile image
         max-width: 100px;
@@ -137,7 +136,7 @@ p {
             color: rgba(256, 256, 256, 0.6);
         }
     }
-    
+
     .languages-list {
         margin-bottom: 0;
         li {
@@ -147,7 +146,7 @@ p {
             }
         }
     }
-    
+
     .interests-list {
         margin-bottom: 0;
         li {
@@ -167,7 +166,7 @@ p {
         text-transform: uppercase;
         font-size: 20px;
         font-weight: 500;
-        color: darken(@theme-color, 15%);
+        color: darken($theme-color, 15%);
         position: relative;
         margin-top: 0;
         margin-bottom: 20px;
@@ -177,8 +176,8 @@ p {
             margin-right: 8px;
             display: inline-block;
             color: #fff;
-            .border-radius(50%);
-            background: darken(@theme-color, 15%);
+            @include border-radius(50%);
+            background: darken($theme-color, 15%);
             text-align: center;
             padding-top: 8px;
             font-size: 16px;
@@ -190,7 +189,7 @@ p {
     .section {
         margin-bottom: 60px;
     }
-    
+
     .experiences-section, .educations-section {
         .item {
             margin-bottom: 30px;
@@ -202,7 +201,7 @@ p {
         margin-bottom: 2px;
     }
     .job-title, .degree {
-        color: @text-color;
+        color: $text-color;
         font-size: 16px;
         margin-top: 0;
         margin-bottom: 0;
@@ -212,13 +211,13 @@ p {
         position: absolute;
         right: 0;
         top: 0;
-        color: @text-grey;
+        color: $text-grey;
     }
     .company, .university {
         margin-bottom: 10px;
-        color: @text-grey;
+        color: $text-grey;
     }
-    
+
     .project-title {
         font-size: 16px;
         font-weight: 400;
@@ -233,7 +232,7 @@ p {
             margin-bottom: 15px;
         }
     }
-    
+
     .publication-title {
         font-size: 16px;
         font-weight: 500;
@@ -250,7 +249,7 @@ p {
         .item {
             margin-bottom: 15px;
         }
-    }    
+    }
 }
 
 
@@ -266,11 +265,11 @@ p {
     }
     .level-bar {
         height: 12px;
-        background: @smoky-white;
+        background: $smoky-white;
     }
     .level-bar-inner {
         height: 12px;
-        background: lighten(@theme-color, 15%);
+        background: lighten($theme-color, 15%);
     }
 }
 
@@ -281,12 +280,12 @@ p {
     padding-top: 30px;
     .copyright {
         line-height: 1.6;
-        color: @text-color-secondary;
-        font-size: 13px;       
-    }  
-    
-    .fa-heart {
-        color: @heart;
+        color: $text-color-secondary;
+        font-size: 13px;
     }
-    
+
+    .fa-heart {
+        color: $heart;
+    }
+
 }

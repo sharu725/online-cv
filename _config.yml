@@ -5,15 +5,10 @@ baseurl: '/online-cv' #change it according to your repository name
 about: True # set to False or comment line if you want to remove the "How to use?" in the sidebar
 
 
-# Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
-#style: styles-2
-#style: styles-3
-#style: styles-4
-#style: styles-5
-#style: styles-6
+# Style will be applied only after restarting the build or serve. Just choose one of the options.
+theme_skin: # blue turquoise green berry orange ceramic
 
-
-#Profile information
+# Profile information
 name: Alan Doe
 tagline: Full Stack Developer
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
@@ -22,7 +17,7 @@ You can <a href="#" target="_blank">download this free resume/CV template here</
 commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient
 montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.'
 
-#sidebar links
+# Sidebar links
 email: hello@webjeda.com
 phone: 012 345 6789
 website: blog.webjeda.com #do not add http://
@@ -36,6 +31,11 @@ twitter: '@webjeda'
 
 # Tracker
 analytics: UA-83979019-1
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Build settings
 encoding: "utf-8"
