@@ -1,6 +1,6 @@
 {% if site.data.experiences %}
 <section class="section experiences-section">
-  <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
+  <h2 class="section-title"><i class="fa fa-briefcase"></i>Experience</h2>
 
 {% for experience in site.data.experiences %}
   <div class="item">
@@ -18,7 +18,7 @@
 
     {% if experience.details %}
     <div class="details">
-      <p>{{ experience.details }}</p>
+      {{ experience.details }}
     </div><!--//details-->
     {% endif %}
 

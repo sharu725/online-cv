@@ -1,18 +1,24 @@
 - skill:
+  name: SysAdmin
+  level: 98%
+- skill:
+  name: IPv4 networking
+  level: 98%
+- skill:
   name: Python & Django
-  level: 98%
+  level: 90%
 - skill:
-  name: Javascript & jQuery
-  level: 98%
-- skill:
-  name: Angular
-  level: 98%
+  name: Javascript
+  level: 90%
 - skill:
   name: HTML5 & CSS
-  level: 95%
+  level: 90%
 - skill:
-  name: Ruby on Rails
-  level: 85%
+  name: VoIP
+  level: 80%
 - skill:
-  name: Sketch & Photoshop
-  level: 60%
+  name: Java & J2EE
+  level: 70%
+- skill:
+  name: IPv6 networking
+  level: 70%
