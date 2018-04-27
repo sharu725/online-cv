@@ -1,16 +1,28 @@
 - skill:
-  name: Java Spring Boot & Spring MVC
+  name: Java Spring
   level: 98%
 - skill:
-  name: Javascript NodeJS, AngularJS, ReactJS 
+  name: Java EE
   level: 80%
 - skill:
-  name: TypeScript Angular
+  name: NodeJs
   level: 90%
 - skill:
-  name: HTML5
+  name: Android
   level: 75%
-- skill: Postgresql, MongoDB, MySQL, Oracle
-  name: 
+- skill: 
+  name: Oracle
   level: 85%
+- skill: 
+  name: Postgresql
+  level: 85%
+- skill: 
+  name: MongoDB
+  level: 85%
+- skill: 
+  name: MySQL
+  level: 85%
+  
+  
+  
 
