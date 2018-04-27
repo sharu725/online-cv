@@ -1,6 +1,6 @@
 # Site Settings
 title: Hi Saya Dicka
-url: 'https://dickanirwansyah.github.io'
+url: '/online-cv'
 baseurl: '/online-cv' #change it according to your repository name
 about: True # set to False or comment line if you want to remove the "How to use?" in the sidebar
 
