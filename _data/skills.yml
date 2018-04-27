@@ -1,18 +1,28 @@
 - skill:
-  name: Python & Django
+  name: Java Spring
   level: 98%
 - skill:
-  name: Javascript & jQuery
-  level: 98%
+  name: Java EE
+  level: 80%
 - skill:
-  name: Angular
-  level: 98%
+  name: NodeJs
+  level: 90%
 - skill:
-  name: HTML5 & CSS
-  level: 95%
-- skill:
-  name: Ruby on Rails
+  name: Android
+  level: 75%
+- skill: 
+  name: Oracle
   level: 85%
-- skill:
-  name: Sketch & Photoshop
-  level: 60%
+- skill: 
+  name: Postgresql
+  level: 85%
+- skill: 
+  name: MongoDB
+  level: 85%
+- skill: 
+  name: MySQL
+  level: 85%
+  
+  
+  
+

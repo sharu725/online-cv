@@ -1,6 +1,7 @@
+
 {% if site.data.experiences %}
 <section class="section experiences-section">
-  <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
+  <h2 class="section-title"><i class="fa fa-briefcase"></i>Pernah Menuntut Ilmu</h2>
 
 {% for experience in site.data.experiences %}
   <div class="item">
@@ -10,20 +11,21 @@
       <div class="upper-row">
         <h3 class="job-title">{{ experience.role }}</h3>
         <div class="time">{{ experience.time }}</div>
-      </div><!--//upper-row-->
+      </div>
 
       <div class="company">{{ experience.company }}</div>
 
-    </div><!--//meta-->
+    </div>
 
     {% if experience.details %}
     <div class="details">
       <p>{{ experience.details }}</p>
-    </div><!--//details-->
+    </div>
     {% endif %}
 
-  </div><!--//item-->
+  </div>
 {% endfor %}
 
-</section><!--//section-->
+</section>
 {% endif %}
+
