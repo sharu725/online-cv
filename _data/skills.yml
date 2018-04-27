@@ -1,18 +1,16 @@
 - skill:
-  name: Python & Django
+  name: Java Spring Boot & Spring MVC
   level: 98%
 - skill:
-  name: Javascript & jQuery
-  level: 98%
+  name: Javascript NodeJS, AngularJS, ReactJS 
+  level: 80%
 - skill:
-  name: Angular
-  level: 98%
+  name: TypeScript Angular
+  level: 90%
 - skill:
-  name: HTML5 & CSS
-  level: 95%
-- skill:
-  name: Ruby on Rails
+  name: HTML5
+  level: 75%
+- skill: Postgresql, MongoDB, MySQL, Oracle
+  name: 
   level: 85%
-- skill:
-  name: Sketch & Photoshop
-  level: 60%
+
