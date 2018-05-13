@@ -1,11 +1,11 @@
-{% if site.data.skills %}
+{% if site.data.data.skills %}
 <section class="skills-section section">
 
-  <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+  <h2 class="section-title"><i class="fa fa-rocket"></i>{{site.data.data.skills.title}}</h2>
 
   <div class="skillset">
 
-    {% for skill in site.data.skills %}
+    {% for skill in site.data.data.skills.skills %}
     <div class="item">
 
       <h3 class="level-title">{{ skill.name }}</h3>

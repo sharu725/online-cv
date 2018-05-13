@@ -1,10 +1,10 @@
-{% if site.summary %}
+{% if site.data.data.career-profile %}
 <section class="section summary-section">
 
-  <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
+  <h2 class="section-title"><i class="fa fa-user"></i>{{ site.data.data.career-profile.title }}</h2>
 
     <div class="summary">
-      <p>{{ site.summary }}</p>
+      <p>{{ site.data.data.career-profile.text }}</p>
     </div><!--//summary-->
     
 </section><!--//section-->
