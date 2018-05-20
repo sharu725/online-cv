@@ -1,0 +1,14 @@
+intro: 
+projects:
+  - project:
+    title: Kobiton
+    link: "#"
+    tagline: "Mobile cloud farms for automation and manual test."
+  - project:
+    title: Forbes Travel Guide
+    link: "#"
+    tagline: "Develop mobile application on both Android/ iOS that could record and analyze voice by using client audio Library."
+  - project:
+    title: QAutomate
+    link: "#"
+    tagline: "qAutomate is an Automation web testing framework. User can develop test scripts, execute jobs, and view reports by using this framework"
