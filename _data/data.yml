@@ -23,13 +23,13 @@ sidebar:
         
     interests:
         - interest:
-          item: Writing
+          item: Publishing
           link: pixelperfectbooks.com
         - interest:
-          item: Snowboarding
+          item: Exploring, History
           link:
         - interest:
-          item: Cooking
+          item: Travel
           link:
 
         
@@ -39,7 +39,7 @@ sidebar:
 
 career-profile: 
     title: Career Profile
-    text: 'Daniel is a Full Stack Software Architect with great communication skills and expansive levels of technical and commercial exposure. Strong sense of purpose through coding, personal development and contributing.'
+    text: 'Daniel is a Full Stack Software Architect with great communication skills and expansive levels of technical and commercial exposure. Strong sense of purpose through coding, personal development and contributing.\nStrengths include holistic problem solving, application of knowledge in the real world, lean startup principles and adaptability. As a generalist he has (as required) performed the roles of consultant, support, designer, marketing, usability, analyst, tester, profiler, architect, front/back-end developer, system/database admin, interviewer, team leader and project manager. Significant experience with plain language, porting legacy code, legal documents, web services, e-learning and social networks.'
 
 
 studies: 
@@ -55,20 +55,25 @@ experiences:
     
     
     experiences:
-        - role: Lead Developer
+        - role: Tech Lead
           time: 2015 - Present
-          company: Startup Hubs, San Francisco
-          details: Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+          company: IVY, New York
+          details: foo.
 
         - role: Senior Software Engineer
           time: 2014 - 2015
-          company: Google, London
-          details: Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+          company: Odecee, Melbourne
+          details: foo.
         
-        - role: UI Developer
+        - role: Software Architect
           time: 2012 - 2014
-          company: Amazon, London
-          details: Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+          company: Learning Seat, Melbourne
+          details: foo.
+          
+        - role: Software Engineer
+          time: 2005 - 2010
+          company: Cleardocs, Melbourne
+          details: foo.  
 
 
 projects:
