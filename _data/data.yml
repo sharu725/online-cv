@@ -39,7 +39,7 @@ sidebar:
 
 
 career-profile: 
-    title: Career Profile
+    title: Summary
     text: 'Daniel has great communication skills and expansive levels of technical and commercial exposure. Strong sense of purpose through coding, personal development and contributing.'
     additional: 'Strengths include holistic problem solving, application of knowledge in the real world, lean startup principles and adaptability. A generalist who has performed the roles of consultant, support, designer, marketing, usability, analyst, tester, profiler, architect, front/back-end developer, system/database admin, recruitment, leadership and project manager. Significant experience with plain language, porting legacy code, legal documents, web services, e-learning and social networks.'
 
@@ -152,24 +152,21 @@ skills:
     title: Skills &amp; Proficiency
     skills:
         - skill:
-          name: Python & Django
-          level: 98%
+          name: Ruby/Rails
+          level: 90%
         - skill:
-          name: Javascript & jQuery
-          level: 98%
+          name: Javascript/Angular/Node
+          level: 90%
         - skill:
-          name: Angular
-          level: 98%
+          name: HTML/CSS
+          level: 90%
         - skill:
-          name: HTML5 & CSS
-          level: 95%
+          name: AWS/Heroku/PaaS
+          level: 90%
         - skill:
-          name: Ruby on Rails
-          level: 85%
+          name: RDBMS/SQL/NoSQL
+          level: 90%
         - skill:
-          name: Sketch & Photoshop
-          level: 60%
+          name: Java
+          level: 85%  
 
-
-footer: 
-    text: 'Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> for developers'
