@@ -80,52 +80,38 @@ experiences:
 
 projects:
     title: Projects
-    intro: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor
-      sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
+    intro: "Always working on a side project."
     
     projects:
       - project:
-        title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        title: Snapshot
+        link: "https://www.dropbox.com/s/m1b00hg6glylqbg/grand-st-high.pdf"
+        tagline: "Zine of each New York street at a specific point in time."
       - project:
-        title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        title: New York Blog
+        link: "https://medium.com/@daniel_lanciana/new-york-icons-financial-district-fidi-1945aabd6ba7"
+        tagline: "Iconic landmarks, trivia and history."
       - project:
-        title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        title: Qjumpr
+        link: "https://www.dropbox.com/s/zrcahxkkt19nqef/qjumpr_moneymaker_new.pptx"
+        tagline: "Jump the queue and mitigate scalpers by selling tickets at dynamic market rates."
       - project:
-        title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        title: Pixel Perfect: Mike Tyson's Punch-Out!!
+        link: "http://pixelperfectbooks.com"
+        tagline: "25th anniversary 240-page encyclopedia. Succesfully funded ($30k) on Kickstarter."
       - project:
-        title: Delta
+        title: Polyawesomism
+        link: "https://polyawesomism.wordpress.com"
+        tagline: "Programming blog."
+      - project:
+        title: forms4j
+        link: "https://sourceforge.net/projects/forms4j"
+        tagline: "Spring form tag replacement for complex, dynamic forms."
+      - project:
+        title: TopStuffDaily
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "Daily news aggregator (2004)."  
 
-
-
-
-
-publications:
-    title: Publications
-    intro: "You can list your publications in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
-    
-    publications:
-      - paper:
-        title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-      - paper:
-        title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-      - paper:
-        title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 
 skills:
