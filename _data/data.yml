@@ -4,38 +4,27 @@
 
 sidebar:
     # Site Settings
-    title: My Resume
-    url: 'http://webjeda.com'
-    about: true # set to False or comment line if you want to remove the "How to use?" in the sidebar
+    title: Daniel Lanciana's Resume
+    # url: 'http://webjeda.com'
+    about: false # set to False or comment line if you want to remove the "How to use?" in the sidebar
     
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Daniel Lanciana
+    tagline: Senior Full Stack Engineer
     pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
     
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    twitter: '@webjeda'
-
-    languages:
-        - language:
-          idiom: English
-          level: Native
-        - language:
-          idiom: French
-          level: Professional
-        - language:
-          idiom: Spanish
-          level: Professional
+    email: daniel.lanciana@gmail.com
+    phone: 917 379 9794
+    website: medium.com/@daniel_lanciana #do not add http://
+    linkedin: daniellanciana
+    github: daniel-lanciana
+    twitter: '@daniel_lanciana'
         
     interests:
         - interest:
-          item: Climbing
-          link:
+          item: Writing
+          link: pixelperfectbooks.com
         - interest:
           item: Snowboarding
           link:
@@ -50,27 +39,14 @@ sidebar:
 
 career-profile: 
     title: Career Profile
-    text: 'Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit.You can <a href="#" target="_blank">download this free resume/CV template here</a>. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.'
+    text: 'Daniel is a Full Stack Software Architect with great communication skills and expansive levels of technical and commercial exposure. Strong sense of purpose through coding, personal development and contributing.'
 
 
 studies: 
     - education:
-      degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: "Describe your study here lorem ipsum dolor sit amet, consectetuer adipiscing
-      elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-      magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem."
-
-    - education:
-      degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: "Describe your study here lorem ipsum dolor sit amet, consectetuer adipiscing
-      elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-      magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem."
+      degree: BS in Computer Science / Software Engineering
+      university: Royal Melbourne Institute of Technology
+      time: 2000 - 2005
 
 
 
