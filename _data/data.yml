@@ -27,10 +27,10 @@ sidebar:
           item: Publishing
           link: pixelperfectbooks.com
         - interest:
-          item: Travel
+          item: Travel (27 countries)
           link:
         - interest:
-          item: Volunteering
+          item: Technology
           link:
 
         
@@ -71,25 +71,46 @@ experiences:
         - role: Tech Lead
           time: 2015 - Present
           company: IVY
-          details: Social network for entrepreneurs. Part Facebook, Eventbrite, LinkedIn, Meetup, Groupon, Messenger and Reddit. Ported legacy code to Angular, APIs, iOS. Rails, AWS, Heroku, Salesforce, Node, MongoDB, Salesforce, Customer.io, Sendgrid, Stripe, Facebook, LinkedIn, Google Analytics, AWS, NewRelic, Pusher, Memcachier, Adobe, Preredner.io, machine learning introductions, scalable newsfeed, legacy code migration, 75% smaller footprint, Kanban, investors, team, managment, 
+          details: Social network for entrepreneurs -- part Facebook, Eventbrite, LinkedIn, Meetup, Groupon, Messenger and Reddit. 
+          bullets:
+              - Rails, Angular, REST, iOS/Swift, AWS, Heroku, Postgres, Node, MongoDB, Salesforce, Stripe, GA, NewRelic, Pusher, Memcachier, Agile/Kanban
+              - Ported legacy code to fast, lightweight Angular webapp (50% faster, 75% smaller)
+              - Added chat messenger, machine learning introductions, scalable newsfeed, advanced ticketing
+              - Exposed set of platform-agnostic APIs 
+              - 70+ screen iOS app
+              - Recruited and managed a team of 4, presented to company/investors
 
         - role: Senior Software Engineer
           time: 2014 - 2015
           company: Odecee
-          details: In-house consultant for a $900B bank. Angular, Agile, BA, QA, TDD, Grunt, Stylus, NPM, WebStorm, Stash, SourceTree, JIRA.
+          details: In-house consultant for a $900 billion bank. Acquired by Cognizant.
+          bullets:
+              - Angular, Agile, BA, QA, TDD, Grunt, Stylus, NPM, WebStorm, Stash, SourceTree, JIRA
+              - Successful pioneer project
+              - Hackathon finalist for an AWS VR tool (Occulus, Unreal Engine)
         
         - role: Software Architect
           time: 2012 - 2014
           company: Learning Seat
-          details: Compliance Learning Management System. J2EE, Spring MVC, Hibernate, Agile, JUnit, Jasmine, Salesforce, Ruby, Cucumber, REST, OAuth, Postgres. System architecture, PM, design, UX, usability testing, support, BA, QA, management, standards. Hundreds thousands of users across most Fortune 500 companies. Acquired by NewsCorp.  
+          details: Compliance Learning Management System (LMS) for 100,000+ employees from most Fortune 500 companies. Acquired by News Corp.
+          bullets:
+              - J2EE, Spring MVC, Spring Roo, Hibernate, Agile, JUnit, Jasmine, Salesforce, Ruby, Cucumber, REST, OAuth, Postgres, SCORM
+              - Designed and implemented a new LMS plaform
+              - Built a fast and lightweight embeddable SCORM player, overcoming XSS issues
+              - Architecture, PM, design/UX, BA, QA, supper, management, leadership 
+              - Recruited and managed a team of 5
           
         - role: Software Engineer
           time: 2005 - 2010
           company: Cleardocs
-          details: Legal documents online. JSP/J2EE, MySQL. Rearchitect and rewrite (3 months of straight 16-hour days), 80% faster, 99% less memory, 75% database reduction, worked with lawyers and government, managed 3 engineers, PM external contract. Acquired by Thompson Reuters.  
+          details: Dynamic legal documents online (backed by a major law firm). Acquired by Thomson Reuters.  
           bullets:
-              - foo
-              - bar
+              - JSP/J2EE, JavaScript, MySQL, ASIC API
+              - Full code rewrite (3 months of straight 16-hour days) and system re-architecture
+              - Unique approach to generating extremely large (up to 100Mb), complex forms
+              - 80% speed increase, 99% less memory, 75% database reduction
+              - Worked with government, law firms and consultancies
+              - Recruited and managed a team of 3
           
 
 projects:
