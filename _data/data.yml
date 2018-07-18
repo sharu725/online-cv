@@ -26,10 +26,10 @@ sidebar:
           item: Publishing
           link: pixelperfectbooks.com
         - interest:
-          item: Exploring, History
+          item: Travel, History
           link:
         - interest:
-          item: Travel
+          item: Volunteering
           link:
 
         
@@ -39,16 +39,26 @@ sidebar:
 
 career-profile: 
     title: Career Profile
-    text: 'Daniel is a Full Stack Software Architect with great communication skills and expansive levels of technical and commercial exposure. Strong sense of purpose through coding, personal development and contributing.
-    
-    Strengths include holistic problem solving, application of knowledge in the real world, lean startup principles and adaptability. As a generalist he has (as required) performed the roles of consultant, support, designer, marketing, usability, analyst, tester, profiler, architect, front/back-end developer, system/database admin, interviewer, team leader and project manager. Significant experience with plain language, porting legacy code, legal documents, web services, e-learning and social networks.'
+    text: 'Daniel has great communication skills and expansive levels of technical and commercial exposure. Strong sense of purpose through coding, personal development and contributing. Strengths include holistic problem solving, application of knowledge in the real world, lean startup principles and adaptability. As a generalist he has (as required) performed the roles of consultant, support, designer, marketing, usability, analyst, tester, profiler, architect, front/back-end developer, system/database admin, interviewer, team leader and project manager. Significant experience with plain language, porting legacy code, legal documents, web services, e-learning and social networks.'
 
 
 studies: 
     - education:
+      degree: Public Speaking
+      university: Own The Room
+      time: 2017
+    - education:
+      degree: AWS Training
+      university: ThoughtWorks, Amazon
+      time: 2012
+    - education:
+      degree: Candidate Skills Test (91%)
+      university: OneTest
+      time: 2008
+    - education:
       degree: BS in Computer Science / Software Engineering
       university: Royal Melbourne Institute of Technology
-      time: 2000 - 2005
+      time: 2000 - 2005  
 
 
 
@@ -75,7 +85,7 @@ experiences:
         - role: Software Engineer
           time: 2005 - 2010
           company: Cleardocs, Melbourne
-          details: foo.  
+          details: Spring Java, complete engine rewrite (3 months of straight 16-hour days), 80-99% performance improvement.  
 
 
 projects:
