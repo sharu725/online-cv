@@ -41,7 +41,7 @@ sidebar:
 career-profile: 
     title: Career Profile
     text: 'Daniel has great communication skills and expansive levels of technical and commercial exposure. Strong sense of purpose through coding, personal development and contributing.'
-    additional: 'Strengths include holistic problem solving, application of knowledge in the real world, lean startup principles and adaptability. As a generalist he has (as required) performed the roles of consultant, support, designer, marketing, usability, analyst, tester, profiler, architect, front/back-end developer, system/database admin, interviewer, team leader and project manager. Significant experience with plain language, porting legacy code, legal documents, web services, e-learning and social networks.'
+    additional: 'Strengths include holistic problem solving, application of knowledge in the real world, lean startup principles and adaptability. A generalist who has performed the roles of consultant, support, designer, marketing, usability, analyst, tester, profiler, architect, front/back-end developer, system/database admin, recruitment, leadership and project manager. Significant experience with plain language, porting legacy code, legal documents, web services, e-learning and social networks.'
 
 
 studies: 
@@ -52,7 +52,7 @@ studies:
     - education:
       degree: AWS Training
       university: ThoughtWorks, Amazon
-      time: 2012
+      time: 2010, 2012
     - education:
       degree: Candidate Skills Test (91%)
       university: OneTest
@@ -71,7 +71,7 @@ experiences:
         - role: Tech Lead
           time: 2015 - Present
           company: IVY
-          details: Exclusive social network. Ported legacy code to Angular, APIs, iOS. Rails, AWS, Heroku, Salesforce, Node, MongoDB, Salesforce, Customer.io, Sendgrid, Stripe, Facebook, LinkedIn, Google Analytics, AWS, NewRelic, Pusher, Memcachier, Adobe, Preredner.io, machine learning introductions, scalable newsfeed, legacy code migration, 75% smaller footprint, Kanban, investors, team, managment, 
+          details: Social network for entrepreneurs. Part Facebook, Eventbrite, LinkedIn, Meetup, Groupon, Messenger and Reddit. Ported legacy code to Angular, APIs, iOS. Rails, AWS, Heroku, Salesforce, Node, MongoDB, Salesforce, Customer.io, Sendgrid, Stripe, Facebook, LinkedIn, Google Analytics, AWS, NewRelic, Pusher, Memcachier, Adobe, Preredner.io, machine learning introductions, scalable newsfeed, legacy code migration, 75% smaller footprint, Kanban, investors, team, managment, 
 
         - role: Senior Software Engineer
           time: 2014 - 2015
@@ -87,7 +87,10 @@ experiences:
           time: 2005 - 2010
           company: Cleardocs
           details: Legal documents online. JSP/J2EE, MySQL. Rearchitect and rewrite (3 months of straight 16-hour days), 80% faster, 99% less memory, 75% database reduction, worked with lawyers and government, managed 3 engineers, PM external contract. Acquired by Thompson Reuters.  
-
+          bullets:
+              - foo
+              - bar
+          
 
 projects:
     title: Side Projects
