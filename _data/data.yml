@@ -87,7 +87,7 @@ experiences:
           bullets:
               - Angular, Agile, BA, QA, TDD, Grunt, Stylus, NPM, WebStorm, Stash, SourceTree, JIRA
               - Successful pioneer project
-              - Hackathon finalist for an AWS VR tool (Occulus, Unreal Engine)
+              - Hackathon finalist for an AWS VR tool (Oculus Rift, Unreal Engine)
         
         - role: Software Architect
           time: 2012 - 2014
@@ -95,7 +95,7 @@ experiences:
           details: Compliance Learning Management System (LMS) for 100,000+ employees from most Fortune 500 companies. Acquired by News Corp.
           bullets:
               - J2EE, Spring MVC, Spring Roo, Hibernate, Agile, JUnit, Jasmine, Salesforce, Ruby, Cucumber, REST, OAuth, Postgres, SCORM
-              - Designed and implemented a new LMS plaform
+              - Designed and implemented a new LMS platform
               - Built a fast and lightweight embeddable SCORM player, overcoming XSS issues
               - Architecture, PM, design/UX, BA, QA, supper, management, leadership 
               - Recruited and managed a team of 5
@@ -132,7 +132,7 @@ projects:
       - project:
         title: Mike Tyson's Punch-Out!!
         link: "http://pixelperfectbooks.com"
-        tagline: "25th anniversary 240-page encyclopedia. Succesfully funded ($30k) on Kickstarter."
+        tagline: "25th anniversary 240-page encyclopedia. Successfully funded $30k on Kickstarter."
       - project:
         title: Polyawesomism
         link: "https://polyawesomism.wordpress.com"
