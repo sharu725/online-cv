@@ -4,169 +4,163 @@
 
 sidebar:
     # Site Settings
-    title: Daniel Lanciana's Resume
-    # url: 'http://webjeda.com'
-    about: false # set to False or comment line if you want to remove the "How to use?" in the sidebar
+    title: My Resume
+    url: 'http://webjeda.com'
+    about: true # set to False or comment line if you want to remove the "How to use?" in the sidebar
     
     # Profile information
-    name: Daniel Lanciana
-    tagline: Senior Full Stack Engineer
+    name: Alan Doe
+    tagline: Full Stack Developer
     pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
     
     # Sidebar links
-    email: daniel.lanciana@gmail.com
-    phone: 917 379 9794
-    website: medium.com/@daniel_lanciana #do not add http://
-    linkedin: daniellanciana
-    github: daniel-lanciana
-    twitter: '@daniel_lanciana'
-    codewars: daniel.lanciana
+    email: hello@webjeda.com
+    phone: 012 345 6789
+    website: blog.webjeda.com #do not add http://
+    linkedin: alandoe
+    github: sharu725
+    twitter: '@webjeda'
+    codewars: codewars_username
+
+    languages:
+        - language:
+          idiom: English
+          level: Native
+        - language:
+          idiom: French
+          level: Professional
+        - language:
+          idiom: Spanish
+          level: Professional
         
     interests:
         - interest:
-          item: Publishing
-          link: pixelperfectbooks.com
-        - interest:
-          item: Travel (27 countries)
+          item: Climbing
           link:
         - interest:
-          item: Technology
+          item: Snowboarding
           link:
-
-        
-
-
-
+        - interest:
+          item: Cooking
+          link:
 
 career-profile: 
-    title: Summary
-    text: 'Daniel has great communication skills and expansive levels of technical and commercial exposure. Strong sense of purpose through coding, personal development and contributing.'
-    additional: 'Strengths include holistic problem solving, application of knowledge in the real world, lean startup principles and adaptability. A generalist who has performed the roles of consultant, support, designer, marketing, usability, analyst, tester, profiler, architect, front/back-end developer, system/database admin, recruitment, leadership and project manager. Significant experience with plain language, porting legacy code, legal documents, web services, e-learning and social networks.'
-
+    title: Career Profile
+    text: 'Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit.You can <a href="#" target="_blank">download this free resume/CV template here</a>. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.'
 
 studies: 
     - education:
-      degree: Public Speaking
-      university: Own The Room
-      time: 2017
-    - education:
-      degree: AWS Training
-      university: ThoughtWorks, Amazon
-      time: 2010, 2012
-    - education:
-      degree: Candidate Skills Test (91%)
-      university: OneTest
-      time: 2008
-    - education:
-      degree: BS in Computer Science / Software Engineering
-      university: Royal Melbourne Institute of Technology
-      time: 2000 - 2005  
+      degree: MSc in Computer Science
+      university: University of London
+      time: 2011 - 2012
+      details: "Describe your study here lorem ipsum dolor sit amet, consectetuer adipiscing
+      elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+      magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem."
 
-
+    - education:
+      degree: BSc in Applied Mathematics
+      university: Bristol University
+      time: 2007 - 2011
+      details: "Describe your study here lorem ipsum dolor sit amet, consectetuer adipiscing
+      elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+      magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem."
 
 experiences:
-    title: Experience
+    title: Experiences
     
     experiences:
-        - role: Tech Lead
+        - role: Lead Developer
           time: 2015 - Present
-          company: IVY
-          details: Social network for entrepreneurs -- part Facebook, Eventbrite, LinkedIn, Meetup, Groupon, Messenger and Reddit. 
+          company: Startup Hubs, San Francisco
+          details: Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
           bullets:
-              - Rails, Angular, REST, iOS/Swift, AWS, Heroku, Postgres, Node, MongoDB, Salesforce, Stripe, GA, NewRelic, Pusher, Memcachier, Agile/Kanban
-              - Ported legacy code to fast, lightweight Angular webapp (50% faster, 75% smaller)
-              - Added chat messenger, machine learning introductions, scalable newsfeed, advanced ticketing
-              - Exposed set of platform-agnostic APIs 
-              - 70+ screen iOS app
-              - Recruited and managed a team of 4, presented to company/investors
+              - Bullet point #1
+              - Bullet point #2
 
         - role: Senior Software Engineer
           time: 2014 - 2015
-          company: Odecee
-          details: In-house consultant for a $900 billion bank. Acquired by Cognizant.
+          company: Google, London
+          details: Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
           bullets:
-              - Angular, Agile, BA, QA, TDD, Grunt, Stylus, NPM, WebStorm, Stash, SourceTree, JIRA
-              - Successful pioneer project
-              - Hackathon finalist for an AWS VR tool (Oculus Rift, Unreal Engine)
-        
-        - role: Software Architect
+              - Bullet point #1
+              - Bullet point #2
+              
+        - role: UI Developer
           time: 2012 - 2014
-          company: Learning Seat
-          details: Compliance Learning Management System (LMS) for 100,000+ employees from most Fortune 500 companies. Acquired by News Corp.
+          company: Amazon, London
+          details: Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
           bullets:
-              - J2EE, Spring MVC, Spring Roo, Hibernate, Agile, JUnit, Jasmine, Salesforce, Ruby, Cucumber, REST, OAuth, Postgres, SCORM
-              - Designed and implemented a new LMS platform
-              - Built a fast and lightweight embeddable SCORM player, overcoming XSS issues
-              - Architecture, PM, design/UX, BA, QA, supper, management, leadership 
-              - Recruited and managed a team of 5
-          
-        - role: Software Engineer
-          time: 2005 - 2010
-          company: Cleardocs
-          details: Dynamic legal documents online (backed by a major law firm). Acquired by Thomson Reuters.  
-          bullets:
-              - JSP/J2EE, JavaScript, MySQL, ASIC API
-              - Full code rewrite (3 months of straight 16-hour days) and system re-architecture
-              - Unique approach to generating extremely large (up to 100Mb), complex forms
-              - 80% speed increase, 99% less memory, 75% database reduction
-              - Worked with government, law firms and consultancies
-              - Recruited and managed a team of 3
-          
-
+              - Bullet point #1
+              - Bullet point #2
+              
 projects:
-    title: Side Projects
+    title: Projects
+    intro: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor
+      sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
     
     projects:
       - project:
-        title: Snapshot
-        link: "https://www.dropbox.com/s/m1b00hg6glylqbg/grand-st-high.pdf"
-        tagline: "Zine of each New York street at a specific point in time."
+        title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
       - project:
-        title: New York Blog
-        link: "https://medium.com/@daniel_lanciana/new-york-icons-financial-district-fidi-1945aabd6ba7"
-        tagline: "Iconic landmarks, trivia and history."
-      - project:
-        title: Qjumpr
-        link: "https://www.dropbox.com/s/zrcahxkkt19nqef/qjumpr_moneymaker_new.pptx"
-        tagline: "Jump the queue and mitigate scalpers by selling tickets at dynamic market rates."
-      - project:
-        title: Mike Tyson's Punch-Out!!
-        link: "http://pixelperfectbooks.com"
-        tagline: "25th anniversary 240-page encyclopedia. Successfully funded $30k on Kickstarter."
-      - project:
-        title: Polyawesomism
-        link: "https://polyawesomism.wordpress.com"
-        tagline: "Programming blog."
-      - project:
-        title: forms4j
-        link: "https://sourceforge.net/projects/forms4j"
-        tagline: "Open-source Spring form tag library for complex, dynamic forms."
-      - project:
-        title: TopStuffDaily
+        title: DevStudio
         link: "#"
-        tagline: "Daily news aggregator (2004)."  
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - project:
+        title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - project:
+        title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - project:
+        title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-
+publications:
+    title: Publications
+    intro: "You can list your publications in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
+    
+    publications:
+      - paper:
+        title: The Art of Computer Programming
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
+      - paper:
+        title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - paper:
+        title: A syntax directed compiler for Algol 60
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
     skills:
         - skill:
-          name: Ruby/Rails
-          level: 90%
+          name: Python & Django
+          level: 98%
         - skill:
-          name: Javascript/Angular/Node
-          level: 90%
+          name: Javascript & jQuery
+          level: 98%
         - skill:
-          name: HTML/CSS
-          level: 90%
+          name: Angular
+          level: 98%
         - skill:
-          name: AWS/Heroku/PaaS
-          level: 90%
+          name: HTML5 & CSS
+          level: 95%
         - skill:
-          name: RDBMS/SQL/NoSQL
-          level: 90%
+          name: Ruby on Rails
+          level: 85%
         - skill:
-          name: Java
-          level: 85%  
+          name: Sketch & Photoshop
+          level: 60%
 
+footer: 
+    text: 'Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> for developers'
