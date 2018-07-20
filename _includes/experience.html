@@ -19,11 +19,13 @@
     {% if experience.details %}
     <div class="details">
       <p>{{ experience.details }}</p>
+      {% if experience.bullets %}
       <ul>
         {% for bullet in experience.bullets %}
         <li>{{ bullet }}</li>
         {% endfor %}
       </ul>
+      {% endif %}
     </div><!--//details-->
     {% endif %}
 
