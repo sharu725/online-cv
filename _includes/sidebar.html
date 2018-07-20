@@ -41,6 +41,10 @@
            {% if site.data.data.sidebar.twitter %}
            <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/{{site.data.data.sidebar.twitter}}" target="_blank">{{site.data.data.sidebar.twitter}}</a></li>
            {% endif %}
+          
+           {% if site.data.data.sidebar.codewars %}
+           <li class="codewars"><i class="fa fa-code"></i><a href="https://www.codewars.com/users/{{site.data.data.sidebar.codewars}}/completed_solutions" target="_blank">{{site.data.data.sidebar.codewars}}</a></li>
+           {% endif %}
 
        </ul>
    </div><!--//contact-container-->
