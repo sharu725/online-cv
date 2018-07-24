@@ -24,14 +24,14 @@ sidebar:
 
     languages:
         - language:
-          idiom: English
+          idiom: Uzbek
           level: Native
         - language:
-          idiom: French
+          idiom: English
           level: Professional
         - language:
-          idiom: Spanish
-          level: Professional
+          idiom: Russian
+          level: Technical
         
     interests:
         - interest:
