@@ -5,47 +5,47 @@
 sidebar:
     # Site Settings
     title: My Resume
-    url: 'http://webjeda.com'
+    url: 'http://myfellowship.github.io'
     about: true # set to False or comment line if you want to remove the "How to use?" in the sidebar
     
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Dr. Santhosh Kumar G V
+    tagline: Diagnostic Radiologist
     pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
     
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    twitter: '@webjeda'
-    codewars: codewars_username
+    email: san.kumar360@hotmail.co.uk
+    phone: +91 9969642172
+    website: myfellowship.github.io #do not add http://
+    linkedin: gvsanthu10
+    github: gvsanthu10
+    twitter: '@gvsanthu10'
+ 
 
     languages:
         - language:
           idiom: English
-          level: Native
-        - language:
-          idiom: French
           level: Professional
         - language:
-          idiom: Spanish
-          level: Professional
+          idiom: Kannada, Hindi
+          level: Expert
+        - language:
+          idiom: Norwegian
+          level: Intermediate
         
     interests:
         - interest:
-          item: Climbing
+          item: climbing
           link:
         - interest:
-          item: Snowboarding
+          item: Hiking
           link:
         - interest:
           item: Cooking
           link:
 
 career-profile: 
-    title: Career Profile
+    title: Diagnostic radiologist
     text: 'Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit.You can <a href="#" target="_blank">download this free resume/CV template here</a>. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.<br><br>Second paragraph if required.'
 
 studies: 
