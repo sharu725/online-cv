@@ -10,12 +10,12 @@ sidebar:
     
     # Profile information
     name: Dr. Santhosh Kumar G V
-    tagline: Diagnostic Radiologist
+    tagline: MBBS, MD, European diploma in radiology, fellow in abdominal imaging
     pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
     
     # Sidebar links
-    email: san.kumar360@hotmail.co.uk
-    phone: +91 9969642172
+    email: santhosh.kumar@addenbrookes.nhs.uk
+    phone: +91 9969642172, +44 07517469214
     website: myfellowship.github.io #do not add http://
     linkedin: gvsanthu10
     github: gvsanthu10
@@ -28,20 +28,20 @@ sidebar:
           level: Professional
         - language:
           idiom: Kannada, Hindi
-          level: Expert
+          level: Professional
         - language:
           idiom: Norwegian
           level: Intermediate
         
     interests:
         - interest:
-          item: climbing
+          item: Trekking, hiking
           link:
         - interest:
-          item: Hiking
+          item: Swimming
           link:
         - interest:
-          item: Cooking
+          item: learning new things 
           link:
 
 career-profile: 
