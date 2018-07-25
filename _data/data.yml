@@ -3,9 +3,6 @@
 #
 
 sidebar:
-    # Site Settings
-    title: My Resume
-    url: 'http://webjeda.com'
     about: True # set to false or comment line if you want to remove the "how to use?" in the sidebar
     
     # Profile information
@@ -26,32 +23,30 @@ sidebar:
     codewars:
 
     languages:
-        - language:
-          idiom: English
+        - idiom: English
           level: Native
-        - language:
-          idiom: French
+
+        - idiom: French
           level: Professional
-        - language:
-          idiom: Spanish
+
+        - idiom: Spanish
           level: Professional
         
     interests:
-        - interest:
-          item: Climbing
+        - item: Climbing
           link:
-        - interest:
-          item: Snowboarding
+
+        - item: Snowboarding
           link:
-        - interest:
-          item: Cooking
+
+        - item: Cooking
           link:
 
 career-profile:
     title: Career Profile
     text: |
       Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit.You can [download this free resume/CV template here]().
+      adipiscing elit. You can [download this free resume/CV template here]().
       Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
@@ -59,8 +54,7 @@ career-profile:
       Second paragraph if required.
 
 studies: 
-    - education:
-      degree: MSc in Computer Science
+    - degree: MSc in Computer Science
       university: University of London
       time: 2011 - 2012
       details: |
@@ -73,8 +67,7 @@ studies:
           - Bullet point
           - Bullet point 
 
-    - education:
-      degree: BSc in Applied Mathematics
+    - degree: BSc in Applied Mathematics
       university: Bristol University
       time: 2007 - 2011
       details: |
@@ -142,24 +135,23 @@ projects:
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     
     projects:
-      - project:
-        title: Velocity
+      - title: Velocity
         link: "#hook"
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
-      - project:
-        title: DevStudio
+
+      - title: DevStudio
         link: "#"
         tagline: "A responsive website template designed to help web developers/designers market their services."
-      - project:
-        title: Tempo
+
+      - title: Tempo
         link: "#"
         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-      - project:
-        title: Atom
+
+      - title: Atom
         link: "#"
         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-      - project:
-        title: Delta
+
+      - title: Delta
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
@@ -171,40 +163,38 @@ publications:
       bibendum fringilla a eu lectus.
     
     publications:
-      - paper:
-        title: The Art of Computer Programming
+      - title: The Art of Computer Programming
         authors: Donald E. Knuth
         conference: Addison-Wesley, 1968
-      - paper:
-        title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-      - paper:
-        title: A syntax directed compiler for Algol 60
+
+      - title: A syntax directed compiler for Algol 60
         authors: Edgar T. Irons
         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
     skills:
-        - skill:
-          name: Python & Django
-          level: 98%
-        - skill:
-          name: Javascript & jQuery
-          level: 98%
-        - skill:
-          name: Angular
-          level: 98%
-        - skill:
-          name: HTML5 & CSS
-          level: 95%
-        - skill:
-          name: Ruby on Rails
-          level: 85%
-        - skill:
-          name: Sketch & Photoshop
-          level: 60%
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
 
 footer: 
     text: >

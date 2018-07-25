@@ -1,10 +1,11 @@
 #Update all the sections by editing the data.yml file inside _data folder.
 
+# Site Settings
+title: My Resume
+url: 'http://webjeda.com'
 baseurl: '/online-cv' #change it according to your repository name
-
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: blue # blue turquoise green berry orange ceramic
-
 education_in_main: False # set to True if you want to remove education in main section instead of in sidebar
 
 # Tracker
