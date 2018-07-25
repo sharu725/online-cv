@@ -8,48 +8,16 @@
        {% endif %}
 
        {% if site.data.data.sidebar.name %}
-       <h1 class="name">{{site.data.data.sidebar.name}}</h1>
+       <h1 class="name">{{ site.data.data.sidebar.name }}</h1>
        {% endif %}
 
        {% if site.data.data.sidebar.tagline %}
-       <h3 class="tagline">{{site.data.data.sidebar.tagline}}</h3>
+       <h3 class="tagline">{{ site.data.data.sidebar.tagline }}</h3>
        {% endif %}
 
    </div><!--//profile-container-->
 
-   <div class="contact-container container-block">
-       <ul class="list-unstyled contact-list">
-
-          {% if site.data.data.sidebar.email %}
-           <li class="email"><i class="fas fa-envelope"></i><a href="mailto: {{site.data.data.sidebar.email}}">{{site.data.data.sidebar.email}}</a></li>
-           {% endif %}
-
-           {% if site.data.data.sidebar.phone %}
-           <li class="phone"><i class="fas fa-phone"></i><a href="tel:{{site.data.data.sidebar.phone}}">{{site.data.data.sidebar.phone}}</a></li>
-           {% endif %}
-
-           {% if site.data.data.sidebar.website %}
-           <li class="website"><i class="fas fa-globe-americas"></i><a href="http://{{site.data.data.sidebar.website}}" target="_blank">{{site.data.data.sidebar.website}}</a></li>
-           {% endif %}
-
-           {% if site.data.data.sidebar.linkedin %}
-           <li class="linkedin"><i class="fab fa-linkedin"></i><a href="https://linkedin.com/in/{{site.data.data.sidebar.linkedin}}" target="_blank">{{site.data.data.sidebar.linkedin}}</a></li>
-           {% endif %}
-
-           {% if site.data.data.sidebar.github %}
-           <li class="github"><i class="fab fa-github"></i><a href="http://github.com/{{site.data.data.sidebar.github}}" target="_blank">{{site.data.data.sidebar.github}}</a></li>
-           {% endif %}
-
-           {% if site.data.data.sidebar.twitter %}
-           <li class="twitter"><i class="fab fa-twitter"></i><a href="https://twitter.com/{{site.data.data.sidebar.twitter}}" target="_blank">{{site.data.data.sidebar.twitter}}</a></li>
-           {% endif %}
-          
-           {% if site.data.data.sidebar.codewars %}
-           <li class="codewars"><i class="fas fa-code"></i><a href="https://www.codewars.com/users/{{site.data.data.sidebar.codewars}}/completed_solutions" target="_blank">{{site.data.data.sidebar.codewars}}</a></li>
-           {% endif %}
-
-       </ul>
-   </div><!--//contact-container-->
+   {% include contact.html %}
 
   {% if site.education_in_main == null or site.education_in_main == false %}
     {% include education.html %}
