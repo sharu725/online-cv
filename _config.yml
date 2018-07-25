@@ -3,10 +3,9 @@
 baseurl: '/online-cv' #change it according to your repository name
 
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: # blue turquoise green berry orange ceramic
+theme_skin: blue # blue turquoise green berry orange ceramic
 
-# uncomment the next line, if you want the education section displayed in main instead of the sidebar
-#education_in_main: True
+education_in_main: False # set to True if you want to remove education in main section instead of in sidebar
 
 # Tracker
 analytics: UA-83979019-1
