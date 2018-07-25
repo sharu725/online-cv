@@ -1,14 +1,15 @@
-{% if site.data.data.experiences %}
+{% assign experiences = site.data.data.experiences %}
+{% if experiences %}
 <section class="section experiences-section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
     </span>
-    {{ site.data.data.experiences.title }}
+    Experiences
   </h2>
 
-  {% for experience in site.data.data.experiences.experiences %}
+  {% for experience in experiences %}
   <div class="item">
 
     <div class="meta">
