@@ -80,7 +80,7 @@ p {
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     }
     .contact-list {
-        .fa {
+        .fas, .fab {
             margin-right: 5px;
             font-size: 18px;
             vertical-align: middle;
@@ -89,11 +89,6 @@ p {
             margin-bottom: 15px;
             &:last-child {
                 margin-bottom: 0;
-            }
-        }
-        .email {
-            .fa {
-                font-size: 14px;
             }
         }
     }
@@ -170,21 +165,6 @@ p {
         position: relative;
         margin-top: 0;
         margin-bottom: 20px;
-        .fa {
-            width: 30px;
-            height: 30px;
-            margin-right: 8px;
-            display: inline-block;
-            color: #fff;
-            @include border-radius(50%);
-            background: darken($theme-color, 15%);
-            text-align: center;
-            padding-top: 8px;
-            font-size: 16px;
-            position: relative;
-            top: -2px;
-        }
-
     }
     .section {
         margin-bottom: 60px;
