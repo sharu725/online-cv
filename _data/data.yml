@@ -19,8 +19,11 @@ sidebar:
     website: blog.webjeda.com #do not add http://
     linkedin: alandoe
     github: sharu725
+    gitlab:
+    bitbucket:
     twitter: '@webjeda'
-    codewars: codewars_username
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
 
     languages:
         - language:
