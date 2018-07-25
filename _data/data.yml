@@ -6,12 +6,12 @@ sidebar:
     # Site Settings
     title: My Resume
     url: 'http://webjeda.com'
-    about: True # set to False or comment line if you want to remove the "How to use?" in the sidebar
+    about: True # set to false or comment line if you want to remove the "how to use?" in the sidebar
     
     # Profile information
     name: Alan Doe
     tagline: Full Stack Developer
-    pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
     
     # Sidebar links
     email: hello@webjeda.com
