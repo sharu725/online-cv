@@ -1,15 +1,21 @@
-{% if site.data.projects %}
+{% if site.data.data.projects %}
 <section class="section projects-section">
 
-  <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ site.data.data.projects.title }}
+  </h2>
 
-  {% if site.data.projects.intro %}
+  {% if site.data.data.projects.intro %}
   <div class="intro">
-      <p>{{ site.data.projects.intro }}</p>
+      <p>{{ site.data.data.projects.intro }}</p>
   </div><!--//intro-->
   {% endif %}
 
-  {% for project in site.data.projects.projects %}
+  {% for project in site.data.data.projects.projects %}
     <div class="item">
 
       <span class="project-title"><a href="{{ project.link }}">{{ project.title }}</a></span>

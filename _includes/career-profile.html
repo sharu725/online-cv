@@ -1,10 +1,16 @@
-{% if site.summary %}
+{% if site.data.data.career-profile %}
 <section class="section summary-section">
 
-  <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-user fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ site.data.data.career-profile.title }}
+  </h2>
 
     <div class="summary">
-      <p>{{ site.summary }}</p>
+      <p>{{ site.data.data.career-profile.text }}</p>
     </div><!--//summary-->
     
 </section><!--//section-->

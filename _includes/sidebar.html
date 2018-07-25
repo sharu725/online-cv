@@ -3,54 +3,28 @@
 
    <div class="profile-container">
 
-       <img class="profile-img" src="{{site.baseurl}}/assets/images/{{ site.pic }}" alt="profile picture" />
-
-       {% if site.name %}
-       <h1 class="name">{{site.name}}</h1>
+       {% if site.data.data.sidebar.name %}
+       <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ site.data.data.sidebar.avatar }}" alt="profile picture" />
        {% endif %}
 
-       {% if site.tagline %}
-       <h3 class="tagline">{{site.tagline}}</h3>
+       {% if site.data.data.sidebar.name %}
+       <h1 class="name">{{ site.data.data.sidebar.name }}</h1>
+       {% endif %}
+
+       {% if site.data.data.sidebar.tagline %}
+       <h3 class="tagline">{{ site.data.data.sidebar.tagline }}</h3>
        {% endif %}
 
    </div><!--//profile-container-->
 
-   <div class="contact-container container-block">
-       <ul class="list-unstyled contact-list">
-
-          {% if site.email %}
-           <li class="email"><i class="fa fa-envelope"></i><a href="mailto: {{site.email}}">{{site.email}}</a></li>
-           {% endif %}
-
-           {% if site.phone %}
-           <li class="phone"><i class="fa fa-phone"></i><a href="tel:{{site.phone}}">{{site.phone}}</a></li>
-           {% endif %}
-
-           {% if site.website %}
-           <li class="website"><i class="fa fa-globe"></i><a href="http://{{site.website}}" target="_blank">{{site.website}}</a></li>
-           {% endif %}
-
-           {% if site.linkedin %}
-           <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://linkedin.com/in/{{site.linkedin}}" target="_blank">{{site.linkedin}}</a></li>
-           {% endif %}
-
-           {% if site.github %}
-           <li class="github"><i class="fa fa-github"></i><a href="http://github.com/{{site.github}}" target="_blank">{{site.github}}</a></li>
-           {% endif %}
-
-           {% if site.twitter %}
-           <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/{{site.twitter}}" target="_blank">{{site.twitter}}</a></li>
-           {% endif %}
-
-       </ul>
-   </div><!--//contact-container-->
+   {% include contact.html %}
 
   {% if site.education_in_main == null or site.education_in_main == false %}
     {% include education.html %}
   {% endif %}
   {% include language.html %}
   {% include interests.html %}
-  {% if site.about %}
+  {% if site.data.data.sidebar.about == true %}
     {% include about.html %}
   {% endif %}
 
