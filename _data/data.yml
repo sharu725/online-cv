@@ -102,21 +102,21 @@ experiences:
 
 publications:
     title: Publications
-    intro: "You can list your publications in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
+    intro: 
     
     publications:
       - paper:
-        title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        title: Second Opinion by In-House Radiologists: Present Picture and Emphasis on Standardizing Imaging Protocol in Oncology 
+        authors: GV Santhoshkumar, Abhishek Mahajan, Subhash Desai, Meenakshi Thakur
+        conference: Current Problems in Diagnostic Radiology may 2017
       - paper:
-        title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+        title: Imaging of retained surgical items: A pictorial review including innovations 
+        authors: GV Santhoshkumar, Subhash Ramani, Abhishek Mahajan, Nikshita Jain, Rachel Sequeira, Meenakshi Thakur.
+        conference: Indian Journal of radiology and imaging, Sept 2017
       - paper:
-        title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        title: Case of victims of modern imaging technology: Increased information noise concealing the diagnosis
+        authors: Mahajan A, Santhoshkumar GV, Kawthalkar AS, Vaish R, Sable N, Arya S, Desai S
+        conference: World J Radiol 2017; 9(12): 454-458
 
 
               
