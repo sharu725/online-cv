@@ -1,7 +1,13 @@
 {% if site.data.data.publications %}
 <section class="section publications-section">
 
-  <h2 class="section-title"><i class="fa fa-file-text"></i>{{ site.data.data.publications.title }}</h2>
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ site.data.data.publications.title }}
+  </h2>
 
   {% if site.data.data.publications.intro %}
   <div class="intro">
