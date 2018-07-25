@@ -5,9 +5,9 @@ layout: default
 
 {% include career-profile.html %}
 
-{% if site.education_in_main %}
+{% unless sidebar.education %}
     {% include education.html %}
-{% endif %}
+{% endunless %}
 
 {% include experiences.html %}
 

@@ -1,5 +1,6 @@
-{% if site.data.data.studies %}
-  {% if site.education_in_main %}
+{% assign education = site.data.data.education %}
+{% if education %}
+  {% if site.data.sidebar.education %}
     <section class="section educations-section">
 
       <h2 class="section-title">
@@ -10,22 +11,22 @@
         Education
       </h2>
 
-      {% for education in site.data.data.studies %}
+      {% for graduation in education %}
         <div class="item">
         
           <div class="meta">
           
             <div class="upper-row">
-              <h3 class="degree">{{ education.degree }}</h3>
-              <div class="time">{{ education.time }}</div>
+              <h3 class="degree">{{ graduation.degree }}</h3>
+              <div class="time">{{ graduation.time }}</div>
             </div><!--//upper-row-->
             
-            <div class="university">{{ education.university }}</div>
+            <div class="university">{{ graduation.university }}</div>
           </div><!--//meta-->
           
-          {% if education.details %}
+          {% if graduation.details %}
           <div class="details">
-            {{ education.details | markdownify }}
+            {{ graduation.details | markdownify }}
           </div><!--//details-->
           {% endif %}
         </div><!--//item-->
@@ -37,11 +38,11 @@
 
       <h2 class="container-block-title">Education</h2>
 
-      {% for education in site.data.data.studies %}
+      {% for graduation in education %}
       <div class="item">
-        <h4 class="degree">{{ education.degree }}</h4>
-        <h5 class="meta">{{ education.university }}</h5>
-        <div class="time">{{ education.time }}</div>
+        <h4 class="degree">{{ graduation.degree }}</h4>
+        <h5 class="meta">{{ graduation.university }}</h5>
+        <div class="time">{{ graduation.time }}</div>
       </div><!--//item-->
       {% endfor %}
 
