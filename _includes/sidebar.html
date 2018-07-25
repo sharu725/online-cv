@@ -1,30 +1,32 @@
 <!-- Use icons from fontawesome when you are adding new item in the contact list  -->
 <div class="sidebar-wrapper">
 
-   <div class="profile-container">
+  <div class="profile-container">
 
-       {% if site.data.data.sidebar.name %}
-       <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ site.data.data.sidebar.avatar }}" alt="profile picture" />
-       {% endif %}
+    {% if site.data.data.sidebar.name %}
+    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ site.data.data.sidebar.avatar }}" alt="profile picture" />
+    {% endif %}
 
-       {% if site.data.data.sidebar.name %}
-       <h1 class="name">{{ site.data.data.sidebar.name }}</h1>
-       {% endif %}
+    {% if site.data.data.sidebar.name %}
+    <h1 class="name">{{ site.data.data.sidebar.name }}</h1>
+    {% endif %}
 
-       {% if site.data.data.sidebar.tagline %}
-       <h3 class="tagline">{{ site.data.data.sidebar.tagline }}</h3>
-       {% endif %}
+    {% if site.data.data.sidebar.tagline %}
+    <h3 class="tagline">{{ site.data.data.sidebar.tagline }}</h3>
+    {% endif %}
 
-   </div><!--//profile-container-->
+  </div><!--//profile-container-->
 
-   {% include contact.html %}
+  {% include contact.html %}
 
-  {% if site.education_in_main == null or site.education_in_main == false %}
+  {% unless site.education_in_main %}
     {% include education.html %}
-  {% endif %}
+  {% endunless %}
+
   {% include language.html %}
   {% include interests.html %}
-  {% if site.data.data.sidebar.about == true %}
+
+  {% if site.data.data.sidebar.about %}
     {% include about.html %}
   {% endif %}
 

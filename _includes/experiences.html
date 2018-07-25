@@ -8,7 +8,7 @@
     {{ site.data.data.experiences.title }}
   </h2>
 
-{% for experience in site.data.data.experiences.experiences %}
+  {% for experience in site.data.data.experiences.experiences %}
   <div class="item">
 
     <div class="meta">
@@ -24,19 +24,12 @@
 
     {% if experience.details %}
     <div class="details">
-      <p>{{ experience.details }}</p>
-      {% if experience.bullets %}
-      <ul>
-        {% for bullet in experience.bullets %}
-        <li>{{ bullet }}</li>
-        {% endfor %}
-      </ul>
-      {% endif %}
+      {{ experience.details | markdownify }}
     </div><!--//details-->
     {% endif %}
 
   </div><!--//item-->
-{% endfor %}
+  {% endfor %}
 
 </section><!--//section-->
 {% endif %}

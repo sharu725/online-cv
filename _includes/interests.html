@@ -3,17 +3,17 @@
 
   <h2 class="container-block-title">Interests</h2>
 
-    <ul class="list-unstyled interests-list">
-      {% for interest in site.data.data.sidebar.interests %}
+  <ul class="list-unstyled interests-list">
+    {% for interest in site.data.data.sidebar.interests %}
 
       {% if interest.link %}
-        <li><a href="{{ interest.link }}">{{ interest.item }}</a></li>
-        {% else %}
-        <li>{{ interest.item }}</li>
-        {% endif %}
+      <li><a href="{{ interest.link }}">{{ interest.item }}</a></li>
+      {% else %}
+      <li>{{ interest.item }}</li>
+      {% endif %}
 
-      {% endfor %}
-    </ul>
+    {% endfor %}
+  </ul>
 
 </div><!--//interests-->
 {% endif %}
