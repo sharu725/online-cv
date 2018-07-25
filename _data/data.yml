@@ -17,8 +17,7 @@ sidebar:
     email: santhosh.kumar@addenbrookes.nhs.uk
     phone: +91 9969642172, +44 07517469214
     website: myfellowship.github.io #do not add http://
-    linkedin: gvsanthu10
-    github: gvsanthu10
+    linkedin: skgv1024
     twitter: '@gvsanthu10'
  
 
@@ -46,26 +45,32 @@ sidebar:
 
 career-profile: 
     title: Diagnostic radiologist
-    text: '   can <a href="#" target="_blank">download this free resume/CV template here</a>. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.<br><br>Second paragraph if required.'
+    text: 
 
 studies: 
     - education:
       degree: European Diploma in Radiology
       university: EBR, Vienna
       time: 2018
-      details: "Describe your study here lorem ipsum dolor sit amet, consectetuer adipiscing
-      elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-      magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem."
+      details: 
 
     - education:
-      degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: "Describe your study here lorem ipsum dolor sit amet, consectetuer adipiscing
-      elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-      magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem."
+      degree: MD, Radiology
+      university: Tata Memorial Hospital, Mumbai, India
+      time: 2013 - 2016
+      details: "Completed 3 years of residency which constitutes the MD programme prescribed by the Medial Council of India
+      Dissertation: A retrospective audit of normal and variant anatomy of abdominal aorta on CT Angiograms"
+      
+
+    - education:
+      degree: MBBS
+      university: Bangalore medical college, Bangalore, India
+      time: 2006 - 2012
+      details: "Completed 4 years and 6 months of training as a part of the MBBS programme in first attempt.
+-One year of compulsory internship in in various clinical departments of the hospital.
+-Included 2 months of experience serving the community in the rural areas.
+-Volunteered for Pulse Polio national programme. Transported and administered the Polio vaccine to under 5-year children and infants. At the same time kept a detailed chart of supplies and patients treated. Program resulted in India becoming Polio free in 2014"
+            
 
 experiences:
     title: Experiences
