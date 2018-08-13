@@ -29,21 +29,16 @@ p {
 }
 
 .wrapper {
-    background:$theme-color;
+    display: flex;
     max-width: 1000px;
     margin: 0 auto;
-    position: relative;
     @include box-shadow(0px 2px 4px rgba(0,0,0,0.1));
 }
 
 .sidebar-wrapper {
     background: $theme-color;
-    position: absolute;
-    right: 0;
-    width: 280px;
-    height: 100%;
-    min-height: 800px;
     color: #fff;
+    flex-basis: 340px;
     a {
         color: #fff;
     }
@@ -156,7 +151,7 @@ p {
 .main-wrapper {
     background: #fff;
     padding: 60px;
-    padding-right: 340px;
+    flex-grow: 1;
     .section-title {
         text-transform: uppercase;
         font-size: 20px;
