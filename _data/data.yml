@@ -29,18 +29,15 @@ sidebar:
 
       - idiom: Hindi
         level: Native
-
-      - idiom: Spanish
-        level: Professional
         
     interests:
       - item: Blogging
         link:
 
-      - item: Snowboarding
+      - item: Classical Dancing
         link:
 
-      - item: Cooking
+      - item: Baking
         link:
 
 career-profile:
@@ -55,9 +52,9 @@ career-profile:
       Second paragraph if required.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Master's in Computer Engineering
+      university: North Carolina State University, Raleigh
+      time: 2012 - 2014
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -68,9 +65,9 @@ education:
           - Bullet point
           - Bullet point 
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: Bachelor of Electrical & Computer Engineering
+      university: University of Pune, India
+      time: 2008 - 2012
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -82,9 +79,9 @@ education:
           - Bullet point 
 
 experiences:
-    - role: Lead Developer
+    - role: Research Software Engineer
       time: 2015 - Present
-      company: Startup Hubs, San Francisco
+      company: IBM Almaden Research Center
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -99,9 +96,9 @@ experiences:
           - Bullet point
           - Bullet point 
 
-    - role: Senior Software Engineer
+    - role: Application Engineer
       time: 2014 - 2015
-      company: Google, London
+      company: AirWatch by VMware
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -112,9 +109,9 @@ experiences:
           - Bullet point
           - Bullet point
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Firmware Engineer Intern
+      time: 2013 - 2014
+      company: ClearConnex Inc
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
