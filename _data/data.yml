@@ -99,12 +99,6 @@ experiences:
       time: 2014 - 2015
       company: AirWatch by VMware
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
           - Worked on implementing a new framework for AirWatch Application and Device Management services hosted in multi-tenant SaaS and on-premise customer environments to securely manage application and content on employee mobile devices for Fortune 50 clients.
           - Implemented service framework publishes information to customers from AirWatch SQL database about Application Catalog and Secure Content Lock to enable application and device management. It also provides automated policy compliance by scheduling actions and notifications on violation of defined rules.
 
@@ -112,14 +106,8 @@ experiences:
       time: 2013 - 2014
       company: ClearConnex Inc
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+          - Worked as a Firmware Engineer to port Lua scripting environment to company's OS abstraction - ClearOS and ClearLink - in Lua scripting and C languages.
+          - Removed OS dependencies of 12 drivers for Sierra Wireless Modems to make them portable for embedded systems environment and tested them with different Lua scripts.
 
 projects:
     title: Projects
