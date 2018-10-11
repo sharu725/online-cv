@@ -43,13 +43,20 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+      I am a Research Software Engineer working at IBM Almaden 
+      Research Center, San Jose, California. I lead research and development 
+      of end-to-end solutions and analytical tools in the areas of Cloud Services, 
+      Machine Learning & IoT, for which she has been also awarded 8+ patents. 
+      My work has appeared at top-tier conferences, like IEEE SCC, IEEE AI & MS & NIPS. 
+      I was recently invited to speak at the IEEE Women in Computing Summit to 
+      introduce women to Machine Learning. 
+      
+      I am passionionate about inspiring women early in their software engineering careers. 
+      For this, I actively blogs on Medium & my posts on how women can thrive 
+      in tech have been read by more than 3000 people around the world. To 
+      introduce non-engineering women to tech, I also pioneered a new 
+      technical column named “Tech Jargon” in the city newspaper The Campbell 
+      Express.
 
 education:
     - degree: Master's in Computer Engineering
@@ -83,19 +90,11 @@ experiences:
       time: 2015 - Present
       company: IBM Almaden Research Center
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-
-          - Bullet point
-          - Bullet point 
-
+        - Leading accomplishment awarded projects, involved in development of end-to-end solutions and predictive analytical tools in Cloud services, IoT. 
+        - Applying Machine Learning models to quickly build prototypes. 
+        - Development of integrated predictive analytics solution with performance management tool that can perform sales analysis of services. 
+        - Patents and publications at top-tier conferences.
+        
     - role: Application Engineer
       time: 2014 - 2015
       company: AirWatch by VMware
@@ -106,8 +105,8 @@ experiences:
         nascetur ridiculus mus. Donec quam felis, ultricies nec,
         pellentesque eu, pretium quis, sem.
 
-          - Bullet point
-          - Bullet point
+          - Worked on implementing a new framework for AirWatch Application and Device Management services hosted in multi-tenant SaaS and on-premise customer environments to securely manage application and content on employee mobile devices for Fortune 50 clients.
+          - Implemented service framework publishes information to customers from AirWatch SQL database about Application Catalog and Secure Content Lock to enable application and device management. It also provides automated policy compliance by scheduling actions and notifications on violation of defined rules.
 
     - role: Firmware Engineer Intern
       time: 2013 - 2014
@@ -174,23 +173,26 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Python 
+        level: 95%
+       
+      - name: Machine Learning
+        level: 95% 
+        
+      - name: Javascript & J2EE
+        level: 90%
 
       - name: Angular
-        level: 98%
+        level: 90%
 
       - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: SQL
+        level: 75%
+
+      - name: Git
+        level: 75%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> 
