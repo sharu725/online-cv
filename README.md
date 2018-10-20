@@ -2,7 +2,7 @@
 > This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/). 
 > Visit her [website](http://themes.3rdwavemedia.com/) for more themes.
 
-I have made this into a Jekyll Theme. Checkout the live demo [here](http://webjeda.com/online-cv/).
+I have made this into a Jekyll Theme. Checkout the live demo [here](https://webjeda.com/online-cv/).
 
 <table>
   <tr>
@@ -11,10 +11,10 @@ I have made this into a Jekyll Theme. Checkout the live demo [here](http://webje
   </tr>
   <tr>
     <td>
-        <img src="/assets/images/desktop.png?raw=true" width="600"/>
+        <img src="https://webjeda.com/online-cv/assets/images/desktop.png?raw=true" width="600"/>
     </td>
     <td>
-        <img src="/assets/images/mobile.png?raw=true" width="250"/>
+        <img src="https://webjeda.com/online-cv/assets/images/mobile.png?raw=true" width="250"/>
     </td>
   </tr>
 </table>
@@ -35,11 +35,11 @@ There are 6 color schemes available:
 
 | Blue | Turquoise | Green |
 |---------|---------|---------|
-| <img src="/assets/images/blue.jpg" width="300"/> | <img src="/assets/images/turquoise.jpg" width="300"/> | <img src="/assets/images/green.jpg" width="300"/> |
+| <img src="https://webjeda.com/online-cv/assets/images/blue.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/turquoise.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/green.jpg" width="300"/> |
 
 | Berry | Orange | Ceramic |
 |---------|---------|---------|
-| <img src="/assets/images/berry.jpg" width="300"/> | <img src="/assets/images/orange.jpg" width="300"/> | <img src="/assets/images/ceramic.jpg" width="300"/> |
+| <img src="https://webjeda.com/online-cv/assets/images/berry.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/orange.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/ceramic.jpg" width="300"/> |
 
 ## Credits
 
