@@ -44,12 +44,12 @@ career-profile:
     title: Career Profile
     summary: |
       I am a Research Software Engineer working at IBM Almaden 
-      Research Center, San Jose, California. I lead research and development 
-      of end-to-end solutions and analytical tools in the areas of Cloud Services, 
-      Machine Learning & IoT, for which she has been also awarded 8+ patents. 
-      My work has appeared at top-tier conferences, like IEEE SCC, IEEE AI & MS & NIPS. 
-      I was recently invited to speak at the IEEE Women in Computing Summit to 
-      introduce women to Machine Learning. 
+      Research Center, San Jose, California. I have 3 years of experience leading 
+      research and development of end-to-end solutions and analytical tools in the areas of Cloud Services, 
+      Machine Learning & IoT, for which I have been also awarded 10+ patents. My vision is to develop an integrated 
+      predictive analytics solution with performance management tool that can perform sales analysis of services.
+
+      My work has appeared at top-tier venues including SCC, AI & MS, ICSOC, INFORMS and NIPS ML4HC among others.
       
       I am passionionate about inspiring women early in their software engineering careers. 
       For this, I actively blogs on Medium & my posts on how women can thrive 
@@ -57,6 +57,7 @@ career-profile:
       introduce non-engineering women to tech, I also pioneered a new 
       technical column named “Tech Jargon” in the city newspaper The Campbell 
       Express.
+           
 
 education:
     - degree: Master's in Computer Engineering
