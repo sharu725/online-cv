@@ -42,7 +42,7 @@ sidebar:
 
 career-profile:
     title: Career Profile
-    summary: |
+    summary:
 Senior QA Automation Engineer with almost 5+ years of solid experience in all phases of Software Testing Life Cycle (STLC), 
 experienced in developing Test Cases, Test Plan and Automation test scripts using Selenium, BDD, Gherkin, SOAPUI with programming
 experiences in JAVA, C# and Typescript in CI/CD environment. Diversified experience in Automation, Manual testing and Business Analysis.
@@ -77,7 +77,7 @@ experiences:
       details: |
           - Design and implement test harness and framework (Coded UI, C#, MTM)
           - Reduced the execution time from 1 week to just 2 days, thanks to automation of Web Reporting. Give several solutions to technical challenges in the scripts
-          -	Solve several technical challenges in the UI Automation scripts and improved script health.
+          - Solve several technical challenges in the UI Automation scripts and improved script health.
           - Created a class to reduce result analysis times and identify the root cause that were previously suppressed.
 
 skills:
