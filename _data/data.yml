@@ -47,7 +47,8 @@ education:
     - degree: BTech in Computer Science
       university: University of Technology,WB
       time: 2009 - 2013
-      GPA: | 7.56
+      GPA: 
+      7.56
 
 experiences:
     - role: Test Architect
