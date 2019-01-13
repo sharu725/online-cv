@@ -4,7 +4,7 @@
 
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Biagio Brattoli
@@ -41,156 +41,175 @@ sidebar:
       - item: Basketball
         link:
 
-      - item: Cooking
+      - item: Biking
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      After a double master degree between KTH (Stochkolm, Sweden) and Politecnico di Torino (Torino, Italy), 
-      I pursued my passion for Computer Vision as researcher in the Heidelberg Collaboratory for Image procession, 
-      one of the biggest research group in Germany.
+      After a double master degree at KTH (Stochkolm, Sweden) and Politecnico di Torino (Torino, Italy), 
+      I pursued my passion for Computer Vision as researcher in the Heidelberg Collaboratory for Image procession, one of the biggest research group in Germany in the field.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: PhD in Computer vision and Machine learning
+      university: Heidelberg University
+      time: 2015 - current
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Unsupervised deep learning for automatic behavior analysis
 
-          - Bullet point
-          - Bullet point
+          - Unsupervised learning
+          - Metri learning
+          - Automatic Behavior Analysis
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-
-          - Bullet point
-          - Bullet point
-
-    - role: Senior Software Engineer
+    - degree: Internship (Master Thesis)
+      university: Tobii
       time: 2014 - 2015
-      company: Google, London
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Master thesis topic Hand gesture classification by Deep learning using infrared camera 
 
-          - Bullet point
-          - Bullet point
+          - Deep learning
+          - Hand Gesture
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - degree: Master Degree
+      university: KTH (Stockholm, Sweden)
+      time: 2013 - 2015
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Master degree in Computer Science and Artificial Intelligence
 
-          - Bullet point
-          - Bullet point
+          - Artificial Intelligence
+          - Machine Learning
+          - Computer Vision
+    
+    - degree: Master Degree
+      university: Politecnico di Torino (Torino, Italy)
+      time: 2012 - 2015
+      details: |
+        Master degree in Software Engineering
+    
+    - degree: Bachelor Degree
+      university: Politecnico di Torino (Torino, Italy)
+      time: 2009 - 2012
+      details: |
+        Master degree in Computer Science and Artificial Intelligence
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+          - Artificial Intelligence
+          - Machine Learning
+          - Computer Vision
 
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+#experiences:
+    #- role: Lead Developer
+      #time: 2015 - Present
+      #company: Startup Hubs, San Francisco
+      #details: |
+        #Describe your role here lorem ipsum dolor sit amet, consectetuer
+        #adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        #Cum sociis natoque penatibus et magnis dis parturient montes,
+        #nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        #pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        #enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        #error sit voluptatem accusantium doloremque laudantium, totam rem
+        #aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        #architecto beatae vitae dicta sunt explicabo.
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+          #- Bullet point
+          #- Bullet point
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    #- role: Senior Software Engineer
+      #time: 2014 - 2015
+      #company: Google, London
+      #details: |
+        #Describe your role here lorem ipsum dolor sit amet, consectetuer
+        #adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        #Cum sociis natoque penatibus et magnis dis parturient montes,
+        #nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        #pellentesque eu, pretium quis, sem.
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+          #- Bullet point
+          #- Bullet point
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    #- role: UI Developer
+      #time: 2012 - 2014
+      #company: Amazon, London
+      #details: |
+        #Describe your role here lorem ipsum dolor sit amet, consectetuer
+        #adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        #Cum sociis natoque penatibus et magnis dis parturient montes,
+        #nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        #pellentesque eu, pretium quis, sem.
 
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+          #- Bullet point
+          #- Bullet point
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#projects:
+    #title: Projects
+    #intro: >
+      #You can list your side projects or open source libraries in this
+      #section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      #Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+    #assignments:
+      #- title: Velocity
+        #link: "#hook"
+        #tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-skills:
-    title: Skills &amp; Proficiency
+      #- title: DevStudio
+        #link: "#"
+        #tagline: "A responsive website template designed to help web developers/designers market their services."
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+      #- title: Tempo
+        #link: "#"
+        #tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - name: Javascript & jQuery
-        level: 98%
+      #- title: Atom
+        #link: "#"
+        #tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - name: Angular
-        level: 98%
+      #- title: Delta
+        #link: "#"
+        #tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-      - name: HTML5 & CSS
-        level: 95%
+#publications:
+    #title: Publications
+    #intro: |
+      #You can list your publications in this section. Lorem ipsum dolor sit
+      #amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      #bibendum fringilla a eu lectus.
 
-      - name: Ruby on Rails
-        level: 85%
+    #papers:
+      #- title: The Art of Computer Programming
+        #authors: Donald E. Knuth
+        #conference: Addison-Wesley, 1968
 
-      - name: Sketch & Photoshop
-        level: 60%
+      #- title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        #authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        #conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      #- title: A syntax directed compiler for Algol 60
+        #authors: Edgar T. Irons
+        #conference: "Comm. ACM 4 (1961), 51–55"
+
+#skills:
+    #title: Skills &amp; Proficiency
+
+    #toolset:
+      #- name: Python & Django
+        #level: 98%
+
+      #- name: Javascript & jQuery
+        #level: 98%
+
+      #- name: Angular
+        #level: 98%
+
+      #- name: HTML5 & CSS
+        #level: 95%
+
+      #- name: Ruby on Rails
+        #level: 85%
+
+      #- name: Sketch & Photoshop
+        #level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
