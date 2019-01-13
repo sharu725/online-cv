@@ -4,7 +4,7 @@
 
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Biagio Brattoli
@@ -51,6 +51,33 @@ career-profile:
       I pursued my passion for Computer Vision as researcher in the Heidelberg Collaboratory for Image procession, one of the biggest research group in Germany in the field.
 
 education:
+    - degree: PhD in Computer vision and Machine learning
+      university: Heidelberg University
+      time: 2015 - current
+      details: |
+
+    - degree: Internship (Master Thesis)
+      university: Tobii
+      time: 2014 - 2015
+      details: |
+
+    - degree: Master Degree
+      university: KTH (Stockholm, Sweden)
+      time: 2013 - 2015
+      details: |
+    
+    - degree: Master Degree
+      university: Politecnico di Torino (Torino, Italy)
+      time: 2012 - 2015
+      details: |
+    
+    - degree: Bachelor Degree
+      university: Politecnico di Torino (Torino, Italy)
+      time: 2009 - 2012
+      details: |
+
+
+educationcomplete:
     - degree: PhD in Computer vision and Machine learning
       university: Heidelberg University
       time: 2015 - current
