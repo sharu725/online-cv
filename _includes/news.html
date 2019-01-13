@@ -1,0 +1,27 @@
+{% assign news = site.data.data.news %}
+{% if news %}
+<section class="section publications-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ news.title }}
+  </h2>
+
+  {% if news.intro %}
+  <div class="intro">
+    {{ news.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for post in news.posts %}
+  <div class="item">
+    <div class="publication-authors">{{ post.time }}</div>
+    <div class="publication-title">{{ post.title }}</div>
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
