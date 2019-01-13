@@ -196,47 +196,57 @@ educationcomplete:
         #link: "#"
         #tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-#publications:
-    #title: Publications
-    #intro: |
-      #You can list your publications in this section. Lorem ipsum dolor sit
-      #amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      #bibendum fringilla a eu lectus.
+publications:
+    title: Publications
+    intro: |
+      
 
-    #papers:
-      #- title: The Art of Computer Programming
-        #authors: Donald E. Knuth
-        #conference: Addison-Wesley, 1968
+    papers:
+      - title: "Improving Spatiotemporal Self-Supervision by Deep Reinforcement Learning"
+        authors: B. Brattoli*, U. Buechler*, B. Ommer
+        conference: ECCV, 2018
 
-      #- title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        #authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        #conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "LSTM Self-Supervision for Detailed Behavior Analysis"
+        authors: B. Brattoli*, U. Buechler*, A. Wahl, M. Schwab, B. Ommer
+        conference: CVPR, 2017
 
-      #- title: A syntax directed compiler for Algol 60
-        #authors: Edgar T. Irons
-        #conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "Cross and Learn: Cross-Modal Self-Supervision"
+        authors: N. Sayer, B. Brattoli, B. Ommer
+        conference: oral at GCPR, 2018
 
-#skills:
-    #title: Skills &amp; Proficiency
+      - title: "X-GAN: Improving Generative Adversarial Networks with ConveX Combinations"
+        authors: O. Blum, B. Brattoli, B. Ommer
+        conference: oral at GCPR, 2018
 
-    #toolset:
-      #- name: Python & Django
-        #level: 98%
+      - title: "Optogenetically stimulating intact rat corticospinal tract post-stroke restores motor control through regionalized functional circuit formation"
+        authors: A. S. Wahl*, U. Büchler*, A. Brändli, B. Brattoli, S. Musall, H. Kasper, B. V. Ineichen, F. Helmchen, B. Ommer & M. E. Schwab
+        conference: "Nature Communications, 2017"
+        
+      - title: "Early reduced behavioral activity induced by large strokes affects the efficiency of enriched environment in rats"
+        authors: A. S. Wahl, Erlebach, E, B. Brattoli, U. Büchler, J. Kaiser, V.B. Ineichen, A.C. Mosberger, S. Schneeberger, S. Imobersteg, M. Wieckhorst, M. Stirn, A. Schroeter, B. Ommer, M.E. Schwab
+        conference: "Journal of Cerebral Blood Flow & Metabolism, 2018"
 
-      #- name: Javascript & jQuery
-        #level: 98%
+skills:
+    title: Skills &amp; Proficiency
 
-      #- name: Angular
-        #level: 98%
+    toolset:
+      - name: Python
+        level: 100%
 
-      #- name: HTML5 & CSS
-        #level: 95%
+      - name: PyTorch
+        level: 90%
 
-      #- name: Ruby on Rails
-        #level: 85%
+      - name: Tensorflow
+        level: 60%
 
-      #- name: Sketch & Photoshop
-        #level: 60%
+      - name: Caffe
+        level: 80%
+
+      - name: Matlab
+        level: 90%
+
+      - name: C/C++
+        level: 75%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
