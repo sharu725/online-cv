@@ -160,9 +160,9 @@ publications:
       bibendum fringilla a eu lectus.
 
     papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: IoT Based Real Time Noise Mapping System for Urban Sound Pollution Study
+        authors: Sakib Ahmed, Touseef Saleh Bin Ahmed, Sumaiya Jafreen, Jannatul Tajrin
+        conference: ICIEV and icIVPR, 2018
 
       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
