@@ -23,7 +23,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    instagram: ahmadSum1
+    #instagram: ahmadSum1
 
     languages:
       - idiom: Bengali
@@ -33,11 +33,11 @@ sidebar:
         level: Professional
 
     interests:
-      - item: Climbing
+      - item: Travelling
         link:
 
-      - item: Snowboarding
-        link:
+      - item: Photography
+        link: https://www.instagram.com/ahmadsum1/
 
       - item: Cooking
         link:
