@@ -31,6 +31,9 @@ sidebar:
       - idiom: English
         level: Professional
 
+      - idiom: German
+        level: Starter
+
       - idiom: Chineese
         level: Starter
 
@@ -60,53 +63,43 @@ education:
       university: Institut national des Sciences appliquées de Lyon
       time: 2008 - 2010
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        One of the best learning experiences of my education. Theorical and practical lessons were well balanced.
+        There also were a great fellowship among students.
 
-          - Bullet point
-          - Bullet point
+          - Network architecture, protocols and security
+          - Telephony, SIP, GSM 2G/3G
 
     - degree: Electrical, Electronics and Communications Engineering
       university: Shanghai Jiao Tong University
       time: 2007 - 2011
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        A wonderful study trip in China. Although the teaching methodology was very close to the one in France, cultural differences
+        helped me see engineering problems from another perspective and enhance my problem solving skills.
 
-          - Bullet point
-          - Bullet point
+          - Auto organized networks and personal area networks
+          - Electronic FGPA design and computation 
 
     - degree: Master I - Informatique, Réseaux, Mathématiques, Sciences du vivant
       university: Université Paris Descartes
       time: 2007 - 2011
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        It is during these years that my math and data science techniques grew the most.
+        They set the scenes for the years ahead as an engineer. The hard work paid off at INSA and Jiao Tong University.
 
-          - Bullet point
-          - Bullet point
+          - Mathmatics, statistics, numerical computation 
+          - Software architecture, expert systems and knowledge representation for intelligent systems.
 
     - degree: BTS - Maintenance informatique, électronique et télécommunications
       university: ELATSA
       time: 2002 - 2005
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        This degree trained me for the work on the field. Mostly I learned how a system is deployed on the field.
+        The great experiences came from the people I have met during my internship and the dept of the courses I had.
+        Not only the teachers were competent but their teaching provided the canevas for a good understanding and troubleshooting 
+        on the filed.
 
-          - Bullet point
-          - Bullet point
+          - PABX, RNIS
+          - Telephony, GSM
 
 experiences:
     - role: Lead Developer
