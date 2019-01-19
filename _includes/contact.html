@@ -61,5 +61,11 @@
     </li>
     {% endif %}
 
+    {% if sidebar.goodreads %}
+    <li class="goodreads-g"><i class="fab fa-goodreads-g"></i>
+      <a href="https://www.goodreads.com/user/show/{{ sidebar.goodreads }}" target="_blank">{{ sidebar.goodreads }}</a>
+    </li>
+    {% endif %}
+
   </ul>
 </div><!--//contact-container-->
