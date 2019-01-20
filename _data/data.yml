@@ -44,10 +44,10 @@ career-profile:
     title: Career Profile
     summary: |
         My name is Shubhi Asthana. I am currently a Research Software Engineer at IBM Almaden Research Center, 
-        San Jose, California. Among those which excite me most are:
-        1. Cloud services and how machine learning is enhancing analytics.
-	2. Predictive analytics and solution, and using performance management toolsets.
-	3. Strategic problem-solving and network analysis using latest software technologies.
+        San Jose, California. Among those which excite me most are: |
+        - Cloud services and how machine learning is enhancing analytics.
+	- Predictive analytics and solution, and using performance management toolsets.
+	- Strategic problem-solving and network analysis using latest software technologies.
              
 education:
     - degree: Master's in Computer Engineering
@@ -60,7 +60,7 @@ education:
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
         pretium quis, sem.
 
-          - Bullet point
+	  - Bullet point
           - Bullet point 
 
     - degree: Bachelor of Electrical & Computer Engineering
