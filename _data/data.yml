@@ -12,7 +12,7 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: afanousergio@gmail.com
+    email: afanousergio@yahoo.fr
     phone: #---
     website: sergio.afanou.com #do not add http://
     linkedin: sergioafanou
@@ -77,6 +77,7 @@ education:
         helped me see engineering problems from another perspective and enhance my problem solving skills.
 
           - Auto organized networks and personal area networks
+          - Sensor networks with low power consumption protocols
           - Electronic FGPA design and computation 
 
     - degree: Master I - Informatique, Réseaux, Mathématiques, Sciences du vivant
