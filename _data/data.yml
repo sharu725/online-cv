@@ -43,7 +43,8 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-        My name is Shubhi Asthana. I am currently a Research Software Engineer at IBM Almaden Research Center, San Jose, California. Among those which excite me most are
+        My name is Shubhi Asthana. I am currently a Research Software Engineer at IBM Almaden Research Center, 
+        San Jose, California. Among those which excite me most are
              
 education:
     - degree: Master's in Computer Engineering
@@ -97,7 +98,7 @@ experiences:
           - Removed OS dependencies of 12 drivers for Sierra Wireless Modems to make them portable for embedded systems environment and tested them with different Lua scripts.
 
 projects:
-    title: Projects
+    title:  Projects
     intro: >
       You can list your side projects or open source libraries in this
       section. 
