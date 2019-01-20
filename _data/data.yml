@@ -43,22 +43,11 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am a Research Software Engineer working at IBM Almaden 
-      Research Center, San Jose, California. I have 3 years of experience leading 
-      research and development of end-to-end solutions and analytical tools in the areas of Cloud Services, 
-      Machine Learning & IoT, for which I have been also awarded 10+ patents. My vision is to develop an integrated 
-      predictive analytics solution with performance management tool that can perform sales analysis of services.
-
-      My work has appeared at top-tier venues including SCC, AI & MS, ICSOC, INFORMS and NIPS ML4HC among others.
-      
-      I am passionionate about inspiring women early in their software engineering careers. 
-      For this, I actively blogs on Medium & my posts on how women can thrive 
-      in tech have been read by more than 3000 people around the world. To 
-      introduce non-engineering women to tech, I also pioneered a new 
-      technical column named “Tech Jargon” in the city newspaper The Campbell 
-      Express.
+      - My name is Shubhi Asthana. I am currently a Research Software Engineer at IBM Almaden Research Center, San Jose, California. Among those which excite me most are
+		- Cloud services and how machine learning is enhancing analytics 
+		- Predictive analytics and solution, and using performance management toolsets
+		- Strategic problem-solving and network analysis using latest software technologies 
            
-
 education:
     - degree: Master's in Computer Engineering
       university: North Carolina State University, Raleigh
@@ -141,18 +130,53 @@ projects:
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Miscellaneous list of publications presented in top-tier conferences like IEEE SCC, IEEE AI & MS, INFORMS & NIPS
 
     papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Cognitive Solutioning of Highly-Valued IT Service Contracts
+        authors: Shubhi Asthana, Aly Megahed and Ahmed Nazeem
+        conference: INFORMS, 2018
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "A Predictive Approach for Monitoring Services in the Internet of Things"
+        authors: Shubhi Astha
+		na, Aly Megahed and Mohamed Mohammed.
+        conference: "INFORMS, 2018"
+
+      - title: Solutioning of Highly-Valued IT Service Contracts
+        authors: Shubhi Asthana, Aly Megahed, Ahmed Nazeem, Valeria Becker, Taiga Nakamura and Sandeep Gopisetty
+        conference: "Services Computing (SCC), IEEE, 2018"
+
+      - title: Using energy storage to modify the shape of internally generated demand to fit a prescribed shape for externally presented demand
+        authors: Ray Strong, Shubhi Asthana, Eric Butler, Kevin Roche, Raphael Arar, Cheryl Kieliszewski, Pawan Chowdhary and Sandeep Gopisetty
+        conference: Services Computing (SCC), IEEE, 2018
+
+      - title: "A Unified Framework for Specifying Cost Models of IT Service Offering"
+        authors: Kugamoorthy Gajananan, Aly Megahed, Shubhi Asthana, Valeria Becker, Taiga Nakamura
+        conference: "INFORMS, 2018"
+
+      - title: A Cognitive Prioritization for Reports Generated in Resource Constrained Applications
+        authors: Shubhi Asthana, Aly Megahed, Valeria Becker, Taiga Nakamura, Kugamoorthy Gajananan
+        conference: "Services Computing (SCC), IEEE, 2017, pp. 418-425"		
+
+      - title: A Recommendation System for Proactive Health Monitoring Using IoT and Wearable Technologies
+        authors: Shubhi Asthana, Aly Megahed, Ray Strong
+        conference: Artificial Intelligence and Mobile Services (AIMS), IEEE, 2017.
+
+      - title: "A method for selecting peer deals in IT service contracts"
+        authors: Aly  Megahed, Shubhi  Asthana, Valeria Becker, Taiga Nakamura, Kugamoorthy Gajananan
+        conference: "Artificial Intelligence and Mobile Services (AIMS), IEEE, 2017."
+
+      - title: A Method for Estimating Annual Cost Reduction of IT Service Deals
+        authors: Kugamoorthy Gajananan, Aly Megahed, Shubhi Asthana, Valeria Becker, Taiga Nakamura
+        conference: "International Conference on Service Operations and Logistics and Informatics (SOLI), IEEE, 2017."
+
+      - title: HealthAdvisor: A Recommendation System for Clinicians and Wearable Technology Developers.
+        authors: Shubhi Asthana, Ray Strong and Aly Megahed
+        conference: Neural Information Processing Systems (NIPS) ML4HC, December 2016
+
+      - title: Top-Down Pricing of IT Services Deals with Recommendation for Missing Values of Historical and Market Data.
+        authors: Aly Megahed, Kugamoorthy Gajananan, Shubhi Asthana, Valeria Becker, Mark Smith, and Taiga Nakamura
+        conference: International Conference on Service-Oriented Computing (ICSOC), Springer International Publishing, October 2016
 
       - title: A syntax directed compiler for Algol 60
         authors: Edgar T. Irons
