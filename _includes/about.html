@@ -1,10 +1,12 @@
 <div class="remove-container container-block">
   <h2 class="container-block-title">
-    About Theme
+    Hire me
   </h2>
   <ul class="list-unstyled interests-list">
-    <a target="_blank" href="https://www.youtube.com/watch?v=Jnmj1dXDbNk">
-      <li>How to use?</li>
-    </a>
+    {% if sidebar.email %}
+    <li class="email"><i class="fas fa-envelope"></i>
+      <a href="mailto:{{ sidebar.email }}">Just email me. We will arrange an interview.</a>
+    </li>
+    {% endif %}
   </ul>
 </div><!--//About-->
