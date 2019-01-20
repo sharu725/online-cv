@@ -100,7 +100,7 @@ experiences:
           - Removed OS dependencies of 12 drivers for Sierra Wireless Modems to make them portable for embedded systems environment and tested them with different Lua scripts.
 
 projects:
-    title: Awards
+    title: Projects
     intro: >
       You can list your side projects or open source libraries in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
