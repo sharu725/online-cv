@@ -47,12 +47,12 @@ career-profile:
 
 
 education:
-    - degree: Undergraduate
-      university: Institut Teknologi Bandung
+    - degree: Institut Teknologi Bandung
+      university: Undergraduate
       time: 2016 - present
 
-    - degree: High School Graduate
-      university: SMAN 1 Denpasar
+    - degree: SMAN 1 Denpasar
+      university: High School Graduate
       time: 2007 - 2011
 
 experiences:
@@ -68,7 +68,7 @@ experiences:
       time: 2017 - present
       company: Ikatan Mahasiswa Telekomunikasi (IMT) "Signum" ITB
       
-    - role: Secretary Of Vidhafest
+    - role: Secretary Of Vidhafest VI
       time: 2018 - present
       company: Keluarga Mahasiswa Hindu (KMH) ITB
       
