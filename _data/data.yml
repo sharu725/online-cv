@@ -14,9 +14,9 @@ sidebar:
     # Sidebar links
     email: biagio.brattoli@gmail.com
     phone: 
-    website: bbrattoli.github.com #do not add http://
+    website: bbrattoli.github.io #do not add http://
     linkedin: biagiobrattoli
-    github: github.com/bbrattoli
+    github: bbrattoli
     gitlab:
     bitbucket:
     twitter: '@BiagioBrattoli'
@@ -109,7 +109,7 @@ educationcomplete:
         Unsupervised deep learning for automatic behavior analysis
 
           - Unsupervised learning
-          - Metri learning
+          - Representaion learning
           - Automatic Behavior Analysis
 
     - degree: Internship (Master Thesis)
@@ -141,11 +141,7 @@ educationcomplete:
       university: Politecnico di Torino (Torino, Italy)
       time: 2009 - 2012
       details: |
-        Master degree in Computer Science and Artificial Intelligence
-
-          - Artificial Intelligence
-          - Machine Learning
-          - Computer Vision
+        Master degree in Computer Engineering
 
 
 #experiences:
