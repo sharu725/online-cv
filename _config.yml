@@ -1,8 +1,8 @@
 #Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
-title: My Resume
-url: 'http://webjeda.com'
+title: Faizal Kassamali
+url: 'http://resume.mrfaizal.com'
 baseurl: '/online-cv' #change it according to your repository name
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: blue # blue turquoise green berry orange ceramic
@@ -27,5 +27,3 @@ compress_html: # - http://jch.penibelst.de/
 port: 4000
 host: 0.0.0.0
 safe: false
-
-theme: jekyll-theme-midnight

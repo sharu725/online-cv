@@ -3,23 +3,22 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Faizal Kassamali
+    tagline: Empathetic Engineering Leader
+    avatar: profile.png  
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    gitlab:
+    email: mrfaizal@gmail.com
+    phone: 310 770 3773
+    linkedin: mrfaizal
+    github: #mrfaizal
+    gitlab: #mrfaizal
     bitbucket:
-    twitter: '@webjeda'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -28,173 +27,192 @@ sidebar:
       - idiom: English
         level: Native
 
-      - idiom: French
-        level: Professional
-
       - idiom: Spanish
-        level: Professional
+        level: Conversational
+
+      - idiom: Mandarin
+        level: Basic
 
     interests:
-      - item: Climbing
-        link:
+      - item: Community Service
+        link: https://mrfaizal.github.io/online-cv/assets/images/service.jpg
 
-      - item: Snowboarding
-        link:
+      - item: Pickleball
+        link: https://www.nbcnews.com/video/pickleball-the-fastest-growing-sport-in-america-199360067605
 
-      - item: Cooking
-        link:
+      - item: Salsa
+        link: https://centuryballroom.com/home/classes/salsa
+
+      - item: Skiing
+        link: https://tenor.com/view/simpsons-ski-moguls-gif-11056819
 
 career-profile:
-    title: Career Profile
+    title: Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+      - Technical Leader with 15+ years of experience and a track record of promotions at 4 separate Fortune 300 companies
+      - 6 patents filed, 3 degrees earned, 2 test labs built, tens of millions of dollars saved, billions of requests served
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Executive MPA
+      university: University of Washington
+      time: 2018 - present
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+          - Strategic Leadership
+          - Executive Decision Making
+          - Organizational Performance
 
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: MS - Information Systems
+      university: Claremont Graduate University
+      time: 2002 - 2004
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+          - 3.9/4.0 GPA
+          - Class Vice President
 
-          - Bullet point
-          - Bullet point
+    - degree: BS - Computer Science
+      university: University of California, Los Angeles
+      time: 1997 - 2001
+      details: |
+          - Business Management minor
+          - Campus Housing Resident Assistant
+          - Society of Automotive Engineers
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Software Engineer
+      time: "Seattle  2015 - 2018"
+      company: Snap
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+          - Cofounded the Seattle multicloud infrastructure engineering office and helped the leadership team expand it from 3 employees to 150+
+          - Saved $30M/year in infrastructure costs through optimization of distributed systems on both Google Cloud Platform and Amazon Web Services
+          - Improved long-tail performance 60% with an AppEngine API compatibility layer to migrate PaaS workloads to IaaS
+          - Eliminated 40% of operational toil via automated recovery of misbehaving systems
+          - Improved resource utilization 35% by deploying an API gateway using cloud native technologies such as Kubernetes, Envoy, and Spinnaker
+          - Extended 3x more Site Reliability Engineer offers per month by overhauling the hiring pipeline
+          - Organized and hosted the highest attended Seattle SRE MeetUp of 2018
 
-          - Bullet point
-          - Bullet point
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Manager - Tools & Infrastructure
+      time: "Seattle  2011 - 2015"
+      company: Amazon Web Services
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+          - Expanded team from 2 to 21; managed 15 full-time engineers in three domestic offices plus 6 offshore contractors
+          - Built a mobile device lab integrated with continuous delivery pipelines to accelerate app release cadence from monthly to weekly
+          - Authored performance test suites running across the entire Kindle tablet device matrix, and a cloud-based browser-bot fleet to enable real-time synthetic monitoring in production
+          - Nominated for the prestigous Bar Raiser role
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Senior Software Design Engineer in Test
+      time: "Seattle  2008 - 2011"
+      company: Amazon
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+          - Sole SDET owning the v1 launches of Kindle for iPhone, Kindle SDK, and the AWS Silk Browser 
+          - Developed the first ever automation framework for Kindle eReaders, then drove global adoption which reduced release validation time from 4 weeks to 5 days
+          - 2nd Amazon SDET ever promoted to Senior level
 
-          - Bullet point
-          - Bullet point
+    - role: Senior Technical Lead
+      time: "Beijing  2008"
+      company: Microsoft Research
+      details: |
+          - Led the production launch effort for a v1 web application during a rotation in China
+          - Mentored junior engineers in best practices and quality engineering
+          - Improved application performance by up to 97%
+
+    - role: Senior Software Design Engineer in Test
+      time: "Redmond  2005 - 2008"
+      company: Microsoft
+      details: |
+          - Responsible for high risk + high profile feature areas of a $1 billion business 
+          - Utilized model based testing, pairwise combinatorial tools, and equivalence classing to deliver UI automation under aggressive deadlines 
+          - Nominated for multiple Gold Star Awards
+
+    - role: Software Development Engineer
+      time: "Los Angeles  2001 - 2005"
+      company: Xerox
+      details: |
+          - Developed large scale distributed enterprise components such as enabling cross-platform database transactions over RPC
+          - Designed and implemented a backwards compatible command line interpreter which empowered machine operators to automate manual tasks
+          - Only engineer selected by management to receive Lean Six Sigma certification
+
+    - role: Technical Project Lead
+      time: "Los Angeles  2004"
+      company: Northrop Grumman
+      details: |
+          - Part-time contract during grad school that required incorporating the C Standard Template Library into a legacy code base
+          - Recruited and managed a "tiger team" which delivered the project on time and under budget
+
+    - role: Software Engineer Intern
+      time: "San Diego  2000"
+      company: Teradata
+      details: |
+          - Redesigned and automated database utilities to reduce daily maintenance effort from hours to minutes
+          - Final presentation chosen as the model for future interns
 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: Accomplishments
+    intro:
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: 6 Patent Filings
+        link: https://patents.google.com/patent/US8856211
+        tagline: "Browser-based Provisioning of Quality Metadata, Automated Content Update Notification, Device Attribute-Customized Metadata For Browser Users, Flexible Network Testing, Automated Testing of Hybrid Applications, Resource Categorized Metadata for Browser Users"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: App Store Publications
+        link: http://sukreet.com
+        tagline: "Dating app on Android and iOS catering to a global community of ~10 million"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Kubernetes and Istio Certification
+        link: https://cognitiveclass.ai/courses/beyond-the-basics-istio-and-ibm-cloud-kubernetes-service/
+        tagline: "Control traffic to microservices, observe service health, and secure a service mesh"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Lean Six Sigma Certification
+        link: https://www.leansixsigmainstitute.org/yellow-belt
+        tagline: "Utilize flexible problem-solving techniques and prevent problems before they happen"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: "Landmark Forum Graduate: Basic & Advanced"
+        link: https://www.landmarkworldwide.com/
+        tagline: "Create new possibilities"
+
+      - title: Eagle Scout
+        link: https://www.scouting.org/resources/guide-to-advancement/eagle-scout-rank/
+        tagline: "Boy Scouts of America's highest ranking award"
 
 publications:
-    title: Publications
+    title: Volunteer Experience
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-
+      
     papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Board Member
+        authors: 2200 Homeowners Association
+        conference: 2018 - present
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Logistics &amp; Membership Coordinator
+        authors: Represent.Us
+        conference: 2015 - 2018
 
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "Chairman - Western USA"
+        authors: "Aga Khan Youth & Sports Board"
+        conference: "2013 - 2015"
+
+      - title: "Math Tutor and College Advisor"
+        authors: Aga Khan Education Board
+        conference: 2008 - 2012
+
+      - title: "Principal Technology Consultant"
+        authors: There Is Hope, Inc
+        conference: 2002 - 2005
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Organizational Leadership
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Collaborative Problem Solving
+        level: 95%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Strategic Decision Making
+        level: 95%
+
+      - name: Continuous Delivery
+        level: 95%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
