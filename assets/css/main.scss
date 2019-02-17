@@ -4,5 +4,5 @@
 
 @charset "utf-8";
 
-@import "skins/{{ site.theme_skin | default: 'ceramic' }}"; // skin
-@import "ceramic"; // main partials
+@import "skins/{{ site.theme_skin | default: '' }}"; // skin
+@import "default"; // main partials
