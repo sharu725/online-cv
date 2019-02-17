@@ -58,7 +58,7 @@ education:
 
 experiences:
     - role: Administrative Assistant                                 
-      time: 2012 - Present
+      time: June 2012 - Present
       company: Jay R. Gelb & Company
       details: |
     
@@ -68,31 +68,13 @@ experiences:
           - Reconciled bank statements and recorded entries in QuickBooks that helped keep the company's books up-to-date 
 
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Banking Analyst Intern
+      time: June 2017 – August 2017
+      company: Savannah Bank Na
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+          - Analyzed municipal bonds for sale by presenting research that predicted future growth and returns
+          - Collaborated with team members to generate profitable investment ideas; prepared and presented these ideas to an investment committee 
+          - Monitored and managed a bond portfolio to ensure the correct risk appropriation 
 
 projects:
     title: Projects
