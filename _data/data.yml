@@ -12,15 +12,15 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: smgelb@iu.edu
+    phone: 585 406 6200
+    website: 
+    linkedin: seangelb
+    github: lawleyenda
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter: '@lawleyenda'
+    stack-overflow: 6732684/lawleyenda
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
@@ -28,20 +28,14 @@ sidebar:
       - idiom: English
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
-
     interests:
-      - item: Climbing
+      - item: Skiing
         link:
 
-      - item: Snowboarding
+      - item: Fishing
         link:
 
-      - item: Cooking
+      - item: Listening to music
         link:
 
 career-profile:
@@ -63,22 +57,16 @@ education:
           - 2018 Founder’s Scholar  
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Administrative Assistant                                 
+      time: 2012 - Present
+      company: Jay R. Gelb & Company
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+    
+          - Documented business records that helped put ideas into actions
+          - Improved record-keeping with Microsoft programs that helped lead to better organization
+          - Balanced the marketing budget that allowed the company's message to reach a greater audience
+          - Reconciled bank statements and recorded entries in QuickBooks that helped keep the company's books up-to-date 
 
-          - Bullet point
-          - Bullet point
 
     - role: Senior Software Engineer
       time: 2014 - 2015
