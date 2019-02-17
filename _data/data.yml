@@ -79,18 +79,17 @@ experiences:
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-
+      Most of these projects are from my Github respository. These projects help demostrate my knowledge in internet technology
+     by involving programming, database relations, and networking and hosting. 
+     
     assignments:
-      - title: Social Media Site
-        link: "Gelysium.com"
-        tagline: "A website that has features like account creation and email confirmation, friending, posting, and liking."
+      - title: Gelysium.com
+        link: "#"
+        tagline: "A social media website that has features like account creation and email confirmation, friending, posting, and liking."
 
       - title: Microreddit
         link: "#"
-        tagline: "Learned more about modeling relationships by interaction between the User, posts, and comments. "
+        tagline: "Involves modeling relationships by interaction between the User, posts, and comments. "
 
       - title: Etch-a-sketch
         link: "#"
@@ -106,19 +105,18 @@ skills:
 
     toolset:  
       - name: Microsoft Applications
-        level: 90%
+        level: 95%
         
       - name: HTML5 & CSS
         level: 90% 
         
-      - name: Tax accounting 
-        level: 85%  
+      - name: Tax Accounting 
+        level: 90%  
         
       - name: Ruby & Ruby on Rails
+        level: 85%
+
+      - name: Financial Analysis
         level: 80%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
 footer: >
  
