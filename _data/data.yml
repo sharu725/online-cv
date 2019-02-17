@@ -4,7 +4,7 @@
 
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Sean Gelb
@@ -51,9 +51,9 @@ education:
       university: Indiana University, Kelley School of Business
       time: 2017 - 2020
       details: |
-      - Hutton Honors College
-      - Hudson & Holland Scholar
-      - 2018 Founder’s Scholar  
+          - Hutton Honors College
+          - Hudson & Holland Scholar
+          - 2018 Founder’s Scholar  
 
 experiences:
     - role: Administrative Assistant                                 
