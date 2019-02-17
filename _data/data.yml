@@ -89,7 +89,7 @@ projects:
 
       - title: Microreddit
         link: "#"
-        tagline: "Involves modeling relationships by interaction between the User, posts, and comments. "
+        tagline: "Involves modeling relationships by interaction between the user, posts, and comments. "
 
       - title: Etch-a-sketch
         link: "#"
@@ -97,7 +97,7 @@ projects:
 
       - title: Chess
         link: "#"
-        tagline: "Programmed chess via command line with ruby"
+        tagline: "Programmed chess via command line with Ruby"
 
 
 skills:
