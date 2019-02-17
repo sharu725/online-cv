@@ -4,7 +4,7 @@
 
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Sean Gelb
@@ -47,7 +47,7 @@ career-profile:
       programming and Microsoft applications help make me diverse and aware.
 
 education:
-    - degree: 
+    - degree: BSc in Information Systems & Accounting
       university: Indiana University, Kelley School of Business
       time: 2017 - 2020
       details: |
