@@ -25,13 +25,13 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: French
+      - idiom: Français
         level: Natif
 
-      - idiom: English
+      - idiom: Anglais
         level: Professionnel
 
-      - idiom: German
+      - idiom: Allemand
         level: Debutant
 
       - idiom: Chineese
@@ -48,7 +48,7 @@ sidebar:
         link:
 
 career-profile:
-    title: Career Profile
+    title: Carreière
     summary: |
       Je suis passionné de technologie. Durant toute ma carrière, cette passion m'a mené de la téléphonie fixe au cloud, en passant par la téléphonie mobile, le développement d'applications cloud et mobile et la transformation de systèmes.
 
