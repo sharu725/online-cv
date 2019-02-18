@@ -25,16 +25,16 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: French
+      - idiom: Français
         level: Natif
 
-      - idiom: English
+      - idiom: Anglais
         level: Professionnel
 
-      - idiom: German
+      - idiom: Allemand
         level: Debutant
 
-      - idiom: Chineese
+      - idiom: Chinois
         level: Debutant
 
     interests:
@@ -48,7 +48,7 @@ sidebar:
         link:
 
 career-profile:
-    title: Career Profile
+    title: Carrière
     summary: |
       Je suis passionné de technologie. Durant toute ma carrière, cette passion m'a mené de la téléphonie fixe au cloud, en passant par la téléphonie mobile, le développement d'applications cloud et mobile et la transformation de systèmes.
 
@@ -103,39 +103,31 @@ education:
           - Telephony, GSM
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Chef de projets - Digital Services
+      time: 2017 - Aujourd'hui
+      company: Essilor International - France
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Mon role dans l'équipe est de mener les projets de transformation et délivrer les nouvelles fonctionalités aux clients. J'opère entre les équipes de développement et de test basées à Bangalore, les équipes de support niveau 2 à Manille et les équipes support niveau 3 basées à Bangkok.
 
-          - Bullet point
-          - Bullet point
+          - Gestion de projets, change management, transfert de compétences
+          - "Build-to-run" dans un environnement AWS, qualification
+          - Intégration des nouvelles fonctionalités, tests de perfomances et de robustesse
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Chef de projets Google Suite, Product Manager Micrsoft
+      time: 2014 - 2017
+      company: Essilor International, France
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        J'étais en charge de la gestion de projets de migration des solutions dites "legacy" vers des solutions Cloud. L'un de mes projets consistait à migrer des boites aux lettres de Microsoft Exchange vers GSuite et d'accompagner les collaborateurs vers les nouveaux usages de ce nouvel outil. J'ai ensuite eu l'opportunité de remplacer le système antivirus et antispam Postini vers Google Message Security. 
+        J'avais aussi la charge de l'évolution du "Master Windows 7 & Master Windows 10". Un master est un installeur automatisé permettant de transformer n'importe quel PC en un PC d'entreprise. Mon travail permettait de soulager les équipes de déploiement sur le terrain en automatisant toutes leurs actions.
 
-          - Bullet point
-          - Bullet point
+          - Gestion de projets cloud.
+          - Administration et migration de serveurs de messagerie, anti-spam, sécurité.
+          - Evolution de produits Microsoft Windows 7 & Windows 10.
+          - Administration d'un parc de 1500 utilisateurs de téléphonie mobile
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Chef de projets Google Suite 
+      time: 2011 - 2014
+      company: Paris, France
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
