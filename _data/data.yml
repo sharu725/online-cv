@@ -113,7 +113,7 @@ experiences:
           - "Build-to-run" dans un environnement AWS, qualification
           - Intégration des nouvelles fonctionalités, tests de perfomances et de robustesse
 
-    - role: Chef de projets Google Suite, Product Manager Micrsoft
+    - role: Chef de projets Google Suite, Product Manager Microsoft
       time: 2014 - 2017
       company: Essilor International, France
       details: |
@@ -122,49 +122,44 @@ experiences:
 
           - Gestion de projets cloud.
           - Administration et migration de serveurs de messagerie, anti-spam, sécurité.
-          - Evolution de produits Microsoft Windows 7 & Windows 10.
+          - Evolution de produits Microsoft Windows 7 & Windows 10, zéro touch.
           - Administration d'un parc de 1500 utilisateurs de téléphonie mobile
 
     - role: Chef de projets Google Suite 
       time: 2011 - 2014
-      company: Paris, France
+      company: gPartner (devenu Devoteam Group) - Paris, France
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        En qualité de consultant, mon role était d'accompagner mes clients dans leur projets de transformation des outils collaboratifs. Principalement, j'ai réussi plusieurs projets de déploiement et d'intégration des solutions GSuite ainsi que les tranferts de connaissances et de compétences aux équipes afin qu'elles puissent prendre le relai et amener plus loin le projet. Ma satisfaction a été de voir, bien avant la fin du projet, des nouveaux usages apparaitre au sein des communautés.
 
-          - Bullet point
-          - Bullet point
+          - Gestion de projets de transformation
+          - Expertise Cloud pour l'intégration
+          - Accompagnement et formation.
 
 projects:
-    title: Projects
+    title: Certifications
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      J'aime apprendre et m'améliorer au fil de ma carrière. Voici un aperçu des distinctions que j'ai reçues lors de cet apprentissage en continu.
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Google Apps Administrator
+        link: "#gsuite_admin"
+        tagline: "Cette spécialisation s'adresse aux administrateurs d'applications chargés du déploiement, de l'administration et de l'expansion des applications Google G Suite."
 
-      - title: DevStudio
+      - title: Google Apps Deployment Specialist
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "La certification Google Apps Certified Deployment Specialist certifie les professionnel de l'IT qui ont les compétences et les connaissances requises pour déployer, configurer et migrer vers la suite Google Apps for Work. La précedente certification est focalisée sur l'administration au quotidien de la solution cloud de Google."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Machine Learning
+        link: "https://www.coursera.org/account/accomplishments/verify/4W7PLMLUKFJB"
+        tagline: "Au cours de cet apprentissage, j'ai acquis des techniques pratiques trouver le modèle d'apprentissage automatique adapté à un problème. J'ai aussi acquis les compétences de développement necessaire pour avoir les premiers résultats d'apprentissage."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Introduction to Big Data
+        link: "https://www.coursera.org/account/accomplishments/verify/MQ7B8RBXL6FX"
+        tagline: "Ce cours de trois mois m'a permis d'apprehender l'univers des technologies Big Data et me rendre compte de la vélocité des données. J'ai eu la chance de travailler avec des outils puissants comme Splunk ainsi que des algorithmes de Map Reduce."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Neural Networks and Deep Learning
+        link: "https://www.coursera.org/account/accomplishments/verify/9NUUYUNEBTCA"
+        tagline: "Dans ce cours, j'ai acquis les connaissances dans le Deep Learning. Je comprends les principales tendances technologiques à l’origine du Deep Learning. Je suis capable de construire, former et appliquer des réseaux de neurones profonds entièrement connectés et mettre en oeuvre des réseaux de neurones efficaces et comment construire leur architecture."
 
 publications:
     title: Publications
@@ -187,26 +182,26 @@ publications:
         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Connaissance &amp; Maîtrise
 
     toolset:
-      - name: Python & Django
+      - name: Gestion de projets
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Expertise Cloud
         level: 98%
 
-      - name: Angular
-        level: 98%
+      - name: Developpement d'applications (Full Stack)
+        level: 80%
 
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
+      - name: Developpement outils d'administration système
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Deep Learning
+        level: 85%
+
+      - name: Big Data
+        level: 55%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
