@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -14,7 +14,7 @@ sidebar:
     # Sidebar links
     email: dinakaranonline@gmail.com
     website: dinakaran.dev #do not add http://
-    linkedin: dinakaranonline
+    linkedin: dinakaran-sankaranarayanan-3b73a79
     github: dinakaranonline
     gitlab:
     bitbucket:
@@ -38,14 +38,17 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-
-      
+      Architecting and  Building Transformative Digital  Solutions at the intersection of Web , Mobile , Content, Cloud Native architectures 
+      Container, Orchestration , Serverless, Mobile Backend As a Service( MBAAS) ,Extensive experience in all stages of SDLC life cycle and
+      has hands-on experience on product evaluation, architecture ,design and development roles as well as good exposure  in support and maintenance 
+      of large scale applications ,Proficient  in the technology stack of Java/J2EE Core Java , MVC - Struts, JSF , Webservices - SOAP and REST 
+      and JSR specifications,In-depth working knowledge of Portal / Web Content Management products like  WebSphere Portal/ Web Content Management/ 
+      Portlet Factory/ Enterprise Search, WebSphere Application Server. 
+       
+      Hands-on experience in modern web technologies like Angular , Ember, React, Bootstrap , Responsive Web Design, Ajax, JQuery-JSON . Architecting 
+      solutions on top of Google Firebase / Azure Mobile Apps and integration with cross platform applications using Xamarin and React Native
+      and API Gateways like Mulesoft / Apigee,Exposure to Business Domains like Banking , Insurance , Life Sciences , Retail and eCommerce,
+      Have fair amount of experience leveraging many of the components from  all 3 major cloud providers -  AWS , GCP and Azure 
 
 education:
     - degree: Bachelor of Mechanical Engineering
@@ -112,14 +115,20 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Java/J2EE
-        level: 98%
+      - name: Java/J2EE, Spring
+        level: 90%
 
-      - name: HTML5 & CSS, Javascript , Angular , Bootstrap
+      - name: HTML5 & CSS, Javascript,Bootstrap
         level: 70%
 
-      - name: Native Cloud Technologies - AWS , Google Cloud Plaform/Firebase , Azure 
+      - name: Angular, React, Ember
+        level: 70%  
+
+      - name: Public Cloud -AWS, GCP , Azure 
         level: 60%
+
+      - name: Container, Orchestration, CI-CD 
+        level: 50%
 
       
 footer: >
