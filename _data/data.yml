@@ -1,5 +1,5 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output. 
+# Be aware that even a small syntax error here can lead to failures in output.
 #
 
 sidebar:
@@ -7,41 +7,33 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Dinakaran Sankaranarayanan
+    tagline: Digital Solutions Architect
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: dinakaranonline@gmail.com
+    website: dinakaran.dev #do not add http://
+    linkedin: dinakaranonline
+    github: dinakaranonline
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@dks'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
-        level: Native
-
-      - idiom: French
         level: Professional
 
-      - idiom: Spanish
-        level: Professional
-        
     interests:
-      - item: Climbing
+      - item: Blogging
         link:
 
-      - item: Snowboarding
+      - item: Reading
         link:
 
-      - item: Cooking
-        link:
 
 career-profile:
     title: Career Profile
@@ -52,12 +44,40 @@ career-profile:
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
 
+      Architecting and  Building Transformative Digital  Solutions at the intersection of Web , Mobile , Content, Cloud Native architectures - Container, Orchestration , Serverless, Mobile Backend As a Service( MBAAS) 
+
+      Extensive experience in all stages of SDLC life cycle and has hands-on experience on product evaluation, architecture ,design and development roles as well as good exposure  in support and maintenance of large scale applications    
+
+      Proficient  in the technology stack of Java/J2EE Core Java , MVC - Struts, JSF , Webservices - SOAP and REST and JSR specifications. 
+
+      In-depth working knowledge of Portal / Web Content Management products like  WebSphere Portal/ Web Content Management/ Portlet Factory/ Enterprise Search, WebSphere Application Server. 
+
+      Hands-on experience in modern web technologies like Angular , Ember, React, Bootstrap , Responsive Web Design, Ajax, JQuery-JSON . 
+
+      Architecting solutions on top of Google Firebase / Azure Mobile Apps and integration with cross platform applications using Xamarin and React Native and API Gateways like Mulesoft / Apigee
+
+      Exposure to Business Domains like Banking , Insurance , Life Sciences , Retail and eCommerce 
+
+      Have fair amount of experience leveraging many of the components from  all 3 major cloud providers -  AWS , GCP and Azure . 
+
+      And  I CODE.  https://github.com/dinakaranonline
+
+      Career Progression 
+
+     1. Java/J2EE / Portal , Content Management (12 years , since 2006 ) 
+         
+     2. Front End Web Development Angular/Ember  ( 3 years , since 2017 )
+    
+     3. Cloud Native / MBAAS / Serverless / DevOps ( 1 year , since 2018 )  
+ 
+
       Second paragraph if required.
+      
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Bachelor of Mechanical Engineering
+      university: Anna University
+      time: 2002 - 2006
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -66,25 +86,13 @@ education:
         pretium quis, sem.
 
           - Bullet point
-          - Bullet point 
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
           - Bullet point
-          - Bullet point 
+
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Digital Solutions Architect
+      time: 2013 - Present
+      company: Cognizant Technology Solutions , Chennai
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -97,11 +105,11 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
 
           - Bullet point
-          - Bullet point 
+          - Bullet point
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Assistant Consultant
+      time: 2011 - 2013
+      company: Tata Consultancy Services , Chennai
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -112,9 +120,9 @@ experiences:
           - Bullet point
           - Bullet point
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Technology Analyst
+      time: 2006 - 2011
+      company: Infosys Limited, Chennai
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -125,75 +133,21 @@ experiences:
           - Bullet point
           - Bullet point
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Java/J2EE
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: HTML5 & CSS, Javascript , Angular , Bootstrap
+        level: 70%
 
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: Native Cloud Technologies - AWS , Google Cloud Plaform/Firebase , Azure 
         level: 60%
 
+      
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
