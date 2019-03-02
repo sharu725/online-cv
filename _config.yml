@@ -2,7 +2,7 @@
 
 # Site Settings
 title: My Resume
-url: 'http://webjeda.com'
+url: 'https://dinakaran.dev'
 baseurl: '/online-cv' #change it according to your repository name
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: blue # blue turquoise green berry orange ceramic
