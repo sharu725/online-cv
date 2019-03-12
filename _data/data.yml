@@ -3,46 +3,40 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
-
-    # Profile information
+    title: Anton Smirnov CV
+    url: 'https://github.com/vaskocuturilo/online-cv/'
+    about: False # set to False or comment line if you want to remove the "How to use?" in the sidebar
+ 
+ # Profile information
     name: Anton Smirnov
     tagline: QA Automation Engineer
     avatar: avatar.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    email: @gmail.com
+    linkedin: vaskocuturilo
+    github: vaskocuturilo
 
     languages:
-      - idiom: English
+      - idiom: Russian
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
+      - idiom: English
         level: Professional
 
     interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+      - interest:
+          item: Sport
+          link: https://metalistfitness.com.ua
+        - interest:
+          item: Travelling
+          link: https://www.instagram.com/vaskocuturilo
+        - interest:
+          item: Testing / Programming
+          link: https://github.com/vaskocuturilo
+        - interest:
+          item: Writing
+          link: https://leanpub.com/
 
 career-profile:
     title: Career Profile
@@ -55,32 +49,13 @@ career-profile:
 
       Second paragraph if required.
 
-education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+studies:
+    - education:
+      degree: Master’s degree in software engineering for computers and computer-ba sed systems.
+      university: Saint Petersburg State University
+      time: 2000 - 2005
+      details: "For these 6 years we covered: 5 programming languages, 7 mathematics, algorythms theory, optimization methods, system administration, etc."
+   
 
 experiences:
     - role: Lead Developer
@@ -176,25 +151,50 @@ publications:
 
 skills:
     title: Skills &amp; Proficiency
+    skills:
+        - skill:
+          name: Software Testing / Quality Assurance
+          level: 90%
+        - skill:
+          name: QA Automation
+          level: 90%
+        - skill:
+          name: Selenium / TestnNG / Allure
+          level: 95%
+        - skill:
+          name: JMeter / Gatling
+          level: 50%
+        - skill:
+          name: Java / OOP / Design Patterns
+          level: 80%
+        - skill:
+          name: Javascript / Typescript
+          level: 50%       
+        - skill:
+          name: Spring / Hibernate / Jersey
+          level: 55%
+        - skill:
+          name: Gradle / Maven
+          level: 90%
+        - skill:
+          name: MySQL / MS SQL, Oracle
+          level: 70%
+        - skill:
+          name: Git
+          level: 90%
+        - skill:
+          name: Jenkins
+          level: 90%
+        - skill:
+          name: Docker
+          level: 70%
+        - skill:
+          name: AWS / Google services
+          level: 40%          
+        - skill:
+          name: IoT
+          level: 30%
 
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
