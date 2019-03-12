@@ -13,7 +13,7 @@ sidebar:
     avatar: avatar.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: @gmail.com
+    email: test@gmail.com
     linkedin: vaskocuturilo
     github: vaskocuturilo
 
