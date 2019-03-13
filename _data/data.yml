@@ -158,23 +158,30 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
+        - name: Software Testing / Quality Assurance
+          level: 90%
+        - name: QA Automation
+          level: 90%
+        - name: Selenium /Selenide/ TestnNG / Allure
+          level: 95%
+        - name: JMeter / Gatling
+          level: 50%
+        - name: Java / OOP / Design Patterns
+          level: 80%
+        - name: Javascript / Typescript
+          level: 50%       
+        - name: Gradle / Maven
+          level: 90%
+        - name: MySQL / MS SQL, Oracle, InfluxDB
+          level: 70%
+        - name: Git
+          level: 90%
+        - name: Jenkins
+          level: 90%
+        - name: Docker
+          level: 70%
+        - name: AWS / Google services
+          level: 40%          
+          
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
