@@ -1,151 +1,125 @@
-﻿#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
-sidebar:
-    # Site Settings
-    title: Anton Smirnov CV
+﻿sidebar:
+    title: 'Anton Smirnov CV'
     url: 'https://github.com/vaskocuturilo/online-cv'
-    about: False # set to False or comment line if you want to remove the "How to use?" in the sidebar
-
-    # Profile information
-    name: Anton Smirnov
-    tagline: QA Automation Engineer
-    pic: avatar.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
-    # Sidebar links
+    about: false
+    name: 'Anton Smirnov'
+    tagline: 'QA Automation Engineer'
+    pic: avatar.png
     email: test@gmail.com
     linkedin: vaskocuturilo
     github: vaskocuturilo
-    
     languages:
-        - language:
-          idiom: Russian
-          level: Native
-        - language:
-          idiom: English
-          level: Advanced
-
+        -
+            language: null
+            idiom: Russian
+            level: Native
+        -
+            language: null
+            idiom: English
+            level: Advanced
     interests:
-        - interest:
-          item: Sport
-          link: https://metalistfitness.com.ua
-        - interest:
-          item: Travelling
-          link: https://www.instagram.com/vaskocuturilo
-        - interest:
-          item: Testing / Programming
-          link: https://github.com/vaskocuturilo
-        
-
-
-
-
-
+        -
+            interest: null
+            item: Sport
+            link: 'https://metalistfitness.com.ua'
+        -
+            interest: null
+            item: Travelling
+            link: 'https://www.instagram.com/vaskocuturilo'
+        -
+            interest: null
+            item: 'Testing / Programming'
+            link: 'https://github.com/vaskocuturilo'
 career-profile:
-    title: Career Profile
-    text: '<div><ul>
-            <li>9.5 years experience in Software Testing.</li>
-            <li>7.5 years experience in Test Automation.</li>
-            <li>Strong knowledge: Java 8, Selenium WebDriver / Grid / Selenoid, Appium, SikuliX, TestNG, Allure, Jenkins, Git, Docker, REST, SQL.</li>
-            <li>Experience in creating test automation frameworks / raising up automation infrastructure from scratch.</li>
-            <li>ISTQB certified tester.</li>
-            <li>Contributing to <a href="https://github.com/atinfo/at.info-knowledge-base">AT-INFO</a>, <a href="https://github.com/allure-framework">Allure</a>, <a href="https://github.com/cbeust/testng">TestNG</a>, <a href="https://github.com/webdriverio/webdriverio">WebdriverIO</a>, <a href="https://github.com/allure-framework/allure-js">Allure-JS</a></li>
-            <li><a href="https://github.com/sskorol">GitHub</a> profile</li>
-            <li><a href="https://stackoverflow.com/users/8461668/sergey-korol">StackOverflow</a> profile</li>
-            <li>Moderating and posting at <a href="http://automated-testing.info/users/artoflife/activity">AT-INFO</a></li>
-            <li>Google <a href="http://qa-automation-notes.blogspot.com">blogger</a></li>
-            <li>GitHub <a href="https://sskorol.github.io">blogger</a></li>
-            <li>Software Development <a href="http://sdclabs.com">consulting service</a></li>
-            <li><a href="http://seleniumcamp.com/talk/effective-ui-tests-scaling-on-java">SeleniumCamp 16</a> speaker</li>
-            <li><a href="http://seleniumcamp.com/talk/how-java-8-can-simplify-test-automation">SeleniumCamp 17</a> speaker</li>
-            <li><a href="https://seleniumcamp.com/talk/the-essential-tools-for-test-code-quality-improvement">SeleniumCamp 18</a> speaker</li>
-            <li><a href="https://youtu.be/GOT2CJ54QaM">QAFest 18</a> speaker</li>            
-          </ul></div>
-
-            <div>Started career as a manual QA. Have passed a long way from Junior up to Test Lead position. Have 5+ years experience in a management of test teams up to 5 members for projects of different complexity. Since 2012 have been fully concentrated on software test automation (mostly web direction). Developed several selenium-driven frameworks with successful usage experience on big projects.</div><br>
-            <div>Consulting and mentoring automation engineers within local / customers teams and via external consulting services. Providing internal QAA trainings. Actively participating in code review processes. Continuously improving skills in Java / JS and latest web automation trends. Tech talks / conferences speaker. QAA blogger.</div><br>
-            <div>Strong experience in testing of large scale, highly available / specific private B2C / B2B applications including Internet shops, jobs / health & care sites, cloud payment solutions, financial and secret government applications, etc.</div><br>
-            <div>Strong knowledge of software testing fundamentals, testing throughout the software life cycle, test design techniques, test management and tool support for testing.</div>'
-
-
+    title: 'Career Profile'
+    text: "<div><ul>\n<li>9.5 years experience in Software Testing.</li>\n<li>7.5 years experience in Test Automation.</li>\n<li>Strong knowledge: Java 8, Selenium WebDriver / Grid / Selenoid, Appium, SikuliX, TestNG, Allure, Jenkins, Git, Docker, REST, SQL.</li>\n<li>Experience in creating test automation frameworks / raising up automation infrastructure from scratch.</li>\n<li>ISTQB certified tester.</li>\n<li>Contributing to <a href=\"https://github.com/atinfo/at.info-knowledge-base\">AT-INFO</a>, <a href=\"https://github.com/allure-framework\">Allure</a>, <a href=\"https://github.com/cbeust/testng\">TestNG</a>, <a href=\"https://github.com/webdriverio/webdriverio\">WebdriverIO</a>, <a href=\"https://github.com/allure-framework/allure-js\">Allure-JS</a></li>\n<li><a href=\"https://github.com/sskorol\">GitHub</a> profile</li>\n<li><a href=\"https://stackoverflow.com/users/8461668/sergey-korol\">StackOverflow</a> profile</li>\n<li>Moderating and posting at <a href=\"http://automated-testing.info/users/artoflife/activity\">AT-INFO</a></li>\n<li>Google <a href=\"http://qa-automation-notes.blogspot.com\">blogger</a></li>\n<li>GitHub <a href=\"https://sskorol.github.io\">blogger</a></li>\n<li>Software Development <a href=\"http://sdclabs.com\">consulting service</a></li>\n<li><a href=\"http://seleniumcamp.com/talk/effective-ui-tests-scaling-on-java\">SeleniumCamp 16</a> speaker</li>\n<li><a href=\"http://seleniumcamp.com/talk/how-java-8-can-simplify-test-automation\">SeleniumCamp 17</a> speaker</li>\n<li><a href=\"https://seleniumcamp.com/talk/the-essential-tools-for-test-code-quality-improvement\">SeleniumCamp 18</a> speaker</li>\n<li><a href=\"https://youtu.be/GOT2CJ54QaM\">QAFest 18</a> speaker</li>\n</ul></div>\n\n<div>Started career as a manual QA. Have passed a long way from Junior up to Test Lead position. Have 5+ years experience in a management of test teams up to 5 members for projects of different complexity. Since 2012 have been fully concentrated on software test automation (mostly web direction). Developed several selenium-driven frameworks with successful usage experience on big projects.</div><br>\n<div>Consulting and mentoring automation engineers within local / customers teams and via external consulting services. Providing internal QAA trainings. Actively participating in code review processes. Continuously improving skills in Java / JS and latest web automation trends. Tech talks / conferences speaker. QAA blogger.</div><br>\n<div>Strong experience in testing of large scale, highly available / specific private B2C / B2B applications including Internet shops, jobs / health & care sites, cloud payment solutions, financial and secret government applications, etc.</div><br>\n<div>Strong knowledge of software testing fundamentals, testing throughout the software life cycle, test design techniques, test management and tool support for testing.</div>"
 studies:
-    - education:
-      degree: MSc in System Analysis and Management
-      university: National Technical University "Kharkiv Polytechnic Institute"
-      time: 2000 - 2005
-      details: "For these 6 years we covered: 5 programming languages, 7 mathematics, algorythms theory, optimization methods, system administration, etc."
-
-
+    -
+        education: null
+        degree: 'MSc in System Analysis and Management'
+        university: 'National Technical University "Kharkiv Polytechnic Institute"'
+        time: '2000 - 2005'
+        details: 'For these 6 years we covered: 5 programming languages, 7 mathematics, algorythms theory, optimization methods, system administration, etc.'
 projects:
     title: Projects
-    intro: "Here you can find a list of open source and commercial projects I've been working on for the past 5 years. Please note that commercial projects names are not real due to NDA."
-
+    intro: 'Here you can find a list of open source and commercial projects I''ve been working on for the past 5 years. Please note that commercial projects names are not real due to NDA.'
     projects:
-      - project:
-        title: Smart Assistant
-        link: "#"
-        tagline: "Voice assistant / chat bot, managed by different Google services: Speech / Functions API, SQL Cloud, Kubernetes, etc."    
-      - project:
-        title: HyperDynamic (HD) platform
-        link: "#"
-        tagline: "HD platform presents NVM Express (NVMe) storage to compute nodes over high-speed storage fabrics. 
-                  HD software can virtualize hundreds of NVM drives and present them as a single volume—similar to a high performance storage array, 
-                  or it can map an individual compute node to an individual drive—similar to a direct-storage access system."
-     
-
+        -
+            project: null
+            title: 'Smart Assistant'
+            link: '#'
+            tagline: 'Voice assistant / chat bot, managed by different Google services: Speech / Functions API, SQL Cloud, Kubernetes, etc.'
+        -
+            project: null
+            title: 'HyperDynamic (HD) platform'
+            link: '#'
+            tagline: "HD platform presents NVM Express (NVMe) storage to compute nodes over high-speed storage fabrics.\nHD software can virtualize hundreds of NVM drives and present them as a single volume—similar to a high performance storage array,\nor it can map an individual compute node to an individual drive—similar to a direct-storage access system."
 skills:
-    title: Skills &amp; Proficiency
+    title: 'Skills &amp; Proficiency'
     skills:
-        - skill:
-          name: Software Testing / Quality Assurance
-          level: 90%
-        - skill:
-          name: QA Automation
-          level: 90%
-        - skill:
-          name: Selenium / TestnNG / Allure
-          level: 95%
-        - skill:
-          name: Mocha / Chai / WebDriverIO
-          level: 70%
-        - skill:
-          name: Appium
-          level: 70%
-        - skill:
-          name: JMeter / Gatling
-          level: 50%
-        - skill:
-          name: Java / OOP / Design Patterns
-          level: 80%
-        - skill:
-          name: Javascript / Typescript
-          level: 50%       
-        - skill:
-          name: Spring / Hibernate / Jersey
-          level: 55%
-        - skill:
-          name: Gradle / Maven
-          level: 90%
-        - skill:
-          name: MySQL / MS SQL, Oracle, InfluxDB
-          level: 70%
-        - skill:
-          name: Git
-          level: 90%
-        - skill:
-          name: Jenkins
-          level: 90%
-        - skill:
-          name: Docker
-          level: 70%
-        - skill:
-          name: AWS / Google services
-          level: 40%          
-        - skill:
-          name: IoT
-          level: 30%
-
-
+        -
+            skill: null
+            name: 'Software Testing / Quality Assurance'
+            level: 90%
+        -
+            skill: null
+            name: 'QA Automation'
+            level: 90%
+        -
+            skill: null
+            name: 'Selenium / TestnNG / Allure'
+            level: 95%
+        -
+            skill: null
+            name: 'Mocha / Chai / WebDriverIO'
+            level: 70%
+        -
+            skill: null
+            name: Appium
+            level: 70%
+        -
+            skill: null
+            name: 'JMeter / Gatling'
+            level: 50%
+        -
+            skill: null
+            name: 'Java / OOP / Design Patterns'
+            level: 80%
+        -
+            skill: null
+            name: 'Javascript / Typescript'
+            level: 50%
+        -
+            skill: null
+            name: 'Spring / Hibernate / Jersey'
+            level: 55%
+        -
+            skill: null
+            name: 'Gradle / Maven'
+            level: 90%
+        -
+            skill: null
+            name: 'MySQL / MS SQL, Oracle, InfluxDB'
+            level: 70%
+        -
+            skill: null
+            name: Git
+            level: 90%
+        -
+            skill: null
+            name: Jenkins
+            level: 90%
+        -
+            skill: null
+            name: Docker
+            level: 70%
+        -
+            skill: null
+            name: 'AWS / Google services'
+            level: 40%
+        -
+            skill: null
+            name: IoT
+            level: 30%
 footer:
     text: 'Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> for developers'
