@@ -5,10 +5,7 @@
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
-    title: Anton Smirnov CV
-    url: 'https://github.com/vaskocuturilo/online-cv/'
 
- 
  # Profile information
     name: Anton Smirnov
     tagline: QA Automation Engineer
