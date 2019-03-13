@@ -153,16 +153,22 @@ publications:
 
 skills:
     title: Skills &amp; Proficiency
-    toolset:
+    skills:
+        - skill:
           name: Software Testing / Quality Assurance
           level: 90%
-       
-       - skill:
+        - skill:
           name: QA Automation
           level: 90%
         - skill:
           name: Selenium / TestnNG / Allure
           level: 95%
+        - skill:
+          name: Mocha / Chai / WebDriverIO
+          level: 70%
+        - skill:
+          name: Appium
+          level: 70%
         - skill:
           name: JMeter / Gatling
           level: 50%
@@ -179,7 +185,7 @@ skills:
           name: Gradle / Maven
           level: 90%
         - skill:
-          name: MySQL / MS SQL, Oracle
+          name: MySQL / MS SQL, Oracle, InfluxDB
           level: 70%
         - skill:
           name: Git
