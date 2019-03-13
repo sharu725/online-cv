@@ -20,26 +20,31 @@ sidebar:
     github: vaskocuturilo
 
     languages:
-      - idiom: Russian
-        level: Native
+        - language:
+          idiom: Ukrainian
+          level: Native
+          
+        - language:
+          idiom: Russian
+          level: Native
+          
+        - language:
+          idiom: English
+          level: Advanced
 
-      - idiom: English
-        level: Professional
-
-    interests:
-    - interest:
+   interests:
+        - interest:
           item: Sport
           link: https://metalistfitness.com.ua
           
+        - interest:
           item: Travelling
           link: https://www.instagram.com/vaskocuturilo
           
+        - interest:
           item: Testing / Programming
           link: https://github.com/vaskocuturilo
-          
-          item: Writing
-          link: https://leanpub.com/
-
+       
 career-profile:
     title: Career Profile
     summary: |
