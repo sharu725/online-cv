@@ -28,11 +28,15 @@ sidebar:
         level: Intermediate
         
     interests:
-        - item: Travelling
-          link: https://www.instagram.com/vaskocuturilo
+        - item: Publications
+          link: https://leanpub.com/
         
         - item: Testing / Programming
           link: https://github.com/vaskocuturilo
+          
+        - item: Travelling
+          link: https://www.instagram.com/vaskocuturilo
+        
         
 career-profile:
     title: Career Profile
