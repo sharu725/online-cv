@@ -37,14 +37,23 @@ sidebar:
         
 career-profile:
     title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+    summary: '<div><ul>
+            <li>9 years experience in Software Testing.</li>
+            <li>3 years experience in Test Automation.</li>
+            <li>Strong knowledge: Java 8, Selenium WebDriver /Selenoid, TestNG, Allure, Jenkins, Git, Docker, REST, SQL.</li>
+            <li>Experience in creating test automation frameworks / raising up automation infrastructure from scratch.</li>
+            <li>ISTQB certified tester.</li>
+            <li><a href="https://github.com/vaskocuturilo">GitHub</a> profile</li>
+            <li>Google <a href="http://qa-automation-notes.blogspot.com">blogger</a></li>
+            </ul></div>
+            <div>Started career as a manual QA. Have passed a long way from Junior up to Test Lead position. 
+            Have 5+ years experience in a management of test teams up to 5 members for projects of different complexity. 
+            Since 2012 have been fully concentrated on software test automation (mostly web direction). 
+            Developed several selenium-driven frameworks with successful usage experience on big projects.</div><br>
+            <div>Consulting and mentoring automation engineers within local / customers teams and via external consulting services. 
+            Providing internal QAA trainings. Actively participating in code review processes. 
+            Continuously improving skills in Java / JS and latest web automation trends. </div><br>
+            <div>Strong knowledge of software testing fundamentals, testing throughout the software life cycle, test design techniques, test management and tool support for testing.</div>'
 
 
 education:
