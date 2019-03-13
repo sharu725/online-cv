@@ -3,8 +3,8 @@
 #
 
 sidebar:
-    # Title information
-    
+
+    # Site Settings
     title: Anton Smirnov CV
     url: 'https://github.com/vaskocuturilo/online-cv'
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
