@@ -25,16 +25,15 @@ sidebar:
         level: Professional
 
     interests:
-      - interest:
           item: Sport
           link: https://metalistfitness.com.ua
-        - interest:
+          
           item: Travelling
           link: https://www.instagram.com/vaskocuturilo
-        - interest:
+          
           item: Testing / Programming
           link: https://github.com/vaskocuturilo
-        - interest:
+          
           item: Writing
           link: https://leanpub.com/
 
