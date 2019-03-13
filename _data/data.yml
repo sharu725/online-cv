@@ -93,7 +93,32 @@ projects:
       - title: Gosuslugi
         link: "https://www.gosuslugi.ru/"
         tagline: "Portal of public services of the Russian Federation"
-
+        
+      - title: Farecompare
+        link: "https://www.farecompare.com/"
+        tagline: "Flight Comparison, Compare Flight Prices & Airline Tickets - FareCompare"
+       
+      - title: Smava Ihr Kredit ist da.
+        link: "https://www.smava.de/"
+        tagline: "SMAVA Online-Kreditvergleich | unabhängig und kundenorientiert"
+        
+      - title: Uniland
+        link: "https://www.uniland.ru/"
+        tagline: "Uniland online store"
+        
+      - title: Your Md
+        link: "http://yourmd.ru/"
+        tagline: "Medical center"
+        
+      - title: Uralsib
+        link: "http://www.uralsib.ru/"
+        tagline: "URALSIB Bank is one of the largest universal banks of the Federal level"
+        
+      - title: Ministry of Energy
+        link: "https://minenergo.gov.ru/"
+        tagline: "Ministry of energy"
+        
+        
 publications:
     title: Publications
     intro: "Here you can find a list of articles and books I've been working on for the past 2 year."
