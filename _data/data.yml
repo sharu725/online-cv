@@ -29,15 +29,12 @@ sidebar:
         level: Professional
         
     interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
-
+        - item: Travelling
+          link: https://www.instagram.com/vaskocuturilo
+        
+        - item: Testing / Programming
+          link: https://github.com/vaskocuturilo
+        
 career-profile:
     title: Career Profile
     summary: |
