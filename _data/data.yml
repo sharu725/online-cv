@@ -108,10 +108,9 @@ experiences:
 
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    intro: "Here you can find a list of commercial projects I've been working on for the past 5 years. 
+    Please note that commercial projects names are not real due to NDA."
+
 
     assignments:
       - title: Velocity
@@ -136,23 +135,20 @@ projects:
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    intro: "Here you can find a list of articles and books I've been working on for the past 2 year."
 
     papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "Starting automation testing from scratch"
+        authors: Anton Smirnov
+        conference: "Leanpub, 2018"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Page Object Model"
+        authors: Anton Smirnov
+        conference: "test-engineer.site., (2018)"
 
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "Test automation strategy"
+        authors: Anton Smirnov
+        conference: "test-engineer.site., (2017)"
 
 skills:
     title: Skills &amp; Proficiency
