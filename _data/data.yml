@@ -153,11 +153,11 @@ publications:
 
 skills:
     title: Skills &amp; Proficiency
-    skills:
-        - skill:
+    toolset:
           name: Software Testing / Quality Assurance
           level: 90%
-        - skill:
+       
+       - skill:
           name: QA Automation
           level: 90%
         - skill:
