@@ -39,8 +39,8 @@ sidebar:
       - item: Photography
         link: https://www.instagram.com/ahmadsum1/
 
-      - item: Cooking
-        link:
+      #- item: Cooking
+      #  link:
 
 career-profile:
     title: Career Profile
