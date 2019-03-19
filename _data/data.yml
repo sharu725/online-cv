@@ -57,27 +57,26 @@ education:
       university: BRAC University
       time: 2014 - 2018
       details: |
-        **CGPA: 3.22/4.00**
-        **Major**: Electronics & Computer
-        **Minor**: Computer Science
+        <b>CGPA: 3.22/4.00</b>
+        <b>Major</b>: Electronics & Computer
+        <b>Minor</b>: Computer Science
 
-          - Thesis: *“Underwater Data Collection Using an Autonomous Float-Back Sub”* 
-          (achieved &nbsp **GPA 4.00/4.00**)
-          - High marks in Lab courses: **GPA 3.7~4.0** in most *(11/13)* Laboratory courses.
+          - Thesis: <i>“Underwater Data Collection Using an Autonomous Float-Back Sub”</i> 
+          (achieved <b>GPA 4.00/4.00</b>)
+          - High marks in Lab courses: <b>GPA 3.7~4.0</b> in most (*11/13*) Laboratory courses.
 
     - degree: Higher Secondary Certificate
-      college: Govt. Ananda Mohan College
+      university: Govt. Ananda Mohan College
       time: April 2013
       details: |
-        <b>GPA:5.00/5.00</b>
+        <b>GPA: 5.00/5.00</b>
 
-          # - Bullet point
-          # - Bullet point
+        
     - degree: Secondary School Certificate
-      college: Mymensingh Zilla School 
+      university: Mymensingh Zilla School 
       time: March 2011
       details: |
-        **GPA: 5.00/5.00**
+        <b>GPA: 5.00/5.00</b>
 
 experiences:
     - role: Lead Developer
@@ -154,9 +153,7 @@ projects:
 publications:
     title: Publications
     intro: |
-      # You can list your publications in this section. Lorem ipsum dolor sit
-      # amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      # bibendum fringilla a eu lectus.
+
 
     papers:
       - title: IoT Based Real Time Noise Mapping System for Urban Sound Pollution Study
