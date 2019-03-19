@@ -57,21 +57,26 @@ education:
       university: BRAC University
       time: 2014 - 2018
       details: |
-        CGPA: 3.22/4.00
-        <b>Major</b>: Electronics, Computer
-        <b>Minor</b>: Computer Science
+        <b>CGPA: 3.22/4.00</b>
+        <b>Major</b>: Electronics & Computer
+        <b> Minor</b>: Computer Science
 
-          - Thesis: “<i>Underwater Data Collection Using an Autonomous Float-Back Sub</i>” (achieved GPA 4.00/4.00)
-          - High marks in Lab courses: GPA 3.7~4.0 in most (11/13) Laboratory courses.
+          - Thesis: “<i>Underwater Data Collection Using an Autonomous Float-Back Sub</i>” (achieved <b>GPA 4.00/4.00</b>)
+          - High marks in Lab courses: <b>GPA 3.7~4.0</b> in most <i>(11/13)</i> Laboratory courses.
 
-    - degree: Higher Secondary Certificate (Science)
+    - degree: Higher Secondary Certificate
       college: Govt. Ananda Mohan College
-      time: 2011 - 2013
+      time: April 2013
       details: |
         GPA: 5.00/5.00
 
-          - Bullet point
-          - Bullet point
+          # - Bullet point
+          # - Bullet point
+    - degree: Secondary School Certificate
+      college: Mymensingh Zilla School 
+      time: March 2011
+      details: |
+        GPA: 5.00/5.00
 
 experiences:
     - role: Lead Developer
