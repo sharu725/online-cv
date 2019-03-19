@@ -57,11 +57,8 @@ education:
       university: BRAC University
       time: JANUARY 2014 - DECEMBER 2018
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        CGPA: 3.22/4.00
+        Major: Electronics
 
           - Bullet point
           - Bullet point
@@ -70,8 +67,11 @@ education:
       College: Govt. Ananda Mohan College
       time: 2011 - 2013
       details: |
-        CGPA: 3.22/4.00
-        Major: Electronics
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
 
           - Bullet point
           - Bullet point
