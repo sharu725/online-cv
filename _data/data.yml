@@ -55,23 +55,20 @@ career-profile:
 education:
     - degree: BSc in Electrical and Electronic Engineering
       university: BRAC University
-      time: JANUARY 2014 - DECEMBER 2018
+      time: 2014 - 2018
       details: |
         CGPA: 3.22/4.00
-        Major: Electronics
+        <b>Major</b>: Electronics, Computer
+        <b>Minor</b>: Computer Science
 
-          - Bullet point
-          - Bullet point
+          - Thesis: “<i>Underwater Data Collection Using an Autonomous Float-Back Sub</i>” (achieved GPA 4.00/4.00)
+          - High marks in Lab courses: GPA 3.7~4.0 in 11 of 13 Laboratory courses.
 
     - degree: Higher Secondary Certificate (Science)
       College: Govt. Ananda Mohan College
       time: 2011 - 2013
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        GPA: 5.00/5.00
 
           - Bullet point
           - Bullet point
@@ -151,38 +148,38 @@ projects:
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      # You can list your publications in this section. Lorem ipsum dolor sit
+      # amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      # bibendum fringilla a eu lectus.
 
     papers:
       - title: IoT Based Real Time Noise Mapping System for Urban Sound Pollution Study
         authors: Sakib Ahmed, Touseef Saleh Bin Ahmed, Sumaiya Jafreen, Jannatul Tajrin
         conference: ICIEV and icIVPR, 2018
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      # - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      #   authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+      #   conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      # - title: A syntax directed compiler for Algol 60
+      #   authors: Edgar T. Irons
+      #   conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Java, C/C++
+        level: 70%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Arduino, Embedded Systems, Interfacing
+        level: 93%
 
-      - name: Angular
-        level: 98%
+      - name: Python, MATLAB
+        level: 60%
 
-      - name: Autodesk Eagle
-        level: 90%
+      - name: Autodesk Eagle & Proteus Electronic simulation and design suit
+        level: 93%
 
       - name: Autodesk Fusion360
         level: 75%
