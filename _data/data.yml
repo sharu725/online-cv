@@ -4,7 +4,7 @@
 
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False #True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Sakib Ahmed
@@ -13,7 +13,7 @@ sidebar:
 
     # Sidebar links
     email: sakib.bracueee@gmail.com
-    phone: +8801677064031
+    phone: +8801677064031, +8801759848889
     website: ahmadsum1.github.io/home #do not add http://
     linkedin: sakibahmedsumdany
     github: ahmadsum1
@@ -53,7 +53,7 @@ career-profile:
 education:
     - degree: BSc in Electrical and Electronic Engineering
       university: BRAC University
-      time: 2014 - 2018
+      time: JANUARY 2014 - DECEMBER 2018
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
