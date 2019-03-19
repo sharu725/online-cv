@@ -49,6 +49,18 @@
     </li>
     {% endif %}
 
+    {% if sidebar.facebook %}
+    <li class="facebook"><i class="fab fa-facebook"></i>
+      <a href="https://facebook.com/{{ sidebar.facebook }}" target="_blank">{{ sidebar.facebook }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.instagram %}
+    <li class="instagram"><i class="fab fa-instagram"></i>
+      <a href="https://instagram.com/{{ sidebar.instagram }}" target="_blank">{{ sidebar.instagram }}</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.stack-overflow %}
     <li class="stack-overflow"><i class="fab fa-stack-overflow"></i>
       <a href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }}" target="_blank">{{ sidebar.stack-overflow }}</a>
