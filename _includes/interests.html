@@ -10,7 +10,7 @@
     {% for interest in interests %}
 
       {% if interest.link %}
-      <li><a href="{{ interest.link }}">{{ interest.item }}</a></li>
+      <li><a href="{{ interest.link }}" target="_blank">{{ interest.item }}</a></li>
       {% else %}
       <li>{{ interest.item }}</li>
       {% endif %}
