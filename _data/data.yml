@@ -57,7 +57,7 @@ education:
       university: BRAC University
       time: 2014 - 2018
       details: |
-        **CGPA: 3.22/4.00**   |     **Major**: Electronics & Computer    |    **Minor**: Computer Science
+        **CGPA: 3.22/4.00**   ||     **Major**: Electronics & Computer    ||    **Minor**: Computer Science
 
           - Thesis: <i>“Underwater Data Collection Using an Autonomous Float-Back Sub”</i> 
           (achieved <b>GPA 4.00/4.00</b>)
