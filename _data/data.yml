@@ -56,10 +56,9 @@ education:
     - degree: BSc in Electrical and Electronic Engineering
       university: BRAC University
       time: 2014 - 2018
+      CGPA: 3.22/4.00
       details: |
-        <b>CGPA: 3.22/4.00</b>
-        <b>Major</b>: Electronics & Computer
-        <b>Minor</b>: Computer Science
+        <b>Major</b>: Electronics & Computer | <b>Minor</b>: Computer Science
 
           - Thesis: <i>“Underwater Data Collection Using an Autonomous Float-Back Sub”</i> 
           (achieved <b>GPA 4.00/4.00</b>)
@@ -68,15 +67,15 @@ education:
     - degree: Higher Secondary Certificate
       university: Govt. Ananda Mohan College
       time: April 2013
+      GPA: 5.00/5.00
       details: |
-        <b>GPA: 5.00/5.00</b>
 
         
     - degree: Secondary School Certificate
       university: Mymensingh Zilla School 
       time: March 2011
+      GPA: 5.00/5.00
       details: |
-        <b>GPA: 5.00/5.00</b>
 
 experiences:
     - role: Lead Developer
