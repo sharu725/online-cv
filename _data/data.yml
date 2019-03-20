@@ -127,17 +127,31 @@ publications:
     intro: "Here you can find a list of articles and books I've been working on for the past 2 year."
 
     papers:
+    
+      - title: "Creating Test Framework from scratch"
+        authors: Anton Smirnov
+        conference: "Leanpub, 2019"
+      
       - title: "Starting automation testing from scratch"
         authors: Anton Smirnov
         conference: "Leanpub, 2018"
 
-      - title: "Page Object Model"
+      - title: "Do you think QA Automation Department is a separate team?"
         authors: Anton Smirnov
-        conference: "test-engineer.site., (2018)"
+        conference: "test-engineer.info, (2019)"
+      
+    - title: "Page Object Model"
+        authors: Anton Smirnov
+        conference: "test-engineer.info, (2018)"
 
       - title: "Test automation strategy"
         authors: Anton Smirnov
-        conference: "test-engineer.site., (2017)"
+        conference: "test-engineer.info, (2017)"
+        
+     - title: "Job search as QA Automation Engineer"
+        authors: Anton Smirnov
+        conference: "Habr, 2017"
+    
 
 skills:
     title: Skills &amp; Proficiency
