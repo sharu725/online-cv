@@ -127,7 +127,6 @@ publications:
     intro: "Here you can find a list of articles and books I've been working on for the past 2 year."
 
     papers:
-    
       - title: "Creating Test Framework from scratch"
         authors: Anton Smirnov
         conference: "Leanpub, 2019"
@@ -140,11 +139,11 @@ publications:
         authors: Anton Smirnov
         conference: "test-engineer.info, (2019)"
       
-    - title: "Page Object Model"
+     - title: "Page Object Model"
         authors: Anton Smirnov
         conference: "test-engineer.info, (2018)"
 
-      - title: "Test automation strategy"
+     - title: "Test automation strategy"
         authors: Anton Smirnov
         conference: "test-engineer.info, (2017)"
         
