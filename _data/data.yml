@@ -123,7 +123,6 @@ projects:
         
         
 publications:
-
     title: Publications
     intro: "Here you can find a list of articles and books I've been working on for the past 2 year."
 
@@ -140,18 +139,7 @@ publications:
         authors: Anton Smirnov
         conference: "test-engineer.info, (2019)"
       
-     - title: "Page Object Model"
-        authors: Anton Smirnov
-        conference: "test-engineer.info, (2018)"
-
-     - title: "Test automation strategy"
-        authors: Anton Smirnov
-        conference: "test-engineer.info, (2017)"
-        
-     - title: "Job search as QA Automation Engineer"
-        authors: Anton Smirnov
-        conference: "Habr, 2017"
-    
+     
 skills:
     title: Skills &amp; Proficiency
 
