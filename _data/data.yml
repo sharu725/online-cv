@@ -42,7 +42,7 @@ career-profile:
     title: Career Profile
     summary: '<div><ul>
             
-            <li>9+ years overall experience in IT field</li>
+            <li>9+ years overall experience in IT field.</li>
             <li>3+ years experience in Software Testing.</li>
             <li>2+ years experience in Test Automation.</li>
             <li>Strong knowledge: Java 8, Selenium WebDriver / Selenide, Selenoid, TestNG, Allure, Jenkins, Git, Docker, REST, SQL.</li>
@@ -101,7 +101,7 @@ projects:
         link: "https://www.farecompare.com/"
         tagline: "Flight Comparison, Compare Flight Prices & Airline Tickets - FareCompare"
        
-      - title: Smava Ihr Kredit ist da.
+      - title: Smava Ihr Kredit ist da
         link: "https://www.smava.de/"
         tagline: "SMAVA Online-Kreditvergleich | unabhängig und kundenorientiert"
         
