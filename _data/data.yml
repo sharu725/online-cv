@@ -11,7 +11,7 @@ sidebar:
 
     # Profile information
     name: Anton Smirnov
-    tagline: QA Automation Engineer
+    tagline: Automation Engineer
     avatar: avatar.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -51,7 +51,7 @@ career-profile:
             <li><a href="https://github.com/vaskocuturilo">GitHub</a> profile</li>
             <li>IT <a href="http://test-engineer.site/">blogger</a></li>
             </ul></div>
-            <div>Started career as a manual tester. Have passed a long way from Junior  up to QA Lead position. 
+            <div>I started career as a manual tester and have passed a long way from junior  up to qa lead position. 
             Since 2016 have been fully concentrated on software test automation (mostly web direction). 
             Developed several selenium-driven frameworks with successful usage experience on big projects.</div><br>Consulting and mentoring automation engineers within local teams. 
             Actively participating in code review processes. Continuously improving skills in Java / JS and latest web automation trends.
@@ -63,7 +63,7 @@ education:
     - degree: Master ’ s degree in software engineering for computers and computer based systems.
       university: Saint Petersburg State University
       time: 2000 - 2005
-      details: "For these 6 years we covered: 5 programming languages, 7 mathematics, algorythms theory, optimization methods, system administration, etc."
+      details: "For these 5 years we covered: 4 programming languages, 7 mathematics, algorythms theory, optimization methods, system administration, etc."
       
       
 experiences:
@@ -73,7 +73,7 @@ experiences:
       details: 
 
     - role: Senior QA Automation Engineer
-      time: 2017 - 2018
+      time: 2018 - 2019
       company: Gosuslugi, Moscow
       details: 
 
@@ -127,7 +127,7 @@ publications:
     intro: "Here you can find a list of articles and books I've been working on for the past 2 year."
 
     papers:
-      - title: "Creating Test Framework from scratch"
+      - title: "How build test automation framework from scratch"
         authors: Anton Smirnov
         conference: "Leanpub, 2019"
       
