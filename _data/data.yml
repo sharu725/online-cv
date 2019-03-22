@@ -127,15 +127,15 @@ publications:
     intro: "Here you can find a list of articles and books I've been working on for the past 2 year."
 
     papers:
-      - title: "How build test automation framework from scratch"
+      - title: "How build test automation framework from scratch."
         authors: Anton Smirnov
         conference: "Leanpub, 2019"
       
-      - title: "Starting automation testing from scratch"
+      - title: "Starting automation testing from scratch."
         authors: Anton Smirnov
         conference: "Leanpub, 2018"
 
-      - title: "Do you think QA Automation Department is a separate team?"
+      - title: "Do you think qa automation department is a separate team?"
         authors: Anton Smirnov
         conference: "test-engineer.info, (2019)"
       
