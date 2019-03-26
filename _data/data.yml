@@ -1,6 +1,4 @@
----
-pdf: true
----
+
 
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
