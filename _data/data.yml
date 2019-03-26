@@ -28,20 +28,20 @@ sidebar:
       - idiom: English
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: German
+        level: Basic
 
     interests:
-      - item: Climbing
+      - item: Kayaking
         link:
 
-      - item: Snowboarding
+      - item: Running
         link:
 
-      - item: Cooking
+      - item: Cycling
+        link:
+
+      - item: Hiking
         link:
 
 career-profile:
