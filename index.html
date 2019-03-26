@@ -2,9 +2,10 @@
 layout: default
 ---
 
-{{ page.pdf_url }}
 
 {% include career-profile.html %}
+
+PDF: {{ page.pdf_url }}
 
 {% unless site.data.data.sidebar.education %}
   {% include education.html %}
