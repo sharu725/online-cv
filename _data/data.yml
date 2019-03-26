@@ -1,6 +1,3 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
 ---
 pdf: true
 ---
@@ -56,7 +53,7 @@ career-profile:
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
 
-      Second paragraph if required. {{ page.pdf_url }}
+      Second paragraph if required. 
 
 education:
     - degree: MSc in Computer Science
