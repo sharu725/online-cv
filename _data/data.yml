@@ -2,6 +2,13 @@
 # Be aware that even a small syntax error here can lead to failures in output.
 #
 
+defaults:
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      pdf: true
+
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
@@ -53,7 +60,7 @@ career-profile:
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
 
-      Second paragraph if required.
+      Second paragraph if required. {{ page.pdf_url }}
 
 education:
     - degree: MSc in Computer Science
