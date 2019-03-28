@@ -6,7 +6,7 @@ sidebar:
 
     # Profile information
     name: Steven Wells
-    tagline: Full Stack Developer
+    tagline: Senior Software Developer with web and integration experience.
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -17,7 +17,7 @@ sidebar:
     github: wellsst
     # gitlab:
     # bitbucket:
-    twitter: '@webjeda'
+    twitter: # '@stwells'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -45,31 +45,24 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      I thrive in the process of writing software. With the end goal of having a great system.  
+      Whether the task is big or small, it is always interesting to solve problems and piece together a quality usable system.
+      That said I don't think I'm a total geek! I do enjoy getting out running, riding, kayaking, the list goes on!
+
+      I have been fortunate enough to experience a broad range of technologies, people, experiences and industries over my career. 
+      
+      I believe that trying to maintain flexibility and having an open-minded approach to work has been key in developing an interesting career.
+
+       Tech Specialties: Java/J2EE...and many of its associated technologies, Grails, Groovy, Spock, Databases, please read on...
+
+       Industries: Procurement, Mining, TAB and Banking
 
       Second paragraph if required. 
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: Bachelor's Degree in Information technology (Computer Science & Software Engineering)
+      university: Griffith University
+      time: 1993 - 1995
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -81,39 +74,48 @@ education:
           - Bullet point
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Senior Business Process Consultant
+      time: Oct 2012 – Present
+      company: SAP Ariba
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Working within a global team we develop applications and web-based tools that follow SAP Fiori design guidelines using UI5, JPA, Spring, Spock
+         (unit testing) and Liquebase...a lot of Javascript and Java! Secondary skills include Angular, REST, OData, Jenkins, Git and JIRA.
 
+        Key Responsibilites
+
+          - Bullet point
+          - Bullet point
+
+        Key Acheivements
+        
           - Bullet point
           - Bullet point
 
     - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+      time: April 2007 - Oct 2012
+      company: Quadrem - Ariba
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Provide technical integration services and support between large resource companies and their suppliers, 
+        to implement internal systems to support integration processes (including Web 2/AJAX work and version control systems), 
+        manage and document interactions between all parties involved in an integration, implmentation of office infrastructure.
 
+        Design, manage and lead develop a suite of highly interactive "Web 2.0" applications using JQuery and Grails with connection to legacy databases. Development of integration testing framework using Angular and Grails.
+
+        Design and develop behind-the-firewall solutions that enable customers to connect to the Quadrem and Ariba trading networks.
+
+        Work with a global team to enhance existing Enterprise Services platform
+
+        Developed Purchase Order (includes Change Order) out from Minara (the buyer) and invoice back in. 
+        It was a ground-up development of roundtrip integration system based on Mulesoft including a custom web interface (for admin and monitoring) 
+        to connection a Mincom Ellipse system, getting Invoice in to Mincom was a little tricky but the job was done succesfully.
+
+        Developed demo system/adapters using .Net to connect to Quadrem with MYOB, successfully demonstrating Order/Invoice cycle from an MYOB (Order) to a Quadrem SupplyCentre supplier.
           - Bullet point
           - Bullet point
 
-    - role: UI Developer
+    - role: template
       time: 2012 - 2014
-      company: Amazon, London
+      company: somwhere
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
