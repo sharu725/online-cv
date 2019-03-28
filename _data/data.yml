@@ -45,51 +45,51 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I thrive in the process of writing software. With the end goal of having a great system.  
+      I thrive in the process of writing software. With the end goal of having a great system.
+
       Whether the task is big or small, it is always interesting to solve problems and piece together a quality usable system.
-      That said I don't think I'm a total geek! I do enjoy getting out running, riding, kayaking, the list goes on!
+      That said I'm not a total geek! I do enjoy getting out running, riding, kayaking, the list goes on!
 
       I have been fortunate enough to experience a broad range of technologies, people, experiences and industries over my career. 
       
       I believe that trying to maintain flexibility and having an open-minded approach to work has been key in developing an interesting career.
 
-       Tech Specialties: Java/J2EE...and many of its associated technologies, Grails, Groovy, Spock, Databases, please read on...
+       Tech Specialties: The Java in the backend, various web in the front...and many of its associated technologies, Grails, Groovy, Spock, Databases, please below for more detail
 
        Industries: Procurement, Mining, TAB and Banking
-
-      Second paragraph if required. 
 
 education:
     - degree: Bachelor's Degree in Information technology (Computer Science & Software Engineering)
       university: Griffith University
       time: 1993 - 1995
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
 
 experiences:
     - role: Senior Business Process Consultant
       time: Oct 2012 – Present
       company: SAP Ariba
       details: |
-        Working within a global team we develop applications and web-based tools that follow SAP Fiori design guidelines using UI5, JPA, Spring, Spock
+        Working within a global team we developed applications and web-based tools that follow SAP Fiori design guidelines using UI5, JPA, Spring, Spock
          (unit testing) and Liquebase...a lot of Javascript and Java! Secondary skills include Angular, REST, OData, Jenkins, Git and JIRA.
 
         Key Responsibilites
 
-          - Bullet point
-          - Bullet point
+          - Develop web interfaces that comply with SAP Fiori design guidelines using SAPUI5
+          - Develop supporting backend services with Java as the primary tool
+          - Write test specifications - unit and integration with Spock and Groovy
+          - Maintain and write supporting documentation for developers and users
+          - Work and align with a truly global team - SCRUM!
 
         Key Acheivements
         
-          - Bullet point
-          - Bullet point
+          - Design and deliver requirements for stakeholders on a regular release cycle
+          - Feedback collaboratively on how the team can improve processes and practices
+          - Meet and align with team members in a flexible way.  Working with and understanding people from different cultural backgrounds, technical abilities 
+          and timezones.
+          - Driving the need to improve testing coverage from ? to ?, this was recoginised with an award as I drove this from testing being a 
+          seldom done tasks to a best practice mandatory task and ensuring developers not only accept but enjoy the process.
+          - Ensuring that documentation is up-to-date and accurate, not only my own but that of all the team (plugging the gaps in knowledge to share)
+
 
     - role: Senior Software Engineer
       time: April 2007 - Oct 2012
