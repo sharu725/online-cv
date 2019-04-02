@@ -131,15 +131,17 @@ experiences:
 projects:
     title: Projects
     intro: >
-      TODO: You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Other acheivements and projects
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Diceware
+        link: "https://github.com/wellsst/diceware"
+        tagline: "Diceware - how-to project with Grails and Angular hosted on Heroku with writeup: https://medium.com/@wellsst/angular-with-grails-on-heroku-211e35177804"
 
+      - title: Solo hike across Switzerland
+        link: "https://medium.com/@wellsst/via-alpina-switzerland-day-to-day-82fa592f54bb"
+        tagline: "Solo hike across Switzerland, planning: https://sites.google.com/site/viaalpina2017/preparation" 
+ 
 publications:
     title: Publications
     intro: |
@@ -148,7 +150,7 @@ publications:
       bibendum fringilla a eu lectus.
 
     papers:
-      - title: The Art of Computer Programming
+      - title: Testing...
         authors: Donald E. Knuth
         conference: Addison-Wesley, 1968
 
@@ -178,4 +180,4 @@ skills:
         level: 90%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Resume Steven Wells
