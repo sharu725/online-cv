@@ -8,9 +8,6 @@ baseurl: '/online-cv' #change it according to your repository name
 theme_skin: ceramic # blue turquoise green berry orange ceramic
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
-gems:
-  jekyll-pdf
-
 # Tracker
 analytics: UA-83979019-1
 
@@ -28,5 +25,5 @@ compress_html: # - http://jch.penibelst.de/
 
 # Development Settings
 port: 4000
-host: 0.0.0.0
+host: localhost
 safe: false

@@ -45,21 +45,21 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I thrive in the process of writing software. With the end goal of having a great system.
+      I thrive in the process of writing software.  With the end goal of having the best system possible.
 
-      Whether the task is big or small, it is always interesting to solve problems and piece together a quality usable system.
-      That said I'm not a total geek! I do enjoy getting out running, riding, kayaking, the list goes on!
-
-      I have been fortunate enough to experience a broad range of technologies, people, experiences and industries over my career. 
+      Whether the task is big or small, it is always interesting to solve problems and piece together a quality, usable piece of software.
+      
+      During my career I have been fortunate enough to experience a broad range of technologies, people, experiences and industries. 
       
       I believe that trying to maintain flexibility and having an open-minded approach to work has been key in developing an interesting career.
 
-       Tech Specialties: The Java in the backend, various web in the front...and many of its associated technologies, Grails, Groovy, Spock, Databases, please below for more detail
+       Technical Specialties:  Java in the backend, various web in the front...along with many associated technologies such as Grails, Groovy, Spock, databases, 
+       please below for more detail.
 
        Industries: Procurement, Mining, TAB and Banking
 
 education:
-    - degree: Bachelor's Degree in Information technology (Computer Science & Software Engineering)
+    - degree: Bachelor's Degree in Information Technology (Computer Science & Software Engineering)
       university: Griffith University
       time: 1993 - 1995
       details: |
@@ -69,8 +69,8 @@ experiences:
       time: Oct 2012 – Present
       company: SAP Ariba
       details: |
-        Working within a global team we developed applications and web-based tools that follow SAP Fiori design guidelines using UI5, JPA, Spring, Spock
-         (unit testing) and Liquebase...a lot of Javascript and Java! Secondary skills include Angular, REST, OData, Jenkins, Git and JIRA.
+        Working within a global team I developed applications and web-based tools that follow SAP Fiori design guidelines using UI5, JPA, Spring, Spock
+         and Liquibase...a lot of Javascript and Java! Secondary skills include Angular, REST, OData, Jenkins, Git, Scrum and JIRA.
 
         Key Responsibilites
 
@@ -78,48 +78,42 @@ experiences:
           - Develop supporting backend services with Java as the primary tool
           - Write test specifications - unit and integration with Spock and Groovy
           - Maintain and write supporting documentation for developers and users
-          - Work and align with a truly global team - SCRUM!
+          - Work and align with a truly global team - Scrum!
 
         Key Acheivements
         
-          - Design and deliver requirements for stakeholders on a regular release cycle
-          - Feedback collaboratively on how the team can improve processes and practices
-          - Meet and align with team members in a flexible way.  Working with and understanding people from different cultural backgrounds, technical abilities 
+          - Designed and deliver requirements for stakeholders on a regular release cycle
+          - Provided feedback collaboratively on how the team could improve processes and practices
+          - Flexibility, working with and understanding people from different cultural backgrounds, technical abilities 
           and timezones.
-          - Driving the need to improve testing coverage from ? to ?, this was recoginised with an award as I drove this from testing being a 
-          seldom done tasks to a best practice mandatory task and ensuring developers not only accept but enjoy the process.
-          - Ensuring that documentation is up-to-date and accurate, not only my own but that of all the team (plugging the gaps in knowledge to share)
+          - Improved testing line coverage from 30% -> 70%.  Recognised with an award as I drove this to a best practice 
+          mandatory task; ensuring developers not only accepted but enjoyed the process
+          - Ensured team documentation was up-to-date and accurate
 
 
     - role: Senior Software Engineer
       time: April 2007 - Oct 2012
       company: Quadrem - Ariba
       details: |
-        Provide technical integration services and support between large resource companies and their suppliers, 
-        to implement internal systems to support integration processes (including Web 2/AJAX work and version control systems), 
-        manage and document interactions between all parties involved in an integration, implmentation of office infrastructure.
-
-        Design, manage and lead develop a suite of highly interactive "Web 2.0" applications using JQuery and Grails with connection to legacy databases. Development of integration testing framework using Angular and Grails.
-
-        Design and develop behind-the-firewall solutions that enable customers to connect to the Quadrem and Ariba trading networks.
-
-        Work with a global team to enhance existing Enterprise Services platform
-
-        Developed Purchase Order (includes Change Order) out from Minara (the buyer) and invoice back in. 
-        It was a ground-up development of roundtrip integration system based on Mulesoft including a custom web interface (for admin and monitoring) 
-        to connection a Mincom Ellipse system, getting Invoice in to Mincom was a little tricky but the job was done succesfully.
-
-        Developed demo system/adapters using .Net to connect to Quadrem with MYOB, successfully demonstrating Order/Invoice cycle from an MYOB (Order) to a Quadrem SupplyCentre supplier.
-
+        Provide technical integration services and support between large resource companies and their suppliers. 
+        Implement internal systems to support integration processes (including Web 2/AJAX work and version control systems). 
+        
         Key Responsibilites
 
-          - Bullet point
-          - Bullet point
+        - Development leader.  Designed, managed and developed a suite of highly interactive "Web 2.0" applications using JQuery and Grails with connections to legacy databases 
+        - Designed and developed behind-the-firewall solutions that enable customers to connect to the Quadrem and Ariba trading networks
+        - Worked with a global team to enhance the existing Enterprise Services platform
+        - Managed and documented interactions between all parties involved in an integration.
 
         Key Acheivements
-        
-          - Bullet point
-          - Bullet point
+
+        - Development of integration testing framework using Angular and Grails.
+        - Onboarding and mentoring new team members.   
+        - Developed a round-trip system for an Ellipse buyer sending Purchase Order (includes Change Order) to the Quadrem marketplace and invoice back in. 
+        This was a ground-up development of an integration system based on Mulesoft including a custom web interface (for admin and monitoring) 
+        to connection a Mincom Ellipse system.
+        - Maintenance and development of Webmethods integration services for a range of customers and geographic locations 
+        - Developed demo system/adapters using .Net to connect to Quadrem with MYOB, successfully demonstrating Order/Invoice cycle from an MYOB (Order) to a Quadrem SupplyCentre supplier.
 
     - role: template
       time: 2012 - 2014
@@ -137,7 +131,7 @@ experiences:
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
+      TODO: You can list your side projects or open source libraries in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
@@ -145,22 +139,6 @@ projects:
       - title: Velocity
         link: "#hook"
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
@@ -174,35 +152,30 @@ publications:
         authors: Donald E. Knuth
         conference: Addison-Wesley, 1968
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Java
+        level: 90%
 
       - name: Javascript & jQuery
-        level: 98%
+        level: 70%
 
       - name: Angular
-        level: 98%
+        level: 80%
 
       - name: HTML5 & CSS
+        level: 75%
+
+      - name: Grails
+        level: 90%
+
+      - name: Groovy/Spock
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Databases/SQL
+        level: 90%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
