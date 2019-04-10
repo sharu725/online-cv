@@ -1,7 +1,7 @@
 #Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
-title: Sergio Afanou | Projects Manager and Cloud Expert
+title: Sergio Afanou | Dev Ops Projects Manager and Cloud Expert
 url: 'http://sergio.afanou.com'
 #baseurl: '/' #change it according to your repository name
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
