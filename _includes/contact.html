@@ -21,13 +21,13 @@
 
     {% if sidebar.linkedin %}
     <li class="linkedin"><i class="fab fa-linkedin"></i>
-      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
+      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin_text }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.github %}
     <li class="github"><i class="fab fa-github"></i>
-      <a href="http://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
+      <a href="http://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github_text }}</a>
     </li>
     {% endif %}
 
@@ -51,7 +51,7 @@
 
     {% if sidebar.stack-overflow %}
     <li class="stack-overflow"><i class="fab fa-stack-overflow"></i>
-      <a href="https://stackexchange.com/users/{{ sidebar.stack-overflow }}" target="_blank">{{ sidebar.stack-overflow }}</a>
+      <a href="https://stackexchange.com/users/{{ sidebar.stack-overflow }}" target="_blank">{{ sidebar.stack-overflow_text }}</a>
     </li>
     {% endif %}
 

@@ -6,19 +6,22 @@ sidebar:
 
     # Profile information
     name: Steven Wells
-    tagline: Senior Software Developer - with web and integration experience.
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline: Senior Software Developer - web and integrations
+    # avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: swellz@pm.me
     # phone: 012 345 6789
     # website: blog.webjeda.com #do not add http://
     linkedin: wellsst
+    linkedin_text: LinkedIn
     github: wellsst
+    github_text: GitHub
     # gitlab:
     # bitbucket:
     twitter: # '@stwells'
     stack-overflow: 291275/steve # Number/Username, e.g. 123456/alandoe
+    stack-overflow_text: StackOverflow
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
@@ -40,23 +43,22 @@ sidebar:
         link:
 
       - item: Hiking
-        link:
+        link: 
 
 career-profile:
     title: Career Profile
     summary: |
-      I thrive in the process of writing software.  With the end goal of having the best system possible.
+      An experienced software developer that thrives in the process of producing the best system possible - underwritten by producing quality software.
 
-      Whether the task is big or small, it is always interesting to solve problems and piece together a quality, usable software system.
+      Core competencies:  Java and Web Generalist, databases, Integrations.
       
-      During my career I have been fortunate enough to experience a broad range of technologies, people, experiences and industries. 
+      Industries: Procurement, Mining, TAB and Banking     
+
+      Specialities: Java 8+, Groovy/Grails/Spock, Angular, SAPUI5, Scrum, SQL, XML/XSL
       
-      I believe that trying to maintain flexibility and having an open-minded approach to work has been key in developing an interesting career.
-
-       Technical Specialties:  Java in the backend, various web in the front...along with many associated technologies such as Grails, Groovy, Spock, databases, 
-       please below for more detail.
-
-       Industries: Procurement, Mining, TAB and Banking
+      During my career I have been fortunate enough to engage in a broad range of technologies, people, experiences and industries. 
+      
+      Maintaining flexibility and having an open-minded approach to work has been key in developing an interesting and fulfilling career.
 
 education:
     - degree: Bachelor's Degree in Information Technology (Computer Science & Software Engineering)
@@ -69,7 +71,7 @@ experiences:
       time: Oct 2012 – Present
       company: SAP Ariba
       details: |
-        Working within a global team I developed applications and web-based tools that follow SAP Fiori design guidelines using UI5, JPA, Spring, Spock
+        Developed applications working and web-based tools that follow SAP Fiori design guidelines using UI5, JPA, Spring, Spock
          and Liquibase...a lot of Javascript and Java! Secondary skills include Angular, REST, OData, Jenkins, Git, Scrum and JIRA.
 
         Key Responsibilites
@@ -78,16 +80,16 @@ experiences:
           - Develop supporting backend services with Java as the primary tool
           - Write test specifications - unit and integration with Spock and Groovy
           - Maintain and write supporting documentation for developers and users
-          - Work and align with a truly global team - Scrum!
+          - Work and align with a truly global team - leveraging Scrum
+          - Continually provide feedback on how the team can improve processes and practices
 
         Key Acheivements
         
-          - Designed and deliver requirements for stakeholders on a regular release cycle
-          - Provided feedback collaboratively on how the team could improve processes and practices
+          - Improved testing line coverage from 30% -> 75%.  Recognised with an award as I drove this to a best practice 
+          mandatory task; ensuring developers not only accepted but enjoyed the process
+          - Designed and deliver requirements for stakeholders on a regular release cycle with zero delays or errors
           - Flexibility, working with and understanding people from different cultural backgrounds, technical abilities 
           and timezones.
-          - Improved testing line coverage from 30% -> 70%.  Recognised with an award as I drove this to a best practice 
-          mandatory task; ensuring developers not only accepted but enjoyed the process
           - Ensured team documentation was up-to-date and accurate
 
 
@@ -104,29 +106,53 @@ experiences:
         - Designed and developed behind-the-firewall solutions that enable customers to connect to the Quadrem and Ariba trading networks
         - Worked with a global team to enhance the existing Enterprise Services platform
         - Managed and documented interactions between all parties involved in an integration.
+        - Onboarding and mentoring new team members.
 
         Key Acheivements
 
-        - Development of integration testing framework using Angular and Grails.
-        - Onboarding and mentoring new team members.   
-        - Developed a round-trip system for an Ellipse buyer sending Purchase Order (includes Change Order) to the Quadrem marketplace and invoice back in. 
-        This was a ground-up development of an integration system based on Mulesoft including a custom web interface (for admin and monitoring) 
+        - Development of automated testing framework using Angular and Grails. Increasing QA efficiency, coverage and output by at least 3 times   
+        - Develop a round-trip system for an Ellipse buyer sending Purchase Order (includes Change Order) to the Quadrem marketplace and Invoice back in to Ellipse 
+        This was a ground-up development of an integration system based on Mulesoft and including a custom web interface (for admin and monitoring) 
         to connection a Mincom Ellipse system.
-        - Maintenance and development of Webmethods integration services for a range of customers and geographic locations 
-        - Developed demo system/adapters using .Net to connect to Quadrem with MYOB, successfully demonstrating Order/Invoice cycle from an MYOB (Order) to a Quadrem SupplyCentre supplier.
+        - Maintenance and development of Webmethods integration services for a range of customers and geographic locations on a regular basis
+        - Developed demo system/adapters using .Net to connect to Quadrem with MYOB, successfully demonstrating Order/Invoice cycle from an MYOB (Order) to a Quadrem 
+        SupplyCentre supplier.
 
-    - role: template
-      time: 2012 - 2014
-      company: somwhere
+    - role: Developer/Architect
+      time: 2002 - 2007
+      company: Rio Tinto
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+        Software development and architecture supporting an EAI environment
+    
+    - role: Java Developer
+      time: 2003 - 2004
+      company: LGAQ / Resolute IT
+      details: |
+         LDAP Conversions, Web Admin application - Java and Struts
+    
+    - role: Consultant - eCommerce
+      time: 1999 - 2002
+      company: Deloitte Consulting
+      details: |
+          NAB Internet Banking + Java and SAP interfacing projects
+    
+    - role: Software Developer/Designer
+      time: 1996 - 1998
+      company: TAB Qld
+      details: |  
+         Internet Betting - the first of its kind in Australia
+    
+    - role: Software developer
+      time: 1996
+      company: Pace Autosystems Canada
+      details: |
+        GIS, C++, VB
+          
+    - role: Software developer
+      time: 1995 - 1996
+      company: Mincom
+      details: |
+         Delphi, Java, PERL developing SCM applications
 
 projects:
     title: Projects
@@ -134,7 +160,7 @@ projects:
       Other acheivements and projects
 
     assignments:
-      - title: Diceware
+      - title: Grails Angular on Heroku tutorial
         link: "https://github.com/wellsst/diceware"
         tagline: "Diceware - how-to project with Grails and Angular hosted on Heroku with writeup: https://medium.com/@wellsst/angular-with-grails-on-heroku-211e35177804"
 
@@ -142,7 +168,7 @@ projects:
         link: "https://medium.com/@wellsst/via-alpina-switzerland-day-to-day-82fa592f54bb"
         tagline: "Solo hike across Switzerland, planning: https://sites.google.com/site/viaalpina2017/preparation" 
  
-publications:
+publications_disabled:
     title: Publications
     intro: |
       You can list your publications in this section. Lorem ipsum dolor sit
