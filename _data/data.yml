@@ -103,7 +103,7 @@ education:
           - Telephony, GSM
 
 experiences:
-    - role: Chef de projets - Digital Services
+    - role: Chef de projets Dev Ops - Digital Services
       time: 2017 - Aujourd'hui
       company: Essilor International - France
       details: |
@@ -141,6 +141,10 @@ projects:
       J'aime apprendre et m'améliorer au fil de ma carrière. Voici un aperçu des distinctions que j'ai reçues lors de cet apprentissage en continu.
 
     assignments:
+      - title: AWS Certified Solutions Architect
+        link: "#aws_architect_associate"
+        tagline: "L'examen Architecte de solutions certifié AWS – Associé est prévu pour des personnes travaillant en tant qu'architecte de solutions et possédant une ou plusieurs années d'expérience pratiques dans la conception de systèmes disponibles, rentables, tolérants aux pannes, distribués et évolutifs sur AWS."
+
       - title: Google Apps Administrator
         link: "#gsuite_admin"
         tagline: "Cette spécialisation s'adresse aux administrateurs d'applications chargés du déploiement, de l'administration et de l'expansion des applications Google G Suite."
