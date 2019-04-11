@@ -67,5 +67,13 @@
     </li>
     {% endif %}
 
+    
+    {% if sidebar.pdf-location %}
+    <li class="file-pdf"><i class="far fa-file-pdf"></i>
+      <a href="{{ site.baseurl }}/assets/pdf/{{ sidebar.pdf-location }}" target="_blank"> PDF </a>
+    </li>
+    {% endif %}
+
+
   </ul>
 </div><!--//contact-container-->

@@ -3,9 +3,11 @@
 
   <div class="profile-container">
 
-    {% if sidebar.name %}
+    {% if sidebar.avatar %}
     <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="Resume" />
+    <h3 class="header-text">Resume</h3>
     {% endif %}
+    
 
     {% if sidebar.name %}
     <h2 class="name">{{ sidebar.name }}</h2>
