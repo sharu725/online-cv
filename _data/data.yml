@@ -51,7 +51,7 @@ career-profile:
     summary: |
       An experienced software developer that thrives in the process of producing the best system possible.
 
-      Core competencies:  Java and Web Generalist, databases, Integrations.
+      Core competencies:  Java and Web Generalist, databases, integrations.
       
       Industries: Procurement, Mining, TAB and Banking     
 
@@ -75,7 +75,7 @@ experiences:
         Developed applications working and web-based tools that follow SAP Fiori design guidelines using UI5, JPA, Spring, Spock
          and Liquibase...a lot of Javascript and Java! Secondary skills include Angular, REST, OData, Jenkins, Git, Scrum and JIRA.
 
-        Key Responsibilites
+        Key Responsibilities
 
           - Develop web interfaces that comply with SAP Fiori design guidelines using SAPUI5
           - Develop supporting backend services with Java as the primary tool
@@ -84,13 +84,13 @@ experiences:
           - Work and align with a truly global team - leveraging Scrum
           - Continually provide feedback on how the team can improve processes and practices
 
-        Key Acheivements
+        Key Achievements
         
           - Improved testing line coverage from 30% -> 75%.  Recognised with an award as I drove this to a best practice 
           mandatory task; ensuring developers not only accepted but enjoyed the process
           - Designed and deliver requirements for stakeholders on a regular release cycle with zero delays or errors
           - Flexibility, working with and understanding people from different cultural backgrounds, technical abilities 
-          and timezones.
+          and time zones.
           - Ensured team documentation was up-to-date and accurate
 
 
@@ -101,22 +101,22 @@ experiences:
         Provide technical integration services and support between large resource companies and their suppliers. 
         Implement internal systems to support integration processes (including Web 2/AJAX work and version control systems). 
         
-        Key Responsibilites
+        Key Responsibilities
 
         - Development leader.  Designed, managed and developed a suite of highly interactive "Web 2.0" applications using JQuery and Grails with connections to legacy databases 
         - Designed and developed behind-the-firewall solutions that enable customers to connect to the Quadrem and Ariba trading networks
         - Worked with a global team to enhance the existing Enterprise Services platform
         - Managed and documented interactions between all parties involved in an integration.
-        - Onboarding and mentoring new team members.
+        - On-boarding and mentoring new team members.
 
-        Key Acheivements
+        Key Achievements
 
         - Development of automated testing framework using Angular and Grails. Increasing QA efficiency, coverage and output by at least 3 times   
         - Develop a round-trip system for an Ellipse buyer sending Purchase Order (includes Change Order) to the Quadrem marketplace and Invoice back in to Ellipse 
         This was a ground-up development of an integration system based on Mulesoft and including a custom web interface (for admin and monitoring) 
         to connection a Mincom Ellipse system.
         - Maintenance and development of Webmethods integration services for a range of customers and geographic locations on a regular basis
-        - Developed demo system/adapters using .Net to connect to Quadrem with MYOB, successfully demonstrating Order/Invoice cycle from an MYOB (Order) to a Quadrem 
+        - Developed demo system/adaptors using .Net to connect to Quadrem with MYOB, successfully demonstrating Order/Invoice cycle from an MYOB (Order) to a Quadrem 
         SupplyCentre supplier.
 
     - role: Developer/Architect
@@ -158,12 +158,12 @@ experiences:
 projects:
     title: Projects
     intro: >
-      Other acheivements and projects
+      Other Achievements and projects
 
     assignments:
       - title: Grails Angular on Heroku tutorial
         link: "https://github.com/wellsst/diceware"
-        tagline: "Diceware - how-to project with Grails and Angular hosted on Heroku with writeup: https://medium.com/@wellsst/angular-with-grails-on-heroku-211e35177804"
+        tagline: "Diceware - how-to project with Grails and Angular hosted on Heroku with write-up: https://medium.com/@wellsst/angular-with-grails-on-heroku-211e35177804"
 
       - title: Solo hike across Switzerland
         link: "https://medium.com/@wellsst/via-alpina-switzerland-day-to-day-82fa592f54bb"
@@ -172,9 +172,7 @@ projects:
 publications_disabled:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      You can list your publications in this section. 
 
     papers:
       - title: Testing...
