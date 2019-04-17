@@ -1,5 +1,4 @@
 
-
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
@@ -12,7 +11,7 @@ sidebar:
     # Sidebar links
     email: swellz@pm.me
     # phone: 012 345 6789
-    # website: blog.webjeda.com #do not add http://
+    # website: wellsst.github.io/ #do not add http://
     linkedin: wellsst
     linkedin_text: LinkedIn
     github: wellsst
@@ -37,14 +36,11 @@ sidebar:
       - item: Kayaking
         link:
 
-      - item: Running
+      - item: Running/Cycling/Hiking
         link:
 
-      - item: Cycling
+      - item: Guitar
         link:
-
-      - item: Hiking
-        link: 
 
 career-profile:
     title: Career Profile
@@ -57,7 +53,7 @@ career-profile:
 
       Specialities: Java 8+, Groovy/Grails/Spock, Angular, SAPUI5, Scrum, SQL, XML/XSL
       
-      During my career I have been fortunate enough to engage in a broad range of technologies, people, experiences and industries. 
+      Proven ability to engage in a broad range of technologies, people, experiences and industries. 
       
       Maintaining flexibility and having an open-minded approach to work has been key in developing an interesting and fulfilling career.
 
@@ -69,7 +65,7 @@ education:
 
 experiences:
     - role: Senior Business Process Consultant
-      time: Oct 2012 – Present
+      time: Feb 2009 – Apr 2019
       company: SAP Ariba
       details: |
         Developed applications working and web-based tools that follow SAP Fiori design guidelines using UI5, JPA, Spring, Spock
@@ -82,6 +78,7 @@ experiences:
           - Write test specifications - unit and integration with Spock and Groovy
           - Maintain and write supporting documentation for developers and users
           - Work and align with a truly global team - leveraging Scrum
+          - Being your own project manager as the developer responsible for each sprint - must continually ensure we produce quality software on-time and as per specification
           - Continually provide feedback on how the team can improve processes and practices
 
         Key Achievements
@@ -90,12 +87,13 @@ experiences:
           mandatory task; ensuring developers not only accepted but enjoyed the process
           - Designed and deliver requirements for stakeholders on a regular release cycle with zero delays or errors
           - Flexibility, working with and understanding people from different cultural backgrounds, technical abilities 
-          and time zones.
+          and time zones thereby enabling faster turnarounds for the project cycles.
+          - 
           - Ensured team documentation was up-to-date and accurate
 
 
     - role: Senior Software Engineer
-      time: April 2007 - Oct 2012
+      time: April 2007 - Feb 2009
       company: Quadrem - Ariba
       details: |
         Provide technical integration services and support between large resource companies and their suppliers. 
@@ -120,40 +118,28 @@ experiences:
         SupplyCentre supplier.
 
     - role: Developer/Architect
-      time: 2002 - 2007
+      time: Aug 2002 - Jan 2007 
       company: Rio Tinto
       details: |
         Software development and architecture supporting an EAI environment
     
     - role: Java Developer
-      time: 2003 - 2004
+      time: Dec 2003 - May 2004
       company: LGAQ / Resolute IT
       details: |
          LDAP Conversions, Web Admin application - Java and Struts
     
     - role: Consultant - eCommerce
-      time: 1999 - 2002
+      time: Oct 1998 - Aug 2002
       company: Deloitte Consulting
       details: |
           NAB Internet Banking + Java and SAP interfacing projects
     
     - role: Software Developer/Designer
-      time: 1996 - 1998
+      time: Nov 1996 - Sept 1998
       company: TAB Qld
       details: |  
          Internet Betting - the first of its kind in Australia
-    
-    - role: Software developer
-      time: 1996
-      company: Pace Autosystems Canada
-      details: |
-        GIS, C++, VB
-          
-    - role: Software developer
-      time: 1995 - 1996
-      company: Mincom
-      details: |
-         Delphi, Java, PERL developing SCM applications
 
 projects:
     title: Projects
@@ -205,4 +191,4 @@ skills:
         level: 90%
 
 footer: >
-    Resume Steven Wells
+    Resume Steven Wells: Senior Software Developer - java, web and integrations
