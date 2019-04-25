@@ -165,29 +165,40 @@ publications_disabled:
         conference: Addison-Wesley, 1968
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Experience
 
     toolset:
       - name: Java
-        level: 90%
+        level: 100%
+        years: 10+
 
       - name: Javascript & jQuery
-        level: 70%
+        level: 60%
+        years: 6
 
       - name: Angular
-        level: 80%
+        level: 30%
+        years: 3
 
       - name: HTML5 & CSS
-        level: 75%
+        level: 80%
+        years: 8
 
       - name: Grails
-        level: 90%
+        level: 60%
+        years: 6
 
       - name: Groovy/Spock
-        level: 95%
+        level: 60%
+        years: 6
 
       - name: Databases/SQL
-        level: 90%
+        level: 100%
+        years: 10+
+
+      - name: XML/XSL
+        level: 100%
+        years: 10+
 
 footer: >
     Resume Steven Wells: Senior Software Developer - java, web and integrations

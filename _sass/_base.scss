@@ -253,14 +253,22 @@ p {
         font-size: 14px;
         margin-top: 0;
         margin-bottom: 12px;
+    }    
+    .level-text {
+        font-size: 12px;
+        font-weight: bold;
+        color: azure;
+        margin-top: 0;
+        margin-bottom: 12px;
+        margin-left: 10px;
     }
     .level-bar {
-        height: 12px;
+        height: 18px;
         background: $smoky-white;
     }
     .level-bar-inner {
-        height: 12px;
-        background: lighten($theme-color, 15%);
+        height: 18px;
+        background: lighten($theme-color, 20%);
     }
 }
 
