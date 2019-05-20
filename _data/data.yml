@@ -164,8 +164,8 @@ publications_disabled:
         authors: Donald E. Knuth
         conference: Addison-Wesley, 1968
 
-skills_disabled:
-    title: Experience
+skills:
+    title: Experience (years)
 
     toolset:
       - name: Java
