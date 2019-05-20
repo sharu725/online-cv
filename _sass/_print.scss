@@ -7,6 +7,17 @@
        font-size: 12pt;
     }
 
+    .new-page {
+        page-break-before: always !important;
+    }
+
+    .page-break:first-of-type { height:0;page-break-after: always; margin:0; border-top:none;}
+
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+
     img.avatar {
         filter: grayscale(1);
         -webkit-filter: greyscale(1);
