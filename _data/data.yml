@@ -133,13 +133,7 @@ experiences:
       company: Deloitte Consulting
       details: |
           NAB Internet Banking + Java and SAP interfacing projects
-    
-    - role: Software Developer/Designer
-      time: Nov 1996 - Sept 1998
-      company: TAB Qld
-      details: |  
-         Internet Betting - the first of its kind in Australia
-
+   
 projects:
     title: Projects
     intro: >
