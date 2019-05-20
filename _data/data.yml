@@ -164,7 +164,7 @@ publications_disabled:
         authors: Donald E. Knuth
         conference: Addison-Wesley, 1968
 
-skills:
+skills_disabled:
     title: Experience
 
     toolset:

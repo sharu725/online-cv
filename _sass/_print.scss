@@ -32,6 +32,14 @@
         float: right;
         width: 40%;
         -webkit-print-color-adjust: exact; 
+        .profile-container {
+        padding: 30px;
+        //background: darken($theme-color, 10%);
+        background: rgba(0, 0, 0, 0.2);
+        text-align: center;
+        color: #fff;
+    }
+    
     }
 
     .remove-container.container-block {
