@@ -3,46 +3,49 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Sagar Siddhpura
+    tagline: Kotlin Android Developer and Java Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: sagarsiddhapura@gmail.com
+    phone: (+91) 88668 06146
+    # website: blog.webjeda.com #do not add http://
+    linkedin: sagarsiddhpura
+    github: sagarsiddhpura
     gitlab:
-    bitbucket:
-    twitter: '@webjeda'
+    bitbucket: sagarsiddhpura
+    twitter: '@sagarsiddhpura'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
+        level: Professional
+
+      - idiom: Hindi
+        level: Professional
+
+      - idiom: Gujarati
         level: Native
-
+        
       - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+        level: Read
 
     interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
+      - item: Watching Movies
         link:
 
       - item: Cooking
         link:
+
+      - item: Coding
+        link: https://bitbucket.org/sagarsiddhpura/material-design-repository
 
 career-profile:
     title: Career Profile
