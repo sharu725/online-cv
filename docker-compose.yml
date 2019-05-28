@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  site:
+    build: .
+    command: nginx -g "daemon off;"
+    ports:
+      - 1313:8080
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      #- ./cache/nginx:/var/cache/nginx

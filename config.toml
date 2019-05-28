@@ -1,0 +1,211 @@
+# Page settings
+
+baseurl = "https://ryanmeis.dev/"
+languageCode = "en-us"
+title = "Ryan Meis Resume/CV"
+theme = "hugo-orbit-theme"
+#googleAnalytics = "UA-XXXXXXX-Y"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+
+# Meta
+    description = "Ryan Meis Resume/CV Page"
+    author = "Ryan Meis"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles-6.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Ryan Meis"
+        tagline = "Senior SecDevOps Engineer"
+        avatar = "profile.png"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: career@ryanmeis.io"
+        title = "career@ryanmeis.io"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//ryanmeis.io"
+        title = "ryanmeis.io"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/ryan-meis-dev"
+        title = "ryan-meis-dev"
+
+        # [[params.contact.list]]
+        # class = "github"
+        # icon = "fa-github"
+        # url = "//github.com/username"
+        # title = "github.com/username"
+
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "BS in computer science"
+        college = "Full Sail University"
+        dates = "2012 - 2014"
+
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "Swedish"
+        level = "Amatuer"
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Video Games"
+
+        [[params.interests.list]]
+        interest = "Motorcycling"
+
+        [[params.interests.list]]
+        interest = "Snowboarding"
+
+        [[params.interests.list]]
+        interest = "Petting Dogs"
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = "SecDevOps cheerleader. I turn pizza and coffee into reliable infrastructure and pipelines"
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Sr. SecDevOps Engineer"
+        dates = "2017 - Present"
+        company = "Nextgen Healthcare: SecDevOps Center Of Excellence"
+        details = "Building AWS platform modules(terraform/cloudformation) with HIPAA compliance at the core\r\n\r\n   Evangelizing modern devops philosophy and improve personal and application workflows across the enterprise\r\n\r\n   Creating and maintaining CI/CD Pipelines for windows and linux based technical stacks leveraging nodejs, c#, Java, etc" #expand this further for keywords, check hippaa spelling
+
+        [[params.jobs.list]]
+        position = "DevOps Engineer"
+        dates = "2014 - 2017"
+        company = "iHeart: Revenue Management"
+        details = "Integrated multiple programs, databases, and API's for a scripted migration into the Salesforce cloud, saving 4000+ man hours\r\n\r\n   Lead efforts to apply DevOps principles to our flagship product with Chef and AWS, reducing new environment deployment time from 2 weeks to 4 hours\r\n\r\n   Crafted CI/CD pipeline integrating Team Foundation Server, Chef, and AWS from check-in to production including unit and integration tests"
+
+        [[params.jobs.list]]
+        position = "Gameplay Programmer"
+        dates = "2014 - 2015"
+        company = "Metamorphic Games: Mobile games startup"
+        details = "Created multiple trap mechanics\r\n\r\n   Improved control interfaces for mobile and PC ports\r\n\r\n   Offered Team Lead position"
+
+    ## Projects section # todo
+    #[params.projects]
+    #    enable = true
+    #    icon = "fa-archive"
+    #    title = "Projects"
+    #    intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+#
+    #    [[params.projects.list]]
+    #    title = "Hugrid"
+    #    url = "https://github.com/aerohub/hugrid"
+    #    tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "AWS"
+        level = "85%"
+
+        [[params.skills.list]]
+        skill = "Containers"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Python 3"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "Ruby"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "C#"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "C++"
+        level = "65%"
+
+        [[params.skills.list]]
+        skill = "Kubernetes"
+        level = "35%"
+
+        [[params.skills.list]]
+        skill = "Kotlin/Native"
+        level = "20%"
+
+        [[params.skills.list]]
+        skill = "Go"
+        level = "15%"
+
+        ##Other?
+        #jenkins
+        #drone.io
+        #git
+        #
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    #
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = "Ported By Ryan Meis"

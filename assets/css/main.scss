@@ -1,8 +1,0 @@
----
-
----
-
-@charset "utf-8";
-
-@import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
-@import "default"; // main partials

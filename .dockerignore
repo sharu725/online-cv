@@ -1,0 +1,10 @@
+.dockerignore
+Dockerfile*
+docker-compose*
+.git
+.gitignore
+.env
+.jekyll-metadata
+README.md
+LICENSE
+.vscode
