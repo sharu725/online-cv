@@ -3,7 +3,7 @@ rem Use the Chrome plugins:
 rem to produce similar to the webpage use PDF Mage, settings portrait, single page, 1024
 rem a simple PDF use: https://chrome.google.com/webstore/detail/print-friendly-pdf/ohlencieiipommannpdfcmfdpjjmeolj?hl=en
 
-wkhtmltopdf -d 300 --print-media-type --viewport-size 1024x768 --margin-left 0mm --margin-right 0mm --margin-top 0mm --margin-bottom 0mm https://wellsst.github.io/online-cv/ assets/pdf/steven_wells_resume2.pdf 
+wkhtmltopdf -d 300 --print-media-type --viewport-size 1024x768 --margin-left 0mm --margin-right 0mm --margin-top 0mm --margin-bottom 0mm https://wellsst.github.io/online-cv/ assets/pdf/steven_wells_resume.pdf 
 rem wkhtmltopdf -d 300 --print-media-type  http://localhost:4000/online-cv/ assets/pdf/steven_wells_resume.pdf 
 pause
 rem --disable-smart-shrinking
