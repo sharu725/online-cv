@@ -36,7 +36,7 @@ sidebar:
       - item: Running, Cycling, Hiking, Gymnastics, Kayaking
         link:
 
-      - item: Guitar
+      - item: Guitar, fine books
         link:
 
       - item: Blockchain, JWT, GraphQL
@@ -45,13 +45,13 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      An experienced software developer that thrives in the process of producing the best system possible.
+      An experienced software developer that thrives in the process of producing the best system and outcomes that are possible.
 
-      Core competencies:  Java and Web Generalist, databases, integrations.
+      Core competencies: Java and Web Generalist, databases, integrations.
       
-      Industries: Procurement, Mining, TAB and Banking     
+      Industries: Procurement, Mining and Banking     
 
-      Specialities: Java 8+, Groovy/Grails/Spock, Angular, SAPUI5, Scrum, SQL, XML/XSL
+      Specialities: Java, Groovy/Grails/Spock, Angular, Scrum, SQL, XML/XSL
       
       Proven ability to engage in a broad range of technologies, people, experiences and industries. 
       
@@ -68,8 +68,8 @@ experiences:
       time: Feb 2009 – Apr 2019
       company: SAP Ariba
       details: |
-        Developed applications working and web-based tools that follow SAP Fiori design guidelines using UI5, JPA, Spring, Spock
-         and Liquibase...a lot of Javascript and Java! Secondary skills include Angular, REST, OData, Jenkins, Git, Scrum and JIRA.
+        Developed applications working and web-based tools that follow SAP Fiori design guidelines using UI5, JPA, Spring Boot, Spock
+         and Liquibase...a lot of Javascript and Java! Secondary skills include Angular, REST, OData, Jenkins (CI/CD), Git, Scrum and JIRA.
 
         Key Responsibilities
 
@@ -87,7 +87,7 @@ experiences:
           mandatory task; ensuring developers not only accepted but enjoyed the process
           - Designed and deliver requirements for stakeholders on a regular release cycle with zero delays or errors
           - Flexibility, working with and understanding people from different cultural backgrounds, technical abilities 
-          and time zones thereby enabling faster turnarounds for the project cycles.          - 
+          and time zones thereby enabling faster turnarounds for the project cycles.           
           - Ensured team documentation was up-to-date and accurate
 
 
@@ -109,9 +109,8 @@ experiences:
         Key Achievements
 
         - Development of automated testing framework using Angular and Grails. Increasing QA efficiency, coverage and output by at least 3 times   
-        - Develop a round-trip system for an Ellipse buyer sending Purchase Order (includes Change Order) to the Quadrem marketplace and Invoice back in to Ellipse 
-        This was a ground-up development of an integration system based on Mulesoft and including a custom web interface (for admin and monitoring) 
-        to connection a Mincom Ellipse system.
+        - Using .Net, develop a round-trip system for a Mincom Ellipse buyer sending Purchase Order (includes Change Order) to the Quadrem marketplace and Invoice back in to Ellipse. 
+        This was a ground-up development of an integration system to connect a Mincom Ellipse system, based on Mulesoft and including a custom web interface (for admin and monitoring) 
         - Maintenance and development of Webmethods integration services for a range of customers and geographic locations on a regular basis
         - Developed demo system/adaptors using .Net to connect to Quadrem with MYOB, successfully demonstrating Order/Invoice cycle from an MYOB (Order) to a Quadrem 
         SupplyCentre supplier.
@@ -193,6 +192,14 @@ skills:
       - name: Databases/SQL
         level: 100%
         years: 10+
+
+      - name: git/Jenkins
+        level: 30%
+        years: 3
+
+      - name: Spring
+        level: 30%
+        years: 3
 
       - name: XML/XSL
         level: 100%
