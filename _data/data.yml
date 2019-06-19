@@ -33,13 +33,13 @@ sidebar:
         level: Basic
 
     interests:
-      - item: Kayaking
-        link:
-
-      - item: Running/Cycling/Hiking
+      - item: Running, Cycling, Hiking, Gymnastics, Kayaking
         link:
 
       - item: Guitar
+        link:
+
+      - item: Blockchain, JWT, GraphQL
         link:
 
 career-profile:
@@ -147,6 +147,10 @@ projects:
       - title: Solo hike across Switzerland
         link: "https://medium.com/@wellsst/via-alpina-switzerland-day-to-day-82fa592f54bb"
         tagline: "Solo hike across Switzerland, planning: https://sites.google.com/site/viaalpina2017/preparation" 
+
+      - title: JWT Demo/Tutorial/Reference implementation
+        link: "https://github.com/wellsst/jwt-template"
+        tagline: "Password-less authentication with JWT - using Grails, Angular and GraphQL" 
  
 publications_disabled:
     title: Publications
