@@ -14,7 +14,7 @@ style: styles-6
 
 #Profile information
 name: Jake Armstrong
-tagline: I.T. Professional
+tagline: Cloud Architect
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
