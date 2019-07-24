@@ -1,10 +1,9 @@
 .dockerignore
 Dockerfile*
 docker-compose*
-.git
-.gitignore
+.git**
 .env
-.jekyll-metadata
 README.md
 LICENSE
 .vscode
+Deployments

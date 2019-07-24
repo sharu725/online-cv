@@ -1,10 +1,10 @@
-FROM golang:1.12.5-alpine3.9 as build
+FROM golang:1.12.5-alpine3.9 AS build
 EXPOSE 1313
 RUN mkdir -p /wd/content /wd/archetypes
 RUN apk update && \
     apk upgrade && \
     apk add --no-cache libc6-compat libstdc++
-RUN wget https://github.com/gohugoio/hugo/releases/download/v0.55.6/hugo_extended_0.55.6_Linux-64bit.tar.gz -O hugo.tar.gz && \
+RUN wget https://github.com/gohugoio/hugo/releases/download/v0.56.2/hugo_extended_0.56.2_Linux-64bit.tar.gz -O hugo.tar.gz && \
     tar -xzvf hugo.tar.gz && \
     cp hugo /usr/local/bin
 WORKDIR /wd

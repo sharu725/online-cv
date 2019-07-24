@@ -1,12 +1,9 @@
 # Page settings
 
-baseurl = "https://ryanmeis.dev/"
+baseurl = "https://www.ryanmeis.dev/"
 languageCode = "en-us"
 title = "Ryan Meis Resume/CV"
 theme = "hugo-orbit-theme"
-#googleAnalytics = "UA-XXXXXXX-Y"
-
-# Do not build files for websites. Need them? Set to false
 disableRSS = true
 disableSitemap = true
 disable404 = true
@@ -16,13 +13,6 @@ disable404 = true
 # Meta
     description = "Ryan Meis Resume/CV Page"
     author = "Ryan Meis"
-
-# Theme styles
-
-    # The original template comes with 6 colour schemes. You may choose styles below.
-    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
-    # are available. Also the source LESS files are included so
-    # it’s quick and easy to change the styling and colour scheme.
 
     styles = "styles-6.css"
 
@@ -41,27 +31,20 @@ disable404 = true
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: career@ryanmeis.io"
-        title = "career@ryanmeis.io"
-
-        [[params.contact.list]]
-        class = "website"
-        icon = "fa-globe"
-        url = "//ryanmeis.io"
-        title = "ryanmeis.io"
+        url = "mailto:career@ryanmeis.io"
+        title = "Email Me"
 
         [[params.contact.list]]
         class = "linkedin"
-        icon = "fa-linkedin"
-        url = "//linkedin.com/in/ryan-meis-dev"
-        title = "ryan-meis-dev"
+        icon = "fa-globe"
+        url = "https://linkedin.com/in/ryan-meis-dev"
+        title = "Find me on LinkedIn"
 
-        # [[params.contact.list]]
-        # class = "github"
-        # icon = "fa-github"
-        # url = "//github.com/username"
-        # title = "github.com/username"
-
+        [[params.contact.list]]
+        class = "Stackoverflow"
+        icon = "fa-globe" #TODO look for better op for stack overflow
+        url = "https://stackoverflow.com/story/ryanmeis"
+        title = "stackoverflow"
 
     # Education section
     [params.education]
@@ -70,7 +53,7 @@ disable404 = true
 
         [[params.education.list]]
         degree = "BS in computer science"
-        college = "Full Sail University"
+        college = "Full Sail Uasdfasdfsity"
         dates = "2012 - 2014"
 
     # Languages section
@@ -118,7 +101,7 @@ disable404 = true
     [params.experiences]
         enable = true
         icon = "fa-briefcase"
-        title = "Experiences"
+        title = "Work Experience"
 
         [[params.jobs.list]]
         position = "Sr. SecDevOps Engineer"
@@ -138,23 +121,31 @@ disable404 = true
         company = "Metamorphic Games: Mobile games startup"
         details = "Created multiple trap mechanics\r\n\r\n   Improved control interfaces for mobile and PC ports\r\n\r\n   Offered Team Lead position"
 
-    ## Projects section # todo
-    #[params.projects]
-    #    enable = true
-    #    icon = "fa-archive"
-    #    title = "Projects"
-    #    intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
-#
-    #    [[params.projects.list]]
-    #    title = "Hugrid"
-    #    url = "https://github.com/aerohub/hugrid"
-    #    tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+    # Projects section # todo
+    [params.projects]
+        enable = true
+        icon = "fa-archive"
+        title = "Projects"
+        intro = ""
+
+        [[params.projects.list]]
+        title = "Ryanmeis.dev multi-cloud CI/CD"
+        tagline = "I like to spend a few moments each day trying out various tools/strategies to make this website a fully automated deploy on commit to AWS(cloudfront/s3), google cloud(storage/LB), and digital ocean with kubernetes"
+
+        [[params.projects.list]]
+        title = "Kubernetes"
+        tagline = "Currently evaluating tilt as a kubernetes dev workflow for this website"
+        url = "tilt.dev"
+
+        [[params.projects.list]]
+        title = "Golang and Kotlin Native"
+        tagline = "I'm learning golang for backend and cli work. As well as Kotlin native for full stack work"
 
     # Skills section
     [params.skills]
         enable = true
         icon = "fa-rocket"
-        title = "Skills & Proficiency"
+        title = "Skills & Proficiencies"
 
         [[params.skills.list]]
         skill = "AWS"
@@ -174,15 +165,15 @@ disable404 = true
 
         [[params.skills.list]]
         skill = "C#"
-        level = "75%"
+        level = "55%"
 
         [[params.skills.list]]
         skill = "C++"
-        level = "65%"
+        level = "45%"
 
-        [[params.skills.list]]
-        skill = "Kubernetes"
-        level = "35%"
+        #[[params.skills.list]]
+        #skill = "Kubernetes"
+        #level = "35%"
 
         [[params.skills.list]]
         skill = "Kotlin/Native"
@@ -191,12 +182,6 @@ disable404 = true
         [[params.skills.list]]
         skill = "Go"
         level = "15%"
-
-        ##Other?
-        #jenkins
-        #drone.io
-        #git
-        #
 
     # Footer section
 

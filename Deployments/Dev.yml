@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: resume-page-dev
+spec:
+  selector:
+    matchLabels:
+      app: resume-page-dev
+  template:
+    metadata:
+      labels:
+        app: resume-page-dev
+    spec:
+      containers:
+        - name: resume-page-dev
+          image: ryanmeis.dev/resume_dev
+          resources:
+            limits:
+              cpu: "100m"
+              memory: "256Mi"
+          ports:
+            - containerPort: 1313
