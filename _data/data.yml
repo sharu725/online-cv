@@ -48,7 +48,7 @@ sidebar:
 career-profile:
     title: Career Objective
     summary: |
-      A fresh graduate of EEE from BRAC University. Due to keen interest in robotics and artificial intelligence, involved with BRACU Robotics Club (ROBU), BRACU Computer Club(BUCC) and pursued a minor in Computer science as well.
+      A graduate of EEE from BRAC University. Due to keen interest in robotics and artificial intelligence, involved with BRACU Robotics Club (ROBU), BRACU Computer Club(BUCC) and pursued a minor in Computer science as well.
       
       Therefore, to work in a challenging environment, implementing interdisciplinary skills & hands on knowledge for individual development while contributing to the greater community is the primary career focus.
 
@@ -81,19 +81,12 @@ education:
         **GPA: 5.00/5.00**
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: IoT Engineer
+      time: April 2019 - Present
+      company: TechCom LTD
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Working as an embedded system engineer for IoT devices.
+        My job responsibilities includes design, prototype and deployment of real-time remote sensing/controlling of IoT systems.
 
           - Bullet point
           - Bullet point
