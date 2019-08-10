@@ -56,9 +56,12 @@ news:
         
     
     posts:
-        - time: March 2019
-          title: Two papers submitted to ICCV19
-        
+        - time: July 2019
+          title: Begin Amazon AWS intership with P.Perona in Pasadena, CA
+          
+        - time: July 2019
+          title: One paper accepted at ICCV19
+          
         - time: January 2019
           title: Selected as reviewer for ICCV19
         
@@ -81,6 +84,11 @@ news:
           title: Paper accepted as poster at CVPR17 in Honolulu, Hawaii
 
 education:
+    - degree: Applied Scientists Intern at Amazon AWS
+      university: P. Perona, Pasadena, CA, USA
+      time: 2019 - current
+      details: |
+     
     - degree: PhD in Computer vision and Machine learning
       university: Heidelberg University
       time: 2015 - current
@@ -108,6 +116,11 @@ education:
 
 
 educationcomplete:
+    - degree: Applied Scientists Intern at Amazon AWS
+      university: P. Perona, Pasadena, CA, USA
+      time: 2019 - current
+      details: |
+
     - degree: PhD in Computer vision and Machine learning
       university: Heidelberg University
       time: 2015 - current
@@ -228,6 +241,10 @@ publications:
       
 
     papers:
+      - title: "MIC: Mining Interclass Characteristics for Improved Metric Learning"
+        authors: B. Brattoli*, K. Roth*, B. Ommer
+        conference: ICCV, 2019
+
       - title: "Improving Spatiotemporal Self-Supervision by Deep Reinforcement Learning"
         authors: B. Brattoli*, U. Buechler*, B. Ommer
         conference: ECCV, 2018
