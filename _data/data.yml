@@ -106,70 +106,31 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: PHP & Laravel
+        level: 100%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: JavaScript & Node.js
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: HTML5 & CSS3
+        level: 95%
 
-      - name: Sketch & Photoshop
+      - name: SQL & NoSQL Databases
+        level: 90%
+
+      - name: Mobile (Cross-Platform) Development
+        level: 75%
+
+      - name: Angular & Ionic
+        level: 80%
+
+      - name: Adobe Apps
         level: 60%
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-# publications:
-#     title: Publications
-#     intro: |
-#       You can list your publications in this section. Lorem ipsum dolor sit
-#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-#       bibendum fringilla a eu lectus.
-
-#     papers:
-#       - title: Emails, here and now.
-#         authors: Donald E. 
-#         conference: Addison-Wesley, 1968
-
-#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-#       - title: A syntax directed compiler for Algol 60
-#         authors: Edgar T. Irons
-#         conference: "Comm. ACM 4 (1961), 51–55"
+    - degree: DEC in Languages
+      university: CÉGEP de Trois-Rivières
+      time: 2008 - 2010
 
 footer: >
     Learn more about <a href="https://brainpad.org" target="_blank" rel="nofollow">Brainpad Consulting</a>
