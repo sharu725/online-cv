@@ -110,19 +110,19 @@ skills:
         level: 100%
 
       - name: JavaScript & Node.js
-        level: 95%
-
-      - name: HTML5 & CSS3
-        level: 95%
+        level: 100%
 
       - name: SQL & NoSQL Databases
         level: 90%
 
       - name: Mobile (Cross-Platform) Development
+        level: 80%
+
+      - name: HTML5 & CSS3
         level: 75%
 
       - name: Angular & Ionic
-        level: 80%
+        level: 75%
 
       - name: Adobe Apps
         level: 60%
