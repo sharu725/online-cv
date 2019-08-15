@@ -50,6 +50,9 @@ sidebar:
       - item: Cooking & Gardening
         link:
 
+      - item: ""
+        link:
+
 career-profile:
     title: Career Profile
     summary: |
