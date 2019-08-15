@@ -5,16 +5,22 @@
       background-color: #ffffff;
    }
 
+   .profile-container .avatar {
+      margin-top: 10px;
+   }
+
+   .break-before {
+      clear: both;
+      page-break-before: always;
+      margin-top: 50px;
+   }
+
    h3.section-title i.fa-circle {
       color: #2d7788;
    }
 
    h3.section-title i.fa-inverse {
       color: #ffffff;
-   }
-
-   .profile-container .avatar {
-      margin-top: 10px;
    }
 
    .main-wrapper .upper-row {
@@ -39,12 +45,6 @@
       float: right;
       width: 40%;
       margin-left: 25px;
-   }
-
-   .break-before {
-      clear: both;
-      page-break-before: always;
-      margin-top: 50px;
    }
 
    .wrapper {
