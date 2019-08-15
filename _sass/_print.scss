@@ -11,10 +11,23 @@
       color: #ffffff;
    }
 
-   .main-wrapper .time {
-      float: right;
+   .main-wrapper .upper-row {
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 2px;
    }
-   
+
+   .main-wrapper .job-title,
+   .main-wrapper .degree {
+      margin-top: 0;
+      margin-bottom: 0;
+   }
+
+   .main-wrapper .time {
+      position: absolute;
+      right: 0;
+      top: 0;
+   }
    .sidebar-wrapper {
       position: static;
       float: right;
@@ -22,7 +35,7 @@
       margin-left: 25px;
    }
 
-   .break-before { 
+   .break-before {
       clear: both;
       page-break-before: always;
       margin-top: 20px;
