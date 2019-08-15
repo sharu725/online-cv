@@ -32,7 +32,9 @@
       margin-top: 20px;
    }
 
-   footer {
-      display: none;
+   .footer {
+      display: none !important;
+      padding: 0;
+      margin: 0;
    }
 }
