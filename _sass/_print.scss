@@ -27,6 +27,7 @@
 
    .page-break { 
       clear: both;
-      page-break-after: always;
+      break-after: always;
+      min-height: 1px;
    }
 }
