@@ -100,13 +100,13 @@ projects:
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Polycast
+        link: "https://polycast.brainpad.org/"
+        tagline: "Listen to your favorite podcasts on any device without ever losing progress. Finally a true cross-platform alternative to the big guys."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Plantbook
+        link: "https://apps.apple.com/us/app/plantbook-plants-companion/id1117656824"
+        tagline: "Plantbook helps you take care of your precious plants so that they to live longer, grow faster and never lack water once again."
 
 skills:
     title: Skills &amp; Proficiency
