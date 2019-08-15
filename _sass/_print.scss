@@ -11,9 +11,17 @@
       color: #ffffff;
    }
 
+   .main-wrapper .time {
+      float: right;
+   }
+
    .sidebar-wrapper {
       position: static;
       float: right;
       width: 40%;
+   }
+
+   .remove-container.container-block {
+      display: none;
    }
 }
