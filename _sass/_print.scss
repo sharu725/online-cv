@@ -1,29 +1,19 @@
 @media print {
    body {
-      font-size: 12pt;
+      font-size: 11pt;
    }
 
-   i.fas {
-      color: #fff;
+   h3.section-title i.fa-circle {
+      color: #2d7788;
    }
 
-   .main-wrapper .time {
-      float: right;
-      -webkit-print-color-adjust: exact;
+   h3.section-title i.fa-inverse {
+      color: #ffffff;
    }
 
    .sidebar-wrapper {
       position: static;
       float: right;
       width: 40%;
-      -webkit-print-color-adjust: exact;
-   }
-
-   .remove-container.container-block {
-      display: none;
-   }
-
-   .skillset .level-bar-inner {
-      -webkit-print-color-adjust: exact;
    }
 }
