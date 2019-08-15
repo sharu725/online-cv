@@ -62,17 +62,11 @@ experiences:
       details: |
         Developing customized solutions for mobile, web and software platforms using bleeding edge technologies. Providing on-demand and on-site consultancy for multiple organizations across the globe.
 
-          - Bullet point
-          - Bullet point
-
     - role: Software Developer
       time: 2011 - 2012
       company: 6i Solution inc.
       details: |
         Building "Enterprise Planning System" (ERP) tools & solutions using C# and various Microsoft services, deal with clients, work in a totally bilingual environment.
-
-          - Bullet point
-          - Bullet point
 
     - role: System Administrator / Developer
       time: 2011 - 2011
@@ -80,24 +74,15 @@ experiences:
       details: |
         Building Windows Servers and support them. Developing enterprise resource planning tools.
 
-          - Bullet point
-          - Bullet point
-
     - role: Web Developer
       time: 2008 - 2010
       company: Egzakt
       details: |
         Project analysis, Web design integration, Web development and Mobile app development.
 
-          - Bullet point
-          - Bullet point
-
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    intro:
 
     assignments:
       - title: Polycast
