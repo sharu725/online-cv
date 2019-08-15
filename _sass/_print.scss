@@ -1,36 +1,36 @@
-@media print {
-   *,
-   *:before,
-   *:after {
-      color: inherit !important;
-   }
+// @media print {
+//    *,
+//    *:before,
+//    *:after {
+//       color: inherit !important;
+//    }
 
-   .main-wrapper .time {
-      float: right;
-      -webkit-print-color-adjust: exact;
-   }
+//    .main-wrapper .time {
+//       float: right;
+//       -webkit-print-color-adjust: exact;
+//    }
 
-   .sidebar-wrapper {
-      position: static;
-      float: right;
-      width: 40%;
-      -webkit-print-color-adjust: exact;
-   }
+//    .sidebar-wrapper {
+//       position: static;
+//       float: right;
+//       width: 40%;
+//       -webkit-print-color-adjust: exact;
+//    }
 
-   .remove-container.container-block {
-      display: none;
-   }
+//    .remove-container.container-block {
+//       display: none;
+//    }
 
-   footer {
-      display: none;
-   }
+//    footer {
+//       display: none;
+//    }
 
-   .skillset .level-bar-inner {
-      -webkit-print-color-adjust: exact;
-   }
+//    .skillset .level-bar-inner {
+//       -webkit-print-color-adjust: exact;
+//    }
 
-   a[href]:after {
-      display: none;
-      visibility: hidden;
-   }
-}
+//    a[href]:after {
+//       display: none;
+//       visibility: hidden;
+//    }
+// }
