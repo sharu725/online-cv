@@ -24,6 +24,32 @@ sidebar:
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
+    languages:
+      - idiom: French
+        level: Native
+
+      - idiom: English
+        level: Fluent
+
+      - idiom: Spanish
+        level: Practical
+
+    interests:
+      - item: Performing music
+        link:
+
+      - item: Everything IT
+        link:
+
+      - item: Gaming
+        link:
+
+      - item: Skateboarding
+        link:
+
+      - item: Cooking & Gardening
+        link:
+
 career-profile:
     title: Career Profile
     summary: |
@@ -105,30 +131,4 @@ education:
       university: CÉGEP de Trois-Rivières
       time: 2006 - 2008
 
-languages:
-  - idiom: French
-    level: Native
-
-  - idiom: English
-    level: Fluent
-
-  - idiom: Spanish
-    level: Practical
-
-interests:
-  - item: Performing music
-    link:
-
-  - item: Everything IT
-    link:
-
-  - item: Skateboarding
-    link:
-
-  - item: Gaming
-    link:
-
-  - item: Cooking & Gardening
-    link:
-      
 footer:
