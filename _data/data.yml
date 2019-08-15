@@ -80,14 +80,14 @@ projects:
         tagline: >
           Cross-platform application I built from the ground up. Front-end built using Ionic (Angular) & Cordova. Also built the REST API back-end using Node & MongoDB.
           <br><br>
-          <q>Listen to your favorite podcasts on any device without ever losing progress. Finally, a true cross-platform alternative to the big guys.</q><hr>
+          <q>Listen to your favorite podcasts on any device without ever losing progress. Finally, a true cross-platform alternative to the big guys.</q>
 
       - title: Plantbook
         link: "https://apps.apple.com/us/app/plantbook-plants-companion/id1117656824"
         tagline: >
           Native iOS application built using Swift and Objective-C.
           <br><br>
-          <q>Plantbook helps you take care of your precious plants so that they live longer, grow faster and never lack water once again.</q><hr>
+          <q>Plantbook helps you take care of your precious plants so that they live longer, grow faster and never lack water once again.</q>
 
       - title: Radio Talbot
         link: "https://www.radiotalbot.tv/"
