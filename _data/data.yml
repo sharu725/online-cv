@@ -35,7 +35,10 @@ sidebar:
         level: Practical
 
     interests:
-      - item: Music
+      - item: Performing music
+        link:
+
+      - item: Everything IT
         link:
 
       - item: Skateboarding
@@ -47,38 +50,38 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I've been developing customized mobile, web and software solutions using bleeding edge technologies for the past 10+ years. I've worked in multiple industries including VoIP, VPN, hosting, ecommerce, marketing, enterprise resource planning, automobile & heavy metallurgy, and more.
+      I've been developing customized mobile, web and software solutions using bleeding edge technologies for the past 10+ years. I've worked in multiple industries including VoIP, VPN, hosting, ecommerce, marketing, enterprise resource planning, automobile&heavy metallurgy, and more.
 
-      I can adapt to a team or work independantly and meet deadlines safely. I know my way around the full PHP or Node stack, also develop mobile apps using Ionic, Angular or React. I can also handle Linux & Windows server administration, virtualization management (aws, digital ocean, etc), DNS management and even know the Adobe apps suite pretty well.
+      I can adapt to a team or work independently and meet deadlines safely. I know my way around the full PHP or Node stack, also develop mobile apps using Ionic, Angular or React. I can also handle Linux&Windows server administration, virtualization management (aws, digital ocean, etc), DNS management and even know the Adobe apps suite pretty well.
 
 experiences:
     - role: Senior Software Consultant
       time: 2012 - Present
       company: Brainpad Consulting
       details: |
-        Developing customized solutions for mobile, web and software platforms using bleeding edge technologies. Providing on-demand and on-site consultancy for multiple organizations across the globe.
+        Develop custom solutions for mobile, web and software platforms using bleeding edge technologies. Provide on-demand and on-site consultancy for multiple organizations internationally.
 
     - role: Software Developer
       time: 2011 - 2012
       company: 6i Solution inc.
       details: |
-        Building "Enterprise Planning System" (ERP) tools & solutions using C# and various Microsoft services, deal with clients, work in a totally bilingual environment.
+        Build "Enterprise Planning System" (ERP) tools & solutions using C# and various Microsoft services, deal with client requests, work in a totally bilingual environment.
 
     - role: System Administrator / Developer
       time: 2011 - 2011
       company: Savico Ltd.
       details: |
-        Building Windows Servers and support them. Developing enterprise resource planning tools.
+        Build Windows servers and support them. Develop custom enterprise resource planning tools.
 
     - role: Web Developer
       time: 2008 - 2010
       company: Egzakt
       details: |
-        Project analysis, Web design integration, Web development and Mobile app development.
+        Project analysis, web design integration, web development and mobile app development.
 
 projects:
     title: Projects
-    intro:
+    intro: "Here some of my latest personal projects:"
 
     assignments:
       - title: Polycast
