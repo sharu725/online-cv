@@ -1,6 +1,6 @@
 @media print {
    body {
-      margin-top: 25px;
+      margin-top: 10px;
       font-size: 9pt;
       background-color: #ffffff;
    }
@@ -44,7 +44,7 @@
    .break-before {
       clear: both;
       page-break-before: always;
-      margin-top: 60px;
+      margin-top: 50px;
    }
 
    .wrapper {
