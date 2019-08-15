@@ -47,13 +47,9 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Hi, my name is Tommy. Thank you for checking out my profile!
+      I've been developing customized mobile, web and software solutions using bleeding edge technologies for the past 10+ years. I've worked in multiple industries including VoIP, VPN, hosting, ecommerce, marketing, enterprise resource planning, automobile & heavy metallurgy, and more.
 
-      I've been developing customized mobile, web and software solutions using bleeding edge technologies for the past 10 years. I've worked in multiple industries including VoIP, VPN hosting, web commerce & marketing, enterprise resource planning, automobile & heavy metallurgy, and more.
-
-      I can adapt to a team or work independantly and meet deadlines safely. I know my way around the full PHP or Node stack, also develop mobile apps using Ionic, Angular or React. I can also handle Linux & Windows servers administration, virtualization management (aws, digital ocean, etc), DNS management and even know the Adobe apps suite pretty well.
-
-      Feel free to contact me at any time! Also make sure to check out my LinkedIn and GitHub profiles for more information and for code samples. (tbergeron on both LinkedIn and GitHub; I'm also on StackOverflow)
+      I can adapt to a team or work independantly and meet deadlines safely. I know my way around the full PHP or Node stack, also develop mobile apps using Ionic, Angular or React. I can also handle Linux & Windows server administration, virtualization management (aws, digital ocean, etc), DNS management and even know the Adobe apps suite pretty well.
 
 experiences:
     - role: Senior Software Consultant
@@ -87,7 +83,9 @@ projects:
     assignments:
       - title: Polycast
         link: "https://polycast.brainpad.org/"
-        tagline: "Listen to your favorite podcasts on any device without ever losing progress. Finally a true cross-platform alternative to the big guys."
+        tagline: >
+          Listen to your favorite podcasts on any device without ever losing progress. 
+          Finally a true cross-platform alternative to the big guys.
 
       - title: Plantbook
         link: "https://apps.apple.com/us/app/plantbook-plants-companion/id1117656824"
@@ -121,7 +119,7 @@ skills:
 education:
     - degree: DEC in Languages
       university: CÉGEP de Trois-Rivières
-      time: 2008 - 2010
+      time: 2006 - 2008
 
 footer: >
     Learn more about <a href="https://brainpad.org" target="_blank" rel="nofollow">Brainpad Consulting</a>
