@@ -26,9 +26,13 @@
       display: none;
    }
 
-   .page-break { 
+   .break-before { 
       clear: both;
-      break-after: always;
-      min-height: 1px;
+      break-before: always;
+      margin-top: 20px;
+   }
+
+   footer {
+      display: none;
    }
 }
