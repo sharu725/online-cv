@@ -15,6 +15,17 @@
       margin-top: 50px;
    }
 
+   .sidebar-wrapper {
+      position: static;
+      float: right;
+      width: 40%;
+      margin-left: 40px;
+   }
+
+   .wrapper {
+      box-shadow: none;
+   }
+
    h3.section-title i.fa-circle {
       color: #2d7788;
    }
@@ -39,16 +50,6 @@
       position: absolute;
       right: 0;
       top: 0;
-   }
-   .sidebar-wrapper {
-      position: static;
-      float: right;
-      width: 40%;
-      margin-left: 25px;
-   }
-
-   .wrapper {
-      box-shadow: none;
    }
 
    .footer {
