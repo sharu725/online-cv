@@ -105,30 +105,30 @@ education:
       university: CÉGEP de Trois-Rivières
       time: 2006 - 2008
 
-  languages:
-    - idiom: French
-      level: Native
+languages:
+  - idiom: French
+    level: Native
 
-    - idiom: English
-      level: Fluent
+  - idiom: English
+    level: Fluent
 
-    - idiom: Spanish
-      level: Practical
+  - idiom: Spanish
+    level: Practical
 
-  interests:
-    - item: Performing music
-      link:
+interests:
+  - item: Performing music
+    link:
 
-    - item: Everything IT
-      link:
+  - item: Everything IT
+    link:
 
-    - item: Skateboarding
-      link:
+  - item: Skateboarding
+    link:
 
-    - item: Gaming
-      link:
+  - item: Gaming
+    link:
 
-    - item: Cooking & Gardening
-      link:
+  - item: Cooking & Gardening
+    link:
       
 footer:
