@@ -5,6 +5,10 @@
       background-color: #ffffff;
    }
 
+   q {
+      font-style: italic;
+   }
+
    .break-before {
       clear: both;
       page-break-before: always;
@@ -26,13 +30,13 @@
       padding-bottom: 20px !important;
    }
 
-   h3.section-title i.fa-circle {
-      color: #2d7788;
-   }
+   // h3.section-title i.fa-circle {
+   //    color: #2d7788;
+   // }
 
-   h3.section-title i.fa-inverse {
-      color: #ffffff;
-   }
+   // h3.section-title i.fa-inverse {
+   //    color: #ffffff;
+   // }
 
    .main-wrapper .upper-row {
       position: relative;
