@@ -34,21 +34,15 @@ sidebar:
       - idiom: Spanish
         level: Practical
 
-    # interests:
-    #   - item: Performing Music
-    #     link:
+    interests:
+      - item: Performing Music
+        link:
 
-    #   - item: Gaming
-    #     link:
+      - item: Cooking & Gardening
+        link:
 
-    #   - item: Gaming
-    #     link:
-
-    #   - item: Skateboarding
-    #     link:
-
-    #   - item: Cooking & Gardening
-    #     link:
+      - item: Gaming
+        link:
 
 career-profile:
     title: Career Profile
