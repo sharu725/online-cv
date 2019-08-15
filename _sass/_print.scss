@@ -11,6 +11,10 @@
       color: #ffffff;
    }
 
+   .main-wrapper .time {
+      float: right;
+   }
+   
    .sidebar-wrapper {
       position: static;
       float: right;
@@ -22,6 +26,10 @@
       clear: both;
       page-break-before: always;
       margin-top: 20px;
+   }
+
+   .wrapper {
+      box-shadow: none;
    }
 
    .footer {
