@@ -81,7 +81,7 @@ experiences:
 
 projects:
     title: Projects
-    intro: "Here some of my latest personal projects:"
+    intro:
 
     assignments:
       - title: Polycast
