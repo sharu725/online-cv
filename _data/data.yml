@@ -107,14 +107,14 @@ skills:
       - name: SQL & NoSQL Databases
         level: 90%
 
-      - name: Mobile (Cross-Platform) Development
+      - name: HTML5 & CSS3
         level: 80%
 
-      - name: HTML5 & CSS3
-        level: 75%
+      - name: Mobile (Cross-Platform) Development
+        level: 70%
 
-      - name: Angular & Ionic
-        level: 75%
+      - name: Angular.js, Ionic & React.js
+        level: 70%
 
       - name: Adobe Apps
         level: 60%
