@@ -68,19 +68,19 @@ experiences:
       time: 2011 - 2012
       company: 6i Solution inc. <em>(Trois-Rivières, Canada)</em>
       details: |
-        Build "Enterprise Planning System" (ERP) tools & solutions using C# and various Microsoft services, deal with client requests, work in a totally bilingual environment.
+        Build enterprise resource planning tools & solutions using C# and various Microsoft services, deal with client requests, work in a totally bilingual environment.
 
     - role: System Administrator / Developer
       time: 2011 - 2011
       company: Savico Ltd. <em>(Berthierville, Canada)</em>
       details: |
-        Build Windows servers and support them. Develop custom enterprise resource planning tools.
+        Build Windows servers and maintain them. Maintain office workstations. Support the office staff with their daily needs. Develop custom enterprise resource planning tools and other miscellaneous software.
 
     - role: Web Developer
       time: 2008 - 2010
       company: Egzakt <em>(Trois-Rivières, Canada)</em>
       details: |
-        Project analysis, web design integration, web development and mobile app development.
+        Project analysis, web design integration, web development and mobile app development. Deal with client requests. Demonstrate and explain projects to stakeholders.
 
 projects:
     title: Projects
@@ -90,16 +90,23 @@ projects:
       - title: Polycast
         link: "https://polycast.brainpad.org/"
         tagline: >
-          Listen to your favorite podcasts on any device without ever losing progress. 
-          Finally a true cross-platform alternative to the big guys.
+          Cross-platform application I built from the ground up. Front-end built using Ionic (Angular) & Cordova. Also built the REST API back-end using Node & MongoDB.
+
+          <em>Listen to your favorite podcasts on any device without ever losing progress. Finally, a true cross-platform alternative to the big guys.</em>
 
       - title: Plantbook
         link: "https://apps.apple.com/us/app/plantbook-plants-companion/id1117656824"
-        tagline: "Plantbook helps you take care of your precious plants so that they to live longer, grow faster and never lack water once again."
+        tagline: >
+          Native iOS application built using Swift and Objective-C.
+          
+          <em>Plantbook helps you take care of your precious plants so that they live longer, grow faster and never lack water once again.</em>
 
       - title: Radio Talbot
         link: "https://www.radiotalbot.tv/"
-        tagline: "Radio Talbot has been broadcasting for more than 10 years. Every week, Denis Talbot talks about technology, esports and gaming industry news with his numerous contributors."
+        tagline: >
+          Official website I built for a locally famous TV host using Laravel, MySQL & FFMPEG. I handled a lot of API integrations (Twitch, Vimeo and SoundCloud) and FFMPEG-related tasks to prepare videos for the public.
+          
+          <em>Radio Talbot has been broadcasting for more than 10 years. Every week, Denis Talbot talks about technology, esports and gaming industry news with his numerous contributors.</em>
 
 skills:
     title: Skills &amp; Proficiency
