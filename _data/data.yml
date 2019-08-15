@@ -56,32 +56,38 @@ career-profile:
       Feel free to contact me at any time! Also make sure to check out my LinkedIn and GitHub profiles for more information and for code samples. (tbergeron on both LinkedIn and GitHub; I'm also on StackOverflow)
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Senior Software Consultant
+      time: 2012 - Present
+      company: Brainpad Consulting
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Developing customized solutions for mobile, web and software platforms using bleeding edge technologies. Providing on-demand and on-site consultancy for multiple organizations across the globe.
 
           - Bullet point
           - Bullet point
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Software Developer
+      time: 2011 - 2012
+      company: 6i Solution inc.
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Building "Enterprise Planning System" (ERP) tools & solutions using C# and various Microsoft services, deal with clients, work in a totally bilingual environment.
+
+          - Bullet point
+          - Bullet point
+
+    - role: System Administrator / Developer
+      time: 2011 - 2011
+      company: Savico Ltd.
+      details: |
+        Building Windows Servers and support them. Developing enterprise resource planning tools.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Web Developer
+      time: 2008 - 2010
+      company: Egzakt
+      details: |
+        Project analysis, Web design integration, Web development and Mobile app development.
 
           - Bullet point
           - Bullet point
