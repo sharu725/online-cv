@@ -57,25 +57,25 @@ career-profile:
 experiences:
     - role: Senior Software Consultant
       time: 2012 - Present
-      company: Brainpad Consulting (Trois-Rivières, Canada)
+      company: Brainpad Consulting <em>(Trois-Rivières, Canada)</em>
       details: |
         Develop custom solutions for mobile, web and software platforms using bleeding edge technologies. Provide on-demand and on-site consultancy for multiple organizations internationally.
 
     - role: Software Developer
       time: 2011 - 2012
-      company: 6i Solution inc. (Trois-Rivières, Canada)
+      company: 6i Solution inc. <em>(Trois-Rivières, Canada)</em>
       details: |
         Build "Enterprise Planning System" (ERP) tools & solutions using C# and various Microsoft services, deal with client requests, work in a totally bilingual environment.
 
     - role: System Administrator / Developer
       time: 2011 - 2011
-      company: Savico Ltd. (Berthierville, Canada)
+      company: Savico Ltd. <em>(Berthierville, Canada)</em>
       details: |
         Build Windows servers and support them. Develop custom enterprise resource planning tools.
 
     - role: Web Developer
       time: 2008 - 2010
-      company: Egzakt (Trois-Rivières, Canada)
+      company: Egzakt <em>(Trois-Rivières, Canada)</em>
       details: |
         Project analysis, web design integration, web development and mobile app development.
 
