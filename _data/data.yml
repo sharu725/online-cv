@@ -94,7 +94,7 @@ projects:
         tagline: >
           Official website I built for a locally famous TV host using Laravel, MySQL & FFMPEG. I handled a lot of API integrations (Twitch, Vimeo and SoundCloud) and FFMPEG-related tasks to prepare videos for the public.
           <br><br>
-          <q>Radio Talbot has been broadcasting for more than 10 years. Every week, Denis Talbot talks about technology, esports and gaming industry news with his numerous contributors.</q><hr>
+          <q>Radio Talbot has been broadcasting for more than 10 years. Every week, Denis Talbot talks about technology, esports and gaming industry news with his numerous contributors.</q>
 
 skills:
     title: Skills &amp; Proficiency
