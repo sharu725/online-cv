@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Alan Doe
     tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: https://cdn.kukiel.dev/profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: hello@webjeda.com
@@ -27,12 +27,6 @@ sidebar:
     languages:
       - idiom: English
         level: Native
-
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
 
     interests:
       - item: Climbing
