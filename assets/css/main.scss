@@ -5,4 +5,12 @@
 @charset "utf-8";
 
 @import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
+
+$summary-order: {{ site.data.data.career-profile.order | default: 1 }};
+$experiences-order: {{ site.data.data.experiences.order | default: 1 }};
+$education-order: {{ site.data.data.education.order | default: 1 }};
+$projects-order: {{ site.data.data.projects.order | default: 1 }};
+$publications-order: {{ site.data.data.publications.order | default: 1 }};
+$skills-order: {{ site.data.data.skills.order | default: 1 }};
+
 @import "default"; // main partials

@@ -157,6 +157,8 @@ p {
     background: #fff;
     padding: 60px;
     padding-right: 340px;
+    display: flex;
+    flex-direction: column;
     .section-title {
         text-transform: uppercase;
         font-size: 20px;
@@ -170,10 +172,23 @@ p {
         margin-bottom: 60px;
     }
 
-    .experiences-section, .educations-section {
+    .experiences-section {
+        order: $experiences-order;
         .item {
             margin-bottom: 30px;
         }
+    }
+    .educations-section {
+        order: $education-order;
+        .item {
+            margin-bottom: 30px;
+        }
+    }
+    .summary-section {
+        order: $summary-order;
+    }
+    .skills-section {
+        order: $skills-order;
     }
     .upper-row {
         position: relative;
@@ -206,6 +221,7 @@ p {
 	color: darken($theme-color, 15%);
     }
     .projects-section {
+        order: $projects-order;
         .intro {
             margin-bottom: 30px;
         }
@@ -226,6 +242,7 @@ p {
         margin-bottom: 1px;
     }
     .publications-section {
+        order: $publications-order;
         .intro {
             margin-bottom: 30px;
         }
