@@ -7,43 +7,34 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Inga Patarcic
+    tagline: Bioinformatician
+    avatar: ipa.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    email: inga.patarcic@gmail.com
+    phone: +49 178 2011 100
+    blog: julia #do not add http://
+    linkedin: inga.patarcic
+    github: IngaPa
+    twitter: '@Ingische'
+   
 
     languages:
-      - idiom: English
+      - idiom: Croatian
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
 
-      - idiom: Spanish
+      - idiom: German
         level: Professional
 
     interests:
-      - item: Climbing
-        link:
+      - item: Climbing/Bouldering/Routesetting
+        instagram: inga.patarcic 
 
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
-
+      
 career-profile:
     title: Career Profile
     summary: |
@@ -56,75 +47,63 @@ career-profile:
       Second paragraph if required.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: MSc in Molecular Biology
+      university: University of Zagreb
+      time: 2010 - 2013
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Describe your study here
 
           - Bullet point
           - Bullet point
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: BSc in Molecular Biology
+      university: University of Zagreb
+      time: 2007 - 2010
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        Describe your study here 
         pretium quis, sem.
 
           - Bullet point
           - Bullet point
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+    - role: PhD Student
+      time: 2015 - Present 
+      company: Data Omics and Bioinformatics Science Gruop
+      details: 
+        Describe your role h
 
           - Bullet point
           - Bullet point
-
-    - role: Senior Software Engineer
+          
+    - role: Researcher
+      time: 2015
+      company: University of Edinburg, Edinburgh
+      details: 
+        Describe your role here 
+          - Bullet point
+          - Bullet point
+     
+     
+    - role: Researcher
       time: 2014 - 2015
-      company: Google, London
+      company: Medical Faculty, University of Split, Split
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
+        Describe your role here 
           - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+          - Bullet point     
+          
+          
+    - role: Field-work/Biobanking/Data Analysis
+      time: 2013 
+      company: 10,001 Dalmatian - Croatian National Biobank
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Describe your role here 
 
           - Bullet point
           - Bullet point
+
+   
 
 projects:
     title: Projects
@@ -178,19 +157,19 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python & Linux
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: R & RScript
         level: 98%
 
-      - name: Angular
+      - name: markdown and Shiny
         level: 98%
 
-      - name: HTML5 & CSS
+      - name: STRUCTURE & ADMIXTURE & PLINK 
         level: 95%
 
-      - name: Ruby on Rails
+      - name: jelkyl
         level: 85%
 
       - name: Sketch & Photoshop
