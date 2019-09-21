@@ -69,16 +69,14 @@ experiences:
     - role: PhD Student
       time: 2015 - Present 
       company: Data Omics and Bioinformatics Science Gruop
-      details: 
-        Describe your role h
-
+      details: |
           - I developed two R packages: reg2gene and myDNA
           - Started myDNA blog and developed Shiny App
           
     - role: Researcher
       time: 2015
       company: University of Edinburg, Edinburgh
-      details: 
+      details: |
         Describe your role here 
           - Machine learining modelling to improve risk scores predictions
           - Bullet point
@@ -87,10 +85,9 @@ experiences:
     - role: Data Analysist
       time: 2013 - 2015
       company: Medical Faculty, University of Split, Split
-      details: 
+      details: |
         I analyzed data from the Croatian National Biobank
-       
-          - GWAS and downstream analyses
+         - GWAS and downstream analyses
           - population genetics analyses using STRUCTURE, ADMIXTURE, PLINK    
    
           
@@ -98,12 +95,11 @@ experiences:
     - role: Researcher in a Biobank facility
       time: 2013 - 2014
       company: "10,001 Dalmatians" - Croatian National Biobank
-      details: 
+      details: |
         I assisted in establishing and managing the Croatian National Biobank
-
           - experience of managing a biobank
           - participated in collection and processing of human tissues and other samples
-          - participated in phenotyping assessments of the participants
+          - I interviewed and phenotyped hudreds of participants
           - created and maintained filing system for storing confidential records
           - contributed to the development and maintenance of SOPs
           
