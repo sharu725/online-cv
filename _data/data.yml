@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Inga Patarcic
     tagline: Bioinformatician
-    avatar: ipa.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: https://avatars0.githubusercontent.com/u/12497640?s=400&u=1419002fc102af0cb79668b6255f9284a6197cf9&v=4  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: inga.patarcic@gmail.com
@@ -17,7 +17,7 @@ sidebar:
     blog: julia #do not add http://
     linkedin: inga.patarcic
     github: IngaPa
-    twitter: '@Ingische'
+    twitter: 'Ingische'
    
 
     languages:
@@ -73,36 +73,41 @@ experiences:
       details: 
         Describe your role h
 
-          - Bullet point
-          - Bullet point
+          - I developed two R packages: reg2gene and myDNA
+          - Started myDNA blog and developed Shiny App
           
     - role: Researcher
       time: 2015
       company: University of Edinburg, Edinburgh
       details: 
         Describe your role here 
-          - Bullet point
+          - Machine learining modelling to improve risk scores predictions
           - Bullet point
      
      
-    - role: Researcher
-      time: 2014 - 2015
+    - role: Data Analysist
+      time: 2013 - 2015
       company: Medical Faculty, University of Split, Split
-      details: |
-        Describe your role here 
-          - Bullet point
-          - Bullet point     
+      details: 
+        I analyzed data from the Croatian National Biobank
+       
+          - GWAS and downstream analyses
+          - population genetics analyses using STRUCTURE, ADMIXTURE, PLINK    
+   
           
           
-    - role: Field-work/Biobanking/Data Analysis
-      time: 2013 
-      company: 10,001 Dalmatian - Croatian National Biobank
-      details: |
-        Describe your role here 
+    - role: Researcher in a Biobank facility
+      time: 2013 - 2014
+      company: "10,001 Dalmatians" - Croatian National Biobank
+      details: 
+        I assisted in establishing and managing the Croatian National Biobank
 
-          - Bullet point
-          - Bullet point
-
+          - experience of managing a biobank
+          - participated in collection and processing of human tissues and other samples
+          - participated in phenotyping assessments of the participants
+          - created and maintained filing system for storing confidential records
+          - contributed to the development and maintenance of SOPs
+          
    
 
 projects:
