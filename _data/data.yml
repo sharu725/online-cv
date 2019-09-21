@@ -76,7 +76,7 @@ experiences:
     - role: Researcher
       time: 2015
       company: University of Edinburg, Edinburgh
-      details: 
+      details: |
         Describe your role here 
           - Machine learining modelling to improve risk scores predictions
           - Bullet point
