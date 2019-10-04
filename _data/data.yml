@@ -93,6 +93,40 @@ experiences:
           - PCB Design
           - 3d modeling (Enclosure Design)
 
+    - role: Vice President
+      time: September 2017 – February 2019
+      company: Robotics Club of BRAC University
+      details: |
+        
+    - role: Instructor
+      time: January 2016 – Present
+      company: Robotics Club of BRAC University
+      details: |
+        
+    - role: Assistant Director Of Research Development
+      time: January 2017 – August 2017
+      company: Robotics Club of BRAC University
+      details: |
+        
+    
+            # Robotics Club of BRAC University
+            # Total Duration3 yrs 10 mos
+
+            # Title Instructor
+            # Dates Employed Jan 2016 – Present
+            # Employment Duration3 yrs 10 mos
+            # Location Dhaka, Bangladesh
+
+            # Title Vice President
+            # Dates Employed Sep 2017 – Feb 2019
+            # Employment Duration1 yr 6 mos
+            # LocationDhaka, Bangladesh
+
+            # Title Assistant Director Of Research Development
+            # Dates Employed Jan 2017 – Aug 2017
+            # Employment Duration 8 mos
+            # Location Dhaka, Bangladesh
+
     # - role: Senior Software Engineer
     #   time: 2014 - 2015
     #   company: Google, London
