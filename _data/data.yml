@@ -142,14 +142,11 @@ experiences:
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: BRACU Duburi
+        link: "https://www.facebook.com/bracuduburi/"
+        tagline: "“BRACU Duburi” is the first autonomous underwater vehicle of Bangladesh and was launched in 2017. “Duburi” team was successful to secure 7th position in SAUVC (Singapore Autonomous Underwater Vehicle Challange) 2018."
 
       - title: DevStudio
         link: "#"
