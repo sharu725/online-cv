@@ -1,0 +1,154 @@
+current directory: /Users/hikaru-k/research/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.4/ext/nokogiri
+/Users/hikaru-k/.rbenv/versions/2.6.0-dev/bin/ruby -I /Users/hikaru-k/.rbenv/versions/2.6.0-dev/lib/ruby/2.6.0 -r ./siteconf20191024-7490-1fqdk6n.rb extconf.rb
+checking if the C compiler accepts  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2... yes
+checking if the C compiler accepts -Wno-error=unused-command-line-argument-hard-error-in-future... no
+Building nokogiri using packaged libraries.
+Using mini_portile version 2.4.0
+checking for iconv.h... yes
+checking for gzdopen() in -lz... yes
+checking for iconv... yes
+************************************************************************
+IMPORTANT NOTICE:
+
+Building Nokogiri with a packaged version of libxml2-2.9.9
+with the following patches applied:
+	- 0001-Revert-Do-not-URI-escape-in-server-side-includes.patch
+	- 0002-Remove-script-macro-support.patch
+	- 0003-Update-entities-to-remove-handling-of-ssi.patch
+
+Team Nokogiri will keep on doing their best to provide security
+updates in a timely manner, but if this is a concern for you and want
+to use the system library instead; abort this installation process and
+reinstall nokogiri as follows:
+
+    gem install nokogiri -- --use-system-libraries
+        [--with-xml2-config=/path/to/xml2-config]
+        [--with-xslt-config=/path/to/xslt-config]
+
+If you are using Bundler, tell it to use the option:
+
+    bundle config build.nokogiri --use-system-libraries
+    bundle install
+
+Note, however, that nokogiri is not fully compatible with arbitrary
+versions of libxml2 provided by OS/package vendors.
+************************************************************************
+Extracting libxml2-2.9.9.tar.gz into tmp/x86_64-apple-darwin18.2.0/ports/libxml2/2.9.9... OK
+Running git apply with /Users/hikaru-k/research/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.4/patches/libxml2/0001-Revert-Do-not-URI-escape-in-server-side-includes.patch... OK
+Running git apply with /Users/hikaru-k/research/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.4/patches/libxml2/0002-Remove-script-macro-support.patch... OK
+Running git apply with /Users/hikaru-k/research/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.4/patches/libxml2/0003-Update-entities-to-remove-handling-of-ssi.patch... OK
+Running 'configure' for libxml2 2.9.9... OK
+Running 'compile' for libxml2 2.9.9... OK
+Running 'install' for libxml2 2.9.9... OK
+Activating libxml2 2.9.9 (from /Users/hikaru-k/research/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-apple-darwin18.2.0/libxml2/2.9.9)...
+************************************************************************
+IMPORTANT NOTICE:
+
+Building Nokogiri with a packaged version of libxslt-1.1.33
+with the following patches applied:
+	- 0001-Fix-security-framework-bypass.patch
+
+Team Nokogiri will keep on doing their best to provide security
+updates in a timely manner, but if this is a concern for you and want
+to use the system library instead; abort this installation process and
+reinstall nokogiri as follows:
+
+    gem install nokogiri -- --use-system-libraries
+        [--with-xml2-config=/path/to/xml2-config]
+        [--with-xslt-config=/path/to/xslt-config]
+
+If you are using Bundler, tell it to use the option:
+
+    bundle config build.nokogiri --use-system-libraries
+    bundle install
+************************************************************************
+Extracting libxslt-1.1.33.tar.gz into tmp/x86_64-apple-darwin18.2.0/ports/libxslt/1.1.33... OK
+Running git apply with /Users/hikaru-k/research/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.4/patches/libxslt/0001-Fix-security-framework-bypass.patch... OK
+Running 'configure' for libxslt 1.1.33... OK
+Running 'compile' for libxslt 1.1.33... OK
+Running 'install' for libxslt 1.1.33... OK
+Activating libxslt 1.1.33 (from /Users/hikaru-k/research/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.4/ports/x86_64-apple-darwin18.2.0/libxslt/1.1.33)...
+checking for -llzma... yes
+checking for xmlParseDoc() in libxml/parser.h... yes
+checking for xsltParseStylesheetDoc() in libxslt/xslt.h... yes
+checking for exsltFuncRegister() in libexslt/exslt.h... yes
+checking for xmlHasFeature()... yes
+checking for xmlFirstElementChild()... yes
+checking for xmlRelaxNGSetParserStructuredErrors()... yes
+checking for xmlRelaxNGSetParserStructuredErrors()... yes
+checking for xmlRelaxNGSetValidStructuredErrors()... yes
+checking for xmlSchemaSetValidStructuredErrors()... yes
+checking for xmlSchemaSetParserStructuredErrors()... yes
+creating Makefile
+
+current directory: /Users/hikaru-k/research/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.4/ext/nokogiri
+make "DESTDIR=" clean
+
+current directory: /Users/hikaru-k/research/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.4/ext/nokogiri
+make "DESTDIR="
+compiling html_document.c
+compiling html_element_description.c
+compiling html_entity_lookup.c
+compiling html_sax_parser_context.c
+compiling html_sax_push_parser.c
+compiling nokogiri.c
+compiling xml_attr.c
+compiling xml_attribute_decl.c
+compiling xml_cdata.c
+xml_cdata.c:29:23: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+    content_str_len = RSTRING_LEN(content);
+                    ~ ^~~~~~~~~~~~~~~~~~~~
+/Users/hikaru-k/.rbenv/versions/2.6.0-dev/include/ruby-2.6.0/ruby/ruby.h:1000:6: note: expanded from macro 'RSTRING_LEN'
+     RSTRING_EMBED_LEN(str) : \
+     ^~~~~~~~~~~~~~~~~~~~~~
+/Users/hikaru-k/.rbenv/versions/2.6.0-dev/include/ruby-2.6.0/ruby/ruby.h:996:6: note: expanded from macro 'RSTRING_EMBED_LEN'
+     (long)((RBASIC(str)->flags >> RSTRING_EMBED_LEN_SHIFT) & \
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xml_cdata.c:29:23: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+    content_str_len = RSTRING_LEN(content);
+                    ~ ^~~~~~~~~~~~~~~~~~~~
+/Users/hikaru-k/.rbenv/versions/2.6.0-dev/include/ruby-2.6.0/ruby/ruby.h:1001:28: note: expanded from macro 'RSTRING_LEN'
+     RSTRING(str)->as.heap.len)
+     ~~~~~~~~~~~~~~~~~~~~~~^~~
+2 warnings generated.
+compiling xml_comment.c
+compiling xml_document.c
+compiling xml_document_fragment.c
+compiling xml_dtd.c
+compiling xml_element_content.c
+compiling xml_element_decl.c
+compiling xml_encoding_handler.c
+compiling xml_entity_decl.c
+compiling xml_entity_reference.c
+compiling xml_io.c
+compiling xml_libxml2_hacks.c
+compiling xml_namespace.c
+compiling xml_node.c
+xml_node.c:304:15: warning: passing 'const xmlChar *' (aka 'const unsigned char *') to parameter of type 'void *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+      xmlFree(reparentee->ns->prefix);
+              ^~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+compiling xml_node_set.c
+compiling xml_processing_instruction.c
+compiling xml_reader.c
+compiling xml_relax_ng.c
+compiling xml_sax_parser.c
+compiling xml_sax_parser_context.c
+compiling xml_sax_push_parser.c
+compiling xml_schema.c
+compiling xml_syntax_error.c
+compiling xml_text.c
+compiling xml_xpath_context.c
+compiling xslt_stylesheet.c
+xslt_stylesheet.c:112:13: warning: unused function 'swallow_superfluous_xml_errors' [-Wunused-function]
+static void swallow_superfluous_xml_errors(void * userdata, xmlErrorPtr error, ...)
+            ^
+1 warning generated.
+linking shared-object nokogiri/nokogiri.bundle
+Cleaning files only used during build.
+rm -rf /Users/hikaru-k/research/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.4/ext/nokogiri/tmp/x86_64-apple-darwin18.2.0/ports
+rm -rf /Users/hikaru-k/research/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.4/ports
+
+current directory: /Users/hikaru-k/research/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.4/ext/nokogiri
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 nokogiri.bundle ./.gem.20191024-7490-17nd5gu/nokogiri

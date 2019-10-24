@@ -1,0 +1,121 @@
+current directory: /Users/hikaru-k/research/vendor/bundle/ruby/2.6.0/gems/commonmarker-0.17.13/ext/commonmarker
+/Users/hikaru-k/.rbenv/versions/2.6.0-dev/bin/ruby -I /Users/hikaru-k/.rbenv/versions/2.6.0-dev/lib/ruby/2.6.0 -r ./siteconf20191024-7490-t5nfm.rb extconf.rb
+creating Makefile
+
+current directory: /Users/hikaru-k/research/vendor/bundle/ruby/2.6.0/gems/commonmarker-0.17.13/ext/commonmarker
+make "DESTDIR=" clean
+
+current directory: /Users/hikaru-k/research/vendor/bundle/ruby/2.6.0/gems/commonmarker-0.17.13/ext/commonmarker
+make "DESTDIR="
+compiling arena.c
+compiling autolink.c
+compiling blocks.c
+compiling buffer.c
+compiling cmark.c
+compiling cmark_ctype.c
+compiling commonmark.c
+commonmark.c:409:18: warning: assigning to 'char *' from 'const char [2]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+      emph_delim = "_";
+                 ^ ~~~
+commonmark.c:411:18: warning: assigning to 'char *' from 'const char [2]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+      emph_delim = "*";
+                 ^ ~~~
+2 warnings generated.
+compiling commonmarker.c
+In file included from commonmarker.c:3:
+In file included from ./houdini.h:9:
+./config.h:8:9: warning: 'HAVE_STDBOOL_H' macro redefined [-Wmacro-redefined]
+#define HAVE_STDBOOL_H
+        ^
+/Users/hikaru-k/.rbenv/versions/2.6.0-dev/include/ruby-2.6.0/x86_64-darwin18/ruby/config.h:27:9: note: previous definition is here
+#define HAVE_STDBOOL_H 1
+        ^
+commonmarker.c:121:20: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  extensions_len = RARRAY_LEN(rb_extensions);
+                 ~ ^~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/hikaru-k/.rbenv/versions/2.6.0-dev/include/ruby-2.6.0/ruby/ruby.h:1058:23: note: expanded from macro 'RARRAY_LEN'
+#define RARRAY_LEN(a) rb_array_len(a)
+                      ^~~~~~~~~~~~~~~
+commonmarker.c:163:9: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  len = RSTRING_LEN(rb_text);
+      ~ ^~~~~~~~~~~~~~~~~~~~
+/Users/hikaru-k/.rbenv/versions/2.6.0-dev/include/ruby-2.6.0/ruby/ruby.h:1000:6: note: expanded from macro 'RSTRING_LEN'
+     RSTRING_EMBED_LEN(str) : \
+     ^~~~~~~~~~~~~~~~~~~~~~
+/Users/hikaru-k/.rbenv/versions/2.6.0-dev/include/ruby-2.6.0/ruby/ruby.h:996:6: note: expanded from macro 'RSTRING_EMBED_LEN'
+     (long)((RBASIC(str)->flags >> RSTRING_EMBED_LEN_SHIFT) & \
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+commonmarker.c:163:9: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  len = RSTRING_LEN(rb_text);
+      ~ ^~~~~~~~~~~~~~~~~~~~
+/Users/hikaru-k/.rbenv/versions/2.6.0-dev/include/ruby-2.6.0/ruby/ruby.h:1001:28: note: expanded from macro 'RSTRING_LEN'
+     RSTRING(str)->as.heap.len)
+     ~~~~~~~~~~~~~~~~~~~~~~^~~
+commonmarker.c:538:20: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  extensions_len = RARRAY_LEN(rb_extensions);
+                 ~ ^~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/hikaru-k/.rbenv/versions/2.6.0-dev/include/ruby-2.6.0/ruby/ruby.h:1058:23: note: expanded from macro 'RARRAY_LEN'
+#define RARRAY_LEN(a) rb_array_len(a)
+                      ^~~~~~~~~~~~~~~
+commonmarker.c:1077:27: warning: implicit conversion loses integer precision: 'long' to 'bufsize_t' (aka 'int') [-Wshorten-64-to-32]
+                          RSTRING_LEN(rb_text))) {
+                          ^~~~~~~~~~~~~~~~~~~~
+/Users/hikaru-k/.rbenv/versions/2.6.0-dev/include/ruby-2.6.0/ruby/ruby.h:1000:6: note: expanded from macro 'RSTRING_LEN'
+     RSTRING_EMBED_LEN(str) : \
+     ^~~~~~~~~~~~~~~~~~~~~~
+/Users/hikaru-k/.rbenv/versions/2.6.0-dev/include/ruby-2.6.0/ruby/ruby.h:996:6: note: expanded from macro 'RSTRING_EMBED_LEN'
+     (long)((RBASIC(str)->flags >> RSTRING_EMBED_LEN_SHIFT) & \
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+commonmarker.c:1077:27: warning: implicit conversion loses integer precision: 'long' to 'bufsize_t' (aka 'int') [-Wshorten-64-to-32]
+                          RSTRING_LEN(rb_text))) {
+                          ^~~~~~~~~~~~~~~~~~~~
+/Users/hikaru-k/.rbenv/versions/2.6.0-dev/include/ruby-2.6.0/ruby/ruby.h:1001:28: note: expanded from macro 'RSTRING_LEN'
+     RSTRING(str)->as.heap.len)
+     ~~~~~~~~~~~~~~~~~~~~~~^~~
+commonmarker.c:1097:28: warning: implicit conversion loses integer precision: 'long' to 'bufsize_t' (aka 'int') [-Wshorten-64-to-32]
+                           RSTRING_LEN(rb_text), 0)) {
+                           ^~~~~~~~~~~~~~~~~~~~
+/Users/hikaru-k/.rbenv/versions/2.6.0-dev/include/ruby-2.6.0/ruby/ruby.h:1000:6: note: expanded from macro 'RSTRING_LEN'
+     RSTRING_EMBED_LEN(str) : \
+     ^~~~~~~~~~~~~~~~~~~~~~
+/Users/hikaru-k/.rbenv/versions/2.6.0-dev/include/ruby-2.6.0/ruby/ruby.h:996:6: note: expanded from macro 'RSTRING_EMBED_LEN'
+     (long)((RBASIC(str)->flags >> RSTRING_EMBED_LEN_SHIFT) & \
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+commonmarker.c:1097:28: warning: implicit conversion loses integer precision: 'long' to 'bufsize_t' (aka 'int') [-Wshorten-64-to-32]
+                           RSTRING_LEN(rb_text), 0)) {
+                           ^~~~~~~~~~~~~~~~~~~~
+/Users/hikaru-k/.rbenv/versions/2.6.0-dev/include/ruby-2.6.0/ruby/ruby.h:1001:28: note: expanded from macro 'RSTRING_LEN'
+     RSTRING(str)->as.heap.len)
+     ~~~~~~~~~~~~~~~~~~~~~~^~~
+9 warnings generated.
+compiling core-extensions.c
+compiling ext_scanners.c
+compiling footnotes.c
+compiling houdini_href_e.c
+compiling houdini_html_e.c
+compiling houdini_html_u.c
+compiling html.c
+compiling inlines.c
+compiling iterator.c
+compiling latex.c
+compiling linked_list.c
+compiling man.c
+compiling map.c
+compiling node.c
+compiling plaintext.c
+compiling plugin.c
+compiling references.c
+compiling registry.c
+compiling render.c
+compiling scanners.c
+compiling strikethrough.c
+compiling syntax_extension.c
+compiling table.c
+compiling tagfilter.c
+compiling utf8.c
+compiling xml.c
+linking shared-object commonmarker/commonmarker.bundle
+
+current directory: /Users/hikaru-k/research/vendor/bundle/ruby/2.6.0/gems/commonmarker-0.17.13/ext/commonmarker
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 commonmarker.bundle ./.gem.20191024-7490-1l9oxe2/commonmarker

@@ -3,198 +3,155 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: 熊本 光
+    tagline: 学生 (修士1年)
+    avatar: face.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: kumamoto.hikaru.ka4{at}is.naist.jp
+    phone: 080 4481 5050
+    website: kumahika.github.io #do not add http://
+    linkedin:
+    github: kumahika
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: Japanese
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: English
+        level: Intermediate
 
     interests:
-      - item: Climbing
+      - item: Robot
         link:
 
-      - item: Snowboarding
+      - item: IoT
         link:
 
-      - item: Cooking
+      - item: Web
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      奈良県出身，23歳の学生です．23歳でまだ学生ということは...と普通は考えるわけですが，決して留年していた訳ではございません．というのも中学卒業後は7年間奈良高専に通い，その後奈良先端大院に進学した為，現在は修士1年生です．
 
-      Second paragraph if required.
+      ちなみに日本の理系大学院生は約1000人に1人と言われていますから，ほとんどの同級生が社会で活躍する一方で，研究や勉強に打ち込める環境に身を置けていることに感謝しないとなぁと感じている今日この頃です．
+
+      研究活動については，奈良高専ではレーザー計測システム，移動ロボットによる環境測定システムの研究を行なっていました．現在の奈良先端大では，水中ロボットのプロジェクト・研究，医療関連の共同研究，WRC(World Robot Challenge)のコンビニチャレンジ等に取り組んでします．
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: 修士(見込み)
+      university: 奈良先端科学技術大学院大学
+      time: 2019 - present
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        現在は奈良先端科学技術大学院大学の修士1年生です．奈良先端大では主に情報科学領域を学びながら，ロボットや動くものづくりに関連する研究を行なっています．
 
-          - Bullet point
-          - Bullet point
+          - 奈良先端科学技術大学院大学 先端科学技術研究科 情報理工学プログラム
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: 学士
+      university: 奈良工業高等専門学校　専攻科
+      time: 2016 - 2019
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        奈良高専専攻科では，より専門性の高い科目や，グループでのシステムの設計，制作などを主に学びます．さらに，研究もより専門性とクオリティの高さが要求されます．
+        私の研究室は，ロボットの制御やシステムインテグレーションなどに取り組んでいました．
 
-          - Bullet point
-          - Bullet point
+          - 奈良工業高等専門学校 システム創成工学専攻 機械制御システムコース
 
-experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - degree: 準学士
+      university: 奈良工業高等専門学校　本科
+      time: 2011 - 2016
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        奈良高専では，高校の一般科目や教養科目に加えて，専門科目として機械・電気電子・情報の3つの分野を幅広く学びました．
+        高専は，5年生一貫教育を行なっており，1~3年生は一般科目，4~5年は専門科目を主に学びます．また，5年生は卒業研究を行い，4年制大学と比較して早い段階で研究活動を行います．
 
-          - Bullet point
-          - Bullet point
+          - 奈良工業高等専門学校 電子制御工学科
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+
+#experiences:
+    - role:
+      time:
+      company:
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
 
-          - Bullet point
-          - Bullet point
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
 
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      まだ数は少ないですが，研究以外に活動しているプロジェクトについて紹介します．
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: CICP2019 UUV project
+        link: "#https://naoki-sh.github.io/cicp2019_uuv_webpage/home/"
+        tagline: "CICPはNAISTの情報科学領域で実施しているプロジェクトで，毎年イノベーティブなテーマを採用しています．私たちのチームは，UUV(Unmmaned Underwater Vehicle)を使って，海洋ゴミの自動収集にチャレンジしています．"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: World Robot Challenge 2020
+        link: "#https://naripa.gitlab.io/"
+        tagline: "NAIST，立命館大学，PanasonicのチームでWRC2020にチャレンジします．"
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      国内および国際会議，シンポジウム等の発表リストです. タイトル，著者，会議名のみの簡略表現ですが悪しからず．．．
 
     papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Environmental measurement in Greenhouse by mobile robot using ROS
+        authors: Hikaru KUMAMOTO, Kenichi IIDA, Shigeto NAKAMURA, Etsuko UEDA
+        conference: Proceedings of the 7th IIAE International Conference on Industrial Application Engineering 2019 (ICIAE2019)
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: ROS を用いた移動ロボットによる園芸施設内の環境測定
+        authors: 熊本 光, 飯田 賢一, 上田 悦子
+        conference: 第19回システムインテグレーション部門講演会（SI2018）
 
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: 巡回ロボットによる環境測定システム
+        authors: 熊本 光, 飯田 賢一, 上田 悦子
+        conference: 平成30年 電気学会全国大会
+
+      - title: 巡回ロボットによる環境測定システム (発表のみ)
+        authors: 熊本 光
+        conference: 地(知)の拠点大学による地方創生推進事業(COC+)シンポジウム2018
+
+      - title: ピコ秒パルスレーザー干渉計を用いた厚み測定システム
+        authors: 熊本 光, 坂井 雄介, 押田 至啓
+        conference: 第24回「学生会員卒業研究発表講演会」
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: ROS (Robot Operating System)
+        level: 70%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Fusion360 (3D CAD)
+        level: 60%
 
-      - name: Angular
-        level: 98%
+      - name: electronic work (Arduino, raspi, etc...)
+        level: 50%
+
+      - name: C & C++
+        level: 50%
+
+      - name: Python
+        level: 50%
+
+      - name: Markdown
+        level: 40%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 20%
 
-      - name: Ruby on Rails
-        level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
