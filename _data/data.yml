@@ -48,7 +48,7 @@ career-profile:
 
       ちなみに日本の理系大学院生は約1000人に1人と言われていますから，ほとんどの同級生が社会で活躍する一方で，研究や勉強に打ち込める環境に身を置けていることに感謝しないとなぁと感じている今日この頃です．
 
-      研究活動については，奈良高専ではレーザー計測システム，移動ロボットによる環境測定システムの研究を行なっていました．現在の奈良先端大では，水中ロボットのプロジェクト・研究，医療関連の共同研究，WRC(World Robot Challenge)のコンビニチャレンジ等に取り組んでします．
+      研究活動については，奈良高専ではレーザー計測システム，移動ロボットによる環境測定システムの研究を行なっていました．現在の奈良先端大では，水中ロボットのプロジェクト・研究，医療関連の共同研究，WRC(World Robot Challenge)のコンビニチャレンジ等に取り組んでいます．
 
 education:
     - degree: 修士(見込み)
@@ -93,11 +93,11 @@ projects:
 
     assignments:
       - title: CICP2019 UUV project
-        link: "#https://naoki-sh.github.io/cicp2019_uuv_webpage/home/"
+        link: "https://naoki-sh.github.io/cicp2019_uuv_webpage/home/"
         tagline: "CICPはNAISTの情報科学領域で実施しているプロジェクトで，毎年イノベーティブなテーマを採用しています．私たちのチームは，UUV(Unmmaned Underwater Vehicle)を使って，海洋ゴミの自動収集にチャレンジしています．"
 
       - title: World Robot Challenge 2020
-        link: "#https://naripa.gitlab.io/"
+        link: "https://naripa.gitlab.io/"
         tagline: "NAIST，立命館大学，PanasonicのチームでWRC2020にチャレンジします．"
 
 publications:
