@@ -109,10 +109,10 @@ experiences:
         Key Achievements
 
         - Development of automated testing framework using Angular and Grails. Increasing QA efficiency, coverage and output by at least 3 times   
-        - Using .Net, develop a round-trip system for a Mincom Ellipse buyer sending Purchase Order (includes Change Order) to the Quadrem marketplace and Invoice back in to Ellipse. 
+        - Using .Net (C#), develop a round-trip system for a Mincom Ellipse buyer sending Purchase Order (includes Change Order) to the Quadrem marketplace and Invoice back in to Ellipse. 
         This was a ground-up development of an integration system to connect a Mincom Ellipse system, based on Mulesoft and including a custom web interface (for admin and monitoring) 
         - Maintenance and development of Webmethods integration services for a range of customers and geographic locations on a regular basis
-        - Developed demo system/adaptors using .Net to connect to Quadrem with MYOB, successfully demonstrating Order/Invoice cycle from an MYOB (Order) to a Quadrem 
+        - Developed demo system/adaptors using .Net (C#) to connect to Quadrem with MYOB, successfully demonstrating Order/Invoice cycle from an MYOB (Order) to a Quadrem 
         SupplyCentre supplier.
 
     - role: Developer/Architect
