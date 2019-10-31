@@ -13,7 +13,7 @@ sidebar:
 
     # Sidebar links
     email: kumamoto.hikaru.ka4{at}is.naist.jp
-    phone: 
+    phone:
     website: kumahika.github.io #do not add http://
     linkedin:
     github: kumahika
@@ -148,7 +148,13 @@ skills:
       - name: Markdown
         level: 40%
 
+      - name: Shellscript
+        level: 40%
+
       - name: HTML5 & CSS
+        level: 20%
+
+      - name: Docekr
         level: 20%
 
 
