@@ -7,42 +7,42 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Evangelos Poulios
+    tagline: Electrical Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: vaggpouli@gmail.com
+    phone: (+30) 697-1939-729
+    #website: blog.webjeda.com #do not add http://
+    linkedin: Angelos Poulios
+    github: Poulios
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    #twitter: '@webjeda'
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: Greek
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
 
       - idiom: Spanish
         level: Professional
 
-    interests:
-      - item: Climbing
-        link:
+   # interests:
+    #  - item: Climbing
+     #   link:
 
-      - item: Snowboarding
-        link:
+      #- item: Snowboarding
+       # link:
 
-      - item: Cooking
-        link:
+      #- item: Cooking
+       # link:
 
 career-profile:
     title: Career Profile
@@ -56,145 +56,101 @@ career-profile:
       Second paragraph if required.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: MSc in Human Computer Interaction
+      university: University of Patras, Greece
+      time: 2019 - now
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        During the MHCI it is consolidated the creation of a good, sustainable and human-oriented interaction design.
+        That is a chieved by giving a solid and wide overview of methods and techniques for a well-founded conception, design,
+        implementation. The conceived UX is enhanced through cutting edge technologies like AI and VR/AR.
 
           - Bullet point
           - Bullet point
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: Master in Business Administration
+      university: University of Patras, Greece
+      time: 2016 - 2018
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Appealed with projects related to problem solving, giving specific solutions, espesially for subjects connected to aviation 
+        i chose for Master Thesis to be dealed with the Aircraft Landing Problem at an airport, through the development of a Hybrid 
+        Differential Evolution Heuristic Algorithm. The benchmarks test problems (OR-Library, J. E. Beasley) that were used found 
+        in a valid online database.
+        While i was attempting to solve real life transportation scheduling problems i understood and developed new optimization 
+        algorithms. Tests and management of strict resources through the powerfool tools of Matlab ended to be a lucrative process 
+        for my skills.
 
-          - Bullet point
-          - Bullet point
+          - Management of Information Systems
+          - Decision Making Using Game Theory
+          - Operations Research
+          
+          
+     - degree: Bachelor in Electrical and Communications Engineering
+      university: Helenic Air Force Academy, Athens, Greece
+      time: 2010 - 2014
+      details: |
+        During my Diplomatic Thesis i dealt with the automatic recognition of audio material through the development of 
+        an algorithmic tool in measurements of sounds, coming from the implementation of appropriate recording scenarios, 
+        aircrafts-helicopter (targets).
+
+          - Electromagnetic Fields
+          - Automatic Control Systems
+          - Quality Control
+          - Computer Architecture & Operating Systems
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Engineer of Quality Assurance Office
+      time: 2019 - Present
+      company: Hellenic Air Force, 116 Combat Wing
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Supervisor of the Quality Assurance Office, composed of 4 engineers
 
-          - Bullet point
-          - Bullet point
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Mechanic of Organizational Level
+      time: 2018 - 2019
+      company: Hellenic Air Force, 116 Combat Wing
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        Worked on 335 Squadron that completes her mission through Fleet of F-16 BLOCK 52+ADVANCED Aircrafts.
+        As Maintenance Mechanic on Flight Control System of that Fleet performed a wide variety of skilled mechanic 
+        and electrical duties. ( Generally the Flight Control System is responsible for tranferring Pilot's commands 
+        to the Aircraft Central Flight Computer that is responsible for aircraft response through air maneuvers )
+        My responsibilities inlcuded installing, troubleshooting, repairing and modifying mechanical equipment.
+        During my duties i followed blueprints, drawings and general instructions to plan and layout assignments.
+        Also performed preventative maintenance on aircrafts.
+        Being part of the technician teams responsible for defects compensations on aircrafts developed skills like 
+        team working and management-guidance of the team members.
+     - role: Engineer of Quality Assurance Office
+      time: 2014 - 2018
+      company: Hellenic Air Force, 116 Combat Wing
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
+        Controlled organizational maintenance technicians in their duties, work procedures and ensured that
+        approved methods and materials are being utilized in the performance of such work.
+        Performed supervision regarding to work on aircraft as outlined by applicable inspection instructions, 
+        Airworthiness Directives, Service Bulletins or other approved technical information in accordance with 
+        accepted practices and ensured that such work is carried out in accordance with the applicable portions 
+        of the Quality Management System.
+        Ensured that all items of work are recorded and signed out as required on the applicable Maintenance Control forms.
+        Worked under the instructions and supervision of the Aircraft Maintenance Quality Department.
+        Carried out any other assigned duties as directed by the Senior Aircraft Engineer, like controlling the deployment 
+        of the medium scale invitex exercise HNIOXOS 2018, with 5 participated countries.
+        Also participated in the Israel's largest-ever (Blue Flag 2017) multinational air defence with 4 combat F-16 Aircrafts.
+  
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Electrical Engineering
+        level: 70%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
+      - name: Troubleshooting of Electrical Systems
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Quality Assurance
+        level: 90%
+
+      - name: Project Management
+        level: 85%
+
+      - name: Solving Real Problems
+        level: 85%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
