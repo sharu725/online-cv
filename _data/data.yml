@@ -34,16 +34,6 @@ sidebar:
       - idiom: Spanish
         level: Professional
 
-   # interests:
-    #  - item: Climbing
-     #   link:
-
-      #- item: Snowboarding
-       # link:
-
-      #- item: Cooking
-       # link:
-
 career-profile:
     title: Career Profile
     summary: |
@@ -62,10 +52,7 @@ education:
       details: |
         During the MHCI it is consolidated the creation of a good, sustainable and human-oriented interaction design.
         That is a chieved by giving a solid and wide overview of methods and techniques for a well-founded conception, design,
-        implementation. The conceived UX is enhanced through cutting edge technologies like AI and VR/AR.
-
-          - Bullet point
-          - Bullet point
+        implementation. The conceived UX is enhanced through cutting edge technologies like AI and VR/AR.         
 
     - degree: Master in Business Administration
       university: University of Patras, Greece
@@ -81,10 +68,9 @@ education:
 
           - Management of Information Systems
           - Decision Making Using Game Theory
-          - Operations Research
+          - Operations Research          
           
-          
-     - degree: Bachelor in Electrical and Communications Engineering
+    - degree: Bachelor in Electrical and Communications Engineering
       university: Helenic Air Force Academy, Athens, Greece
       time: 2010 - 2014
       details: |
@@ -117,7 +103,8 @@ experiences:
         Also performed preventative maintenance on aircrafts.
         Being part of the technician teams responsible for defects compensations on aircrafts developed skills like 
         team working and management-guidance of the team members.
-     - role: Engineer of Quality Assurance Office
+        
+    - role: Engineer of Quality Assurance Office
       time: 2014 - 2018
       company: Hellenic Air Force, 116 Combat Wing
       details: |
