@@ -44,18 +44,6 @@ career-profile:
       Donec quam felis, ultricies nec, pellentesque eu.
 
       Second paragraph if required.
-
-education:
-    - degree: MSc in Human Computer Interaction
-      university: University of Patras "," Greece
-      time: 2019 - now
-      details: |
-        During the MHCI it is consolidated the creation of a good, sustainable and human-oriented interaction design.
-        That is a chieved by giving a solid and wide overview of methods and techniques for a well-founded conception, design,
-        implementation. The conceived UX is enhanced through cutting edge technologies like AI and VR/AR.         
-
-
-
 experiences:
     - role: Engineer of Quality Assurance Office
       time: 2019 - Present
