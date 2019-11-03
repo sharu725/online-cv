@@ -57,7 +57,7 @@ career-profile:
 
 education:
     - degree: MSc in Human Computer Interaction
-      university: University of Patras, Greece
+      university: University of Patras "," Greece
       time: 2019 - now
       details: |
         During the MHCI it is consolidated the creation of a good, sustainable and human-oriented interaction design.
