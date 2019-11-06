@@ -3,8 +3,8 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Evangelos Poulios
@@ -25,15 +25,12 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: Greek
-        level: Native
-
       - idiom: English
         level: Professional
-
-      - idiom: Spanish
-        level: Professional
-
+        
+      - idiom: Greek
+        level: Native
+        
 career-profile:
     title: Career Profile
     summary: |
@@ -47,18 +44,16 @@ career-profile:
 
 education:
     - degree: MSc in Human Computer Interaction
-      university: University of Patras "," Greece
+      university: University of Patras, Greece
       time: 2019 - now
-      details: |
-        During the MHCI it is consolidated the creation of a good, sustainable and human-oriented interaction design.
-        That is a chieved by giving a solid and wide overview of methods and techniques for a well-founded conception, design,
+      details: During the MHCI it is consolidated the creation of a good, sustainable and human-oriented interaction design.
+        That is achieved by giving a solid and wide overview of methods and techniques for a well-founded conception, design,
         implementation. The conceived UX is enhanced through cutting edge technologies like AI and VR/AR.         
 
     - degree: Master in Business Administration
       university: University of Patras, Greece
       time: 2016 - 2018
-      details: |
-        Appealed with projects related to problem solving, giving specific solutions, espesially for subjects connected to aviation 
+      details: Appealed with projects related to problem solving, giving specific solutions, espesially for subjects connected to aviation 
         i chose for Master Thesis to be dealed with the Aircraft Landing Problem at an airport, through the development of a Hybrid 
         Differential Evolution Heuristic Algorithm. The benchmarks test problems (OR-Library, J. E. Beasley) that were used found 
         in a valid online database.
@@ -73,8 +68,7 @@ education:
     - degree: Bachelor in Electrical and Communications Engineering
       university: Helenic Air Force Academy, Athens, Greece
       time: 2010 - 2014
-      details: |
-        During my Diplomatic Thesis i dealt with the automatic recognition of audio material through the development of 
+      details: During my Diplomatic Thesis i dealt with the automatic recognition of audio material through the development of 
         an algorithmic tool in measurements of sounds, coming from the implementation of appropriate recording scenarios, 
         aircrafts-helicopter (targets).
 
@@ -96,8 +90,8 @@ experiences:
       details: |
         Worked on 335 Squadron that completes her mission through Fleet of F-16 BLOCK 52+ADVANCED Aircrafts.
         As Maintenance Mechanic on Flight Control System of that Fleet performed a wide variety of skilled mechanic 
-        and electrical duties. ( Generally the Flight Control System is responsible for tranferring Pilot's commands 
-        to the Aircraft Central Flight Computer that is responsible for aircraft response through air maneuvers )
+        and electrical duties. (Generally the Flight Control System is responsible for tranferring Pilot's commands 
+        to the Aircraft Central Flight Computer that is responsible for aircraft response through air maneuvers)
         My responsibilities inlcuded installing, troubleshooting, repairing and modifying mechanical equipment.
         During my duties i followed blueprints, drawings and general instructions to plan and layout assignments.
         Also performed preventative maintenance on aircrafts.
@@ -123,21 +117,20 @@ experiences:
 skills:
     title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Electrical Engineering
-        level: 70%
-
-      - name: Troubleshooting of Electrical Systems
-        level: 85%
+    toolset:     
 
       - name: Quality Assurance
         level: 90%
+        
+      - name: Troubleshooting of Electrical Systems
+        level: 85%
 
       - name: Project Management
         level: 85%
 
       - name: Solving Real Problems
         level: 85%
+      - name: Electrical Engineering
+        level: 70%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+footer: 
