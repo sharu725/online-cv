@@ -66,9 +66,9 @@ education:
         algorithms. Tests and management of strict resources through the powerfool tools of Matlab ended to be a lucrative process 
         for my skills.
 
-          - Management of Information Systems
-          - Decision Making Using Game Theory
-          - Operations Research          
+          - [x] Management of Information Systems
+          - [x] Decision Making Using Game Theory
+          - [x] Operations Research          
           
     - degree: Bachelor in Electrical and Communications Engineering
       university: Helenic Air Force Academy, Athens, Greece
@@ -78,10 +78,10 @@ education:
         an algorithmic tool in measurements of sounds, coming from the implementation of appropriate recording scenarios, 
         aircrafts-helicopter (targets).
 
-          - Electromagnetic Fields
-          - Automatic Control Systems
-          - Quality Control
-          - Computer Architecture & Operating Systems
+          - [x] Electromagnetic Fields
+          - [x] Automatic Control Systems
+          - [x] Quality Control
+          - [x] Computer Architecture & Operating Systems
 
 experiences:
     - role: Engineer of Quality Assurance Office
