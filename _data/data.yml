@@ -7,98 +7,75 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Martin Larizzate
+    tagline: Salesforce Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: larizzatem@gmail.com
+    phone: (+54 9) 11 3821 ****
+    website: https://mlarizzate.github.io #do not add http://
+    linkedin: martinlarizzate
+    github: mlarizzate
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter: 
+    stack-overflow: 6548978/martin-larizzate # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
-        level: Native
+        level: Intermediate +
 
-      - idiom: French
-        level: Professional
+      - idiom: Portuguese
+        level: Veeeeeery Basic
 
       - idiom: Spanish
-        level: Professional
+        level: Native
 
     interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
+      - item: Scouting
         link:
 
       - item: Cooking
         link:
 
+      - item: Cycling
+        link:
+
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      I am a methodical, organized and analytical person. I have a personal base of entrepreneurship, proactivity and good social skills, combined with varied professional experience in IT as Java back-end developer,  business analyst oriented to electronic commerce and right now así a Salesforce Developer.
 
-      Second paragraph if required.
+      I have 8+ years of experience in Java development and business analysis. In dime  positions I worked as a business analyst.
+      I have independently carried out several personal e-commerce projects until today at Grafica Gilwell, where I work, in addition to my formal employment, managing the e-commerce program.
+
+      I also have 5 years of experience in formal and non-formal education: training young people in high schools through private classes in algorithms and programming, and as a non-formal educator in scouting.
+
+      Passionate about building bridges, empowering people, driving digital tranformation and making positive impact on the community.
+      I really enjoy the learning that each opportunity represents and constantly seek to extend that spirit to the rest of the team.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Software Engineer
+      university: Universidad Nacional de La Matanza
+      time: 2008 - 2012 (Incomplete)
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Salesforce Developer
+      time: Nov 2018 - Present
+      company: True North, Buenos Aires
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        This project is a digital transformation for an Asset Management company.located in HONG KONG
+        Platform's configuration.
+        Development: Apex and Lighting development
+        External API Integrations
 
-          - Bullet point
-          - Bullet point
+        Technologies involved:
+        • Apex
+        • Lighting
 
     - role: Senior Software Engineer
       time: 2014 - 2015
