@@ -50,9 +50,9 @@ p {
     .profile-container {
         padding: 30px;
         //background: darken($theme-color, 10%);
-        background: #00ccff;
+        background: rgba(0, 0, 0, 0.2);
         text-align: center;
-        color: #00CED1;
+        color: #fff;
     }
     .name {
         font-size: 32px;
