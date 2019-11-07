@@ -34,13 +34,8 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+      
+As an electrical engineer I like problem solving. What fascinates me, however, is the use of modern interactive technologies to automate tasks.
 
 education:
     - degree: MSc in Human Computer Interaction
@@ -57,6 +52,7 @@ education:
         i chose for Master Thesis to be dealed with the Aircraft Landing Problem at an airport, through the development of a Hybrid 
         Differential Evolution Heuristic Algorithm. The benchmarks test problems (OR-Library, J. E. Beasley) that were used found 
         in a valid online database.
+        
         While i was attempting to solve real life transportation scheduling problems i understood and developed new optimization 
         algorithms. Tests and management of strict resources through the powerfool tools of Matlab ended to be a lucrative process 
         for my skills.
