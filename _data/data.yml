@@ -71,9 +71,9 @@ education:
         aircrafts-helicopter (targets).
 
         * Electromagnetic Fields
-        * Automatic Control Systems
-        * Quality Control
-        * Computer Architecture & Operating Systems
+          * Automatic Control Systems
+            * Quality Control
+              * Computer Architecture & Operating Systems
 
 experiences:
     - role: Engineer of Quality Assurance Office
