@@ -7,41 +7,41 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Siakampeti Ioanna
+    tagline: Student
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: up1075275@upatras.gr
+    phone: 
+    website: 
+    linkedin: 
+    github: up1075725
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: Greek
         level: Native
+
+      - idiom: English
+        level: Professional
 
       - idiom: French
         level: Professional
-
+        
       - idiom: Spanish
-        level: Professional
+        level: Good  
 
     interests:
-      - item: Climbing
+      - item: Dancing
         link:
 
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
+      - item: Martial Arts
         link:
 
 career-profile:
@@ -56,9 +56,9 @@ career-profile:
       Second paragraph if required.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Studing Msc Human and Computer Interaction
+      university: University of Patras
+      time: 2019 - Present
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -69,9 +69,9 @@ education:
           - Bullet point
           - Bullet point
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: Pool Supervisor Certificate
+      university: Lifeguard School of Crete, Hrakleio (Greece)
+      time: 2018 - 
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -81,11 +81,28 @@ education:
 
           - Bullet point
           - Bullet point
+          
+    - degree: Computer Technology & Computational Systems
+      university: omputer Science & Technology - University of peloponnese
+      time: 2010 - 2015
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+        
+       - Informatics & Telecommunication
+       - Databases
+       - Computer Architecture
+       - Software & Hardware Technology
+       - Computer Networks
+       - Digital Systems
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Computer Engineer - Department of Informatics
+      time: 2018 - 2019
+      company: Regional Unity of Lasithi, Agios Nikolaos (Greece)
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -97,12 +114,13 @@ experiences:
         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
         architecto beatae vitae dicta sunt explicabo.
 
-          - Bullet point
-          - Bullet point
+          - Computer Maintenance
+          - Creating Databases and website for the eGovernment Process in PHP
+          - Management of Information Systems
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Assistant Technical Network & Telecommunications
+      time: 2017 - 2018
+      company: O-morfia Cosmetics
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -110,12 +128,13 @@ experiences:
         nascetur ridiculus mus. Donec quam felis, ultricies nec,
         pellentesque eu, pretium quis, sem.
 
-          - Bullet point
-          - Bullet point
+          - SoftOne ERP System
+          - Data Networks
+          - Network & Computer maintenance
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Referee of the Hellenic Football Federation
+      time: 2013 - 2019
+      company: 
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -123,9 +142,8 @@ experiences:
         nascetur ridiculus mus. Donec quam felis, ultricies nec,
         pellentesque eu, pretium quis, sem.
 
-          - Bullet point
-          - Bullet point
-
+          - Participation in national football matches
+          
 projects:
     title: Projects
     intro: >
@@ -134,26 +152,33 @@ projects:
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
       - title: DevStudio
         link: "#"
         tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
+      
+      - title: Xampp
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
+        tagline: "A free and open-source cross-platform web server solution stack package."
+      
+      - title: NetBeans
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
+        tagline: "An integrated development environment (IDE) for Java."
+        
+      - title: Microsoft Visual Studio
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "A Microsoft Visual Studio is an integrated development environment (IDE) from Microsoft."
 
+      - title: NetLogo
+        link: "#"
+        tagline: "A programming language and integrated development environment (IDE) for modeling."
+
+      - title: Android Studio
+        link: "#"
+        tagline: "The official integrated development environment (IDE) for Google's Android operating system, built on JetBrains' IntelliJ IDEA software and designed specifically for Android development."
+
+      - title: Arduino IDE
+        link: "#"
+        tagline: "A cross-platform application (for Windows, macOS, Linux) that is written in the programming language Java."
 publications:
     title: Publications
     intro: |
