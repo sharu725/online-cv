@@ -92,12 +92,12 @@ education:
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
         pretium quis, sem.
         
-       - Informatics & Telecommunication
-       - Databases
-       - Computer Architecture
-       - Software & Hardware Technology
-       - Computer Networks
-       - Digital Systems
+            - Informatics & Telecommunication
+            - Databases
+            - Computer Architecture
+            - Software & Hardware Technology
+            - Computer Networks
+            - Digital Systems
 
 experiences:
     - role: Computer Engineer - Department of Informatics
