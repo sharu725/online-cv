@@ -1,0 +1,26 @@
+name: Deploy to dev
+
+on:
+  pull_request:
+    types: [labeled]
+  
+   
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Build the site in the jekyll/builder container
+      run: |
+        docker run \
+        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+    - uses: crazy-max/ghaction-github-pages@v1
+      with:
+          repo: philippart-s/my-cv-dev
+          target_branch: master
+          build_dir: _site
+      env:
+        GITHUB_TOKEN: ${{ secrets.PAGES_PAT }}
