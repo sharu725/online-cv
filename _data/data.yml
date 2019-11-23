@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Jonathan Carrasco-Noriega
-    # tagline: Full Stack Developer
+    tagline: Full Stack Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -19,20 +19,20 @@ sidebar:
     github: jonathan-carrasco
     gitlab:
     bitbucket:
-    # twitter: '@webjeda'
-    # stack-overflow: # Number/Username, e.g. 123456/alandoe
-    # codewars:
-    # goodreads: # Number-Username, e.g. 123456-alandoe
+    twitter: '@webjeda'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
 
-    #languages:
-    #  - idiom: English
-    #    level: Native
+    languages:
+      - idiom: English
+        level: Native
 
-    #  - idiom: French
-    #    level: Professional
+      - idiom: French
+        level: Professional
 
-    #  - idiom: Spanish
-    #    level: Professional
+      - idiom: Spanish
+        level: Professional
 
     interests:
       - item: App Development
