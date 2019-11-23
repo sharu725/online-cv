@@ -7,12 +7,12 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Jonathan Carrasco-Noriega
-    tagline: Full Stack Developer
+    name: Jonathan Carrasco
+    tagline: 
     avatar: jonathan.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: jonathancarrasco411@gmail.com
+    email: cjoanthan311@gmail.com
     phone: 909 973 9466
     website: jonathan-carrasco.github.io #do not add http://
     linkedin: jonathan-carrasco-noriega
@@ -25,14 +25,14 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
-        level: Native
+      - idiom: Python, Java
+        level: 3.5 years
 
-      - idiom: French
-        level: Professional
+      - idiom: Swift, C, Javascript
+        level: 2 years
 
-      - idiom: Spanish
-        level: Professional
+      - idiom: R, SQL, E-Basic
+        level: 1 year
 
     interests:
       - item: App Development
@@ -47,102 +47,91 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Computer Science Major and Cognitive Science Concentrator from Pomona, 
+      California who has interests in Machine Learning, Mobile App and Web 
+      App Development, and Data Mining and Visualization.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: BA in Computer Science
+      university: Williams College
+      time: 2016-2020
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+          - Cumulative GPA:
+          - Major GPA: 
+          - QuestBridge Scholar
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Math Research Assistant
+      time: August 2016- December 2016
+      company: Williams College, Williamstown
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        - Studied many fractals and observed their dimensional properties through Mathematica.
+        - Used L-systems to visualize the effect that angles and number of iterations had on 
+        fractals like Serpinski’s Triangle, the Koch Fractal, and fractal plants.
+    - role: Cognitive Science Research Assistant
+      time: June 2018- Present
+      company: Williams College, Williamstown
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+          - Programmed online psychology experiments and recorded participants’ performance 
+          through Amazon Turk in order to observe learning advantages and disadvantages in 
+          categorization tasks.
+          - Analyzed the data obtained from these experiments in R, and presented the 
+          research findings to peers through simple and concise visuals.
+          - Currently analyzing the efficacy of categorical learning when presented with 
+          high-within-category similarity by developing and running more experiments.
+    - role: Systems Teaching Assistant
+      time: August 2018 - December 2018
+      company: Williams College, Williamstown
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+          - Provided help in the Computer Systems and Organization core course by explaining
+          intuition behind the programming assignments, debugging code, clarifying the 
+          course material, and assisting peers in writing proofs.
+    - role: REU Researcher
+      time: May 2019 - August 2019
+      company: Washington University, St Louis
+      details: |
+          - Developed an online platform that visualizes over 3,000 restaurants in 
+          Toronto by establishing fast communication between the backend (Django) 
+          and frontend (Boostrap-React).
+          - Made inferences on what restaurants users were likely to click on next
+          through Bayesian models and updated summary statistics on the map based 
+          on these inferences.
+          - Presented a poster that summarizes the work I contributed this summer, 
+          explaining a high level overview of the implementation, machine learning 
+          technique, and future directions for the project.
+    - role: Theory Teaching Assistant
+      time: August 2019 - Present
+      company: Williams College, Williamstown
+      details: |
+          - Clarifying subjects for Theory of Computation by explaining intuition 
+          behind different models of computation, the languages these models generate,
+          NP hardness, and the halting problem, as well as assisting in proof writing 
+          and programming assignments.
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      I love ___.
     assignments:
-      - title: Velocity
+      - title: Genius Lyrics WebScraper
         link: "#hook"
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
+      - title: Lava
         link: "#"
         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
+      - title: PsiTurk
         link: "#"
         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
+      - title: Fractals
         link: "#"
         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
+      - title: Course WebScraper
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
+    title: Leadership Experience
     intro: |
       You can list your publications in this section. Lorem ipsum dolor sit
       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
