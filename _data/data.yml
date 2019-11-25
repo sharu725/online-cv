@@ -108,7 +108,6 @@ experiences:
 projects:
     title: Projects
     intro: >
-      I love ___.
     assignments:
       - title: Genius Lyrics WebScraper
         link: "#genius"
@@ -149,9 +148,5 @@ publications:
         authors: Edgar T. Irons
         conference: "Comm. ACM 4 (1961), 51–55"
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 113f3525cb38ff3e78989b3c157b87dfd32a766e
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
