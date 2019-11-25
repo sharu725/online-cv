@@ -47,12 +47,15 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
+<<<<<<< HEAD
       Computer Science Major and Cognitive Science Concentrator from Pomona,
       California who has interests in Machine Learning, Mobile App and Web
       App Development, and Data Mining and Visualization.
+=======
       Computer Science Major and Cognitive Science Concentrator from Pomona, 
       California who has interests in Machine Learning, Mobile App and Web 
       App Development, Data Mining, and Visualization.
+>>>>>>> 113f3525cb38ff3e78989b3c157b87dfd32a766e
 education:
     - degree: BA in Computer Science
       university: Williams College
@@ -152,6 +155,9 @@ publications:
         authors: Edgar T. Irons
         conference: "Comm. ACM 4 (1961), 51–55"
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 113f3525cb38ff3e78989b3c157b87dfd32a766e
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
