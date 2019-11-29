@@ -122,23 +122,23 @@ projects:
     intro: >
     assignments:
       - title: Genius Lyrics WebScraper
-        link: "#genius"
+        link: "#GeniusCrawler"
         tagline: "This webscraper keeps track of the frequency of each word, in all the songs provided in a csv file, and two csv files are written to the current directory: one has the 15 most frequent words, and each word's frequency in all the songs; the other has the 15 most frequent words after filtering out stop words, and each word's frequency in all the songs"
 
       - title: Lava
-        link: "#lava"
+        link: "#Lava"
         tagline: "A preliminary laundry app that takes laundry requests from clients and allocates a request to a provider. Updates pending, as we are now focusing on the web implementation."
 
       - title: PsiTurk
-        link: "#psiturk"
+        link: "#Psiturk"
         tagline: "Two psychology experiments that test for the benefits of interleaved blocked studying. One uses original stimuli found in Goldstone and Carvalho's 2015 paper, and the other uses Safa Zaki's stimuli, drawn with D3."
 
       - title: Fractals
-        link: "#fractals"
+        link: "#Fractals"
         tagline: "Interactive fractal generator that uses L-systems to generate fractals. It takes in a starting axiom, production rules, number of iterations, and an angle as parameters, but if you'd like to add your own L-system you can easily do so by modifying an associated csv file."
 
       - title: Course WebScraper
-        link: "#classes"
+        link: "#PdfCrawler"
         tagline: "A webscraper that downloads all pdfs in a website. I use this to download lectures and assignments, but it can be used for other websites as well."
 
 publications:
