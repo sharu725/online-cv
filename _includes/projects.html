@@ -21,7 +21,7 @@
 
       <span class="project-title">
         {% if project.link %}
-        <a href="https://www.github.com/Jonathan-Carrasco/" + {{ project.link }} target="_blank">{{ project.title }}</a>
+        <a href="https://www.github.com/Jonathan-Carrasco/{{ project.link }}" target="_blank">{{ project.title }}</a>
         {% else %}
         {{ project.title }}
         {% endif %}
