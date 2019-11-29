@@ -138,7 +138,7 @@ projects:
         tagline: "Interactive fractal generator that uses L-systems to generate fractals. It takes in a starting axiom, production rules, number of iterations, and an angle as parameters, but if you'd like to add your own L-system you can easily do so by modifying an associated csv file."
 
       - title: Course WebScraper
-        link: "#Classes"
+        link: "#PdfCrawler"
         tagline: "A webscraper that downloads all pdfs in a website. I use this to download lectures and assignments, but it can be used for other websites as well."
 
 publications:
