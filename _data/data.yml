@@ -8,8 +8,8 @@ sidebar:
 
     # Profile information
     name: Jonathan Carrasco
-    tagline: 
-    avatar: jonathan.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline:
+    avatar: jonathan.JPG  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: cjoanthan311@gmail.com
@@ -19,7 +19,7 @@ sidebar:
     github: jonathan-carrasco
     gitlab:
     bitbucket:
-    twitter: 
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -35,28 +35,40 @@ sidebar:
         level: 1 year
 
     interests:
-      - item: App Development
+      - item: Machine Learning
         link:
 
-      - item: Music Production
+      - item: Statistical Learning Data Mining
+        link:
+        
+      - item: Advanced Algorithms
         link:
 
-      - item: Longboarding
+      - item: Regression and Forecasting
+        link:
+        
+      - item: Probability
+        link:
+
+      - item: Linear Algebra
+        link:
+
+      - item: Thesis: Greedy Generation of Gray Codes
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Computer Science Major and Cognitive Science Concentrator from Pomona, 
-      California who has interests in Machine Learning, Mobile App and Web 
-      App Development, and Data Mining and Visualization.
+      Computer Science Major and Cognitive Science Concentrator from Pomona,
+      California who has interests in Machine Learning, Mobile App and Web
+      App Development, Data Mining, and Visualization.
 education:
     - degree: BA in Computer Science
       university: Williams College
       time: 2016-2020
       details: |
           - Cumulative GPA:
-          - Major GPA: 
+          - Major GPA:
           - QuestBridge Scholar
 experiences:
     - role: Math Research Assistant
@@ -64,115 +76,84 @@ experiences:
       company: Williams College, Williamstown
       details: |
         - Studied many fractals and observed their dimensional properties through Mathematica.
-        - Used L-systems to visualize the effect that angles and number of iterations had on 
+        - Used L-systems to visualize the effect that angles and number of iterations had on
         fractals like Serpinski’s Triangle, the Koch Fractal, and fractal plants.
     - role: Cognitive Science Research Assistant
       time: June 2018- Present
       company: Williams College, Williamstown
       details: |
-          - Programmed online psychology experiments and recorded participants’ performance 
-          through Amazon Turk in order to observe learning advantages and disadvantages in 
+          - Programmed online psychology experiments and recorded participants’ performance
+          through Amazon Turk in order to observe learning advantages and disadvantages in
           categorization tasks.
-          - Analyzed the data obtained from these experiments in R, and presented the 
+          - Analyzed the data obtained from these experiments in R, and presented the
           research findings to peers through simple and concise visuals.
-          - Currently analyzing the efficacy of categorical learning when presented with 
+          - Currently analyzing the efficacy of categorical learning when presented with
           high-within-category similarity by developing and running more experiments.
     - role: Systems Teaching Assistant
       time: August 2018 - December 2018
       company: Williams College, Williamstown
       details: |
           - Provided help in the Computer Systems and Organization core course by explaining
-          intuition behind the programming assignments, debugging code, clarifying the 
+          intuition behind the programming assignments, debugging code, clarifying the
           course material, and assisting peers in writing proofs.
     - role: REU Researcher
       time: May 2019 - August 2019
       company: Washington University, St Louis
       details: |
-          - Developed an online platform that visualizes over 3,000 restaurants in 
-          Toronto by establishing fast communication between the backend (Django) 
+          - Developed an online platform that visualizes over 3,000 restaurants in
+          Toronto by establishing fast communication between the backend (Django)
           and frontend (Boostrap-React).
           - Made inferences on what restaurants users were likely to click on next
-          through Bayesian models and updated summary statistics on the map based 
+          through Bayesian models and updated summary statistics on the map based
           on these inferences.
-          - Presented a poster that summarizes the work I contributed this summer, 
-          explaining a high level overview of the implementation, machine learning 
+          - Presented a poster that summarizes the work I contributed this summer,
+          explaining a high level overview of the implementation, machine learning
           technique, and future directions for the project.
     - role: Theory Teaching Assistant
       time: August 2019 - Present
       company: Williams College, Williamstown
       details: |
-          - Clarifying subjects for Theory of Computation by explaining intuition 
+          - Clarifying subjects for Theory of Computation by explaining intuition
           behind different models of computation, the languages these models generate,
-          NP hardness, and the halting problem, as well as assisting in proof writing 
+          NP hardness, and the halting problem, as well as assisting in proof writing
           and programming assignments.
 projects:
     title: Projects
     intro: >
-      I love ___.
     assignments:
       - title: Genius Lyrics WebScraper
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        link: "#genius"
+        tagline: "This webscraper keeps track of the frequency of each word, in all the songs provided in a csv file, and two csv files are written to the current directory: one has the 15 most frequent words, and each word's frequency in all the songs; the other has the 15 most frequent words after filtering out stop words, and each word's frequency in all the songs"
 
       - title: Lava
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        link: "#lava"
+        tagline: "A preliminary laundry app that takes laundry requests from clients and allocates a request to a provider. Updates pending, as we are now focusing on the web implementation."
 
       - title: PsiTurk
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        link: "#psiturk"
+        tagline: "Two psychology experiments that test for the benefits of interleaved blocked studying. One uses original stimuli found in Goldstone and Carvalho's 2015 paper, and the other uses Safa Zaki's stimuli, drawn with D3."
 
       - title: Fractals
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        link: "#fractals"
+        tagline: "Interactive fractal generator that uses L-systems to generate fractals. It takes in a starting axiom, production rules, number of iterations, and an angle as parameters, but if you'd like to add your own L-system you can easily do so by modifying an associated csv file."
 
       - title: Course WebScraper
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        link: "#classes"
+        tagline: "A webscraper that downloads all pdfs in a website. I use this to download lectures and assignments, but it can be used for other websites as well."
 
 publications:
     title: Leadership Experience
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
+      - title: Neighborhood Leadership Team
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        authors: August 2017 – Present
+        conference: Attended rigorous training to make sure that all the members feel welcome in their respective dorms and created a safe and inclusive space for everyone in the house.
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      - title: Williams Rugby Football Club
         link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+        authors: January 2018 - Present
+        conference: Head of Advice for the club, which entails making rookies both familiar and comfortable with the club by maintaining a relationship with the rookie class. 
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
