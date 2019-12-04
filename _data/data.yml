@@ -12,7 +12,7 @@ sidebar:
     avatar: jonathan.JPG  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: cjoanthan311@gmail.com
+    email: jonathancarrasco411@gmail.com
     phone: 909 973 9466
     website: jonathan-carrasco.github.io #do not add http://
     linkedin: jonathan-carrasco-noriega-2a3417137
@@ -66,8 +66,8 @@ education:
     - degree: BA in Computer Science
       university: Williams College
       time: 2016-2020
-      cgpa: Cumulative GPA 4.3
-      mgpa: Major GPA 4.7
+      cgpa: Cumulative GPA 3.16
+      mgpa: Major GPA 3.66
       qbs: QuestBridge Scholar
 experiences:
     - role: Math Research Assistant
@@ -118,7 +118,7 @@ experiences:
           and programming assignments.
 projects:
     title: Projects
-    intro: >
+    intro: I love to create projects for things I'm curious about. The lyrics web scraper to analyze some trends I was curious about regarding popularity of songs, and made the other web scraper to help me download course material for future review and learning, if I haven't taken the class yet. The fractals project lets me create new fractals interactively, and this made my freshman year research much easier to visualize and intuit. Lava is a project some friends and I are currently working on, and my github contains more projects I'm currently invested in, including a graph-oriented note taking app, social media platform, and multiplayer card game. 
     assignments:
       - title: Genius Lyrics WebScraper
         link: "GeniusCrawler"
@@ -128,17 +128,18 @@ projects:
         link: "Lava"
         tagline: "A preliminary laundry app that takes laundry requests from clients and allocates a request to a provider. Updates pending, as we are now focusing on the web implementation."
 
-      - title: PsiTurk
-        link: "Psiturk"
-        tagline: "Two psychology experiments that test for the benefits of interleaved blocked studying. One uses original stimuli found in Goldstone and Carvalho's 2015 paper, and the other uses Safa Zaki's stimuli, drawn with D3."
-
       - title: Fractals
         link: "Fractals"
         tagline: "Interactive fractal generator that uses L-systems to generate fractals. It takes in a starting axiom, production rules, number of iterations, and an angle as parameters, but if you'd like to add your own L-system you can easily do so by modifying an associated csv file."
 
       - title: Course WebScraper
         link: "PdfCrawler"
-        tagline: "A webscraper that downloads all pdfs in a website. I use this to download lectures and assignments, but it can be used for other websites as well."
+        tagline: "A webscraper that downloads all pdfs (and tex files, if desired) in a website. I use this to download lectures and assignments, but it can be used for other websites as well."
+        
+      - title: PsiTurk
+        link: "Psiturk"
+        tagline: "Two psychology experiments that test for the benefits of interleaved blocked studying. One uses original stimuli found in Goldstone and Carvalho's 2015 paper, and the other uses Safa Zaki's stimuli, drawn with D3."
+        
 
 publications:
     title: Involvement
@@ -148,6 +149,11 @@ publications:
         link: "#"
         authors: August 2017 – Present
         conference: Regulary attend training by the college to ensure that I am up to date with new groups on campus, resources, and controversial sensitive topics. Then, I apply this knowledge to ensure that all the students in my neighborhood of dorms feel welcome, safe, included, and respected in their living spaces.
+        
+      - title: UniCS
+        link: "#"
+        authors: December 2017 - Present
+        tagline: Underrepresented Identities in Computer Science (UnICS) seeks to create a reliable, safe, and productive environment within the Computer Science department for all current and prospective majors, but especially for underrepresented identities. As treasurer and social coordinator, I'm in charge of managing food funds and booking events with faculty in our department for both social and educational events.
 
       - title: Williams Rugby Football Club
         link: "#"
