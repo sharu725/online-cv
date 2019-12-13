@@ -77,17 +77,37 @@ professional experience:
           - IT Project Manager for four global projects: Managed print services implementation project (24 sites), Customer Service Center migration project (19 countries), Mobile device migration project (~1700 mobile devices across 34 countries), MPLS network deployment project (17 sites)
           - Develop the site deployment governance model for new laptop deployment in 19 countries
           - Manage and drive RFP teams for five selection processes: Learning Management System, Benchmarking solution, Content Management Server, Global Managed Print Services Solution and Mobile Device and Contract Procurement Vendor
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Specialist Leader
+      time: 2004 - 2015
+      company: Deloitte Consulting LLP , Pittsburgh
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Placing client service as the highest priority, consistently
+        deliver innovative technical solutions for business transformation
+        initiatives to fulfill business requirements while reducing
+        infrastructure and operational costs and increasing resource
+        efficiency. Develop project teams and counselees by guiding their
+        work and professional development to align with career goals. Build
+        and support the local community through firm initiatives.
+          - IT manager for 15 software implementation projects with teams up to 50 FTEs
+          - Technology War Room lead on the same 15 projects providing technical Go-Live support and troubleshooting, building lessons learned repository and handing off ongoing support to operations
+          - Build a children’s playground in Sacramento, CA as part of Impact Day, Deloitte’s annual day of service that celebrates a year-round commitment to community-powered social impact
+          - Manage the physical move of Agilent’s divested semi-conductor test systems division from China’s Free Trade Zone (Waigaoqiao) to Verigy’s new building in China
+          - Streamline Amway’s IT shared services organization in support of the Oracle ERP implementation
+          - Develop and execute an agile approach to disaster recovery plan testing and team development resulting in redundant DR teams, interchangeable DR resources and a step-by-step DR playbook
+          - Contributing author, IT Best Practices for Financial Managers (Amazon, Wiley)
+          - Create the change and release management methodology for Enterprise Value Delivery methodology
+          - Lead the Recruiting Certification Initiative and internal training for SOA and CCRM
+    - role: Founder and President
+      time: 2001 - 2004
+      company: JDee International Corporation , St. Louis
+      details: |
+        Match qualified resources with client needs, negotiate contracts and
+        service level agreements, coordinate logistics and manage the day-to-day
+        operations of the business.
+          - Augmented Oracle ERP implementation teams at The Nielsen Corporation, University Hospitals Cleveland Medical Center, Motorola and Mastercard with developers and database administrators
+          - Lead Oracle ERP DBA for the upgrade of Oracle Financials from 11.0.3 to 11i
+          - Gross revenue of $2.6M
+          
 projects:
     title: Projects
     intro: >
