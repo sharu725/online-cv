@@ -30,16 +30,12 @@ sidebar:
 
     interests:
       - item: Scuba Diving
-        link:
 
       - item: Saving the planet
-        link:
-
-      - item: Blockchain technology
-        link:
         
-       - item: Cryptocurrency
-        link:
+      - item: Blockchain technology
+                
+      - item: Cryptocurrency
 
 career-profile:
     title: Career Profile
@@ -59,25 +55,11 @@ education:
     - degree: B.S. in Computer Engineering
       university: Case Western Reserve University
       time: 1995
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+
     - degree: A.A.S. Computer Systems Electronics Tech
       university: Westmoreland County Community College
       time: 1992
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+
 professional experience:
     - role: Founder and President
       time: 2017 - Present
