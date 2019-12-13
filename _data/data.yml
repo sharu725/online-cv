@@ -10,20 +10,14 @@ sidebar:
     name: Brandon P Patterson
     tagline: Technical Project Manager, Blockchain Advocate and Cryptocurrency Entrepreneur
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    
 
     # Sidebar links
     email: bpp2@outlook.com
     phone: 916 834 3826
-    website: blog.webjeda.com #do not add http://
-    linkedin: www.linkedin.com/in/brandonppatterson
+    linkedin: brandonppatterson
     github: CryptoCord
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-
+    
     languages:
       - idiom: English
         level: Native
