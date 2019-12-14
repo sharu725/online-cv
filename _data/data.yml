@@ -10,14 +10,14 @@ sidebar:
     name: Brandon P Patterson
     tagline: Technical Project Manager, Blockchain Advocate and Cryptocurrency Entrepreneur
     avatar: bpp.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-    
+
 
     # Sidebar links
     email: bpp2@outlook.com
     phone: 916 834 3826
     linkedin: brandonppatterson
     github: CryptoCord
-    
+
     languages:
       - idiom: English
         level: Native
@@ -26,15 +26,15 @@ sidebar:
       - item: Scuba Diving
 
       - item: Saving the planet
-        
+
       - item: Blockchain technology
-                
+
       - item: Cryptocurrency
 
 career-profile:
     title: Career Profile
     summary: |
-      
+
       Mr. Patterson is a results-oriented technical executive with
       20+ years of experience leading clients from multiple industries
       through the technical aspects of their business transformation
@@ -94,7 +94,7 @@ professional experience:
           - Manage the physical move of Agilent’s divested semi-conductor test systems division from China’s Free Trade Zone (Waigaoqiao) to Verigy’s new building in China
           - Streamline Amway’s IT shared services organization in support of the Oracle ERP implementation
           - Develop and execute an agile approach to disaster recovery plan testing and team development resulting in redundant DR teams, interchangeable DR resources and a step-by-step DR playbook
-          - Contributing author, IT Best Practices for Financial Managers (Amazon, Wiley)
+          - Contributing author, IT Best Practices for Financial Managers
           - Create the change and release management methodology for Enterprise Value Delivery methodology
           - Lead the Recruiting Certification Initiative and internal training for SOA and CCRM
     - role: Founder and President
@@ -107,55 +107,46 @@ professional experience:
           - Augmented Oracle ERP implementation teams at The Nielsen Corporation, University Hospitals Cleveland Medical Center, Motorola and Mastercard with developers and database administrators
           - Lead Oracle ERP DBA for the upgrade of Oracle Financials from 11.0.3 to 11i
           - Gross revenue of $2.6M
-          
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
+    - role: Manager, Business Applications
+      time: 1999 - 2001
+      company: Intira Corporation , St. Louis
+      details: |
+        Manage the Business Applications department to support the financial and internal decision support systems required by the business, provide technical support on demand and build solutions to fulfill new business requirements.
+          - Operate the Oracle ERP system on a day-to-day basis meeting operational Service Level Agreements
+          - Project manager for the Oracle ERP upgrade project
+          - Manage software selection resulting in selection and implementation of Brio OnDemand Server
+    - role: Manager
+      time: 1995 - 1999
+      company: KPMG LLP, Chicago
+      details: |
+        Install and administer Oracle and PeopleSoft ERP systems, lead small technical teams of developers and DBAs, Visual Basic programming and provide general technical support and assistance to clients.
+          - Technical lead and expert for five Oracle, PeopleSoft and Aurum ERP installation projects
+          - Organize and conduct the first national meeting of the Apps Tech National Practice
+          - Lead customer support and troubleshooting resource for two simultaneous Oracle ERP implementation projects post Go-Live
+certifications:
+    title: Certifications
+        intro: |
+          Complete
+      - item: Oracle Corporation, Database Administrator Master’s Certification
+      - item: Blockchain Council, Certified Blockchain Expert
+      - item: PADI Master Scuba Diver
+      - item: PADI Emergency First Responder
+        intro: |
+          In progress
+      - item: Project Management Institute, Certified Associate in Project Management (Training complete, 2019)
 publications:
     title: Publications
     intro: |
       You can list your publications in this section. Lorem ipsum dolor sit
       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
       bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
+    books:
+      - title: IT Best Practices for Financial Managers by
+        link: "http://www.amazon.com/IT-Best-Practices-Financial-Managers/dp/0470508280"
+        link: "http://www.wiley.com/WileyCDA/WileyTitle/productCd-0470508280.html"
+        authors: Janice M. Roehl-Anderson
         conference: Addison-Wesley, 1968
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
