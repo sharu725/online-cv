@@ -136,39 +136,11 @@ certifications:
       - item: Project Management Institute, Certified Associate in Project Management (Training complete, 2019)
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
     books:
-      - title: IT Best Practices for Financial Managers by
+      - title: IT Best Practices for Financial Managers
         link: "http://www.amazon.com/IT-Best-Practices-Financial-Managers/dp/0470508280"
         link: "http://www.wiley.com/WileyCDA/WileyTitle/productCd-0470508280.html"
         authors: Janice M. Roehl-Anderson
-        conference: Addison-Wesley, 1968
-
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
+        role: Contributing author
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
