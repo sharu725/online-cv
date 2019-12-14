@@ -7,16 +7,16 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Brandon P Patterson
+    tagline: IT Project Manager
+    avatar: bpp.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: bpp2@outlook.com
+    phone: 916 834 3826
+    website: www.linkedin.com/in/brandonppatterson #do not add http://
+    linkedin: brandonppatterson
+    github: CryptoCord
     gitlab:
     bitbucket:
     twitter: '@webjeda'
