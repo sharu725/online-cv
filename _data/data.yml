@@ -59,15 +59,15 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Computer Science Major and Cognitive Science Concentrator from Pomona,
-      California who has interests in Machine Learning, Mobile App and Web
-      App Development, Data Mining, and Visualization.
+      Computer Science major and Cognitive Science concentrator from Pomona, 
+      California who has interests in algorithms, data mining and visualization, 
+      machine learning, mobile app and web app development, graphics, and music.
 education:
     - degree: BA in Computer Science
       university: Williams College
       time: 2016-2020
-      cgpa: Cumulative GPA 3.16
-      mgpa: Major GPA 3.66
+      cgpa: Cumulative GPA 3.2
+      mgpa: Major GPA 3.7
       qbs: QuestBridge Scholar
 experiences:
     - role: Math Research Assistant
