@@ -15,7 +15,7 @@ sidebar:
     email: dheamaharani308@gmail.com
     phone: 089656812831
     github: dheantymaharani
-    twitter: '@dheantymaharani'
+    twitter: '@dheantymhrni'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
 
@@ -31,13 +31,9 @@ sidebar:
 
     interests:
       - item: Reading
-        link:
-
       - item: Music
-        link:
-
       - item: Cooking
-        link:
+
 
 career-profile:
     title: Profile
@@ -47,9 +43,10 @@ career-profile:
 
 
 education:
-    - degree: Institut Teknologi Bandung
+    - degree: Bandung Institute of Technology
       university: Undergraduate
       time: 2016 - present
+      Details : GPA : 2.75/4
 
     - degree: SMAN 1 Denpasar
       university: High School Graduate
@@ -61,54 +58,64 @@ experiences:
       company: Keluarga Mahasiswa Hindu (KMH) ITB
 
     - role: Head Of Intracampus Division
-      time: March 2018 - present
+      time: March 2018 - March 2019
       company: Keluarga Mahasiswa Hindu (KMH) ITB
 
     - role: Staff Of Intracampus Division
-      time: 2017 - present
+      time: 2017 - 2018
       company: Ikatan Mahasiswa Telekomunikasi (IMT) "Signum" ITB
       
     - role: Secretary Of Vidhafest VI
-      time: 2018 - present
+      time: 2018
       company: Keluarga Mahasiswa Hindu (KMH) ITB
       
     - role: Protocoler Team ITB
       time: 2018 - present
       company: ITB
       
-
+    - role: Head Of Public Relation Telemotion 2019
+      time: November 2019
+      company: Ikatan Mahasiswa Telekomunikasi (IMT) "Signum" ITB
+     
+    - role: Treasurer
+      time: April 2019 - present
+      company: Keluarga Mahasiswa Hindu (KMH) ITB
+    
+    - role: Internship ( Radio and Navigation System Division )
+      time: May 2019 - July 2019
+      company: PT. Industri Telekomunikasi Indonesia (INTI)
+     
+     
 projects:
-    title: Project
-
-    assignments:
-      - title: Telemotion
-        tagline: "Connectivity Empowering Diversity - November 22, 2018."
-
-      - title: Vidhafest VI
-        tagline: "Hindu Modern dan Universal - 2018."
+   
+      - title: Hand Gestures Input - Embedded System Project
+        tagline: " A tool that can control certain functions on a computer / laptop by only doing a hand gesture."
         
-      - title: Hand Gestures Input - EMSYS Project
-        tagline: "alat yang dapat mengontrol fungsi – fungsi tertentu pada komputer / laptop  dengan hanya melakukan suatu gerakan tangan."
+      - title: Smart Parking - Cloud Computing and Connected Services Project
+        tagline: " ."
+        
+      - title: Plant Monitoring System
+        tagline: "A system that can be used to monitor plants that are integrated using Arduino microcontrollers that are connected to the blynk ."
+        
+      - title: Traffic Automation System
+        tagline: " A system that can regulate the technical work of traffic lights by detecting the number of vehicles at a red light, detecting the speed of the vehicle so that it can provide information to the authorities that a traffic jam has occurred at that location and will be followed up by the parties concerned."
 
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Communication
-        level: 90%
+      - name: Arduino IDE
+        level: 80%
 
-      - name: Computer
-        level: 75%
+      - name: C and C++
+        level: 70%
 
-      - name: Time Management
-        level: 92%
+      - name: Python
+        level: 70%
 
-      - name: Self-motivation
-        level: 83%
-
-      - name: Strong Work Ethic
-        level: 85%
+      - name: PCB Design
+        level: 50%
 
 
 footer: >
