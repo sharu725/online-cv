@@ -92,7 +92,7 @@ projects:
         tagline: " A tool that can control certain functions on a computer / laptop by only doing a hand gesture."
         
       - title: Smart Parking - Cloud Computing and Connected Services Project
-        tagline: " ."
+        tagline: "Smart Parking is a parking system integrated with smartphone to help drivers finding the available parking slots, also create a simple billing system to avoid any kinds of common problem."
         
       - title: Plant Monitoring System
         tagline: "A system that can be used to monitor plants that are integrated using Arduino microcontrollers that are connected to the blynk ."
