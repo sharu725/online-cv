@@ -182,15 +182,15 @@ publications:
       #   authors: Edgar T. Irons
       #   conference: "Comm. ACM 4 (1961), 51–55"
 
-honorsnawards: Honors & Awards
-    title: Honors & Awards
-    intro: |
+# honorsnawards: Honors & Awards
+#     title: Honors & Awards
+#     intro: |
 
 
-    papers:
-      - title: Finalist of Wash Innovation Challenge
-        authors: test, team, mates
-        conference: test venue
+#     papers:
+#       - title: Finalist of Wash Innovation Challenge
+#         authors: test, team, mates
+#         conference: test venue
 
 skills:
     title: Skills &amp; Proficiency
