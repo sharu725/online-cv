@@ -165,7 +165,7 @@ projects:
       #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
+    title: Publications Honors & Awards
     intro: |
 
 
@@ -182,10 +182,7 @@ publications:
       #   authors: Edgar T. Irons
       #   conference: "Comm. ACM 4 (1961), 51–55"
 
-    title: Honors & Awards
-    intro: |
-
-
+    
     papers:
       - title: test title
         authors: test, team, mates
