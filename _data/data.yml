@@ -181,15 +181,16 @@ publications:
       # - title: A syntax directed compiler for Algol 60
       #   authors: Edgar T. Irons
       #   conference: "Comm. ACM 4 (1961), 51–55"
-publications:
+
     title: Honors & Awards
     intro: |
 
 
     papers:
-      - title: IoT Based Real Time Noise Mapping System for Urban Sound Pollution Study
-        authors: Sakib Ahmed, Touseef Saleh Bin Ahmed, Sumaiya Jafreen, Jannatul Tajrin
-        conference: ICIEV and icIVPR, 2018
+      - title: test title
+        authors: test, team, mates
+        conference: test venue
+
 skills:
     title: Skills &amp; Proficiency
 
