@@ -1,0 +1,28 @@
+{% assign honorsnawards = site.data.data.honorsnawards %}
+{% if honorsnawards %}
+<section class="section honorsnawards-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ honorsnawards.title }}
+  </h2>
+
+  {% if honorsnawards.intro %}
+  <div class="intro">
+    {{ honorsnawards.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for honorsnaward in honorsnawards.papers %}
+  <div class="item">
+    <div class="honorsnawards-title">{{ honorsnawards.title }}</div>
+    <div class="honorsnawards-authors">{{ honorsnawards.authors }}</div>
+    <div class="honorsnawards-conference">{{ honorsnawards.conference }}</div>
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
