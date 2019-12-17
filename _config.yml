@@ -5,7 +5,7 @@ title: My Resume
 url: 'http://webjeda.com'
 baseurl: '/online-cv' #change it according to your repository name
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: blue # blue turquoise green berry orange ceramic
+theme_skin: green # blue turquoise green berry orange ceramic
 
 # Tracker
 analytics: UA-83979019-1
