@@ -46,7 +46,7 @@ career-profile:
     summary: |
       Hardworking system administrator proficient in hardware, software and security planning. 
       Able to select, install, configure and manage components. 
-      4 years of progressive IT experience.
+      5 years of progressive IT experience.
       Driven with expertise in infrastructure planning. 
       looking forward to the next challenge aiming on DevOps junior position.
 
@@ -74,6 +74,19 @@ education:
         <br />managing Microsoft servers - MCSA, MCSE.
         <br />Active Directory services.
         <br />Cisco Certification - CCNA.
+
+
+education:
+    - degree: Practical Mechanical Engineer
+      university: Hakfar Hayrok
+      time: 2008 - 2010
+      details: |
+        Practical metirial on car engineering
+        <br />Physics, Math, Hydrolic, Pneomatic Mechanical Engineering.
+        <br />Practical expriance on machins.
+        <br />Mechanicl Engineering Diploma.
+
+
 
 experiences:
     - role: System Administrator
