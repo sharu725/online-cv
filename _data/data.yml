@@ -51,29 +51,29 @@ career-profile:
       looking forward to the next challenge aiming on DevOps junior position.
 
 
-    - GED:
-    - degree: DevOps
-      university: HackerU - Ramat-Gan
-      time: 2019 - 2020
+
+education:
+    - degree: Linux server management course (DevOps specialization)
+      university: HackerU
+      time: 2019 - present
       details: |
-       
-      LPI 1 + LPI 2 in Linux Systems with DevOps Training camp.
-        - fundamentals of the Linux operating system.
-        - Managing Linux servers & Users.
-        - DevOps tools - Docker, Kubernetees, Jenkins, Ansible, Puppet, Git etc. 
-        - Python & BASH Programming.
+        fundamentals of the Linux operating system.
+        <br />Managing Linux servers & Users..
+        <br />DevOps tools - Docker, Kubernetees, Jenkins, Ansible, Puppet, Git etc.
+        <br />Python & BASH Programming.
+        <br />Course syllabus: <a href="https://www.hackeru.co.il/course/linux">https://www.hackeru.co.il/course/linux</a> 
 
 
-    - GED: MCSA, CCNA, MCSE.
-      university: HackerU - Ramat-Gan
+education:
+    - degree: MCSA, CCNA, MCSE.
+      university: HackerU
       time: 2014 - 2015
       details: |
-
-      Starting in MCSA, CCNA, MCSE study program
-        - fundamentals of communication protocol
-        - managing Microsoft servers - MCSA, MCSE.
-        - Active Directory services.
-        - Cisco Certification - CCNA.
+        Starting in MCSA, CCNA, MCSE study program
+        <br />fundamentals of communication protocol
+        <br />managing Microsoft servers - MCSA, MCSE.
+        <br />Active Directory services.
+        <br />Cisco Certification - CCNA.
 
 experiences:
     - role: System Administrator
