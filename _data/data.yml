@@ -46,7 +46,7 @@ education:
     - degree: Bachelor of Information Technology
       university: University of Open University
       time: 2010
-      details: |
+      details: 
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
         sociis natoque penatibus et magnis dis parturient montes, nascetur
@@ -57,7 +57,7 @@ education:
     - degree: Bachelor of Information Technology
       university: Open University
       time: 2008 - 2010
-      details: |
+      details: 
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
         sociis natoque penatibus et magnis dis parturient montes, nascetur
@@ -69,18 +69,7 @@ experiences:
     - role: SQA
       time: 11/2018 - Present
       company: Be Groups JSC, Ho Chi Minh
-      details: |
-        I have 10 continuous years of experience in Testing industry. Currently working as part of a team performing testing procedures on software applications and ensuring that all errors are identified and corrected before release to production.
-Experienced in Web application testing, Windows application testing, Mobile testing and  Game testing, Database testing.
-Good at using automation testing tool: writing test script, capturing interface, implementing test case by test tool such as Selenium, Appium, Jmeter (test performance).
-The biggest project, which I used to work, was 35 people over 60 months. In this project, I had opportunity to communicate directly with customers from Singapore
-Proficient in testing types like Functional, Non-functional, Mainternain testing: Retest and Regression Test. Good in Ad-hoc testing.
-Strong in API testing
-Got ISTQB certification from UK testing board in 2014
-          
-    - role: Automation Test Engineer
-      time: 2018 - 2019
-      company: Be Group JSC, Ho Chi Minh
+      details: 
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
