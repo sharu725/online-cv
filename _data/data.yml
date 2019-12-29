@@ -15,11 +15,11 @@ sidebar:
     email: hello@webjeda.com
     phone: 012 345 6789
     website: marcelaaraujo.github.io/online-cv/ #do not add http://
-    linkedin: alandoe
+    linkedin: marcelaaraujofalcon
     github: marcelaaraujo
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: #'@webjeda'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -56,7 +56,7 @@ career-profile:
 education:
     - degree: MSc in Innovation Management
       university: Pontifical Catholic University of Peru
-      time: 2019-2020
+      time: 2019 - 2020
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
