@@ -71,17 +71,15 @@ projects:
       - project:
         title: Be Transport
         link: "#"
-        tagline: "Voice assistant / chat bot, managed by different Google services: Speech API, SQL Cloud, Kubernetes, etc."    
+        tagline: "Be Transport system is designed to provide transportation service. There are 2 applications for Customer and Driver base on mobile application for both Android an iOS platforms."    
       - project:
-        title: HyperDynamic (HD) platform
+        title: Schiavello (Australia)
         link: "#"
-        tagline: "HD platform presents NVM Express (NVMe) storage to compute nodes over high-speed storage fabrics. 
-                  HD software can virtualize hundreds of NVM drives and present them as a single volume—similar to a high performance storage array, 
-                  or it can map an individual compute node to an individual drive—similar to a direct-storage access system."
+        tagline: "Schiavello system is designed to meet the needs Australian by sales management for construction material"
       - project:
-        title: Trading platform
+        title: Media Brands	Halogen (India) 
         link: "#"
-        tagline: "One of the world’s largest options exchange & the leader in product innovation, options education & trading volume."
+        tagline: "Halogen system is designed to meet the needs of IPG Mediabrands by creating the single platform focusing on the core process of media planning and buying: Book/ Bill/ Pay"
       - project:
         title: Digital Commerce platform
         link: "#"
