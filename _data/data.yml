@@ -3,167 +3,154 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    # Site Settings
+    title: An Vo CV
+    url: 'https://anvott.github.io/online-cv/'
+    about: False # set to False or comment line if you want to remove the "How to use?" in the sidebar
 
     # Profile information
-    name: An Vo Thi Truong
-    tagline: Automation Test Engineer
-    avatar: an.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Vo Thi Truong An
+    tagline: SQA
+    pic: an.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: vo.thi.truong.an@gmail.com
-    phone: 0987 214 133
-    website: None #do not add http://
     linkedin: https://www.linkedin.com/in/an-vo-84499439/
     github: anvott
-    gitlab:
-    bitbucket:
     twitter: 'None'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
-        level: Professional
-    
+        - language:
+          idiom: Vietnamese
+          level: Native
+        - language:
+          idiom: English
+          level: Advanced
+
     interests:
-      - item: Research new technologies
-        link:
-
-      - item: Listen to music
-        link:
-
-      - item: Cooking
-        link:
+        - interest:
+          item: Listen to music
+          link: http://gagarina.gym4fit.com
+        - interest:
+          item: Travelling
+          link: https://www.instagram.com/s_korol
+        - interest:
+          item: Testing / Programming
+          link: https://github.com/sskorol
 
 career-profile:
     title: Career Profile
-    summary: |
-      With passion in learning language, diligence, quick learning ability and good communication, I want to become an expert in automation testing.
-education:
-    - degree: Bachelor of Information Technology
+    text: '<div><ul>
+            <li>10 years experience in Software Testing.</li>
+            <li>2 years experience in Test Automation.</li>
+            <li>Strong knowledge: Java, Selenium WebDriver / Grid , Appium, TestNG, Allure, Jenkins, Git, REST, SQL.</li>
+            <li>Experience in excuting test automation frameworks / raising up automation infrastructure from scratch.</li>
+            <li>ISTQB certified tester.</li>
+            <li><a href="https://github.com/anvott"><b>GitHub</b></a> profile</li>
+           
+          </ul></div>
+            <div>Started career as a manual QA. Have passed a long way from Junior up to Test Lead position. Have 2+ years experience in a management of test teams up to 5 members for projects of different complexity. Since 2012 have been fully concentrated on software test automation (mostly web direction). Developed several selenium-driven frameworks with successful usage experience on big projects.</div><br>
+            <div>Consulting and mentoring automation engineers within local / customers teams and via external consulting services. Providing internal QAA trainings. Actively participating in code review processes. Continuously improving skills in Java / JS and latest web automation trends. Tech talks / conferences speaker. QAA blogger.</div><br>
+            <div>Strong experience in testing of large scale, highly available / specific private B2C / B2B applications including Internet shops, jobs / health & care sites, cloud payment solutions, financial and secret government applications, etc.</div><br>
+            <div>Strong knowledge of software testing fundamentals, testing throughout the software life cycle, test design techniques, test management and tool support for testing.</div>'
+
+
+studies:
+    - education:
+      degree: Bachelor of Information Technology
       university: Open University
-      time: 2008 - 2010
-      details: 
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: Bachelor of Information Technology
-      university: Natural Science University
-      time: 2004 - 2007
-      details: 
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-experiences:
-- I have 10 continuous years of experience in Testing industry. Currently working as part of a team performing testing procedures on software applications and ensuring that all errors are identified and corrected before release to production.
-- Experienced in Web application testing, Windows application testing, Mobile testing and  Game testing, Database testing.
-- Good at using automation testing tool like writing test script, capturing interface, implementing test case by test tool such as Selenium, Appium, Jmeter (test performance).
-- Proficient in testing types like Functional, Non-functional, Mainternain testing like Retest and Regression Test. Good in Ad-hoc testing.
-- Strong in API testing
-- Got ISTQB certification from UK testing board in 2014
-    role: SQA
-      time: 11/2018 - 12/2019
-      company: Be Groups JSC, Ho Chi Minh     
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: Automation Test Engineer
-      time: 2008 - 2010
-      company: Be Group JSC, Ho Chi Minh
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+      time: 2010
+      details: "For these 6 years we covered: 5 programming languages, 7 mathematics, algorythms theory, optimization methods, system administration, etc."
+
+
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    intro: "Here you can find a list of open source and commercial projects I've been working on for the past 5 years. Please note that commercial projects names are not real due to NDA."
 
-      - title: DevStudio
+    projects:
+      - project:
+        title: Be Transport
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Voice assistant / chat bot, managed by different Google services: Speech API, SQL Cloud, Kubernetes, etc."    
+      - project:
+        title: HyperDynamic (HD) platform
+        link: "#"
+        tagline: "HD platform presents NVM Express (NVMe) storage to compute nodes over high-speed storage fabrics. 
+                  HD software can virtualize hundreds of NVM drives and present them as a single volume—similar to a high performance storage array, 
+                  or it can map an individual compute node to an individual drive—similar to a direct-storage access system."
+      - project:
+        title: Trading platform
+        link: "#"
+        tagline: "One of the world’s largest options exchange & the leader in product innovation, options education & trading volume."
+      - project:
+        title: Digital Commerce platform
+        link: "#"
+        tagline: "Real-time, transactional system designed to more efficiently
+                  support the growing volume and complexity of services that
+                  require real-time processing. It combines extremely efficient,
+                  transactional event processing with a highly flexible pricing,
+                  rating, policy, and aggregation engine. It performs transactional
+                  rating and charging for communications and media products and
+                  services, policy decision making based on traffic-type criteria,
+                  and event aggregation for usage analysis."
+      - project:
+        title: Global Payments platform
+        link: "#"
+        tagline: "Highly scalable, multi-tenanted EMEA Global Payments platform
+                  capable of being hosted which will allows the Client to deliver
+                  payments solutions. The project has 2 identified phases with the
+                  initial focus on EMEA Payments requirements for a ‘cloud’
+                  option for the Client’s customer base (approx. 10k customers with
+                  multiple users). First phase includes BACS payments and Admin
+                  features for PT-X. Second phase scope includes Direct Debit
+                  Management system."
+      - project:
+        title: Health &amp; Care platform
+        link: "#"
+        tagline: "Complex solution for patients caregivers and
+                  therapists. System components are supposed to provide up-to-date
+                  information about state of a patient, history of treatment and
+                  reports via PC based interface, mobile devices. Automation test
+                  framework is developed for UI part of the system."    
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
+    skills:
+        - skill:
+          name: Software Testing / Quality Assurance
+          level: 90%
+        - skill:
+          name: QA Automation
+          level: 90%
+        - skill:
+          name: Selenium / TestnNG / Allure
+          level: 95%
+        - skill:
+          name: Appium
+          level: 70%
+        - skill:
+          name: JMeter 
+          level: 50%
+        - skill:
+          name: Java / OOP / Design Patterns
+          level: 80%
+        - skill:
+          name: Javascript
+          level: 65%   
+        - skill:
+          name:  Maven
+          level: 90%
+        - skill:
+          name: SQL
+          level: 70%
+        - skill:
+          name: Git
+          level: 80%
+        - skill:
+          name: Jenkins
+          level: 50%
 
-    toolset:
-      - name: Python 
-        level: 90%
-
-      - name: Javascript
-        level: 98%
-
-      - name: Java
-        level: 80%
-
-      - name: Appium
-        level: 95%
-
-      - name: Selenium
-        level: 85%
-
-      - name: GitLab
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+footer:
+    text: 'Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> for developers'
+© 2019 GitHub, Inc.
