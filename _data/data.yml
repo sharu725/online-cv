@@ -44,17 +44,6 @@ career-profile:
       With passion in learning language, diligence, quick learning ability and good communication, I want to become an expert in automation testing.
 education:
     - degree: Bachelor of Information Technology
-      university: University of Open University
-      time: 2010
-      details: 
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: Bachelor of Information Technology
       university: Open University
       time: 2008 - 2010
       details: 
@@ -65,11 +54,27 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-experiences:
-    - role: SQA
-      time: 11/2018 - Present
-      company: Be Groups JSC, Ho Chi Minh
+    - degree: Bachelor of Information Technology
+      university: Natural Science University
+      time: 2004 - 2007
       details: 
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+experiences:
+I have 10 continuous years of experience in Testing industry. Currently working as part of a team performing testing procedures on software applications and ensuring that all errors are identified and corrected before release to production.
+- Experienced in Web application testing, Windows application testing, Mobile testing and  Game testing, Database testing.
+- Good at using automation testing tool like writing test script, capturing interface, implementing test case by test tool such as Selenium, Appium, Jmeter (test performance).
+- Proficient in testing types like Functional, Non-functional, Mainternain testing like Retest and Regression Test. Good in Ad-hoc testing.
+- Strong in API testing
+- Got ISTQB certification from UK testing board in 2014
+- role: SQA
+      time: 11/2018 - 12/2019
+      company: Be Groups JSC, Ho Chi Minh     
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
