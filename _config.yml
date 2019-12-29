@@ -46,6 +46,27 @@ collections:
   posts:
     permalink: /blog/:categories/:slug
 
+# Authors
+authors:
+  full:
+    name: Sergio
+    display_name: Sergio AFanou
+    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: sergio@afanou.com
+    web: https://www.sergio.afanou.com
+    twitter: https://twitter.com/t0o1
+    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+  john:
+    name: John
+    display_name: John    
+    avatar: 'assets/images/avatar.png'
+    gravatar: b1cc14991db7a456fcd761680bbc8f81
+    email: wowthemesnet@gmail.com
+    web: https://www.wowthemes.net
+    twitter: https://twitter.com/wowthemesnet
+    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+
+
 # Team names, titles and social links
 people:
 - name: Full Bright
@@ -98,3 +119,8 @@ compress_html: # - http://jch.penibelst.de/
 port: 4000
 host: 0.0.0.0
 safe: false
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
