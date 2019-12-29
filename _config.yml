@@ -3,13 +3,84 @@
 # Site Settings
 title: Sergio Afanou | Dev Ops Projects Manager and Cloud Expert
 url: 'http://sergio.afanou.com'
+name: Sergio's blog
+logo: assets/images/salogo.png
 #baseurl: '/' #change it according to your repository name
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: ceramic # blue turquoise green berry orange ceramic
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
+include: ["_pages"]
+
 # Tracker
 analytics: UA-20627889-4
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+
+collections:
+  articles:
+    output: true
+    permalink: /articles/:path
+  
+  services:
+    output: true
+
+  posts:
+    permalink: /blog/:categories/:slug
+
+# Team names, titles and social links
+people:
+- name: Full Bright
+  pic: 1
+  position: AI solutions designer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Kekeli Afanou
+  pic: 2
+  position: Cloud Nerd
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Christoli Wonegou
+  pic: 3
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
 
 # Sass/SCSS
 sass:
