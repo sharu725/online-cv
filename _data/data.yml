@@ -1,22 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@anvott 
-2
-02ksskorol/online-cv
-forked from sharu725/online-cv
- Code Pull requests 0 Actions Projects 0 Wiki Security Insights
-online-cv/_data/data.yml
-@sskorol sskorol Update data.yml
-e4fb09c on Nov 22
-@sskorol@sharu725
-208 lines (187 sloc)  9.34 KB
-  
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
