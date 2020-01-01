@@ -88,8 +88,20 @@ education:
 
 
 experiences:
+     - role: DevOps Engineer
+      time: 2020 - Present
+      company: TA9, Tel-Aviv
+      details: |
+        Resposible on all company architecture, Depolyment tools such as Ansible, Puppet, Vagrant, Terraform.
+        Mainly working in Azure DevOps enviorment, Shell expiriance, Virtual machines & coms.
+        Strong abillity in solving complex problems in all kind. 
+        Working on shell and vary kinds of OS and dists.
+    
+    
+    
+    
     - role: System Administrator
-      time: 2019 - Present
+      time: 2019 - 2020
       company: InManage, Tel-Aviv
       details: |
         Implemented corrective plans of action for network performance issues including availability, utilization, and latency.
