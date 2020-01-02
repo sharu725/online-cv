@@ -137,9 +137,9 @@ projects:
         link: "#"
         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
+      - title: Small Falcon Project
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "A customized Dashboard with credit debt statictics designed to help Financial Directors make decisions."
 
 publications:
     title: Publications
@@ -171,13 +171,13 @@ skills:
         level: 98%
 
       - name: Javascript & jQuery
-        level: 98%
+        level: 70%
 
       - name: Angular
         level: 98%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 70%
 
       - name: Ruby on Rails
         level: 85%
