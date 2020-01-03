@@ -103,17 +103,13 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Intern
+      time: 2013 - 2013
+      company: Interbank, Lima
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Design, analysis and programming of a desktop all-in-one applicative 
+        oriented to reduce operational risk in the Credit Risks Department 
+        of Peruvian Bank Interbank.
 projects:
     title: Projects
     intro: >
