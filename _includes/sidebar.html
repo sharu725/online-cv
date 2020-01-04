@@ -4,7 +4,11 @@
   <div class="profile-container">
 
     {% if sidebar.name %}
-    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+    <img
+      class="avatar"
+      src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}"
+      alt="profile picture"
+    />
     {% endif %}
 
     {% if sidebar.name %}
@@ -15,7 +19,7 @@
     <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
 
-  </div><!--//profile-container-->
+  </div>
 
   {% include contact.html %}
 
@@ -30,4 +34,4 @@
     {% include about.html %}
   {% endif %}
 
-</div><!--//sidebar-wrapper-->
+</div>

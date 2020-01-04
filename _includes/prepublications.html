@@ -1,0 +1,32 @@
+{% assign prepublications = site.data.data.prepublications %}
+{% if prepublications %}
+<section class="section prepublications-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ prepublications.title }}
+  </h2>
+
+  {% if preprepublications.intro %}
+  <div class="intro">
+    {{ prepublications.intro | markdownify }}
+  </div>
+  {% endif %}
+
+  {% for prepublication in prepublications.papers %}
+  <div class="item">
+    {% if prepublication.link %}
+      <li><a href="{{ publication.link }}">{{ prepublication.title }}</a></li>
+    {% else %}
+      <li>{{ prepublication.title }}</li>
+    {% endif %}
+    <div class="publication-authors">{{ prepublication.authors }}</div>
+    <div class="publication-conference">{{ prepublication.conference }}</div>
+  </div>
+  {% endfor %}
+
+</section>
+{% endif %}
