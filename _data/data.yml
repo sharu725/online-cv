@@ -12,8 +12,8 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
+    email: a20090283@pucp.edu.pe
+    phone: +51 (CV)
     website: marcelaaraujo.github.io/online-cv/ #do not add http://
     linkedin: marcelaaraujofalcon
     github: marcelaaraujo
@@ -88,32 +88,27 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Lead Developer
+    - role: SAPB1 Consultant
       time: 2015 - Present
-      company: Startup Hubs, San Francisco
+      company: Exxis Peru, Lima
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        Implementation of Core Modules, (Bank Transactions, Sales and Distribution, 
+        Purchasing), Warehouse Management, Add-Ons (Electronic Invoicing, Bank 
+        and Finances), User Experience Support.
+          - Requirements analysis, custom developments and tests for Core SAPB1 Modules.
+          - Management of Electronic Invoicing projects.
+    - role: Junior Systems Support Analyst
+      time: 2014 - 204
+      company: ABB Peru, Lima
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        QA testing for iScala and Sharepoint local upgrades, pilots designer
+        and director of interviews for user insights. Member of Help Desk.
+    - role: Software Development Intern
+      time: 2014 - 2014
+      company: Ferreyros S.A., Lima
+      details: |
+        Development of Business Intelligence models, extraction components 
+        and customized reports in the Systems Department of Ferreyros in Peru.
     - role: Intern
       time: 2013 - 2013
       company: Interbank, Lima
