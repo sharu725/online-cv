@@ -148,20 +148,15 @@ publications:
     intro: |
       Papers and publications.
     papers:
-      - title: The Art of Computer Programming
+      - title: Correlational comparison between the number of teachers registered in REGINA and the number of publications in indexed journals made by members of Peruvian licensed universities
         link: http://congreso.pucp.edu.pe/ciencias-gestion/wp-content/uploads/sites/54/2019/11/Comparaci%C3%B3n-correlativa-entre-la-cantidad-de-docentes-registrados-en-REGINA-y-la-cantidad-de-publicaciones-en-revistas-indexadas-realizadas-por-miembros-de-universidades-licenciadas-peruanas.pdf
-        authors: Marcela Araujo [I'm an inline-style link](https://www.google.com)
+        authors: Marcela Araujo
         conference: Third International Congress of Management Science, 2009
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Usability analysis to the PAIDEIA PUCP platform file upload interface
+        link: http://hdl.handle.net/20.500.12404/5752
+        authors: Marcela Araujo
+        Thesis: To opt for the title of Informatics Engineer, 2014
 
 skills:
     title: Skills &amp; Proficiency
