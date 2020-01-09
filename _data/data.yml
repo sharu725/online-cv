@@ -146,14 +146,12 @@ projects:
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Papers and publications.
     papers:
       - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        link: http://congreso.pucp.edu.pe/ciencias-gestion/wp-content/uploads/sites/54/2019/11/Comparaci%C3%B3n-correlativa-entre-la-cantidad-de-docentes-registrados-en-REGINA-y-la-cantidad-de-publicaciones-en-revistas-indexadas-realizadas-por-miembros-de-universidades-licenciadas-peruanas.pdf
+        authors: Marcela Araujo [I'm an inline-style link](https://www.google.com)
+        conference: Third International Congress of Management Science, 2009
 
       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
         link: "#"
