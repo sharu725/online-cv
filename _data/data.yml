@@ -114,16 +114,38 @@ projects:
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    title: Licences & Certifications
     papers:
-      - title: The Art of Computer Programming
+      - title: DASA DevOps Fundamentals
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        authors: APMG International
+        conference: Issued July 2019
+
+      - title: AWS Solutions Architect
+        link: "LD63HCF8"
+        authors: Edureka
+        conference: Issued July 2019 • No expiration date
+       
+      - title: DevOps Engineer
+        link: "FS85LB1M"
+        authors: Edureka
+        conference: Issued July 2019
+
+      - title: DASA DevOps Fundamentals
+        link: "#"
+        authors: APMG International
+        conference: Issued July 2019
+        
+      - title: DASA DevOps Fundamentals
+        link: "#"
+        authors: APMG International
+        conference: Issued July 2019
+
+      - title: DASA DevOps Fundamentals
+        link: "#"
+        authors: APMG International
+        conference: Issued July 2019
+
 
       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
         link: "#"
