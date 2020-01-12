@@ -67,17 +67,15 @@ experiences:
     - role: Technical System Owner
       time: Sep 2016 - Dec 2019 • 3 years 4 months
       company: Mercedes-Benz Bank AG, Stuttgart, Baden-Württemberg, Germany
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: IT Consultant Databanken
+      time: Apr 2015 - Aug 2016
+      company: Daimler AG
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+          - Mitarbeit bei der Erstellung von Betriebshandbüchern für Operating
+          - Supportdokumentationen (Datenbanken und Applikationsdienste)
+          - Systeminbetriebnahmen
+          - Test und Planung Oracle Migration von Version 11 auf 12 zusammen mit IT.
+          - Ablösung der APEX-Applikation (Server-Monitoring)
 projects:
     title: Projects
     intro: >
