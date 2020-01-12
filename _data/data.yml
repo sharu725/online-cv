@@ -76,17 +76,16 @@ experiences:
           - Systeminbetriebnahmen
           - Test und Planung Oracle Migration von Version 11 auf 12 zusammen mit IT.
           - Ablösung der APEX-Applikation (Server-Monitoring)          
-    - role: Technology Lead
-      time: Apr 2013 - Dec 2013
+    - role: Technology Analyst
+      time: Mar 2009 - Mar 2013
+      company: Infosys, Chennai Area, India and London, United Kingdom
+      details: |
+          Been part of Ricoh Europe team as Onsite co-ordinator. The project currently I am working is a Conversion Project aims to migrate from Legacy System like AS400 and IFAS to Oracle 11.5.10 applications
+    - role: Senior Systems Engineer
+      time: Jan 2007 - Apr 2009
       company: Infosys, India
       details: |
-          Ricoh Europe PLC - Was involved in the extended patch analysis team for the client's extended support with the Oracle. Also was involved in various development of SCR's.
-          The Responsibilities involves:
-          - Development of new SCR's
-          - Testing in SIT and QA phase
-          - Defect logging and Resolution
-          - Monitoring the work of the peers
-          - Involved in the client discussion meetings  
+          Worked for the accounts like Underwriters Laboratory, Arrow Electronics, Cisco in various stages of SDLC, like Analysis, Design, Testing and Implementation.
 projects:
     title: Projects
     intro: >
