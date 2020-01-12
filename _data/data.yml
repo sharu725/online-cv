@@ -14,7 +14,7 @@ sidebar:
     # Sidebar links
     email: preethi@rajasekaran.net
     phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
+    website: preethirajasekar.com #do not add http://
     linkedin: rajasekarpreethi
     twitter: '@itzpree'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
@@ -23,13 +23,13 @@ sidebar:
 
     languages:
       - idiom: English
+        level: Professional
+
+      - idiom: German
+        level: Professional
+
+      - idiom: Tamil
         level: Native
-
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
 
     interests:
       - item: Climbing
@@ -51,19 +51,11 @@ career-profile:
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+    - degree: BE in Computer Science
+      university: Annamalai University
+      time: 2002 - 2006
+    - degree: Higher Secondary
+      university: Nirmala Matriculation Higher Secondary School
       time: 2007 - 2011
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
