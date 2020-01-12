@@ -8,31 +8,31 @@ sidebar:
 
     # Profile information
     name: Preethi Rajasekar
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline: Technical System Owner
+    avatar: preethi.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
+    email: preethi@rajasekaran.net
     phone: 012 345 6789
     website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
+    linkedin: rajasekarpreethi
     github: sharu725
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@itzpree'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
+        level: Professional
+
+      - idiom: German
+        level: Professional
+
+      - idiom: Tamil
         level: Native
-
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
 
     interests:
       - item: Climbing
@@ -54,19 +54,12 @@ career-profile:
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+    - degree: BE in Computer Science
+      university: Annamalai University
+      time: 2002 - 2006
+      
+    - degree: Higher Secondary Certification
+      university: Nirmala Matriculation Higher Secondary School
       time: 2007 - 2011
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
@@ -77,9 +70,9 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Technical System Owner
+      time: 2019 - Present
+      company: Daimler Mobility AG, Stuttgart
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -93,8 +86,8 @@ experiences:
           - Bullet point
           - Bullet point
     - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+      time: September 2016 – December 2019 • 3 years 4 months
+      company: Mercedez-Benz Bank AG
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -103,9 +96,9 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: IT Consultant Databanken
+      time: April 2015 – August 2016 • 1 year 5 months
+      company: Daimler AG
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -114,6 +107,33 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
+          
+     - role: Technology Lead
+       time: April 2013 – December 2013 • 9 months
+       company: Infosys
+       details: | 
+       Ricoh Europe PLC - Was involved in the extended patch analysis team for the client's extended support with the Oracle.
+Also was involved in various development of SCR's.
+        Responsibilities
+        - Development of new SCR's
+        - Testing in SIT and QA phase
+        - Defect logging and Resolution
+        - Monitoring the work of the peers
+        – Involved in the client discussion meetings
+        
+     - role: Technology Analyst
+       time: May 2009 – March 2013 • 3 years 11 months
+       company: Infosys • Chennai Area, India and London, United Kingdom
+       details: |
+       Been part of Ricoh Europe team as Onsite co-ordinator. The project currently I am working is a Conversion Project aims to migrate from Legacy System like AS400 and IFAS to Oracle 11.5.10 applications
+       
+    - role: Senior Systems Engineer
+      time: Jan 2007 – Apr 2009 • 2 years 4 months
+      company: Infosys
+      details: |
+      Worked for the accounts like Underwriters Laboratory, Arrow Electronics, Cisco in various stages of SDLC, like Analysis, Design, Testing and Implementation.
+      
+     
 projects:
     title: Projects
     intro: >
