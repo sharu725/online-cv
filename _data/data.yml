@@ -65,7 +65,7 @@ experiences:
       time: Jan 2020 - Present
       company: Daimler Mobility AG, Stuttgart, Baden-Württemberg, Germany
     - role: Technical System Owner
-      time: Sep 2016 - Dec 2019 • 3 years 4 months
+      time: Sep 2016 - Dec 2019 
       company: Mercedes-Benz Bank AG, Stuttgart, Baden-Württemberg, Germany
     - role: IT Consultant Databanken
       time: Apr 2015 - Aug 2016
@@ -76,6 +76,18 @@ experiences:
           - Systeminbetriebnahmen
           - Test und Planung Oracle Migration von Version 11 auf 12 zusammen mit IT.
           - Ablösung der APEX-Applikation (Server-Monitoring)
+    - role: Technology Lead
+      time: Apr 2013 - Dec 2013
+      company: Infosys, India
+      details: |
+            Ricoh Europe PLC - Was involved in the extended patch analysis team for the client's extended support with the Oracle. Also was involved in various development of SCR's.      
+          
+          The Responsibilities involves:
+          - Development of new SCR's
+          - Testing in SIT and QA phase
+          - Defect logging and Resolution
+          - Monitoring the work of the peers
+          - Involved in the client discussion meetings  
 projects:
     title: Projects
     intro: >
