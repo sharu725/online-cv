@@ -43,7 +43,8 @@ career-profile:
     title: Career Profile
     summary: |
       I am a Ph.D student works in Algorithms and Complexity Theory. I work on designing Algorithms
-      for Algebraic and Combinatorial Structures.
+      for Algebraic and Combinatorial Structures. I have studied in different states of india, I did most of my schooling from a 
+      Goverment School then studied some time in Chandigarh(Chitkara) and then Kota(Allen) Rajasthan.
 education:
     - degree: B.Tech in Computer Science and Engineering
       university: NIT Hamirpur, Himachal Pradesh, India
@@ -66,9 +67,6 @@ experiences:
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
     papers:
       - title: "Nearly Linear Time Isomorphism Algorithms for Some Nonabelian Group Classes"
         link: "#"
@@ -84,6 +82,16 @@ publications:
         link: "#"
         authors: Jayesh Choudhari, Manoj Gupta, Shivdutt Sharma
         conference: 
+
+Awards/Achievements:
+    title: Awards/Achievements:
+
+    Awards:
+      - name: Best Paper and Best Student Paper Award in FCT'19
+      - name: Travel Grant from ACM/IARCS India
+      - name: Ranked 1st in 5th Sem and overall 
+      - name: Merit Certifcate in 10th and 12th from State Board
+      
 
 skills:
     title: Skills &amp; Proficiency
