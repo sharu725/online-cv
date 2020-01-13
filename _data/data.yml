@@ -7,37 +7,21 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Shivdutt
-    tagline: Ph.D Student
-    avatar:  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: shiv.sharma@iitgn.ac.in
-    phone: 012 345 6789
-    website: #do not add http://
-    linkedin:
     github: shivd750
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
-    languages:
-     
-      - idiom: English
-        level: Professional
+    
 
     interests:
-      - item: Climbing
+      - item: Algorithms and Complexity Theory, Computational Group Theory
         link:
 
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
 
 career-profile:
     title: Career Profile
@@ -48,22 +32,8 @@ career-profile:
 education:
     - degree: B.Tech in Computer Science and Engineering
       university: NIT Hamirpur, Himachal Pradesh, India
-      time: July 2015
-      details: |
-        
-          - Bullet point
-          - Bullet point
-    - degree: Ph.D in Computer Science and Engineering
-      university: IIT Gandhinagar, Gujarat, India
-      time: 2015 -Till Now
-      details: |
-        
-experiences:
-    - role: Teaching Assitance at IIT Gandhinagar 
-      time: 2015 - Present
-      details: |
-        Theory of Computation, Discrete Mathematics, Algorithm Design and Analysis etc
-         
+
+
 publications:
     title: Publications
     intro: |
