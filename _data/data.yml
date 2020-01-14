@@ -100,7 +100,7 @@ experiences:
         
         Key Responsibilities
 
-        - Development leader.  Designed, managed and developed a suite of highly interactive "Web 2.0" applications using JQuery and Grails with connections to legacy databases 
+        - Development leader.  Designed, managed and developed a suite of highly interactive "Web 2.0" applications using JQuery and Java/Groovy/Grails with connections to legacy databases 
         - Designed and developed behind-the-firewall solutions that enable customers to connect to the Quadrem and Ariba trading networks
         - Worked with a global team to enhance the existing Enterprise Services platform
         - Managed and documented interactions between all parties involved in an integration.
@@ -108,10 +108,9 @@ experiences:
 
         Key Achievements
 
-        - Development of automated testing framework using Angular and Grails. Increasing QA efficiency, coverage and output by at least 3 times   
-        - Using .Net (C#), develop a round-trip system for a Mincom Ellipse buyer sending Purchase Order (includes Change Order) to the Quadrem marketplace and Invoice back in to Ellipse. 
-        This was a ground-up development of an integration system to connect a Mincom Ellipse system, based on Mulesoft and including a custom web interface (for admin and monitoring) 
-        - Maintenance and development of Webmethods integration services for a range of customers and geographic locations on a regular basis
+        - Development of automated testing framework using Angular and Java/Groovy/Grails. Increasing QA efficiency, coverage and output by at least 3 times   
+        - Development of an integration system to connect a Mincom Ellipse, based on Mulesoft using Java and including a custom web interface based on Javascript / JQuery (for admin and monitoring)         
+        - Maintenance and development of Java-based Webmethods integration services for a range of customers and geographic locations on a regular basis
         - Developed demo system/adaptors using .Net (C#) to connect to Quadrem with MYOB, successfully demonstrating Order/Invoice cycle from an MYOB (Order) to a Quadrem 
         SupplyCentre supplier.
 
