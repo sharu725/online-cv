@@ -53,7 +53,7 @@ sidebar:
       - item: Linear Algebra
         link:
 
-      - item: Thesis on Greedy Generation of Gray Codes
+      - item: Thesis on Greedy Generation of Gray Codes and Multiset Permutations
         link:
 
 career-profile:
@@ -83,7 +83,7 @@ experiences:
           - Programmed online psychology experiments and recorded participants’ performance
           through Amazon Turk in order to observe learning advantages and disadvantages in
           categorization tasks.
-          - Analyzed the data obtained from these experiments in R, and presented the
+          - Analyzed the data obtained from these experiments in R and presented the
           research findings to peers through simple and concise visuals.
           - Currently analyzing the efficacy of categorical learning when presented with
           high-within-category similarity by developing and running more experiments.
@@ -91,7 +91,7 @@ experiences:
       time: August 2018 - December 2018
       company: Williams College, Williamstown
       details: |
-          - Provided help in the Computer Systems and Organization core course by explaining
+          - Provided help in the Computer Systems and Organization core course (CS 237) by explaining
           intuition behind the programming assignments, debugging code, clarifying the
           course material, and assisting peers in writing proofs.
     - role: REU Researcher
@@ -105,20 +105,19 @@ experiences:
           through Bayesian models and updated summary statistics on the map based
           on these inferences.
           - Presented a poster that summarizes the work I contributed this summer,
-          explaining a high level overview of the implementation, machine learning
+          explaining a high level overview of the implementation, the machine learning
           technique, and future directions for the project.
     - role: Theory of Computation Teaching Assistant
       time: August 2019 - Present
       company: Williams College, Williamstown
       details: |
-          - Clarifying subjects for Theory of Computation by explaining intuition
+          - Clarified course material for students in the Theory of Computation core course (CS 361) by explaining the intuition
           behind different models of computation, the languages these models generate,
-          NP hardness, and the halting problem, as well as assisting in proof writing
+          NP hardness, and the halting problem. Also assisted in proof writing
           and programming assignments.
 projects:
     title: Projects
-    intro: I love to create projects that interests me, like the lyrics web scraper that I used to analyze some trends I was curious about regarding popularity of songs, and the course web scraper to help me download course material for review and future learning (in the case of having not taken the class yet).  The fractals project lets me create new fractals interactively, and this made my freshman year research much easier to visualize and intuit. Lava is a project some friends and I are currently working on, and my github contains more projects I'm currently invested in, including a graph-oriented note taking app, social media platform, and multiplayer card game. 
-    assignments:
+    intro: I love working on challenging, interesting projects. I’ve mainly chosen to work on projects outside of my regular coursework that relate to my passions, like music, or help increase the efficiency of tasks I’d otherwise need to perform manually. The lyrics web scraper analyzesto analyze trends I was curious about in popular songs. The other web scraper downloads course material from any class website for future review and learning. The fractals project lets me create new fractals interactively-- and this made my freshman year research much easier to visualize and intuit. Lava is a project some friends and I are currently working on, and my github contains more projects I'm currently invested in, including a graph-oriented note taking app, social media platform, and multiplayer card game.assignments:
       - title: Genius Lyrics WebScraper
         link: "GeniusCrawler"
         tagline: "This webscraper keeps track of the frequency of each word, in all the songs provided in a csv file, and two csv files are written to the current directory: one has the 15 most frequent words, and each word's frequency in all the songs; the other has the 15 most frequent words after filtering out stop words, and each word's frequency in all the songs"
@@ -129,15 +128,15 @@ projects:
 
       - title: Fractals
         link: "Fractals"
-        tagline: "Interactive fractal generator that uses L-systems to generate fractals. It takes in a starting axiom, production rules, number of iterations, and an angle as parameters, but if you'd like to add your own L-system you can easily do so by modifying an associated csv file."
+        tagline: " An interactive fractal generator that uses L-systems to generate fractals. It takes in a starting axiom, the production rules, the number of iterations, and an angle as parameters, but if you'd like to add your own L-system, you can easily do so by modifying an associated csv file."
 
       - title: Course WebScraper
         link: "CourseCrawler"
-        tagline: "A webscraper that downloads all pdfs (and tex files, if desired) in a website. I use this to download lectures and assignments, but it can be used for other websites as well."
+        tagline: "A webscraper that downloads all pdfs (and other files like tex, csv, etc if desired) in a website. I use this to download lectures and assignments, but it can be used for other websites as well."
         
       - title: PsiTurk
         link: "Psiturk"
-        tagline: "Two psychology experiments that test for the benefits of interleaved blocked studying. One uses original stimuli found in Goldstone and Carvalho's 2015 paper, and the other uses Safa Zaki's stimuli, drawn with D3."
+        tagline: "Two psychology experiments that test for the benefits of interleaved blocked studying. One uses original stimuli found in Goldstone and Carvalho's 2015 paper, and the other uses Safa Zaki's stimuli, drawn with D3.js."
         
 
 publications:
@@ -147,7 +146,7 @@ publications:
       - title: Neighborhood Leadership Team
         link: "#"
         authors: August 2017 – June 2018
-        conference: Regulary attend training by the college to ensure that I am up to date with new groups on campus, resources, and controversial sensitive topics. Then, I apply this knowledge to ensure that all the students in my neighborhood of dorms feel welcome, safe, included, and respected in their living spaces.
+        conference: Regularly attended training by the college to ensure that I am up to date with new groups on campus resources, and controversial sensitive topics. I applied this knowledge to ensure that all the students in my dorm neighborhood felt welcome, safe, included, and respected in their living spaces.
         
       - title: National Society of Leadership and Success
         link: "#"
