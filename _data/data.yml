@@ -132,7 +132,7 @@ projects:
         tagline: "Interactive fractal generator that uses L-systems to generate fractals. It takes in a starting axiom, production rules, number of iterations, and an angle as parameters, but if you'd like to add your own L-system you can easily do so by modifying an associated csv file."
 
       - title: Course WebScraper
-        link: "PdfCrawler"
+        link: "CourseCrawler"
         tagline: "A webscraper that downloads all pdfs (and tex files, if desired) in a website. I use this to download lectures and assignments, but it can be used for other websites as well."
         
       - title: PsiTurk
@@ -146,9 +146,14 @@ publications:
     papers:
       - title: Neighborhood Leadership Team
         link: "#"
-        authors: August 2017 – 2019
+        authors: August 2017 – June 2018
         conference: Regulary attend training by the college to ensure that I am up to date with new groups on campus, resources, and controversial sensitive topics. Then, I apply this knowledge to ensure that all the students in my neighborhood of dorms feel welcome, safe, included, and respected in their living spaces.
         
+      - title: National Society of Leadership and Success
+        link: "#"
+        authors: August 2018 – June 2019
+        conference: Attended training from the National Society of Leadership and Success in order to be well prepared for the position of founding president at Williams College. Held interviews for founding executive board members and managing preparations for the launch of the club.
+
       - title: Williams Rugby Football Club
         link: "#"
         authors: January 2018 - Present
