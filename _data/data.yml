@@ -117,7 +117,7 @@ experiences:
           and programming assignments.
 projects:
     title: Projects
-    intro: I love to create projects for things I'm curious about. The lyrics web scraper to analyze some trends I was curious about regarding popularity of songs, and made the other web scraper to help me download course material for future review and learning, if I haven't taken the class yet. The fractals project lets me create new fractals interactively, and this made my freshman year research much easier to visualize and intuit. Lava is a project some friends and I are currently working on, and my github contains more projects I'm currently invested in, including a graph-oriented note taking app, social media platform, and multiplayer card game. 
+    intro: I love to create projects that interests me, like the lyrics web scraper that I used to analyze some trends I was curious about regarding popularity of songs, and the course web scraper to help me download course material for review and future learning (in the case of having not taken the class yet).  The fractals project lets me create new fractals interactively, and this made my freshman year research much easier to visualize and intuit. Lava is a project some friends and I are currently working on, and my github contains more projects I'm currently invested in, including a graph-oriented note taking app, social media platform, and multiplayer card game. 
     assignments:
       - title: Genius Lyrics WebScraper
         link: "GeniusCrawler"
