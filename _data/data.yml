@@ -117,8 +117,9 @@ experiences:
           and programming assignments.
 projects:
     title: Projects
-    intro: I love working on challenging, interesting projects. I’ve mainly chosen to work on projects outside of my regular coursework that relate to my passions, like music, or help increase the efficiency of tasks I’d otherwise need to perform manually. The lyrics web scraper analyzesto analyze trends I was curious about in popular songs. The other web scraper downloads course material from any class website for future review and learning. The fractals project lets me create new fractals interactively and this made my freshman year research much easier to visualize and intuit. Lava is a project some friends and I are currently working on, and my github contains more projects I'm currently invested in, including a graph-oriented note taking app, social media platform, and multiplayer card game assignments.
-      - title: Genius Lyrics Crawler
+    intro: I love working on challenging, interesting projects. I’ve mainly chosen to work on projects outside of my regular coursework that relate to my passions, like music, or help increase the efficiency of tasks I’d otherwise need to perform manually. The lyrics web scraper analyzes trends I was curious about in popular songs. The other web scraper downloads course material from any class website for future review and learning. The fractals project lets me create new fractals interactively-- this made my freshman year research much easier to visualize and intuit. Lava is a project some friends and I are currently working on, and my github contains more projects I'm currently invested in, including a graph-oriented note taking app, social media platform, and multiplayer card game assignments.
+    assignments:
+        - title: Genius Lyrics Crawler
         link: "GeniusCrawler"
         tagline: "This webscraper keeps track of the frequency of each word, in all the songs provided in a csv file, and two csv files are written to the current directory: one has the 15 most frequent words, and each word's frequency in all the songs; the other has the 15 most frequent words after filtering out stop words, and each word's frequency in all the songs"
 
