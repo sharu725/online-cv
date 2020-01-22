@@ -139,6 +139,9 @@ projects:
         link: "Psiturk"
         tagline: "Two psychology experiments that test for the benefits of interleaved blocked studying. One uses original stimuli found in Goldstone and Carvalho's 2015 paper, and the other uses Safa Zaki's stimuli, drawn with D3.js."
         
+      - title: Restaurants
+        link: "Restaurants"
+        tagline: "An online platform that maps over 3000 restaurants in Toronto and infers what restaurants users are likely to click next using bayesian models. Given these inferences, desirable restaurants are highlighted and undesirable restaurants are omitted."
 
 publications:
     title: Involvement
