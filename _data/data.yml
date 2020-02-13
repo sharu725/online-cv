@@ -73,20 +73,22 @@ experiences:
       time: August 2016- December 2016
       company: Williams College, Williamstown
       details: |
-        - Studied many fractals and observed their dimensional properties through Mathematica.
-        - Used L-systems to visualize the effect that angles and number of iterations had on
-        fractals like Serpinski’s Triangle, the Koch Fractal, and fractal plants.
+        - Studied dimensional properties of various types of fractals and used L-systems 
+        to visualize the effect that  parameters like angles and number of iterations had 
+        on the development of these fractals.
+        - Implemented an interactive fractal drawer in Python that facilitates fractal 
+        generation, given production rules formatted in a CSV file.
     - role: Cognitive Science Research Assistant
-      time: June 2018- Present
+      time: June 2018- May 2019
       company: Williams College, Williamstown
       details: |
-          - Programmed online psychology experiments and recorded participants’ performance
-          through Amazon Turk in order to observe learning advantages and disadvantages in
-          categorization tasks.
-          - Analyzed the data obtained from these experiments in R and presented the
-          research findings to peers through simple and concise visuals.
-          - Currently analyzing the efficacy of categorical learning when presented with
-          high-within-category similarity by developing and running more experiments.
+          - Read some literature on learning advantages and disadvantages in categorization tasks,
+          specifically with passive/active learning in interleaved/blocked segments, and developed 
+          online experiments that aimed to test the interaction between these variables.
+          - Interpreted hundreds of data points obtained from these experiments using R and presented
+          the research findings to peers through simple and concise visuals.
+          - Analyzed the effects high-within-category similarity objects had on categorical 
+          learning after creating more experiments and analyzing more data.
     - role: Systems Teaching Assistant
       time: August 2018 - December 2018
       company: Williams College, Williamstown
@@ -108,13 +110,21 @@ experiences:
           explaining a high level overview of the implementation, the machine learning
           technique, and future directions for the project.
     - role: Theory of Computation Teaching Assistant
-      time: August 2019 - Present
+      time: August 2019 - December 2019
       company: Williams College, Williamstown
       details: |
           - Clarified course material for students in the Theory of Computation core course (CS 361) by explaining the intuition
           behind different models of computation, the languages these models generate,
           NP hardness, and the halting problem. Also assisted in proof writing
           and programming assignments.
+    - role: Algorithms Teaching Assistant
+      time: January 2020 - Present
+      company: Williams College, Williamstown
+      details: |
+          - Currently guiding students towards the best proof writing methods given the variety of topics explored in this core
+          course(CS 256), including: induction, divide-and-conquer, dynamic programming, greedy algorithms, approximation schemes, 
+          randomization algorithms, and network flow algorithms.
+    
 projects:
     title: Projects
     intro: I love working on challenging, interesting projects. I’ve mainly chosen to work on projects outside of my regular coursework that relate to my passions, like music, or help increase the efficiency of tasks I’d otherwise need to perform manually. The lyrics web scraper analyzes trends I was curious about in popular songs. The other web scraper downloads course material from any class website for future review and learning. The fractals project lets me create new fractals interactively-- this made my freshman year research much easier to visualize and intuit. Lava is a project some friends and I are currently working on, and my github contains more projects I'm currently invested in, including a graph-oriented note taking app, social media platform, and multiplayer card game assignments.
