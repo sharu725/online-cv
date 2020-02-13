@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: 董慧鑫
     tagline: 硕士在读
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: huixin@hust.edu.cn
@@ -35,14 +35,14 @@ sidebar:
      #   level: Professional
 
     interests:
-      - item: Climbing
+      - item: 编程
         link:
 
-      - item: Snowboarding
+      - item: 无人机
         link:
 
-      - item: Cooking
-        link:
+      # - item: Cooking
+      #   link:
 
 career-profile:
     title: 个人介绍
@@ -119,23 +119,27 @@ projects:
     assignments:
       - title: “华为杯” 全国研究生数学建模大赛
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: "主要负责编程，参与了“华为杯”全国研究生数学建模大赛，参与赛题F-无人机路径规划问题的模型构造与程序设计，获得**全国三等奖**."
 
       - title: 华中科技大学机器人创新设计大赛
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "作为队长参与比赛，设计实现基于WiFi信号室内定位的微型无人机，获得校级一等奖。"
 
-      - title: Tempo
+      - title: “神雾杯” 全国大学生节能减排大赛
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "作为队长参与了2017年神雾杯节能减排大赛，设计实现了一款新型低功耗低污染的PCB腐蚀机，该作品获得全国三等奖。"
 
-      - title: Atom
+      - title: “挑战杯” 湖北省大学生课外科技作品大赛
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: "作为主要技术负责人参与挑战杯大赛，设计实现实物作品“高精度频率源与精密测量系统”，该作品获得湖北省“挑战杯”大赛一等奖。"
 
-      - title: Delta
+      - title: “荣威新能源杯” 全国大学生节能减排大赛
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "作为硬件和机械设计队员参与该比赛，设计实现了节能节水蒸汽洗碗机实物作品，该作品获得全国三等奖。"
+
+        - title: “TI杯”湖北省大学生电子设计大赛
+        link: "#"
+        tagline: "作为硬件设计实现队员参与TI杯电子设计大赛，设计实现“位同步时钟提取”实物系统，该作品获得湖北省电子设计大赛二等奖。"
 
 publications:
     title: Publications
