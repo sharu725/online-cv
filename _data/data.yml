@@ -48,7 +48,8 @@ career-profile:
     title: Career Profile
     summary: |
       After a double master degree at KTH (Stochkolm, Sweden) and Politecnico di Torino (Torino, Italy), 
-      I pursued my passion for Computer Vision as researcher in the Heidelberg Collaboratory for Image procession, one of the biggest research group in Germany in the field.
+      I pursued my passion for Computer Vision as researcher in the Heidelberg Collaboratory for Image procession, one of the biggest research group in Germany in the field, under the supervision of Bjoern Ommer.
+      Lately I successfully completed an internship at AWS in Pasadena under the supervision of Pietro Perona.
 
 news:
     title: News
@@ -56,6 +57,9 @@ news:
         
     
     posts:
+        - time: February 2020
+          title: The work done during my internship was accepted as publication at CVPR 2020
+          
         - time: July 2019
           title: Begin Amazon AWS intership with P.Perona in Pasadena, CA
           
@@ -241,6 +245,10 @@ publications:
       
 
     papers:
+      - title: "Rethinking Zero-shot Video Classification: End-to-end Training for Realistic Applications"
+        authors: B. Brattoli, Joe Tighe, Fedor Zhdanov, Pietro Perona, Krzysztof Chalupka
+        conference: CVPR, 2020
+        
       - title: "MIC: Mining Interclass Characteristics for Improved Metric Learning"
         authors: B. Brattoli*, K. Roth*, B. Ommer
         conference: ICCV, 2019
