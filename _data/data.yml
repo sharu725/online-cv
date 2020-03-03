@@ -12,14 +12,14 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: pradeepgeddam@gmail.com
+    phone: +1 647 772 3112
+    website: linkedin.com/in/pradeep-geddam-97237854 #do not add http://
+    linkedin:
+    github: prgd4727
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@prgeddam'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -28,17 +28,17 @@ sidebar:
       - idiom: English
         level: Native
 
-      - idiom: French
-        level: Professional
+      - idiom: 
+        level:
 
-      - idiom: Spanish
-        level: Professional
+      - idiom:
+        level:
 
     interests:
-      - item: Climbing
+      - item: Motorcycle Riding
         link:
 
-      - item: Snowboarding
+      - item: Traveling
         link:
 
       - item: Cooking
@@ -47,16 +47,14 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+I am a consultant with over 16 years’ experience in the IT Enterprise Architecture, Design and Operations. I'm currently focused on Cloud Security Architecture & securing CICD. Worked with Hybrid Architectures (Data center & Cloud), Migrated Infrastructures, applications and Data to cloud, implemented modern authentication, cloud Infrastructure automation. App modernization after the migration is another key focus area. I’m a DevSecOps advocate, always trying to have an Agile approach.  Azure, AWS and Google Cloud are on the top of my hands-on experience list.
+Key competences: Cloud Security Assessments, Experience with Cloud Audit Security & Compliance tools such as Dome9, Redlock etc. Auditing current state, proposing future state cloud architecture, design and implementing cloud security controls, I come from an Enterprise architecture background, TOGAF mindset however adopted and practicing Agile methodologies lately to adopt with Industry.
+Specialization: Security Audits of Cloud Environments (using Tools to Define, Create and Audit based on Security Policies for Cloud) & Secure CICD - Implementing Security as part of CICD Pipelines for various builds of Infrastructure, Web Applications, Container Pods, Etc., Detect Vulnerabilities in Source Code and Flag them as part of CICD Pipelines. Use Tool. Using Cloud native Tools such as Azure Policy and AWS Config to Auto Remediate Security Gaps.
+
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: MEng in Computer Science
+      university: Dalhousie Univertisy, Halifax, Canada
+      time: 2007 - 2008
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -65,9 +63,9 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: BEng in Electronics & Communication
+      university: Anna University
+      time: 2001 - 2005
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
