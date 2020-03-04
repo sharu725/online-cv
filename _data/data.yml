@@ -47,12 +47,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am a consultant with over 16 years experience in the IT Enterprise Architecture, Design and Operations. I'm currently focused on Cloud Security Architecture & Cybersecurity. Worked with Hybrid Architectures with applications in Data center & Cloud, Migrated data center workloads, applications and Databases to cloud, Improved IAM posture, helped automating secure deployments of VMs, apps, containers. App modernization after the migration is another key focus area. Im a DevSecOps advocate, always trying to have an Agile approach while promoting automation for appropriate use cases.
 education:
     - degree: MEng in Computer Science
       university: Dalhousie Univertisy, Halifax, Canada
