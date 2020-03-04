@@ -246,7 +246,7 @@ publications:
 
     papers:
       - title: "Rethinking Zero-shot Video Classification: End-to-end Training for Realistic Applications"
-        authors: B. Brattoli, Joe Tighe, Fedor Zhdanov, Pietro Perona, Krzysztof Chalupka
+        authors: B. Brattoli, J. Tighe, F. Zhdanov, P. Perona, K. Chalupka
         conference: CVPR, 2020
         
       - title: "MIC: Mining Interclass Characteristics for Improved Metric Learning"
