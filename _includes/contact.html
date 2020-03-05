@@ -13,6 +13,12 @@
     </li>
     {% endif %}
 
+    {% if sidebar.telegram %}
+    <li class="telegram"><i class="fab fa-telegram"></i>
+      <a href="https://t.me/{{ sidebar.telegram }}" target="_blank">{{ sidebar.telegram }}</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.website %}
     <li class="website"><i class="fas fa-globe-americas"></i>
       <a href="http://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
