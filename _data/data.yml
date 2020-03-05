@@ -79,12 +79,12 @@ publications:
     title: Papers 
     papers:
       - title: "Multi-Threshold Voltages Graphene Barristor-Based Ternary ALU"
-        authors: <strong>Sunghye Park<\strong>, Sunmean Kim and Seokhyeong Kang
-        conference: "<I>International SoC Design Conference (ISOCC) <\I>, 2019"
+        authors: <strong>Sunghye Park</strong>, Sunmean Kim and Seokhyeong Kang
+        conference: "<I>International SoC Design Conference (ISOCC) </I>, Oct, 2019"
         
       - title: "Design of Quad-Edge-Triggered Sequential Logic Circuits for Ternary Logic"
-        authors: Sunmean Kim, Sung-Yun Lee, <strong>Sunghye Park<\strong> and Seokhyeong Kang
-        conference: "<I>IEEE 49th International Symposium on Multiple-Valued Logic (ISMVL) <\I>, 2019"
+        authors: Sunmean Kim, Sung-Yun Lee, <strong>Sunghye Park</strong> and Seokhyeong Kang
+        conference: "<I>IEEE 49th International Symposium on Multiple-Valued Logic (ISMVL) </I>, May, 2019"
          
 awards:
     title: Awards
@@ -103,6 +103,7 @@ skills:
 
       - name: Verilog
         level: 70%
+        
         
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
