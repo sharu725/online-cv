@@ -44,6 +44,7 @@ education:
       time: Feb.2019 - (Ongoing) 
       details: | 
           - Advisor: Prof. Seokhyeong Kang 
+          
     - degree: B.Sc Graduated
       university: Kyungpook National University, Daegu, Republic of Korea 
       time: Mar.2015 - Feb.2019
@@ -53,6 +54,8 @@ experiences:
       time: Feb.2019 - Present
       company: CAD & SoC Design Lab in POSTECH, Prof. Seokhyeong Kang
       details: |
+      
+      
     - role: Undergraduate Student Researcher 
       time: Feb.2018 - May.2017
       company: Mobild SOC & Microprocessor Lab in KNU, Prof. Joonho Kong  
@@ -65,24 +68,28 @@ projects:
     title: Projects
 
     assignments:
-      - title: d
-        tagline: d
-
-      - title: d
-        tagline: "d
+      - title: Scalable Quantum Computer Technology Platform Center
+        tagline: "NRF, Jul.2019 - Feb.2026"
+        
+      - title: Graphene Barristor-based Ternary Logic Architecture Research
+        tagline: "NRF, Aug.2016 - Jul.2021"
         
 publications:
     # very confusing but publication --> journal and conference... site.data.data error
     title: Papers 
     papers:
-      - title: d
-        authors: d
-        conference: d
+      - title: "Multi-Threshold Voltages Graphene Barristor-Based Ternary ALU"
+        authors: <strong>Sunghye Park<\strong>, Sunmean Kim and Seokhyeong Kang
+        conference: "<I>International SoC Design Conference (ISOCC) <\I>, 2019"
+        
+      - title: "Design of Quad-Edge-Triggered Sequential Logic Circuits for Ternary Logic"
+        authors: Sunmean Kim, Sung-Yun Lee, <strong>Sunghye Park<\strong> and Seokhyeong Kang
+        conference: "<I>IEEE 49th International Symposium on Multiple-Valued Logic (ISMVL) <\I>, 2019"
          
 awards:
     title: Awards
     awards:
-        - title: "Bd
+        - title: "Best paper award at SoC conference (in Korea), 2019"
     
 skills:
     title: Skills &amp; Proficiency
