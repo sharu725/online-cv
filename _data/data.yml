@@ -126,47 +126,35 @@ projects:
 
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    title: Publications and Patents
     papers:
-      - title: The Art of Computer Programming
+      - title: Automatic User Profile Change Based on Meeting invites in Blackberry OS , Reviewed by CMA PATENT COMMITTEE
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        authors: Pradeep Geddam
+        cID: 41797, 2009
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Checkpoint Dome9
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Palo Alto Prisma Cloud
         level: 98%
 
-      - name: Angular
+      - name: Azure, AWS, GCP
         level: 98%
 
-      - name: HTML5 & CSS
+      - name: Visual Studio Code
         level: 95%
 
-      - name: Ruby on Rails
+      - name: Terraform
         level: 85%
 
-      - name: Sketch & Photoshop
+      - name: Ansible
         level: 60%
 
 footer: >
