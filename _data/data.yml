@@ -81,13 +81,17 @@ experiences:
       time: 2014 July - 2019 April
       company: Loblaw Companies, Toronto
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        - Design & Develop Security and Network Architectures for Cloud Native (Greenfield) and hybrid (Brownfield) Applications and services.
+        - Represent Security and Network Platform in development and implementation of overall Enterprise Cloud Security & Network Architecture.
+        - Drive Security and Network Architectures for protecting PHI/PII/PCI data deployed in different types of environments onpremise and in cloud
+        - Assessing Application workloads and technology landscape for Cloud Suitability, develop Business case and cloud adoption roadmap
+        - Azure & Google Cloud Hands-on experience including Automating Deployment for scaling, EXPRESSROUTE, Interconnect, VNETs, NSGs, NGFW, Security policies, RBAC, IAM, Governance, Ansible, Terraform
+        - Defined Landscapes for Docker Swarm and Kubernetes Application Container Platforms.
+        - Lead the Solution Architects on technology sections of the Blueprints.
+        - Provide Architecture leadership, mentoring, and expertise to design, build, and support teams
+        - Publish Architectural Reference Patterns, Standards and Blueprints for Technology Strategy & Roadmaps within Security and Network Domain.
+        - Recently Lead Projects in Loblaws - API Gateway, CASB, NAC SSL Visibility, Key/Secrets Managements Solutions, SD-WAN, Cloud Security Standards
+
     - role: UI Developer
       time: 2012 - 2014
       company: Amazon, London
