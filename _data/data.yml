@@ -54,7 +54,7 @@ education:
 experiences:
     - role: Cloud Security Architect
       time: 2019 April - Present
-      company: HOOPP, Healthcare of Ontario Pension Plan
+      company: HOOPP - Healthcare of Ontario Pension Plan, Toronto
       details: |
           - Perform In-dept Cloud security Assessment for AWS, Azure – Architecture, Design, Configuration
           - Implement Cloud Security Audit and remediation program - Policies, controls, workflows, automated continuous reporting
