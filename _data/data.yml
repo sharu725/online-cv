@@ -68,16 +68,14 @@ experiences:
       company: Loblaw Companies, Toronto
       details: |
         - Design & Develop Security and Network Architectures for Cloud Native (Greenfield) and hybrid (Brownfield) Applications and services.
-        - Represent Security and Network Platform in development and implementation of overall Enterprise Cloud Security & Network Architecture.
-        - Drive Security and Network Architectures for protecting PHI/PII/PCI data deployed in different types of environments onpremise and in cloud
+        - Drive Security and Network Architectures for protecting PHI/PII/PCI data deployed into different types of Cloud and cloud/hybrid systems
         - Assessing Application workloads and technology landscape for Cloud Suitability, develop Business case and cloud adoption roadmap
-        - Azure & Google Cloud Hands-on experience including Automating Deployment for scaling, EXPRESSROUTE, Interconnect, VNETs, NSGs, NGFW, Security policies, RBAC, IAM, Governance, Ansible, Terraform
         - Defined Landscapes for Docker Swarm and Kubernetes Application Container Platforms.
         - Lead the Solution Architects on technology sections of the Blueprints.
-        - Provide Architecture leadership, mentoring, and expertise to design, build, and support teams
         - Publish Architectural Reference Patterns, Standards and Blueprints for Technology Strategy & Roadmaps within Security and Network Domain.
         - Recently Lead Projects in Loblaws - API Gateway, CASB, NAC SSL Visibility, Key/Secrets Managements Solutions, SD-WAN, Cloud Security Standards
-        
+
+
     - role: Infrastructure solutions design Enginner
       time: 2012 Nov - 2014 Jun
       company: TD Canada Trust, Toronto
@@ -86,12 +84,8 @@ experiences:
         - Vendor and technology assessments
         - Security Vulnerabilities Assessment to meet Audit and Risk Management and Requirements. Software Standards Maintenance
         - Solution building, architecture planning, platform selection, business case analysis, technical documentation
-        - Lead the Development of End to End Infrastructure Solutions, high level and low level
         - Provide guidance, Escalation point for Operational and support teams
-        - Assist with Escalated troubleshooting Issues
         - Strategy for Configuration Standards Governance for Infrastructure Platforms per function
-        - Threat and Vulnerability Assessment
-        - Network Security Solutions, Hardening of OS
         
     - role: Lead Design Engineer Global Networks and Security
       time: 2008 Aug - 2012 Oct
