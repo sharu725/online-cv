@@ -93,20 +93,17 @@ experiences:
         - Threat and Vulnerability Assessment
         - Network Security Solutions, Hardening of OS
         
-    - role: Infrastructure solutions design Enginner
-      time: 2012 Nov - 2014 Jun
-      company: TD Canada Trust, Toronto
+    - role: Lead Design Engineer Global Networks and Security
+      time: 2008 Aug - 2012 Oct
+      company: Blackberry, Waterloo
       details: |
-        - Bridge between Business and Security and Network Teams to create overall Architecture Solutions
-        - Vendor and technology assessments
-        - Security Vulnerabilities Assessment to meet Audit and Risk Management and Requirements. Software Standards Maintenance
-        - Solution building, architecture planning, platform selection, business case analysis, technical documentation
-        - Lead the Development of End to End Infrastructure Solutions, high level and low level
-        - Provide guidance, Escalation point for Operational and support teams
-        - Assist with Escalated troubleshooting Issues
-        - Strategy for Configuration Standards Governance for Infrastructure Platforms per function
-        - Threat and Vulnerability Assessment
-        - Network Security Solutions, Hardening of OS
+        - Lead a team of Network Design Engineers
+        - Focus on Blackberry Global Network Security
+        - To Architect, Design, and Validate service provider architecture prior to their entering the production service environment, including End to End Infrastructure Components including applications, Servers, Routers, switches, firewalls, and load balancers.
+        - Worked with Vendors to evaluate the performance of new Designs and architectures, and with the support specialists, Server and Application Teams to recreate failure scenarios for Root cause Analysis
+        - Offered technical assistance for Tier-3 Incidents and support for Support Teams to identify changes required in Architecture after Major Incidents.
+        - Achievements Received the CIO Achieve Now Award for technology contribution for World IPv6 Day participation by Blackberry
+
 
 
 projects:
