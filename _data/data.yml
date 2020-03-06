@@ -92,17 +92,22 @@ experiences:
         - Publish Architectural Reference Patterns, Standards and Blueprints for Technology Strategy & Roadmaps within Security and Network Domain.
         - Recently Lead Projects in Loblaws - API Gateway, CASB, NAC SSL Visibility, Key/Secrets Managements Solutions, SD-WAN, Cloud Security Standards
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Design & Solutions Engineer, Infrastructure Technology Solutions
+      time: 2012 Nov - 2014 Jun
+      company: TD Canada Trust, Toronto
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+      - Bridge between Business and Security/Network Teams to create overall Architecture Solutions
+      - Assessments of Vendors and new Products and Technologies.
+      - Security Vulnerabilities Assessment to meet Audit and Risk Management and Requirements. IOS/Software Standards Maintenance
+      - Solution building, architecture planning, platform selection, business case analysis, technical documentation
+      - Lead the Development of End-to-End Infrastructure Solutions – HLD & LLD
+      - Provide guidance, Escalation point for Operations & NOC
+      - Assist with Escalated troubleshooting Issues.
+      - Strategy for Configuration Standards Governance for Infrastructure Platforms per function.
+      - Threat and Vulnerability Assessment
+      - Network Security Solutions, Hardening of OS
+
+
 projects:
     title: Projects
     intro: >
