@@ -111,29 +111,19 @@ experiences:
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
+      - title: Cloud Security Continous Compliance
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: "Using Checkpoint Dome9, Palo Alto Prisma Cloud established Cloud Compliance programs for teams to fix cloud configurations"
 
-      - title: DevStudio
+      - title: Cloud Architecture Assessments
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Assessment and documentation of Cloud Architectures with NIST and CSA Cloud Frameworks "
 
-      - title: Tempo
+      - title: Azure Bots
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "Implemented Bots in Azure to help offset offhours duties of Security Operations using Azure cognitive services - AI"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
