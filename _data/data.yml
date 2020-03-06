@@ -66,8 +66,8 @@ education:
           - Bullet point
           - Bullet point
 experiences:
- - role: Cloud Security Architect
-      time: April 2019 - Present
+    - role: Cloud Security Architect
+      time: 2019 - Present
       company: HOOPP, Healthcare of Ontario Pension Plan
       details: |
           - Perform In-dept Cloud security Assessment for AWS, Azure – Architecture, Design, Configuration
