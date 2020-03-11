@@ -75,8 +75,11 @@ projects:
       - title: Scalable Quantum Computer Technology Platform Center
         tagline: "NRF, Jul.2019 - Feb.2026"
         
+      - title: Wafer-Scale Deep Learning Accelerator Placement (ISPD contest 2020)
+        tagline: "Cerebras, with Minhyuk Kweon, Jongho Yoon, Daeyeon Kim, Sung-yun Lee, Jan.2019 - Present"
+        
       - title: Graphene Barristor-based Ternary Logic Architecture Research
-        tagline: "NRF, Aug.2016 - Jul.2021"
+        tagline: "NRF, with Sunmean Kim, Aug.2016 - Jul.2021"
         
 publications:
     # very confusing but publication --> journal and conference... site.data.data error
