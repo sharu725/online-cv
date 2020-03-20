@@ -41,7 +41,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-               I am a Cloud Security consultant with over 16 years’ experience in the IT Enterprise Architecture, Design and Operation teams. Worked with Hybrid Architectures with applications distributed in Data centers & Cloud, migrated data center workloads, applications and Databases to cloud, Improved IAM posture, helped automating secure deployments of VMs, apps, containers and deploy security compliance and governance for Cloud. App modernization after the migration is another key focus area. I’m a DevSecOps advocate, always trying to have an Agile approach while promoting automation for appropriate use cases.
+               I am a Cloud Security consultant with over 16 years’ experience in the IT Enterprise Architecture, Design and Operation teams. Worked with Hybrid Architectures with applications distributed in Data centers & Cloud, migrated data center workloads, applications and Databases to cloud, helped improve IAM posture, automate secure deployments of VMs, apps, containers and deploy security compliance and governance for Cloud. App modernization after the migration is another key focus area. I’m a DevSecOps advocate, always trying to have an Agile approach while promoting automation for appropriate use cases.
 education:
     - degree: MEng in Computer Science
       university: Dalhousie Univertisy, Halifax, Canada
@@ -56,24 +56,24 @@ experiences:
       time: 2019 April - Present
       company: HOOPP - Healthcare of Ontario Pension Plan, Toronto
       details: |
-          - Perform In-dept Cloud security Assessment for AWS, Azure – Architecture, Design, Configuration
-          - Implement Cloud Security Audit and remediation program - Policies, controls, workflows, automated continuous reporting
+          - Perform In-depth cloud security assessment for AWS, Azure – Architecture, Design, Configuration
+          - Implement cloud security audit and remediation program - policies, controls, workflows, automate continuous reporting
           - Prepare Cloud Security Framework based on NIST & CSA and align and existing controls
-          - Prepare Cloud Capabilities Mind Map for Azure, AWS
-          - Implement WAF, DDoS, auto-remediate Policies, Network Controls in Cloud
-          - Assist with Consolidation of Data Centers and move to Cloud Exchange (Equinix)
-          - Assess IAM architecture, assist with Implementation of RBAC, MFA
+          - Prepare cloud capabilities mind map for Azure, AWS
+          - Implement WAF, DDoS, auto-remediate policies, network controls in cloud
+          - Assist with consolidation of data centers and architect cloud exchange such as Equinix, Megaport etc
+          - Assess IAM architecture, assist with implementation of RBAC, MFA, conditional access, just in time access
     - role: Senior Enterprise Architect
       time: 2014 July - 2019 April
       company: Loblaw Companies, Toronto
       details: |
-        - Design & Develop Security and Network Architectures for Cloud Native (Greenfield) and hybrid (Brownfield) Applications and services.
-        - Drive Security and Network Architectures for protecting PHI/PII/PCI data deployed into different types of Cloud and cloud/hybrid systems
-        - Assessing Application workloads and technology landscape for Cloud Suitability, develop Business case and cloud adoption roadmap
-        - Defined Landscapes for Docker Swarm and Kubernetes Application Container Platforms.
-        - Lead the Solution Architects on technology sections of the Blueprints.
-        - Publish Architectural Reference Patterns, Standards and Blueprints for Technology Strategy & Roadmaps within Security and Network Domain.
-        - Recently Lead Projects in Loblaws - API Gateway, CASB, NAC SSL Visibility, Key/Secrets Managements Solutions, SD-WAN, Cloud Security Standards
+        - Design & develop security and network architectures for cloud-native (greenfield) and hybrid (brownfield) applications and services.
+        - Drive security and network architectures for protecting PHI/PII/PCI data deployed into different environments with varied geopraphical and technical jurisdictions
+        - Assessing application workloads and technology landscape for cloud suitability, develop business cases and cloud adoption roadmap
+        - Define landscapes for docker swarm and kubernetes clusters, design container standards and deployment techniques  
+        - consult and assist a team of solution architects technical expertise of solution blueprints
+        - Publish architectural reference patterns, standards and blueprints for technology strategy & roadmaps for enteprise architecture
+        - Major projects at Loblaws - API Gateway, CASB, NAC, SSL Visibility, key/Ssecrets managements solutions, SD-WAN architecture, cloud securityassessments
 
 
     - role: Infrastructure solutions design Engineer
