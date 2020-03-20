@@ -139,23 +139,26 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Checkpoint Dome9
+      - name: cloud compliance, Checkpoint Dome9 Palo Alto Prisma cloud
         level: 98%
 
-      - name: Palo Alto Prisma Cloud
+      - name: cloud config auto remediation, cloud bots
         level: 98%
 
-      - name: Azure, AWS, GCP
+      - name: cloud architecture, design, configuration, Azure, AWS, GCP
         level: 98%
 
-      - name: Visual Studio Code
+      - name: CICD, Visual Studio Code, Azure Devops, Github
         level: 95%
 
-      - name: Terraform
+      - name: Enterprise architecture, security architecture, Network & Infrastucture architecture, TOGAF, Application architecture 
         level: 85%
 
-      - name: Ansible
-        level: 60%
+      - name: Automation, Ansible, terraform, ARM templates, Jenkins, Python, JSON
+        level: 90%
+        
+      - name: cloud vulnerability and architecture assessments
+        level: 70%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
