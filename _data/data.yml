@@ -146,8 +146,8 @@ publications:
       # amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
       # bibendum fringilla a eu lectus.
     papers:
-      - title: Multi-objective Optimisation of Electric Arc Furnace Using the NSGA-II Evolutionary Algorithm
-        link: "(In preparation)"
+      - title: Multi-objective Optimisation of Electric Arc Furnace Using the NSGA-II Evolutionary Algorithm (In preparation)
+        link: ""
         authors: Matteus Torquato, Germán Martínez-Ayuso, Hoceine Matallah, Ashraf Fahmy
         conference: #Addison-Wesley, 1968
 
