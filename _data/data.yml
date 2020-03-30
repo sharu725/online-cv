@@ -7,19 +7,19 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Germ&aacute;n Mart&iacute;-Ayuso
+    tagline: Data Scientist
+    avatar: ger.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    phone: +44 (0) 7784 284149
+    website: #blog.webjeda.com #do not add http://
+    linkedin: gmartinezayuso
+    github: germa89
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@wgerma89'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe

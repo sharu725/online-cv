@@ -1,10 +1,10 @@
 #Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
-title: My Resume
+title: German Resume
 url: 'http://webjeda.com'
 baseurl: '/online-cv' #change it according to your repository name
-description: A beautiful Jekyll theme for creating resume
+description: Resume of Dr German Martinez-Ayuso
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: blue # blue turquoise green berry orange ceramic
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
