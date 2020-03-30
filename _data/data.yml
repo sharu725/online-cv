@@ -7,19 +7,19 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Germ&aacute;n Mart&iacute;-Ayuso
+    name: Germ&aacute;n Mart&iacute;nez-Ayuso
     tagline: Data Scientist
-    avatar: ger.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
+    email: germanmartinezayuso@gmail.com
     phone: +44 (0) 7784 284149
     website: #blog.webjeda.com #do not add http://
     linkedin: gmartinezayuso
     github: germa89
     gitlab:
     bitbucket:
-    twitter: '@wgerma89'
+    twitter: '@germa89'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
