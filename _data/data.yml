@@ -87,7 +87,7 @@ education:
         
 experiences:
     - role: Research Fellow
-      time: 2015 - Present
+      time: 2019 - Present
       company: Institute of Material Discovery, University College of London, London, UK
       details: |
           - Collaborated with industrial and academic partners to develop a platform for industry access to materials modelling expertise. 
@@ -95,7 +95,7 @@ experiences:
           - Co-supervised masters projects using numerical techniques to optimise industrial composites such as honeycomb or recycled aggregates.
           - Collaborated with colleagues using Machine Learning to predict materials properties and accelerate materials discovery.
     - role: Project officer
-      time: 2014 - 2015
+      time: 2018 - 2019
       company: Swansea University, Swansea, UK
       details: |
           - Developed numerical models to improve manufacturing processes in the industry. 
@@ -106,7 +106,7 @@ experiences:
           - Developed Python scripts to collect and analyse large data sets from files, websites, etc.
 
     - role: Research Assistant
-      time: 2017-2017
+      time: 2017
       company: Swansea University, Swansea, UK
       details: |
         Developed numerical models of a wing energy harvester using Matlab to couple different commercial software. 
