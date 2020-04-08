@@ -125,9 +125,17 @@ projects:
         link: "#"
         tagline: "Assessment and documentation of Cloud Architectures with NIST and CSA Cloud Frameworks "
 
-      - title: Azure Bots
+      - title: Azure Bots, Cognitive services (using AI)
         link: "#"
         tagline: "Implemented Bots in Azure to help offset offhours duties of Security Operations using Azure cognitive services - AI"
+        
+      - title: Remote Work Security(BYOD, VPN, RBAC, DRM)
+        link: "#"
+        tagline: "Architected the Security around Remote work, using corporate devices, personal devices, Access restrictions on premise and remote."
+
+      - title: Data Center Consolidation and Cloud Migration
+        link: "#"
+        tagline: "Helped Large Orgs on consolidating data centers upon acquisition and lead the core team in migration program to cloud"
 
 
 publications:
