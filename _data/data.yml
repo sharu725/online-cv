@@ -63,6 +63,11 @@ experiences:
           - Implement WAF, DDoS, auto-remediate policies, network controls in cloud
           - Assist with consolidation of data centers and architect cloud exchange such as Equinix, Megaport etc
           - Assess IAM architecture, assist with implementation of RBAC, MFA, conditional access, just in time access
+    - role: IT Director
+      time: 2019 April - Present
+      company: Architecture as a Service (AaaS) Consulting Inc.
+      details: |
+
     - role: Senior Enterprise Architect
       time: 2014 July - 2019 April
       company: Loblaw Companies, Toronto
