@@ -25,17 +25,17 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     
-    línguas:
-      - idioma: Portugues
-        nívél: Nativo
+    línguages:
+      - idiom: Portugues
+        level: Nativo
 
-      - idioma: Espanhol
-        nível: Professional
+      - idiom: Espanhol
+        level: Professional
 
-      - idioma: Inglês
-        nível: Intermediário
+      - idiom: Inglês
+        level: Intermediário
 
-    interesses:
+    interests:
       - item: software livre - GNU/Linux
         link:
 
