@@ -15,7 +15,7 @@ sidebar:
     email: everton.gabriel09@unifesp.br
     phone: 13-996493048
     website: kilombagem.net.br #do not add http://
-    linkedin: http://lattes.cnpq.br/0520785133280299
+    linkedin: lattes.cnpq.br/0520785133280299
     github: xpalmares.github.io
     gitlab:
     bitbucket:
@@ -85,32 +85,31 @@ education:
         departamentos operacionais, como estoque.
         
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Educador
+      time: 2019 - 
+      company: Projeto Canoagem Santa Cruz dos Navegante, Guarujá-SP
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        Oportunizar cursos e seminários sobre a relação esporte e meio ambiente,
+        promovendo ações ecológicas e ambientais na comunidade(praia limpa,
+        preservação do meio ambiente). Realizando acompanhamento escolar, 
+        visando conter a evasão existente e fomentando  interações
+        socioambientais, com vista na socialização de outras experiências,
+        vivências, culturas e natureza(oceanos, rios, florestas, mangue e etc),
+        auxiliando no processo de crescimento individual com base no
+        fortalecimento da auto estima.
+        
+    - role: Coordenador
+      time: 2017 - 2020
+      company: Projeto Upanji - Energia, Bravura e Coragem
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Desenvolver e possibilitar espaços pedagógicos de aproximação e 
+        vivência sobre os estudos e culturas afro-brasileira e africana.
+        Sendo utilizado representações da arte (cinema, músicas, e
+        serigrafia) para abordagem dos conteúdos propostos pela Lei
+        10.639/03 e Lei 11.645/08 que alteram a LDB 9.394/96 que 
+        institui a obrigatoriedade do ensino de História e Cultura
+        Afro-Brasileiras, Africanas e indígenas na Educação Básica.
+
     - role: UI Developer
       time: 2012 - 2014
       company: Amazon, London
