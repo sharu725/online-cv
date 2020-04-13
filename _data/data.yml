@@ -20,6 +20,10 @@ sidebar:
     gitlab:
     bitbucket:
     twitter: '@palmareseverton'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
     
     línguas:
       - idioma: Portugues
