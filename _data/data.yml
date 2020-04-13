@@ -20,49 +20,51 @@ sidebar:
     gitlab:
     bitbucket:
     twitter: '@palmareseverton'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-
+    
     línguas:
-      - idiom: Portugues
-        level: Nativo
+      - idioma: Portugues
+        nívél: Nativo
 
-      - idiom: Espanhol
-        level: Professional
+      - idioma: Espanhol
+        nível: Professional
 
-      - idiom: Inglês
-        level: Professional
+      - idioma: Inglês
+        nível: Intermediário
 
-    interests:
-      - item: Climbing
+    interesses:
+      - item: software livre - GNU/Linux
         link:
 
-      - item: Snowboarding
+      - item: Músia 
         link:
 
-      - item: Cooking
+      - item: Cultura Afro
         link:
 
 career-profile:
     title: Carreira proficional
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
-education:
+      Assegura a garantia do direitos dos sujeitos, desenvolvendo 
+      ferramentas de caráter pedagógica, cultural, social e 
+      recreativo, juntamente com as equipes multidisciplinares e 
+      comunidades, visando a autonomia, e melhorando as condições de vida.
+educação:
     - graduação: Bacharel em Serviço Social 
-      university: Universidade Federal de São Paulo
-      time: 2013 - 2019 
+      universidade: Universidade Federal de São Paulo
+      tempo: 2013 - 2019 
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Bacharelado em Serviço Social pela Universidade Federal de 
+        São Paulo(UNIFESP). Participante ativo na organização e 
+        construção da "Semana da Consciência Negra" fomentando debate
+        e apropriação teórica sobre raça, classe e gênero, através do
+        Núcleo Reflexo de Palmares na Unifesp. Integrante ativo do 
+        Núcleo Reflexo do Palmares desenvolvendo juntamento com grupo 
+        de discentes estudos interdisciplinares e ações que buscam a 
+        superação do racismo, enquadrando-o como um dos aspectos centrais
+        das relações de classe no âmbito do sistema capitalista de produção.
+        Também foi membro da Executiva Nacional dos Estudantes de Serviço 
+        Social(ENESSO) como coordenação regional da região VII em 2013/2014.
+        E remanescente quilombola no Quilombo da Caçandoca (Ubatuba)..
           - Bullet point
           - Bullet point
     - degree: BSc in Applied Mathematics
