@@ -84,7 +84,7 @@ education:
         departamentos operacionais, como estoque.
         
 experiences:
-      - role: Educador
+    - role: Educador
       time: 2018 - 2019
       company: Santa Cruz Canoagem, Guarujá-SP
       details: |
