@@ -52,7 +52,7 @@ career-profile:
       ferramentas de caráter pedagógica, cultural, social e 
       recreativo, juntamente com as equipes multidisciplinares e 
       comunidades, visando a autonomia, e melhorando as condições de vida.
-education:true
+education:True
     - degree: Bacharel em Serviço Social 
       university: Universidade Federal de São Paulo
       time: 2013 - 2019 
@@ -84,7 +84,7 @@ education:true
         desenvoltura para atuar na área de Distribuição e em outros
         departamentos operacionais, como estoque.
         
-experiences:true
+experiences:True
     - role: Estagio na área de Assistência Social
       time: 2017 - 2018
       company: Prefeitura Mun. de Guarujá. Sec. Des. e Assistência Social SEDEAS,(Residência Inclusiva).
@@ -117,7 +117,7 @@ experiences:true
         próprias famílias, adolescentes e crianças, para melhorar de forma
         concreta a vida de meninas e meninos de até 17 anos no município do Guarujá.
         
-projects:true
+projects:True
     title: Projects 
     intro: >
       Desenvolver e possibilitar espaços pedagógicos de aproximação, 
