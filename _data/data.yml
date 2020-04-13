@@ -15,7 +15,7 @@ sidebar:
     email: everton.gabriel09@unifesp.br
     phone: 13-996493048
     website: kilombagem.net.br #do not add http://
-    linkedin: alandoe
+    linkedin: http://lattes.cnpq.br/0520785133280299
     github: xpalmares.github.io
     gitlab:
     bitbucket:
@@ -36,7 +36,7 @@ sidebar:
         level: Intermediário
 
     interests:
-      - item: software livre - GNU/Linux
+      - item: Software livre - GNU/Linux
         link:
 
       - item: Músia 
@@ -74,6 +74,15 @@ education:
       technician: Power Cursos Práticos administrativos S/A LTDA
       time: 2000 - 2001
       details: |
+        Experiência na área de logística, distribuição, transporte, 
+        controladoria e auditoria. Atuação em sistema operacional de entrada
+        saída de mercadoria, agendamento de notas fiscais, diário de bordo, 
+        e também na parte de finanças atuando como auxiliar de prestação de 
+        contas a pagar (no SAP). Conhecimento em Libre Office, Open Office,
+        Word, Excel, Power Point, Outlook, Lotus Notes, Citrix, Windows,
+        Linux, SAP, e atuando na área de Atendente Financeiro, tenho
+        desenvoltura para atuar na área de Distribuição e em outros
+        departamentos operacionais, como estoque.
         
 experiences:
     - role: Lead Developer
