@@ -84,6 +84,14 @@ education:
         departamentos operacionais, como estoque.
         
 experiences:
+      - role: Educador
+      time: 2018 - 2019
+      company: Santa Cruz Canoagem, Guarujá-SP
+      details: |
+        Mobilizanado gestores,atletas, conselheiros, lideranças sociais, além das
+        próprias famílias, adolescentes e crianças, para melhorar de forma
+        concreta a vida de meninas e meninos de até 17 anos no município do Guarujá.
+      
     - role: Estagio na área de Assistência Social
       time: 2017 - 2018
       company: Prefeitura Mun. de Guarujá. Sec. Des. e Assistência Social SEDEAS,(Residência Inclusiva).
@@ -106,15 +114,8 @@ experiences:
         registro de dados.
         Participação nas reuniões mensais dos Agentes de prevenção, discutindo os
         campos e sua atuação.
-        Participação em capacitações desenvolvidas pela Coordenadoria.
-        
-    - role: Educador
-      time: 2018 - 2019
-      company: Santa Cruz Canoagem, Guarujá-SP
-      details: |
-        Mobilizanado gestores,atletas, conselheiros, lideranças sociais, além das
-        próprias famílias, adolescentes e crianças, para melhorar de forma
-        concreta a vida de meninas e meninos de até 17 anos no município do Guarujá.
+        Participação em capacitações desenvolvidas pela Coordenadoria.        
+    
         
 projects: 
     title: Projects 
@@ -129,24 +130,28 @@ projects:
 
     assignments:
       - title:  Upanji - Energia, Bravura e Coragem
-        link: "#upanji_ss"
-        tagline: 
+        link: "#https://www.instagram.com/upanji_ss/"
+        tagline: "UPANJI, vem do tronco linguístico kimbundu, significa energia, bravura e coragem. É um projeto político de geração de renda. Baseia-se na venda de camisetas estampadas( serigrafia/silkscreen) com símbolos da luta antirracista e da cultura negra."
         
       - title: Projeto Canoagem Santa Cruz dos Navegante
-        link: "#Santa Cruz Canoagem"
+        link: "#https://www.facebook.com/profile.php?id=100014073319019"
         tagline:  "Realizando acompanhamento escolar, visando conter a evasão existente e fomentando  interações socioambientais, através da prática de canoagem com vista na socialização de outras experiências, vivências, culturas e natureza-oceanos, rios, florestas, mangue e etc, auxiliando no processo de crescimento individual com base no fortalecimento da auto estima."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Encontro - É preciso falar de Racismo: o encarceramento em massa da população negra
+        link: "#https://www.facebook.com/events/268267627437681/"
+        tagline: "A conversa tem a finalidade de apresentar os debates e problematizar a relação do conservadorismo, eugenia, política criminal, punitivismo e encarceramento em massa, que são faces da forma pela qual o Estado perpetua o racismo estrutural através de políticas públicas que afetam determinada parcela da população: a população negra. Processo histórico que se vincula às especificidades da capitalismo brasileiro, bem como a forma como a questão racial é tratada. Sendo assim o objetivo é fornecer elementos teóricos e práticos para compreensão do quadro atual da economia e política nacional."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Evento - O negro e o capitalismo no Brasil
+        link: "#https://www.facebook.com/events/344333902683597/"
+        tagline: "Discutir a objetivação do capitalismo no Brasil, e as relações entre raça,classe e gênero."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Curso de férias: Política, Democracia e Racismo.
+        link: "#https://www.facebook.com/events/1361339737272208/"
+        tagline: "Qual o papel da Democracia na criação e expansão dos estados modernos. ?  O que é a política? O que nós negros pobres da temos a ver com a crise econômica e política? Qual a relação entre capitalismo e racismo? A luta antirracista é uma pauta da esquerda? Entre direita e esquerda porque não devemos ser direita?Como travar a luta contra o racismo sem cair nas armadilhas liberais? Qual a importância da divisão sexual do trabalho em sociedades racistas de formação escravocrata?"
+        
+      - title: I, II, III, IV e V Semana da Consciência Negra da Unifesp-BS
+        link:"#https://www.facebook.com/pg/ReflexosdePalmares/events/?ref=page_internal"
+        tagline: "Embora no Brasil perdure o mito da democracia racial, o país ainda vive as consequências do fardo passado de escravidão. Já não é novidade que a pirâmide racial permanece firme em nossa sociedade."
 
 publications:
     title: Publications
