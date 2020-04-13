@@ -1,0 +1,30 @@
+# The Firebase tools want a v6.x version of Node but Circle CI
+# defaults to v4.x. Set the latest LTS version.
+machine:
+  node:
+    version: 6.10.3
+
+# Need to install firebase-tools so that the deploy works
+dependencies:
+  pre:
+    - npm install -g firebase-tools
+
+# Need to tell Circle CI how to build the site
+compile:
+  override:
+    - bundle exec jekyll build --verbose
+
+# Circle CI expects some kind of testing to pass in order for the
+# build to be successful and deploy. Since you don't have tests
+# you can fake it by just returning true. http://gph.is/1MLPDWK
+test:
+  override:
+    - "true"
+
+# How you tell Circle to deploy to Firebase. The important thing to
+# note here is the FIREBASE_TOKEN env variable. See below.
+deployment:
+  production:
+    branch: master
+    commands:
+      - firebase deploy --token=$1//0g2ASbiQiY0ILCgYIARAAGBASNwF-L9IrBmrmESEphONL3-Hu6WjTakoUZsyUPESF6_Bqmf5LfwSBceyj3e8wmRSkU7YELDTc9FI --non-interactive
