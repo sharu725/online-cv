@@ -16,8 +16,8 @@ sidebar:
     phone: 13-996493048
     website: kilombagem.net.br #do not add http://
     linkedin:
-    github: xpalmares.github.io
-    gitlab:
+    github: github.com/Xpalmares
+    gitlab: gitlab.com/Xpalmares
     bitbucket:
     twitter: '@palmareseverton'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
@@ -130,7 +130,7 @@ projects:
 
     assignments:
       - title:  Upanji - Energia, Bravura e Coragem
-        link: "#https://www.instagram.com/upanji_ss/"
+        link: "#www.instagram.com/upanji_ss"
         tagline: "UPANJI, vem do tronco linguístico kimbundu, significa energia, bravura e coragem. É um projeto político de geração de renda. Baseia-se na venda de camisetas estampadas( serigrafia/silkscreen) com símbolos da luta antirracista e da cultura negra."
         
       - title: Projeto Canoagem Santa Cruz dos Navegante
@@ -154,48 +154,47 @@ projects:
         tagline: "Embora no Brasil perdure o mito da democracia racial, o país ainda vive as consequências do fardo passado de escravidão. Já não é novidade que a pirâmide racial permanece firme em nossa sociedade."
 
 publications:
-    title: Publications
+    title: Publicação 
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Ciências Sociais Aplicadas / Área: Serviço Social.
+
     papers:
-      - title: The Art of Computer Programming
+      - title: O RACISMO INSTITUCIONAL E SUA PERSISTÊNCIA NO CONTEXTO UNIVERSITÁRIO - reflexões sobre suas manifestações na Universidade Federal de São Paulo ? UNIFESP Baixada Santista..
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        authors: SILVA, B. B. ; SANTOS, H. P. N. ; NASCIMENTO, T. G. ; SANTOS, T. S. ; LEÃO, E. G. S.
+        conference: "15°CONGRESSO BRASILEIRO DE ASSISTENTES SOCIAIS, 2016, Olinda-PE. 80 ANOS DO SERVIÇO SOCIAL NO BRASIL, 2016."
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      - title: QUESTÃO RACIAL E SERVIÇO SOCIAL - a questão racial como principal dimensão da questão social brasileira.
         link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+        authors: FAUSTINO, D. A. S. ; CAMPOS, F. P. ; LEÃO, E. G. S.
+        conference: "15°CONGRESSO BRASILEIRO DE ASSISTENTES SOCIAIS, 2016, Olinda-PE. 80 ANOS DO SERVIÇO SOCIAL NO BRASIL, 2016."
 
-      - title: A syntax directed compiler for Algol 60
+      - title: A DISCUSSÃO RACIAL NAS DIRETRIZES CURRICULARES DA ABEPSS E SUA EXPRESSÃO NOS PROJETOS POLÍTICOS PEDAGÓGICOS DOS CURSOS DE SERVIÇO SOCIAL DA BAIXADA SANTISTA
         link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        authors: LEÃO, E. G. S. Rodrigues, T. F.
+        conference: "Programa Institucional de Bolsas de Iniciação Científica-PIBIC - Unifesp-BS"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Articulação Política 
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Pesquisas & Planejamentos/Projetos 
         level: 98%
 
-      - name: Angular
+      - name: Relações Raciais/Sociais Brasileira
         level: 98%
 
-      - name: HTML5 & CSS
+      - name: Ético, Crítico e Reflexivo
         level: 95%
 
-      - name: Ruby on Rails
+      - name: GNU/Linux, Bash, Software livre e Open Source 
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: WebDev
+        level: 70%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
