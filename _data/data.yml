@@ -51,7 +51,8 @@ career-profile:
       Bacharelado em Serviço Social pela Universidade Federal de São Paulo(UNIFESP). Participante ativo na organização e construção da Semana da Consciência Negra fomentando debate e apropriação teórica sobre raça, classe e gênero, através do Núcleo Reflexo de Palmares na Unifesp. Integrante ativo do Núcleo Reflexo do Palmares desenvolvendo juntamento com grupo de discentes estudos interdisciplinares e ações que buscam a superação do racismo, enquadrando-o como um dos aspectos centrais das relações de classe no âmbito do sistema capitalista de produção. Ex-membro da Executiva Nacional dos Estudantes de Serviço Social (ENESSO) como coordenação regional da região VII em 2013/2014. E remanescente quilombola no Quilombo da Caçandoca (Ubatuba).
       Apto a atendimento em grupos, oficinas e atividades pedagógicas voltadas ao desenvolvimento social com crianças e adolescentes, monitorar e acompanhar o bem estar dos sujeitos que participam das atividades, elaborar planejamentos e relatórios e instrumentos avaliativos, a conduzir reuniões com as famílias, a fim de compreender o universo das crianças e adolescentes, articulando e pensando em práticas para contribuir com o atendimento da demanda gerada pelas instituições sociais. Tendo excelente capacidade de se integrar em equipes multidisciplinares.
 
-educaçao:
+education:
+    title: Graduação
     - degree: Bacharel em Serviço Social 
       university: Universidade Federal de São Paulo
       time: 2013 - 2019 
@@ -83,7 +84,7 @@ educaçao:
         desenvoltura para atuar na área de Distribuição e em outros
         departamentos operacionais, como estoque.
         
-experiencias:
+experiences:
     - role: Educador
       time: 2018 - 2019
       company: Santa Cruz Canoagem, Guarujá-SP
