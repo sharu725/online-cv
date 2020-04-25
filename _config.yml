@@ -2,7 +2,7 @@
 
 # Site Settings
 title: Christopher Carnes - CV
-url: 'http://webjeda.com'
+url: https://carnesca.github.io/
 baseurl: '/online-cv' #change it according to your repository name
 description: Chris Carnes - CV
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
