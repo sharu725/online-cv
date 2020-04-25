@@ -11,7 +11,7 @@ sidebar:
     name: Christopher Carnes
     tagline: Product Manager
     avatar: Chris C-3_100x100.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-    {{ page.pdf_url }}
+    pdf: {{ page.pdf_url }}
 
     # Sidebar links
     email: carnes58@gmail.com
