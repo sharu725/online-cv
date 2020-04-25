@@ -111,25 +111,26 @@ experiences:
         Developed numerical models of a wing energy harvester using Matlab to couple different commercial software. 
         Used Matlab to analyse and study large data sets from experiments. 
 
-projects:
-    title: Projects
-    intro: A list of projects, repositories and/or ideas I am involved in.
-    assignments:
-      - title: Mahcine learning for damage detection
-        link: "https://github.com/germa89/Machine_Learning_for_damage_detection_in_rolling_bearings"
-        tagline: "Machine learning algorithms such as Principal Component Analysis (PCA) and Gaussian Mixture Models (GMM) 
-         for damage detection in rolling bearings."
+# projects:
+#     title: Projects
+#     intro: A list of projects, repositories and/or ideas I am involved in.
+#     assignments:
+
+#       - title: Machine learning for damage detection
+#         link: "https://github.com/germa89/Machine_Learning_for_damage_detection_in_rolling_bearings"
+#         tagline: "Machine learning algorithms such as Principal Component Analysis (PCA) and Gaussian Mixture Models (GMM) 
+#          for damage detection in rolling bearings."
+
+#       - title: Financial Fraud Detection
+#         link: "https://github.com/germa89/Financial_Fraud_Detection"
+#         tagline: "Demonstration of how we can use boosted decision trees to detect fraud in credit cards records."
 
       # - title: DevStudio
       #   link: "#"
       #   tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      # - title: Tempo
-      #   link: "#"
-      #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
       # - title: Atom
-      #   link: "#"
+      #   link: "https://github.com/germa89/Finance-Marketing-Prediction-ML"
       #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
       # - title: Delta
