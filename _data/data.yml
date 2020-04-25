@@ -1,7 +1,6 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
-pdf: true
 
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
@@ -11,12 +10,11 @@ sidebar:
     name: Christopher Carnes
     tagline: Product Manager
     avatar: Chris C-3_100x100.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-    pdf: {{ page.pdf_url }}
 
     # Sidebar links
     email: carnes58@gmail.com
     phone: +1 617 369 2767
-    website: latest.pdf #do not add http://
+    pdf: latest.pdf #do not add http://
     linkedin: cacrns
     github: carnesca
     gitlab:
