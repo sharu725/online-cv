@@ -7,8 +7,8 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Germ&aacute;n Mart&iacute;nez-Ayuso
-    tagline: Data Scientist
+    name: Dr Germ&aacute;n Mart&iacute;nez-Ayuso
+    tagline: PhD, Data Scientist
     avatar: ger2.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -36,7 +36,6 @@ sidebar:
 
       - idiom: Arabic
         level: Beginner
-
 
     interests:
       - item: Running
@@ -112,16 +111,16 @@ experiences:
         Developed numerical models of a wing energy harvester using Matlab to couple different commercial software. 
         Used Matlab to analyse and study large data sets from experiments. 
 
-# projects:
-#     title: Projects
-#     intro: >
-#       You can list your side projects or open source libraries in this
-#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#     assignments:
-#       - title: Velocity
-#         link: "#hook"
-#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+projects:
+    title: Projects
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
       # - title: DevStudio
       #   link: "#"
@@ -146,10 +145,15 @@ publications:
       # amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
       # bibendum fringilla a eu lectus.
     papers:
-      - title: Multi-objective Optimisation of Electric Arc Furnace Using the NSGA-II Evolutionary Algorithm (In preparation)
+      - title: Multi-objective Optimisation of Electric Arc Furnace Using the NSGA-II Evolutionary Algorithm (In Review)
         link: ""
         authors: Matteus Torquato, Germán Martínez-Ayuso, Hoceine Matallah, Ashraf Fahmy
         conference: #Addison-Wesley, 1968
+
+      # - title: Machine learning for  (In Review)
+      #   link: ""
+      #   authors: Matteus Torquato, Germán Martínez-Ayuso, Hoceine Matallah, Ashraf Fahmy
+      #   conference: #Addison-Wesley, 1968
 
 skills:
     title: Skills &amp; Proficiency
