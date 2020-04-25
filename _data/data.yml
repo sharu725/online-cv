@@ -40,24 +40,12 @@ education:
       university: Justus-Liebig Universitaet Giessen
       time: 2015-2017
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Courses in natural language processing, statistics & corpus linguistics
     - degree: BA German & International Studies
       university: Millersville University of Pennsylvania
       time: 2009-2013
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Courses in general German linguistics and literature as well as in international economics, international law and politics in Europe and East Asia.  
 experiences:
     - role: Product Manager
       time: Sep. 2019 - Present
