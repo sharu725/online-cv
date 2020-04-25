@@ -34,12 +34,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+Up-and-coming product manager with 1 year of agile product management experience in a SaaS and 4 years of data analysis experience using Python and SQL. 
 education:
     - degree: MA in Computational Linguistics & Text Technologies
       university: Justus-Liebig Universitaet Giessen
@@ -65,7 +60,7 @@ education:
           - Bullet point
 experiences:
     - role: Product Manager
-      time: Sep 2019 - Present
+      time: Sep. 2019 - Present
       company: Brandwatch
       details: |
           - Manage agile product development process of data & API products in the Brandwatch Consumer Research platform
@@ -74,7 +69,7 @@ experiences:
           - Analyze potential partner relationships for the product and lead the effort to integrate our applications with other leading industry systems
           - Serve as an in-house expert for our products and become the go-to person for all functional issues
     - role: Senior Data Analyst
-      time: Jan 2018- Sep 2019
+      time: Jan. 2018 - Sep. 2019
       company: Brandwatch
       details: |
           - Work strategically with our clients and consult on best practices in Digital Consumer Intelligence as well as potential projects, which advance them in their use of the platform(s) 
@@ -83,7 +78,7 @@ experiences:
           - Delegate work and conduct QA on work from 3rd party consultants
           - Mentoring junior-level analysts both locally and remotely
     - role: E-commerce & Digital Marketing
-      time: Nov 2016- Nov 2017
+      time: Nov. 2016 - Nov. 2017
       company: Flux Design Products GmbH
       details: |
           - Analysis of web & e-commerce data (i.e CLV modeling)
