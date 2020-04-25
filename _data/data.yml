@@ -83,42 +83,32 @@ experiences:
       time: 2018-2019
       company: Brandwatch
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+          - 
           - Bullet point
           - Bullet point
     - role: E-commerce & Digital Marketing
       time: 2016-2017
       company: Flux Design Products GmbH
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+          - Analysis of web & e-commerce data (i.e CLV modeling)
+          - E-commerce shop UX & UI optimization using A/B/multivariate testing
+          - Web analytics reporting
+          - Social media campaign execution,reporting and optimization
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & 
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: Python (Pandas,NLTK,Matplotlib,Scrapy..)
         level: 60%
+
+      - name: Jira
+        level: 75%
+
+      - name: Git
+        level: 40%
+
+      - name: Agile
+        level: 50%
+
+      - name: SQL
+        level: 80%
