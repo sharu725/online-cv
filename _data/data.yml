@@ -14,12 +14,12 @@ sidebar:
     # Sidebar links
     email: carnes58@gmail.com
     phone: +1 617 369 2767
-    website: blog.webjeda.com #do not add http://
+    website: carnesca.github.io/online-cv/ #do not add http://
     linkedin: cacrns
     github: carnesca
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@cacrns'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -91,7 +91,7 @@ experiences:
           - Bullet point
           - Bullet point
     - role: E-commerce & Digital Marketing
-      time: 2017-2018
+      time: 2016-2017
       company: Flux Design Products GmbH
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
@@ -105,7 +105,7 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python & 
         level: 98%
 
       - name: Javascript & jQuery
