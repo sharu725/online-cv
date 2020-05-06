@@ -152,10 +152,10 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: cloud compliance, Checkpoint Dome9 Palo Alto Prisma cloud
+      - name: cloud compliance, Checkpoint Dome9, Palo Alto Prisma cloud(Twistlock)
         level: 98%
 
-      - name: cloud config auto remediation, cloud bots
+      - name: cloud config auto remediation, cloud bots, cognitive services, machine learning, Azure Bot services, AWS Lex
         level: 98%
 
       - name: cloud architecture, design, configuration, Azure, AWS, GCP
@@ -171,7 +171,7 @@ skills:
         level: 90%
         
       - name: cloud vulnerability and architecture assessments
-        level: 70%
+        level: 90%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i>  <a href="" target="_blank" rel="nofollow">Pradeep Geddam</a>
+    Love is Patient <i class="fas fa-heart"></i>  <a href="" target="_blank" rel="nofollow">Love is kind 1 Corinthians 13:4-5</a>
