@@ -171,13 +171,13 @@ skills:
         level: 95%
 
       - name: Enterprise architecture, security architecture, Network & Infrastucture architecture, TOGAF, Application architecture 
-        level: 85%
+        level: 95%
 
       - name: Automation, Ansible, terraform, ARM templates, Jenkins, Python, JSON
         level: 90%
         
       - name: cloud vulnerability and architecture assessments
-        level: 90%
+        level: 95%
 
 footer: >
     1Corinthians 13:4-5 <i class="fas fa-heart"></i>  <a href="" target="_blank" rel="nofollow">Love is patient, Love is kind </a>
