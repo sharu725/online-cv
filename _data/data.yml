@@ -146,10 +146,9 @@ publications:
         link: "#"
         authors: Pradeep Geddam
         cID: 41797, 2009
-      - title: AZ500 Microsoft Azure Seucrity Technologies
+      - title: AZ 500 Microsoft Azure Seucrity Technologies
         link: "#"
-        Date: May 2020
-        cID: "H414-8263"
+        authors: May 2020, ID H414-8263
 
 
 skills:
