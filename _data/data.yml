@@ -142,10 +142,14 @@ projects:
 publications:
     title: Certifications and Patents
     papers:
-      - title: Automatic User Profile Change Based on Meeting invites in Blackberry OS , Reviewed by CMA PATENT COMMITTEE, ID 41797, 2009
+      - title: Automatic User Profile Change Based on Meeting invites in Blackberry OS , Reviewed by CMA patent committe, ID 41797, 2009
         link: "#"
         authors: Pradeep Geddam
         cID: 41797, 2009
+      - title: AZ500 Microsoft Azure Seucrity Technologies
+        link: "#"
+        Date: May 2020
+        cID: "H414-8263"
 
 
 skills:
