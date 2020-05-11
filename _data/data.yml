@@ -51,6 +51,12 @@ education:
       university: Anna University
       time: 2001 - 2005
       details: |
+Certifications:
+    title: AZ-500: Microsoft Azure Seucrity Technologies
+    Issued:
+      - Date: Automatic User Profile Change Based on Meeting invites in Blackberry OS , Reviewed by CMA PATENT COMMITTEE
+        Credential ID: "H414-8263"
+
 experiences:
     - role: Cloud Security Architect
       time: 2019 April - Present
