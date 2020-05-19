@@ -68,7 +68,14 @@ experiences:
       time: 2019 April - Present
       company: Architecture as a Service (AaaS) Consulting Inc.
       details: |
-
+        - Providing Technology Architecture services specialisation in the following areas
+        - Cloud Security Architecture (Assessment, documentation , reccomendations, remediation based on NIST Framework and CIS Benchmarks)
+        - Identity and Access Management (Multi factor Authentication, Singe Sign-on, PKI)
+        - Infrastucture Security (IaaSPaaS SaaS replatforming from legacy Infrastucture to PaaS and SaaS, rearchitecture)
+        - Data Security (Key Management services, Tokenization, Encryption at rest and Encryption in Transit) 
+        - App Security in cloud (Integrating security into Devops pipelines, dynamic and static code analysis)
+        - Cloud Network Architecture and security (NG Firewalls, Security Groups, Policy management)
+        - Security operations in Cloud (SIEM, Endpoint Protection, Automated auditing and response)
     - role: Senior Enterprise Architect
       time: 2014 July - 2019 April
       company: Loblaw Companies, Toronto
