@@ -14,12 +14,12 @@ sidebar:
     # Sidebar links
     email: germanmartinezayuso@gmail.com
     phone: +44 (0) 7784 284149
-    website: #blog.webjeda.com #do not add http://
+    website: germa89.github.io #blog.webjeda.com #do not add http://
     linkedin: gmartinezayuso
     github: germa89
     gitlab:
     bitbucket:
-    twitter: '@germa89'
+    twitter: #'@germa89'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -53,10 +53,10 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I’m a research fellow at UCL (London, UK) with extensive experience in programming in Python and Matlab. 
+      I'm a research fellow at UCL (London, UK) with extensive experience in programming in Python and numerical methods (Finite element methods). 
       My passion for programming leads me to develop machine learning-based solutions for companies. 
       I am recently helping to develop a platform to enable industry to access materials modeling expertise. 
-      Following my passion, I would like to accomplish bigger challenges in data science.
+      Following my passion, I would like to accomplish bigger challenges in data science and engineering.
 
 education:
     - degree: PhD in Civil Engineering
@@ -111,15 +111,23 @@ experiences:
         Developed numerical models of a wing energy harvester using Matlab to couple different commercial software. 
         Used Matlab to analyse and study large data sets from experiments. 
 
-# projects:
-#     title: Projects
-#     intro: A list of projects, repositories and/or ideas I am involved in.
-#     assignments:
+projects:
+    title: Data Science Projects
+    intro: A (small) list of projects, repositories and/or ideas I am involved in.
+    assignments:
 
-#       - title: Machine learning for damage detection
-#         link: "https://github.com/germa89/Machine_Learning_for_damage_detection_in_rolling_bearings"
-#         tagline: "Machine learning algorithms such as Principal Component Analysis (PCA) and Gaussian Mixture Models (GMM) 
-#          for damage detection in rolling bearings."
+      - title: Machine learning for damage detection
+        link: "https://github.com/germa89/Machine_Learning_for_damage_detection_in_rolling_bearings"
+        tagline: "Machine learning algorithms such as Principal Component Analysis (PCA) and Gaussian Mixture Models (GMM) 
+         for damage detection in rolling bearings."
+
+      - title: Financial fraud detection using machine learning
+        link: "https://github.com/germa89/Financial_Fraud_Detection"
+        tagline: Using machine learning algorithms (boosted decision trees) to detect fraud in credit cards records.
+
+      - title: Marketig campaing prediction
+        link: "https://github.com/germa89/Finance-Marketing-Prediction-ML"
+        tagline: Predict the success rate of a marketing campaing given previous records. 
 
 #       - title: Financial Fraud Detection
 #         link: "https://github.com/germa89/Financial_Fraud_Detection"
@@ -149,6 +157,9 @@ publications:
         authors: Matteus Torquato, Germán Martínez-Ayuso, Hoceine Matallah, Ashraf Fahmy
         conference: #Addison-Wesley, 1968
 
+      - title: Other papers in my Google scholar profile.
+        link: "https://scholar.google.co.uk/citations?user=1MqmJ0sAAAAJ&hl=en"
+
       # - title: Machine learning for  (In Review)
       #   link: ""
       #   authors: Matteus Torquato, Germán Martínez-Ayuso, Hoceine Matallah, Ashraf Fahmy
@@ -164,14 +175,16 @@ skills:
       - name: Microsoft Office & Latex
         level: 90%
 
-      - name: Machine learning (Predictive and clustering)
+      - name: Machine learning (Predictive, Clustering,...)
         level: 80%
 
-
-      - name: Data Science
-        level: 60%
+      - name: Data Science (Modelling, Cleaning, ...)
+        level: 80%
 
       - name: Statistics & Probability
+        level: 60%
+
+      - name: Excel & VBA
         level: 60%
 
       - name: TensorFlow
@@ -179,6 +192,9 @@ skills:
 
       - name: Databases (SQL)
         level: 50%
+
+      - name: Cloud computing (GCP)
+        level: 40%
 
       - name: Fortran & C++
         level: 20%
