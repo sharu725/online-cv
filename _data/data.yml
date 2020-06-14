@@ -7,90 +7,61 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Annie
+    tagline: Data Analyst
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    email: anniezh78@gmail.com
+    phone: please email for number
+    website: modernmasks.ca #do not add http://
+    linkedin: annie-7481601a5
+    github: zhannie78
+    instagram: worldofthewanderer
 
     languages:
       - idiom: English
         level: Native
 
-      - idiom: French
+      - idiom: Mandarin
         level: Professional
 
-      - idiom: Spanish
-        level: Professional
+      - idiom: French
+        level: Intermediate
 
     interests:
-      - item: Climbing
+      - item: Cryptocurrency
         link:
 
-      - item: Snowboarding
+      - item: Stock Trading and Value Investing
         link:
 
-      - item: Cooking
+      - item: E-Commerce
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      At the intersection of data science and healthcare: addressing public health and bioinformatics goals.
+       I am highly adaptable with diverse skills. I strongly believe in life-long learning. 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: MSc in Analytics
+      university: Georgia Institute of Technology
+      time: 2020-Present
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+        Currently in study.
+    - degree: BSc in Medical Sciences
+      university: University of Alberta
+      time: 2012-2017
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Physiology, Psychology, Anatomy, Chemistry, Organic Chemistry, Physics, Cell Biology, Microbiology, etc
+          - 4.0 Math/Science GPA
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Digital Marketing Consultant
+      time: 2020 - Present
+      company: Small Business Owner
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Elevating brands via digital media marketing. Social media is now the premier platform for marketing for most businesses. I help startups and e-commerce small businesses (eg. Shopify online stores like ModernMasks.ca) with increasing their brand recognition through social media exposure and by marketing them to the desired demographic via targeted Facebook and Instagram ads. I utilize influencer marketing strategies and search engine optimization to increase sales conversions.
           - Bullet point
           - Bullet point
     - role: Senior Software Engineer
