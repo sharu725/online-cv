@@ -85,6 +85,10 @@ publications:
     # very confusing but publication --> journal and conference... site.data.data error
     title: Papers 
     papers:
+      - title: "A Logic Synthesis Methodology for Low-Power Ternary Logic Circuits"
+        authors:  Sunmean Kim, Sung-Yun Lee, <strong>Sunghye Park</strong> and Seokhyeong Kang
+        journal: "<I>IEEE  Transactions on Circuits and Systems I: Regular Papers (TCAS-I) </I>, 2020"
+    
       - title: "Multi-Threshold Voltages Graphene Barristor-Based Ternary ALU"
         authors: <strong>Sunghye Park</strong>, Sunmean Kim and Seokhyeong Kang
         conference: "<I>International SoC Design Conference (ISOCC) </I>, Oct, 2019"
