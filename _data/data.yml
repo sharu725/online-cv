@@ -63,6 +63,22 @@ projects:
         link: "https://github.com/alan-turing-institute/the-turing-way"
         tagline: "Making reproducible data science too easy not to do."
 
+skills:
+    title: Skills &amp; Competencies
+    toolset:
+      - name: Python
+        # level:
+      - name: Kubernetes
+        # level:
+      - name: Docker
+        # level:
+      # - name:
+      #   # level:
+      # - name:
+      #   # level:
+      # - name:
+      #   # level:
+
 publications:
     title: Publications
     intro: |
@@ -77,28 +93,6 @@ publications:
         link: "https://doi.org/10.1093/mnras/sty1363"
         authors: Sarah L. Gibson, Graham A. Wynn, Benjamin P. Gompertz, Payl T. O'Brien
         # conference:
-
-skills:
-    title: Skills &amp; Competencies
-
-    toolset:
-      - name: Python
-        # level:
-
-      - name: Kubernetes
-        # level:
-
-      - name: Docker
-        # level:
-
-      # - name:
-      #   # level:
-
-      # - name:
-      #   # level:
-
-      # - name:
-      #   # level:
 
 footer: >
     This CV is available with clickable links at <a href="https://sgibson91.github.io/cv">sgibson91.github.io/cv</a>
