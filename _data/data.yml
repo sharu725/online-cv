@@ -72,7 +72,10 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
+          
+          
 experiences:
+
     - role: Lead Developer
       time: 2015 - Present
       company: Startup Hubs, San Francisco
@@ -83,7 +86,7 @@ experiences:
           - Bullet point
           - Bullet point
          
-     - role: IT Executive
+    - role: IT Executive
       time: September 2017- May 2018
       company: MBC Online TV ,Yangon ,Myanmar.
       details: |
