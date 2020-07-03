@@ -76,15 +76,22 @@ education:
           
 experiences:
 
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+
+    - role: Server Administrator
+      time: June 2018 - Present
+      company: ABC-MIB ,Yangon ,Myanmar.
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. 
-        
-          - Bullet point
-          - Bullet point
+
+          - Monitor and test system performance, provide system statistics and reports
+          - Handling the operation and maintenance for IT infrastructure, Application, ERP, Security
+          - Maintain key devices, systems, and infrastructure to ensure availability, accessibility, reliability, security, and efficiency
+          - Providing DevOps architecture implementation and operational support
+          - Automate and maintain CI/CD pipelines across software projects
+          - Web Application Development (php, Laravel, Wordpress)
+          - Containerize  Application with Docker & K8s
+          - experiences with server-side technologies such as Apache, Nginx & HA Proxy
+          - Database (Mysql primarily) Administration
+          - Cloud Administration ( Aws, Digital Ocena, Linode, GCP )
          
     - role: IT Executive
       time: September 2017- May 2018
