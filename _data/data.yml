@@ -7,18 +7,18 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
+    name: Nyi Nyyi Soe Paing
     tagline: Full Stack Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
+    email: nyinyisoepaing1997@gmail.com
+    phone: +959450117967
+    website: notes.n2sp.me #do not add http://
     linkedin: alandoe
-    github: sharu725
+    github: nyinyisoepaing
     telegram: # add your nickname without '@' sign
-    gitlab:
+    gitlab: nyinyisoepaing1997
     bitbucket:
     twitter: '@webjeda'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
@@ -26,21 +26,22 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: Myanmar
         level: Native
 
-      - idiom: French
-        level: Professional
+      - idiom: English
+        level: Proficiency
 
-      - idiom: Spanish
-        level: Professional
 
     interests:
-      - item: Climbing
+      - item: Scripting
         link:
 
-      - item: Snowboarding
+      - item: Travling 
         link:
+
+#       - item: Hacking
+#         link:
 
       - item: Cooking
         link:
@@ -49,8 +50,8 @@ career-profile:
     title: Career Profile
     summary: |
       Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      adipiscing elit. You can .Aenean commodo ligula eget dolor aenean massa. 
+      Cum sociis natoque
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
@@ -168,23 +169,31 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+    - name: Linux SysAdmin
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: DevOps
+        level: 80%
 
-      - name: Angular
-        level: 98%
+      - name: Bash Scripting
+        level: 90%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: CI / CD
+        level: 75%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: Kubernetes
         level: 60%
+
+      - name: Docker
+        level: 80%
+
+      - name: Git
+        level: 85%
+        
+      - name: Python & C#
+        level: 60%
+
+
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
