@@ -1,8 +1,8 @@
 #Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
-title: My Resume
-url: 'http://webjeda.com'
+title: Sarah Gibson CV
+url: 'https://sgibson91.github.io'
 baseurl: '/cv' #change it according to your repository name
 description: Sarah Gibson's professional Curriculum Vitae
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
