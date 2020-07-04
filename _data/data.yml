@@ -85,10 +85,35 @@ skills-competencies:
         beyond.
 
 professional-activities:
-    title: Professional Activities
-    activities:
-      - name: Fellow - Software Sustainability Institute - <a href="https://software.ac.uk">software.ac.uk</a> (2020 - ongoing)
-      - name: Mentor, <a href="https://openlifesci.org">""Open Life Science</a> (2020-ongoing)
+    - role: Fellow
+      time: 2020 - ongoing
+      company: <a href="https://software.ac.uk">Software Sustainability Institute</a>
+      # details:
+    - role: Mentor
+      time: 2020-ongoing
+      company: <a href="https://openlifesci.org">Open Life Science</a>
+      # details:
+
+events:
+    title: Events, Talks and Workshops
+    intro: |
+      A complete list of events, talks and workshops can be found at <a href="https://sgibson91.github.io/speaking">https://sgibson91.github.io/speaking</a>
+    talks:
+      - title: Supporting R in the Binder Community
+        link: "https://doi.org/10.5281/zenodo.3895699"
+        conference: <a href="https://2020.erum.io/">e-Rum 2020</a>
+      - title: Sharing Reproducible Analyses with Binder at Scale
+        link: "https://doi.org/10.5281/zenodo.3885704"
+        conference: <a href="https://cogx.co/">CogX 2020</a>
+      - title: "Reproducible Research: An Introduction to The Turing Way and Binder"
+        link: "https://doi.org/10.5281/zenodo.3628296"
+        conference: <a href="https://www.meetup.com/PyData-Cambridge-Meetup/events/267902974/">PyData Cambridge Meetup</a>
+      - title: Build a BinderHub for hosting Reproducible Software in the Cloud
+        link: "https://zenodo.org/record/3404774#.XZzZVOdKgWo"
+        conference: <a href="https://rse.ac.uk/conf2019/">RSE Con UK 2019</a>
+      - title: "RSE Worldwide: Collaborating Across Borders"
+        link: "https://zenodo.org/record/3377380#.XZzZ3udKgWo"
+        conference: <a href="https://rse.ac.uk/conf2019/">RSE Con UK 2019</a>
 
 publications:
     title: Publications

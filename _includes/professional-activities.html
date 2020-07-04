@@ -1,26 +1,36 @@
 {% assign professional-activities = site.data.data.professional-activities %}
 {% if professional-activities %}
-<section class="skills-section section">
-
+<section class="section professional-activities-section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
     </span>
-    {{ professional-activities.title }}
+    Professional Activities
   </h2>
 
-  <div class="skillset">
+  {% for activity in professional-activities %}
+  <div class="item">
 
-    {% for activity in professional-activities.activities %}
-    <div class="item">
+    <div class="meta">
 
-      <h3 class="level-title">{{ activity.name }}</h3>
+      <div class="upper-row">
+        <h3 class="job-title">{{ activity.role }}</h3>
+        <div class="time">{{ activity.time }}</div>
+      </div><!--//upper-row-->
 
-    </div><!--//item-->
-    {% endfor %}
+      <div class="company">{{ activity.company }}</div>
 
-  </div>
+    </div><!--//meta-->
 
-</section><!--//skills-section-->
+    {% if activity.details %}
+    <div class="details">
+      {{ activity.details | markdownify }}
+    </div><!--//details-->
+    {% endif %}
+
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
 {% endif %}
