@@ -35,25 +35,29 @@ career-profile:
       Research Software Engineer solving real-world problems by combining and
       applying cutting edge research from academia and industry. Advocate for
       open, reproducible research and best practices.
+
 education:
     - degree: Astrophysics Ph.D.
       university: University of Leicester
       time: 2015 - 2018
       details: |
-        Thesis Title: Understanding the Most Powerful Explosions in the Universe
+        <b>Thesis Title:</b> Understanding the Most Powerful Explosions in the
+        Universe
     - degree: MPhys in Physics with Astrophysics
       university: University of Hull
       time: 2010 - 2014
       details: First Class with Honours
+
 experiences:
     - role: Research Software Engineer
       time: 2018 - Present
       company: The Alan Turing Institute, London UK
       # details:
+
 projects:
     title: Projects
     intro: >
-      Open Source projects I contribute to.
+      Open Source contributions
     assignments:
       - title: Project Binder
         link: "https://mybinder.org"
@@ -63,21 +67,26 @@ projects:
         link: "https://github.com/alan-turing-institute/the-turing-way"
         tagline: "Making reproducible data science too easy not to do."
 
-skills:
-    title: Skills &amp; Competencies
-    toolset:
-      - name: Python
-        # level:
-      - name: Kubernetes
-        # level:
-      - name: Docker
-        # level:
-      # - name:
-      #   # level:
-      # - name:
-      #   # level:
-      # - name:
-      #   # level:
+skills-competencies:
+    - type: Technical
+      details: |
+        Python, Kubernetes, Docker, git, GitHub, Continuous Integration/Deployment,
+        testing. Managing public releases and communities of Open Source projects.
+    - type: Writing
+      details: |
+        Papers and research deliverables, technical documentation. Sponsorship
+        requests. Community outreach and blogging, particularly when open source
+        oriented.
+    - type: Community
+      details: |
+        Community and project management at various different scales, ranging
+        from hosting collaborative community calls, running and developing
+        training workshops, managing open source issues and pull requests, and
+        beyond.
+
+professional-activities:
+    title: Professional Activities
+    intro: >
 
 publications:
     title: Publications
@@ -91,7 +100,7 @@ publications:
 
       - title: "Fallback accretion on to a newborn magnetar: long GRBs with giant X-ray flares"
         link: "https://doi.org/10.1093/mnras/sty1363"
-        authors: Sarah L. Gibson, Graham A. Wynn, Benjamin P. Gompertz, Payl T. O'Brien
+        authors: Sarah L. Gibson, Graham A. Wynn, Benjamin P. Gompertz, Paul T. O'Brien
         # conference:
 
 footer: >
