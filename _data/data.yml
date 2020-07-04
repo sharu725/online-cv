@@ -85,10 +85,14 @@ skills-competencies:
         beyond.
 
 professional-activities:
-    title: Professional Activities
-    activities:
-      - name: Fellow - Software Sustainability Institute - <a href="https://software.ac.uk">software.ac.uk</a> (2020 - ongoing)
-      - name: Mentor, <a href="https://openlifesci.org">""Open Life Science</a> (2020-ongoing)
+    - role: Fellow
+      time: 2020 - ongoing
+      company: <a href="https://software.ac.uk">Software Sustainability Institute</a>
+      # details:
+    - role: Mentor
+      time: 2020-ongoing
+      company: <a href="https://openlifesci.org">Open Life Science</a>
+      # details:
 
 publications:
     title: Publications
