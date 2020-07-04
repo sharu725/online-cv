@@ -86,22 +86,24 @@ skills-competencies:
 
 professional-activities:
     title: Professional Activities
-    intro: >
+    activities:
+      - name: Fellow - Software Sustainability Institute - <a href="https://software.ac.uk">software.ac.uk</a> (2020 - ongoing)
+      - name: Mentor, <a href="https://openlifesci.org">""Open Life Science</a> (2020-ongoing)
 
 publications:
     title: Publications
     intro: |
       A complete list of papers can be found with ORCID number <a href="https://orcid.org/0000-0003-0356-2765">0000-0003-0356-2765</a>.
     papers:
-      - title: "Fallback accretion on to a newborn magnetar: short GRBs with extended emission"
-        link: "https://doi.org/10.1093/mnras/stx1531"
-        authors: Sarah L. Gibson, Graham A. Wynn, Benjamin P. Gompertz, Paul T. O'Brien
-        # conference:
-
       - title: "Fallback accretion on to a newborn magnetar: long GRBs with giant X-ray flares"
         link: "https://doi.org/10.1093/mnras/sty1363"
         authors: Sarah L. Gibson, Graham A. Wynn, Benjamin P. Gompertz, Paul T. O'Brien
-        # conference:
+        conference: <i>Monthly Notices of the Royal Astronomical Society</i>, Volume 478, Issue 4, August 2018, Pages 4323–4335
+
+      - title: "Fallback accretion on to a newborn magnetar: short GRBs with extended emission"
+        link: "https://doi.org/10.1093/mnras/stx1531"
+        authors: Sarah L. Gibson, Graham A. Wynn, Benjamin P. Gompertz, Paul T. O'Brien
+        conference: <i>Monthly Notices of the Royal Astronomical Society</i>, Volume 470, Issue 4, October 2017, Pages 4925–4940
 
 footer: >
-    This CV is available with clickable links at <a href="https://sgibson91.github.io/cv">sgibson91.github.io/cv</a>
+    This CV is available with clickable links at <a href="https://sgibson91.github.io/cv">https://sgibson91.github.io/cv</a>
