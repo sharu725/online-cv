@@ -43,7 +43,7 @@ education:
       details: |
         <b>Thesis Title:</b> Understanding the Most Powerful Explosions in the
         Universe
-    - degree: MPhys in Physics with Astrophysics
+    - degree: MPhys Physics with Astrophysics
       university: University of Hull
       time: 2010 - 2014
       details: First Class with Honours
@@ -52,7 +52,11 @@ experiences:
     - role: Research Software Engineer
       time: 2018 - Present
       company: The Alan Turing Institute, London UK
-      # details:
+      details: |
+        <b>Achievements include:</b>
+
+          - Bullet
+          - Bullet
 
 projects:
     title: Projects
@@ -101,19 +105,19 @@ events:
     talks:
       - title: Supporting R in the Binder Community
         link: "https://doi.org/10.5281/zenodo.3895699"
-        conference: <a href="https://2020.erum.io/">e-Rum 2020</a>
+        conference: e-Rum 2020
       - title: Sharing Reproducible Analyses with Binder at Scale
         link: "https://doi.org/10.5281/zenodo.3885704"
-        conference: <a href="https://cogx.co/">CogX 2020</a>
+        conference: CogX 2020
       - title: "Reproducible Research: An Introduction to The Turing Way and Binder"
         link: "https://doi.org/10.5281/zenodo.3628296"
-        conference: <a href="https://www.meetup.com/PyData-Cambridge-Meetup/events/267902974/">PyData Cambridge Meetup</a>
+        conference: PyData Cambridge Meetup
       - title: Build a BinderHub for hosting Reproducible Software in the Cloud
         link: "https://zenodo.org/record/3404774#.XZzZVOdKgWo"
-        conference: <a href="https://rse.ac.uk/conf2019/">RSE Con UK 2019</a>
+        conference: RSE Con UK 2019
       - title: "RSE Worldwide: Collaborating Across Borders"
         link: "https://zenodo.org/record/3377380#.XZzZ3udKgWo"
-        conference: <a href="https://rse.ac.uk/conf2019/">RSE Con UK 2019</a>
+        conference: RSE Con UK 2019
 
 publications:
     title: Publications
