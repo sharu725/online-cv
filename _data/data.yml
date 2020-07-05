@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Shubhi Asthana
-    tagline: Research Software Engineer
+    tagline: Senior Software Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -43,12 +43,36 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-        My name is Shubhi Asthana. I am currently a Research Software Engineer at IBM Almaden Research Center, 
-        San Jose, California. Among those which excite me most are: |
+        My name is Shubhi Asthana. I am currently a Senior Software Engineer at IBM Almaden Research Center,
+        San Jose, California. My development areas are |
           - Cloud services and how machine learning is enhancing analytics.
-          - Predictive analytics and solution, and using performance management toolsets.
+          - Predictive analytics and solutioning.
           - Strategic problem-solving and network analysis using latest software technologies.
-             
+
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Java
+        level: 85%
+
+      - name: Python
+        level: 85%
+
+      - name: Machine Learning
+        level: 65%
+
+      - name: Javascript & J2EE
+        level: 60%
+
+      - name: SQL
+        level: 55%
+
+      - name: Git
+        level: 75%
+
+
 education:
     - degree: Master's in Computer Engineering
       university: North Carolina State University, Raleigh
@@ -77,28 +101,37 @@ education:
           - Bullet point 
 
 experiences:
-    - role: Research Software Engineer
-      time: 2015 - Present
+    - role: Senior Software Engineer
+      time: 2019 - Present
       company: IBM Almaden Research Center
       details: |
-        - Leading accomplishment awarded projects, involved in development of end-to-end solutions and predictive analytical tools in Cloud services, IoT. 
-        - Applying Machine Learning models to quickly build prototypes. 
-        - Development of integrated predictive analytics solution with performance management tool that can perform sales analysis of services. 
+        - Leading accomplishment awarded projects, involved in development of end-to-end solutions and predictive analytical tools in Cloud services, IoT.
+        - Applying Machine Learning models to quickly build prototypes.
+        - Development of integrated predictive analytics solution with performance management tool that can perform sales analysis of services.
         - Patents and publications at top-tier conferences.
+
+    - role: Software Engineer
+      time: 2015 - 2019
+      company: IBM Almaden Research Center
+      details: |
+        - Leading accomplishment awarded projects, built end-to-end solutions and predictive analytical tools for IBM Services.
+        - Development of integrated predictive analytics solution in Java and AngularJS
+        - Applied Supervised Machine Learning models for win prediction analytics.
+        - Innovation : Patents and publications at top-tier conferences.
         
-    - role: Application Engineer
+    - role: Software Engineer
       time: 2014 - 2015
       company: AirWatch by VMware
       details: |
           - Worked on implementing a new framework for AirWatch Application and Device Management services hosted in multi-tenant SaaS and on-premise customer environments to securely manage application and content on employee mobile devices for Fortune 50 clients.
           - Implemented service framework publishes information to customers from AirWatch SQL database about Application Catalog and Secure Content Lock to enable application and device management. It also provides automated policy compliance by scheduling actions and notifications on violation of defined rules.
 
-    - role: Firmware Engineer Intern
+    - role: Engineer Intern
       time: 2013 - 2014
       company: ClearConnex Inc
       details: |
-          - Worked as a Firmware Engineer to port Lua scripting environment to company's OS abstraction - ClearOS and ClearLink - in Lua scripting and C languages.
-          - Removed OS dependencies of 12 drivers for Sierra Wireless Modems to make them portable for embedded systems environment and tested them with different Lua scripts.
+          - Developed Lua scripting environment to company's OS abstraction - ClearOS and ClearLink .
+          - Removed OS dependencies of 12 drivers for Sierra Wireless Modems.
 
 projects:
     title: Projects
@@ -106,62 +139,87 @@ projects:
       You can list your side projects or open source libraries in this
       section. 
 
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
 publications:
-    title: Publications
+    title: Publications and Patents
     intro: |
       Miscellaneous list of publications presented in top-tier conferences like IEEE SCC, IEEE AI & MS, INFORMS & NIPS
 
     papers:
+      - title: System for Cognitive Assessment of Transactions
+        authors: Asthana Shubhi, Gajananan Kugamoorthy, Megahed Aly, Motahari Nezhad Hamid Reza, Nakamura Taiga, Smith Mark Andrew, Yin Peifeng
+        conference: "Patent, 2020"
 
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Analytics and Operations Research Increases Win Rates for IBMs Information Technology Service Deals
+        authors: Aly Megahed, Taiga Nakamura, Mark Smith, Shubhi Asthana, Michael Rose, Maja Daczkowska, Sandeep Gopisetty
+        conference: "Interfaces 50(1), 50-63, 2020"
 
-skills:
-    title: Skills &amp; Proficiency
+      - title: Selecting Peer Deals for Information Technology (IT) Service Deals
+        authors: Asthana Shubhi, Becker Valeria, Gajananan Kugamoorthy, Megahed Aly, Nakamura Taiga, Smith Mark A
+        conference: "Patent, 2019"
 
-    toolset:
-      - name: Python 
-        level: 95%
-       
-      - name: Machine Learning
-        level: 95% 
-        
-      - name: Javascript & J2EE
-        level: 90%
+      - title: Estimating Annual COst Reduction when pricing Information Technology (IT) Service Deals
+        authors: Asthana Shubhi, Becker Valeria, Gajananan Kugamoorthy, Megahed Aly, Nakamura Taiga, Smith Mark A
+        conference: "Patent, 2019"
 
-      - name: Angular
-        level: 90%
+      - title: Cognitive Prioritization for Report Generation
+        authors: Asthana Shubhi, Becker Valeria, Gajananan Kugamoorthy, Megahed Aly
+        conference: "Patent, 2019"
 
-      - name: HTML5 & CSS
-        level: 85%
+      - title: Diagnosis of Neural Network via Backward Deduction
+        authors: Peifeng Yin, Lei Huang, Sunhwan Lee, Mu Qiao, Shubhi Asthana, Tagiga Nakamura
+        conference: "2019 IEEE International Conference on Big Data (Big Data), pp. 260-267"
 
-      - name: SQL
-        level: 75%
+      - title: Winnability Prediction for IT Services Bids
+        authors: Pei Guo, Aly Megahed, Shubhi Asthana, Paul Messinger
+        conference: "2019 IEEE International Conference on Services Computing (SCC), pp. 237-239"
 
-      - name: Git
-        level: 75%
+      - title: Cognitive Solutioning of Highly-Valued IT Service Contracts
+        authors: Shubhi Asthana, Aly Megahed, Ahmed Nazeem
+        conference: "INFORMS International Conference on Service Science, 261-269, 2018"
+
+      - title: System and Techniques for recommending personalized health care based on demographics
+        authors: Asthana Shubhi, Strong Jr Hovey R
+        conference: "Patent, 2018"
+
+      - title: A Unified Framework for Specifying Cost Models of IT Service Offerings
+        authors: Kugamoorthy Gajananan, Aly Megahed, Shubhi Asthana and Taiga Nakamura
+        conference: "INFORMS International Conference Service Science (CSS), 2018"
+
+      - title: Solutioning of Highly-Valued IT Service Contracts
+        authors: Shubhi Asthana, Aly Megahed, Ahmed Nazeem, Valeria Becker, Taiga Nakamura, Sandeep Gopisetty
+        conference: "2018 IEEE International Conference on Services Computing (SCC), pp. 295--298"
+
+      - title: A Predictive Approach for Monitoring Services in the Internet of Things
+        authors: Shubhi Asthana, Aly Megahed, Mohamed Mohamed
+        conference: "INFORMS International Conference on Service Science, 271-276, 2018"
+
+      - title: Using Energy Storage to Modify the Shape of Internally Generated Demand to Fit a Prescribed Shape for Externally Presented Demand
+        authors: Ray Strong, Shubhi Asthana, Eric Butler, Kevin Roche, Raphael Arar, Cheryl A. Kieliszewski, Pawan Chowdhary, Sandeep Gopisetty
+        conference: "2018 IEEE International Conference on Services Computing (SCC), pp. 269-272"
+
+      - title: 2017 IEEE 6th International Conference on AI \& Mobile Services
+        authors: Megahed, Aly and Asthana, Shubhi and Becker, Valeria and Nakamura, Taiga and Gajananan, Kugamoorthy
+        conference: "IEEE AI & Mobile Services, 2017"
+
+      - title: A Method for Selecting Peer Deals in IT Service Contracts
+        authors: Aly Megahed, Shubhi Asthana, Valeria Becker, Taiga Nakamura, Kugamoorthy Gajananan
+        conference: "IEEE International Conference on Artificial Intelligence and Mobile Services (AIMS), pp. 1--7, 2017"
+
+      - title: A Recommendation System for Proactive Health Monitoring Using IoT and Wearable Technologies
+        authors: Asthana, Shubhi and Megahed, Aly and Strong, Ray
+        conference: "AI & Mobile Services (AIMS), 2017 IEEE International Conference on, pp. 14--21"
+
+      - title: A Cognitive Prioritization for Reports Generated in Resource Constrained Applications
+        authors: Shubhi Asthana, Aly Megahed, Valeria Becker, Taiga Nakamura, Kugamoorthy Gajananan
+        conference: "Services Computing (SCC), 2017 IEEE International Conference on, pp. 418-425"
+
+      - title: A Top-Down Pricing of IT Services Deals with Recommendation for Missing Values of Historical and Market Data
+        authors: Aly Megahed, Kugamoorthy Gajananan, Shubhi Asthana, Valeria Becker, Mark Smith, Taiga Nakamura
+        conference: "International Conference on Service-Oriented Computing, pp. 745--760, 2016"
+
+      - title: HealthAdvisor Recommendation System for Wearable Technologies enabling Proactive Health Monitoring
+        authors: Asthana, Shubhi and Strong, Ray and Megahed, Aly
+        conference: "NIPS, arXiv preprint arXiv:1612.00800, 2016"
 
 footer: >
     Designed with <i class="fas fa-heart"></i> 
