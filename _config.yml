@@ -10,12 +10,16 @@ theme_skin: berry # blue turquoise green berry orange ceramic
 # Tracker
 analytics: UA-83979019-1
 
+
+
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Build settings
+compress-site: yes
+
 encoding: "utf-8"
 compress_html: # - http://jch.penibelst.de/
   clippings: all

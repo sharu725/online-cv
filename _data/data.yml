@@ -1,5 +1,5 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output. 
+# Be aware that even a small syntax error here can lead to failures in output.
 #
 
 sidebar:
@@ -22,6 +22,7 @@ sidebar:
     twitter: '@shubhi_asthana'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
@@ -83,7 +84,6 @@ education:
         sociis natoque penatibus et magnis dis parturient montes, nascetur
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
         pretium quis, sem.
-
           - Bullet point
           - Bullet point 
 
@@ -96,10 +96,8 @@ education:
         sociis natoque penatibus et magnis dis parturient montes, nascetur
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
         pretium quis, sem.
-
           - Bullet point
-          - Bullet point 
-
+          - Bullet point
 experiences:
     - role: Senior Software Engineer
       time: 2019 - Present
