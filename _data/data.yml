@@ -59,23 +59,16 @@ education:
       university: University of Distance Education (Dagon University)
       time: 2017 - present
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+
     - degree: Diploma in Network Communication(KMD)
       university: KMD Institude
       time: 20015 - 2016
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. 
-        pretium quis, sem.
+      
           - Compute System
           - Network Essentials(NE)
           - Network Operating System Management (NOS)
+          - MCSA 70-410 (Installing and Configuring Windows Server 2012)
           
           
 experiences:
