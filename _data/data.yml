@@ -55,9 +55,9 @@ career-profile:
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Bachelor Of Art English (3rd year)
+      university: University of Distance Education (Dagon University)
+      time: 2017 - present
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -66,15 +66,16 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: Diploma in Network Communication(KMD)
+      university: KMD Institude
+      time: 20015 - 2016
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. 
         pretium quis, sem.
-          - Bullet point
-          - Bullet point
+          - Compute System
+          - Network Essentials(NE)
+          - Network Operating System Management (NOS)
           
           
 experiences:
