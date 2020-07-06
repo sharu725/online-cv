@@ -54,6 +54,7 @@ career-profile:
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
+      
 education:
     - degree: Bachelor Of Art English (3rd year)
       university: University of Distance Education (Dagon University)
@@ -63,13 +64,23 @@ education:
     - degree: Diploma in Network Communication(KMD)
       university: KMD Institude
       time: 2015 - 2016
-      details: |
-      
+      details: |    
           - Compute System
           - Network Essentials(NE)
           - Network Operating System Management (NOS)
-          - MCSA 70-410 (Installing and Configuring Windows Server 2012)
+          - MCSA 70-410 
           
+    - degree: MCSA 70-410
+      university: KMD Institude
+      time: 2015 - 2016
+      details: |
+          - Installing and Configuring Windows Server 2012
+          
+    - degree: Linux Server Administration(Y Max)
+      university: Y Max
+      time: 2017 - 2018
+      details: |
+          - Installing and Configuring CentOS 7
           
 experiences:
 
