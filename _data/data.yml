@@ -19,11 +19,11 @@ sidebar:
     github: nyinyisoepaing
     telegram: # add your nickname without '@' sign
     gitlab: nyinyisoepaing1997
-    bitbucket:
-    twitter: 
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+#     bitbucket:
+#     twitter: 
+#     stack-overflow: # Number/Username, e.g. 123456/alandoe
+#     codewars:
+#     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: Myanmar
@@ -45,8 +45,8 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      A challenging and responsible position which would effectively utilize prior experience, training and abilities, offering
-opportunities for professional growth and advancement.
+      A challenging and responsible position which would effectively utilize prior experience, training and abilities, 
+      offering opportunities for professional growth and advancement.
       
 education:
     - degree: Bachelor Of Art English (3rd year)
