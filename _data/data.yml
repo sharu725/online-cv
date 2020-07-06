@@ -48,12 +48,8 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      A challenging and responsible position which would effectively utilize prior experience, training and abilities, offering
+opportunities for professional growth and advancement.
       
 education:
     - degree: Bachelor Of Art English (3rd year)
@@ -76,7 +72,7 @@ education:
       details: |
           - Installing and Configuring Windows Server 2012
           
-    - degree: Linux Server Administration(Y Max)
+    - degree: Linux Server Administration
       university: Y Max
       time: 2017 - 2018
       details: |
@@ -137,10 +133,6 @@ projects:
       - title: DevStudio
         link: "#"
         tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
 
 # publications:
