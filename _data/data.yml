@@ -86,10 +86,10 @@ experiences:
           - Maintain key devices, systems, and infrastructure to ensure availability, accessibility, reliability, security, and efficiency
           - Providing DevOps architecture implementation and operational support
           - Automate and maintain CI/CD pipelines across software projects
-          - Web Application Development (php, Laravel, Wordpress)
+          - Web Application Development (php, Laravel, Wordpress, Magento)
           - Containerize  Application with Docker & K8s
           - experiences with server-side technologies such as Apache, Nginx & HA Proxy
-          - Database (Mysql primarily) Administration
+          - Database Administration (Mysql primarily) 
           - Cloud Administration ( Aws, Digital Ocena, Linode, GCP )
          
     - role: IT Executive
@@ -115,8 +115,7 @@ projects:
     title: Projects
     intro: >
       You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      section. 
     assignments:
       - title: Velocity
         link: "#hook"
