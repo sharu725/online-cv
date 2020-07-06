@@ -34,14 +34,11 @@ sidebar:
 
     interests:
       - item: Scripting
-        link:
-      
+        link:     
       - item: MicroServices
         link:           
-
       - item: Travelling
         link:
-
       - item: Cooking
         link:
 
@@ -53,7 +50,7 @@ opportunities for professional growth and advancement.
       
 education:
     - degree: Bachelor Of Art English (3rd year)
-      university: University of Distance Education (Dagon University)
+      university: Distance Education (Dagon University)
       time: 2017 - present
       details: |
 
@@ -80,12 +77,10 @@ education:
           
 experiences:
 
-
     - role: Server Administrator
       time: June 2018 - Present
       company: ABC-MIB ,Yangon ,Myanmar.
       details: |
-
           - Monitor and test system performance, provide system statistics and reports
           - Handling the operation and maintenance for IT infrastructure, Application, ERP, Security
           - Maintain key devices, systems, and infrastructure to ensure availability, accessibility, reliability, security, and efficiency
@@ -101,18 +96,15 @@ experiences:
       time: September 2017- May 2018
       company: MBC Online TV ,Yangon ,Myanmar.
       details: |
-
           - Installing, Maintaining & Trouble-shooting the Office LAN and WAN
           - Designing & Trouble-shooting LAN for Office
           - Administering active directory, domain controller, share folders, AD users and management data volume size for users
           - Monitoring and maintaining computer systems, networks, surveillance and IT related equipment to be secured and optimum performance
-
-          
+        
     - role: IT Executive
       time: January 2017 - August 2017
       company: Hotel Yadanar Theingha ,NayPyiTaw ,Myanmar.
       details: |
-
           - support of desktop, mobile, DMS application and Roll out for local system operation
           - Installation and configuration computer hardware operation systems, printers, scanners and related accessories.
           - Checking CCTV System and maintenances
