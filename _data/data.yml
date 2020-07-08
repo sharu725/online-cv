@@ -114,8 +114,7 @@ experiences:
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. 
+#      You can list your side projects or open source libraries in this section. 
     assignments:
       - title: TheCottonFiled
         link: "https://thecottonfield.jp"
@@ -137,7 +136,7 @@ projects:
         link: "#"
         tagline: "Server Administration and Deployment on Ecommerce website Deployment"
         
-      - title: Other Inhuose Projects
+      - title: Other Inhuose & Private Projects
         link: "#"
         tagline: ""
 
