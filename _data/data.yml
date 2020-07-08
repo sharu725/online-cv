@@ -84,20 +84,20 @@ experiences:
           - Monitor and test system performance, provide system statistics and reports
           - Handling the operation and maintenance for IT infrastructure, Application, ERP, Security
           - Maintain key devices, systems, and infrastructure to ensure availability, accessibility, reliability, security, and efficiency
-          - Providing DevOps architecture implementation and operational support
-          - Automate and maintain CI/CD pipelines across software projects
+          - Providing DevOps architecture implementation and operational support 
           - Web Application Development (php, Laravel, Wordpress, Magento)
-          - Containerize  Application with Docker & K8s
-          - experiences with server-side technologies such as Apache, Nginx & HA Proxy
           - Database Administration (Mysql primarily) 
-          - Cloud Administration ( Aws, Digital Ocena, Linode, GCP )
+          - Automate the development and test automation processes through CI/CD pipeline (GitLab CI/CD & Github Action)
+          - experiences with server-side technologies such as Apache, Nginx & HA Proxy
+          - Containerize  Application with Docker & Orchestration with Kubernetes
+          - Cloud Administration ( Aws, Digital Ocean, Linode, GCP )
          
     - role: IT Executive
       time: September 2017- May 2018
       company: MBC Online TV ,Yangon ,Myanmar.
       details: |
           - Installing, Maintaining & Trouble-shooting the Office LAN and WAN
-          - Designing & Trouble-shooting LAN for Office
+          - Designing & Trouble-shooting Local Network Infra for Office
           - Administering active directory, domain controller, share folders, AD users and management data volume size for users
           - Monitoring and maintaining computer systems, networks, surveillance and IT related equipment to be secured and optimum performance
         
@@ -105,7 +105,7 @@ experiences:
       time: January 2017 - August 2017
       company: Hotel Yadanar Theingha ,NayPyiTaw ,Myanmar.
       details: |
-          - support of desktop, mobile, DMS application and Roll out for local system operation
+          - Provide network support and maintain the intended use of IT Services and infrastructure.
           - Installation and configuration computer hardware operation systems, printers, scanners and related accessories.
           - Checking CCTV System and maintenances
           - Provide the end user problems such as windows errors, applications errors and system errors
@@ -117,13 +117,25 @@ projects:
       You can list your side projects or open source libraries in this
       section. 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: TheCottonFiled
+        link: "https://thecottonfield.jp"
+        tagline: "Ecommerce website"
 
-      - title: DevStudio
+      - title: Zay2Go
         link: "#"
         tagline: "A responsive website template designed to help web developers/designers market their services."
+        
+      - title: PannThee Foundation
+        link: "https://panntheefoundation.org"
+        tagline: "aim to help orphanages and vulnerable Myanmar children to achieve a brighter future"
+        
+      - title: ABC Logistics
+        link: "https://abclogistics.com.mm"
+        tagline: "specializes in tailored logistic solutions for companies and transportation by air, sea and road"
+        
+      - title: Other Inhuose Projects
+        link: "#"
+        tagline: "#"
 
 
 # publications:
