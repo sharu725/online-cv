@@ -119,23 +119,23 @@ projects:
     assignments:
       - title: TheCottonFiled
         link: "https://thecottonfield.jp"
-        tagline: "Ecommerce website"
+        tagline: "Server Administration and Deployment  on Ecommerce website Deployment"
 
       - title: Zay2Go
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Server Administration and Deployment on Backend Website & Application ."
         
       - title: PannThee Foundation
         link: "https://panntheefoundation.org"
-        tagline: "aim to help orphanages and vulnerable Myanmar children to achieve a brighter future"
+        tagline: "Server Administration and Deployment  on backend Website and Learning platform mobile app"
         
       - title: ABC Logistics
         link: "https://abclogistics.com.mm"
-        tagline: "specializes in tailored logistic solutions for companies and transportation by air, sea and road"
+        tagline: "Information Website Deployment"
         
       - title: Other Inhuose Projects
         link: "#"
-        tagline: "#"
+        tagline: ""
 
 
 # publications:
