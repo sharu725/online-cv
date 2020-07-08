@@ -133,6 +133,10 @@ projects:
         link: "https://abclogistics.com.mm"
         tagline: "Information Website Deployment"
         
+      - title: ABC Mall
+        link: "#"
+        tagline: "Server Administration and Deployment on Ecommerce website Deployment"
+        
       - title: Other Inhuose Projects
         link: "#"
         tagline: ""
