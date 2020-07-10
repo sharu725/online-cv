@@ -62,11 +62,20 @@ experiences:
 projects:
     title: Projects
     intro: >
-      Open Source contributions
+      I am a core contributor and community leader for the following projects
     assignments:
       - title: Project Binder
         link: "https://mybinder.org"
         details: |
+          I work as part of a team operating a website that serves reproducible
+          computational environments in the cloud to approximately 140k users
+          per week around the world. I maintain cloud infrastructure at the
+          Turing Institute which receives a part of this traffic. I chair the
+          monthly team meetings and onboard or mentor new contributors. I host
+          workshops on using mybinder.org or deploying a replica service, and
+          speak about Binder's community and role in the Open Science domain. At
+          the Turing, I am technical lead and maintainer of a private Binder
+          service for the Turing research community.
 
       - title: The Turing Way
         link: "https://github.com/alan-turing-institute/the-turing-way"
