@@ -79,10 +79,6 @@ projects:
         tagline: "Integrate frequent ODK based field data collections in PostgreSQL database using python workflow."
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
     papers:
       - title: Lizard API scripts
         link: "https://github.com/nens/lizard-api-scripts/"
