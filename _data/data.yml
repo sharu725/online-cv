@@ -35,7 +35,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      As a GIS specialist I provide information services that align user needs with data and technology. I have been the technical lead in multiple international development projects. I collaborate in international teams to provide real-time information services.
+      I provide information services that align user needs with data and technology. I am the technical lead in multiple international development projects. I collaborate in international teams to provide real-time information services.
 education:
     - degree: MSc in Geo-information management & applications
       university: University of Wageningen, Delft, Utrecht, Twente
@@ -48,7 +48,7 @@ experiences:
       time: 2016 - Present
       company: Nelen & Schuurmans, Utrecht
       details: |
-        As a GIS specialist in the water & agri team I create geo-information services to support decisions with the best available data. To accomplish this, I build Python tools, analyse (geo) data and integrate workflows into operational information systems. I am a trustworthy colleague that delivers results. Furthermore, I exchange knowledge and learn on a daily basis. By establishing system architectures, I integrate complex systems. To optimize routine workflows, I build compact products that summarize geo-data and create overview for the user.
+        In the water & agri team I create geo-information services to support decisions with the best available data. To accomplish this, I build Python tools, analyse (geo) data and integrate workflows into operational information systems. I am a trustworthy colleague that delivers results. Furthermore, I exchange knowledge and learn on a daily basis. By establishing system architectures, I integrate complex systems. To optimize routine workflows, I build compact products that summarize geo-data and create overview for the user.
         
 projects:
     title: Projects
@@ -79,21 +79,18 @@ projects:
         tagline: "Integrate frequent ODK based field data collections in PostgreSQL database using python workflow."
 publications:
     title: Publications
+    intro: |
+      Lately, my published work is mostly written in Python.
     papers:
-      - title: Lizard API scripts
-        link: "https://github.com/nens/lizard-api-scripts/"
-        authors: W. Suijker
-        conference: Interact with the Lizard API
-        
-      - title: SAR auto
-        link: "https://github.com/nens/sarauto/"
-        authors: W. Suijker, ITC University, IPB University
-        conference: Create vegetable maps from radar satellite data
+      - title: Python package to create labels for SpiceUp apps, e.g. warning on drought
+        link: "https://spiceup.live/en/read/the-platform-behind-spiceup/66d06e6bace5fca7dd70feff5ef084ff"
+        authors: W. Suijker &amp; M. Krol
+        Conference: "Labeltype models are used to compute labels for a B2B dashboard and mobile app"
     
-      - title: Lizard raster reducer
+      - title: Lizard Raster Reducer
         link: "https://pypi.org/project/lizard-raster-reducer/"
-        authors: W. Suijker, ITC University, IPB University
-        conference: "Auto-generate regional reports from Lizard data"
+        authors: W. Suijker
+        conference: "Auto-generate regional reports from Lizard data, 2019"
 
       - title: Sat4Rice feeds Vietnam with geo-information
         link: "https://geoinformatienederland.nl/system/files/documents/Def%20drukproef%20Geo%20Info%204-2018%20LR.pdf"
@@ -103,19 +100,19 @@ publications:
       - title: Temporal and spatial aggregation of the normalized difference vegetation index for the prediction of rice yields
         link: "https://doi.org/10.1117/12.2319189"
         authors: W. Suijker &amp; E. Aparicio Medrano
-        conference: "SPIE 10783, Remote Sensing for Agriculture, Ecosystems, and Hydrology"
+        conference: "SPIE 10783, Remote Sensing for Agriculture, Ecosystems, and Hydrology, 2018"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python &amp; Django
         level: 80%
 
-      - name: "Web-based applications: Lizard & 3Di"
+      - name: "Lizard &amp; 3Di"
         level: 90%
         
-      - name: "GIS Software: QGIS, PostgreSQL, PostGIS, ArcGIS"
+      - name: "QGIS, PostgreSQL, PostGIS and ArcGIS"
         level: 85%
         
       - name: R
