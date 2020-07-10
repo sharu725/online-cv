@@ -24,6 +24,9 @@ sidebar:
 
       - idiom: English
         level: Professional
+      
+      - idiom: German
+        level: Intermediate (pre-university education)
 
     interests:
       - item: Cycling
@@ -77,17 +80,24 @@ projects:
 publications:
     title: Publications
     intro: |
-      Lately, my published work is mostly written in Python.
-    papers:    
-      - title: SARauto
-      - link: "https://github.com/nens/sarauto/"
-      - authors: W. Suijker, ITC University, IPB University
-      - conference: "Create vegetable maps from radar satellite data"
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: Lizard API scripts
+        link: "https://github.com/nens/lizard-api-scripts/"
+        authors: W. Suijker
+        conference: Interact easily with the lizard API, e.g. https://docs.lizard.net/c_dataexchange.html#using-the-lizard-api
+
+      - title: SAR auto
+        link: "https://github.com/nens/sarauto/"
+        authors: W. Suijker, ITC University, IPB University
+        conference: Create vegetable maps from radar satellite data
     
       - title: Lizard raster reducer
-      - link: "https://pypi.org/project/lizard-raster-reducer/"
-      - authors: W. Suijker, ITC University, IPB University
-      - conference: "Auto-generate regional reports from Lizard data"
+        link: "https://pypi.org/project/lizard-raster-reducer/"
+        authors: W. Suijker, ITC University, IPB University
+        conference: "Auto-generate regional reports from Lizard data"
 
       - title: Sat4Rice feeds Vietnam with geo-information
         link: "https://geoinformatienederland.nl/system/files/documents/Def%20drukproef%20Geo%20Info%204-2018%20LR.pdf"
@@ -104,10 +114,13 @@ skills:
 
     toolset:
       - name: Python & Django
-        level: 75%
+        level: 80%
 
-      - name: "Lizard.net"
-        level: 95%
+      - name: "Web-based applications: Lizard & 3Di"
+        level: 90%
         
-      - name: "3diwatermanagement.com"
-        level: 70%
+      - name: "GIS Software: QGIS, PostgreSQL, PostGIS, ArcGIS"
+        level: 85%
+        
+      - name: R
+        level: 65%
