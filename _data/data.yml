@@ -80,6 +80,14 @@ projects:
       - title: The Turing Way
         link: "https://github.com/alan-turing-institute/the-turing-way"
         details: |
+          I am a core member of the team that launched the Turing Way as a book
+          and project in 2019. I provide expert technical support for building
+          the book website and continuous integration workflows. I also contribute
+          my expertise directly to the book and have written chapters on Binder,
+          facilitating remote events, and effective communication with an open
+          source community. I mentor new contributors through the process of
+          making their first contribution, guiding them on best practices and
+          where their topic best fits into the book.
 
 skills-competencies:
     - type: Technical
