@@ -121,7 +121,10 @@ professional-activities:
     - role: Mentor
       time: 2020-ongoing
       company: <a href="https://openlifesci.org">Open Life Science</a>
-      # details:
+      details: |
+        Co-lead of a spin-off of the Open Life Science mentorship programme for
+        the Turing research community. The programme teaches open leadership
+        skills for growing an open project and community.
 
 events:
     title: Events, Talks and Workshops
