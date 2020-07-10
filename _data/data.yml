@@ -110,7 +110,14 @@ professional-activities:
     - role: Fellow
       time: 2020 - ongoing
       company: <a href="https://software.ac.uk">Software Sustainability Institute</a>
-      # details:
+      details: |
+        My Fellowship goal is to promote the Binder community and diversify the
+        skill set of the operating team. By attending conferences for Julia,
+        Python and R (the 3 main Jupyter languages), I connect with these
+        communities, learn how they use Binder and their future aspirations,
+        and promote our onboarding system for becoming contributors and
+        operators.
+
     - role: Mentor
       time: 2020-ongoing
       company: <a href="https://openlifesci.org">Open Life Science</a>
