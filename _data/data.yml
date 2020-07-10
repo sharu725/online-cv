@@ -30,12 +30,21 @@ sidebar:
 
     interests:
       - item: Cycling
-        link: strava.com/athletes/8615720
+        link: "https://strava.com/athletes/8615720"
+        
+      - item: Technology
+        link: "https://tweakers.net/"
+  
+      - item: Wildlife & travelling
+        link: "https://www.imdb.com/title/tt6669028/"
+        
+      - item: Food cultures
+        link: "https://www.youtube.com/c/MarkWiens"
 
 career-profile:
     title: Career Profile
     summary: |
-      I provide information services that align user needs with data and technology. I am the technical lead in multiple international development projects. I collaborate in international teams to provide real-time information services.
+      I provide information services that align user needs with data and technology. I have been the technical lead in multiple international development project teams. Through my work I provide real-time information services to stakeholders in the water & agri supply chain.
 education:
     - degree: MSc in Geo-information management & applications
       university: University of Wageningen, Delft, Utrecht, Twente
@@ -48,7 +57,7 @@ experiences:
       time: 2016 - Present
       company: Nelen & Schuurmans, Utrecht
       details: |
-        In the water & agri team I create geo-information services to support decisions with the best available data. To accomplish this, I build Python tools, analyse (geo) data and integrate workflows into operational information systems. I am a trustworthy colleague that delivers results. Furthermore, I exchange knowledge and learn on a daily basis. By establishing system architectures, I integrate complex systems. To optimize routine workflows, I build compact products that summarize geo-data and create overview for the user.
+        In the water & agri team I create geo-information services to support decisions with the best available data. I build Python tools, analyse (geo) data and integrate workflows into operational information systems. I am a trustworthy colleague that delivers results. Furthermore, I exchange knowledge and learn on a daily basis. By establishing system architectures, I integrate complex systems. To optimize routine workflows, I build products that summarize geo data and create overview for users.
         
 projects:
     title: Projects
@@ -58,49 +67,48 @@ projects:
       - title: SpiceUp Indonesia
         link: "https://spiceup.live"
         tagline: "Developing a technology platform to support spices supply chain partners and stakeholders that optimize yield, cost and profits."
-        image: /../assets/images/phone-for-farmer.png
         
       - title: SmartSeeds Indonesia
         link: "https://g4aw.spaceoffice.nl/en/g4aw-projects/g4aw-projects/11/smartseeds.html"
-        tagline: "An Android app for vegetable farmers provides geo-data information services related to climate, soil fertility and water stress." 
+        tagline: "Integrate satellite data into an android app for vegetable farmers, to provide insight in climate, soil fertility and water stress conditions." 
         
       - title: Driver-EU
         link: "https://pos.driver-project.eu/nl/PoS/solutions/14"
-        tagline: " Innovation in crisis management to inform actors about actual
+        tagline: "Innovation in crisis management to inform actors about actual
         and predicted floods."
         
       - title: IDSS Bangladesh
         link: "https://fosholi.com/en/"
-        tagline: "Remote sensing based models help farmers to estimate
+        tagline: "Create remote sensing based models to help farmers estimate
         actual risks for pests, diseases and floods."
         
       - title: Sat4Rice Vietnam
         link: "https://nelen-schuurmans.nl/en/blog/case/sat4rice-geo-information-service-for-vietnamese-rice-farmers"
-        tagline: "Integrate frequent ODK based field data collections in PostgreSQL database using python workflow."
+        tagline: "Integrate frequent ODK based field data collections in PostgreSQL database using python workflows."
 publications:
     title: Publications
     intro: |
       Lately, my published work is mostly written in Python.
     papers:
-      - title: Python package to create labels for SpiceUp apps, e.g. warning on drought
+      - title: SpiceUp labels 2020
         link: "https://spiceup.live/en/read/the-platform-behind-spiceup/66d06e6bace5fca7dd70feff5ef084ff"
         authors: W. Suijker &amp; M. Krol
-        Conference: "Labeltype models are used to compute labels for a B2B dashboard and mobile app"
+        conference: "Python package to create labels for SpiceUp apps, e.g. warn for drought."
     
-      - title: Lizard Raster Reducer
+      - title: Lizard Raster Reducer 2019
         link: "https://pypi.org/project/lizard-raster-reducer/"
         authors: W. Suijker
-        conference: "Auto-generate regional reports from Lizard data, 2019"
+        conference: "Auto-generate regional reports from Lizard data."
 
-      - title: Sat4Rice feeds Vietnam with geo-information
+      - title: Sat4Rice feeds Vietnam with geo-information 2018
         link: "https://geoinformatienederland.nl/system/files/documents/Def%20drukproef%20Geo%20Info%204-2018%20LR.pdf"
         authors: W. Suijker &amp; A. Hoff
         conference: "Geo-informatie Nederland 2018-4, pp. 56-59 (Dutch)"
 
-      - title: Temporal and spatial aggregation of the normalized difference vegetation index for the prediction of rice yields
+      - title: Temporal and spatial aggregation of the normalized difference vegetation index for the prediction of rice yields 2018
         link: "https://doi.org/10.1117/12.2319189"
         authors: W. Suijker &amp; E. Aparicio Medrano
-        conference: "SPIE 10783, Remote Sensing for Agriculture, Ecosystems, and Hydrology, 2018"
+        conference: "SPIE 10783, Remote Sensing for Agriculture, Ecosystems, and Hydrology"
 
 skills:
     title: Skills &amp; Proficiency
@@ -117,3 +125,6 @@ skills:
         
       - name: R
         level: 65%
+        
+      - name: MS Office, Slack, Trello, Skype, 
+        level: 90%
