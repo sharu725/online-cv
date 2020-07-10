@@ -53,37 +53,44 @@ projects:
       Technical lead providing up to date and location specific geo-information services.
     assignments:
       - title: SpiceUp Indonesia
-        link: "SpiceUp.live"
+        link: "https://spiceup.live"
         tagline: "Developing a technology platform to support spices supply chain partners and stakeholders that optimize yield, cost and profits."
+        image: /../assets/images/phone-for-farmer.png
+        
       - title: SmartSeeds Indonesia
-        link: "g4aw.spaceoffice.nl/en/g4aw-projects/g4aw-projects/11/smartseeds.html"
-        tagline: "An Android app for vegetable farmers provides geo-data information services related to climate, soil fertility and water stress."        
+        link: "https://g4aw.spaceoffice.nl/en/g4aw-projects/g4aw-projects/11/smartseeds.html"
+        tagline: "An Android app for vegetable farmers provides geo-data information services related to climate, soil fertility and water stress." 
+        
       - title: Driver-EU
-        link: "pos.driver-project.eu/nl/PoS/solutions/14"
+        link: "https://pos.driver-project.eu/nl/PoS/solutions/14"
         tagline: " Innovation in crisis management to inform actors about actual
-        and predicted floods."        
+        and predicted floods."
+        
       - title: IDSS Bangladesh
-        link: "fosholi.com/en/"
+        link: "https://fosholi.com/en/"
         tagline: "Remote sensing based models help farmers to estimate
         actual risks for pests, diseases and floods."
+        
       - title: Sat4Rice Vietnam
-        link: "nelen-schuurmans.nl/en/blog/case/sat4rice-geo-information-service-for-vietnamese-rice-farmers"
+        link: "https://nelen-schuurmans.nl/en/blog/case/sat4rice-geo-information-service-for-vietnamese-rice-farmers"
         tagline: "Integrate frequent ODK based field data collections in PostgreSQL database using python workflow."
 publications:
     title: Publications
-    packages:
-      - title: Lizard raster reducer
-      - link: "pypi.org/project/lizard-raster-reducer/"
     papers:
+      - title: Lizard raster reducer
+      - link: "https://pypi.org/project/lizard-raster-reducer/"
+      - conference: "Auto-generate regional reports from Lizard data"
+
+      
       - title: Sat4Rice feeds Vietnam with geo-information
-        link: "#"
-        authors: W. Suijker; A. Hoff
-        journal: Geo Informatie Nederland 2018-4
+        link: "https://geoinformatienederland.nl/system/files/documents/Def%20drukproef%20Geo%20Info%204-2018%20LR.pdf"
+        authors: W. Suijker &amp; A. Hoff
+        conference: "Geo-informatie Nederland 2018-4, pp. 56-59 (Dutch)"
 
 
       - title: Temporal and spatial aggregation of the normalized difference vegetation index for the prediction of rice yields
-        link: "doi.org/10.1117/12.2319189"
-        authors: W. Suijker; E. Aparicio Medrano
+        link: "https://doi.org/10.1117/12.2319189"
+        authors: W. Suijker &amp; E. Aparicio Medrano
         conference: "SPIE 10783, Remote Sensing for Agriculture, Ecosystems, and Hydrology"
 
 skills:
@@ -93,13 +100,10 @@ skills:
       - name: Python & Django
         level: 75%
 
-      - name: Lizard data warehouse & analytics platform
-        link: "Lizard.net"
+      - name: [Lizard data warehouse & analytics platform](https://lizard.net/)
         level: 95%
         
-      - name: 3Di hydrodynamic simulation software
-        link: "3Diwatermanagement.com"
+      - name: [3Di hydrodynamic simulation software](https://3diwatermanagement.com/)
         level: 70%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
