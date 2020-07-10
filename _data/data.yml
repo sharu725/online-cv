@@ -44,7 +44,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I provide information services that align user needs with data and technology. I have been the technical lead in multiple international development project teams. Through my work I provide real-time information services to stakeholders in the water & agri supply chain.
+      I provide real-time information services that align user needs with data and technology. I thrive in international development projects, where I introduce and lead technological innovation.
 education:
     - degree: MSc in Geo-information management & applications
       university: University of Wageningen, Delft, Utrecht, Twente
@@ -57,12 +57,10 @@ experiences:
       time: 2016 - Present
       company: Nelen & Schuurmans, Utrecht
       details: |
-        In the water & agri team I create geo-information services to support decisions with the best available data. I build Python tools, analyse (geo) data and integrate workflows into operational information systems. I am a trustworthy colleague that delivers results. Furthermore, I exchange knowledge and learn on a daily basis. By establishing system architectures, I integrate complex systems. To optimize routine workflows, I build products that summarize geo data and create overview for users.
+        In the Water & Agri team, I create geo-information services to support decisions with the best available data. I build Python tools, analyse (geo) data and create operational information systems. As an API expert, I ease the integration of customer operations with our IT products. Furthermore, I am a trustworthy and analytical colleague that delivers sustainable results.
         
 projects:
     title: Projects
-    intro: >
-      Technical lead providing up to date and location specific geo-information services.
     assignments:
       - title: SpiceUp Indonesia
         link: "https://spiceup.live"
@@ -90,25 +88,25 @@ publications:
     intro: |
       Lately, my published work is mostly written in Python.
     papers:
-      - title: SpiceUp labels 2020
+      - title: SpiceUp labels (2020)
         link: "https://spiceup.live/en/read/the-platform-behind-spiceup/66d06e6bace5fca7dd70feff5ef084ff"
         authors: W. Suijker &amp; M. Krol
-        conference: "Python package to create labels for SpiceUp apps, e.g. warn for drought."
+        conference: "Python package to create labels for SpiceUp apps, e.g. drought warning."
     
-      - title: Lizard Raster Reducer 2019
+      - title: Lizard Raster Reducer (2019)
         link: "https://pypi.org/project/lizard-raster-reducer/"
         authors: W. Suijker
         conference: "Auto-generate regional reports from Lizard data."
 
-      - title: Sat4Rice feeds Vietnam with geo-information 2018
+      - title: Sat4Rice feeds Vietnam with geo-information (2018)
         link: "https://geoinformatienederland.nl/system/files/documents/Def%20drukproef%20Geo%20Info%204-2018%20LR.pdf"
         authors: W. Suijker &amp; A. Hoff
-        conference: "Geo-informatie Nederland 2018-4, pp. 56-59 (Dutch)"
+        conference: "Geo-informatie Nederland 2018-4, pp. 56-59 (Dutch)."
 
-      - title: Temporal and spatial aggregation of the normalized difference vegetation index for the prediction of rice yields 2018
+      - title: Temporal and spatial aggregation of the normalized difference vegetation index for the prediction of rice yields (2018)
         link: "https://doi.org/10.1117/12.2319189"
         authors: W. Suijker &amp; E. Aparicio Medrano
-        conference: "SPIE 10783, Remote Sensing for Agriculture, Ecosystems, and Hydrology"
+        conference: "SPIE 10783, Remote Sensing for Agriculture, Ecosystems, and Hydrology."
 
 skills:
     title: Skills &amp; Proficiency
@@ -117,14 +115,14 @@ skills:
       - name: Python &amp; Django
         level: 80%
 
-      - name: "Lizard &amp; 3Di"
+      - name: "SaaS: Lizard &amp; 3Di"
         level: 90%
         
-      - name: "QGIS, PostgreSQL, PostGIS and ArcGIS"
-        level: 85%
+      - name: "QGIS, PostgreSQL, PostGIS &amp; ArcGIS"
+        level: 90%
         
       - name: R
         level: 65%
         
-      - name: MS Office, Slack, Trello, Skype, 
+      - name: MS Office, Trello
         level: 90%
