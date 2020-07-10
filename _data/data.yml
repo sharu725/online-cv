@@ -34,7 +34,8 @@ career-profile:
     summary: |
       Research Software Engineer solving real-world problems by combining and
       applying cutting edge research from academia and industry. Advocate for
-      open, reproducible research and best practices.
+      open, sustainable, and reproducible research practices. Passionate about
+      healthy community building and growth.
 
 education:
     - degree: Astrophysics Ph.D.
@@ -65,11 +66,11 @@ projects:
     assignments:
       - title: Project Binder
         link: "https://mybinder.org"
-        tagline: "Launch a reproducible notebook in the cloud and share with anyone, anywhere."
+        details: |
 
       - title: The Turing Way
         link: "https://github.com/alan-turing-institute/the-turing-way"
-        tagline: "Making reproducible data science too easy not to do."
+        details: |
 
 skills-competencies:
     - type: Technical
@@ -122,7 +123,7 @@ events:
 publications:
     title: Publications
     intro: |
-      A complete list of papers can be found with ORCID number <a href="https://orcid.org/0000-0003-0356-2765">0000-0003-0356-2765</a>.
+      A complete list of publications can be found with ORCID number <a href="https://orcid.org/0000-0003-0356-2765">0000-0003-0356-2765</a>.
     papers:
       - title: "Fallback accretion on to a newborn magnetar: long GRBs with giant X-ray flares"
         link: "https://doi.org/10.1093/mnras/sty1363"
