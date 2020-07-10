@@ -83,8 +83,8 @@ publications:
       - title: Lizard API scripts
         link: "https://github.com/nens/lizard-api-scripts/"
         authors: W. Suijker
-        conference: Interact with the Lizard API: [example]("https://docs.lizard.net/c_dataexchange.html#using-the-lizard-api")
-
+        conference: Interact with the Lizard API, { example: https://docs.lizard.net/c_dataexchange.html#using-the-lizard-api }
+        
       - title: SAR auto
         link: "https://github.com/nens/sarauto/"
         authors: W. Suijker, ITC University, IPB University
