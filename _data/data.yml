@@ -62,27 +62,27 @@ experiences:
 projects:
     title: Projects
     assignments:
-      - title: SpiceUp Indonesia
+      - title: __SpiceUp__ Indonesia
         link: "https://spiceup.live"
         tagline: "Develop a geodata platform to support pepper farmers and their supply chain to optimize yield, cost and profits."
         
-      - title: SmartSeeds Indonesia
+      - title: __SmartSeeds__ Indonesia
         link: "https://g4aw.spaceoffice.nl/en/g4aw-projects/g4aw-projects/11/smartseeds.html"
         tagline: "Integrate satellite data into an android app for vegetable farmers, to provide insight in climate, soil fertility and water stress conditions." 
         
-      - title: ESA EO4SD with DHI GRAS, ELEAF, GeoVille, ITC &amp; Satelligence
+      - title: __ESA EO4SD__ with DHI GRAS, ELEAF, GeoVille, ITC &amp; Satelligence
         link: "https://eo4idi.eu"
         tagline: "Create a data catalog to integrate state-of-the-art EO-based information services for agricultural monitoring and management by international financial institutes."
         
-      - title: Driver-EU
+      - title: __Driver-EU__
         link: "https://pos.driver-project.eu/nl/PoS/solutions/14"
         tagline: "Disseminate actual and predicted flood models to various crisis management actors."
         
-      - title: IDSS Bangladesh
+      - title: __IDSS__ Bangladesh
         link: "https://fosholi.com/en/"
         tagline: "Create remote sensing based models to help farmers estimate actual risks for pests, diseases and floods."
         
-      - title: Sat4Rice Vietnam
+      - title: __Sat4Rice__ Vietnam
         link: "https://nelen-schuurmans.nl/en/blog/case/sat4rice-geo-information-service-for-vietnamese-rice-farmers"
         tagline: "Integrate frequent ODK based field data collections in PostgreSQL database using python workflows."
 publications:
@@ -90,22 +90,37 @@ publications:
     intro: |
       Lately, my published work is mostly written in Python.
     papers:
-      - title: SpiceUp labels (2020)
-        link: "https://spiceup.live/en/read/the-platform-behind-spiceup/66d06e6bace5fca7dd70feff5ef084ff"
+      - title: __SpiceUp labels__ (2020)
+        link: "https://github.com/nens/spiceup-labels#example"
         authors: W. Suijker &amp; M. Krol
-        conference: "Python package to create labels for SpiceUp apps, e.g. drought warning."
+        conference: "Python package that models geodata to create labels for SpiceUp apps, e.g. drought warning."
+    
+      - title: __Lizard Api Scripts__ (2020, private access)
+        link: "https://github.com/nens/lizard-api-scripts"
+        authors: W. Suijker &amp; C. Kerklaan
+        conference: "Python package to interact with the Lizard API."
+        
+      - title: __3Di scenario downloader__ (2019)
+        link: "https://pypi.org/project/threedi-scenario-downloader/"
+        authors: E. Verstegen, W. Suijker
+        conference: "Python package to download 3Di results."
+    
+      - title: Lizard SMAP import (2019, private access)
+        link: "https://github.com/nens/lizard-smap-import"
+        authors: W. Suijker
+        conference: "Python package to feed Lizard with soil moisture raster data."
     
       - title: Lizard Raster Reducer (2019)
         link: "https://pypi.org/project/lizard-raster-reducer/"
         authors: W. Suijker
         conference: "Auto-generate regional reports from Lizard data."
 
-      - title: Sat4Rice feeds Vietnam with geo-information (2018)
+      - title: __Sat4Rice feeds Vietnam with geo-information__ (2018)
         link: "https://geoinformatienederland.nl/system/files/documents/Def%20drukproef%20Geo%20Info%204-2018%20LR.pdf"
         authors: W. Suijker &amp; A. Hoff
         conference: "Geo-informatie Nederland 2018-4, pp. 56-59 (Dutch)."
 
-      - title: Temporal and spatial aggregation of the normalized difference vegetation index for the prediction of rice yields (2018)
+      - title: Temporal and spatial aggregation of NDVI to predict rice yields __DOI__ (2018)
         link: "https://doi.org/10.1117/12.2319189"
         authors: W. Suijker &amp; E. Aparicio Medrano
         conference: "SPIE 10783, Remote Sensing for Agriculture, Ecosystems, and Hydrology."
@@ -116,12 +131,12 @@ skills:
     toolset:
       - name: Python geodata analysis
         level: 85%
-
-      - name: Python web apps (django, dash)
-        level: 75%
-
-      - name: "SaaS: Lizard &amp; 3Di (Nelen & Schuurmans &copy;)"
+        
+      - name: "Connecting APIs (Lizard, 3Di)"
         level: 90%
+
+      - name: "Python web applications (Django, Dash)"
+        level: 75%
         
       - name: "QGIS &amp; ArcGIS"
         level: 90%
