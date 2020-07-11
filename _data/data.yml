@@ -44,7 +44,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I provide real-time information services that align user needs with data and technology. I thrive in international development projects, where I introduce and lead technological innovation.
+      I provide real-time information services that align user needs with geodata and technology. I thrive in international development projects, where I introduce and lead technological innovation.
 education:
     - degree: MSc in Geo-information management & applications
       university: University of Wageningen, Delft, Utrecht, Twente
@@ -57,18 +57,22 @@ experiences:
       time: 2016 - Present
       company: Nelen & Schuurmans, Utrecht
       details: |
-        In the Water & Agri team, I create geo-information services to support decisions with the best available data. I build Python tools, analyse (geo) data and create operational information systems. As an API expert, I ease the integration of customer operations with our IT products. Furthermore, I am a trustworthy and analytical colleague that delivers sustainable results.
+        In the Water & Agri team, I create geo-information services to support decisions with the best available data. I build Python tools, analyse (geo)data and create operational information systems. As an API expert, I ease the integration of customer operations with our IT products. Furthermore, I am a trustworthy and analytical colleague that delivers sustainable results.
         
 projects:
     title: Projects
     assignments:
       - title: SpiceUp Indonesia
         link: "https://spiceup.live"
-        tagline: "Developing a technology platform to support spices supply chain partners and stakeholders that optimize yield, cost and profits."
+        tagline: "Developing a technology platform to support pepper farmers and supply chain firms to optimize yield, cost and profits."
         
       - title: SmartSeeds Indonesia
         link: "https://g4aw.spaceoffice.nl/en/g4aw-projects/g4aw-projects/11/smartseeds.html"
-        tagline: "Integrate satellite data into an android app for vegetable farmers, to provide insight in climate, soil fertility and water stress conditions." 
+        tagline: "Integrating satellite data into an android app for vegetable farmers, to provide insight in climate, soil fertility and water stress conditions." 
+        
+      - title: ESA EO4SD project with DHI GRAS, ELEAF, GeoVille, ITC and Satelligence
+        link: "https://eo4idi.eu"
+        tagline: "Created a data catalog to integrate state-of-the-art EO-based information services for agricultural monitoring and management"
         
       - title: Driver-EU
         link: "https://pos.driver-project.eu/nl/PoS/solutions/14"
@@ -112,13 +116,19 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python &amp; Django
-        level: 80%
+      - name: Python data analysis (geo)pandas, numpy, dask-geomodeling, rasterio)
+        level: 90%
+
+      - name: Python web apps (django, dash)
+        level: 75%
 
       - name: "SaaS: Lizard &amp; 3Di"
         level: 90%
         
-      - name: "QGIS, PostgreSQL, PostGIS &amp; ArcGIS"
+      - name: "QGIS &amp; ArcGIS"
+        level: 90%
+        
+      - name: "PostgreSQL &amp; PostGIS"
         level: 90%
         
       - name: R
