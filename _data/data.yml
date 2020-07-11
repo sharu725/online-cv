@@ -62,7 +62,7 @@ experiences:
 projects:
     title: Projects
     assignments:
-      - title: SpiceUp Indonesia
+      - title: SpiceUp Indonesia | <u>impression</u>
         link: "https://spiceup.live"
         tagline: "Develop a geodata platform to support pepper farmers and their supply chain to optimize yield, cost and profits."
         
@@ -70,9 +70,9 @@ projects:
         link: "https://g4aw.spaceoffice.nl/en/g4aw-projects/g4aw-projects/11/smartseeds.html"
         tagline: "Integrate satellite data into an android app for vegetable farmers, to provide insight in climate, soil fertility and water stress conditions." 
         
-      - title: ESA EO4SD with DHI GRAS, ELEAF, GeoVille, ITC &amp; Satelligence
+      - title: ESA EO4SD
         link: "https://eo4idi.eu"
-        tagline: "Create a data catalog to integrate state-of-the-art EO-based information services for agricultural monitoring and management by international financial institutes."
+        tagline: "Create a data catalog to integrate state-of-the-art EO-based information services for agricultural monitoring and management by international financial institutes. EU consortium with DHI GRAS, ELEAF, GeoVille, ITC &amp; Satelligence."
         
       - title: Driver-EU
         link: "https://pos.driver-project.eu/nl/PoS/solutions/14"
@@ -90,7 +90,7 @@ publications:
     intro: |
       Lately, my published work is mostly written in Python.
     papers:
-      - title: SpiceUp labels <u>link</u> (2020)
+      - title: SpiceUp labels (2020) | <u>example</u>
         link: "https://github.com/nens/spiceup-labels#example"
         authors: W. Suijker &amp; M. Krol
         conference: "Python package that models geodata to create labels for SpiceUp apps, e.g. drought warning."
