@@ -62,8 +62,8 @@ experiences:
 projects:
     title: Projects
     assignments:
-      - title: SpiceUp Indonesia | <u>impression</u>
-        link: "https://spiceup.live"
+      - title: SpiceUp Indonesia <u>platform</u>
+        link: "https://spiceup.live/"
         tagline: "Develop a geodata platform to support pepper farmers and their supply chain to optimize yield, cost and profits."
         
       - title: SmartSeeds Indonesia
@@ -90,7 +90,7 @@ publications:
     intro: |
       Lately, my published work is mostly written in Python.
     papers:
-      - title: SpiceUp labels (2020) | <u>example</u>
+      - title: SpiceUp labels (2020) <u>example</u>
         link: "https://github.com/nens/spiceup-labels#example"
         authors: W. Suijker &amp; M. Krol
         conference: "Python package that models geodata to create labels for SpiceUp apps, e.g. drought warning."
@@ -100,7 +100,7 @@ publications:
         authors: W. Suijker &amp; C. Kerklaan
         conference: "Python package to interact with the Lizard API."
         
-      - title: 3Di scenario downloader (2019)
+      - title: 3Di scenario downloader (2019) <u>pypi</u>
         link: "https://pypi.org/project/threedi-scenario-downloader/"
         authors: E. Verstegen, W. Suijker
         conference: "Python package to download 3Di results."
@@ -110,7 +110,7 @@ publications:
         authors: W. Suijker
         conference: "Python package to feed Lizard with soil moisture raster data."
     
-      - title: Lizard Raster Reducer (2019)
+      - title: Lizard Raster Reducer (2019) <u>pypi</u>
         link: "https://pypi.org/project/lizard-raster-reducer/"
         authors: W. Suijker
         conference: "Auto-generate regional reports from Lizard data."
