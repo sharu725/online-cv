@@ -57,32 +57,30 @@ experiences:
       time: 2016 - Present
       company: Nelen & Schuurmans, Utrecht
       details: |
-        In the Water & Agri team, I create geo-information services to support decisions with the best available data. I build Python tools, analyse (geo)data and create operational information systems. As an API expert, I ease the integration of customer operations with our IT products. Furthermore, I am a trustworthy and analytical colleague that delivers sustainable results.
+        After my MSc, I started at a water & IT company. In the Water & Agri team, I create geo-information services to support decisions with the best available data. I build Python tools, analyse (geo)data and create operational information systems. As an API expert, I ease the integration of customer operations with our IT products. Furthermore, I am a trustworthy and analytical colleague that delivers sustainable results.
         
 projects:
     title: Projects
     assignments:
       - title: SpiceUp Indonesia
         link: "https://spiceup.live"
-        tagline: "Developing a technology platform to support pepper farmers and supply chain firms to optimize yield, cost and profits."
+        tagline: "Develop a geodata platform to support pepper farmers and their supply chain to optimize yield, cost and profits."
         
       - title: SmartSeeds Indonesia
         link: "https://g4aw.spaceoffice.nl/en/g4aw-projects/g4aw-projects/11/smartseeds.html"
-        tagline: "Integrating satellite data into an android app for vegetable farmers, to provide insight in climate, soil fertility and water stress conditions." 
+        tagline: "Integrate satellite data into an android app for vegetable farmers, to provide insight in climate, soil fertility and water stress conditions." 
         
-      - title: ESA EO4SD project with DHI GRAS, ELEAF, GeoVille, ITC and Satelligence
+      - title: ESA EO4SD with DHI GRAS, ELEAF, GeoVille, ITC &amp; Satelligence
         link: "https://eo4idi.eu"
-        tagline: "Created a data catalog to integrate state-of-the-art EO-based information services for agricultural monitoring and management"
+        tagline: "Create a data catalog to integrate state-of-the-art EO-based information services for agricultural monitoring and management by international financial institutes."
         
       - title: Driver-EU
         link: "https://pos.driver-project.eu/nl/PoS/solutions/14"
-        tagline: "Innovation in crisis management to inform actors about actual
-        and predicted floods."
+        tagline: "Disseminate actual and predicted flood models to various crisis management actors."
         
       - title: IDSS Bangladesh
         link: "https://fosholi.com/en/"
-        tagline: "Create remote sensing based models to help farmers estimate
-        actual risks for pests, diseases and floods."
+        tagline: "Create remote sensing based models to help farmers estimate actual risks for pests, diseases and floods."
         
       - title: Sat4Rice Vietnam
         link: "https://nelen-schuurmans.nl/en/blog/case/sat4rice-geo-information-service-for-vietnamese-rice-farmers"
@@ -116,23 +114,23 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python data analysis (geo)pandas, numpy, dask-geomodeling, rasterio)
-        level: 90%
+      - name: Python geodata analysis
+        level: 85%
 
       - name: Python web apps (django, dash)
         level: 75%
 
-      - name: "SaaS: Lizard &amp; 3Di"
+      - name: "SaaS: Lizard &amp; 3Di (Nelen & Schuurmans &copy;)"
         level: 90%
         
       - name: "QGIS &amp; ArcGIS"
         level: 90%
         
       - name: "PostgreSQL &amp; PostGIS"
-        level: 90%
+        level: 80%
         
-      - name: R
+      - name: R programming
         level: 65%
         
       - name: MS Office, Trello
-        level: 90%
+        level: 100%
