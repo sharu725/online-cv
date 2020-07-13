@@ -57,14 +57,22 @@ experiences:
       time: 2016 - Present
       company: Nelen & Schuurmans, Utrecht
       details: |
-        After my MSc, I started at a water & IT company. In the Water & Agri team, I create geo-information services to support decisions with the best available data. I build Python tools, analyse (geo)data and create operational information systems. As an API expert, I ease the integration of customer operations with our IT products. Furthermore, I am a trustworthy and analytical colleague that delivers sustainable results.
+        In the Water & Agri team, I create geo-information services to support decisions with the best available data. I build Python tools, analyse (geo)data and create operational information systems. As an API expert, I ease the integration of customer operations with our IT products. Furthermore, I am a trustworthy and analytical colleague that delivers sustainable results.
         
 projects:
     title: Projects
     assignments:
-      - title: SpiceUp Indonesia <u>platform</u>
+      - title: SpiceUp Indonesia - <u>platform</u>
         link: "https://spiceup.live/"
-        tagline: "Develop a geodata platform to support pepper farmers and their supply chain to optimize yield, cost and profits."
+        tagline: "Develop geodata platform to support pepper farmers and their supply chain to optimize yield, cost and profits."
+        
+      - title: "Interactive heat stress tool - <u>video</u>"
+        link: "https://www.youtube.com/watch?v=9hUdNQ6hl1I"
+        tagline: "Implement back-end data model for interactive heat stress mapping tool." 
+        
+      - title: "Impact-based forecasting for the Red Cross"
+        link: "https://www.510.global/impact-based-forecast/"
+        tagline: "Increase the accuracy of flood forecasts for humanitarian aid workers by connecting operational IT services 3Di and Lizard with Red Cross dashboard."
         
       - title: SmartSeeds Indonesia
         link: "https://g4aw.spaceoffice.nl/en/g4aw-projects/g4aw-projects/11/smartseeds.html"
@@ -90,7 +98,7 @@ publications:
     intro: |
       Lately, my published work is mostly written in Python.
     papers:
-      - title: SpiceUp labels (2020) <u>example</u>
+      - title: SpiceUp labels (2020) - <u>example</u>
         link: "https://github.com/nens/spiceup-labels#example"
         authors: W. Suijker &amp; M. Krol
         conference: "Python package that models geodata to create labels for SpiceUp apps, e.g. drought warning."
@@ -100,7 +108,7 @@ publications:
         authors: W. Suijker &amp; C. Kerklaan
         conference: "Python package to interact with the Lizard API."
         
-      - title: 3Di scenario downloader (2019) <u>pypi</u>
+      - title: 3Di scenario downloader (2019) - <u>pypi</u>
         link: "https://pypi.org/project/threedi-scenario-downloader/"
         authors: E. Verstegen, W. Suijker
         conference: "Python package to download 3Di results."
@@ -110,7 +118,7 @@ publications:
         authors: W. Suijker
         conference: "Python package to feed Lizard with soil moisture raster data."
     
-      - title: Lizard Raster Reducer (2019) <u>pypi</u>
+      - title: Lizard Raster Reducer (2019) - <u>pypi</u>
         link: "https://pypi.org/project/lizard-raster-reducer/"
         authors: W. Suijker
         conference: "Auto-generate regional reports from Lizard data."
@@ -118,7 +126,7 @@ publications:
       - title: Sat4Rice feeds Vietnam with geo-information (2018)
         link: "https://geoinformatienederland.nl/system/files/documents/Def%20drukproef%20Geo%20Info%204-2018%20LR.pdf"
         authors: W. Suijker &amp; A. Hoff
-        conference: "Geo-informatie Nederland 2018-4, pp. 56-59 (Dutch)."
+        conference: "Geo-informatie Nederland 2018-4, pp. 56-59 (in Dutch)."
 
       - title: Temporal and spatial aggregation of NDVI to predict rice yields DOI (2018)
         link: "https://doi.org/10.1117/12.2319189"
@@ -129,7 +137,7 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python geodata analysis
+      - name: Python geodata analysis &amp; ETL
         level: 85%
         
       - name: "Connecting APIs (Lizard, 3Di)"
