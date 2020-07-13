@@ -54,10 +54,30 @@ experiences:
       time: 2018 - Present
       company: The Alan Turing Institute, London UK
       details: |
-        <b>Achievements include:</b>
+        My role involves collaborating with stakeholders throughout the Turing
+        network on research projects linked to the
+        <a href="https://www.turing.ac.uk/research/challenges">Turing Challenge Areas</a>.
+        In my capacity as an RSE, I take responsibility for following best software
+        practices throughout the project, implementing required computational
+        infrastructure or automated pipelines, data wrangling and analysis,
+        project documentation, and reporting via papers, presentations or blog
+        posts.
 
-          - Bullet
-          - Bullet
+        Within the <a href="https://www.turing.ac.uk/research/research-engineering">Research Engineering</a>
+        team, I lead two Service Areas that support the project-based work the
+        team and wider Turing research community engages in. The
+        <b>Research Software Tools Management</b> service area provides access to
+        tools and platforms to assist research and collaboration including GitHub,
+        continuous integration services, Zenodo, and the Slack workspace. The
+        <b>Open Source</b> provides advice and support for engaging with open
+        source including developing open source tools and communities, publishing
+        in open source journals (e.g. <a href="https://joss.theoj.org/">JOSS</a>),
+        and contributing to open source projects outside the Turing.
+
+        <b>Notable projects:</b>
+
+          - <a href="https://www.turing.ac.uk/research/research-projects/turing-way-handbook-reproducible-data-science">The Turing Way</a>
+          - <a href="https://www.turing.ac.uk/research/research-projects/living-machines">Living with Machines</a>
 
 projects:
     title: Projects
