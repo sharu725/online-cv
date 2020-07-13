@@ -34,7 +34,8 @@ career-profile:
     summary: |
       Research Software Engineer solving real-world problems by combining and
       applying cutting edge research from academia and industry. Advocate for
-      open, reproducible research and best practices.
+      open, sustainable, and reproducible research practices. Passionate about
+      healthy community building and growth.
 
 education:
     - degree: Astrophysics Ph.D.
@@ -53,23 +54,60 @@ experiences:
       time: 2018 - Present
       company: The Alan Turing Institute, London UK
       details: |
-        <b>Achievements include:</b>
+        My role involves collaborating with stakeholders throughout the Turing
+        network on research projects linked to the
+        <a href="https://www.turing.ac.uk/research/challenges">Turing Challenge Areas</a>.
+        In my capacity as an RSE, I take responsibility for following best software
+        practices throughout the project, implementing required computational
+        infrastructure or automated pipelines, data wrangling and analysis,
+        project documentation, and reporting via papers, presentations or blog
+        posts.
 
-          - Bullet
-          - Bullet
+        Within the <a href="https://www.turing.ac.uk/research/research-engineering">Research Engineering</a>
+        team, I lead two Service Areas that support the project-based work the
+        team and wider Turing research community engages in. The
+        <b>Research Software Tools Management</b> service area provides access to
+        tools and platforms to assist research and collaboration including GitHub,
+        continuous integration services, Zenodo, and the Slack workspace. The
+        <b>Open Source</b> provides advice and support for engaging with open
+        source including developing open source tools and communities, publishing
+        in open source journals (e.g. <a href="https://joss.theoj.org/">JOSS</a>),
+        and contributing to open source projects outside the Turing.
+
+        <b>Notable projects:</b>
+
+          - <a href="https://www.turing.ac.uk/research/research-projects/turing-way-handbook-reproducible-data-science">The Turing Way</a>
+          - <a href="https://www.turing.ac.uk/research/research-projects/living-machines">Living with Machines</a>
 
 projects:
     title: Projects
     intro: >
-      Open Source contributions
+      I am a core contributor and community leader for the following projects
     assignments:
       - title: Project Binder
         link: "https://mybinder.org"
-        tagline: "Launch a reproducible notebook in the cloud and share with anyone, anywhere."
+        details: |
+          I work as part of a team operating a website that serves reproducible
+          computational environments in the cloud to approximately 140k users
+          per week around the world. I maintain cloud infrastructure at the
+          Turing Institute which receives a part of this traffic. I chair the
+          monthly team meetings and onboard or mentor new contributors. I host
+          workshops on using mybinder.org or deploying a replica service, and
+          speak about Binder's community and role in the Open Science domain. At
+          the Turing, I am technical lead and maintainer of a private Binder
+          service for the Turing research community.
 
       - title: The Turing Way
         link: "https://github.com/alan-turing-institute/the-turing-way"
-        tagline: "Making reproducible data science too easy not to do."
+        details: |
+          I am a core member of the team that launched the Turing Way as a book
+          and project in 2019. I provide expert technical support for building
+          the book website and continuous integration workflows. I also contribute
+          my expertise directly to the book and have written chapters on Binder,
+          facilitating remote events, and effective communication with an open
+          source community. I mentor new contributors through the process of
+          making their first contribution, guiding them on best practices and
+          where their topic best fits into the book.
 
 skills-competencies:
     - type: Technical
@@ -92,11 +130,21 @@ professional-activities:
     - role: Fellow
       time: 2020 - ongoing
       company: <a href="https://software.ac.uk">Software Sustainability Institute</a>
-      # details:
+      details: |
+        My Fellowship goal is to promote the Binder community and diversify the
+        skill set of the operating team. By attending conferences for Julia,
+        Python and R (the 3 main Jupyter languages), I connect with these
+        communities, learn how they use Binder and their future aspirations,
+        and promote our onboarding system for becoming contributors and
+        operators.
+
     - role: Mentor
       time: 2020-ongoing
       company: <a href="https://openlifesci.org">Open Life Science</a>
-      # details:
+      details: |
+        Co-lead of a spin-off of the Open Life Science mentorship programme for
+        the Turing research community. The programme teaches open leadership
+        skills for growing an open project and community.
 
 events:
     title: Events, Talks and Workshops
@@ -122,7 +170,7 @@ events:
 publications:
     title: Publications
     intro: |
-      A complete list of papers can be found with ORCID number <a href="https://orcid.org/0000-0003-0356-2765">0000-0003-0356-2765</a>.
+      A complete list of publications can be found with ORCID number <a href="https://orcid.org/0000-0003-0356-2765">0000-0003-0356-2765</a>.
     papers:
       - title: "Fallback accretion on to a newborn magnetar: long GRBs with giant X-ray flares"
         link: "https://doi.org/10.1093/mnras/sty1363"
