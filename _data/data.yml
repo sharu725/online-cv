@@ -47,7 +47,7 @@ career-profile:
       I provide real-time information services that align user needs with geodata and technology. I thrive in international development projects, where I introduce and lead technological innovation.
 education:
     - degree: MSc in Geo-information management & applications
-      university: University of Wageningen, Delft, Utrecht, Twente
+      university: Wageningen University, Delft University of Technology, Utrecht University, University of Twente
       time: 2014 - 2016
       details: |
         Thesis: Characterising forest gain and related carbon sequestration
@@ -68,13 +68,13 @@ projects:
         link: "https://spiceup.live/"
         tagline: "Project leader / scrum master of the technical work package with international partners. Create a geodata platform that supports pepper farmers and their supply chain to optimize yield, cost and profits."
         
-      - title: "Interactive heat stress tool - <u>video</u>"
+      - title: "Interactive heat stress tool"
         link: "https://www.youtube.com/watch?v=9hUdNQ6hl1I"
         tagline: "Implement back-end data model for interactive heat stress mapping tool." 
         
       - title: "Impact-based forecasting for the Red Cross"
         link: "https://www.510.global/impact-based-forecast/"
-        tagline: "Increase the accuracy of flood forecasts for humanitarian aid workers by connecting operational IT services 3Di and Lizard with Red Cross dashboard."
+        tagline: "Connect operational IT services 3Di and Lizard with Red Cross dashboard to increase the accuracy of flood forecasts for humanitarian aid workers by."
         
       - title: SAR vegetable maps - SmartSeeds Indonesia 
         link: "https://g4aw.spaceoffice.nl/en/g4aw-projects/g4aw-projects/11/smartseeds.html"
@@ -95,8 +95,34 @@ projects:
       - title: Sat4Rice Vietnam
         link: "https://nelen-schuurmans.nl/en/blog/case/sat4rice-geo-information-service-for-vietnamese-rice-farmers"
         tagline: "Integrate frequent ODK based field data collections in PostgreSQL database using python workflows."
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python geodata analysis
+        level: 85%
+        
+      - name: "Map platform APIs (Lizard, 3Di)"
+        level: 90%
+
+      - name: "Python web apps (Django, Dash)"
+        level: 75%
+        
+      - name: "QGIS &amp; ArcGIS"
+        level: 90%
+        
+      - name: "PostgreSQL &amp; PostGIS"
+        level: 80%
+        
+      - name: R programming
+        level: 65%
+        
+      - name: MS Office, Trello
+        level: 100%
+
 publications:
-    title: Publications
+    title: IT Packages
     papers:
       - title: SpiceUp labels (2020) - <u>example</u>
         link: "https://github.com/nens/spiceup-labels#example"
@@ -132,7 +158,10 @@ publications:
         link: "https://github.com/nens/idds_processing_server#local-processing-server"
         authors: Roos Geosolutions, W. Suijker
         conference: "Collect data, run crop suitability and pest and disease models and make the results available through an API."
-     
+
+publications:
+    title: Publications
+    papers:
       - title: Sat4Rice feeds Vietnam with geo-information (2018)
         link: "https://geoinformatienederland.nl/system/files/documents/Def%20drukproef%20Geo%20Info%204-2018%20LR.pdf"
         authors: W. Suijker &amp; A. Hoff
@@ -142,28 +171,3 @@ publications:
         link: "https://doi.org/10.1117/12.2319189"
         authors: W. Suijker &amp; E. Aparicio Medrano
         conference: "SPIE 10783, Remote Sensing for Agriculture, Ecosystems, and Hydrology."
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python geodata analysis
-        level: 85%
-        
-      - name: "Map platform APIs (Lizard, 3Di)"
-        level: 90%
-
-      - name: "Python web apps (Django, Dash)"
-        level: 75%
-        
-      - name: "QGIS &amp; ArcGIS"
-        level: 90%
-        
-      - name: "PostgreSQL &amp; PostGIS"
-        level: 80%
-        
-      - name: R programming
-        level: 65%
-        
-      - name: MS Office, Trello
-        level: 100%
