@@ -72,17 +72,17 @@ experiences:
 projects:
     title: Projects &amp; Roles
     assignments:
-      - title: SpiceUp Indonesia <u>platform</u> (2018-present)
+      - title: <u>SpiceUp.live</u> Indonesia (2018-present)
         link: "https://spiceup.live/"
         tagline: "Project leader / scrum master of the technical work package with international partners. We create a geodata platform that supports pepper farmers and their supply chain to optimize yield, cost and profits."
         
       - title: "Interactive heat stress tool (2020-present)"
         link: "https://www.youtube.com/watch?v=9hUdNQ6hl1I"
-        tagline: "Implement back-end data model for the interactive heat stress mapping tool using dask-geomodeling." 
+        tagline: "Implement back-end data model using dask-geomodeling." 
         
       - title: "Reed bank monitoring (2019-present)"
         link: "#"
-        tagline: "Map reed banks from high-resolution satellite and aerial imagery. Study the effects of operational flexible water levels for the Dutch DG for Public Works and Water Management." 
+        tagline: "Map reed banks from high-resolution satellite and aerial imagery using machine learning." 
         
       - title: SmartSeeds Indonesia (2017-present)
         link: "https://g4aw.spaceoffice.nl/en/g4aw-projects/g4aw-projects/11/smartseeds.html"
@@ -169,7 +169,7 @@ packages:
       - title: IDSS Local Processing Server (2018)
         link: "https://github.com/nens/idds_processing_server#local-processing-server"
         authors: Roos Geosolutions, W. Suijker
-        conference: "Collect data, run crop suitability and pest and disease models and make the results available through an API."
+        conference: "Collect data, run crop suitability and P&D models, and publish via API."
 
 publications:
     title: Publications
