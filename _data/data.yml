@@ -94,7 +94,7 @@ projects:
         
       - title: Driver-EU (2018-2019)
         link: "https://pos.driver-project.eu/nl/PoS/solutions/14"
-        tagline: "Send predicted flood info to various crisis authorities."
+        tagline: "Inform crisis authorities on flood predictions."
                 
       - title: ESA EO4SD (2017-2019)
         link: "https://eo4idi.eu"
