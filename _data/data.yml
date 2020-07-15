@@ -70,7 +70,7 @@ experiences:
         In the Water & Agri team, I create geo-information services to support decisions with the best available data. I build Python tools, analyse (geo)data and create operational information systems. I am the technical lead in international development projects such as SpiceUp. As an API expert, I ease the integration of customer operations with our IT products. Furthermore, I am a trustworthy and analytical colleague that delivers sustainable results.
         
 projects:
-    title: Projects &amp; Responsibilities
+    title: Projects &amp; Roles
     assignments:
       - title: SpiceUp Indonesia <u>platform</u> (2018-present)
         link: "https://spiceup.live/"
@@ -79,6 +79,10 @@ projects:
       - title: "Interactive heat stress tool (2020-present)"
         link: "https://www.youtube.com/watch?v=9hUdNQ6hl1I"
         tagline: "Implement the back-end data model for the interactive heat stress mapping tool using dask-geomodeling." 
+        
+      - title: "Reed bank monitoring for the Dutch Directorate-General for Public Works and Water Management (2019-present)"
+        link: "#"
+        tagline: "Map reed banks from high-resolution satellite and aerial imagery and field measurements to study the effects of operational flexible water level management." 
         
       - title: SmartSeeds Indonesia (2017-present)
         link: "https://g4aw.spaceoffice.nl/en/g4aw-projects/g4aw-projects/11/smartseeds.html"
