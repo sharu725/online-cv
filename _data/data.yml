@@ -78,27 +78,27 @@ projects:
         
       - title: "Interactive heat stress tool (2020-present)"
         link: "https://www.youtube.com/watch?v=9hUdNQ6hl1I"
-        tagline: "Implement the back-end data model for the interactive heat stress mapping tool using dask-geomodeling." 
+        tagline: "Implement back-end data model for the interactive heat stress mapping tool using dask-geomodeling." 
         
-      - title: "Reed bank monitoring for the Dutch Directorate-General for Public Works and Water Management (2019-present)"
+      - title: "Reed bank monitoring (2019-present)"
         link: "#"
-        tagline: "Map reed banks from high-resolution satellite and aerial imagery and field measurements to study the effects of operational flexible water level management." 
+        tagline: "Map reed banks from high-resolution satellite and aerial imagery. Study the effects of operational flexible water levels for the Dutch DG for Public Works and Water Management." 
         
       - title: SmartSeeds Indonesia (2017-present)
         link: "https://g4aw.spaceoffice.nl/en/g4aw-projects/g4aw-projects/11/smartseeds.html"
-        tagline: "Setup platform that integrates satellite data, field data and models into an android app for vegetable farmers. Post-project activities to 1) establish Django-based local processing server and 2) automate vegetable mapping from Sentinel-1 SAR data."
+        tagline: "Setup platform to integrate satellite data, field data and agri-models into an android app for vegetable farmers. Support social enterprise: 1) establish Django-based local processing server and 2) automate vegetable mapping from Sentinel-1 SAR data."
         
       - title: "Impact-based forecasting for the Red Cross (2019)"
         link: "https://www.510.global/impact-based-forecast/"
-        tagline: "Connect operational IT services 3Di and Lizard with Red Cross dashboard to increase the accuracy of flood forecasts for humanitarian aid workers."
+        tagline: "Connect web map services with Red Cross dashboard to increase the accuracy of flood forecasts for humanitarian aid workers."
         
       - title: Driver-EU (2018-2019)
         link: "https://pos.driver-project.eu/nl/PoS/solutions/14"
-        tagline: "Disseminate actual and predicted flood models to various crisis management actors."
+        tagline: "Send predicted flood info to various crisis authorities."
                 
       - title: ESA EO4SD (2017-2019)
         link: "https://eo4idi.eu"
-        tagline: "Create data catalog to integrate state-of-the-art EO-based information services for agricultural monitoring and management by international financial institutes. EU consortium with DHI GRAS, ELEAF, GeoVille, ITC &amp; Satelligence."
+        tagline: "Create data catalog to integrate state-of-the-art EO-based information services for agricultural monitoring and management by IFIs."
         
       - title: IDSS Bangladesh (2016-2018)
         link: "https://fosholi.com/en/"
