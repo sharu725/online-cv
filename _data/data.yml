@@ -47,11 +47,15 @@ career-profile:
       I provide real-time information services that align user needs with geodata and technology. I thrive in international development projects, where I introduce and lead technological innovation.
 education:
     - degree: MSc in Geo-information management & applications
-      university: |
-        - Wageningen University &amp; Research,
-        - Delft University of Technology,
-        - Utrecht University, 
-        - University of Twente
+      university: >
+        Wageningen University &amp; Research,
+        
+        Delft University of Technology,
+        
+        Utrecht University, 
+        
+        University of Twente
+        
       time: 2014 - 2016
       details: "Thesis: Characterising Forest Gain and Related Carbon Sequestration"
     - degree: BSc in Human Geography
