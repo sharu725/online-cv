@@ -74,31 +74,31 @@ projects:
         
       - title: "Interactive heat stress tool (2020-present)"
         link: "https://www.youtube.com/watch?v=9hUdNQ6hl1I"
-        tagline: "Implement the back-end data model for interactive heat stress mapping tool." 
+        tagline: "Implement the back-end data model for the interactive heat stress mapping tool using dask-geomodeling." 
+        
+      - title: SmartSeeds Indonesia (2017-present)
+        link: "https://g4aw.spaceoffice.nl/en/g4aw-projects/g4aw-projects/11/smartseeds.html"
+        tagline: "Setup platform that integrates satellite data, field data and models into an android app for vegetable farmers. Post-project activities to 1) establish Django-based local processing server and 2) automate vegetable mapping from Sentinel-1 SAR data."
         
       - title: "Impact-based forecasting for the Red Cross (2019)"
         link: "https://www.510.global/impact-based-forecast/"
-        tagline: "Connect operational IT services 3Di and Lizard with Red Cross dashboard. This increases the accuracy of flood forecasts for humanitarian aid workers."
+        tagline: "Connect operational IT services 3Di and Lizard with Red Cross dashboard to increase the accuracy of flood forecasts for humanitarian aid workers."
         
-      - title: Driver-EU (2019)
+      - title: Driver-EU (2018-2019)
         link: "https://pos.driver-project.eu/nl/PoS/solutions/14"
         tagline: "Disseminate actual and predicted flood models to various crisis management actors."
-        
-      - title: SAR vegetable maps - SmartSeeds Indonesia (2017-present)
-        link: "https://g4aw.spaceoffice.nl/en/g4aw-projects/g4aw-projects/11/smartseeds.html"
-        tagline: "Automate vegetable mapping from Sentinel-1 SAR data. 2) Setup platform where we integrate satellite data, field data and models into an android app for vegetable farmers." 
-        
-      - title: ESA EO4SD (2016-2019)
+                
+      - title: ESA EO4SD (2017-2019)
         link: "https://eo4idi.eu"
         tagline: "Create data catalog to integrate state-of-the-art EO-based information services for agricultural monitoring and management by international financial institutes. EU consortium with DHI GRAS, ELEAF, GeoVille, ITC &amp; Satelligence."
         
-      - title: IDSS Bangladesh with local processing server (2016-2018)
+      - title: IDSS Bangladesh (2016-2018)
         link: "https://fosholi.com/en/"
-        tagline: "Setup remote sensing based geodata platform to help farmers estimate actual risks for pests, diseases and floods. Establish Django-based local processing server for sensitive data."
+        tagline: "Setup remote sensing based geodata platform to help farmers estimate actual risks for pests, diseases and floods."
         
       - title: Sat4Rice Vietnam (2016-2018)
         link: "https://nelen-schuurmans.nl/en/blog/case/sat4rice-geo-information-service-for-vietnamese-rice-farmers"
-        tagline: "Integrate frequent ODK based field data collections in PostgreSQL database using python workflows."
+        tagline: "Integrate frequent ODK based field data collections in PostgreSQL database using Python workflows."
 
 skills:
     title: Skills &amp; Proficiency
@@ -151,7 +151,7 @@ packages:
       - title: Mapping platform SMAP import (2019, private access)
         link: "https://github.com/nens/lizard-smap-import"
         authors: W. Suijker
-        conference: "Feed mapping platform Lizard with global soil moisture data."
+        conference: "Feed Lizard mapping platform with global soil moisture data."
     
       - title: Lizard Raster Reducer (2019) - <u>pypi</u>
         link: "https://pypi.org/project/lizard-raster-reducer/"
