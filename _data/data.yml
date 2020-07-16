@@ -76,9 +76,9 @@ projects:
         link: "https://spiceup.live/"
         tagline: "Project leader / scrum master of the technical work package with international partners. We create a geodata platform that supports pepper farmers and their supply chain to optimize yield, cost and profits."
         
-      - title: "Interactive heat stress tool (2020-present)"
+      - title: "Interactive heat stress mapping (2020-present)"
         link: "https://www.youtube.com/watch?v=9hUdNQ6hl1I"
-        tagline: "Implement back-end data model using dask-geomodeling." 
+        tagline: "Implement back-end geodata model for online spatial planning tool, e.g. planting trees." 
         
       - title: "Reed bank monitoring (2019-present)"
         link: "#"
