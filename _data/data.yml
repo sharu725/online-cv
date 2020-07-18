@@ -35,7 +35,7 @@ sidebar:
       - item: Technology
         link: "https://tweakers.net/"
   
-      - item: Wildlife & travelling
+      - item: Wildlife &amp; travelling
         link: "https://www.imdb.com/title/tt6669028/"
         
       - item: Food cultures
@@ -46,7 +46,7 @@ career-profile:
     summary: |
       I provide real-time information services that align user needs with remote sensing data and the latest IT solutions. I thrive in international development projects, where I introduce and lead technological innovation.
 education:
-    - degree: MSc in Geo-information management & applications
+    - degree: MSc in Geo-information management &amp; applications
       university: >
         Wageningen University &amp; Research,
         
@@ -61,13 +61,13 @@ education:
     - degree: BSc in Human Geography
       university: Utrecht University
       time: 2011 - 2014
-      details: "Specializations: GIS & sustainable development"
+      details: "Specializations: GIS &amp; sustainable development"
 experiences:
     - role: Geospatial Analyst
       time: 2016 - Present
-      company: Nelen & Schuurmans, Utrecht
+      company: Nelen &amp; Schuurmans, Utrecht
       details: |
-        In the Water & Agri team, I create geo-information services to support decisions with the best available (satellite) data. I have the technical lead in international development project consortiums, such as SpiceUp Indonesia. I build Python tools, analyse remote sensing data and create operational information systems. As an API expert, I ease the integration of client operations with our IT products. Furthermore, I am a trustworthy and analytical colleague that delivers sustainable results.
+        In the Water &amp; Agri team, I create geo-information services to support decisions with the best available (satellite) data. I have the technical lead in international development project consortia, such as SpiceUp Indonesia. I build Python tools, analyse remote sensing data and create operational information systems. As an API expert, I ease the integration of client operations with our IT products. Furthermore, I am a trustworthy and analytical colleague that delivers sustainable results.
         
 projects:
     title: Projects &amp; Roles
@@ -115,10 +115,10 @@ skills:
       - name: Python geodata analysis
         level: 85%
         
-      - name: "Map platform APIs (Lizard, 3Di)"
+      - name: "Map platforms &amp; APIs"
         level: 90%
 
-      - name: "Python web apps (Django, Dash)"
+      - name: "Python web applications (Django, Dash)"
         level: 75%
         
       - name: "QGIS &amp; ArcGIS"
