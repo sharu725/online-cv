@@ -67,7 +67,7 @@ experiences:
       time: 2016 - Present
       company: Nelen & Schuurmans, Utrecht
       details: |
-        In the Water & Agri team, I create geo-information services to support decisions with the best available (satellite) data. I have the technical lead in international development project consortiums, such as SpiceUp Indonesia. In these projects, I build Python tools, analyse remote sensing data and create operational information systems. As an API expert, I ease the integration of customer operations with our IT products. Furthermore, I am a trustworthy and analytical colleague that delivers sustainable results.
+        In the Water & Agri team, I create geo-information services to support decisions with the best available (satellite) data. I have the technical lead in international development project consortiums, such as SpiceUp Indonesia. I build Python tools, analyse remote sensing data and create operational information systems. As an API expert, I ease the integration of client operations with our IT products. Furthermore, I am a trustworthy and analytical colleague that delivers sustainable results.
         
 projects:
     title: Projects &amp; Roles
@@ -94,7 +94,7 @@ projects:
         
       - title: Driver-EU (2018-2019)
         link: "https://pos.driver-project.eu/nl/PoS/solutions/14"
-        tagline: "Inform crisis authorities on flood predictions."
+        tagline: "Disseminate flood predictions to various crisis authorities."
                 
       - title: ESA EO4SD (2017-2019)
         link: "https://eo4idi.eu"
@@ -146,7 +146,7 @@ packages:
         authors: IPB university, ITC university, W. Suijker
         conference: "Create vegetable maps from Sentinel-1 data."
         
-      - title: Lizard mapping platform API Scripts (2020, private access)
+      - title: Mapping platform API Scripts (2020, private access)
         link: "https://github.com/nens/lizard-api-scripts"
         authors: W. Suijker &amp; C. Kerklaan
         conference: "Python package to interact with the Lizard API."
