@@ -112,13 +112,13 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python Geospatial
+      - name: Python geospatial
         level: 85%
         
       - name: "Map platforms &amp; APIs"
         level: 90%
 
-      - name: "Python web applications (Django, Dash)"
+      - name: "Python web apps (Django, Dash)"
         level: 75%
         
       - name: "QGIS &amp; ArcGIS"
