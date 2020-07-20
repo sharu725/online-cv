@@ -14,7 +14,7 @@ sidebar:
     # Sidebar links
     email: wietze.suijker@gmail.com
     phone: +31 641161186
-    # website: wietzesuijker.github.io/online-cv/ #do not add http://
+    # website: wietzesuijker.github.io #do not add http://
     linkedin: wietze-suijker
     github: wietzesuijker
 
@@ -82,7 +82,7 @@ projects:
         
       - title: "Reed bank monitoring (2019-present)"
         link: "#"
-        tagline: "Apply machine learning too map reed banks from high-resolution satellite and aerial imagery." 
+        tagline: "Apply machine learning to map reed banks from high-resolution satellite and aerial imagery." 
         
       - title: SmartSeeds Indonesia (2017-present)
         link: "https://g4aw.spaceoffice.nl/en/g4aw-projects/g4aw-projects/11/smartseeds.html"
@@ -112,7 +112,7 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python geodata analysis
+      - name: Python Geospatial
         level: 85%
         
       - name: "Map platforms &amp; APIs"
