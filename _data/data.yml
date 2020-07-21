@@ -43,7 +43,7 @@ career-profile:
      - +3 years of experience with full stack web development.
      - Disposition and facility to learn and work with new technologies.
      - Knowledge and experience with software team development.
-     - 2 years working with .NET platform(.NET Core, Azure, SQLServer) and Angular
+     - 2 years working with .NET platform(.NET Core, Azure, SQLServer, Entity Framework) and Angular
 
 
 education:
@@ -59,7 +59,11 @@ experiences:
         - Work as full stack developer on big and critic projects, having experience with different
         technologies(mainly in .NET platform). 
         - Experience with concepts of software security and digital signature in the period working with
-        electronic voting.
+        maintenance of a digital signature SDK and supporting their clients.
+        - Delivered elections to big clients with more than 500k voters.
+        - Developed platform to support some specific elections (ASP.NET MVC).
+        - Work as full stack in a online meetings project, since software validation until the development (Angular 2+ and .NET Core).
+        - Little experience with VoIP technologies, like Asterisk, FastAGI and AsterNET.
  
     
 
