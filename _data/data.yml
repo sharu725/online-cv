@@ -130,8 +130,8 @@ skills:
       - name: R programming
         level: 65%
         
-      - name: MS Office, Trello
-        level: 100%
+      - name: MS Office, Trello, Slack
+        level: 95%
 
 packages:
     title: IT Packages
