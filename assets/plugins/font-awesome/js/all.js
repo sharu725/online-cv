@@ -2201,7 +2201,7 @@ function makeInlineSvgAbstract(params) {
       'data-icon': iconName,
       'class': attrClass,
       'role': 'img',
-      'xmlns': 'http://www.w3.org/2000/svg',
+      'xmlns': 'https://www.w3.org/2000/svg',
       'viewBox': '0 0 ' + width + ' ' + height
     })
   };

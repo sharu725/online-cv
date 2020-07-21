@@ -1,8 +1,8 @@
 #Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
-title: Will Almeida Resume
-url: 'http://will.dev.br'
+title: My Resume
+url: 'https://will.dev.br'
 baseurl: '/mycv' #change it according to your repository name
 description: A beautiful Jekyll theme for creating resume
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
