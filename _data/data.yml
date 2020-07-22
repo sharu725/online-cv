@@ -75,7 +75,7 @@ skills:
         level: 70%
       
       - name: .NET Core/ASP NET
-        level: 55%
+        level: 60%
 
       - name: Azure Services
         level: 45%
@@ -96,7 +96,7 @@ skills:
         level: 60%
 
       - name: Ruby on Rails
-        level: 50%
+        level: 45%
 
       - name: Python/Django
         level: 40%
