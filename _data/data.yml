@@ -33,9 +33,10 @@ career-profile:
     title: Career Profile
     summary: |
       Research Software Engineer solving real-world problems by combining and
-      applying cutting edge research from academia and industry. Advocate for
-      open, sustainable, and reproducible research practices. Passionate about
-      healthy community building and growth.
+      applying cutting edge research from academia and industry. Software
+      Sustainability Fellow. Proud member of the Project Jupyter and Binder teams.
+      Open source contributor. Advocate for open, sustainable, and reproducible
+      research practices. Passionate about healthy community building and growth.
 
 education:
     - degree: Astrophysics Ph.D.
@@ -60,16 +61,16 @@ experiences:
         In my capacity as an RSE, I take responsibility for following best software
         practices throughout the project, implementing required computational
         infrastructure or automated pipelines, data wrangling and analysis,
-        project documentation, and reporting via papers, presentations or blog
-        posts.
+        project documentation, project management, and reporting via papers,
+        presentations or blog posts.
 
         Within the <a href="https://www.turing.ac.uk/research/research-engineering">Research Engineering</a>
         team, I lead two Service Areas that support the project-based work the
         team and wider Turing research community engages in. The
         <b>Research Software Tools Management</b> service area provides access to
-        tools and platforms to assist research and collaboration including GitHub,
-        continuous integration services, Zenodo, and the Slack workspace. The
-        <b>Open Source</b> service area provides advice and support for engaging
+        critical research and collaboration tools including GitHub, continuous
+        integration services, Zenodo, and the Slack workspace. The
+        <b>Open Source</b> service area provides advice and mentoring for engaging
         with open source including developing open source tools and communities,
         publishing in open source journals
         (e.g. <a href="https://joss.theoj.org/">JOSS</a>), and contributing to
@@ -88,15 +89,16 @@ projects:
       - title: Project Binder
         link: "https://mybinder.org"
         details: |
-          I work as part of a team operating a website that serves reproducible
-          computational environments in the cloud to approximately 140k users
-          per week around the world. I maintain cloud infrastructure at the
-          Turing Institute which receives a part of this traffic. I chair the
-          monthly team meetings and onboard or mentor new contributors. I host
-          workshops on using mybinder.org or deploying a replica service, and
-          speak about Binder's community and role in the Open Science domain. At
-          the Turing, I am technical lead and maintainer of a private Binder
-          service for the Turing research community.
+          I work as part of a team operating a public platform that serves
+          reproducible computational environments in the cloud to approximately
+          140k users per week around the world. I wrote a successful bid for a
+          $10k grant to deploy and maintain cloud infrastructure at the Turing
+          Institute which receives a part of this traffic. I chair the monthly
+          team meetings and onboard or mentor new contributors. I host workshops
+          on using mybinder.org or deploying a replica service, and speak about
+          Binder's community and role in the Open Science domain. At the Turing,
+          I am technical lead and maintainer of a private Binder service for the
+          Turing research community.
 
       - title: The Turing Way
         link: "https://github.com/alan-turing-institute/the-turing-way"
@@ -132,7 +134,7 @@ professional-activities:
       time: 2020 - ongoing
       company: <a href="https://software.ac.uk">Software Sustainability Institute</a>
       details: |
-        My Fellowship goal is to promote the Binder community and diversify the
+        My Fellowship will promote the Binder community and diversify the
         skill set of the operating team. By attending conferences for Julia,
         Python and R (the 3 main Jupyter languages), I connect with these
         communities, learn how they use Binder and their future aspirations,
