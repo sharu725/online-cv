@@ -1,5 +1,5 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output.
+# Be aware that even a small syntax error here can lead to failures in output. 
 #
 
 sidebar:
@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Maor Paz
-    tagline: DevOps 
+    tagline: DevOps
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -16,13 +16,12 @@ sidebar:
     phone: +972 54 835 2222
     website:  #do not add http://
     linkedin: maor-paz-033bb1116
-    github: maoriko
+    github: https://github.com/maoriko
     gitlab:
     bitbucket:
     twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
@@ -39,56 +38,60 @@ sidebar:
         link:
 
       - item: Reading
-        link:
+        link:    
 
 career-profile:
     title: Career Profile
     summary: |
-      Hardworking system administrator proficient in hardware, software and security planning. 
-      Able to select, install, configure and manage components. 
-      5 years of progressive IT experience.
-      Driven with expertise in infrastructure planning. 
-      looking forward to the next challenge aiming on DevOps junior position.
-
+      During my job experiance, I had a practical skills with interesting technologies, Tasks, People, In the whole role of my engineering practice 
+      include building and supporting web local SaaS in BigData area, Based on Linux and Windows on-premise and in Azure environment.
+      Infrastracture in local environment based on VMwart technologies monitoring and securing,
+      Linux server setups includs automation to create fully automated machines with ansible.
+      Takes the form part in automating, supporting and ensure CI/CD in product developing. 
 
 
 education:
-    - degree: Linux server management course (DevOps specialization)
-      university: HackerU
-      time: 2019 - present
+
+    - degree: Python development
+      university: INT-Collage
+      time: 2020 - 2021 
       details: |
+        From zero to hero in three monthes, 
+        puts most effort on Databases and linux administration and automation.
+
+
+    - degree: DevOps
+      university: HackerU - Ramat-Gan
+      time: 2019 - 2020
+      details: |
+        LPI 1 + LPI 2 in Linux Systems with DevOps Training camp.
         fundamentals of the Linux operating system.
-        <br />Managing Linux servers & Users..
-        <br />DevOps tools - Docker, Kubernetees, Jenkins, Ansible, Puppet, Git etc.
-        <br />Python & BASH Programming.
-        <br />Course syllabus: <a href="https://www.hackeru.co.il/course/linux">https://www.hackeru.co.il/course/linux</a> 
+        Managing Linux servers & Users.
+        DevOps tools - Docker, Kubernetees, Jenkins, Ansible, Puppet, Git etc.
+        Python & BASH Programming.
 
 
-education:
     - degree: MCSA, CCNA, MCSE.
-      university: HackerU
+      university: HackerU - Ramat-Gan
       time: 2014 - 2015
       details: |
         Starting in MCSA, CCNA, MCSE study program
-        <br />fundamentals of communication protocol
-        <br />managing Microsoft servers - MCSA, MCSE.
-        <br />Active Directory services.
-        <br />Cisco Certification - CCNA.
+        fundamentals of communication protocol
+        managing Microsoft servers - MCSA, MCSE.
+        Active Directory services.
+        Cisco Certification - CCNA.
 
 
-    - degree: Practical Mechanical Engineer
-      university: Hakfar Hayrok
+    - degree: Practical Mechanicl Engineer.
+      university: Hakfar-Hayrok, Ramat-Hasharon
       time: 2008 - 2010
       details: |
-        Practical metirial on car engineering
-        <br />Physics, Math, Hydrolic, Pneomatic Mechanical Engineering.
-        <br />Practical expriance on machins.
-        <br />Mechanicl Engineering Diploma.
-
-
+        Practical & Hands-on mechanical engineering
+        fundamentals physics, Pneomatic, Hydrolic, Extended math.
+        Leading projects with IDF for heavy tools
 
 experiences:
-     - role: DevOps Engineer
+    - role: DevOps Engineer
       time: 2020 - Present
       company: TA9, Tel-Aviv
       details: |
@@ -96,6 +99,7 @@ experiences:
         Mainly working in Azure DevOps enviorment, Shell expiriance, Virtual machines & coms.
         Strong abillity in solving complex problems in all kind. 
         Working on shell and vary kinds of OS and dists.
+        
     
     - role: System Administrator
       time: 2019 - 2020
@@ -110,68 +114,25 @@ experiences:
         Strong knowledge in Visio drawings 
         Strong knowledge in office365 systems + G-Suite Admin centers as one.
 
+
     - role: Windows System Administrator
       time: 2017 - 2019
       company: WestPharma, R'aanana
       details: |
         Introduced VMware infrastructure and management tools to create and manage virtual server computing environment.
         Provided second-level support for all server class systems.
+        Provided second-level support for all Clients in Israel branch systems
         Resolved issues and escalated problems with knowledgeable support and quality service.
+
+
     - role: Help Desk
       time: 2014 - 2016
-      company: Tactivision IT services, London
+      company: Tactivision IT services, Tel-Aviv
       details: |
         fundamentals of IT services
         Fixing Domain issues, DNS, DHCP, Printer servers in windows server enviorment.
         Fixing a daily requests of clients - Malware cleaning, Clean up systems, Migrate data between PC's etc.
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
@@ -191,6 +152,5 @@ skills:
 
       - name: Windows Server
         level: 90%
-
 footer: >
     
