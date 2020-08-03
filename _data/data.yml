@@ -16,7 +16,7 @@ sidebar:
     phone: +972 54 835 2222
     website:  #do not add http://
     linkedin: maor-paz-033bb1116
-    github: https://github.com/maoriko
+    github: github.com/maoriko
     gitlab:
     bitbucket:
     twitter: 
@@ -52,7 +52,7 @@ career-profile:
 
 education:
 
-    - degree: Python development
+    - degree: Python Development
       university: INT-Collage
       time: 2020 - 2021 
       details: |
@@ -106,13 +106,12 @@ experiences:
       company: InManage, Tel-Aviv
       details: |
         Implemented corrective plans of action for network performance issues including availability, utilization, and latency.
-        Implemented a Monitoring systems such as: Zabbix, Observium from scratch.
+        Implemented a Monitoring systems such as Observium from scratch.
         Designing a communication and server rooms by client demends.
         Strong skills in FortiGate equipment, Configuration, Debugging etc.
         Strong knowlrdge in Windows servers & Linux Dists as one.
-        Design & implemented an AWS architecture for critical servers.
-        Strong knowledge in Visio drawings 
-        Strong knowledge in office365 systems + G-Suite Admin centers as one.
+        Design & implement an AWS architecture for critical servers.
+        Strong knowledge in office365 systems + G-Suite Admin centers.
 
 
     - role: Windows System Administrator
@@ -125,21 +124,12 @@ experiences:
         Resolved issues and escalated problems with knowledgeable support and quality service.
 
 
-    - role: Help Desk
-      time: 2014 - 2016
-      company: Tactivision IT services, Tel-Aviv
-      details: |
-        fundamentals of IT services
-        Fixing Domain issues, DNS, DHCP, Printer servers in windows server enviorment.
-        Fixing a daily requests of clients - Malware cleaning, Clean up systems, Migrate data between PC's etc.
-
-
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
       - name: Python 
-        level: 70%
+        level: 90%
 
       - name: BASH
         level: 70%
@@ -147,7 +137,7 @@ skills:
       - name: PowerShell
         level: 80%
 
-      - name: Linux
+      - name: Linux Servers
         level: 85%
 
       - name: Windows Server
