@@ -95,10 +95,10 @@ experiences:
       time: 2020 - Present
       company: TA9, Tel-Aviv
       details: |
-        Resposible on all company architecture, Depolyment tools such as Ansible, Puppet, Vagrant, Terraform.
-        Mainly working in Azure DevOps enviorment, Shell expiriance, Virtual machines & coms.
-        Strong abillity in solving complex problems in all kind. 
-        Working on shell and vary kinds of OS and dists.
+        Responsible on all company architecture, Depolyment tools such as Ansible, Azure DevOps automation CI/CD process.
+        Mainly working in Azure DevOps enviorment, Shell expiriance, Virtual machines of Linux and Windows.
+        Fully automate jobs and processes. 
+        Working on shell and vary kinds of OS and distrubutions.
         
     
     - role: System Administrator
