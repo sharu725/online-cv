@@ -21,7 +21,12 @@ sidebar:
 
     languages:
       - idiom: English
-        level: four.png
+       toolset:
+      - name: speaking
+        level: 50%
+
+      - name: l 
+        level: 50%
 
     interests:
       - item: Football, Cooking, Reading
