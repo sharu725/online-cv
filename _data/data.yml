@@ -14,8 +14,8 @@ sidebar:
     # Sidebar links
     email: quanho1710@gmail.com
     phone: 0984 579 728
+    skype: 0984579728
     github: Jack-Lee-Git
-    telegram: # add your nickname without '@' sign
     gitlab: Jack-Lee-Git
     codewars: Jack%20Lee
 
@@ -59,52 +59,19 @@ experiences:
     
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+    
+    projects:
+      - projects:
+        title: Pos Cashier(Sale Page)
+        tagline: Pos is cashier machine system, placed at checkouts in shops, supermarkets or groceries.... 
+        The Cashier is the main user for this app. It supports for the order payment quickly, conveniently.
+      - projects:
+        title: Pos cashier(Sale Page API)
+        tagline: Based on the requirements of the sale page I build this app to provide APIs for the client.
+      - projects:
+        title: Pos cashier(Admin Page)
+        tagline: This web supports for the manager and the owner can manage their store. 
+        For instance, they can manage order, transaction, product, etc.
 
 skills:
     title: Skills &amp; Proficiency
