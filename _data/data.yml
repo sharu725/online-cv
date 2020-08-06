@@ -60,7 +60,7 @@ experiences:
 projects:
     title: Projects
     
-    projects:
+    assignments:
       - projects:
         title: Pos Cashier(Sale Page)
         tagline: "Pos is cashier machine system, placed at checkouts in shops, supermarkets or groceries...The Cashier is the main user for this app. It supports for the order payment quickly, conveniently."
