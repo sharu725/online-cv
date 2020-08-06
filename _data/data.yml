@@ -63,13 +63,13 @@ projects:
     projects:
       - projects:
         title: Pos Cashier(Sale Page)
-        tagline: Pos is cashier machine system, placed at checkouts in shops, supermarkets or groceries...The Cashier is the main user for this app. It supports for the order payment quickly, conveniently.
+        tagline: "Pos is cashier machine system, placed at checkouts in shops, supermarkets or groceries...The Cashier is the main user for this app. It supports for the order payment quickly, conveniently."
       - projects:
         title: Pos cashier(Sale Page API)
-        tagline: Based on the requirements of the sale page I build this app to provide APIs for the client.
+        tagline: "Based on the requirements of the sale page I build this app to provide APIs for the client."
       - projects:
         title: Pos cashier(Admin Page)
-        tagline: This web supports for the manager and the owner can manage their store. For instance, they can manage order, transaction, product, etc.
+        tagline: "This web supports for the manager and the owner can manage their store. For instance, they can manage order, transaction, product, etc."
 
 skills:
     title: Skills &amp; Proficiency
