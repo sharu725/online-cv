@@ -7,27 +7,21 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
+    name: Quan Ho
     tagline: Full Stack Developer
     avatar: jack.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: quanho1710@gmail.com
     phone: 0984 579 728
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    github: Jack-Lee-Git
     telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    gitlab: Jack-Lee-Git
+    codewars: Jack%20Lee
 
     languages:
       - idiom: English
-        level: Intermediate
+        level: four.png
 
     interests:
       - item: Football
