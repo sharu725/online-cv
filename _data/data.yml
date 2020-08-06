@@ -24,11 +24,7 @@ sidebar:
         level: four.png
 
     interests:
-      - item: Football
-        link:
-
-      - item: Cooking
-        link:
+      - item: Football, Cooking, Reading
 
 career-profile:
     title: Career Profile
