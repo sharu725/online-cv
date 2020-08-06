@@ -41,14 +41,13 @@ career-profile:
 education:
     - degree: The Degree Of Engineer
       university: Da Nang University Of Technology and Science
-      time: 2009 - 2014
-      GPA: 2.6/4
-      Rank: Good
+      time: 2009 - 2014 GPA: 2.6/4 Rank: Good
+    
     
     - degree: Certificate of Professional Programming(JAVA)
-      Center: iViettech Da Nang
-      time: 2019 - 2020
-      Rank: Good
+      university: iViettech Da Nang
+      time: 2019 - 2020   Rank: Good
+    
       
 experiences:
     - role: ReactJS Developer
@@ -75,23 +74,19 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Java Spring Boot
+        level: 50%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Javascript 
+        level: 50%
 
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: ReactJS
         level: 60%
+
+      - name: HTML5 & CSS3
+        level: 60%
+
+    
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
