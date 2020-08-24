@@ -72,7 +72,7 @@ education:
     - degree: Bachelor of Engineering in Computer Science
       university: Adam Mickiewicz University, Poland
       time: 2013 - 2011
-      details: >
+      details: | 
         * Specialization: Information and Internet Technologies
         * Average grade: 4.63/5 Final grade: 4.773/5
         * Thesis grade: 5/5 Viva grade: 5/5
