@@ -50,8 +50,9 @@ sidebar:
 
 career-profile:
     title: Career Profile
-    summary: |
-      I'm a PhD student at Centre for Doctoral Training programme in Pervasive Parallelism. My research area is exploring and optimising large-scale deep learning methods applied to machine translation. I'm interested in natural language processing, information retrieval and data mining. 
+    summary: >
+      I'm a PhD student at Centre for Doctoral Training programme in Pervasive Parallelism. My research area is exploring and optimising large-scale deep learning methods applied to machine translation. 
+      I'm interested in natural language processing, information retrieval and data mining. 
       
 education:
     - degree: Doctor of Philosophy
@@ -144,24 +145,17 @@ projects:
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "Edinburgh's Submissions to the 2020 Machine Translation Efficiency Task"
+        link: "https://www.aclweb.org/anthology/2020.ngt-1.26/"
+        authors: Bogoychev, N., Grundkiewicz, R., Aji, A. F., Behnke, M., Heafield, K., Kashyap, S., ... & Chudyk, M.
+        conference: "The 4th Workshop on Neural Generation and Translation (WNGT 2020)"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Improving Machine Translation of Educational Content via Crowdsourcing"
+        link: "https://www.aclweb.org/anthology/L18-1528/"
+        authors: Behnke, M., Miceli-Barone, A. V., Sennrich, R., Sosoni, V., Naskos, T., Takoulidou, E., ... & Georgakopoulou, P.
+        conference: "11th edition of the Language Resources and Evaluation Conference (LREC 2018)"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
