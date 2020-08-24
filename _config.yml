@@ -1,10 +1,10 @@
 #Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
-title: My Resumeeeeee
+title: Maximiliana Behnke
 url: 'fiqas.github.io'
 baseurl: 'fiqas.github.io' #change it according to your repository name
-description: A beautiful Jekyll theme for creating resume
+description: Resume
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 
 #remote_theme: sharu725/online-cv
