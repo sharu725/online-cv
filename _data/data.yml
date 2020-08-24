@@ -73,9 +73,13 @@ education:
       university: Adam Mickiewicz University, Poland
       time: 2013 - 2011
       details: | 
-        Specialization: Information and Internet Technologies
+        Specialization
+        --------------
+        Information and Internet Technologies
         
-        Thesis: Computer vision and machine learning for automatic extraction of death notices
+        Thesis
+        ======
+        Computer vision and machine learning for automatic extraction of death notices
 
         The system that extracts death notices and obituaries from 20th century Polish newspapers by applying solutions from computer vision and machine learning.
 
