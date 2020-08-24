@@ -59,6 +59,7 @@ education:
       time: 2018 - 2021
       details: |
         **Programme**  _Centre for Doctoral Training in Pervasive Parallelism_
+        
         **Thesis**  _Efficient Neural Machine Translation via optimisation and structural pruning_
         
         Work in progress.
@@ -68,6 +69,7 @@ education:
       time: 2017 - 2018
       details: |
         **Programme**  _Centre for Doctoral Training in Pervasive Parallelism_
+        
         **Thesis**  _Improving Neural Machine Translation Training via Weighted Objectives_
 
         Graduated with distinction.
@@ -97,6 +99,7 @@ experiences:
       company: The University of Edinburgh, Edinburgh, United Kingdom
       details: |
               **Project** TraMOOC -- Translation for Massive Open Online Courses
+              
               **Collaborating Universities** HU Berlin, DCU, IURC, Radboud University, Tilburg University
 
               The collaborative project aiming at providing reliable machine translation for online courses.
@@ -106,7 +109,9 @@ experiences:
       company: Samsung R&D Institute, Poznań, Poland
       details: |
           **Branch**: Artiﬁcial Intelligence 
+          
           **Group** Natural Language Processing 
+          
           **Team** Dialog Translation
           Assigned to Machine Translation sub-team.
 projects:
