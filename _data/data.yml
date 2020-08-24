@@ -51,12 +51,8 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I'm a PhD student at Centre for Doctoral Training programme in Pervasive Parallelism. My research area is exploring and optimising large-scale deep learning methods applied to machine translation. I'm interested in natural language processing, information retrieval and data mining. 
+      
 education:
     - degree: Doctor of Philosophy
       university: The University of Edinburgh, United Kingdom
@@ -65,7 +61,7 @@ education:
         **Programme**  _Centre for Doctoral Training in Pervasive Parallelism_
         **Thesis**  _Efficient Neural Machine Translation via optimisation and structural pruning_
         
-        In progress.
+        Work in progress.
     
     - degree: Master of Science by Research
       university: The University of Edinburgh, United Kingdom
@@ -90,43 +86,29 @@ education:
         
         **Scholarships**  Rector’s Scholarship for Best Students 2014-2017
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Intern
+      time: September 2018 - December 2018
+      company: Ebay, Aachen, Germany
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+              Assigned to Machine Translation team.
+
+    - role: Research Associate
+      time: March 2017 - August 2017
+      company: The University of Edinburgh, Edinburgh, United Kingdom
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+              **Project** TraMOOC -- Translation for Massive Open Online Courses
+              **Collaborating Universities** HU Berlin, DCU, IURC, Radboud University, Tilburg University
+
+              The collaborative project aiming at providing reliable machine translation for online courses.
+
+    - role: Intern
+      time: July 2015 - December 2016
+      company: Samsung R&D Institute, Poznań, Poland
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+          **Branch**: Artiﬁcial Intelligence 
+          **Group** Natural Language Processing 
+          **Team** Dialog Translation
+          Assigned to Machine Translation sub-team.
 projects:
     title: Projects
     intro: >
