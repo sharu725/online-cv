@@ -58,28 +58,34 @@ career-profile:
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Doctor of Philosophy
+      university: The University of Edinburgh, United Kingdom
+      time: 2018 - 2021
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: Bachelor of Engineering in Computer Science
+        **Programme**  _Centre for Doctoral Training in Pervasive Parallelism_
+        **Thesis**  _Efficient Neural Machine Translation via optimisation and structural pruning_
+        
+        In progress.
+    
+    - degree: Master of Science by Research
+      university: The University of Edinburgh, United Kingdom
+      time: 2017 - 2018
+      details: |
+        **Programme**  _Centre for Doctoral Training in Pervasive Parallelism_
+        **Thesis**  _Improving Neural Machine Translation Training via Weighted Objectives_
+
+        Graduated with distinction.
+    
+    - degree: Bachelor of Engineering
       university: Adam Mickiewicz University, Poland
-      time: 2013 - 2011
+      time: 2013 - 2017
       details: | 
-        **Specialization**  Information and Internet Technologies
+        **Specialization**  _Information and Internet Technologies_
         
         **Thesis**  _Computer vision and machine learning for automatic extraction of death notices_
         
         * Average grade: 4.63/5 
         * Thesis grade: 5/5 Viva grade: 5/5
-        * Final grade: 4.773/5
         * Graduation ranking: 4/103 (top 5%)
         
         **Scholarships**  Rector’s Scholarship for Best Students 2014-2017
