@@ -73,12 +73,18 @@ education:
       university: Adam Mickiewicz University, Poland
       time: 2013 - 2011
       details: | 
-        * Specialization: Information and Internet Technologies
-        * Average grade: 4.63/5 Final grade: 4.773/5
+        Specialization: Information and Internet Technologies
+        
+        Thesis: Computer vision and machine learning for automatic extraction of death notices
+
+        The system that extracts death notices and obituaries from 20th century Polish newspapers by applying solutions from computer vision and machine learning.
+
+        * Average grade: 4.63/5 
         * Thesis grade: 5/5 Viva grade: 5/5
+        * Final grade: 4.773/5
         * Graduation ranking: 4/103 (top 5%)
-          - Bullet point
-          - Bullet point
+        
+        - Awarded Rector’s Scholarship for Best Students 2014-2017
 experiences:
     - role: Lead Developer
       time: 2015 - Present
