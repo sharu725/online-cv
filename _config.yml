@@ -2,7 +2,7 @@
 
 # Site Settings
 title: Maximiliana Behnke
-url: 'fiqas.github.io'
+url: 'mbehnke.info'
 baseurl: 'fiqas.github.io' #change it according to your repository name
 description: Resume
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
