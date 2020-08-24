@@ -109,38 +109,36 @@ experiences:
       time: July 2015 - December 2016
       company: Samsung R&D Institute, Poznań, Poland
       details: |
-          **Branch**: Artiﬁcial Intelligence 
-          
-          **Group** Natural Language Processing 
-          
-          **Team** Dialog Translation
+          **Branch**: Artiﬁcial Intelligence, **Group** Natural Language Processing, **Team** Dialog Translation
+
           Assigned to Machine Translation sub-team.
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
+      - title: Marian
+        link: "https://github.com/fiqas/marian-dev"
+        tagline: "Contributing to the development of Marian - a fast C++ Neural Machine Translation toolkit."
+      
+      - title: Parallel Corpora Crawler
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "The parallelizable system that crawls and extracts parallel sentences in two speciﬁed languages given a list of domains."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Gazette Extractor
+        link: "https://github.com/fiqas/gazette_extractor"
+        tagline: "The system that extracts death notices and obituaries from 20th century Polish newspapers by applying solutions from computer vision and machine learning."
 
-      - title: Atom
+      - title: Playstation Manual Similarity
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: "Applied information retrieval techniques to corpora made of Playstation video-game manuals to compare them with each other."
 
-      - title: Delta
+      - title: MangaEditor
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "A computer-vision program that automatically cleans speech bubbles in comics, tested and applied for Japanese and English languages."
+
+      - title: Pokemon Garden
+        link: "#"
+        tagline: "A simple game utilizing techniques from human-computer interaction and AI."
 
 publications:
     title: Publications
