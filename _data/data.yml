@@ -14,7 +14,7 @@ sidebar:
     # Sidebar links
     email: maximiliana.behnke@ed.ac.uk
     #phone: 012 345 6789
-    website: mbehnke.com #do not add http://
+    #website: mbehnke.com #do not add http://
     linkedin: maximiliana-behnke
     github: fiqas
     telegram: # add your nickname without '@' sign
@@ -72,17 +72,11 @@ education:
     - degree: Bachelor of Engineering in Computer Science
       university: Adam Mickiewicz University, Poland
       time: 2013 - 2011
-      details: |
-        Specialization: Information and Internet Technologies
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-        Specialization: Information and Internet Technologies
-        Average grade: 4.63/5 Final grade: 4.773/5
-        Thesis grade: 5/5 Viva grade: 5/5
-        Graduation ranking: 4/103 (top 5%)
+      details: >
+        * Specialization: Information and Internet Technologies
+        * Average grade: 4.63/5 Final grade: 4.773/5
+        * Thesis grade: 5/5 Viva grade: 5/5
+        * Graduation ranking: 4/103 (top 5%)
           - Bullet point
           - Bullet point
 experiences:
