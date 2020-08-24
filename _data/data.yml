@@ -57,7 +57,7 @@ career-profile:
 education:
     - degree: Doctor of Philosophy
       university: The University of Edinburgh, United Kingdom
-      time: 2018 - 2021
+      time: 2018 - Present
       details: |
         **Programme**  _Centre for Doctoral Training in Pervasive Parallelism_
         
@@ -89,6 +89,15 @@ education:
         
         **Scholarships**  Rector’s Scholarship for Best Students 2014-2017
 experiences:
+    - role: Tutor & Demonstrator
+      time: 2018 - Present
+      company: Ebay, Aachen, Germany
+      details: |
+              Part time teaching vacancies. 
+
+              * Introductory Applied Machine Learning
+              * Machine Learning Practical
+    
     - role: Intern
       time: September 2018 - December 2018
       company: Ebay, Aachen, Germany
@@ -159,23 +168,29 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Python
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: C++
+        level: 75%
+      
+      - name: C
+        level: 50%
 
-      - name: Sketch & Photoshop
+      - name: Linux/Bash
+        level: 90%
+
+      - name: Linux/Bash
+        level: 90%
+      
+      - name: Git
+        level: 70%
+
+      - name: Pytorch
         level: 60%
+
+      - name: Tensorflow
+        level: 40%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
