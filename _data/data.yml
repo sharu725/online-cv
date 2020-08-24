@@ -147,7 +147,7 @@ projects:
 
       - title: MangaEditor
         link: "#"
-        tagline: "A computer-vision program that automatically cleans speech bubbles in comics, tested and applied for Japanese and English languages."
+        tagline: "A computer-vision program that automatically cleans speech bubbles in comics, tested and applied to Japanese and English languages."
 
       - title: Pokemon Garden
         link: "#"
