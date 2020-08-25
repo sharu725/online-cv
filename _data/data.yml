@@ -67,7 +67,7 @@ experiences:
       time: 2016 - Present
       company: Nelen &amp; Schuurmans, Utrecht
       details: |
-        In the Water &amp; Agri team, I create geo-information services to support decisions with the best available (satellite) data. I have the technical lead in international development project consortia, such as SpiceUp Indonesia. I create operational information systems, analyse remote sensing data and build Python solutions. As an API expert, I ease the integration of client operations with our IT products. Furthermore, I am a trustworthy and analytical colleague that delivers sustainable results.
+        In the Water &amp; Agri team, I create geo-information services to support decisions with the best available (satellite) data. I have the technical lead in international development projects, such as SpiceUp Indonesia. I create operational information systems, analyse remote sensing data and build Python solutions. As an API expert, I ease the integration of client operations with our IT products. Furthermore, I am a trustworthy and analytical colleague that delivers sustainable results.
         
 projects:
     title: Projects &amp; Roles
@@ -112,7 +112,7 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python geospatial
+      - name: "Python geospatial"
         level: 85%
         
       - name: "Map platforms &amp; APIs"
@@ -127,10 +127,10 @@ skills:
       - name: "PostgreSQL &amp; PostGIS"
         level: 80%
         
-      - name: R programming
+      - name: "R programming"
         level: 65%
         
-      - name: MS Office, Trello, Slack
+      - name: "MS Office, Trello, Slack"
         level: 95%
 
 packages:
