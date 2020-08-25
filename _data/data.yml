@@ -82,7 +82,7 @@ projects:
         
       - title: "Reed bank monitoring (2019-present)"
         link: "#"
-        tagline: "Apply machine learning to map reed banks from high-resolution satellite and aerial imagery." 
+        tagline: "Apply machine learning & deep learning image segmentation to map reed banks from high-resolution satellite and aerial imagery." 
         
       - title: SmartSeeds Indonesia (2017-present)
         link: "https://g4aw.spaceoffice.nl/en/g4aw-projects/g4aw-projects/11/smartseeds.html"
@@ -146,7 +146,12 @@ packages:
         authors: IPB university, ITC university, W. Suijker
         conference: "Create vegetable maps from Sentinel-1 data."
         
-      - title: Mapping platform API Scripts (2020, private access)
+      - title: dask-geomodeling (2020) - <u>Github</u>
+        link: "https://github.com/nens/dask-geomodeling"
+        authors: C. van de Wel, A. Verkerk, J.M. Vazquez Jimenez, R. van Rees &amp; W. Suijker
+        conference: "On-the-fly operations on geographical maps."
+        
+      - title: Mapping platform API scripts (2020, private access)
         link: "https://github.com/nens/lizard-api-scripts"
         authors: W. Suijker &amp; C. Kerklaan
         conference: "Python package to interact with the Lizard API."
@@ -156,7 +161,7 @@ packages:
         authors: E. Verstegen, W. Suijker
         conference: "Python package to download 3Di results."
     
-      - title: Mapping platform SMAP import (2019, private access)
+      - title: SMAP import (2019, private access)
         link: "https://github.com/nens/lizard-smap-import"
         authors: W. Suijker
         conference: "Feed Lizard mapping platform with global soil moisture data."
@@ -166,20 +171,20 @@ packages:
         authors: W. Suijker
         conference: "Auto-generate regional reports from Lizard data."
         
-      - title: IDSS Local Processing Server (2018)
-        link: "https://github.com/nens/idds_processing_server#local-processing-server"
-        authors: Roos Geosolutions, W. Suijker
-        conference: "Collect data, run crop suitability and P&D models, and publish via API."
+      - title: Django Local Processing Server (2018 &amp; 2020)
+        link: "https://github.com/nens/lps-indonesia"
+        authors: W. Suijker, Roos Geosolutions &amp; R. van Rees
+        conference: "Deploy Django REST framework to post raster data, run models, and publish information via api using local (Google) cloud solutions."
 
 publications:
     title: Publications
     papers:
-      - title: Sat4Rice feeds Vietnam with geo-information (2018)
-        link: "https://geoinformatienederland.nl/system/files/documents/Def%20drukproef%20Geo%20Info%204-2018%20LR.pdf"
-        authors: W. Suijker &amp; A. Hoff
-        conference: "Geo-informatie Nederland 2018-4, pp. 56-59 (in Dutch)."
-
       - title: Temporal and spatial aggregation of NDVI to predict rice yields (2018)
         link: "https://doi.org/10.1117/12.2319189"
         authors: W. Suijker &amp; E. Aparicio Medrano
         conference: "SPIE 10783, Remote Sensing for Agriculture, Ecosystems, and Hydrology."
+        
+      - title: Sat4Rice feeds Vietnam with geo-information (2018)
+        link: "https://geoinformatienederland.nl/system/files/documents/Def%20drukproef%20Geo%20Info%204-2018%20LR.pdf"
+        authors: W. Suijker &amp; A. Hoff
+        conference: "Geo-informatie Nederland 2018-4, pp. 56-59 (in Dutch)."
