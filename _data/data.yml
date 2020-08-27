@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Maximiliana Behnke
     tagline: PhD student
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile_pic.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: maximiliana.behnke@ed.ac.uk
