@@ -153,7 +153,7 @@ packages:
         
       - title: dask-geomodeling (2020) - <u>Github</u>
         link: "https://github.com/nens/dask-geomodeling"
-        authors: C. van de Wel, A. Verkerk, J.M. Vazquez Jimenez, R. van Rees &amp; W. Suijker
+        authors: C. van der Wel, A. Verkerk, J.M. Vazquez Jimenez, R. van Rees &amp; W. Suijker
         conference: "On-the-fly operations on geographical maps."
         
       - title: Mapping platform API scripts (2020, private access)
