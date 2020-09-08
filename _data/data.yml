@@ -25,21 +25,11 @@ sidebar:
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
-    languages:
-      - idiom: java
-        level: 중
-        
-      - idiom: kotlin
-        level: 하
-
     interests:
       - item: 책읽기
         link:
 
       - item: 자전거타기
-        link:
-
-      - item: 걷기
         link:
 
 career-profile:
@@ -52,28 +42,11 @@ career-profile:
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: 컴퓨터공학부
+      university: 공주대학교 천안캠퍼스
+      time: 2012.2 - 2018.2
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        컴퓨터 만지는걸 좋아해서 진학해서 기초적인것을 습득함
 experiences:
     - role: Lead Developer
       time: 2015 - Present
