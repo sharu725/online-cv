@@ -3,7 +3,7 @@
 # Site Settings
 title: 앙대경띠
 url: 'http://webjeda.com'
-baseurl: '/안녕대경' #change it according to your repository name
+baseurl: '/online-cv' #change it according to your repository name
 description: A beautiful Jekyll theme for creating resume
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: Orange # blue turquoise green berry orange ceramic
