@@ -183,14 +183,26 @@ publications:
       #   conference: "Comm. ACM 4 (1961), 51–55"
 
 honorsnawards: 
-    title: Honors & Awards
+    title: Honors and Awards
     intro: |
 
 
-    papers:
+    events:
       - title: Finalist of Wash Innovation Challenge
-        authors: test, team, mates
-        conference: test venue
+        time: March 2222
+        issuer: test org
+        venue: test venue 
+        details: |
+    #     Describe your role here lorem ipsum dolor sit amet, consectetuer
+    #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+    #     Cum sociis natoque penatibus et magnis dis parturient montes,
+    #     nascetur ridiculus mus. Donec quam felis, ultricies nec,
+    #     pellentesque eu, pretium quis, sem.
+
+    #       - Bullet point
+    #       - Bullet point
+
+
 
 skills:
     title: Skills &amp; Proficiency

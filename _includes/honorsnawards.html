@@ -16,11 +16,23 @@
   </div><!--//intro-->
   {% endif %}
 
-  {% for honorsnaward in honorsnawards.papers %}
+  {% for hna in honorsnawards.events %}
   <div class="item">
-    <div class="honorsnawards-title">{{ honorsnawards.title }}</div>
-    <div class="honorsnawards-authors">{{ honorsnawards.authors }}</div>
-    <div class="honorsnawards-conference">{{ honorsnawards.conference }}</div>
+    <div class="meta">
+
+      </div><div class="honorsnawards-title">{{ hna.title }}</div>
+      <div class="honorsnawards-time">{{ hna.time }}</div>
+      <div class="honorsnawards-issuer">{{ hna.issuer }}</div>
+      <div class="honorsnawards-venue">{{ hna.issuer }}</venue>
+      
+    </div><!--//meta-->
+
+    {% if hna.details %}
+    <div class="details">
+      {{ hna.details | markdownify }}
+    </div><!--//details-->
+    {% endif %}
+
   </div><!--//item-->
   {% endfor %}
 
