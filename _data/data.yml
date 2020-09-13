@@ -50,7 +50,7 @@ career-profile:
     summary: |
       A graduate of EEE from BRAC University. Due to keen interest in robotics and artificial intelligence, involved with BRACU Robotics Club (ROBU), BRACU Computer Club(BUCC) and pursued a minor in Computer science as well.
       
-      Therefore, to work in a challenging environment, implementing interdisciplinary skills & hands on knowledge for individual development while contributing to the greater community is the primary career focus.
+      To work in a challenging environment, implementing interdisciplinary skills & hands on knowledge for individual development while contributing to the greater community is the primary career focus.
 
 education:
     - degree: BSc in Electrical and Electronic Engineering
@@ -82,12 +82,12 @@ education:
 
 experiences:
     - role: IoT Engineer
-      time: April 2019 - Present
+      time: April 2019 - April 2020
       company: TechCom LTD
       link: https://www.techcombd.net/
       details: |
-        Working as an embedded system engineer for IoT devices.
-        My job responsibilities includes design, prototype and deployment of real-time remote sensing/controlling of IoT systems.
+        Worked as an embedded system engineer for IoT devices.
+        My job responsibilities included design, prototype and deployment of real-time remote sensing/controlling of IoT systems.
 
           - Firmware Development
           - PCB Design
