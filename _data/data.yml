@@ -14,12 +14,12 @@ sidebar:
     # Sidebar links
     email: jackmnolley@gmail.com
     phone: (402) 613-6333
-    #website: blog.webjeda.com #do not add http://
+    website: blog.webjeda.com #do not add http://
     linkedin: jack-nolley
     github: 
     telegram: # add your nickname without '@' sign
-    gitlab:?
-    bitbucket:?
+    gitlab:
+    bitbucket:
     twitter: '@jacknolley'
     stack-overflow:? # Number/Username, e.g. 123456/alandoe
     codewars:
