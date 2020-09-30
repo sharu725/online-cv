@@ -7,33 +7,33 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Desislav Daradzhanski
+    tagline: Java Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: desislav_1993@live.com
+    phone:
+    website:  #do not add http://
+    linkedin: desislav-daradjanski-43653b129
+    github: desislavdaradjanski
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
-        level: Native
+        level: Intermediate
 
       - idiom: French
-        level: Professional
+        level: Basic
 
-      - idiom: Spanish
-        level: Professional
+      - idiom: Bulgarian
+        level: Native
 
     interests:
       - item: Climbing
