@@ -62,9 +62,9 @@ education:
   #          - Bullet point
   #          - Bullet point
   - degree: BSc in Computer Science
-      university: ELTE University ,Hungary/ Budapest
-      time: 2018 - spring semester
-      details: Exchange student  with CEEPUS
+    university: ELTE University ,Hungary/ Budapest
+    time: 2018 - spring semester
+    details: Exchange student  with CEEPUS
 
       - degree: BSc in Informatic
         university: University of Plovdiv "Paisii Hilendarski" , Bulgaria/Plvdiv
