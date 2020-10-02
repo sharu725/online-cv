@@ -90,7 +90,7 @@ experiences:
     details: |
       Plastic parts for other company
 
-#projects:
+projects:
 #  title: Projects
 #  intro: >
 #    You can list your side projects or open source libraries in this
@@ -117,7 +117,7 @@ experiences:
 #      link: "#"
 #      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 #
-#publications:
+publications:
 #  title: Publications
 #  intro: |
 #    You can list your publications in this section. Lorem ipsum dolor sit
