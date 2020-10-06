@@ -71,9 +71,6 @@ education:
       university: COMSATS Institute of Information Technology
       time: 2007 - 2011
       details: |
-        
-
-
       Summarise your career here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. You can [download this free resume/CV template here]().
       Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
@@ -127,7 +124,7 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point
->>>>>>> f1ce335b16fb6727da955eb146a2651569bfe40b
+
     - role: Senior Software Engineer
       time: 2011 - 2016
       company: Bahria Town Pvt. Ltd. RWP,PK
