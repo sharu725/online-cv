@@ -1,5 +1,5 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output. 
+# Be aware that even a small syntax error here can lead to failures in output.
 #
 
 sidebar:
@@ -16,12 +16,18 @@ sidebar:
     phone: +92 324 511 2079
     website: techaims.com #do not add http://
     linkedin: alandoe
+<<<<<<< HEAD
     github: techaims-team
+=======
+    github: sharu725
+    telegram: # add your nickname without '@' sign
+>>>>>>> f1ce335b16fb6727da955eb146a2651569bfe40b
     gitlab:
     bitbucket:
     twitter: '@AmirNazir80'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: Urdu
@@ -30,8 +36,14 @@ sidebar:
       - idiom: English
         level: Professional
 
+<<<<<<< HEAD
       
         
+=======
+      - idiom: Spanish
+        level: Professional
+
+>>>>>>> f1ce335b16fb6727da955eb146a2651569bfe40b
     interests:
       - item: Climbing
         link:
@@ -45,6 +57,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
+<<<<<<< HEAD
       Recruited by two of the nation’s leading IT consulting firms to provide project management over large-scale, 
       top-priority and complex technology initiatives. Managed budgets of up to $8M and cross-functional teams of 
       up to 25 developers, programmers, analysts and network specialists.
@@ -60,21 +73,67 @@ education:
       details: |
         
 
+=======
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
+education:
+    - degree: MSc in Computer Science
+      university: University of London
+      time: 2011 - 2012
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: BSc in Applied Mathematics
+      university: Bristol University
+      time: 2007 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+>>>>>>> f1ce335b16fb6727da955eb146a2651569bfe40b
 experiences:
     - role: IT Administrator
       time: 2004 - 2009
       company: Portuges Embassy ISB,Pk
       details: |
+<<<<<<< HEAD
           -Recruited to establish Database in VB for Visa Section, Coordinated with management and
           end user, to convene the needs of the department.
           - Established a Program for daily phone calls record in Access, enabling users to have
           printout to keep the hard copy for the concerned person or attach with visa process.
           - Enhanced Ethernet computer network
 
+=======
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+          - Bullet point
+          - Bullet point
+>>>>>>> f1ce335b16fb6727da955eb146a2651569bfe40b
     - role: Senior Software Engineer
       time: 2011 - 2016
       company: Bahria Town Pvt. Ltd. RWP,PK
       details: |
+<<<<<<< HEAD
           Bahria Town is an organization dealing in real estate and it is one of the biggest real estate services
           provider in Asia. Bahria town has schools, hospitals, shopping centers, clubs and every department
           depends upon automated systems developed in house.Recently being a part of Bahria town’s Project ACE International Academy’s(www.aceia.edu.pk) IT
@@ -94,22 +153,40 @@ experiences:
             Transport Management
             Inventory Management
             Club Management
+=======
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+>>>>>>> f1ce335b16fb6727da955eb146a2651569bfe40b
     - role: UI Developer
       time: 2012 - 2014
       company: Osaka Cargo Clearing and Forwarding LLC Sharjah U.A.E
       details: |
+<<<<<<< HEAD
              Desktop application
             - Human Resource Management
             - Accounts Management
             - Transport Management
 
+=======
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+>>>>>>> f1ce335b16fb6727da955eb146a2651569bfe40b
 projects:
     title: Projects
     intro: >
       You can list your side projects or open source libraries in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-
     assignments:
       - title: Velocity
         link: "#hook"
@@ -137,17 +214,19 @@ publications:
       You can list your publications in this section. Lorem ipsum dolor sit
       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
       bibendum fringilla a eu lectus.
-
     papers:
       - title: The Art of Computer Programming
+        link: "#"
         authors: Donald E. Knuth
         conference: Addison-Wesley, 1968
 
       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        link: "#"
         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
       - title: A syntax directed compiler for Algol 60
+        link: "#"
         authors: Edgar T. Irons
         conference: "Comm. ACM 4 (1961), 51–55"
 

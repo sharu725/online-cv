@@ -20,7 +20,11 @@
     <div class="item">
 
       <span class="project-title">
-        <a href="{{ project.link }}">{{ project.title }}</a>
+        {% if project.link %}
+        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+        {% else %}
+        {{ project.title }}
+        {% endif %}
       </span>
 
       {% if project.tagline %}
