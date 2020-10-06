@@ -7,37 +7,36 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
+    name: Amir Nazir
     tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: pro_db.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
+    email: amir.nazir80@gmail.com
+    phone: +92 324 511 2079
+    website: techaims.com #do not add http://
     linkedin: alandoe
-    github: sharu725
+    github: techaims-team
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@AmirNazir80'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
 
     languages:
-      - idiom: English
+      - idiom: Urdu
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
 
-      - idiom: Spanish
-        level: Professional
+      
         
     interests:
       - item: Climbing
         link:
 
-      - item: Snowboarding
+      - item: Carpentering
         link:
 
       - item: Cooking
@@ -46,84 +45,63 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      Recruited by two of the nation’s leading IT consulting firms to provide project management over large-scale, 
+      top-priority and complex technology initiatives. Managed budgets of up to $8M and cross-functional teams of 
+      up to 25 developers, programmers, analysts and network specialists.
 
-      Second paragraph if required.
+      
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+   
 
-          - Bullet point
-          - Bullet point 
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+    - degree: Bachelor of Science, Computer Engineering June 2011
+      university: COMSATS Institute of Information Technology
       time: 2007 - 2011
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point 
+        
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: IT Administrator
+      time: 2004 - 2009
+      company: Portuges Embassy ISB,Pk
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-
-          - Bullet point
-          - Bullet point 
+          -Recruited to establish Database in VB for Visa Section, Coordinated with management and
+          end user, to convene the needs of the department.
+          - Established a Program for daily phone calls record in Access, enabling users to have
+          printout to keep the hard copy for the concerned person or attach with visa process.
+          - Enhanced Ethernet computer network
 
     - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+      time: 2011 - 2016
+      company: Bahria Town Pvt. Ltd. RWP,PK
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+          Bahria Town is an organization dealing in real estate and it is one of the biggest real estate services
+          provider in Asia. Bahria town has schools, hospitals, shopping centers, clubs and every department
+          depends upon automated systems developed in house.Recently being a part of Bahria town’s Project ACE International Academy’s(www.aceia.edu.pk) IT
+          department and appointed to work on School management systems
 
-          - Bullet point
-          - Bullet point
-
+          - School Management System
+            The School Management System is a compact program, designed to provide
+            excellent solutions to meet the fast growing IT demands in the World. Its aim is to
+            bring quality and convenience to Education Management. SMS provides modern tools
+            to save time and help to achieve goals efficiently
+          - Key Futures
+            Administration \ Human Resource Management
+            Student Management
+            Accounts Management
+            Attendance Management
+            Library Management
+            Transport Management
+            Inventory Management
+            Club Management
     - role: UI Developer
       time: 2012 - 2014
-      company: Amazon, London
+      company: Osaka Cargo Clearing and Forwarding LLC Sharjah U.A.E
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+             Desktop application
+            - Human Resource Management
+            - Accounts Management
+            - Transport Management
 
 projects:
     title: Projects
