@@ -61,6 +61,17 @@ education:
       details: |
 
 experiences:
+    - role: Senior Developer (contract)
+      time: Feb 2020 – Aug 2020
+      company: Workcover Qld
+      details: |
+
+          - Maintain existing projects making changes and fixes as identified by the business
+          - Develop solutions in accordance with sprint requirements
+          - Work using an Agile process.        
+          - Core skillsets leveraged: Spring Boot, Java, Maven, Angular & Javascript, Oracle.
+        
+
     - role: Senior Business Process Consultant
       time: Feb 2009 – Apr 2019
       company: SAP Ariba
@@ -82,7 +93,7 @@ experiences:
         
           - Improved testing line coverage from 30% -> 75%.  Recognised with an award as I drove this to a best practice 
           mandatory task; ensuring developers not only accepted but enjoyed the process
-          - Designed and deliver requirements for stakeholders on a regular release cycle with zero delays or errors
+          - Designed and delivered requirements for stakeholders on a regular release cycle with zero delays or errors
           - Flexibility, working with and understanding people from different cultural backgrounds, technical abilities 
           and time zones thereby enabling faster turnarounds for the project cycles.           
           - Ensured team documentation was up-to-date and accurate
