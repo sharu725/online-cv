@@ -7,42 +7,39 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Apaza Leo
+    tagline: QA Tester
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
+    email: leoapaza2@gmail.com
+    phone: 381 4740275
+    #website: blog.webjeda.com #do not add http://
+    linkedin: leo-apaza
+    github: leoapz
+    #telegram: # add your nickname without '@' sign
+    gitlab: leo-apaza
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
+    twitter: '@LeoApz'
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+    #codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: Español
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: Ingles
+        level: A2
 
     interests:
-      - item: Climbing
+      - item: Trekking
         link:
 
-      - item: Snowboarding
+      - item: CrossFit
         link:
 
-      - item: Cooking
+      - item: Folk
         link:
 
 career-profile:
