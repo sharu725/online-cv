@@ -50,9 +50,12 @@ education:
       university: >
         Wageningen University &amp; Research,
         
-        Delft University of Technology,
         
-        Utrecht University, 
+        Delft University of Technology,        
+        
+        
+        Utrecht University,         
+        
         
         University of Twente (ITC)
         
@@ -85,23 +88,23 @@ projects:
     assignments:
       - title: <u>SpiceUp.live</u> Indonesia (2018-2020)
         link: "https://spiceup.live/"
-        tagline: "Project leader / scrum master of the technical work package with international partners. Create a satellite data platform that supports pepper farmers and their supply chain."
+        tagline: "Project leader / scrum master of the technical work package. Create a satellite data platform that supports pepper farmers and their supply chain."
         
-      - title: "Interactive heat stress mapping <u>demo</u> (2020-2020)"
+      - title: "Dutch hi-res heat stress map & interactive tool <u>demo</u> (2019-2020)"
         link: "https://drive.google.com/file/d/1VAOIJYxF5wfpfDsgPGypbmVkBGjn4bZO/view?usp=sharing"
         tagline: "Implement back-end geodata model for online spatial planning tool, e.g. planting trees." 
         
       - title: "Reed bank monitoring (2019-2020)"
         link: "#"
-        tagline: "Apply machine learning & deep learning image segmentation to map reed banks from high-resolution satellite and aerial imagery." 
+        tagline: "Apply machine learning & deep learning image segmentation to remote sensing data." 
         
       - title: SmartSeeds Indonesia (2017-present)
         link: "https://g4aw.spaceoffice.nl/en/g4aw-projects/g4aw-projects/11/smartseeds.html"
-        tagline: "Establish Django-based local processing server and automate vegetable mapping from Sentinel-1 SAR data. Technical architect of platform to integrate satellite data, field data and agri-models into an android app for vegetable farmers."
+        tagline: "Technical architect of platform to integrate satellite data, field data and agri-models into an android app for vegetable farmers."
         
       - title: "Impact-based forecasting for the Red Cross (2019)"
         link: "https://www.510.global/impact-based-forecast/"
-        tagline: "Connect web map services with Red Cross dashboard to increase the accuracy of flood forecasts for humanitarian aid workers."
+        tagline: "Connect flood forecasts to dashboard for humanitarian aid in Zambia."
         
       - title: Driver-EU (2018-2019)
         link: "https://pos.driver-project.eu/nl/PoS/solutions/14"
@@ -109,7 +112,7 @@ projects:
                 
       - title: ESA EO4SD (2017-2019)
         link: "https://eo4idi.eu"
-        tagline: "Create data catalog to integrate state-of-the-art EO-based information services for agricultural monitoring and management by IFIs."
+        tagline: "Create data catalog to integrate state-of-the-art EO-based information services from eLEAF, DHI GRAS, GeoVille and Satelligence for agricultural monitoring and management by IFIs."
         
       - title: IDSS Bangladesh (2016-2019)
         link: "https://fosholi.com/en/"
@@ -129,7 +132,7 @@ skills:
       - name: "Map platforms &amp; APIs"
         level: 90%
 
-      - name: "Python web (Django, Dash)"
+      - name: "Python web apps (Django, Dash)"
         level: 75%
         
       - name: "QGIS &amp; ArcGIS"
@@ -180,7 +183,7 @@ packages:
       - title: Django Local Processing Server (2018 &amp; 2020)
         link: "https://github.com/nens/lps-indonesia"
         authors: W. Suijker, Roos Geosolutions &amp; R. van Rees
-        conference: "Deploy Django REST framework to post raster data, run models, and publish information services via API through Google Cloud Platform."
+        conference: "REST API to post rasters, run models, and publish through GCP."
 
 publications:
     title: Publications
