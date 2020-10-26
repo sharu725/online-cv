@@ -13,8 +13,8 @@ sidebar:
 
     # Sidebar links
     email: m.alianjum0@gmail.com
-    phone: +39 349 794 9275
-    website: github.com/alianjum0/online-cv #do not add http://
+    #phone: +39 349 794 9275
+    #website: github.com/alianjum0/online-cv #do not add http://
     linkedin: alianjum0
     github: alianjum0
     telegram: # add your nickname without '@' sign
@@ -41,6 +41,37 @@ sidebar:
 
       - item: Running
         link:
+
+    certificates:
+      - item: Continuous Integration
+        link: https://www.coursera.org/account/accomplishments/certificate/637VHNMTB7MB
+        organization: Coursera
+        date: 10/2020
+
+      - item: Rest API (Intermediate)
+        link: https://www.hackerrank.com/certificates/dc7e9e812f20
+        organization: HackerRank
+        date: 10/2020
+
+      - item: JavaScript (Basic)
+        link: https://www.hackerrank.com/certificates/dde068e84bf4
+        organization: HackerRank
+        date: 10/2020
+
+      - item: Python (Basic)
+        link: https://www.hackerrank.com/certificates/c310cb9c4568
+        organization: HackerRank
+        date: 10/2020
+
+      - item: Java (Basic)
+        link: https://www.hackerrank.com/certificates/e31a3e0a734f
+        organization: HackerRank
+        date: 10/2020
+
+      - item: Problem Solving (Basic)
+        link: https://www.hackerrank.com/certificates/dc67ae8fd0a4
+        organization: HackerRank
+        date: 10/2020
 
 career-profile:
     title: Career Profile
