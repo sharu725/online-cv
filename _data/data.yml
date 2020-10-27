@@ -76,9 +76,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Seek challenging assignment and responsibility, with an opportunity 
-      for growth and career advancement. Achieve success in life to 
-      give back to society.
+      To obtain a challenging and rewarding position to fully utilise problem solving and programming skills. Dedicated and efficient software engineer with 3+ years of experience. Worked on projects including European eID4u, real-time vehicle tracking system, and bio-metric authentication. Happy to take new challenges and overcome them with hard work and positive attitude.
 education:
     - degree: Master’s in Computer Engineering
       university: Politecnico Di Torino
@@ -93,6 +91,7 @@ education:
       university: National University of Sciences and Technology
       time: 2011 - 2015
       details: |
+          - Thesis: Design and development of WiFi access with eIDAS for cross border authentication
           - Studies focused on software design and development with Distributed 
             Computing as major.
           - Related Courses: Distributed Systems, Operating Systems, Object Oriented 
@@ -104,13 +103,13 @@ experiences:
       company: TORSEC - Computer and Network Security Group, DAUIN, Politecnico di Torino
       details: |
           - Design and development of a WiFi access service with eIDAS for cross border authentication.
-          - Research includes PKI, digital identity, network security, protection of network applications and design of security architecture for large IT systems.
-          - My responsibility included the research and development of service provider to authenticate using eIDAS regulation and integrate in the Politecnico di Torino network.
+          - Developed a service provider to authenticate using eIDAS regulation and integrated it in the Politecnico di Torino network.
+          - Research areas: PKI, digital identity, network security and protection of network.
     - role: Full Stack Engineer
-      time: 01/2016 - 12/2018
+      time: 08/2016 - 12/2018
       company: Awesomebox Technologies, Lockport, Illinois, United States
       details: |
-          - Design and development of an IT assistant as a software solution.
+          - Designed and developed an IT assistant as a software solution.
           - RESTful web API was developed in Node.js and windows application
             was developed in NW.js.
           - Elasticsearch was used for effective and accurate searching.
@@ -129,25 +128,25 @@ experiences:
       time: 11/2015 - 07/2016
       company: TeReSol Pvt Ltd
       details: |
-          - Designed, developed and implemented a RESTful web service for real-time vehicle tracking in Node.js using Sails MVC Framework.
+          - Designed, developed and implemented a RESTful web service for real-time vehicle tracking system in Node.js using Sails MVC Framework.
     - role: Chief Technology Officer
       time: 09/2014 - 01/2016
       company: Traverse Pakistan
       details: |
           - Leading the development of  web portal using REST API in Django.
     - role: Software Developer
-      time: 01/2015 - 11/2015
+      time: 01/2015 - 10/2015
       company: Ops Assurance, Coventry, UK
       details: |
-          - Cross platform application development.
-          - Back-end developed in Nodejs using Express framework.
-          - AngularJS for client side MVC.
-          - Ionic Framework.
+          - Cross platform mobile application was developed using Ionic Framework.
+          - Back-end was developed in Nodejs using Express framework and front-end was developed in AnugularJS with MVC design pattern.
     - role: Research Assistant
       time: 08/2014 - 06/2015
       company: Information Processing & Transmission Lab, Islamabad, Pakistan
       details: |
-          - Development of virtual platform to operate software defined radios from command center over SSH for opportunistic large array networks configurations.
+          - Design and Development of Opportunistic Large Array Networks for Smart Grid Communications
+          - Virtual platform  was developed to control and configure software defined radios.
+          - Research areas: Signal processing, Sensor networks, Data analysis.
 projects:
     title: Projects
     intro: >
@@ -164,12 +163,12 @@ projects:
 
       - title: NADRA bio-metric verification for NBP
         link: "#"
-        tagline: " system designed for bio-metric verification of customers for Account Opening and Pensioners."
+        tagline: "A system designed for bio-metric verification of customers for Account Opening and Pensioners."
         technologies: BackboneJS, SailsJS, PM2, nginx, git, SOAP, MySQL.
 
       - title: Rfusion
         link: "#"
-        tagline: "R-Fusion is a blood donation web portal to bridge gap between donors and patients."
+        tagline: "A blood donation web portal to bridge gap between donors and patients."
         technologies: Nodejs, Express, Mongodb.
 
 publications:
