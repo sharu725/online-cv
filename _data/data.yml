@@ -69,7 +69,7 @@ experiences:
           - Maintain existing projects making changes and fixes as identified by the business
           - Develop solutions in accordance with sprint requirements
           - Work using an Agile process.        
-          - Core skillsets leveraged: Spring Boot, Java, Maven, Angular & Javascript, Oracle.
+          - Core skillsets leveraged: Spring Boot, Java, Maven, Angular & JavaScript, Oracle.
         
 
     - role: Senior Business Process Consultant
@@ -77,7 +77,7 @@ experiences:
       company: SAP Ariba
       details: |
         Developed applications working and web-based tools that follow SAP Fiori design guidelines using UI5, JPA, Spring Boot, Spock
-         and Liquibase...a lot of Javascript and Java! Secondary skills include Angular, REST, OData, Jenkins (CI/CD), Git, Scrum and JIRA.
+         and Liquibase...a lot of JavaScript and Java! Secondary skills include Angular, REST, OData, Jenkins (CI/CD), Git, Scrum and JIRA.
 
         Key Responsibilities
 
@@ -117,7 +117,7 @@ experiences:
         Key Achievements
 
         - Development of automated testing framework using Angular and Java/Groovy/Grails. Increasing QA efficiency, coverage and output by at least 3 times   
-        - Development of an integration system to connect a Mincom Ellipse, based on Mulesoft using Java and including a custom web interface based on Javascript / JQuery (for admin and monitoring)         
+        - Development of an integration system to connect a Mincom Ellipse, based on Mulesoft using Java and including a custom web interface based on JavaScript / JQuery (for admin and monitoring)         
         - Maintenance and development of Java-based Webmethods integration services for a range of customers and geographic locations on a regular basis
         - Developed demo system/adaptors using .Net (C#) to connect to Quadrem with MYOB, successfully demonstrating Order/Invoice cycle from an MYOB (Order) to a Quadrem 
         SupplyCentre supplier.
@@ -176,7 +176,7 @@ skills:
         level: 100%
         years: 10+
 
-      - name: Javascript & jQuery
+      - name: JavaScript & jQuery
         level: 60%
         years: 6
 
