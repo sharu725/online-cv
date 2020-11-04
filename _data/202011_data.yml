@@ -50,14 +50,11 @@ education:
       university: >
         Wageningen University &amp; Research,
         
+        Delft University of Technology,
         
-        Delft University of Technology,        
+        Utrecht University, 
         
-        
-        Utrecht University,         
-        
-        
-        University of Twente (ITC)
+        University of Twente
         
       time: 2014 - 2016
       details: "Thesis: Characterising Forest Gain and Related Carbon Sequestration"
@@ -67,44 +64,38 @@ education:
       details: "Specializations: GIS &amp; sustainable development"
 experiences:
     - role: Geospatial Analyst
-      time: 2020 - Present
-      company: Space Intelligence, Edinburgh
-      details: |
-        Wietze enjoys creating IT solutions that transform big data into information to support decision-making. At Space Intelligence, Wietze focuses on the development of technologies that exploit remote sensing data with Python to create scalable real-time information services. With a passion for geospatial technology, Wietze aims to continuously improve his data science skills, be a trustworthy colleague and deliver sustainable results.
-        
-    - role: GIS Specialist
-      time: 2016 - 2020
+      time: 2016 - Present
       company: Nelen &amp; Schuurmans, Utrecht
       details: |
-        After his MSc in GIS, Wietze worked in a Water & IT company in Utrecht as the technical lead in a range of international satellite data-driven projects. These projects were developed to help small-holder farmers in Indonesia, Bangladesh and Vietnam.
+        In the Water &amp; Agri team, I create geo-information services to support decisions with the best available (satellite) data. I have the technical lead in international development projects, such as SpiceUp Indonesia. I translate user needs to operational information systems, analyse remote sensing data and build Python solutions. As an API expert, I ease the integration of client operations with our IT products. Furthermore, I am a trustworthy and analytical colleague that delivers sustainable results.
         
     - role: Initiator of PyCons (Python Consultants)
       time: 2018 - 2020
       details: |
-        Python Consultants is a team that Wietze established within Nelen & Schuurmans. The team enables technical consultants to build open-source IT tools, that follow developer conventions.
+        Python Consultants is a team that I established within Nelen & Schuurmans. The team enables technical consultants to build open-source IT tools, that follow developer conventions.
         
 projects:
     title: Projects &amp; Roles
     assignments:
-      - title: <u>SpiceUp.live</u> Indonesia (2018-2020)
+      - title: <u>SpiceUp.live</u> Indonesia (2018-present)
         link: "https://spiceup.live/"
-        tagline: "Project leader / scrum master of the technical work package. Create a satellite data platform that supports pepper farmers and their supply chain."
+        tagline: "Project leader / scrum master of the technical work package with international partners. Create a satellite data platform that supports pepper farmers and their supply chain."
         
-      - title: "Dutch hi-res heat stress map & interactive tool <u>demo</u> (2019-2020)"
-        link: "https://drive.google.com/file/d/1VAOIJYxF5wfpfDsgPGypbmVkBGjn4bZO/view?usp=sharing"
+      - title: "Interactive heat stress mapping <u>demo</u> (2020-present)"
+        link: "https://drive.google.com/file/d/10Ec69DKgoxbKLSSI76Sl91hmxIZQjhBp/view?usp=sharing"
         tagline: "Implement back-end geodata model for online spatial planning tool, e.g. planting trees." 
         
-      - title: "Reed bank monitoring (2019-2020)"
+      - title: "Reed bank monitoring (2019-present)"
         link: "#"
-        tagline: "Apply machine learning & deep learning image segmentation to remote sensing data." 
+        tagline: "Apply machine learning & deep learning image segmentation to map reed banks from high-resolution satellite and aerial imagery." 
         
       - title: SmartSeeds Indonesia (2017-present)
         link: "https://g4aw.spaceoffice.nl/en/g4aw-projects/g4aw-projects/11/smartseeds.html"
-        tagline: "Technical architect of platform to integrate satellite data, field data and agri-models into an android app for vegetable farmers."
+        tagline: "Establish Django-based local processing server and automate vegetable mapping from Sentinel-1 SAR data. Technical architect of platform to integrate satellite data, field data and agri-models into an android app for vegetable farmers."
         
       - title: "Impact-based forecasting for the Red Cross (2019)"
         link: "https://www.510.global/impact-based-forecast/"
-        tagline: "Connect flood forecasts to dashboard for humanitarian aid in Zambia."
+        tagline: "Connect web map services with Red Cross dashboard to increase the accuracy of flood forecasts for humanitarian aid workers."
         
       - title: Driver-EU (2018-2019)
         link: "https://pos.driver-project.eu/nl/PoS/solutions/14"
@@ -112,7 +103,7 @@ projects:
                 
       - title: ESA EO4SD (2017-2019)
         link: "https://eo4idi.eu"
-        tagline: "Create data catalog to integrate state-of-the-art EO-based information services from eLEAF, DHI GRAS, GeoVille and Satelligence for agricultural monitoring and management by IFIs."
+        tagline: "Create data catalog to integrate state-of-the-art EO-based information services for agricultural monitoring and management by IFIs."
         
       - title: IDSS Bangladesh (2016-2019)
         link: "https://fosholi.com/en/"
@@ -165,6 +156,11 @@ packages:
         authors: C. van der Wel, A. Verkerk, J.M. Vazquez Jimenez, R. van Rees &amp; W. Suijker
         conference: "On-the-fly operations on geographical maps."
         
+      - title: Mapping platform API scripts (2020, private access)
+        link: "https://github.com/nens/lizard-api-scripts"
+        authors: W. Suijker &amp; C. Kerklaan
+        conference: "Python package to interact with the Lizard API."
+        
       - title: 3Di scenario downloader (2019) - <u>pypi</u>
         link: "https://pypi.org/project/threedi-scenario-downloader/"
         authors: E. Verstegen, W. Suijker
@@ -183,7 +179,7 @@ packages:
       - title: Django Local Processing Server (2018 &amp; 2020)
         link: "https://github.com/nens/lps-indonesia"
         authors: W. Suijker, Roos Geosolutions &amp; R. van Rees
-        conference: "REST API to post rasters, run models, and publish through GCP."
+        conference: "Deploy Django REST framework to post raster data, run models, and publish information via api using local (Google) cloud solutions."
 
 publications:
     title: Publications
