@@ -81,7 +81,7 @@ projects:
         link: "https://spiceup.live/"
         tagline: "Project leader / scrum master of the technical work package. Create a satellite data platform that supports pepper farmers and their supply chain."
         
-      - title: "Heat stress mapping & interactive tool <u>demo</u> (2019-2020)"
+      - title: "Heat stress mapping & <u>interactive tool</u> (2019-2020)"
         link: "https://drive.google.com/file/d/1VAOIJYxF5wfpfDsgPGypbmVkBGjn4bZO/view?usp=sharing"
         tagline: "Implement back-end geodata model for online spatial planning tool, e.g. planting trees." 
         
