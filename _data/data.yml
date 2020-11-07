@@ -48,16 +48,7 @@ career-profile:
 education:
     - degree: MSc in Geo-information management &amp; applications
       university: >
-        Wageningen University &amp; Research,
-        
-        
-        Delft University of Technology,        
-        
-        
-        Utrecht University,         
-        
-        
-        University of Twente (ITC)
+        Wageningen University &amp; Research, Delft University of Technology, Utrecht University, University of Twente (ITC)
         
       time: 2014 - 2016
       details: "Thesis: Characterising Forest Gain and Related Carbon Sequestration"
@@ -90,7 +81,7 @@ projects:
         link: "https://spiceup.live/"
         tagline: "Project leader / scrum master of the technical work package. Create a satellite data platform that supports pepper farmers and their supply chain."
         
-      - title: "Dutch hi-res heat stress map & interactive tool <u>demo</u> (2019-2020)"
+      - title: "Heat stress mapping & interactive tool <u>demo</u> (2019-2020)"
         link: "https://drive.google.com/file/d/1VAOIJYxF5wfpfDsgPGypbmVkBGjn4bZO/view?usp=sharing"
         tagline: "Implement back-end geodata model for online spatial planning tool, e.g. planting trees." 
         
@@ -98,7 +89,7 @@ projects:
         link: "#"
         tagline: "Apply machine learning & deep learning image segmentation to remote sensing data." 
         
-      - title: SmartSeeds Indonesia (2017-present)
+      - title: SmartSeeds Indonesia (2017-2020)
         link: "https://g4aw.spaceoffice.nl/en/g4aw-projects/g4aw-projects/11/smartseeds.html"
         tagline: "Technical architect of platform to integrate satellite data, field data and agri-models into an android app for vegetable farmers."
         
@@ -120,7 +111,7 @@ projects:
         
       - title: Sat4Rice Vietnam (2016-2018)
         link: "https://nelen-schuurmans.nl/en/blog/case/sat4rice-geo-information-service-for-vietnamese-rice-farmers"
-        tagline: "Integrate frequent ODK based field data collections in PostgreSQL database using Python workflows."
+        tagline: "Integrate ODK field data collections in PostgreSQL DB using Python workflow."
 
 skills:
     title: Skills &amp; Proficiency
