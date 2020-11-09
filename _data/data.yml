@@ -44,11 +44,11 @@ career-profile:
     summary: |
       An experienced software developer that thrives in the process of producing the best system and outcomes that are possible.
 
-      Core competencies: Java and Web Generalist, databases, integrations.
+      Core competencies: Java and Web Generalist, integrations, databases.
       
       Industries: Procurement, Mining and Banking     
 
-      Specialities: Java, Groovy/Grails/Spock, Angular, Scrum, SQL, XML/XSL
+      Specialities: Java/Spring, Angular/React, Agile, SQL, XML/XSL, Groovy/Grails/Spock
       
       Proven ability to engage in a broad range of technologies, people, experiences and industries. 
       
@@ -91,7 +91,7 @@ experiences:
 
         Key Achievements
         
-          - Improved testing line coverage from 30% -> 75%.  Recognised with an award as I drove this to a best practice 
+          - While on the project I drove the test line coverage from 30% -> 75%.  Recognised with an award as I drove this to a best practice 
           mandatory task; ensuring developers not only accepted but enjoyed the process
           - Designed and delivered requirements for stakeholders on a regular release cycle with zero delays or errors
           - Flexibility, working with and understanding people from different cultural backgrounds, technical abilities 
@@ -103,8 +103,8 @@ experiences:
       time: April 2007 - Feb 2009
       company: Quadrem - Ariba
       details: |
-        Provide technical integration services and support between large resource companies and their suppliers. 
-        Implement internal systems to support integration processes (including Web 2/AJAX work and version control systems). 
+        Provide technical integration services and support between large resource companies and their suppliers, using WebMethods and Java.
+        Implement internal web-based applications to support the integration processes (including Web 2/AJAX work and version control systems). 
         
         Key Responsibilities
 
@@ -119,7 +119,7 @@ experiences:
         - Development of automated testing framework using Angular and Java/Groovy/Grails. Increasing QA efficiency, coverage and output by at least 3 times   
         - Development of an integration system to connect a Mincom Ellipse, based on Mulesoft using Java and including a custom web interface based on JavaScript / JQuery (for admin and monitoring)         
         - Maintenance and development of Java-based Webmethods integration services for a range of customers and geographic locations on a regular basis
-        - Developed demo system/adaptors using .Net (C#) to connect to Quadrem with MYOB, successfully demonstrating Order/Invoice cycle from an MYOB (Order) to a Quadrem 
+        - Developed connectors using .Net (C#) to connect to Quadrem with MYOB, successfully demonstrating Order/Invoice cycle from an MYOB (Order) to a Quadrem 
         SupplyCentre supplier.
 
     - role: Developer/Architect
@@ -176,26 +176,6 @@ skills:
         level: 100%
         years: 10+
 
-      - name: JavaScript & jQuery
-        level: 60%
-        years: 6
-
-      - name: Angular
-        level: 30%
-        years: 3
-
-      - name: HTML5 & CSS
-        level: 80%
-        years: 8
-
-      - name: Grails
-        level: 60%
-        years: 6
-
-      - name: Groovy/Spock
-        level: 60%
-        years: 6
-
       - name: Databases/SQL
         level: 100%
         years: 10+
@@ -204,13 +184,33 @@ skills:
         level: 30%
         years: 3
 
-      - name: Spring
+      - name: Spring/Spring Boot
+        level: 40%
+        years: 4
+        
+      - name: JavaScript
+        level: 60%
+        years: 6
+
+      - name: Angular/React
         level: 30%
         years: 3
+
+      - name: HTML5 & CSS
+        level: 80%
+        years: 8
+
+      - name: Groovy/Spock
+        level: 60%
+        years: 6
 
       - name: XML/XSL
         level: 100%
         years: 10+
 
+      - name: Grails
+        level: 60%
+        years: 6
+
 footer: >
-    Resume Steven Wells: Senior Software Developer - java, web and integrations
+    Resume Steven Wells: Senior Software Developer - java, integrations and web
