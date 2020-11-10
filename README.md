@@ -54,3 +54,8 @@ Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [cont
 Thanks to [t-h-e(sfrost)](https://github.com/t-h-e) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=t-h-e).
 
 Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
+
+## run locally
+Testing your GitHub Pages site locally with Jekyll
+[link](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll)
+> bundle exec jekyll serve
