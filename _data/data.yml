@@ -158,6 +158,11 @@ publications:
     title: Publications
     intro: |
     papers:
+      - title: "Losing Heads in the Lottery: Pruning Transformer Attention in Neural Machine Translation"
+        link: "https://www.aclweb.org/anthology/2020.emnlp-main.211/"
+        authors: Behnke, M., Heafield, K.
+        conference: "2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+        
       - title: "Edinburgh's Submissions to the 2020 Machine Translation Efficiency Task"
         link: "https://www.aclweb.org/anthology/2020.ngt-1.26/"
         authors: Bogoychev, N., Grundkiewicz, R., Aji, A. F., Behnke, M., Heafield, K., Kashyap, S., ... & Chudyk, M.
