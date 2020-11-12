@@ -47,8 +47,8 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      After a double master degree at KTH (Stochkolm, Sweden) and Politecnico di Torino (Torino, Italy), 
-      I pursued my passion for Computer Vision as researcher in the Heidelberg Collaboratory for Image procession, one of the biggest research group in Germany in the field, under the supervision of Bjoern Ommer.
+      Currently full-time Applied Scientist at AWS. After a double master degree at KTH (Stochkolm, Sweden) and Politecnico di Torino (Torino, Italy), 
+      I pursued my passion for Computer Vision as researcher in the Heidelberg Collaboratory for Image processing under the supervision of Bjoern Ommer.
       Lately I successfully completed an internship at AWS in Pasadena under the supervision of Pietro Perona.
 
 news:
@@ -57,6 +57,9 @@ news:
         
     
     posts:
+        - time: October 2020
+          title: Starting a new position as Applied Scientist with AWS
+
         - time: June 2020
           title: Outstanding Reviewer at CVPR 2020
 
@@ -94,14 +97,19 @@ news:
           title: Paper accepted as poster at CVPR17 in Honolulu, Hawaii
 
 education:
-    - degree: Applied Scientists Intern at Amazon AWS
+    - degree: Applied Scientists full-time at AWS
+      university: Germany
+      time: 2020 Oct - current
+      details: |
+      
+    - degree: Applied Scientists Intern at AWS
       university: P. Perona, Pasadena, CA, USA
-      time: 2019 - current
+      time: 2019 July - Dec
       details: |
      
     - degree: PhD in Computer vision and Machine learning
       university: Heidelberg University
-      time: 2015 - current
+      time: 2015 - 2020
       details: |
 
     - degree: Internship (Master Thesis)
@@ -126,14 +134,19 @@ education:
 
 
 educationcomplete:
-    - degree: Applied Scientists Intern at Amazon AWS
+    - degree: Applied Scientist full-time at AWS
+      university: Germany
+      time: 2020 Oct - current
+      details: |
+      
+    - degree: Applied Scientists Intern at AWS
       university: P. Perona, Pasadena, CA, USA
-      time: 2019 - current
+      time: 2019 July - Dec
       details: |
 
     - degree: PhD in Computer vision and Machine learning
       university: Heidelberg University
-      time: 2015 - current
+      time: 2015 - 2020
       details: |
         Unsupervised deep learning for automatic behavior analysis
 
