@@ -264,6 +264,10 @@ publications:
       
 
     papers:
+      - title: "Sharing Matters for Generalization in Deep Metric Learning"
+        authors: T. Milbich*, K. Roth*, B. Brattoli, B. Ommer
+        conference: tPAMI, 2020
+        
       - title: "Rethinking Zero-shot Video Classification: End-to-end Training for Realistic Applications"
         authors: B. Brattoli, J. Tighe, F. Zhdanov, P. Perona, K. Chalupka
         conference: CVPR, 2020
