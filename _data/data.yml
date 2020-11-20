@@ -117,12 +117,12 @@ projects:
       - At last implemented Pseudo-labelling, to deal with a smaller dataset, which resulted in a final score of 0.725.
   - title: Twitter Content virality prediction using NLP and Network Analysis
     time: 01/2019 - 04/2019
-    company:
+    company: Hobby Project
     details: |
         - Used Tweepy to extract the 50K Tweets, extracted Tweet sentiment and context using NLTK, as well as extracted Twitter user properties by Clique analysis(NetworkX). Achieved 75% accuracy in tweet virality prediction using Random-Forest algorithm(sklearn).
   - title: Financial Market Anomaly Analysis
       time: 01/2017 - 11/2017
-      company:
+      company: Nirma University
       details: |
         - Engineered statistical evidence for the time-dependent recurring market anomalies(day of the week, the month of the year, etc.).
         - Developed a 1D CNN based approach to detect the binary market movement for individual stocks based on historical data.
