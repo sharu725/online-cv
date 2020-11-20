@@ -115,7 +115,7 @@ projects:
       - Used NMS(Non-Maximal Suppression) to make ensembles from above-described models and improved score to 0.69.
       - Replaced NMS by implementing WBF(Weighted Box Fusion), which increased the score to 0.71.
       - At last implemented Pseudo-labelling, to deal with a smaller dataset, which resulted in a final score of 0.725.
-  - title: Content virality prediction using NLP and Network Analysis on Twitter Data
+  - title: Content virality prediction on Twitter data
     time: 01/2019 - 04-2019
     company: Hobby project
     details: |
