@@ -1,5 +1,5 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output. 
+# Be aware that even a small syntax error here can lead to failures in output.
 #
 
 sidebar:
@@ -17,11 +17,13 @@ sidebar:
     website: blog.webjeda.com #do not add http://
     linkedin: alandoe
     github: sharu725
+    telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
     twitter: '@webjeda'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
@@ -32,7 +34,7 @@ sidebar:
 
       - idiom: Spanish
         level: Professional
-        
+
     interests:
       - item: Climbing
         link:
@@ -51,9 +53,7 @@ career-profile:
       Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
-
       Second paragraph if required.
-
 education:
     - degree: MSc in Computer Science
       university: University of London
@@ -64,10 +64,8 @@ education:
         sociis natoque penatibus et magnis dis parturient montes, nascetur
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
         pretium quis, sem.
-
           - Bullet point
-          - Bullet point 
-
+          - Bullet point
     - degree: BSc in Applied Mathematics
       university: Bristol University
       time: 2007 - 2011
@@ -77,10 +75,8 @@ education:
         sociis natoque penatibus et magnis dis parturient montes, nascetur
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
         pretium quis, sem.
-
           - Bullet point
-          - Bullet point 
-
+          - Bullet point
 experiences:
     - role: Lead Developer
       time: 2015 - Present
@@ -95,10 +91,8 @@ experiences:
         error sit voluptatem accusantium doloremque laudantium, totam rem
         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
         architecto beatae vitae dicta sunt explicabo.
-
           - Bullet point
-          - Bullet point 
-
+          - Bullet point
     - role: Senior Software Engineer
       time: 2014 - 2015
       company: Google, London
@@ -108,10 +102,8 @@ experiences:
         Cum sociis natoque penatibus et magnis dis parturient montes,
         nascetur ridiculus mus. Donec quam felis, ultricies nec,
         pellentesque eu, pretium quis, sem.
-
           - Bullet point
           - Bullet point
-
     - role: UI Developer
       time: 2012 - 2014
       company: Amazon, London
@@ -121,17 +113,14 @@ experiences:
         Cum sociis natoque penatibus et magnis dis parturient montes,
         nascetur ridiculus mus. Donec quam felis, ultricies nec,
         pellentesque eu, pretium quis, sem.
-
           - Bullet point
           - Bullet point
-
 projects:
     title: Projects
     intro: >
       You can list your side projects or open source libraries in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-
     assignments:
       - title: Velocity
         link: "#hook"
@@ -159,17 +148,19 @@ publications:
       You can list your publications in this section. Lorem ipsum dolor sit
       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
       bibendum fringilla a eu lectus.
-
     papers:
       - title: The Art of Computer Programming
+        link: "#"
         authors: Donald E. Knuth
         conference: Addison-Wesley, 1968
 
       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        link: "#"
         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
       - title: A syntax directed compiler for Algol 60
+        link: "#"
         authors: Edgar T. Irons
         conference: "Comm. ACM 4 (1961), 51–55"
 
