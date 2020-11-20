@@ -12,12 +12,12 @@
 
   {% if projects.intro %}
   <div class="intro">
-      <p>{{ projects.intro }}</p>
+    <p>{{ projects.intro }}</p>
   </div><!--//intro-->
   {% endif %}
 
   {% for project in projects.assignments %}
-    <div class="item">
+  <div class="item">
 
       <span class="project-title">
         {% if project.link %}
@@ -27,11 +27,11 @@
         {% endif %}
       </span>
 
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
-      {% endif %}
+    {% if project.tagline %}
+    - <span class="project-tagline">{{ project.tagline }}</span>
+    {% endif %}
 
-    </div><!--//item-->
+  </div><!--//item-->
   {% endfor %}
 
 </section><!--//section-->
