@@ -100,14 +100,14 @@ experiences:
 
 
 projects:
-  - title: Osseus - Fracture Detection
+  - role: Osseus - Fracture Detection
     time: 01/2020 - 06/2020
     company: University of Washington
     details: |
       - Developed an algorithm to detect bone fractures from the acoustic response, using DSP techniques(using Librosa) and ML.
       - Deployed algorithm on the mobile platform by developing a mobile application using Flutter and hosted backend on Azure.
       - Achieved over 95% accuracy except for smaller bones(like fingers bones ~70% accuracy), published the results in IEEE-GHTC-2020.
-  - title: Global Wheat Detection
+  - role: Global Wheat Detection
     time: 04/2020 - 06-2020
     company: Personal Project @ Kaggle
     details: |
