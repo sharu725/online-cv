@@ -1,4 +1,4 @@
-{% assign experiences = site.data.data.experiences %}
+{% assign experiences = site.data.data.projects %}
 {% if experiences %}
 <section class="section projects-section">
   <h2 class="section-title">
@@ -15,7 +15,7 @@
     <div class="meta">
 
       <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
+        <h3 class="job-title">{{ experience.title }}</h3>
         <div class="time">{{ experience.time }}</div>
       </div><!--//upper-row-->
 
