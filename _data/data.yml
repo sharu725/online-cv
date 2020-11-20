@@ -100,29 +100,33 @@ experiences:
 
 
 projects:
-  - title: Data Science Research Intern
-    time: 09/2020 - Present
-    company: Diversity Policy, Seattle
-    details: |
-      - Developed an ensemble of RAKE, TF-IDF and Text-Rank algorithm to extract key-words from 100K policy documents. Indexed the documents based on extracted key-words, to improve search result relevance.
-      - Administered the reorganization and modification of the database, to log user activities and search history, which will be used to generate personalized recommendations and usage statistics.
-      - Leading a team to develop an internal Tableau dashboard to aid employees and management track the task progress and targets.
-  - title: Capstone - Machine Learning & Product Management
-    time: 05/2020 - Present
+  - title: Osseus - Fracture Detection
+    time: 01/2020 - 06/2020
     company: University of Washington
     details: |
-      - Conducted market research to articulate detailed feature requirements for potential respiratory symptoms monitoring systems.
-      - Developed a patient-facing mobile app using React Native to capture respiratory indicators such as spirometry and oxygen saturations over a period of time. Also integrated Fitbit API to track user activity data.
-      - Developed an audio-based cough sensing algorithm using DSP(Librosa & SciPy), and 1D Convolution Networks(PyTorch).
-      - Used Python, Plotly, Dash and Flask to create a doctor facing web-dashboard to provide data visualization and manipulation functionality for doctors, to help them make more data-driven decisions without knowing to code.
-  - title: Machine Learning Engineer
-    time: 01/2018 - 10/2018
-    company: Trestle Labs, Nashik, India
+      - Developed an algorithm to detect bone fractures from the acoustic response, using DSP techniques(using Librosa) and ML.
+      - Deployed algorithm on the mobile platform by developing a mobile application using Flutter and hosted backend on Azure.
+      - Achieved over 95% accuracy except for smaller bones(like fingers bones ~70% accuracy), published the results in IEEE-GHTC-2020.
+  - title: Global Wheat Detection
+    time: 04/2020 - 06-2020
+    company: Personal Project @ Kaggle
     details: |
-      Trestle Labs is an ed-tech startup in India, known for improving the learning experience of the visually impaired.
-        - Implemented a page boundary detection algorithm using OpenCV and Deep Learning (Holistically Nested Edge Detector).
-        - Used Tensorflow and Keras to develop vernacular language OCR engine by implementing CNN and CTC (Connectionist Temporal Classification) loss function. Optimized the model to deploy it on the mobile device locally.
-        - Developed content summarization service using Text-Rank and RAKE to aid the learning process of visually impaired.
+      - Implemented transfer learning on the state of the art object detection algorithms including DETR, Efficient-DET, Faster RCNN, RetinaNet and YOLOv5. Achieved highest MAP score of 0.65.
+      - Used NMS(Non-Maximal Suppression) to make ensembles from above-described models and improved score to 0.69.
+      - Replaced NMS by implementing WBF(Weighted Box Fusion), which increased the score to 0.71.
+      - At last implemented Pseudo-labelling, to deal with a smaller dataset, which resulted in a final score of 0.725.
+  - title: Twitter Content virality prediction using NLP and Network Analysis
+    time: 01/2019 - 04/2019
+    company:
+    details: |
+        - Used Tweepy to extract the 50K Tweets, extracted Tweet sentiment and context using NLTK, as well as extracted Twitter user properties by Clique analysis(NetworkX). Achieved 75% accuracy in tweet virality prediction using Random-Forest algorithm(sklearn).
+  - title: Financial Market Anomaly Analysis
+      time: 01/2017 - 11/2017
+      company:
+      details: |
+        - Engineered statistical evidence for the time-dependent recurring market anomalies(day of the week, the month of the year, etc.).
+        - Developed a 1D CNN based approach to detect the binary market movement for individual stocks based on historical data.
+        - Increased accuracy of the model by 7%, using market anomalies as an indicator as compared to solely using traditional indicators.
 
 
 
