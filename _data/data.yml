@@ -51,78 +51,59 @@ sidebar:
 #      Second paragraph if required.
 education:
     - degree: MS in Technology Innvotion
-      university: University of Washington
-      place: Seattle, USA
-      time: SEP-2019 to AUG-2021
+      university: University of Washington, Seattle
+      time: 09/2019 to 08/2021
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Soon Be coming
+          - Add something
     - degree: MSE in Data Science
       university: Tsinghua University
-      place: Beijing, China
-      time: 2007 - 2011
+      time: 09/2019 to 07/2021
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Soon Be coming
+          - Add something
+    - degree: B.Tech in Computer Science
+        university: Nirma University, India
+        time: 06/2014 to 06/2018
+        details: |
+          Soon Be coming
+            - Add something
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Data Science Research Intern
+      time: 09/2020 to Present
+      company: Deversity Policy, Seattle
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        Soon Be coming
+          - Add something
+    - role: Capstone - Data Science & Product Management
+      time: 05/2020 to Present
+      company: University of Washington, Seattle
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        Soon Be coming
+          - Add something
+    - role: Lead Data Scientist
+      time: 01/2018 to 10/2018
+      company: Trestle Labs, Nashik, India
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Soon Be coming
+          - Add something
+
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    #intro: >
+    #  You can list your side projects or open source libraries in this
+    #  section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #  Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
+      - title: Osseus - Fracture Detection
+        time: 01/2020 to 06/2020
+        company: University of Washington, Seattle
+        link:
+        #tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        details: |
+          - Developed an algorithm to detect bone fractures from the acoustic response, using DSP techniques(using Librosa) and ML.
+          - Deployed algorithm on the mobile platform by developing a mobile application using Flutter and hosted backend on Azure.
+          - Achieved over 95% accuracy except for smaller bones(like fingers bones ~70% accuracy), published the results in IEEE-GHTC-2020.
       - title: DevStudio
         link: "#"
         tagline: "A responsive website template designed to help web developers/designers market their services."
@@ -141,25 +122,20 @@ projects:
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    #intro: |
+    #  You can list your publications in this section. Lorem ipsum dolor sit
+    #  amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    # bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Induced Acoustic Resonance for Noninvasive Bone Fracture Detection Using Digital Signal Processing and Machine Learning
+        link:
+        authors: Jay Chakalasiya*, Isaac Boger*, Ken Christoferson*
+        conference: IEEE-GHTC-2020
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "Markov Model for Password Attack Prevention"
+        link: "https://doi.org/10.1007/978-981-15-3369-3_61"
+        authors: Umesh Bodkhe, Jay Chaklasiya, Pooja Shah, Sudeep Tanwar, Maanuj Vora
+        conference: "International Conference on Computing, Communications, and Cyber-Security (IC4S 2019)"
 
 skills:
     title: Skills &amp; Proficiency
@@ -184,4 +160,5 @@ skills:
         level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+
+    Design credits: <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
