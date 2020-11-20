@@ -100,14 +100,14 @@ experiences:
 
 
 projects:
-  - role: Data Science Research Intern
+  - title: Data Science Research Intern
     time: 09/2020 - Present
     company: Diversity Policy, Seattle
     details: |
       - Developed an ensemble of RAKE, TF-IDF and Text-Rank algorithm to extract key-words from 100K policy documents. Indexed the documents based on extracted key-words, to improve search result relevance.
       - Administered the reorganization and modification of the database, to log user activities and search history, which will be used to generate personalized recommendations and usage statistics.
       - Leading a team to develop an internal Tableau dashboard to aid employees and management track the task progress and targets.
-  - role: Capstone - Machine Learning & Product Management
+  - title: Capstone - Machine Learning & Product Management
     time: 05/2020 - Present
     company: University of Washington
     details: |
@@ -115,7 +115,7 @@ projects:
       - Developed a patient-facing mobile app using React Native to capture respiratory indicators such as spirometry and oxygen saturations over a period of time. Also integrated Fitbit API to track user activity data.
       - Developed an audio-based cough sensing algorithm using DSP(Librosa & SciPy), and 1D Convolution Networks(PyTorch).
       - Used Python, Plotly, Dash and Flask to create a doctor facing web-dashboard to provide data visualization and manipulation functionality for doctors, to help them make more data-driven decisions without knowing to code.
-  - role: Machine Learning Engineer
+  - title: Machine Learning Engineer
     time: 01/2018 - 10/2018
     company: Trestle Labs, Nashik, India
     details: |
