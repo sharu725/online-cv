@@ -76,9 +76,9 @@ experiences:
     time: 09/2020 - Present
     company: Diversity Policy, Seattle
     details: |
-      Some description
-        - Bullet point
-        - Bullet point
+        - Developed an ensemble of RAKE, TF-IDF and Text-Rank algorithm to extract key-words from 100K policy documents. Indexed the documents based on extracted key-words, to improve search result relevance.
+        - Administered the reorganization and modification of the database, to log user activities and search history, which will be used to generate personalized recommendations and usage statistics.
+        - Leading a team to develop an internal Tableau dashboard to aid employees and management track the task progress and targets.
   - role: Senior Software Engineer
     time: 2014 - 2015
     company: Google, London
