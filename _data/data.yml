@@ -97,16 +97,34 @@ experiences:
         - Developed content summarization service using Text-Rank and RAKE to aid the learning process of visually impaired.
 
 
+
+
 projects:
-  title: Projects
-  intro: >
-    You can list your side projects or open source libraries in this
-    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-    - title: Velocity
-      link: "#hook"
-      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  - role: Data Science Research Intern
+    time: 09/2020 - Present
+    company: Diversity Policy, Seattle
+    details: |
+      - Developed an ensemble of RAKE, TF-IDF and Text-Rank algorithm to extract key-words from 100K policy documents. Indexed the documents based on extracted key-words, to improve search result relevance.
+      - Administered the reorganization and modification of the database, to log user activities and search history, which will be used to generate personalized recommendations and usage statistics.
+      - Leading a team to develop an internal Tableau dashboard to aid employees and management track the task progress and targets.
+  - role: Capstone - Machine Learning & Product Management
+    time: 05/2020 - Present
+    company: University of Washington
+    details: |
+      - Conducted market research to articulate detailed feature requirements for potential respiratory symptoms monitoring systems.
+      - Developed a patient-facing mobile app using React Native to capture respiratory indicators such as spirometry and oxygen saturations over a period of time. Also integrated Fitbit API to track user activity data.
+      - Developed an audio-based cough sensing algorithm using DSP(Librosa & SciPy), and 1D Convolution Networks(PyTorch).
+      - Used Python, Plotly, Dash and Flask to create a doctor facing web-dashboard to provide data visualization and manipulation functionality for doctors, to help them make more data-driven decisions without knowing to code.
+  - role: Machine Learning Engineer
+    time: 01/2018 - 10/2018
+    company: Trestle Labs, Nashik, India
+    details: |
+      Trestle Labs is an ed-tech startup in India, known for improving the learning experience of the visually impaired.
+        - Implemented a page boundary detection algorithm using OpenCV and Deep Learning (Holistically Nested Edge Detector).
+        - Used Tensorflow and Keras to develop vernacular language OCR engine by implementing CNN and CTC (Connectionist Temporal Classification) loss function. Optimized the model to deploy it on the mobile device locally.
+        - Developed content summarization service using Text-Rank and RAKE to aid the learning process of visually impaired.
+
+
 
 
 publications:
