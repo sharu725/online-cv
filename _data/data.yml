@@ -115,7 +115,22 @@ projects:
       - Used NMS(Non-Maximal Suppression) to make ensembles from above-described models and improved score to 0.69.
       - Replaced NMS by implementing WBF(Weighted Box Fusion), which increased the score to 0.71.
       - At last implemented Pseudo-labelling, to deal with a smaller dataset, which resulted in a final score of 0.725.
-
+  - title: Global Wheat Detection
+    time: 04/2020 - 06-2020
+    company: Personal Project @ Kaggle
+    details: |
+      - Implemented transfer learning on the state of the art object detection algorithms including DETR, Efficient-DET, Faster RCNN, RetinaNet and YOLOv5. Achieved highest MAP score of 0.65.
+      - Used NMS(Non-Maximal Suppression) to make ensembles from above-described models and improved score to 0.69.
+      - Replaced NMS by implementing WBF(Weighted Box Fusion), which increased the score to 0.71.
+      - At last implemented Pseudo-labelling, to deal with a smaller dataset, which resulted in a final score of 0.725.
+  - title: Global Wheat Detection
+    time: 04/2020 - 06-2020
+    company: Personal Project @ Kaggle
+    details: |
+      - Implemented transfer learning on the state of the art object detection algorithms including DETR, Efficient-DET, Faster RCNN, RetinaNet and YOLOv5. Achieved highest MAP score of 0.65.
+      - Used NMS(Non-Maximal Suppression) to make ensembles from above-described models and improved score to 0.69.
+      - Replaced NMS by implementing WBF(Weighted Box Fusion), which increased the score to 0.71.
+      - At last implemented Pseudo-labelling, to deal with a smaller dataset, which resulted in a final score of 0.725.
 
 
 
