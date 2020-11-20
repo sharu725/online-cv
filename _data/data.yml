@@ -51,28 +51,22 @@ sidebar:
 #      Second paragraph if required.
 education:
   - degree: MS in Technology Innvotion
-    university: University of Washington
-    place: Seattle, USA
-    time: SEP-2019 to AUG-2021
+    university: University of Washington, Seattle
+    time: 09/2019 - 08/2021
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
+      Some Details
         - Bullet point
   - degree: MSE in Data Science
-    university: Tsinghua University
-    place: Beijing, China
-    time: 2007 - 2011
+    university: Tsinghua University, Beijing
+    time: 09/2019 - 07/2021
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
+      Some Details
         - Bullet point
+  - degree: B.Tech in Computer Science
+    university: Nirma University, India
+    time: 06/2014 - 06/2018
+    details: |
+      Some Details
         - Bullet point
 experiences:
   - role: Lead Developer
