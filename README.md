@@ -1,53 +1,78 @@
+This repository is for my digital Resume, visit the live deployed version at [Jay Chakalasiya - Resume](https://jay-chakalasiya.github.io/digital-resume).
 
-# Orbit
-> This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/). 
-> Visit her [website](http://themes.3rdwavemedia.com/) for more themes.
+If you find any conflicts or have any suggestions, please reach out to me at <chakalasiyajay00@gmail.com>
 
-I have made this into a Jekyll Theme. Checkout the live demo [here](https://webjeda.com/online-cv/).
+# Deployment
 
-<table>
-  <tr>
-    <th>Desktop</th>
-    <th>Mobile</th>
-  </tr>
-  <tr>
-    <td>
-        <img src="https://webjeda.com/online-cv/assets/images/desktop.png?raw=true" width="600"/>
-    </td>
-    <td>
-        <img src="https://webjeda.com/online-cv/assets/images/mobile.png?raw=true" width="250"/>
-    </td>
-  </tr>
-</table>
+If you like the template and want to make a similar resume, Tjust follow the simle steps
+- Fork this repository _(I recommend keeping th same name "digital-resume", you might need to make some changes if you change the name)_
+- Update your details in the `data/data.yml` file. 
+- Go to github repository settings, and in the Github Pages section, select branch as `master` and directory as `root`. you can find more about Github pages [here](https://pages.github.com/).
+- Now go to `https://<YOUR-GITHUB-USERNAME>.github.io/<RESUME-REPOSITORY-NAME>`, 
 
-## Installation
+Your resume is successfully deployed.
 
-* [Fork](https://github.com/sharu725/online-cv/fork) the repository
-* Delete the `gh-pages` branch
-* Re-create the `gh-pages` branch
-* Go to settings and set Github Pages source as master.
-* Your new site should be ready at `https://username.github.io/online-cv/`
+## Structure/Files:
+```
+Root.
+|   favicon.ico              # Website Icon
+|   file_structure.txt       
+|   index.html               # Overall layout of home page
+|   README.md
+|   _config.yml              # Add your Google-Analytics Tracking ID here(if any)
+|      
++---assets
+|   +---css
+|   |       main.scss
+|   |       
+|   +---images
+|   |       profile.png      # Profile pictures goes onto resume
+|   |       
+|   +---js
+|   |   |   main.js
+|                   
++---_data
+|       data.yml             # All the resume data  goes here
+|       
++---_includes                # Don't modify this files, unless you are expert and know what changes you want to make
+|       about.html
+|       analytics.html
+|       career-profile.html
+|       contact.html
+|       education.html
+|       experiences.html
+|       footer.html
+|       head.html
+|       interests.html
+|       language.html
+|       projects.html
+|       publications.html
+|       scripts.html
+|       sidebar.html
+|       skills.html
+|       
++---_layouts
+|       compress.html
+|       default.html
+|       
+\---_sass
+    |   ...
+    |   
+    \---skins
+            _berry.scss
+            _blue.scss
+            _ceramic.scss
+            _green.scss
+            _orange.scss
+            _turquoise.scss
+```
 
-Change all the details from one place: ``_data/data.yml``
+# Licenses
+This repository is licensed under MIT license, I have modified the [online-cv](https://github.com/sharu725/online-cv/) theme for the purpose.
 
-Watch my [video](https://www.youtube.com/embed/T2nx6tj-ZH4) on installation.
+Feel free to reach out to me on <chakalasiyajay00@gmail.com> in case of attributions or license conflicts.
 
-## Skins
+# Contribute
+If you fork and make some significant design changes, please send a merge request, I will be happy to add you as a contributor as well.
 
-There are 6 color schemes available:
 
-| Blue | Turquoise | Green |
-|---------|---------|---------|
-| <img src="https://webjeda.com/online-cv/assets/images/blue.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/turquoise.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/green.jpg" width="300"/> |
-
-| Berry | Orange | Ceramic |
-|---------|---------|---------|
-| <img src="https://webjeda.com/online-cv/assets/images/berry.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/orange.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/ceramic.jpg" width="300"/> |
-
-## Credits
-
-Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
-
-Thanks to [t-h-e(sfrost)](https://github.com/t-h-e) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=t-h-e).
-
-Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
