@@ -7,103 +7,80 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
+    name: Juan Ignacio Bracamonte
     tagline: Full Stack Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    email: juanignaciobracamonte@gmail.com
+    phone: +54 9 11 67606372
+    website: https://braca.tech/mp #do not add http://
+    linkedin: juanibracamonte
+    github: juanbracamonte
 
     languages:
-      - idiom: English
+      - idiom: Español
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: Ingles
+        level: Medio
 
     interests:
-      - item: Climbing
+      - item: Programación
         link:
 
-      - item: Snowboarding
+      - item: Tecnología
         link:
 
-      - item: Cooking
+      - item: Deporte
         link:
 
 career-profile:
-    title: Career Profile
+    title: SOBRE MI
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Disfruto de la innovación tecnológica e informática. En constante crecimiento personal y profesional. Buena comunicación y trabajo en equipo.
+
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    - degree: Congreso Internacional en Innovación Tecnológica Informática 2020
+      university: Universidad Abierta Interamericana
+      time: 2020 - 2020
+
+    - degree: LAB FrontEnd Developer
+      university: Neoris Argentina
+      time: 2019 - 2020
+
+    - degree: Java Inicial y PHP Avanzado
+      university: UTN Buenos Aires
+      time: 2015 - 2016
+
+    - degree: Redes informáticas & Cámaras CCTV
+      university: CETIA
+      time: 2013 - 2013
+    
+    - degree: Programación PHP 
+      university: CETIA
+      time: 2013 - 2013
+
+    - degree:  Perito Mercantil Orientacion Informática
+      university: Mater Dolorosa
+      time: 2002 - 2010
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Software Developer (SSR)
+      time: 2020 - Actualidad
+      company: Neoris Argentina
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        Desarrollador Front End en Neoris para entidad bancaria.
+        Principales herramientas de desarrollo, Polymer, Cells, HTML5, JS ES7, CSS (SASS)
+    
+    - role: Software Developer
+      time: 2020 - 2015
+      company: Freelance
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Desarrollo de sistemas de administración de importaciones y tickets de servicio para starkemachines.com. HTML5, JS, PHP, MYSQL.
+        Desarrollo de curso huerta online integrado con cobro de MercadoPago para sitopia.com.ar
+        Desarrollo Mobile app Android/iOS El Gato Negro
+
     - role: UI Developer
       time: 2012 - 2014
       company: Amazon, London
@@ -115,6 +92,7 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
+
 projects:
     title: Projects
     intro: >
