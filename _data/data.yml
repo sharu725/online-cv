@@ -100,11 +100,11 @@ experiences:
         Armado, reparación y mantenimiento de Hardware - Software
 
 projects:
-
+    title: Proyectos personales
     assignments:
       - title: Wolfcom
         link: "#hook"
-        tagline: " Servicio de cartelería digital brindada a principal cadena de gimnasio y agencia de viajes.
+        tagline: "Servicio de cartelería digital brindada a principal cadena de gimnasio y agencia de viajes.
       Emprendimiento con 2 amigos. Administración de Servidor en VPS WS2012 / Gestión Sistema XiBo."
 
       - title: Impresion 3D
