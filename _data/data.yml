@@ -77,92 +77,76 @@ experiences:
       time: 2020 - 2015
       company: Freelance
       details: |
-        Desarrollo de sistemas de administración de importaciones y tickets de servicio para starkemachines.com. HTML5, JS, PHP, MYSQL.
-        Desarrollo de curso huerta online integrado con cobro de MercadoPago para sitopia.com.ar
-        Desarrollo Mobile app Android/iOS El Gato Negro
+        Desarrollo de sistemas de administración de importaciones y tickets de servicio para starkemachines.com. HTML5, JS, PHP, MYSQL. |
+        Desarrollo de curso huerta online integrado con cobro de MercadoPago para sitopia.com.ar |
+        Desarrollo Mobile app Android/iOS El Gato Negro |
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Freelance
+      time: 2017 - Actualidad
+      company: Megagroup - Justbody
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Servicio técnico en equipos de EMS fabricados en México y distribuidos en gimnasios Justbody. 
+        Desarrollo y producción de máquina de estética SATME para Justbody Argentina.
+        Automatización IOT de Cama Solar Justbody.
+        Líder de proyecto en desarrollo de sistema para tracking de bandas cardiacas online.
+        Soporte técnico en Redes informaticas y reparacion de PC - Notebooks
+
+    - role: Lider de proyecto
+      time: 2014 - 2016
+      company: SwayXP
+      details: |
+        Líder de proyecto en el desarrollo del principal software de la empresa (BikerXP & BikerPRO) dedicado al ciclismo virtual de clases de spinning.
+        Soporte técnico a clientes en el software y hardware de dichos sistemas.
+        Armado, reparación y mantenimiento de Hardware - Software
 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
     assignments:
-      - title: Velocity
+      - title: Wolfcom
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: " Servicio de cartelería digital brindada a principal cadena de gimnasio y agencia de viajes.
+      Emprendimiento con 2 amigos. Administración de Servidor en VPS WS2012 / Gestión Sistema XiBo."
 
-      - title: DevStudio
+      - title: Impresion 3D
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        tagline: "Armado de impresora 3d en el año 2015 con la cual realizo impresiones para mis proyectos de domótica iot"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills profesionales
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
+      - name: Microsoft Office
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Javascript & jQuery
+        level: 90%
+
+      - name: Windows - Mac
+        level: 100%
+
+      - name: Visual Basic
+        level: 70%
+
+      - name: Html5
+        level: 100%
+
+      - name: PHP
+        level: 85%
+
+      - name: MYSQL
+        level: 80%
+
+      - name: Ionic
+        level: 70%
+      
+      - name: Polymer
+        level: 80%
+      
+      - name: Seguridad informática
+        level: 80%
+      
+      - name: Administracion de redes
+        level: 90%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://instagram.com/juanibracamonte" target="_blank" rel="nofollow">Juani Bracamonte</a>
