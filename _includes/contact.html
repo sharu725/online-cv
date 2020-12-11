@@ -2,6 +2,12 @@
   <ul class="list-unstyled contact-list">
 
     {% if sidebar.email %}
+    <li><i class="fas fa-people"></i>
+      <a href="#">{{ sidebar.edad }}</a>
+    </li>
+    {% endif %}
+    
+    {% if sidebar.email %}
     <li class="email"><i class="fas fa-envelope"></i>
       <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
     </li>
@@ -34,6 +40,12 @@
     {% if sidebar.github %}
     <li class="github"><i class="fab fa-github"></i>
       <a href="http://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.live %}
+    <li class="github"><i class="fas fa-location-arrow"></i>
+      <a href="#" target="_blank">{{ sidebar.live }}</a>
     </li>
     {% endif %}
 

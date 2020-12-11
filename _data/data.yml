@@ -12,18 +12,20 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
+    edad: 28 años
     email: juanignaciobracamonte@gmail.com
     phone: +54 9 11 67606372
     website: braca.tech/mp #do not add http://
     linkedin: juanibracamonte
     github: juanbracamonte
+    live: Saavedra, CABA
 
     languages:
       - idiom: Español
         level: Nativo
 
       - idiom: Ingles
-        level: Medio
+        level: Intermedio
 
     interests:
       - item: Programación
@@ -63,7 +65,6 @@ education:
 
     - degree:  Perito Mercantil Orientacion Informática
       university: Mater Dolorosa
-      time: 2002 - 2010
 
 experiences:
     - role: Software Developer (SSR)
