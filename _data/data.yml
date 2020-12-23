@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Rômulo Cerqueira
-    tagline: Robotics Specialist
+    tagline: Robotics Software Engineer
     avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -45,113 +45,98 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      PhD in Mechatronics with +9 years of experience on autonomous robots mainly applied for field and underwater environments. Rômulo has strong experience in the development of visual and acoustic perception, simulation, navigation, and software integration systems. Solid C/C++, Ruby, and Shell programming skills in Linux. 
+      Passionate about robotics and technology. Innovative and cooperative.
+
+      Software engineer with +8 years of experience in autonomous robots for field and underwater environments. PhD in Mechatronics, he has strong experience in acoustic and visual perception, simulation, navigation, and software integration. Solid C/C++, Ruby, and Python development in Linux.   
       
-      Over 4 years, he was part of the FlatFish project, a subsea resident AUV for repeated inspections of Oil & Gas assets. Since 2018, Rômulo is the Technical Leader of JIRO project, a robotic tool able to clean and inspect underwater flexible joints at FPSOs. Both projects were developed for Shell Brazil. 
-      
-      Experienced in IT architecture in highly complex architectural environments and technical team leadership.
+      Over 4 years, he was part of the FlatFish project, a resident inspection AUV for deep-sea O&G installations. Since 2018, Rômulo is the Technical Leader of the JIRO project, a robotic tool for flexible joint cleaning and inspection. Commercial videos of those projects can be seen [here](http://youtu.be/AQO8sxjQsAM) and [here](http://youtu.be/bM6sj5sTXfY).
+
+      Rômulo has +17 scientific papers published. He also received the Outstanding Student Award from the Brazilian Computer Society in 2009.
 
 education:
     - degree: PhD in Mechatronics
       university: Federal University of Bahia
       time: 2014 - 2019
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Development of a multi-device sonar simulator based on rasterization and ray-tracing techniques for real-time underwater robotic applications. The source code is available at [github.com/romulogcerqueira/sonar_simulation](http://github.com/romulogcerqueira/sonar_simulation).
     - degree: MSc in Electrical Engineering
       university: Federal University of Bahia
       time: 2010 - 2012
+      details: |
+        Development of an autonomous navigation system based on reinforcement learning and knowledge bases for Linux ARM microcontrollers and embedded on mobile soccer robots.
     - degree: BSc in Computer Science
       university: State University of Santa Cruz
       time: 2006 - 2009
+      details: |
+        Development of InfoGraph3D, a multimedia and interactive system to aid the teaching of Computer Graphics with OpenGL, turning the learning more intuitive and effective.
 experiences:
     - role: Robotics Technical Leader
       time: 2018 - Present
       company: SENAI CIMATEC, Salvador, Brazil
       details: |
-        Leading an international team (🇧🇷🇩🇪) on JIRo project, which comprises:
-        - Lead end-to-end robot technology development, including conception, design, integration and tests in underwater environment;
-        - Plan and track activities for Robotics team according to project requirements and time constraints;
-        - Guide the software team, including simulation, driver development, system integration, testing, peer code review and debugging;
+        Leading an international team (Brazil and Germany) on JIRo project, which comprises:
+        - Coordinate end-to-end robot technology development, including conception, design, integration, and tests in underwater environment;
+        - Plan and track activities according to project requirements and time constraints;
+        - Guide the software team, including simulation, driver development, system integration, testing, peer code review and debugging with ROS framework;
         -	Communicate project status, drive and make technical decisions;
-        - Guest researcher at DFKI for project management and development (2 months).
-
-    - role: Robotics Specialist
+        - Guest researcher at DFKI for project mgmt and development (2 mths).
+    - role: Robotics Software Engineer
       time: 2014 - 2017
       company: SENAI CIMATEC, Salvador, Brazil
       details: |
         As part of software and integration team of FlatFish project, he was responsible for:
-        -	Object detection and tracking algorithms based on acoustic images (i.e. pipeline tracking, obstacle detection and data fusion) for real and simulated environments;
+        -	Object detection and tracking algorithms based on acoustic images (pipeline tracking, obstacle detection and data fusion) for real and simulated environments;
         - Design of underwater sonar simulator for AUV preliminary tests;
-        - Driver development and integration of software components on AUV;
-        - System integration, testing, peer code review, simulation and debugging;
-        - Guest researcher at DFKI for AUV software development and testing (1 month).
-
-
-    - role: UI Developer
+        - Driver development and system deployment on AUV;
+        - Software integration, testing, peer review, simulation and debugging with Rock framework;
+        - Guest researcher at DFKI for AUV software development and testing (1 mth).
+    - role: Trainee Expert - IT Architect
       time: 2012 - 2014
-      company: Amazon, London
+      company: Oi S.A., Rio de Janeiro, Brazil
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
+        Special career program for technical development on IT architecture, comprising:
+          - End-to-end solution design based on business needs using market and enterprise standards as TM Forum Frameworx, TOGAF, and SOA;
+          - Maintenance of enterprise as-is, transition, target and reference architectures;
+          - Delivering solutions involving CRM, Cloud, Charging, Billing and OSS/BSS applications.
+    - role: Linux/Unix System Administrator
+      time: 2010 - 2010
+      company: ecGlobal, Salvador, Brazil
+      details: |
+        Design and maintenance of Linux/Unix applications and services, including DHCP, DNS, Apache, Samba, server virtualization, LAMP, CUPS, AWStats, and SVN; creation of Ubuntu-based distro for software team development.
+    - role: Software Engineer
+      time: 2009 - 2010
+      company: ecGlobal, Salvador, Brazil
+      details: |
+        Development of social networks for online market research and e-commerce applications using PHP/JavaScript/Ajax, CSS, Elgg framework and MySQL and PostgreSQL databases.
 publications:
-    title: Publications
+    title: Main Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: A rasterized ray-tracer pipeline for real-time, multi-device sonar simulation
+        link: "https://doi.org/10.1016/j.gmod.2020.101086"
+        authors: R. Cerqueira, T. Trocoli, J. Albiez and L. Oliveira
+        conference: Elsevier Graphical Models Journal, 2020
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: A novel GPU-based sonar simulator for real-time applications
+        link: "https://doi.org/10.1016/j.cag.2017.08.008"
+        authors: R. Cerqueira, T. Trocoli, G. Neves, S. Joyeux, J. Albiez and L. Oliveira
+        conference: Elsevier Computers & Graphics Journal, 2017.
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      # - title: Repeated close-distance visual inspections with an AUV
+      #   link: "https://doi.org/10.1109/OCEANS.2016.7761099"
+      #   authors: J. Albiez, D. Cesar, C. Gaudig, S. Arnold, R. Cerqueira, T. Trocoli, G. Mimoso, R. Saback and G. Neves
+      #   conference: OCEANS MTS/IEEE Monterey, 2016.
+
+      - title: The Rock-Gazebo Integration and a Real-Time AUV Simulation
+        link: "https://doi.org/10.1109/LARS-SBR.2015.15"
+        authors: T. Watanabe, G. Neves, R. Cerqueira, T. Trocoli, M. Reis, S. Joyeux and J. Albiez
+        conference: 12th Latin American Robotics Symposium (LARS), 2015.
+
+      - title: "From Reactive to Cognitive Agents: Extending Reinforcement Learning to Generate Symbolic Knowledge Bases"
+        link: "https://doi.org/10.1109/LARS.2013.77"
+        authors: R. Cerqueira, A.L. da Costa, S. McGill, D. Lee and G. Pappas
+        conference: 12th Latin American Robotics Symposium (LARS), 2013.
 
 skills:
     title: Skills &amp; Proficiency
