@@ -7,57 +7,54 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Rômulo Cerqueira
+    tagline: Robotics Specialist
+    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    email: romulogcerqueira@gmail.com
+    phone: +55 71 99192 6693
+    # website: blog.webjeda.com #do not add http://
+    linkedin: romulogcerqueira
+    github: romulogcerqueira
+    # telegram: # add your nickname without '@' sign
+    # gitlab:
+    # bitbucket:
+    # twitter: '@webjeda'
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: Portuguese
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
 
-      - idiom: Spanish
-        level: Professional
+    # interests:
+    #   - item: Climbing
+    #     link:
 
-    interests:
-      - item: Climbing
-        link:
+    #   - item: Snowboarding
+    #     link:
 
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+    #   - item: Cooking
+    #     link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      PhD in Mechatronics with +9 years of experience on autonomous robots mainly applied for field and underwater environments. Rômulo has strong experience in the development of visual and acoustic perception, simulation, navigation, and software integration systems. Solid C/C++, Ruby, and Shell programming skills in Linux. 
+      
+      Over 4 years, he was part of the FlatFish project, a subsea resident AUV for repeated inspections of Oil & Gas assets. Since 2018, Rômulo is the Technical Leader of JIRO project, a robotic tool able to clean and inspect underwater flexible joints at FPSOs. Both projects were developed for Shell Brazil. 
+      
+      Experienced in IT architecture in highly complex architectural environments and technical team leadership.
+
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: PhD in Mechatronics
+      university: Federal University of Bahia
+      time: 2014 - 2019
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -66,44 +63,36 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    - degree: MSc in Electrical Engineering
+      university: Federal University of Bahia
+      time: 2010 - 2012
+    - degree: BSc in Computer Science
+      university: State University of Santa Cruz
+      time: 2006 - 2009
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Robotics Technical Leader
+      time: 2018 - Present
+      company: SENAI CIMATEC, Salvador, Brazil
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        Leading an international team (🇧🇷🇩🇪) on JIRo project, which comprises:
+        - Lead end-to-end robot technology development, including conception, design, integration and tests in underwater environment;
+        - Plan and track activities for Robotics team according to project requirements and time constraints;
+        - Guide the software team, including simulation, driver development, system integration, testing, peer code review and debugging;
+        -	Communicate project status, drive and make technical decisions;
+        - Guest researcher at DFKI for project management and development (2 months).
+
+    - role: Robotics Specialist
+      time: 2014 - 2017
+      company: SENAI CIMATEC, Salvador, Brazil
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        As part of software and integration team of FlatFish project, he was responsible for:
+        -	Object detection and tracking algorithms based on acoustic images (i.e. pipeline tracking, obstacle detection and data fusion) for real and simulated environments;
+        - Design of underwater sonar simulator for AUV preliminary tests;
+        - Driver development and integration of software components on AUV;
+        - System integration, testing, peer code review, simulation and debugging;
+        - Guest researcher at DFKI for AUV software development and testing (1 month).
+
+
     - role: UI Developer
       time: 2012 - 2014
       company: Amazon, London
@@ -186,5 +175,5 @@ skills:
       - name: Sketch & Photoshop
         level: 60%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
