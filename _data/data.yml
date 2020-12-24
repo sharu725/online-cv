@@ -4,7 +4,7 @@
 
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Rômulo Cerqueira
@@ -34,6 +34,9 @@ sidebar:
 
     interests:
       - item: Soccer
+    #     link:
+
+      - item: Tennis
     #     link:
 
       - item: Cycling
@@ -145,45 +148,26 @@ skills:
       - name: Robotics
         level: 98%
 
-      - name: Acoustic and visual perception
+      - name: Acoustic and Image Processing
         level: 95%
 
       - name: Computer Graphics & Simulation
-        level: 95%
+        level: 90%
 
       - name: C/C++ & Ruby
-        level: 95%
+        level: 90%
 
       - name: ROS & ROCK frameworks
-        level: 90%
+        level: 85%
 
       - name: Git & Debugging
-        level: 90%
+        level: 85%
       
       - name: Team leadership
         level: 80%
 
-# skills:
-#     title: Skills &amp; Proficiency
-
-#     toolset:
-#       - name: Python & Django
-#         level: 98%
-
-#       - name: Javascript & jQuery
-#         level: 98%
-
-#       - name: Angular
-#         level: 98%
-
-#       - name: HTML5 & CSS
-#         level: 95%
-
-#       - name: Ruby on Rails
-#         level: 85%
-
-#       - name: Sketch & Photoshop
-#         level: 60%
+      - name: IT Architecture
+        level: 70%
 
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
