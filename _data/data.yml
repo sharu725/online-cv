@@ -4,7 +4,7 @@
 
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Rômulo Cerqueira
@@ -32,14 +32,14 @@ sidebar:
       - idiom: English
         level: Professional
 
-    # interests:
-    #   - item: Climbing
+    interests:
+      - item: Soccer
     #     link:
 
-    #   - item: Snowboarding
+      - item: Cycling
     #     link:
 
-    #   - item: Cooking
+      - item: Gaming
     #     link:
 
 career-profile:
@@ -49,7 +49,7 @@ career-profile:
 
       Software engineer with +8 years of experience in autonomous robots for field and underwater environments. PhD in Mechatronics, he has strong experience in acoustic and visual perception, simulation, navigation, and software integration. Solid C/C++, Ruby, and Python development in Linux.   
       
-      Over 4 years, he was part of the FlatFish project, a resident inspection AUV for deep-sea O&G installations. Since 2018, Rômulo is the Technical Leader of the JIRO project, a robotic tool for flexible joint cleaning and inspection. Commercial videos of those projects can be seen [here](http://youtu.be/AQO8sxjQsAM) and [here](http://youtu.be/bM6sj5sTXfY).
+      Over 4 years, he was part of the FlatFish project, a resident inspection AUV for deep-sea O&G installations. Since 2018, Rômulo is the Technical Leader of the JIRO project, a robotic tool for flexible joint cleaning and inspection. Commercial videos of those projects can be seen in [youtu.be/AQO8sxjQsAM](http://youtu.be/AQO8sxjQsAM) and [youtu.be/bM6sj5sTXfY](http://youtu.be/bM6sj5sTXfY).
 
       Rômulo has +17 scientific papers published. He also received the Outstanding Student Award from the Brazilian Computer Society in 2009.
 
@@ -77,20 +77,20 @@ experiences:
         Leading an international team (Brazil and Germany) on JIRo project, which comprises:
         - Coordinate end-to-end robot technology development, including conception, design, integration, and tests in underwater environment;
         - Plan and track activities according to project requirements and time constraints;
-        - Guide the software team, including simulation, driver development, system integration, testing, peer code review and debugging with ROS framework;
+        - Guide the software team, including simulation, driver development, system integration, testing, peer code review, and debugging with ROS framework;
         -	Communicate project status, drive and make technical decisions;
-        - Guest researcher at DFKI for project mgmt and development (2 mths).
+        - Work as Guest researcher at DFKI for project mgmt and development (2 mths).
     - role: Robotics Software Engineer
       time: 2014 - 2017
       company: SENAI CIMATEC, Salvador, Brazil
       details: |
         As part of software and integration team of FlatFish project, he was responsible for:
-        -	Object detection and tracking algorithms based on acoustic images (pipeline tracking, obstacle detection and data fusion) for real and simulated environments;
+        -	Object detection and tracking algorithms based on acoustic images (pipeline tracking, obstacle detection, and data fusion) for real and simulated environments;
         - Design of underwater sonar simulator for AUV preliminary tests;
         - Driver development and system deployment on AUV;
         - Software integration, testing, peer review, simulation and debugging with Rock framework;
-        - Guest researcher at DFKI for AUV software development and testing (1 mth).
-    - role: Trainee Expert - IT Architect
+        - Work as Guest researcher at DFKI for AUV software development and testing (1 mth).
+    - role: IT Architect Trainee
       time: 2012 - 2014
       company: Oi S.A., Rio de Janeiro, Brazil
       details: |
@@ -98,7 +98,7 @@ experiences:
           - End-to-end solution design based on business needs using market and enterprise standards as TM Forum Frameworx, TOGAF, and SOA;
           - Maintenance of enterprise as-is, transition, target and reference architectures;
           - Delivering solutions involving CRM, Cloud, Charging, Billing and OSS/BSS applications.
-    - role: Linux/Unix System Administrator
+    - role: Unix Linux System Administrator
       time: 2010 - 2010
       company: ecGlobal, Salvador, Brazil
       details: |
@@ -107,7 +107,7 @@ experiences:
       time: 2009 - 2010
       company: ecGlobal, Salvador, Brazil
       details: |
-        Development of social networks for online market research and e-commerce applications using PHP/JavaScript/Ajax, CSS, Elgg framework and MySQL and PostgreSQL databases.
+        Development of social networks for online market research and e-commerce applications using PHP/JavaScript/Ajax, CSS, Elgg framework, and MySQL and PostgreSQL databases.
 publications:
     title: Main Publications
     intro: |
@@ -142,23 +142,48 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Robotics
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Acoustic and visual perception
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Computer Graphics & Simulation
+        level: 95%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: C/C++ & Ruby
+        level: 95%
+
+      - name: ROS & ROCK frameworks
+        level: 90%
+
+      - name: Git & Debugging
+        level: 90%
+      
+      - name: Team leadership
+        level: 80%
+
+# skills:
+#     title: Skills &amp; Proficiency
+
+#     toolset:
+#       - name: Python & Django
+#         level: 98%
+
+#       - name: Javascript & jQuery
+#         level: 98%
+
+#       - name: Angular
+#         level: 98%
+
+#       - name: HTML5 & CSS
+#         level: 95%
+
+#       - name: Ruby on Rails
+#         level: 85%
+
+#       - name: Sketch & Photoshop
+#         level: 60%
 
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
