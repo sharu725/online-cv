@@ -16,7 +16,7 @@ sidebar:
 
     # Sidebar links
     email: antony.s.smirnov@gmail.com
-    website: test-engineer.info #do not add http://
+    website: test-engineer.site
     linkedin: vaskocuturilo
     github: vaskocuturilo
     
@@ -32,20 +32,19 @@ sidebar:
           link: https://leanpub.com/
         
         - item: Testing / Programming
-          link: https://github.com/vaskocuturilo
+          link: https://github.com/vaskocuturilo/
           
         - item: Travelling
-          link: https://www.instagram.com/vaskocuturilo
+          link: https://www.instagram.com/testengineerinfo/
         
         
 career-profile:
     title: Career Profile
     summary: '<div><ul>
-            
-            <li>9+ years overall experience in IT field.</li>
-            <li>3+ years experience in Software Testing.</li>
-            <li>2+ years experience in Test Automation.</li>
-            <li>Strong knowledge: Java 8, Selenium WebDriver / Selenide, Selenoid, TestNG, Allure, Jenkins, Git, Docker, REST, SQL.</li>
+            <li>10+ years overall experience in IT field.</li>
+            <li>4+ years experience in Software Testing.</li>
+            <li>3+ years experience in Test Automation.</li>
+            <li>Strong knowledge: Java 8, Selenium WebDriver / Selenide, Maven/Gradle, TestNG/JUnit, Allure, Jenkins, Git, Docker, REST, SQL.</li>
             <li>Experience in creating test automation frameworks / raising up automation infrastructure from scratch.</li>
             <li><a href="https://github.com/vaskocuturilo">GitHub</a> profile</li>
             <li>IT <a href="http://test-engineer.site/">blogger</a></li>
@@ -62,24 +61,24 @@ education:
     - degree: Master ’ s degree in software engineering for computers and computer based systems.
       university: Saint Petersburg State University
       time: 2000 - 2005
-      details: "For these 5 years we covered: 2 programming languages, 7 mathematics, algorythms theory, optimization methods, system administration, etc."
+      details: "For these 5 years we covered: 2 programming languages, 7 mathematics, algorithms theory, optimization methods, system administration, etc."
       
       
 experiences:
-    - role: QA Lead Automation Engineer  
-      time: 2018 - 2019
+  - role: QA Automation Engineer
+      time: 2020 - 2021
+      company: Dostavista Group, Moscow
+      details:
+
+    - role: QA Automation Engineer
+      time: 2019 - 2020
       company: Sportamix, Los Angeles
       details: 
 
     - role: QA Automation Engineer
       time: 2018 - 2019
       company: Gosuslugi, Moscow
-      details: 
-
-    - role: QA Automation Engineer
-      time: 2016 - 2018
-      company: Goszakupki, Moscow
-      details: 
+      details:
 
 projects:
     title: Projects
@@ -136,7 +135,7 @@ publications:
 
       - title: "Do you think qa automation department is a separate team?"
         authors: Anton Smirnov
-        conference: "test-engineer.info, (2019)"
+        conference: "test-engineer.site, (2019)"
       
 skills:
     title: Skills &amp; Proficiency
