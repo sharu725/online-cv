@@ -3,44 +3,44 @@
 #
 
 sidebar:
-    # Site Settings
-    title: Anton Smirnov CV
-    url: 'https://github.com/vaskocuturilo/online-cv'
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  # Site Settings
+  title: Anton Smirnov CV
+  url: 'https://github.com/vaskocuturilo/online-cv'
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Anton Smirnov
-    tagline: Automation Engineer
-    avatar: avatar.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Anton Smirnov
+  tagline: Automation Engineer
+  avatar: avatar.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: antony.s.smirnov@gmail.com
-    website: test-engineer.site
-    linkedin: vaskocuturilo
-    github: vaskocuturilo
-    
-    languages:
-      - idiom: Russian
-        level: Native
+  # Sidebar links
+  email: antony.s.smirnov@gmail.com
+  website: test-engineer.site
+  linkedin: vaskocuturilo
+  github: vaskocuturilo
 
-      - idiom: English
-        level: Intermediate
-        
-    interests:
-        - item: Publications
-          link: https://leanpub.com/
-        
-        - item: Testing / Programming
-          link: https://github.com/vaskocuturilo/
-          
-        - item: Travelling
-          link: https://www.instagram.com/testengineerinfo/
-        
-        
+  languages:
+    - idiom: Russian
+      level: Native
+
+    - idiom: English
+      level: Intermediate
+
+  interests:
+    - item: Publications
+      link: https://leanpub.com/
+
+    - item: Testing / Programming
+      link: https://github.com/vaskocuturilo/
+
+    - item: Travelling
+      link: https://www.instagram.com/testengineerinfo/
+
+
 career-profile:
-    title: Career Profile
-    summary: '<div><ul>
+  title: Career Profile
+  summary: '<div><ul>
             <li>10+ years overall experience in IT field.</li>
             <li>4+ years experience in Software Testing.</li>
             <li>3+ years experience in Test Automation.</li>
@@ -58,124 +58,124 @@ career-profile:
 
 
 education:
-    - degree: Master ’ s degree in software engineering for computers and computer based systems.
-      university: Saint Petersburg State University
-      time: 2000 - 2005
-      details: "For these 5 years we covered: 2 programming languages, 7 mathematics, algorithms theory, optimization methods, system administration, etc."
-      
-      
+  - degree: Master ’ s degree in software engineering for computers and computer based systems.
+    university: Saint Petersburg State University
+    time: 2000 - 2005
+    details: "For these 5 years we covered: 2 programming languages, 7 mathematics, algorithms theory, optimization methods, system administration, etc."
+
+
 experiences:
   - role: QA Automation Engineer
-      time: 2020 - 2021
-      company: Dostavista Group, Moscow
-      details:
+    time: 2020 - 2021
+    company: Dostavista Group, Moscow
+    details:
 
-    - role: QA Automation Engineer
-      time: 2019 - 2020
-      company: Sportamix, Los Angeles
-      details: 
+  - role: QA Automation Engineer
+    time: 2019 - 2020
+    company: Sportamix, Los Angeles
+    details:
 
-    - role: QA Automation Engineer
-      time: 2018 - 2019
-      company: Gosuslugi, Moscow
-      details:
+  - role: QA Automation Engineer
+    time: 2018 - 2019
+    company: Gosuslugi, Moscow
+    details:
 
 projects:
-    title: Projects
-    intro: "Here you can find a list of commercial projects I've been working on for the past 5 years. 
+  title: Projects
+  intro: "Here you can find a list of commercial projects I've been working on for the past 5 years.
     Please note that commercial projects names are not real due to NDA."
 
 
-    assignments:
-      - title: Sportamix
-        link: "https://sportamix.com/"
-        tagline: "Sportamix has revolutionized networking in the sports industry by offering direct communication between athletes, coaches, recruiters, and fans around the world."
+  assignments:
+    - title: Sportamix
+      link: "https://sportamix.com/"
+      tagline: "Sportamix has revolutionized networking in the sports industry by offering direct communication between athletes, coaches, recruiters, and fans around the world."
 
-      - title: Gosuslugi
-        link: "https://www.gosuslugi.ru/"
-        tagline: "Portal of public services of the Russian Federation"
-        
-      - title: Farecompare
-        link: "https://www.farecompare.com/"
-        tagline: "Flight Comparison, Compare Flight Prices & Airline Tickets - FareCompare"
-       
-      - title: Smava Ihr Kredit ist da
-        link: "https://www.smava.de/"
-        tagline: "SMAVA Online-Kreditvergleich | unabhängig und kundenorientiert"
-        
-      - title: Uniland
-        link: "https://www.uniland.ru/"
-        tagline: "Uniland online store"
-        
-      - title: Your Md
-        link: "http://yourmd.ru/"
-        tagline: "Medical center"
-        
-      - title: Uralsib
-        link: "http://www.uralsib.ru/"
-        tagline: "URALSIB Bank is one of the largest universal banks of the Federal level"
-        
-      - title: Ministry of Energy
-        link: "https://minenergo.gov.ru/"
-        tagline: "Ministry of energy"
-        
-        
+    - title: Gosuslugi
+      link: "https://www.gosuslugi.ru/"
+      tagline: "Portal of public services of the Russian Federation"
+
+    - title: Farecompare
+      link: "https://www.farecompare.com/"
+      tagline: "Flight Comparison, Compare Flight Prices & Airline Tickets - FareCompare"
+
+    - title: Smava Ihr Kredit ist da
+      link: "https://www.smava.de/"
+      tagline: "SMAVA Online-Kreditvergleich | unabhängig und kundenorientiert"
+
+    - title: Uniland
+      link: "https://www.uniland.ru/"
+      tagline: "Uniland online store"
+
+    - title: Your Md
+      link: "http://yourmd.ru/"
+      tagline: "Medical center"
+
+    - title: Uralsib
+      link: "http://www.uralsib.ru/"
+      tagline: "URALSIB Bank is one of the largest universal banks of the Federal level"
+
+    - title: Ministry of Energy
+      link: "https://minenergo.gov.ru/"
+      tagline: "Ministry of energy"
+
+
 publications:
-    title: Publications
-    intro: "Here you can find a list of articles and books I've been working on for the past 2 year."
+  title: Publications
+  intro: "Here you can find a list of articles and books I've been working on for the past 2 year."
 
-    papers:
-      - title: "How build test automation framework from scratch."
-        authors: Anton Smirnov
-        conference: "Leanpub, 2019"
-      
-      - title: "Starting automation testing from scratch."
-        authors: Anton Smirnov
-        conference: "Leanpub, 2018"
+  papers:
+    - title: "How build test automation framework from scratch."
+      authors: Anton Smirnov
+      conference: "Leanpub, 2019"
 
-      - title: "Do you think qa automation department is a separate team?"
-        authors: Anton Smirnov
-        conference: "test-engineer.site, (2019)"
-      
+    - title: "Starting automation testing from scratch."
+      authors: Anton Smirnov
+      conference: "Leanpub, 2018"
+
+    - title: "Do you think qa automation department is a separate team?"
+      authors: Anton Smirnov
+      conference: "test-engineer.site, (2019)"
+
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-        - name: Software Testing / Quality Assurance
-          level: 90%
-          
-        - name: QA Automation
-          level: 90%
-          
-        - name: Selenium /Selenide/ TestnNG / Allure
-          level: 95%
-          
-        - name: JMeter / Gatling
-          level: 50%
-          
-        - name: Java / OOP / Design Patterns
-          level: 80%
-          
-        - name: Javascript / Typescript
-          level: 50%  
-          
-        - name: Gradle / Maven
-          level: 90%
-          
-        - name: MySQL / MS SQL / Oracle
-          level: 70%
-          
-        - name: Git
-          level: 90%
-          
-        - name: Jenkins
-          level: 90%
-          
-        - name: Docker
-          level: 70%
-          
-        - name: AWS / Google services
-          level: 40%          
-          
+  toolset:
+    - name: Software Testing / Quality Assurance
+      level: 90%
+
+    - name: QA Automation
+      level: 90%
+
+    - name: Selenium /Selenide/ TestnNG / Allure
+      level: 95%
+
+    - name: JMeter / Gatling
+      level: 50%
+
+    - name: Java / OOP / Design Patterns
+      level: 80%
+
+    - name: Javascript / Typescript
+      level: 50%
+
+    - name: Gradle / Maven
+      level: 90%
+
+    - name: MySQL / MS SQL / Oracle
+      level: 70%
+
+    - name: Git
+      level: 90%
+
+    - name: Jenkins
+      level: 90%
+
+    - name: Docker
+      level: 70%
+
+    - name: AWS / Google services
+      level: 40%
+
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
