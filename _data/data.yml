@@ -29,11 +29,11 @@ sidebar:
       - idiom: Spanish
         level: Native
 
-      - idiom: German
-        level: Basic
-
       - idiom: English
         level: Professional
+
+      - idiom: German
+        level: Basic
 
     interests:
       - item: 
@@ -48,7 +48,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Process Engineer with experience on developing of conceptual, basic 
+      Process Engineer with experience on development of conceptual, basic 
       and detailed engineering in the oil and gas sector. Data science and
       Machine Learning student.
       You can [download this free resume/CV template here]().
