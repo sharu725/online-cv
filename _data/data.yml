@@ -41,9 +41,9 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: '<div><ul>
-            <li>10+ years overall experience in IT field.</li>
-            <li>4+ years experience in Software Testing.</li>
-            <li>3+ years experience in Test Automation.</li>
+            <li>9+ years overall experience in IT field.</li>
+            <li>3+ years experience in Software Testing.</li>
+            <li>2+ years experience in Test Automation.</li>
             <li>Strong knowledge: Java 8, Selenium WebDriver / Selenide, Maven/Gradle, TestNG/JUnit, Allure, Jenkins, Git, Docker, REST, SQL.</li>
             <li>Experience in creating test automation frameworks / raising up automation infrastructure from scratch.</li>
             <li><a href="https://github.com/vaskocuturilo">GitHub</a> profile</li>
@@ -67,7 +67,7 @@ education:
 experiences:
   - role: QA Automation Engineer
     time: 2020 - 2021
-    company: Dostavista Group, Moscow
+    company: Dostavista Global, Moscow
     details:
 
   - role: QA Automation Engineer
@@ -87,6 +87,10 @@ projects:
 
 
   assignments:
+    - title: Dostavista Global
+      link: "https://dostavista.global/"
+      tagline: "Global crowdsourced delivery service in 60 minutes or precisely on time."
+
     - title: Sportamix
       link: "https://sportamix.com/"
       tagline: "Sportamix has revolutionized networking in the sports industry by offering direct communication between athletes, coaches, recruiters, and fans around the world."
