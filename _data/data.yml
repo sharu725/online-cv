@@ -53,6 +53,10 @@ education:
 
 experiences:
     - role: Software Developer
+      time: 2021 - Present
+      company: TIVIT
+    
+    - role: Software Developer
       time: 2018 - 2020
       company: Scytl, Brazil
       details: |
@@ -64,8 +68,7 @@ experiences:
         - Developed platform to support some specific elections (ASP.NET MVC).
         - Work as full stack in a online meetings project, from software validation to the development (Angular 2+ and .NET Core).
         - Experience developing VoIP platform for electronic voting using Asterisk, FastAGI and AsterNET.
- 
-    
+          
 
 skills:
     title: Skills &amp; Proficiency
