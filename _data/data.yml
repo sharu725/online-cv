@@ -42,44 +42,63 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-          I am a highly skilled, solutions-focussed Electrical and
-          Electronic Engineer with extensive manual and automation experience in designing, 
-          developing and managing testing environments. I am well-rounded, consistent with strong
-          technical knowledge and a passion for learning and adapting new technology, I use my full range of 
-          communication, leadership and technical skills to deliver bespoke multi-faceted projects within deadlines. 
-
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
 education:
     - degree: Beng Electrical and Electronic engineering
       university: University of Manchester
       time: 2009 - 2011
-      details: 
-      A developed strong knowledge of core concepts in Electrical and Electronic Engineering.
-      -	Electronics modules include, Microcomputer engineering, Circuit analysis, Digital system design including FPGA,VHDL design, EMF, Circuit design, Communication systems & Measurements, Java, embedded C programming, Signals and systems, control systems, analogue and digital communication, Transmissions lines and Computer Systems Architecture.
-      -	Electrical modules include, Energy Transport and Conversion, Machines, Drives & Power electronics, Generation and Transport of Electrical Energy, Power System Plant & Protection, Electrical Drive Systems. Drive Systems. 
-      -	Final year microelectronics project, fabricating transparent thin film transistors, measuring its DC characterisation and low frequency noise effects. Adequate theoretical, professional research and practical testing skills were gained over the year in a specialised area of study.
-
-
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+          
 experiences:
-    - role: Senior Test and Intergration engineer -Automation
-      time: 2020 - Present , Full Time
-      company: Raytheon, Salford
-      details: 
-        
-    - role: Senior Automation Test engineer - Smart Metering
-      time: 2018 - 2020 , Contract
-      company: Telefonica, Northampton
-      details: 
-         
-    - role: Automation Test and Validation engineer
-      time: 2017 - 2018
-      company: Jaguar and Land rover, Gaydon
-      details: 
-
-    - role: Automation Test and Validation engineer
-    time: 2014 - 2016
-    company: Landis+Gyr, Stockport
-    details: 
-    
+    - role: Lead Developer
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+          - Bullet point
+          - Bullet point
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
 projects:
     title: Projects
     intro: >
