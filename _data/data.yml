@@ -52,27 +52,33 @@ education:
     - degree: Beng Electrical and Electronic engineering
       university: University of Manchester
       time: 2009 - 2011
-      details: |
+      details: 
+      A developed strong knowledge of core concepts in Electrical and Electronic Engineering.
+      -	Electronics modules include, Microcomputer engineering, Circuit analysis, Digital system design including FPGA,VHDL design, EMF, Circuit design, Communication systems & Measurements, Java, embedded C programming, Signals and systems, control systems, analogue and digital communication, Transmissions lines and Computer Systems Architecture.
+      -	Electrical modules include, Energy Transport and Conversion, Machines, Drives & Power electronics, Generation and Transport of Electrical Energy, Power System Plant & Protection, Electrical Drive Systems. Drive Systems. 
+      -	Final year microelectronics project, fabricating transparent thin film transistors, measuring its DC characterisation and low frequency noise effects. Adequate theoretical, professional research and practical testing skills were gained over the year in a specialised area of study.
+
+
 experiences:
     - role: Senior Test and Intergration engineer -Automation
       time: 2020 - Present , Full Time
       company: Raytheon, Salford
-      details: |
+      details: 
         
     - role: Senior Automation Test engineer - Smart Metering
       time: 2018 - 2020 , Contract
       company: Telefonica, Northampton
-      details: |
+      details: 
          
     - role: Automation Test and Validation engineer
       time: 2017 - 2018
       company: Jaguar and Land rover, Gaydon
-      details: |
+      details: 
 
     - role: Automation Test and Validation engineer
     time: 2014 - 2016
     company: Landis+Gyr, Stockport
-    details: |
+    details: 
     
 projects:
     title: Projects
