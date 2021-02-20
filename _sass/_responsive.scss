@@ -5,8 +5,11 @@
         padding: 0;
     }
 
+    .wrapper {
+      display: block;
+    }
+
     .sidebar-wrapper {
-        position: static;
         width: inherit;
     }
 
