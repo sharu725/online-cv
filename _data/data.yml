@@ -54,7 +54,10 @@ education:
 experiences:
     - role: Software Developer
       time: 2021 - Present
-      company: TIVIT
+      company: TIVIT, Brazil
+      details: |
+        - Maintenance and evolution of an internal analytics portal
+        - Restructuring the CI/CD process of Crisis Portal
     
     - role: Software Developer
       time: 2018 - 2020
