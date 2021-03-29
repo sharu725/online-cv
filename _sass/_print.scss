@@ -3,6 +3,10 @@
     @page {
         size: A4;
     }
+   a[href]:after {
+      content: none !important;
+   }
+    
     body {
        font-size: 12pt;
     }
@@ -10,6 +14,11 @@
     img.avatar {
         filter: grayscale(1);
         -webkit-filter: greyscale(1);
+    }
+   .stackoverflow-flair {
+      //used for stackoverflow flair
+      filter: grayscale(1) contrast(1) brightness(90%);
+      -webkit-filter: greyscale(1) contrast(1) brightness(90%);
     }
    .main-wrapper .time {
        float: right;

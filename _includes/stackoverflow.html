@@ -1,0 +1,9 @@
+{% if sidebar.stack-overflow and sidebar.stack-overflow-flair == true %}
+{% assign splited = sidebar.stack-overflow | split: '/' | sort %}
+<div class="container-block">
+    <a target="_blank" href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }}">
+        <img class="stackoverflow-flair" src="https://stackoverflow.com/users/flair/{{  splited[0] }}.png?theme=clean"
+            width="208" height="58" />
+    </a>
+</div>
+{% endif %}
