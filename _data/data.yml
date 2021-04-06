@@ -57,6 +57,9 @@ news:
         
     
     posts:
+        - time: April 2021
+          title: Our new paper (uBAM) has officially been published at Nature Machine Intelligece!
+        
         - time: December 2020
           title: Defending my PhD Thesis. Magna cum Laude
 
@@ -267,6 +270,10 @@ publications:
       
 
     papers:
+      - title: "Unsupervised behaviour analysis and magnification (uBAM) using deep learning"
+        authors: B. Brattoli*, U. Büchler*, M. Dorkenwald, P. Reiser, F. Helmchen, A. S. Wahl, B. Ommer
+        conference: Nature Machine Intelligence, 2021
+      
       - title: "Sharing Matters for Generalization in Deep Metric Learning"
         authors: T. Milbich*, K. Roth*, B. Brattoli, B. Ommer
         conference: tPAMI, 2020
