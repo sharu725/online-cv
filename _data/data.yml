@@ -1,4 +1,4 @@
-#
+  #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
 
@@ -7,46 +7,35 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Víctor González Toledo
+    tagline: PHP Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    email: victor.gonzalez.sw.developer@gmail.com
+    linkedin: victorgonzaleztoledo
+    github: victorgonzaleztoledo
+    codewars:Kleituss
 
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: English
+        level: B2 First, Cambridge
 
     interests:
-      - item: Climbing
+      - item: Fitness
         link:
 
-      - item: Snowboarding
+      - item: Reading
         link:
 
       - item: Cooking
         link:
 
 career-profile:
-    title: Career Profile
+    title: PHP Developer
     summary: |
       Summarise your career here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. You can [download this free resume/CV template here]().
@@ -55,66 +44,91 @@ career-profile:
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Bachelor of computer engineering
+      university: University of Malaga
+      time: 2015 - 2018
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+         This Bachelor provides in-depth study into different fields: 
+         information technology geared to artificial intelligence, 
+         computer engineering designed for the development of hardware 
+         and distributed software, and information systems that deal 
+         with data processing and business software integration.
+    - degree: Computer systems engineering
+      university: University of Malaga
+      time: 2000 - 2005
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        This studies leading to a technical degree in Systems Data Processing
+         are intended to provide students with a deeper understanding of the 
+         components and functions of a computer system, in addition to enabling 
+         them to design, plan and implement computer systems in general.
+          - Industrial computing
+          - Computer engineering
+          - Network and systems administration
+          - Software engineering
+          - Web technologies and service
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Senior Web Developer
+      time: October, 2015 - Present day
+      company: Cotronic, S.A. (Grupo Cobra), Málaga
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        During this period, as I became the only member of the software
+        development department, besides being responsible for both the
+        front-end and back-end, I was also in charge of the functional
+        development of the applications, that is, gathering requirements,
+        analyzing use cases, and writing unit tests. Starting to use PHP 7
+        for the backend of the new applications, making use of JSON format
+        for communications, using jQuery for the front-end and HTML5 with
+        bootstrap3 for the creation of responsive designs. During this period,
+        in addition to maintaining the aforementioned applications,
+        applications have been developed for fleet control, invoicing control,
+        payments to external suppliers, and time control of contracted personnel.
+        For the set of applications it has also been necessary to create batch
+        processes, reading and handling of email inboxes, calls to curl_exec
+        simulating web browsers for both the collection of information
+        and sending forms.
+          - PHP 7
+          - Git
+          - Test-Driven Development
+          - Functional analysis
+    - role: Web Developer
+      time: December, 2009 - September, 2015
+      company: Cotronic, S.A. (Grupo Cobra), Málaga
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        	Acting primarily as the team's back-end developer, I was in charge
+          of the design and maintenance of the database, using MySQL Workbench,
+          and also of the creation and optimization of MySQL queries. Building
+          a solid PHP back-end, exposing the data to the front-end via RESTFul
+          API mainly via XML format. On the front-end part, we had javascript
+          making use of an open-source library for user interface design and
+          using Xajax to make POST calls to the back-end. During these years
+          we developed applications for the management of human resources,
+          control of the supply of tools and devices, control of warehouses,
+          and management of external suppliers. These applications required 
+          document management and also the creation and reading of XLS 
+          and PDF files.
+          - PHP Backend
+          - Database design
+          - Query optimization
+          - MySQL
+    - role: Flex-3 Developer
+      time: March, 2009 - October, 2009
+      company: Accenture S.A.
+      client: Applus Services S.A.
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+          o	Working as a programmer with the Flex 3 framework (Adobe) for a project
+          for the client Applus+. In this Project, we used Scrum as a development
+          methodology. Tasks to be performed could be specified either in a 
+          technical document or in a functional one. These tasks came with 
+          their estimated development time. Subversion was used for version control.
+          As none of the team members knew the environment, we received a training
+          that lasted a couple of weeks and we started working with the client.
+          Being one of the developers who learned the technology and the framework
+          the fastest, I designed, together with my analyst, the templates and classes
+          that we ended up using for the project. In addition to carrying out my tasks,
+          in the daily scrum I was in charge of helping colleagues who had problems 
+          with their developments. 
+          - Fast learner
+          - Embraces teamwork
 projects:
     title: Projects
     intro: >
