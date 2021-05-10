@@ -84,18 +84,19 @@ projects:
 
       - title: Meeting Playlist
         tagline: "A mobile app developed for meeting matching and restaurant reservation service for college students."
-
-projects:
-    title: Skills
-    assignments:
-      - title: Android
-        tagline: Java, Kotlin, Kotlin DSL, RxJava, RxAndroid, Coroutine, DataBinding, Retrofit2, Room, Koin, MVVM, Clean Architecture
-
-      - title: Backend
-        tagline: Python, Django, DRF, MySQL, Redis, Docker, AWS(EC2, RDS, S3, Lambda, etc)
-
-      - title: Machine Learning
-        tagline: Pandas, Scikit-learn, Pytorch, TensorFlow
         
-      - title: ETC
-        tagline: Git, Jira, Trello, Figma, Slack, Notion
+ skills:
+    title: Skills
+
+    toolset:
+      - name: Android - Java, Kotlin, Kotlin DSL, RxJava, RxAndroid, Coroutine, DataBinding, Retrofit2, Room, Koin, MVVM, Clean Architecture
+        level: 80%
+
+      - name: Backend - Python, Django, DRF, MySQL, Redis, Docker, AWS(EC2, RDS, S3, Lambda, etc)
+        level: 60%
+
+      - name: Machine Learning - Pandas, Scikit-learn, Pytorch, TensorFlow
+        level: 40%
+
+      - name: ETC - Git, Jira, Trello, Figma, Slack, Notion
+        level: 100%
