@@ -8,7 +8,7 @@ sidebar:
 
     # Sidebar links
     email: shovelingpig@gmail.com
-    phone: 01-3308-9805
+    phone: 010-3308-9805
     website: medium.com/shoveling-pig #do not add http://
     github: shoveling-pig
     linkedin: shovelingpig
@@ -85,7 +85,7 @@ projects:
       - title: Meeting Playlist
         tagline: "A mobile app developed for meeting matching and restaurant reservation service for college students."
 
-skills:
+projects:
     title: Skills
     assignments:
       - title: Android
