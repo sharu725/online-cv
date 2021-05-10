@@ -99,7 +99,7 @@ publications:
       bibendum fringilla a eu lectus.
     papers:
       - title: Thin cloud removal in optical remote sensing images based on generative adversarial networks and physical model of cloud distortion.
-        link: https://doi.org/10.1016/j.isprsjprs.2020.06.021.
+        link: https://doi.org/10.1016/j.isprsjprs.2020.06.021
         authors: Jun Li, Zhaocong Wu, Zhongwen Hu, Jiaqi Zhang, Mingliang Li, Lu Mo and Matthieu Molinier.
         jounal: ISPRS Journal of Photogrammetry and Remote Sensing.
 
@@ -109,7 +109,7 @@ publications:
         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
       - title: A lightweight deep learning based cloud detection method for Sentinel-2A imagery fusing multi-scale spectral and spatial features
-        link: https://doi.org/10.1109/TGRS.2021.3069641.
+        link: https://doi.org/10.1109/TGRS.2021.3069641
         authors: Edgar T. Irons
         conference: "Comm. ACM 4 (1961), 51–55"
 
