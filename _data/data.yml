@@ -1,6 +1,4 @@
 sidebar:
-    education: False # set to False if you want education in main section instead of in sidebar
-
     # Profile information
     name: Minchan Kim
     tagline: Android Developer
@@ -10,8 +8,8 @@ sidebar:
     email: shovelingpig@gmail.com
     phone: 01-3308-9805
     website: medium.com/shoveling-pig #do not add http://
-    linkedin: shovelingpig
     github: shoveling-pig
+    linkedin: shovelingpig
 
     languages:
       - idiom: Korean
@@ -26,74 +24,76 @@ sidebar:
     interests:
       - item: Problem Solving
 
-      - item: Kaggle Competition
+      - item: Kaggle
 
       - item: Soccer
 
 career-profile:
     title: Career Profile
     summary: |
-      트러플 냄새를 쫓아 온 땅을 헤집는 돼지처럼, 최적의 코드를 작성하기 위해 매일같이 인터넷과 서적을 헤집는 주니어 개발자입니다.
+      트러플 냄새를 쫓아 온 땅을 헤집는 돼지처럼, 최적의 코드를 작성하기 위해 매일같이 인터넷과 서적을 헤집는 주니어 개발자입니다.\n
       복잡한 것을 단순하게 추상화하고 수학적으로 최적화하는 것을 좋아합니다.
+      
 education:
     - degree: Seoul National Univ.
       university: College of Liberal Studies
       time: 2019 - present
       details: |
-        Major1 - Computer Science and Engineering
-        Major2 - Business Administration
+        - Major1 - Computer Science and Engineering
+        - Major2 - Business Administration
     - degree: Korea Univ.
       university: College of Liberal Studies
       time: 2018 - 2019
       details: |
-        Major1 - Computer Science and Engineering
-        Major2 - Law
+        - Major1 - Computer Science and Engineering
+        - Major2 - Law
+        
 experiences:
     - role: IoT System R&D Intern
-      time: December, 2020 - March, 2021
-      company: Seoul National Univ. Co-design and Parallel Processing Lab 
+      time: 2020 - 2021
+      company: Co-design and Parallel Processing Lab 
       details: |
-        상용화를 앞둔 Service Oriented IoT Platform의 Mobile Client 개발
-        사용자의 음성 명령을 인식하여 IoT 시스템을 실시간으로 동작시키는 파이프라인 구축
+        - 상용화를 앞둔 Service Oriented IoT Platform의 Mobile Client 개발
+        - 사용자의 음성 명령을 인식하여 IoT 시스템을 실시간으로 동작시키는 파이프라인 구축
     - role: Android Developer
-      time: August, 2018 - present
+      time: 2020 - present
       company: WaffleStudio
       details: |
-        대학교 수강 계획 및 졸업요건 관리 서비스 ‘SNUGH’를 개발 및 운영
-        Backend 개발과 DevOps를 맡아 웹사이트를 먼저 런칭한 이후 Mobile App 개발
+        - 대학교 수강 계획 및 졸업요건 관리 서비스 SNUGH를 개발 및 운영
+        - Backend 개발과 DevOps를 맡아 웹사이트를 먼저 런칭한 이후 Mobile App 개발
+    - role: Android Developer
+      time: 2018 - 2019
+      company: KUCC
+      details: |
+        - Android 세미나의 멘토를 맡아 Android 개발 전반과 MVVM, Clean Architecture 등을 교육
+        - 대학생 미팅 주선 및 장소 예약 어플 Meeting Playlist를 개발해 소규모 투자 유치에 성공
+        
 projects:
     title: Projects
     assignments:
       - title: SNUGH
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: "A website and mobile app developed for course planning and graduation requirements management service for college students."
 
-      - title: 뿌듯
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Proudly
+        tagline: "A mobile app developed for self-management scheduling service using photo authentication."
 
       - title: Finger Call
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: "A mobile app developed for late expense management and real-time location sharing service within the group."
 
-      - title: 미플리
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Meeting Playlist
+        tagline: "A mobile app developed for meeting matching and restaurant reservation service for college students."
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills
+    assignments:
+      - title: Android
+        tagline: Java, Kotlin, Kotlin DSL, RxJava, RxAndroid, Coroutine, DataBinding, Retrofit2, Room, Koin, MVVM, Clean Architecture
 
-    toolset:
-      - name: Java & Kotlin
-        level: 98%
+      - title: Backend
+        tagline: Python, Django, DRF, MySQL, Redis, Docker, AWS(EC2, RDS, S3, Lambda, etc)
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - title: Machine Learning
+        tagline: Pandas, Scikit-learn, Pytorch, TensorFlow
+        
+      - title: ETC
+        tagline: Git, Jira, Trello, Figma, Slack, Notion
