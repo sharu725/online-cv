@@ -1,8 +1,6 @@
 sidebar: 
     # Profile information
-    name: |
-      **Minchan**
-      **Kim2**
+    name: "Minchan\nKim"
     tagline: Android Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -32,10 +30,7 @@ sidebar:
 
 career-profile:
     title: Career Profile
-    summary: |
-      트러플 냄새를 쫓아 온 땅을 헤집는 돼지처럼,
-      최적의 코드를 작성하기 위해 매일같이 인터넷과 서적을 헤집는 주니어 개발자입니다.
-      복잡한 것을 단순하게 추상화하고 수학적으로 최적화하는 것을 좋아합니다.
+    summary: "트러플 냄새를 쫓아 온 땅을 헤집는 돼지처럼,\n최적의 코드를 작성하기 위해 매일같이 인터넷과 서적을 헤집는 주니어 개발자입니다.\n복잡한 것을 단순하게 추상화하고 수학적으로 최적화하는 것을 좋아합니다."
       
 education:
     - degree: Seoul National Univ.
