@@ -12,8 +12,8 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    Email: jun__li@whu.edu.cn
-    Phone: +86 13125039188
+    email: jun__li@whu.edu.cn
+    phone: +86 13125039188
     researchgate: www.researchgate.net/profile/Jun-Li-271 #do not add http://
 
 
