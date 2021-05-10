@@ -1,8 +1,8 @@
 sidebar: 
     # Profile information
     name: |
-      Minchan
-      Kim
+      **Minchan**
+      **Kim2**
     tagline: Android Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -85,9 +85,8 @@ projects:
       - title: Meeting Playlist
         tagline: "A mobile app developed for meeting matching and restaurant reservation service for college students."
         
- skills:
+skills:
     title: Skills
-
     toolset:
       - name: Android - Java, Kotlin, Kotlin DSL, RxJava, RxAndroid, Coroutine, DataBinding, Retrofit2, Room, Koin, MVVM, Clean Architecture
         level: 80%
