@@ -1,8 +1,8 @@
-sidebar:
+sidebar: 
     # Profile information
     name: |
-        **Minchan**
-        **Kim**
+      Minchan
+      Kim
     tagline: Android Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
