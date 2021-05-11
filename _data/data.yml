@@ -56,11 +56,17 @@ experiences:
         - 사용자의 음성 명령을 인식하여 IoT 시스템을 실시간으로 동작시키는 파이프라인 구축
     - role: Android Developer
       time: 2020 - present
-      company: WaffleStudio
+      company: Waffle Studio
       details: |
         - 대학교 수강 계획 및 졸업요건 관리 서비스 SNUGH를 개발 및 운영
         - Backend 개발과 DevOps를 맡아 웹사이트를 먼저 런칭한 이후 Mobile App 개발
     - role: Android Developer
+      time: 2019 - 2020
+      company: Melting Pot
+      details: |
+        - 모임내 지각비 관리 및 실시간 위치 공유 어플 Finger Call을 개발
+        - SMS나 Google Map 등의 기기내 다른 앱과 상호작용하며 데이터를 공유하는 기능 구현
+    - role: Android Seminar Mentor
       time: 2018 - 2019
       company: KUCC
       details: |
