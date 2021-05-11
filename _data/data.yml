@@ -92,7 +92,7 @@ publications:
 skills:
     title: Skills
     toolset:
-      - name: |
+      - name: |+
           Android
           - Java
           - Kotlin
@@ -108,7 +108,7 @@ skills:
           - Clean Architecture
         level: 90%
 
-      - name: |
+      - name: |+
           Backend
           - Python
           - Django
@@ -119,7 +119,7 @@ skills:
           - AWS(EC2, RDS, S3, Lambda, etc)
         level: 50%
 
-      - name: |
+      - name: |+
           Machine Learning
           - Pandas
           - Scikit-learn
@@ -127,7 +127,7 @@ skills:
           - TensorFlow
         level: 40%
 
-      - name: |
+      - name: |+
           ETC
           - Git
           - Jira
