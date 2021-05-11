@@ -129,7 +129,7 @@ skills:
           - TensorFlow
         level: 40%
 
-      - name: |+
+      - name: >+
           ETC
           - Git
           - Jira
