@@ -1,15 +1,11 @@
 sidebar: 
-    # Profile information
-    name: >+
-      - Minchan
-      - Kim3
+    name: Minchan Kim
     tagline: Android Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.png
 
-    # Sidebar links
     email: shovelingpig@gmail.com
     phone: 010-3308-9805
-    website: medium.com/shoveling-pig #do not add http://
+    website: medium.com/shoveling-pig
     github: shoveling-pig
     linkedin: shovelingpig
 
@@ -32,7 +28,7 @@ sidebar:
 
 career-profile:
     title: Career Profile
-    summary: >+
+    summary: |
       트러플 냄새를 쫓아 온 땅을 헤집는 돼지처럼,
       최적의 코드를 작성하기 위해 매일같이 인터넷과 서적을 헤집는 주니어 개발자입니다.
       복잡한 것을 단순하게 추상화하고 수학적으로 최적화하는 것을 좋아합니다.
@@ -73,6 +69,8 @@ experiences:
         
 projects:
     title: Projects
+    intro: |
+      If you want to check codes, please click [here](https://shoveling-pig.github.io/online-portfolio/)
     assignments:
       - title: SNUGH
         tagline: "A website and mobile app developed for course planning and graduation requirements management service for college students."
@@ -94,7 +92,7 @@ publications:
 skills:
     title: Skills
     toolset:
-      - name: >+
+      - name: |
           Android
           - Java
           - Kotlin
@@ -110,7 +108,7 @@ skills:
           - Clean Architecture
         level: 90%
 
-      - name: >+
+      - name: |
           Backend
           - Python
           - Django
@@ -121,7 +119,7 @@ skills:
           - AWS(EC2, RDS, S3, Lambda, etc)
         level: 50%
 
-      - name: >+
+      - name: |
           Machine Learning
           - Pandas
           - Scikit-learn
@@ -129,7 +127,7 @@ skills:
           - TensorFlow
         level: 40%
 
-      - name: >+
+      - name: |
           ETC
           - Git
           - Jira
