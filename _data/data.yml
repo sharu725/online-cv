@@ -2,7 +2,7 @@ sidebar:
     # Profile information
     name: 
       - Minchan
-      - Kim
+      - Kim2
     tagline: Android Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -91,14 +91,47 @@ publications:
 skills:
     title: Skills
     toolset:
-      - name: "Android\n- Java\n- Kotlin\n- Kotlin DSL\n- RxJava\n- RxAndroid\n- Coroutine\n- DataBinding\n- Retrofit2\n- Room\n- Koin\n- MVVM\n- Clean Architecture"
+      - name: |+
+          Android
+          - Java
+          - Kotlin
+          - Kotlin DSL
+          - RxJava
+          - RxAndroid
+          - Coroutine
+          - DataBinding
+          - Retrofit2
+          - Room
+          - Koin
+          - MVVM
+          - Clean Architecture
         level: 90%
 
-      - name: "Backend\n- Python\n- Django\n- DRF\n- MySQL\n- Redis\n- Docker\n- AWS(EC2, RDS, S3, Lambda, etc)"
+      - name: |+
+          Backend
+          - Python
+          - Django
+          - DRF
+          - MySQL
+          - Redis
+          - Docker
+          - AWS(EC2, RDS, S3, Lambda, etc)
         level: 50%
 
-      - name: "Machine Learning\n- Pandas\n- Scikit-learn\n- Pytorch\n- TensorFlow"
+      - name: |+
+          Machine Learning
+          - Pandas
+          - Scikit-learn
+          - Pytorch
+          - TensorFlow
         level: 40%
 
-      - name: "ETC\n- Git\n- Jira\n- Trello\n- Figma\n- Slack\n- Notion"
+      - name: |+
+          ETC
+          - Git
+          - Jira
+          - Trello
+          - Figma
+          - Slack
+          - Notion
         level: 80%
