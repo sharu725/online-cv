@@ -84,45 +84,16 @@ projects:
 skills:
     title: Skills
     toolset:
-      - name: Android
-        - Java
-        - Kotlin
-        - Kotlin DSL
-        - RxJava
-        - RxAndroid
-        - Coroutine
-        - DataBinding
-        - Retrofit2
-        - Room
-        - Koin
-        - MVVM
-        - Clean Architecture
+      - name: "Android\n- Java\n- Kotlin\n- Kotlin DSL\n- RxJava\n- RxAndroid\n- Coroutine\n- DataBinding\n- Retrofit2\n- Room\n- Koin\n- MVVM\n- Clean Architecture"
         level: 90%
 
-      - name: Backend
-        - Python
-        - Django
-        - DRF
-        - MySQL
-        - Redis
-        - Docker
-        - AWS(EC2, RDS, S3, Lambda, etc)
+      - name: "Backend\n- Python\n- Django\n- DRF\n- MySQL\n- Redis\n- Docker\n- AWS(EC2, RDS, S3, Lambda, etc)"
         level: 50%
 
-      - name: Machine Learning
-        - Pandas
-        - Scikit-learn
-        - Pytorch
-        - TensorFlow
+      - name: "Machine Learning\n- Pandas\n- Scikit-learn\n- Pytorch\n- TensorFlow"
         level: 40%
 
-      - name: ETC
-        - Git
-        - Jira
-        - Trello
-        - Figma
-        - Slack
-        - Notion
+      - name: "ETC\n- Git\n- Jira\n- Trello\n- Figma\n- Slack\n- Notion"
         level: 80%
         
 publications:
