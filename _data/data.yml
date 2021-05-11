@@ -124,3 +124,10 @@ skills:
         - Slack
         - Notion
         level: 80%
+        
+publications:
+    title: Certificate
+    papers:
+      - title: 정보처리산업기사
+
+      - title: "TOEIC"
