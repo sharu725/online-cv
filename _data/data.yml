@@ -108,6 +108,7 @@ skills:
     toolset:
       - name: Android
         description: |
+          <br/>
           - Java
           - Kotlin
           - Kotlin DSL
@@ -124,6 +125,7 @@ skills:
 
       - name: Backend
         description: |
+          <br/>
           - Python
           - Django
           - DRF
@@ -135,6 +137,7 @@ skills:
 
       - name: Machine Learning
         description: |
+          <br/>
           - Pandas
           - Scikit-learn
           - Pytorch
@@ -143,6 +146,7 @@ skills:
 
       - name: ETC
         description: |
+          <br/>
           - Git
           - Jira
           - Trello
