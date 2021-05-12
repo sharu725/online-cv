@@ -240,15 +240,15 @@ p {
     .item {
         margin-bottom: 15px;
         overflow: hidden;
+        .level-extra {
+            font-size: 11px;
+            color: $text-grey;
+        }
     }
     .level-title {
         font-size: 14px;
         margin-top: 0;
         margin-bottom: 12px;
-    }
-    .level-extra {
-        font-size: 11px;
-        color: $text-grey;
     }
 }
 
