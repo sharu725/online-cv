@@ -124,7 +124,7 @@ skills:
         level: 90%
 
       - name: Backend
-        extra: Mobile Client의 기능이 정상적으로 동작하는지 테스트하고 검증할 수 있는 Backend Skill을 보유하고 있습니다.
+        extra: <br/>Mobile Client의 기능이 정상적으로 동작하는지 테스트하고 검증할 수 있는 Backend Skill을 보유하고 있습니다.
         description: |
           <br/>
           - Python
@@ -137,7 +137,7 @@ skills:
         level: 50%
 
       - name: Machine Learning
-        extra: Task에 적합한 Model을 학습시키고 Mobile Client나 Backend Server에 배포하여 ML Application을 만들 수 있는 Machine Learning Skill을 보유하고 있습니다. 
+        extra: <br/>Task에 적합한 Model을 학습시키고 Mobile Client나 Backend Server에 배포하여 ML Application을 만들 수 있는 Machine Learning Skill을 보유하고 있습니다. 
         description: |
           <br/>
           - Pandas
@@ -147,7 +147,7 @@ skills:
         level: 40%
 
       - name: Collaboration Tools
-        extra: 다른 Developer나 UI/UX Designer, Product Manager 등의 팀원과 효율적으로 소통할 수 있는 Collaboration Tool들을 능숙하게 사용할 수 있습니다.
+        extra: <br/>다른 Developer나 UI/UX Designer, Product Manager 등의 팀원과 효율적으로 소통할 수 있는 Collaboration Tool들을 능숙하게 사용할 수 있습니다.
         description: |
           <br/>
           - Git
