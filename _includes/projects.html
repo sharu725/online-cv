@@ -7,12 +7,12 @@
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
     </span>
-    {{ projects.title }}
+    <strong>{{ projects.title }}</strong>
   </h2>
 
   {% if projects.intro %}
   <div class="intro">
-      <p>{{ projects.intro }}</p>
+      <p>{{ projects.intro | markdownify }}</p>
   </div><!--//intro-->
   {% endif %}
 
