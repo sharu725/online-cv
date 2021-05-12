@@ -21,14 +21,14 @@
 
       <span class="project-title">
         {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+        <a href="{{ project.link }}" target="_blank"><strong>{{ project.title }}</strong></a>
         {% else %}
-        {{ project.title }}
+        <strong>{{ project.title }}</strong>
         {% endif %}
       </span>
 
       {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+      - <span class="project-tagline">{{ project.tagline | markdownify }}</span>
       {% endif %}
 
     </div><!--//item-->
