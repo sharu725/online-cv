@@ -22,7 +22,7 @@ sidebar:
     interests:
       - item: Problem Solving
 
-      - item: Kaggle
+      - item: Kaggle Competition
 
       - item: Reading Books
 
@@ -30,7 +30,7 @@ career-profile:
     title: Career Profile
     summary: |
       I am an android developer who studies research papers and development books to write easy-to-understand and efficient code,
-      like a pig who searches the whole field to find truffles.
+      like a pig who explores the whole field to find truffles.
       I like to abstract complex things into simple things and optimize them mathematically.
       
 education:
@@ -76,7 +76,7 @@ experiences:
 projects:
     title: Projects
     intro: |
-      If you want to check more about the details of the projects, please click [here](https://shoveling-pig.github.io/online-portfolio/).
+      If you want to check more about the details, please click [here](https://shoveling-pig.github.io/online-portfolio/).
     assignments:
       - title: SNUGH
         tagline: "A website and mobile app developed for course planning and graduation requirements management service for college students."
@@ -85,7 +85,7 @@ projects:
         tagline: "A mobile app developed for self-management scheduling service using photo authentication."
 
       - title: Finger Call
-        tagline: "A mobile app developed for late expense management and real-time location sharing service within the group."
+        tagline: "A mobile app developed for late expense management and real-time location sharing service for organizations."
 
       - title: Meeting Playlist
         tagline: "A mobile app developed for meeting matching and restaurant reservation service for college students."
