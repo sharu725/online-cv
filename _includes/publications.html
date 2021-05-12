@@ -7,7 +7,7 @@
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
     </span>
-    {{ publications.title }}
+    <strong>{{ publications.title }}<strong>
   </h2>
 
   {% if publications.intro %}
@@ -21,7 +21,7 @@
     {% if publication.link %}
       <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
     {% else %}
-      <li>{{ publication.title }}</li>
+      <li><strong>{{ publication.title }}</strong></li>
     {% endif %}
     <div class="publication-authors">{{ publication.authors }}</div>
     <div class="publication-conference">{{ publication.conference }}</div>
