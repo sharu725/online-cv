@@ -15,8 +15,8 @@
     {% for skill in skills.toolset %}
     <div class="item">
 
-      <h3 class="level-title">{{ skill.name }}</h3>
-      {{ skill.description | markdownify }}
+      <h3 class="level-title"><strong>{{ skill.name }}</strong></h3>
+      <div class="level-description">{{ skill.description | markdownify }}</div>
 
       <div class="level-bar">
         <div class="level-bar-inner" data-level="{{ skill.level }}">
