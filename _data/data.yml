@@ -34,13 +34,13 @@ career-profile:
       I like to abstract complex things into simple things and optimize them mathematically.
       
 education:
-    - degree: Seoul National Univ.
+    - degree: <strong>Seoul National Univ.</strong>
       university: College of Liberal Studies
       time: 2019 - present
       details: |
         - Computer Science and Engineering
         - Business Administration
-    - degree: Korea Univ.
+    - degree: <strong>Korea Univ.</strong>
       university: College of Liberal Studies
       time: 2018 - 2019
       details: |
