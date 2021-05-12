@@ -76,19 +76,19 @@ experiences:
 projects:
     title: Projects
     intro: |
-      If you want to check more about the details, please click [here](https://shoveling-pig.github.io/online-portfolio/).
+      If you want to check more about the details, please click **[here](https://shoveling-pig.github.io/online-portfolio/)**.
     assignments:
       - title: SNUGH
-        tagline: "A website and mobile app developed for course planning and graduation requirements management service for college students."
+        tagline: A website and mobile app developed for **course planning and graduation requirements management service** for college students.
 
       - title: Proudly
-        tagline: "A mobile app developed for self-management scheduling service using photo authentication."
+        tagline: A mobile app developed for **self-management scheduling service using photo authentication**.
 
       - title: Finger Call
-        tagline: "A mobile app developed for late expense management and real-time location sharing service for organizations."
+        tagline: A mobile app developed for **late expense management and real-time location sharing service** for organizations.
 
       - title: Meeting Playlist
-        tagline: "A mobile app developed for meeting matching and restaurant reservation service for college students."
+        tagline: A mobile app developed for **meeting matching and restaurant reservation service** for college students.
         
 publications:
     title: Certificates
