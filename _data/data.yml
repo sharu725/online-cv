@@ -29,8 +29,8 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I'm an android developer especially interested in abstracting complex thing into simple formulas and optimizing it.
-      If your team needs an android developer, please contact me.
+      I’m an software engineer especially interested in abstracting complex things into simplest mathematical formulas and optimizing it.
+      Currently I’am looking for an opportunity to work as an android developer.
       
 education:
     - degree: <strong>Seoul National Univ.</strong>
@@ -51,26 +51,26 @@ experiences:
       time: 2020.12 - 2021.03
       company: Co-design and Parallel Processing Lab 
       details: |
-        - 상용화를 앞둔 Service Oriented IoT Platform의 Mobile Client 개발
-        - 사용자의 음성 명령을 인식하여 IoT 시스템을 실시간으로 동작시키는 파이프라인 구축
+        - Develop mobile client of service oriented IoT platform which is about to be commercialized.
+        - Build a pipeline for real-time execution of IoT systems by recognizing user's voice commands using STT.
     - role: <strong>Android Developer</strong>
       time: 2020.08 - present
       company: Waffle Studio
       details: |
-        - 대학교 수강 계획 및 졸업요건 관리 서비스 SNUGH를 개발 및 운영
-        - Backend 개발과 DevOps를 맡아 웹사이트를 런칭한 이후 Mobile App 개발
+        - Develop and operate SNUGH, a course planning and graduation requirements management service for college student.
+        - Launch a website by developing backend server and managing DevOps, and also develop the mobile app, too.
     - role: <strong>Android Developer</strong>
       time: 2019.03 - 2019.12
       company: Melting Pot
       details: |
-        - 모임내 지각비 관리 및 실시간 위치 공유 어플 Finger Call을 개발
-        - SMS나 Google Map 등의 기기내 다른 앱과 상호작용하며 데이터를 공유하는 기능 구현
+        - Develop Finger Call, an application that manages late fines and shares locations in real time.
+        - Learn to skillfully utilize various useful sensors on mobile devices.
     - role: <strong>Android Seminar Mentor</strong>
       time: 2018.03 - 2019.02
       company: KUCC
       details: |
-        - Android 세미나의 멘토를 맡아 Android 개발 전반과 MVVM, Clean Architecture 등을 교육
-        - 대학생 미팅 주선 및 장소 예약 어플 Meeting Playlist를 개발해 소규모 투자 유치에 성공
+        - As a mentor of the android seminar, teach overall android development, MVVM and clean Architecture.
+        - Succeeded to attracting small investments by developing Meeting Playlist, a meeting matching and restaurant reservation service for college students.
         
 projects:
     title: Projects
@@ -127,7 +127,7 @@ skills:
         level: 90%
 
       - name: Backend
-        extra: <br/>Mobile Client의 기능이 정상적으로 동작하는지 테스트하고 검증할 수 있는 Backend Skill을 보유하고 있습니다.
+        extra: <br/>I have a backend skills that can test and validate the functionality of the mobile client.
         description: |
           <br/>
           - Python
@@ -140,7 +140,7 @@ skills:
         level: 50%
 
       - name: Machine Learning
-        extra: <br/>Task에 적합한 Model을 학습시키고 Mobile Client나 Backend Server에 배포하여 ML Application을 만들 수 있는 Machine Learning Skill을 보유하고 있습니다. 
+        extra: <br/>I have a ML skills that can develop ML Applications by training models for given tasks and deploying them to mobile client or server.
         description: |
           <br/>
           - Pandas
@@ -150,7 +150,7 @@ skills:
         level: 40%
 
       - name: Collaboration Tools
-        extra: <br/>다른 Developer나 UI/UX Designer, Product Manager 등의 팀원과 효율적으로 소통할 수 있는 Collaboration Tool들을 능숙하게 사용할 수 있습니다.
+        extra: <br/>I can use collaboration tools for effective communication with other developers, UI/UX designer, PM, etc.
         description: |
           <br/>
           - Git
