@@ -29,8 +29,9 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am an Android developer who studies research papers and development books to write easy-to-understand and efficient code,  
-      like a pig who searches the whole field to find truffles. I like to abstract complex things into simple things and optimize them mathematically.
+      I am an android developer who studies research papers and development books to write easy-to-understand and efficient code,
+      like a pig who searches the whole field to find truffles.
+      I like to abstract complex things into simple things and optimize them mathematically.
       
 education:
     - degree: Seoul National Univ.
