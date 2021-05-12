@@ -1,5 +1,5 @@
 sidebar: 
-    name: Minchan Kim 2
+    name: <strong>Minchan</br>Kim</strong>
     tagline: Android Developer
     avatar: profile.png
 
@@ -29,9 +29,9 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      트러플 냄새를 쫓아 온 땅을 헤집는 돼지처럼,  
-      최적의 코드를 작성하기 위해 매일같이 인터넷과 서적을 헤집는 주니어 개발자입니다.  
-      복잡한 것을 단순하게 추상화하고 수학적으로 최적화하는 것을 좋아합니다.
+      Like a pig searching the whole field to find truffles,  
+      I'm a android developer who searches the internet and books every day to write easy-to-understand and efficient source code.  
+      I like to abstract complex things into simple things and optimize them mathematically.
       
 education:
     - degree: Seoul National Univ.
