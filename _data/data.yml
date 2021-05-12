@@ -36,38 +36,38 @@ career-profile:
 education:
     - degree: <strong>Seoul National Univ.</strong>
       university: College of Liberal Studies
-      time: 2019 - present
+      time: 2019.03 - present
       details: |
         - Computer Science and Engineering
         - Business Administration
     - degree: <strong>Korea Univ.</strong>
       university: College of Liberal Studies
-      time: 2018 - 2019
+      time: 2018.03 - 2019.02
       details: |
         - Computer Science and Engineering
         - Law
         
 experiences:
     - role: <strong>IoT System R&D Intern</strong>
-      time: 2020 - 2021
+      time: 2020.12 - 2021.03
       company: Co-design and Parallel Processing Lab 
       details: |
         - 상용화를 앞둔 Service Oriented IoT Platform의 Mobile Client 개발
         - 사용자의 음성 명령을 인식하여 IoT 시스템을 실시간으로 동작시키는 파이프라인 구축
     - role: <strong>Android Developer</strong>
-      time: 2020 - present
+      time: 2020.08 - present
       company: Waffle Studio
       details: |
         - 대학교 수강 계획 및 졸업요건 관리 서비스 SNUGH를 개발 및 운영
         - Backend 개발과 DevOps를 맡아 웹사이트를 먼저 런칭한 이후 Mobile App 개발
     - role: <strong>Android Developer</strong>
-      time: 2019 - 2020
+      time: 2019.03 - 2019.12
       company: Melting Pot
       details: |
         - 모임내 지각비 관리 및 실시간 위치 공유 어플 Finger Call을 개발
         - SMS나 Google Map 등의 기기내 다른 앱과 상호작용하며 데이터를 공유하는 기능 구현
     - role: <strong>Android Seminar Mentor</strong>
-      time: 2018 - 2019
+      time: 2018.03 - 2019.02
       company: KUCC
       details: |
         - Android 세미나의 멘토를 맡아 Android 개발 전반과 MVVM, Clean Architecture 등을 교육
