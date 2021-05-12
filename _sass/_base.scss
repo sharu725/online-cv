@@ -248,14 +248,7 @@ p {
     }
     .level-extra {
         font-size: 11px;
-    }
-    .level-bar {
-        height: 12px;
-        background: $smoky-white;
-    }
-    .level-bar-inner {
-        height: 12px;
-        background: lighten($theme-color, 15%);
+        color: $text-grey;
     }
 }
 
