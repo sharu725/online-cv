@@ -79,15 +79,23 @@ projects:
       If you want to check more about the details, please click **[here](https://shoveling-pig.github.io/online-portfolio/)**.
     assignments:
       - title: SNUGH
+        time: 2020.08 - present
+        company: Waffle Studio
         tagline: A website and mobile app developed for **course planning and graduation requirements management service** for college students.
 
       - title: Proudly
+        time: 2020.01 - 2020.07
+        company: SPT
         tagline: A mobile app developed for **self-management scheduling service using photo authentication**.
 
       - title: Finger Call
+        time: 2019.06 - 2019.12
+        company: Melting Pot
         tagline: A mobile app developed for **late expense management and real-time location sharing service** for organizations.
 
       - title: Meeting Playlist
+        time: 2018.03 - 2019.02
+        company: KUCC
         tagline: A mobile app developed for **meeting matching and restaurant reservation service** for college students.
         
 publications:
