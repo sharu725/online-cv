@@ -8,12 +8,12 @@ sidebar:
 
     # Profile information
     name: Annie
-    tagline: Data Analyst
+    tagline: Data Scientist
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: anniezh78@gmail.com
-    website: modernmasks.ca #do not add http://
+    website: bit.ly/digitalmarketingecom #do not add http://
     linkedin: annie-7481601a5
     github: zhannie78
     instagram: worldofthewanderer
@@ -56,12 +56,12 @@ education:
         Physiology, Psychology, Anatomy, Chemistry, Organic Chemistry, Physics, Cell Biology, Microbiology, etc
           - 4.0 Math/Science GPA
 experiences:
-    - role: Digital Marketing Consultant
+    - role: Digital Marketing & E-Commerce Analyst
       time: 2020 - Present
       company: Small Business Owner
       details: |
         Elevating brands via digital media marketing. Social media is now the premier platform for marketing for most businesses. I help startups and e-commerce small businesses (eg. Shopify online stores like ModernMasks.ca) with increasing their brand recognition through social media exposure and by marketing them to the desired demographic via targeted Facebook and Instagram ads. I utilize influencer marketing strategies and search engine optimization to increase sales conversions.
-    - role: Senior Software Engineer
+    - role: Brand Ambassador & Promotional Model
       time: 2014 - 2015
       company: Google, London
       details: |
@@ -136,23 +136,20 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 70%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: R
+        level: 80%
 
-      - name: Angular
-        level: 98%
+      - name: SQL
+        level: 60%
 
       - name: HTML5 & CSS
+        level: 90%
+
+      - name: Photoshop & Canva
         level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
