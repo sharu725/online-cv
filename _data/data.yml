@@ -14,13 +14,14 @@ sidebar:
     # Sidebar links
     email: sanket@totewar.com
     whereby: sunkissed
-    website: totewar.github.io/online-cv #do not add http://
+    website: totewar.com #do not add http://
     linkedin: sunkate
     github: totewar
 
     languages:
       - idiom: Certified Product Manager
         level: AIPMM
+        link: https://certificates.aipmm.com/914ff514-8419-41e4-ad0f-2f3094b34977#gs.1ziulq
 
       - idiom: Certified Product Marketing Manager
         level: AIPMM
