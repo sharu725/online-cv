@@ -19,14 +19,32 @@ sidebar:
     github: totewar
 
     languages:
+      - idiom: Certified Product Manager
+        level: AIPMM
+
+      - idiom: Certified Product Marketing Manager
+        level: AIPMM
+
+      - idiom: Professional Scrum Product Owner
+        level: Scrum.org
+
+      - idiom: Professional Scrum Master
+        level: Scrum.org
+
       - idiom: Customer Journey Mapping
         level: UXPressia
 
-      - idiom: French
-        level: Professional
+      - idiom: Enterprise Design Thinking
+        level: IBM
 
-      - idiom: Spanish
-        level: Professional
+      - idiom: Data Studio
+        level: Google
+
+      - idiom: Algorithms Design and Analysis
+        level: Stanford University
+
+      - idiom: Psychological First Aid
+        level: John Hopkins University
 
     interests:
       - item: Climbing
@@ -46,7 +64,7 @@ career-profile:
       Notable skills include performing competitive market analysis,
       formulating product strategies adapting to market fluctuations, and
       constructing business cases, roadmaps, and release plans for SaaS products.
-      __Certified__ PSM, PSPO, CPM and CPMM.
+      __Certified__ CPM, PSPO, CPMM, and PSM.
       __Ex-entrepreneur__ and __Published Author__ with a broad portfolio in user
       experience, engineering, and pre-sales. __Ambassador of Product Management__
       from The Association of International Product Marketing & Management.
