@@ -47,13 +47,19 @@ sidebar:
         level: John Hopkins University
 
     interests:
-      - item: Climbing
+      - item: Sydney Innovation Festival
+        link: https://whatson.cityofsydney.nsw.gov.au/events/sydney-innovation-festival
+
+      - item: University of Sydney
         link:
 
-      - item: Snowboarding
+      - item: Google
         link:
 
-      - item: Cooking
+      - item: Atlassian
+        link:
+
+      - item: Deputy
         link:
 
 career-profile:
@@ -121,7 +127,6 @@ experiences:
         cross-functional product teams to achieve this.
           - Recipient of the Deputy Unicorn Award
           - Recipient of the Deputy Star Award
-          - Represented Deputy at Google, Atlassian, and University of Sydney
     - role: Product Manager and Technical Writer
       time: May 2017 - Apr 2019
       company: Leadbolt, Australia
