@@ -41,7 +41,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Seasoned Product Leader and Writer with a decade-long experience in
+      Seasoned __Product Leader__ and Writer with a decade-long experience in
       building first-mover products for startups and companies in hyper-growth.
       Notable skills include performing competitive market analysis,
       formulating product strategies adapting to market fluctuations, and
@@ -211,23 +211,23 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Strategic Management
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Product Leadership
+        level: 95%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Product Marketing
+        level: 80%
+
+      - name: Technical Writing
+        level: 95%
+
+      - name: Agile Coaching
+        level: 75%
+
+      - name: User Experience Leadership
+        level: 70%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
