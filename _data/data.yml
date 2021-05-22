@@ -108,19 +108,7 @@ experiences:
     - role: Senior Product Owner
       time: Mar 2021 - Present
       company: SAP, Germany
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Writer – Product, Engineering, Growth, and R&D
+    - role: Writer – Product, Engineering, and R&D
       time: Apr 2019 - Nov 2020
       company: Deputy, Australia
       details: |
@@ -147,7 +135,7 @@ experiences:
           - Led the entire Product Strategy at Leadbolt
           - Created and launched a new product "Playable Ads"
     - role: Product Manager and Technical Writer
-      time: Nov 2015 - Mar 2015
+      time: Nov 2015 - Mar 2017
       company: Vserv Digital Services, India
       details: |
         I served as the only Product Manager on the supply-side for VMAX,
@@ -155,27 +143,21 @@ experiences:
         the world and headed all Technical Writing activities globally.
           - Redefined entire ad serving logic and data science feature set
           - Reduced churn and customer support requests globally by 78%
-    - role: (Acting Product Manager and) Technical Writer
+    - role: Writer - Product, Engineering, and R&D
       time: June 2014 - Nov 2015
       company: Contentstack.io and Built.io, India
-    - role: Product Manager and Technical Writer
-      time: May 2017 - Apr 2019
-      company: Vserv Digital Services, India
-      details: |
-        I served as the only Product Manager on the supply-side for VMAX,
-        Vserv’s ad mediation solution that catered to mobile publishers across
-        the world and headed all Technical Writing activities globally.
-          - Redefined entire ad serving logic and data science feature set
-          - Reduced churn and customer support requests globally by 78%
-    - role: Product Manager and Technical Writer
-      time: May 2017 - Apr 2019
-      company: Vserv Digital Services, India
-      details: |
-        I served as the only Product Manager on the supply-side for VMAX,
-        Vserv’s ad mediation solution that catered to mobile publishers across
-        the world and headed all Technical Writing activities globally.
-          - Redefined entire ad serving logic and data science feature set
-          - Reduced churn and customer support requests globally by 78%
+    - role: Director of Products
+      time: Feb 2014 - May 2014
+      company: Signature Musicals, India
+    - role: Technical Writer
+      time: Dec 2012 - Feb 2014
+      company: ibruk, India
+    - role: Technical Writer
+      time: Nov 2011 - Dec 2012
+      company: Phoenix Forge, India
+    - role: Technical Writer
+      time: Dec 2010 - Sep 2011
+      company: ibruk, India
 projects:
     title: Projects
     intro: >
