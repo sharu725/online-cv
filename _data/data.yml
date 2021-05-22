@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -87,9 +87,9 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Senior Product Owner
+      time: Mar 2021 - Present
+      company: SAP, Germany
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -102,28 +102,62 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Writer – Product, Engineering, Growth, and R&D
+      time: Apr 2019 - Nov 2020
+      company: Deputy, Australia
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        Deputy had SaaS-based products in hypergrowth and adequate funding to
+        scale exponentially in an untapped arena. As an experienced Technical
+        Documentation expert, I helped set up the foundation to enable
+        mid-market and enterprise customers and software developer partners to
+        seamlessly connect to the Deputy platform via APIs and webhooks to
+        include in a global workforce management ecosystem. I coached several
+        cross-functional product teams to achieve this.
+          - Recipient of the Deputy Unicorn Award
+          - Recipient of the Deputy Star Award
+          - Represented Deputy at Google, Atlassian, and University of Sydney
+    - role: Product Manager and Technical Writer
+      time: May 2017 - Apr 2019
+      company: Leadbolt, Australia
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        In 2017 and early 2018, Leadbolt was a global market leader in an ad
+        format technology called “playable ads”. As the only product leader in
+        the company, I managed all cross-functional teams including the internal
+        R&D division that created all innovative mobile ad formats that were
+        responsible for a 58% growth in market share and helped Leadbolt achieve
+        its highest revenue since inception.
+          - Led the entire Product Strategy at Leadbolt
+          - Created and launched a new product "Playable Ads"
+    - role: Product Manager and Technical Writer
+      time: Nov 2015 - Mar 2015
+      company: Vserv Digital Services, India
+      details: |
+        I served as the only Product Manager on the supply-side for VMAX,
+        Vserv’s ad mediation solution that catered to mobile publishers across
+        the world and headed all Technical Writing activities globally.
+          - Redefined entire ad serving logic and data science feature set
+          - Reduced churn and customer support requests globally by 78%
+    - role: (Acting Product Manager and) Technical Writer
+      time: June 2014 - Nov 2015
+      company: Contentstack.io and Built.io, India
+    - role: Product Manager and Technical Writer
+      time: May 2017 - Apr 2019
+      company: Vserv Digital Services, India
+      details: |
+        I served as the only Product Manager on the supply-side for VMAX,
+        Vserv’s ad mediation solution that catered to mobile publishers across
+        the world and headed all Technical Writing activities globally.
+          - Redefined entire ad serving logic and data science feature set
+          - Reduced churn and customer support requests globally by 78%
+    - role: Product Manager and Technical Writer
+      time: May 2017 - Apr 2019
+      company: Vserv Digital Services, India
+      details: |
+        I served as the only Product Manager on the supply-side for VMAX,
+        Vserv’s ad mediation solution that catered to mobile publishers across
+        the world and headed all Technical Writing activities globally.
+          - Redefined entire ad serving logic and data science feature set
+          - Reduced churn and customer support requests globally by 78%
 projects:
     title: Projects
     intro: >
