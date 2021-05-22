@@ -8,23 +8,15 @@ sidebar:
 
     # Profile information
     name: Sanket Totewar
-    tagline: Full Stack Developer
+    tagline: Full Stack Product Leader
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    email: sanket@totewar.com
+    whereby: sunkissed
+    website: totewar.github.io/online-cv #do not add http://
+    linkedin: sunkate
+    github: totewar
 
     languages:
       - idiom: English
@@ -49,6 +41,18 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
+      Seasoned Product Leader and Writer with a decade-long experience in
+      building first-mover products, maintaining APIs, managing microservices,
+      and creating documentation. Notable skills include performing competitive
+      market analysis, formulating product strategies adapting to market
+      fluctuations, and constructing business cases, roadmaps, and release plans
+      for new and existing SaaS products.
+      Certified PSM, PSPO, CPM and CPMM.
+      Ex-entrepreneur and Published Author with a broad portfolio in user
+      experience, engineering, and pre-sales. Ambassador of Product Management
+      from The Association of International Product Marketing & Management.
+      Graduate Certificate in Strategic Management, Harvard University and
+      Human-computer Interaction, Stanford University.
       Summarise your career here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. You can [download this free resume/CV template here]().
       Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque

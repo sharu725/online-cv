@@ -31,6 +31,12 @@
     </li>
     {% endif %}
 
+    {% if sidebar.whereby %}
+    <li class="phone"><i class="fab fa-phone"></i>
+      <a href="http://www.whereby.com/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.whereby }}</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.xing %}
     <li class="xing"><i class="fab fa-xing"></i>
       <a href="https://www.xing.com/profile/{{ sidebar.xing }}" target="_blank">{{ sidebar.xing }}</a>
