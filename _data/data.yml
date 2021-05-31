@@ -7,13 +7,13 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Álvaro Huertas García
+    tagline: Biotechnologist and Bioinformatician
+    avatar: personal_photo.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
+    email: ahuertasg01@gmail.com
+    phone: +34 678 27 33 92
     website: blog.webjeda.com #do not add http://
     linkedin: alandoe
     xing: alandoe
