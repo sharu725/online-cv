@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Sarah Gibson
-    tagline: Research Software Engineer
+    tagline: Open Software, Open Infrastructure, Open Science
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -32,11 +32,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Research Software Engineer solving real-world problems by combining and
-      applying cutting edge research from academia and industry. Software
-      Sustainability Fellow. Proud member of the Project Jupyter and Binder teams.
-      Open source contributor. Advocate for open, sustainable, and reproducible
-      research practices. Passionate about healthy community building and growth.
+
 
 education:
     - degree: Astrophysics Ph.D.
@@ -52,20 +48,20 @@ education:
 
 experiences:
     - role: Research Software Engineer
-      time: 2018 - Present
+      time: 2018 - 2021
       company: The Alan Turing Institute, London UK
       details: |
-        My role involves collaborating with stakeholders throughout the Turing
+        My role involved collaborating with stakeholders throughout the Turing
         network on research projects linked to the
         <a href="https://www.turing.ac.uk/research/challenges">Turing Challenge Areas</a>.
-        In my capacity as an RSE, I take responsibility for following best software
-        practices throughout the project, implementing required computational
+        In my capacity as an RSE, I took responsibility for following best software
+        practices throughout projects, implementing required computational
         infrastructure or automated pipelines, data wrangling and analysis,
         project documentation, project management, and reporting via papers,
         presentations or blog posts.
 
         Within the <a href="https://www.turing.ac.uk/research/research-engineering">Research Engineering</a>
-        team, I lead two Service Areas that support the project-based work the
+        team, I led two Service Areas that supported the project-based work the
         team and wider Turing research community engages in. The
         <b>Research Software Tools Management</b> service area provides access to
         critical research and collaboration tools including GitHub, continuous
@@ -112,6 +108,25 @@ projects:
           making their first contribution, guiding them on best practices and
           where their topic best fits into the book.
 
+professional-activities:
+    - role: Fellow
+      time: 2020 - ongoing
+      company: <a href="https://software.ac.uk">Software Sustainability Institute</a>
+      details: |
+        My Fellowship will promote the Binder community and diversify the
+        skill set of the operating team. By attending conferences for Julia,
+        Python and R (the 3 main Jupyter languages), I connect with these
+        communities, learn how they use Binder and their future aspirations,
+        and promote our onboarding system for becoming contributors and
+        operators.
+
+    - role: Mentor
+      time: 2020-ongoing
+      company: <a href="https://openlifesci.org">Open Life Science</a>
+      details: |
+        This programme teaches open leadership skills for growing an open
+        project and community through experiential learning and mentorship.
+
 skills-competencies:
     - type: Technical
       details: |
@@ -129,30 +144,11 @@ skills-competencies:
         training workshops, managing open source issues and pull requests, and
         beyond.
 
-professional-activities:
-    - role: Fellow
-      time: 2020 - ongoing
-      company: <a href="https://software.ac.uk">Software Sustainability Institute</a>
-      details: |
-        My Fellowship will promote the Binder community and diversify the
-        skill set of the operating team. By attending conferences for Julia,
-        Python and R (the 3 main Jupyter languages), I connect with these
-        communities, learn how they use Binder and their future aspirations,
-        and promote our onboarding system for becoming contributors and
-        operators.
-
-    - role: Mentor
-      time: 2020-ongoing
-      company: <a href="https://openlifesci.org">Open Life Science</a>
-      details: |
-        Co-lead of a spin-off of the Open Life Science mentorship programme for
-        the Turing research community. The programme teaches open leadership
-        skills for growing an open project and community.
-
 events:
     title: Events, Talks and Workshops
     intro: |
-      A complete list of events, talks and workshops can be found at <a href="https://sgibson91.github.io/speaking">https://sgibson91.github.io/speaking</a>
+      A complete list of events, talks and workshops can be found at
+      <a href="https://sgibson91.github.io/speaking">https://sgibson91.github.io/speaking</a>
     talks:
       - title: Supporting R in the Binder Community
         link: "https://doi.org/10.5281/zenodo.3895699"
@@ -173,7 +169,8 @@ events:
 publications:
     title: Publications
     intro: |
-      A complete list of publications can be found with ORCID number <a href="https://orcid.org/0000-0003-0356-2765">0000-0003-0356-2765</a>.
+      A complete list of publications can be found with ORCID number
+      <a href="https://orcid.org/0000-0003-0356-2765">0000-0003-0356-2765</a>.
     papers:
       - title: "Fallback accretion on to a newborn magnetar: long GRBs with giant X-ray flares"
         link: "https://doi.org/10.1093/mnras/sty1363"
