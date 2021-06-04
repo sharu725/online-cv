@@ -32,7 +32,10 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-
+      Sarah Gibson is an Open Source Infrastructure Engineer at 2i2c, an open source contributor and advocate.
+      She holds more than 2 years of experience as a Research Engineer at a national institute for data science and artificial intelligence, as well as holding a core contributor role in a number of open source projects.
+      Sarah is passionate about working with domain experts to leverage cloud computing in order to accelerate cutting-edge, data-intensive research and disseminating the results in an open, reproducible and reusable manner.
+      She holds a Fellowship with the Software Sustainability Institute and advocates for best software practices in research and is a member of the mybinder.org operating team, maintaining infrastructure supporting over 150k launches of reproducible computational environments per week.
 
 education:
     - degree: Astrophysics Ph.D.
