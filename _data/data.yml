@@ -52,12 +52,12 @@ education:
 experiences:
     - role: Open Source Infrastructure Engineer
       time: 2021 - Present
-      company: 2i2c - The International Interactive Computing Collaboration
+      company: <a href="https://2i2c.org">2i2c - The International Interactive Computing Collaboration</a>
       # details: | TBA when we have better scope
 
     - role: Research Software Engineer
       time: 2018 - 2021
-      company: The Alan Turing Institute, London UK
+      company: <a href="https://turing.ac.uk">The Alan Turing Institute</a>, London UK
       details: |
         My role involved collaborating with stakeholders throughout the Turing
         network on research projects linked to the
