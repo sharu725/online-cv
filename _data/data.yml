@@ -47,6 +47,11 @@ education:
       details: First Class with Honours
 
 experiences:
+    - role: Open Source Infrastructure Engineer
+      time: 2021 - Present
+      company: 2i2c - The International Interactive Computing Collaboration
+      # details: | TBA when we have better scope
+
     - role: Research Software Engineer
       time: 2018 - 2021
       company: The Alan Turing Institute, London UK
