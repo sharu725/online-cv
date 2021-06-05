@@ -20,14 +20,14 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe    
 
     interests:
-      - item: Robotic / Drone : Impression 3D
+      - item: Robotic / Drone / Impression 3D
         link: https://cults3d.com/fr/mod%C3%A8le-3d/gadget/coque-de-protection-de-drone-dji-f450
 
-      - item: Numeric Responsable
+      - item: Numeric Responsable / Inclusivité
         link:
 
-      - item: Cooking
-        link:
+      - item: OpenSource / Agilité / Artisan Developpeur
+        link: https://artisandeveloppeur.fr/
 
 career-profile:
     title: Career Profile
