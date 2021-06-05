@@ -20,10 +20,10 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe    
 
     interests:
-      - item: Climbing
+      - item: Robotic / Drone : Impression 3D
         link:
 
-      - item: Snowboarding
+      - item: Numeric Responsable
         link:
 
       - item: Cooking
@@ -39,28 +39,24 @@ career-profile:
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Bac +2 - Développeur Web php/Symfony
+      university: Wild Code School Saintes (Pôle Innovation)
+      time: 2021
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+        Developpement 
+    - degree: Bac +3 - Concepteur Developpeur Informatique
+      university: Afpa Brive-La-Gaillarde
+      time: 2012
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Développement basé sur la technologie MicroSoft (Asp.net,c#,MVC4, Framework Entity),
+        Gestion et Conception de base de données (Sql server). 
+    - degree: Bac +2 - Technicien Supérieur Gestionnaire de Ressources 
+      university: Afpa Rochefort (17)
+      time: 2006
+      details: |
+        Maintenance du parc materiels, gestion du reseaux et de son materiels (serveur, switch)
+        Gestion et conception de base de données (Sql server).
+     
 experiences:
     - role: Lead Developer
       time: 2015 - Present
@@ -125,28 +121,6 @@ projects:
       - title: Delta
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
