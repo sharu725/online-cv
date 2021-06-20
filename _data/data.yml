@@ -172,46 +172,46 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Data science
+      - name: Data science 
         details: Numpy, Pandas, Scikit-learnt, ...
         level: 90%
 
-      - name: Programming
+      - name: Programming 
         details: Python, C++, Matlab, ...
         level: 90%
 
-      - name: Microsoft Office &amp; LaTeX
+      - name: Microsoft Office &amp; LaTeX 
         level: 90%
 
-      - name: Data Visualization
+      - name: Data Visualization 
         details: Matplotlib, Tableau
         level: 80%   
 
-      - name: Machine learning
+      - name: Machine learning 
         details: Decision trees, KNN, ...
         level: 80%
 
-      - name: Deep learning
+      - name: Deep learning 
         details: TensorFlow, Sk-learn
         level: 70%
 
-      - name: Business Analysis
+      - name: Business Analysis 
         details: Excel, VBA, Power BI
         level: 70%        
 
-      - name: Databases
+      - name: Databases 
         details: SQL, BigQuery, ...
         level: 70%
 
-      - name: Mathematical modelling
+      - name: Mathematical modelling 
         details: Mathematica, Matlab
         level: 70%     
 
-      - name: Cloud computing
+      - name: Cloud computing 
         details: GCP, AWS, ... 
         level: 60%
 
-      - name: Statistics &amp; Probability
+      - name: Statistics &amp; Probability 
         level: 60%
 
 # footer: >
