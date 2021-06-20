@@ -173,15 +173,15 @@ skills:
 
     toolset:
       - name: Data science
-        details: (Numpy, Pandas, Scikit-learnt,...)
+        details: (Numpy, Pandas, Scikit-learnt, ...)
         level: 90%
-      - name: Programming (Python, C++, Matlab..)
+      - name: Programming (Python, C++, Matlab, ...)
         level: 90%
       - name: Microsoft Office &amp; LaTeX
         level: 90%
       - name: Data Visualization (Matplotlib, Tableau)
         level: 80%   
-      - name: Machine learning (Decision trees, KNN,...)
+      - name: Machine learning (Decision trees, KNN, ...)
         level: 80%
       - name: Deep learning (TensorFlow, Sklearn)
         level: 70%
