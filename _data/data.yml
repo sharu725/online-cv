@@ -4,7 +4,7 @@
 
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Dr Germ&aacute;n Mart&iacute;nez-Ayuso
@@ -26,7 +26,7 @@ sidebar:
 
     languages:
       - idiom: English
-        level: Professional
+        level: Bilingual
 
       - idiom: Spanish
         level: Native
@@ -53,11 +53,10 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I'm a research fellow at UCL (London, UK) with extensive experience in programming in Python and numerical methods (Finite element methods). 
-      My passion for programming leads me to develop machine learning-based solutions for companies. 
-      I am recently helping to develop a platform to enable industry to access materials modeling expertise. 
-      Following my passion, I would like to accomplish bigger challenges in data science and engineering.
-
+      I'm a data scientist with extensive experience in modelling, programming and numerical methods. 
+      My passion for programming leads me to develop machine learning-based solutions for companies and universities. 
+      Following my passion, I would like to accomplish bigger challenges in my career. 
+      
 education:
     - degree: PhD in Civil Engineering
       university: Swansea University
@@ -85,24 +84,31 @@ education:
         
         
 experiences:
+    - role: Research Officer in Data Science
+      time: 2020 - Present
+      company: Medical School, Swansea University, Swansea, UK
+      details: |
+          - Application of machine learning algorithms (clustering and deep learning techniques) to detect abnormal behaviour in real cardiac cells optical data and fluorescent calcium measurements. Application to commercial business case. 
+          - Image processing for data extraction. Application of machine learning techniques to extract data features. 
+          - Design and development of an application with graphic user interface for data analysis of microscope images.  
+          - Processing health image big data using own algorithms. Development of our database.
+
     - role: Research Fellow
-      time: 2019 - Present
+      time: 2019 - 2020
       company: Institute of Material Discovery, University College of London, London, UK
       details: |
-          - Collaborated with industrial and academic partners to develop a platform for industry access to materials modelling expertise. 
-          This project is funded by the European Union and companies such as Fraunhofer, Enthought, Bosch, etc.
-          - Co-supervised masters projects using numerical techniques to optimise industrial composites such as honeycomb or recycled aggregates.
-          - Collaborated with colleagues using Machine Learning to predict materials properties and accelerate materials discovery.
+          - Collaborated with industrial and academic partners to develop a web platform for industry access to materials modelling expertise. This project was funded by the European Union and companies such as Fraunhofer, Enthought, Bosch, etc. 
+          - Collaborated with colleagues using Machine Learning to predict materials properties and accelerate materials discovery. Text mining on research databases.
+          - Using numerical techniques based on finite element methods (FEM) to optimise industrial composites such as honeycomb or recycled aggregates. 
+    
     - role: Project officer
       time: 2018 - 2019
       company: Swansea University, Swansea, UK
       details: |
-          - Developed numerical models to improve manufacturing processes in the industry. 
-          The processes range from material behaviour prediction to optimisation of properties such as geometry, elastic properties, viscosity, etc.
-          - Application of techniques from the domain of data science such as data pre-processing, neural networks and multi constraint optimisation to reduce costs in steel manufacturing industry. 
-          - Developed an addon in Python for a commercial finite element software (ANSYS). 
-          This addon integrates in the interface of ANSYS application and perform operations to simplify continuum mechanics calculations.
-          - Developed Python scripts to collect and analyse large data sets from files, websites, etc.
+      	  - Application of techniques from the domain of data science such as data pre-processing, neural networks and multi constraint optimisation to reduce costs in steel manufacturing industry. 
+		  - Developed an addon in Python and JavaScript for a commercial finite element software ANSYS. This addon integrates in the interface of ANSYS application and perform operations to simplify continuum mechanics calculations.
+		  - Developed Python scripts to collect and analyse large data sets from files, websites, etc.
+          - Developed numerical models to improve manufacturing processes in the industry. The processes range from material behaviour prediction to optimisation of properties such as geometry, elastic properties, viscosity, etc.
 
     - role: Research Assistant
       time: 2017
@@ -171,7 +177,7 @@ skills:
     toolset:
       - name: Python 
         level: 90%
-
+        
       - name: Microsoft Office & Latex
         level: 90%
 
@@ -198,5 +204,8 @@ skills:
 
       - name: Fortran & C++
         level: 20%
+    toolset: 
+       - name: aaa
+       - level: 10%
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
