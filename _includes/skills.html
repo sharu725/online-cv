@@ -16,9 +16,7 @@
     <div class="item">
 
       <h3 class="level-title">{{ skill.name }}</h3>
-      {% if skill.details %}
-      <span class="project-tagline">{{ skill.details }}</span>
-      {% endif %}
+      {% if skill.details %}{{ skill.details }}{% endif %}
 
       <div class="level-bar">
         <div class="level-bar-inner" data-level="{{ skill.level }}">
