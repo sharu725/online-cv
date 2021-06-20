@@ -106,8 +106,8 @@ experiences:
       company: Swansea University, Swansea, UK
       details: |
       	  - Application of techniques from the domain of data science such as data pre-processing, neural networks and multi constraint optimisation to reduce costs in steel manufacturing industry. 
-		  - Developed an addon in Python and JavaScript for a commercial finite element software ANSYS. This addon integrates in the interface of ANSYS application and perform operations to simplify continuum mechanics calculations.
-		  - Developed Python scripts to collect and analyse large data sets from files, websites, etc.
+	  - Developed an addon in Python and JavaScript for a commercial finite element software ANSYS. This addon integrates in the interface of ANSYS application and perform operations to simplify continuum mechanics calculations.
+	  - Developed Python scripts to collect and analyse large data sets from files, websites, etc.
           - Developed numerical models to improve manufacturing processes in the industry. The processes range from material behaviour prediction to optimisation of properties such as geometry, elastic properties, viscosity, etc.
 
     - role: Research Assistant
