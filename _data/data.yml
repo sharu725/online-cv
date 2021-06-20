@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Dr Germ&aacute;n Mart&iacute;nez-Ayuso
-    tagline: PhD, Data Scientist - Engineer
+    tagline: PhD, Data Scientist - Data Analyst
     avatar: ger2.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -56,33 +56,7 @@ career-profile:
       I'm a data scientist with extensive experience in modelling, programming and numerical methods. 
       My passion for programming leads me to develop machine learning-based solutions for companies and universities. 
       Following my passion, I would like to accomplish bigger challenges in my career. 
-      
-education:
-    - degree: PhD in Civil Engineering
-      university: Swansea University
-      time: 2015 - 2019
-      details: |
-        Micro to macro-scale material modelling using numerical techniques for energy harvesting applications. Fully-funded scholarship
-    
-    - degree: M.Sc. in Structures
-      university: University of Granada, Spain
-      time: 2013 - 2014
-      details: |
-        Strong background in numerical methods and programming.
 
-    - degree: M.Eng. in Civil Engineering
-      university: University of Alicante, Spain
-      time: 2010 - 2013
-      details: |
-        Strong background in numerical methods.
-
-    - degree: B.Eng. in Civil Engineering
-      university: University of Cordoba, Spain
-      time: 2007 - 2010
-      details: |
-        Special award, Graduated with honours. Best student record award.
-        
-        
 experiences:
     - role: Research Officer in Data Science
       time: 2020 - Present
@@ -167,44 +141,58 @@ publications:
       #   link: ""
       #   authors: Matteus Torquato, Germán Martínez-Ayuso, Hoceine Matallah, Ashraf Fahmy
       #   conference: #Addison-Wesley, 1968
+      
+education:
+    - degree: PhD in Civil Engineering
+      university: Swansea University
+      time: 2015 - 2019
+      details: |
+        Micro to macro-scale material modelling using numerical techniques for energy harvesting applications. Fully-funded scholarship
+    
+    - degree: M.Sc. in Structures
+      university: University of Granada, Spain
+      time: 2013 - 2014
+      details: |
+        Strong background in numerical methods and programming.
 
+    - degree: M.Eng. in Civil Engineering
+      university: University of Alicante, Spain
+      time: 2010 - 2013
+      details: |
+        Strong background in numerical methods.
+
+    - degree: B.Eng. in Civil Engineering
+      university: University of Cordoba, Spain
+      time: 2007 - 2010
+      details: |
+        Special award, Graduated with honours. Best student record award.
+        
+        
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python 
+      - name: Data science (Numpy, Pandas, Scikit-learnt,...)
         level: 90%
-        
-      - name: Microsoft Office & Latex
+      - name: Programming (Python, C++, Matlab..)
         level: 90%
-
-      - name: Machine learning (Predictive, Clustering,...)
+      - name: Microsoft Office &amp; LaTeX
+        level: 90%
+      - name: Data Visualization (Matplotlib, Tableau)
+        level: 80%   
+      - name: Machine learning (Decision trees, KNN,...)
         level: 80%
-
-      - name: Data Science (Modelling, Cleaning, ...)
-        level: 80%
-
-      - name: Statistics & Probability
+      - name: Deep learning (TensorFlow, Sklearn)
+        level: 70%
+      - name: Business Analysis (Excel, VBA, Power BI)
+        level: 70%
+      - name: Databases (SQL, BigQuery)
+        level: 70%
+      - name: Mathematical modelling (Mathematica)
+        level: 70%     
+      - name: Cloud computing (GCP, AWS)
         level: 60%
-
-      - name: Excel & VBA
+      - name: Statistics &amp; Probability
         level: 60%
-
-      - name: TensorFlow
-        level: 50%
-
-      - name: Databases (SQL)
-        level: 50%
-
-      - name: Cloud computing (GCP)
-        level: 40%
-
-      - name: Fortran & C++
-        level: 20%
-
-    title: Skills  
-    toolset: 
-       - name: aaa
-       - level: 10%
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
