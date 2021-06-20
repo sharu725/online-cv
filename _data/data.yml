@@ -175,33 +175,44 @@ skills:
       - name: Data science
         details: Numpy, Pandas, Scikit-learnt, ...
         level: 90%
+
       - name: Programming
         details: Python, C++, Matlab, ...
         level: 90%
+
       - name: Microsoft Office &amp; LaTeX
         level: 90%
+
       - name: Data Visualization
         details: Matplotlib, Tableau
         level: 80%   
+
       - name: Machine learning
         details: Decision trees, KNN, ...
         level: 80%
+
       - name: Deep learning
         details: TensorFlow, Sk-learn
         level: 70%
+
       - name: Business Analysis
         details: Excel, VBA, Power BI
-        level: 70%
+        level: 70%        
+
       - name: Databases
         details: SQL, BigQuery
         level: 70%
+
       - name: Mathematical modelling
         details: Mathematica, Matlab
         level: 70%     
+
       - name: Cloud computing
         details: GCP, AWS
         level: 60%
+
       - name: Statistics &amp; Probability
         level: 60%
+
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
