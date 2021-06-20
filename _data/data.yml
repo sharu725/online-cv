@@ -173,6 +173,7 @@ skills:
 
     toolset:
       - name: Data science (Numpy, Pandas, Scikit-learnt,...)
+        details: (Numpy, Pandas, Scikit-learnt,...)
         level: 90%
       - name: Programming (Python, C++, Matlab..)
         level: 90%
