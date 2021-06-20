@@ -172,7 +172,7 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Data science (Numpy, Pandas, Scikit-learnt,...)
+      - name: Data science
         details: (Numpy, Pandas, Scikit-learnt,...)
         level: 90%
       - name: Programming (Python, C++, Matlab..)
