@@ -200,7 +200,7 @@ skills:
         level: 70%        
 
       - name: Databases
-        details: SQL, BigQuery
+        details: SQL, BigQuery, ...
         level: 70%
 
       - name: Mathematical modelling
@@ -208,7 +208,7 @@ skills:
         level: 70%     
 
       - name: Cloud computing
-        details: GCP, AWS
+        details: GCP, AWS, ... 
         level: 60%
 
       - name: Statistics &amp; Probability
