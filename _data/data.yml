@@ -92,24 +92,21 @@ experiences:
           - Image processing for data extraction. Application of machine learning techniques to extract data features. 
           - Design and development of an application with graphic user interface for data analysis of microscope images.  
           - Processing health image big data using own algorithms. Development of our database.
-
     - role: Research Fellow
       time: 2019 - 2020
       company: Institute of Material Discovery, University College of London, London, UK
       details: |
           - Collaborated with industrial and academic partners to develop a web platform for industry access to materials modelling expertise. This project was funded by the European Union and companies such as Fraunhofer, Enthought, Bosch, etc. 
           - Collaborated with colleagues using Machine Learning to predict materials properties and accelerate materials discovery. Text mining on research databases.
-          - Using numerical techniques based on finite element methods (FEM) to optimise industrial composites such as honeycomb or recycled aggregates. 
-    
+          - Using numerical techniques based on finite element methods (FEM) to optimise industrial composites such as honeycomb or recycled aggregates.     
     - role: Project officer
       time: 2018 - 2019
       company: Swansea University, Swansea, UK
       details: |
-      	  - Application of techniques from the domain of data science such as data pre-processing, neural networks and multi constraint optimisation to reduce costs in steel manufacturing industry. 
-	  - Developed an addon in Python and JavaScript for a commercial finite element software ANSYS. This addon integrates in the interface of ANSYS application and perform operations to simplify continuum mechanics calculations.
-	  - Developed Python scripts to collect and analyse large data sets from files, websites, etc.
+          - Application of techniques from the domain of data science such as data pre-processing, neural networks and multi constraint optimisation to reduce costs in steel manufacturing industry. 
+          - Developed an addon in Python and JavaScript for a commercial finite element software ANSYS. This addon integrates in the interface of ANSYS application and perform operations to simplify continuum mechanics calculations.
+          - Developed Python scripts to collect and analyse large data sets from files, websites, etc.
           - Developed numerical models to improve manufacturing processes in the industry. The processes range from material behaviour prediction to optimisation of properties such as geometry, elastic properties, viscosity, etc.
-
     - role: Research Assistant
       time: 2017
       company: Swansea University, Swansea, UK
@@ -204,6 +201,8 @@ skills:
 
       - name: Fortran & C++
         level: 20%
+
+    title: Skills  
     toolset: 
        - name: aaa
        - level: 10%
