@@ -181,6 +181,7 @@ skills:
         level: 90%
 
       - name: Microsoft Office &amp; LaTeX 
+        details: Word, Powerpoint, Excel, ...
         level: 90%
 
       - name: Data Visualization 
