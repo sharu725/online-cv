@@ -2,8 +2,8 @@
 
 # Site Settings
 title: My Resume
-url: 'http://webjeda.com'
-baseurl: '/ttran41.github.io' #change it according to your repository name
+url: 'https://sites.google.com/site/tmtran118/'
+baseurl: '/tantran41.github.io' #change it according to your repository name
 description: Tan Tran Github Site
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: blue # blue turquoise green berry orange ceramic
