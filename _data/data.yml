@@ -81,7 +81,7 @@ experiences:
       details: |
           - Working with my peers and the Sr. Dir of Architecture to re-align the architecture organization in order to reduce silos, improve re-usability, and create an enterprise view and culture of architecture.
           - Partnering with technical SMEs and product leadership to evaluate and choose a CCaaS provider, so that we can move our telephony to the cloud, increasing agility and stability.
-          - Led the effort to define the future IVR platform, designing an API-based middleware that allows us to be loosely coupled in order to choose the best-in- class CCaaS provider.
+          - Led the effort to define the future IVR platform, designing an API-based middleware that allows us to be loosely coupled in order to choose the best-in-class CCaaS provider.
 
     - role: Architect | Solutions Architect
       time: Jul 2015 - Mar 2021
@@ -108,7 +108,7 @@ experiences:
       details: |
           - Technical lead for the Personal Insurance eCommerce quoting and policy management applications.
           - Led the application services REST layer during re-design of the quoting application from a legacy struts-based application to a Web 2.0 architecture. The application processed 12,000 quotes (160,000 business process transactions) per day.
-          - Responsible for all aspects of services design for a single page Web 2.0 application using RESTful Web Services (JAX-RS) with JSON payloads, built upon an SOA-based set business services.
+          - Responsible for all aspects of services design for a single page Web 2.0 application using RESTful Web Services (JAX-RS) with JSON payloads, built upon an SOA-based set of business services.
           - Designed and implemented an exception logging and reporting strategy, enabling a reduced failure rate from 4% of quote starts to less than 0.5% of quote starts in production, thus improving quote complete and purchase rates. This included the introduction of Splunk to the organization.
     
     - role: Principal Software Developer
