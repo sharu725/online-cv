@@ -14,15 +14,14 @@ sidebar:
     # Sidebar links
     email: brad@mongeon.org
     phone: 603-289-9743
-    website: #do not add http://
+    website:  #do not add http://
     linkedin: bradam
     github: cortexcompiler
     gitlab:
     bitbucket:
     twitter: '@CortexCompiler'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    stack-overflow: 
     codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
@@ -42,6 +41,8 @@ career-profile:
     title: Profile
     summary: |
       Technical Architect with over 20 years of experience designing and developing large scale systems on-prem and in the cloud. A constant learner who is passionate about quality engineering and enabling developers to innovate while providing value to the business and customers.
+
+
 education:
     - degree: MSc in Computer Science
       university: Boston University
@@ -81,6 +82,7 @@ experiences:
           - Working with my peers and the Sr. Dir of Architecture to re-align the architecture organization in order to reduce silos, improve re-usability, and create an enterprise view and culture of architecture.
           - Partnering with technical SMEs and product leadership to evaluate and choose a CCaaS provider, so that we can move our telephony to the cloud, increasing agility and stability.
           - Led the effort to define the future IVR platform, designing an API-based middleware that allows us to be loosely coupled in order to choose the best-in- class CCaaS provider.
+
     - role: Architect | Solutions Architect
       time: Jul 2015 - Mar 2021
       company: Liberty Mutual, Global Retail Markets US – Third Party
@@ -91,6 +93,7 @@ experiences:
           - Created generators that scaffold cloud-ready container-agnostic components with built-in best practices for microservices, CI/CD, Behavior-driven development (BDD), OpenAPI, consumer-driven contracts (CDC), semantic versioning, unit testing, code coverage, static code analysis, log aggregation, monitoring, distributed tracing, and fault tolerance.
           - Jump-started a team by creating initial implementation of a loosely coupled quoting system using domain-driven design (DDD), spring boot, docker, event sourcing, CQRS, Kafka, and MongoDB
           - Facilitated event storming workshops to aid in modeling complex business processes and helped produce a facilitators guide for future workshops.
+          
     - role: Technologist | System Architect
       time: Aug 2014 - Jul 2015
       company: Liberty Mutual - Personal Market IT - Products & Underwriting
@@ -98,6 +101,7 @@ experiences:
           - Domain lead for an SOA-based set of Insurance Quoting and Endorsing Services aimed at consumers.
           - Directed the conversion of policy writing services from heavy-weight proprietary BPEL services to standard JEE services running on WAS-LP. Accomplished this conversion in parallel with no impact to in-flight development. Increased developer productivity and unit-testability.
           - Created a service invocation framework, process template pattern, and custom Eclipse plugin to convert proprietary artifacts to standard java classes.
+
     - role: Technologist | System Architect
       time: May 2011 - Aug 2014
       company: Liberty Mutual - Personal Market IT - eCommerce
@@ -106,6 +110,7 @@ experiences:
           - Led the application services REST layer during re-design of the quoting application from a legacy struts-based application to a Web 2.0 architecture. The application processed 12,000 quotes (160,000 business process transactions) per day.
           - Responsible for all aspects of services design for a single page Web 2.0 application using RESTful Web Services (JAX-RS) with JSON payloads, built upon an SOA-based set business services.
           - Designed and implemented an exception logging and reporting strategy, enabling a reduced failure rate from 4% of quote starts to less than 0.5% of quote starts in production, thus improving quote complete and purchase rates. This included the introduction of Splunk to the organization.
+    
     - role: Principal Software Developer
       time: Oct 2008 - May 2011
       company: Liberty Mutual - Personal Market IT - Distribution & Products
@@ -113,35 +118,41 @@ experiences:
           - Design and development for CustomersFirst, a multi-layered JEE application used to sell personal insurance. A high-volume system with thousands of users and peak volumes over 70,000 transactions per hour.
           - Participated in re-writing and re-architecting the CustomersFirst service layer, moving from a C++ codebase to a Java-based Service-Oriented Architecture. This enabled processing of over 14 million policy transactions per year on a system originally built to handle 2 million, while increasing system availability from 93% to over 99%.
           - Implemented a thread-safe response caching mechanism using IBM’s DynaCache, alleviating a CPU bottleneck, resulting in savings of approximately $250k - $300k per year of mainframe CPU costs.
+    
     - role: Principal Software Developer
       time: Jan 2004 - Oct 2008
       company: Liberty Mutual - Commercial Market IT
       details: |
           - Developed two Electronic Document Management systems allowing users to view a virtual claim file, thereby reducing paper handling costs and improving customer response times.
           - Key contributor to the implementation of Guidewire ClaimCenter, developing multiple novel enhancements that the vendor incorporated into their product
+    
     - role: Principal Software Engineer
       time: Oct 2008 - May 2011
       company: Kana, Inc
       details: |
           - Designed and implemented a JEE based platform for building custom eCRM products
           - Enhanced an XML-based database-independent API for accessing data across multiple databases; first named inventor listed on a patent application for this technology.
+    
     - role: Senior Software Engineer
       time: May 2000 - Aug 2000
       company: OneSure.com
       details: |
           - Internet Insurance Portal startup using Java, JavaScript, and HTML
+    
     - role: Senior Software Engineer
       time: Jan 1998 - May 2000
       company: Liberty Mutual - Commercial Market IT
       details: |
           - Designed and developed infrastructure code as part of the Architecture team for a WC claims management system, a multi-tiered, distributed, object-oriented system based on CORBA technology.
           - Implemented messaging infrastructure using OrbixNotification based on CORBA Notification standards. Benchmarked and configured the service for 2500 concurrent users.
+    
     - role: Associate Software Engineer
       time: Jul 1997 - Dec 1997
       company: Liberty Mutual - Group Markets IT
       details: |
           - Maintained, developed, tested, supported, enhanced, and debugged applications/systems on two UNIX servers supporting approximately 200 users.
           - Programmed using: C, SQR, SQL, vi, Korn Shell Scripting, Sybase Stored Procedures, 4D, and some C++, on Wintel, UNIX (AIX), and Macintosh platforms.
+    
     - role: Technical Development Program
       time: Jun 1996 - Jun 1997
       company: Liberty Mutual
