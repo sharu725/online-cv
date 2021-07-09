@@ -3,25 +3,23 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Brad Mongeon
+    tagline: Software Architect
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
+    email: brad@mongeon.org
+    phone: 603-289-9743
+    website: #do not add http://
+    linkedin: bradam
+    github: cortexcompiler
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@CortexCompiler'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -30,162 +28,150 @@ sidebar:
       - idiom: English
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
-
     interests:
-      - item: Climbing
+      - item: Technology
         link:
 
-      - item: Snowboarding
+      - item: Soccer
         link:
 
-      - item: Cooking
+      - item: Table Tennis
         link:
 
 career-profile:
-    title: Career Profile
+    title: Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Technical Architect with over 20 years of experience designing and developing large scale systems on-prem and in the cloud. A constant learner who is passionate about quality engineering and enabling developers to innovate while providing value to the business and customers.
 education:
     - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+      university: Boston University
+      time: 
+      details:
+      
+    - degree: BSc in Mathematics
+      university: The University of Vermont
+      time: 
+      details:
+
+    - degree: Certified Cloud Practitioner
+      university: AWS | EVLV083KPJ141RCT
+      time: 2020-08-23
+      details:
+      
+    - degree: Certified Power User
+      university: Splunk | Cert-216339
+      time: 2018-01-08
+      details:
+      
+    - degree: Certified User
+      university: Splunk | Cert-215099
+      time: 2017-12-25
+      details:
+      
+    - degree: Certified SOA Solutions Designer
+      university: IBM | SR8095901
+      time: 2012-03-01
+      details:
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Architect | Enterprise Architect
+      time: Mar 2021 - Present
+      company: Liberty Mutual, Global Retail Markets US – Service Technology
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
+          - Working with my peers and the Sr. Dir of Architecture to re-align the architecture organization in order to reduce silos, improve re-usability, and create an enterprise view and culture of architecture.
+          - Partnering with technical SMEs and product leadership to evaluate and choose a CCaaS provider, so that we can move our telephony to the cloud, increasing agility and stability.
+          - Led the effort to define the future IVR platform, designing an API-based middleware that allows us to be loosely coupled in order to choose the best-in- class CCaaS provider.
+    - role: Architect | Solutions Architect
+      time: Jul 2015 - Mar 2021
+      company: Liberty Mutual, Global Retail Markets US – Third Party
+      details: |
+          - Technical domain lead for partner and rater technology, including 10 product teams supporting partnerships and integrations for the Safeco and Liberty brands, and Book Transfer operations.
+          - Developed exemplar implementations of CDK-based AWS API Gateway, Lambda, DocumentDB, and DynamoDB stacks accelerating development and modernization efforts of aligned teams.
+          - Collaborated with business partners to build Liberty’s next generation partner APIs while enabling the de-coupled evolution of our core quoting architecture. Technical lead during inception of a developer enablement team (DNA) providing a framework comprised of tools, patterns, practices, and a cloud-native platform to allow teams to focus on delivering business value rapidly.
+          - Created generators that scaffold cloud-ready container-agnostic components with built-in best practices for microservices, CI/CD, Behavior-driven development (BDD), OpenAPI, consumer-driven contracts (CDC), semantic versioning, unit testing, code coverage, static code analysis, log aggregation, monitoring, distributed tracing, and fault tolerance.
+          - Jump-started a team by creating initial implementation of a loosely coupled quoting system using domain-driven design (DDD), spring boot, docker, event sourcing, CQRS, Kafka, and MongoDB
+          - Facilitated event storming workshops to aid in modeling complex business processes and helped produce a facilitators guide for future workshops.
+    - role: Technologist | System Architect
+      time: Aug 2014 - Jul 2015
+      company: Liberty Mutual - Personal Market IT - Products & Underwriting
+      details: |
+          - Domain lead for an SOA-based set of Insurance Quoting and Endorsing Services aimed at consumers.
+          - Directed the conversion of policy writing services from heavy-weight proprietary BPEL services to standard JEE services running on WAS-LP. Accomplished this conversion in parallel with no impact to in-flight development. Increased developer productivity and unit-testability.
+          - Created a service invocation framework, process template pattern, and custom Eclipse plugin to convert proprietary artifacts to standard java classes.
+    - role: Technologist | System Architect
+      time: May 2011 - Aug 2014
+      company: Liberty Mutual - Personal Market IT - eCommerce
+      details: |
+          - Technical lead for the Personal Insurance eCommerce quoting and policy management applications.
+          - Led the application services REST layer during re-design of the quoting application from a legacy struts-based application to a Web 2.0 architecture. The application processed 12,000 quotes (160,000 business process transactions) per day.
+          - Responsible for all aspects of services design for a single page Web 2.0 application using RESTful Web Services (JAX-RS) with JSON payloads, built upon an SOA-based set business services.
+          - Designed and implemented an exception logging and reporting strategy, enabling a reduced failure rate from 4% of quote starts to less than 0.5% of quote starts in production, thus improving quote complete and purchase rates. This included the introduction of Splunk to the organization.
+    - role: Principal Software Developer
+      time: Oct 2008 - May 2011
+      company: Liberty Mutual - Personal Market IT - Distribution & Products
+      details: |
+          - Design and development for CustomersFirst, a multi-layered JEE application used to sell personal insurance. A high-volume system with thousands of users and peak volumes over 70,000 transactions per hour.
+          - Participated in re-writing and re-architecting the CustomersFirst service layer, moving from a C++ codebase to a Java-based Service-Oriented Architecture. This enabled processing of over 14 million policy transactions per year on a system originally built to handle 2 million, while increasing system availability from 93% to over 99%.
+          - Implemented a thread-safe response caching mechanism using IBM’s DynaCache, alleviating a CPU bottleneck, resulting in savings of approximately $250k - $300k per year of mainframe CPU costs.
+    - role: Principal Software Developer
+      time: Jan 2004 - Oct 2008
+      company: Liberty Mutual - Commercial Market IT
+      details: |
+          - Developed two Electronic Document Management systems allowing users to view a virtual claim file, thereby reducing paper handling costs and improving customer response times.
+          - Key contributor to the implementation of Guidewire ClaimCenter, developing multiple novel enhancements that the vendor incorporated into their product
+    - role: Principal Software Engineer
+      time: Oct 2008 - May 2011
+      company: Kana, Inc
+      details: |
+          - Designed and implemented a JEE based platform for building custom eCRM products
+          - Enhanced an XML-based database-independent API for accessing data across multiple databases; first named inventor listed on a patent application for this technology.
     - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+      time: May 2000 - Aug 2000
+      company: OneSure.com
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+          - Internet Insurance Portal startup using Java, JavaScript, and HTML
+    - role: Senior Software Engineer
+      time: Jan 1998 - May 2000
+      company: Liberty Mutual - Commercial Market IT
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+          - Designed and developed infrastructure code as part of the Architecture team for a WC claims management system, a multi-tiered, distributed, object-oriented system based on CORBA technology.
+          - Implemented messaging infrastructure using OrbixNotification based on CORBA Notification standards. Benchmarked and configured the service for 2500 concurrent users.
+    - role: Associate Software Engineer
+      time: Jul 1997 - Dec 1997
+      company: Liberty Mutual - Group Markets IT
+      details: |
+          - Maintained, developed, tested, supported, enhanced, and debugged applications/systems on two UNIX servers supporting approximately 200 users.
+          - Programmed using: C, SQR, SQL, vi, Korn Shell Scripting, Sybase Stored Procedures, 4D, and some C++, on Wintel, UNIX (AIX), and Macintosh platforms.
+    - role: Technical Development Program
+      time: Jun 1996 - Jun 1997
+      company: Liberty Mutual
+      details: |
+          - Training program focused on learning the technology and business domain
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Leadership
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Quality Engineering
+        level: 90%
 
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
+      - name: Architecture
         level: 85%
 
-      - name: Sketch & Photoshop
+      - name: Microservices
+        level: 85%
+
+      - name: AWS
         level: 60%
 
+      - name: Java
+        level: 80%
+
+      - name: JavaScript, TrypeScript, Node.js
+        level: 50%
+        
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
