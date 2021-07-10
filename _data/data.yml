@@ -42,37 +42,42 @@ career-profile:
     summary: |
       Technical Architect with over 20 years of experience designing and developing large scale systems on-prem and in the cloud. A constant learner who is passionate about quality engineering and enabling developers to innovate while providing value to the business and customers.
 
-
 education:
-    - degree: MSc in Computer Science
+    - degree: GradCert Project Management
+      university: George Washington University
+      time: 
+      details:  
+    
+    - degree: M.S. in Computer Science
       university: Boston University
       time: 
       details:
       
-    - degree: BSc in Mathematics
+    - degree: B.S. in Mathematics
       university: The University of Vermont
       time: 
       details:
 
-    - degree: Certified Cloud Practitioner
-      university: AWS | EVLV083KPJ141RCT
+certificates:
+    - title: Certified Cloud Practitioner
+      company: AWS
       time: 2020-08-23
-      details:
-      
-    - degree: Certified Power User
-      university: Splunk | Cert-216339
+      credId: EVLV083KPJ141RCT 
+
+    - title: Certified Power User
+      company: Splunk
       time: 2018-01-08
-      details:
+      credId: Cert-216339
       
-    - degree: Certified User
-      university: Splunk | Cert-215099
+    - title: Certified User
+      company: Splunk
       time: 2017-12-25
-      details:
+      credId: Cert-215099
       
-    - degree: Certified SOA Solutions Designer
-      university: IBM | SR8095901
+    - title: Certified SOA Solutions Designer
+      company: IBM
       time: 2012-03-01
-      details:
+      credId: SR8095901
 
 experiences:
     - role: Architect | Enterprise Architect
