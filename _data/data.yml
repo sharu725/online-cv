@@ -144,25 +144,25 @@ experiences:
       details: |
           - Internet Insurance Portal startup using Java, JavaScript, and HTML
     
-    - role: Senior Software Engineer
-      time: Jan 1998 - May 2000
-      company: Liberty Mutual - Commercial Market IT
-      details: |
-          - Designed and developed infrastructure code as part of the Architecture team for a WC claims management system, a multi-tiered, distributed, object-oriented system based on CORBA technology.
-          - Implemented messaging infrastructure using OrbixNotification based on CORBA Notification standards. Benchmarked and configured the service for 2500 concurrent users.
+    # - role: Senior Software Engineer
+    #   time: Jan 1998 - May 2000
+    #   company: Liberty Mutual - Commercial Market IT
+    #   details: |
+    #       - Designed and developed infrastructure code as part of the Architecture team for a WC claims management system, a multi-tiered, distributed, object-oriented system based on CORBA technology.
+    #       - Implemented messaging infrastructure using OrbixNotification based on CORBA Notification standards. Benchmarked and configured the service for 2500 concurrent users.
     
-    - role: Associate Software Engineer
-      time: Jul 1997 - Dec 1997
-      company: Liberty Mutual - Group Markets IT
-      details: |
-          - Maintained, developed, tested, supported, enhanced, and debugged applications/systems on two UNIX servers supporting approximately 200 users.
-          - Programmed using: C, SQR, SQL, vi, Korn Shell Scripting, Sybase Stored Procedures, 4D, and some C++, on Wintel, UNIX (AIX), and Macintosh platforms.
+    # - role: Associate Software Engineer
+    #   time: Jul 1997 - Dec 1997
+    #   company: Liberty Mutual - Group Markets IT
+    #   details: |
+    #       - Maintained, developed, tested, supported, enhanced, and debugged applications/systems on two UNIX servers supporting approximately 200 users.
+    #       - Programmed using: C, SQR, SQL, vi, Korn Shell Scripting, Sybase Stored Procedures, 4D, and some C++, on Wintel, UNIX (AIX), and Macintosh platforms.
     
-    - role: Technical Development Program
-      time: Jun 1996 - Jun 1997
-      company: Liberty Mutual
-      details: |
-          - Training program focused on learning the technology and business domain
+    # - role: Technical Development Program
+    #   time: Jun 1996 - Jun 1997
+    #   company: Liberty Mutual
+    #   details: |
+    #       - Training program focused on learning the technology and business domain
 
 skills:
     title: Skills &amp; Proficiency
