@@ -1,6 +1,10 @@
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
 
+    .wrapper {
+        flex-direction: column;
+    }
+
     body{
         padding: 0;
     }
@@ -34,6 +38,10 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+    .wrapper {
+        flex-direction: row-reverse;
+    }
 
     .skillset .level-title {
         display: inline-block;
