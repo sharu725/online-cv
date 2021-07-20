@@ -7,25 +7,14 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
+    name: Binod Khatri
     tagline: Full Stack Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
+    email: binod083@gmail.com
+    phone: 9813364044
     linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       - idiom: English
@@ -50,51 +39,46 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Authoritative Lead Software Developer with 4 years heading up
+      successful development teams through agile direction and careful
+      delegation. Willing to direct large-scale teams or work hands-on to
+      complete extremely difficult projects. Brings both cutting-edge
+      programming expertise and exceptional interpersonal skills to leadership
+      roles. Hands-on Software Developer eager to collaborate with customers
+      to find optimal solution
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    - degree: Bachelor in Software Engineering
+      university: Pokhara University
 experiences:
     - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+      time: 2018 - Present
+      company: Seva Development, Lalitpur
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
+        - As lead for the large program, be able to create team structure,
+          operating cadence, and reporting to management.
+        - Had experience building outcome-based roadmaps in partnership
+          with business and deliver Minimum Viable Products (MVP).
+        - Participated in discussion with the team including Product Manager
+          to deliver new features in product.
+        - Manage the performance and scope of the program to capture the
+          intended business value and be accountable for delivering results.
+        - Managing project pipelines, environments and ensure uniform
+          delivery of the project.
+        - Assign and solve the Client Issue to team and lead discussion and
+          communication.
+        - Managed SAAS development architecture in application in Azure
+        - ManagedcSAP Solutions and Integration, Added knowledge on
+          Logistic process Had knowledge with Total Quality Management
+          process
+        - Worked Total Quality management web application that has
+          solution mainly for food safety. Web Based and mobile application
+          that serves the clients in US. It provides solutions for Audit
+          Management, Food Safety, Facility Quality Management and
+          Supplier Quality Management
+        - Assign and solve the Client Issue to team and lead discussion and
+          communication.
+        - Had good experience with Angular, Firebase and Twilio API integration.
+
     - role: Senior Software Engineer
       time: 2014 - 2015
       company: Google, London
