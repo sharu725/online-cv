@@ -113,16 +113,16 @@ skills:
 
     toolset:
       - name: .Net 
-        level: 98%
+        level: 70%
 
       - name: Angular
-        level: 85%
+        level: 65%
 
       - name: SQL
-        level: 75%
+        level: 55%
 
       - name: Azure DevOps
-        level: 75%
+        level: 65%
 
 footer: >
     
