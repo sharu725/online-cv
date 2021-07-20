@@ -18,23 +18,13 @@ sidebar:
 
     languages:
       - idiom: English
+        level: Professional
+
+      - idiom: Nepali
         level: Native
-
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
-
+        
     interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+      - item: Cycling
 
 career-profile:
     title: Career Profile
@@ -80,97 +70,59 @@ experiences:
         - Had good experience with Angular, Firebase and Twilio API integration.
 
     - role: Senior Software Engineer
-      time: 2014 - 2015
+      time: 2013 - 2018
       company: Asteroid Venture, Lalitpur
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        - Participated in active development production of a market-leading
+          product in the Enterprise Content Management (ECM) systems
+          environment
+        - Required to learn a vast amount of information and details, from
+          both the product and testing side, as well as to learn and
+          understand the systems and environments required for the project
+          complex business
+        - Integrates the new Enterprise Content Management system FileNet
+          Exporter, Confluence Exporter with the existing products
+        - Handling the better security, supporting the new features added in
+          SharePoint and exporting of content from ECM system to
+          SharePoint
+        - Design, develop and deliver enterprise level .NET applications
+        - SharePoint development (Windows SharePoint Services 2.0/3.0,
+          SharePoint Server 2010
+        - SharePoint development technologies: SharePoint Object Model,
+          Web Services, WSS RPC, WebDAV methods
+        - Provide Research and Development solutions for migration of data
+          from various ECM to SharePoint
+        - Analyse the client issues and provide a swift solution or possible
+          alternate workarounds
+
+    - role: Software Engineer
+      time: 2010 - 2013
+      company: Arihant Technologies
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        - Required to learn about Global Distribution Systems (Sabre, Galileo
+          and Amadeus).
+        - Research and development on the API integration of the different
+          Global Distribution System including other third-party providers into
+          one online portal solution was one of the challenging works.
+        - Integrating the other third-party providers such as Travel Boutique,
+          Airlines (Yeti airline, Air Arabia, GO Air, Jet Airways) and Payment
+          integration.
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
+      - name: .Net 
+        level: 70%
 
       - name: Angular
-        level: 98%
+        level: 65%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: SQL
+        level: 55%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Azure DevOps
+        level: 65%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    
