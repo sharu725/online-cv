@@ -12,9 +12,9 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: brad@mongeon.org
-    phone: 603-289-9743
-    website:  #do not add http://
+    email:
+    phone:
+    website:  mongeon.org
     linkedin: bradam
     github: cortexcompiler
     gitlab:
