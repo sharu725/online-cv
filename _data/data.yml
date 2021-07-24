@@ -82,26 +82,17 @@ experiences:
           - Διαχείριση βιβλίων Β και Γ κατηγορίας
     - role: Πωλήτρια σε κατάστημα είδη δώρων
       time: 2014 - 2015
-      company: Google, London
+      company: MONTE CARLO-ΙΩΛΚΟΥ 10,ΒΟΛΟΣ
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
+        κείμενο
+          - Εξυπηρέτηση Πελατών
+          - Διαχείριση αποθήκης
+    - role: Δημιουργική απασχόληση Παιδιών
       time: 2012 - 2014
-      company: Amazon, London
+      company: ΒΟΛΟΣ
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        κείμενο
+          - Δημιουργική απασχόληση Νηπίων και Παιδιών Δημοτικού
 projects:
     title: Projects
     intro: >
