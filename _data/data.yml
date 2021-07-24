@@ -7,35 +7,27 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Sofia Saranti
+    tagline: Λογίστρια - Οικονομολόγος
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
+    email: sofiasaranti18@gmail.com
+    phone: 
     website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
+    linkedin: sofiasaranti
     twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
-      - idiom: English
-        level: Native
+      - idiom: Ελληνικά
+        level: Μητρική
 
-      - idiom: French
-        level: Professional
+      - idiom: Αγγλικά
+        level: Β2
 
-      - idiom: Spanish
-        level: Professional
+      - idiom: Γερμανικά
+        level: Α2
 
     interests:
       - item: Climbing
@@ -170,23 +162,23 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Στατιστική
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Marketing
         level: 98%
 
-      - name: Angular
+      - name: Λογιστική Εφαρμογών
         level: 98%
 
-      - name: HTML5 & CSS
+      - name: Εξυπηρέτηση Πελατών
         level: 95%
 
-      - name: Ruby on Rails
+      - name: Οικονομικά Μαθηματικά
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Δημιουργική απασχόληση Νηπίων/Παιδιών Δημοτικού
+        level: 75%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
