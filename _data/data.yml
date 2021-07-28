@@ -7,186 +7,251 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Lê Phương Hiếu
+    tagline: Senior DevSecOps Engineering / Site Reliability Engineering
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: phuonghieuag@gmail.com
+    phone: 0975 669 775
+    # website: blog.webjeda.com #do not add http://
+    linkedin: googlesky
+    # xing: alandoe
+    github: googlesky
+    telegram: googlesky # add your nickname without '@' sign
+    gitlab: googlesky 
+    bitbucket: googlesky 
+    # twitter: '@webjeda'
+    stack-overflow: 9845363/zu-vn # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: lphieu.pdf
 
     languages:
-      - idiom: English
+      - idiom: Vietnamese
         level: Native
 
-      - idiom: French
-        level: Professional
+      - idiom: Englist
+        level: Middle
 
-      - idiom: Spanish
-        level: Professional
+      # - idiom: Spanish
+      #   level: Professional
 
     interests:
-      - item: Climbing
+      - item: Hacking
         link:
 
-      - item: Snowboarding
+      - item: Running
         link:
 
-      - item: Cooking
+      - item: Gaming
         link:
 
-career-profile:
-    title: Career Profile
+highlights-profile:
+    title: HIGHLIGHTS
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      •	10 years of experience in DevOps position and systems management, computer network management 
+      •	5 years of experience in PHP developer
+      •	Experience in programming languages Python, C/C++.
+      •	Strong at computer network, system design, troubleshoot computer networking.
+      •	Familiar with Agile and Scrum methodology
+
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Communications and computer networks
+      university: CAN THO UNIVERSITY 
+      time: 2015 - 2019
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Based on Vietnam’s law on higher education, the BECNDC has its objectives (POs) aligned with CTU’s mission. After graduation from the BECNDC program, students will:
+        - PO1: Memorize basic knowledge of law, security and defense, political and social science; build physical health, ethics, social awareness, and professional responsibility according to current regulations;
+        - PO2: Present basic knowledge of mathematics and science applicable in computer network and data communication;
+        - PO3: Integrate fundamental knowledge and skills in computer science and information technology that enable them to study related fields or graduate programmes;
+        - PO4: Analyze and apply specialized knowledge and skills to meet practical needs of an individual or an organization in the field of computer network and data communication in the context of Industry 4.0;
+        - PO5: Develop communication skills, presentations skills, teamwork skills, foreign language competence, professional and creative working style, and entrepreneurship to meet the requirements of globalization and lifelong learning.
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: SITE RELIABILITY ENGINEER & DEVOPS ENGINEER FOR ZALOPAY 
+      time: 6-2020 - Present
+      company: VNG
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        They are a e-Wallet company. They provide financial technology and payment gateway for many other companies for many years. My role and responsibility are collaborating with developer for deploy infrastructure, application, … When something wrong happened, I am is the first line they call. 
+      responsibilities: |
+        •	Setup and maintain infrastructure:
+          o	Servers
+          o	Infrastructure services (k8s, tidb…)
+        •	Setup CI/CD.
+        •	Troubleshooting/investigate incidents.
+        •	Build the deployment system
+        •	Improve CI/CD work flow
+      technologies: |
+        •	Kubernetes
+          o	Ingress
+          o	Metallb
+          o	RBAC
+          o	…
+        •	TiDB/MySQL
+        •	Memcache/Redis/Kafka
+        •	Ansible
+        •	Jenkins scripted pipeline
+        •	Linux/Windows/Unix
+        •	Shell script 
+        •	Python/Golang
+        •	Networking 
+    - role: DevOps
+      time: 12-2019 – 06-2020
+      company: TMA - A HEALTHCARE PROJECT 
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        They have a huge of data from their clients. They want to use Azure to process them to an expected format for features in the future.
+      responsibilities: |
+        •	Setup and maintain Azure pipeline. 
+        •	Collect data from sources and process with Data Factory. 
+        •	Store data with expected format. 
+      technologies: |
+        •	Azure
+        •	Python 
+    - role: DevOps
+      time: 03-2019 – 12-2019
+      company: TMA - KBTG 
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        They are a bank. They provide financial technology for many other companies for many years. The DevOps project helped to improve their software development process by apply cloud and automation techniques. They have more than 100 projects still keep running and updating in financial technology.
+      responsibilities: |
+        •	Setup and maintain CI/CD to build and testing the product, includes:
+          o	Testing environment deployment
+          o	Functional Tests
+        •	Build the deployment system
+        •	Maintain and manage automatically many kinds of servers, includes:
+          o	Linux server
+          o	IBM Unix
+          o	Windows 
+        •	Improve CI/CD work flow
+      technologies: |
+        •	OpenShift / AWS
+        •	Docker
+        •	Jenkins scripted pipeline
+        •	Linux/Windows/Unix
+        •	Shell script 
+        •	Python
+        •	Jfrog products
+        •	Networking 
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+    - role: DevOps
+      time: 01-2019 – 03-2019
+      company: TMA - CONTENT DELIVERY NETWORK 
+      details: |
+        The product enables network service providers to build their own content delivery network (aka CDN) for streaming videos, leveraging network intelligence and subscriber data. This enables them to capitalize on growing consumer demand for rich digital media on any screen.
+      responsibilities: |
+        •	Set up and maintain CI/CD to build and testing the product, includes:
+          o	Testing environment deployment
+          o	Functional Tests
+          o	Performance Tests
+          o	Security Tests
+        •	Build the deployment system
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      technologies: |
+        •	Kubernetes 
+        •	Jenkins pipeline
+        •	Gitlab-CI
+        •	Terraform
+        •	Puppet
+        •	OpenStack
+        •	Grafana, Prometheus, Node Exporter
+        •	Docker
+        •	Python
+        •	Robot framework 
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    - role: DevOps
+      time: 07-2018 – 12-2018
+      company: TMA - NETWORK PERFORMANCE MANAGEMENT SYSTEM 
+      details: |
+        The product is a web application that monitors performance of multivendor, multi-application and provide both historical and near-real-time views covering everything from Networks Devices and Server to VoIP and Web traffic to mission-critical applications and network resources
+        The product also supports Big Data Analytic feature, which is built based on big data technologies such as Hadoop, Impala, Kafka, Kafka connect, Apache Kudu.
+        The product is using a lot of technology such as C/C++, Java, JavaScript, Python… 
+        DevOps will develop pipeline to build and deploy the product to customer’s artifactory. Networking skills are needed to work remote in customer’s systems and understood how customer’s systems work. 
+      responsibilities: |
+        •	Develop build pipeline in Customer’s Kubernetes 
+        •	Change from build in dedicated servers to cloud. 
+        •	Register and carry out procedures for the product in customer’s systems.
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      technologies: |
+        •	Kubernetes 
+        •	Networking 
+        •	Cloud Enterprise 
+        •	C++, Java
+        •	JavaScript, Shell script
+        •	Spring MVC
+        •	MariaDB 
+        •	Hadoop, Kafka, Impala, Apache Kudu
+        •	Apache/Tomcat
+        •	JIRA, Confluence
+        •	Git
+    - role: DevOps
+      time: 05-2018 – 07-2018
+      company: TMA - Hoang Vu Labs
+      details: |
+        The product is a desktop application control a machine that used to check food quality running in a Windows machine. The desktop application will set and get information from a Zedboard to control the machine to check food quality. The information will store in a server for user can view in future with cloud support. 
+        The product using many technologies such as Spring MVC, C/C++, C#... and various types of equipment such as server Linux, embedded devices, and cloud.
+        DevOps have mission to create pipeline to continuous integration / continuous delivery, build server build based on Linux and docker, auto scale build flow, deploy firmware and server services to server and Zedboard. 
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      responsibilities: |
+        •	Apply CI/CD to build and deploy the product.
+        •	Develop pipeline and shell script. 
+        •	Create setup package.
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      technologies: |
+        •	Networking 
+        •	Jenkins pipeline
+        •	Linux, Windows
+        •	Cloud Enterprise 
+        •	C/C++, C#, Java
+        •	Jenkins pipeline, Shell script
+        •	MariaDB 
+        •	Git
+    - role: SysAdmin
+      time: 05-2012 – 2017
+      company: HDVnBits.Org
+      details: |
+        HDVnBits.Org is a torrent website with 300k users in total and 75k users active same time in its heyday. It is a file sharing service and streaming in P2P protocol that uses MySQL and PHP, Bootstrap.
+      responsibilities: |
+        •	Backup and maintain website
+        •	Develop new feature
+        •	Manage users and file sharing
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      technologies: |
+        •	PHP
+        •	Bootstrap
+        •	Git
+        •	MySQL
+        •	P2P protocol
+        •	Linux 
+        •	File sharing service (Samba/NFS)
+        •	Networking 
+    - role: Helpdesk 
+      time: 09-2009 – 07-2013
+      company: LRC - CTU
+      details: |
+        CTU University has an e-Library, I am a helpdesk guy to support users using Linux computers and resolve their problems with network and computer.
+      responsibilities: |
+        •	Repair computer 
+        •	Resolve problems (includes network problem and computer problem)
+        •	Install infrastructure 
 
-skills:
-    title: Skills &amp; Proficiency
+      technologies: |
+        •	Networking
+        •	Hardware
+    - role: IT Support
+      time: 09-2011 – 05-2013
+      company: Cara Cafe
+      details: |
+        It name’s Cara Coffee, a big coffee shop in Can Tho City. It has 3 branches in 3 places and my task is to make the huge data in 3 branches synchronize with each other
+      responsibilities: |
+        •	Backup and maintain file sharing service
+        •	Design network
+        •	Security 
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+      technologies: |
+        •	P2P protocol
+        •	Linux/Windows
+        •	File sharing service (Samba/NFS)
+        •	Networking
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
