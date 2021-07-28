@@ -7,7 +7,7 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Lê Phương Hiếu
+    name: Hieu Le
     tagline: Senior DevSecOps Engineering / Site Reliability Engineering
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -31,7 +31,7 @@ sidebar:
       - idiom: Vietnamese
         level: Native
 
-      - idiom: Englist
+      - idiom: English
         level: Middle
 
       # - idiom: Spanish
@@ -50,11 +50,11 @@ sidebar:
 highlights-profile:
     title: HIGHLIGHTS
     summary: |
-      •	10 years of experience in DevOps position and systems management, computer network management 
-      •	5 years of experience in PHP developer
-      •	Experience in programming languages Python, C/C++.
-      •	Strong at computer network, system design, troubleshoot computer networking.
-      •	Familiar with Agile and Scrum methodology
+      -	10 years of experience in DevOps position and systems management, computer network management 
+      -	5 years of experience in PHP developer
+      -	Experience in programming languages Python, C/C++.
+      -	Strong at computer network, system design, troubleshoot computer networking.
+      -	Familiar with Agile and Scrum methodology
 
 education:
     - degree: Communications and computer networks
@@ -68,69 +68,69 @@ education:
         - PO4: Analyze and apply specialized knowledge and skills to meet practical needs of an individual or an organization in the field of computer network and data communication in the context of Industry 4.0;
         - PO5: Develop communication skills, presentations skills, teamwork skills, foreign language competence, professional and creative working style, and entrepreneurship to meet the requirements of globalization and lifelong learning.
 experiences:
-    - role: SITE RELIABILITY ENGINEER & DEVOPS ENGINEER FOR ZALOPAY 
+    - role: Site Reliability & Devops For Zalopay 
       time: 6-2020 - Present
       company: VNG
       details: |
         They are a e-Wallet company. They provide financial technology and payment gateway for many other companies for many years. My role and responsibility are collaborating with developer for deploy infrastructure, application, … When something wrong happened, I am is the first line they call. 
       responsibilities: |
-        •	Setup and maintain infrastructure:
-          o	Servers
-          o	Infrastructure services (k8s, tidb…)
-        •	Setup CI/CD.
-        •	Troubleshooting/investigate incidents.
-        •	Build the deployment system
-        •	Improve CI/CD work flow
+        -	Setup and maintain infrastructure:
+          - Servers
+          - Infrastructure services (k8s, tidb…)
+        -	Setup CI/CD.
+        -	Troubleshooting/investigate incidents.
+        -	Build the deployment system
+        -	Improve CI/CD work flow
       technologies: |
-        •	Kubernetes
-          o	Ingress
-          o	Metallb
-          o	RBAC
-          o	…
-        •	TiDB/MySQL
-        •	Memcache/Redis/Kafka
-        •	Ansible
-        •	Jenkins scripted pipeline
-        •	Linux/Windows/Unix
-        •	Shell script 
-        •	Python/Golang
-        •	Networking 
+        -	Kubernetes
+            - Ingress
+            - Metallb
+            - RBAC
+            - …
+        -	TiDB/MySQL
+        -	Memcache/Redis/Kafka
+        -	Ansible
+        -	Jenkins scripted pipeline
+        -	Linux/Windows/Unix
+        -	Shell script 
+        -	Python/Golang
+        -	Networking 
     - role: DevOps
       time: 12-2019 – 06-2020
       company: TMA - A HEALTHCARE PROJECT 
       details: |
         They have a huge of data from their clients. They want to use Azure to process them to an expected format for features in the future.
       responsibilities: |
-        •	Setup and maintain Azure pipeline. 
-        •	Collect data from sources and process with Data Factory. 
-        •	Store data with expected format. 
+        -	Setup and maintain Azure pipeline. 
+        -	Collect data from sources and process with Data Factory. 
+        -	Store data with expected format. 
       technologies: |
-        •	Azure
-        •	Python 
+        -	Azure
+        -	Python 
     - role: DevOps
       time: 03-2019 – 12-2019
       company: TMA - KBTG 
       details: |
         They are a bank. They provide financial technology for many other companies for many years. The DevOps project helped to improve their software development process by apply cloud and automation techniques. They have more than 100 projects still keep running and updating in financial technology.
       responsibilities: |
-        •	Setup and maintain CI/CD to build and testing the product, includes:
-          o	Testing environment deployment
-          o	Functional Tests
-        •	Build the deployment system
-        •	Maintain and manage automatically many kinds of servers, includes:
-          o	Linux server
-          o	IBM Unix
-          o	Windows 
-        •	Improve CI/CD work flow
+        -	Setup and maintain CI/CD to build and testing the product, includes:
+            - Testing environment deployment
+            - Functional Tests
+        -	Build the deployment system
+        -	Maintain and manage automatically many kinds of servers, includes:
+            - Linux server
+            - IBM Unix
+            - Windows 
+        -	Improve CI/CD work flow
       technologies: |
-        •	OpenShift / AWS
-        •	Docker
-        •	Jenkins scripted pipeline
-        •	Linux/Windows/Unix
-        •	Shell script 
-        •	Python
-        •	Jfrog products
-        •	Networking 
+        -	OpenShift / AWS
+        -	Docker
+        -	Jenkins scripted pipeline
+        -	Linux/Windows/Unix
+        -	Shell script 
+        -	Python
+        -	Jfrog products
+        -	Networking 
 
     - role: DevOps
       time: 01-2019 – 03-2019
@@ -138,24 +138,24 @@ experiences:
       details: |
         The product enables network service providers to build their own content delivery network (aka CDN) for streaming videos, leveraging network intelligence and subscriber data. This enables them to capitalize on growing consumer demand for rich digital media on any screen.
       responsibilities: |
-        •	Set up and maintain CI/CD to build and testing the product, includes:
-          o	Testing environment deployment
-          o	Functional Tests
-          o	Performance Tests
-          o	Security Tests
-        •	Build the deployment system
+        -	Set up and maintain CI/CD to build and testing the product, includes:
+            - Testing environment deployment
+            - Functional Tests
+            - Performance Tests
+            - Security Tests
+        -	Build the deployment system
 
       technologies: |
-        •	Kubernetes 
-        •	Jenkins pipeline
-        •	Gitlab-CI
-        •	Terraform
-        •	Puppet
-        •	OpenStack
-        •	Grafana, Prometheus, Node Exporter
-        •	Docker
-        •	Python
-        •	Robot framework 
+        -	Kubernetes 
+        -	Jenkins pipeline
+        -	Gitlab-CI
+        -	Terraform
+        -	Puppet
+        -	OpenStack
+        -	Grafana, Prometheus, Node Exporter
+        -	Docker
+        -	Python
+        -	Robot framework 
 
     - role: DevOps
       time: 07-2018 – 12-2018
@@ -166,22 +166,22 @@ experiences:
         The product is using a lot of technology such as C/C++, Java, JavaScript, Python… 
         DevOps will develop pipeline to build and deploy the product to customer’s artifactory. Networking skills are needed to work remote in customer’s systems and understood how customer’s systems work. 
       responsibilities: |
-        •	Develop build pipeline in Customer’s Kubernetes 
-        •	Change from build in dedicated servers to cloud. 
-        •	Register and carry out procedures for the product in customer’s systems.
+        -	Develop build pipeline in Customer’s Kubernetes 
+        -	Change from build in dedicated servers to cloud. 
+        -	Register and carry out procedures for the product in customer’s systems.
 
       technologies: |
-        •	Kubernetes 
-        •	Networking 
-        •	Cloud Enterprise 
-        •	C++, Java
-        •	JavaScript, Shell script
-        •	Spring MVC
-        •	MariaDB 
-        •	Hadoop, Kafka, Impala, Apache Kudu
-        •	Apache/Tomcat
-        •	JIRA, Confluence
-        •	Git
+        -	Kubernetes 
+        -	Networking 
+        -	Cloud Enterprise 
+        -	C++, Java
+        -	JavaScript, Shell script
+        -	Spring MVC
+        -	MariaDB 
+        -	Hadoop, Kafka, Impala, Apache Kudu
+        -	Apache/Tomcat
+        -	JIRA, Confluence
+        -	Git
     - role: DevOps
       time: 05-2018 – 07-2018
       company: TMA - Hoang Vu Labs
@@ -191,66 +191,66 @@ experiences:
         DevOps have mission to create pipeline to continuous integration / continuous delivery, build server build based on Linux and docker, auto scale build flow, deploy firmware and server services to server and Zedboard. 
 
       responsibilities: |
-        •	Apply CI/CD to build and deploy the product.
-        •	Develop pipeline and shell script. 
-        •	Create setup package.
+        -	Apply CI/CD to build and deploy the product.
+        -	Develop pipeline and shell script. 
+        -	Create setup package.
 
       technologies: |
-        •	Networking 
-        •	Jenkins pipeline
-        •	Linux, Windows
-        •	Cloud Enterprise 
-        •	C/C++, C#, Java
-        •	Jenkins pipeline, Shell script
-        •	MariaDB 
-        •	Git
+        -	Networking 
+        -	Jenkins pipeline
+        -	Linux, Windows
+        -	Cloud Enterprise 
+        -	C/C++, C#, Java
+        -	Jenkins pipeline, Shell script
+        -	MariaDB 
+        -	Git
     - role: SysAdmin
       time: 05-2012 – 2017
       company: HDVnBits.Org
       details: |
         HDVnBits.Org is a torrent website with 300k users in total and 75k users active same time in its heyday. It is a file sharing service and streaming in P2P protocol that uses MySQL and PHP, Bootstrap.
       responsibilities: |
-        •	Backup and maintain website
-        •	Develop new feature
-        •	Manage users and file sharing
+        -	Backup and maintain website
+        -	Develop new feature
+        -	Manage users and file sharing
 
       technologies: |
-        •	PHP
-        •	Bootstrap
-        •	Git
-        •	MySQL
-        •	P2P protocol
-        •	Linux 
-        •	File sharing service (Samba/NFS)
-        •	Networking 
+        -	PHP
+        -	Bootstrap
+        -	Git
+        -	MySQL
+        -	P2P protocol
+        -	Linux 
+        -	File sharing service (Samba/NFS)
+        -	Networking 
     - role: Helpdesk 
       time: 09-2009 – 07-2013
       company: LRC - CTU
       details: |
         CTU University has an e-Library, I am a helpdesk guy to support users using Linux computers and resolve their problems with network and computer.
       responsibilities: |
-        •	Repair computer 
-        •	Resolve problems (includes network problem and computer problem)
-        •	Install infrastructure 
+        -	Repair computer 
+        -	Resolve problems (includes network problem and computer problem)
+        -	Install infrastructure 
 
       technologies: |
-        •	Networking
-        •	Hardware
+        -	Networking
+        -	Hardware
     - role: IT Support
       time: 09-2011 – 05-2013
       company: Cara Cafe
       details: |
         It name’s Cara Coffee, a big coffee shop in Can Tho City. It has 3 branches in 3 places and my task is to make the huge data in 3 branches synchronize with each other
       responsibilities: |
-        •	Backup and maintain file sharing service
-        •	Design network
-        •	Security 
+        -	Backup and maintain file sharing service
+        -	Design network
+        -	Security 
 
       technologies: |
-        •	P2P protocol
-        •	Linux/Windows
-        •	File sharing service (Samba/NFS)
-        •	Networking
+        -	P2P protocol
+        -	Linux/Windows
+        -	File sharing service (Samba/NFS)
+        -	Networking
 
 
 footer: >

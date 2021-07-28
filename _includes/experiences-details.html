@@ -29,6 +29,21 @@
     </div><!--//details-->
     {% endif %}
 
+
+      <div class="row align-items-md-stretch">
+        <div class="col-md-6">
+          <div class="h-100 p-5 text-white bg-dark rounded-3">
+            <h5>Responsibilities</h5>
+            <p>{{ experience.responsibilities | markdownify }}</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="h-100 p-5 text-white bg-dark rounded-3">
+            <h5>Technologies</h5>
+            <p>{{ experience.technologies | markdownify }}</p>
+          </div>
+        </div>
+      </div>
   </div><!--//item-->
   {% endfor %}
 
