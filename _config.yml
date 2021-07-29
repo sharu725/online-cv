@@ -2,8 +2,8 @@
 
 # Site Settings
 title: Le Phuong Hieu Resume
-url: 'https://iamdevops.dev'
-baseurl: '/online-cv' #change it according to your repository name
+url: 'https://googlesky.github.io/'
+baseurl: '' #change it according to your repository name
 description: Le Hieu's Resume
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: orange # blue turquoise green berry orange ceramic
