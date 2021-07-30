@@ -59,7 +59,7 @@ highlights-profile:
 education:
     - degree: Communications and computer networks
       university: CAN THO UNIVERSITY 
-      time: 2015 - 2019
+      time: 2015 - 2018
       details: |
         Based on Vietnam’s law on higher education, the BECNDC has its objectives (POs) aligned with CTU’s mission. After graduation from the BECNDC program, students will:
         - PO1: Memorize basic knowledge of law, security and defense, political and social science; build physical health, ethics, social awareness, and professional responsibility according to current regulations;
@@ -68,8 +68,17 @@ education:
         - PO4: Analyze and apply specialized knowledge and skills to meet practical needs of an individual or an organization in the field of computer network and data communication in the context of Industry 4.0;
         - PO5: Develop communication skills, presentations skills, teamwork skills, foreign language competence, professional and creative working style, and entrepreneurship to meet the requirements of globalization and lifelong learning.
 experiences:
-    - role: Site Reliability & Devops For Zalopay 
-      time: 6-2020 - Present
+    - role: DevOps
+      time: 08-2021 - Present
+      company: Home Credit
+      details: |
+        ...
+      responsibilities: |
+        -	....
+      technologies: |
+        -	....
+    - role: Site Reliability & DevOps For Zalopay 
+      time: 6-2020 - 07/2021
       company: VNG
       details: |
         They are a e-Wallet company. They provide financial technology and payment gateway for many other companies for many years. My role and responsibility are collaborating with developer for deploy infrastructure, application, … When something wrong happened, I am is the first line they call. 
