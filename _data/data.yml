@@ -7,99 +7,115 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Sofia Saranti
-    tagline: Λογίστρια - Οικονομολόγος
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Apostolos Kamplionis
+    tagline: Front End Developer
+    avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: sofiasaranti18@gmail.com
-    phone: 6948459416
-    website: sofiasaranti.github.io/online-cv/ #do not add http://
-    linkedin: sofiasaranti
-    twitter: '@sofiasaranti'
-
+    email: apostoloskp@gmail.com
+    phone: +30 6994457600
+    website: github.com/apostoloskp #do not add http://
+    linkedin: apostoloskp
+    github: apostoloskp
+    twitter: '@apostoloskp'
+    
 
     languages:
-      - idiom: Ελληνικά
-        level: Μητρική
+      - idiom: Greek
+        level: Native
 
-      - idiom: Αγγλικά
-        level: Β2
+      - idiom: English
+        level: Professional
 
-      - idiom: Γερμανικά
-        level: Α2
 
     interests:
-      - item: Ξένες Γλώσσες
+      - item: Coding
         link:
 
-      - item: Πολεμικές Τέχνες
+      - item: Problem-solving
         link:
 
-      - item: Εθελοντισμός
+      - item: Graphic Design
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Είμαι λογίστρια και έχω εργαστεί 1 χρόνο σε αυτόν τον τομέα. Έχω ασχοληθεί με την καταχώρηση οικονομικών πράξεων στα λογιστικά βιβλία,την σύνταξη μηνιαίων
-      ισοζυγίων των λογαριασμών, την προπαρασκευή,τον υπολογισμό και την αποπληρωμή του ΦΠΑ και πολλά άλλα. Το 2018 εργάστηκα ως πωλήτρια σε μαγαζί με είδη δώρων.
-      Συγκεκριμένα ασχολήθηκα με την εξυπηρέτηση πελατών,όπου βοήθησα τους πελάτες να βρουν τι ακριβώς τους ταιριάζει με βάση τη δική τους μοναδική ταυτότητα και την
-      διαχείριση αποθήκης καθώς η κριτική σκέψη, η συνέπεια,η υπολογιστική ικανότητα αντίληψης χώρου και η υπευθυνότητα με βοήθησαν να ανταπεξέλθω και σε
-      αυτό το πόστο εργασίας. 
-
+      Undergraduate student at Ionian University
+      
 education:
-    - degree: ΒΟΗΘΟΣ ΛΟΓΙΣΤΗ
-      university: Ι.Ε.Κ ΓΙΑΤΣΟΣ-ΘΕΣΣΑΛΙΚΟ ΙΕΚ
-      time: 2016 - 2018
+    - degree: BSc in Computer Science
+      university: Ionian Universrity
+      time: 2015 - 2021
       details: |
-          - Bullet point
-          - Bullet point
+        The graduate of the Department of Informatics has the scientific and technical expertise to work as an IT
+        professional, either as self-employed, or as an executive in the private or public sector.
+        More specifically he can be employed as:
+          - Software Engineer
+          - Computer Systems Engineer
+          - Network and Telecommunications Engineer / Administrator
+          - Database Administrator
+    
 experiences:
-    - role: Βοηθός Λογιστή
-      time: 2017-2018 - Present
-      company: ΧΕΙΡΟΓΕΩΡΓΟΥ ΑΠΟΣΤΟΛΙΑ-ΘΕΣΣΑΛΙΑ,ΒΟΛΟΣ
+    - role: BSc in Computer Science
+      time: 2015 - 2021
+      company: Ionian University, Corfu
       details: |
-          - Εξυπηρέτηση Πελατών
-          - Λογιστικές Εγγραφές
-          - Διαχείριση βιβλίων Β και Γ κατηγορίας
-    - role: Πωλήτρια σε κατάστημα είδη δώρων
-      time: 2018 - 2021
-      company: MONTE CARLO-ΙΩΛΚΟΥ 10,ΒΟΛΟΣ
+        The graduate of the Department of Informatics has the scientific and technical expertise to work as an IT
+        professional, either as self-employed, or as an executive in the private or public sector.
+        More specifically he can be employed as:
+          - Software Engineer
+          - Computer Systems Engineer
+          - Network and Telecommunications Engineer / Administrator
+          - Database Administrator
+    - role: Web Developer, Networking & Automation Technician
+      time: 06/2021 - 08/2021
+      company: Smart Technologies, Volos
       details: |
-          - Εξυπηρέτηση Πελατών
-          - Διαχείριση αποθήκης
-    - role: Δημιουργική απασχόληση Παιδιών
-      time: 2015 - 2017
-      company: ΒΟΛΟΣ
-      details: |
-          - Δημιουργική απασχόληση Νηπίων και Παιδιών Δημοτικού
+        Internship allows students to obtain realistic views on employment relationships, the level of earnings and the labor market.
+        It includes activities related to the subjects of the Department. These activities may concern:
+          - Software development that companies can use to improve their operation on an administrative and technical level.
+          - Software operation and the ability to use tools of modern technology.
+          
+projects:
+    title: Projects
+    intro: >
+    assignments:
+      - title: Backwoods Of Dismay
+        link: "#"
+        tagline: "A uni-project turned first person horror game made with Unity."
+
+publications:
+    title: Publications
+    intro: |
+    papers:
+      - title: in-progress 🚧
+        link: "#"
+        authors: Apostolos Kamplionis
+        conference: -, 2021
+
 
 skills:
-       - Συνεργασία και ομαδικό πνεύμα
-       - Πολύ καλή γνώση Η/Υ
-       - Επαγγελματισμός
-       - Υπευθυνότητα 
-           
+    title: Skills &amp; Proficiency
 
     toolset:
-      - name: Στατιστική
-        level: 98%
+      - name: Python & Django
+        level: 80%
 
-      - name: Marketing
-        level: 98%
+      - name: Javascript & jQuery
+        level: 90%
 
-      - name: Λογιστική Εφαρμογών
-        level: 98%
-
-      - name: Εξυπηρέτηση Πελατών
+      - name: HTML5 & CSS
         level: 95%
 
-      - name: Οικονομικά Μαθηματικά
-        level: 85%
+      - name: Adobe Photoshop
+        level: 70%
 
-      - name: Δημιουργική απασχόληση Νηπίων/Παιδιών Δημοτικού
-        level: 75%
+      - name: Virtual Machines
+        level: 85%
+        
+      - name: Customer Service
+        level: 100%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
