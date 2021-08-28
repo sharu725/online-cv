@@ -50,78 +50,55 @@ career-profile:
       αυτό το πόστο εργασίας.
       
 education:
-    - degree: BSc in Computer Science
-      university: Ionian Universrity
-      time: 2015 - 2021
+    - degree: ΒΟΗΘΟΣ ΛΟΓΙΣΤΗ
+      university: Ι.Ε.Κ ΓΙΑΤΣΟΣ-ΘΕΣΣΑΛΙΚΟ ΙΕΚ
+      time: 2016 - 2018
       details: |
-        The graduate of the Department of Informatics has the scientific and technical expertise to work as an IT
-        professional, either as self-employed, or as an executive in the private or public sector.
-        More specifically he can be employed as:
-          - Software Engineer
-          - Computer Systems Engineer
-          - Network and Telecommunications Engineer / Administrator
-          - Database Administrator
+          - Bullet point
+          - Bullet point
     
 experiences:
-    - role: BSc in Computer Science
-      time: 2015 - 2021
-      company: Ionian University, Corfu
+    - role: Βοηθός Λογιστή
+      time: 2017-2018
+      company: ΧΕΙΡΟΓΕΩΡΓΟΥ ΑΠΟΣΤΟΛΙΑ-ΘΕΣΣΑΛΙΑ,ΒΟΛΟΣ
       details: |
-        The graduate of the Department of Informatics has the scientific and technical expertise to work as an IT
-        professional, either as self-employed, or as an executive in the private or public sector.
-        More specifically he can be employed as:
-          - Software Engineer
-          - Computer Systems Engineer
-          - Network and Telecommunications Engineer / Administrator
-          - Database Administrator
-    - role: Web Developer, Networking & Automation Technician
-      time: 06/2021 - 08/2021
-      company: Smart Technologies, Volos
+          - Εξυπηρέτηση Πελατών
+          - Λογιστικές Εγγραφές
+          - Διαχείριση βιβλίων Β και Γ κατηγορίας
+    - role: Πωλήτρια σε κατάστημα ειδών δώρου
+      time: 2018 - 2021
+      company: MONTE CARLO-ΙΩΛΚΟΥ 10,ΒΟΛΟΣ
       details: |
-        Internship allows students to obtain realistic views on employment relationships, the level of earnings and the labor market.
-        It includes activities related to the subjects of the Department. These activities may concern:
-          - Software development that companies can use to improve their operation on an administrative and technical level.
-          - Software operation and the ability to use tools of modern technology.
-          
-projects:
-    title: Projects
-    intro: >
-    assignments:
-      - title: Backwoods Of Dismay
-        link: "#"
-        tagline: "A uni-project turned first person horror game made with Unity."
-
-publications:
-    title: Publications
-    intro: |
-    papers:
-      - title: in-progress 🚧
-        link: "#"
-        authors: Apostolos Kamplionis
-        conference: -, 2021
+          - Εξυπηρέτηση Πελατών
+          - Διαχείριση αποθήκης
+    - role: Δημιουργική απασχόληση Παιδιών 
+      time: 2015 - 2017
+      company: ΒΟΛΟΣ
+      details: |
+          - Δημιουργική απασχόληση Νηπίων και Παιδιών Δημοτικού       
 
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 80%
+      - name: Στατιστική
+        level: 98%
 
-      - name: Javascript & jQuery
-        level: 90%
+      - name: Marketing
+        level: 98%
 
-      - name: HTML5 & CSS
+      - name: Λογιστική Εφαρμογών
         level: 95%
 
-      - name: Adobe Photoshop
-        level: 70%
+      - name: Εξυπηρέτηση Πελατών
+        level: 95%
 
-      - name: Virtual Machines
+      - name: Οικονομικά Μαθηματικά
         level: 85%
         
-      - name: Customer Service
-        level: 100%
+      - name: Δημιουργική απασχόληση Νηπίων/Παιδιών Δημοτικού
+        level: 80%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
