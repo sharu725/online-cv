@@ -7,26 +7,28 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Apostolos Kamplionis
-    tagline: Front End Developer
+    name: Sofia Saranti
+    tagline: Λογίστρια - Οικονομολόγος
     avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: apostoloskp@gmail.com
-    phone: +30 6994457600
-    website: github.com/apostoloskp #do not add http://
-    linkedin: apostoloskp
-    github: apostoloskp
-    twitter: '@apostoloskp'
+    email: sofiasaranti18@gmail.com
+    phone: +30 6948459416
+    website: sofiasaranti.github.io/online-cv/ #do not add http://
+    linkedin: sofiasaranti
+    github: sofiasaranti
+    twitter: '@sofiasaranti'
     
 
     languages:
-      - idiom: Greek
-        level: Native
+      - idiom: Ελληνικά
+        level: Μητρική
 
-      - idiom: English
-        level: Professional
-
+      - idiom: Αγγλικά
+        level: Β2
+        
+      - idiom: Γερμανικά
+        level: Β2
 
     interests:
       - item: Coding
