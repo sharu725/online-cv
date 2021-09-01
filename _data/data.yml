@@ -44,6 +44,7 @@ career-profile:
      - Adaptable to learn and work with new technologies.
      - Knowledge and experience with software team development.
      - 2 years working with .NET platform(.NET Core, Azure, SQLServer, Entity Framework) and Angular
+     - Experience with tools like Teams, Slack, Jira, Microsoft Planner.
 
 
 education:
@@ -58,6 +59,7 @@ experiences:
       details: |
         - Maintenance and evolution of an internal analytics portal
         - Restructuring the CI/CD process of Crisis Portal
+        - Restructuring the Crisis Portal with new technologies (.NET5 and Angular 11)
     
     - role: Software Developer
       time: 2018 - 2020
@@ -101,11 +103,8 @@ skills:
       - name: HTML5 & CSS
         level: 60%
 
-      - name: Ruby on Rails
-        level: 45%
-
-      - name: Python/Django
-        level: 40%
+      - name: Python
+        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
