@@ -19,7 +19,7 @@ sidebar:
     github: adil-imran
     twitter: '@aadilimran'
 
-    Competencies:
+    Languages:
       - idiom: English
         level: Professional
 
@@ -29,9 +29,9 @@ sidebar:
       - idiom: Urdu
         level: Native
 
-    Languages:
-      - idion: English
-        Level: Professional
+    Interests:
+      - item: Cricket
+        Link: 
 
       - item: Cyckling
         link:
