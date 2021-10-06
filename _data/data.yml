@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: ADIL IMRAN
     tagline: Data Science & Machine Learning Engineer
-    avatar: adi.JPG  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: adilrev.JPG  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: adil.imran@hotmail.com
@@ -19,7 +19,7 @@ sidebar:
     github: adil-imran
     twitter: '@aadilimran'
 
-    languages:
+    Competencies:
       - idiom: English
         level: Professional
 
@@ -29,9 +29,9 @@ sidebar:
       - idiom: Urdu
         level: Native
 
-    interests:
-      - item: Cricket
-        link:
+    Languages:
+      - idion: English
+        Level: Professional
 
       - item: Cyckling
         link:
