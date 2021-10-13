@@ -73,6 +73,13 @@ experiences:
         - Developed platform to support some specific elections (ASP.NET MVC).
         - Work as full stack in a online meetings project, from software validation to the development (Angular 2+ and .NET Core).
         - Experience developing VoIP platform for electronic voting using Asterisk, FastAGI and AsterNET.
+        
+projects:
+    title: Projects
+    assignments:
+      - title: Performance Client
+        link: "https://github.com/WillAllmeida/performance_client"
+        tagline: "As final paper project, I developed an performance testing client to CCF (.NET 5 and Python)"
           
 
 skills:
