@@ -79,7 +79,7 @@ projects:
     assignments:
       - title: Performance Client
         link: "https://github.com/WillAllmeida/performance_client"
-        tagline: "As final paper project, I developed a performance testing client to Confidential Consortium Framework library (.NET 5 and Python)."
+        tagline: "As final course project, I developed a performance testing client to Confidential Consortium Framework library (.NET 5 and Python)."
           
 
 skills:
