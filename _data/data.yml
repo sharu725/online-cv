@@ -102,7 +102,13 @@ experiences:
               * Introductory Applied Machine Learning
               * Machine Learning Practical
               * Machine Learning Base --- providing inplace support for students doing various ML courses.
-    
+              
+    - role: Consultant
+      time: 2020, 2021
+      company: Intel, Edinburgh, United Kingdom
+      details: |
+              Working on efficient machine translation shared tasks and pruning solutions.
+              
     - role: Intern
       time: September 2018 - December 2018
       company: Ebay, Aachen, Germany
