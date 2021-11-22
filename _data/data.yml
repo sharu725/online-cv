@@ -49,21 +49,9 @@ education:
     - degree: BSc in Software Development
       university: Purdue University
       time: 2001 - 2005
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
     - degree: MSc in CyberSecurity
       university: Purdue University Global
       time: 2021 -current
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
 experiences:
     - role: Senior Devops Engineer III
       time: 2017 - Present
@@ -100,11 +88,8 @@ experiences:
       time: 2014 - 2015
       company: American Residential Warranty, Boca Raton, Fl
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Strong teamwork skills, communication and inter-personal skills,
+        in an agile development environment
           - Bullet point
           - Bullet point
 projects:
