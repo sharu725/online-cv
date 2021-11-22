@@ -127,7 +127,7 @@ publications:
     title: My Creations
     intro: |
       Here are some of my recent solutions and projects within the last 5 years.
-    repo:
+    papers:
       - title: Jenkins Jcasc
         link: "https://github.com/rbankole/jenkins-jcasc/"
         authors: Olu Bankole
