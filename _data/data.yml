@@ -55,8 +55,6 @@ education:
         sociis natoque penatibus et magnis dis parturient montes, nascetur
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
         pretium quis, sem.
-          - Bullet point
-          - Bullet point
     - degree: MSc in CyberSecurity
       university: Purdue University Global
       time: 2021 -current
@@ -66,10 +64,6 @@ education:
         sociis natoque penatibus et magnis dis parturient montes, nascetur
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
         pretium quis, sem.
-          - Fostered a culture of robust documentation as it pertained to
-            release processes and CI/CD
-          - Worked on and supports automated builds, deployments,
-            validations, and configurations in our AWS cloud environment
 experiences:
     - role: Senior Devops Engineer III
       time: 2017 - Present
@@ -93,8 +87,10 @@ experiences:
         Cum sociis natoque penatibus et magnis dis parturient montes,
         nascetur ridiculus mus. Donec quam felis, ultricies nec,
         pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+          - Fostered a culture of robust documentation as it pertained to
+            release processes and CI/CD
+          - Worked on and supports automated builds, deployments,
+            validations, and configurations in our AWS cloud environment
     - role: Devops Engineer
       time: 2014 - 2015
       company: American Residential Warranty
