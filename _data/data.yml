@@ -7,44 +7,36 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Olu Bankole
+    tagline: Site Reliability/Devops Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    email: rbankole@gmail.com
+    phone: 786 925 3663
+    website: oluops.io #do not add http://
+    linkedin: obankole
+    github: rbankole
     pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       - idiom: English
         level: Native
 
-      - idiom: French
+      - idiom: Yoruba
         level: Professional
 
       - idiom: Spanish
         level: Professional
 
     interests:
-      - item: Climbing
+      - item: Photography
         link:
 
-      - item: Snowboarding
+      - item: Sound Production
         link:
 
-      - item: Cooking
+      - item: Video Games
         link:
 
 career-profile:
@@ -57,9 +49,9 @@ career-profile:
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: BSc in Software Development
+      university: Purdue University
+      time: 2011 - 20
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -68,9 +60,9 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: MSc in Applied Mathematics
+      university: Purdue University Global
+      time: 2021 -current
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -80,9 +72,9 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Senior Devops Engineer III
+      time: 2017 - Present
+      company: Kaplan University, Fort Lauderdale, Fl
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -95,9 +87,9 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Devops Engineer
+      time: 2015 - 2017
+      company: Flexhopper Inc
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -106,9 +98,9 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Devops Engineer
+      time: 2014 - 2015
+      company: American Residential Warranty
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -124,11 +116,11 @@ projects:
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
+      - title: Dockerize Legacy Applications
         link: "#hook"
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
+      - title: Kubernetes. 
         link: "#"
         tagline: "A responsive website template designed to help web developers/designers market their services."
 
