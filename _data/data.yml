@@ -17,7 +17,7 @@ sidebar:
     website: oluops.io #do not add http://
     linkedin: obankole
     github: rbankole
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: https:/oluops.io/resume.pdf
 
     languages:
       - idiom: English
@@ -42,16 +42,13 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Skilled DevOps Engineer with 6+ years of hands-on experience supporting,
+      automating, and optimizing mission critical microservice deployments in Azure/AWS
+      while leveraging configuration management tools, CI/CD, and DevOps processes.
 education:
     - degree: BSc in Software Development
       university: Purdue University
-      time: 2011 - 20
+      time: 2001 - 2005
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -60,7 +57,7 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: MSc in Applied Mathematics
+    - degree: MSc in CyberSecurity
       university: Purdue University Global
       time: 2021 -current
       details: |
