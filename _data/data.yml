@@ -73,18 +73,16 @@ experiences:
       time: 2017 - Present
       company: Kaplan University, Fort Lauderdale, Fl
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Devops Engineer
+        Describe your role here
+          - Created and maintained fully automated CI/CD pipelines via Jenkins
+            and ArgoCD for code deployment via gitops best practices.
+          - Actively manage, improve, and monitor cloud infrastructure on Azure and AWS via Terraform module
+            including backups, modifications and scaling.
+          - Reduced costs by ~$3,000 each month by eliminating unnecessary containers, repos
+            and consolidating sql databases.
+          - Built and deployed Docker containers to break up legacy, monolithic application into microservices,
+            improving developer workflow, increasing scalability, and optimizing speed to prouction.
+    - role: Devops Engineer 
       time: 2015 - 2017
       company: Flexhopper Inc
       details: |
@@ -115,21 +113,23 @@ projects:
     assignments:
       - title: Dockerize Legacy Applications
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: "Getting your product to market faster"
 
       - title: Kubernetes. 
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "On-prem legacy applicaton migration to Azure AKS"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: ArgoCD
+        link: "https://argo-cd.readthedocs.io/en/stable/"
+        tagline: "A declarative, GitOps continuous delivery tool for Kubernetes."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Rollouts
+        link: "https://argoproj.github.io/argo-rollouts/"
+        tagline: "A Kubernetes controller, CRDs which provide advanced deployment
+         capabilities such as blue-green, canary, canary analysis, experimentation,
+         and progressive delivery features to Kubernetes"
 
-      - title: Delta
+      - title: Helm
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
@@ -159,23 +159,23 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Kubernetes
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
+      - name: Application Trobleshooting
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: CI/CD
+        level: 90%
+
+      - name: Scripting (BShell/Python)
+        level: 95%
+
+      - name: Cloud
+        level: 95%
+
+      - name: Configuratoin Management
+        level: 90%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://oluops.io" target="_blank" rel="nofollow">olu bankole</a>
