@@ -90,14 +90,16 @@ experiences:
       details: |
         Strong teamwork skills, communication and inter-personal skills,
         in an agile development environment
-          - Bullet point
-          - Bullet point
+          - Gained a plethora of practical experience in managing and leading application reliability
+            practices for consumer facing web and mobile experiences.
+          - Monitoring alerts for any issues and using your troubleshooting skills
+            to resolve them
+          - Helped developers test and deploy applications via (docker, containerd) using the 12-Factor App methodology.
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      The last 4 to 5 years has had me focus on automating application development,processes
+      in an agile environment of whichinclude tools such as Jenkins, Terraform via a gitops methodology, 
     assignments:
       - title: Dockerize Legacy Applications
         link: "#hook"
