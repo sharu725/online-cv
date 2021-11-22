@@ -76,37 +76,38 @@ experiences:
         Share real world implementation challenges and recommend new capabilities that
         would simplify adoption and drive greater value from use of Flexshopper's infrastructure services.
           - Automate away manual processes to increase reliability and
-            time to market while at the same time reducing cost
+            time to market while at the same time reducing cost.
           - Fostered a culture of robust documentation as it pertained to
-            release processes and CI/CD
+            release processes and CI/CD.
           - Work with engineering and support teams to convey how best to
             improve application reliability and resiliency as input to technology
             roadmaps. 
           - Worked on and supports automated builds, deployments,
-            validations, and configurations in our AWS cloud environment
+            validations, and configurations in our AWS cloud environment.
     - role: Application Engineer
       time: 2014 - 2015
       company: American Residential Warranty, Boca Raton, Fl
       details: |
         Strong teamwork skills, communication and inter-personal skills,
-        in an agile development environment
+        in an agile development environment.
           - Gained a plethora of practical experience in managing and leading application reliability
             practices for consumer facing web and mobile experiences.
           - Monitoring alerts for any issues and using your troubleshooting skills
-            to resolve them
-          - Helped developers test and deploy applications via (docker, containerd) using the 12-Factor App methodology.
+            to resolve them.
+          - Helped developers test and deploy applications via (docker, containerd) using
+            the 12-Factor App methodology.
     - role: Senior Network Administrator
       time: 2010 - 2015
       company: Hellmann Worldwide Logistics, Doral, Fl
       details: |
-        Strong teamwork skills, communication and inter-personal skills,
-        in an agile development environment
+        Strong leader with experience training junior techs and advising
+        technical groups on ETL best practices.
         - Lead a team of 8 junior desktop engineers in providing adequate support
-          for Hellmann's' international deployment projects
+          for Hellmann's' international deployment projects.
         - Windows and Linux server maintenance and technical support for Hellmann's
-          North and South American administrative offices through the Verizon Datacenter
+          North and South American administrative offices through the Verizon Datacenter.
         - Lead and maintain VB login scripts for Active Directory object connectivity for
-          end users in multiple Active Directory forests in a small 10 person team
+          end users in multiple Active Directory forests in a small 10 person team.
         - Configure DRBD and Heartbeat on XenServer 5.6 FP1 for virtual machine storage redundancy.
 projects:
     title: Projects
