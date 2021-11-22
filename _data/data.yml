@@ -70,6 +70,8 @@ experiences:
       company: Kaplan University, Fort Lauderdale, Fl
       details: |
         Describe your role here
+          - Work hand-in-hand with software developers, architects, and business side resources
+            to deliver and support Kaplan's student facing application and infrastructure platforms.
           - Created and maintained fully automated CI/CD pipelines via Jenkins
             and ArgoCD for code deployment via gitops best practices.
           - Actively manage, improve, and monitor cloud infrastructure on Azure and AWS via Terraform module
@@ -82,18 +84,21 @@ experiences:
       time: 2015 - 2017
       company: Flexshopper Inc, Boca Raton, Fl
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        API oriented Ecommerce platform running on Angular/MongoDB via Kuberntes 1.5. 
+        Share real world implementation challenges and recommend new capabilities that
+        would simplify adoption and drive greater value from use of Flexshopper's infrastructure services.
+          - Automate away manual processes to increase reliability and
+            time to market while at the same time reducing cost
           - Fostered a culture of robust documentation as it pertained to
             release processes and CI/CD
+          - Work with engineering and support teams to convey how best to
+            improve application reliability and resiliency as input to technology
+            roadmaps. 
           - Worked on and supports automated builds, deployments,
             validations, and configurations in our AWS cloud environment
     - role: Devops Engineer
       time: 2014 - 2015
-      company: American Residential Warranty
+      company: American Residential Warranty, Boca Raton, Fl
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
