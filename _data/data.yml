@@ -176,7 +176,7 @@ skills:
       - name: Cloud
         level: 95%
 
-      - name: Configuratoin Management
+      - name: Configuratoin Management (Ansible/Terraform)
         level: 90%
 
 footer: >
