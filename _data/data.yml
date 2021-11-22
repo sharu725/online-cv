@@ -124,26 +124,18 @@ projects:
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
+    title: My Creations
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      Here are some of my recent solutions and projects within the last 5 years.
+    repo:
+      - title: Jenkins Jcasc
+        link: "https://github.com/rbankole/jenkins-jcasc/"
+        authors: Olu Bankole
+        conference: Kubecon 2018
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "Argo App of Apps"
+        link: "https://github.com/rbankole/argocd/"
+        authors: Olu Bankole
 
 skills:
     title: Skills &amp; Proficiency
