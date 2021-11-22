@@ -95,6 +95,19 @@ experiences:
           - Monitoring alerts for any issues and using your troubleshooting skills
             to resolve them
           - Helped developers test and deploy applications via (docker, containerd) using the 12-Factor App methodology.
+    - role: Senior Network Administrator
+      time: 2010 - 2015
+      company: Hellmann Worldwide Logistics, Doral, Fl
+      details: |
+        Strong teamwork skills, communication and inter-personal skills,
+        in an agile development environment
+        - Lead a team of 8 junior desktop engineers in providing adequate support
+          for Hellmann's' international deployment projects
+        - Windows and Linux server maintenance and technical support for Hellmann's
+          North and South American administrative offices through the Verizon Datacenter
+        - Lead and maintain VB login scripts for Active Directory object connectivity for
+          end users in multiple Active Directory forests in a small 10 person team
+        - Configure DRBD and Heartbeat on XenServer 5.6 FP1 for virtual machine storage redundancy.
 projects:
     title: Projects
     intro: >
