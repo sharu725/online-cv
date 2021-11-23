@@ -114,8 +114,8 @@ experiences:
 projects:
     title: Client Projects
     intro: >
-      The last 4 to 5 years has had me focus on automating application development,processes
-      in an agile environment of whichinclude tools such as Jenkins, Terraform via a gitops methodology, 
+      The last 4 to 5 years was a heavy focus on refactoringa applications and automating development processes
+      in various agile environments. 
     assignments:
       - title: Dockerize Legacy Applications
         link: "#hook"
