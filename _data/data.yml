@@ -17,7 +17,7 @@ sidebar:
     website: oluops.io #do not add http://
     linkedin: olu-bankole-%E2%98%85-39a5918/
     github: rbankole
-    pdf: https:/oluops.io/resume.pdf
+    pdf: /resume.pdf
 
     languages:
       - idiom: English
@@ -31,13 +31,13 @@ sidebar:
 
     interests:
       - item: Photography
-        link:
+        link: www.pochopov.photography
 
-      - item: Sound Production
-        link:
+      - item: Music Production
+        link: soundcloud.com/pochopov
 
       - item: Video Games
-        link:
+        link: 
 
 career-profile:
     title: Career Profile
@@ -86,7 +86,7 @@ experiences:
             roadmaps. 
           - Worked on and supports automated builds, deployments,
             validations, and configurations in our AWS cloud environment.
-    - role: Application Engineer
+    - role: Lead Application Engineer
       time: 2014 - 2015
       company: American Residential Warranty, Boca Raton, Fl
       details: |
@@ -98,7 +98,7 @@ experiences:
             to resolve them.
           - Helped developers test and deploy applications via (docker, containerd) using
             the 12-Factor App methodology.
-    - role: Senior Systems Engineer II
+    - role: Senior Systems Engineer III
       time: 2010 - 2015
       company: Hellmann Worldwide Logistics, Doral, Fl
       details: |
