@@ -57,7 +57,10 @@ experiences:
       time: 2017 - Present
       company: Kaplan University, Fort Lauderdale, Fl
       details: |
-        Describe your role here
+        Triaging and handling operational issues while improving the process of writing code and 
+        developing engineering systems that made our microservices application platforms more
+        reliable, testable, and scalable. I helped advanced innovative and comprehensive tools and
+        practices to improve application deployment and testing. 
           - Work hand-in-hand with software developers, architects, and business side resources
             to deliver and support Kaplan's student facing application and infrastructure platforms.
           - Created and maintained fully automated CI/CD pipelines via Jenkins
@@ -96,11 +99,11 @@ experiences:
             to resolve them.
           - Helped developers test and deploy applications via (docker, containerd) using
             the 12-Factor App methodology.
-    - role: Senior Network Administrator
+    - role: Senior Systems Engineer II
       time: 2010 - 2015
       company: Hellmann Worldwide Logistics, Doral, Fl
       details: |
-        Strong leader with experience training junior techs and advising
+        Tech lead with experience training junior techs and advising
         technical groups on ETL best practices.
         - Lead a team of 8 junior desktop engineers in providing adequate support
           for Hellmann's' international deployment projects.
@@ -138,9 +141,9 @@ projects:
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: My Creations
+    title: Olu's Work
     intro: |
-      Here are some of my recent solutions and projects within the last 5 years.
+      Varios snippets of my recent solutions and projects within the last 5 years.
     papers:
       - title: Jenkins Jcasc
         link: "https://github.com/rbankole/jenkins-jcasc/"
@@ -164,10 +167,10 @@ skills:
       - name: CI/CD
         level: 90%
 
-      - name: Scripting (BShell/Python)
+      - name: Automation (BShell/Python)
         level: 95%
 
-      - name: Cloud
+      - name: Cloud Management
         level: 95%
 
       - name: Configuratoin Management (Ansible/Terraform)
