@@ -46,7 +46,8 @@ career-profile:
       automating, and optimizing mission critical microservice deployments in Azure/AWS
       while leveraging configuration management tools, CI/CD, and DevOps processes.
 education:
-    - degree: BSc in Software Development
+    - degree: BSc in Information Technology
+              - Software Development
       university: Purdue University
       time: 2001 - 2005
     - degree: MSc in CyberSecurity
