@@ -114,7 +114,7 @@ experiences:
 projects:
     title: Client Projects
     intro: >
-      major milestone from recent years in various agile environments. 
+      Major milestones from recent years in various agile environments. 
     assignments:
       - title: Legacy To Microservices
         link: "#hook"
