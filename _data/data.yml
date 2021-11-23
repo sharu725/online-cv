@@ -142,7 +142,7 @@ projects:
 publications:
     title: Olu's Work
     intro: |
-      Varios snippets of my recent solutions and projects within the last 5 years.
+      Varios snippets of solutions and projects within the last 5 years.
     papers:
       - title: Jenkins Jcasc
         link: "https://github.com/rbankole/jenkins-jcasc/"
