@@ -66,8 +66,7 @@ experiences:
             and ArgoCD for code deployment via gitops best practices.
           - Actively manage, improve, and monitor cloud infrastructure on Azure and AWS via Terraform module
             including backups, modifications and scaling.
-          - Reduced costs by ~$3,000 each month by eliminating unnecessary containers, repos
-            and consolidating backend plaforms.
+          - Reduced costs by eliminating unnecessary containers, repos and consolidating backend plaforms.
           - Built and deployed Docker containers to break up legacy, monolithic application into microservices,
             improving developer workflow, increasing scalability, and optimizing speed to prouction.
     - role: Devops Engineer 
