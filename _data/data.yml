@@ -59,8 +59,7 @@ experiences:
       details: |
         Triaging and handling operational issues while improving the process of writing code and 
         developing engineering systems that made our microservices application platforms more
-        reliable, testable, and scalable. I helped advanced innovative and comprehensive tools and
-        practices to improve application deployment and testing. 
+        reliable, testable, and scalable. 
           - Work hand-in-hand with software developers, architects, and business side resources
             to deliver and support Kaplan's student facing application and infrastructure platforms.
           - Created and maintained fully automated CI/CD pipelines via Jenkins
