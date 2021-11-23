@@ -67,7 +67,7 @@ experiences:
           - Actively manage, improve, and monitor cloud infrastructure on Azure and AWS via Terraform module
             including backups, modifications and scaling.
           - Reduced costs by ~$3,000 each month by eliminating unnecessary containers, repos
-            and consolidating sql databases.
+            and consolidating backend plaforms.
           - Built and deployed Docker containers to break up legacy, monolithic application into microservices,
             improving developer workflow, increasing scalability, and optimizing speed to prouction.
     - role: Devops Engineer 
@@ -114,8 +114,7 @@ experiences:
 projects:
     title: Client Projects
     intro: >
-      The last 4 to 5 years was a heavy focus on refactoring applications and automating development processes
-      in various agile environments. 
+      major milestone from recent years in various agile environments. 
     assignments:
       - title: Legacy To Microservices
         link: "#hook"
@@ -132,7 +131,7 @@ projects:
 publications:
     title: Olu's Work
     intro: |
-      Varios snippets of solutions and projects within the last 5 years.
+      Various snippets of my solutions and projects within the last 5 years.
     papers:
       - title: Jenkins Jcasc
         link: "https://github.com/rbankole/jenkins-jcasc/"
