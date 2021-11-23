@@ -166,7 +166,7 @@ skills:
       - name: CI/CD
         level: 90%
 
-      - name: Automation (BShell/Python)
+      - name: Automation
         level: 95%
 
       - name: Cloud Management
