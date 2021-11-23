@@ -117,7 +117,7 @@ projects:
     assignments:
       - title: Legacy To Microservices
         link: "#hook"
-        tagline: "DotNET to DotNE.core/Angular"
+        tagline: "DotNET to DotNET.core/Angular/Bootstrap"
 
       - title: Herding Containers. 
         link: "#"
