@@ -133,8 +133,8 @@ publications:
     intro: |
       Various snippets of my solutions and projects within the last 5 years.
     papers:
-      - title: Jenkins Jcasc
-        link: "https://github.com/rbankole/jenkins-jcasc/"
+      - title: Jenkins Jcasc Configuration
+        link: "https://github.com/rbankole/jenkins/"
         authors: Olu Bankole
         conference: Kubecon 2018
 
