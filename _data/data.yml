@@ -112,7 +112,7 @@ experiences:
           end users in multiple Active Directory forests in a small 10 person team.
         - Configure DRBD and Heartbeat on XenServer 5.6 FP1 for virtual machine storage redundancy.
 projects:
-    title: Projects
+    title: Client Projects
     intro: >
       The last 4 to 5 years has had me focus on automating application development,processes
       in an agile environment of whichinclude tools such as Jenkins, Terraform via a gitops methodology, 
