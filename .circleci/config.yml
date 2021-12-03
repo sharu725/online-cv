@@ -1,0 +1,113 @@
+
+defaults: &defaults
+  working_directory: ~/repo
+version: 2
+
+references:
+  install_awscli: &install_awscli
+    run:
+      name: Install AWS CLI
+      command: |
+        sudo pip install awscli --upgrade
+  add_aws_credentials: &add_aws_credentials
+    run:
+      name: Set AWS credentials
+      command: |
+        aws configure set aws_access_key_id ${AWS_ACCESS_KEY_ID}
+        aws configure set aws_secret_access_key ${AWS_SECRET_ACCESS_KEY}
+  deploy_to_s3: &deploy_to_s3
+    run:
+      name: Upload to s3 
+      command: |
+        echo "Copying files to server..."
+        aws s3 sync _site/ "s3://$S3_BUCKET_NAME" --size-only --exclude "*" --include "*.*" --delete
+        echo "Copying files with content type..."
+        aws s3 sync _site/ "s3://$S3_BUCKET_NAME" --size-only --content-type text/html --exclude "*.*"
+  clear_cloudfront_cache: &clear_cloudfront_cache
+    run:
+      name: Clear CloudFront cache
+      command: |
+        aws cloudfront create-invalidation --distribution-id "$CLOUD_FRONT_DIST_ID" --paths '/*'
+jobs: 
+  build:
+    <<: *defaults
+    docker:
+      - image: circleci/ruby:2.6.0-node
+    environment:
+      BUNDLE_PATH: ~/repo/vendor/bundle
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - rubygems-v1-{{ checksum "Gemfile.lock" }}
+            - rubygems-v1-fallback
+      - run:
+          name: Bundle Install
+          command: |
+            echo 'export BUNDLER_VERSION=$(cat Gemfile.lock | tail -1 | tr -d " ")' >> $BASH_ENV
+            source $BASH_ENV
+            gem install bundler
+      - run:
+          name: Bundle Install
+          command: bundle check || bundle install
+      - save_cache:
+          key: rubygems-v1-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+      - run:
+          name: Jekyll build
+          command: JEKYLL_ENV=production bundle exec jekyll build
+      - run:
+          name: Remove .html extension
+          command: find _site/ -type f ! -iname 'index.html' -iname '*.html' -print0 | while read -d $'\0' f; do mv "$f" "${f%.html}"; done
+      - persist_to_workspace:
+          root: ./
+          paths:
+            - _site
+  deploy_staging:
+    <<: *defaults
+    docker:
+      - image: circleci/python:3.6.3
+    environment:
+      S3_BUCKET_NAME: <YOUR BUCKET>-staging
+      CLOUD_FRONT_DIST_ID: <YOUR STAGING CLOUDFRONT ID>
+    steps:
+      - attach_workspace:
+          at: ./
+      - *install_awscli
+      - *add_aws_credentials
+      - *deploy_to_s3
+      - *clear_cloudfront_cache
+  deploy_production:
+    <<: *defaults
+    docker:
+      - image: circleci/python:3.6.3
+    environment:
+      S3_BUCKET_NAME: <YOUR BUCKET>--prod
+      CLOUD_FRONT_DIST_ID: <YOUR PROD CLOUDFRONT ID>
+    steps:
+      - attach_workspace:
+          at: ./
+      - *install_awscli
+      - *add_aws_credentials
+      - *deploy_to_s3
+      - *clear_cloudfront_cache
+workflows:
+  version: 2
+  test-deploy:
+    jobs:
+      - build
+      - deploy_staging:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
+      - confirm_deploy:
+          type: approval
+          requires:
+            - deploy_staging
+      - deploy_production:
+          requires:
+            - confirm_deploy
+view raw config.yml hosted with ❤ by GitHub
