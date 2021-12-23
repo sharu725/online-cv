@@ -14,8 +14,9 @@ sidebar:
     # Sidebar links
     email: gupta.anubhav25@gmail.com
     phone: +91-7404541565
-    website: blog.webjeda.com #do not add http://
+    website: #do not add http://
     linkedin: gupta-anubhav25
+    xing:
     github: anubhav25
     telegram: # add your nickname without '@' sign
     gitlab:
@@ -29,73 +30,61 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Passionate, Self-motivated and hardworking programmer
+      with 3.5+ years experience seeking an opportunity to work
+      in a challenging environment to prove my coding skills and
+      make a significant contribution to the success of the employer
+      and at the same time pursue my individual growth.
+
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: B.Tech. in Computer Science and Engineering
+      university: UIET, Kurukshetra University 
+      time: 2014 - 2018
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+        CGPA: 8.09
+    - degree: 10+2 (CBSE)
+      university: GMSSS, sec-32, Chandigarh
+      time: 2013
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Score: 82.60 %
+    - degree: 10 (CBSE)
+      university: K V AFS Chandigarh
+      time: 2011
+      details: |
+        CGPA: 8.8
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Software Engineer 2
+      time: April 2020 - Present
+      company: 6Sense Insights India Pvt. Ltd., Bengaluru
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        - Working as Full Stack Engineer on React + Django stack.
+        - Worked on Optimizing daily pipelines and made process to finding the blockers easy.  
+        - Worked on multiple modules including optimizing and adding new features into a Web based App.
+        - Achievements:
+          - Recognized multiple times for exceeding expectations.
+          - got promoted to SE-2 within 10 months of working here.
+    - role: Full Stack Engineer
+      time: July 2019 - March 2020
+      company: Gnani Innovations Pvt. Ltd., Bengaluru
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        - Working as Full Stack Engineer on MERN stack.
+        - Rebuild entire backend for gnani.ai website to increase stability and performance.
+        - Worked on  WPF application for windows OS using C# and C++.
+        - Worked on multiple projects using React-JS and NodeJS.  
+        - Achievements:
+          - Recognized multiple times for exceeding expectations.
+          - Received Employee of the Month award.
+    - role: System Engineer
+      time: June 2018 - July 2019
+      company: Infosys Ltd., Pune
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        - Completed training in dotNet framework,SQL Server and Angular 5.
+        - Working for a client in healthcare insurance domain.
+        - Achievements:
+          - Completed training as a top performer.
+          - Secured first position in Infosys GEC hackathon.
+          - Won Insta Award for my contribution in the project.
 projects:
     title: Projects
     intro: >
@@ -123,27 +112,6 @@ projects:
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
