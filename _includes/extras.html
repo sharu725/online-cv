@@ -1,0 +1,22 @@
+{% assign extras = site.data.data.extras %}
+{% if extras %}
+  {% for extra in extras %}
+    <div class="extras-container container-block">
+
+      <h2 class="container-block-title">
+        {{ extra.title }}
+      </h2>
+
+      {% for item in extra.items %}
+      <div class="item">
+        <h4 class="extra-item">{{ item.item }}</h4>
+        {% if item.time %}
+          <div class="time">{{ item.time }}</div>
+        {% endif %}
+
+      </div><!--//item-->
+      {% endfor %}
+
+    </div><!--//extras-container-->
+  {% endfor %}
+{% endif %}

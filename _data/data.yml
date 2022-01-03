@@ -56,19 +56,19 @@ sidebar:
         title: Achievements
         items:
           - item: Got first position in Infosys GEC hackathon.
-            date: 2019
+            time: 2019
 
           - item: Secured first position in Event "Game of Codes" in Techno Cultural Fest by College.
-            date: 2018
+            time: 2018
 
           - item: Secured first position in Event "Appathon" at Techno Cultural Fest by College.
-            date: 2018
+            time: 2018
 
           - item: Submitted an idea for ‘Smart India Hackathon’.
-            date: 2017
+            time: 2017
 
           - item: Secured Second position in Event "College Bandits" at Techno Cultural Fest by College.
-            date: 2015
+            time: 2015
 
 
 
