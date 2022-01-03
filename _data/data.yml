@@ -119,23 +119,6 @@ projects:
         tagline: "An Web-App built for Analytics the provided data into form of various graphs like Bar chart, Pie chart, Sunburst etc., developed using React-JS and ChartJs."
 
 
-    intro2: >
-      College Projects
-
-    assignments2:
-      - title: Socializer
-        link:
-        tagline: "A social media platform full built using MEAN stack where users can share the updates in form of images and text including features like like comment on posts. Admins can also delete the posts."
-
-      - title: ERP Panel
-        link:
-        tagline: "A Web App for Online attendance system including features like Updates via Notifications for a Class and Chatting."
-
-      - title: Quiz
-        link:
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-
 skills:
     title: Skills &amp; Proficiency
 
