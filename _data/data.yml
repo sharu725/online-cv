@@ -156,5 +156,22 @@ projects:
         link:
         tagline: "An Web-App built for Analytics the provided data into form of various graphs like Bar chart, Pie chart, Sunburst etc., developed using React-JS and ChartJs."
 
+    intro2: >
+      College Projects
+
+    assignments2:
+      - title: Socializer
+        link:
+        tagline: "A social media platform full built using MEAN stack where users can share the updates in form of images and text including features like like comment on posts. Admins can also delete the posts."
+
+      - title: ERP Panel
+        link:
+        tagline: "A Web App for Online attendance system including features like Updates via Notifications for a Class and Chatting."
+
+      - title: Quiz
+        link:
+        tagline: "A Online Quiz system with admin interface where students can take and submits the answers asked and Admins can evaluate the accordingly."
+
+
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
