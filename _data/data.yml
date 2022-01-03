@@ -32,6 +32,45 @@ sidebar:
       - item: Movies
       - item: Travel
 
+    skills:
+      title: Technical Skills
+      items:
+        - item: Data Structures and Algorithms
+        - item: Front End > React-JS, Angular 5
+        - item: Back End > Node-JS, Express-JS, DRF, Django, ASP.NET WEB API
+        - item: Programming Languages -JavaScript, Python, C++, C#
+        - item: Databases (SQL & NoSQL) > SQL Server, MySQL, MongoDB, redis
+        - item: HTML5, CSS, Bootstrap, JQuery, MERN stack, MEAN stack
+
+    skills:
+      title: Training and Workshops
+      items:
+        - item: 6 weeks training in Android from CDAC, Mohali (June 2016 - July 2016).
+        - item: 6 weeks training in C and JavaScript from Code Quotient (June 2017 - July 2017).
+        - item: Android Developer Fundamentals from Google Developers (Dec, 2016).
+        - item: Ethical Hacking workshop in IIT, Delhi (Feb, 2017).
+        - item: Sixth sense robotics workshop in IIT-Bombay (Mar, 2018) .
+
+    skills:
+      title: Achievements
+      items:
+        - item: Got first position in Infosys GEC hackathon.
+          date: 2019
+
+        - item: Secured first position in Event "Game of Codes" in Techno Cultural Fest by College.
+          date: 2018
+
+        - item: Secured first position in Event "Appathon" at Techno Cultural Fest by College.
+          date: 2018
+
+        - item: Submitted an idea for ‘Smart India Hackathon’.
+          date: 2017
+
+        - item: Secured Second position in Event "College Bandits" at Techno Cultural Fest by College.
+          date: 2015
+
+
+
 career-profile:
     title: Career Profile
     summary: |
@@ -89,7 +128,7 @@ experiences:
         - Achievements:
           - Completed training as a top performer.
           - Secured first position in Infosys GEC hackathon.
-          - Won Insta Award for my contribution in the project.
+          - Won Insta-Award for my contribution in the project.
 
     - role: Volunteer Experience
       time:
@@ -117,29 +156,6 @@ projects:
       - title: Omnichannel
         link:
         tagline: "An Web-App built for Analytics the provided data into form of various graphs like Bar chart, Pie chart, Sunburst etc., developed using React-JS and ChartJs."
-
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
