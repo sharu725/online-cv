@@ -9,10 +9,7 @@
 
       {% for item in extra.items %}
       <div class="item">
-        {% if item.time %}
-          <div class="time">{{ item.time }}</div>
-        {% endif %}
-        <h4 class="extra-item">{{ item.item }}</h4>
+        <h4 class="extra-item">{{ item }}</h4>
 
       </div><!--//item-->
       {% endfor %}
