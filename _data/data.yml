@@ -110,12 +110,10 @@ projects:
         link:
         tagline: "A web based tool used by Internal users of the Organization to monitor things and control things across all clients and pipelines, built using React JS and DRF"
 
-    assignments:
       - title: Editor
         link:
         tagline: "Developed on Rich Text editor using facebook's draft-js compatible with voice typing, using technologies like MERN stack, socket.io, JWT, redis etc.. Integrated with Payment Gateway."
 
-    assignments:
       - title: Omnichannel
         link:
         tagline: "An Web-App built for Analytics the provided data into form of various graphs like Bar chart, Pie chart, Sunburst etc., developed using React-JS and ChartJs."
