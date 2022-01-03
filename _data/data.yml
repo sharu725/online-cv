@@ -32,42 +32,43 @@ sidebar:
       - item: Movies
       - item: Travel
 
-    skills:
-      title: Technical Skills
-      items:
-        - item: Data Structures and Algorithms
-        - item: Front End > React-JS, Angular 5
-        - item: Back End > Node-JS, Express-JS, DRF, Django, ASP.NET WEB API
-        - item: Programming Languages -JavaScript, Python, C++, C#
-        - item: Databases (SQL & NoSQL) > SQL Server, MySQL, MongoDB, redis
-        - item: HTML5, CSS, Bootstrap, JQuery, MERN stack, MEAN stack
+    extras:
+    - extra:
+        title: Technical Skills
+        items:
+          - item: Data Structures and Algorithms
+          - item: Front End > React-JS, Angular 5
+          - item: Back End > Node-JS, Express-JS, DRF, Django, ASP.NET WEB API
+          - item: Programming Languages -JavaScript, Python, C++, C#
+          - item: Databases (SQL & NoSQL) > SQL Server, MySQL, MongoDB, redis
+          - item: HTML5, CSS, Bootstrap, JQuery, MERN stack, MEAN stack
 
-    skills:
-      title: Training and Workshops
-      items:
-        - item: 6 weeks training in Android from CDAC, Mohali (June 2016 - July 2016).
-        - item: 6 weeks training in C and JavaScript from Code Quotient (June 2017 - July 2017).
-        - item: Android Developer Fundamentals from Google Developers (Dec, 2016).
-        - item: Ethical Hacking workshop in IIT, Delhi (Feb, 2017).
-        - item: Sixth sense robotics workshop in IIT-Bombay (Mar, 2018) .
+    - extra:
+        title: Training and Workshops
+        items:
+          - item: 6 weeks training in Android from CDAC, Mohali (June 2016 - July 2016).
+          - item: 6 weeks training in C and JavaScript from Code Quotient (June 2017 - July 2017).
+          - item: Android Developer Fundamentals from Google Developers (Dec, 2016).
+          - item: Ethical Hacking workshop in IIT, Delhi (Feb, 2017).
+          - item: Sixth sense robotics workshop in IIT-Bombay (Mar, 2018) .
 
-    skills:
-      title: Achievements
-      items:
-        - item: Got first position in Infosys GEC hackathon.
-          date: 2019
+    - extra:
+        title: Achievements
+        items:
+          - item: Got first position in Infosys GEC hackathon.
+            date: 2019
 
-        - item: Secured first position in Event "Game of Codes" in Techno Cultural Fest by College.
-          date: 2018
+          - item: Secured first position in Event "Game of Codes" in Techno Cultural Fest by College.
+            date: 2018
 
-        - item: Secured first position in Event "Appathon" at Techno Cultural Fest by College.
-          date: 2018
+          - item: Secured first position in Event "Appathon" at Techno Cultural Fest by College.
+            date: 2018
 
-        - item: Submitted an idea for ‘Smart India Hackathon’.
-          date: 2017
+          - item: Submitted an idea for ‘Smart India Hackathon’.
+            date: 2017
 
-        - item: Secured Second position in Event "College Bandits" at Techno Cultural Fest by College.
-          date: 2015
+          - item: Secured Second position in Event "College Bandits" at Techno Cultural Fest by College.
+            date: 2015
 
 
 
