@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Anubhav
     tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar:  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: gupta.anubhav25@gmail.com
@@ -26,6 +26,11 @@ sidebar:
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: http://www.africau.edu/images/default/sample.pdf
+
+    interests:
+      - item: Automating Stuff
+      - item: Movies
+      - item: Travel
 
 career-profile:
     title: Career Profile
@@ -85,32 +90,52 @@ experiences:
           - Completed training as a top performer.
           - Secured first position in Infosys GEC hackathon.
           - Won Insta Award for my contribution in the project.
+
+    - role: Volunteer Experience
+      time:
+      company:
+      details: |
+        - Volunteer:
+          - Volunteer at GirlScript Bangalore.
+          - Core Team Member, Google’s Developer Student Clubs, UIET KUK.
+          - Build a Project used for conducting and evaluating a quiz for a college event.
+
+
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    intro:
+
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: ControlCenter
+        link:
+        tagline: "A web based tool used by Internal users of the Organization to monitor things and control things across all clients and pipelines, built using React JS and DRF"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+    assignments:
+      - title: Editor
+        link:
+        tagline: "Developed on Rich Text editor using facebook's draft-js compatible with voice typing, using technologies like MERN stack, socket.io, JWT, redis etc.. Integrated with Payment Gateway."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    assignments:
+      - title: Omnichannel
+        link:
+        tagline: "An Web-App built for Analytics the provided data into form of various graphs like Bar chart, Pie chart, Sunburst etc., developed using React-JS and ChartJs."
 
-      - title: Atom
-        link: "#"
+
+    intro2: >
+      College Projects
+
+    assignments2:
+      - title: Socializer
+        link:
+        tagline: "A social media platform full built using MEAN stack where users can share the updates in form of images and text including features like like comment on posts. Admins can also delete the posts."
+
+      - title: ERP Panel
+        link:
+        tagline: "A Web App for Online attendance system including features like Updates via Notifications for a Class and Chatting."
+
+      - title: Quiz
+        link:
         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 
 skills:

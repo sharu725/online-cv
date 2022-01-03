@@ -34,5 +34,31 @@
     </div><!--//item-->
   {% endfor %}
 
+  
+  {% if projects.intro2 %}
+  <div class="intro">
+      <p>{{ projects.intro2 }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for project in projects.assignments2 %}
+    <div class="item">
+
+      <span class="project-title">
+        {% if project.link %}
+        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+        {% else %}
+        {{ project.title }}
+        {% endif %}
+      </span>
+
+      {% if project.tagline %}
+      - <span class="project-tagline">{{ project.tagline }}</span>
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
+
+
 </section><!--//section-->
 {% endif %}
