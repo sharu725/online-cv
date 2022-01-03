@@ -36,20 +36,20 @@ sidebar:
     extras:
       - title: Technical Skills
         items:
-          - item: Data Structures and Algorithms
-          - item: Front End > React-JS, Angular 5
-          - item: Back End > Node-JS, Express-JS, DRF, Django, ASP.NET WEB API
-          - item: Programming Languages -JavaScript, Python, C++, C#
-          - item: Databases (SQL & NoSQL) > SQL Server, MySQL, MongoDB, redis
-          - item: HTML5, CSS, Bootstrap, JQuery, MERN stack, MEAN stack
+          - Data Structures and Algorithms
+          - Front End > React-JS, Angular 5
+          - Back End > Node-JS, Express-JS, DRF, Django, ASP.NET WEB API
+          - Programming Languages -JavaScript, Python, C++, C#
+          - Databases (SQL & NoSQL) > SQL Server, MySQL, MongoDB, redis
+          - HTML5, CSS, Bootstrap, JQuery, MERN stack, MEAN stack
 
       - title: Training and Workshops
         items:
-          - item: 6 weeks training in Android from CDAC, Mohali (June 2016 - July 2016).
-          - item: 6 weeks training in C and JavaScript from Code Quotient (June 2017 - July 2017).
-          - item: Android Developer Fundamentals from Google Developers (Dec, 2016).
-          - item: Ethical Hacking workshop in IIT, Delhi (Feb, 2017).
-          - item: Sixth sense robotics workshop in IIT-Bombay (Mar, 2018) .
+          - 6 weeks training in Android from CDAC, Mohali (June 2016 - July 2016).
+          - 6 weeks training in C and JavaScript from Code Quotient (June 2017 - July 2017).
+          - Android Developer Fundamentals from Google Developers (Dec, 2016).
+          - Ethical Hacking workshop in IIT, Delhi (Feb, 2017).
+          - Sixth sense robotics workshop in IIT-Bombay (Mar, 2018) .
 
       - title: Achievements
         items:
