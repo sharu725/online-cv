@@ -1,31 +1,64 @@
-{% assign projects = site.data.data.projects %}
-{% if projects %}
-<section class="section projects-section">
 
+
+{% assign projects = site.data.data.projects %}
+{% assign sidebar = site.data.data.sidebar %}
+{% if projects %}
+
+<section class="section projects-section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
     </span>
     {{ projects.title }}
+    <li class="pdf"><i class="fas fa-file-pdf"></i>
+      <a href="{{ projects.refer }}" target="_blank">상세보기</a>
+    </li>
+
   </h2>
 
-  {% if projects.intro %}
+  <!--{% if projects.intro %}
   <div class="intro">
       <p>{{ projects.intro }}</p>
-  </div><!--//intro-->
-  {% endif %}
+  </div>//intro-->
+  <!--{% endif %}-->
 
   {% for project in projects.assignments %}
+  
     <div class="item">
-
       <span class="project-title">
+        {{ project.title }}
+      </span>
+      
+      <table width="700" border="1" style="table-layout: fixed;">
+        <tr><!-- 첫번째 줄 시작 -->
+          <td width=200 style="word-break:break-all; background-color: rgb(231, 229, 229)" >{{ projects.language }}</td>
+          <td width=500 style="word-break:break-all">{{ project.language }}</td>
+        </tr><!-- 첫번째 줄 끝 -->
+        <tr><!-- 두번째 줄 시작 -->
+          <td width=200 style="word-break:break-all; background-color: rgb(231, 229, 229)" >{{ projects.human }}</td>
+          <td>{{ project.human }}</td>
+        </tr><!-- 두번째 줄 끝 -->
+        <tr><!-- 두번째 줄 시작 -->
+          <td width=200 style="word-break:break-all; background-color: rgb(231, 229, 229)" >{{ projects.role }}</td>
+          <td>{{ project.role }}</td>
+        </tr><!-- 두번째 줄 끝 -->
+        <tr><!-- 두번째 줄 시작 -->
+          <td width=200 style="word-break:break-all; background-color: rgb(231, 229, 229)" >{{ projects.result }}</td>
+          <td>{{ project.result }}</td>
+        </tr><!-- 두번째 줄 끝 -->
+        
+      </table>
+
+	
+	
+      <!-- <span class="project-title">
         {% if project.link %}
         <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
         {% else %}
         {{ project.title }}
         {% endif %}
-      </span>
+      </span> -->
 
       {% if project.tagline %}
       - <span class="project-tagline">{{ project.tagline }}</span>

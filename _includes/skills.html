@@ -11,21 +11,41 @@
   </h2>
 
   <div class="skillset">
-
+  
+  <div class="item">
+	<table border="1">
+		<th class="text-center">구분</th>
+		<th class="text-center" width="40%">Skill</th>
+		<th class="text-center" width="40%">Level</th>
+		{% for skill in skills.toolset %}
+		<tr><!-- 첫번째 줄 시작 -->
+      <td class="text-center">{{ skill.skill_div }}</td>
+			<td class="text-center">{{ skill.name }}</td>
+			<td><div class="level-bar-inner" data-level="{{ skill.level }}"></td>
+		</tr><!-- 첫번째 줄 끝 -->
+		{% endfor %}
+		
+    </table>
+	
+	
+	  </div>
+	
+	
+	<!-- 백업 소스 --> 
     {% for skill in skills.toolset %}
-    <div class="item">
+    <!-- <div class="item">
 
       <h3 class="level-title">{{ skill.name }}</h3>
 
       <div class="level-bar">
         <div class="level-bar-inner" data-level="{{ skill.level }}">
         </div>
-      </div><!--//level-bar-->
+      </div>//level-bar-->
 
-    </div><!--//item-->
-    {% endfor %}
+    <!-- </div>//item-->
+    <!-- {% endfor %} -->
 
   </div>
 
 </section><!--//skills-section-->
-{% endif %}
+ {% endif %}

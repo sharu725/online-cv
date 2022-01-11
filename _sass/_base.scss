@@ -30,9 +30,10 @@ p {
 
 .wrapper {
     background:$theme-color;
-    max-width: 1000px;
+    max-width: 0px;
     margin: 0 auto;
-    position: relative;
+    position: absolute;
+	left : 300px;
     @include box-shadow(0px 2px 4px rgba(0,0,0,0.1));
 }
 
@@ -156,7 +157,7 @@ p {
 .main-wrapper {
     background: #fff;
     padding: 60px;
-    padding-right: 340px;
+    padding-left: 340px;
     .section-title {
         text-transform: uppercase;
         font-size: 20px;
