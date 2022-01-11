@@ -7,142 +7,96 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Ali Forooghie
+    tagline: Comuter Scientist
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    email: ali75forooghie@gmail.com
+    phone: 
+    website: ali-forooghie.github.io/CV/ #do not add http://
+    linkedin: 
+    xing: 
+    github: ali-forooghie
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
-
+    pdf: 
+    
     languages:
-      - idiom: English
+      - idiom: Persian
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
 
-      - idiom: Spanish
-        level: Professional
+      - idiom: Germany
+        level: Intermediate
 
     interests:
-      - item: Climbing
+      - item: Natural Language Processing
         link:
 
-      - item: Snowboarding
+      - item: Web Developing
         link:
 
-      - item: Cooking
+      - item: Music & Sitcoms
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am an NLP researcher at Iran University Of Science and Technology Data Mining lab. My researches foucs on Question Answering systems and Complex Machine Reasoning right now.I manage my codes using my private gitlab account and google colab, So my github-page is not active.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: MSc in Software Engineering
+      university: Iran University Of Science & Technology
+      time: 2019 - 2021
+      gpa: 17.77 of 20
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+        My research mostly focused on NLP and Data science. My most important studies are listed below
+          - NLP
+          - Deep Learning
+          - Question Answering
+          - Relation Extraction
+          - Data Mining
+          - Big Data
+          - Advanced Data Base Design
+          
+    - degree: BSc of Software Engineering
+      university: University Of Mazandaran
+      time: 2014 - 2018
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: NLP Researcher
+      time: 2019 - Present
+      company: IUST Data Mining Lab
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        I am an NLP researcher at Data Mining Lab at IUST since 2019. My focus is on complex question answering systems and HotpotQA benchmark. We are trying to develop qa systems performing state-of-the-art results on HotpotQA dataset.
+          - complex Q&A systems
+          - Relation Extraction
+    - role: Senior Front-End Developer
+      time: 2019 - now
+      company: Hamim, Tehran
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        Designing an Admin Dashboard for Hamim on a IAP project. Our products focus on IAP solutions.
+          - VueJS
+          - JavaScript
+    - role: Front-End Developer
+      time: Fall 2020 - Fall 2021
+      company: Iran’s National Elites Foundation, Tehran
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Designing a Text Annotation Web Application with three step verification for Babel Net project.
+          - VueJS
+          - JavaScript
 projects:
-    title: Projects
+    title: Master Thesis
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+       An Algorithm for Converting Text to Graph for Multi-Hop Question Answering Systems based on Machine Reasoning. My Thesis Advisor is Behrouz Minaei Bidgoli (https://scholar.google.com/citations?user=M8tgU-wAAAAJ&hl=en).
 
 publications:
     title: Publications
