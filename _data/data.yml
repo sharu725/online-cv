@@ -15,9 +15,9 @@ sidebar:
     email: hello@webjeda.com
     phone: 012 345 6789
     website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    linkedin: rakesh
+    xing: rakesh
+    github: RakeshPrasad21
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
@@ -31,17 +31,14 @@ sidebar:
       - idiom: English
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
+      - idiom: Hindi
         level: Professional
 
     interests:
-      - item: Climbing
+      - item: Watching Cricket
         link:
 
-      - item: Snowboarding
+      - item: Reading Tech blog
         link:
 
       - item: Cooking
@@ -57,9 +54,9 @@ career-profile:
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: MCA in Computer Science
+      university: IGNOU
+      time: 2007 - 2010
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -68,9 +65,9 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: BCA in Computer Science
+      university: IGNOU
+      time: 2004 - 2007
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -170,7 +167,7 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: C#,.Net,Azure
         level: 98%
 
       - name: Javascript & jQuery
@@ -180,12 +177,12 @@ skills:
         level: 98%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 75%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Python
+        level: 60%
 
-      - name: Sketch & Photoshop
+      - name: Log Analytics
         level: 60%
 
 footer: >
