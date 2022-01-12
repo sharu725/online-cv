@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -12,8 +12,8 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
+    email: rakesh_pra123@yahoo.co.in
+    phone: +91 9958064310
     website: blog.webjeda.com #do not add http://
     linkedin: rakesh
     xing: rakesh
@@ -47,12 +47,9 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I want to become an accomplished professional with a clear focus on results and integrity. I
+      aim to reach my goals through sincerity, expertise and result-oriented efforts and to earmark a 
+      position for myself in the field of IT operations by putting to use my experience and my inter-personal skills.
 education:
     - degree: MCA in Computer Science
       university: IGNOU
@@ -77,41 +74,43 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Azure Developer
+      time: Jan 2019 - Present
+      company: Open-Systems
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
+        Currently working as a Security Professional At Open Systems helping customers implementing 
+        Microsoft Security Products at scale and educating them to derive the best out of it.
+        Been engaged in the design & development of a applications in Cloud PAAS like MS Azure.
+        And in the past have deeply involved in design, development & delivery of all flavors of .NET applications. 
+        Support on 
+          - Power Shell
+          - Kusto
+          - Azure Logic app
+          - Azure Function
+          - Azure Active Directory
+          
     - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+      time: May 2017 - Jan 2019
+      company: Ericsson India Global Pvt. Ltd, Noida
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
+        Development of new reports and modification in existing reports as per requirement of internal and external clients.
+        Development, modification and support for tools that helps in operations of concerned department.
+        Coordination with internal and external clients for new implementations and modification in existing processes.
+        Management of operational and network data for future decision making, analysis and records.
+        Automate, simplify and support the existing process for Fault management with skill sets.
+        Support to management for Reviews and analysis.
+          - Developed alternative solutions for existing reporting system with VB.NET, C# and Oracle SQL that helps in routine reporting 
+            activities in case of error or non-availability of existing reporting system.
+          - Developed and modifications in Oracle SQL queries and UNIX scripts for new reports and existing reports as per requirement.
+          - Development of tools with JAVA, VB.NET, C# and SQL, MySQL, Oracal for monitoring and performance management of network operations.
+    - role: Tool Development Engineer
       time: 2012 - 2014
-      company: Amazon, London
+      company: Nokia Siemens Networks Pvt. Ltd, Noida
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        In Nokia, my key responsibility is to understand the system process i.e. 
+        how does the system working and what are the difficulties in doing the require process 
+        after that we have to provide the solutions to ease out to require 
+        process and to prevent the surplus use of resources.        
           - Bullet point
           - Bullet point
 projects:
@@ -141,40 +140,36 @@ projects:
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: C#,.Net,Azure
+      - name: C# |.Net Framework
         level: 98%
-
+         
+      - name: Microsoft Azure
+        level: 80%
+        
+      - name: Microsoft Sentinel
+        level: 80%
+                
+      - name: Azure Logic Apps
+        level: 85%
+                        
+      - name: Azure Batch
+        level: 80%
+        
+      - name: Log Analytics | Kusto
+        level: 60%
+        
+      - name: Active Directory
+        level: 80%
+        
       - name: Javascript & jQuery
         level: 98%
 
       - name: Angular
-        level: 98%
+        level: 80%
 
       - name: HTML5 & CSS
         level: 75%
@@ -182,8 +177,5 @@ skills:
       - name: Python
         level: 60%
 
-      - name: Log Analytics
-        level: 60%
-
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+   
