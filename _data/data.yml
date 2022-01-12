@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -87,8 +87,7 @@ experiences:
           - Assisted clients in simplifying the architecture via JSON templates, Azure logic app, Function app, Powershell etc.
           - Identify the prospective issues in the azure migration and suggesting fesible solutions to the clients.
           - Design solution for various system components using Microsoft Azure
-          - Assist client to implementation of Azure sentinel with different type of connector, Analytics query, hunting queries, logic app and workbook.
-          
+          - Assist client to implementation of Azure sentinel with different type of connector, Analytics query, hunting queries, logic app and workbook.          
     - role: Senior Software Engineer
       time: May 2017 - Jan 2019
       company: Ericsson India Global Pvt. Ltd, Noida
