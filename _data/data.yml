@@ -15,13 +15,11 @@ sidebar:
     email: rakesh_pra123@yahoo.co.in
     phone: +91 9958064310
     website: blog.webjeda.com #do not add http://
-    linkedin: rakesh
-    xing: rakesh
+    linkedin: rakesh-prasad-442b7b36    
     github: RakeshPrasad21
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -83,6 +81,7 @@ experiences:
         Been engaged in the design & development of a applications in Cloud PAAS like MS Azure.
         And in the past have deeply involved in design, development & delivery of all flavors of .NET applications. 
         Support on 
+          - Microsoft Sentinel
           - Power Shell
           - Kusto
           - Azure Logic app
@@ -103,42 +102,25 @@ experiences:
             activities in case of error or non-availability of existing reporting system.
           - Developed and modifications in Oracle SQL queries and UNIX scripts for new reports and existing reports as per requirement.
           - Development of tools with JAVA, VB.NET, C# and SQL, MySQL, Oracal for monitoring and performance management of network operations.
-    - role: Tool Development Engineer
-      time: 2012 - 2014
+    - role: Software Engineer
+      time: Jan 2012 - May 2017
       company: Nokia Siemens Networks Pvt. Ltd, Noida
       details: |
-        In Nokia, my key responsibility is to understand the system process i.e. 
-        how does the system working and what are the difficulties in doing the require process 
+        In Nokia, my key responsibility is to understand the system process i.e. how 
+        does the system working and what are the difficulties in doing the require process 
         after that we have to provide the solutions to ease out to require 
         process and to prevent the surplus use of resources.        
-          - Bullet point
-          - Bullet point
+          - Development of tools with VB.NET, C# and SQL, MySQL, Oracal for monitoring and performance management of network operations.
+          - Working on Shell scripting
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Working based on user story and task assigned for related project using .Net Core MVC,
+      Angular, MSSQL, Azure, KustoQuery, LogicApps, Powershell script, Web API etc.      
     assignments:
-      - title: Velocity
+      - title: SX3 (in-house project)
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "Working on the Development of SOC portal with Azure sentinel and salesforce ticketing system."
 
 skills:
     title: Skills &amp; Proficiency
