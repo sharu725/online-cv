@@ -45,9 +45,12 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I want to become an accomplished professional with a clear focus on results and integrity. I
-      aim to reach my goals through sincerity, expertise and result-oriented efforts and to earmark a 
-      position for myself in the field of IT operations by putting to use my experience and my inter-personal skills.
+      Seeking a Azure Developer position where I may be able to recommend my realistic 
+      cloud solution for the betterment of the firm. I aim to reach my goals through sincerity, expertise and 
+      result-oriented efforts and to earmark a position for myself in the field of IT operations 
+      by putting to use my experience and my inter-personal skills.
+      - A Microsoft certified Software Development Professional having more than 10 years of IT/Business Solutions experience.
+      - Having 3+ year experience in Azure.
 education:
     - degree: MCA in Computer Science
       university: IGNOU
@@ -81,12 +84,12 @@ experiences:
         Been engaged in the design & development of a applications in Cloud PAAS like MS Azure.
         And in the past have deeply involved in design, development & delivery of all flavors of .NET applications. 
         Support on 
-          - Microsoft Sentinel
-          - Power Shell
-          - Kusto
-          - Azure Logic app
-          - Azure Function
-          - Azure Active Directory
+          - Work closely with Project Managers to provide delivery according to schedule
+          - Expertise in analysis, design and development of custom solutions/applications using Microsoft technology stack.
+          - Assisted clients in simplifying the architecture via JSON templates, Azure logic app, Function app, Powershell etc.
+          - Identify the prospective issues in the azure migration and suggesting fesible solutions to the clients.
+          - Design solution for various system components using Microsoft Azure
+          - Assist client to implementation of Azure sentinel with different type of connector, Analytics query, hunting queries, logic app and workbook.
           
     - role: Senior Software Engineer
       time: May 2017 - Jan 2019
@@ -121,8 +124,13 @@ projects:
       - title: SX3 (in-house project)
         link: "#hook"
         tagline: "Working on the Development of SOC portal with Azure sentinel and salesforce ticketing system."
-
-skills:
+        
+        - title: CONA
+        link: "#hook"
+        tagline: "Successfully review and implemented the existing different type of java script and suggest 
+                  latest solution available for that script."
+         
+  skills:
     title: Skills &amp; Proficiency
 
     toolset:
