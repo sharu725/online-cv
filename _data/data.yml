@@ -7,44 +7,39 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Vera Rosa Gramacho
+    tagline: Produtora de Espectáculos
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
+    email: verargramacho@gmail.com
+    phone: 00351 91 356 84 57
+    linkedin: verargramacho
+    github: veralrosa
+    telegram: #veralrosa
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
-      - idiom: English
+      - idiom: Portuguese
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
+      - idiom: English
         level: Professional
 
     interests:
-      - item: Climbing
+      - item: Reading
         link:
 
-      - item: Snowboarding
+      - item: Tecnology
         link:
 
-      - item: Cooking
+      - item: Music
+        link:
+        
+      - item: Reading
         link:
 
 career-profile:
@@ -57,136 +52,93 @@ career-profile:
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Business Management Degree
+      university: Universidade Aberta
+      time: 2019 
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        60% overall complete. 
+        Remote / out of office hours
+   
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Executive Producer
+      time: 2009 - Present
+      company: Centro Cultural de Belém | CCB
+      details: 
+          - Contract drafting and execution control, including legal aid
+          - Budget management
+          - Liaising amongst different internal departments and external suppliers
+          - Provide all technical necessities for the event
+          - Provide artists and staff crew accommodations, flights, visas and transportation between airports, hotels and venue
+          Events: Music Concerts, Opera, Dance, Theatre, Cinema, Conferences
+          
+    - role: Executive Producer
+      time: 2002 - 2009
+      company: Música no Coração | MnC
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+          - Budgeting, hiring and coordinating different teams, suppliers and implementation timescales over infra-structures 
+          and services needed for setting up festivals and open-air concerts with capacities up to 100.000 attendees per day
+          - Liaising with multiple vendors to setup stages, dressing rooms, production offices, catering, ticketing offices, 
+          welcome desk, toilets, water suppliers, showers, internet and landline connection, medical services, police services, 
+          fire-fighters services, security services
+          - Obtain licenses and permits from all public/governmental authorities and setup events insurance 
+          Events: Music Concerts, Open-air Festivals & Ceremonies
+          
+    - role: Licensing Department Executive
+      time: 2000 - 2002
+      company: Sociedade Portuguesa de Autores | SPA
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+          - Rights collection management
+          - Payment issue towards users
+          - Issuing Author (or representing legal agency) proportional royalties    
+         
+Major Events / projects:
+  - title: Festival Sudoeste 
+    time: 2004 - 2009
+    
+  - title: Festival Super Bock Super Rock
+    time: 2004 - 2009
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+  - title: Festival Super Bock Super Rock Angola
+    time: 2006 - 2008
+ 
+   - title: Festival Super Bock em Stock
+    time: 2008 
+   
+  - title: Sagres Surf Fest
+    time: 2006 
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  - title: 24H TMN
+    time: 2005
+    
+  - title: Gala Amália Rodrigues (TV broadcast)
+    time: 2008 - 2009
+    
+  - title: MTV Music Awards (TV broadcast)
+    time: 2005 
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
+  - title: Laureaus Awards (Tv Broadcast)
+    time: 2004 - 2005
+    
+  - title: Festival Dias da Música
+    time: 2004 - 2019
+    
 skills:
-    title: Skills &amp; Proficiency
+  - Budgeting
+  - Contracting Services
+  - Team Cordination
+  - Logistics
+  - Licensing & Royalties
+  - Contract Management
+  - Tecnical Requirements
+  - Program Management
+  - Ticketing Managment
+  - Budget Control
+  - Artist booking
 
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+Training:
+  - TeachANTers | Damia Group
+  - Public Procurement | Knowit
+  
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
