@@ -14,7 +14,7 @@ sidebar:
     # Sidebar links
     email: ali75forooghie@gmail.com
     phone: 
-    website: ali-forooghie.github.io/CV/ #do not add http://
+    website: ali-forooghie.github.io/profile/ #do not add http://
     linkedin: 
     xing: 
     github: ali-forooghie
@@ -79,7 +79,7 @@ experiences:
         I am an NLP researcher at Data Mining Lab at IUST since 2019. My focus is on complex question answering systems and HotpotQA benchmark. We are trying to develop qa systems performing state-of-the-art results on HotpotQA dataset.
           - complex Q&A systems
           - Relation Extraction
-    - role: Senior Front-End Developer
+    - role: Junior Front-End Developer
       time: 2019 - now
       company: Hamim, Tehran
       details: |
@@ -107,16 +107,18 @@ skills:
 
     toolset:
       - name: Python
-        level: 90%
+        level: 70%
 
       - name: Keras, Tensorflow
-        level: 100%
+        level: 80%
         
       - name: NLP & Deep Learning
-        level: 95%
+        level: 90%
+        
+      - name: Javascript & VueJS
+        level: 100%
         
       - name: HTML5 & CSS
         level: 95%
             
-      - name: Javascript & VueJS
-        level: 100%
+
