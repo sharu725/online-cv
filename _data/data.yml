@@ -68,7 +68,7 @@ education:
      - degree: Nursing Degree
       university: Instituto Politécnico de Setúbal - Escola Superior de Saúde, 
       Setúbal, Portugal
-      time: 2007 - 2011
+      time: 24/09/2012 - 26/07/2016
       details: |
         Comprises basic life support, basic pediatric life support and advanced 
         life support, as well as modules in adult care, pediatrics, women and 
@@ -78,94 +78,72 @@ education:
          
          
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Nurse
+      time: February 2017 - October 2021
+      company: Broadmoor Hospital, High Secure Mental Health Hospital, Crowthorne, UK
+     
+     
+    - role: Nurse
+      time: August 2016 - September 2016
+      company: High Secure Hospital São João de Deus, Mental Health Ward, Caxias- Lisbon, Portugal
+      
+      
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+              In my roles as a nurse, I was responsible for coordinating all 
+              aspects of patients care. I developed my communication and 
+              relational skills, as well as leadership and conflict resolution skills. 
+              I was assigned the role of nurse in charge, having to lead the ward, 
+              staff, and patients, and manage patient care and staffs duties and 
+              responsibilities, as well as all practical aspects of running a shift in 
+              a very challenging environment. I also had an active role as a part of the 
+              Multidisciplinary Team, in planning and delivering care to patients. I was 
+              responsible for managing crisis and complex situations, as well as review the 
+              performance of subordinate staff, monthly.
+
+          
+    
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      title: Projects
+      intro: In my work as a nurse, I implemented a “Mindfulness Group” on the ward, where we 
+              taught patients and staff different mindfulness skills, with the objective of developing 
+              their coping strategies. I also implemented the Safewards Project on the ward, with the 
+              purpose of reducing conflict and restraint and lower incidents on the ward.
+              I created a welcome booklet with all the ward’s relevant information for patients and staff 
+              new to the ward, to reduce anxieties and promote engagement.
+              I also implemented a project denominated “Healthy body, healthy mind”, which consisted of 
+              different activities and strategies linking physical health with mental health to improve 
+              overall patient health.
+      
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        skills:
+      personal skills: Communication and relational skills, leadership skills, conflict 
+      resolution and stress management skills, organizational and managerial skills, and 
+      time management skills.
+      I also had the opportunity to complete relevant training in my practice as a nurse, 
+      which includes Therapeutic Boundaries, Cognitive Behavioral Therapy/ Dialectical Behavior 
+      Therapy, Motivational Interviewing, Stress Management and Conflict Resolution training.
+      
+      
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      personal statement: My name is Teresa Lopes and I’m Portuguese. I’ve moved to the UK from sunny Portugal 
+      five years ago to pursue a better life. Up until now I was working as a nurse, however I needed a career 
+      change, so I decided to take my love for people and caring to the next level, by emerging myself in the 
+      world of people’s profession. I love working with people and that’s why I am so excited to start my career 
+      in the Human Resources area.
+      In my role as a nurse, I developed essential knowledge and skills transferable to my new area of interest, 
+      Human Resources, such as communication and relational skills, time management, teamwork, conflict resolution, 
+      performance reviews, leadership and even stress management.
+      Ive completed a diploma in Leadership & Management, which has provided me with an amazing insight into the 
+      relevance of appropriate management and leadership in the workplace. Im currently finishing the CIPD level 5 
+      diploma in Human Resources Management, which has equipped me with amazing tools to be able to continue my work 
+      caring for people. Im also currently attending the Damia Group Tech Recruitment Academy. 
+      Im fluent in English, but also Portuguese and Spanish, and I’m presently working on my French! 
+      Im enthusiastic and eager to learn, I’m quick on my feet, organized, resourceful, reliable, creative, a 
+      perfectionist (which sounds like a flaw, but it means I’ll always give my absolute best in any task), I’m very 
+      sociable and a great communicator… talking to people comes natural to me. I’m also not afraid to be original and 
+      unconventional!
+      Im currently looking for a job in Tech recruitment!
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
 
  
 footer: >
