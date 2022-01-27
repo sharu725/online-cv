@@ -76,7 +76,8 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      To obtain a challenging and rewarding position to fully utilise problem solving and programming skills. Dedicated and efficient software engineer with 3+ years of experience. Worked on projects including European eID4u, real-time vehicle tracking system, and bio-metric authentication. Happy to take new challenges and overcome them with hard work and positive attitude.
+      Dedicated and efficient software engineer with 4+ years of experience. Worked on projects including Vodafone services, European eID4u, real-time vehicle tracking system,
+and bio-metric authentication.
 education:
     - degree: Master’s in Computer Engineering
       university: Politecnico Di Torino
@@ -98,6 +99,12 @@ education:
             Programming, Parallel Computing,Computer Networks, Network Security, 
             Database Systems, Computer Architecture, Software Construction
 experiences:
+    - role: NodeJS Backend Developer
+      time: 01/2021 - present
+      company: Spindox S.P.A., Turin, Italy
+      details: |
+          - Lead the implementation of CI/CD pipeline in the development environment.
+          - Designed and developed maintainable RESTful services.
     - role: Research Assistant, Computer Security
       time: 03/2019 - 12/2019
       company: TORSEC - Computer and Network Security Group, DAUIN, Politecnico di Torino
