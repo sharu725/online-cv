@@ -59,3 +59,8 @@ Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
 Testing your GitHub Pages site locally with Jekyll
 [link](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll)
 > bundle exec jekyll serve
+
+## run locally in docker
+Testing your GitHub Pages site locally with Jekyll in docker
+> docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll:$JEKYLL_VERSION jekyll serve
+Go to [localhost:4000/online-cv/](localhost:4000/online-cv/)
