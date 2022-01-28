@@ -83,8 +83,15 @@ certificates:
       credId: SR8095901
 
 experiences:
+    - role: Sr. Principal Software Engineer
+      time: Sep 2021 - Present
+      company: Globalization Partners
+      details: |
+          - Technical Lead for the Existing Products value stream focusing on the Time and Expense domain
+          - Driving the reduction of technical debt and modernization towards an event-driven serverless architecture able to support exponential organizational growth
+
     - role: Architect | Enterprise Architect
-      time: Mar 2021 - Present
+      time: Mar 2021 - Sep 2021
       company: Liberty Mutual, Global Retail Markets US – Service Technology
       details: |
           - Partnering with technical SMEs and product leadership to evaluate and choose a CCaaS provider, so that we can move our telephony to the cloud, increasing agility and stability.
@@ -134,33 +141,33 @@ experiences:
           - Developed two EDM systems allowing users to view a virtual claim file, thereby reducing paper handling costs and improving customer response times.
           - Key contributor to the implementation of Guidewire ClaimCenter, developing multiple novel enhancements that the vendor incorporated into their product.
     
-    - role: Principal Software Engineer
-      time: Oct 2008 - May 2011
-      company: Kana, Inc
-      details: |
-          - Designed and implemented a JEE based platform for building custom eCRM products.
-          - Enhanced an XML-based database-independent API for accessing data across multiple databases; first named inventor listed on a patent application for this technology.
+#     - role: Principal Software Engineer
+#       time: Oct 2008 - May 2011
+#       company: Kana, Inc
+#       details: |
+#           - Designed and implemented a JEE based platform for building custom eCRM products.
+#           - Enhanced an XML-based database-independent API for accessing data across multiple databases; first named inventor listed on a patent application for this technology.
     
-    - role: Senior Software Engineer
-      time: May 2000 - Aug 2000
-      company: OneSure.com
-      details: |
-          - Internet Insurance Portal startup using Java, JavaScript, and HTML.
-    
+#     - role: Senior Software Engineer
+#       time: May 2000 - Aug 2000
+#       company: OneSure.com
+#       details: |
+#           - Internet Insurance Portal startup using Java, JavaScript, and HTML.
+#     
     # - role: Senior Software Engineer
     #   time: Jan 1998 - May 2000
     #   company: Liberty Mutual - Commercial Market IT
     #   details: |
     #       - Designed and developed infrastructure code as part of the Architecture team for a WC claims management system, a multi-tiered, distributed, object-oriented system based on CORBA technology.
     #       - Implemented messaging infrastructure using OrbixNotification based on CORBA Notification standards. Benchmarked and configured the service for 2500 concurrent users.
-    
+#     
     # - role: Associate Software Engineer
     #   time: Jul 1997 - Dec 1997
     #   company: Liberty Mutual - Group Markets IT
     #   details: |
     #       - Maintained, developed, tested, supported, enhanced, and debugged applications/systems on two UNIX servers supporting approximately 200 users.
     #       - Programmed using: C, SQR, SQL, vi, Korn Shell Scripting, Sybase Stored Procedures, 4D, and some C++, on Wintel, UNIX (AIX), and Macintosh platforms.
-    
+#     
     # - role: Technical Development Program
     #   time: Jun 1996 - Jun 1997
     #   company: Liberty Mutual
