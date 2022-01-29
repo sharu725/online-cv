@@ -7,94 +7,65 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Igvir Ramirez V
+    tagline: Software Architect
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
+    email: igvirr@gmail.com
+    phone: +506 8572 0373
+    website: igvir.github.io #do not add http://
+    linkedin: igvir
+    xing: 
+    github: igvir
+    telegram: igvircr # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@igvir'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: 
 
     languages:
       - idiom: English
-        level: Native
-
-      - idiom: French
         level: Professional
 
       - idiom: Spanish
-        level: Professional
+        level: Native
 
     interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
+      - item: Running
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      System Engineer with strong leadership and project management abilities. Expertise in software design including but not limited to,
+      architecture, prototypes and proofs of concept, implementation, testing and deployment. Solid database skills. Recognized skills 
+      on solving challenging engineering problems and building engineering teams. Software development passionated.
+
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    - degree: Sp Project Management
+      university: Universidad Catolica Andres Bello
+      time: 2004 - 2006
+
+    - degree: BSc Computer Science
+      university: Universidad Centro Occidental Lisandro Alvarado
+      time: 1992 - 1998
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Software Delivery Consultant
+      time: 2017 - Present
+      company: GBM Corp., Costa Rica
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
+        As Software Delivery Consultant at GBM, I Work with customers, management, and project team in smooth and timely delivery of customer projects.
+        I am accountable for understanding customer requirements developing effective project delivery solutions, monitoring project status, and ensuring project deliverables meet customer needs. I  work with the project team to identify and resolve delivery issues in an accurate and timely manner,  
+        analyze potential risks and develop mitigation plans.
+        My responsibilities also include:   
+          - Support software team on developing best practices to ensure high quality and on-time project deliverables. 
+          - Support sales team on visiting customer sites during project implementation phase if needed. 
+          - Support development team on project delivery requirements documentation for internal technical teams and Provide support to customers in project deployment and integration activities.
     - role: Senior Software Engineer
       time: 2014 - 2015
       company: Google, London
