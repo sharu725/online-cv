@@ -92,11 +92,11 @@ experiences:
 projects:
     title: Captapp
     intro: >
-       Currently working on a refactory of CaptApp is an innovative and interactive professional fish-logging application.
+       Currently working on service re-factory of CaptApp, an innovative and interactive professional fish-logging application.
        It’s an app designed by professional captains to be powerful and yet easy to use, even for those who are new to technology.
     assignments:
       - title: Captapp
-        link: "www.captapp.com"
+        link: https://www.captapp.com
         tagline: "An innovative and interactive professional fish-logging application. Includes Website and Mobile Apps for Both Android and iOS"
 
 footer: >
