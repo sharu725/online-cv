@@ -67,97 +67,37 @@ experiences:
           - Support software team on developing best practices to ensure high quality and on-time project deliverables. 
           - Support sales team on visiting customer sites during project implementation phase if needed. 
           - Support development team on project delivery requirements documentation for internal technical teams and Provide support to customers in project deployment and integration activities.
-    - role: Senior Software Engineer
+    - role: Solutions Manager
       time: 2013 - 2014
       company: ISF Alpiz, Venezuela
       details: |
-        As Solution Manager,  I was responsible for developing and executing the sales strategy-related service contracts and licenses, in addition to 
+        As Solution Manager,  I was accountable for developing and executing the sales strategy-related service contracts and licenses, in addition to 
         the implementation of service projects offered by ISF Alpiz. The scope of my work it was included knowing and understanding all software IBM and 
         on-IBM associated with the creation of business solutions that best fit the Venezuelan market, devise development and combining different tools 
         to create solutions or business opportunities for the company. As area manager must ensure and promote the development of my team, project management skills, 
         and the development of high-performance teams.
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Software Architect
+      time: 2013 - 2014
+      company: ISF Alpiz, Venezuela
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        As a software architect, I was accountable for designing software architecture to meet projects or services requirements. 
+        I was responsible for developing new solutions based on IBM Business Process Management (BPM). 
+        Other functions associated with this position were: 
+        - Investigate new technologies and understand frameworks and best practices.
+        - Develop design software solutions for our customers.
+        - Communicate elements associated with the work done by our team.
+        - Understand the business domain in each solution.
+        - Support stakeholders and teams to ensure that project needs were met.
 projects:
-    title: Projects
+    title: Captapp
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+       Currently working on a refactory of CaptApp is an innovative and interactive professional fish-logging application.
+       It’s an app designed by professional captains to be powerful and yet easy to use, even for those who are new to technology.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - title: Captapp
+        link: "www.captapp.com"
+        tagline: "An innovative and interactive professional fish-logging application. Includes Website and Mobile Apps for Both Android and iOS"
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
