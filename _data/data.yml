@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Wietze Suijker
-    tagline: Geospatial Analyst
+    tagline: Product Architect
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -27,6 +27,9 @@ sidebar:
       
       - idiom: German
         level: Intermediate (pre-university education)
+      
+      - idiom: French
+        level: Intermediate (pre-university education)
 
     interests:
       - item: Cycling
@@ -44,7 +47,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I provide real-time information services that align user needs with geodata and the latest IT solutions. I thrive in (international) GIS & remote sensing projects, where I introduce and lead technological innovation.
+      I develop machine learning workflows and IT solutions to provide satellite data products at scale. I thrives in (international) GIS & remote sensing projects, where I introduce and lead technological innovation.
 education:
     - degree: MSc in Geo-information management &amp; applications
       university: >
