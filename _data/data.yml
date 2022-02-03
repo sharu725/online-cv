@@ -47,7 +47,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I develop machine learning workflows and innovative IT solutions to provide satellite data products at scale.
+      I develop machine learning workflows and innovative IT solutions to provide satellite data products at scale. I have a passion for geospatial technology, and aim to continuously improve my data science skills, be a trustworthy colleague and deliver sustainable results.
 education:
     - degree: MSc in Geo-information management &amp; applications
       university: >
@@ -64,7 +64,7 @@ experiences:
       time: 2020 - Present
       company: Space Intelligence, Edinburgh
       details: |
-        Wietze enjoys creating IT solutions that transform big data into information to support decision-making. At Space Intelligence, Wietze focuses on the development of technologies that exploit remote sensing data with Python to create scalable real-time information services. With a passion for geospatial technology, Wietze aims to continuously improve his data science skills, be a trustworthy colleague and deliver sustainable results.
+        Wietze develops machine learning workflows and innovative IT solutions to provide satellite data products at scale.
         
     - role: GIS Specialist
       time: 2016 - 2020
