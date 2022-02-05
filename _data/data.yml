@@ -57,15 +57,18 @@ education:
     - degree: Bachelor informatique
       university: ESGI
       time: 2021 - 2024
-      details:
+      details: #
+
     - degree: Cycle préparatoire
       university: ESIEA
       time: 2018 - 2021
-      details:
+      details: #
+
       - degree: Baccalauréat S-SI
       university: Lycée Langevin-Wallon
       time: 2015 - 2019
-      details: 
+      details: #
+
 experiences:
     - role: Étudiant stagiaire
       time: June 2021 - July 2021
@@ -86,11 +89,11 @@ projects:
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
       - title: Survive The Tempest
-        link: #"https://github.com/Jayllyz/SurvivetheTempest"
+        link: "https://github.com/Jayllyz/SurvivetheTempest"
         tagline: "Jeu de stratégie réalisé et inventé en duo, programmé en language Python durant 4 mois en classe de terminale."
 
       - title: Astar
-        link: #"https://github.com/Jayllyz/Astar"
+        link: "https://github.com/Jayllyz/Astar"
         tagline: "Algorithme de recherche de chemin dans un graphe réalisé dans le cadre d'un projet de deuxième année de cycle préparatoire."
 
 
@@ -99,7 +102,7 @@ skills:
 
     toolset:
       - name: Python 
-        level: 65%
+        level: 50%
 
       - name: C 
         level: 80%
@@ -108,7 +111,7 @@ skills:
         level: 50%
 
       - name: PHP
-        level: 30%
+        level: 40%
 
       - name: Javascript
         level: 30%
