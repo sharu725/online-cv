@@ -83,7 +83,7 @@ projects:
     assignments:
       - title: Survive The Tempest
         link: "https://github.com/Jayllyz/SurvivetheTempest"
-        tagline: "Jeu de stratégie réalisé et inventé en duo, programmé en language Python durant 4 mois en classe de terminale."
+        tagline: "Jeu de stratégie réalisé et inventé en duo, programmé en langage Python durant 4 mois en classe de terminale."
 
       - title: A star
         link: "https://github.com/Jayllyz/Astar"
