@@ -54,18 +54,18 @@ career-profile:
       domaines à travers des projets personnels et scolaires. Après deux ans à l'ESIEA, je poursuis 
       ma formation à l’ESGI où j’approfondis mes connaissances en informatique en première année.
 education:
-      - degree: Bachelor informatique
+    - degree: Bachelor informatique
       university: ESGI
       time: 2021 - 2024
-      details: #
-      - degree: Cycle préparatoire
+      details: 
+    - degree: Cycle préparatoire
       university: ESIEA
       time: 2018 - 2021
-      details: #
-      - degree: Baccalauréat S,SI
+      details: 
+    - degree: Baccalauréat S-SI
       university: Lycée Langevin-Wallon
       time: 2015 - 2019
-      details: #
+      details:
 experiences:
     - role: Étudiant stagiaire
       time: June 2021 - July 2021
