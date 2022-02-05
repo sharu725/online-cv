@@ -27,7 +27,7 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: #http://www.africau.edu/images/default/sample.pdf
 
-    langues:
+    languages:
       - idiom: Francais
         level: Natale
 
@@ -37,7 +37,7 @@ sidebar:
       - idiom: Espagnol
         level: scolaire
 
-    centre d'intérêt:
+    interests:
       - item: Informatique
         link:
 
