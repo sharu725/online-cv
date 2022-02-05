@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Antony David
     tagline: Assistant développeur web
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: cv.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: antonydavid945@gmail.com
