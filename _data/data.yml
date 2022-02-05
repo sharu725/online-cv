@@ -57,17 +57,14 @@ education:
     - degree: Bachelor informatique
       university: ESGI
       time: 2021 - 2024
-      details: #
 
     - degree: Cycle préparatoire
       university: ESIEA
       time: 2018 - 2021
-      details: #
 
     - degree: Baccalauréat S-SI
     university: Lycée Langevin-Wallon
     time: 2015 - 2019
-    details: #
 
 experiences:
     - role: Étudiant stagiaire
@@ -83,10 +80,8 @@ experiences:
 
 projects:
     title: Projets
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    intro: 
+    
     assignments:
       - title: Survive The Tempest
         link: "https://github.com/Jayllyz/SurvivetheTempest"
@@ -105,7 +100,7 @@ skills:
         level: 50%
 
       - name: C 
-        level: 80%
+        level: 70%
 
       - name: HTML5 & CSS
         level: 50%
