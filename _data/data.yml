@@ -64,10 +64,10 @@ education:
       time: 2018 - 2021
       details: #
 
-      - degree: Baccalauréat S-SI
-      university: Lycée Langevin-Wallon
-      time: 2015 - 2019
-      details: #
+    - degree: Baccalauréat S-SI
+    university: Lycée Langevin-Wallon
+    time: 2015 - 2019
+    details: #
 
 experiences:
     - role: Étudiant stagiaire
