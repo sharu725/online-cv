@@ -55,14 +55,14 @@ career-profile:
       ma formation à l’ESGI où j’approfondis mes connaissances en informatique en première année.
 education:
     - degree: Bachelor informatique
-      university: ESGI
+      university: ESGI, Paris
       time: 2021 - 2024
       details: 
     - degree: Cycle préparatoire ingénieur
-      university: ESIEA
+      university: ESIEA, Paris 
       time: 2018 - 2021
       details: 
-    - degree: Baccalauréat S-SI
+    - degree: Baccalauréat S, Sciences de l'ingénieur, option ISN
       university: Lycée Langevin-Wallon
       time: 2015 - 2019
       details:
