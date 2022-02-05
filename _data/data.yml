@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -13,7 +13,7 @@ sidebar:
 
     # Sidebar links
     email: antonydavid945@gmail.com
-    phone: 07 92 69 45 19
+    phone: 07 82 69 45 19
     website: jayllyz.netlify.app #do not add http://
     linkedin: antodavid
     xing: #alandoe
@@ -85,7 +85,7 @@ projects:
         link: "https://github.com/Jayllyz/SurvivetheTempest"
         tagline: "Jeu de stratégie réalisé et inventé en duo, programmé en language Python durant 4 mois en classe de terminale."
 
-      - title: Astar
+      - title: A star
         link: "https://github.com/Jayllyz/Astar"
         tagline: "Algorithme de recherche de chemin dans un graphe réalisé dans le cadre d'un projet de deuxième année de cycle préparatoire."
 
