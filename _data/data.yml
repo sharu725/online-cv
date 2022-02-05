@@ -57,15 +57,36 @@ education:
     - degree: Bachelor informatique
       university: ESGI
       time: 2021 - 2024
-
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
     - degree: Cycle préparatoire
       university: ESIEA
       time: 2018 - 2021
-
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
     - degree: Baccalauréat S-SI
     university: Lycée Langevin-Wallon
     time: 2015 - 2019
-
+    details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
 experiences:
     - role: Étudiant stagiaire
       time: June 2021 - July 2021
@@ -81,7 +102,7 @@ experiences:
 projects:
     title: Projets
     intro: 
-    
+
     assignments:
       - title: Survive The Tempest
         link: "https://github.com/Jayllyz/SurvivetheTempest"
