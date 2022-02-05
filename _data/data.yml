@@ -49,7 +49,7 @@ sidebar:
 
 career-profile:
     title: Profil
-    summary: |
+    summary: 
       Passionné par l’informatique depuis toujours j’ai développé des compétences dans plusieurs 
       domaines à travers des projets personnels et scolaires. Après deux ans à l'ESIEA, je poursuis 
       ma formation à l’ESGI où j’approfondis mes connaissances en informatique en première année.
@@ -75,7 +75,7 @@ experiences:
     - role: Étudiant stagiaire
       time: 2014
       company: Jolicode
-      details: |
+      details: 
         Stage d’observation de 4 jours dans une société spécialisée dans le développement Web et mobile avec une initiation des langages web. (HTML/CSS)
 
 projects:
@@ -86,11 +86,11 @@ projects:
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
       - title: Survive The Tempest
-        link: "https://github.com/Jayllyz/SurvivetheTempest"
+        link: #"https://github.com/Jayllyz/SurvivetheTempest"
         tagline: "Jeu de stratégie réalisé et inventé en duo, programmé en language Python durant 4 mois en classe de terminale."
 
       - title: Astar
-        link: "https://github.com/Jayllyz/Astar"
+        link: #"https://github.com/Jayllyz/Astar"
         tagline: "Algorithme de recherche de chemin dans un graphe réalisé dans le cadre d'un projet de deuxième année de cycle préparatoire."
 
 
