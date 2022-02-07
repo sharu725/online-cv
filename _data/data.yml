@@ -24,7 +24,7 @@ sidebar:
         level: Elementary
 
     interests:
-      - item: Quantum Computing / Quantum compiler
+      - item: Design Automation for Quantum Computing
         link:
 
       - item: VLSI CAD
@@ -39,9 +39,15 @@ career-profile:
       Her current research interests include Quantum computing and VLSI CAD.  
       
 education:
+    - degree: Ph.D in Electrical Engineering
+      university: Pohang University of Science and Technology, Pohang, Republic of Korea 
+      time: Feb.2021 - (Ongoing) 
+      details: | 
+          - Advisor: Prof. Seokhyeong Kang 
+
     - degree: M.Sc in Electrical Engineering
       university: Pohang University of Science and Technology, Pohang, Republic of Korea 
-      time: Feb.2019 - (Ongoing) 
+      time: Feb.2019 - Feb.2021
       details: | 
           - Advisor: Prof. Seokhyeong Kang 
           
@@ -109,10 +115,10 @@ skills:
 
     toolset:
       - name: Linux
-        level: 80%
+        level: 85%
 
       - name: C++
-        level: 70%
+        level: 85%
 
       - name: Verilog
         level: 70%
