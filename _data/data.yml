@@ -102,7 +102,20 @@ publications:
       - title: "Design of Quad-Edge-Triggered Sequential Logic Circuits for Ternary Logic"
         authors: Sunmean Kim, Sung-Yun Lee, <strong>Sunghye Park</strong> and Seokhyeong Kang
         conference: "<I>IEEE 49th International Symposium on Multiple-Valued Logic (ISMVL) </I>, May, 2019"
-         
+        
+publications:
+    # very confusing but publication --> journal and conference... site.data.data error
+    title: Patents 
+    papers:
+      - title: "TERNARY LOGIC CIRCUIT DEVICE II," US (Applied), KR 10-2021-0055864 (Applied)"
+        authors:  Sunmean Kim, Sung-Yun Lee, <strong>Sunghye Park</strong> and Seokhyeong Kang
+    
+      - title: "TERNARY LOGIC CIRCUIT DEVICE I," US (Applied), KR 10-2021-0055863 (Applied)"
+        authors: Sunmean Kim, Sung-Yun Lee, <strong>Sunghye Park</strong> and Seokhyeong Kang
+        
+      - title: "APPARATUS FOR LOW POWER TERNARY LOGIC CIRCUIT," US 17-175570 (Applied), KR 10-2020-0129024 (Applied)"
+        authors: Sunmean Kim, Sung-Yun Lee, <strong>Sunghye Park</strong> and Seokhyeong Kang
+        
 awards:
     title: Awards
     awards:
