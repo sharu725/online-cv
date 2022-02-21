@@ -91,6 +91,10 @@ publications:
     # very confusing but publication --> journal and conference... site.data.data error
     title: Papers 
     papers:
+      - title: "A Fast and Scalable Qubit-Mapping Method for NoisyIntermediate-Scale Quantum Computers"
+        authors:  <strong>Sunghye Park</strong>, Daeyeon Kim, Minhyuk Kweon, Jae-Yoon Sim and Seokhyeong Kang
+        conference: "<I>2022 59th ACM/IEEE Design Automation Conference (DAC) </I>, 2022, accepted"
+
       - title: "A Logic Synthesis Methodology for Low-Power Ternary Logic Circuits"
         authors:  Sunmean Kim, Sung-Yun Lee, <strong>Sunghye Park</strong> and Seokhyeong Kang
         conference: "<I>IEEE  Transactions on Circuits and Systems I: Regular Papers (TCAS-I) </I>, 2020"
