@@ -91,7 +91,7 @@ publications:
     # very confusing but publication --> journal and conference... site.data.data error
     title: Papers 
     papers:
-      - title: "A Fast and Scalable Qubit-Mapping Method for NoisyIntermediate-Scale Quantum Computers"
+      - title: "A Fast and Scalable Qubit-Mapping Method for Noisy Intermediate-Scale Quantum Computers"
         authors:  <strong>Sunghye Park</strong>, Daeyeon Kim, Minhyuk Kweon, Jae-Yoon Sim and Seokhyeong Kang
         conference: "<I>2022 59th ACM/IEEE Design Automation Conference (DAC) </I>, 2022, accepted"
 
