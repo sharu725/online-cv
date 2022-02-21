@@ -57,6 +57,7 @@ education:
       university: University of KwaZulu Natal
       time: 2012 - 2015
       details: |
+      Thesis: On Weather and Waves: Applications to Coastal Engineering
         
     - degree: MSc ENG (Civil) 
       university: University of KwaZulu Natal
@@ -116,21 +117,54 @@ publications:
     intro: |
       
     papers:
-      - title: The Geography of Mixing on the east coast of South Africa
+      - title: "The Geography of Mixing on the east coast of South Africa (2022)"
         link: "#"
-        year: 2022
+        
         authors: Pringle J., Stretch D., Tirok K.
-        journal: Environmental Fluid Mechanics (submitted)    
+        conference: "Environmental Fluid Mechanics (submitted)"    
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      - title: "On the reef scale hydrodynamics at Sodwana Bay, South Africa (2022)"
         link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+        authors: Deoraj V., Wells C., Pringle J., Stretch D.,
+        conference: "Environmental Fluid Mechanics (submitted)"
 
-      - title: On A New Statistical Wave Generator Based On Atmospheric Circulation Patterns and It’s Applications to Coastal Shoreline Evolution
+      - title: "On A New Statistical Wave Generator Based On Atmospheric Circulation Patterns and It’s Applications to Coastal Shoreline Evolution (2021)"
         link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        authors: Pringle J., Stretch D.
+        conference: "Computers and Geoscience, vol 149"
+
+      - title: "Cold water temperature anomalies on the Sodwana reefs and their driving mechanisms (2021)"
+        link: "#"
+        authors: Wells C., Pringle J., Stretch D.
+        conference: "South African Journal of Science"
+
+      - title: "A New Approach for the Stochastic Simulation of Regional Wave Climates Conditioned on Synoptic-Scale Meteorology (2019)"
+        link: "#"
+        authors: Pringle J., Stretch D.
+        conference: "Journal of Coastal Research, vol 35 (6), 1331-1342"
+
+      - title: "Assimilation of ocean wave spectra and atmospheric circulation patterns to improve wave modelling (2015)"
+        link: "#"
+        authors: Corbella S., Pringle J., Stretch D.
+        conference: "Coastal Engineering, vol 100, 1-10"
+
+      - title: "Circulation patterns identified by spatial rainfall and ocean wave fields in Southern Africa (2015)"
+        link: "#"
+        authors: B\'{a}rdossy A., Pegram G., Sinclair S., Pringle J., Stretch D.D.
+        conference: "Frontiers in Environmental Sciences. vol 3 (31), DOI: 10.3389/fenvs.2015.00031"
+      
+
+      - title: "Automated classification of the atmospheric circulation patterns that drive regional wave climates (2014)"
+        link: "#"
+        authors: Pringle J., Stretch D., Bardossy A.
+        conference: "Natural Hazards and Earth System Sciences, vol 14, 2145-2155"
+
+      - title: "On linking atmospheric circulation patterns to extreme events for coastal vulnerability assessments (2014)"
+        link: "#"
+        authors: Pringle J., Stretch D., Bardossy A.
+        conference: "Natural Hazards , DOI: 10.1007s/11069-015-1825-4"
+      
+      
 
 skills:
     title: Skills &amp; Proficiency
