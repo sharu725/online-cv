@@ -3,26 +3,26 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Justin Pringle
+    tagline: Senior Lecturer University of KwaZulu Natal
+    avatar: justin.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
+    email: pringlej@ukzn.ac.za
+    phone: 0791201512
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
+    website: justinpringle.com #do not add http://
+    linkedin: justin-pringle-376801bb
+    # xing: alandoe
+    github: JustinPringle
+    # telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@justinpringle_'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -32,92 +32,58 @@ sidebar:
       - idiom: English
         level: Native
 
-      - idiom: French
-        level: Professional
+      - idiom: Afrikaans
+        level: Working
 
-      - idiom: Spanish
-        level: Professional
+      # - idiom: Spanish
+      #   level: Professional
 
     interests:
-      - item: Climbing
+      - item: Running
         link:
 
-      - item: Snowboarding
+      - item: Surfing
         link:
 
-      - item: Cooking
+      - item: Photography
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am an nationally Y rated NRF researcher.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: PhD ENG
+      university: University of KwaZulu Natal
+      time: 2012 - 2015
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+        
+    - degree: MSc ENG (Civil) 
+      university: University of KwaZulu Natal
+      time: 2010 -2011
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+
+    - degree: BSc ENG (Civil) 
+      university: University of KwaZulu Natal
+      time: 2007 -2010
+      details: |
+        
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Senior Lecturer
+      time: 2021 - Present
+      company: University of KwaZulu Natal, South Africa
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        
+    - role: Lecturer
+      time: 2018 - 2020
+      company: University of KwaZulu Natal, South Africa
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        
+    - role: Coastal Engineer
+      time: 2015 - 2017
+      company: eThekwini Municipality
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        
 projects:
     title: Projects
     intro: >
@@ -148,21 +114,20 @@ projects:
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      
     papers:
-      - title: The Art of Computer Programming
+      - title: The Geography of Mixing on the east coast of South Africa
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        year: 2022
+        authors: Pringle J., Stretch D., Tirok K.
+        journal: Environmental Fluid Mechanics (submitted)    
 
       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
         link: "#"
         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: A syntax directed compiler for Algol 60
+      - title: On A New Statistical Wave Generator Based On Atmospheric Circulation Patterns and It’s Applications to Coastal Shoreline Evolution
         link: "#"
         authors: Edgar T. Irons
         conference: "Comm. ACM 4 (1961), 51–55"
@@ -171,7 +136,7 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python
         level: 98%
 
       - name: Javascript & jQuery
@@ -190,4 +155,4 @@ skills:
         level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    
