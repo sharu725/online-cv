@@ -26,7 +26,9 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    orcid: 0000-0001-5303-822X 
+    researchgate: Justin-Pringle #user name
+    pdf: 
 
     languages:
       - idiom: English
@@ -136,7 +138,7 @@ publications:
       - title: "Cold water temperature anomalies on the Sodwana reefs and their driving mechanisms "
         link: "#"
         authors: Wells C., Pringle J., Stretch D. (2021)
-        conference: "South African Journal of Science"
+        conference: "South African Journal of Science, vol 117 (9-10), 9304"
 
       - title: "A New Approach for the Stochastic Simulation of Regional Wave Climates Conditioned on Synoptic-Scale Meteorology "
         link: "#"

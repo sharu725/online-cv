@@ -33,7 +33,7 @@
 
     {% if sidebar.linkedin %}
     <li class="linkedin"><i class="fab fa-linkedin"></i>
-      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
+      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.name }}</a>
     </li>
     {% endif %}
 
@@ -88,6 +88,18 @@
     {% if sidebar.pdf %}
     <li class="pdf"><i class="fas fa-file-pdf"></i>
       <a href="{{ sidebar.pdf }}" target="_blank">Resume PDF</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.researchgate %}
+    <li class="researchgate"><i class="fab fa-researchgate"></i>
+      <a href="https://www.researchgate.net/profile/{{ sidebar.researchgate }}" target="_blank">{{ sidebar.researchgate }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.orcid %}
+    <li class="orcid"><i class="fab fa-orcid"></i>
+      <a href="https://orcid.org/my-orcid?orcid={{ sidebar.researchgate }}" target="_blank">{{sidebar.name}}</a>
     </li>
     {% endif %}
 
