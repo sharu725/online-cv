@@ -13,11 +13,11 @@ sidebar:
 
     # Sidebar links
     email: arefabedjooy@gmail.com
-    phone: 012 345 6789
+    phone: +1 (647)606-4981
     citizenship:
-    website: blog.webjeda.com #do not add http://
+    website: https://arshockabedan.github.io/online-cv/ #do not add http://
     linkedin: arefabedjooy
-    xing: alandoe
+    xing: 
     github: ArshockAbedan
     telegram: # add your nickname without '@' sign
     gitlab:
@@ -30,28 +30,28 @@ sidebar:
 
     languages:
       - idiom: English
+        level: Professional
+
+      - idiom: Farsi
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
-
     interests:
-      - item: Climbing
+      - item: Futsal
         link:
 
-      - item: Snowboarding
+      - item: Chess
         link:
 
-      - item: Cooking
+      - item: Soccer
         link:
 
 career-profile:
     title: Career Profile
     summary: |
       Aref has more than 10 years of experience with software architecture, design, and development on a variety of platforms, including .Net, Java, Android, and iOS.
+      From 2015 to 2021, he focused on technical modules of SAP technology, including SAP ABAP, SAP PI / PO, and SAP FIORI.
+      After starting his second master's degree in September 2020 and moving to Canada in January 2021, he has been working on machine learning techniques using Python and C++,
+      especially generative models. In the meantime, he continues to work on web development using Django.
 education:
     - degree: MSc in Computer Science
       university: Ontario Tech University
