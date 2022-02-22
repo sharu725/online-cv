@@ -87,25 +87,40 @@ projects:
       - title: Graphene Barristor-based Ternary Logic Architecture Research
         tagline: "NRF, with Sunmean Kim, Aug.2016 - Jul.2021"
         
+        
 publications:
     # very confusing but publication --> journal and conference... site.data.data error
     title: Papers 
     papers:
       - title: "A Fast and Scalable Qubit-Mapping Method for Noisy Intermediate-Scale Quantum Computers"
         authors:  <strong>Sunghye Park</strong>, Daeyeon Kim, Minhyuk Kweon, Jae-Yoon Sim and Seokhyeong Kang
-        conference: "<I>2022 59th ACM/IEEE Design Automation Conference (DAC) </I>, 2022, accepted"
+        conference: "<I>2022 59th ACM/IEEE Design Automation Conference (DAC)</I>, 2022, accepted"
 
       - title: "A Logic Synthesis Methodology for Low-Power Ternary Logic Circuits"
         authors:  Sunmean Kim, Sung-Yun Lee, <strong>Sunghye Park</strong> and Seokhyeong Kang
-        conference: "<I>IEEE  Transactions on Circuits and Systems I: Regular Papers (TCAS-I) </I>, 2020"
+        conference: "<I>IEEE  Transactions on Circuits and Systems I: Regular Papers (TCAS-I)</I>, 2020"
     
       - title: "Multi-Threshold Voltages Graphene Barristor-Based Ternary ALU"
         authors: <strong>Sunghye Park</strong>, Sunmean Kim and Seokhyeong Kang
-        conference: "<I>International SoC Design Conference (ISOCC) </I>, Oct, 2019"
+        conference: "<I>International SoC Design Conference (ISOCC)</I>, Oct, 2019"
         
       - title: "Design of Quad-Edge-Triggered Sequential Logic Circuits for Ternary Logic"
         authors: Sunmean Kim, Sung-Yun Lee, <strong>Sunghye Park</strong> and Seokhyeong Kang
-        conference: "<I>IEEE 49th International Symposium on Multiple-Valued Logic (ISMVL) </I>, May, 2019"
+        conference: "<I>IEEE 49th International Symposium on Multiple-Valued Logic (ISMVL)</I>, May, 2019"
+        
+        
+patents:
+    # very confusing but publication --> journal and conference... site.data.data error
+    title: Patents 
+    papers:
+      - title: "TERNARY LOGIC CIRCUIT DEVICE II," US (Applied), KR 10-2021-0055864 (Applied)"
+        authors:  Sunmean Kim, Sung-Yun Lee, <strong>Sunghye Park</strong> and Seokhyeong Kang
+    
+      - title: "TERNARY LOGIC CIRCUIT DEVICE I," US (Applied), KR 10-2021-0055863 (Applied)"
+        authors: Sunmean Kim, Sung-Yun Lee, <strong>Sunghye Park</strong> and Seokhyeong Kang
+        
+      - title: "APPARATUS FOR LOW POWER TERNARY LOGIC CIRCUIT," US 17-175570 (Applied), KR 10-2020-0129024 (Applied)"
+        authors: Sunmean Kim, Sung-Yun Lee, <strong>Sunghye Park</strong> and Seokhyeong Kang
         
         
 awards:
