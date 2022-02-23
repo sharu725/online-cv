@@ -20,9 +20,9 @@
   <div class="item">
     
     {% if learner.link %}
-      <li><a href="{{ learner.link }}" target="_blank">{{ learner.title }}</a></li>
+      <li class="publication-title"><a href="{{ learner.link }}" target="_blank">{{ learner.title }}</a></li>
     {% else %}
-      <li>{{ learner.title }}</li>
+      <li class="publication-title">{{ learner.title }}</li>
     {% endif %}
     
     <div class="publication-authors">{{ learner.name }} {{learner.year}}</div>
@@ -39,9 +39,9 @@
   <div class="item">
     
     {% if learner.link %}
-      <li><a href="{{ learner.link }}" target="_blank">{{ learner.title }}</a></li>
+      <li class="publication-title"><a href="{{ learner.link }}" target="_blank">{{ learner.title }}</a></li>
     {% else %}
-      <li>{{ learner.title }}</li>
+      <li class="publication-title">{{ learner.title }}</li>
     {% endif %}
     
     <div class="publication-authors">{{ learner.name }} {{learner.year}}</div>

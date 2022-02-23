@@ -178,18 +178,24 @@ students:
       level: MSc
       link: https://efml.ukzn.ac.za/ayesha/
 
-    - name: Kemira
+    - name: Kemira Naidoo
       year: (2022)
       title: Modelling the Agulhas Current
       level: MSc
       link: https://efml.ukzn.ac.za/kemira/
+
+    - name: Kélan Naidoo
+      year: (2022)
+      title: Mixing and turbulence in floating flexible photobioreactors
+      level: MSc
+      link: https://efml.ukzn.ac.za/kelan/
 
     - name: Dawit Seyoum
       year: (2020)
       title: Investigation of XBeach cross-shore capacity under fixed model parameters.
       level: MSc
       link: https://researchspace.ukzn.ac.za/handle/10413/19869
-      
+
     - name: Atish Deoraj
       year: "(2019)"
       title: Modelling the influence of varying sediment sources on coastlines.

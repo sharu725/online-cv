@@ -15,7 +15,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+  font-weight: 300;
 }
 
 a {
@@ -224,10 +224,11 @@ p {
   }
 
   .publication-title {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: $text-color;
     margin-bottom: 1px;
+    text-transform: capitalize;
   }
   .publication-authors {
     font-style: italic;
