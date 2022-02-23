@@ -131,64 +131,127 @@ publications:
         conference: "Environmental Fluid Mechanics (submitted)"
 
       - title: "On A New Statistical Wave Generator Based On Atmospheric Circulation Patterns and It’s Applications to Coastal Shoreline Evolution "
-        link: "#"
+        link: "https://www.sciencedirect.com/science/article/pii/S0098300421000212"
         authors: Pringle J., Stretch D. (2021)
         conference: "Computers and Geoscience, vol 149"
 
       - title: "Cold water temperature anomalies on the Sodwana reefs and their driving mechanisms "
-        link: "#"
+        link: "https://sajs.co.za/article/view/9304"
         authors: Wells C., Pringle J., Stretch D. (2021)
         conference: "South African Journal of Science, vol 117 (9-10), 9304"
 
       - title: "A New Approach for the Stochastic Simulation of Regional Wave Climates Conditioned on Synoptic-Scale Meteorology "
-        link: "#"
+        link: "https://www.jstor.org/stable/26819864?seq=1"
         authors: Pringle J., Stretch D. (2019)
         conference: "Journal of Coastal Research, vol 35 (6), 1331-1342"
 
       - title: "Assimilation of ocean wave spectra and atmospheric circulation patterns to improve wave modelling "
-        link: "#"
+        link: "https://www.sciencedirect.com/science/article/abs/pii/S0378383915000496?via%3Dihub"
         authors: Corbella S., Pringle J., Stretch D. (2015)
         conference: "Coastal Engineering, vol 100, 1-10"
 
       - title: "Circulation patterns identified by spatial rainfall and ocean wave fields in Southern Africa "
-        link: "#"
+        link: "https://www.frontiersin.org/articles/10.3389/fenvs.2015.00031/full"
         authors: B&aacute;rdossy A., Pegram G., Sinclair S., Pringle J., Stretch D.D. (2015)
         conference: "Frontiers in Environmental Sciences. vol 3 (31), DOI: 10.3389/fenvs.2015.00031"
       
 
       - title: "Automated classification of the atmospheric circulation patterns that drive regional wave climates "
-        link: "#"
+        link: "https://nhess.copernicus.org/articles/14/2145/2014/"
         authors: Pringle J., Stretch D., B&aacute;rdossy A. (2014)
         conference: "Natural Hazards and Earth System Sciences, vol 14, 2145-2155"
 
       - title: "On linking atmospheric circulation patterns to extreme events for coastal vulnerability assessments "
-        link: "#"
+        link: "https://link.springer.com/article/10.1007%2Fs11069-015-1825-4"
         authors: Pringle J., Stretch D., B&aacute;rdossy A. (2014)
         conference: "Natural Hazards , DOI: 10.1007s/11069-015-1825-4"
       
       
+students:
+  title: Student Supervision
+  # level: MSc
 
-skills:
-    title: Skills &amp; Proficiency
+  student:
+    - name: Ayesha Mahomedy
+      year: (2022)
+      title: The flow structure of a breaking plunging wave using Smoothed Particle Hydrodynamics
+      level: MSc
+      link: https://efml.ukzn.ac.za/ayesha/
 
-    toolset:
-      - name: Python
-        level: 98%
+    - name: Kemira
+      year: (2022)
+      title: Modelling the Agulhas Current
+      level: MSc
+      link: https://efml.ukzn.ac.za/kemira/
 
-      - name: Javascript & jQuery
-        level: 98%
+    - name: Dawit Seyoum
+      year: (2020)
+      title: Investigation of XBeach cross-shore capacity under fixed model parameters.
+      level: MSc
+      link: https://researchspace.ukzn.ac.za/handle/10413/19869
+      
+    - name: Atish Deoraj
+      year: "(2019)"
+      title: Modelling the influence of varying sediment sources on coastlines.
+      level: "MSc"
+      link: https://researchspace.ukzn.ac.za/handle/10413/17470
 
-      - name: Angular
-        level: 98%
+    
 
-      - name: HTML5 & CSS
-        level: 95%
+    - name: Danel Capelo
+      year: (-)
+      title: On the design of hydrokites to harness ocean current energy
+      level: MSc
+      link: https://efml.ukzn.ac.za/danel/
 
-      - name: Ruby on Rails
-        level: 85%
+    - name: Luyanda Sokhela
+      year: (-)
+      title: "Smart Soiless farming: A solution to Africa's Food Insecurity Crisis"
+      level: MSc
+      link: https://efml.ukzn.ac.za/luyanda/
 
-      - name: Sketch & Photoshop
-        level: 60%
+    
+
+    
+
+    - name:
+      year:
+      title:
+      level:
+      link:
+
+    - name: Atish Deoraj
+      year: "(-)"
+      title: On the Hydrodynamics of Coral Reefs.
+      level: "PhD"
+      link: https://efml.ukzn.ac.za/atish/
+
+    - name: Calvin Wells
+      year: (-)
+      title: The study of sub-meso scale flow regimes along the Coral Reefs of KwaZulu Natal
+      level: PhD
+      link: https://efml.ukzn.ac.za/calvin/
+# skills:
+#     title: Skills &amp; Proficiency
+
+#     toolset:
+#       - name: Python
+#         level: 90%
+
+#       - name: Javascript & jQuery
+#         level: 98%
+
+#       - name: Angular
+#         level: 98%
+
+#       - name: HTML5 & CSS
+#         level: 95%
+
+#       - name: Ruby on Rails
+#         level: 85%
+
+#       - name: Sketch & Photoshop
+#         level: 60%
 
 footer: >
     
