@@ -15,33 +15,39 @@
   <h3 class="student level">MSc</h3>
   
   {{mscStudent.name}}
+  <ol>
   {% for learner in mscStudent %}
   <div class="item">
+    
     {% if learner.link %}
       <li><a href="{{ learner.link }}" target="_blank">{{ learner.title }}</a></li>
     {% else %}
       <li>{{ learner.title }}</li>
     {% endif %}
+    
     <div class="publication-authors">{{ learner.name }} {{learner.year}}</div>
     <!-- <div class="publication-conference">{{ publication.conference }}</div> -->
   </div><!--//item-->
   {% endfor %}
+  </ol>
 
   <!-- get PhD students -->
   {% assign phdStudent = students.student | where:"level", "PhD" %}
   <h3 class="student level">PhD</h3>
-  
+  <ol>
   {% for learner in phdStudent %}
   <div class="item">
+    
     {% if learner.link %}
       <li><a href="{{ learner.link }}" target="_blank">{{ learner.title }}</a></li>
     {% else %}
       <li>{{ learner.title }}</li>
     {% endif %}
+    
     <div class="publication-authors">{{ learner.name }} {{learner.year}}</div>
     <!-- <div class="publication-conference">{{ publication.conference }}</div> -->
   </div><!--//item-->
   {% endfor %}
-
+  </ol> 
 </section><!--//section-->
 {% endif %}
