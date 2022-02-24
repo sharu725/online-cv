@@ -4,9 +4,12 @@
         size: A4;
     }
     body {
-       font-size: 12pt;
+       font-size: 11pt;
+       padding: 5px;
     }
-
+    .container-block {
+      padding: 30px;
+    }
     img.avatar {
         filter: grayscale(1);
         -webkit-filter: greyscale(1);
@@ -21,6 +24,37 @@
         float: right;
         width: 40%;
         -webkit-print-color-adjust: exact; 
+
+        .container-block{
+           padding:0px;
+        }
+        .education-container {
+         .item {
+           margin-bottom: 5px;
+           margin-right: 0px;
+           padding:0px;
+           &:last-child {
+             margin-bottom: 0;
+           }
+         }
+         .meta {
+           
+           font-weight: 300;
+           margin-bottom: 0px;
+           margin-top: 0;
+         }
+         .time {
+           
+           font-weight: 300;
+           margin-bottom: 0px;
+         }
+         .degree  {
+            font-size: 11px;
+            margin-top: 0;
+            margin-bottom: 0px;
+            margin-right:0px;
+          }
+       }
     }
 
     .remove-container.container-block {

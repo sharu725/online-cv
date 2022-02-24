@@ -12,7 +12,7 @@
 
   <!-- get MSc students -->
   {% assign mscStudent = students.student | where:"level", "MSc" %}
-  <h3 class="student level">MSc</h3>
+  <h4 class="student level">MSc</h4>
   
   {{mscStudent.name}}
   <ol>
@@ -33,7 +33,7 @@
 
   <!-- get PhD students -->
   {% assign phdStudent = students.student | where:"level", "PhD" %}
-  <h3 class="student level">PhD</h3>
+  <h4 class="student level">PhD</h4>
   <ol>
   {% for learner in phdStudent %}
   <div class="item">

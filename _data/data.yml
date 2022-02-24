@@ -58,13 +58,13 @@ education:
     - degree: PhD ENG
       university: University of KwaZulu Natal
       time: 2012 - 2015
-      details: |
+      details: "Thesis: On Weather and Waves : Applications to Coastal Engineering"
       
         
     - degree: MSc ENG (Civil) 
       university: University of KwaZulu Natal
       time: 2010 -2011
-      details: |
+      details: "Dissertation: Sediment Resuspension in a Shallow Lake"
 
     - degree: BSc ENG (Civil) 
       university: University of KwaZulu Natal
@@ -121,50 +121,76 @@ publications:
     papers:
       - title: "The Geography of Mixing on the east coast of South Africa"
         link: "#"
-        
+        type: journal
         authors: Pringle J., Stretch D., Tirok K. (2022)
         conference: "Environmental Fluid Mechanics (submitted)"    
 
       - title: "On the reef scale hydrodynamics at Sodwana Bay, South Africa "
         link: "#"
+        type: journal
         authors: Deoraj V., Wells C., Pringle J., Stretch D. (2022)
         conference: "Environmental Fluid Mechanics (submitted)"
 
       - title: "On A New Statistical Wave Generator Based On Atmospheric Circulation Patterns and It’s Applications to Coastal Shoreline Evolution "
         link: "https://www.sciencedirect.com/science/article/pii/S0098300421000212"
+        type: journal
         authors: Pringle J., Stretch D. (2021)
         conference: "Computers and Geoscience, vol 149"
 
       - title: "Cold water temperature anomalies on the Sodwana reefs and their driving mechanisms "
         link: "https://sajs.co.za/article/view/9304"
+        type: journal
         authors: Wells C., Pringle J., Stretch D. (2021)
         conference: "South African Journal of Science, vol 117 (9-10), 9304"
 
+      - title: Why it's important to understand how Fluids Move
+        link: https://theconversation.com/why­-its-­important-­to­-know-­how-­fluids-­move­-142123
+        type: other
+        authors: Pringle J. (2020)
+        conference: The Conversation
+
       - title: "A New Approach for the Stochastic Simulation of Regional Wave Climates Conditioned on Synoptic-Scale Meteorology "
         link: "https://www.jstor.org/stable/26819864?seq=1"
+        type: journal
         authors: Pringle J., Stretch D. (2019)
         conference: "Journal of Coastal Research, vol 35 (6), 1331-1342"
 
+      - title: Preserving Durban's Fragile goldern mile
+        link: https://www.gcis.gov.za/content/resource_centre/news_and_mags/public_sector_magazine
+        type: other
+        authors: Pringle J., Stretch D., Kimmie R. (June 2018)
+        conference: Public Sector Manager
+
       - title: "Assimilation of ocean wave spectra and atmospheric circulation patterns to improve wave modelling "
         link: "https://www.sciencedirect.com/science/article/abs/pii/S0378383915000496?via%3Dihub"
+        type: journal
         authors: Corbella S., Pringle J., Stretch D. (2015)
         conference: "Coastal Engineering, vol 100, 1-10"
 
       - title: "Circulation patterns identified by spatial rainfall and ocean wave fields in Southern Africa "
         link: "https://www.frontiersin.org/articles/10.3389/fenvs.2015.00031/full"
-        authors: B&aacute;rdossy A., Pegram G., Sinclair S., Pringle J., Stretch D.D. (2015)
+        type: journal
+        authors: Bárdossy A., Pegram G., Sinclair S., Pringle J., Stretch D.D. (2015)
         conference: "Frontiers in Environmental Sciences. vol 3 (31), DOI: 10.3389/fenvs.2015.00031"
       
 
       - title: "Automated classification of the atmospheric circulation patterns that drive regional wave climates "
         link: "https://nhess.copernicus.org/articles/14/2145/2014/"
-        authors: Pringle J., Stretch D., B&aacute;rdossy A. (2014)
+        type: journal
+        authors: Pringle J., Stretch D., Bárdossy A. (2014)
         conference: "Natural Hazards and Earth System Sciences, vol 14, 2145-2155"
 
       - title: "On linking atmospheric circulation patterns to extreme events for coastal vulnerability assessments "
         link: "https://link.springer.com/article/10.1007%2Fs11069-015-1825-4"
-        authors: Pringle J., Stretch D., B&aacute;rdossy A. (2014)
+        type: journal
+        authors: Pringle J., Stretch D., Bárdossy A. (2014)
         conference: "Natural Hazards , DOI: 10.1007s/11069-015-1825-4"
+
+      - title: Estuary and Lake hydrodynamics
+        link: https://www.cambridge.org/ca/academic/subjects/life-sciences/natural-resource-management-agriculture-horticulture-and/ecology-and-conservation-estuarine-ecosystems-lake-st-lucia-global-model
+        type: book
+        authors: Stretch D., Chrystal C., Chrystal R., Maine C., Pringle J. 
+        conference: "In: Ecology and Conservation of Estuarine Ecosystems: Lake St. Lucia as a global model. Ed. Perissinotto R., Stretch D., Taylor R. Cambridge University Press. USA"
       
       
 students:
