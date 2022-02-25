@@ -14,11 +14,9 @@ sidebar:
     # Sidebar links
     email: p19vett@ionio.gr
     phone: 210425825
-    citizenship: 
-    website: blog.webjeda.com #do not add http://
+    citizenship: Greek
     linkedin: Manolis Vettas
     github: Mnlsvt
-    pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       - idiom: Greek
@@ -45,7 +43,7 @@ education:
     - degree: Currently enrolled in a bachelor in Computer Science
       university: Ionian University
       time: 2019~
-experiences:
+experience:
       - details: I don't have any experience on the field yet but I am trying really hard to gain the propper requirements so I can be considered as an applicable candidate for a job that suits my interests well.
 projects:
     title: Projects
@@ -100,23 +98,17 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Python
+        level: 60%
 
       - name: Angular
         level: 98%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 50%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: C
+        level: 65%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="https://github.com/Mnlsvt" target="_blank" rel="nofollow">Manolis</a>
