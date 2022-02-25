@@ -3,12 +3,13 @@
 <section class="section publications-section">
 
   <h2 class="section-title">
-    <span class="fa-stack fa-xs">
+    <!-- <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
-    </span>
+    </span> -->
     {{ students.title }}
   </h2>
+  <hr>
 
   <!-- get MSc students -->
   {% assign mscStudent = students.student | where:"level", "MSc" %}

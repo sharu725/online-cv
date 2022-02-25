@@ -18,6 +18,9 @@ h6 {
   font-weight: 300;
 }
 
+hr {
+  border: 0.5px solid $theme-color;
+}
 a {
   color: darken($theme-color, 15%);
   &:hover {
