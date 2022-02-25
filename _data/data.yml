@@ -46,8 +46,7 @@ education:
       university: Ionian University
       time: 2019~
 experiences:
-  details: |
-    I don't have any experience on the field yet but I am trying really hard to gain the propper requirements so I can be considered as an applicable candidate for a job that suits my interests well.
+      - details: I don't have any experience on the field yet but I am trying really hard to gain the propper requirements so I can be considered as an applicable candidate for a job that suits my interests well.
 projects:
     title: Projects
     intro: >
