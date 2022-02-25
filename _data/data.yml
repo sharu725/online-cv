@@ -40,9 +40,10 @@ career-profile:
     summary: I am currently studying computer science in the Ionian University and I am in my third year of my studies. I like many field of computer science but the ones I love the most are computer networks, ethical hacking and coding. I aspire to work in the field and be a valuable member of my group. I am a hard worker and stuborn when it comes to finishing a project or finding the solution.
 
 education:
-      degree: Currently enrolled in a bachelor in Computer Science
-      university: Ionian University
-      time: 2019~
+      - degree: Currently enrolled in a bachelor in Computer Science
+        university: Ionian University
+        time: 2019~
+
 experience:
       - details: I don't have any experience on the field yet but I am trying really hard to gain the propper requirements so I can be considered as an applicable candidate for a job that suits my interests well.
 
