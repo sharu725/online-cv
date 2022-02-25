@@ -211,10 +211,10 @@ p {
   }
 
   .project-title {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     margin-top: 0;
-    margin-bottom: 5px;
+    margin-bottom: 1px;
     color: darken($theme-color, 15%);
   }
   .projects-section {
@@ -222,8 +222,41 @@ p {
       margin-bottom: 30px;
     }
     .item {
-      margin-bottom: 15px;
+      font-style: italic;
+      color: $text-grey;
+      margin-bottom: 1px;
     }
+    .amount {position: absolute;
+    right: 0;
+    top: 0;
+    color: $text-grey;
+    }
+  }
+  .awards-section {
+    .award-title {
+      font-size: 14px;
+      font-weight: 400;
+      margin-top: 0;
+      margin-bottom: 1px;
+      color: darken($theme-color, 15%);
+    }
+
+    .intro {
+      margin-bottom: 30px;
+    }
+    .item {
+      font-style: italic;
+      color: $text-grey;
+      margin-bottom: 1px;
+    }
+    
+    
+  }
+  .amount {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: $text-grey;
   }
 
   .publication-title {

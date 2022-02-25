@@ -88,31 +88,21 @@ experiences:
       details: |
         
 projects:
-    title: Projects
+    title: Professional Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
+      - title: Coastal Vulnerability Milnerton Cape Town (2015-2017)
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Coastal vulnerability analysis and shoreline protection design for Milnerton Beach Cape Town"
 
-      - title: Tempo
+      - title: Emergency Repair Contract Umdloti KZN (2017)
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "Managing and facilitating the construction of coastal protection works at Umdloti (KZN) - R17 000 000.00"
 
-      - title: Atom
+      - title: Forecast Early Warning System (2015-2017)
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: Development of a coastal, river and atmoospheric early warning forecast system for eThekwini Municaplity. Data management and programming.
 
 publications:
     title: Publications
@@ -263,6 +253,32 @@ students:
       title: The study of sub-meso scale flow regimes along the Coral Reefs of KwaZulu Natal
       level: PhD
       link: https://efml.ukzn.ac.za/calvin/
+
+awards:
+  title: Grants & Awards 
+
+  award:
+    - title: NRF Y- Rating 2020 
+      link: #
+      amount: R50 000.00
+
+    - title: "PI TIA: Ocean Energy to Electricity"
+      link: #
+      amount: R50 000.00
+
+    - title: "RDE grant (2019): Research and Development Grant for Emerging Researchers"
+      link: #
+      amount: R650 000.00
+
+    - title: "Co­PI TIA : Ocean Wave Energy to Electricity "
+      link: #
+      amount: R650 000.00
+
+    - title: "RDE grant (2020): Research and Development Grant for Emerging Researchers"
+      link:
+      amount: R100 000.00
+
+
 # skills:
 #     title: Skills &amp; Proficiency
 
