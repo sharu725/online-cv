@@ -19,10 +19,10 @@
   {% for award in awards.award %}
     <div class="item">
       <div class="upper-row">
-        <div class="award-title">{{ award.title }}</div>    
+        <div class="award-title left">{{ award.title }}</div>    
 
       {% if award.amount %}
-      <div class ="amount">
+      <div class ="amount right">
        {{ award.amount }}
       </div>
       {% endif %}

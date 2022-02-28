@@ -190,6 +190,18 @@ p {
     overflow: hidden;
     margin-bottom: 2px;
   }
+  .left{
+    width: 75%;
+  }
+  .right{
+    width:25%;
+    text-align: right;
+  }
+  .column {
+    float: left;
+    // padding: 10px;
+    // height: 300px; /* Should be removed. Only for demonstration */
+  }
   .job-title,
   .degree {
     color: $text-color;
@@ -258,7 +270,14 @@ p {
     top: 0;
     color: $text-grey;
   }
-
+  .course-section {
+    .right {
+      width: 60%
+    }
+    .left {
+      width: 40%
+    }
+  }
   .publication-title {
     font-size: 14px;
     font-weight: 400;

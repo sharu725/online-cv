@@ -54,6 +54,28 @@ career-profile:
     title: Career Profile
     summary: |
       I am an nationally Y rated NRF researcher.
+
+courses:
+  title: Coursework Teaching
+
+  undergraduate:
+    - course: "ENCH1TC"
+      title: Technical commincations for Engineers
+
+    - course: "ENCV3MS"
+      title: Mathematical systems for engineers
+
+    - course: "ENCV3FA"
+      title: Fluid mechanics/hydraulics for civil engineers
+    - course: "ENCV3FB"
+      title: Hydraulics and hydrology for engineers
+    - course: "ENCV4DS"
+      title: "Dissertation projects (typically 5-10 projects/yr)"
+    - course: "ENCV4DE"
+      title: "Design projects (typically 5-10 projects/yr)"
+  postgraduate:
+    - course: 
+      title: Water Engineering To develop Environmentally Sustainable Solutions
 education:
     - degree: PhD ENG
       university: University of KwaZulu Natal
