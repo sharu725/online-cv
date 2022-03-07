@@ -108,6 +108,30 @@ experiences:
       time: 2015 - 2017
       company: eThekwini Municipality
       details: |
+
+leadership:
+  title: Leadership and Service
+  
+  type:
+    - title: Research
+      description: "Co-Founder and head: Environmental Fluid Mechanics Lab, UKZN"
+      link: https://efml.ukzn.ac.za
+
+    - title: University
+      description: "Chair: Academic Focus Group"
+      time: "2018-2020"
+
+    - title: Community Service
+      description: "SAFM and community radio interviews"
+
+    - title: Community Service
+      description: Mentor for Engineers without borders
+      time: "2020"
+    
+    - title: Community Service
+      description: "Developed CPD courses for industry"
+      time: "2021"
+
         
 projects:
     title: Professional Projects

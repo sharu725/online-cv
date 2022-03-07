@@ -1,4 +1,4 @@
-{% assign projects = site.data.data.projects %}
+{% assign leader = site.data.data.leadership %}
 {% if projects %}
 <section class="section projects-section">
 
@@ -7,32 +7,91 @@
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
     </span> -->
-    {{ projects.title }}
+    {{ leader.title }}
   </h2>
   <hr>
-  {% if projects.intro %}
+  {% if leader.intro %}
   <div class="intro">
-      <p>{{ projects.intro }}</p>
+      <p>{{ leader.intro }}</p>
   </div><!--//intro-->
   {% endif %}
 
-  {% for project in projects.assignments %}
-    <div class="item">
+  {% assign research = leader.type | where:"title", "Research" %}
+  <div class="project-title">  Research</div>
 
-      <span class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-        {{ project.title }}
-        {% endif %}
-      </span>
+  {% for item in research %}
+  <div class="item">
+    <div class="upper-row">
+      <div class="column left leadership">
+        
+          {% if item.link %}
+          <a class="tagline" href="{{ item.link }}" target="_blank">{{ item.description }}</a>
+          {% else %}
+          {{ item.description }}
+          {% endif %}
+        
 
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
-      {% endif %}
+        <!-- {% if item.description %}
+         <div class="award-tagline">{{ item.description }}</div>
+        {% endif %} -->
 
-    </div><!--//item-->
+      </div><!--//lefft-->
+      <div class = "column right"> {{item.time}}</div>
+    </div>
+  </div>
   {% endfor %}
+
+  {% assign uni = leader.type | where:"title", "University" %}
+  <div class="project-title">  University</div>
+
+  {% for item in uni %}
+  <div class="item">
+    <div class="upper-row">
+      <div class="column left leadership">
+        
+          {% if item.link %}
+          <a class="tagline" href="{{ item.link }}" target="_blank">{{ item.description }}</a>
+          {% else %}
+          {{ item.description }}
+          {% endif %}
+        
+
+        <!-- {% if item.description %}
+         <div class="award-tagline">{{ item.description }}</div>
+        {% endif %} -->
+
+      </div><!--//lefft-->
+      <div class = "column right"> {{item.time}}</div>
+    </div>
+  </div>
+  {% endfor %}
+
+  {% assign com = leader.type | where:"title", "Community Service" %}
+  <div class="project-title">  Community Service</div>
+
+  {% for item in com %}
+  <div class="item">
+    <div class="upper-row">
+      <div class="column left leadership">
+        
+          {% if item.link %}
+          <a class="tagline" href="{{ item.link }}" target="_blank">{{ item.description }}</a>
+          {% else %}
+          {{ item.description }}
+          {% endif %}
+        
+
+        <!-- {% if item.description %}
+         <div class="award-tagline">{{ item.description }}</div>
+        {% endif %} -->
+
+      </div><!--//lefft-->
+      <div class = "column right"> {{item.time}}</div>
+    </div>
+  </div>
+  {% endfor %}
+
+  
 
 </section><!--//section-->
 {% endif %}

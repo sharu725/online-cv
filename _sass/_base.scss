@@ -30,7 +30,23 @@ a {
   &:focus {
     text-decoration: none;
   }
+  
 }
+
+.leadership{
+  a {
+    font-style: italic;
+    color: $text-grey;
+    &:hover {
+      text-decoration: underline;
+      color: darken($theme-color, 30%);
+    }
+    &:focus {
+      text-decoration: none;
+    }
+  }
+}
+
 
 p {
   line-height: 1.5;
