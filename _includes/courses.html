@@ -39,6 +39,7 @@
     </div>
   </div>
   {% endfor %}
+  {% if course.postgraduate %}
   <div class="project-title">  Post-Graduate</div>
   {% for course in course.postgraduate %}
   <div class="item">
@@ -48,5 +49,6 @@
     </div>
   </div>
   {% endfor %}
+  {% endif %}
 </section><!--//section-->
 {% endif %}

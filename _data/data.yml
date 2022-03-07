@@ -75,9 +75,7 @@ courses:
       title: "Dissertation projects (typically 5-10 projects/yr)"
     - course: "ENCV4DE"
       title: "Design projects (typically 5-10 projects/yr)"
-  postgraduate:
-    - course: 
-      title: Water Engineering To develop Environmentally Sustainable Solutions
+  
 education:
     - degree: PhD ENG
       university: University of KwaZulu Natal
