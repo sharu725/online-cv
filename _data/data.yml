@@ -28,9 +28,35 @@ sidebar:
   goodreads: # Number-Username, e.g. 123456-alandoe
   pdf: # http://www.africau.edu/images/default/sample.pdf
 
+  # to do pasar las skills a el side bar
+  skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Linux
+        level: 60%
+
+      - name: Bash
+        level: 45%
+
+      - name: SVN
+        level: 40%
+
+      - name: Docker
+        level: 35%
+
+      - name: GitLab
+        level: 35%
+
+      - name: Git
+        level: 25%
+
   certifications:
-    - item: df
-      link:
+    - name: Linux Essentials
+      link: lpi.org/v/LPI000508708/x5u744rc72
+
+    - name: EFSET English Certificate
+      link: https://www.efset.org/cert/yrgB8E
 
   languages:
 
@@ -146,28 +172,6 @@ publications:
         link: "#"
         authors: Edgar T. Irons
         conference: "Comm. ACM 4 (1961), 51–55"
-# to do pasar las skills a el side bar
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Linux
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: SVN
-        level: 98%
-
-      - name: Docker
-        level: 95%
-
-      - name: GitLab
-        level: 85%
-
-      - name: Git
-        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
