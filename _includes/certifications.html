@@ -6,11 +6,13 @@
     Certifications
   </h2>
 
-  <ul class="list-unstyled certifications-list">
+  <ul class="list-unstyled interests-list">
     {% for certification in certifications %}
+
       <li><a href="{{ certification.link }}">{{ certification.name }}</a></li>
+
     {% endfor %}
   </ul>
 
-</div><!--//certifications-->
+</div><!--//interests-->
 {% endif %}
