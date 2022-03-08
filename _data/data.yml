@@ -8,7 +8,7 @@ sidebar:
 
   # Profile information
   name: Oscar Carmenate Rodríguez
-  tagline: Junior DevOps
+  tagline: DevOps Junior
   avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -45,38 +45,14 @@ sidebar:
 
     - item: Cooking
       link:
+  
+# to do agregar las certificaciones en el side bar
 
 career-profile:
     title: Career Profile
     summary: |
-      Junior DevOps con más de 1 año de experiencia automatizando, optimizando
-      desplegando en infraestructuras de mas de un entorno. Competente con
-      herramientas de Gestion de Configuración y desarrollo de pipelines de
-      CI/CD.
+      DevOps Junior with 1 year of experience automating, optimizing and deploying in infrastructures of more than one environment. Proficient with Configuration Management tools, Version Control Systems and development pipelines for CI/CD.
       
-education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
 experiences:
     - role: Lead Developer
       time: 2015 - Present
@@ -115,6 +91,30 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
+education:
+    - degree: MSc in Computer Science
+      university: University of London
+      time: 2011 - 2012
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: BSc in Applied Mathematics
+      university: Bristol University
+      time: 2007 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+# to do eleiminar proyecto
 projects:
     title: Projects
     intro: >
@@ -141,7 +141,7 @@ projects:
       - title: Delta
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
+# to do eliminar publicaciones
 publications:
     title: Publications
     intro: |
@@ -163,7 +163,7 @@ publications:
         link: "#"
         authors: Edgar T. Irons
         conference: "Comm. ACM 4 (1961), 51–55"
-
+# to do pasar las skills a el side bar
 skills:
     title: Skills &amp; Proficiency
 
