@@ -4,11 +4,11 @@
 
 sidebar:
   about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
 
   # Profile information
   name: Oscar Carmenate Rodríguez
-  tagline: DevOps Junior
+  tagline: Junior DevOps
   avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -51,7 +51,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      DevOps Junior with 1 year of experience automating, optimizing and deploying in infrastructures of more than one environment. Proficient with Configuration Management tools, Version Control Systems and development pipelines for CI/CD.
+      DevOps Junior with around 1 year of experience automating, optimizing and deploying in infrastructures of more than one environment. Experience with Software Configuration Management tools, Version Control Systems and development pipelines for CI/CD.
       
 experiences:
     - role: Configuration Manager
@@ -147,22 +147,22 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Linux
         level: 98%
 
       - name: Javascript & jQuery
         level: 98%
 
-      - name: Angular
+      - name: SVN
         level: 98%
 
-      - name: HTML5 & CSS
+      - name: Docker
         level: 95%
 
-      - name: Ruby on Rails
+      - name: GitLab
         level: 85%
 
-      - name: Sketch & Photoshop
+      - name: Git
         level: 60%
 
 footer: >
