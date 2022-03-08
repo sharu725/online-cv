@@ -84,8 +84,8 @@ career-profile:
       DevOps Junior with around 1 year of experience automating, optimizing and deploying in infrastructures of more than one environment. Experience with Software Configuration Management tools, Version Control Systems and development pipelines for CI/CD.
       
 experiences:
-    - role: Configuration Manager
-      time: 2017 - Present
+    - role: Junior DevOps
+      time: 2021 - Present
       company: XETID, La Habana, Cuba
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
@@ -97,7 +97,15 @@ experiences:
         error sit voluptatem accusantium doloremque laudantium, totam rem
         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
         architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
+          - GitLab
+          - Docker
+          
+    - role: Configuration Manager
+      time: 2017 - 2021
+      company: XETID, La Habana, Cuba
+      details: |
+        Describe your role 
+          - Background in LINUX/UNIX Administration
           - Bullet point
 
 education:
