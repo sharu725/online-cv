@@ -4,3 +4,4 @@ _site/
 .jekyll-cache
 *.kdev*
 proxy.sh
+Gemfile.lock
