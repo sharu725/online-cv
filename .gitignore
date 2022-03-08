@@ -3,3 +3,4 @@ _site/
 .jekyll-metadata
 .jekyll-cache
 *.kdev*
+proxy.sh
