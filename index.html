@@ -5,16 +5,23 @@ layout: default
 
 {% include career-profile.html %}
 
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
-
 {% include experiences.html %}
 
 {% include projects.html %}
+
+{% unless site.data.data.sidebar.education %}
+  {% include education.html %}
+{% endunless %}
 
 {% comment %}
   {% include publications.html %}
 {% endcomment %}
 
+{% comment %}
+  añadir al side bar
+{% endcomment %}
 {% include skills.html %}
+
+{% comment %}
+  certificaciones al side bar
+{% endcomment %}
