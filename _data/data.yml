@@ -14,7 +14,8 @@ sidebar:
   # Sidebar links
   email: oscarmenatex@gmail.com
   phone: +53 55562852
-  citizenship: Cuba
+  ubication: La Habana, Cuba
+  citizenship: Cuban
   website: oscarmenatex.github.io #do not add http://
   linkedin: oscar-carmenate-rodríguez-385597187
   xing:  # alandoe
@@ -53,7 +54,7 @@ sidebar:
 
   certifications:
     - name: Linux Essentials
-      link: lpi.org/v/LPI000508708/x5u744rc72
+      link: https://lpi.org/v/LPI000508708/x5u744rc72
 
     - name: EFSET English Certificate
       link: https://www.efset.org/cert/yrgB8E
@@ -81,22 +82,14 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      DevOps Junior with around 1 year of experience automating, optimizing and deploying in infrastructures of more than one environment. Experience with Software Configuration Management tools, Version Control Systems and development pipelines for CI/CD.
+      DevOps Junior with around 1 year of experience automating, optimizing and deploying in infrastructures of more than one environment. Experience with Software Configuration Management tools, Version Control Systems and development pipelines for CI/CD. Experiencia administrando y realizando despliegues sistemas linux
       
 experiences:
     - role: Junior DevOps
       time: 2021 - Present
       company: XETID, La Habana, Cuba
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Describe your role here
           - GitLab
           - Docker
           
