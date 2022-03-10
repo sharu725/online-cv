@@ -236,6 +236,7 @@ students:
   student:
     - name: Ayesha Mahomedy
       year: (2022)
+      passType: cum laude
       title: The flow structure of a breaking plunging wave using Smoothed Particle Hydrodynamics
       level: MSc
       link: https://efml.ukzn.ac.za/ayesha/
