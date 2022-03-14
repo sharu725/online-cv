@@ -68,38 +68,50 @@ sidebar:
       level: Professional
 
   interests:
-    - item: Climbing
+    - item: Farming
       link:
 
-    - item: Snowboarding
+    - item: Green Inventions
       link:
 
     - item: Cooking
       link:
-  
-# to do agregar las certificaciones en el side bar
 
 career-profile:
     title: Career Profile
     summary: |
       DevOps Junior with around 1 year of experience automating, optimizing and deploying in infrastructures of more than one environment. Experience with Software Configuration Management tools, Version Control Systems and development pipelines for CI/CD. Experiencia administrando y realizando despliegues sistemas linux
-      
+
 experiences:
     - role: Junior DevOps
       time: 2021 - Present
       company: XETID, La Habana, Cuba
       details: |
-        Describe your role here
-          - GitLab
-          - Docker
-          
-    - role: Configuration Manager
+        Con las habilidades adquiridas en ese mismo proyecto y gracias a que se unio otro integrante al equipo tecnico, tube mas tiempo para estudiar  mientras iba capacitando al nuevo integrante entregandole mis conocimientos y resolviendole sus dudas. Durante esta nueva etapa y iba automatizando los procedimientos, e investigando nuevas herramientas y formas de trabajo, las cuales con la ayuda del equipo de trabajo he ido inplementando en el proyecto. Gracias a esto he adquirido algunas habilidades las cuales sigo desarrollando:
+          - Instalacion y configuracion de servicios: docker, gitlab, gitlab-runner.
+          - experiencia administrando docker con portianer.
+          - GitLab: diseñando pipelines CI/CD para el despliegue de en servidores. optimizando pipelines.
+          - Administrando gitlab ayuda a su compañeros en su uso. Integrandolo con herramientas como mattermost.
+          - Configuracion de chat mattermost para el desarrollo colaborativo.
+          - Docker: usando algunos contenedores para la ayuda en los etapas de los pipelines. Creando dockerfile. Empaquetando herramientas para su posterior despliegue.
+          - Diseñando estrategias de branch. Aclarando dudas en el cumplimiento de la estrategia de ramas especialmente GitLabFlow.
+
+    - role: Systems administration
       time: 2017 - 2021
       company: XETID, La Habana, Cuba
       details: |
-        Describe your role 
-          - Background in LINUX/UNIX Administration
-          - Bullet point
+        Estube involucrado en un equipo de desarrollo de entre 12 y 16 personas. Durante todo este tiempo fui el unico miembro del personal tecnico, me ancargaba de todo: actualizaciones en sistemas operativos linux, Instalacion de maquinas virtuales, configuraciones de red, administracion del sistema de control de versiones, diseño de estrategias de branch. Instalacion, actualizacion y soporte a las herramientas web alli desarrolladas. Desplegaba llevando directamente las diferencias de codigo en una USB a los clientes o via ssh.  Realizaba despliegues manuales, en entornos gnu/linux. En mi tiempo libre estudiaba como mejorar y automatizar todo ese proceso. Ademas de ayudar a mis compañeros en sus dudas. Gracias a ese desempeño adquiri algunos conocimientos:
+          - Proficient in LINUX/UNIX Administration.
+          - Realizando integraciones de base de datos, y correo en los sitemas.
+          - Creacion de script bash para automatizar tarea y realizar actualizaciones de codigo.
+          - Reealizacion configuraciones en servicios Apache y Nginx.
+          - Administrador de Sistemas de control de versiones: svn.
+          - Administracion y creacion e usuarios ldap.
+          - Instalando y actualizando puestos de trabajo con gnu/linux.
+          - Trabajo con vpn. Tunles ssh.
+          - Experiencia en creacion y administracion de maquinas virtuales en virtualizadores: vmware, proxmox, virtualBox.
+          - conocimiento en el monitoreo de servidores en la nuve con checkmk.
+          - Instalacion y configuracion de servicios: ldap.
 
 education:
     - degree: Computer Science Engineer
@@ -124,7 +136,7 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-# to do eleiminar proyecto
+
 projects:
     title: Projects
     intro: >
