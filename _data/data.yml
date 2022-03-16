@@ -89,14 +89,14 @@ experiences:
       details: |
         Con las habilidades adquiridas en ese mismo proyecto y gracias a que se unio otro integrante al equipo tecnico, tube mas tiempo para estudiar  mientras iba capacitando al nuevo integrante entregandole mis conocimientos y resolviendole sus dudas. Durante esta nueva etapa y iba automatizando los procedimientos, e investigando nuevas herramientas y formas de trabajo, las cuales con la ayuda del equipo de trabajo he ido inplementando en el proyecto. Gracias a esto he adquirido algunas habilidades las cuales sigo desarrollando:
           - Instalacion y configuracion de servicios: docker, gitlab, gitlab-runner.
-          - experiencia administrando docker con portianer.
+          - Experiencia administrando docker con portianer.
           - GitLab: diseñando pipelines CI/CD para el despliegue de en servidores. optimizando pipelines.
           - Administrando gitlab ayuda a su compañeros en su uso. Integrandolo con herramientas como mattermost.
           - Configuracion de chat mattermost para el desarrollo colaborativo.
           - Docker: usando algunos contenedores para la ayuda en los etapas de los pipelines. Creando dockerfile. Empaquetando herramientas para su posterior despliegue.
           - Diseñando estrategias de branch. Aclarando dudas en el cumplimiento de la estrategia de ramas especialmente GitLabFlow.
 
-    - role: Systems administration
+    - role: Systems Administration
       time: 2017 - 2021
       company: XETID, La Habana, Cuba
       details: |
