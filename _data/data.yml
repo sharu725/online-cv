@@ -74,44 +74,42 @@ sidebar:
     - item: Green Inventions
       link:
 
-    - item: Cooking
+    - item: Nature Photography
       link:
 
 career-profile:
     title: Career Profile
     summary: |
-      DevOps Junior with around 1 year of experience automating, optimizing and deploying in infrastructures of more than one environment. Experience with Software Configuration Management tools, Version Control Systems and development pipelines for CI/CD. Experiencia administrando y realizando despliegues sistemas linux
+      Skilled professional with around 1 years of experience in CI/CD (Continuous Integration / Continuous Deployment) process. Solid experience in areas of Linux/Unix Administration, Software Configuration Management (SCM), Version Control and Virtualization Environments.
 
 experiences:
-    - role: Junior DevOps
+    - role: Junior DevOps Engineer
       time: 2021 - Present
       company: XETID, La Habana, Cuba
       details: |
-        Con las habilidades adquiridas en ese mismo proyecto y gracias a que se unio otro integrante al equipo tecnico, tube mas tiempo para estudiar  mientras iba capacitando al nuevo integrante entregandole mis conocimientos y resolviendole sus dudas. Durante esta nueva etapa y iba automatizando los procedimientos, e investigando nuevas herramientas y formas de trabajo, las cuales con la ayuda del equipo de trabajo he ido inplementando en el proyecto. Gracias a esto he adquirido algunas habilidades las cuales sigo desarrollando:
-          - Instalacion y configuracion de servicios: docker, gitlab, gitlab-runner.
-          - Experiencia administrando docker con portianer.
-          - GitLab: diseñando pipelines CI/CD para el despliegue de en servidores. optimizando pipelines.
-          - Administrando gitlab ayuda a su compañeros en su uso. Integrandolo con herramientas como mattermost.
-          - Configuracion de chat mattermost para el desarrollo colaborativo.
-          - Docker: usando algunos contenedores para la ayuda en los etapas de los pipelines. Creando dockerfile. Empaquetando herramientas para su posterior despliegue.
-          - Diseñando estrategias de branch. Aclarando dudas en el cumplimiento de la estrategia de ramas especialmente GitLabFlow.
-
+        XETID is a Cuban software company, that develops digital governance software for the government, ministries, large medium and small companies.
+          - Developed and maintained CI/CD pipelines for code deployment using GitLab, gitlab-runner. Developed build and deployment processes for Testing, Pre-production and Production environments.
+          - Build and deployed Docker containers for implementing Microservice Architecture from Monolithic Architectur.
+          - Installed and configured Portainer to manage Docker containers.
+          - Installed, configured and managed Gitlab Server.
+          - Managed and designed Branch Strategies.
     - role: Systems Administration
       time: 2017 - 2021
       company: XETID, La Habana, Cuba
       details: |
-        Estube involucrado en un equipo de desarrollo de entre 12 y 16 personas. Durante todo este tiempo fui el unico miembro del personal tecnico, me ancargaba de todo: actualizaciones en sistemas operativos linux, Instalacion de maquinas virtuales, configuraciones de red, administracion del sistema de control de versiones, diseño de estrategias de branch. Instalacion, actualizacion y soporte a las herramientas web alli desarrolladas. Desplegaba llevando directamente las diferencias de codigo en una USB a los clientes o via ssh.  Realizaba despliegues manuales, en entornos gnu/linux. En mi tiempo libre estudiaba como mejorar y automatizar todo ese proceso. Ademas de ayudar a mis compañeros en sus dudas. Gracias a ese desempeño adquiri algunos conocimientos:
-          - Proficient in LINUX/UNIX Administration.
-          - Realizando integraciones de base de datos, y correo en los sitemas.
-          - Creacion de script bash para automatizar tarea y realizar actualizaciones de codigo.
-          - Reealizacion configuraciones en servicios Apache y Nginx.
-          - Administrador de Sistemas de control de versiones: svn.
-          - Administracion y creacion e usuarios ldap.
-          - Instalando y actualizando puestos de trabajo con gnu/linux.
-          - Trabajo con vpn. Tunles ssh.
-          - Experiencia en creacion y administracion de maquinas virtuales en virtualizadores: vmware, proxmox, virtualBox.
-          - conocimiento en el monitoreo de servidores en la nuve con checkmk.
-          - Instalacion y configuracion de servicios: ldap.
+        XETID is a Cuban software company, that develops digital governance software for the government, ministries, large medium and small companies.
+          - Experienced in Installing, Upgrading, Configuring and Administering GNU/Linux Debian.
+          - Installed and configured Nagios to constantly monitor network bandwidth, memory usage, and hard drive status.
+          - Managed and used Subversion as source code repositories.
+          - Managed and designed Branch Strategies.
+          - Installed and configured Virtual Machine on VMware, VirtualBox, Proxmox.
+          - Developed Shell Scripts for automation purpose.
+          - Installed and configured Apache and NGINX services.
+          - Installed, configured and managed Ldap services. 
+          - Maintained and coordinated environment configuration, controls, code integrity, and code conflict resolution.
+          - Deployed PHP applications in Linux servers.
+          - Installed, configured and managed Ldap Services for all applications of team. Executed user administration tasks including creating users and groups.
+          - Experienced using and creating vpn, and ssh pipes.
 
 education:
     - degree: Computer Science Engineer
