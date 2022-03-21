@@ -4,7 +4,8 @@
 
 sidebar:
   about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: False # set to False if you want education in main section instead of in sidebar
+  education: False  # set to False if you want education in main section instead of in sidebar
+  skills: True
 
   # Profile information
   name: Oscar Carmenate Rodríguez
@@ -105,7 +106,6 @@ experiences:
           - Installed and configured Virtual Machine on VMware, VirtualBox, Proxmox.
           - Developed Shell Scripts for automation purpose.
           - Installed and configured Apache and NGINX services.
-          - Installed, configured and managed Ldap services. 
           - Maintained and coordinated environment configuration, controls, code integrity, and code conflict resolution.
           - Deployed PHP applications in Linux servers.
           - Installed, configured and managed Ldap Services for all applications of team. Executed user administration tasks including creating users and groups.
@@ -115,25 +115,25 @@ education:
     - degree: Computer Science Engineer
       university: Universidad de las Ciencias Informáticas. La Habana - Cuba
       time: 2009 - 2016
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+#      details: |
+#        Describe your study here lorem ipsum dolor sit amet, consectetuer
+#        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+#        sociis natoque penatibus et magnis dis parturient montes, nascetur
+#        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+#        pretium quis, sem.
+#          - Bullet point
+#          - Bullet point
     - degree: Middle Technician in Computer Science
       university: Instituto Politécnico de Informáticas - Mariana Grajales Cuello. Santiago de Cuba - Cuba.
       time: 2005 - 2008
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+#      details: |
+#        Describe your study here lorem ipsum dolor sit amet, consectetuer
+#        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+#        sociis natoque penatibus et magnis dis parturient montes, nascetur
+#        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+#        pretium quis, sem.
+#          - Bullet point
+#          - Bullet point
 
 projects:
     title: Projects
