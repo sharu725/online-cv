@@ -7,7 +7,9 @@ layout: default
 
 {% include experiences.html %}
 
-{% include projects.html %}
+{% comment %}
+  {% include projects.html %}
+{% endcomment %}
 
 {% unless site.data.data.sidebar.education %}
   {% include education.html %}

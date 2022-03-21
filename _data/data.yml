@@ -4,7 +4,8 @@
 
 sidebar:
   about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: False # set to False if you want education in main section instead of in sidebar
+  education: False  # set to False if you want education in main section instead of in sidebar
+  skills: True
 
   # Profile information
   name: Oscar Carmenate Rodríguez
@@ -14,7 +15,8 @@ sidebar:
   # Sidebar links
   email: oscarmenatex@gmail.com
   phone: +53 55562852
-  citizenship: Cuba
+  ubication: La Habana, Cuba
+  citizenship: Cuban
   website: oscarmenatex.github.io #do not add http://
   linkedin: oscar-carmenate-rodríguez-385597187
   xing:  # alandoe
@@ -53,7 +55,7 @@ sidebar:
 
   certifications:
     - name: Linux Essentials
-      link: lpi.org/v/LPI000508708/x5u744rc72
+      link: https://lpi.org/v/LPI000508708/x5u744rc72
 
     - name: EFSET English Certificate
       link: https://www.efset.org/cert/yrgB8E
@@ -67,63 +69,72 @@ sidebar:
       level: Professional
 
   interests:
-    - item: Climbing
+    - item: Farming
       link:
 
-    - item: Snowboarding
+    - item: Green Inventions
       link:
 
-    - item: Cooking
+    - item: Nature Photography
       link:
-  
-# to do agregar las certificaciones en el side bar
 
 career-profile:
     title: Career Profile
     summary: |
-      DevOps Junior with around 1 year of experience automating, optimizing and deploying in infrastructures of more than one environment. Experience with Software Configuration Management tools, Version Control Systems and development pipelines for CI/CD.
-      
+      Skilled professional with around 1 years of experience in CI/CD (Continuous Integration / Continuous Deployment) process. Solid experience in areas of Linux/Unix Administration, Software Configuration Management (SCM), Version Control and Virtualization Environments.
+
 experiences:
-    - role: Configuration Manager
-      time: 2017 - Present
+    - role: Junior DevOps Engineer
+      time: 2021 - Present
       company: XETID, La Habana, Cuba
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
+        XETID is a Cuban software company, that develops digital governance software for the government, ministries, large medium and small companies.
+          - Developed and maintained CI/CD pipelines for code deployment using GitLab, gitlab-runner. Developed build and deployment processes for Testing, Pre-production and Production environments.
+          - Build and deployed Docker containers for implementing Microservice Architecture from Monolithic Architectur.
+          - Installed and configured Portainer to manage Docker containers.
+          - Installed, configured and managed Gitlab Server.
+          - Managed and designed Branch Strategies.
+    - role: Systems Administration
+      time: 2017 - 2021
+      company: XETID, La Habana, Cuba
+      details: |
+        XETID is a Cuban software company, that develops digital governance software for the government, ministries, large medium and small companies.
+          - Experienced in Installing, Upgrading, Configuring and Administering GNU/Linux Debian.
+          - Installed and configured Nagios to constantly monitor network bandwidth, memory usage, and hard drive status.
+          - Managed and used Subversion as source code repositories.
+          - Managed and designed Branch Strategies.
+          - Installed and configured Virtual Machine on VMware, VirtualBox, Proxmox.
+          - Developed Shell Scripts for automation purpose.
+          - Installed and configured Apache and NGINX services.
+          - Maintained and coordinated environment configuration, controls, code integrity, and code conflict resolution.
+          - Deployed PHP applications in Linux servers.
+          - Installed, configured and managed Ldap Services for all applications of team. Executed user administration tasks including creating users and groups.
+          - Experienced using and creating vpn, and ssh pipes.
 
 education:
     - degree: Computer Science Engineer
       university: Universidad de las Ciencias Informáticas. La Habana - Cuba
       time: 2009 - 2016
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+#      details: |
+#        Describe your study here lorem ipsum dolor sit amet, consectetuer
+#        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+#        sociis natoque penatibus et magnis dis parturient montes, nascetur
+#        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+#        pretium quis, sem.
+#          - Bullet point
+#          - Bullet point
     - degree: Middle Technician in Computer Science
       university: Instituto Politécnico de Informáticas - Mariana Grajales Cuello. Santiago de Cuba - Cuba.
       time: 2005 - 2008
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-# to do eleiminar proyecto
+#      details: |
+#        Describe your study here lorem ipsum dolor sit amet, consectetuer
+#        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+#        sociis natoque penatibus et magnis dis parturient montes, nascetur
+#        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+#        pretium quis, sem.
+#          - Bullet point
+#          - Bullet point
+
 projects:
     title: Projects
     intro: >

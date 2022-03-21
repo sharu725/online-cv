@@ -2,6 +2,8 @@ source "https://rubygems.org"
 
 # gem "rails"
 gem "jekyll"
+# gem "jekyll-pdf"
+
 gem 'github-pages'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
