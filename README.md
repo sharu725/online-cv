@@ -37,25 +37,46 @@ Watch my [video](https://www.youtube.com/embed/T2nx6tj-ZH4) on installation.
 
 ## Preview locally using a Docker Image
 
-1. Build the image
+### Build the image
+
 ```sh
 docker build . -t online-cv --progress=plain
 ```
-2. Use the image
+
+### Use the image
 
 ```sh
 docker container run -p 127.0.0.1:4000:4000 --name cv_container -d online-cv
 ```
 Now open the link http://localhost:4000 in your browser.
 
-3. Live Edit
+### Live Edit
 
-If you want to make changes to the CV without restarting the container
-you can do so by logging in to the running container using the following command and using the vim editor to edit the data in *_data/data.yml*
+ - Inside the container
+
+Log in to the running container using the following command and use vim to edit the data in *_data/data.yml*
 
 ```sh
 docker exec -it cv_container  bash
 ```
+
+ - Use a shared volume
+
+Comment out the line
+
+```sh
+COPY . /usr/src/app
+```
+
+Rebuild the container and start it with a shared volume pointing to *online-cv* folder. In this example *online-cv*
+resides in */home/yourname/devarea/foss/online-cv*.
+
+```sh
+docker container run -p 127.0.0.1:4000:4000 -v ~/devarea/foss/online-cv:/usr/src/app --name cv_container -d online-cv
+```
+
+Now editing the _data/data.yml_ on your machine and reloading the browser will show the updated content.
+
 
 ## Skins
 
