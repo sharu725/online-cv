@@ -7,60 +7,60 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Ronald Reagan Okoth
+    tagline: Marine Ecologyst| Spatial Data Scientist
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    citizenship:
-    website: blog.webjeda.com #do not add http://
+    email: rk.okoth@gmail.com
+    phone: +4915906146698
+    citizenship: Kenyan
     linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
+    github: Reaganokoth
     gitlab:
     bitbucket:
     twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    stack-overflow: 
     codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    goodreads: 
     pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       - idiom: English
+        level: Professional
+
+      - idiom: Kiswahili
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: Luo
+        level: Native
 
     interests:
-      - item: Climbing
+      - item: Biking
         link:
 
-      - item: Snowboarding
+      - item: Soccer
         link:
 
-      - item: Cooking
+      - item: Growing food
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      At the dawn of my career, I have developed different disciplines, from the
+      technical to the social. With a heart open to our land's resource and land
+      sustainability to the needs of the society, my desire is to make a positive impact
+      with my growing global mind-set and cross-cultural appreciation. Besides my
+      education, interest in Remote Sensing and Data Science, I am a creative and
+      honest expressive communicator. I am tolerant, reliable, charismatic and able
+      to address problems. It would be an honor to work with an organization that will
+      have me contributing to something bigger than myself and positively impact the
+      community.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: MSc Applied Earth Observation and Geo-analysis of the Living Environment (EAGLE)
+      university: Würzburg University Germany
+      time: 2020 - Present
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -69,8 +69,8 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+    - degree: MSc Marine and Lacustrine Science and Management (Oceans & Lakes)
+      university: Vrije Universität Brussels| Ghent University| Antwerpen University
       time: 2007 - 2011
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
