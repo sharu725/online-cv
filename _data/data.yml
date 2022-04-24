@@ -15,7 +15,7 @@ sidebar:
     email: mail2shailesh@ymail.com  
     phone: +91 9611876876
     citizenship:
-    website: blog.webjeda.com #do not add http://
+    website: shailmis.github.io #do not add http://
     linkedin: shailem
     github: shailmis
     twitter: '@matrixcal'
@@ -28,17 +28,7 @@ sidebar:
 
       - idiom: Kannada & Bengali
         level: Novice
-
-    interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
-
+        
 career-profile:
     title: Career Profile
     summary: |
