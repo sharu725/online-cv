@@ -15,6 +15,33 @@ sidebar:
     linkedin: shailem
     github: shailmis
     twitter: '@matrixcal' 
+    Skills:
+    toolset:
+      - name: Observability
+        level: 98%
+      - name: Cloud Technologies
+        level: 98%
+      - name: Devops and Agile
+        level: 98%
+      - name: Python
+        level: 95%
+      - name: Team building and process improvement
+        level: 99%
+      - name: Problem Management and RCA 
+        level: 90%  
+    languages:
+      - idiom: Observability
+        level: Professional
+      - idiom: Cloud Technologies
+        level: Professional
+      - idiom: Devops and Agile
+        level: Professional
+      - idiom: Python
+        level: Professional
+      - idiom: Team building and process improvement
+        level: Professional
+      - idiom: Problem Management and RCA 
+        level: Professional        
 career-profile:
     title: Career Profile
     summary: |
