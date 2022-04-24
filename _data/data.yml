@@ -9,52 +9,33 @@ sidebar:
     # Profile information
     name: Shailesh Mishra
     tagline: Site Reliability Engineering
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: PersonImage.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: mail2shailesh@ymail.com  
     phone: +91 9611876876
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
-
+    website: shailmis.github.io #do not add http://
+    linkedin: shailem
+    github: shailmis
+    twitter: '@matrixcal'
     languages:
-      - idiom: English
+      - idiom: Hindi
         level: Native
 
-      - idiom: French
+      - idiom: english
         level: Professional
 
-      - idiom: Spanish
-        level: Professional
-
-    interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
-
+      - idiom: Kannada & Bengali
+        level: Novice
+        
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Site Reliability Engineering Leader with several years of resourcefulexperience in 
+      driving excellence for reliability through maintenanceof SLAs, efficient processes, 
+      monitoring implementation,automationdevelopment, engineering reliability back into 
+      applications andmaximizing performance
 education:
     - degree: MSc in Computer Science
       university: University of London
