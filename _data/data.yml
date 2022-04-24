@@ -15,8 +15,7 @@ sidebar:
     linkedin: shailem
     github: shailmis
     twitter: '@matrixcal'
-    skills:
-    title: Skills &amp; Proficiency
+    skills: Skills &amp; Proficiency
     toolset:
       - name: Observability
         level: 98%
