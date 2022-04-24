@@ -15,13 +15,21 @@ sidebar:
     linkedin: shailem
     github: shailmis
     twitter: '@matrixcal'
-    languages:
-      - idiom: Hindi
-        level: Native
-      - idiom: english
-        level: Professional
-      - idiom: Kannada & Bengali
-        level: Novice      
+    skills:
+    title: Skills &amp; Proficiency
+    toolset:
+      - name: Observability
+        level: 98%
+      - name: Cloud Technologies
+        level: 98%
+      - name: Devops and Agile
+        level: 98%
+      - name: Python
+        level: 95%
+      - name: Team building and process improvement
+        level: 99%
+      - name: Problem Management and RCA 
+        level: 90%     
 career-profile:
     title: Career Profile
     summary: |
