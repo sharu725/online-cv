@@ -14,30 +14,15 @@ sidebar:
     website: shailmis.github.io #do not add http://
     linkedin: shailem
     github: shailmis
-    twitter: '@matrixcal'
-    skills:
-    title: Skills &amp; Proficiency
-    toolset:
-      - name: Observability
-        level: 98%
-      - name: Cloud Technologies
-        level: 98%
-      - name: Devops and Agile
-        level: 98%
-      - name: Python
-        level: 95%
-      - name: Team building and process improvement
-        level: 99%
-      - name: Problem Management and RCA 
-        level: 90%     
+    twitter: '@matrixcal' 
 career-profile:
     title: Career Profile
     summary: |
-      Site Reliability Engineering Leader with several years of resourcefulexperience in 
-      driving excellence for reliability through maintenanceof SLAs, efficient processes, 
-      monitoring implementation,automationdevelopment, engineering reliability back into 
-      applications andmaximizing performance
-highlights:  |
+      Site Reliability Engineering Leader with several years of resourceful experience in 
+      driving excellence for reliability through maintenance of SLAs, efficient processes, 
+      monitoring implementation,automation development, engineering reliability back into 
+      applications and maximizing performance
+    highlights: |
      - Ability to post-mortem the unexpected incidents to solve future hazards
      - Skilled evaluating new possibilities and capacity planning aptitudes
      - Comfortable with handling the operations, monitoring and alerting
