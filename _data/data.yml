@@ -15,7 +15,8 @@ sidebar:
     linkedin: shailem
     github: shailmis
     twitter: '@matrixcal'
-    skills: Skills &amp; Proficiency
+    skills:
+    title: Skills &amp; Proficiency
     toolset:
       - name: Observability
         level: 98%
@@ -168,25 +169,19 @@ experiences:
         - Researched new technologies and assessed feasibility for inclusion in new concepts.
 skills:
     title: Skills &amp; Proficiency
-
     toolset:
-      - name: Python & Django
+      - name: Observability
         level: 98%
-
-      - name: Javascript & jQuery
+      - name: Cloud Technologies
         level: 98%
-
-      - name: Angular
+      - name: Devops and Agile
         level: 98%
-
-      - name: HTML5 & CSS
+      - name: Python
         level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Team building and process improvement
+        level: 99%
+      - name: Problem Management and RCA 
+        level: 90%     
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
