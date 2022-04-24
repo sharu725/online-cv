@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Shailesh Mishra
     tagline: Site Reliability Engineering
-    avatar: personImage.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: shailesh_github.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: mail2shailesh@ymail.com  
