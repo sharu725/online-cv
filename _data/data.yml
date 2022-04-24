@@ -1,11 +1,9 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
-
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
-
     # Profile information
     name: Shailesh Mishra
     tagline: Site Reliability Engineering
@@ -20,13 +18,10 @@ sidebar:
     languages:
       - idiom: Hindi
         level: Native
-
       - idiom: english
         level: Professional
-
       - idiom: Kannada & Bengali
-        level: Novice
-        
+        level: Novice      
 career-profile:
     title: Career Profile
     summary: |
@@ -99,57 +94,71 @@ experiences:
           and related interfaces
         - Work closely with recruiting staff to expand the team, including sourcing candidates,
           interviewing candidates, participating in conferences/events, and on-boarding new employees.
-    
-    
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
+    - role: Site Reliability Engineer 
+      time: 2012 - 2016
+      company: SAP ARIBA, Bangalore
+      details: |
+        - Escalate issues as needed to product development or service engineering team per
+          documented procedures, while at the same time establishing a contingency plan to
+          eliminate any intermittent service disruption
+        - Document and detail areas of improvement to bolster architecture, design, technical
+          requirements and service specifications.
+        - Present architecture, design, and technical choices to internal audiences Design and
+          deploy metrics, monitoring, and logging systems on AWS / Infra systems to understand
+          the system performance and isolate bottlenecks.
+        - helps drive efforts to improve triage time and bring down MTTR (Mean Time to Repair)
+          and provides follow-up support to provide mitigation in the future
+        - Proactively monitor availability and performance of the SAP ARIBA cloud products
+          using the required toolset
+        - Effectively respond to Monitoring alerts, incident tickets, email requests or other
+          channels coming in to Site Reliability Engineering team
+    - role: Tech Lead, Systems Engineering & Operations 
+      time: 2012 - 2016
+      company: Yahoo, Bangalore
+      details: |
+        - Leading the Service Engineering and Operations Efforts for Producers Desktop(PD2
+          and Editopia) - state-of-the-art editorial tools that enable Yahoo! editors deliver the best
+          viewing experience in key landing sites such as www.yahoo.com, news.yahoo.com
+        - Worked on Y! Post, a platform for feeds acquisition and processing system based on
+          the Map-Reduce paradigm.
+        - Applied best practices at all times and encouraged others to do same, which helped to
+          maintain effective security.
+        - Motivated software engineers who are passionate about architecture, defining issues, and
+          building at scale in cloud environments.
+        - Oversee all testing and troubleshooting for Y ! Post application and documented issue
+          resolutions for development team.
+    - role: Manager,Data Center 
+      time: 2008 - 2008
+      company: Bank of Maharashtra (PSB), Pune
+      details: |
+        - Led team for 100% uptime of Core Banking System.Apart from systems management, I
+          was also involved in vendor management and general management.
+        - Optimized staff productivity by managing inter-team conflict resolution, yearly
+          performance reviews, hiring and terminating processes, training initiatives, scheduling,
+          time and attendance and payroll.
+        - Oversaw Bank team with 6 customer service representatives and 5 vendor resources
+          and implemented training for all new CBS employees.
+        - Developed quality assurance controls to maintain consistent design approach and
+          effective results.
+        - Provided strong program leadership to improve development and drive continuous
+          improvement of Core banking System.
+    - role: Junior Engineer , IT 
+      time: 2004 - 2008
+      company: Ordance Factory Board (Min of Defence), Govt of India
+      details: |
+        - As the core member of OFB COMNET Team, I was Instrumental during
+          commissioning, implementation and testing phases of it.
+        - Configured and deployed HelpDesk tracking software with modules for inventory
+          monitoring, staff administration, customer relationship management and report
+          generation.
+        - Installing, configuring and Hardening the operating systems RHEL 4/5, SCO Unix as
+          per the customer standards.
+        - Proactive maintenance on systems by timely upgrading patches in SCO Unix and RHEL.
+        - Colloborated with team engineers and other personnel to implement operating
+          procedures, resolve system malfunctions, and provide technical information.
+        - Simplified complex specifications into logical design requirements for implementation
+          into production.
+        - Researched new technologies and assessed feasibility for inclusion in new concepts.
 skills:
     title: Skills &amp; Proficiency
 
