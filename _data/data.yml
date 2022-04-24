@@ -10,11 +10,9 @@ sidebar:
     name: Shailesh Mishra
     tagline: Site Reliability Engineering
     avatar: shailesh_github.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
     # Sidebar links
     email: mail2shailesh@ymail.com  
     phone: +91 9611876876
-    citizenship:
     website: shailmis.github.io #do not add http://
     linkedin: shailem
     github: shailmis
@@ -43,60 +41,66 @@ highlights:  |
      - Knowledge and experience in building processes and automation to support other teams
      - Ability to persuade organizations to do what needs to be done
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    - degree: Executive Post Graduate Diploma in Management
+      university: Alliance University
+      time: 2013
+    - degree: MSc(Computer Science) 
+      university: Annamalai university
+      time: 2007
+    - degree: BSc (Mathematics)
+      university: Lucknow University
+      time: 1997
+    - degree: A Level Advance Diploma 
+      university: National Institute of Electronics & Information Technology (NIELIT)
+      time: 1997
 experiences:
     - role: Sr. Cloud Reliability Engineering Manager
       time: 2019 - Present
       company: Oracle, Bangalore
       details: |
         - Drive the adoption and implementation of SRE function and associated tooling to 
-        - improve resiliency and reliability in Construction Engineering GBU 
+          improve resiliency and reliability in Construction Engineering GBU 
         - Improve tooling and instrumentation to implement Chaos Engineering 
         - Understand technical architectures, capacity plans, tooling needs, automation plans, product launch plans, and other issues and create comprehensive plans for prioritizing technical and resourcing challenges
         - Work closely with recruiting staff to expand the team, including sourcingcandidates, interviewing candidates, participating in conferences/events, and on-boarding new employees
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Sr. Site Reliability Engineering Manager
+      time: 2018 - 2019
+      company: Mediakind (Formerly Ericsson global Media Solutions), Bangalore
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        - The SRE group is focused on improving the availability and responsiveness of internal
+          and external components and Platforms through the application of engineering best
+          practices, tooling and instrumentation advances and cross organizational coordination.
+        - Responsible for developing and managing a team of engineers who are focused on
+          Site and Service Reliability.
+        - Lead a team of System Reliability Engineers responsible for supporting services before
+          they go live through activities such as system design consulting, developing software
+          platforms and frameworks, capacity planning, automation, and release
+        - Handling communication and providing transparency on major site issues to the
+          executive management team and rest of the organization
+        - Maintain the relationship with any relevant service providers (internal or external),
+          keeping them accountable to the agreed SLAs
+        - Attention to detail and accuracy and ability to spot long term trends in a production
+          enterprise environment
+        - Effectively respond to Monitoring alerts, incident tickets, email requests or other
+          channels coming in to Site Reliability Engineering team.
+        - Contribute to the development of new principles and concepts. Develop and implement
+          policies, procedures, and standards
+    - role: DevOps Manager 
+      time: 2016 - 2018
+      company: McAfee, Bangalore
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        - Lead a team of System Reliability Engineers to scale systems sustainably through
+          mechanisms such as automation, and evolve systems by pushing for changes that
+          improve reliability and velocity
+        - Interface with Dev/QA/OPS teams to identify root cause analysis and instrument
+          triggers to prevent future network degradation and outages
+        - Provide leadership and direction to SRE staff that are responsible for break- fix, uptime
+          and reliability for core services, distribution, and customer access network elements
+          and related interfaces
+        - Work closely with recruiting staff to expand the team, including sourcing candidates,
+          interviewing candidates, participating in conferences/events, and on-boarding new employees.
+    
+    
 projects:
     title: Projects
     intro: >
