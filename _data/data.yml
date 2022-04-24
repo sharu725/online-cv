@@ -32,10 +32,10 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Site Reliability Engineering Leader with several years of resourcefulexperience in 
-      driving excellence for reliability through maintenanceof SLAs, efficient processes, 
-      monitoring implementation,automationdevelopment, engineering reliability back into 
-      applications andmaximizing performance
+      Site Reliability Engineering Leader with several years of resourceful experience in 
+      driving excellence for reliability through maintenance of SLAs, efficient processes, 
+      monitoring implementation,automation development, engineering reliability back into 
+      applications and maximizing performance
 highlights:  |
      - Ability to post-mortem the unexpected incidents to solve future hazards
      - Skilled evaluating new possibilities and capacity planning aptitudes
@@ -66,7 +66,7 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Sr. Cloud Reliability Engineering Manager
+    - role: Sr. Site Reliability Engineering Manager Bangalore, Karnataka
       time: 2019 - Present
       company: Oracle, Bangalore
       details: |
@@ -75,17 +75,40 @@ experiences:
         - Improve tooling and instrumentation to implement Chaos Engineering 
         - Understand technical architectures, capacity plans, tooling needs, automation plans, product launch plans, and other issues and create comprehensive plans for prioritizing technical and resourcing challenges
         - Work closely with recruiting staff to expand the team, including sourcingcandidates, interviewing candidates, participating in conferences/events, and on-boarding new employees
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Sr. Site Reliability Engineering Manager
+      time: 2018 -2019
+      company: MediaKind R&D (Formerly Ericsson Media Solutions)
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        - The SRE group is focused on improving the availability and responsiveness of internal and external 
+          components and Platforms through the application of engineering best practices, tooling and instrumentation 
+          advances and cross organizational coordination.
+        - Responsible for developing and managing a team of engineers who are focused on Site and Service Reliability.
+        - Lead a team of System Reliability Engineers responsible for supporting services before they go live through 
+         activities such as system design consulting, developing software platforms and frameworks, capacity planning, automation, and release
+        - Handling communication and providing transparency on major site issues to the executive management team and rest of the organization
+        - Maintain the relationship with any relevant service providers (internal or external), keeping them accountable to the agreed SLAs
+Personal info
+Phone:
+(961) 187-6876
+Email:
+mail2shailesh@ymail.com
+Address:
+F-902,Mantri Alpyne,Banashankari
+5th Stage, Bangalore, Karnataka
+560061
+Skills
+Developing People
+Monitoring and Alerting
+DevOps and Agile Methology
+Process Improvement (ITIL)
+CI-CD Pipelining
+RCA and Problem Management
+Attention to detail and accuracy and ability to spot long term trends in a production
+enterprise environment
+Effectively respond to Monitoring alerts, incident tickets, email requests or other
+channels coming in to Site Reliability Engineering team.
+Contribute to the development of new principles and concepts. Develop and implement
+policies, procedures, and standards
     - role: UI Developer
       time: 2012 - 2014
       company: Amazon, London
