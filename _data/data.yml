@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Shailesh Mishra
     tagline: Site Reliability Engineering
-    avatar: PersonImage.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: personImage.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: mail2shailesh@ymail.com  
@@ -36,6 +36,12 @@ career-profile:
       driving excellence for reliability through maintenanceof SLAs, efficient processes, 
       monitoring implementation,automationdevelopment, engineering reliability back into 
       applications andmaximizing performance
+highlights:  |
+     - Ability to post-mortem the unexpected incidents to solve future hazards
+     - Skilled evaluating new possibilities and capacity planning aptitudes
+     - Comfortable with handling the operations, monitoring and alerting
+     - Knowledge and experience in building processes and automation to support other teams
+     - Ability to persuade organizations to do what needs to be done
 education:
     - degree: MSc in Computer Science
       university: University of London
@@ -60,21 +66,15 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Sr. Cloud Reliability Engineering Manager
+      time: 2019 - Present
+      company: Oracle, Bangalore
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
+        - Drive the adoption and implementation of SRE function and associated tooling to 
+        - improve resiliency and reliability in Construction Engineering GBU 
+        - Improve tooling and instrumentation to implement Chaos Engineering 
+        - Understand technical architectures, capacity plans, tooling needs, automation plans, product launch plans, and other issues and create comprehensive plans for prioritizing technical and resourcing challenges
+        - Work closely with recruiting staff to expand the team, including sourcingcandidates, interviewing candidates, participating in conferences/events, and on-boarding new employees
     - role: Senior Software Engineer
       time: 2014 - 2015
       company: Google, London
