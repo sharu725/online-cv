@@ -13,7 +13,7 @@ sidebar:
 
     # Sidebar links
     email: as2277@canterbury.ac.uk
-    phone: 07771524162
+    phone: 07771 524 162
 
     citizenship: British
 
@@ -25,75 +25,58 @@ sidebar:
         level: Native
 
     interests:
-      - item: Climbing
+      - item: Photography
         link:
 
-      - item: Snowboarding
+      - item: Art
         link:
 
-      - item: Cooking
+      - item: Ukulele
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      After primarily working in retail and sales since leaving sixth form, I was
+      presented with the chance to take on a 12 month secondment in User
+      Acceptance Testing for web development. Following returning to my full
+      time position in holiday sales, I was made redundant and decided to
+      take that opportunity to further pursue my interest in software engineering.
 education:
     - degree: BEng Software Engineering with Foundation Year
       university: Canterbury Christ Church University
       time: 2020 - present
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        I'm currently studying for my degree in Software Engineering, havin successfully passed my foundation year in 2021.
+        I have the following coding knowledge thus far:
+          - Python (Basic)
+          - C# (Basic)
+          - SQL (Basic)
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: User Acceptance Tester
+      time: 2019 - 2020
+      company: Saga Plc, Folkestone
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        I entered this role with no previous experience, however I was
+        able to self teach how to interpret SDLC documentation, effectively
+        write and run test cases, complete sanity checks for live releases,
+        and also write process documentation for system testing.
+        I also became the testing expert for Sitecore tests in a 
+        team of experienced testers by communicating well with developers
+        and taking the time to fully understand the system and how it was
+        used within the company. In this time I also learnt fundamental
+        SQL skills to allow me to manipulate databases for projects.
+    - role:
+      time: 
+      company: 
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+       
+    - role:
+      time:
+      company: 
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+      
 
 skills:
     title: Skills &amp; Proficiency
