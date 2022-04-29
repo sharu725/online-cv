@@ -42,6 +42,8 @@ career-profile:
       Acceptance Testing for web development. Following returning to my full
       time position in holiday sales, I was made redundant and decided to
       take that opportunity to further pursue my interest in software engineering.
+      I current retain a retail position as a casual assistance while completing
+      my degree.
 education:
     - degree: BEng Software Engineering with Foundation Year
       university: Canterbury Christ Church University
@@ -61,9 +63,9 @@ experiences:
         I entered this role with no previous experience, however I was
         able to self teach how to interpret SDLC documentation, effectively
         write and run test cases, complete sanity checks for live releases,
-        and also write process documentation for system testing.
-        I also became the testing expert for Sitecore tests in a 
-        team of experienced testers by communicating well with developers
+        and write process documentation for system testing.
+        During my secondment I became the testing expert for Sitecore tests in 
+        a team of experienced testers by communicating well with developers
         and taking the time to fully understand the system and how it was
         used within the company. In this time I also learnt fundamental
         SQL skills to allow me to manipulate databases for projects.
@@ -82,23 +84,23 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 20%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: User Acceptance Testing
         level: 60%
+
+      - name: Sitecore (Testing)
+        level: 60%
+
+      - name: Customer Experience
+        level: 75%
+
+      - name: SQL
+        level: 10%
+
+      - name: 
+        level: 
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
