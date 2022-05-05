@@ -5,7 +5,7 @@
     }
     body {
        font-size: 10pt;
-       padding: 5px;
+       padding: 10px;
     }
     .container-block {
       padding: 30px;
@@ -26,13 +26,13 @@
         -webkit-print-color-adjust: exact; 
 
         .container-block{
-           padding:0px;
+           padding:5px;
         }
         .education-container {
          .item {
-           margin-bottom: 5px;
+           margin-bottom: 10px;
            margin-right: 0px;
-           padding:0px;
+           padding:10px;
            &:last-child {
              margin-bottom: 0;
            }
