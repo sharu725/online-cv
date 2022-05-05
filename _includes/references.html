@@ -1,37 +1,42 @@
-{% assign projects = site.data.data.projects %}
-{% if projects %}
-<section class="section projects-section">
+{% assign references = site.data.data.references %}
+{% if references %}
+<section class="section course-section">
 
   <h2 class="section-title">
     <!-- <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
     </span> -->
-    {{ projects.title }}
+    {{ references.title }}
   </h2>
   <hr>
-  {% if projects.intro %}
+  {% if references.intro %}
   <div class="intro">
-      <p>{{ projects.intro }}</p>
+      <p>{{ references.intro }}</p>
   </div><!--//intro-->
   {% endif %}
 
-  {% for project in projects.assignments %}
-    <div class="item">
-
+  {% for reference in references.reference %}
+  <div class="item">
+    <div class="upper-row">
+      <div class="column left">
+    
       <span class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+        {% if reference.link %}
+        <a href="{{ project.link }}" target="_blank">{{ reference.name }}</a>
         {% else %}
-        {{ project.title }}
+        {{ reference.name }}
         {% endif %}
       </span>
 
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+      {% if reference.tagline %}
+      - <span class="project-tagline">{{ reference.tagline }}</span>
       {% endif %}
 
-    </div><!--//item-->
+    </div><!--//lefft-->
+    <div class = "column right"> {{reference.email}}</div>
+  </div>
+</div><!--//item-->
   {% endfor %}
 
 </section><!--//section-->

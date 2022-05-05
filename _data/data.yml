@@ -53,7 +53,17 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am an nationally Y rated NRF researcher.
+      "I am a young, passionate and NRF Y-rated researcher in fluid mechanics. 
+      I have focussed my research on applying fluid mechanics to complex environmental problems such as renewable energy, climate change, global ocean mixing, coral reef hydrodynamics and stratified turbulence. 
+      I have a strong publication record, and many of my articles are published in Q1 journals.
+      I co-founded and co-head the environmental fluid mechanics research group at UKZN (https://efml.ukzn.ac.za). 
+      I have attracted a professor in fluid mechanics to my research group. 
+      The professor within our group is an NRF B rated scientist. 
+      This, together with my publication record, has resulted in our group having an international research profile. 
+      There are no comparable research groups elsewhere in the country. 
+      I have secured several research grants totalling R 1.3mil to explore ocean renewable energy and fundamentals of fluid mechanics and develop solutions for food insecurity in Africa.
+      I am also passionate about collaborative research because I believe this is where the most creative solutions to societal problems lie. 
+      I am committed to the practical application of my research." 
 
 courses:
   title: Coursework Teaching
@@ -164,7 +174,7 @@ publications:
         link: "#"
         type: journal
         authors: Pringle J., Stretch D., Tirok K. (2022)
-        conference: "Environmental Fluid Mechanics (submitted)"    
+        conference: "Environmental Fluid Mechanics (In Press)"    
 
       - title: "On the reef scale hydrodynamics at Sodwana Bay, South Africa "
         link: "#"
@@ -329,6 +339,23 @@ awards:
     - title: "RDE grant (2020): Research and Development Grant for Emerging Researchers"
       link:
       amount: R100 000.00
+
+references:
+  title: References
+
+  reference:
+    - name: Prof Derek Stretch
+      workplace: University of KwaZulu Natal
+      email: stretchd@ukzn.ac.za
+    - name: Prof András Bardossy
+      workplace: Universität Stuttgart
+      email: bardossy@iws.uni-stuttgart.de
+    - name: Dr Stefano Corbella
+      workplace: CCS
+      email: stefcorbella@gmail.com
+
+research:
+  title: Multidisciplinary Research
 
 
 # skills:
