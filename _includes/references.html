@@ -19,7 +19,7 @@
   {% for reference in references.reference %}
   <div class="item">
     <div class="upper-row">
-      <div class="column left">
+      <div class="column left3 ">
     
       <span class="project-title">
         {% if reference.link %}
@@ -34,7 +34,11 @@
       {% endif %}
 
     </div><!--//lefft-->
-    <div class = "column right"> {{reference.email}}</div>
+    <div class="column middle3"> {{reference.workplace}} </div>
+    <div class = "column right3"> 
+      <a href="mailto:{{ reference.email }}">{{ reference.email }}</a>
+      
+    </div>
   </div>
 </div><!--//item-->
   {% endfor %}

@@ -202,6 +202,8 @@ p {
     }
   }
   .upper-row {
+    border-spacing: 10px;
+    
     position: relative;
     overflow: hidden;
     margin-bottom: 2px;
@@ -211,6 +213,16 @@ p {
   }
   .right{
     width:25%;
+    text-align: right;
+  }
+  .left3{
+    width: 33%;
+  }
+  .middle3{
+    width: 33%;
+  }
+  .right3{
+    width:33%;
     text-align: right;
   }
   .column {

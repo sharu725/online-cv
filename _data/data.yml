@@ -130,6 +130,12 @@ leadership:
     - title: University
       description: "Chair: Academic Focus Group"
       time: "2018-2020"
+    - title: University
+      description: "UKZN CPD course office"
+      time: "2022-"
+    - title: University
+      description: "UKZN MSc ENG (civil) curriculum development"
+      time: "2022-"
 
     - title: Community Service
       description: "Water GEP Presidential Programme: Mentor and host post graduate students for work-place readiness in engineering and science"
@@ -137,7 +143,7 @@ leadership:
       link: "https://www.watergep.co.za"
 
     - title: Community Service
-      description: "SAFM and community radio interviews"
+      description: "National and community radio interviews"
 
     - title: Community Service
       description: Mentor for Engineers without borders
@@ -170,6 +176,12 @@ publications:
     intro: |
       
     papers:
+      - title: "Early warnings for floods in South Africa: engineering for future climate change"
+        link: https://theconversation.com/early-warnings-for-floods-in-south-africa-engineering-for-future-climate-change-181556?utm_source=linkedin&utm_medium=bylinelinkedinbutton
+        type: other
+        authors: Pringle J (2022)
+        conference: The Conversation
+
       - title: "The Geography of Mixing on the east coast of South Africa"
         link: "#"
         type: journal
@@ -206,7 +218,7 @@ publications:
         authors: Pringle J., Stretch D. (2019)
         conference: "Journal of Coastal Research, vol 35 (6), 1331-1342"
 
-      - title: Preserving Durban's Fragile goldern mile
+      - title: Preserving Durban's Fragile golden mile
         link: https://www.gcis.gov.za/content/resource_centre/news_and_mags/public_sector_magazine
         type: other
         authors: Pringle J., Stretch D., Kimmie R. (June 2018)
@@ -355,7 +367,13 @@ references:
       email: stefcorbella@gmail.com
 
 research:
-  title: Multidisciplinary Research
+  title: Collaborative Multi-disciplinary Research
+
+  project:
+    - researchers: Prof Dave Dorrell
+      description: Ocean wave renewable energy
+    - researchers: Dr Matthew Burnett, Dr Gordon O'Brien (UMP SA), Prof Aline Cotel (UMICH USA)
+      description: Fish pass design and river ecology
 
 
 # skills:
