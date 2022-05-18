@@ -53,7 +53,8 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Young NRF-Y rated as "young researcher having the potential to establish themself as a researcher" in Fluid Mechanics. 
+      Vision: To develop meaningful solutions to global grand challenges using Environmental Fluid Mechanics <br>
+      NRF-Y researcher, rated as "young researcher having the potential to establish themself as a researcher" in Fluid Mechanics. 
       Current Position: Senior Lecturer. 
       Co-Head environmental fluid mechanics research group at UKZN ("https://efml.ukzn.ac.za").
       Areas of current research: Coastal processes, Climate change, Renewable energy, fundamentals of fluid mechanics. 
@@ -177,10 +178,10 @@ publications:
         conference: The Conversation
 
       - title: "The Geography of Mixing on the east coast of South Africa"
-        link: "#"
+        link: "https://link.springer.com/article/10.1007/s10652-022-09866-1#citeas"
         type: journal
         authors: Pringle J., Stretch D., Tirok K. (2022)
-        conference: "Environmental Fluid Mechanics (In Press)"    
+        conference: "Environmental Fluid Mechanics"    
 
       - title: "On the reef scale hydrodynamics at Sodwana Bay, South Africa "
         link: "#"
@@ -289,13 +290,13 @@ students:
     
 
     - name: Danel Capelo
-      year: (-)
+      year: (Submission Expected)
       title: On the design of hydrokites to harness ocean current energy
       level: MSc
       link: https://efml.ukzn.ac.za/danel/
 
     - name: Luyanda Sokhela
-      year: (-)
+      year: (Submission Expected)
       title: "Smart Soiless farming: A solution to Africa's Food Insecurity Crisis"
       level: MSc
       link: https://efml.ukzn.ac.za/luyanda/
@@ -311,13 +312,13 @@ students:
       link:
 
     - name: Atish Deoraj
-      year: "(-)"
+      year: "(Submission Expected)"
       title: On the Hydrodynamics of Coral Reefs.
       level: "PhD"
       link: https://efml.ukzn.ac.za/atish/
 
     - name: Calvin Wells
-      year: (-)
+      year: (Submission Expected)
       title: The study of sub-meso scale flow regimes along the Coral Reefs of KwaZulu Natal
       level: PhD
       link: https://efml.ukzn.ac.za/calvin/
