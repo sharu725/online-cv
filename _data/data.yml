@@ -7,117 +7,90 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Soe Htet Linn
+    tagline: Software Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
+    email: mgsoehtetlinn@gmail.com
+    phone: +959954206788
+    citizenship: Myanmar
+    website: soehtetlinn.github.io #do not add http://
+    linkedin: https://www.linkedin.com/in/soe-htet-linn-255b4671/
+    xing: soehtetlinn
+    github: soehtetlinn
+    telegram: soehtetlinn # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@mgsoehtetlinn'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: 
 
     languages:
       - idiom: English
-        level: Native
-
-      - idiom: French
         level: Professional
 
-      - idiom: Spanish
+      - idiom: Chinese
         level: Professional
 
     interests:
-      - item: Climbing
+      - item: Hiking
         link:
 
-      - item: Snowboarding
+      - item: Gaming
         link:
 
-      - item: Cooking
+      - item: Coding
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+          ● I am self-motivated , quick learner in software development field.
+          ● I had experience in Agile method with testing and the combination of GIT, redmine, rocket and skype for
+          communication.
+          ● 2 years of total exprience in Telecommunication Software Industry building,testing,integration with Odoo
+          (Enterprise Resource Planning) Software.
+          ● DB cleaning and migration using python.
+          ● Experienced Python, PHP, Angular, HTML5, Javascrip and Postgres.
+          ● Achieve team recognition award helping cross-team integration for major updates. Delivered 100% issue free
+          application.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    - degree: BcSc in Computer Science
+      university: University of Computer Studies,Yangon
+      time: 2013 - 2018
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Internship
+      time: May 2018 - August 2018 (4 months)
+      company: Frontiir Co.,Ltd
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        ● Help on-going data-center project for NoSQL big data visualization and reporting for company wide
+        decision making and for cross-team decision making - using Hadoop, Hbase, Spark.
+        ● Learn from my seniors about GIT and outstanding projects which they are trying to build from the
+        ground.
+        ● Learn company structure and working nature to know more about my career goal.
+
+    - role: Associate Software Engineer
+      time: Nov 2018 - Jul 2020 (1 year 9 months)
+      company: Frontiir Co.,Ltd
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        OpenERP/Odoo Developer of financial service for Myanmar's largest ISP. Implemented reliable ERP
+        application for Enterprise users - using Python, Postgres, Javascript, XML and Redmine.
+        ● Promoted from the associate position for the successful realease of the
+        Myanmar Cast Android TV project integration with core team.
+        ● Collaborate with product team and account analyst to define design and ship new features.
+        ● Develop/ customize OpenERP/ Odoo modules and APIs in Python.
+        ● Sustaining and improving existing ERP functions in production.
+        ● Develop scripts for opening data and data migration.
+        ● Verify accurate data entry and record-keeping in the system.
+        ● Data Modeling, module, and report development.
+        ● Write SQL scripts to extract, clean, and update data from the existing databases.
+        ● Code refactoring for sustainability and performance tuning.
+        ● Unit test for robustness, including edge cases, usability, and general reliability.
+        ● Mentored and guide juniors to assign and perform tasks.
+        ● Work with cross core system team to ensure overall billing process smooth.
 projects:
     title: Projects
     intro: >
