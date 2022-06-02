@@ -48,14 +48,14 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-          ● I am self-motivated , quick learner in software development field.
-          ● I had experience in Agile method with testing and the combination of GIT, redmine, rocket and skype for
+          I am self-motivated , quick learner in software development field.
+          I had experience in Agile method with testing and the combination of GIT, redmine, rocket and skype for
           communication.
-          ● 2 years of total exprience in Telecommunication Software Industry building,testing,integration with Odoo
+          2 years of total exprience in Telecommunication Software Industry building,testing,integration with Odoo
           (Enterprise Resource Planning) Software.
-          ● DB cleaning and migration using python.
-          ● Experienced Python, PHP, Angular, HTML5, Javascrip and Postgres.
-          ● Achieve team recognition award helping cross-team integration for major updates. Delivered 100% issue free
+          DB cleaning and migration using python.
+          Experienced Python, PHP, Angular, HTML5, Javascrip and Postgres.
+          Achieve team recognition award helping cross-team integration for major updates. Delivered 100% issue free
           application.
 education:
     - degree: BcSc in Computer Science
@@ -66,11 +66,11 @@ experiences:
       time: May 2018 - August 2018 (4 months)
       company: Frontiir Co.,Ltd
       details: |
-        ● Help on-going data-center project for NoSQL big data visualization and reporting for company wide
+        - Help on-going data-center project for NoSQL big data visualization and reporting for company wide
         decision making and for cross-team decision making - using Hadoop, Hbase, Spark.
-        ● Learn from my seniors about GIT and outstanding projects which they are trying to build from the
+        - Learn from my seniors about GIT and outstanding projects which they are trying to build from the
         ground.
-        ● Learn company structure and working nature to know more about my career goal.
+        - Learn company structure and working nature to know more about my career goal.
 
     - role: Associate Software Engineer
       time: Nov 2018 - Jul 2020 (1 year 9 months)
@@ -78,67 +78,41 @@ experiences:
       details: |
         OpenERP/Odoo Developer of financial service for Myanmar's largest ISP. Implemented reliable ERP
         application for Enterprise users - using Python, Postgres, Javascript, XML and Redmine.
-        ● Promoted from the associate position for the successful realease of the
+        - Promoted from the associate position for the successful realease of the
         Myanmar Cast Android TV project integration with core team.
-        ● Collaborate with product team and account analyst to define design and ship new features.
-        ● Develop/ customize OpenERP/ Odoo modules and APIs in Python.
-        ● Sustaining and improving existing ERP functions in production.
-        ● Develop scripts for opening data and data migration.
-        ● Verify accurate data entry and record-keeping in the system.
-        ● Data Modeling, module, and report development.
-        ● Write SQL scripts to extract, clean, and update data from the existing databases.
-        ● Code refactoring for sustainability and performance tuning.
-        ● Unit test for robustness, including edge cases, usability, and general reliability.
-        ● Mentored and guide juniors to assign and perform tasks.
-        ● Work with cross core system team to ensure overall billing process smooth.
+        - Collaborate with product team and account analyst to define design and ship new features.
+        - Develop/ customize OpenERP/ Odoo modules and APIs in Python.
+        - Sustaining and improving existing ERP functions in production.
+        - Develop scripts for opening data and data migration.
+        - Verify accurate data entry and record-keeping in the system.
+        - Data Modeling, module, and report development.
+        - Write SQL scripts to extract, clean, and update data from the existing databases.
+        - Code refactoring for sustainability and performance tuning.
+        - Unit test for robustness, including edge cases, usability, and general reliability.
+        - Mentored and guide juniors to assign and perform tasks.
+        - Work with cross core system team to ensure overall billing process smooth.
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
+      - title: Mathrigola
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: "Help research NoSQL Databases for Frontiir Datacenter during internship"
 
-      - title: DevStudio
+      - title: ISP 2.0
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Improve performance between company's Core system and ERP system"
 
-      - title: Tempo
+      - title: PreorderForm
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "Pre-sale module upon CRM model to help cross-team. "
 
-      - title: Atom
+      - title: Phone Number Cleansing
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: "Data Cleansing project to help ERP team and OSS cross team."
 
-      - title: Delta
+      - title: Multi-company
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        tagline: "multi-company financial section to support in Odoo8."
 
 skills:
     title: Skills &amp; Proficiency
