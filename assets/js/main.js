@@ -1,5 +1,6 @@
 jQuery(document).ready(function($) {
-    gooseify();
+
+    setTimeout(gooseify, 1000);
     $('.level-bar-inner').css('width', '0');
 
     $(window).on('load', function() {
