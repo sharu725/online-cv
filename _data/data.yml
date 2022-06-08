@@ -1,10 +1,6 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Thomas George
@@ -87,7 +83,7 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Ruby
+      - name: Ruby & Rails
         level: 95%
 
       - name: DevOps
@@ -99,7 +95,7 @@ skills:
       - name: Javascript
         level: 75%
 
-      - name: SQL Optimization
+      - name: SQL & SQL Optimization
         level: 85%
 
       - name: HTML5 & CSS
