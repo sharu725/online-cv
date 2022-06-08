@@ -1,5 +1,7 @@
 function initialGooseXPosition(x_bounds_width) {
-  return Math.floor(x_bounds_width * 0.70);
+  let elem = document.querySelector("#goose-landing-zone");
+  let rect = elem.getBoundingClientRect();
+  return rect.left - 7;
 }
 
 function determineDirection(x, oldX) {
