@@ -45,6 +45,7 @@ career-profile:
     title: Career Profile
     summary: |
       Full stack developer looking to solve business problems.
+      Recent experience includes energy sector, organ transplantion and emergency medicine.
 education:
     - degree: Certificate, EMT Paramedic
       university: UT Southwestern Medical Center
@@ -57,28 +58,18 @@ education:
       details: |
 
 experiences:
-    - role: Software Developer III
+    - role: Software Developer I / II / III
       time: 5/2018 - Current
       company: Optimum Energy
       details: |
 
-    - role: Salesforce Administrator / Developer
-      time: 2/2017 - 12/2017
+    - role: Salesforce Coordinator / Administrator / Developer
+      time: 5/2016 - 12/2017
       company: SightLife Surgical
       details: |
 
-    - role: Salesforce Coordinator
-      time: 5/2016 - 2/2017
-      company: SightLife
-      details: |
-
-    - role: Lead - Global Transplant Donor Coordinator
-      time: 12/2014 - 5/2016
-      company: SightLife
-      details: |
-
-    - role: Global Transplant Donor Coordinator
-      time: 7/2013 - 12/2014
+    - role: Global Transplant Donor Coordinator / Lead
+      time: 7/2013 - 5/2016
       company: SightLife
       details: |
 
@@ -87,7 +78,7 @@ experiences:
       company: American Medical Response
       details: |
 
-    - role: Firefighter/ EMT
+    - role: Firefighter / EMT
       time: 8/2007 - 9/2010
       company: Mclane Black Lake Fire District 9
       details: |
@@ -145,23 +136,29 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Ruby
         level: 95%
 
-      - name: Ruby on Rails
+      - name: DevOps
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Compassionate Communication
+        level: 92%
+
+      - name: Javascript
+        level: 75%
+
+      - name: SQL Optimization
+        level: 85%
+
+      - name: HTML5 & CSS
+        level: 85%
+
+      - name: Salesforce
+        level: 95%
+
+      - name: Functional Programming
+        level: 99%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
