@@ -1,6 +1,13 @@
 <div class="contact-container container-block">
   <ul class="list-unstyled contact-list">
 
+
+    {% if sidebar.timezone %}
+    <li class="phone"><i class="fas fa-clock"></i>
+      <a href="">{{ sidebar.timezone }}</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.email %}
     <li class="email"><i class="fas fa-envelope"></i>
       <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
