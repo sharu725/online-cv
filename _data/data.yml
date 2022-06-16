@@ -71,11 +71,10 @@ experiences:
     company: Premier Octet
     details:
       Réalisation d'un site web permettant à chaque utilisateur de générer un certain nombre de QRCode qu'il aura choisi pour faire deviner une chaine de caractères une fois tout les QRCodes scannées.
-      Remix, framework React.js / Base de donnée PostgreSQL / Prisma
+
 
       J'ai participé à la préparation pour le déploiement d'un site web d'E-commerce existant en Open Source.
       Il a fallu retirer des informations spécifiques qui concernaient le client, pour en faire un projet réutilisable par tous, de plus une fonctionnalité a dû être retravaillée pour être plus souple en fonction des besoins de chacun.
-      GraphCMS / API GraphQL / Remix, framework React.js
 
   - role: Développeur web et mobile - Stage
     time: June 2021 - July 2021
