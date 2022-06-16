@@ -3,114 +3,124 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Antony David
-    tagline: Assistant développeur web
-    avatar: cv.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Antony David
+  tagline: Développeur web et mobile
+  avatar: cv.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: antonydavid945@gmail.com
-    phone: 07 82 69 45 19
-    website: jayllyz.netlify.app #do not add http://
-    linkedin: antodavid
-    xing: #alandoe
-    github: Jayllyz
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: #'@Jayllyz'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars: Jayllyz
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://drive.google.com/file/d/1WMFzDkpdTkwWiilmi64OaJZplFRyrzhK/view?usp=sharing
+  # Sidebar links
+  email: antonydavid945@gmail.com
+  phone: 07 82 69 45 19
+  website: jayllyz.netlify.app #do not add http://
+  linkedin: antodavid
+  xing: #alandoe
+  github: Jayllyz
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  twitter: #'@Jayllyz'
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars: Jayllyz
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  pdf: https://drive.google.com/file/d/1WMFzDkpdTkwWiilmi64OaJZplFRyrzhK/view?usp=sharing
 
-    languages:
-      - idiom: Francais
-        level: Natale
+  languages:
+    - idiom: Francais
+      level: Natale
 
-      - idiom: Anglais
-        level: TOEIC 700
+    - idiom: Anglais
+      level: TOEIC 700
 
-      - idiom: Espagnol
-        level: Scolaire
+    - idiom: Espagnol
+      level: Scolaire
 
-    interests:
-      - item: Informatique
-        link:
+  interests:
+    - item: Informatique
+      link:
 
-      - item: Badminton
-        link:
+    - item: Badminton
+      link:
 
-      - item: Esport
-        link:
+    - item: Esport
+      link:
 
 career-profile:
-    title: Profil
-    summary: 
-      Passionné par l’informatique depuis toujours j’ai développé des compétences dans plusieurs 
-      domaines à travers des projets personnels et scolaires. Après deux ans à l'ESIEA, je poursuis 
-      ma formation à l’ESGI où j’approfondis mes connaissances en informatique en première année.
+  title: Profil
+  summary: Passionné par l’informatique depuis toujours j’ai développé des compétences dans plusieurs
+    domaines à travers des projets personnels et scolaires. Après deux ans à l'ESIEA, je poursuis
+    ma formation à l’ESGI où j’approfondis mes connaissances en informatique en première année.
 education:
-    - degree: Bachelor informatique
-      university: ESGI, Paris
-      time: 2021 - 2024
-      details: 
-    - degree: Cycle préparatoire ingénieur
-      university: ESIEA, Paris 
-      time: 2018 - 2021
-      details: 
-    - degree: Baccalauréat S, Sciences de l'ingénieur, option ISN
-      university: Lycée Langevin-Wallon
-      time: 2015 - 2019
-      details:
+  - degree: Bachelor informatique
+    university: ESGI, Paris
+    time: 2021 - 2024
+    details:
+  - degree: Cycle préparatoire ingénieur
+    university: ESIEA, Paris
+    time: 2018 - 2021
+    details:
+  - degree: Baccalauréat S, Sciences de l'ingénieur, option ISN
+    university: Lycée Langevin-Wallon
+    time: 2015 - 2019
+    details:
 experiences:
-    - role: Étudiant stagiaire
-      time: June 2021 - July 2021
-      company: Cap Collectif
-      details:
-       Utilisation de React/NextJS/GraphQL pour améliorer une plateforme d’analyse de données
-    - role: Étudiant stagiaire
-      time: 2014 - 2014
-      company: Jolicode
-      details: 
-        Stage d’observation de 4 jours dans une société spécialisée dans le développement Web et mobile avec une initiation des langages web. (HTML/CSS)
+  - role: Développeur web et mobile - Stage
+    time: May 2022 - June 2022
+    company: Premier Octet
+    details: Réalisation d'un site web permettant à chaque utilisateur de générer un certain nombre de QRCode qu'il aura choisi pour faire deviner une chaine de caractères une fois tout les QRCodes scannées.
+            Utilisation de :
+              - Remix, framework React.js
+              - Base de donnée PostgreSQL / Prisma
+
+            J'ai participé à la préparation pour le déploiement d'un site web d'E-commerce existant en Open Source.
+            Il a fallu retirer des informations spécifiques qui concernaient le client, pour en faire un projet réutilisable par tous, de plus une fonctionnalité a dû être retravaillée pour être plus souple en fonction des besoins de chacun.
+            Utilisation de :
+            - GraphCMS / API GraphQL
+            - Remix, framework React.js
+
+  - role: Développeur web et mobile - Stage
+    time: June 2021 - July 2021
+    company: Cap Collectif
+    details: Utilisation de React/NextJS/GraphQL pour améliorer une plateforme d’analyse de données
+  - role: Étudiant stagiaire
+    time: 2015 - 2015
+    company: Jolicode
+    details: Stage d’observation de 4 jours dans une société spécialisée dans le développement Web et mobile avec une initiation des langages web. (HTML/CSS)
 projects:
-    title: Projets
-    intro:
-    assignments:
-      - title: Survive The Tempest
-        link: "https://github.com/Jayllyz/SurvivetheTempest"
-        tagline: "Jeu de stratégie réalisé et inventé en duo, programmé en langage Python durant 4 mois en classe de terminale."
+  title: Projets
+  intro:
+  assignments:
+    - title: Survive The Tempest
+      link: 'https://github.com/Jayllyz/SurvivetheTempest'
+      tagline: 'Jeu de stratégie réalisé et inventé en duo, programmé en langage Python durant 4 mois en classe de terminale.'
 
-      - title: A star
-        link: "https://github.com/Jayllyz/Astar"
-        tagline: "Algorithme de recherche de chemin dans un graphe réalisé dans le cadre d'un projet de deuxième année de cycle préparatoire."
-
+    - title: A star
+      link: 'https://github.com/Jayllyz/Astar'
+      tagline: "Algorithme de recherche de chemin dans un graphe réalisé dans le cadre d'un projet de deuxième année de cycle préparatoire."
 
 skills:
-    title: Compétences
+  title: Compétences
 
-    toolset:
-      - name: Python 
-        level: 50%
+  toolset:
+    - name: Python
+      level: 50%
 
-      - name: C 
-        level: 70%
+    - name: C
+      level: 70%
 
-      - name: HTML5 & CSS
-        level: 50%
+    - name: HTML5 & CSS
+      level: 50%
 
-      - name: PHP
-        level: 40%
+    - name: PHP
+      level: 40%
 
-      - name: Javascript
-        level: 30%
+    - name: Javascript / React
+      level: 60%
 
-      - name: Oracle SQL
-        level: 40%
+    - name: Oracle SQL
+      level: 40%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
