@@ -34,13 +34,12 @@ career-profile:
     title: Personal Profile
     summary: |
 
-      I am a compassionate, skilled and dedicated software developer with experience in different
-      programming languages and domains. My skill set is broad. I love to squash difficult bugs,
-      wrangle the chaos of technical debt, and coerce slow queries into living life in the fast lane.
-
-      I live to tackle sticky, deeply-rooted problems. I’m experienced as a
-      technical team leader and am passionate about relationship-building, helping others, and
-      continuing to improve my own skills.
+      I am a **compassionate**, **skilled** and **dedicated** software developer with experience in
+      different programming languages and domains. My skill set is broad. I love to **tackle
+      sticky, deeply-rooted problems** such as squashing difficult bugs, wrangling the chaos of
+      technical debt, and coercing slow queries into living life in the fast lane. I’m
+      experienced as a **technical team leader** and am passionate about **relationship-building**,
+      **helping others**, and continuing to **improve my own skills**.
 
 education:
     - degree: Certificate, EMT Paramedic
