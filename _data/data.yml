@@ -40,17 +40,16 @@ sidebar:
 
 career-profile:
     title: Career Profile
-    # TODO: Come back and add a line about other things you enjoy doing.
-    # Like "tidying up old crufy code"... find a different way of saying that.
-    # TODO: Add humor.
     summary: |
 
-      I am a compassionate, skilled and dedicated software developer with
-      experience in different programming languages and domains. My skill set is
-      broad. Some of my deepest job satisfaction comes from tackling sticky,
-      deeply-rooted problems. I’m experienced as a technical team leader and am
-      passionate about relationship-building, helping others, and continuing to
-      improve my own skills.
+      I am a compassionate, skilled and dedicated software developer with experience in different
+      programming languages and domains. My skill set is broad. I love to squash the difficult bugs,
+      wrangle the chaos of technical debt, and coerce slow queries into living life at near
+      real-time speed.
+
+      I live to tackle sticky, deeply-rooted problems. I’m experienced as a
+      technical team leader and am passionate about relationship-building, helping others, and
+      continuing to improve my own skills.
 
 education:
     - degree: Certificate, EMT Paramedic
@@ -109,7 +108,7 @@ skills:
         level: 85%
 
       - name: HTML5 & CSS
-        level: 85%
+        level: 80%
 
       - name: Salesforce
         level: 95%
