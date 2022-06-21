@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Anubhav
-    tagline: Software Engineer II
+    tagline: Software Engineer III
     tagline2: (Full Stack Developer)
     avatar:  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -65,7 +65,7 @@ career-profile:
     title: Career Profile
     summary: |
       Passionate, Self-motivated and hardworking programmer
-      with 3.5+ years experience seeking an opportunity to work
+      with 4+ years experience seeking an opportunity to work
       in a challenging environment to prove my coding skills and
       make a significant contribution to the success of the employer
       and at the same time pursue my individual growth.
@@ -88,16 +88,16 @@ education:
         CGPA: 8.8
 
 experiences:
-    - role: Software Engineer 2
+    - role: Software Engineer III
       time: April 2020 - Present
       company: 6Sense Insights India Pvt. Ltd., Bengaluru
       details: |
-        - Working as Full Stack Engineer on React + Django stack.
+        - Working as Full Stack Engineer on React + Django + MySQL stack.
         - Optimized daily pipelines and made process to finding the blockers easy.  
-        - Worked on multiple modules including optimizing and adding new features into a Web based App.
+        - Worked on multiple modules end-to-end including optimizing and adding new features.
         - Achievements:
           - Recognized multiple times for exceeding expectations.
-          - got promoted to SE-2 within 10 months of working here.
+          - Has been consistently promoted every appraisal.
     - role: Full Stack Engineer
       time: July 2019 - March 2020
       company: Gnani Innovations Pvt. Ltd., Bengaluru
