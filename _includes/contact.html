@@ -19,6 +19,12 @@
     </li>
     {% endif %}
 
+    {% if sidebar.timezone %}
+    <li class="timezone"><i class="fas fa-clock"></i>
+      <a href="">{{ sidebar.timezone }}</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.telegram %}
     <li class="telegram"><i class="fab fa-telegram"></i>
       <a href="https://t.me/{{ sidebar.telegram }}" target="_blank">{{ sidebar.telegram }}</a>
