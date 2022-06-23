@@ -31,8 +31,6 @@ I have made this into a Jekyll Theme. Checkout the live demo [here](https://onli
 
 Change all the details from one place: ``_data/data.yml``
 
-Watch my [video](https://www.youtube.com/embed/T2nx6tj-ZH4) on installation.
-
 ## To preview/edit localy with docker
 
 ```sh
