@@ -99,7 +99,7 @@ education:
             Database Systems, Computer Architecture, Software Construction
 experiences:
     - role: NodeJS Backend Developer
-      time: 01/2021 - present
+      time: 01/2021 - 04/2022
       company: Spindox S.P.A., Turin, Italy
       details: |
           - Lead the implementation of CI/CD pipeline in the development environment.
