@@ -57,6 +57,9 @@ news:
         
     
     posts:
+        - time: January 2022
+          title: Begin my journey to fight cancer using AI with Lunit in the oncology department
+          
         - time: April 2021
           title: Our new paper (uBAM) has officially been published at Nature Machine Intelligece!
         
@@ -140,9 +143,14 @@ education:
 
 
 educationcomplete:
+    - degree: Research Scientist full-time at Lunit
+      university: Germany (Remote)
+      time: 2022 Jan - current
+      details: |
+      
     - degree: Applied Scientist full-time at AWS
-      university: Germany
-      time: 2020 Oct - current
+      university: Germany (Remote)
+      time: 2020 Oct - 2021 Dec
       details: |
       
     - degree: Applied Scientists Intern at AWS
