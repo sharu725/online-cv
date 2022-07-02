@@ -108,9 +108,14 @@ news:
           title: Paper accepted as poster at CVPR17 in Honolulu, Hawaii
 
 education:
-    - degree: Applied Scientists full-time at AWS
-      university: Germany
-      time: 2020 Oct - current
+    - degree: Research Scientist at Lunit
+      university: Germany (Remote)
+      time: 2022 Jan - current
+      details: |
+     
+    - degree: Applied Scientists at AWS
+      university: Germany (Remote)
+      time: 2020 Oct - 2021 Dec
       details: |
       
     - degree: Applied Scientists Intern at AWS
