@@ -47,9 +47,11 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Currently full-time Applied Scientist at AWS. After a double master degree at KTH (Stochkolm, Sweden) and Politecnico di Torino (Torino, Italy), 
-      I pursued my passion for Computer Vision as researcher in the Heidelberg Collaboratory for Image processing under the supervision of Bjoern Ommer.
-      Lately I successfully completed an internship at AWS in Pasadena under the supervision of Pietro Perona.
+#      Currently full-time Applied Scientist at AWS. 
+      AI research scientist in the oncology department at Lunit. Prior applied scientist at AWS.
+      After a double master degree at KTH (Stochkolm, Sweden) and Politecnico di Torino (Torino, Italy), 
+      I pursued my passion for Computer Vision as researcher in the Heidelberg Collaboratory for Image processing.
+      In 2019 I successfully completed an internship at AWS in Pasadena under the supervision of Prof. Pietro Perona.
 
 news:
     title: News
