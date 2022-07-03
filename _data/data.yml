@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Sunghye Park
-    tagline: Master Student of CAD & Soc Design
+    tagline: Ph.D Student of CAD & SoC Design Lab.
     avatar: SHP.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -36,7 +36,7 @@ career-profile:
       Sunghye Park is currently a Master student in the Department of Electrical Engineering, 
       Pohang University of Science and Technology (POSTECH), Korea. She is working with Prof. Seokhyeong Kang in [CAD & SoC Design Lab.](http://csdl.postech.ac.kr)  
       
-      Her current research interests include Quantum computing and VLSI CAD.  
+      Her current research interests include Design Automation for Quantum computing and VLSI CAD.  
       
 education:
     - degree: Ph.D in Electrical Engineering
@@ -68,7 +68,7 @@ experiences:
       
     - role: Undergraduate Student Researcher 
       time: Feb.2018 - May.2018
-      company: Mobile SOC & Microprocessor Lab in KNU, Prof. Joonho Kong  
+      company: Mobile SoC & Microprocessor Lab in KNU, Prof. Joonho Kong  
       details: |
       
       
