@@ -3,192 +3,153 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar 
+    
+    
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Laxman Bokati
+    tagline: Ph. D. Candidate, Computational Science
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: laxmanbokati@gmail.com
+    phone: 9152408129
+    linkedin: laxman-bokati
+    github: laxmanbokati
+    bitbucket: laxmanbokati
+    pdf: https://drive.google.com/file/d/1sk7CIYwAca2qd0FObLNzymHcS_nQdVTo/view?usp=sharing
 
     languages:
-      - idiom: English
+      - idiom: Nepali
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
 
-      - idiom: Spanish
+      - idiom: Hindi
         level: Professional
-
-    interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
 
 career-profile:
-    title: Career Profile
+    title: research intrests
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+         - Decision Theory, Interval Computation.
+         - Decision Making Under Uncertainty.
+         - Applications to Geosciences & Economics.
+         - Renewable Energy, Solar/Wind Power.
+      
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Ph. D. in Computational Science
+      university: The University of Texas at El paso
+      time: 2019 - Anticipated December 2022
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+          - GPA: 4.0
+    - degree: MSc in Computational Science
+      university: The University of Texas at El paso
+      time: 2017 - 2019
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+          - GPA: 4.0
+    - degree: BE Electrical Engineering
+      university: Tribhuwan University
+      time: 2008 - 2012
+      details: | 
+          - GPA: 3.66
+          
+
+      
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Teaching Assistant
+      time: 2017 - Present
+      company: The University of Texas at El paso
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+          - Assisted faculty in preparation, delivery and grading of coursers.
+          - Helped faculty with delivery of lectures, laboratories and assisted with research projects. 
+          - Tutored Undergraduate students at Math Resource Center for Students
+        
+    - role: Project Engineer
+      time: 2013 - 2016
+      company: Aastha Engineering Solution Pvt.Ltd.
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+       Selected Projects:
+        - Identification of potential sites and carryout Detail feasibility study of various wind-solar hybrid projects in Nepal, Client: Alternate Energy Promotion Centre, Nepal.
+        - Carbon Credit Potential In Industries of Nepal, Client: Ministry of Industry, Nepal.
+        - Promotion and Dissemination of “Matribhumi Improoved Cooking Stove”.
+        - Promotion of “Low Energy Solar Water Pump”.
+        - Temporary Shelter (“Aashrya”) building in various Earthquake affected Districts.
+        
+           Assigned Job Roles:
+            - Preparing Proposal and Reports for projects.
+            - Assisting in Management of resources and manpower.
+            - Representing Aastha in various workshop/training programs.
+            - Assisting in survey, development, promotion, dissemination of various Renewable Energy projects.
+            - Assisting in Supervision of the field visits and information collection.
+            - Meeting and negotiating with clients on behalf of Aastha.
+    
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: How to Explain the Anchoring Formula in Behavioral Economics
+        link: "https://doi.org/10.1007/978-3-030-77094-5_3"
+        authors: Bokati L., Kreinovich V., Van Le C.
+        conference: "Prediction and Causality in Econometrics and Related Topics, Springer, Cham, Switzerland, 2022, pp. 28-34."
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: How the Proportion of People Who Agree to Perform a Task Depends on the Stimulus A Theoretical Explanation of the Empirical Formula
+        link: "https://doi.org/10.1007/978-3-030-77094-5_2"
+        authors: Bokati L., Kreinovich V., Ha D.T. 
+        conference: "Prediction and Causality in Econometrics and Related Topics, Springer, Cham, Switzerland, 2022, pp. 22-27."
+        
+      - title: Absence of Remotely Triggered Large Earthquakes A Geometric Explanation
+        link: "https://doi.org/10.1007/978-3-030-65324-8_6"
+        authors: Bokati L., Kreinovich V., Ha D.T. 
+        conference: "How Uncertainty-Related Ideas Can Provide Theoretical Explanation for Empirical Dependencies, Springer, Cham, Switzerland, 2021, pp. 37-41."
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title:  Why Gamma Distribution of Seismic Inter-Event Times A Theoretical Explanation
+        link: "https://doi.org/10.1007/978-3-030-65324-8_7"
+        authors: Bokati L., Velasco A., Kreinovich V.
+        conference: "How Uncertainty-Related Ideas Can Provide Theoretical Explanation for Empirical Dependencies, Springer, Cham, Switzerland, 2021, pp. 43-50"
+      - title:  A New (Simplified) Derivation of Nash’s Bargaining Solution
+        link: "https://doi.org/10.20965/jaciii.2020.p0589"
+        authors: Nguyen P.H., Bokati L., Kreinovich V.
+        conference: "Journal of Advanced Computational Intelligence and Intelligent Informatics(JACIII), 2020, Vol. 24, No. 5, pp. 589-592."
+      - title:  Scale-Invariance and Fuzzy Techniques Explain the Empirical Success of Inverse Distance Weighting and of Dual Inverse Distance Weighting in Geosciences
+        link: "https://scholarworks.utep.edu/cs_techrep/1418/"
+        authors: Bokati L., Velasco A., Kreinovich V.
+        conference: "Proceedings of the Annual Conference of the North American Fuzzy Information Processing Society NAFIPS'2020, Redmond, Washington, August 20-22, 2020, pp. 379-390."
+      - title:  Dynamic Triggering of Earthquakes Symmetry-Based Geometric Analysis
+        link: "https://scholarworks.utep.edu/cs_techrep/1337/"
+        authors: Bokati L., Alfaro R., Velasco A., Kreinovich V.
+        conference: " Geombinatorics, 2019, Vol. 29, No. 2, pp. 78-88."
+      - title:  Is ‘No Trade Theorem’ Really a Paradox Analysis Based on Decision Theory
+        link: " https://doi.org/10.12988/ams.2019.9345"
+        authors: Bokati L., Kreinovich V.
+        conference: " Applied Mathematical Sciences, 2019, Vol. 13, No. 8, pp. 397-404"
+      - title:  Bhutan Landscape Anomaly Possible Effect on Himalayan Economy (In View of Optimal Description of Elevation Profiles)
+        link: " http://thaijmath.in.cmu.ac.th/index.php/thaijmath/article/view/3905"
+        authors: Nguyen P.H., Bokati L., Velasco A., Kreinovich V.
+        conference: " Thai Journal of Mathematics, 2019, Special issue Structural Change Modeling and Optimization in Econometrics, pp. 57-69."
+        
+        
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Technical Writing (Article, Proposal, Report, Poster, Presentation).
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Computer Basic Softwares (LaTeX, Beamer, Microsoft Office Word, PowerPoint & Excel).
         level: 98%
 
-      - name: Angular
-        level: 98%
+      - name: Programming (MATLAb, C, C++,Python, R)
+        level: 68%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Other Softwares (AutoCAD, Photoshop, GNU image Manipulation)
+        level: 35%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
