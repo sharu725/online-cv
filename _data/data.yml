@@ -299,17 +299,13 @@ students:
       year: (Submission Expected)
       title: "Smart Soiless farming: A solution to Africa's Food Insecurity Crisis"
       level: MSc
-      link: https://efml.ukzn.ac.za/luyanda/
+      link: https://efml.ukzn.ac.za/luyanda/    
 
-    
-
-    
-
-    - name:
-      year:
-      title:
-      level:
-      link:
+    - name: Prosper Bopoto
+      year: "(Submission expected)"
+      title: Biophysical Connectivity In A Tidal Basin
+      level: MSc
+      link: #
 
     - name: Atish Deoraj
       year: "(Submission Expected)"
@@ -322,6 +318,12 @@ students:
       title: The study of sub-meso scale flow regimes along the Coral Reefs of KwaZulu Natal
       level: PhD
       link: https://efml.ukzn.ac.za/calvin/
+
+    - name: Jeremy Naidoo
+      year: (Submission Expected)
+      title: A Modernised Flood Prediction Model To Support Flood Forecasting and Dam Operations In South Africa
+      level: PhD
+      link: #
 
 awards:
   title: Grants & Awards 
