@@ -1,8 +1,8 @@
 #Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
-title: My Resume
-url: 'http://webjeda.com'
+title: Masato Nagashima
+url: 'https://masatonagashima.github.io/online-cv/'
 
 #change it according to your repository name
 # disabling since we are using a custom domain
