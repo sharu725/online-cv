@@ -40,11 +40,10 @@ career-profile:
     title: Career Profile
     summary: |
       Majoring in robotics and artificial intelligence at Waseda University and working as a research assistant in Ogata Lab.
-I have hands-on experience in developing hardware models by using Fusion 360 and am able to implement cutting edge deep learning models such as RNN, CNN, with attention mechanisms for robot manipulation.
+      I have hands-on experience in developing hardware models by using Fusion 360 and am able to implement cutting edge deep learning models such as RNN, CNN, with attention mechanisms for robot manipulation.
+      As a research assistant, I tackled challenging scenarios like creating end-effectors, enhanced multimodal learning models, and automated data collection processes using python.
+      At university, I researched soft robots which generate complex behaviors and manipulated them by using deep learning algorithms.
 
-As a research assistant, I tackled challenging scenarios like creating end-effectors, enhanced multimodal learning models, and automated data collection processes using python.
-
-At university, I researched soft robots which generate complex behaviors and manipulated them by using deep learning algorithms.
 education:
     - degree: MSc in Computer Science
       university: Waseda University
