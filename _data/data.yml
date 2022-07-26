@@ -45,7 +45,7 @@ career-profile:
       At university, I researched soft robots which generate complex behaviors and manipulated them by using deep learning algorithms.
 
 education:
-    - degree: MSc in Computer Science
+    - degree: MSc in Fundamental Science and Engineering
       university: Waseda University
       time: 2022 - Present
       details: |
@@ -53,7 +53,7 @@ education:
         making a inflatable robot which is made of balloons, like Baymax, and
         develop its control system.  
           - Computer Science, Robotics, Machine Learning, CAD
-    - degree: BSc in Computer Science
+    - degree: BSc in Fundamental Science and Engineering
       university: Waseda University
       time: 2018 - 2022
       details: |
@@ -63,9 +63,9 @@ education:
 experiences:
     - role: Software Engineer
       time: 2022 - Present
-      company: knowns, Tokyo
+      company: Knowns, Tokyo
       details: |
-        Working as a backend engineer at knowns. 
+        Working as a backend engineer at Knowns. 
         I am responsible for data management on AWS Redshift and backend development with Spring Boot.
           - Kotlin, Python, Typescript
           - Spring Boot, AWS, Git, SQL
