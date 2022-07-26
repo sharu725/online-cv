@@ -84,7 +84,7 @@ projects:
     intro: >
       
     assignments:
-      - title: Machine Learning Bootcamp Japan
+      - title: Google Machine Learning Bootcamp Japan
         link: https://developers-jp.googleblog.com/2022/06/ml-bootcamp.html
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
@@ -108,13 +108,13 @@ skills:
         level: 80%
 
       - name: Java & Kotlin
-        level: 70%
+        level: 40%
 
       - name: Typescript
-        level: 70%
+        level: 40%
 
       - name: Rust
-        level: 60%
+        level: 45%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
