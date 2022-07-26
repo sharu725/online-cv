@@ -62,6 +62,7 @@ experiences:
       company: knowns, Tokyo
       details: |
         Working as a backend engineer at knowns. 
+        I am responsible for data management on AWS Redshift and backend development with Spring Boot.
           - Kotlin, Python, Typescript
           - Spring Boot, AWS, Git, SQL
     - role: Research Assistant
