@@ -13,9 +13,12 @@ sidebar:
 
     # Sidebar links
     email: m.alianjum0@gmail.com
-    #phone: +39 349 794 9275
+    #phone: 012 345 6789
+    citizenship:
+    timezone: America/Cancun Timezone
     #website: github.com/alianjum0/online-cv #do not add http://
     linkedin: alianjum0
+    #xing: alandoe
     github: alianjum0
     telegram: # add your nickname without '@' sign
     gitlab:
@@ -24,6 +27,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       - idiom: English
