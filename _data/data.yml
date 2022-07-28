@@ -27,7 +27,7 @@ sidebar:
     #stack-overflow: # Number/Username, e.g. 123456/alandoe
     #codewars:
     #goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: ../assets/Anjum_CV.pdf
+    pdf: https://alianjum0.github.io/online-cv/assets/Anjum_CV.pdf
 
     languages:
       - idiom: English
