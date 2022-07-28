@@ -15,19 +15,19 @@ sidebar:
     email: m.alianjum0@gmail.com
     #phone: 012 345 6789
     citizenship:
-    timezone: America/Cancun Timezone
+    timezone: Europe/Rome
     #website: github.com/alianjum0/online-cv #do not add http://
     linkedin: alianjum0
     #xing: alandoe
     github: alianjum0
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
+    #telegram: # add your nickname without '@' sign
+    #gitlab:
+    #bitbucket:
     twitter: '@alianjum0'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+    #codewars:
+    #goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: ../assets/Anjum_CV.pdf
 
     languages:
       - idiom: English
@@ -57,10 +57,15 @@ sidebar:
         organization: HackerRank
         date: 10/2020
 
-      - item: JavaScript (Basic)
-        link: https://www.hackerrank.com/certificates/dde068e84bf4
+      - item: JavaScript (Intermediate)
+        link: https://www.hackerrank.com/certificates/587914f38ce7
         organization: HackerRank
         date: 10/2020
+
+      - item: SQL (Intermediate)
+        link: https://www.hackerrank.com/certificates/c6fb3cb8fc88
+        organization: HackerRank
+        date: 07/2022
 
       - item: Python (Basic)
         link: https://www.hackerrank.com/certificates/c310cb9c4568
@@ -80,7 +85,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      To obtain a challenging and rewarding position to fully utilise problem solving and programming skills. Dedicated and efficient software engineer with 3+ years of experience. Worked on projects including European eID4u, real-time vehicle tracking system, and bio-metric authentication. Happy to take new challenges and overcome them with hard work and positive attitude.
+      Senior software engineer with master's in computer science and 4+ years of experience in Node.js.  Designed and developed RESTful services for projects including Vodafone services, European eID4u, real-time vehicle tracking system, and bio-metric authentication.
 education:
     - degree: Master’s in Computer Engineering
       university: Politecnico Di Torino
@@ -102,6 +107,13 @@ education:
             Programming, Parallel Computing,Computer Networks, Network Security, 
             Database Systems, Computer Architecture, Software Construction
 experiences:
+    - role: Full-Stack Developer
+      time: 01/2021 - 04/2022
+      company: Spindox S.P.A., Turin, Italy
+      details: |
+          - Lead the implementation of CI/CD pipeline in the development environment using jenkins, bitbucket webhook and docker.
+          - Designed and developed maintainable RESTful services in Node.js using express framework.
+          - Designed, developed and implemented service monitoring system using grafana, prometheus and swagger-stats, promtail and loki.
     - role: Research Assistant, Computer Security
       time: 03/2019 - 12/2019
       company: TORSEC - Computer and Network Security Group, DAUIN, Politecnico di Torino
@@ -109,14 +121,13 @@ experiences:
           - Design and development of a WiFi access service with eIDAS for cross border authentication.
           - Developed a service provider to authenticate using eIDAS regulation and integrated it in the Politecnico di Torino network.
           - Research areas: PKI, digital identity, network security and protection of network.
-    - role: Full Stack Engineer, Freelance
+    - role: Full-Stack Developer, Freelance
       time: 08/2016 - 12/2018
       company: Awesomebox Technologies, Lockport, Illinois, United States
       details: |
           - Designed and developed an IT assistant as a software solution.
-          - RESTful web API was developed in Node.js and windows application
-            was developed in NW.js.
-          - Elasticsearch was used for effective and accurate searching.
+          - Developed RESTful web api in node.js and windows application in NW.js.
+          - Elasticsearch was used for effective and accurate text search.
     - role: Filmmaker
       time: 08/2018 - 09/2018
       company: AIESEC
@@ -133,6 +144,8 @@ experiences:
       company: TeReSol Pvt Ltd
       details: |
           - Designed, developed and implemented a RESTful web service for real-time vehicle tracking system in Node.js using Sails MVC Framework.
+          - Developed boilerplate using Node.JS, Express, Sails, Backbone and MySQL. Which was used for multiple projects including a project for National Bank of Pakistan.
+          - Developed custom solution to handle large amount of incoming requests.
     - role: Chief Technology Officer
       time: 09/2014 - 01/2016
       company: Traverse Pakistan
