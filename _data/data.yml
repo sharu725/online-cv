@@ -72,7 +72,7 @@ projects:
     assignments:
       - title: Simulador de Fluidos en 3D con Blender mediante Scripts de Python
         #link: "#hook"
-        tagline: "Implementación de un simulador de fluidos realista utilizando el Blender mediante scripts de Python"
+        tagline: "Implementación de un simulador de fluidos realista utilizando Blender mediante scripts de Python"
 
 publications:
     title: Publications
