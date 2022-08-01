@@ -39,7 +39,7 @@ sidebar:
         link:
 
 education:
-    title: Educación
+
     - degree: Ingeniería Informática y Tecnologías Virtuales
       university: Universidad Loyola Andalucía
       time: 2019 - 2022
@@ -66,31 +66,13 @@ experiences:
           - Desarrollo y ejecución de pruebas automáticas
 
 projects:
-    title: Proyectos
+    title: Trabajo de fin de grado (TFG)
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+     
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Simulador de Fluidos en 3D con Blender mediante Scripts de Python
+        #link: "#hook"
+        tagline: "Implementación de un simulador de fluidos realista utilizando el Blender mediante scripts de Python"
 
 publications:
     title: Publications
