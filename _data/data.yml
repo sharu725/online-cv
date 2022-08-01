@@ -22,7 +22,6 @@ sidebar:
 
 
     idiomas:
-      title: idiomas
       - idiom: Español
         level: Nativo
 
@@ -30,7 +29,6 @@ sidebar:
         level: Cambridge B2
         
     intereses:
-      title: intereses
       - item: Cine
         link:
 
@@ -41,7 +39,6 @@ sidebar:
         link:
 
 educación:
-    title: Educación
     - degree: Ingeniería Informática y Tecnologías Virtuales
       university: Universidad Loyola Andalucía
       time: 2019 - 2022
@@ -49,7 +46,6 @@ educación:
         Realicé mis estudios en Ingeniería Informática y Tecnologías Virtuales en la Universidad Loyola Andalucía, Sevilla. Especializandome en la mención en Videojuegos y Contenidos Digitales.
         
 experiencias:
-    title: Experiencias
     - role: IDOM Consulting, Engineering, Architecture, Sevilla
       time: febrero 2022 - agosto 2022
       company: Becario
@@ -69,7 +65,7 @@ experiencias:
           - Desarrollo y ejecución de pruebas automáticas
 
 projects:
-    title: Projects
+    title: Proyectos
     intro: >
       You can list your side projects or open source libraries in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
