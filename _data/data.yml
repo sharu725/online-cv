@@ -4,7 +4,7 @@
 
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    educación: True # set to False if you want education in main section instead of in sidebar
+    educación: True # set to False if you want educación in main section instead of in sidebar
 
     # Profile information
     name: Marco Moriche Calvo
@@ -21,14 +21,13 @@ sidebar:
     github: MarcoMoriche
 
 
-    languages:
+    idiomas:
       - idiom: Español
         level: Native
 
       - idiom: Inglés
         level: Cambridge B2
         
-    interests:
       - item: Cine
         link:
 
@@ -38,14 +37,14 @@ sidebar:
       - item: Fútbol
         link:
 
-education:
+educación:
     - degree: Ingeniería Informática y Tecnologías Virtuales
       university: Universidad Loyola Andalucía
       time: 2019 - 2022
       details: |
         Realicé mis estudios en Ingeniería Informática y Tecnologías Virtuales en la Universidad Loyola Andalucía, Sevilla. Especializandome en la mención en Videojuegos y Contenidos Digitales.
         
-experiences:
+experiencias:
     - role: Becario
       time: Febrero 2022 - Agosto 2022
       company: IDOM Consulting, Engineering, Architecture, Sevilla
