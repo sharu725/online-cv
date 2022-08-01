@@ -113,7 +113,7 @@ p {
     margin-top: 0;
     margin-bottom: 5px;
   }
-  .educación-container {
+  .education-container {
     .item {
       margin-bottom: 15px;
       &:last-child {
@@ -132,13 +132,13 @@ p {
       margin-bottom: 0px;
     }
   }
-  .idiomas-container {
+  .languages-container {
     .lang-desc {
       color: rgba(256, 256, 256, 0.6);
     }
   }
 
-  .idiomas-list {
+  .languages-list {
     margin-bottom: 0;
     li {
       margin-bottom: 10px;
@@ -148,7 +148,7 @@ p {
     }
   }
 
-  .intereses-list {
+  .interests-list {
     margin-bottom: 0;
     li {
       margin-bottom: 10px;
@@ -176,8 +176,8 @@ p {
     margin-bottom: 60px;
   }
 
-  .experiencias-section,
-  .educacións-section {
+  .experiences-section,
+  .educations-section {
     .item {
       margin-bottom: 30px;
     }
