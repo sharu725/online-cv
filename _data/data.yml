@@ -3,100 +3,58 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    educación: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Marco Moriche Calvo
+    tagline: Ingeniero Informático
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: marcomoriche@gmail.com
+    #phone: 012 345 6789
+    timezone: España/Madrid
+    citizenship: Español
+    #website: blog.webjeda.com #do not add http://
+    linkedin: marcomorichecalvo
+    github: MarcoMoriche
 
-    languages:
-      - idiom: English
+
+    Idiomas:
+      - idiom: Español
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
-
-    interests:
-      - item: Climbing
+      - idiom: Inglés
+        level: Cambridge B2
+        
+    Intereses:
+      - item: Cine
         link:
 
-      - item: Snowboarding
+      - item: Pádel
         link:
 
-      - item: Cooking
+      - item: Fútbol
         link:
 
-career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
-education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+educación:
+    - degree: Ingeniería Informática y Tecnologías Virtuales
+      university: Universidad Loyola Andalucía
+      time: 2019 - 2022
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Realicé mis estudios en Ingeniería Informática y Tecnologías Virtuales en la Universidad Loyola Andalucía, Sevilla. Especializandome en la mención en Videojuegos y Contenidos Digitales.
+        
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Becario
+      time: Febrero 2022 - Agosto 2022
+      company: IDOM Consulting, Engineering, Architecture, Sevilla
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
+        Realicé las prácticas curriculares IDOM Consulting, Engineering, Architecture, comprendiendo un total de 270 horas. Posteriormente, aplié el periodo de becario realizando mis prácticas extracurriculares hasta el mes de agosto de 2022.
+        Mi rol a lo largo de estas periodo fue:
+          - Aprovisionamiento de sistemas
+          - Desarrollo de software
+          - Manejo de base de datos
     - role: Senior Software Engineer
       time: 2014 - 2015
       company: Google, London
