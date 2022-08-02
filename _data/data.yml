@@ -47,7 +47,7 @@ career-profile:
 education:
     - degree: MSc in Fundamental Science and Engineering
       university: Waseda University
-      time: 2022 - Present
+      time: April 2022 - Present
       details: |
         Working on research project for soft robotics. Mainly, I focused on
         making a inflatable robot which is made of balloons, like Baymax, and
@@ -55,14 +55,14 @@ education:
           - Computer Science, Robotics, Machine Learning, CAD
     - degree: BSc in Fundamental Science and Engineering
       university: Waseda University
-      time: 2018 - 2022
+      time: April 2018 - MArch 2022
       details: |
         Learned about computer science, robotics, and statistics for developing
         robot control method implemented by deep learning models.
           - Computer Science, Robotics, Machine Learning, CAD, Statistics
 experiences:
     - role: Software Engineer
-      time: 2022 - Present
+      time: May 2022 - Present
       company: Knowns, Tokyo
       details: |
         Working as a backend engineer at Knowns. 
@@ -70,7 +70,7 @@ experiences:
           - Kotlin, Python, Typescript
           - Spring Boot, AWS, Git, SQL
     - role: Research Assistant
-      time: 2021 - 2022
+      time: April 2021 - May 2022
       company: Mitsubishi Heavy Institute, Tokyo
       details: |
         Working on a research project controlling robots with deep learning models.
