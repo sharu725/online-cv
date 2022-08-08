@@ -13,9 +13,12 @@
     body {
       padding: 0 !important;
     }
+    .wrapper {
+      max-width: unset !important;
+    }
   </style>
   <body>
-    <div>
+    <div class="wrapper">
       {% include sidebar.html %}
 
       <div class="main-wrapper">{{ content }}</div>
