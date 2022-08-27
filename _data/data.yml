@@ -60,7 +60,22 @@ education:
         Learned about computer science, robotics, and statistics for developing
         robot control method implemented by deep learning models.
           - Computer Science, Robotics, Machine Learning, CAD, Statistics
+
+
 experiences:
+    - role: Software Engineer
+      time: Ang 2022 - Aug 2022
+      company: Rakuten, Tokyo
+      details: |
+        Woiking in Rakuten. 
+        - Javacsript, Python, SQL
+        - React, Flask, MySQL
+
+    - role: Software Engineer
+      time: Aug 2022 - Sep 2022
+      company: Sony, Tokyo
+      details: 
+
     - role: Software Engineer
       time: May 2022 - Present
       company: Knowns, Tokyo
@@ -69,6 +84,7 @@ experiences:
         I am responsible for data management on AWS Redshift and backend development with Spring Boot.
           - Kotlin, Python, Typescript
           - Spring Boot, AWS, Git, SQL
+          
     - role: Research Assistant
       time: April 2021 - May 2022
       company: Mitsubishi Heavy Institute, Tokyo
