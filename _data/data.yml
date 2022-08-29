@@ -15,15 +15,15 @@ sidebar:
     email: yangyf83@aliyun.com
     phone:
     timezone: UTC+08
-    citizenship: Zhuhai, 519082, GuangDong, China.
+    citizenship: Zhuhai, 519082, GuangDong.
     website: northsecond.github.io #do not add http://
     linkedin: 翼飞-杨-545ba923b
     xing:
     github: northsecond
-    telegram: # add your nickname without '@' sign
+    telegram: zvvaks # add your nickname without '@' sign
     gitlab: yangyf83
     bitbucket:
-    twitter:
+    twitter: NordZwei
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -50,9 +50,9 @@ career-profile:
       A undergraduate student in the School of Software Engineering from Sun Yat-sen University, Grade 2020. Majoring in software engineering, studying C++, Rust and other programming languages, interested in trusted AI.
 
 education:
-    - degree: B.Eng. in Software Engineering
+    - degree: B.Eng. in Software Engineering (in progress)
       university: Sun Yat-sen University 
-      time: 2021 - 2024
+      time: 2021 - Present
       details: |
         Enrolled in the School of Software Engineering in 2021 through a change of major.
           - Third prize in the SYSU CPC, 2021
@@ -128,22 +128,22 @@ skills:
 
     toolset:
       - name: Rust
-        level: 70%
-
-      - name: Python & pytorch
-        level: 75%
-
-      - name: C++ & Qt
         level: 65%
 
+      - name: Python & pytorch
+        level: 55%
+
+      - name: C++ & Qt
+        level: 42%
+
       - name: Java & Kotlin
-        level: 58%
+        level: 36%
 
       - name: SQL
-        level: 50%
+        level: 30%
 
       - name: Sketch & Photoshop
-        level: 45%
+        level: 25%
 
 footer: >
     Designed with the <a href="https://github.com/sharu725/online-cv" target="_blank" rel="nofollow">theme</a> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
