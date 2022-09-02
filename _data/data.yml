@@ -74,7 +74,9 @@ experiences:
     - role: Software Engineer
       time: Aug 2022 - Sep 2022
       company: Sony, Tokyo
-      details: 
+      details: |
+        Working in Sony.
+        - Python
 
     - role: Software Engineer
       time: May 2022 - Present
