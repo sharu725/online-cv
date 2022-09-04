@@ -31,8 +31,10 @@ sidebar:
     # TODO: Add a pdf file
 
     languages:
-      - idiom: Chinese
-        level: Native
+      title: Languages
+      info:
+        - idiom: Chinese
+          level: Native
 
       - idiom: English
         level: CET-6
@@ -50,21 +52,23 @@ career-profile:
       A undergraduate student in the School of Software Engineering from Sun Yat-sen University, Grade 2020. Majoring in software engineering, studying C++, Rust and other programming languages, interested in trusted AI.
 
 education:
-    - degree: B.Eng. in Software Engineering (in progress)
-      university: Sun Yat-sen University 
-      time: 2021 - Present
-      details: |
-        Enrolled in the School of Software Engineering in 2021 through a change of major.
-          - Third prize in the SYSU CPC, 2021
-          - Third prize in the SYSU Novice Programming Contest, 2022
-          - S prize in MCM, 2022
-    - degree: Studied in Remote Sensing
-      university: Sun Yat-sen University 
-      time: 2020 - 2021
-      details: |
-        I was accepted into the School of Geospatial Engineering and Science at Sun Yat-sen University through the NEMT, and enrolled in the program of Remote Sensing for one year.
-          - Minor award in Sun Yat-sen University, 2021
-          - Outstanding League Secretary of Sun Yat-sen University, 2021
+    title: Education
+    info:
+      - degree: B.Eng. in Software Engineering (in progress)
+        university: Sun Yat-sen University 
+        time: 2021 - Present
+        details: |
+          Enrolled in the School of Software Engineering in 2021 through a change of major.
+            - Third prize in the SYSU CPC, 2021
+            - Third prize in the SYSU Novice Programming Contest, 2022
+            - S prize in MCM, 2022
+      - degree: Studied in Remote Sensing
+        university: Sun Yat-sen University 
+        time: 2020 - 2021
+        details: |
+          I was accepted into the School of Geospatial Engineering and Science at Sun Yat-sen University through the NEMT, and enrolled in the program of Remote Sensing for one year.
+            - Minor award in Sun Yat-sen University, 2021
+            - Outstanding League Secretary of Sun Yat-sen University, 2021
 
 # experiences:
 #     - role: Lead Developer
