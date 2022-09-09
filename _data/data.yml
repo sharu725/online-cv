@@ -4,199 +4,156 @@
 
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Yuki Tatsunami
+    tagline: Deep Learning Researcher
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: y.tatsunami@rikkyo.ac.jp
+    phone:
+    timezone: Japan/Tokyo Timezone
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    website: #do not add http://
+    linkedin: yuki-tatsunami-50430a240
+    xing:
+    github: okojoalg
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@y_tatsunami'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf:
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Japanese
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+        - idiom: English
+          level: Elementary
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Deep Learning
           link:
 
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
+        - item: Computer Vision
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      After graduating with an MSc in Mathematics,
+      I worked for three companies as a general software engineer
+      and am relearning Data Science at Rikkyo University at 2020 Apr.
+      In parallel, I joined AnyTech Co., Ltd. in December 2021
+      and am working as a Machine Learning Researcher. I currently live in Tokyo. Ph.D. student.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Ph.D. in Artificial Intelligence
+        university: Rikkyo University, Tokyo, Japan,
+        time: 2022 - Present
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          Majored in Computer Science, supervised by Masato Taki.
+            - Deep learning
+            - Computer Vision
+      - degree: MSc in Artificial Intelligence
+        university: Rikkyo University, Tokyo, Japan,
+        time: 2020 - 2022
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Majored in Computer Science, supervised by Masato Taki.
+            - Deep learning
+            - Computer Vision
+      - degree: MSc in Mathematics
+        university: Hokkaido University, Sapporo, Japan,
+        time: 2013 - 2015
+        details: |
+          Majored in Mathematics, supervised by Daisuke Matsushita
+            - Algebraic geometry
+            - Cluster algebra
+      - degree: BSc in Mathematics
+        university: Rikkyo University, Tokyo, Japan
+        time: 2008 - 2013
+        details: |
+          Majored in Mathematics, supervised by Noboru Aoki
+            - Algebraic geometry
+            - Algebraic number theory
 experiences:
-    title: Experiences
+    title: Work Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Machine Learning Researcher
+        time: 2021 - Present
+        company: AnyTech Co., Ltd., Bunkyo, Tokyo, Japan
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          R&amp;D of machine learning systems related to fluids.
+      - role: Technical Leader
+        time: 2020 - 2021
+        company: Scala Inc., Shibuya, Tokyo, Japan
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Developing web and ML system.
+      - role: Software Engineer
+        time: 2016 - 2020
+        company: Ichigo LLC., Minato, Tokyo
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
+          Developing teleradiology and telepathorogy system.
+      - role: Software Engineer
+        time: 2015 - 2016
+        company: Fujitsu Frontech Ltd., Inagi, Tokyo, Japan (Working in Maebashi)
+        details: |
+          Developing ATM system
+educational-experiences:
+    title: Educational Experiences
+    info:
+      - role: Teaching Assistant in a Machine Learning Class
+        time: 2022S
+        company: Rikkyo University
+      - role: Educational Mentor
+        time: 2022S
+        company: Rikkyo University
+      - role: Teaching Assistant in Topological Space Theory
+        time: 2015F
+        company: Hokkaido University
+      - role: Teaching Assistant in Modern algebra
+        time: 2015S
+        company: Hokkaido University
+      - role: Teaching Assistant in Topological Space Theory
+        time: 2014F
+        company: Hokkaido University
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    title: Preprints
+    intro:
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "Sequencer: Deep LSTM for Image Classification"
+        link: "https://arxiv.org/abs/2205.01972"
+        authors: Yuki Tatsunami, Masato Taki
+        conference:
+      - title: "RaftMLP: How Much Can Be Done Without Attention and with Less Spatial Locality?"
+        link: "https://arxiv.org/abs/2108.04384"
+        authors: Yuki Tatsunami, Masato Taki
+        conference:
 
 skills:
     title: Skills &amp; Proficiency
-
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python & PyTorch
+        level: 92%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: AWS
+        level: 84%
 
-      - name: Angular
-        level: 98%
+      - name: Javascript & React
+        level: 35%
 
       - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+        level: 27%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
