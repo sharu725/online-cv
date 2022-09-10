@@ -1,0 +1,35 @@
+{% assign journal-papers = site.data.data.journal-papers %}
+{% if journal-papers %}
+<section class="section journal-papers-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ journal-papers.title }}
+  </h2>
+
+  {% if journal-papers.intro %}
+  <div class="intro">
+    {{ journal-papers.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for paper in journal-papers.papers %}
+  <div class="item">
+    {% if paper.link %}
+      <li><a href="{{ paper.link }}">{{ paper.title }}</a></li>
+    {% else %}
+      <li>{{ paper.title }}</li>
+    {% endif %}
+    <div class="publication-authors">{{ paper.authors }}</div>
+    <div class="publication-others">{{ paper.publisher }}</div>
+    {% if paper.supplement %}
+      <div class="publication-others">{{ paper.supplement }}</div>
+    {% endif %}
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

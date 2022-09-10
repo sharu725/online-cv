@@ -19,6 +19,7 @@ sidebar:
     website: #do not add http://
     linkedin: yuki-tatsunami-50430a240
     xing:
+    google-scholar: E_ECibIAAAAJ
     github: okojoalg
     telegram: # add your nickname without '@' sign
     gitlab:
@@ -127,19 +128,75 @@ educational-experiences:
       - role: Teaching Assistant in Topological Space Theory
         time: 2014F
         company: Hokkaido University
-publications:
-    title: Preprints
+#society:
+#    title: Society
+#    info:
+#      - title:
+#        time:
+#reviewer:
+#    title: Reviewer
+#    info:
+#      - title:
+#journal-papers:
+#    title: Journal (refereed)
+#    intro:
+#    papers:
+#      - title:
+#        link:
+#        authors:
+#        publisher:
+#        supplement:
+#international-conference-refereed-papers:
+#    title: International Conference (refereed)
+#    intro:
+#    papers:
+#      - title:
+#        link:
+#        authors:
+#        conference:
+#        supplement:
+#international-conference-unrefereed-papers:
+#    title: International Conference (unrefereed)
+#    intro:
+#    papers:
+#      - title:
+#        link:
+#        authors:
+#        conference:
+#        supplement:
+technical-reports:
+    title: Technical Reports
     intro:
     papers:
       - title: "Sequencer: Deep LSTM for Image Classification"
         link: "https://arxiv.org/abs/2205.01972"
         authors: Yuki Tatsunami, Masato Taki
-        conference:
+        supplement:
       - title: "RaftMLP: How Much Can Be Done Without Attention and with Less Spatial Locality?"
         link: "https://arxiv.org/abs/2108.04384"
         authors: Yuki Tatsunami, Masato Taki
-        conference:
-
+        supplement:
+#books:
+#    title:
+#    intro:
+#    books: Books
+#      - title:
+#        link:
+#        authors:
+#        publisher:
+#        supplement:
+#invited-talks:
+#    title: Invited Talks
+#    info:
+#      - title:
+#        time:
+#        presenter:
+#        inviter:
+#awards:
+#    title: Awards
+#    info:
+#      - title:
+#        time:
 skills:
     title: Skills &amp; Proficiency
     toolset:

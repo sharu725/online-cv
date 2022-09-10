@@ -1,0 +1,34 @@
+{% assign technical-reports = site.data.data.technical-reports %}
+{% if technical-reports %}
+<section class="section publications-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ technical-reports.title }}
+  </h2>
+
+  {% if technical-reports.intro %}
+  <div class="intro">
+    {{ technical-reports.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for report in technical-reports.papers %}
+  <div class="item">
+    {% if report.link %}
+      <li><a href="{{ report.link }}">{{ report.title }}</a></li>
+    {% else %}
+      <li>{{ report.title }}</li>
+    {% endif %}
+    <div class="publication-authors">{{ report.authors }}</div>
+    {% if report.supplement %}
+      <div class="publication-others">{{ report.supplement }}</div>
+    {% endif %}
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
