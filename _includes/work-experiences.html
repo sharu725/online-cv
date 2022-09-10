@@ -1,15 +1,15 @@
-{% assign educational-experiences = site.data.data.educational-experiences %}
-{% if educational-experiences %}
+{% assign work-experiences = site.data.data.work-experiences %}
+{% if work-experiences %}
 <section class="section experiences-section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-school fa-stack-1x fa-inverse"></i>
+      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
     </span>
-    {{ educational-experiences.title }}
+    {{ work-experiences.title }}
   </h2>
 
-  {% for experience in educational-experiences.info %}
+  {% for experience in work-experiences.info %}
   <div class="item">
 
     <div class="meta">
