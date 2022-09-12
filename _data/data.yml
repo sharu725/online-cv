@@ -187,7 +187,7 @@ publications:
         link: "#"
         type: journal
         authors: Deoraj V., Wells C., Pringle J., Stretch D. (2022)
-        conference: "Environmental Fluid Mechanics (submitted)"
+        conference: "Environmental Fluid Mechanics (accepted)"
 
       - title: "On A New Statistical Wave Generator Based On Atmospheric Circulation Patterns and It’s Applications to Coastal Shoreline Evolution "
         link: "https://www.sciencedirect.com/science/article/pii/S0098300421000212"
@@ -377,6 +377,8 @@ research:
       description: Ocean wave renewable energy
     - researchers: Dr Matthew Burnett, Dr Gordon O'Brien (UMP SA), Prof Aline Cotel (UMICH USA)
       description: Fish pass design and river ecology
+    - researchers: Oceanographic Research Institute (ORI)
+      description: Coral reef hydrodyanmics
 
 
 # skills:
