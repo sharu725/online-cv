@@ -3,8 +3,8 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Sean Billups
@@ -32,40 +32,28 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Dedicated and focused IT professional with 4 years of experience determined to provide quality service and solutions in the IT industry. 
+      A strong desire to learn anything and everything new in the technical field; always looking for ways to improve on my existing knowledge and skills.
 education:
     title: Education
     info:
       - Field of Study: English - Journalism
         university: University of Houston
         time: 2010 - 2014
-        
+
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Field Engineer
+        time: 2015-2016
+        company: Hewlett Packard
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+            Responsible for imaging and deploying new Desktop/Laptops as well as their associated peripherals to sites as well as installing and configuration of VOIP phones, laser & dot matrix printers and networking equipment.
+            Provided local IT Support to our integrated operations center, resolving issues with hardware, software & rudimentary network issues.
+            Updated asset management systems and helped maintain a local spreadsheet when verifying all assets on campus.
+      - role: IT Technician
+        time: 2016 - 2017
+        company: American Airlines 
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -74,9 +62,9 @@ experiences:
           pellentesque eu, pretium quis, sem.
             - Bullet point
             - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+      - role: IT Technician II
+        time: 2018 - 2019
+        company: American Airlines
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -91,10 +79,10 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Diagnosing and resolving software
+        level: 90%
 
-      - name: Javascript & jQuery
+      - name: 
         level: 98%
 
       - name: Angular
