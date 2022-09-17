@@ -40,10 +40,12 @@ career-profile:
     title: Career Profile
     summary: |
       Majoring in robotics, machine learning and deep learning at Ogata Lab, and working as a backend engineer in Knowns.
-      At university, I am researching soft robots which generate complex behaviors and manipulated them by using deep learning algorithms. In addition, I have hands-on experience in developing hardware models in Fusion 360.
-      As a backend engineer, I tackle with cloud maintenance and its operations. Especially, I am interested in data engineering which perform data managiment and data analysis through some machine learning algorithms. 
 
-Fortunately, my research environment is quite international even in Japan. This experience has improved my English skills as native Japanese speaker. After completing a master's degree, I want to work globaly as a backend enginner.
+      At university, I am researching soft robots which generate complex behaviors and manipulated them by using deep learning algorithms. In addition, I have hands-on experience in developing hardware models in Fusion 360.
+
+      As a backend engineer, I tackle with cloud maintenance and its operations. Especially, I am interested in data engineering which perform data managiment and data analysis through some machine learning algorithms. 
+      
+      Fortunately, my research environment is quite international even in Japan. This experience has improved my English skills as native Japanese speaker. After completing a master's degree, I want to work globaly as a backend enginner.
 education:
     - degree: MSc in Fundamental Science and Engineering
       university: Waseda University
@@ -67,14 +69,14 @@ experiences:
       time: Aug 2022 - Sep 2022
       company: Sony, Tokyo
       details: |
-        Working in Sony.
+        Developing UWB positioning system in Sony. 
         - Python
     
     - role: Software Engineer
       time: Ang 2022 - Aug 2022
       company: Rakuten, Tokyo
       details: |
-        Woiking in Rakuten. 
+        Implementing a web application in Rakuten. I focused on database management and backend programming here. 
         - Javacsript, Python, SQL
         - React, Flask, MySQL
 
