@@ -123,10 +123,10 @@ publications:
     intro: |
       
     papers:
-      - title: None
-        link: "#"
-        authors: None
-        conference: None
+      - title: "Design of 3-dof 2-link inflatable collaborative robot arm with internal drop stitch structure"
+        link: "https://www.rsj.or.jp/"
+        authors: Gangadhara Naga Sai, Masato Nagashima, Hiroki Mori, Seong Young Ah, Hiroki Sato, Ryuma Niiyama, Testuya OgataR
+        conference: RSJ 2022
 
 skills:
     title: Skills &amp; Proficiency
