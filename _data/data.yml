@@ -66,6 +66,7 @@ education:
 
 experiences:
     - role: Software Engineer
+      link: https://www.sonyjobs.com/internships.html
       time: Aug 2022 - Sep 2022
       company: Sony, Tokyo
       details: |
@@ -73,6 +74,7 @@ experiences:
         - Python
     
     - role: Software Engineer
+      link: https://corp.rakuten.co.jp/careers/graduates/internship/2022-summer/
       time: Ang 2022 - Aug 2022
       company: Rakuten, Tokyo
       details: |
@@ -81,6 +83,7 @@ experiences:
         - React, Flask, MySQL
 
     - role: Software Engineer
+      link: https://knowns.co.jp/
       time: May 2022 - Present
       company: Knowns, Tokyo
       details: |
@@ -90,6 +93,7 @@ experiences:
           - Spring Boot, AWS, Git, SQL
           
     - role: Research Assistant
+      link: https://www.mhi.com/jp
       time: April 2021 - May 2022
       company: Mitsubishi Heavy Institute, Tokyo
       details: |
