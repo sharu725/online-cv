@@ -48,27 +48,28 @@ experiences:
         time: 2015-2016
         company: Hewlett Packard
         details: |
-            Responsible for imaging and deploying new Desktop/Laptops as well as their associated peripherals to sites as well as installing and configuration of VOIP phones, laser & dot matrix printers and networking equipment.
-            Provided local IT Support to our integrated operations center, resolving issues with hardware, software & rudimentary network issues.
-            Updated asset management systems and helped maintain a local spreadsheet when verifying all assets on campus.
+          ● Responsible for imaging and deploying new Desktop/Laptops as well as their associated peripherals to sites as well as installing and configuration of VOIP phones, laser & dot matrix printers and networking equipment. |
+          ● Provided local IT Support to our integrated operations center. |
+          ● Resolved issues with hardware, software & rudimentary network issues. |
+          ● Updated asset management systems and helped maintain team's local database of all assets on campus. 
       - role: IT Technician
         time: 2016 - 2017
         company: American Airlines 
         details: |
           ● Hardware/Peripherals/VOIP diagnosing, repair and maintenance, WAN/LAN troubleshooting, Cisco
-            Distribution/Access switch management and installs
+            Distribution/Access switch management and installs |          
           ● Resolution of user hardware/software issues on-site and remote, Asset management and EOL retirement, Kiosk and POS
-            maintenance
-          ● SABRE user management and troubleshooting, Lync/Skype, Office suite, Regedit, WMI
+            maintenance |
+          ● SABRE user management and troubleshooting, Lync/Skype, Office suite, Regedit, WMI |
 
       - role: IT Technician II
         time: 2018 - 2019
         company: American Airlines
         details: |
          ● Project management/coordinator, team lead, Asset tracking & verification, on-site maintenance, disaster recovery and
-         liaison to other IT OPS teams
+         liaison to other IT OPS teams |
          ● SLA creation, escalation, resolution, Disaster recovery, Hardware/software testing, implementation and overseeing local
-         deployment of both
+         deployment of both |
          ● Cloud migration and backups, TPM setup and resolution, software provisioning, WSUS, Debug logging, ConfigMgr
 
 
