@@ -22,12 +22,15 @@ sidebar:
       info:
         - item: Travelling
           link: https://www.youtube.com/watch?v=EjhhUvN2awU
+          favico: /assets/images/share.jpg
 
         - item: College Football
           link: https://uhcougars.com/sports/football
+          favico: /assets/images/share.jpg
 
         - item: Experimenting with the newest tech
-          link: https://beta.dreamstudio.ai/
+          link: https://beta.dreamstudio.ai/ 
+          favico: /assets/images/share.jpg
 
 career-profile:
     title: Career Profile
