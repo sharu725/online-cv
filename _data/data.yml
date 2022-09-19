@@ -55,47 +55,22 @@ experiences:
         time: 2016 - 2017
         company: American Airlines 
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          ● Hardware/Peripherals/VOIP diagnosing, repair and maintenance, WAN/LAN troubleshooting, Cisco
+            Distribution/Access switch management and installs
+          ● Resolution of user hardware/software issues on-site and remote, Asset management and EOL retirement, Kiosk and POS
+            maintenance
+          ● SABRE user management and troubleshooting, Lync/Skype, Office suite, Regedit, WMI
+
       - role: IT Technician II
         time: 2018 - 2019
         company: American Airlines
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+         ● Project management/coordinator, team lead, Asset tracking & verification, on-site maintenance, disaster recovery and
+         liaison to other IT OPS teams
+         ● SLA creation, escalation, resolution, Disaster recovery, Hardware/software testing, implementation and overseeing local
+         deployment of both
+         ● Cloud migration and backups, TPM setup and resolution, software provisioning, WSUS, Debug logging, ConfigMgr
 
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Diagnosing and resolving software
-        level: 90%
-
-      - name: 
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
