@@ -10,7 +10,7 @@
     {% for interest in interests.info %}
 
       {% if interest.link %}
-      <li><a href="{{ interest.link }}">{{ interest.item }}</a></li>
+      <li><a href="{{ interest.link }}">{{ interest.item }}<i class="fas fa-passport"></i></a></li>
       {% else %}
       <li>{{ interest.item }}</li>
       {% endif %}
