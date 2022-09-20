@@ -24,7 +24,7 @@ sass:
 # Build settings
 compress-site: yes
 
-encoding: "utf-8"
+encoding: "UTF-8"
 compress_html: # - http://jch.penibelst.de/
   clippings: all
   ignore:

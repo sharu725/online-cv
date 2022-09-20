@@ -20,7 +20,7 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Travelling
+        - item: Travelling <i class="fas fa-football"></i>
           link: https://www.youtube.com/watch?v=EjhhUvN2awU
           
 
