@@ -151,7 +151,8 @@ p {
   .interests-list {
     margin-bottom: 0;
     li {
-      margin-bottom: 10px;
+      display: block;
+      padding: 20px;
       &:last-child {
         margin-bottom: 0;
       }
