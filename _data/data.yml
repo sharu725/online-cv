@@ -3,92 +3,93 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Sean Billups
-    tagline: IT Technician II
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Sean Billups
+  tagline: IT Technician II
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: slbillups@pm.me
-    phone: 972 345 1642
-    timezone: America/CST Timezone
-    github: slbillups
+  # Sidebar links
+  email: slbillups@pm.me
+  phone: 972 345 1642
+  timezone: America/CST Timezone
+  github: slbillups
 
-    interests:
-      title: Interests
-      info:
-        - item: Travelling <i class="fas fa-football"></i>
-          link: https://www.youtube.com/watch?v=EjhhUvN2awU
-          
+  interests:
+    title: Interests
+    info:
+      - item: Travelling
+        link: https://www.youtube.com/watch?v=EjhhUvN2awU
+        image: assets/plugins/font-awesome/svgs/solid/passport.svg
 
-        - item: College Football
-          link: https://uhcougars.com/sports/football
-          
+      - item: College Football
+        link: https://uhcougars.com/sports/football 
+        image: assets/plugins/font-awesome/svgs/solid/football.svg
+      
 
-        - item: Experimenting with the newest tech
-          link: https://beta.dreamstudio.ai/ 
+
+      - item: Experimenting with the newest tech
+        link: https://beta.dreamstudio.ai/
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Dedicated and focused IT professional with 4 years of experience determined to provide quality service and solutions in the IT industry. 
-      A strong desire to learn anything and everything new in the technical field; always looking for ways to improve on my existing knowledge and skills.
+  title: Career Profile
+  summary: |
+    Dedicated and focused IT professional with 4 years of experience determined to provide quality service and solutions in the IT industry. 
+    A strong desire to learn anything and everything new in the technical field; always looking for ways to improve on my existing knowledge and skills.
 education:
-    title: Education
-    info:
-      - Field of Study: English - Journalism
-        university: University of Houston
-        time: 2010 - 2014
+  title: Education
+  info:
+    - Field of Study: English - Journalism
+      university: University of Houston
+      time: 2010 - 2014
 
 experiences:
-    title: Experiences
-    info:
-      - role: Field Engineer
-        time: 2015-2016
-        company: Hewlett Packard
-        details: |
-          ● Responsible for imaging and deploying new Desktop/Laptops as well as their associated peripherals to sites as well as installing and configuration of VOIP phones, laser & dot matrix printers and networking equipment. |
+  title: Experiences
+  info:
+    - role: Field Engineer
+      time: 2015-2016
+      company: Hewlett Packard
+      details: |
+        ● Responsible for imaging and deploying new Desktop/Laptops as well as their associated peripherals to sites as well as installing and configuration of VOIP phones, laser & dot matrix printers and networking equipment. |
 
 
-          ● Provided local IT Support to our integrated operations center.
-          
-
-          ● Resolved issues with hardware, software & rudimentary network issues.
+        ● Provided local IT Support to our integrated operations center.
 
 
-          ● Updated asset management systems and helped maintain team's local database of all assets on campus. 
-
-      - role: IT Technician
-        time: 2016 - 2017
-        company: American Airlines 
-        details:  |
-      
-          ● Hardware/Peripherals/VOIP diagnosing, repair and maintenance, WAN/LAN troubleshooting, Cisco
-          Distribution/Access switch management and installs 
+        ● Resolved issues with hardware, software & rudimentary network issues.
 
 
-          ● Resolution of user hardware/software issues on-site and remote, Asset management and EOL retirement, Kiosk and POS
-          maintenance
-         
-          ● SABRE user management and troubleshooting, Lync/Skype, Office suite, Regedit, WMI 
+        ● Updated asset management systems and helped maintain team's local database of all assets on campus.
 
-      - role: IT Technician II
-        time: 2018 - 2019
-        company: American Airlines
-        details:  |
-         ● Project management/coordinator, team lead, Asset tracking & verification, on-site maintenance, disaster recovery and
-         liaison to other IT OPS teams
+    - role: IT Technician
+      time: 2016 - 2017
+      company: American Airlines
+      details: |
+
+        ● Hardware/Peripherals/VOIP diagnosing, repair and maintenance, WAN/LAN troubleshooting, Cisco
+        Distribution/Access switch management and installs 
 
 
-         ● SLA creation, escalation, resolution, Disaster recovery, Hardware/software testing, implementation and overseeing local
-         deployment of both 
+        ● Resolution of user hardware/software issues on-site and remote, Asset management and EOL retirement, Kiosk and POS
+        maintenance
+
+        ● SABRE user management and troubleshooting, Lync/Skype, Office suite, Regedit, WMI
+
+    - role: IT Technician II
+      time: 2018 - 2019
+      company: American Airlines
+      details: |
+        ● Project management/coordinator, team lead, Asset tracking & verification, on-site maintenance, disaster recovery and
+        liaison to other IT OPS teams
 
 
-         ● Cloud migration and backups, TPM setup and resolution, software provisioning, WSUS, Debug logging, ConfigMgr
+        ● SLA creation, escalation, resolution, Disaster recovery, Hardware/software testing, implementation and overseeing local
+        deployment of both 
 
+
+        ● Cloud migration and backups, TPM setup and resolution, software provisioning, WSUS, Debug logging, ConfigMgr
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
