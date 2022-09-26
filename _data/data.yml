@@ -68,7 +68,7 @@ experiences:
     - role: Internship at Sony
       link: https://www.sonyjobs.com/internships.html
       time: Aug 2022 - Sep 2022
-      company: Sony, Tokyo
+      company: Tokyo
       details: |
         Developing UWB positioning system in Sony Summer Internship. This development were supported by NaviCX Engineering Team in FeliCa Divison.
         - Python
@@ -76,7 +76,7 @@ experiences:
     - role: Internship at Rakuten
       link: https://corp.rakuten.co.jp/careers/graduates/internship/2022-summer/
       time: Ang 2022 - Aug 2022
-      company: Rakuten, Tokyo
+      company: Tokyo
       details: |
         Implementing a web application in Rakuten Summer Internship. I focused on database management and backend programming here. 
         - Javacsript, Python, SQL
@@ -85,7 +85,7 @@ experiences:
     - role: Backend Engineer at Knowns
       link: https://knowns.co.jp/
       time: May 2022 - Present
-      company: Knowns, Tokyo
+      company: Tokyo
       details: |
         Working as a backend engineer at Knowns. 
         I am responsible for data management on AWS Redshift and backend development with Spring Boot.
@@ -95,7 +95,7 @@ experiences:
     - role: Research Assistant
       link: https://www.mhi.com/jp
       time: April 2021 - May 2022
-      company: Mitsubishi Heavy Institute, Tokyo
+      company: Tokyo
       details: |
         Working on a research project controlling robots with deep learning models.
         I was responsible for all aspects of software development including data collection algorithm, 
