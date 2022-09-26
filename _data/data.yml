@@ -65,7 +65,7 @@ education:
 
 
 experiences:
-    - role: Software Engineer
+    - role: Internship at Sony
       link: https://www.sonyjobs.com/internships.html
       time: Aug 2022 - Sep 2022
       company: Sony, Tokyo
@@ -73,7 +73,7 @@ experiences:
         Developing UWB positioning system in Sony Summer Internship. This development were supported by NaviCX Engineering Team in FeliCa Divison.
         - Python
     
-    - role: Software Engineer
+    - role: Internship at Rakuten
       link: https://corp.rakuten.co.jp/careers/graduates/internship/2022-summer/
       time: Ang 2022 - Aug 2022
       company: Rakuten, Tokyo
@@ -82,7 +82,7 @@ experiences:
         - Javacsript, Python, SQL
         - React, Flask, MySQL
 
-    - role: Software Engineer
+    - role: Backend Engineer at Knowns
       link: https://knowns.co.jp/
       time: May 2022 - Present
       company: Knowns, Tokyo
