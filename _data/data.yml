@@ -7,27 +7,27 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: David Agito
+    tagline: Unity Developer
+    avatar: shrekpng.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: davidagito8@gmail.com
+    # phone: 012 345 6789
+    # timezone: America/Cancun Timezone
+    # citizenship: Philippines
+    # website: blog.webjeda.com #do not add http://
+    # linkedin: alandoe
+    # xing: alandoe
+    github: obsidian-lobster
+    # telegram: # add your nickname without '@' sign
+    # gitlab:
+    # bitbucket:
+    # twitter: '@webjeda'
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
+    # pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
@@ -56,12 +56,12 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Knowledgeable professional with a background in game development using Unity3D.
+      A developer with passion in game development. Values good game aesthetics, gameplay,
+      and quality.
+      Creates flexible, and human readable code. Follows existing architecture thoroughly or,
+      establishes an easy to follow architecture with MVC.
+
 education:
     title: Education
     info:
@@ -90,43 +90,38 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Unity Game Developer
+        time: 2021 - Present
+        company: Peach Pop Games, Metro Manila
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+          (ADD INFO ON THIS LATER)
       - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+        time: 2020 - 2021
+        company: Sprobe, Remote
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Considered as senior software engineer, however my skills are specialized with Game Development using 
+          Unity3D. Work with team or solo working on client game projects (mostly hypercasual).
+      - role: Unity Game Developer
+        time: 2019 - 2020
+        company: PlayX, Remote
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          I worked as a full time game developer that focuses on casual games for mobile. Focused on delivering 
+          quick prototypes, and flexible code for rapid changes. Worked on making mobile builds for Android and IOS.
+      - role: Unity Game Developer
+        time: 2018 - 2019
+        company: 3w Global Corp., Remote
+        details: |
+           I’ve worked as a full time game developer that provides the required development tasks by the
+           company. Working on games that are to be updated, and optimized. Occasionally used Adobe Illustrator 
+           and Photoshop to create basic 2D game assets.
+      - role: Software Engineer
+        time: 2017 - 2018
+        company: Accenture, Metro Manila
+        details: |
+          Rapidly prototyped new data processing capabilities to confirm integration feasibility into existing
+          systems. Worked closely with software development and testing team members to design and develop robust
+          API Integration solutions to meet client requirements for functionality, scalability and performance.
+
 projects:
     title: Projects
     intro: >
