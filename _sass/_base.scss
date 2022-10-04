@@ -221,6 +221,13 @@ p {
     .item {
       margin-bottom: 15px;
     }
+    .gifs {
+      max-width: 450px;
+      max-height: 450px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 
   .publication-title {
