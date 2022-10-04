@@ -110,22 +110,27 @@ projects:
       - title: Velocity
         link: "#hook"
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        gif: test.gif
 
       - title: DevStudio
         link: "#"
         tagline: "A responsive website template designed to help web developers/designers market their services."
+        gif: test.gif
 
       - title: Tempo
         link: "#"
         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        gif: test.gif
 
       - title: Atom
         link: "#"
         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        gif: test.gif
 
       - title: Delta
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        gif: test.gif
 
 skills:
     title: Skills &amp; Proficiency
