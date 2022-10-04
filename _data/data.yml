@@ -107,30 +107,62 @@ projects:
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
+
+        # Mobile
+
+      - title: Bounce It!
+        link: "https://www.youtube.com/watch?v=TbyUfLzTHtQ"
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
-        gif: test.gif
+        gif: bounceit.gif
 
-      - title: DevStudio
-        link: "#"
+      - title: Make Me Fraud
+        link: "https://www.youtube.com/watch?v=rbwLe01b1kc"
         tagline: "A responsive website template designed to help web developers/designers market their services."
-        gif: test.gif
+        gif: makemefraud.gif
 
-      - title: Tempo
-        link: "#"
+      - title: Slow mo ninja stars
+        link: "https://www.youtube.com/watch?v=Y_2Y0xSQsDY"
         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-        gif: test.gif
+        gif: slowmoninjastars.gif
 
-      - title: Atom
-        link: "#"
+      - title: Jigsaw Puzzle
+        link: "https://youtu.be/6Z90rSI9EE0"
         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-        gif: test.gif
+        gif: jigsawpuzzle.gif
 
-      - title: Delta
-        link: "#"
+      - title: Hamster Biter
+        link: "https://youtu.be/9FNofIshLzQ"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-        gif: test.gif
+        gif: hamsterbiter.gif
+
+      - title: Zoo Life
+        link: "https://youtu.be/Cld5-OavPvM"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        
+      - title: Cocktails Please!
+        link: "https://youtu.be/NApFyy0vCAI"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        
+      - title: Surfing Master
+        link: "https://youtu.be/fH2SY_2t3zo"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        
+        # PC
+
+      - title: Car Chase Simulator
+        link: "https://www.youtube.com/watch?v=wXjvM7bzWuQ"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        gif: racinggame.gif
+
+      - title: Beer Brewing Game
+        link: "https://youtu.be/9NQyhB_VsJo"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+        # Tools
+
+      - title: Hex World Creator / Editor
+        link: "https://youtu.be/uuX-5VeZEKI"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 skills:
     title: Skills &amp; Proficiency
