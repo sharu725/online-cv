@@ -25,7 +25,7 @@ sidebar:
     #stack-overflow: # Number/Username
     #codewars:
     #goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: https://kfilannp.files.wordpress.com/2022/10/kelly-filan-rn-resume.doc.pdf
 
     languages:
       title: Languages
@@ -46,6 +46,9 @@ sidebar:
           link:
 
         - item: Crafting Miniatures
+          link:
+
+        - item: Hiking
           link:
 
         - item: My Savannah cat ("Nairobi")
@@ -102,39 +105,29 @@ experiences:
         time: 2018 - Present
         company: Chicago Public Schools
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+          - Creates and provides direct and consultative nursing services to students with disabilities as delineated in
+            IEP/504 plans to address the physical, mental, emotional, and social health needs of students to support their
+            achievement.
+          - Provides and delegates to licensed personnel direct professional nursing services, first aid, illness, medication
+            administration, and emergency care to students.
+          - Supports student success by providing health care through assessment, intervention, and follow-up for all
+            children within the school setting.
+          - Develop individualized healthcare plans for students with chronic illnesses and disabilities.
       - role: Staff Nurse, Inpatient Psychiatry
         time: 2015 - 2017
         company: NorthShore University Health Systems - Evanston Hospital
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          - Provided acute, in-patient psychiatric care on an adult mental health unit with a culturally competent, high standard of care.
+          - Provided scheduled and emergency medications, initiated and promptly responded to various codes, and
+            admitted and discharged patients on a regular basis.
+          - Excellent competence with the EPIC computer system.
       - role: Medical/Office Assistant 
         time: 2010 - 2013
         company: Skokie, IL
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          - Provided customer service during in-office visits, scheduled and managed patient appointments, assembled
+            and filed medical charts, and participated in the conversion to electronic medical records (EPIC software).
+          - Assisted in the exam rooms during minor office procedures.
 # projects:
     # title: Projects
     # intro: >
