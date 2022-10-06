@@ -1,15 +1,9 @@
-{% assign cat-profile = site.data.data.cat-profile %}
-{% if cat-profile %}
-<head>
-
-    <title>Test xScript</Img></title>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-
-</head>
-
-<body>
-
-    <div id="cat"></div>
+{% assign cat = site.data.data.cat %}
+{% if cat %}
+    {% if site.data.data.sidebar.cat %}
+    <div id="cat">
+        
+    </div>
 
     <script>
 
@@ -19,9 +13,6 @@
     var div = document.getElementById("cat");
     div.appendChild(img);
     //block.setAttribute("style", "text-align:center");
-
-    </script>
-
-</body>
+</script>
 {% endif %}
 </html>
