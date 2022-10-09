@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\_data"
+    "\\assets\\js\\min",
+    "\\_data",
+    "\\_includes",
+    "\\_layouts",
+    "\\_sass"
   ],
+  "SelectedNode": "\\_sass\\_base.scss",
   "PreviewInSolutionExplorer": false
 }
