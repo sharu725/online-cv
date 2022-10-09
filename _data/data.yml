@@ -75,7 +75,7 @@ experiences:
         time: 2021 - Present
         company: Peach Pop Games, Metro Manila
         details: |
-          (ADD INFO ON THIS LATER)
+          Currently working for a startup company working on a Rouge-lite Deckbuilder game for PC.
       - role: Senior Software Engineer
         time: 2020 - 2021
         company: Sprobe, Remote
@@ -115,40 +115,40 @@ projects:
 
       - title: Bounce It!
         link: "https://www.youtube.com/watch?v=TbyUfLzTHtQ"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: "Worked with a brilliant game designer and artist to build this beautiful casual game on mobile"
         gif: bounceit.gif
 
       - title: Make Me Fraud
         link: "https://www.youtube.com/watch?v=rbwLe01b1kc"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "A disguise game where you change the looks of your client so they can get through security. This game was able to pass CTR test and was eventually released on the appstore."
         gif: makemefraud.gif
 
       - title: Slow mo ninja stars
         link: "https://www.youtube.com/watch?v=Y_2Y0xSQsDY"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "Worked with a brilliant game designer and artist to build this beautiful casual game on mobile"
         gif: slowmoninjastars.gif
 
       - title: Jigsaw Puzzle
         link: "https://youtu.be/6Z90rSI9EE0"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: "Worked on this casual mobile game for a japanese client. The game is designed to be relaxing to play."
         gif: jigsawpuzzle.gif
 
       - title: Hamster Biter
         link: "https://youtu.be/9FNofIshLzQ"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "A cute casual mobile game where you dress up your hamster and help them eat."
         gif: hamsterbiter.gif
 
       - title: Zoo Life
         link: "https://youtu.be/Cld5-OavPvM"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "An idle casual game inspired by cats and soup. Animals can collect resources and build buildings inorder to rebuild the destroyed zoo."
         
       - title: Cocktails Please!
         link: "https://youtu.be/NApFyy0vCAI"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "A water sorting puzzle game where you transfer the contents from glass to glass to match the colors. URP Shader Graph was used to make the pouring effect."
         
       - title: Surfing Master
         link: "https://youtu.be/fH2SY_2t3zo"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "A funny 3D posing game inspired by Couples Yoga. You arrange the limbs of the surfer midair to achieve the correct poses."
         
         # PC
 
