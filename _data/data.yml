@@ -5,6 +5,7 @@
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
+
     # Profile information
     name: Wietze Suijker
     tagline: Product Architect
@@ -17,199 +18,199 @@ sidebar:
     linkedin: wietze-suijker
     github: wietzesuijker
 
-    languages:
-      - idiom: Dutch
-        level: Native
+languages:
+  - idiom: Dutch
+    level: Native
 
-      - idiom: English
-        level: Professional
-      
-      - idiom: German
-        level: Intermediate (pre-university education)
-      
-      - idiom: French
-        level: Intermediate (pre-university education)
+  - idiom: English
+    level: Professional
+  
+  - idiom: German
+    level: Intermediate (pre-university education)
+  
+  - idiom: French
+    level: Intermediate (pre-university education)
 
-    interests:
-      - item: Cycling
-        link: "https://strava.com/athletes/8615720"
+interests:
+  - item: Cycling
+    link: "https://strava.com/athletes/8615720"
+    
+  - item: Technology
+    link: "https://tweakers.net/"
+
+  - item: Wildlife &amp; travelling
+    link: "https://www.imdb.com/title/tt6669028/"
+    
+  - item: Food cultures
+    link: "https://www.youtube.com/c/MarkWiens"
+
+career-profile:
+    title: Career Profile
+    summary: |
+      I develop machine learning workflows and innovative IT solutions to provide satellite data products at scale. I have a passion for geospatial technology, and aim to continuously improve my data science skills, be a trustworthy colleague and deliver sustainable results.
+education:
+    - degree: MSc in Geo-information management &amp; applications
+      university: >
+        Wageningen University &amp; Research, Delft University of Technology, Utrecht University, University of Twente (ITC)
         
-      - item: Technology
-        link: "https://tweakers.net/"
-
-      - item: Wildlife &amp; travelling
-        link: "https://www.imdb.com/title/tt6669028/"
+      time: 2014 - 2016
+      details: "Thesis: Characterising Forest Gain and Related Carbon Sequestration"
+    - degree: BSc in Human Geography
+      university: Utrecht University
+      time: 2011 - 2014
+      details: "Specializations: GIS &amp; sustainable development"
+experiences:
+    - role: Product Architect
+      time: 2020 - Present
+      company: Space Intelligence, Edinburgh
+      details: |
+        Wietze develops machine learning workflows and innovative IT solutions to provide satellite data products at scale. 
         
-      - item: Food cultures
-        link: "https://www.youtube.com/c/MarkWiens"
-
-    career-profile:
-        title: Career Profile
-        summary: |
-          I develop machine learning workflows and innovative IT solutions to provide satellite data products at scale. I have a passion for geospatial technology, and aim to continuously improve my data science skills, be a trustworthy colleague and deliver sustainable results.
-    education:
-        - degree: MSc in Geo-information management &amp; applications
-          university: >
-            Wageningen University &amp; Research, Delft University of Technology, Utrecht University, University of Twente (ITC)
-            
-          time: 2014 - 2016
-          details: "Thesis: Characterising Forest Gain and Related Carbon Sequestration"
-        - degree: BSc in Human Geography
-          university: Utrecht University
-          time: 2011 - 2014
-          details: "Specializations: GIS &amp; sustainable development"
-    experiences:
-        - role: Product Architect
-          time: 2020 - Present
-          company: Space Intelligence, Edinburgh
-          details: |
-            Wietze develops machine learning workflows and innovative IT solutions to provide satellite data products at scale. 
-            
-        - role: GIS Specialist
-          time: 2016 - 2020
-          company: Nelen &amp; Schuurmans, Utrecht
-          details: |
-            After his MSc in GIS, Wietze worked in a Water & IT company in Utrecht. He has been the technical lead in a range of satellite data-driven projects, providing real-time insights to small-holder farmers in Bangladesh, Indonesia and Vietnam.
-            
-        - role: Initiator of PyCons (Python Consultants)
-          time: 2018 - 2020
-          details: |
-            Python Consultants is a team that Wietze established within Nelen & Schuurmans. The team enables technical consultants to build open-source IT tools, that follow developer conventions.
-            
-    projects:
-        title: Projects &amp; Roles
-        assignments:
-          - title: "CarbonMapper (2020-present)"
-            link: "https://www.space-intelligence.com/carbonmapper-biomass-estimates/"
-            tagline: "Technical lead productizing, developing and delivering CarbonMapper, predomintanly in the tropics."
-
-          - title: "HabitatMapper (2020-present)"
-            link: "https://www.space-intelligence.com/carbonmapper-biomass-estimates/"
-            tagline: "Technical lead productizing, developing and delivering HabitatMapper, predomintanly in the tropics."
-
-          - title: "NBS Opportunity Mapping Scotland (2020-2021)"
-            link: "https://www.space-intelligence.com/scotland-landcover/"
-            tagline: "Developed an interactive weighting web-app to create user-specific opportunity maps."
-            
-          - title: "Heat stress mapping & <u>interactive tool</u> (2019-2020)"
-            link: "https://drive.google.com/file/d/1VAOIJYxF5wfpfDsgPGypbmVkBGjn4bZO/view?usp=sharing"
-            tagline: "Implement back-end geodata model for online spatial planning tool, e.g. planting trees." 
-            
-          - title: "Reed bank monitoring (2019-2020)"
-            link: "#"
-            tagline: "Apply machine learning & deep learning image segmentation to remote sensing data." 
-            
-          - title: SmartSeeds Indonesia (2017-2020)
-            link: "https://g4aw.spaceoffice.nl/en/g4aw-projects/g4aw-projects/11/smartseeds.html"
-            tagline: "Technical architect of platform to integrate satellite data, field data and agri-models into an android app for vegetable farmers."
-            
-          - title: "Impact-based forecasting for the Red Cross (2019)"
-            link: "https://www.510.global/impact-based-forecast/"
-            tagline: "Connect flood forecasts to dashboard for humanitarian aid in Zambia."
-            
-          - title: Driver-EU (2018-2019)
-            link: "https://pos.driver-project.eu/nl/PoS/solutions/14"
-            tagline: "Disseminate flood predictions to various crisis authorities."
-                    
-          - title: ESA EO4SD (2017-2019)
-            link: "https://eo4idi.eu"
-            tagline: "Create data catalog to integrate state-of-the-art EO-based information services from eLEAF, DHI GRAS, GeoVille and Satelligence for agricultural monitoring and management by IFIs."
-            
-          - title: IDSS Bangladesh (2016-2019)
-            link: "https://fosholi.com/en/"
-            tagline: "Setup remote sensing based geodata platform to help farmers estimate actual risks for pests, diseases and floods."
-            
-          - title: Sat4Rice Vietnam (2016-2018)
-            link: "https://nelen-schuurmans.nl/en/blog/case/sat4rice-geo-information-service-for-vietnamese-rice-farmers"
-            tagline: "Integrate ODK field data collections in PostgreSQL DB using Python workflow."
-
-    skills:
-        title: Skills &amp; Proficiency
-
-        toolset:
-          - name: "Python geospatial"
-            level: 90%
-            
-          - name: "Map platforms &amp; APIs"
-            level: 90%
-
-          - name: "Python web apps (Django, Dash)"
-            level: 75%
-            
-          - name: "QGIS &amp; ArcGIS"
-            level: 90%
-            
-          - name: "PostgreSQL &amp; PostGIS"
-            level: 80%
-            
-          - name: "R programming"
-            level: 65%
-            
-          - name: "MS Office, Trello, Slack"
-            level: 95%
-
-    packages:
-        title: IT Packages
-        papers:
-          - title: CarbonMapper (2020-present)
-            link: "https://www.space-intelligence.com/carbonmapper-biomass-estimates/"
-            authors: W. Suijker, K. Bodolai, K. Desai, M. Navarro, P. Nieto Quintano
-            conference: "Python package to create CarbonMapper maps."
-
-          - title: HabitatMapper (2020-present)
-            link: "https://www.space-intelligence.com/habitatmapper-landcover-mapping/"
-            authors: W. Suijker, K. Bodolai, K. Desai, N. Rajeev Saritha
-            conference: "Python package to create HabitatMapper maps."
-
-          - title: SI (2020-present)
-            link: "#"
-            authors: K. Bodolai, K. Desai, N. Rajeev Saritha, W. Suijker, S. Gajulapalle, A. Hurley, K. Nomura
-            conference: "Space Intelligence library for functionality across products."
-
-          - title: SpiceUp labels (2020) - <u>example</u>
-            link: "https://github.com/nens/spiceup-labels#example"
-            authors: W. Suijker &amp; M. Krol
-            conference: "Model geodata to give advice in SpiceUp apps, e.g. drought warning."
+    - role: GIS Specialist
+      time: 2016 - 2020
+      company: Nelen &amp; Schuurmans, Utrecht
+      details: |
+        After his MSc in GIS, Wietze worked in a Water & IT company in Utrecht. He has been the technical lead in a range of satellite data-driven projects, providing real-time insights to small-holder farmers in Bangladesh, Indonesia and Vietnam.
         
-          - title: SARauto (2020)
-            link: "https://github.com/nens/sarauto"
-            authors: IPB university, ITC university, W. Suijker
-            conference: "Create vegetable maps from Sentinel-1 data."
-            
-          - title: dask-geomodeling (2020) - <u>Github</u>
-            link: "https://github.com/nens/dask-geomodeling"
-            authors: C. van der Wel, A. Verkerk, J.M. Vazquez Jimenez, R. van Rees &amp; W. Suijker
-            conference: "On-the-fly operations on geographical maps."
-            
-          - title: 3Di scenario downloader (2019) - <u>pypi</u>
-            link: "https://pypi.org/project/threedi-scenario-downloader/"
-            authors: E. Verstegen, W. Suijker
-            conference: "Python package to download 3Di results."
+    - role: Initiator of PyCons (Python Consultants)
+      time: 2018 - 2020
+      details: |
+        Python Consultants is a team that Wietze established within Nelen & Schuurmans. The team enables technical consultants to build open-source IT tools, that follow developer conventions.
         
-          - title: SMAP import (2019, private access)
-            link: "https://github.com/nens/lizard-smap-import"
-            authors: W. Suijker
-            conference: "Feed Lizard mapping platform with global soil moisture data."
-        
-          - title: Lizard Raster Reducer (2019) - <u>pypi</u>
-            link: "https://pypi.org/project/lizard-raster-reducer/"
-            authors: W. Suijker
-            conference: "Auto-generate regional reports from Lizard data."
-            
-          - title: Django Local Processing Server (2018 &amp; 2020)
-            link: "https://github.com/nens/lps-indonesia"
-            authors: W. Suijker, Roos Geosolutions &amp; R. van Rees
-            conference: "REST API to post rasters, run models, and publish through GCP."
+projects:
+    title: Projects &amp; Roles
+    assignments:
+      - title: "CarbonMapper (2020-present)"
+        link: "https://www.space-intelligence.com/carbonmapper-biomass-estimates/"
+        tagline: "Technical lead productizing, developing and delivering CarbonMapper, predomintanly in the tropics."
 
-    publications:
-        title: Publications
-        papers:
-          - title: Temporal and spatial aggregation of NDVI to predict rice yields (2018)
-            link: "https://doi.org/10.1117/12.2319189"
-            authors: W. Suijker &amp; E. Aparicio Medrano
-            conference: "SPIE 10783, Remote Sensing for Agriculture, Ecosystems, and Hydrology."
-            
-          - title: Sat4Rice feeds Vietnam with geo-information (2018)
-            link: "https://geoinformatienederland.nl/system/files/documents/Def%20drukproef%20Geo%20Info%204-2018%20LR.pdf"
-            authors: W. Suijker &amp; A. Hoff
-            conference: "Geo-informatie Nederland 2018-4, pp. 56-59 (in Dutch)."
+      - title: "HabitatMapper (2020-present)"
+        link: "https://www.space-intelligence.com/carbonmapper-biomass-estimates/"
+        tagline: "Technical lead productizing, developing and delivering HabitatMapper, predomintanly in the tropics."
+
+      - title: "NBS Opportunity Mapping Scotland (2020-2021)"
+        link: "https://www.space-intelligence.com/scotland-landcover/"
+        tagline: "Developed an interactive weighting web-app to create user-specific opportunity maps."
+        
+      - title: "Heat stress mapping & <u>interactive tool</u> (2019-2020)"
+        link: "https://drive.google.com/file/d/1VAOIJYxF5wfpfDsgPGypbmVkBGjn4bZO/view?usp=sharing"
+        tagline: "Implement back-end geodata model for online spatial planning tool, e.g. planting trees." 
+        
+      - title: "Reed bank monitoring (2019-2020)"
+        link: "#"
+        tagline: "Apply machine learning & deep learning image segmentation to remote sensing data." 
+        
+      - title: SmartSeeds Indonesia (2017-2020)
+        link: "https://g4aw.spaceoffice.nl/en/g4aw-projects/g4aw-projects/11/smartseeds.html"
+        tagline: "Technical architect of platform to integrate satellite data, field data and agri-models into an android app for vegetable farmers."
+        
+      - title: "Impact-based forecasting for the Red Cross (2019)"
+        link: "https://www.510.global/impact-based-forecast/"
+        tagline: "Connect flood forecasts to dashboard for humanitarian aid in Zambia."
+        
+      - title: Driver-EU (2018-2019)
+        link: "https://pos.driver-project.eu/nl/PoS/solutions/14"
+        tagline: "Disseminate flood predictions to various crisis authorities."
+                
+      - title: ESA EO4SD (2017-2019)
+        link: "https://eo4idi.eu"
+        tagline: "Create data catalog to integrate state-of-the-art EO-based information services from eLEAF, DHI GRAS, GeoVille and Satelligence for agricultural monitoring and management by IFIs."
+        
+      - title: IDSS Bangladesh (2016-2019)
+        link: "https://fosholi.com/en/"
+        tagline: "Setup remote sensing based geodata platform to help farmers estimate actual risks for pests, diseases and floods."
+        
+      - title: Sat4Rice Vietnam (2016-2018)
+        link: "https://nelen-schuurmans.nl/en/blog/case/sat4rice-geo-information-service-for-vietnamese-rice-farmers"
+        tagline: "Integrate ODK field data collections in PostgreSQL DB using Python workflow."
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: "Python geospatial"
+        level: 90%
+        
+      - name: "Map platforms &amp; APIs"
+        level: 90%
+
+      - name: "Python web apps (Django, Dash)"
+        level: 75%
+        
+      - name: "QGIS &amp; ArcGIS"
+        level: 90%
+        
+      - name: "PostgreSQL &amp; PostGIS"
+        level: 80%
+        
+      - name: "R programming"
+        level: 65%
+        
+      - name: "MS Office, Trello, Slack"
+        level: 95%
+
+packages:
+    title: IT Packages
+    papers:
+      - title: CarbonMapper (2020-present)
+        link: "https://www.space-intelligence.com/carbonmapper-biomass-estimates/"
+        authors: W. Suijker, K. Bodolai, K. Desai, M. Navarro, P. Nieto Quintano
+        conference: "Python package to create CarbonMapper maps."
+
+      - title: HabitatMapper (2020-present)
+        link: "https://www.space-intelligence.com/habitatmapper-landcover-mapping/"
+        authors: W. Suijker, K. Bodolai, K. Desai, N. Rajeev Saritha
+        conference: "Python package to create HabitatMapper maps."
+
+      - title: SI (2020-present)
+        link: "#"
+        authors: K. Bodolai, K. Desai, N. Rajeev Saritha, W. Suijker, S. Gajulapalle, A. Hurley, K. Nomura
+        conference: "Space Intelligence library for functionality across products."
+
+      - title: SpiceUp labels (2020) - <u>example</u>
+        link: "https://github.com/nens/spiceup-labels#example"
+        authors: W. Suijker &amp; M. Krol
+        conference: "Model geodata to give advice in SpiceUp apps, e.g. drought warning."
+    
+      - title: SARauto (2020)
+        link: "https://github.com/nens/sarauto"
+        authors: IPB university, ITC university, W. Suijker
+        conference: "Create vegetable maps from Sentinel-1 data."
+        
+      - title: dask-geomodeling (2020) - <u>Github</u>
+        link: "https://github.com/nens/dask-geomodeling"
+        authors: C. van der Wel, A. Verkerk, J.M. Vazquez Jimenez, R. van Rees &amp; W. Suijker
+        conference: "On-the-fly operations on geographical maps."
+        
+      - title: 3Di scenario downloader (2019) - <u>pypi</u>
+        link: "https://pypi.org/project/threedi-scenario-downloader/"
+        authors: E. Verstegen, W. Suijker
+        conference: "Python package to download 3Di results."
+    
+      - title: SMAP import (2019, private access)
+        link: "https://github.com/nens/lizard-smap-import"
+        authors: W. Suijker
+        conference: "Feed Lizard mapping platform with global soil moisture data."
+    
+      - title: Lizard Raster Reducer (2019) - <u>pypi</u>
+        link: "https://pypi.org/project/lizard-raster-reducer/"
+        authors: W. Suijker
+        conference: "Auto-generate regional reports from Lizard data."
+        
+      - title: Django Local Processing Server (2018 &amp; 2020)
+        link: "https://github.com/nens/lps-indonesia"
+        authors: W. Suijker, Roos Geosolutions &amp; R. van Rees
+        conference: "REST API to post rasters, run models, and publish through GCP."
+
+publications:
+    title: Publications
+    papers:
+      - title: Temporal and spatial aggregation of NDVI to predict rice yields (2018)
+        link: "https://doi.org/10.1117/12.2319189"
+        authors: W. Suijker &amp; E. Aparicio Medrano
+        conference: "SPIE 10783, Remote Sensing for Agriculture, Ecosystems, and Hydrology."
+        
+      - title: Sat4Rice feeds Vietnam with geo-information (2018)
+        link: "https://geoinformatienederland.nl/system/files/documents/Def%20drukproef%20Geo%20Info%204-2018%20LR.pdf"
+        authors: W. Suijker &amp; A. Hoff
+        conference: "Geo-informatie Nederland 2018-4, pp. 56-59 (in Dutch)."
