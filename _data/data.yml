@@ -47,7 +47,7 @@ interests:
 career-profile:
     title: Career Profile
     summary: |
-      I develop machine learning workflows and innovative IT solutions to provide satellite data products at scale. I have a passion for geospatial technology, and aim to continuously improve my data science skills, be a trustworthy colleague and deliver sustainable results.
+      I develop machine learning workflows and innovative IT solutions to provide satellite data products at scale. I am passionate about geospatial technology, and aim to continuously improve my data science skills, be a trustworthy colleague and deliver sustainable results.
 education:
     - degree: MSc in Geo-information management &amp; applications
       university: >
@@ -82,11 +82,11 @@ projects:
     assignments:
       - title: "CarbonMapper (2020-present)"
         link: "https://www.space-intelligence.com/carbonmapper-biomass-estimates/"
-        tagline: "Technical lead productizing, developing and delivering CarbonMapper, predomintanly in the tropics."
+        tagline: "Technical lead productizing, developing and delivering CarbonMapper, predominantly in the tropics."
 
       - title: "HabitatMapper (2020-present)"
         link: "https://www.space-intelligence.com/carbonmapper-biomass-estimates/"
-        tagline: "Technical lead productizing, developing and delivering HabitatMapper, predomintanly in the tropics."
+        tagline: "Technical lead productizing, developing and delivering HabitatMapper, predominantly in the tropics."
 
       - title: "NBS Opportunity Mapping Scotland (2020-2021)"
         link: "https://www.space-intelligence.com/scotland-landcover/"
