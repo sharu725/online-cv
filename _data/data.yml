@@ -73,7 +73,7 @@ experiences:
     info:
       - role: Unity Game Developer
         time: 2021 - Present
-        company: Peach Pop Games, Metro Manila
+        company: Peach Pop Games, Remote
         details: |
           Currently working for a startup company working on a Rouge-lite Deckbuilder game for PC.
       - role: Senior Software Engineer
@@ -116,17 +116,17 @@ projects:
       - title: Bounce It!
         link: "https://www.youtube.com/watch?v=TbyUfLzTHtQ"
         tagline: "Worked with a brilliant game designer and artist to build this beautiful casual game on mobile"
-        gif: bounceit.gif
+        gif: bounce-it.gif
 
       - title: Make Me Fraud
         link: "https://www.youtube.com/watch?v=rbwLe01b1kc"
         tagline: "A disguise game where you change the looks of your client so they can get through security. This game was able to pass CTR test and was eventually released on the appstore."
-        gif: makemefraud.gif
+        gif: make-me-fraud.gif
 
       - title: Slow mo ninja stars
         link: "https://www.youtube.com/watch?v=Y_2Y0xSQsDY"
         tagline: "Worked with a brilliant game designer and artist to build this beautiful casual game on mobile"
-        gif: slowmoninjastars.gif
+        gif: slow-mo-ninja-stars.gif
 
       - title: Jigsaw Puzzle
         link: "https://youtu.be/6Z90rSI9EE0"
@@ -136,7 +136,7 @@ projects:
       - title: Hamster Biter
         link: "https://youtu.be/9FNofIshLzQ"
         tagline: "A cute casual mobile game where you dress up your hamster and help them eat."
-        gif: hamsterbiter.gif
+        gif: hamster-biter.gif
 
       - title: Zoo Life
         link: "https://youtu.be/Cld5-OavPvM"
@@ -144,12 +144,14 @@ projects:
         
       - title: Cocktails Please!
         link: "https://youtu.be/NApFyy0vCAI"
-        tagline: "A water sorting puzzle game where you transfer the contents from glass to glass to match the colors. URP Shader Graph was used to make the pouring effect."
-        
+        tagline: "A prototype of a water sorting puzzle game where you transfer the contents from glass to glass to match the colors. URP Shader Graph was used to make the pouring effect."
+        gif: water-sort.gif
+
       - title: Surfing Master
         link: "https://youtu.be/fH2SY_2t3zo"
         tagline: "A funny 3D posing game inspired by Couples Yoga. You arrange the limbs of the surfer midair to achieve the correct poses."
-        
+        gif: surfing-master.gif
+
         # PC
 
       - title: Car Chase Simulator
@@ -159,13 +161,15 @@ projects:
 
       - title: Beer Brewing Game
         link: "https://youtu.be/9NQyhB_VsJo"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "A prototype"
+        gif: beer-brewing.gif
 
         # Tools
 
       - title: Hex World Creator / Editor
         link: "https://youtu.be/uuX-5VeZEKI"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        gif: hex-world-editor.gif
 
 skills:
     title: Skills &amp; Proficiency
