@@ -106,9 +106,8 @@ experiences:
 projectsmobile:
     title: PROJECTS (Mobile)
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Below are some of the projects I've worked on where the target platform is mobile.
+      I've been able to release mobile games to android playstore and ios appstore.
     assignments:
 
         # Mobile
@@ -156,9 +155,7 @@ projectsmobile:
 projectspc:
     title: PROJECTS (PC)
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Below are some of the projects I've worked on where the target platform is PC.
     assignments:
 
         # PC
@@ -176,16 +173,14 @@ projectspc:
 projectstools:
     title: PROJECTS (Tools)
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Below are tools I've worked on to aid in creation of levels or assets on games that me or my team is working on.
     assignments:
 
         # Tools
 
       - title: Hex World Creator / Editor
         link: "https://youtu.be/uuX-5VeZEKI"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "It's a world editor I've made with hex blocks for a game we've been working on which is somewhat similar to the android game My Little Universe. The map data is saved as a JSON file so it's easy to retrieve game progress. Since the game is meant to have the map be built and unlocked by the player overtime."
         gif: hex-world-editor.gif
 
 skills:
