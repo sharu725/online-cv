@@ -103,8 +103,8 @@ experiences:
           systems. Worked closely with software development and testing team members to design and develop robust
           API Integration solutions to meet client requirements for functionality, scalability and performance.
 
-projects:
-    title: Projects
+projectsmobile:
+    title: PROJECTS (Mobile)
     intro: >
       You can list your side projects or open source libraries in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -153,6 +153,14 @@ projects:
         tagline: "A funny 3D posing game inspired by Couples Yoga. You arrange the limbs of the surfer midair to achieve the correct poses."
         gif: surfing-master.gif
 
+projectspc:
+    title: PROJECTS (PC)
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+
         # PC
 
       - title: Car Chase Simulator
@@ -164,6 +172,14 @@ projects:
         link: "https://youtu.be/9NQyhB_VsJo"
         tagline: "A prototype"
         gif: beer-brewing.gif
+
+projectstools:
+    title: PROJECTS (Tools)
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
 
         # Tools
 

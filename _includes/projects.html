@@ -1,22 +1,22 @@
-{% assign projects = site.data.data.projects %}
-{% if projects %}
-<section class="section projects-section">
+{% assign projectsmobile = site.data.data.projectsmobile %}
+{% if projectsmobile %}
+<section class="section projectsmobile-section">
 
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
     </span>
-    {{ projects.title }}
+    {{ projectsmobile.title }}
   </h2>
 
-  {% if projects.intro %}
+  {% if projectsmobile.intro %}
   <div class="intro">
-      <p>{{ projects.intro }}</p>
+      <p>{{ projectsmobile.intro }}</p>
   </div><!--//intro-->
   {% endif %}
 
-  {% for project in projects.assignments %}
+  {% for project in projectsmobile.assignments %}
     <div class="item">
 
       <span class="project-title">
@@ -35,6 +35,102 @@
       <br/>
       <br/>
         <image class="gifs" src="{{site.baseurl}}/assets/gifs/{{project.gif}}" alt="projectgif"/>
+      <br/>
+      <br/>
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
+
+{% assign projectspc = site.data.data.projectspc %}
+{% if projectspc %}
+<section class="section projectspc-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ projectspc.title }}
+  </h2>
+
+  {% if projectspc.intro %}
+  <div class="intro">
+      <p>{{ projectspc.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for project in projectspc.assignments %}
+    <div class="item">
+
+      <span class="project-title">
+        {% if project.link %}
+        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+        {% else %}
+        {{ project.title }}
+        {% endif %}
+      </span>
+
+      {% if project.tagline %}
+      - <span class="project-tagline">{{ project.tagline }}</span>
+      {% endif %}
+
+      {% if project.gif %}
+      <br/>
+      <br/>
+        <image class="gifs" src="{{site.baseurl}}/assets/gifs/{{project.gif}}" alt="projectgif"/>
+      <br/>
+      <br/>
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
+
+{% assign projectstools = site.data.data.projectstools %}
+{% if projectstools %}
+<section class="section projectstools-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ projectstools.title }}
+  </h2>
+
+  {% if projectstools.intro %}
+  <div class="intro">
+      <p>{{ projectstools.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for project in projectstools.assignments %}
+    <div class="item">
+
+      <span class="project-title">
+        {% if project.link %}
+        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+        {% else %}
+        {{ project.title }}
+        {% endif %}
+      </span>
+
+      {% if project.tagline %}
+      - <span class="project-tagline">{{ project.tagline }}</span>
+      {% endif %}
+
+      {% if project.gif %}
+      <br/>
+      <br/>
+        <image class="gifs" src="{{site.baseurl}}/assets/gifs/{{project.gif}}" alt="projectgif"/>
+      <br/>
+      <br/>
       {% endif %}
 
     </div><!--//item-->
