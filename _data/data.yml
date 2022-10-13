@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -41,16 +41,16 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Music - Guitar
+        - item: Guitar playing
           link:
 
-        - item: Games - Sekiro, Naraka, Witcher
+        - item: Music - RNB, Metal, Rap
           link:
 
-        - item: Movies
+        - item: Games - Sekiro, Helldivers, Crab Game
           link:
 
-        - item: Series
+        - item: Movies, Anime, TV Series
           link:
 
 career-profile:
