@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: David Agito
     tagline: Unity Developer
-    avatar: shrekpng.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile-pic.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: davidagito8@gmail.com
@@ -80,7 +80,7 @@ experiences:
         time: 2020 - 2021
         company: Sprobe, Remote
         details: |
-          Considered as senior software engineer, however my skills are specialized with Game Development using 
+          Worked as senior software engineer, however my skills are specialized with Game Development using 
           Unity3D. Work with team or solo working on client game projects (mostly hypercasual).
       - role: Unity Game Developer
         time: 2019 - 2020
@@ -139,9 +139,10 @@ projects:
         gif: hamster-biter.gif
 
       - title: Zoo Life
-        link: "https://youtu.be/Cld5-OavPvM"
+        link: "https://youtube.com/shorts/pwsGAWV_Qj8"
         tagline: "An idle casual game inspired by cats and soup. Animals can collect resources and build buildings inorder to rebuild the destroyed zoo."
-        
+        gif: zoo-life.gif
+
       - title: Cocktails Please!
         link: "https://youtu.be/NApFyy0vCAI"
         tagline: "A prototype of a water sorting puzzle game where you transfer the contents from glass to glass to match the colors. URP Shader Graph was used to make the pouring effect."
