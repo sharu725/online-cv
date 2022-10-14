@@ -162,12 +162,12 @@ projectspc:
 
       - title: Car Chase Simulator
         link: "https://www.youtube.com/watch?v=wXjvM7bzWuQ"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "A race, chase, and destruction car game where you can drift and race against AI enemies. There are also missions where you chase cars hence the name car chase simulator. There is also a car customization feature in the game."
         gif: racinggame.gif
 
       - title: Beer Brewing Game
         link: "https://youtu.be/9NQyhB_VsJo"
-        tagline: "A prototype"
+        tagline: "A prototype of a brewing game I've worked on for a client. Mix and match recipes to create the right drink requested by the customers."
         gif: beer-brewing.gif
 
 projectstools:
