@@ -32,7 +32,7 @@ I have made this into a Jekyll Theme. Checkout the live demo [here](https://onli
 
 Change all the details from one place: ``_data/data.yml``
 
-## To preview/edit localy with docker
+## To preview/edit locally with docker
 
 ```sh
 docker-compose up
