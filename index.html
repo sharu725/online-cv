@@ -13,6 +13,4 @@ layout: default
 
 {% include projects.html %}
 
-{% include publications.html %}
-
 {% include skills.html %}
