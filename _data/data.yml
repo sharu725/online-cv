@@ -129,35 +129,30 @@ experiences:
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      project intro
     assignments:
-      - title: Velocity
+      - title: project title
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: "project description"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Data Analytics
+        level: 100%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: SQL
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Python
+        level: 90%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Data Visualization
+        level: 90%
+
+      - name: Team Management
+        level: 80%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Oct 2022 | zhespelt.com
