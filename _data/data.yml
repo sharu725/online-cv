@@ -16,12 +16,14 @@ sidebar:
     phone: +1 762.233.2865
     timezone: America/Los Angeles
     citizenship: United States
+
     website: zhespelt.com
     linkedin: zhespelt
     github: zhespelt
     twitter: 
-    stack-overflow 1595427/zsh
-    pdf: 
+    stack-overflow: 1595427/zsh
+
+    pdf:
 
     languages:
       title: Languages
@@ -75,7 +77,7 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Heado of Data
+      - role: Head of Data
         time: Oct 2020 - Sep 2022 · 2 yrs
         company: SeedLegals.com
         details: |
@@ -126,6 +128,21 @@ experiences:
           I designed and built an esports commentary pipeline—cutting the roughly 3-week manual process to under 72 hours and dramatically improving its scope.
           
           I conducted research and built valuable models for legal, which aided in favorable outcomes for Wizards and Hasbro.
+
+      - role: Data Analyst & Systems Administrator
+        time: Aug 2009 - Dec 2010 (1 year 5 months)
+        company: Sound Transit
+        details: |
+          To provide mass transit to the Pacific Northwest, Sound Transit relies on a lot of contractors and, 
+          through their commitment to supporting small and disadvantaged businesses, are responsible for many 
+          millions of dollars going to female and minority-owned companies.
+          
+          While working there I developed a system to acquire, track, and analyze business and workforce data 
+          associated with gender and race equality from 500+ companies, ensuring compliance with local and 
+          federal contracts. This enabled Sound Transit to obtain and release over $500 million in government 
+          grants and was instrumental in the department earning the Rosa Parks Award for outstanding 
+          commitment to equality in 2011.
+
 projects:
     title: Projects
     intro: >
