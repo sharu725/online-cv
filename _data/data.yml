@@ -71,7 +71,7 @@ projects:
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
       - title: 2019 Sales Results Data Analysis
-        link: "{{ site.baseurl }}/assets/images/skillshare_slides.pdf"
+        link: "https://github.com/shenry1212/resume/raw/master/assets/images/skillshare_slides.pdf"
         tagline: "Analyze the 2019 sales data across multiple categories, including purchase location, purchase medium, and product category"
 
       - title: DevStudio
