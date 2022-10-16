@@ -6,7 +6,7 @@ url: 'http://webjeda.com'
 
 #change it according to your repository name
 # disabling since we are using a custom domain
-#baseurl: '/online-cv' 
+baseurl: '/resume' 
 
 description: A beautiful Jekyll theme for creating resume
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
