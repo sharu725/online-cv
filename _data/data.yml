@@ -13,7 +13,7 @@ sidebar:
 
     # Sidebar links
     email: shenry@scu.edu
-    linkedin: https://www.linkedin.com/in/shaun-henry-087913105/
+    linkedin: shaun-henry-087913105
     # pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
@@ -24,7 +24,7 @@ sidebar:
         - idiom: Data Analysis & Econometrics
         - idiom: Effective Communication in Business
         - idiom: Ethical Issues in Business
-        - idiom: Math Econ: Dynamic Optimization
+        - idiom: Dynamic Optimization
         - idiom: Probability & Statistics I & II
 
 education:
