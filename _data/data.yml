@@ -70,9 +70,9 @@ projects:
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: 2019 Sales Results Data Analysis
+        pdf: https://shenry1212.github.io/assets/images/skillshare_slides.pdf
+        tagline: "Analyze the 2019 sales data across multiple categories, including purchase location, purchase medium, and product category"
 
       - title: DevStudio
         link: "#"
