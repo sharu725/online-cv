@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -16,16 +16,16 @@ sidebar:
     linkedin: shaun-henry-087913105
     # pdf: http://www.africau.edu/images/default/sample.pdf
 
-    languages:
+    interests:
       title: Relevant Coursework
       info:
-        - idiom: Applied Econometrics
-        - idiom: Data Analysis Applications
-        - idiom: Data Analysis & Econometrics
-        - idiom: Effective Communication in Business
-        - idiom: Ethical Issues in Business
-        - idiom: Dynamic Optimization
-        - idiom: Probability & Statistics I & II
+        - item: Applied Econometrics
+        - item: Data Analysis Applications
+        - item: Data Analysis & Econometrics
+        - item: Effective Communication in Business
+        - item: Ethical Issues in Business
+        - item: Dynamic Optimization
+        - item: Probability & Statistics I & II
 
 education:
     title: Education
