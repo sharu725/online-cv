@@ -65,31 +65,27 @@ experiences:
 
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
       - title: 2019 Sales Results Data Analysis
         link: "https://github.com/shenry1212/resume/blob/master/assets/images/skillshare_slides.pdf"
-        tagline: "Analyze the 2019 sales data across multiple categories, including purchase location, purchase medium, and product category"
+        tagline: "Analyzed 2019 sales data using Microsoft Excel across multiple categories, including purchase location, purchase medium, and product category."
 
       - title: How Did Donald Trump Win the 2016 Election?
         link: "https://github.com/shenry1212/resume/blob/master/assets/images/Econ%20173%20Final%20Paper%20-%202016%20Election.pdf"
-        tagline: "."
+        tagline: "Created multi-variable statistical regressions with RStudio using United States census data and 2016 election data. Voting results were regressed with educational levels by county."
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Miscrosoft Excel
+      - name: Microsoft Excel
         level: 75%
 
       - name: R/RStudio
-        level: 30%
+        level: 50%
 
       - name: SQL
-        level: 20%
+        level: 25%
 
 
 footer: >
