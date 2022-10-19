@@ -75,20 +75,8 @@ projects:
         tagline: "Analyze the 2019 sales data across multiple categories, including purchase location, purchase medium, and product category"
 
       - title: DevStudio
-        link: "#"
+        link: "https://github.com/shenry1212/resume/blob/master/assets/images/Econ%20173%20Final%20Paper%20-%202016%20Election.pdf"
         tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 skills:
     title: Skills &amp; Proficiency
