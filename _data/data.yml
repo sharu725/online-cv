@@ -13,6 +13,7 @@ sidebar:
     avatar: profile_image.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
+    timezone: Austin, TX
     email: shenry@scu.edu
     linkedin: shaun-henry-087913105
     # pdf: http://www.africau.edu/images/default/sample.pdf
