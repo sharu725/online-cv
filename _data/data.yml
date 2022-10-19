@@ -9,11 +9,10 @@ sidebar:
     # Profile information
     name: Shaun Henry
     tagline: Prospective Data Analyst
-    location: Austin, TX
+    timezone: Austin, TX
     avatar: profile_image.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    timezone: Austin, TX
     email: shenry@scu.edu
     # see resume/_includes/contact.html
     # normally this should be shaun-henry-087913105
