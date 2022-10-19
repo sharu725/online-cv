@@ -74,31 +74,23 @@ projects:
         link: "https://github.com/shenry1212/resume/blob/master/assets/images/skillshare_slides.pdf"
         tagline: "Analyze the 2019 sales data across multiple categories, including purchase location, purchase medium, and product category"
 
-      - title: DevStudio
+      - title: How Did Donald Trump Win the 2016 Election?
         link: "https://github.com/shenry1212/resume/blob/master/assets/images/Econ%20173%20Final%20Paper%20-%202016%20Election.pdf"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "."
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Miscrosoft Excel
+        level: 75%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: R/RStudio
+        level: 30%
 
-      - name: Angular
-        level: 98%
+      - name: SQL
+        level: 20%
 
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
 
 footer: >
-    Last updated 2022-10-15
+    Last updated 2022-10-18
