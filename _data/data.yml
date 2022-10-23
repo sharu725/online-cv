@@ -90,7 +90,9 @@ skills:
 
       - name: SQL
         level: 25%
-
+        
+      - name: GitHub
+        level: 25%
 
 footer: >
-    Last updated 2022-10-18
+    Last updated 2022-10-23
