@@ -7,47 +7,38 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
+    name: Pratiksha Patel
     tagline: Full Stack Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
-
+    email: pratiksha28785@gmail.com
+    phone: 9998045249
+    timezone: Indian Timezone
+    citizenship: Indian
+    linkedin: Pratiksha Patel
+    github: webaayu
+    twitter: '@pratiksha287'
+  
     languages:
       title: Languages
       info:
         - idiom: English
+          level: Professional
+
+        - idiom: Hindi
+          level: National language
+
+        - idiom: Gujarati
           level: Native
-
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Reading
           link:
 
-        - item: Snowboarding
+        - item: Watching Movies
           link:
 
         - item: Cooking
@@ -56,147 +47,78 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+            Having 6 years of experience in Academic field for lectures and practical lab.
+            Good Knowledge and Experience of Technical Concepts.
+            Proficient in giving practical knowledge.
+            Understand diversified learning needs of students and providing real time knowledge about technology and new methodologies.
+            Area of Interest: Teaching & Research in Image Processing.
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: ME in Computer Engineering
+        university: Gujarat Technological University
+        time: 2011 - 2013
+        details:  POST GRADUATE LEVEL (Duration: 2 Year) CPI 7.82 from Birla Vishwakarma Mahavidyalaya, VidyaNagar   |
+        Description: Title : Analysis & Implementation of Audio Watermark in digital image Environment : Implementation in Matlab, Watermarking techniques, which uses audio signal as a watermark signal to  enhance the robustness of the embedded watermark within the cover image. Audio  samples are imperceptibly inserted using spread spectrum technique into the perceptually  most significant components of image which makes it robust to lossy compression.  
+
+      - degree: BE in Computer Engineering
+        university: Gujarat University
+        time: 2002 - 200,
+        details: GRADUATE LEVEL (Duration: 5 Year)  57.34 % from CITC, Changa
+        
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Assistant Professor 
+        time: 2014 - 2017
+        Institute: Gandhinagar Institute of Technology, Gandhinagar
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          ∙ Conducting lectures and labs of Degree Engineering Students for the subjects like  Design & Analysis of Algorithm (DAA), Data Structure, C Programming. ∙ Preparing Materials for teaching & utilizing it for Student Progress.
+      - role: Assistant Professor
+        time: 2013 - 2014
+        Institute: Mahatma Gandhi Institute Of Technical Education And Research Center, Navsari
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          ∙ Conducting lectures and labs of Degree Engineering Students for the subjects like  Design & Analysis of Algorithm (DAA), Compiler Design (CD), C  Programming, etc. 
+          ∙ Planning, evaluating and revise course content, course materials and methods of  instruction. 
+          ∙ Guiding the students for completing their project works. 
+          ∙ Giving Practical knowledge which makes the student’s career progressive. 
+          ∙ Coordinating for developing extra co curricular activities like sports, cultural  events, etc for Students. 
+      - role: Sr. Lab Technician 
+        time: 2007 - 2011
+        Institute: V.B. Polytechnic College, Navsari 
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          ∙ Subjects Taught & Lab Classes: C, C++, Java Programming, Digital Logic Design,  PHP, Entrepreneur Development, Computer Hardware & Networking, Etc. ∙ Worked with Admission Cell Department & Student Information Center of GTU  for Student Admission, Registration, and Counseling. 
 projects:
-    title: Projects
+    title: Analysis & Implementation of Audio Watermark in digital image Environment  
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+     Implementation in Matlab
+     Watermarking techniques, which uses audio signal as a watermark signal to  enhance the robustness of the embedded watermark within the cover image. Audio  samples are imperceptibly inserted using spread spectrum technique into the perceptually  most significant components of image which makes it robust to lossy compression.  
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - journal: International Journal of Advanced and innovative Research
+        title: Analysis and Basic Implementation of Audio Watermark in Digital Image
+        authors: P. S. Patel, Dr. N. M. Patel, Dr. U. K. Jaliya.
+        Journal: IJAIR , Volume 2, Issue 4 April 2013
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python 
+        level: Beginner
 
       - name: Javascript & jQuery
-        level: 98%
+        level: Intermediate
 
-      - name: Angular
-        level: 98%
+      - name: Linux
+        level: Beginner
 
       - name: HTML5 & CSS
-        level: 95%
+        level: Advanced
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Bash Scripting
+        level: Beginner
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
