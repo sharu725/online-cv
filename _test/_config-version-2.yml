@@ -1,0 +1,142 @@
+# Site
+repository: sproogen/modern-resume-theme
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Data type version
+version: 2
+
+# Personal info
+name: Your Name
+title: Your job title
+email: test@email.com
+email_title: Email
+phone: 07845248563
+phone_title: Phone
+website: sproogen.github.io/modern-resume-theme
+website_title: Web
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+twitter_username: jekyllrb
+github_username:  jekyll
+stackoverflow_username: "00000001"
+dribbble_username: jekyll
+facebook_username: jekyll
+flickr_username: jekyll
+instagram_username: jekyll
+linkedin_username: jekyll
+xing_username: jekyll
+pinterest_username: jekyll
+youtube_username: jekyll
+orcid_username: 0000-0000-0000-0000
+googlescholar_username: D847cGsAAAAJ
+
+# Additional icon links
+additional_links:
+- title: Test link
+  icon: fab fa-ello
+  url: sproogen.github.io/modern-resume-theme
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: _test/images/travis.png
+about_content: > # this means to ignore newlines until the next config item.
+  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+
+  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+    - Lists
+    - Tables
+    - <a href="https://google.com">Links</a>
+    - Images
+
+content:
+  - title: Projects
+    layout: list
+    content:
+      - layout: top-middle
+        border: weak
+        title: Project 1
+        link: https://sproogen.github.io/modern-resume-theme
+        additional_links:
+          - title:  Github page for project
+            icon: fab fa-github
+            url: sproogen.github.io/modern-resume-theme
+        quote: >
+          Short overview of the project
+        description: >
+          Description about the work on/with the project
+
+      - title: Project 2
+        description: >
+          Description about the work on/with the project
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        border: weak
+        title: Company 1
+        link: https://google.com
+        sub_title: Job title 1
+        caption: November 2016 - present
+        quote: >
+          Short description of the company (optional)
+        description: >
+            Description of role
+
+      - layout: top
+        title: Company 2
+        sub_title: Job title 1
+        caption: January 2014 - November 2016
+        description: >
+          Description of role
+  - title: Education
+    layout: list
+    content:
+      - title: Institution 1
+        border: weak
+        sub_title: 2016 - 2019
+        caption: Degree
+        quote: >
+          Short institution or course description
+        description: >
+          Description of qualification
+      - layout: left
+        title: Institution 2
+        sub_title: 2013 - 2016
+        caption: A levels
+        description: >
+          Description of qualification
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+      ![alt text](_test/images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+references_title: References on request
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+include:
+ - _test
+
+exclude:
+  - vendor
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag

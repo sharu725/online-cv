@@ -1,0 +1,26 @@
+- layout: right
+  company: Company 1
+  link: https://google.com
+  job_title: Job title 1
+  dates: November 2016 - present
+  quote: >
+   Short description of the company (optional)
+  description: >
+    Description of role
+
+- layout: top
+  company: Company 2
+  job_title: Job title 1
+  dates: January 2014 - November 2016
+  description: >
+    Description of role
+
+- layout: top-right
+  company: Company 3
+  jobs:
+    - title: Job title 1
+      dates: February 2013 - December 2013
+    - title: Job title 2
+      dates: June 2012 - February 2013
+  description: >
+    Description of role

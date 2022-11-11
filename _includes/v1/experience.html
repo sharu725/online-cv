@@ -1,0 +1,6 @@
+<div class="container experience-container">
+  <h3 id="{{ site.experience_title | slugify | default: 'experience' }}">{{ site.experience_title | default: "Experience" }}</h3>
+  {% for experience in site.data.experience %}
+    {% include {{ experience.layout | default: 'left' | append: ".html" | prepend: "v1/" }} item=experience %}
+  {% endfor %}
+</div>

@@ -1,9 +1,12 @@
-version: "3.8"
+version: '3'
+
 services:
   jekyll:
-      image: jekyll/jekyll:3.8
-      command: jekyll serve --force_polling
-      ports:
-          - 4000:4000
-      volumes:
-          - .:/srv/jekyll
+    image: jekyll/jekyll
+    container_name: modern-resume-theme
+    command: jekyll serve --watch --force_polling --verbose
+    ports:
+      - 4000:4000
+      - 35729:35729
+    volumes:
+      - ./:/srv/jekyll

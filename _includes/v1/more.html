@@ -1,0 +1,8 @@
+<div class="container more-container">
+  <h3 id="{{ site.more_title | slugify | default: 'a-little-bit-more-about-me' }}">{{ site.more_title | default: "A Little More About Me" }}</h3>
+  <div class="row clearfix">
+    <div class="col-md-12">
+      {{ site.more_content | strip | markdownify }}
+    </div>
+  </div>
+</div>

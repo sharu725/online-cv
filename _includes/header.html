@@ -1,0 +1,126 @@
+<div class="container header-container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
+      <h1>{{ site.name | escape }}</h1>
+      <h2>{{ site.title | escape }}</h2>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
+      <ul class="icons no-print">
+        {%- if site.dribbble_username -%}
+          <li>
+            <a target="_blank" href="https://dribbble.com/{{ site.dribbble_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-dribbble-square" title="Dribble link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if site.facebook_username -%}
+          <li>
+            <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-facebook" title="Facebook link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if site.flickr_username -%}
+          <li>
+            <a target="_blank" href="https://www.flickr.com/photos/{{ site.flickr_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-flickr" title="Flickr link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if site.github_username -%}
+          <li>
+            <a target="_blank" href="https://github.com/{{ site.github_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-github" title="Github link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if site.stackoverflow_username -%}
+          <li>
+            <a target="_blank" href="https://stackoverflow.com/users/{{ site.stackoverflow_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-stack-overflow" title="Stackoverflow link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if site.instagram_username -%}
+          <li>
+            <a target="_blank" href="https://www.instagram.com/{{ site.instagram_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-instagram" title="Instagram link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if site.linkedin_username -%}
+          <li>
+            <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-linkedin" title="Linkedin link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if site.xing_username -%}
+          <li>
+            <a target="_blank" href="https://www.xing.com/profile/{{ site.xing_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-xing" title="Xing link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if site.pinterest_username -%}
+          <li>
+            <a target="_blank" href="https://www.pinterest.com/{{ site.pinterest_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-pinterest" title="Pintrest link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if site.twitter_username -%}
+          <li>
+            <a target="_blank" href="https://twitter.com/{{ site.twitter_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-twitter" title="Twitter link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if site.youtube_username -%}
+          <li>
+            <a target="_blank" href="https://www.youtube.com/{{ site.youtube_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-youtube" title="Youtube link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if site.orcid_username -%}
+          <li>
+            <a target="_blank" href="https://orcid.org/{{ site.orcid_username | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-orcid" title="ORCiD link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if site.googlescholar_username -%}
+          <li>
+            <a target="_blank" href="https://scholar.google.com/citations?user={{ site.googlescholar_username| escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-google" title="Google scholar link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {% for link in site.additional_links %}
+          <li>
+            {% include a.html href=link.url class="button button--sacnite button--round-l" %}
+              <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+
+      {%- if site.email -%}
+        <p>
+          {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
+        </p>
+      {%- endif -%}
+      {%- if site.phone -%}
+        <p>
+          {{ site.phone_title | default: "Phone" }}: {{ site.phone | escape }}
+        </p>
+      {%- endif -%}
+      {%- if site.website -%}
+        <p>
+          {{ site.website_title | default: "Web" }}: {% include a.html href=site.website %}{{ site.website | escape }}</a>
+        </p>
+      {%- endif -%}
+    </div>
+  </div>
+</div>

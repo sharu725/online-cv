@@ -1,36 +1,206 @@
-#Update all the sections by editing the data.yml file inside _data folder.
+# Site
+## repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
-# Site Settings
-title: My Resume
-url: 'http://webjeda.com'
+# Content configuration version
+version: 2
 
-#change it according to your repository name
-# disabling since we are using a custom domain
-#baseurl: '/online-cv' 
+# Personal info
+name: Dan Orlovsky
+title: Software Engineer, aspiring Architect
+email: dan.g.orlovsky@gmail.com
+# email_title: Email (Email title override)
+### phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
+####website: danorlovsky.github.io
+# website_title: Web (Website title override)
 
-description: A beautiful Jekyll theme for creating resume
-# Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: blue # blue turquoise green berry orange ceramic
-chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
+# Dark Mode (true/false/never)
+darkmode: never
 
-# Tracker
-analytics: UA-83979019-1
+# Social links
+##twitter_username: jekyllrb
+github_username:  DanOrlovsky
+stackoverflow_username: "dan-orlovsky"
+##dribbble_username: jekyll
+##facebook_username: jekyll
+##flickr_username: jekyll
+##instagram_username: jekyll
+linkedin_username: dan-orlovsky
+##xing_username: jekyll
+##pinterest_username: jekyll
+##youtube_username: jekyll
+##orcid_username: 0000-0000-0000-0000
+##googlescholar_username: D847cGsAAAAJ
 
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+# Additional icon links
+# # # additional_links:
+# # # - title: Link name
+# # #   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+# # #   url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/fam.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Detail-oriented engineer with a proven track-record for working with business stakeholders to recommend ideal solutions tailored to solve specific business requirements. 
+  Strong emphasis on SOLID, bug free, and fully tested code. Collaborative-approach evangelist. Life-long coding enthusiast. Strong and open communicator.  
+
+  ---
+  "*Always check in code a little better than when you checked it out.*"  
+  -**Robert C. Martin**
+
+content:
+  - title: Skills # Title for the section
+    layout: text # Type of content section (list/text)
+    content: |
+        <div class="container text-center" style="font-size: 16px">
+          <div class="col-xs-12 col-lg-6" style="margin: auto">
+            <ul class="skills-list">
+              <li>C#</li>
+              <li>netcore3.1, .net5.0, .net6.0</li>
+              <li>Javascript/Typescript</li>
+              <li>Angular 6, 8, 12+</li>
+              <li>Azure</li>
+              <ul class="skills-list">
+                <li>Service Fabric</li>
+                <li>ServiceBus</li>
+                <li>DevOps</li>
+                <li>App Config</li>
+                <li>Cosmos Db</li>
+                <li>Application Insights</li>
+              </ul>
+              <li>Sql Server (MS Sql)</li>
+              <li>NoSql (Mongo, RavenDb, Cosmos)</li>
+            </ul>
+          </div>
+
+          <div class="col-xs-12 col-lg-6">
+            <ul class="skills-list">
+              <li>Unit Testing</li>
+              <ul class="skills-list">
+                <li>X Unit</li>
+                <li>MS Test</li>
+                <li>Jasmine / Karma</li>
+                <li>Moq</li>
+              </ul>
+              <li>Domain Driven Design</li>
+              <li>Mediator / Messaging Pattern</li>
+              <li>Event Sourcing + CQRS</li>
+              <li>Microservice Architecture</li>
+              <li>Web API</li>
+              <li>Active Scrum Participant</li>
+            </ul>
+          </div>
+        </div>
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Agdata
+        sub_title: Software Design Engineer II
+        caption: 06/2018 to Current 
+        quote: >
+          Leading Agricultural data-services company
+        description: | # this will include new lines to allow paragraphs
+          - Create and maintain highly scalable microservice solutions in .net6.0
+          - Work directly with business stakeholders and architects to modernize tech stack and deployment pipelines using Microsoft Azure services
+          - Help build Data Platform to assist in creating single point of data-ingestion
+          - Actively work on and maintain client-facing applications
+          - Build PoC's to demonstrate how future functionality can be achieved
+          - Assist in mentorship of junior engineers. Consistently seek mentorship from higher-level engineers
+          - Act as an active participant in all team meetings (scrum rituals).
+      - layout: left
+        title: Trilogy Education
+        sub_title: Fullstack Bootcamp TA
+        caption: 02/2019 to 08/2019 
+        quote: >
+          Provider of IT and Software Engineering Education Services
+        description: | # this will include new lines to allow paragraphs
+          - Worked one on one and in groups with students to help them gain a core understanding of:
+            - The roles HTML/CSS and Javascript play in building applications
+            - Programming patterns
+            - How to troubleshoot code
+          - Graded assignments and provided individual feedback
+          - Helped field student questions
+      - layout: left
+        title: Strategic Machines
+        sub_title: Software Developer
+        caption: 08/2017 to 06/2018 
+        quote: >
+          Text-based Commerce and Services Startup
+        description: | # this will include new lines to allow paragraphs
+          - Selected contracts and fulfilled work to help build out proof of concept text-based commerce
+          - Successfully built PoC that generated full websites for new Tenants utilizing Netlify's API.
+          - Actively and collaboratively worked with team engineers to connect moving pieces to create one cohesive and scalable platform.
+  - title: Education
+    layout: list
+    content:
+      - layout: top-left
+        title: UNCC Charlotte
+        sub_title: Full Stack Web Development (Certified)
+        caption: 08/2017 to 04/2018
+        quote: >
+          Full stack web development course on the MERN stack
+        description: | # this will include new lines to allow paragraphs
+          An intense, fully immersive course focusing on the inner-workings of Express, React, and NodeJs, MySql & MongoDb, computer science, and web development best practices.
+
+          - Awarded Top Project for *Civi-Disc*: a discussion-focused social media app that allowed for conversations to stay open for a fixed period of time, which
+          would increase/decrease based upon user's positive or negative reactions.  Full user authorization system, and a host of other features were developed 
+          for this app.
+
+          - Awarded Most Entertaining project for *Food Truck Finder*: an app that used Geo-Spatial querying on MongoDb that would help determine the closest food truck
+          to your current location.
+      - layout: top-left
+        title: Brick Computer Science Institute
+        sub_title: Programming - IT Track
+        caption: 01/2001 to 03/2002
+        quote: >
+          Certified Applications Developer
+        description: | # this will include new lines to allow paragraphs
+          Maintained a 4.0 GPA while learning Windows Applications Development in Visual Basic and C++.
+
+          Light Java and MS Access Databases.
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
 
 # Build settings
-compress-site: yes
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
-encoding: "utf-8"
-compress_html: # - http://jch.penibelst.de/
-  clippings: all
-  ignore:
-    envs: development
+sass:
+  sass_dir: _sass
+  style: compressed
 
-# Development Settings
-port: 4000
-host: 0.0.0.0
-safe: false
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]

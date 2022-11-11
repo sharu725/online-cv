@@ -1,0 +1,29 @@
+<div class="row clearfix layout layout-right">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+    {%- if include.item.name -%}<h4>{{ include.item.name }}</h4>{%- endif -%}
+    {%- if include.item.company -%}<h4>{{ include.item.company }}</h4>{%- endif -%}
+    {%- if include.item.link -%}
+    {% include a.html href=include.item.link class="link" %}{{ include.item.link }}</a>
+    {%- endif -%}
+    {%- if include.item.job_title -%}<p><b>{{ include.item.job_title }}</b></p>{%- endif -%}
+    {%- if include.item.qualification -%}<p><b>{{ include.item.qualification }}</b></p>{%- endif -%}
+    {%- if include.item.dates -%}<p>{{ include.item.dates }}</p>{%- endif -%}
+    {% for job in include.item.jobs %}
+    <p><b>{{ job.title }}</b></p>
+    <p>{{ job.dates }}</p>
+    {% endfor %}
+    {%- if include.item.github -%}
+    <p class="no-print">
+      <a href="https://github.com/{{ include.item.github }}" target="_blank">
+        <i class="fa fa-github" title="{{ include.item.name }} Github link"></i>
+      </a>
+    </p>
+    {%- endif -%}
+  </div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+    {%- if include.item.quote -%}
+      <p class="quote">{{ include.item.quote }}</p>
+    {%- endif -%}
+    {{ include.item.description | strip | markdownify }}
+  </div>
+</div>

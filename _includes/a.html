@@ -1,0 +1,2 @@
+{% assign protocol = include.href | strip | slice: 0, 4 %}
+<a href="{% if protocol != 'http' %}//{% endif %}{{ include.href }}" target="_blank" class="{{ include.class }}">

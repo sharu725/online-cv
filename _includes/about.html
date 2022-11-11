@@ -1,10 +1,14 @@
-<div class="remove-container container-block">
-  <h2 class="container-block-title">
-    About Theme
-  </h2>
-  <ul class="list-unstyled interests-list">
-    <li><a target="_blank" href="https://www.youtube.com/watch?v=Jnmj1dXDbNk">How to use?</a></li>
-     <li><a class="github-button" href="https://github.com/sharu725/online-cv" data-icon="octicon-star" data-show-count="true" aria-label="Star sharu725/online-cv on GitHub">Star</a>
-     <script async defer src="https://buttons.github.io/buttons.js"></script>
-  </ul>
-</div><!--//About-->
+<div class="container intro-container">
+  <h3 id="{{ site.about_title | slugify | default: 'about-me' }}">{{ site.about_title | default:
+  "About Me" }}</h3>
+  <div class="row clearfix">
+    {%- if site.about_profile_image -%}
+      <div class="col-xs-12 col-sm-4 col-md-3 no-print">
+        <span class="profile-img" style="background-image: url({{ site.about_profile_image | relative_url }}); background-position: 10px 0;"></span>
+      </div>
+    {%- endif -%}
+    <div class="{{ 'col-xs-12 ' }}{%- if site.about_profile_image -%}col-sm-8 col-md-9 col-print-12{%- endif -%}" style="margin-top:15px">
+      {{ site.about_content | strip | markdownify }}
+    </div>
+  </div>
+</div>

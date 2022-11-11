@@ -1,0 +1,54 @@
+ul.icons a:hover {
+  background: rgba(0, 0, 0, 0.025);
+}
+
+ul.icons li {
+  display: inline-block;
+  padding-left: 0.75rem;
+}
+
+ul.icons a {
+  -moz-transition: background-color 0.25s ease-in-out;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  -ms-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+  display: inline-block;
+  width: 2.75rem;
+  height: 2.75rem;
+  line-height: 2.8rem;
+  text-align: center;
+  border: 0;
+  box-shadow: none;
+  padding:0;
+  border-radius: 100%;
+  color: #aaa;
+}
+
+.icons i {
+  font-size: 30px;
+  line-height:60px;
+}
+
+.icons {
+  padding: 0;
+  font-size: 1rem;
+  margin-bottom:20px;
+  text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .icons {
+    text-align: center;
+  }
+}
+
+.dark {
+  .icons i {
+    background: none;
+    color: #222;
+  }
+
+  .icons a:hover i {
+    color: #e6e6e6;
+  }
+}
