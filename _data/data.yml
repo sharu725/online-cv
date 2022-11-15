@@ -91,6 +91,16 @@ experiences:
         - Unit test for robustness, including edge cases, usability, and general reliability.
         - Mentored and guide juniors to assign and perform tasks.
         - Work with cross core system team to ensure overall billing process smooth.
+
+    - role: Odoo Developer
+      time: Nov 2022 - Present
+      company: MDG Co.,Ltd
+      details: |
+        In-house Odoo developer at MDG Co.Ltd
+      Responsibilities: |
+        - Develop software according to in-house requirements.
+        - Use Odoo version 8 , 15 and 16.
+        - Switching Different Odoo versions.
 projects:
     title: Projects
     assignments:
