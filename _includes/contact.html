@@ -25,6 +25,12 @@
     </li>
     {% endif %}
 
+    {% if sidebar.area %}
+    <li class="area"><i class="fas fa-map-location-dot"></i>
+      <a href="">{{ sidebar.area }}</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.telegram %}
     <li class="telegram"><i class="fab fa-telegram"></i>
       <a href="https://t.me/{{ sidebar.telegram }}" target="_blank">{{ sidebar.telegram }}</a>

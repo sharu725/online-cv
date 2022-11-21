@@ -5,6 +5,7 @@
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
+    skills: True # set to False if you want skills in main section instead of in sidebar
 
     # Profile information
     name: Alan Doe
@@ -15,6 +16,7 @@ sidebar:
     email: hello@webjeda.com
     phone: 012 345 6789
     timezone: America/Cancun Timezone
+    area: San Francisco Bay
     citizenship:
     website: blog.webjeda.com #do not add http://
     linkedin: alandoe
@@ -135,24 +137,39 @@ projects:
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
       - title: Velocity
+        time: 2012
+        company: Amazon, London
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        details: >
+          A responsive website template designed to help startups promote, market and sell their products.
 
       - title: DevStudio
+        time: 2013
+        company: Amazon, London
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        details: >
+          A responsive website template designed to help web developers/designers market their services.
 
       - title: Tempo
+        time: 2014
+        company: Google, London
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        details: >
+          A responsive website template designed to help startups promote their products or services and to attract users &amp; investors
 
       - title: Atom
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        time: 2016
+        company: Startup Hubs, San Francisco
+        details: >
+          A comprehensive website template solution for startups/developers to market their mobile apps.
 
       - title: Delta
+        time: 2020
+        company: Startup Hubs, San Francisco
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        details: >
+          A responsive Bootstrap one page theme designed to help app developers promote their mobile apps
 
 oss:
     title: OSS Contributions

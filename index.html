@@ -17,4 +17,6 @@ layout: default
 
 {% include publications.html %}
 
-{% include skills.html %}
+{% unless site.data.data.sidebar.skills %}
+  {% include skills.html %}
+{% endunless %}

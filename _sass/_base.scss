@@ -132,6 +132,17 @@ p {
       margin-bottom: 0px;
     }
   }
+  .details {
+    padding-top: 5px;
+    color: rgba(255,255,255,0.85);
+    ul {
+      padding-left: 0em;
+      list-style-type: none;
+    }
+    li {
+      margin-bottom: 5px;
+    }
+  }
   .languages-container {
     .lang-desc {
       color: rgba(256, 256, 256, 0.6);
@@ -254,13 +265,26 @@ p {
     margin-top: 0;
     margin-bottom: 12px;
   }
+  .level-title-sidebar {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
   .level-bar {
     height: 12px;
     background: $smoky-white;
   }
+  .level-bar-sidebar {
+    height: 12px;
+    background: lighten($theme-color, 15%);
+  }
   .level-bar-inner {
     height: 12px;
     background: lighten($theme-color, 15%);
+  }
+  .level-bar-inner-sidebar {
+    height: 12px;
+    background: $smoky-white;
   }
 }
 
