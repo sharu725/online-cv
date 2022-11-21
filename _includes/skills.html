@@ -1,31 +1,52 @@
 {% assign skills = site.data.data.skills %}
 {% if skills %}
-<section class="skills-section section">
+  {% if site.data.data.sidebar.skills %}
+  <div class="skills-container container-block">
 
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ skills.title }}
-  </h2>
+    <h2 class="container-block-title">
+      {{ skills.title }}
+    </h2>
 
-  <div class="skillset">
+    <ul class="skillset list-unstyled interests-list">
+      {% for skill in skills.toolset %}
+      <li class="item">
+        <h4 class="level-title-sidebar">{{ skill.name }}</h4>
+        <div class="level-bar-sidebar">
+          <div class="level-bar-inner-sidebar" data-level="{{ skill.level }}">
+          </div>
+        </div><!--//level-bar-->
+      </li>
+      {% endfor %}
+    </ul>
+  </div><!--//skills-container-->
+  {% else %}
+  <section class="skills-section section">
 
-    {% for skill in skills.toolset %}
-    <div class="item">
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+      </span>
+      {{ skills.title }}
+    </h2>
 
-      <h3 class="level-title">{{ skill.name }}</h3>
+    <div class="skillset">
 
-      <div class="level-bar">
-        <div class="level-bar-inner" data-level="{{ skill.level }}">
-        </div>
-      </div><!--//level-bar-->
+      {% for skill in skills.toolset %}
+      <div class="item">
 
-    </div><!--//item-->
-    {% endfor %}
+        <h3 class="level-title">{{ skill.name }}</h3>
 
-  </div>
+        <div class="level-bar">
+          <div class="level-bar-inner" data-level="{{ skill.level }}">
+          </div>
+        </div><!--//level-bar-->
 
-</section><!--//skills-section-->
+      </div><!--//item-->
+      {% endfor %}
+
+    </div>
+
+  </section><!--//skills-section-->
+  {% endif %}
 {% endif %}

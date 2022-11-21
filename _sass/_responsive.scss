@@ -40,10 +40,25 @@
     margin-bottom: 0;
   }
 
+  .skillset .level-title-sidebar {
+    display: inline-block;
+    float: left;
+    width: 40%;
+    margin-bottom: 0;
+  }
+
   .skillset .level-bar {
     display: inline-block;
     width: 70%;
     float: left;
+    position: relative;
+    top: 1px;
+  }
+
+  .skillset .level-bar-sidebar {
+    display: inline-block;
+    width: 55%;
+    float: right;
     position: relative;
     top: 1px;
   }
