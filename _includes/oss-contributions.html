@@ -1,0 +1,40 @@
+{% assign oss = site.data.data.oss %}
+{% if oss %}
+<section class="section oss-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-box-open fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ oss.title }}
+  </h2>
+
+  {% if oss.intro %}
+  <div class="intro">
+    <p>{{ oss.intro }}</p>
+  </div>
+  <!--//intro-->
+  {% endif %}
+
+  {% for contribution in oss.contributions %}
+  <div class="item">
+
+    <span class="project-title">
+      {% if contribution.link %}
+      <a href="{{ project.link }}" target="_blank">{{ contribution.title }}</a>
+      {% else %}
+      {{ contribution.title }}
+      {% endif %}
+    </span>
+
+    {% if contribution.tagline %}
+    - <span class="project-tagline">{{ contribution.tagline }}</span>
+    {% endif %}
+
+  </div>
+  <!--//item-->
+  {% endfor %}
+
+</section>
+<!--//section-->
+{% endif %}
