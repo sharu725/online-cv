@@ -8,12 +8,14 @@ sidebar:
 
   # Profile information
   name: Antony David
-  tagline: Développeur web et mobile
+  tagline: 2I ESGI
   avatar: cv.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: antonydavid945@gmail.com
-  phone: 07 82 69 45 19
+  phone:
+  timezone: EU/Paris Timezone
+  citizenship:
   website: jayllyz.netlify.app #do not add http://
   linkedin: antodavid
   xing: #alandoe
@@ -51,7 +53,8 @@ career-profile:
   title: Profil
   summary: Passionné par l’informatique depuis toujours j’ai développé des compétences dans plusieurs
     domaines à travers des projets personnels et scolaires. Après deux ans à l'ESIEA, je poursuis
-    ma formation à l’ESGI où j’approfondis mes connaissances en informatique en première année.
+    ma formation à l’ESGI où j’approfondis mes connaissances en informatique en deuxième année.
+
 education:
   - degree: Bachelor informatique
     university: ESGI, Paris
@@ -65,6 +68,7 @@ education:
     university: Lycée Langevin-Wallon
     time: 2015 - 2019
     details:
+
 experiences:
   - role: Développeur web et mobile - Stage
     time: May 2022 - June 2022
@@ -72,14 +76,14 @@ experiences:
     details:
       Réalisation d'un site web permettant à chaque utilisateur de générer un certain nombre de QRCode qu'il aura choisi pour faire deviner une chaine de caractères une fois tout les QRCodes scannées.\
 
-      Outils => Remix, framework React.js / Base de donnée PostgreSQL / Prisma\
+      -  Remix, framework React.js / Base de donnée PostgreSQL / Prisma\
 
 
       J'ai participé à la préparation pour le déploiement d'un site web d'E-commerce existant en Open Source.\
 
       Il a fallu retirer des informations spécifiques qui concernaient le client, pour en faire un projet réutilisable par tous, de plus une fonctionnalité a dû être retravaillée pour être plus souple en fonction des besoins de chacun.\
 
-      Outils => GraphCMS / API GraphQL / Remix, framework React.js
+      - GraphCMS / API GraphQL / Remix, framework React.js
 
   - role: Développeur web et mobile - Stage
     time: June 2021 - July 2021
@@ -89,6 +93,7 @@ experiences:
     time: 2015 - 2015
     company: Jolicode
     details: Stage d’observation de 4 jours dans une société spécialisée dans le développement Web et mobile avec une initiation des langages web. (HTML/CSS)
+
 projects:
   title: Projets
   intro:
@@ -115,7 +120,7 @@ skills:
       level: 60%
 
     - name: PHP
-      level: 40%
+      level: 30%
 
     - name: Javascript / React
       level: 70%
