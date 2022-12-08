@@ -89,8 +89,8 @@ experiences:
       details: |
         Working as a backend engineer at Knowns. 
         I am responsible for data management on AWS Redshift and backend development with Spring Boot.
-          - Kotlin, Python, Typescript
-          - Spring Boot, AWS, Git, SQL
+          - Kotlin, Python, Typescript, SQL
+          - Spring Boot, AWS, Git, MySQL
           
     - role: Research Assistant at Mitsubishi Heavy Institute
       link: https://www.mhi.com/jp
