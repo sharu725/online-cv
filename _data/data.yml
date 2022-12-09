@@ -100,6 +100,10 @@ projects:
   title: Projets
   intro:
   assignments:
+    - title: Topcook
+      link: 'https://github.com/Jayllyz/Topcook'
+      tagline: 'Projet annuel de première année qui a consisté à réaliser un site web dynamique, nous avions choisi de créer un site web communautaire autour des recettes de cuisine.'
+
     - title: Survive The Tempest
       link: 'https://github.com/Jayllyz/SurvivetheTempest'
       tagline: 'Jeu de stratégie réalisé et inventé en duo, programmé en langage Python durant 4 mois en classe de terminale.'
@@ -112,23 +116,20 @@ skills:
   title: Compétences
 
   toolset:
-    - name: Python
-      level: 50%
-
     - name: C
       level: 70%
 
-    - name: HTML5 & CSS
-      level: 60%
-
-    - name: PHP
-      level: 30%
-
-    - name: Javascript / React
+    - name: Git & Docker
       level: 70%
 
-    - name: SQL
-      level: 40%
+    - name: HTML5 & CSS & PHP
+      level: 60%
+
+    - name: Javascript / React
+      level: 60%
+
+    - name: Java / Python
+      level: 50%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
