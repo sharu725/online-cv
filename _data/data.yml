@@ -52,8 +52,20 @@ education:
       time: 2001 - 2005
     - degree: MSc in CyberSecurity
       university: Purdue University Global
-      time: 2021 - current
+      time: 2018 - 2021
 experiences:
+    - role: Principal Devops Engineer
+      time: 2021 - Present
+      company: Interos Inc, Fairfax, Va
+      details: |
+        Process of writing code and developing engineering systems that made our microservices application platforms more
+        reliable, testable, and scalable. 
+          - Work hand-in-hand with software developers, architects, and business side resources
+            to deliver and support Kaplan's student facing application and infrastructure platforms.
+          - Actively manage, improve, and monitor cloud infrastructure on Azure and AWS via Terraform module
+            including backups, modifications and scaling.
+          - Reduced costs by eliminating unnecessary containers, repos and consolidating backend plaforms.
+
     - role: Senior Devops Engineer III
       time: 2017 - Present
       company: Kaplan University, Fort Lauderdale, Fl
