@@ -65,9 +65,8 @@ experiences:
           - Actively manage, improve, and monitor cloud infrastructure on Azure and AWS via Terraform module
             including backups, modifications and scaling.
           - Reduced costs by eliminating unnecessary containers, repos and consolidating backend plaforms.
-
     - role: Senior Devops Engineer III
-      time: 2017 - Present
+      time: 2017 - 2021
       company: Kaplan University, Fort Lauderdale, Fl
       details: |
         Triaging and handling operational issues while improving the process of writing code and 
