@@ -56,15 +56,15 @@ education:
 experiences:
     - role: Principal Devops Engineer
       time: 2021 - Present
-      company: Interos Inc, Fairfax, Va
+      company: Interos Inc, Arlington, Va
       details: |
-        Process of writing code and developing engineering systems that made our microservices application platforms more
-        reliable, testable, and scalable. 
-          - Work hand-in-hand with software developers, architects, and business side resources
-            to deliver and support Kaplan's student facing application and infrastructure platforms.
-          - Actively manage, improve, and monitor cloud infrastructure on Azure and AWS via Terraform module
-            including backups, modifications and scaling.
-          - Reduced costs by eliminating unnecessary containers, repos and consolidating backend plaforms.
+        A motivated Principal Devops engineer with a desire to work with our growing engineering team to build a 
+        cloud infrastructure. An excellent communicator that is able to collaborate cross-functionally and be a leader
+        in establishing our future approach.
+          - Focused on building Dockerized application components by integrating with AWS EKS and other AWS services.
+          - Passion for solving challenging issues, automation for the SDLC and infrastructure.
+          - Promoted cooperation and commitment within a team to achieve common goals.
+          - Examined data to grasp issues, draw conclusions, and solve problems.
     - role: Senior Devops Engineer III
       time: 2017 - 2021
       company: Kaplan University, Fort Lauderdale, Fl
