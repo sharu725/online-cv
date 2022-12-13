@@ -84,7 +84,7 @@ experiences:
     info:
       - role: Technicien Support
         time: Depuis 2017
-        company: Communauté d’Agglomération du Bassin de Bourg-en-B (01)– DSI
+        company: Communauté d’Agglomération du Bassin de Bourg-en-B (01)
         details: |
          En charge de la gestion de parc informatique
            - Installation poste de travail et Support aux utilisateurs
@@ -201,5 +201,5 @@ skills:
       - name: Gestion des incidents avec GLPI
         level: 98%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
