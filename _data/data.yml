@@ -8,38 +8,35 @@ sidebar:
 
     # Profile information
     name:  Cyril MOREL
-    tagline: Chef de Projet Informatique
+    tagline: Chargé de projet informatique
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: cyril.morel1885@mailo.com
     phone: 06.32.51.56.34
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+#    website: cyrilmor.github.io/online-cv/ #do not add http://
+    linkedin: www.linkedin.com/in/cyril-morel-b6021a57
+    github: cyrilmor.github.io/online-cv/ #do not add http://
+#    telegram: # add your nickname without '@' sign
+#    gitlab:
+#    bitbucket:
+#    twitter: '@webjeda'
+#    stack-overflow: # Number/Username, e.g. 123456/alandoe
+#    codewars:
+#    goodreads: # Number-Username, e.g. 123456-alandoe
+#    pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Français
           level: Native
 
-        - idiom: French
+        - idiom: Anglais
           level: Professional
 
-        - idiom: Spanish
-          level: Professional
+        - idiom: Espagnol
+          level: Basique
 
     interests:
       title: Interests
