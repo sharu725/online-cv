@@ -70,16 +70,17 @@ education:
             - Gestion de projet selon méthode Warterfall
             - Gestion de projet informatique avec méthodes agiles (SCRUM)
             
-      - degree: Licence professionnelle mention BIEN
+      - degree: Licence professionnelle 
+      # mention BIEN
         university: IUT de Nancy-Brabois, Département Génie-Civil (54)
         time: 2005-2006
         details: |
       
-# experiences:
-#     title: Expériences
-#     info:
-#       - role: Technicien Support
-#         time: Depuis 2017
+experiences:
+    title: Expériences
+    info:
+      - role: Technicien Support
+        time: Depuis 2017
 #         company: Communauté d’Agglomération du Bassin de Bourg-en-B (01)– DSI:
 #         details: |
 #           En charge de la gestion de parc informatique
