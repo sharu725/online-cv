@@ -1,7 +1,6 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
-
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
@@ -74,7 +73,7 @@ education:
 
       - degree: BTS Gestion et Maîtrise de l'eau 
       # mention BIEN
-        university: Lycée de Nîmes (30)
+        university: Lycée Agricole de Nîmes (30)
         time: 2003-2005
         details: |
       
@@ -87,17 +86,18 @@ experiences:
         details: |
          Gestion de parc informatique (de 1600 PC et 1800 utilisateurs pour 18 collectivités), gestion de sytème et réseau
            - Gestion d’un parc informatique 
-           - Installation poste de travail et Support aux utilisateurs
-           - Gestion des utilisateurs– Messagerie Exchange)
+           - Installation de poste de travail
+           - Gestion des utilisateurs
            - Gestion Active Directory (droits d’accès dans annuaire Active Directory et création de script GPO)
-           - Maîtrise des logiciels de Système d’Information Géographique : QGIS, Arcview et Mapinfo
+           – Administration de messagerie Exchange
            - Administration de Windows (7, 10 & 11)
            - Utilisation quotidienne de Linux (Debian, Ubuntu)
-           - Utilisation de gestionnaire de paquets (chocolatey, npm, apt)
+           - Utilisation de gestionnaire de paquets (Chocolatey, npm, apt)
            - Création de réseaux domestiques (IPv4)
            - Bases de données relationnelles avec XAMPP (MySQL, Access, requêtes SQL..)
            - Notions ITIL
            - Utilisation du logiciel DeepFreeze pour gestion postes travail dans écoles
+           - Maîtrise de logiciels de Système d’Information Géographique QGIS
 
       - role: Technicien études et programmation
         time: 2012 à 2017
