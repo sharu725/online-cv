@@ -84,9 +84,9 @@ experiences:
         company: Communauté d’Agglomération du Bassin de Bourg-en-B (01)– DSI:
         details: |
           En charge de la gestion de parc informatique
-            - Installation poste de travail et Support aux utilisateurs
-            - Gestion des utilisateurs (droits d’accès dans annuaire Active Directory – Messagerie Exchange)
-            - Gestion d’un parc informatique de 1600 PC et 1800 utilisateurs pour 18 collectivités
+#            - Installation poste de travail et Support aux utilisateurs
+#            - Gestion des utilisateurs (droits d’accès dans annuaire Active Directory – Messagerie Exchange)
+#            - Gestion d’un parc informatique de 1600 PC et 1800 utilisateurs pour 18 collectivités
             
       # - role: Technicien études et programmation
       #   time: 2012 à 2017
