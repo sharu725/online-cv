@@ -51,14 +51,10 @@ sidebar:
           link:
 
 career-profile:
-    title: Career Profile
+    title: En bref
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Passioné de technologies, je me suis reconverti dans le domaine de l'informatique.
+      J'ambitionne aujourd'hui d'évoluer vers des missions plsu larges.
 education:
     title: Education
     info:
@@ -82,7 +78,7 @@ experiences:
       - role: Technicien Support
         time: Depuis 2017
         company: Communauté d’Agglomération du Bassin de Bourg-en-B (01)– DSI:
-        details: |
+        # details: |
 #          En charge de la gestion de parc informatique
 #            - Installation poste de travail et Support aux utilisateurs
 #            - Gestion des utilisateurs (droits d’accès dans annuaire Active Directory – Messagerie Exchange)
