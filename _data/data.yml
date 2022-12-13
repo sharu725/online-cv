@@ -55,8 +55,9 @@ career-profile:
     summary: |
       Passioné de technologies, je me suis reconverti dans le domaine de l'informatique.
       Actuellement sur des missions essentiellement de support, j'ambitionne aujourd'hui d'évoluer vers des missions plus larges.
+
 education:
-    title: Education
+    title: Formation
     info:
       - degree: Licence informatique (LG025)
         university: CNAM Rhône-Alpes, (Conservatoire National des Arts et Métiers)
@@ -77,8 +78,8 @@ experiences:
     info:
       - role: Technicien Support
         time: Depuis 2017
-      #   company: Communauté d’Agglomération du Bassin de Bourg-en-B (01)– DSI:
-        # details: |
+        company: Communauté d’Agglomération du Bassin de Bourg-en-B (01)– DSI:
+        details: |
 #          En charge de la gestion de parc informatique
 #            - Installation poste de travail et Support aux utilisateurs
 #            - Gestion des utilisateurs (droits d’accès dans annuaire Active Directory – Messagerie Exchange)
