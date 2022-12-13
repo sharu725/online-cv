@@ -62,7 +62,7 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: Licence en informatique (LG025)
+      - degree: Licence informatique (LG025)
         university: CNAM Rhône-Alpes, (Conservatoire National des Arts et Métiers)
         time: Depuis 2015
         details: |
@@ -70,10 +70,10 @@ education:
             - Gestion de projet selon méthode Warterfall
             - Gestion de projet informatique avec méthodes agiles (SCRUM)
             
-      # - degree: Licence professionnelle Eau Ressources et Infrastructures mention BIEN
-      #   university: IUT de Nancy-Brabois, Département Génie-Civil (54)
-      #   time: 2005-2006
-      #   details: |
+      - degree: Licence professionnelle mention BIEN
+        university: IUT de Nancy-Brabois, Département Génie-Civil (54)
+        time: 2005-2006
+        details: |
       
 # experiences:
 #     title: Expériences
@@ -172,6 +172,12 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
+      - name: AutoCAD & COVADIS (DAO)
+        level: 95%
+
+      - name: Batch
+        level: 95%
+
       - name: Java
         level: 95%
 
@@ -183,17 +189,15 @@ skills:
       
       - name: Python
         level: 98%
-        
+
       - name: Angular
         level: 98%
 
 
 
-      - name: Ruby on Rails
-        level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+
+
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
