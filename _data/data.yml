@@ -54,7 +54,7 @@ career-profile:
     title: En bref
     summary: |
       Passioné de technologies, je me suis reconverti dans le domaine de l'informatique.
-      J'ambitionne aujourd'hui d'évoluer vers des missions plsu larges.
+      Actuellement sur des missions essentiellement de support, j'ambitionne aujourd'hui d'évoluer vers des missions plus larges.
 education:
     title: Education
     info:
@@ -75,7 +75,7 @@ education:
 experiences:
     title: Expériences
     info:
-      # - role: Technicien Support
+      - role: Technicien Support
       #   time: Depuis 2017
       #   company: Communauté d’Agglomération du Bassin de Bourg-en-B (01)– DSI:
         # details: |
