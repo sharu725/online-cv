@@ -4,7 +4,7 @@
 
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False #True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name:  Cyril MOREL
@@ -76,7 +76,7 @@ experiences:
     title: Expériences
     info:
       - role: Technicien Support
-      #   time: Depuis 2017
+        time: Depuis 2017
       #   company: Communauté d’Agglomération du Bassin de Bourg-en-B (01)– DSI:
         # details: |
 #          En charge de la gestion de parc informatique
