@@ -75,9 +75,9 @@ education:
 experiences:
     title: Expériences
     info:
-      - role: Technicien Support
-        time: Depuis 2017
-        company: Communauté d’Agglomération du Bassin de Bourg-en-B (01)– DSI:
+      # - role: Technicien Support
+      #   time: Depuis 2017
+      #   company: Communauté d’Agglomération du Bassin de Bourg-en-B (01)– DSI:
         # details: |
 #          En charge de la gestion de parc informatique
 #            - Installation poste de travail et Support aux utilisateurs
