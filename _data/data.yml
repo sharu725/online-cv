@@ -14,9 +14,9 @@ sidebar:
     # Sidebar links
     email: cyril.morel1885@mailo.com
     phone: 06.32.51.56.34
-#    website: cyrilmor.github.io/online-cv/ #do not add http://
-    linkedin: www.linkedin.com/in/cyril-morel-b6021a57
-    github: cyrilmor.github.io/online-cv/ #do not add http://
+    website: cyrilmor.github.io/online-cv/ #do not add http://
+    linkedin: cyril-morel-b6021a57
+#    github: cyrilmor.github.io/online-cv/ #do not add http://
 #    telegram: # add your nickname without '@' sign
 #    gitlab:
 #    bitbucket:
@@ -27,7 +27,7 @@ sidebar:
 #    pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
-      title: Languages
+      title: Langues
       info:
         - idiom: Français
           level: Native
@@ -39,15 +39,15 @@ sidebar:
           level: Basique
 
     interests:
-      title: Interests
+      title: Centres d'intérêts
       info:
-        - item: Climbing
+        - item: Sapeur-Pompier Volontaire
           link:
 
-        - item: Snowboarding
+        - item: Domotique
           link:
 
-        - item: Cooking
+        - item: Sport (Rugby, Course à pied, Natation)
           link:
 
 career-profile:
