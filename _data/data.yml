@@ -73,17 +73,17 @@ education:
       #   university: IUT de Nancy-Brabois, Département Génie-Civil (54)
       #   time: 2005-2006
       #   details: |
-# experiences:
-#     title: Expériences
-#     info:
-#       - role: Technicien Support
-#         time: Depuis 2017
-#         company: Communauté d’Agglomération du Bassin de Bourg-en-B (01)– DSI:
-#         details: |
-#           En charge de la gestion de parc informatique
-#             - Installation poste de travail et Support aux utilisateurs
-#             - Gestion des utilisateurs (droits d’accès dans annuaire Active Directory – Messagerie Exchange)
-#             - Gestion d’un parc informatique de 1600 PC et 1800 utilisateurs pour 18 collectivités
+experiences:
+     title: Expériences
+    info:
+      - role: Technicien Support
+        time: Depuis 2017
+        company: Communauté d’Agglomération du Bassin de Bourg-en-B (01)– DSI:
+        details: |
+          En charge de la gestion de parc informatique
+            - Installation poste de travail et Support aux utilisateurs
+            - Gestion des utilisateurs (droits d’accès dans annuaire Active Directory – Messagerie Exchange)
+            - Gestion d’un parc informatique de 1600 PC et 1800 utilisateurs pour 18 collectivités
 #       - role: Technicien études et programmation
 #         time: 2012 à 2017
 #         company: Communauté de communes de Montrevel-en-B. (01):
