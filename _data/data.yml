@@ -73,46 +73,32 @@ education:
       #   university: IUT de Nancy-Brabois, Département Génie-Civil (54)
       #   time: 2005-2006
       #   details: |
+
 experiences:
-    title: Experiences
+    title: Expériences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Technicien Support
+        time: Depuis 2017
+        company: Communauté d’Agglomération du Bassin de Bourg-en-B (01)– DSI:
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          En charge de la gestion de parc informatique
+            - Installation poste de travail et Support aux utilisateurs
+            - Gestion des utilisateurs (droits d’accès dans annuaire Active Directory – Messagerie Exchange)
+            - Gestion d’un parc informatique de 1600 PC et 1800 utilisateurs pour 18 collectivités
+      - role: Technicien études et programmation
+        time: 2012 à 2017
+        company: Communauté de communes de Montrevel-en-B. (01):
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Conception de projet de Voirie et Réseaux Divers
+            - Modélisation du réseau routier sur SIG (logiciel QGIS) pour optimiser la gestion patrimoniale
+            - Développement d’outils internes basés en HTML pour l’optimisation des procédures internes
+            - Administration progiciel de services techniques ATAL (basé sur SQL Server)
+      - role: Maître d'oeuvre (VRD)
+        time: 2009 - 2012
+        company: Cabinet de géomètres AXIS-Conseils à Vonnas (01)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Conception de projet de Voirie et Réseaux Divers
+
 projects:
     title: Projects
     intro: >
