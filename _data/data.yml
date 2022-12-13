@@ -105,6 +105,7 @@ experiences:
         company: Cabinet de géomètres AXIS-Conseils à Vonnas (01)
         details: |
           Conception de projet de Voirie et Réseaux Divers
+
 # projects:
 #     title: Projects
 #     intro: >
@@ -194,7 +195,10 @@ skills:
       - name: Python
         level: 98%
 
-      - name: Angular
+      - name: Maîtrise des outils bureautique
+        level: 99%        
+
+      - name: Gestion des incidents avec GLPI
         level: 98%
 
 footer: >
