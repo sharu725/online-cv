@@ -85,11 +85,20 @@ experiences:
         time: Depuis 2017
         company: Communauté d’Agglomération du Bassin de Bourg-en-B (01)
         details: |
-         En charge de la gestion de parc informatique
+         Gestion de parc informatique (de 1600 PC et 1800 utilisateurs pour 18 collectivités), gestion de sytème et réseau
+           - Gestion d’un parc informatique 
            - Installation poste de travail et Support aux utilisateurs
-           - Gestion des utilisateurs (droits d’accès dans annuaire Active Directory – Messagerie Exchange)
-           - Gestion d’un parc informatique de 1600 PC et 1800 utilisateurs pour 18 collectivités
-            
+           - Gestion des utilisateurs– Messagerie Exchange)
+           - Gestion Active Directory (droits d’accès dans annuaire Active Directory et création de script GPO)
+           - Maîtrise des logiciels de Système d’Information Géographique : QGIS, Arcview et Mapinfo
+           - Administration de Windows (7, 10 & 11)
+           - Utilisation quotidienne de Linux (Debian, Ubuntu)
+           - Utilisation de gestionnaire de paquets (chocolatey, npm, apt)
+           - Création de réseaux domestiques (IPv4)
+           - Bases de données relationnelles avec XAMPP (MySQL, Access, requêtes SQL..)
+           - Notions ITIL
+           - Utilisation du logiciel DeepFreeze pour gestion postes travail dans écoles
+
       - role: Technicien études et programmation
         time: 2012 à 2017
         company: Communauté de communes de Montrevel-en-B. (01)
