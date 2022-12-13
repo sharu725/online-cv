@@ -88,15 +88,15 @@ experiences:
             - Gestion des utilisateurs (droits d’accès dans annuaire Active Directory – Messagerie Exchange)
             - Gestion d’un parc informatique de 1600 PC et 1800 utilisateurs pour 18 collectivités
             
-      - role: Technicien études et programmation
-        time: 2012 à 2017
-        company: Communauté de communes de Montrevel-en-B. (01):
-        details: |
-          Conception de projet de Voirie et Réseaux Divers
-            - Modélisation du réseau routier sur SIG (logiciel QGIS) pour optimiser la gestion patrimoniale
-            - Développement d’outils internes basés en HTML pour l’optimisation des procédures internes
-            - Administration progiciel de services techniques ATAL (basé sur SQL Server)
-            
+      # - role: Technicien études et programmation
+      #   time: 2012 à 2017
+      #   company: Communauté de communes de Montrevel-en-B. (01):
+      #   details: |
+      #     Conception de projet de Voirie et Réseaux Divers
+      #       - Modélisation du réseau routier sur SIG (logiciel QGIS) pour optimiser la gestion patrimoniale
+      #       - Développement d’outils internes basés en HTML pour l’optimisation des procédures internes
+      #       - Administration progiciel de services techniques ATAL (basé sur SQL Server)
+
 #       - role: Maître d'oeuvre (VRD)
 #         time: 2009 - 2012
 #         company: Cabinet de géomètres AXIS-Conseils à Vonnas (01)
