@@ -72,6 +72,12 @@ education:
         university: IUT de Nancy-Brabois, Département Génie-Civil (54)
         time: 2005-2006
         details: |
+
+      - degree: BTS Gestion et Maîtrise de l'eau 
+      # mention BIEN
+        university: Lycée agrigole (30)
+        time: 2003-2005
+        details: |
       
 experiences:
     title: Expériences
@@ -168,13 +174,12 @@ experiences:
 #         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
-
+    title: Compétences
     toolset:
       - name: AutoCAD & COVADIS (DAO)
         level: 95%
 
-      - name: Batch
+      - name: Batch & Powershell
         level: 95%
 
       - name: Java
@@ -191,12 +196,6 @@ skills:
 
       - name: Angular
         level: 98%
-
-
-
-
-
-
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
