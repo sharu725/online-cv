@@ -52,7 +52,8 @@ career-profile:
     title: En bref
     summary: |
       Passioné de technologies, je me suis reconverti dans le domaine de l'informatique.
-      Actuellement sur des missions essentiellement de support, j'ambitionne aujourd'hui d'évoluer vers des missions plus larges.
+      Ma faculté d'adaptation, mon sens de l'organisation et ma conscience professionnelle m'ont permis d'acquérir de solides compétences en systèmes informatique, gestion de serveurs, support aux utilisateurs.     
+      Ces expériences mon aussi permis de développer mon côté altruiste et pédagogue, et je suis à la recherche de nouvelles opportunités dans ce domaine. Au cours de mon parcours, j’ai acquis de solides compétences en maintenance informatique, gestion de serveurs, support aux utilisateurs.
 
 education:
     title: Formation
@@ -118,8 +119,7 @@ experiences:
 #     title: Projects
 #     intro: >
 #       You can list your side projects in this
-#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#       section.
 #     assignments:
 #       - title: Velocity
 #         link: "#hook"
