@@ -51,7 +51,7 @@ sidebar:
 career-profile:
     title: En bref
     summary: |
-      Passioné de technologies, je me suis reconverti dans le domaine de l'informatique.
+      Passioné de technologies, je me suis reconverti dans le domaine de l'informatique en 2017.
       Ma faculté d'adaptation, mon sens de l'organisation et ma conscience professionnelle m'ont permis d'acquérir de solides compétences en systèmes informatique, gestion de serveurs, support aux utilisateurs.     
       Ces expériences mon aussi permis de développer mon côté altruiste et pédagogue, et je suis à la recherche de nouvelles opportunités dans ce domaine. Au cours de mon parcours, j’ai acquis de solides compétences en maintenance informatique, gestion de serveurs, support aux utilisateurs.
 
@@ -185,19 +185,19 @@ skills:
     title: Compétences
     toolset:
       - name: Maîtrise des outils bureautique
-        level: 99%        
+        level: 100%        
 
       - name: Gestion des incidents avec GLPI
-        level: 98%
+        level: 100%
 
       - name: AutoCAD & COVADIS (DAO)
-        level: 95%
+        level: 100%
 
       - name: Batch & Powershell
         level: 95%
 
       - name: Java
-        level: 95%
+        level: 94%
       
       - name: Python
         level: 90%
