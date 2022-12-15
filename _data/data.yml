@@ -5,217 +5,185 @@
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
+    driving: True
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Edgar Nieto
+    tagline: Embedded Software Development
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    email: edgarnietomartin@gmail.com
+    phone: "+49 17636324003"
+    timezone: CET Timezone
+    citizenship: Spain
+    website: #do not add http://
+    linkedin: edgmar
+    xing:
+    github:
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Spanish
           level: Native
 
-        - idiom: French
-          level: Professional
+        - idiom: English
+          level: Fluent
 
-        - idiom: Spanish
-          level: Professional
+        - idiom: German
+          level: Intermediate
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Flying
           link:
 
-        - item: Snowboarding
+        - item: Sports
           link:
 
         - item: Cooking
           link:
 
+    others:
+      title: Other information
+      info:
+        - item: Driving License
+          property: A2, B
+
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Embedded Software Engineer with strong focus on process and validation.
+      Worked for several aviation and aerospace projects, and want to continue
+      on embedded software solutions.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: BSc in Aerospace Engineering
+        university: Universidad Carlos III Madrid
+        time: 2012 - 2016
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Aerospace Engineering with a focus on mechanics, electronics and 
+          software. Some of the subjects included fluid dynamics, structures,
+          embedded systems and microcontrollers among others.
+          During the studies, I was member of the university's robotics 
+          association.
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Software Validation Engineer
+        time: 2018 - 2020
+        company: etamax space GmbH, Braunschweig
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Worked as embedded software validation engineer for an unmanned aerial 
+          platoform in a team of three, 
+          validating Model-based software components through unit and integration
+          test according to DO-178C and DO-331. The tasks were:
+            - Planning and process review.
+            - Requirements and ICD review and improvements.
+            - Definition of test cases from requirements.
+            - Implementation of test cases from requirements.
+            - Test case campaigns and problem report submissions.
+            - Code reviews and test framework development.
+            - Software fixes to bugs.
+
+          Tools used: Console, Git, Gitlab, Markdown, Python, Pandoc, SCADE.
+
+      - role: Software Engineer
+        time: March 2020 - November 2020
+        company: etamax space GmbH, Braunschweig
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Developer of an internal automated test framework with a web-based interface,
+          in a team of four. Some of the tasks were:
+            - Automatic generation of files to Robot Framework format.
+            - Back-end development of application.
+            - Generation of documentation.
+
+          Tools used: Python, Flask, Robot Framework, Pandoc
+
+      - role: Embedded Software Engineer
+        time: November 2020 - November 2022
+        company: OHB SE, Bremen
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+           Embedded Software Validation for a satellite mission at a large team.
+           Some of the tasks were:
+             - Software requirements definition and review.
+             - Definition and review of validation and system test cases against requirements.
+             - Test campaigns with SiL.
+             - Test campaigns with HiL.
+             - Git repository maintenance and definition of rules.
+             - Maintenance of CI/CD pipelines.
+
+           Tools used: Internal test framework, Git, Gitlab, Jira, Jenkins, Eclipse, DOORS, Milbus
+
+      - role: IVVQ Enineer
+        time: November 2022 - Current
+        company: etamax space GmbH, Braunschweig
+        details: |
+            Software quality assurance, verification and validation for a Thales group
+            project. The tasks are:
+              - Software requirements review and improvement.
+              - Requirements traceability.
+              - Definition of automated test specification.
+              - Implementation of automated test specification.
+
+            Tools used: Jira, Git, Gitlab, Robot Framework, DOORS
+
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      These are the projects that I worked within my roles:
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Leichtwerk - HAPS StratoStreamer
+        link: "https://haps-broadband.org"
+        tagline: "Unmanned aerial platform for wide area communications."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: CO2M
+        link: "https://www.esa.int/ESA_Multimedia/Images/2021/02/CO2M"
+        tagline: "The Copernicus Carbon Dioxide Monitoring mission."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: COMTICS
+        link: "https://www.thalesgroup.com/en/markets/defence-and-security/radio-communications/naval-communications/ship-communications/comtics"
+        tagline: "COMTICS is an advanced voice and data distribution system based on Thales's sea-proven NGIN and focon IP solutions."
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    title: Courses and Diplomas
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: ISTQB Certified Tester Foundation Level
+        authors: SSTQB
+        conference: 2018
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Advanced C Programming Course
+        authors: Jason Fedin, Udemy
+        conference: 2021
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 80%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: C/C++
+        level: 50%
 
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Git, Gitlab &amp; CI/CD
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: "MBSE: SCADE, Simulink"
+        level: 75%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: DO-178C
+        level: 90%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: ECSS-E-ST-40C
+        level: 80%
