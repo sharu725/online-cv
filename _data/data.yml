@@ -182,13 +182,13 @@ experiences:
 skills:
     title: Compétences
     toolset:
-      - name: Maîtrise des outils bureautique
+      - name: Outils bureautique (MS office,...)
         level: 100%        
 
-      - name: Gestion des incidents avec GLPI
+      - name: GLPI
         level: 100%
 
-      - name: AutoCAD & COVADIS (DAO)
+      - name: Outils DAO (AutoCAD & COVADIS)
         level: 100%
 
       - name: Batch & Powershell
