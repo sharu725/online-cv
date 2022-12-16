@@ -62,17 +62,17 @@ education:
         university: CNAM Rhône-Alpes, (Conservatoire National des Arts et Métiers)
         time: Depuis 2015
         details: |
-          Suivi d'une formation hors temps de travail pour approfondir connaissances.
+          Suivi d'une formation hors temps de travail pour approfondir mes connaissances.
             - Gestion de projet selon méthode Warterfall
             - Gestion de projet informatique avec méthodes agiles (SCRUM)
             
-      - degree: Licence professionnelle 
+      - degree: Licence professionnelle
       # mention BIEN
         university: IUT de Nancy-Brabois, Département Génie-Civil (54)
         time: 2005-2006
         details: |
 
-      - degree: BTS Gestion et Maîtrise de l'eau 
+      - degree: BTS Gestion et Maîtrise de l'eau
       # mention BIEN
         university: Lycée Agricole de Nîmes (30)
         time: 2003-2005
@@ -81,32 +81,30 @@ education:
 experiences:
     title: Expériences
     info:
-      - role: Technicien Support
+      - role: Chargé de projet informatique
         time: Depuis 2017
         company: Communauté d’Agglomération du Bassin de Bourg-en-B (01)
         details: |
          Gestion de parc informatique (de 1600 PC et 1800 utilisateurs pour 18 collectivités), gestion de sytème et réseau
-           - Gestion d’un parc informatique 
-           - Installation de poste de travail
+           - Déploiement et paramétrage de postes de travail (MDT)
            - Gestion des utilisateurs
            - Gestion Active Directory (droits d’accès dans annuaire Active Directory et création de script GPO)
            – Administration de messagerie Exchange
            - Administration de Windows (7, 10 & 11)
            - Utilisation quotidienne de Linux (Debian, Ubuntu)
            - Utilisation de gestionnaire de paquets (Chocolatey, npm, apt)
-           - Création de réseaux domestiques (IPv4)
-           - Bases de données relationnelles avec XAMPP (MySQL, Access, requêtes SQL..)
+           - Gestion de réseaux (IPv4 / VLAN)
+           - Bases de données relationnelles (XAMPP, MySQL, Access, requêtes SQL..)
            - Notions ITIL
            - Utilisation du logiciel DeepFreeze pour gestion postes travail dans écoles
            - Maîtrise de logiciels de Système d’Information Géographique QGIS
-
       - role: Technicien études et programmation
         time: 2012 à 2017
         company: Communauté de communes de Montrevel-en-B. (01)
         details: |
           Conception de projet de Voirie et Réseaux Divers
             - Modélisation du réseau routier sur SIG (logiciel QGIS) pour optimiser la gestion patrimoniale
-            - Développement d’outils internes basés en HTML pour l’optimisation des procédures internes
+            - Développement d’outils internes en HTML pour optimiser les procédures internes
             - Administration du logiciel de services techniques ATAL (basé sur SQL Server)
 
       - role: Maître d'oeuvre (VRD)
