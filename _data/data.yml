@@ -52,7 +52,7 @@ career-profile:
     title: En bref
     summary: |
       Passionné de technologies, je me suis reconverti dans le domaine de l'informatique en 2017.
-      Ma faculté d'adaptation, mon sens de l'organisation et ma conscience professionnelle m'ont permis d'acquérir de solides compétences en systèmes informatique, gestion de serveurs, support aux utilisateurs.     
+      Ma faculté d'adaptation, mon sens de l'organisation et ma conscience professionnelle m'ont permis d'acquérir de solides compétences en systèmes informatiques, gestion de serveurs, support aux utilisateurs.     
       Ces expériences mon aussi permis de développer mon côté altruiste et pédagogue, et je suis à la recherche de nouvelles opportunités dans ce domaine. Au cours de mon parcours, j’ai acquis de solides compétences en maintenance informatique, gestion de serveurs, support aux utilisateurs.
 
 education:
@@ -91,7 +91,7 @@ experiences:
            - Gestion Active Directory (droits d’accès dans annuaire Active Directory et création de script GPO)
            – Administration de messagerie Exchange
            - Administration de Windows (7, 10 & 11)
-           - Virtualisation de seveur (VMware, VirtualBox)
+           - Virtualisation de serveur (VMware, VirtualBox)
            - Utilisation quotidienne de Linux (Debian, Ubuntu)
            - Utilisation de gestionnaire de paquets (Chocolatey, npm, apt)
            - Gestion de réseaux (IPv4 / VLAN)
