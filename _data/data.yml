@@ -91,6 +91,7 @@ experiences:
            - Gestion Active Directory (droits d’accès dans annuaire Active Directory et création de script GPO)
            – Administration de messagerie Exchange
            - Administration de Windows (7, 10 & 11)
+           - Virtualisation de seveur (VMware, VirtualBox)
            - Utilisation quotidienne de Linux (Debian, Ubuntu)
            - Utilisation de gestionnaire de paquets (Chocolatey, npm, apt)
            - Gestion de réseaux (IPv4 / VLAN)
@@ -110,7 +111,6 @@ experiences:
         time: 2009 - 2012
         company: Cabinet de géomètres AXIS-Conseils à Vonnas (01)
         details: |
-          Conception de projet de Voirie et Réseaux Divers
 
 # projects:
 #     title: Projects
@@ -192,6 +192,9 @@ skills:
 
       - name: Batch & Powershell
         level: 95%
+
+      - name: Planification de projets
+        level: 95%        
 
       - name: Java
         level: 94%
