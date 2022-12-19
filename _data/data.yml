@@ -56,11 +56,11 @@ career-profile:
       Ces expériences mon aussi permis de développer mon côté altruiste et pédagogue, et je suis à la recherche de nouvelles opportunités dans ce domaine. Au cours de mon parcours, j’ai acquis de solides compétences en maintenance informatique, gestion de serveurs, support aux utilisateurs.
 
 education:
-    title: Formation
+    title: Formations
     info:
       - degree: Licence informatique (LG025)
         university: CNAM Rhône-Alpes, (Conservatoire National des Arts et Métiers)
-        time: Depuis 2015
+        time: Depuis 2015 complètée par des formations à distance (MOOC)
         details: |
           Suivi d'une formation hors temps de travail pour approfondir mes connaissances.
             - Gestion de projet selon méthode Warterfall
@@ -102,7 +102,7 @@ experiences:
         time: 2012 à 2017
         company: Communauté de communes de Montrevel-en-B. (01)
         details: |
-          Conception de projet de Voirie et Réseaux Divers
+          Conception et gestion de projet de Voirie et Réseaux Divers
             - Modélisation du réseau routier sur SIG (logiciel QGIS) pour optimiser la gestion patrimoniale
             - Développement d’outils internes en HTML pour optimiser les procédures internes
             - Administration du logiciel de services techniques ATAL (basé sur SQL Server)
