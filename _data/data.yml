@@ -60,7 +60,7 @@ education:
     info:
       - degree: Licence informatique (LG025)
         university: CNAM Rhône-Alpes, (Conservatoire National des Arts et Métiers)
-        time: Depuis 2015 complètée par des formations à distance (MOOC)
+        time: Depuis 2015, complétée par des formations à distance (MOOC)
         details: |
           Suivi d'une formation hors temps de travail pour approfondir mes connaissances.
             - Gestion de projet selon méthode Warterfall
@@ -205,7 +205,7 @@ skills:
       - name: HTML5 & CSS
         level: 80%
 
-      - name: Javascript
+      - name: Javascript / Typescript
         level: 70%
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
