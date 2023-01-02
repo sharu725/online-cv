@@ -13,21 +13,9 @@
     </li>
     {% endif %}
 
-    {% if sidebar.citizenship %}
-    <li class="phone"><i class="fas fa-passport"></i>
-      <a href="">{{ sidebar.citizenship }}</a>
-    </li>
-    {% endif %}
-
-    {% if sidebar.timezone %}
-    <li class="timezone"><i class="fas fa-clock"></i>
-      <a href="">{{ sidebar.timezone }}</a>
-    </li>
-    {% endif %}
-
-    {% if sidebar.telegram %}
-    <li class="telegram"><i class="fab fa-telegram"></i>
-      <a href="https://t.me/{{ sidebar.telegram }}" target="_blank">{{ sidebar.telegram }}</a>
+    {% if sidebar.location %}
+    <li class="location"><i class="fa fa-map-marker"></i>
+      <a href="">{{ sidebar.location }}</a>
     </li>
     {% endif %}
 
@@ -43,11 +31,6 @@
     </li>
     {% endif %}
 
-    {% if sidebar.xing %}
-    <li class="xing"><i class="fab fa-xing"></i>
-      <a href="https://www.xing.com/profile/{{ sidebar.xing }}" target="_blank">{{ sidebar.xing }}</a>
-    </li>
-    {% endif %}
 
     {% if sidebar.github %}
     <li class="github"><i class="fab fa-github"></i>
@@ -55,45 +38,9 @@
     </li>
     {% endif %}
 
-    {% if sidebar.gitlab %}
-    <li class="gitlab"><i class="fab fa-gitlab"></i>
-      <a href="http://gitlab.com/{{ sidebar.gitlab }}" target="_blank">{{ sidebar.gitlab }}</a>
-    </li>
-    {% endif %}
-
-    {% if sidebar.bitbucket %}
-    <li class="bitbucket"><i class="fab fa-bitbucket"></i>
-      <a href="http://bitbucket.com/{{ sidebar.bitbucket }}" target="_blank">{{ sidebar.bitbucket }}</a>
-    </li>
-    {% endif %}
-
-    {% if sidebar.twitter %}
-    <li class="twitter"><i class="fab fa-twitter"></i>
-      <a href="https://twitter.com/{{ sidebar.twitter }}" target="_blank">{{ sidebar.twitter }}</a>
-    </li>
-    {% endif %}
-
-    {% if sidebar.stack-overflow %}
-    <li class="stack-overflow"><i class="fab fa-stack-overflow"></i>
-      <a href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }}" target="_blank">{{ sidebar.stack-overflow }}</a>
-    </li>
-    {% endif %}
-
-    {% if sidebar.codewars %}
-    <li class="codewars"><i class="fas fa-code"></i>
-      <a href="https://www.codewars.com/users/{{ sidebar.codewars }}/completed_solutions" target="_blank">{{ sidebar.codewars }}</a>
-    </li>
-    {% endif %}
-
-    {% if sidebar.goodreads %}
-    <li class="goodreads-g"><i class="fab fa-goodreads-g"></i>
-      <a href="https://www.goodreads.com/user/show/{{ sidebar.goodreads }}" target="_blank">{{ sidebar.goodreads }}</a>
-    </li>
-    {% endif %}
-
     {% if sidebar.pdf %}
     <li class="pdf"><i class="fas fa-file-pdf"></i>
-      <a href="{{ sidebar.pdf }}" target="_blank">Resume PDF</a>
+      <a href="" target="_blank">Resume PDF</a>
     </li>
     {% endif %}
 
