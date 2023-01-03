@@ -1,7 +1,3 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
@@ -23,33 +19,43 @@ sidebar:
       title: Languages
       info:
         - idiom: English
-          level: Native
         - idiom: Nepali
-          level: Native
 
     interests:
-      title: Interests
+      title: Hobbies
       info:
-        - item: Hiking
-          link:
+        - item: Hiking 🥾
+        - item: Travelling ✈️ 🌏
+        - item: Climbing 🧗🏽 
+        - item: Running 🏃🏽‍♂️
+        - item: Badmintion 🏸
 
-        - item: Hiking 
-          link:
+    career-interests:
+      title: 👨🏽‍💻 Career Interests
+      info:
+        - item: DevOps
+        - item: Technical Leadership
+        - item: Software Architecture
+        - item: Infrastructure as code (IaC)
 
-        - item: Running 
-          link:
-        
-        - item: Badmintion 
-          link:
+    certifications:
+      title: 🏅 Certification
+      info:
+        - item: Certified SAFe® 5 Practitioner
+          link: https://www.credly.com/badges/a963a770-a221-43d2-8719-8374c64a5cd4?source=linked_in_profile
+        - item: GCP Cloud Digital Leader
+          link: https://www.credential.net/98408472-64ce-4df2-8960-02b5d9729857
+
 
 career-profile:
     title: Career Profile
     summary: |
       Suman is a software engineer with over 3 years of commercial experience in software development using mostly Java and Java related technologies. 
       He has worked on global, large-scale systems in financial domain and has experience includes working in all stages of SDLC, from analysis of requirements and design to deployment and maintenance. 
-      He is also able to co-ordinate with multiple teams and adapt according to project needs. Likewise, he is eager to learn new technologies and share his skills and experience with wider community.
+      He is also able to co-ordinate with multiple teams and adapt according to project needs.
+      Likewise, he is eager to learn new technologies and share his skills and experience with wider community.
 education:
-    title: Education
+    title: 🎓 Education
     info:
       - degree: BSc Computer Science with Year in Indsutry
         university: City, University of London
@@ -57,43 +63,61 @@ education:
       - degree: A-Levels
         university: The John Roan School
         time: Sep 2012 - Jun 2015
+skills:
+    title: Tech Skills
+    toolset:
+      - category: Languages, Frameworks & Tools
+        name: Java, Spring, Junit, Mockito, Apache Kafka, Confluent Schema Registry, Cucumber, Spark, Git, Bitbucket, OpenShift, Jenkins, CircleCi, Terraform, IntelliJ, Apache Maven etc.
+      - category: Methodologies & Specifications
+        name: Agile, TDD, BDD, Apache Avro Specfication, AsyncAPI, OpenAPI, REST, EDA etc.
+      - category: Database & Migration Tool
+        name: Oracle, PostgreSQL, H2, MySQL, Flyway etc.
+        
 experiences:
     title: Experiences
     info:
-      - role: Software Engineer
-        time: Jul 2019 - Present
-        company: Capco a Wipro Copmany
-        client: Global Payment Provider
+      - role: Consultant Software Engineer
+        time: Mar 2022 - Present
+        company: "Capco a Wipro Company - Client: Global Payments Processor"
         details: |
-          To replace existing financial reporting systems to use Kafka in  Global Payment Provider
-            - Implemented contracts using AsyncApi Spec, including the process to generate AVRO schema using the contracts which was first within the domain which has improved the process of sharing the message contracts between subscribers and publishers.
-            - Took full ownership of implementation of replaying failed or unsuccessful messages and republishing them to Kafka Topic
-            - Implemented and improve existing BDD enabling client and testers to have a better visibility of what feature are being tested
-        technologies: 
-      - role: Software Engineer
-        time: Jul 2019 - Present
-        company: Capco a Wipro Copmany
-        client: Tier 1 Investment Bank
+          To replace existing financial reporting systems to use Kafka in Global Payments Processor
+          - Transformation of the batch processing Spark application to transform data acquired from the upstream Oracle database into AVRO object format andto produce downstream feed as Kafka messages.
+          - Implemented contracts using AsyncAPI, including the process to generate AVRO schema using the specifications which was first within the domain. This has improved the process of sharing the message contracts between subscribers and publishers for EDA.
+          - Took full ownership of implementation of replaying failed or unsuccessful messages and republishing them to Kafka Topic.
+          - Implemented and improved existing BDD framework, enabling client and testers to have a better visibility of which features are being tested.
+        technologies: Java, Apache Kafka, Cucumber, Spark, GitHub, Jenkins,AsyncAPI, Schema Registry, Oracle
+      
+      - role: Consultant Software Engineer
+        time: Oct 2021 - Jan 2022
+        company: "Capco a Wipro Company - Client: Tier 1 Investment Bank"
         details: |
           To create a POC for GraphQL service and document GraphQL standards for others to adopt in Tier 1 Investment Bank
-            - Implemented graph service POC to retrieve customer data from different System APIs which will be later used to facilitate Open Banking, Account Information and Payment Initiation use cases.
-            - Collaborated with other developers and stakeholders to document GraphQL standards and best practices.
+          - Implemented graph service POC to retrieve customer data from different System APIs which will be later used to facilitate Open Banking, Account Information and Payment Initiation use cases.
+          - Collaborated with other developers and stakeholders to document GraphQL standards and best practices.
         technologies: GraphQL, Kotlin, GraphQL Java Kickstart & dgs-codegen by Netflix
 
-      - role: Software Engineer
-        time: Jul 2019 - Present
-        company: Capco a Wipro Copmany
-        client: Tier 1 Investment Bank
+      - role: Associate Software Engineer
+        time: Oct 2019 - Sep 2021
+        company: "Capco a Wipro Company - Client: Tier 1 Investment Bank"
         details: |
           To replace existing Oracle based system and MS Access application into a modern micro-service in Tier 1 Investment Bank
-            - Developed distributed configuration system which is used by more than 20 microservice to manage external properties for application across all environments.
-            - Design and Implemented CI/CD pipeline both for backend and frontend applications using Jenkins, which improved the release cycle from 6 weeks to 2 weeks.
-            - Implemented microservices to replace existing Oracle processes which has resulted in business reporting process from bi-weekly to daily.
-            - Integrated BDD testing using cucumber for the microservices
+          - Developed distributed configuration system which is used by more than 20 microservice to manage external properties for application across all environments.
+          - Design and Implemented CI/CD pipeline both for backend and frontend applications using Jenkins, which improved the release cycle from 6 weeks to 2 weeks.
+          - Implemented microservices to replace existing Oracleprocesses which has resulted in business reporting process from bi-weekly to daily.
+          - Integrated BDD testing using cucumber for the microservices
         technologies: Java 8 & 11, Spring, Oracle, OpenShift (on top of Azure), Jenkins & JPA
+     
+      - role: Associate Software Engineer
+        time: Jul 2019 - Oct 2019
+        company: Capco a Wipro Company
+        details: |
+          API distribution platform enabling third-party APS to be exposed to financial services companies.
+            - Involved in design and implementation of Serverless function
+            - Involved in deployment of microservices and front-end application in GKE (Google KubernetesEngine) using CircleCI, K8s and Skaffold
+        technologies: Go, Java, Spring, CircleCI, Google Cloud, Skaffold
 
       - role: Technical Consultant
-        time: 2017 - JUL 2018
+        time: 2017 - Jul 2018
         company: HPE Software /Micro Focus
         details: |
           - Taking technical responsibility for all stages and/or iterations in Software Development and implementation process.
