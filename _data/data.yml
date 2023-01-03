@@ -38,8 +38,8 @@ sidebar:
         items:
           - Data Structures and Algorithms
           - Front End > React-JS, Angular 5
-          - Back End > Node-JS, Express-JS, DRF, Django, ASP.NET WEB API
-          - Programming Languages -JavaScript, Python, C++, C#
+          - Back End > Node-JS, Express-JS, DRF, Django
+          - Programming Languages -JavaScript, Python
           - Databases (SQL & NoSQL) > SQL Server, MySQL, MongoDB, redis
           - HTML5, CSS, Bootstrap, JQuery, MERN stack, MEAN stack
 
@@ -65,7 +65,7 @@ career-profile:
     title: Career Profile
     summary: |
       Passionate, Self-motivated and hardworking programmer
-      with 4+ years experience seeking an opportunity to work
+      with 4.5+ years experience seeking an opportunity to work
       in a challenging environment to prove my coding skills and
       make a significant contribution to the success of the employer
       and at the same time pursue my individual growth.
@@ -107,7 +107,6 @@ experiences:
         - Worked on  WPF application for windows OS using C# and C++.
         - Worked on multiple projects using React-JS and NodeJS.  
         - Achievements:
-          - Recognized multiple times for exceeding expectations.
           - Received Employee of the Month award.
     - role: System Engineer
       time: June 2018 - July 2019
