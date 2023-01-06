@@ -60,13 +60,13 @@ career-profile:
      background in quantitative research (PhD in Psychology).
      Proficiency in conducting complex statistical analyses and a strong understanding 
      of research methodologies. Extensive experience in communicating findings to stakeholders, 
-     and a passion for delving into large amount amount of data with the aim to unravel new insights. 
+     and a passion for delving into large datasets with the aim to unravel new insights. 
 education:
     title: Education
     info:
       - degree: PhD in Psychology
-        university: Åbo Akademi University
-        time: 2015 - 2019
+        university: Åbo Akademi University, Turku
+        time: Sep 2015 - Jan 2019
         details: |
             - Developed online testing platforms together with software developers for maximizing user-friendliness, efficacy, and simplicity
             - Built statistical models for hypothesis testing related to human behavior
@@ -75,7 +75,7 @@ experiences:
     title: Experiences
     info:
       - role: Data Analyst
-        time: 2021 - Present
+        time: Jan 2021 - Present
         company: Dagens industri, Stockholm
         details: |
             - Built real-time dashboards for visualizing important editorial KPI:s
@@ -85,14 +85,14 @@ experiences:
             - Responsible for the design and execution of several A/B-tests related to user behavior 
 
       - role: Research Analyst
-        time: 2020 - 2021
+        time: Sep 2021 - Dec 2021
         company: Karolinska Institute, Stockholm
         details: |
             - Analyzed large datasets, encompassing data preprocessing, and predictive modeling
             - Utilized a wide array of visualization techniques to validate the data and support interpretations
       - role: Data Analyst
-        time: 2019 - 2020
-        company: Umeå University, Stockholm
+        time: Feb 2019 - Aug 2020
+        company: Umeå University, Umeå
         details: |
             - Collaborated with Hypocampus AB, a Swedish, to draw conclusions about study behavior in e-learning
             - Used statistical techniques for hypothesis testing to validate data and interpretations
@@ -162,7 +162,7 @@ projects:
 #        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills
 
     toolset:
       - name: Python
