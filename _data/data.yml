@@ -90,11 +90,11 @@ experiences:
         details: |
             - Analyzed large datasets, encompassing data preprocessing, and predictive modeling
             - Utilized a wide array of visualization techniques to validate the data and support interpretations
-      - role: Data Analyst
+      - role: Research Analyst
         time: Feb 2019 - Aug 2020
         company: Umeå University, Umeå
         details: |
-            - Collaborated with Hypocampus AB, a Swedish, to draw conclusions about study behavior in e-learning
+            - Collaborated with Hypocampus AB, a Swedish startup specialized on e-learning, to draw conclusions about study behavior
             - Used statistical techniques for hypothesis testing to validate data and interpretations
             - Presented data and conclusions to the team in order to improve the dropout rate in e-learning
 projects:
