@@ -30,7 +30,7 @@ sidebar:
     pdf: https://alianjum0.github.io/online-cv/assets/Anjum_CV.pdf
 
     languages:
-    title: Languages
+      title: Languages
       info:
       - idiom: English
         level: Proficent
@@ -89,7 +89,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Senior software engineer with master's in computer science and 4+ years of experience in Node.js.  Designed and developed RESTful services for projects including Vodafone services, European eID4u, real-time vehicle tracking system, and bio-metric authentication.
+      Senior software engineer with master's in computer science and 5 years of experience in Node.js.  Designed and developed RESTful services for projects including Vodafone services, European eID4u, real-time vehicle tracking system, and bio-metric authentication.
 education:
     title: Education
     info:
@@ -113,7 +113,7 @@ education:
             Programming, Parallel Computing,Computer Networks, Network Security, 
             Database Systems, Computer Architecture, Software Construction
 experiences:
-  title: Experiences
+    title: Experiences
     info:
     - role: Full-Stack Developer
       time: 01/2021 - 04/2022
@@ -176,6 +176,16 @@ projects:
     title: Projects
     intro: >
     assignments:
+      - title: Optimise Database and Queries for Node.js Dashboard
+        link: "https://www.upwork.com/freelancers/alianjum0"
+        tagline: "Developed optimization for PostgreSQL data to reduce queries from 15 seconds to less than 1 second using Materialized views."
+        technologies: PostgreSQL, Materialized views, Prisma Raw Queries.
+
+      - title: Time Series with MongoDB
+        link: "https://www.upwork.com/freelancers/alianjum0"
+        tagline: "Developed optimization for MongoDB time-series data to reduce queries from 60 seconds to less than 2 seconds using Materialized views."
+        technologies: MongoDB, TimeSeries Data, Materialized views.
+
       - title: Pathology Images
         link: "#hook"
         tagline: "An application to predict probabilities of segmentation containing cancer using deep neural network."
@@ -195,25 +205,6 @@ projects:
         link: "#"
         tagline: "A blood donation web portal to bridge gap between donors and patients."
         technologies: Nodejs, Express, Mongodb.
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
