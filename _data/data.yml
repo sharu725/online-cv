@@ -59,30 +59,33 @@ career-profile:
       <p><b> - User Behavior</b>: Understanding the characteristics of transportation users’ behaviors (such as mode choice, shortest path algorithm, routing, and driving behavior)</p>
 
 education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+    - degree: <b>Purdue University</b>
+      university: <i>Doctor of Philosophy, Lyles School of Civil Engineering</i>
+      time: Aug. 2020 - Present
+      details: |
+        <p>Courses: <br>
+        Statistical Machine Learning II (CS 690), Network Models for Connected Autonomous Vehicles (CE 597), Dynamic Programming (IE 633), Stochastic Networks (IE 590), Smart Logistics (CE 597), Optimization Methods for Systems And Control (ECE 580), Introduction To Deep Learning (ECE 595) </p>
+        
+    - degree: <b>Seoul National University</b>
+      university: <i>Master of Science, Civil and Environmental Engineering</i>
+      time: Mar. 2016 - Feb. 2018
+      details: |
+        <p><b>Thesis Title: A Simulation Study of Demand Responsive Transport for the Disabled to Minimize User Waiting Time</b></p>
+        <p>Courses: <br>
+        Advanced Transportation Operations (Traffic Flow Theory), Advanced Transportation Operations (Transportation Systems Analysis),
+        Advanced Sustainable Transportation (Traffic Management), Data Mining, Operations Research II,
+        Transportation Optimization Techniques, Transportation Network Theory, Transportation IT Convergence System</p>
+
+    - degree: <b>Seoul National University</b>
+      university: <i>Bachelor of Science, Civil and Environmental Engineering</i>
+      time: Mar. 2008 - Feb. 2016
+      details: |
+        <p>Courses: <br>
+        Calculus I & II, Design of Transportation Systems, Digital Computer Concept and Practice, Engineering Mathematics I & II,
+        Introduction to Economics, Introduction to Traffic Operation, Mass Transit Engineering, Microeconomics,
+        Operations Research I, Principles of Economics I & II, Spatial Informatics and Systems, Statistics,
+        Statistics for Civil & Environmental Engineers, Traffic Engineering and Lab., Transportation Planning and Lab., Urban Planning
+        
 experiences:
     title: Experiences
     info:
