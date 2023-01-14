@@ -60,7 +60,8 @@ career-profile:
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
-      
+
+career-profile:      
     title: <b>Research Interests</b>
     summary: |
       <p><b> - Network Modeling</b>: Developing the solution techniques required to improve the efficiency and resilience of transportation networks, such as such as public transit, infrastructure, and logistics in uncertain and unpredictable conditions</p>
