@@ -51,7 +51,7 @@ sidebar:
         - item: Guitar
           link:
 
-career-profile:      
+career-profile:
     title: <b>Research Interests</b>
     summary: |
       <p><b> - Network Modeling</b>: Developing the solution techniques required to improve the efficiency and resilience of transportation networks, such as such as public transit, infrastructure, and logistics in uncertain and unpredictable conditions</p>
@@ -85,136 +85,188 @@ education:
         Introduction to Economics, Introduction to Traffic Operation, Mass Transit Engineering, Microeconomics,
         Operations Research I, Principles of Economics I & II, Spatial Informatics and Systems, Statistics,
         Statistics for Civil & Environmental Engineers, Traffic Engineering and Lab., Transportation Planning and Lab., Urban Planning
+
+research_experiences:
+    - role: Research Assistant
+      time: Aug. 2020 - Present
+      company: <i>Lyles School of Civil Engineering, Purdue University</i>
+      details: |
+        <p> - Estimate the traffic states with physics-informed deep learning in large-scale urban areas </p>
+        <p> - Predict origin-destination matrices based on mobile location data (Sponsor: INDOT)</p>
+        <p> - Analyze the traffic impact of movable barrier (Alex Fraser Bridge) in Vancouver by leveraging the mobile location data (Sponsor: Lindsay)</p>
+
+    - role: Researcher
+      time: Jan. 2020 - Aug. 2020
+      company: <i>Institute of Engineering Research, Seoul National University</i>
+      details: |
+        <p> - Led a study on designing a cluster-based route of multi-capacity vehicles of a demand responsive transport service for the disabled and analyze the quantitative effects of shared parking services & last-mile mobility services</p>
+        <p> - Contributed to the preparation grant proposals for government-funded research projects</p>
         
+    - role: Researcher
+      time: Mar. 2018 - Dec. 2019
+      company: <i>Institute of Construction and Environmental Engineering, Seoul National University</i>
+      details: |
+        <p> - Developed optimal operation strategies of Mobility-as-a-Service (MaaS) for the mobility impaired (such as disabled or elderly people)</p>
+        <p> - Collaborated and coordinated with faculty members, businessmen, researchers, and fellow graduate students across institutes to develop proposals (with University of Seoul, Radius Corporation, Korea Land & Housing Institute)</p>
+
+#          - Bullet point
+
+    - role: Research Assistant
+      time: Mar. 2016 - Feb. 2018
+      company: <i>Department of Civil and Environmental Engineering, Seoul National University</i>
+      details: |
+        <p> - Designed a real-time relocation strategy for one-way car-sharing and developed an event-based simulation for one-way car-sharing services</p>
+        <p> - Led a study on improving demand responsive transport service for the disabled with shared mobility in Seoul and led a study on developing an evaluation method to evaluate drivers’ behaviors with surrogate safety measures</p>
+        <p> - Collaborated and coordinated with faculty, businessmen, and researchers at the Korea Transport Institute, Korea Transportation Safety Authority, and InnoSim</p>
+
 experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    - role: Teaching Assistant
+      time: Jan. 2021 - Present
+      company: <i>Lyles School of Civil Engineering, Purdue Univeristy</i>
+      details: |
+        <p> - Assist in preparing and teaching course material, answer questions, and mark assignments</p>
+        Course:
+          - (Online Course) CE 597 - Netowrk Models for Connected Autonomous Vehicles (Spring 2022, Graduate)
+          - (Online Course) CE 597 - Smart Logistics (Fall 2021, Graduate)
+          - (Online Course) CE 597 - Netowrk Models for Connected Autonomous Vehicles (Fall 2021, Graduate)
+          - CE 597 - Data Science for Smart Cities - CE597 (Spring 2021, Graduate), <a href="https://www.edx.org/course/data-science-for-smart-cities" target="_blank"> <b>[edX]</b> </a>
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+    - role: Lecturer, Introduction to Civil and Environmental Engineering
+      time: Nov. 2019
+      company: <i>Department of Civil and Environmental Engineering, Seoul National University</i>
+      details: |
+        <p> - Taught transportation engineering and trends of mobility services to 50 undergraduate students</p>
+        <p> - Covered areas of transportation engineering, status and issues of transportation in South Korea, future sustainable transportation systems, and transportation laws in South Korea</p>
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - role: Mentor, Youth Engineering Frontier Camp
+      time: Aug. 2017, Feb. 2018
+      company: <i>College of Engineering, Seoul National University</i>
+      details: |
+        <p> - Taught traffic engineering and the basic theory of traffic flow to 10 high school students</p>
+        <p> - Advised students concerning preparing for admission to universities and consulted with the students about the difficulties they encountered in high school</p>
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - role: Teaching Assistant
+      time: Sep. 2016 - Dec. 2017
+      company: <i>Department of Civil and Environmental Engineering, Seoul National University</i>
+      details: |
+        <p> - Assisted in preparing and teaching course material for core subjects of transportation in undergraduate and graduate program, had office hours every week, answered questions in person, and marked assignments & exams</p>
+        <p> - Supervised undergraduate student’s projects in terms of analyzing smart-card data, implementing clustering algorithms, and visualizing GPS data</p>
+        Course:
+          - Sustainable Transportation Systems 		      (Fall 2017,   Undergraduate)
+          - Advanced Transportation Operation 		      (Spring 2017, Graduate)
+          - Leadership for Civil Engineers 		          (Spring 2017, Undergraduate)
+          - Introduction to Transportation Engineering 	  (Fall 2016,   Undergraduate)
 
 publications:
-    title: Publications
+    title: <b>Publications (Journal)</b>
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: 3. Leveraging Location-Based Data for Assessing Network-Level Traffic Impact of Lane Management: A Case Study of Alex Fraser Bridge <a href="https://ascelibrary.org/doi/abs/10.1061/JTEPBS.0000760" target="_blank"> <b>[link]</b> </a>
+        authors: <b>Eunhan Ka</b>, Smita Sharma, Satish Ukkusuri
+        conference: Journal of Transportation Engineering, Part A: Systems (2022)
+        
+      - title: 2. Implementing Surrogate Safety Measures in Driving Simulator and Evaluating the Safety Effects of Simulator-Based Training on Risky Driving Behaviors <a href="https://doi.org/10.1155/2020/7525721" target="_blank"> <b>[link]</b> </a>
+        authors: <b>Eunhan Ka</b>, Do-gyeong Kim, Jooneui Hong, Chungwon Lee
+        conference: Journal of Advanced Transportation (2020)
+        
+      - title: 1. Evaluation of the Rain Effects on Gap Acceptance Behavior at Roundabouts by a Logit Model <a href="https://doi.org/10.1155/2018/2726732" target="_blank"> <b>[link]</b> </a>
+        authors: Dongmin Lee, Sooncheon Hwang, <b>Eunhan Ka</b>, Chungwon Lee
+        conference: Journal of Advanced Transportation (2018)
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
+con_publications:
+    title: <b>Publications (Conference Proceeding)</b>
+    intro: |
+    papers:
+      - title: 9. A Cluster-Based Route Design of Multi-Capacity Vehicle in Large-Scale Demand Responsive Transport Service for the Disabled
+        authors: <b>Eunhan Ka</b>, Dongju Ka, Yeonwoo Jung, Chungwon Lee
+        conference: 99th Annual Meeting of the Transportation Research Board, Washington DC, United States (2020)
+        
+      - title: 8. Analysis of Status in DRT Service for the Disabled in Seoul and Comparison Domestic and Foreign Cases
+        authors: <b>Eunhan Ka</b>, Doosun Hong, Yejin Na, Chungwon Lee
+        conference: International Conference for Road Engineers, South Korea (2018)
+        
+      - title: 7. Selection of Appropriate Hyperparameter for Waiting Time Prediction Model for Demand Responsive Transport for the Dsiabled in Seoul Using Long Short-Term Memory (LSTM) Network
+        authors: Doosun Hong, <b>Eunhan Ka</b>, Sunghyun Ha, Chungwon Lee
+        conference: The 78th Korean Society of Transportation Conference, South Korea (2018)
+        
+      - title: 6. Application of Deep Learning for Demand Forecasting of Call Taxi for the Handicapped in Seoul
+        authors: <b>Eunhan Ka</b>, Sunghyun Ha, Jooneui Hong, Chungwon Lee
+        conference: The 77th Korean Society of Transportation Conference, South Korea (2017)
+        
+      - title: 5. A Preliminary Study of Comparison with Lane Changing Model Parameters in Merging Area between Normal and Raining Conditions
+        authors: <b>Eunhan Ka</b>, Sunho Kim, Jooneui Hong, Chungwon Lee
+        conference: The 12th International Conference of Eastern Asia's Society for Transportation Studies (EASTS), Vietnam (2017)
+      
+      - title: 4. The Importance of Demand Prediction for Vehicle Relocation Strategy Development in One-way Car-sharing System
+        authors: <b>Eunhan Ka</b>, Dongjoon Woo, Chungwon Lee
+        conference: The Third International Conference on Computational Science and Engineering, Vietnam (2016)
+        
+      - title: 3. An Estimation of Critical Gap for Gap Acceptance Model Applied to Lane Change of Surrounding Vehicles in Driving Simulator
+        authors: <b>Eunhan Ka</b>, Sunho Kim, Dongjoon Woo, Chungwon Lee
+        conference: The 2016 Fall Korea Institute of ITS Conference, South Korea (2016)
+        
+      - title: 2. Comparison of Survival Model of Traffic Flow Deterioration due to Traffic Accident according to VDS Aggregation Level
+        authors: <b>Eunhan Ka</b>, Sanghyup Lee, Jaeyoung Lee, Chungwon Lee
+        conference: The 75th Korean Society of Transportation Conference, South Korea (2016)
+        
+      - title: 1. Analysis of Traffic Flow Impacts of Highway Traffic Accidents Using Survival Analysis
+        authors: Sanghyup Lee, Hyunkyung Lee, Jaeyoung Lee, <b>Eunhan Ka</b>, Chungwon Lee
+        conference: The 74th Korean Society of Transportation Conference, South Korea (2016) 
+        
+
+awards:
+    - role: Outstanding Paper Award
+      time: Mar. 2018
+      company: <i>The 78th Conference of Korean Society of Transportation, Korea Society of Transportation</i>
+      details: |
+        <p>Title: Selection of Appropriate Hyperparameter for Waiting Time Prediction Model for Demand Responsive Transport
+        for the Disabled in Seoul using Long Short-Term Memory (LSTM) Network</p>
+
+    - role: Lecture & Research Scholarship
+      time: Sep. 2016 - Feb. 2017
+      company: <i>Department of Civil and Environmental Engineering, Seoul National University</i>
+      details: |
+
+    - role: Brain Korea 21 Plus Scholarship
+      time: Mar. 2016 - Aug. 2016
+      company: <i>National Research Foundation of Korea</i>
+      details: |
+
+    - role: Need-based Scholarship
+      time: Mar. 2016
+      company: <i>Department of Civil and Environmental Engineering, Seoul National University</i>
+
+    - role: Outstanding Paper Award
+      time: Feb. 2016
+      company: <i>The 74th Conference of Korean Society of Transportation, Korea Society of Transportation</i>
+      details: |
+        <p>Title: Analysis of Traffic Flow Impacts of Highway Traffic Accidents Using Survival Analysis</p>
+
+    - role: Alumni Association Scholarship
+      time: Oct. 2015
+      company: <i>Alumni Association of Department of Civil Engineering, Seoul National University</i>
+      details: |
+
+    - role: Bronze Award
+      time: Jun. 2013
+      company: <i>The 6th Science and Technology Writing Excellent Research Paper Presentation Competition, College of Engineering, Seoul National University</i>
+      details: |
+        <p>Title: Estimation of Rainfall in Seoul using FARD2006</p>
+        
+        
 skills:
-    title: Skills &amp; Proficiency
-
+    title: <b>Programming Skills &amp; Proficiency</b>
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: R
+        level: 90%
+      - name: Java (w/ CPLEX)
+        level: 80%
+      - name: Python (w/ Tensorflow)
+        level: 75%
+      - name: MATLAB
         level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Copyright (c) 2018 webjeda
