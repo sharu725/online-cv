@@ -7,23 +7,23 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Leanne Go
+    tagline: Exchange Student
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
+    email: goleannet@gmail.com
+    phone: 0917 311 3371
+    timezone: GMT +8
+    citizenship: Filipino
     website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
+    linkedin: Leanne Go
+    xing: 
+    github: leannego
+    telegram: waterlele
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@leanne.go'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -35,8 +35,8 @@ sidebar:
         - idiom: English
           level: Native
 
-        - idiom: French
-          level: Professional
+        - idiom: Chinese
+          level: Normal
 
         - idiom: Spanish
           level: Professional
@@ -44,10 +44,10 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Figure Skating
           link:
 
-        - item: Snowboarding
+        - item: Baking
           link:
 
         - item: Cooking
