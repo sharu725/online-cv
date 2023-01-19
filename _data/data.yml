@@ -79,8 +79,8 @@ experiences:
       company: Tokyo
       details: |
         Implementing a web application in Rakuten Summer Internship. I focused on database management and backend programming here. 
-        - Javacsript, Python, SQL
-        - React, Flask, MySQL
+        - Python, SQL
+        - Flask, MySQL
 
     - role: Backend Engineer at Knowns
       link: https://knowns.co.jp/
@@ -89,8 +89,8 @@ experiences:
       details: |
         Working as a backend engineer at Knowns. 
         I am responsible for data management on AWS Redshift and backend development with Spring Boot.
-          - Kotlin, Python, Typescript, SQL
-          - Spring Boot, AWS, Git, MySQL
+          - Python, SQL
+          - AWS, Git, MySQL
           
     - role: Research Assistant at Mitsubishi Heavy Institute
       link: https://www.mhi.com/jp
