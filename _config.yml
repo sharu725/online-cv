@@ -22,6 +22,7 @@ compress_html: # - http://jch.penibelst.de/
   clippings: all
   ignore:
     envs: development
+ remote_theme: sharu725/thunder
 
 # Development Settings
 port: 4000
