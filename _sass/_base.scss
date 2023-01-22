@@ -182,27 +182,31 @@ p {
       margin-bottom: 30px;
     }
   }
-  .upper-row {
+  .upper-row,
+  .second-upper-row {
     position: relative;
     overflow: hidden;
     margin-bottom: 2px;
   }
   .job-title,
-  .degree {
+  .degree,
+  .cert-title{
     color: $text-color;
     font-size: 16px;
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 500;
   }
-  .time {
+  .time,
+  .cert-url {
     position: absolute;
     right: 0;
     top: 0;
     color: $text-grey;
   }
   .company,
-  .university {
+  .university,
+  .cert-org {
     margin-bottom: 10px;
     color: $text-grey;
   }
@@ -276,3 +280,4 @@ p {
     color: $heart;
   }
 }
+
