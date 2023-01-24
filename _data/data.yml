@@ -100,10 +100,6 @@ projects:
   title: Projets
   intro:
   assignments:
-    - title: TaskToDo
-      link: 'https://github.com/Jayllyz/TaskToDo'
-      tagline: 'Projet de logiciel de planification de tâches réalisé en C avec la librairie GTK+3.2, l'UI est réalisée avec Glade.'
-
     - title: Topcook
       link: 'https://github.com/Jayllyz/Topcook'
       tagline: 'Projet annuel de première année qui a consisté à réaliser un site web dynamique, nous avions choisi de créer un site web communautaire autour des recettes de cuisine.'
@@ -115,6 +111,10 @@ projects:
     - title: A star
       link: 'https://github.com/Jayllyz/Astar'
       tagline: "Algorithme de recherche de chemin dans un graphe réalisé dans le cadre d'un projet de deuxième année de cycle préparatoire."
+
+    - title: TaskToDo
+      link: 'https://github.com/Jayllyz/TaskToDo'
+      tagline: "Projet de logiciel de planification de tâches réalisé en C avec la librairie GTK+3.2, l'UI est réalisée avec Glade.Projet"
 
 skills:
   title: Compétences
