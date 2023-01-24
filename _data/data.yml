@@ -3,219 +3,157 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Alex So
+    tagline: Full Stack Engineer
+    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: alexskt123@gmail.com
+    phone: 63752714
+    timezone:
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    website: alexktso.vercel.app/ #do not add http://
+    linkedin: alexktso
+    xing:
+    github: alexskt123
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf:
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Cantonese
           level: Native
 
-        - idiom: French
+        - idiom: English
           level: Professional
 
-        - idiom: Spanish
+        - idiom: Mandarin
           level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Hiking
           link:
 
-        - item: Snowboarding
+        - item: Reading
           link:
 
-        - item: Cooking
+        - item: Listening to music
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+       - 10+ years of software development experience (Waterfall / Agile)
+       - 2+ years of system design and architecture experience
+       - Experience in leading in-house/offshore developers
+       - Experience in sizable projects including eMPF
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Postgraduate Certificate in Laws
+        university: The University of Hong Kong
+        time: 2018 - 2020
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+            - Distinction in Drafting Commercial Agreements
+      - degree: Bachelor of Laws
+        university: The University of London
+        time: 2014 - 2017
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+            - Second Class Honors (Upper Division)
+      - degree: Bachelor of Engineering in Computer Science
+        university: The Hong Kong University of Science & Technology
+        time: 2010 - 2013
+        details: |
+            - Second Class Honors (Upper Division)
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Full Stack Lead
+        time: June 2022 - Present
+        company: TEKsystems
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Assigned to Lidl Asia Pte. Limited for building new microservices (MS)/micro frontends (MF) and migrating existing services into MS &MF in Lidl's unified platform using React, NestJS and Azure.
+            - Designed and polished the overall system architecture to fulfill the requirements from product owner and scrum master
+            - Cooperated with UI/UX team to agree on the prototype of the UI in Figma and incorporated the design into the design language system repository
+            - Performed hands-on coding, unit tests and CI/CD pipelines in compliance with company’s software policies, coding best practices and naming conventions
+            - Integrated the new MS/MF into the existing ones
+            - Guided junior full stack engineers throughout the implementations of both MS and MF
+      - role: Senior System Analyst
+        time: Aug 2021 - June 2022
+        company: HKT Limited
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Involved in one of the largest Emerging Technology projects in Hong Kong - eMPF.
+            - Conducted system design of various modules including Payment, Dual Input and Withdrawal processes in the core application system (CAS) and developed corresponding Front End Web Applications and Back End APIs
+            - Studied the system feasibility using Java, Spring Boot, MQ, React Js and Oracle
+            - Submitted system design documents to the Mandatory Provident Fund Schemes Authority (MPFA) and liaised with MPFA for the system design
+            - Managed and coordinated with vendor to develop Payment Instruction Gateway
+            - Led developers from Offshore Development Centers based in Malaysia and Philippines
+      - role: Senior Analyst Programmer
+        time: Aug 2017 - Aug 2021
+        company: Bank Consortium Trust Company Limited
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Participated in In-house MPF system development.
+            - Implemented various system enhancements and performed ad hoc tasks 
+            - Collected user requirements with Systems Analysts and provided functional specifications
+            - Assisted, coached and gave technical advice to programmers
+          Handled and supported RESTful APIs
+            - Developed and maintained RESTful APIs
+            - Reviewed and deployed programs, WAR files and provided Production/UAT Support
+            - Built unit tests for testing RESTful APIs with Node.js, Mocha and Chai
+      - role: Analyst Programmer
+        time: July 2013 - May 2017
+        company: Strategic Systems Consultants Limited
+        details: |
+          Assigned to Ricoh Asia Pacific Operations Limited for the maintenance of an internal system by performing bug fixing, data patching, housekeeping and system enhancements and took part in the Enterprise Resource Planning (ERP) Modernization project of Ricoh Asia Pacific Parts Center using C#, ASP .NET, MS SQL server and SQL Server Reporting Services
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      My highlighed side projects.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Stock Is Fun
+        link: "https://stockisfun.vercel.app"
+        tagline: "A web/app built with Nextjs, Firebase, PWA, Nodemailer and Bootstrap to study Stock."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Share Text
+        link: "https://share-text-fast.vercel.app"
+        tagline: "A text sharing/storing tool with MUI, Redux, Nextjs and Firebase."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
+      - title: Bot Chat Law
+        link: "https://botchatlaw.vercel.app"
+        tagline: "An attempt to build a website with chatbot to answer legal questions from users."
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Javascript & Typescript
+        level: 100%
+      - name: Restful API
         level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Nestjs & Node.js
         level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: React & Material UI
+        level: 95%
+      - name: Kafka
+        level: 80%
+      - name: Java & Springboot
+        level: 70%
+      - name: CircleCI & SonarCloud & Azure
         level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: GraphQL
+        level: 50%
+      - name: PHP & Laravel
+        level: 50%
