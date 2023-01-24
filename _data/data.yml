@@ -114,7 +114,7 @@ projects:
 
     - title: TaskToDo
       link: 'https://github.com/Jayllyz/TaskToDo'
-      tagline: "Projet de logiciel de planification de tâches réalisé en C avec la librairie GTK+3.2, l'UI est réalisée avec Glade.Projet"
+      tagline: "Projet de logiciel de planification de tâches réalisé en C avec la librairie GTK+3.2, l'UI est réalisée avec Glade."
 
 skills:
   title: Compétences
