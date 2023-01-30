@@ -34,17 +34,6 @@ sidebar:
 
         - idiom: Spanish
           level: Intermediate
-      
-education:
-    title: Education
-    info:
-      - degree: BA in Economics
-        university: University of Manchester
-        time: 2015 - 2018
-        details: |
-            - 3-year programme specialising in the academic application of microeconomic and
-            macroeconomic theory, game theory and advanced econometrics
-            - Refined analytical skills by utilising tools such as SPSS, R and Excel in data handling modules  
 
 experiences:
     title: Work History
@@ -94,6 +83,17 @@ experiences:
           - Implemented the inclusion of patent licensing data within our product and orchestrated plans to
             include litigation data for future development
           - Successfully recruited and trained two new members to support the needs of a growing team
+      
+education:
+    title: Education
+    info:
+      - degree: BA in Economics
+        university: University of Manchester
+        time: 2015 - 2018
+        details: |
+            - 3-year programme specialising in the academic application of microeconomic and
+            macroeconomic theory, game theory and advanced econometrics
+            - Refined analytical skills by utilising tools such as SPSS, R and Excel in data handling modules  
 
 
 skills:
