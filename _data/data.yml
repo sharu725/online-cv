@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -11,7 +11,7 @@ sidebar:
 
     # Sidebar links
     email: ames.hanna@gmail.com
-    phone: + 44 07494 990030
+    phone: + 44 7494 990030
 
     interests:
       title: Certifications
@@ -33,17 +33,6 @@ sidebar:
 
         - idiom: Spanish
           level: Intermediate
-
-
-career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
       
 education:
     title: Education
@@ -63,39 +52,47 @@ experiences:
         time: May 2022 - Present
         company: Business Data Partners, Manchester
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Higher Statistical Officer
+            - Consulted for a Big 4 bank as lead analyst and data coordinator for a customer outreach project, successfully identifying and
+            repatriating over 300,000 items to customers following closure of a safety deposit service
+            - Utilised SQL and SAS to identify customer personas suitable for new product offerings
+            - Successfully led strategic initiative to identify customers with mismatched banking products by analysing customer 
+            behaviours and account trends
+            
+            
+      - role: Higher Statistical Officer Level 2
+        time: Dec 2020 - May 2022
+        role: Higher Statistical Officer Level 1
         time: Sep 2020 - May 2022
         company: HMRC, Manchester
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+            - Collaborated with a broad range of stakeholders as lead analyst on business wide upstream
+                compliance activities targeting multiple forms of tax fraud
+            - Designed large-scale customer compliance trials through the implementation of digital prompts
+                on tax returns, A/B trials and collaboration with third-party platforms
+            - Presented and disseminated analytical results to senior leadership boards, successfully scoring
+                compliance yield claims of up to £67 million
+            - Constructed the error and fraud estimates for the Self Employed Income Support Scheme using
+                proxies derived from cross-team COVID stats, which were used by policy makers to aid
+                decision making on grant extension strategies
+            - Developed and led upskilling programs on evaluation techniques for internal customers across
+                the business to manage analytical resource demand on my directorate
+                
       - role: Assistant Director - Data Specialist
-        time: Aug 2018 - Sep 2020
+        time: Sep 2019 - Sep 2020
+        role: Senior Data Specialist
+        time: Mar 2018 - Sep 2019
+        role: Data Specialist
+        time: Aug 2018 - Mar 2018
         company: Bureau van Dijk, Manchester
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          - Promoted to a management role where I coordinated a team of five and led the development of
+            a cross-border intellectual property transactions database
+          - Led the day to day operations of the team and ensured satisfactory integration of a patent sale
+            database into BvD’s Orbis Intellectual Property suite
+          - Drafted routine technical proposals to address inefficiencies in data input processes
+          - Implemented the inclusion of patent licensing data within our product and orchestrated plans to
+            include litigation data for future development
+          - Successfully recruited and trained two new members to support the needs of a growing team
 
 
 skills:
@@ -114,11 +111,11 @@ skills:
       - name: HTML5 & CSS
         level: 85%
 
+      - name: Tableau
+        level: 65%
+
       - name: Python
         level: 25%
-
-      - name: Tableau
-        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
