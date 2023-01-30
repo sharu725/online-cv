@@ -7,12 +7,27 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Hanna Ames
-   
+    name: Alan Doe
+    tagline: Full Stack Developer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: ames.hanna@gmail.com
-    phone: +44 07494 990030
+    email: hello@webjeda.com
+    phone: 012 345 6789
+    timezone: America/Cancun Timezone
+    citizenship:
+    website: blog.webjeda.com #do not add http://
+    linkedin: alandoe
+    xing: alandoe
+    github: sharu725
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: '@webjeda'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
@@ -20,21 +35,23 @@ sidebar:
         - idiom: English
           level: Native
 
-        - idiom: Swedish
-          level: Native
+        - idiom: French
+          level: Professional
 
         - idiom: Spanish
-          level: Intermediate
+          level: Professional
 
-    certifications:
-      title: Certifications
+    interests:
+      title: Interests
       info:
-        - item: SAS Certified Specialist: Base Programming Using SAS 9.4
-          link: https://www.credly.com/badges/28ba769c-dd00-4800-8eb0-36cf65a49622/linked_in_profile
+        - item: Climbing
+          link:
 
-        - item: Snowflake: Hands on Essentials - Data Warehouse
-          link: https://www.credly.com/badges/6f8c2ec4-cc01-4f93-b7a2-8f1aaf2513c7/linked_in_profile
+        - item: Snowboarding
+          link:
 
+        - item: Cooking
+          link:
 
 career-profile:
     title: Career Profile
@@ -48,20 +65,34 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: BA in Economics
-        university: University of Manchester
-        time: 2015 - 2018
+      - degree: MSc in Computer Science
+        university: University of London
+        time: 2011 - 2012
         details: |
-            - 3-year programme specialising in the academic application of microeconomic and
-            macroeconomic theory, game theory and advanced econometrics
-            - Refined analytical skills by utilising tools such as SPSS, R and Excel in data handling modules  
-  
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
+      - degree: BSc in Applied Mathematics
+        university: Bristol University
+        time: 2007 - 2011
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
 experiences:
-    title: Employment History
+    title: Experiences
     info:
-      - role: Consultant
-        time: May 2022 - Present
-        company: Business Data Partners, Manchester
+      - role: Lead Developer
+        time: 2015 - Present
+        company: Startup Hubs, San Francisco
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -74,9 +105,9 @@ experiences:
           architecto beatae vitae dicta sunt explicabo.
             - Bullet point
             - Bullet point
-      - role: Higher Statistical Officer
-        time: Sep 2020 - May 2022
-        company: HMRC, Manchester
+      - role: Senior Software Engineer
+        time: 2014 - 2015
+        company: Google, London
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -85,9 +116,9 @@ experiences:
           pellentesque eu, pretium quis, sem.
             - Bullet point
             - Bullet point
-      - role: Assistant Director - Data Specialist
-        time: July 2018 - Sep 2020
-        company: Bureau van Dijk - Moody's Analytics, Manchester
+      - role: UI Developer
+        time: 2012 - 2014
+        company: Amazon, London
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -96,30 +127,95 @@ experiences:
           pellentesque eu, pretium quis, sem.
             - Bullet point
             - Bullet point
-      - role: Senior Data Specialist
-      - role: Data Specialist
+projects:
+    title: Projects
+    intro: >
+      You can list your side projects in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+oss:
+    title: OSS Contributions
+    intro: >
+      You can list your open source software contributions in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    contributions:
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: The Art of Computer Programming
+        link: "#"
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
+
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        link: "#"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      - title: A syntax directed compiler for Algol 60
+        link: "#"
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: SQL
+      - name: Python & Django
         level: 98%
 
-      - name: SAS
+      - name: Javascript & jQuery
         level: 98%
 
-      - name: Excel
+      - name: Angular
         level: 98%
-
-      - name: Tableau
-        level: 80%
 
       - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
         level: 85%
 
-      - name: Python
-        level: 25%
+      - name: Sketch & Photoshop
+        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
