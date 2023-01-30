@@ -49,8 +49,6 @@ experiences:
             
             
       - role: Higher Statistical Officer Level 2
-        time: Dec 2020 - May 2022
-      - role: Higher Statistical Officer Level 1
         time: Sep 2020 - May 2022
         company: HMRC, Manchester
         details: |
@@ -65,6 +63,7 @@ experiences:
                 decision making on grant extension strategies
             - Developed and led upskilling programs on evaluation techniques for internal customers across
                 the business to manage analytical resource demand on my directorate
+            - Promoted from Higher Statistical Officer Level 1 to 2
                 
       - role: Assistant Director - Data Specialist
         time: Sep 2019 - Sep 2020
@@ -89,6 +88,7 @@ education:
       - degree: BA in Economics
         university: University of Manchester
         time: 2015 - 2018
+        details: 
             - 3-year programme specialising in the academic application of microeconomic and
             macroeconomic theory, game theory and advanced econometrics
             - Refined analytical skills by utilising tools such as SPSS, R and Excel in data handling modules  
