@@ -8,7 +8,8 @@ sidebar:
 
     # Profile information
     name: Hanna Ames
-
+    avatar:
+    
     # Sidebar links
     email: ames.hanna@gmail.com
     phone: + 44 7494 990030
@@ -53,7 +54,7 @@ experiences:
         company: Business Data Partners, Manchester
         details: |
             - Consulted for a Big 4 bank as lead analyst and data coordinator for a customer outreach project, successfully identifying and
-            repatriating over 300,000 items to customers following closure of a safety deposit service
+            repatriating over 300,000 items following closure of a safety deposit service
             - Utilised SQL and SAS to identify customer personas suitable for new product offerings
             - Successfully led strategic initiative to identify customers with mismatched banking products by analysing customer 
             behaviours and account trends
