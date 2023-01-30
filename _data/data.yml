@@ -4,7 +4,7 @@
 
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Hanna Ames
@@ -61,7 +61,7 @@ experiences:
             
       - role: Higher Statistical Officer Level 2
         time: Dec 2020 - May 2022
-        role: Higher Statistical Officer Level 1
+      - role: Higher Statistical Officer Level 1
         time: Sep 2020 - May 2022
         company: HMRC, Manchester
         details: |
@@ -79,9 +79,9 @@ experiences:
                 
       - role: Assistant Director - Data Specialist
         time: Sep 2019 - Sep 2020
-        role: Senior Data Specialist
+      - role: Senior Data Specialist
         time: Mar 2018 - Sep 2019
-        role: Data Specialist
+      - role: Data Specialist
         time: Aug 2018 - Mar 2018
         company: Bureau van Dijk, Manchester
         details: |
@@ -99,23 +99,23 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: SQL
+      - name: Excel
         level: 98%
 
       - name: SAS
         level: 98%
 
-      - name: Excel
-        level: 98%
+      - name: SQL
+        level: 95%
 
       - name: HTML5 & CSS
-        level: 85%
+        level: 75%
 
       - name: Tableau
         level: 65%
 
       - name: Python
-        level: 25%
+        level: 15%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
