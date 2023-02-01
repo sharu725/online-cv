@@ -72,26 +72,27 @@ projects:
     assignments:
       - title: Case Study - "Bellabeat Fitness Data Analysis"
         link: "https://github.com/shenry1212/resume/blob/master/assets/images/Case%20Study%20-%20Bellabeat.pdf"
+        tagline: "Analyzed fitness data for a ficitonal smart-device company. Analysis was used to gain insights in preparation of a new product rollout.
       
-      - title: 2019 Sales Results Data Analysis
-        link: "https://github.com/shenry1212/resume/blob/master/assets/images/skillshare_slides.pdf"
-        tagline: "Analyzed 2019 sales data using Microsoft Excel across multiple categories, including purchase location, purchase medium, and product category."
-
-      - title: How Did Donald Trump Win the 2016 Election?
+      - title: Academic Paper - "How Did Donald Trump Win the 2016 Election?"
         link: "https://github.com/shenry1212/resume/blob/master/assets/images/Econ%20173%20Final%20Paper%20-%202016%20Election.pdf"
         tagline: "Created multi-variable statistical regressions with RStudio using United States census data and 2016 election data. Voting results were regressed with educational levels by county."
+
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Microsoft Excel
-        level: 75%
-
-      - name: R/RStudio
+      - name: Microsoft Excel & Google Sheets
+        level: 85%
+        
+      - name: SQL
+        level: 50%
+        
+      - name: Tableau
         level: 50%
 
-      - name: SQL
+      - name: R/RStudio
         level: 25%
       
       - name: GitHub
