@@ -70,6 +70,9 @@ experiences:
 projects:
     title: Projects
     assignments:
+      - title: Case Study - "Bellabeat Fitness Data Analysis"
+        link: "https://github.com/shenry1212/resume/blob/master/assets/images/Case%20Study%20-%20Bellabeat.pdf"
+      
       - title: 2019 Sales Results Data Analysis
         link: "https://github.com/shenry1212/resume/blob/master/assets/images/skillshare_slides.pdf"
         tagline: "Analyzed 2019 sales data using Microsoft Excel across multiple categories, including purchase location, purchase medium, and product category."
