@@ -43,6 +43,15 @@ education:
 experiences:
     title: Experience
     info:
+      - role: Google Data Analytics Professional Certificate
+        time: November 2022 - January 2023
+        company: Online
+        details: |
+          Completed extensive six month job-ready Google Career Certificate training. 
+          Demonstrated hands-on experience with data cleaning, data visualization, 
+          project management, interpreting and communicating data analytics findings. 
+          Confidence in transforming complex data into actionable and clear insights. 
+          Fluency in computer programming languages and a solid understanding of databases.
       - role: Mathematics Tutor
         time: October 2018 - Present
         company: Self-Employed
