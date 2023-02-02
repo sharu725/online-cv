@@ -20,8 +20,6 @@ sidebar:
     linkedin: shaun-henry
     # pdf: http://www.africau.edu/images/default/sample.pdf
 
-
-
 interests:
   title: Relevant Coursework
   info:
@@ -32,6 +30,8 @@ interests:
     - item: Ethical Issues in Business
     - item: Dynamic Optimization
     - item: Probability & Statistics I & II
+
+interests:
   title: Certifications
   info:
     - item: Google Data Analytics Professional Certificate
@@ -46,6 +46,7 @@ education:
       - degree: Minor in Mathematics
         university: Santa Clara University
         time: 2013 - 2018
+
 experiences:
     title: Experience
     info:
@@ -115,4 +116,4 @@ skills:
 
 
 footer: >
-    Last updated 2022-10-18
+    Last updated 2023-02-01
