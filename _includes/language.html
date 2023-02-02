@@ -8,10 +8,11 @@
 
   <ul class="list-unstyled interests-list">
     {% for language in languages.info %}
-    <li>
-      {{ language.idiom }}
-      <span class="lang-desc">({{ language.level }})</span>
-    </li>
+      {% if language.link %}
+      <li><a href="{{ language.link }}">{{ language.item }}</a></li>
+      {% else %}
+      <li>{{ language.item }}</li>
+      {% endif %}
     {% endfor %}
   </ul>
 
