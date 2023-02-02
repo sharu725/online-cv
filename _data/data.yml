@@ -20,7 +20,7 @@ sidebar:
     linkedin: shaun-henry
     # pdf: http://www.africau.edu/images/default/sample.pdf
 
-    
+
 
 interests:
   title: Relevant Coursework
@@ -32,6 +32,12 @@ interests:
     - item: Ethical Issues in Business
     - item: Dynamic Optimization
     - item: Probability & Statistics I & II
+
+education:
+  title: Certifications
+  info: 
+    - item: Google Data Analytics Professional Certificate
+        link: "https://www.credly.com/badges/4a0bedd9-e06c-431a-ad09-ec8dac080bf1/public_url" 
 
 education:
     title: Education
