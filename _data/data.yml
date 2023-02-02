@@ -32,11 +32,9 @@ interests:
     - item: Ethical Issues in Business
     - item: Dynamic Optimization
     - item: Probability & Statistics I & II
-
-oss:
   title: Certifications
-  contributions:
-    - title: Google Data Analytics Professional Certificate
+  info:
+    - item: Google Data Analytics Professional Certificate
       link: "https://www.credly.com/badges/4a0bedd9-e06c-431a-ad09-ec8dac080bf1/public_url"
 
 education:
