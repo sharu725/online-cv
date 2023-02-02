@@ -43,7 +43,7 @@ experiences:
         details: |
             - Consulted for a Big 4 bank on a customer outreach project as lead analyst and data coordinator, successfully identifying and
             repatriating over 300,000 items following closure of a safety deposit service
-            - Utilised SQL and SAS to identify customer personas suitable for new product offerings
+            - Utilised SQL and SAS to create customer personas suitable for new product offerings
             - Successfully led strategic initiative to identify customers with mismatched banking products by analysing 
             behaviours and account trends
             
@@ -67,10 +67,6 @@ experiences:
                 
       - role: Assistant Director - Data Specialist
         time: Sep 2019 - Sep 2020
-      - role: Senior Data Specialist
-        time: Mar 2018 - Sep 2019
-      - role: Data Specialist
-        time: Aug 2018 - Mar 2018
         company: Bureau van Dijk - Moody's Analytics, Manchester
         details: |
           - Promoted to a management role where I coordinated a team of five and led the development of
@@ -81,6 +77,24 @@ experiences:
           - Implemented the inclusion of patent licensing data within our product and orchestrated plans to
             include litigation data for future development
           - Successfully recruited and trained two new members to support the needs of a growing team
+     
+      - role: Senior Data Specialist
+        time: Mar 2018 - Sep 2019
+        company: Bureau van Dijk - Moody's Analytics, Manchester
+        details: |
+            - Co-managed the Intellectual Property team and assisted in the development of a patent sale
+                database
+            - Organised and led team meetings, while supervising the performance of individual team
+                members
+            - Trained new team members during their probationary periods
+      - role: Data Specialist
+        time: Aug 2018 - Mar 2018
+        company: Bureau van Dijk - Moody's Analytics, Manchester
+        details: |
+          - Assisted in the maintenance of a cross-border database specialising in foreign direct investment
+            transactions
+          - Developed a Swedish, Norwegian and Danish language keyword feed to increase the volume of
+            Nordic investment information for Scandinavian clients
       
 education:
     title: Education
