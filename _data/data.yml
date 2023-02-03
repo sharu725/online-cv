@@ -42,7 +42,8 @@ experiences:
         company: Business Data Partners, Manchester
         details: |
             - Consulted for a Big 4 bank on a customer outreach project as lead analyst and data coordinator, successfully identifying and
-            repatriating over 300,000 items following closure of a safety deposit service
+            repatriating thousands of historical safety deposit items following closure of the service
+            - Implemented approximate string matching techniques to join items to accounts in manually collated data  
             - Utilised SQL and SAS to create customer personas suitable for new product offerings
             - Successfully led strategic initiative to identify customers with mismatched banking products by analysing 
             behaviours and account trends
