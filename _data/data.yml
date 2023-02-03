@@ -115,11 +115,11 @@ skills:
       - name: SAS
         level: 80%
 
-      - name: HTML5 & CSS
-        level: 65%
-
       - name: Tableau
         level: 65%
+
+      - name: HTML5 & CSS
+        level: 50%
 
       - name: Python
         level: 15%
