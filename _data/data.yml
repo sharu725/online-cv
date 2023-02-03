@@ -109,14 +109,14 @@ skills:
       - name: Excel
         level: 98%
 
-      - name: SAS
-        level: 98%
-
       - name: SQL
         level: 95%
 
+      - name: SAS
+        level: 80%
+
       - name: HTML5 & CSS
-        level: 75%
+        level: 65%
 
       - name: Tableau
         level: 65%
