@@ -53,10 +53,8 @@ experiences:
         time: Sep 2020 - May 2022
         company: HM Revenue & Customs, Manchester
         details: |
-            - Collaborated with a broad range of stakeholders as lead analyst on business wide upstream
-                compliance campaigns targeting multiple forms of tax fraud
-            - Designed large-scale customer compliance trials through the implementation of digital prompts
-                on tax returns, A/B trials and collaboration with third-party platforms
+            - Designed large-scale customer compliance trials to tackle tax fraud through the implementation of digital prompts on tax returns, 
+                A/B trials and messaging on third-party platforms
             - Presented and disseminated analytical results to senior leadership boards, successfully scoring
                 compliance yield claims of up to £67 million
             - Constructed the error and fraud estimates for the Self Employed Income Support Scheme using
@@ -70,13 +68,9 @@ experiences:
         time: Sep 2019 - Sep 2020
         company: Bureau van Dijk - Moody's Analytics, Manchester
         details: |
-          - Promoted to a management role where I coordinated a team of five and led the development of
+          - Promoted to a management role where I led a team of five in the development of
             a cross-border intellectual property transactions database
-          - Led the day to day operations of the team and ensured satisfactory integration of a patent sale
-            database into BvD’s Orbis Intellectual Property suite
           - Drafted routine technical proposals to address inefficiencies in data input processes
-          - Implemented the inclusion of patent licensing data within our product and orchestrated plans to
-            include litigation data for future development
           - Successfully recruited and trained two new members to support the needs of a growing team
      
       - role: Senior Data Specialist
@@ -87,12 +81,11 @@ experiences:
                 database
             - Organised and led team meetings, while supervising the performance of individual team
                 members
-            - Trained new team members during their probationary periods
       - role: Data Specialist
         time: Aug 2018 - Mar 2018
         company: Bureau van Dijk - Moody's Analytics, Manchester
         details: |
-          - Assisted in the maintenance of a cross-border database specialising in foreign direct investment
+          - Assisted in the maintenance of a database specialising in foreign direct investment
             transactions
           - Developed a Swedish, Norwegian and Danish language keyword feed to increase the volume of
             Nordic investment information for Scandinavian clients
