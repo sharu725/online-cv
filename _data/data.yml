@@ -34,7 +34,7 @@ sidebar:
     languages:
       title: Certifications
       info:
-        - item: Google Data Analytics Professional Certificate
+        - item: Google Data Analytics Professional Certificate (link)
           link: "https://www.credly.com/badges/4a0bedd9-e06c-431a-ad09-ec8dac080bf1/public_url"
 
 education:
@@ -88,7 +88,7 @@ projects:
     assignments:
       - title: Case Study - "Bellabeat Fitness Data Analysis"
         link: "https://github.com/shenry1212/resume/blob/master/assets/images/Case%20Study%20-%20Bellabeat.pdf"
-        tagline: "Analyzed fitness data for a ficitonal smart-device company. Analysis was used to gain insights in preparation of a new product rollout."
+        tagline: "Analyzed fitness data for a fictional smart-device company. Analysis was used to gain insights in preparation for a new product rollout."
       
       - title: Academic Paper - "How Did Donald Trump Win the 2016 Election?" (The professor chose the topic)
         link: "https://github.com/shenry1212/resume/blob/master/assets/images/Econ%20173%20Final%20Paper%20-%202016%20Election.pdf"
