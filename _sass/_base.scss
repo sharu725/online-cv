@@ -186,6 +186,7 @@ p {
     position: relative;
     overflow: hidden;
     margin-bottom: 2px;
+    display: flex;
   }
   .job-title,
   .degree {
@@ -194,12 +195,14 @@ p {
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 500;
+    flex: 75%;
   }
   .time {
     position: absolute;
     right: 0;
     top: 0;
     color: $text-grey;
+    flex: 25%;
   }
   .company,
   .university {
