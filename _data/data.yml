@@ -7,19 +7,18 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
+    name: Xavier Esteve
     tagline: Full Stack Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    email: xjesteve@gmail.com
+    phone: 954 292 0515
+    timezone: America/Eastern Timezone
+    citizenship: USA
+    website:  #do not add http://
+    linkedin: Xavier Esteve
+    github: XavierJEsteve
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
@@ -35,22 +34,19 @@ sidebar:
         - idiom: English
           level: Native
 
-        - idiom: French
-          level: Professional
-
         - idiom: Spanish
-          level: Professional
+          level: Intermediate
 
     interests:
       title: Interests
       info:
+        - item: Music Production
+          link:
+
+        - item: Photography
+          link:
+
         - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
           link:
 
 career-profile:
