@@ -41,9 +41,9 @@ experiences:
         time: May 2022 - Present
         company: Business Data Partners, Manchester
         details: |
-            - Consulted for a Big 4 bank on a customer outreach project as lead analyst and data coordinator, successfully identifying and
-            repatriating thousands of historical safe deposit items in time for closure of the service
-            - Implemented approximate string matching techniques to join safe deposit items to accounts in manually collated data  
+            - Led a successful customer outreach project as the lead analyst and data coordinator for a Big 4 bank, effectively repatriating thousands of 
+            historical safe deposit items prior to the closure of the service
+            - Implemented fuzzy matching techniques to join safe deposit items to accounts in manually collated data  
             - Utilised SQL and SAS to create customer personas suitable for new product offerings
             - Successfully led strategic initiative to identify customers with mismatched banking products by analysing 
             behaviours and account trends
