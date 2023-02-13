@@ -1,0 +1,220 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Alan Doe
+    tagline: Full Stack Developer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: hello@webjeda.com
+    phone: +33 1 23 45 67 89
+    timezone: Etats Unis/Cancun Timezone
+    citizenship:
+    website: blog.webjeda.com #do not add http://
+    linkedin: alandoe
+    xing: alandoe
+    github: sharu725
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: '@webjeda'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: http://www.africau.edu/images/default/sample.pdf
+
+    languages:
+      title: Langues
+      info:
+        - idiom: Anglais
+          level: Natif
+
+        - idiom: Français
+          level: Professionnel
+
+        - idiom: Espagnole
+          level: Professionnel
+
+    interests:
+      title: Centres d'intérêts
+      info:
+        - item: Escalade
+          link:
+
+        - item: Snowboarding
+          link:
+
+        - item: Cuisine
+          link:
+
+career-profile:
+    title: A propos
+    summary: |
+      Expliquez en quelques mots votre parcours here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
+education:
+    title: Formation
+    info:
+      - degree: MSc en informatique
+        university: Université de Londres
+        time: 2011 - 2012
+        details: |
+          Indiquez ici vos études lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - élément de liste à puces
+            - élément de liste à puces  
+      - degree: BSc en mathématiques appliquées
+        university: Université de Bristol
+        time: 2007 - 2011
+        details: |
+          Indiquez ici vos études here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - élément de liste à puces
+            - élément de liste à puces
+experiences:
+    title: Experiences professionnelles
+    info:
+      - role: Lead Developer
+        time: 2015 - Aujourd’hui
+        company: Startup Hubs, San Francisco
+        details: |
+          Décrire ici votre rôle lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. Donec quam felis, ultricies nec,
+          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+          error sit voluptatem accusantium doloremque laudantium, totam rem
+          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+          architecto beatae vitae dicta sunt explicabo.
+            - élément de liste à puces
+            - élément de liste à puces
+      - role: Ingénieur logiciel sénior
+        time: 2014 - 2015
+        company: Google, Londres
+        details: |
+          Décrire ici votre rôle lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. Donec quam felis, ultricies nec,
+          pellentesque eu, pretium quis, sem.
+            - élément de liste à puces
+            - élément de liste à puces
+      - role: UI Developpeur
+        time: 2012 - 2014
+        company: Amazon, Londres
+        details: |
+          Décrire ici votre rôle lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. Donec quam felis, ultricies nec,
+          pellentesque eu, pretium quis, sem.
+            - élément de liste à puces
+            - élément de liste à puces
+projects:
+    title: Projets personnels
+    intro: >
+      Vous pouvez lister vos side projects ici. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "Un site web responsive pour aider les startups pour leur publicité, marché et la vente de leurs produits."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "Un site web responsive pour aider les développeurs web ou les designers à vender leurs services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "Un template de site web responsive pour aider les startups à fair la promotion de leurs produits ou services ainsi que pour attirer les investisseurs."
+
+      - title: Atom
+        link: "#"
+        tagline: "Un template complet de site web pour les startups et les développeurs pour vendre leurs applications mobiles."
+
+      - title: Delta
+        link: "#"
+        tagline: "Un thème Boostrap responsive en mode une seule page pour aider les développeurs à vendre leurs applications."
+
+oss:
+    title: Contrbutions Open Source
+    intro: >
+      Vous pouvez lister ici vos contributions open source dans cette section.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    contributions:
+      - title: Tempo
+        link: "#"
+        tagline: "Un template de site web responsive pour aider les startups à fair la promotion de leurs produits ou services ainsi que pour attirer les investisseurs."
+
+      - title: Atom
+        link: "#"
+        tagline: "Un template complet de site web pour les startups et les développeurs pour vendre leurs applications mobiles."
+
+      - title: Delta
+        link: "#"
+        tagline: "Un thème Boostrap responsive en mode une seule page pour aider les développeurs à vendre leurs applications."
+
+publications:
+    title: Publications
+    intro: |
+      Vous pouvez lister ici vos publication. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: L'art de développer un logiciel
+        link: "#"
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
+
+      - title: "Programmation générique III: Invention darwinienne &amp; Résolution de problèmes"
+        link: "#"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      - title: Compilateur orienté syntaxe pour Algol 60
+        link: "#"
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Compétences &amp; Aptitudes
+
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
