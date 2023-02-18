@@ -137,6 +137,7 @@ certifications:
           organization: Microsoft
           credentialid: 111-222
           credentialurl: www.google.com
+          credentialname: Google
           details: |
             Details about cert. Lorem ipsum dolor sit amet, consectetur 
             adipiscing elit.
@@ -157,6 +158,7 @@ certifications:
           organization: Microsoft
           credentialid: 111-222
           credentialurl: www.github.com
+          credentialname: Github
           details: |
             Older certification. Lorem ipsum dolor sit amet, consectetur 
             adipiscing elit.
