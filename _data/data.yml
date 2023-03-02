@@ -85,11 +85,11 @@ projects:
       
     assignments:
       - title: DH Project in 2023
-        link: "#https://austraea.github.io/DHProject2022/"
+        link: 
         tagline: 
 
       - title: DH Project in 2022
-        link: "#"
+        link: "https://austraea.github.io/DHProject2022/"
         tagline: 
 
 oss:
