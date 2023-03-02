@@ -63,7 +63,7 @@ education:
     title: Education
     info:
       - degree: Ph.D. in Industrial & Management Engineering
-        university: Pohang University of Science and Technology (POSTECH)
+        university: POSTECH
         time: 2020 - Current
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
@@ -74,7 +74,7 @@ education:
             - Bullet point
             - Bullet point
       - degree: B.S. in Mathematics
-        university: Pohang University of Science and Technology (POSTECH)
+        university: POSTECH
         time: 2015 - 2020
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
@@ -84,30 +84,40 @@ education:
           pretium quis, sem.
             - Bullet point
             - Bullet point
+      - degree: Transportation Networks and Smart Mobility: Methods and Solutions
+        university: MIT Professional Education Short Programs
+        time: August 2020
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
+           
 experiences:
     title: Experiences
     info:
-      - role: Software Developer
-        time: 2016 - 2016
+      - role: Application Developer (Internship)
+        time: July 2016 - August 2016
         company: Exem, Pohang
         details: |
+          Developed big data operation, management and analysis integrated platform Flamingo.
 
-      - role: Backend Developer
-        time: 2018 - 2018
+      - role: Backend Developer (Internship)
+        time: January 2018 - June 2018
         company: Penta Security, Seoul
         details: |
-          Details.
-            - Bullet point
-            - Bullet point
-            
-      - role: Teaching Assistant
-        time: 2022 Fall
-        company: Information System Technology
+          Developed back-end web service and managed server for web application firewall.
 
       - role: Teaching Assistant
-        time: 2020 Sprint
+        time: 2020 Spring
         company: Discrete Optimization
-            
+        
+      - role: Teaching Assistant
+        time: 2022 Fall
+        company: Information System Technology            
             
 projects:
     title: Projects
@@ -132,7 +142,7 @@ projects:
         link: "#"
         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
+      - title: Research Intern at Logistics Laboratory, POSTECH, Republic of Korea
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
