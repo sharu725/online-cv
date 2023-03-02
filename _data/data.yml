@@ -92,29 +92,20 @@ projects:
         link: "https://austraea.github.io/DHProject2022/"
         tagline: 
   
-
 publications:
     title: Publications
     intro: |
       
     papers:
-      - title: 
+      - title: "Courtship and Poetic Authority in Katherine Philip's Female Friendship Poetry," *Journal of English and American studies*, Vol.17 No.2, 2019.
         link: "#"
         authors: Hyekyung Jung
         conference: 
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      - title: "The Paradox of Chivalric Ideal in *Sir Gawain and the Green Knight*"
         link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-    
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: 
-        level: 
+        authors: Hyekyung Jung
+        conference: 
 
       
 footer: >
