@@ -14,9 +14,9 @@ sidebar:
     # Sidebar links
     email: sylee1509@postech.ac.kr
     phone: 010 8181 6283
-    timezone: Republic of Korea/Seoul Timezone
+    timezone: South Korea/Seoul Timezone
     citizenship:
-    website: blog.webjeda.com #do not add http://
+    website: #do not add http://
     linkedin: sylee1509
     xing: 
     github: sylee1509
@@ -36,7 +36,7 @@ sidebar:
           level: Native
 
         - idiom: English
-          level: Professional
+          level: Intermediate
 
     interests:
       title: Interests
@@ -87,43 +87,28 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Software Developer
+        time: 2016 - 2016
+        company: Exem, Pohang
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+
+      - role: Backend Developer
+        time: 2018 - 2018
+        company: Penta Security, Seoul
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
+          Details.
             - Bullet point
             - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+            
+      - role: Teaching Assistant
+        time: 2022 Fall
+        company: Information System Technology
+
+      - role: Teaching Assistant
+        time: 2020 Sprint
+        company: Discrete Optimization
+            
+            
 projects:
     title: Projects
     intro: >
@@ -196,22 +181,22 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: C++
         level: 98%
 
-      - name: Angular
+      - name: CPLEX
         level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: SUMO
+        level: 98%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: C, C#
+        level: 90%
 
-      - name: Sketch & Photoshop
+      - name: PHP, JavaScript
         level: 60%
 
 footer: >
