@@ -8,7 +8,7 @@ sidebar:
 
   # Profile information
   name: Antony David
-  tagline: 2I ESGI
+  tagline: Student in software development
   avatar: cv.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -43,7 +43,10 @@ sidebar:
     - item: Informatique
       link:
 
-    - item: Badminton
+    - item: Badminton | 10 ans
+      link:
+
+    - item: Sports d'hiver, ski | Étoile d'Or
       link:
 
     - item: Esport
@@ -73,7 +76,7 @@ experiences:
   title: Expérience
   info:
     - role: Développeur web et mobile - Stage
-      time: May 2022 - June 2022
+      time: Mai 2022 - Juin 2022
       company: Premier Octet
       details:
         Réalisation d'un site web permettant à chaque utilisateur de générer un certain nombre de QRCode qu'il aura choisi pour faire deviner une chaine de caractères une fois tout les QRCodes scannées.
@@ -88,11 +91,11 @@ experiences:
         - GraphCMS / API GraphQL / Remix, framework React.js
 
     - role: Développeur web et mobile - Stage
-      time: June 2021 - July 2021
+      time: Juin 2021 - Juillet 2021
       company: Cap Collectif
       details: Utilisation de React/NextJS/GraphQL pour améliorer une plateforme d’analyse de données.
     - role: Étudiant stagiaire
-      time: 2015 - 2015
+      time: Décembre 2015 - Décembre 2015
       company: Jolicode
       details: Stage d’observation de 4 jours dans une société spécialisée dans le développement Web et mobile avec une initiation des langages web. (HTML/CSS)
 
