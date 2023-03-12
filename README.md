@@ -39,13 +39,17 @@ docker-compose up
 ```
 
 *docker-compose.yml* file is used to create a container that is reachable under http://localhost:4000.
-Changes *_data/data.yml* will be visible after a while.
+Changes *data/_data/data.yml* will be visible after a while.
 
 ### Local machine
 
 * Get the repo into your machine 
 ```bash
 git clone https://github.com/sharu725/online-cv.git
+```
+* Go to data directory
+```bash
+cd data
 ```
 * Install required ruby gems
 ```bash
