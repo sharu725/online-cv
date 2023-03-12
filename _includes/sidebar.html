@@ -23,6 +23,14 @@
     {% include education.html %}
   {% endif %}
 
+  {% if sidebar.oss %}
+    {% include oss-contributions.html %}
+  {% endif %}
+
+  {% if sidebar.personal-projects %}
+    {% include personal-projects.html %}
+  {% endif %}
+
   {% include language.html %}
 
   {% include interests.html %}

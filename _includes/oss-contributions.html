@@ -1,40 +1,76 @@
 {% assign oss = site.data.data.oss %}
 {% if oss %}
-<section class="section oss-section">
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-box-open fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ oss.title }}
-  </h2>
+  {% if site.data.data.sidebar.oss %}
+  <div class="oss-container container-block">
 
-  {% if oss.intro %}
-  <div class="intro">
-    <p>{{ oss.intro }}</p>
-  </div>
-  <!--//intro-->
-  {% endif %}
+    <h2 class="container-block-title">
+      {{ oss.title }}
+    </h2>
 
-  {% for contribution in oss.contributions %}
-  <div class="item">
-
-    <span class="project-title">
-      {% if contribution.link %}
-      <a href="{{ project.link }}" target="_blank">{{ contribution.title }}</a>
-      {% else %}
-      {{ contribution.title }}
-      {% endif %}
-    </span>
-
-    {% if contribution.tagline %}
-    - <span class="project-tagline">{{ contribution.tagline }}</span>
+    {% if oss.intro %}
+    <div class="intro">
+      <p>{{ oss.intro }}</p>
+    </div>
+    <!--//intro-->
     {% endif %}
 
-  </div>
-  <!--//item-->
-  {% endfor %}
+    {% for contribution in oss.contributions %}
+    <div class="item">
 
-</section>
-<!--//section-->
+      <span class="project-title">
+        {% if contribution.link %}
+        <h4 class="project-title"><a href="{{ contribution.link }}" target="_blank">{{ contribution.title }}</a></h4>
+        {% else %}
+        <h4 class="project-title">{{ contribution.title }}</h4>
+        {% endif %}
+      </span>
+
+      {% if contribution.tagline %}
+      <span class="project-tagline">{{ contribution.tagline }}</span>
+      {% endif %}
+
+    </div>
+    <!--//item-->
+    {% endfor %}
+
+  </div><!--//education-container-->
+  {% else %}
+  <section class="section oss-section">
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-box-open fa-stack-1x fa-inverse"></i>
+      </span>
+      {{ oss.title }}
+    </h2>
+
+    {% if oss.intro %}
+    <div class="intro">
+      <p>{{ oss.intro }}</p>
+    </div>
+    <!--//intro-->
+    {% endif %}
+
+    {% for contribution in oss.contributions %}
+    <div class="item">
+
+      <span class="project-title">
+        {% if contribution.link %}
+        <a href="{{ contribution.link }}" target="_blank">{{ contribution.title }}</a>
+        {% else %}
+        {{ contribution.title }}
+        {% endif %}
+      </span>
+
+      {% if contribution.tagline %}
+      - <span class="project-tagline">{{ contribution.tagline }}</span>
+      {% endif %}
+
+    </div>
+    <!--//item-->
+    {% endfor %}
+
+  </section>
+  <!--//section-->
+  {% endif %}
 {% endif %}

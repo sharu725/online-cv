@@ -10,11 +10,20 @@
     <ul class="skillset list-unstyled interests-list">
       {% for skill in skills.toolset %}
       <li class="item">
+        {% if skill.level %}
         <h4 class="level-title-sidebar">{{ skill.name }}</h4>
         <div class="level-bar-sidebar">
           <div class="level-bar-inner-sidebar" data-level="{{ skill.level }}">
           </div>
         </div><!--//level-bar-->
+        {% else %}
+        <h4 class="skill-title">{{ skill.name }}</h4>
+        <ul class="skill-subsets">
+        {% for subset in skill.subsets %}
+          <li class="skill-subset-elem">{{ subset }}</li>
+        {% endfor %}
+        </ul>
+        {% endif %}
       </li>
       {% endfor %}
     </ul>
@@ -35,12 +44,21 @@
       {% for skill in skills.toolset %}
       <div class="item">
 
+        {% if skill.level %}
         <h3 class="level-title">{{ skill.name }}</h3>
 
         <div class="level-bar">
           <div class="level-bar-inner" data-level="{{ skill.level }}">
           </div>
         </div><!--//level-bar-->
+        {% else %}
+        <h3 class="skill-title">{{ skill.name }}</h3>
+        <ul class="skill-subsets">
+        {% for subset in skill.subsets %}
+          <li>{{ subset }}</li>
+        {% endfor %}
+        </ul>
+        {% endif %}
 
       </div><!--//item-->
       {% endfor %}

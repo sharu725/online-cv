@@ -1,0 +1,76 @@
+{% assign pp = site.data.data.personal-projects %}
+{% if pp %}
+  {% if site.data.data.sidebar.personal-projects %}
+  <div class="pp-container container-block">
+
+    <h2 class="container-block-title">
+      {{ pp.title }}
+    </h2>
+
+    {% if pp.intro %}
+    <div class="intro">
+      <p>{{ pp.intro }}</p>
+    </div>
+    <!--//intro-->
+    {% endif %}
+
+    {% for assignment in pp.assignments %}
+    <div class="item">
+
+      <span class="project-title">
+        {% if assignment.link %}
+        <h4 class="project-title"><a href="{{ assignment.link }}" target="_blank">{{ assignment.title }}</a></h4>
+        {% else %}
+        <h4 class="project-title">{{ assignment.title }}</h4>
+        {% endif %}
+      </span>
+
+      {% if assignment.tagline %}
+      <span class="project-tagline">{{ assignment.tagline }}</span>
+      {% endif %}
+
+    </div>
+    <!--//item-->
+    {% endfor %}
+
+  </div><!--//education-container-->
+  {% else %}
+  <section class="section pp-section">
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-box-open fa-stack-1x fa-inverse"></i>
+      </span>
+      {{ pp.title }}
+    </h2>
+
+    {% if pp.intro %}
+    <div class="intro">
+      <p>{{ pp.intro }}</p>
+    </div>
+    <!--//intro-->
+    {% endif %}
+
+    {% for assignment in pp.assignments %}
+    <div class="item">
+
+      <span class="project-title">
+        {% if assignment.link %}
+        <a href="{{ assignment.link }}" target="_blank">{{ assignment.title }}</a>
+        {% else %}
+        {{ assignment.title }}
+        {% endif %}
+      </span>
+
+      {% if assignment.tagline %}
+      - <span class="project-tagline">{{ assignment.tagline }}</span>
+      {% endif %}
+
+    </div>
+    <!--//item-->
+    {% endfor %}
+
+  </section>
+  <!--//section-->
+  {% endif %}
+{% endif %}

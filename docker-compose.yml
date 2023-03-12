@@ -4,6 +4,6 @@ services:
       image: jekyll/jekyll:3.8
       command: jekyll serve --force_polling
       ports:
-          - 4000:4000
+        - 4000:4000
       volumes:
-          - .:/srv/jekyll
+        - .:/srv/jekyll

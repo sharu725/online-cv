@@ -13,7 +13,13 @@ layout: default
 
 {% include projects.html %}
 
-{% include oss-contributions.html %}
+{% unless site.data.data.sidebar.oss %}
+  {% include oss-contributions.html %}
+{% endunless %}
+
+{% unless site.data.data.sidebar.personal-projects %}
+  {% include personal-projects.html %}
+{% endunless %}
 
 {% include publications.html %}
 

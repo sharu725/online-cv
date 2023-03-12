@@ -168,6 +168,27 @@ p {
       }
     }
   }
+  .project-title {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  .oss-container {
+    .item {
+      margin-bottom: 15px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .pp-container {
+    .item {
+      margin-bottom: 15px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
 }
 
 .main-wrapper {
@@ -270,6 +291,11 @@ p {
     margin-top: 0;
     margin-bottom: 12px;
   }
+  .skill-title {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 6px;
+  }
   .level-bar {
     height: 12px;
     background: $smoky-white;
@@ -285,6 +311,13 @@ p {
   .level-bar-inner-sidebar {
     height: 12px;
     background: $smoky-white;
+  }
+  .skill-subsets {
+    list-style: disc;
+    padding-left: 2em;
+  }
+  .skill-subsets li {
+    margin-bottom: 0px;
   }
 }
 
