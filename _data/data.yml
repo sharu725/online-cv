@@ -132,6 +132,9 @@ skills:
     - name: HTML5 & CSS & PHP
       level: 60%
 
+    - name: SQL (mySQL,Postgres)
+      level: 60%
+
     - name: Javascript / React
       level: 60%
 
