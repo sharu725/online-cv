@@ -79,7 +79,7 @@ experiences:
       time: Mai 2022 - Juin 2022
       company: Premier Octet
       details:
-        Réalisation d'un site web permettant à chaque utilisateur de générer un certain nombre de QRCode qu'il aura choisi pour faire deviner une chaine de caractères une fois tout les QRCodes scannées.
+        Réalisation d'un site web permettant à chaque utilisateur de générer un certain nombre de QRCode qu'il aura choisi pour faire deviner une chaine de caractères une fois tous les QRCodes scannées.
 
         -  Remix, framework React.js / Base de donnée PostgreSQL / Prisma
 
