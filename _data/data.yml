@@ -59,7 +59,7 @@ career-profile:
      Forward-thinking and driven Data Analyst, with a 
      background in quantitative research (PhD in Psychology).
      Proficiency in conducting complex statistical analyses and a strong understanding 
-     of research methodologies. Extensive experience in communicating findings to stakeholders, 
+     of research methodologies. Extensive experience in communicating findings to stakeholders, in statistal supervision of undergraduates within academic research,
      and a passion for delving into large datasets with the aim to unravel new insights. 
 education:
     title: Education
@@ -83,11 +83,11 @@ experiences:
             - Used SQL (BigQuery), and R/Python for data analysis in my everyday work
             - Frequent presentations to stakeholders with varying backgrounds
             - Responsible for the design and execution of several A/B-tests related to user behavior 
-
       - role: Research Analyst
         time: Sep 2020 - Dec 2020
         company: Karolinska Institute, Stockholm
         details: |
+            - Statistical advisor for undergraduate students covering consultancies such as choice of analytical approach, execution of analyses, and interpretations of the results.
             - Analyzed large datasets, encompassing data preprocessing, and predictive modeling
             - Utilized a wide array of visualization techniques to validate the data and support interpretations
       - role: Research Analyst
@@ -95,8 +95,15 @@ experiences:
         company: Umeå University, Umeå
         details: |
             - Collaborated with Hypocampus AB, a Swedish startup specialized on e-learning, to draw conclusions about study behavior
-            - Used statistical techniques for hypothesis testing to validate data and interpretations
-            - Presented data and conclusions to the team in order to improve the dropout rate in e-learning
+            - Routinely used R and Python for statistical analyses
+            - Built machine learning models for predicting future dropout rates on a web-based learning platform
+      - role: Research Analyst/Doctoral student
+        time: Nov 2015 - Jan 2019
+        company: Åbo Akademi University, turku
+        details: |
+            - Taught an university-level course, covering the basic principles in research methodology and statistical analysis
+            - Supervision of one Ph.D student, five Master's theses, and 10 research assistants 
+            - Built regression and anova models for hypothesis testing related to human cognition   
 projects:
     title: Projects
     #intro: >
