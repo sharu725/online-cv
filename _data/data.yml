@@ -42,8 +42,11 @@ sidebar:
         - item: Sapeur-Pompier Volontaire
           link:
 
-        - item: Domotique
+        - item: Formateur
           link:
+          
+        - item: Domotique
+          link:          
 
         - item: Sport (Rugby, Course à pied, Natation)
           link:
