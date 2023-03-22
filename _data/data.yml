@@ -7,44 +7,47 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Pawel Drabik
+    tagline: Embedded Software Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: pawel.drabik@hotmail.com
+    phone: (+31) 617877280
+    timezone: 
     citizenship:
-    website: blog.webjeda.com #do not add http://
+    website: 
     linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    xing: 
+    github: owenek1
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: 
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Polish
           level: Native
 
-        - idiom: French
-          level: Professional
+        - idiom: English
+          level: Proficient
 
         - idiom: Spanish
-          level: Professional
+          level: Proficient
+        
+        - idiom: Dutch
+          level: Intermediate
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Football
           link:
 
         - item: Snowboarding
@@ -52,7 +55,10 @@ sidebar:
 
         - item: Cooking
           link:
-
+          
+        - item: Traveling
+          link:
+          
 career-profile:
     title: Career Profile
     summary: |
