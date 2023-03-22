@@ -197,18 +197,18 @@ skills:
         level: 95%
 
       - name: Planification de projets
-        level: 95%        
+        level: 90%        
 
       - name: Java
-        level: 94%
+        level: 90%
       
       - name: Python
-        level: 90%
-
-      - name: HTML5 & CSS
         level: 80%
 
-      - name: Javascript / Typescript
+      - name: HTML5 & CSS
         level: 70%
+
+      - name: Javascript / Typescript
+        level: 60%
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
