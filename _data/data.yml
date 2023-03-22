@@ -59,7 +59,7 @@ career-profile:
      Forward-thinking and driven Data Analyst, with a 
      background in quantitative research (PhD in Psychology).
      Proficiency in conducting complex statistical analyses and a strong understanding 
-     of research methodologies. Extensive experience in communicating findings to stakeholders, 
+     of research methodologies. Extensive experience in communicating findings to stakeholders, in supervising undergraduates within academic research,
      and a passion for delving into large datasets with the aim to unravel new insights. 
 education:
     title: Education
@@ -96,8 +96,8 @@ experiences:
         company: Umeå University, Umeå
         details: |
             - Collaborated with Hypocampus AB, a Swedish startup specialized on e-learning, to draw conclusions about study behavior
-            - Routinely used R and Python for statistical analyses.
-            - Built machine learning models for predicting future dropout rates on a web-based learning platform.
+            - Routinely used R and Python for statistical analyses
+            - Built machine learning models for predicting future dropout rates on a web-based learning platform
       - role: Research Analyst/Doctoral student
         time: Nov 2015 - Jan 2019
         company: Åbo Akademi University, turku
