@@ -205,6 +205,9 @@ skills:
       - name: Python
         level: 80%
 
+      - name: Base de données (Maria DB ou MySQL)
+        level: 70%
+        
       - name: HTML5 & CSS
         level: 70%
 
