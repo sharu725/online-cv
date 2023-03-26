@@ -62,12 +62,13 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Senior Embedded Software Engineer with 5+ years of experience developing software for ASML lithography machines. 
+      Skilled in developing embedded software and calibration software for the machines, with a focus on delivering high-quality software solutions that meet the needs of customers.
+      Experienced in testing and debugging software to ensure it meets performance specification.
+      Throughout my career, I have demonstrated a strong ability to work effectively in a team environment, collaborating with other software engineers, hardware engineers, and product managers to deliver high-quality, reliable software. 
+      Utilizes Agile methodology, demonstrates high problem-solving skills, and has experience as a Lead Engineer and Scrum Master. 
+      Has excellent communication skills and teamwork abilities.
+
 education:
     title: Education
     info:
@@ -75,7 +76,12 @@ education:
         university: Eindhoven University of Technology (The Netherlands)
         time: 2013 - 2015
         details: |
-          
+
+      - degree: Erasmus Exchange Program Student
+        university: University of Southern Denmark (Denmark)
+        time: 2011 - 2012
+        details: |    
+
       - degree: BSc in Automation and robotics
         university: West Pomeraninan University of Technology (Poland)
         time: 2009 - 2013
@@ -84,70 +90,26 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
+      - role: Embedded Software Engineer
         time: 2012 - 2014
-        company: Amazon, London
+        company: ASML, Eindoven (The Netherlands)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
+          Designing and developing embedded software for ASML lithography machines using programming languages such as C/C++ and Python. Collaboration with hardware and functional engineers to integrate software and hardware components.
+          Lead Software Engineer and Scrum Master, with a track record of managing small development teams.
+ 
+      - role: Software Engineer
+        time: 2012 - 2014
+        company: Adversitement B.V, Uden (The Netherlands)
+        details: |
+          My role involved implementing analytics and optimization software to measure, analyze, and enhance the online efficiency of our clients. 
+          This required identifying and specifying a technical solution that aligned with the customer's requirements, architecture, and infrastructure, including MySQL databases with big data. Additionally, I was responsible for developing code using programming languages such as PHP, JavaScript, HTML, and CSS. As part of this process, I also administered MySQL databases and optimized SQL queries to ensure smooth operation.
+      
+      - role: Student assistant
+        time: 2011 - 2012
+        company: University of Southern Denmark, Odense (Denmark)
+        details: |
+          As a member of the Viking Team, tasked with developing an electric car for the Formula Student Competition, my primary responsibility was the design of the Battery Management System (BMS). 
+          The BMS was designed to provide basic functionality, including protection of the battery pack during the charging and discharging process, and communication through Controller Area Network (CAN) to send real-time data about the battery pack's parameters to the user interface.
 skills:
     title: Skills &amp; Proficiency
 
