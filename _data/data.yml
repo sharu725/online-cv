@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Pawel Drabik
-    tagline: Embedded Software Engineer
+    tagline: Senior Embedded Software Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -119,9 +119,6 @@ skills:
 
       - name: Python
         level: 98%
-
-      - name: Angular
-        level: 98%
-
+      
       - name: HTML5 & CSS
         level: 80%
