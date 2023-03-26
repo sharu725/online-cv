@@ -74,7 +74,7 @@ education:
     info:
       - degree: MSc in Embedded Systems 
         university: Eindhoven University of Technology (The Netherlands)
-        time: 2013 - 2015
+        time: 2013 - 2016
         details: |
 
       - degree: Erasmus Exchange Program Student
@@ -91,14 +91,14 @@ experiences:
     title: Experiences
     info:
       - role: Embedded Software Engineer
-        time: 2012 - 2014
+        time: 2017 - Present
         company: ASML, Eindoven (The Netherlands)
         details: |
           Designing and developing embedded software for ASML lithography machines using programming languages such as C/C++ and Python. Collaboration with hardware and functional engineers to integrate software and hardware components.
           Lead Software Engineer and Scrum Master, with a track record of managing small development teams.
  
       - role: Software Engineer
-        time: 2012 - 2014
+        time: 2013 - 2016
         company: Adversitement B.V, Uden (The Netherlands)
         details: |
           My role involved implementing analytics and optimization software to measure, analyze, and enhance the online efficiency of our clients. 
