@@ -63,10 +63,8 @@ career-profile:
     title: Career Profile
     summary: |
       Senior Embedded Software Engineer with 5+ years of experience developing software for ASML lithography machines. 
-      Skilled in developing embedded software and calibration software for the machines, with a focus on delivering high-quality software solutions that meet the needs of customers.
-      Experienced in testing and debugging software to ensure it meets performance specification.
-      Throughout my career, I have demonstrated a strong ability to work effectively in a team environment, collaborating with other software engineers, hardware engineers, and product managers to deliver high-quality, reliable software. 
-      Utilizes Agile methodology, demonstrates high problem-solving skills, and has experience as a Lead Engineer and Scrum Master. 
+      Skilled in developing high quality embedded software and calibration software for the machines, that meet the needs of requirements. 
+      Experienced in testing and debugging software to ensure it meets performance specification. Throughout my career, demonstrated a strong ability to work effectively in a team environment, collaborating with other software engineers, hardware engineers, and product managers. Utilizes Agile methodology, demonstrates high problem-solving skills, and has experience as a Lead Engineer and Scrum Master. 
       Has excellent communication skills and teamwork abilities.
 
 education:
@@ -102,7 +100,8 @@ experiences:
         company: Adversitement B.V, Uden (The Netherlands)
         details: |
           My role involved implementing analytics and optimization software to measure, analyze, and enhance the online efficiency of our clients. 
-          This required identifying and specifying a technical solution that aligned with the customer's requirements, architecture, and infrastructure, including MySQL databases with big data. Additionally, I was responsible for developing code using programming languages such as PHP, JavaScript, HTML, and CSS. As part of this process, I also administered MySQL databases and optimized SQL queries to ensure smooth operation.
+          This required identifying and specifying a technical solution that aligned with the customer's requirements, architecture, and infrastructure, including MySQL databases with big data. 
+          Worked with code using programming languages such as PHP, JavaScript, HTML, and CSS. As part of this process, I also administered MySQL databases and optimized SQL queries to ensure smooth operation.
       
       - role: Student assistant
         time: 2011 - 2012
@@ -119,6 +118,9 @@ skills:
 
       - name: Python
         level: 98%
-      
+        
+      - name: PHP
+        level: 80%
+        
       - name: HTML5 & CSS
         level: 80%
