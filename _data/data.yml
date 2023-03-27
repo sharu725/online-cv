@@ -200,22 +200,21 @@ skills:
         level: 90%        
 
       - name: Java
-        level: 90%
+        level: 80%
       
       - name: Python
-        level: 80%
+        level: 60%
+        
+      - name: Javascript / Typescript
+        level: 60%
+        
+      - name: C#
+        level: 10%        
 
       - name: Base de données (Maria DB ou MySQL)
         level: 70%
         
       - name: HTML5 & CSS
         level: 70%
-
-      - name: Javascript / Typescript
-        level: 60%
-        
-      - name: C#
-        level: 10%
-
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
