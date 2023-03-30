@@ -119,8 +119,8 @@ skills:
       - name: Python
         level: 98%
         
-       - name: JavaScript
-       - level: 90%
+      - name: JavaScript
+        level: 90%
         
       - name: PHP
         level: 80%
