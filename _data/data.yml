@@ -13,7 +13,6 @@ sidebar:
 
     # Sidebar links
     email: hxj240@miami.edu
-    email: austraea@naver.com
     phone: 
     timezone: 
     citizenship: Korea, South
@@ -35,7 +34,9 @@ sidebar:
       info:
         - idiom: Korean 
           level: Native
-
+        - idiom: English 
+          level: 
+          
     interests:
       title: Interests
       info:
