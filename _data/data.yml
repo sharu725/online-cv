@@ -7,215 +7,109 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Davi Sobrinho Labre
+    tagline: Mobile/Back-End Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: davisobrinho82452@gmail.com
+    phone: +55(61)99827-2223
+    timezone: Brasil/Brasília
+    citizenship: Brasileiro
+    linkedin: https://www.linkedin.com/in/davi-sobrinho-labre-b37500235/
+    github: https://github.com/DaviSobrinho
+    telegram: DaviLabre
 
     languages:
-      title: Languages
+      title: Idiomas
       info:
+        - idiom: Português
+          level: Nativo
+
         - idiom: English
-          level: Native
-
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+          level: Profissional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Violão
           link:
 
-        - item: Snowboarding
+        - item: Video-Games
           link:
 
-        - item: Cooking
+        - item: Basquete
           link:
 
 career-profile:
-    title: Career Profile
+    title: Perfil
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Me chamo Davi, tenho 21 anos, curso Análise e Desenvolvimento de sistemas na UCB, atualmentente no 3º período e
+      sou um desenvolvedor com experiências majoritariamente em Mobile/Back-End. Tenho projetos desenvolvidos principalmente 
+      em Java/Kotlin buscando mais recentemente especializar-me mais no SpringFramework. Amo tecnologia, lógica, matemática e solucionar problemas
+     ,tudo isso me atraiu para a área de programação, busco uma primeira oportunidade de emprego para mostrar meu potencial e ascender minha carreira como desenvolvedor .
+
+
 education:
-    title: Education
+    title: Formação
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Ensino Médio/Técnico(técnico em manutenção automotiva)
+        university: Sesi Taguatinga/Senai Taguatinga
+        time: 2016-2018
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          Ensino médio conjunto ao ensino ténico com formação de técnico em manutenção automotiva que realizei através de bolsa integral.
+      - degree: Cursos online Alura onDemand
+        university: Alura
+        time: 2022-2023
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Diversos cursos referentes a TI, em especial programação como cursos de Java, Kotlin, POO, mySQL entre outros.
+      - degree: Cursos online Unity onDemand
+        university: Unity
+        time: 2023-2023
+        details: |
+          Formação da Unity para desenvolvedor de jogos 3D e 2D.
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Instalação de rastreadores veiculares
+        time: 2019 - 2021
+        company: Wanderley Rastreadores
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Atuava no negócio do meu pai, realizando manutenção/instalando/configurando rastreadores veiculares, além de fornecer suporte ao usuário.
 projects:
-    title: Projects
+    title: Projetos
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Os projetos a seguir foram desenvolvidos por mim desde 2022 e estão todos disponíveis no meu Github.
     assignments:
-      - title: Velocity
+      - title: VollMedApi
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: "API RESTful de uma clínica, nela pode-se agendar e cancelar consultas além de possuir dois CRUD's, um de pacientes e outro de médicos. Desenvolvido no 1º semestre de 2023."
 
-      - title: DevStudio
+      - title: Pomos
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Aplicativo android que representa uma agenda atrelada a técnica de Pomodoro, através dela você consegue cronometrar suas atividades e obter maior eficiência. Desenvolvido no 2º semestre de 2022."
 
-      - title: Tempo
+      - title: GPSAFE
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        tagline: "Minha primeira experiência com programação, representa um CRUD de clientes e pretendo aprimorá-lo para um grande sistema. Desenvolvido no 1º semestre de 2022."
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Competências
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Java/Kotlin
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Spring
 
-      - name: Angular
-        level: 98%
+      - name: MySql/SQLite
 
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
+      - name: Git/Github
+      
+      - name: C#(Unity em projetos prórpios)/C e Python(Advindo da Universidade)
+      
+      - name: Testes automatizados(SonarLint/SonarCloud)
+      
+      - name: Pacote Office
+      
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
