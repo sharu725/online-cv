@@ -19,6 +19,14 @@ sidebar:
     linkedin: https://www.linkedin.com/in/davi-sobrinho-labre-b37500235/
     github: https://github.com/DaviSobrinho
     telegram: DaviLabre
+    xing: 
+    gitlab:
+    bitbucket:
+    twitter:
+    stack-overflow: 
+    codewars:
+    goodreads: 
+    pdf:
 
     languages:
       title: Idiomas
@@ -26,11 +34,11 @@ sidebar:
         - idiom: Português
           level: Nativo
 
-        - idiom: English
+        - idiom: Inglês
           level: Profissional
 
     interests:
-      title: Interests
+      title: Interesses
       info:
         - item: Violão
           link:
@@ -47,7 +55,7 @@ career-profile:
       Me chamo Davi, tenho 21 anos, curso Análise e Desenvolvimento de sistemas na UCB, atualmentente no 3º período e
       sou um desenvolvedor com experiências majoritariamente em Mobile/Back-End. Tenho projetos desenvolvidos principalmente 
       em Java/Kotlin buscando mais recentemente especializar-me mais no SpringFramework. Amo tecnologia, lógica, matemática e solucionar problemas
-     ,tudo isso me atraiu para a área de programação, busco uma primeira oportunidade de emprego para mostrar meu potencial e ascender minha carreira como desenvolvedor .
+      ,tudo isso me atraiu para a área de programação, busco uma primeira oportunidade de emprego para mostrar meu potencial e ascender minha carreira como desenvolvedor.
 
 
 education:
@@ -55,23 +63,23 @@ education:
     info:
       - degree: Ensino Médio/Técnico(técnico em manutenção automotiva)
         university: Sesi Taguatinga/Senai Taguatinga
-        time: 2016-2018
+        time: 2016 - 2018
         details: |
           Ensino médio conjunto ao ensino ténico com formação de técnico em manutenção automotiva que realizei através de bolsa integral.
       - degree: Cursos online Alura onDemand
         university: Alura
-        time: 2022-2023
+        time: 2022 - 2023
         details: |
           Diversos cursos referentes a TI, em especial programação como cursos de Java, Kotlin, POO, mySQL entre outros.
       - degree: Cursos online Unity onDemand
         university: Unity
-        time: 2023-2023
+        time: 2023 - 2023
         details: |
           Formação da Unity para desenvolvedor de jogos 3D e 2D.
 experiences:
-    title: Experiences
+    title: Experiências
     info:
-      - role: Instalação de rastreadores veiculares
+      - role: Instalador de rastreadores veiculares
         time: 2019 - 2021
         company: Wanderley Rastreadores
         details: |
@@ -79,7 +87,7 @@ experiences:
 projects:
     title: Projetos
     intro: >
-      Os projetos a seguir foram desenvolvidos por mim desde 2022 e estão todos disponíveis no meu Github.
+      Os projetos a seguir foram desenvolvidos por mim desde 2022 e estão todos disponíveis no meu Github:
     assignments:
       - title: VollMedApi
         link: "#hook"
@@ -91,7 +99,16 @@ projects:
 
       - title: GPSAFE
         link: "#"
-        tagline: "Minha primeira experiência com programação, representa um CRUD de clientes e pretendo aprimorá-lo para um grande sistema. Desenvolvido no 1º semestre de 2022."
+        tagline: "Meu primeiro app desenvolvido para android, representa um CRUD de clientes e pretendo aprimorá-lo para um grande sistema. Desenvolvido no 1º semestre de 2022."
+oss:
+    title: 
+    intro: 
+    contributions:
+
+publications:
+    title: 
+    intro: 
+    papers:
 
 skills:
     title: Competências
@@ -104,11 +121,15 @@ skills:
       - name: MySql/SQLite
 
       - name: Git/Github
+
+      - name: HTML/CSS
       
-      - name: C#(Unity em projetos prórpios)/C e Python(Advindo da Universidade)
+      - name: C#(Unity)/C e Python(Advindos da graduação)
       
       - name: Testes automatizados(SonarLint/SonarCloud)
       
+      - name: Metodologias ágeis
+
       - name: Pacote Office
       
 footer: >
