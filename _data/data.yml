@@ -115,15 +115,15 @@ experiences:
         company: Cabinet de géomètres AXIS-Conseils à Vonnas (01)
         details: |
 
-# projects:
-#     title: Projects
-#     intro: >
-#       You can list your side projects in this
-#       section.
-#     assignments:
-#       - title: Velocity
-#         link: "#hook"
-#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+projects:
+     title: Projects
+     intro: >
+       You can list your side projects in this
+       section.
+     assignments:
+       - title: Velocity
+         link: "#hook"
+         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
 #       - title: DevStudio
 #         link: "#"
