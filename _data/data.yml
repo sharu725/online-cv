@@ -120,10 +120,10 @@ skills:
         level: 98%
         
       - name: Linux
-      - level: 90%
+        level: 90%
       
       - name: Git
-      - level: 90%
+        level: 90%
         
       - name: JavaScript
         level: 90%
