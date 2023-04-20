@@ -54,6 +54,8 @@ career-profile:
     summary: |
       Hyekyung Jung is a second-year PhD student of English Department, University of Miami. Her research interests are women's literature, gender and sexuality studies, emtion and masculinity, travel writing, and women's domestic works in literature.
       
+      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1FPM3pzlOzr1UOOf2kptKWUFxRRtHG9U&ehbc=2E312F" width="640" height="480"></iframe>
+      
 education:
     title: Education
     info:
@@ -94,9 +96,6 @@ projects:
         link: "https://austraea.github.io/DHProject2022/"
         tagline: 
   
-      - title: Hyekyung_Map
-        link: "https://www.google.com/maps/d/u/0/edit?mid=1FPM3pzlOzr1UOOf2kptKWUFxRRtHG9U&usp=sharing"
-        tagline: 
   
 publications:
     title: Publications
