@@ -118,6 +118,11 @@ leadership:
   title: Leadership and Service
   
   type:
+    - title: Professional
+      description: "Jagersfontein: Intergovernmental environmental rehabilitation specialist committee"
+      time: '2023'
+      description: "Leading the hydraulic and sediment transport numerical modelling component to predict long term effects."
+
     - title: Research
       description: "Co-Founder and head: Environmental Fluid Mechanics Lab, UKZN"
       link: https://efml.ukzn.ac.za
@@ -154,6 +159,9 @@ projects:
     intro: >
       
     assignments:
+      - title: 
+        link: "#"
+        tagline: "Long term Hydraulic and sediment modelling using Mike by DHI for the Jagersfontein Tailings Dam Failure (2023)"
       - title: Coastal Vulnerability Milnerton Cape Town (2015-2017)
         link: "#"
         tagline: "Coastal vulnerability analysis and shoreline protection design for Milnerton Beach Cape Town"
@@ -171,6 +179,12 @@ publications:
     intro: |
       
     papers:
+      - title: "Cold water pathways and regional flow patterns in the southwest Indian ocean associated with temperature anomalies on the Sodwana reef system, South Africa"
+        link: "https://www.sciencedirect.com/science/article/abs/pii/S0272771423001270?via%3Dihub"
+        type: journal
+        authors: Wells C., Pringle J., Stretch D., Tirok K. (2023)
+        conference: "Estuarine, Coastal and Shelf Science"  
+
       - title: "Early warnings for floods in South Africa: engineering for future climate change"
         link: https://theconversation.com/early-warnings-for-floods-in-south-africa-engineering-for-future-climate-change-181556?utm_source=linkedin&utm_medium=bylinelinkedinbutton
         type: other
@@ -295,15 +309,33 @@ students:
       level: MSc
       link: https://efml.ukzn.ac.za/danel/
 
-    - name: Luyanda Sokhela
+    - name: Smrithi Singh
       year: (Submission Expected)
-      title: "Smart Soiless farming: A solution to Africa's Food Insecurity Crisis"
+      title: "Improving the reliability of flow models"
       level: MSc
-      link: https://efml.ukzn.ac.za/luyanda/    
+      link: https://efml.ukzn.ac.za    
 
     - name: Prosper Bopoto
       year: "(Submission expected)"
       title: Biophysical Connectivity In A Tidal Basin
+      level: MSc
+      link: https://efml.ukzn.ac.za
+
+    - name: Leall Williams
+      year: "(Submission expected)"
+      title: Modelling coastal water quality at Umhlanga
+      level: MSc
+      link: https://efml.ukzn.ac.za
+
+    - name: Robert Boreham
+      year: "(Submission expected)"
+      title: Mapping plastic on beaches using Machine Learning
+      level: MSc
+      link: https://efml.ukzn.ac.za
+
+    - name: Matthew Phillips
+      year: "(Submission expected)"
+      title: Modelling the effect of land use on river based litter transport
       level: MSc
       link: https://efml.ukzn.ac.za
 
@@ -335,6 +367,9 @@ awards:
   title: Grants & Awards 
 
   award:
+    - title: "Phase 1: Construction impacts of bulwater supply schemes on river connectivity"
+      amount: R 3 303 450.00
+
     - title: NRF Y- Rating 2020 
       link: #
       amount: R50 000.00
