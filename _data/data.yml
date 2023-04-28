@@ -60,10 +60,10 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: Combined s/PhD
-        university: Data Systems Laboratory, Pohang University of Science and Technology (POSTECH)
-        time: 2023 ~
-        details: Under supervision of Professor Wook-Shin Han
+      - degree: 
+        university: 
+        time: 
+        details: 
         
       - degree: BS in Electrical Engineering
         university: Pohang University of Science and Technology (POSTECH)
