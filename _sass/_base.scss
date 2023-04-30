@@ -20,10 +20,12 @@ h6 {
 
 a {
   color: darken($theme-color, 15%);
+
   &:hover {
     text-decoration: underline;
     color: darken($theme-color, 30%);
   }
+
   &:focus {
     text-decoration: none;
   }
@@ -45,12 +47,14 @@ p {
 
 .sidebar-wrapper {
   grid-column: span 3;
-  order: 2;
+  order: 0;
   background: $theme-color;
   color: #fff;
+
   a {
     color: #fff;
   }
+
   .profile-container {
     padding: 30px;
     //background: darken($theme-color, 10%);
@@ -58,12 +62,14 @@ p {
     text-align: center;
     color: #fff;
   }
+
   .name {
     font-size: 32px;
     font-weight: 900;
     margin-top: 0;
     margin-bottom: 10px;
   }
+
   .tagline {
     color: rgba(256, 256, 256, 0.6);
     font-size: 16px;
@@ -71,6 +77,7 @@ p {
     margin-top: 0;
     margin-bottom: 0;
   }
+
   .profile {
     margin-bottom: 15px;
   }
@@ -83,7 +90,9 @@ p {
     border-radius: 100%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   }
+
   .contact-list {
+
     .fas,
     .fab,
     .far {
@@ -91,16 +100,20 @@ p {
       font-size: 18px;
       vertical-align: middle;
     }
+
     li {
       margin-bottom: 15px;
+
       &:last-child {
         margin-bottom: 0;
       }
     }
   }
+
   .container-block {
     padding: 30px;
   }
+
   .container-block-title {
     text-transform: uppercase;
     font-size: 16px;
@@ -108,30 +121,36 @@ p {
     margin-top: 0;
     margin-bottom: 15px;
   }
+
   .degree {
     font-size: 14px;
     margin-top: 0;
     margin-bottom: 5px;
   }
+
   .education-container {
     .item {
       margin-bottom: 15px;
+
       &:last-child {
         margin-bottom: 0;
       }
     }
+
     .meta {
       color: rgba(256, 256, 256, 0.6);
       font-weight: 500;
       margin-bottom: 0px;
       margin-top: 0;
     }
+
     .time {
       color: rgba(256, 256, 256, 0.6);
       font-weight: 500;
       margin-bottom: 0px;
     }
   }
+
   .languages-container {
     .lang-desc {
       color: rgba(256, 256, 256, 0.6);
@@ -140,8 +159,10 @@ p {
 
   .languages-list {
     margin-bottom: 0;
+
     li {
       margin-bottom: 10px;
+
       &:last-child {
         margin-bottom: 0;
       }
@@ -150,8 +171,10 @@ p {
 
   .interests-list {
     margin-bottom: 0;
+
     li {
       margin-bottom: 10px;
+
       &:last-child {
         margin-bottom: 0;
       }
@@ -163,6 +186,7 @@ p {
   grid-column: span 7;
   background: #fff;
   padding: 60px;
+
   .section-title {
     text-transform: uppercase;
     font-size: 20px;
@@ -172,6 +196,7 @@ p {
     margin-top: 0;
     margin-bottom: 20px;
   }
+
   .section {
     margin-bottom: 60px;
   }
@@ -182,12 +207,14 @@ p {
       margin-bottom: 30px;
     }
   }
+
   .upper-row {
     position: relative;
     overflow: hidden;
     margin-bottom: 2px;
     display: flex;
   }
+
   .job-title,
   .degree {
     color: $text-color;
@@ -197,6 +224,7 @@ p {
     font-weight: 500;
     flex: 75%;
   }
+
   .time {
     position: absolute;
     right: 0;
@@ -204,6 +232,7 @@ p {
     color: $text-grey;
     flex: 25%;
   }
+
   .company,
   .university {
     margin-bottom: 10px;
@@ -217,10 +246,12 @@ p {
     margin-bottom: 5px;
     color: darken($theme-color, 15%);
   }
+
   .projects-section {
     .intro {
       margin-bottom: 30px;
     }
+
     .item {
       margin-bottom: 15px;
     }
@@ -232,15 +263,18 @@ p {
     color: $text-color;
     margin-bottom: 1px;
   }
+
   .publication-authors {
     font-style: italic;
     color: $text-grey;
     margin-bottom: 1px;
   }
+
   .publications-section {
     .intro {
       margin-bottom: 30px;
     }
+
     .item {
       margin-bottom: 15px;
     }
@@ -252,15 +286,18 @@ p {
     margin-bottom: 15px;
     overflow: hidden;
   }
+
   .level-title {
     font-size: 14px;
     margin-top: 0;
     margin-bottom: 12px;
   }
+
   .level-bar {
     height: 12px;
     background: $smoky-white;
   }
+
   .level-bar-inner {
     height: 12px;
     background: lighten($theme-color, 15%);
@@ -269,6 +306,7 @@ p {
 
 .footer {
   padding-top: 30px;
+
   .copyright {
     line-height: 1.6;
     color: $text-color-secondary;
