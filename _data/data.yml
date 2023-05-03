@@ -65,6 +65,16 @@ education:
 
 
 experiences:
+    - role: Backend Engineer at Knowns
+      link: https://knowns.co.jp/
+      time: May 2022 - Present
+      company: Tokyo
+      details: |
+        Working as a backend engineer at Knowns. 
+        I am responsible for data management on AWS Redshift and backend development with Spring Boot.
+          - Python, SQL
+          - AWS, Git, MySQL, Docker
+
     - role: Internship at Morgan Stanley
       link: https://www.morganstanley.co.jp/ja/people/students-graduates
       time: Feb 2023 - Mar 2023
@@ -88,16 +98,6 @@ experiences:
         Implementing a web application in Rakuten Summer Internship. I focused on database management and backend programming here. 
         - Python, SQL
         - Flask, MySQL
-
-    - role: Backend Engineer at Knowns
-      link: https://knowns.co.jp/
-      time: May 2022 - Present
-      company: Tokyo
-      details: |
-        Working as a backend engineer at Knowns. 
-        I am responsible for data management on AWS Redshift and backend development with Spring Boot.
-          - Python, SQL
-          - AWS, Git, MySQL, Docker
           
     - role: Research Assistant at Mitsubishi Heavy Institute
       link: https://www.mhi.com/jp
