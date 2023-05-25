@@ -101,7 +101,7 @@ projects:
   title: Projets
   intro:
   assignments:
-    - title: TeamEase
+    - title: 'TeamEase'
       link: 'https://github.com/Jayllyz/TeamEase'
       tagline: 'Réalisation d'un site web, une application Android, un dashbaord statistique, un BOT d'FAQ ainsi que d'une API pour une entreprise de team building dans le cadre du projet annuel 2ième année.'
 
