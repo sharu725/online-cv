@@ -103,20 +103,16 @@ projects:
   assignments:
     - title: TeamEase
       link: 'https://github.com/Jayllyz/TeamEase'
-      tagline: 'Réalisation d\'un site web, une application Android, un dashbaord statistique, un BOT d\'FAQ ainsi que d'une API pour une entreprise de team building dans le cadre du projet annuel 2ième année.'
-
+      tagline: 'Réalisation d\''un site web, une application Android, un dashbaord statistique, un BOT d\''FAQ ainsi que d\''une API pour une entreprise de team building dans le cadre du projet annuel 2ième année.'
     - title: Topcook
       link: 'https://github.com/Jayllyz/Topcook'
       tagline: 'Projet annuel de première année qui a consisté à réaliser un site web dynamique, nous avions choisi de créer un site web communautaire autour des recettes de cuisine.'
-
     - title: Survive The Tempest
       link: 'https://github.com/Jayllyz/SurvivetheTempest'
       tagline: 'Jeu de stratégie réalisé et inventé en duo, programmé en langage Python durant 4 mois en classe de terminale.'
-
     - title: A star
       link: 'https://github.com/Jayllyz/Astar'
       tagline: "Algorithme de recherche de chemin dans un graphe réalisé dans le cadre d'un projet de deuxième année de cycle préparatoire."
-
     - title: TaskToDo
       link: 'https://github.com/Jayllyz/TaskToDo'
       tagline: "Projet de logiciel de planification de tâches réalisé en C avec la librairie GTK+3.2, l'UI est réalisée avec Glade."
