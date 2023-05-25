@@ -103,7 +103,7 @@ projects:
   assignments:
     - title: TeamEase
       link: 'https://github.com/Jayllyz/TeamEase'
-      tagline: 'Réalisation d\''un site web, une application Android, un dashbaord statistique, un BOT d\''FAQ ainsi que d\''une API pour une entreprise de team building dans le cadre du projet annuel 2ième année.'
+      tagline: "Réalisation d'un site web, une application Android, un dashbaord statistique, un BOT d'FAQ ainsi que d'une API pour une entreprise de team building dans le cadre du projet annuel 2ième année."
     - title: Topcook
       link: 'https://github.com/Jayllyz/Topcook'
       tagline: 'Projet annuel de première année qui a consisté à réaliser un site web dynamique, nous avions choisi de créer un site web communautaire autour des recettes de cuisine.'
