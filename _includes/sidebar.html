@@ -13,7 +13,10 @@
 
     {% if sidebar.tagline %}
     <h3 class="tagline">{{ sidebar.tagline }}</h3>
-     <h3 class="tagline">{{ sidebar.tagline }}</h3>
+    {% endif %}
+
+    {% if sidebar.siteweb %}
+    <h3 class="tagline">{{ sidebar.siteweb }}</h3>
     {% endif %}
 
   </div><!--//profile-container-->
