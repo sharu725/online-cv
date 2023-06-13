@@ -126,7 +126,10 @@ skills:
     - name: SQL (mySQL,Postgres)
       level: 60%
 
-    - name: Javascript / React
+    - name: Javascript / Node.js / React
+      level: 60%
+
+    - name: Rust & Go
       level: 60%
 
     - name: Java / Python
