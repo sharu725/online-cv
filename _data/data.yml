@@ -7,20 +7,20 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Deepak Kumar
+    tagline: P.hD IIT Delhi
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
+    email: karndeepak11@gmail.com
+    phone: 9123255349
     timezone: America/Cancun Timezone
-    citizenship:
+    citizenship: INDIAN
     website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
+    linkedin: Deepak Kumar 
+    xing: 
     github: sharu725
-    telegram: # add your nickname without '@' sign
+    telegram: # add your nickname without '@' addy
     gitlab:
     bitbucket:
     twitter: '@webjeda'
@@ -35,10 +35,10 @@ sidebar:
         - idiom: English
           level: Native
 
-        - idiom: French
+        - idiom: English
           level: Professional
 
-        - idiom: Spanish
+        - idiom: English
           level: Professional
 
     interests:
