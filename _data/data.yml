@@ -102,52 +102,52 @@ experiences:
       time: Mar 2021 - Sep 2021
       company: Liberty Mutual, Global Retail Markets US – Service Technology
       details: |
-          - Partnering with technical SMEs and product leadership to evaluate and choose a CCaaS provider, so that we can move our telephony to the cloud, increasing agility and stability.
-          - Led the effort to define the future IVR platform, designing an API-based middleware enabling loose coupling in order to choose the best-in-class CCaaS provider.
-          - Drove consensus for a Policy Retrieve API design leveraging event-based replication to create a read-side SOE federating legacy and future rating programs.
+        - Partnering with technical SMEs and product leadership to evaluate and choose a CCaaS provider, so that we can move our telephony to the cloud, increasing agility and stability.
+        - Led the effort to define the future IVR platform, designing an API-based middleware enabling loose coupling in order to choose the best-in-class CCaaS provider.
+        - Drove consensus for a Policy Retrieve API design leveraging event-based replication to create a read-side SOE federating legacy and future rating programs.
 
     - role: Architect | Solutions Architect
       time: Jul 2015 - Mar 2021
       company: Liberty Mutual, Global Retail Markets US – Third Party
       details: |
-          - Technical domain lead for partner and rater technology; ten product teams supporting partnerships and integrations for the Safeco and Liberty brands, and Book Transfer operations.
-          - Developed exemplar implementations of CDK-based AWS API Gateway, Lambda, DocumentDB, and DynamoDB stacks accelerating development and modernization efforts.
-          - Collaborated with business partners to build Liberty’s next generation partner APIs while enabling the de-coupled evolution of our core quoting architecture.
-          - Technical lead during inception of a developer enablement team (DNA) providing a framework comprised of tools, patterns, practices, and a cloud-native platform to allow teams to focus on delivering business value rapidly.
-          - Created generators that scaffold cloud-ready container-agnostic components with built-in best practices for microservices, CI/CD, Behavior-driven development (BDD), OpenAPI, consumer-driven contracts (CDC), semantic versioning, unit testing, code coverage, static code analysis, log aggregation, monitoring, distributed tracing, and fault tolerance.
-          - Jump-started a team by creating initial implementation of a loosely coupled quoting system using domain-driven design (DDD), spring boot, docker, event sourcing, CQRS, Kafka, and MongoDB.
-          - Facilitated event storming workshops to aid in modeling complex business processes and helped produce a facilitators guide for future workshops.
+        - Technical domain lead for partner and rater technology; ten product teams supporting partnerships and integrations for the Safeco and Liberty brands, and Book Transfer operations.
+        - Developed exemplar implementations of CDK-based AWS API Gateway, Lambda, DocumentDB, and DynamoDB stacks accelerating development and modernization efforts.
+        - Collaborated with business partners to build Liberty’s next generation partner APIs while enabling the de-coupled evolution of our core quoting architecture.
+        - Technical lead during inception of a developer enablement team (DNA) providing a framework comprised of tools, patterns, practices, and a cloud-native platform to allow teams to focus on delivering business value rapidly.
+        - Created generators that scaffold cloud-ready container-agnostic components with built-in best practices for microservices, CI/CD, Behavior-driven development (BDD), OpenAPI, consumer-driven contracts (CDC), semantic versioning, unit testing, code coverage, static code analysis, log aggregation, monitoring, distributed tracing, and fault tolerance.
+        - Jump-started a team by creating initial implementation of a loosely coupled quoting system using domain-driven design (DDD), spring boot, docker, event sourcing, CQRS, Kafka, and MongoDB.
+        - Facilitated event storming workshops to aid in modeling complex business processes and helped produce a facilitators guide for future workshops.
           
     - role: Technologist | System Architect
       time: Aug 2014 - Jul 2015
       company: Liberty Mutual - Personal Market IT - Products & Underwriting
       details: |
-          - Domain lead for an SOA-based set of Insurance Quoting and Endorsing Services aimed at consumers.
-          - Directed the conversion of policy writing services from heavy-weight proprietary BPEL to standard JEE services running on WAS-LP.  Accomplished this in parallel with no impact to in-flight development. Increased developer productivity and unit-testability.
-          - Created a service invocation framework, process template pattern, and custom Eclipse plugin to convert proprietary artifacts to standard java classes.
+        - Domain lead for an SOA-based set of Insurance Quoting and Endorsing Services aimed at consumers.
+        - Directed the conversion of policy writing services from heavy-weight proprietary BPEL to standard JEE services running on WAS-LP.  Accomplished this in parallel with no impact to in-flight development. Increased developer productivity and unit-testability.
+        - Created a service invocation framework, process template pattern, and custom Eclipse plugin to convert proprietary artifacts to standard java classes.
 
     - role: Technologist | System Architect
       time: May 2011 - Aug 2014
       company: Liberty Mutual - Personal Market IT - eCommerce
       details: |
-          - Technical lead for re-design of REST layer supporting eCommerce quoting and policy management applications processing 12,000 quotes (160,000 business transactions) per day.  
-          - Migrated from a legacy struts-based application to a Web 2.0 SPA using RESTful Web Services (JAX-RS) with JSON payloads, integrating SOA-based business services. 
-          - Designed and implemented an exception logging and reporting strategy, enabling a reduced failure rate from 4% of quote starts to less than 0.5% of quote starts in production, thus improving quote complete and purchase rates.  Included Introducing Splunk to the organization.
+        - Technical lead for re-design of REST layer supporting eCommerce quoting and policy management applications processing 12,000 quotes (160,000 business transactions) per day.  
+        - Migrated from a legacy struts-based application to a Web 2.0 SPA using RESTful Web Services (JAX-RS) with JSON payloads, integrating SOA-based business services. 
+        - Designed and implemented an exception logging and reporting strategy, enabling a reduced failure rate from 4% of quote starts to less than 0.5% of quote starts in production, thus improving quote complete and purchase rates.  Included Introducing Splunk to the organization.
     
     - role: Principal Software Developer
       time: Oct 2008 - May 2011
       company: Liberty Mutual - Personal Market IT - Distribution & Products
       details: |
-          - Design and development for a multi-layered JEE application used to sell personal insurance.  A high-volume system with thousands of users and peak volumes over 70,000 transactions per hour.
-          - Participated in re-writing and re-architecting the service layer  from a C++ to a Java-based Service-Oriented Architecture (SOA).  Enabled processing of over 14 million policy transactions per year on a system originally built to handle 2 million, while increasing system availability from 93% to over 99%.
-          - Implemented a thread-safe response caching mechanism using IBM’s DynaCache, alleviating a CPU bottleneck, resulting in savings of approximately $250k - $300k per year of mainframe CPU costs.
+        - Design and development for a multi-layered JEE application used to sell personal insurance.  A high-volume system with thousands of users and peak volumes over 70,000 transactions per hour.
+        - Participated in re-writing and re-architecting the service layer  from a C++ to a Java-based Service-Oriented Architecture (SOA).  Enabled processing of over 14 million policy transactions per year on a system originally built to handle 2 million, while increasing system availability from 93% to over 99%.
+        - Implemented a thread-safe response caching mechanism using IBM’s DynaCache, alleviating a CPU bottleneck, resulting in savings of approximately $250k - $300k per year of mainframe CPU costs.
     
     - role: Principal Software Developer
       time: Jan 2004 - Oct 2008
       company: Liberty Mutual - Commercial Market IT
       details: |
-          - Developed two EDM systems allowing users to view a virtual claim file, thereby reducing paper handling costs and improving customer response times.
-          - Key contributor to the implementation of Guidewire ClaimCenter, developing multiple novel enhancements that the vendor incorporated into their product.
+        - Developed two EDM systems allowing users to view a virtual claim file, thereby reducing paper handling costs and improving customer response times.
+        - Key contributor to the implementation of Guidewire ClaimCenter, developing multiple novel enhancements that the vendor incorporated into their product.
     
 #     - role: Principal Software Engineer
 #       time: Oct 2008 - May 2011
@@ -199,13 +199,13 @@ skills:
         level: 85%
 
       - name: AWS
-        level: 60%
+        level: 65%
 
       - name: Java
         level: 80%
 
       - name: JavaScript, TypeScript, Node.js
-        level: 50%
+        level: 75%
         
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
