@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Brad Mongeon
-    tagline: Software Architect
+    tagline: Principal Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -31,19 +31,19 @@ sidebar:
       - item: Technology
         link:
 
+      - item: Spending time with family and traveling
+        link:
+
       - item: Soccer
         link:
 
       - item: Table Tennis
         link:
 
-      - item: European Electro House, Techno, Trance | EDM
-        link:
-
 career-profile:
     title: Profile
     summary: |
-      Technical Architect with over 20 years of experience designing and developing large scale systems on-prem and in the cloud. A constant learner who is passionate about quality engineering and enabling developers to innovate while providing value to the business and customers.
+      Principal Engineer and Architect with over 25 years of experience designing and developing large scale systems on-prem and in the cloud. A constant learner who is passionate about quality engineering and enabling developers to innovate while providing value to the business and customers.
 
 education:
     - degree: GradCert Project Management
@@ -62,6 +62,11 @@ education:
       details:
 
 certificates:
+    - title: Certified Solutions Architect - Associate
+      company: AWS
+      time: 2023-03-23
+      credId: PKNR9TN2ZBRQ1C3N 
+
     - title: Certified Cloud Practitioner
       company: AWS
       time: 2020-08-23
@@ -87,8 +92,11 @@ experiences:
       time: Sep 2021 - Present
       company: Globalization Partners
       details: |
-          - Technical Lead for the Existing Products value stream focusing on the Time and Expense domain
-          - Driving the reduction of technical debt and modernization towards an event-driven serverless architecture able to support exponential organizational growth
+        - Drove the creation of and current technical lead for the Developer Enablement team
+        - Defining the roadmap for and building an Internal Developer Portal (IDP), templates (golden paths), exemplars, and libraries
+        - Focused on increasing developer productivity and satisfaction while reducing cognitive load
+        - Previous technical Lead for the Existing Products value stream focusing on the Time and Expense domain
+        - Led the reduction of technical debt and modernization towards an event-driven serverless architecture able to support exponential organizational growth
 
     - role: Architect | Enterprise Architect
       time: Mar 2021 - Sep 2021
