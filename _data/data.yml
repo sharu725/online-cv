@@ -21,6 +21,9 @@ sidebar:
 
         - item: Snowflake Hands on Essentials - Data Warehouse
           link: https://www.credly.com/badges/6f8c2ec4-cc01-4f93-b7a2-8f1aaf2513c7/linked_in_profile
+
+        - item: dbt Fundamentals
+          link: https://credentials.getdbt.com/cf0222ca-8e03-4c86-b492-75e9d2e8fbb8
           
     languages:
       title: Languages
