@@ -7,47 +7,42 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Milder Edgar ESCARCHA COLQUE
+    tagline: DevOps Engineer Sr.
+    avatar: profile_edgar.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: edgarcolque4425@gmail.com
+    # phone: 
+    timezone: Buenos Aires (GMT-3) Timezone
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    website: www.linkedin.com/in/edgarcolque #do not add http://
+    linkedin: edgarcolque
+    # xing: alandoe
+    github: edgarcolque
+    # telegram: # add your nickname without '@' sign
+    # gitlab:
+    # bitbucket:
+    # twitter: '@webjeda'
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
+    # pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
-        - idiom: English
-          level: Native
-
-        - idiom: French
-          level: Professional
-
         - idiom: Spanish
+          level: Native
+        - idiom: English
           level: Professional
-
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: OutDoor sports
           link:
 
-        - item: Snowboarding
+        - item: Photography
           link:
 
         - item: Cooking
@@ -56,208 +51,284 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
-education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      Experienced DevOps Engineer with 15+ years of experience in deploying, monitoring, and automating 
+      software solutions for customers of all sizes. Adept at designing and developing innovative 
+      solutions in a fast-paced environment.
+
+      Highly skilled in the use of various DevOps practices and tools such as Kubernetes, AWS, and Azure.
+
+      Proven record in successfully designing, building, migrating and launching projects in cloud 
+      infrastructure from scratch.
+
+      Demonstrated ability to act as a bridge between development, QA and operations teams dealing 
+      with architectures, automation, CI/CD, protocols, etc. Exceptional communication, customer service, 
+      and problem-solving skills.
+
+# education:
+#     title: Education
+#     info:
+#       - degree: MSc in Computer Science
+#         university: University of London
+#         time: 2011 - 2012
+#         details: |
+#           Describe your study here lorem ipsum dolor sit amet, consectetuer
+#           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+#           sociis natoque penatibus et magnis dis parturient montes, nascetur
+#           ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+#           pretium quis, sem.
+#             - Bullet point
+#             - Bullet point
+#       - degree: BSc in Applied Mathematics
+#         university: Bristol University
+#         time: 2007 - 2011
+#         details: |
+#           Describe your study here lorem ipsum dolor sit amet, consectetuer
+#           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+#           sociis natoque penatibus et magnis dis parturient montes, nascetur
+#           ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+#           pretium quis, sem.
+#             - Bullet point
+#             - Bullet point
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: DevOps Engineer Sr.
+        time: Nov 2021 - Present · 1 yr 8 mos
+        company: Acaisoft, Poland
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          As the DevOps Sr. at JnJ, my role is to ensure the effective and efficient deployment of 
+          software development life cycles, the adoption and automation of DevOps practices, and the 
+          development of DevOps strategies. I support the design, implementation, and optimization of 
+          continuous integration, delivery, and deployment pipelines. Additionally, I ensure the secure 
+          and smooth operation of the DevOps environment, including the administration, deployment, 
+          and monitoring of the cloud infrastructure. Additionally, I work with development teams to 
+          identify application needs and to provide the necessary support and guidance on processes, 
+          tool usage, automation, and best practices. Lastly, I provide insights and recommendations 
+          on process and tool enhancements for maximum operational efficiency and scalability
+          
+          Technologies and Tools:
+            - Terraform, Kubernetes, Azure, Jenkins, Bitbucket, Artifactory, SonarQube, Shell Scripting, 
+            Python, Groovy, IOT, Serverless
+      - role: DevOps Technical Lead
+        time: Mar 2021 - Nov 2021 · 9 mos
+        company: COHLEY, United States
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          As the DevOps Sr. at Cohley Company, my main task was to lead the migration from a Kubernetes 
+          cluster from scratch to an EKS Kubernetes cluster. Specifically, I was responsible for: 
+            - Developing a cohesive strategy and plan for migrating to EKS, taking into consideration 
+            the existing infrastructure, environment, and organizational goals.
+            - Implementing the needed infrastructure components, including Kubernetes, Helm, and all related 
+            components, services, and resources for the EKS environment.
+            - Setting up the EKS environment to meet the security and application requirements, including 
+            authentication and authorization.
+            - Documenting all aspects of the migration process, including best practices, risk mitigation 
+            strategies, and lessons learned.
+            - Working with stakeholders and the engineering team to ensure the migration to EKS was successful.
+
+          Throughout the migration process, I remained in close communication with the engineering team to 
+          ensure that all code deployments went smoothly and that infrastructure upgrades were properly 
+          completed. Additionally, I provided guidance and mentorship to the engineering team as they learned 
+          about new and emerging technologies related to EKS.
+
+          Technologies and Tools:
+            - Terraform, Kubernetes, AWS, Jenkins, GitHub, GitHub functions, SonarQube, Shell Scripting, 
+            Python, Groovy, Serverless
+      - role: DevOps Senior
+        time: Oct 2020 - Mar 2021 · 6 mos
+        company: ComprandoEnGrupo.net, Argentina
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          As DevOps Senior at Comprando en Grupo, my primary task was to migrate our on-prem monolithic solution to 
+          EKS Kubernetes cluster.
+
+          This was a large undertaking involving significant planning and organization.
+
+          I was responsible for researching and defining the technical requirements for the migration, 
+          and then designing and implementing the process. I collaborated closely with development 
+          teams to ensure that the migration processes were properly designed and executed.
+
+          I built continuous integration and deployment pipelines to enable automation of the process. 
+          I was also responsible for troubleshooting and resolving any complications that arose during 
+          the migration process. Finally, once the migration was complete, I monitored and maintained 
+          the cluster to ensure it was running at peak performance.
+
+          Technologies and Tools:
+            - Terraform, Kubernetes, AWS, Jenkins, Bitbucket, Nexus, SonarQube, Shell Scripting, 
+            Python, Groovy
+      - role: DevOps Technical Lead
+        time: Mar 2016 - Oct 2020 · 4 yrs 8 mos
+        company: McAfee, United States
+        details: |
+          As a DevOps Senior at McAfee, I was responsible for the development and implementation of 
+          an internal solution to allow other teams to create and manage microservices as standard 
+          artifacts. This involved coordinating multiple projects and teams, interacting with stakeholders 
+          to prioritize objectives, and leading the team responsible for developing, testing and deploying 
+          the solution. I implemented coding standards, created configurable automated pipelines, and 
+          provided technical guidance to ensure successful integration of the solution into the company's 
+          infrastructure. In addition, I established and implemented a system of monitoring to track and 
+          evaluate the performance of the proposed solution. Throughout the project, I worked closely 
+          with multiple teams to ensure a successful outcome, while meeting deadlines and proactively 
+          communicating progress updates.
+
+          Technologies and Tools:
+            - Terraform, Kubernetes, AWS, Jenkins, TeamCity, GitHub, Artifactory, SonarQube, Shell Scripting, 
+            Python, Groovy
+      - role: DevOps
+        time: Aug 2014 - Mar 2016 · 1 yr 8 mos
+        company: Globant, Argentina
+        details: |
+          As a DevOps at Globant, I had the responsibility of managing a project based on Maven, while 
+          also managing the Chef server and creating different environments, roles, and writing cookbooks. 
+          I was in charge of managing RunDeck and Jenkins tools as well, writing jobs to perform Continuous 
+          Integration and Continuous Delivery. Additionally, I was responsible for designing and implementing 
+          Unix/Linux solutions and participating in presales activities, estimating time and tasks for Linux 
+          implementations.
+
+          I also had the responsibility of providing customer support and supporting the internal Linux 
+          infrastructure. I had to ensure the availability, security and performance of all operational 
+          systems, while also identifying opportunities for improvement and implementing the best solutions.
+
+          Technologies and Tools:
+            - Terraform, Docker, AWS, Jenkins, GitHub, gitLab, Nexus, SonarQube, Shell Scripting, 
+            Python, Groovy
+      - role: Unix System Administrator
+        time: Oct 2008 - Aug 2014 . 5 yr 11 mos
+        company: Hewlett Packard Enterprise, United States
+        details: |
+          As a Unix system administrator at HP, I was responsible for planning and executing changes in 
+          Unix servers, as well as troubleshooting and incident management. This included hardware, OS, 
+          and application incident resolution. I was experienced in Solaris, RedHat, VxVM, and VCS. 
+          Additionally, I provided patching, upgrades, software installation/configuration, and 
+          maintenance services to support an international account.
+
+          Technologies and Tools:
+            - Linux RedHat, Solaris, Shell Scripting, vmware esxi, Solaris cluster
 
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh. 
-            Aenean fermentum, felis vulputate suscipit accumsan, 
-            sem enim bibendum augue, sed convallis arcu lacus at dui. 
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-            Praesent venenatis erat non augue suscipit consectetur. 
-            
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus 
-            fringilla vel. Ut euismod, sem sed vulputate venenatis, 
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at. 
-        - name: Git learning
+        - name: "RHCE : Red Hat Certified Engineer"
+          start: 2012
+          end:
+          organization: Red Hat
+          credentialid: 120-178-900
+          credentialurl: https://rhtapps.redhat.com/verify?certId=120-178-900
+          credentialname: Red Hat Certified Engineer
+          # details: |
+          #   Details about cert. Lorem ipsum dolor sit amet, consectetur 
+        - name: "RHCSA: Red Hat Certified System Administrator"
           start: 2019
           end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh. 
-            Aenean fermentum, felis vulputate suscipit accumsan, 
-            sem enim bibendum augue, sed convallis arcu lacus at dui. 
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-            Praesent venenatis erat non augue suscipit consectetur. 
+          organization: Red Hat
+          credentialid: 120-178-900
+          credentialurl: https://rhtapps.redhat.com/verify?certId=120-178-900
+          credentialname: Red Hat Certified System Administrator
+          # details: |
+          #   Older certification. Lorem ipsum dolor sit amet, consectetur 
+        - name: "Oracle Solaris 10 System Administrator"
+          start: 2018
+          end:
+          organization: Oracle
+          credentialid: SR6197712
+          credentialurl: 
+          credentialname: Solaris 10 System Administrator
+          # details: |
+          #   Older certification. Lorem ipsum dolor sit amet, consectetur 
         
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Terraform
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Kubernetes
         level: 98%
 
-      - name: Angular
-        level: 98%
+      - name: Groovy
+        level: 90%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: AWS
+        level: 90%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Azure
+        level: 80%
 
-      - name: Sketch & Photoshop
+      - name: CI/CD Tools
+        level: 90%
+
+      - name: IaC Tools
+        level: 90%
+
+      - name: Python
         level: 60%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
