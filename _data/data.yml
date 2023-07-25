@@ -92,7 +92,7 @@ career-profile:
 experiences:
     title: Experiences
     info:
-      - role: DevOps Engineer Sr.
+      - role: DevOps Senior
         time: Nov 2021 - Present · 1 yr 8 mos
         company: Acaisoft, Poland
         details: |
@@ -109,7 +109,7 @@ experiences:
           Technologies and Tools:
             - Terraform, Kubernetes, Azure, Jenkins, Bitbucket, Artifactory, SonarQube, Shell Scripting, 
             Python, Groovy, IOT, Serverless
-      - role: DevOps Technical Lead
+      - role: DevOps Senior
         time: Mar 2021 - Nov 2021 · 9 mos
         company: COHLEY, United States
         details: |
@@ -154,7 +154,7 @@ experiences:
           Technologies and Tools:
             - Terraform, Kubernetes, AWS, Jenkins, Bitbucket, Nexus, SonarQube, Shell Scripting, 
             Python, Groovy
-      - role: DevOps Technical Lead
+      - role: DevOps Senior
         time: Mar 2016 - Oct 2020 · 4 yrs 8 mos
         company: McAfee, United States
         details: |
