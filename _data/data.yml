@@ -13,12 +13,12 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: +41 78 269 78 xx
+    # email: hello@webjeda.com
+    # phone: +41 78 269 78 xx
     timezone: Suisse
     citizenship: Français
     # website: blog.webjeda.com #do not add http://
-    linkedin: alexandre.matinda
+    linkedin: alexandrematinda
     # xing: alandoe
     # github: sharu725
     # telegram: # add your nickname without '@' sign
@@ -28,7 +28,7 @@ sidebar:
     # stack-overflow: # Number/Username, e.g. 123456/alandoe
     # codewars:
     # goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: https://alexandre.matinda.fr/assets/ama.pdf
 
     languages:
       title: Langues
