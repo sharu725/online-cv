@@ -4,108 +4,114 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Alexandre MATINDA
+    tagline: Architecte solution et consultant cloud
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: hello@webjeda.com
     phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    timezone: Suisse
+    citizenship: Français
+    # website: blog.webjeda.com #do not add http://
+    linkedin: alexandre.matinda
+    # xing: alandoe
+    # github: sharu725
+    # telegram: # add your nickname without '@' sign
+    # gitlab:
+    # bitbucket:
+    # twitter: '@webjeda'
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
-      title: Languages
+      title: Langues
       info:
+        - idiom: Français
+          level: Maternelle
+
         - idiom: English
-          level: Native
+          level: Courant
 
-        - idiom: French
-          level: Professional
+    # interests:
+    #   title: Centres d'intêrets
+    #   info:
+    #     - item: Climbing
+    #       link:
 
-        - idiom: Spanish
-          level: Professional
+    #     - item: Snowboarding
+    #       link:
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
+    #     - item: Cooking
+    #       link:
 
 career-profile:
-    title: Career Profile
+    title: À propos de moi
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Après avoir occupé avec succès des role d’expert technique, de chef de projet, de consultant et d’architecte dans le domaine de l’infrastructure et du Cloud, je mets mes compétences et mon expérience à votre disposition pour:
+
+      * Tirer le meilleur des innovations technologiques;
+      * Améliorer votre compétitivité;
+      * Délivrer des services digitaux en solutionnant dès la conception les problématiques de gouvernance, de coût, de sécurité, de fiabilité et de performances.
+      
+      Mes expériences passées m’ont permis d’acquérir une connaissance transverse de l’hébergement, du réseau, du stockage, des serveurs, de la virtualisation, du middleware et des applications.
+      Ceci me permet d’accompagner mes clients dans la mise en oeuvre de leurs projets Cloud tant sur les aspects techniques que fonctionnels.
+
+      Quelque soit l’outil (JIRA ou équivalent), j’apprécie fournir une vue claire et concise du projet offrant une compréhension et un pilotage optimale de ce dernier
+      Je suis en capacité de former et de promouvoir les bénéfices de Cloud à diverses populations tout en adaptant la cible à l’état d’esprit et au enjeux des métiers de mes clients.
+      Je peux vous accompagner dans la définition de votre stratégie et de vos standards Cloud en m’appuyant sur les bonnes pratiques en vigueur.
+
+      J’affectionne de rédiger les livrables en Markdown agrémenter de schémas facilitant la compréhension de l’architecture à différents niveaux. Je ne suis pas un développeur. N’attendez pas de moi que je produise du code d’infrastructure ou du code application. Cependant, j’ai l’habitude de lire du code d’infrastructure.
+
 education:
-    title: Education
+    title: Formation
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: Dipôme d'ingénieur système et réseaux
+        university: ESME Sudria (France)
+        time: 1999 - 2005
+        # details: |
+        #   Describe your study here lorem ipsum dolor sit amet, consectetuer
+        #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        #   sociis natoque penatibus et magnis dis parturient montes, nascetur
+        #   ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        #   pretium quis, sem.
+        #     - Bullet point
+        #     - Bullet point
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Architecte solution
+        time: 2019 - Present
+        company: Europcar Mobility Groupe, Paris
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+          Europcar souhaite prendre le virage du Cloud et pour les accompagner dans cette transformation, j'ai rejoint l'équipe infrastructure et transformation Cloud pour :
+
+          - Participer à la définition de la stratégie multi-cloud du groupe
+          - Participer à la définition de la feuille de route détaillée des projets techniques à mener
+          - Participer à la définition des fondations qui permettront de mettre en place le socle technique et méthodologique axé sur les piliers suivants :
+          - Gouvernance et conformité
+          - Sécurité
+          - Réseaux
+          - Sauvegarde et restauration
+          - Infrastructure
+          - Conteneur
+          - Base de données
+          - DevOps
+          - Etablir des plans d’actions et des pré-requis pour réaliser le “move to cloud” sur GCP et AWS (critères d’éligibilité, méthodologie de migration/évolution, automatisation des couches infrastructures).
+
+          Je suis également en charge de :
+          
+          - La structuration et du pilotage technique de projets d'adoption du Cloud (cadrage, normes & standards, méthodologie, architecture)
+          - La supervision de la mise en place et industrialisation des environnements multi-cloud GCP & AWS en première cible et potentiellement Azure pour des service Microsoft
+          - La mise en place de la Gouvernance et des bonnes pratiques de gestion
+          - La conduite du changement et transfert du savoir-faire sur les usages du Cloud et le développement d'applications.
+          - D'intervenir en comité d’arbitrage pour présenter des études de solutions/technologies
       - role: Senior Software Engineer
         time: 2014 - 2015
         company: Google, London
@@ -197,67 +203,106 @@ projects:
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Compétences
 
     toolset:
-      - name: Python & Django
+      - name: Communication
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Leadership
         level: 98%
 
-      - name: Angular
+      - name: Gestion d’équipe
         level: 98%
 
-      - name: HTML5 & CSS
+      - name: Négociation
         level: 95%
 
-      - name: Ruby on Rails
+      - name: Gestion de risques
         level: 85%
 
-      - name: Sketch & Photoshop
+      - name: AWS
+        level: 60%
+
+      - name: GCP
+        level: 60%
+
+      - name: Azure
+        level: 60%
+
+      - name: Scaleway
+        level: 60%
+
+      - name: Docker Compose
+        level: 98%
+
+      - name: Packer
+        level: 98%
+
+      - name: AWS CDK
+        level: 98%
+
+      - name: Terrafom
+        level: 95%
+
+      - name: Pulumi
+        level: 85%
+
+      - name: GitHub
+        level: 60%
+
+      - name: Gitlab
+        level: 60%
+
+      - name: JIRA
+        level: 60%
+
+      - name: MacOS
+        level: 60%
+
+      - name: Linux
         level: 60%
 
 footer: >
