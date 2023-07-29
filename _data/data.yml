@@ -8,27 +8,26 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Michael McGarrah
+    tagline: Data Scientist / Cloud Architect
+    avatar: mcgarrah-profile-100x100.png  # a 100x100 picture inside /assets/images/ folder
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: mcgarrah@mcgarrah@org
+    phone: 919 807-1057
+    timezone: East Standard Timezone (EST)
+    citizenship: US
+    website: blog.mcgarrah.org # do not add http://
+    linkedin: michaelmcgarrah
+    github: mcgarrah
+    #telegram: # add your nickname without '@' sign
+    #gitlab:
+    #bitbucket:
+    #twitter: '@webjeda'
+    stack-overflow: 2452678/michael-mcgarrah # Number/Username, e.g. 123456/alandoe
+    #codewars:
+    #goodreads: # Number-Username, e.g. 123456-alandoe
+    #pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
@@ -36,98 +35,79 @@ sidebar:
         - idiom: English
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
-
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Machine Learning
           link:
 
-        - item: Snowboarding
+        - item: Virtualization Technologies
           link:
 
-        - item: Cooking
+        - item: Development
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      With over thirty years in IT, my background includes work in data science & analytics, 
+      cloud computing, development, database & multi-platform platform management, security 
+      and compliance, networking, and R&D. That diverse experience makes me rapidly effective 
+      in your business.
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Masters of Science in Computer Science (Interactive Intelligence)
+        university: Georgia Institute of Technology
+        time: 2014 - 2019
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
+          I began classes in Fall 2014 semester while working full-time on a Machine Learning
+          project and finished in the Spring of 2019 building Machine Learning platforms in the
+          Cloud. My focus was in Interactive Intelligence and Machine Learning. While in school, 
+          I have pursued guided independent study research projects and worked to present papers
+          at conferences to extend my academic understanding and credentials.
             - Bullet point
             - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+      - degree: Bachelor of Science in Computer Science
+        university: North Carolina State University
+        time: 1990 - 2011
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          I completed my Bachelor of Science in Computer Science May of 2011 graduating with Honors
+          while working full-time.
+            - Member of ACM/AITP and IEEE
+            - Member of ACM/AITP and IEEE
+            - Upsilon Pi Epsilon (UPE): International Computer Science honor society
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Senior Platform Engineer
+        time: Oct 2021 - Present
+        company: Envestnet, Inc, Remote
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Building large scale cloud platforms for financial services and data science 
+          initiatives. A combination of AWS cloud and data center infrastructures are 
+          included in the architecture allowing for flexible integration between on-prem 
+          and cloud services. An automation first attitude pervades this work. 
+          Containerized cloud-first technologies ﴾AWS & Kubernetes﴿ to support new 
+          initiatives are current focus areas.
+            - https://upswot.com/upswot-signs-a-new-multi-year-and-multi-million-dollar-deal-with-envestnet-yodlee/
+            - https://newsroom.envestnet.com/2022-10-24-Envestnet-Data-Analytics-Unveils-New-Vision-at-Money-20-20
+      - role: Principal Data & Analytics Platform Engineer
+        time: Apr 2019 - Oct 2021
+        company: Blue Cross and Blue Shield of NC, Raleigh-Durham NC
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Building a data science platform incorporating a data‐warehouse, data‐lake and data‐execution environment 
+          using containerized cloud-first technologies ﴾AWS & Kubernetes﴿ to support our mission of data driven 
+          decision to provide for a value‐based healthcare approach. A public example includes the media example below:
+            - https://www.bluecrossnc.com/medicare-guided-selling-landing-page
+      - role: Data Engineer
+        time: Nov 2017 - Apr 2019
+        company: United States Postal Service, Raleigh NC
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Engaged in advanced analytics with multiple platforms. Primary focus on a SAS 9.4 and SAS Viya in-memory 
+          cluster with linkage to Hadoop Datalake inching up on 1Pb of data. Exploring machine learning and big data. 
+          We work with Tb not Gb of data in a high security environment.
 
 certifications:
       title: Certifications
