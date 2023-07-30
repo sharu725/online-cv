@@ -8,257 +8,246 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Sanket Totewar
+    tagline: Full Stack Product Leader
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    timezone: Germany/Berlin Timezone
+    website: totewar.com #do not add http://
+    linkedin: sunkate
+    github: totewar
+    email: sanket@totewar.com
+    whereby: sunkissed
+    pdf: https://github.com/totewar/online-cv/blob/master/media/CV_Sanket_Totewar.pdf
 
     languages:
-      title: Languages
+      title: Public Speaking
       info:
-        - idiom: English
-          level: Native
+        - idiom: Crisis or Opportunity?
+          level: Sydney Innovation Festival, 2020
 
-        - idiom: French
-          level: Professional
+        - idiom: Scaling High Performance Teams
+          level: University of Sydney, 2019
 
-        - idiom: Spanish
-          level: Professional
+        - idiom: Measuring Success for Documentation
+          level: Google, 2019
+
+        - idiom: Experiments with Automated Documentation
+          level: Atlassian, 2019
 
     interests:
-      title: Interests
+      title: Certifications
       info:
-        - item: Climbing
-          link:
+        - item: Certified Product Manager
+          link: https://certificates.aipmm.com/914ff514-8419-41e4-ad0f-2f3094b34977#gs.1ziulq
 
-        - item: Snowboarding
-          link:
+        - item: Professional Scrum Product Owner
+          link: https://www.scrum.org/certificates/325697
 
-        - item: Cooking
-          link:
+        - item: Certified Product Marketing Manager
+          link: https://certificates.aipmm.com/f9b16eb7-03bc-46f2-a2fd-be97d5c27cc9#gs.1zjvo3
+
+        - item: Professional Scrum Master
+          link: https://www.scrum.org/certificates/319526
+
+        - item: Enterprise Design Thinking Practitioner
+          link: https://www.youracclaim.com/badges/c5aa407e-139c-48f9-b30b-cb6f14932db9
+
+        - item: Customer Journey Mapping
+          link: https://www.academy.uxpressia.com/certificate/UXPA-110301
+
+        - item: Google Data Studio
+          link: https://analytics.google.com/analytics/academy/certificate/vCB-gB4dSe61CKPcb5KMIw
+
+        - item: Algorithms Design and Analysis
+          link: https://prod-cert-bucket.s3.amazonaws.com/downloads/44c95fc3d5b1418f8293186bb88e569f/Statement.pdf
+
+        - item: Writing in the Sciences
+          link: https://prod-cert-bucket.s3.amazonaws.com/downloads/b91830fb8115415abffe2f138fcf4943/Statement.pdf
+
+        - item: Psychological First Aid
+          link: https://www.coursera.org/account/accomplishments/certificate/RLGVRHFRBXMG
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Full stack _Product Leader_ with extensive experience in spearheading research and development for innovative digital tech products in hypergrowth. Presently, I oversee products at SAP that contribute to more than fifty percent of the organizational unit’s annual revenue by consulting on product strategy, engineering operations, and organization readiness for growth at scale.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+        - degree: Master of Business Administration
+          university: Boston University
+          time: 2021 - Present
+          details: |
+            Describe your study here lorem ipsum dolor sit amet, consectetuer
+            adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+            sociis natoque penatibus et magnis dis parturient montes, nascetur
+            ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+            pretium quis, sem.
+              - Bullet point
+              - Bullet point
+        - degree: Postraduate Certificate in Strategic Management
+          university: Harvard University
+          time: 2018 - 2020
+          details: |
+            Describe your study here lorem ipsum dolor sit amet, consectetuer
+            adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+            sociis natoque penatibus et magnis dis parturient montes, nascetur
+            ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+            pretium quis, sem.
+              - Bullet point
+              - Bullet point
+        - degree: Social Computing (non-degree)
+          university: Stanford University
+          time: 2020 - 2020
+          details: |
+            Describe your study here lorem ipsum dolor sit amet, consectetuer
+            adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+            sociis natoque penatibus et magnis dis parturient montes, nascetur
+            ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+            pretium quis, sem.
+              - Bullet point
+              - Bullet point
+        - degree: Bachelor of Engineering (Mechanical)
+          university: Pune University
+          time: 2004 - 2010
+          details: |
+            Describe your study here lorem ipsum dolor sit amet, consectetuer
+            adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+            sociis natoque penatibus et magnis dis parturient montes, nascetur
+            ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+            pretium quis, sem.
+              - Bullet point
+              - Bullet point
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Principal Product Owner
+        time: Mar 2021 - Present
+        company: SAP, Germany
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          After joining SAP following the SAP Signavio acquisition, I was promoted to Principal Product Owner in Sept 2021 and now I oversee the product portfolio comprising of the SAP Signavio Journey Modeler, Process Modeler, and Process Governance. I played a key role in the acquisition change management and the Acquire-To-Ship release.
+            - Program Manager for Special Integration projects
+            - Member of Business Modeling and Workflows Leadership Committee
+      - role: Writer
+        time: Apr 2019 - Nov 2020
+        company: Deputy, Australia
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Deputy had SaaS-based products in hypergrowth and adequate funding to scale exponentially in an untapped arena. As an experienced Writer, I helped set up the foundation to enable mid-market and enterprise customers and software developer partners to seamlessly connect to the Deputy platform via APIs and webhooks to include in a global workforce management ecosystem. I coached several cross-functional product teams to achieve this. 
+            - Recipient of the Deputy Unicorn Award
+            - Recipient of the Deputy Star Award
+      - role: Product Manager and Technical Writer
+        time: May 2017 - Apr 2019
+        company: Leadbolt, Australia
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh. 
-            Aenean fermentum, felis vulputate suscipit accumsan, 
-            sem enim bibendum augue, sed convallis arcu lacus at dui. 
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-            Praesent venenatis erat non augue suscipit consectetur. 
-            
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus 
-            fringilla vel. Ut euismod, sem sed vulputate venenatis, 
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at. 
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh. 
-            Aenean fermentum, felis vulputate suscipit accumsan, 
-            sem enim bibendum augue, sed convallis arcu lacus at dui. 
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-            Praesent venenatis erat non augue suscipit consectetur. 
-        
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+          In 2017 and early 2018, Leadbolt was a global market leader in an ad format technology called “playable ads”. As the only product leader in the company, I managed all cross-functional teams including the internal R&D division that created all innovative mobile ad formats that were responsible for a 58% growth in market share and helped Leadbolt achieve its highest revenue since inception.
+            - Led the entire Product Strategy at Leadbolt
+            - Created and launched a new product "Playable Ads"
+      - role: Product Manager and Technical Writer
+        time: Nov 2015 - Mar 2017
+        company: Vserv Digital Services, India
+        details: |
+          I served as the only Product Manager on the supply-side for VMAX,
+          Vserv’s ad mediation solution that catered to mobile publishers across
+          the world and headed all Technical Writing activities globally.
+            - Redefined entire ad serving logic and data science feature set
+            - Reduced churn and customer support requests globally by 78%
+      - role: Several Roles
+        time: Dec 2010 - Nov 2015
+        company: Several Companies, India
+        details: |
+          Between 2010 and 2015, I worked as a Product Manager, Technical Writer,
+          and Consultant at several companies spanning multiple indistries.
+#projects:
+#    title: Projects
+#    intro: >
+#      You can list your side projects in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#    assignments:
+#      - title: Velocity
+#        link: "#hook"
+#        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+#
+#      - title: DevStudio
+#        link: "#"
+#        tagline: "A responsive website template designed to help web developers/designers market their services."
+#
+#      - title: Tempo
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#
+#      - title: Atom
+#        link: "#"
+#        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+#      - title: Delta
+#        link: "#"
+#        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#
+#oss:
+#    title: OSS Contributions
+#    intro: >
+#      You can list your open source software contributions in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#    contributions:
+#      - title: Tempo
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#
+#      - title: Atom
+#        link: "#"
+#        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+#      - title: Delta
+#        link: "#"
+#        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#
+#publications:
+#    title: Publications
+#    intro: |
+#      You can list your publications in this section. Lorem ipsum dolor sit
+#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#      bibendum fringilla a eu lectus.
+#    papers:
+#      - title: The Art of Computer Programming
+#        link: "#"
+#        authors: Donald E. Knuth
+#        conference: Addison-Wesley, 1968
+#
+#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#        link: "#"
+#        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#
+#      - title: A syntax directed compiler for Algol 60
+#        link: "#"
+#        authors: Edgar T. Irons
+#        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Strategic Management
         level: 95%
 
-      - name: Ruby on Rails
+      - name: Product Management
+        level: 95%
+
+      - name: Product Marketing
+        level: 80%
+
+      - name: Technical Writing
+        level: 95%
+
+      - name: Agile Coaching
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Engineering Leadership
+        level: 80%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+#footer: >
+#    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
