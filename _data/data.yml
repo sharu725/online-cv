@@ -72,7 +72,7 @@ career-profile:
 education:
     title: Formation
     info:
-      - degree: Dipôme d'ingénieur système et réseaux
+      - degree: Dipôme d'ingénieur systèmes et réseaux
         university: ESME Sudria (France)
         time: 1999 - 2005
         # details: |
@@ -88,7 +88,7 @@ experiences:
     info:
       - role: Architecte solution
         time: 2019 - Present
-        company: Europcar Mobility Groupe, Paris
+        company: Europcar Mobility Groupe, Paris (France)
         details: |
           Europcar souhaite prendre le virage du Cloud et pour les accompagner dans cette transformation, j'ai rejoint l'équipe infrastructure et transformation Cloud pour :
 
@@ -112,29 +112,107 @@ experiences:
           - La mise en place de la Gouvernance et des bonnes pratiques de gestion
           - La conduite du changement et transfert du savoir-faire sur les usages du Cloud et le développement d'applications.
           - D'intervenir en comité d’arbitrage pour présenter des études de solutions/technologies
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+      - role: Consultant infrastructure et Cloud
+        time: 2018 - 2019
+        company: Generali, Saint-Denis (France)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Generali ambitionne de migrer une grande partie de son système d’information vers le Cloud à horizon 2022. En préalable à cette migration, j’ai été missionné pour accompagner la mise en place des socles méthodologique, organisationnel et technologique afin de fédérer les usages et les pratiques autour du Cloud. Cette préparation passe notamment par:
 
+          - Un état des lieux
+          - La construction d’une équipe SRE
+          - La définition d’un cadre méthodologique et collaboratif (autour des philosophie AGILE et DEVOPS)
+          - L’industrialisation et l’automatisation des tâches chronophage
+          - La mise en place d’un catalogue de services Cloud
+          - L’accompagnement d’un projet de type micro-service mettant en œuvre le cadre défini
+      - role: Architecte cloud
+        time: 2018 - 2018
+        company: Enedis, Paris (France)
+        details: |
+          Dans la continuité de ma prestation précédente, j’ai accompagné ENEDIS pour concevoir la plateforme de Cloud privée en réalisant les actions suivantes
+          - Conception de la plateforme :
+            - Gouvernance (Build + Run)
+            - High Level Design et Low Level Design, hébergement, avec prise en compte des exigences métier et de sécurité
+            - Conception des services : définition et conception de l’ensemble des services d’infrastructure portés par la future plateforme à destination des applications et des équipes devops
+          - Accompagnement du projet en agile sous la méthodologie Safe (Création et suivi du SolutionIntent)
+      - role: Consultant cloud
+        time: 2017 - 2018
+        company: Enedis, Paris (France)
+        details: |
+          Enedis souhaite déployer un cloud privé pour héberger les applications du programme LINKY, programme ayant pour ambition de déployer des compteurs communiquant sur l’ensemble du territoire français. En 2021, 35 millions de compteurs seront déployés (plus de 12 000 VM). Pour respecter ces engagements, il a été nécessaire de faire évoluer l’infrastructure existante et de répondre aux besoins majeurs du futur programme :
+
+          - Robustesse / Efficience : Garantir le bon fonctionnement (performance / SLA) du système en production
+          - Elasticité / Agilité : Accroître la capacité à réagir et s’adapter rapidement (scalabilité automatique)
+          - Automatisation : Traiter les besoins standards de manière autonome en quelques minutes
+          - Pilotabilité : Monitorer sur l’ensemble des couches et bénéficier d’un maximum de métriques
+          - Sécurité : Satisfaire aux exigences de sécurité groupe
+
+          Dans ce contexte, je suis intervenu pour contribuer :
+
+          - Au recueil des besoins
+          - À la réalisation de 3 PoC réalisés, dont deux réussites et à la rédaction des supports de restitution sous forme de synthèse managériale
+          - À la rédaction d’un dossier de décision à destination du COMEX (validation et lancement du projet)
+      - role: Architecte infrastructure et cloud
+        time: 2016 - 2017
+        company: Danone, Saint-Ouen (France)
+        details: |
+          - Étude d'opportunité IaaS : Consultation de 16 fournisseurs (Cloud et télécom) pour évaluer l'opportunité de rationaliser et migrer les 300 salles informatiques (environ 4500 serveurs) en région (Amériques, EMEA, APAC et Russie) vers un nombre limité de point de présence.
+          - Mise à jour de l’état des lieux (inventaires et coût actuel)
+          - Définition de la trajectoire des serveurs et des applications
+          - Rédaction du cahier des charges autour des axes suivants
+            - Services d’infrastructures (AD, RDP, antivirus, sauvegarde, télémaintenance, DHCP, service d’impression, serveurs de fichier, WSUS, supervision)
+            - Services réseau (colocation, Internet, firewall)
+            - Sécurité
+            - Accompagnement au déploiement
+          - Soutenances et présentation des offres fournisseurs
+          - Dimensionnement des architectures cibles (réseau, services d'infrastructure, secours)
+          - Évaluation technique et financière des offres à travers d'ateliers avec les fournisseurs
+            - Ateliers pour dimensionner les services d’infrastructures en fonction des offres de service des fournisseurs
+            - Atelier pour choisir les points de présence et de colocation en fonction des contraintes réseaux (IPSEC, MPLS)
+            - Ateliers pour valider les hypothèses financières
+            - Réalisation d’une maquette pour évaluer la solution technique et le portail du fournisseur
+          - Configuration réseau (AZ, VPC, Security group)
+          - Provisionnement des serveurs (AMI, import VMDK)
+          - Utilisation des services PaaS (RDS, S3)
+          - Réalisation des dossiers d’évaluation de solution SaaS axés sur les aspects sécurités et techniques
+          - Réalisation d’étude de design lié à l’implémentation de nouvelles applications ou à la mise à jour d’applications existantes
+          - Animation d’ateliers avec les régions (Amériques, EMEA, APAC et Russie) liés à la définition et à la mise en place de standard d’architecture
+          - Rédaction et mise à jour des dossiers d'architectures
+          - Suivi des mises en œuvre et validation des environnements
+      - role: Consultant infrastructure
+        time: 2016 - 2016
+        company: AG2R la mondiale, Courbevoie (France)
+        details: |
+          Dans le cadre du projet de convergence des infrastructures des serveurs et stockage de l’ensemble de ses entités, le groupe AG2R La Mondiale a souhaité procéder à un audit qui avait pour objectifs de :
+          - Dresser un état des lieux des différents environnements en services dans les entités AG2R La Mondiale et Réunica Systalians historique.
+          - Relier cet état des lieux aux différents coûts d’achat et de maintenance
+          - Recenser l'ensemble des indicateurs de capacité et de charges publiés pour permettre d'anticiper les futurs investissements
+          - Mettre à plat l’existant et de préparer dans le cadre de la réorganisation des services en charge de ces éléments une nouvelle stratégie commune pour les 3 prochaines années
+      - role: Consultant infrastructure
+        time: 2015 - 2016
+        company: Société générale, La Défense (France)
+        details: |
+          Chaque année le département GTS édite une note de stratégie technique qui détaille la direction que va prendre la société pour les années à venir. La note s’oriente autour de thème comme le réseau, les centres informatiques, les postes de travail, les aspects hébergements et la sécurité. De cette trajectoire découle un certain nombre d’actions portées par des communautés techniques qui doivent les suivre et les exécuter.
+          - Élaboration, livraison et suivi d’un tableau bord englobant les dimensions techniques, organisationnelles, temporelles, financières et risques
+          - État des lieux des communautés techniques et définition d’un plan d’amélioration
+          - Animation des communautés techniques et assistance à la gestion de projet des communautés
+      - role: Architecte solution
+        time: 2015 - 2015
+        company: Voyage-sncf.com, La Défense (France)
+        details: |
+          - Rédactions des DAT projets et maintien du référentiel documentaire
+          - Suivi des mises en œuvre et validation des environnements déployées grâce à une usine logicielle
+          - Provisionnement des environnements de test sur Proxmox
+          - Validation de fichiers Yaml, des environnements et des flux
+      - role: Architecte infrastructure
+        time: 2014 - 2015
+        company: Agence Française de Développement, Paris(France)
+        details: |
+          Accompagnement à la refonte des infrastructures de sauvegarde.
+          - Analyse de l’environnement de sauvegarde existant à base de NETWORKER, DPM et ARCSERVE UDP
+          - Collecte des nouveaux besoins et réflexions autour des scénarii d’évolution et de migration
+          - Aide au choix du scénario et rédaction de l’avant-projet détaillé
+          - Définition du scénario et du calendrier de migration
+          
 certifications:
       title: Certifications
       list:
