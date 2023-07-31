@@ -224,7 +224,7 @@ experiences:
         time: 2014 - 2014
         company: Areva, Courbevoie (France)
         details: |
-          Conseil autour du stockage.
+          Conseil autour du stockage
           - Réflexion autour de la gestion de la capacité des baies de stockage HDS VSP afin d’optimiser l’allocation de volumétrie faite sur les clusters et ESX.
           - Réflexion autour de la gestion des ressources CPU et RAM des clusters ESX 5.5 afin d’en optimiser l’utilisation et de récupérer des ressources.
           - Assistance technique auprès d’AREVA autour du stockage
@@ -249,10 +249,10 @@ experiences:
         time: 2013 - 2014
         company: Chanel, Neuilly-sur-Seine (France)
         details: |
-        Appui, pilotage et coordination de projets
-          - Adjoint au responsable de la production afin de l’épauler dans ses activités vis-à-vis de l’infogérance EURIWARE
-          - Assistance technique auprès d’EURIWARE afin d‘assurer la gestion de certains projets et de fluidifier l’avancement des projets
-          - Assistance à l’intégration des applications (aide à la vente, suivi clients, smartphone) sur des environnements Windows 2012 virtualisé sous VMWARE 5
+          Appui, pilotage et coordination de projets
+            - Adjoint au responsable de la production afin de l’épauler dans ses activités vis-à-vis de l’infogérance EURIWARE
+            - Assistance technique auprès d’EURIWARE afin d‘assurer la gestion de certains projets et de fluidifier l’avancement des projets
+            - Assistance à l’intégration des applications (aide à la vente, suivi clients, smartphone) sur des environnements Windows 2012 virtualisé sous VMWARE 5
       - role: Architecte stockage
         time: 2012 - 2013
         company: GRT Gaz, Saint-Ouen (France)
