@@ -98,28 +98,26 @@ experiences:
         time: 2019 - Present
         company: Europcar Mobility Groupe, Paris (France)
         details: |
-          Europcar souhaite prendre le virage du Cloud et pour les accompagner dans cette transformation, j'ai rejoint l'équipe infrastructure et transformation Cloud pour :
+          Europcar souhaite prendre le virage du Cloud et pour les accompagner dans cette transformation, j'ai rejoint l'équipe infrastructure et transformation Cloud pour participer:
 
-          - Participer à la définition de la stratégie multi-cloud du groupe
-          - Participer à la définition de la feuille de route détaillée des projets techniques à mener
-          - Participer à la définition des fondations qui permettront de mettre en place le socle technique et méthodologique axé sur les piliers suivants :
-          - Gouvernance et conformité
-          - Sécurité
-          - Réseaux
-          - Sauvegarde et restauration
-          - Infrastructure
-          - Conteneur
-          - Base de données
-          - DevOps
-          - Etablir des plans d’actions et des pré-requis pour réaliser le “move to cloud” sur GCP et AWS (critères d’éligibilité, méthodologie de migration/évolution, automatisation des couches infrastructures).
+          - À la définition de la stratégie cloud du groupe
+          - À la définition de la feuille de route détaillée des projets à mener pour mener à bien la migration
+          - À la définition des fondations qui permettront de mettre en place le socle technique et méthodologique axé sur les piliers suivants :
+            - Gouvernance et conformité
+            - Sécurité
+            - Automatisation et standardisation
+            - Réseaux
+            - Gestion des coûts et empreinte carbone
+            - Stockage et sauvegarde
+          - Aux sessions recrutements
 
           Je suis également en charge de :
           
-          - La structuration et du pilotage technique de projets d'adoption du Cloud (cadrage, normes & standards, méthodologie, architecture)
-          - La supervision de la mise en place et industrialisation des environnements multi-cloud GCP & AWS en première cible et potentiellement Azure pour des service Microsoft
-          - La mise en place de la Gouvernance et des bonnes pratiques de gestion
-          - La conduite du changement et transfert du savoir-faire sur les usages du Cloud et le développement d'applications.
-          - D'intervenir en comité d’arbitrage pour présenter des études de solutions/technologies
+          - La structuration et du pilotage technique de projets d'adoption du Cloud (cadrage, normes, standards, méthodologie, architecture, formation, évangélisation)
+          - La supervision de la mise en place et industrialisation des environnements cloud
+          - La mise en place de la gouvernance et des bonnes pratiques de gestion
+          - La conduite du changement et le transfert du savoir-faire sur les usages du cloud et le développement des applications
+
       - role: Consultant infrastructure et Cloud
         time: 2018 - 2019
         company: Generali, Saint-Denis (France)
@@ -426,65 +424,55 @@ projects:
 #         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Compétences
-
+    title: Compétences techniques
     toolset:
-      - name: Communication
-        level: 98%
-
-      - name: Leadership
-        level: 98%
-
-      - name: Gestion d’équipe
-        level: 98%
-
-      - name: Négociation
-        level: 95%
-
-      - name: Gestion de risques
-        level: 85%
-
       - name: AWS
-        level: 60%
+        level: 100%
 
       - name: GCP
-        level: 60%
+        level: 50%
 
       - name: Azure
-        level: 60%
+        level: 40%
 
       - name: Scaleway
-        level: 60%
+        level: 30%
 
       - name: Docker Compose
-        level: 98%
+        level: 40%
 
       - name: Packer
-        level: 98%
+        level: 20%
 
       - name: AWS CDK
-        level: 98%
+        level: 30%
 
       - name: Terrafom
-        level: 95%
+        level: 20%
 
       - name: Pulumi
-        level: 85%
+        level: 40%
 
       - name: GitHub
-        level: 60%
+        level: 40%
 
       - name: Gitlab
-        level: 60%
+        level: 40%
 
       - name: JIRA
-        level: 60%
+        level: 80%
 
       - name: MacOS
         level: 60%
 
       - name: Linux
         level: 60%
+
+      - name: Windows
+        level: 40%
+
+      - name: Citrix
+        level: 40%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
