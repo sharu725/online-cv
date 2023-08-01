@@ -92,7 +92,7 @@ education:
         #     - Bullet point
         #     - Bullet point
 experiences:
-    title: Experiences
+    title: Expériences
     info:
       - role: Architecte solution
         time: 2019 - Present
@@ -265,86 +265,124 @@ experiences:
           - Rédaction des documents techniques relatifs à l’architecture, à l’installation, et à l’exploitation.
           - Responsable technique de l’équipe de désimbrication
           - Industrialisation des processus de désimbrication
-      - role: Architecte stockage
-        time: 2012 - 2013
-        company: GRT Gaz, Saint-Ouen (France)
+      - role: Chef de projet technique
+        time: 2012 - 2012
+        company: Total exploration et production, La Défense (France)
         details: |
-          Conduite de projet et Conseil en ingénierie système/données
-          Conception et mise en œuvre du socle de désimbrication GRTGAZ dans le cadre du projet de séparation et de reprise de la production et de la conduite du programme de désimbrication.
-          - Étude et élaboration des cas d’utilisation
-          - Pilotage du déploiement et de la mise en service
-          - Préparation et réalisation de la recette
-          - Rédaction des documents techniques relatifs à l’architecture, à l’installation, et à l’exploitation.
-          - Responsable technique de l’équipe de désimbrication
-          - Industrialisation des processus de désimbrication
+          Coordination de projet et conseil en ingénierie système et données.
+          Première phase de la migration du centre informatique de la tour Coupole situé à la Défense vers le centre EQUINIX situé à Saint-Denis dont la logistique était assurée par IBM.
+          - Analyse de l’existant et définition de la cible :
+          - État des lieux ; analyse des contraintes,
+          - Classification des modèles systèmes/données,
+          - Définition des scénarii et des méthodes de migrations,
+          - Analyse des risques et impacts ; préconisation d’une architecture cible.
+          - Suivi et coordination des opérations de relocalisation et de migration.
+      - role: Consultant stockage
+        time: 2011 - 2011
+        company: Société Générale, Tigery (France)
+        details: |
+          Assistance à l’optimisation des infrastructures de stockage
+          - Cartographie des infrastructures de stockage et analyse des données stockées.
+          - Élaboration des préconisations d’amélioration.
+      - role: Consultant stockage
+        time: 2011 - 2011
+        company: CNP assurance, Paris (France)
+        details: |
+          Accompagnement à la conduite d’un appel d’offre autour du stockage
+          - Rédaction du cahier des charges
+          - Analyse, soutenances et notation des offres
+      - role: Consultant stockage
+        time: 2011 - 2011
+        company: CNP assurance, Paris (France)
+        details: |
+          Accompagnement à la conduite d’un appel d’offre autour du stockage
+          - Rédaction du cahier des charges
+          - Analyse, soutenances et notation des offres
+      - role: Consultant stockage
+        time: 2011 - 2011
+        company: Société Générale retail, Val de Fontenay (France)
+        details: |
+          Accompagnement à la conduite d’un appel d’offre autour du stockage
+          - Rédaction du cahier des charges
+          - Analyse, soutenances et notation des offres
+      - role: Consultant stockage
+        time: 2011 - 2011
+        company: MMA, Le Mans (France)
+        details: |
+          Migration de données de baies EMC2 VMAX vers Hitachi VSP
+          - Élaboration et fourniture des procédures de migration
+          - Assistance à la migration des données
+          - Fourniture des procédures de migration
+      - role: Consultant stockage et sauvegarde
+        time: 2010 - 2010
+        company: MMA, Le Mans (France)
+        details: |
+          Consolidation de l’infrastructure de stockage
+          - Pilotage du projet
+          - Définition et mise en place de l’architecture.
+          - Analyse du besoin, étude de l’existant
+      - role: Consultant stockage et sauvegarde
+        time: 2010 - 2011
+        company: Télintrans, Rungis (France)
+        details: |
+          Consolidation de l’infrastructure de stockage
+          - Pilotage du projet
+          - Définition et mise en place de l’architecture.
+          - Analyse du besoin, étude de l’existant
+      - role: Consultant stockage et sauvegarde
+        time: 2009 - 2010
+        company: Servier, Courbevoie (France)
+        details: |
+          Mise en place d’un PRA stockage national
+          - Analyse du besoin, étude de l’existant.
+          - Définition et mise en place de l’architecture.
+          - Formation et procédure d’exploitation.
+      - role: Consultant stockage et sauvegarde
+        time: 2009 - 2009
+        company: Hôpital Américain de Paris, Neuilly-sur-Seine (France)
+        details: |
+          Migration de stockage
+          - Analyse du besoin, étude de l’existant.
+          - Définition et mise en œuvre de la méthodologie de migration.
+          - Formation et procédure d’exploitation.
+      - role: Administrateur stockage et sauvegarde
+        time: 2007 - 2008
+        company: Natixis, Lognes (France)
+        details: |
+          - Maintien en condition opérationnelle des infrastructures de stockage et de sauvegarde.
+          - Projet de migration TSM.
+          - Migration de librairie
+      - role: Administrateur stockage et sauvegarde
+        time: 2005 - 2007
+        company: Allianz, La Défense (France)
+        details: |
+          - Maintien en condition opérationnelle de l’infrastructure
+          - Projet de migration Netbackup.
+          - Analyse du besoin, étude de l’existant.
+          - Définition et mise en place de l’architecture.
+          - Formations et procédures d’exploitation.
 
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
+        - name: AWS Certified Solutions Architect – Associate
           start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
+          end: 2023
+          organization: Amazon Web services
+          credentialid: 
+          credentialurl: credly.com/badges/9270db77-f312-47ff-986c-852a94fc3b38/public_url
+          credentialname: Credly
           details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh. 
-            Aenean fermentum, felis vulputate suscipit accumsan, 
-            sem enim bibendum augue, sed convallis arcu lacus at dui. 
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-            Praesent venenatis erat non augue suscipit consectetur. 
-            
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus 
-            fringilla vel. Ut euismod, sem sed vulputate venenatis, 
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at. 
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh. 
-            Aenean fermentum, felis vulputate suscipit accumsan, 
-            sem enim bibendum augue, sed convallis arcu lacus at dui. 
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-            Praesent venenatis erat non augue suscipit consectetur. 
+            La certification AWS Certified Solutions Architect - Associate met en évidence les connaissances et les compétences en matière de technologie AWS, à travers un large éventail de services AWS. Cette certification est centrée sur la conception de solutions optimisées en termes de coûts et de performances, démontrant une solide compréhension du cadre AWS Well-Architected.
         
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Voici les projets auxquels je prends activement part.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Wefactorit
+        link: "https://wefactorit.com"
+        tagline: "Une société de conseil visant à améliorer la compétitivé des entreprises."
 
 # oss:
 #     title: OSS Contributions
