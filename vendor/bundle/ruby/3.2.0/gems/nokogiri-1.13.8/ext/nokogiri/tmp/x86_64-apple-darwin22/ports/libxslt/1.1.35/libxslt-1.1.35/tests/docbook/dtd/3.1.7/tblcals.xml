@@ -1,0 +1,26 @@
+<?xml version='1.0'?>
+<!DOCTYPE article SYSTEM "dbtblcals.dtd">
+<article><title>Table Test</title>
+
+<!-- This table is valid in both models; this is just to exercise the DTD. -->
+
+<informaltable id="foo" role="test">
+<tgroup cols="1">
+<tbody>
+<row>
+<entry>foo</entry></row>
+<row><entry>bar</entry></row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<table id="bar" role="test"><title>bar</title>
+<tgroup cols="1">
+<tbody>
+<row><entry>bar</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+</article>
+

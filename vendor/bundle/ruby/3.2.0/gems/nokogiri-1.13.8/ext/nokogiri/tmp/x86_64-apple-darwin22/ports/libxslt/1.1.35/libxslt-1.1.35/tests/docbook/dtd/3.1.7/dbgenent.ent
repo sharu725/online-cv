@@ -1,0 +1,21 @@
+<!-- ====================================================================== -->
+<!-- DocBk XML Additional General Entities V3.1.7
+     Part of the DocBk XML V3.1.7 DTD
+     http://nwalsh.com/docbook/xml/
+ 
+     See COPYRIGHT for more information
+
+     Please direct all questions and comments about this DTD to
+     Norman Walsh, <ndw@nwalsh.com>.
+                                                                            -->
+<!-- ====================================================================== -->
+
+<!-- You can edit this file to add the following:
+     o General entity declarations of any kind.
+     o Notation declarations.
+     o Declarations for and references to external parameter entities
+       containing collections of any of the above.
+-->
+
+<!-- End of DocBk XML Additional General Entities V3.1.7 .................. -->
+<!-- ...................................................................... -->

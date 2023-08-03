@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+
+This is an <fo:inline-sequence xmlns:fo="http://www.w3.org/1999/XSL/Format" font-weight="bold">important</fo:inline-sequence> point.
+

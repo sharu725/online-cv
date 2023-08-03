@@ -1,0 +1,954 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Churn by Product</title>
+<style type="text/css">	.PROD {background-color:cyan}
+	.PROD * {background-color:cyan}
+	.ACT {background-color:green;font-weight:bold}
+	.ACT * {background-color:green;font-weight:bold}
+	.NR {background-color:yellow;color:blue}
+	.NR * {background-color:yellow;color:blue}
+	.RC {background-color:yellow;color:red}
+	.RC * {background-color:yellow;color:red}
+
+				</style>
+</head>
+<body>
+<h1><center>Churn by Product</center></h1>
+<table width="100%"><tr>
+<td width="50%" align="left" valign="top">
+							Run Date: Wed Apr  4 23:00:55 2001 GMT<br>
+							Parameters:
+						</td>
+<td align="right" valign="top"><table>
+<tr><th>Legend</th></tr>
+<tr class="PROD"><td>Product</td></tr>
+<tr class="ACT"><td>Action</td></tr>
+<tr class="NR"><td>Non-Recurring</td></tr>
+<tr class="RC"><td>Recurring</td></tr>
+</table></td>
+</tr></table>
+<table align="center">
+<tr class="
+PROD
+">
+<td>Apple</td>
+<td>Proj. Rev: 255750</td>
+<td>Actual Rev: 85.53</td>
+</tr>
+<tr class="
+ACT
+">
+<td>PICK</td>
+<td>Proj. Rev: 0</td>
+<td>Act. Rev: 50</td>
+</tr>
+<tr>
+<td valign="top"><table>
+<tr class="NR">
+<td>Non-Recurring</td>
+<td>Number: 1</td>
+<td>Proj. Rev: 0</td>
+<td>Act. Rev: 50</td>
+</tr>
+<tr>
+<td>Segment</td>
+<td>Number</td>
+<td>Proj. Rev</td>
+<td>Act. Rev</td>
+</tr>
+<tr>
+<td>Birch</td>
+<td>1</td>
+<td>0</td>
+<td>50</td>
+</tr>
+<tr class="NR"></tr>
+</table></td>
+<td valign="top"></td>
+</tr>
+<tr class="
+ACT
+"></tr>
+<tr class="
+ACT
+">
+<td>EAT</td>
+<td>Proj. Rev: 0</td>
+<td>Act. Rev: 0</td>
+</tr>
+<tr>
+<td valign="top"><table>
+<tr class="NR">
+<td>Non-Recurring</td>
+<td>Number: 68</td>
+<td>Proj. Rev: 0</td>
+<td>Act. Rev: 0</td>
+</tr>
+<tr>
+<td>Segment</td>
+<td>Number</td>
+<td>Proj. Rev</td>
+<td>Act. Rev</td>
+</tr>
+<tr>
+<td>Pine</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Elm</td>
+<td>60</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Birch</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="NR"></tr>
+</table></td>
+<td valign="top"></td>
+</tr>
+<tr class="
+ACT
+"></tr>
+<tr class="
+ACT
+">
+<td>SQUEEZE</td>
+<td>Proj. Rev: 255750</td>
+<td>Act. Rev: 35.53</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"><table>
+<tr class="RC">
+<td>Recurring</td>
+<td>Number: 109</td>
+<td>Proj. Rev: 255750</td>
+<td>Act. Rev: 35.53</td>
+</tr>
+<tr>
+<td>Segment</td>
+<td>Number</td>
+<td>Proj. Rev</td>
+<td>Act. Rev</td>
+</tr>
+<tr>
+<td>Pine</td>
+<td>7</td>
+<td>19250</td>
+<td>16.61</td>
+</tr>
+<tr>
+<td>Elm</td>
+<td>96</td>
+<td>220000</td>
+<td>11.76</td>
+</tr>
+<tr>
+<td>Birch</td>
+<td>6</td>
+<td>16500</td>
+<td>7.16</td>
+</tr>
+<tr class="RC"></tr>
+</table></td>
+</tr>
+<tr class="
+ACT
+"></tr>
+<tr class="
+PROD
+"></tr>
+<tr class="
+PROD
+">
+<td>Orange</td>
+<td>Proj. Rev: 1743250</td>
+<td>Actual Rev: 10695.23</td>
+</tr>
+<tr class="
+ACT
+">
+<td>PICK</td>
+<td>Proj. Rev: 1159000</td>
+<td>Act. Rev: 9964.48</td>
+</tr>
+<tr>
+<td valign="top"><table>
+<tr class="NR">
+<td>Non-Recurring</td>
+<td>Number: 229</td>
+<td>Proj. Rev: 0</td>
+<td>Act. Rev: 8300</td>
+</tr>
+<tr>
+<td>Segment</td>
+<td>Number</td>
+<td>Proj. Rev</td>
+<td>Act. Rev</td>
+</tr>
+<tr>
+<td>Pine</td>
+<td>34</td>
+<td>0</td>
+<td>1420</td>
+</tr>
+<tr>
+<td>Almond</td>
+<td>1</td>
+<td>0</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Birch</td>
+<td>8</td>
+<td>0</td>
+<td>300</td>
+</tr>
+<tr>
+<td>Elm</td>
+<td>186</td>
+<td>0</td>
+<td>6555</td>
+</tr>
+<tr class="NR"></tr>
+</table></td>
+<td valign="top"><table>
+<tr class="RC">
+<td>Recurring</td>
+<td>Number: 284</td>
+<td>Proj. Rev: 1159000</td>
+<td>Act. Rev: 1664.48</td>
+</tr>
+<tr>
+<td>Segment</td>
+<td>Number</td>
+<td>Proj. Rev</td>
+<td>Act. Rev</td>
+</tr>
+<tr>
+<td>Pine</td>
+<td>36</td>
+<td>171000</td>
+<td>221.3</td>
+</tr>
+<tr>
+<td>Elm</td>
+<td>240</td>
+<td>950000</td>
+<td>1412.34</td>
+</tr>
+<tr>
+<td>Birch</td>
+<td>8</td>
+<td>38000</td>
+<td>30.84</td>
+</tr>
+<tr class="RC"></tr>
+</table></td>
+</tr>
+<tr class="
+ACT
+"></tr>
+<tr class="
+ACT
+">
+<td>EAT</td>
+<td>Proj. Rev: 0</td>
+<td>Act. Rev: 0</td>
+</tr>
+<tr>
+<td valign="top"><table>
+<tr class="NR">
+<td>Non-Recurring</td>
+<td>Number: 101</td>
+<td>Proj. Rev: 0</td>
+<td>Act. Rev: 0</td>
+</tr>
+<tr>
+<td>Segment</td>
+<td>Number</td>
+<td>Proj. Rev</td>
+<td>Act. Rev</td>
+</tr>
+<tr>
+<td>Pine</td>
+<td>34</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Almond</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Elm</td>
+<td>62</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Birch</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="NR"></tr>
+</table></td>
+<td valign="top"><table>
+<tr class="RC">
+<td>Recurring</td>
+<td>Number: 8</td>
+<td>Proj. Rev: 0</td>
+<td>Act. Rev: 0</td>
+</tr>
+<tr>
+<td>Segment</td>
+<td>Number</td>
+<td>Proj. Rev</td>
+<td>Act. Rev</td>
+</tr>
+<tr>
+<td>Birch</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="RC"></tr>
+</table></td>
+</tr>
+<tr class="
+ACT
+"></tr>
+<tr class="
+ACT
+">
+<td>SQUEEZE</td>
+<td>Proj. Rev: 584250</td>
+<td>Act. Rev: 730.75</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"><table>
+<tr class="RC">
+<td>Recurring</td>
+<td>Number: 123</td>
+<td>Proj. Rev: 584250</td>
+<td>Act. Rev: 730.75</td>
+</tr>
+<tr>
+<td>Segment</td>
+<td>Number</td>
+<td>Proj. Rev</td>
+<td>Act. Rev</td>
+</tr>
+<tr>
+<td>Pine</td>
+<td>36</td>
+<td>171000</td>
+<td>221.3</td>
+</tr>
+<tr>
+<td>Elm</td>
+<td>80</td>
+<td>380000</td>
+<td>470.78</td>
+</tr>
+<tr>
+<td>Birch</td>
+<td>4</td>
+<td>19000</td>
+<td>15.42</td>
+</tr>
+<tr>
+<td>Almond</td>
+<td>3</td>
+<td>14250</td>
+<td>23.25</td>
+</tr>
+<tr class="RC"></tr>
+</table></td>
+</tr>
+<tr class="
+ACT
+"></tr>
+<tr class="
+PROD
+"></tr>
+<tr class="
+PROD
+">
+<td>Banana</td>
+<td>Proj. Rev: 110250</td>
+<td>Actual Rev: 202.9</td>
+</tr>
+<tr class="
+ACT
+">
+<td>PICK</td>
+<td>Proj. Rev: 98000</td>
+<td>Act. Rev: 202.9</td>
+</tr>
+<tr>
+<td valign="top"><table>
+<tr class="NR">
+<td>Non-Recurring</td>
+<td>Number: 2</td>
+<td>Proj. Rev: 0</td>
+<td>Act. Rev: 100</td>
+</tr>
+<tr>
+<td>Segment</td>
+<td>Number</td>
+<td>Proj. Rev</td>
+<td>Act. Rev</td>
+</tr>
+<tr>
+<td>Elm</td>
+<td>2</td>
+<td>0</td>
+<td>100</td>
+</tr>
+<tr class="NR"></tr>
+</table></td>
+<td valign="top"><table>
+<tr class="RC">
+<td>Recurring</td>
+<td>Number: 8</td>
+<td>Proj. Rev: 98000</td>
+<td>Act. Rev: 102.9</td>
+</tr>
+<tr>
+<td>Segment</td>
+<td>Number</td>
+<td>Proj. Rev</td>
+<td>Act. Rev</td>
+</tr>
+<tr>
+<td>Pine</td>
+<td>1</td>
+<td>12250</td>
+<td>12.25</td>
+</tr>
+<tr>
+<td>Elm</td>
+<td>6</td>
+<td>73500</td>
+<td>78.4</td>
+</tr>
+<tr>
+<td>Almond</td>
+<td>1</td>
+<td>12250</td>
+<td>12.25</td>
+</tr>
+<tr class="RC"></tr>
+</table></td>
+</tr>
+<tr class="
+ACT
+"></tr>
+<tr class="
+ACT
+">
+<td>EAT</td>
+<td>Proj. Rev: 12250</td>
+<td>Act. Rev: 0</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"><table>
+<tr class="RC">
+<td>Recurring</td>
+<td>Number: 1</td>
+<td>Proj. Rev: 12250</td>
+<td>Act. Rev: 0</td>
+</tr>
+<tr>
+<td>Segment</td>
+<td>Number</td>
+<td>Proj. Rev</td>
+<td>Act. Rev</td>
+</tr>
+<tr>
+<td>Almond</td>
+<td>1</td>
+<td>12250</td>
+<td>0</td>
+</tr>
+<tr class="RC"></tr>
+</table></td>
+</tr>
+<tr class="
+ACT
+"></tr>
+<tr class="
+PROD
+"></tr>
+<tr class="
+PROD
+">
+<td>Nectarine</td>
+<td>Proj. Rev: 5950</td>
+<td>Actual Rev: -5.95</td>
+</tr>
+<tr class="
+ACT
+">
+<td>SQUEEZE</td>
+<td>Proj. Rev: 5950</td>
+<td>Act. Rev: -5.95</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"><table>
+<tr class="RC">
+<td>Recurring</td>
+<td>Number: 1</td>
+<td>Proj. Rev: 5950</td>
+<td>Act. Rev: -5.95</td>
+</tr>
+<tr>
+<td>Segment</td>
+<td>Number</td>
+<td>Proj. Rev</td>
+<td>Act. Rev</td>
+</tr>
+<tr>
+<td>Pine</td>
+<td>1</td>
+<td>5950</td>
+<td>-5.95</td>
+</tr>
+<tr class="RC"></tr>
+</table></td>
+</tr>
+<tr class="
+ACT
+"></tr>
+<tr class="
+PROD
+"></tr>
+<tr class="
+PROD
+">
+<td>Pineapple</td>
+<td>Proj. Rev: 36250</td>
+<td>Actual Rev: 73.13</td>
+</tr>
+<tr class="
+ACT
+">
+<td>PICK</td>
+<td>Proj. Rev: 23750</td>
+<td>Act. Rev: 68.75</td>
+</tr>
+<tr>
+<td valign="top"><table>
+<tr class="NR">
+<td>Non-Recurring</td>
+<td>Number: 1</td>
+<td>Proj. Rev: 0</td>
+<td>Act. Rev: 50</td>
+</tr>
+<tr>
+<td>Segment</td>
+<td>Number</td>
+<td>Proj. Rev</td>
+<td>Act. Rev</td>
+</tr>
+<tr>
+<td>Pine</td>
+<td>1</td>
+<td>0</td>
+<td>50</td>
+</tr>
+<tr class="NR"></tr>
+</table></td>
+<td valign="top"><table>
+<tr class="RC">
+<td>Recurring</td>
+<td>Number: 3</td>
+<td>Proj. Rev: 23750</td>
+<td>Act. Rev: 18.75</td>
+</tr>
+<tr>
+<td>Segment</td>
+<td>Number</td>
+<td>Proj. Rev</td>
+<td>Act. Rev</td>
+</tr>
+<tr>
+<td>Pine</td>
+<td>2</td>
+<td>17500</td>
+<td>8.75</td>
+</tr>
+<tr>
+<td>Birch</td>
+<td>1</td>
+<td>6250</td>
+<td>10</td>
+</tr>
+<tr class="RC"></tr>
+</table></td>
+</tr>
+<tr class="
+ACT
+"></tr>
+<tr class="
+ACT
+">
+<td>EAT</td>
+<td>Proj. Rev: 0</td>
+<td>Act. Rev: 0</td>
+</tr>
+<tr>
+<td valign="top"><table>
+<tr class="NR">
+<td>Non-Recurring</td>
+<td>Number: 1</td>
+<td>Proj. Rev: 0</td>
+<td>Act. Rev: 0</td>
+</tr>
+<tr>
+<td>Segment</td>
+<td>Number</td>
+<td>Proj. Rev</td>
+<td>Act. Rev</td>
+</tr>
+<tr>
+<td>Elm</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="NR"></tr>
+</table></td>
+<td valign="top"></td>
+</tr>
+<tr class="
+ACT
+"></tr>
+<tr class="
+ACT
+">
+<td>SQUEEZE</td>
+<td>Proj. Rev: 12500</td>
+<td>Act. Rev: 4.38</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"><table>
+<tr class="RC">
+<td>Recurring</td>
+<td>Number: 2</td>
+<td>Proj. Rev: 12500</td>
+<td>Act. Rev: 4.38</td>
+</tr>
+<tr>
+<td>Segment</td>
+<td>Number</td>
+<td>Proj. Rev</td>
+<td>Act. Rev</td>
+</tr>
+<tr>
+<td>Elm</td>
+<td>2</td>
+<td>12500</td>
+<td>4.38</td>
+</tr>
+<tr class="RC"></tr>
+</table></td>
+</tr>
+<tr class="
+ACT
+"></tr>
+<tr class="
+PROD
+"></tr>
+<tr class="
+PROD
+">
+<td>Coconut</td>
+<td>Proj. Rev: 13750</td>
+<td>Actual Rev: 17.87</td>
+</tr>
+<tr class="
+ACT
+">
+<td>PICK</td>
+<td>Proj. Rev: 13750</td>
+<td>Act. Rev: 17.87</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"><table>
+<tr class="RC">
+<td>Recurring</td>
+<td>Number: 1</td>
+<td>Proj. Rev: 13750</td>
+<td>Act. Rev: 17.87</td>
+</tr>
+<tr>
+<td>Segment</td>
+<td>Number</td>
+<td>Proj. Rev</td>
+<td>Act. Rev</td>
+</tr>
+<tr>
+<td>Elm</td>
+<td>1</td>
+<td>13750</td>
+<td>17.87</td>
+</tr>
+<tr class="RC"></tr>
+</table></td>
+</tr>
+<tr class="
+ACT
+"></tr>
+<tr class="
+PROD
+"></tr>
+<tr class="
+PROD
+">
+<td>Guava</td>
+<td>Proj. Rev: 14995</td>
+<td>Actual Rev: -19.49</td>
+</tr>
+<tr class="
+ACT
+">
+<td>SQUEEZE</td>
+<td>Proj. Rev: 14995</td>
+<td>Act. Rev: -19.49</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"><table>
+<tr class="RC">
+<td>Recurring</td>
+<td>Number: 1</td>
+<td>Proj. Rev: 14995</td>
+<td>Act. Rev: -19.49</td>
+</tr>
+<tr>
+<td>Segment</td>
+<td>Number</td>
+<td>Proj. Rev</td>
+<td>Act. Rev</td>
+</tr>
+<tr>
+<td>Pine</td>
+<td>1</td>
+<td>14995</td>
+<td>-19.49</td>
+</tr>
+<tr class="RC"></tr>
+</table></td>
+</tr>
+<tr class="
+ACT
+"></tr>
+<tr class="
+PROD
+"></tr>
+<tr class="
+PROD
+">
+<td>Pear</td>
+<td>Proj. Rev: 29995</td>
+<td>Actual Rev: 38.99</td>
+</tr>
+<tr class="
+ACT
+">
+<td>PICK</td>
+<td>Proj. Rev: 29995</td>
+<td>Act. Rev: 38.99</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"><table>
+<tr class="RC">
+<td>Recurring</td>
+<td>Number: 1</td>
+<td>Proj. Rev: 29995</td>
+<td>Act. Rev: 38.99</td>
+</tr>
+<tr>
+<td>Segment</td>
+<td>Number</td>
+<td>Proj. Rev</td>
+<td>Act. Rev</td>
+</tr>
+<tr>
+<td>Pine</td>
+<td>1</td>
+<td>29995</td>
+<td>38.99</td>
+</tr>
+<tr class="RC"></tr>
+</table></td>
+</tr>
+<tr class="
+ACT
+"></tr>
+<tr class="
+PROD
+"></tr>
+<tr class="
+PROD
+">
+<td>Raisin</td>
+<td>Proj. Rev: 299925</td>
+<td>Actual Rev: 227.95</td>
+</tr>
+<tr class="
+ACT
+">
+<td>EAT</td>
+<td>Proj. Rev: 0</td>
+<td>Act. Rev: 0</td>
+</tr>
+<tr>
+<td valign="top"><table>
+<tr class="NR">
+<td>Non-Recurring</td>
+<td>Number: 17</td>
+<td>Proj. Rev: 0</td>
+<td>Act. Rev: 0</td>
+</tr>
+<tr>
+<td>Segment</td>
+<td>Number</td>
+<td>Proj. Rev</td>
+<td>Act. Rev</td>
+</tr>
+<tr>
+<td>Oak</td>
+<td>17</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="NR"></tr>
+</table></td>
+<td valign="top"></td>
+</tr>
+<tr class="
+ACT
+"></tr>
+<tr class="
+ACT
+">
+<td>SQUEEZE</td>
+<td>Proj. Rev: 299925</td>
+<td>Act. Rev: 227.95</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"><table>
+<tr class="RC">
+<td>Recurring</td>
+<td>Number: 15</td>
+<td>Proj. Rev: 299925</td>
+<td>Act. Rev: 227.95</td>
+</tr>
+<tr>
+<td>Segment</td>
+<td>Number</td>
+<td>Proj. Rev</td>
+<td>Act. Rev</td>
+</tr>
+<tr>
+<td>Oak</td>
+<td>15</td>
+<td>299925</td>
+<td>227.95</td>
+</tr>
+<tr class="RC"></tr>
+</table></td>
+</tr>
+<tr class="
+ACT
+"></tr>
+<tr class="
+PROD
+"></tr>
+<tr class="
+PROD
+">
+<td>Fig</td>
+<td>Proj. Rev: 74990</td>
+<td>Actual Rev: 136.24</td>
+</tr>
+<tr class="
+ACT
+">
+<td>PICK</td>
+<td>Proj. Rev: 74990</td>
+<td>Act. Rev: 136.24</td>
+</tr>
+<tr>
+<td valign="top"><table>
+<tr class="NR">
+<td>Non-Recurring</td>
+<td>Number: 1</td>
+<td>Proj. Rev: 0</td>
+<td>Act. Rev: 50</td>
+</tr>
+<tr>
+<td>Segment</td>
+<td>Number</td>
+<td>Proj. Rev</td>
+<td>Act. Rev</td>
+</tr>
+<tr>
+<td>Oak</td>
+<td>1</td>
+<td>0</td>
+<td>50</td>
+</tr>
+<tr class="NR"></tr>
+</table></td>
+<td valign="top"><table>
+<tr class="RC">
+<td>Recurring</td>
+<td>Number: 2</td>
+<td>Proj. Rev: 74990</td>
+<td>Act. Rev: 86.24</td>
+</tr>
+<tr>
+<td>Segment</td>
+<td>Number</td>
+<td>Proj. Rev</td>
+<td>Act. Rev</td>
+</tr>
+<tr>
+<td>Oak</td>
+<td>2</td>
+<td>74990</td>
+<td>86.24</td>
+</tr>
+<tr class="RC"></tr>
+</table></td>
+</tr>
+<tr class="
+ACT
+"></tr>
+<tr class="
+PROD
+"></tr>
+</table>
+</body>
+</html>

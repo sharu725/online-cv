@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+/foo/bar
+ 'foo'
+ 'bar'
+//foo/bar
+ 'foo'
+ 'bar'
+foo//bar
+ 'foo'
+ 'bar'
+foo/bar/
+ 'foo'
+ 'bar'
+foo/bar//
+ 'foo'
+ 'bar'
+

@@ -1,0 +1,2 @@
+compilation error: file ./tst-1.xsl line 4 element variable
+redefinition of global variable my.var

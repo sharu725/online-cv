@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+  
+    
+      
+	<fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format">(1) A note here</fo:block>
+	<fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format">(2) And here</fo:block>
+      
+      
+      
+    
+  
+  
+    <fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format">(1) And another note here</fo:block>
+  
+

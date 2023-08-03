@@ -1,0 +1,7 @@
+<x:stylesheet xmlns:x="http://www.w3.org/1999/XSL/Transform" xmlns:a="a" xmlns:b="b" xmlns:e1="e1" xmlns:e2="e2" xmlns:e3="e3" version="1.0" extension-element-prefixes="e1 e2 e3">
+<x:template match="*">
+<e3:e><x:fallback><f3/></x:fallback></e3:e>
+<x:foo><x:fallback><foo/></x:fallback></x:foo>
+<x:apply-templates select="*"/>
+</x:template>
+</x:stylesheet>

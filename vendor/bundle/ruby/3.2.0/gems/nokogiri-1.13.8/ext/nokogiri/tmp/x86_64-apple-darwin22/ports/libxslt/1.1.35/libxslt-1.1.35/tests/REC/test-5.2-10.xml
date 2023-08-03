@@ -1,0 +1,5 @@
+<!DOCTYPE doc [
+<!ELEMENT para (#PCDATA)>
+<!ATTLIST para label ID #IMPLIED>
+]>
+<doc><para label="W11">Failed</para></doc>

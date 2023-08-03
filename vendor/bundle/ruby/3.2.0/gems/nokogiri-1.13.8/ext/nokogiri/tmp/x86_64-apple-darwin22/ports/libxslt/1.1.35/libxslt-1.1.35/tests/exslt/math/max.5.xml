@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<sales>
+<sale qty="10" price="15.00"/>
+<sale qty="2" price="12.00"/>
+<sale qty="1" price="10.00"/>
+</sales>

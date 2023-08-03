@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<root xmlns="my::namespace">
+  <foo>...</foo>
+  <bar>...</bar>
+  <foobar>...</foobar>
+  <baz>...</baz>
+  <doc>...</doc>
+  <baz>...</baz>
+</root>

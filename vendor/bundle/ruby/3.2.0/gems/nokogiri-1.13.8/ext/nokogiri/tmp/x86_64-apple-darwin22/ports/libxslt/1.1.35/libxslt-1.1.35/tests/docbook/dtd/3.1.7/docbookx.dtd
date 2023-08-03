@@ -1,0 +1,69 @@
+<!-- ====================================================================== -->
+<!-- DocBk XML V3.1.7 DTD
+     Copyright (C) 1998, 1999 Norman Walsh
+     http://nwalsh.com/docbook/xml/
+
+     See COPYRIGHT for more information
+
+     Please direct all questions and comments about this DTD to
+     Norman Walsh, <ndw@nwalsh.com>.
+                                                                            -->
+<!-- ====================================================================== -->
+
+<!-- ...................................................................... -->
+<!-- Notation declarations ................................................ -->
+
+<!ENTITY % dbnotn.module "INCLUDE">
+<![%dbnotn.module;[
+<!ENTITY % dbnotn PUBLIC 
+"-//Norman Walsh//ENTITIES DocBk XML Notations V3.1.7//EN"
+"dbnotnx.mod">
+%dbnotn;
+]]>
+
+<!-- ...................................................................... -->
+<!-- ISO character entity sets ............................................ -->
+
+<!ENTITY % dbcent.module "INCLUDE">
+<![%dbcent.module;[
+<!ENTITY % dbcent PUBLIC 
+"-//Norman Walsh//ENTITIES DocBk XML Character Entities V3.1.7//EN"
+"dbcentx.mod">
+%dbcent;
+]]>
+
+<!-- ...................................................................... -->
+<!-- DTD modules .......................................................... -->
+
+<!-- Information pool .............. -->
+
+<!ENTITY % dbpool PUBLIC 
+"-//Norman Walsh//ELEMENTS DocBk XML Information Pool V3.1.7//EN"
+"dbpoolx.mod">
+%dbpool;
+
+<!-- Redeclaration placeholder ..... -->
+
+<!ENTITY % intermod.redecl.module "IGNORE">
+<![%intermod.redecl.module;[
+<!-- Defining rdbmods here makes some buggy XML parsers happy. -->
+<!ENTITY % rdbmods "">
+%rdbmods;
+<!--end of intermod.redecl.module-->]]>
+
+<!-- Document hierarchy ............ -->
+
+<!ENTITY % dbhier PUBLIC 
+"-//Norman Walsh//ELEMENTS DocBk XML Document Hierarchy V3.1.7//EN"
+"dbhierx.mod">
+%dbhier;
+<!-- ...................................................................... -->
+<!-- Other general entities ............................................... -->
+
+<!ENTITY % dbgenent PUBLIC
+"-//Norman Walsh//ENTITIES DocBk XML Additional General Entities V3.1.7//EN"
+"dbgenent.ent">
+%dbgenent;
+
+<!-- End of DocBk XML DTD V3.1.7 .......................................... -->
+<!-- ...................................................................... -->

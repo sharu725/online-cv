@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<doc>
+  <?pi pi 1?>
+  <!-- comment 1 -->
+  <foo/>
+  <?pi pi 2?>
+  <!-- comment 2 -->
+</doc>

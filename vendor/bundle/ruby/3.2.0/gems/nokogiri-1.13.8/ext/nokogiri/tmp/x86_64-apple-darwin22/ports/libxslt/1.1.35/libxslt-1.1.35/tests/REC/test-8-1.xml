@@ -1,0 +1,12 @@
+<customers>
+  <customer>
+    <name>...</name>
+    <order>...</order>
+    <order>...</order>
+  </customer>
+  <customer>
+    <name>...</name>
+    <order>...</order>
+    <order>...</order>
+  </customer>
+</customers>

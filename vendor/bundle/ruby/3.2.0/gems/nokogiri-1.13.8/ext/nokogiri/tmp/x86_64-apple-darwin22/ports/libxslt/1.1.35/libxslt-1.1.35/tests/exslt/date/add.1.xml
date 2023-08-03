@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<page>
+  <date date='2000-01-01T01:01:00Z' dur='PT0S'/>
+  <date date='2000-01-01T01:01:00Z' dur='PT60S'/>
+  <date date='2000-01-01T01:01:00Z' dur='PT59S'/>
+  <date date='2000-01-01'           dur='PT86400S'/>
+  <date date='2000-02-29'           dur='PT86400S'/>
+  <date date='2000-01-01'           dur='-PT86400S'/>
+  <date date='-0001-12-31T23:59:59' dur='PT1S'/>
+  <date date='0001-01-01T00:00:00'  dur='-PT1S'/>
+  <date date='2000-01-01T00:00:00Z' dur='-PT59S'/>
+  <date date='-0001'                dur='-PT59S'/>
+  <date date='-0001'                dur='P1Y'/>
+  <date date='-0001-01-01'          dur='P2Y'/>
+  <date date='2000-01'              dur='-PT86400S'/>
+  <date date='2000-01'              dur='-P1D'/>
+  <date date='1970-01-01T00:00:00-00:30' dur='-PT30S'/>
+  <date date='2016-04-28T18:02:44+02:00' dur='P1D'/>
+</page>
+

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<out xmlns:math="http://exslt.org/math">
+        * <lowest-prices>4;
+        7;
+        </lowest-prices>
+        * <highest-prices>1;
+        5;
+        </highest-prices></out>

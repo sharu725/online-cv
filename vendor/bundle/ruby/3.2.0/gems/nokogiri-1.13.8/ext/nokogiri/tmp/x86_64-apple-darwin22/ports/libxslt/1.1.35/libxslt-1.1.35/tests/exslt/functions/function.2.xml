@@ -1,0 +1,26 @@
+<?xml version="1.0"?> 
+
+<doc>
+  <section index="section1" index2="atr2val">
+    <section index="subSection1.1">
+      <p>Hello</p>
+      <p>Hello again.</p>
+    </section>
+  </section>
+  <section index="section2">
+    <p>Hello2</p>
+    <section index="subSection2.1">
+      <p>Hello</p>
+      <p>Hello again.</p>
+    </section>
+    <section index="subSection2.2">
+      <p>Hello</p>
+      <p>Hello again.</p>
+    </section>
+    <p>Hello2 again.</p>
+    <section index="subSection2.3">
+      <p>Hello</p>
+      <p>Hello again.</p>
+    </section>
+  </section>
+</doc>

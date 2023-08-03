@@ -1,0 +1,74 @@
+
+  
+  
+  Test Date : ---11
+    year                 : NaN
+    leap-year            : NaN
+    month-in-year        : NaN
+    month-name           : 
+    month-abbreviation   : 
+    week-in-year         : NaN
+    day-in-year          : NaN
+    day-in-month         : 11
+    day-of-week-in-month : NaN
+    day-in-week          : NaN
+    day-name             : 
+    day-abbreviation     : 
+    time                 : 
+    hour-in-day          : NaN
+    minute-in-hour       : NaN
+    second-in-minute     : NaN
+  
+  Test Date : ---31
+    year                 : NaN
+    leap-year            : NaN
+    month-in-year        : NaN
+    month-name           : 
+    month-abbreviation   : 
+    week-in-year         : NaN
+    day-in-year          : NaN
+    day-in-month         : 31
+    day-of-week-in-month : NaN
+    day-in-week          : NaN
+    day-name             : 
+    day-abbreviation     : 
+    time                 : 
+    hour-in-day          : NaN
+    minute-in-hour       : NaN
+    second-in-minute     : NaN
+  
+  Test Date : ---01
+    year                 : NaN
+    leap-year            : NaN
+    month-in-year        : NaN
+    month-name           : 
+    month-abbreviation   : 
+    week-in-year         : NaN
+    day-in-year          : NaN
+    day-in-month         : 1
+    day-of-week-in-month : NaN
+    day-in-week          : NaN
+    day-name             : 
+    day-abbreviation     : 
+    time                 : 
+    hour-in-day          : NaN
+    minute-in-hour       : NaN
+    second-in-minute     : NaN
+  
+  Test Date : ---25
+    year                 : NaN
+    leap-year            : NaN
+    month-in-year        : NaN
+    month-name           : 
+    month-abbreviation   : 
+    week-in-year         : NaN
+    day-in-year          : NaN
+    day-in-month         : 25
+    day-of-week-in-month : NaN
+    day-in-week          : NaN
+    day-name             : 
+    day-abbreviation     : 
+    time                 : 
+    hour-in-day          : NaN
+    minute-in-hour       : NaN
+    second-in-minute     : NaN

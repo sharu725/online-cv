@@ -1,0 +1,28 @@
+<html><head><meta content="text/html; charset=ISO-8859-1" http-equiv="Content-Type"><title>Loops</title><meta name="generator" content="DocBook XSL Stylesheets V1.40"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="section"><a name="dsssl.expr.loop"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="dsssl.expr.loop"></a>Loops</h2></div><hr></div><p>
+<a class="indexterm" name="id2768010"></a>
+<a class="indexterm" name="id2768027"></a>
+<a class="indexterm" name="id2768043"></a>
+
+DSSSL doesn't have any construct that resembles the
+for loop that occurs in most imperative languages like C
+and Java. Instead, DSSSL employs a common trick in
+functional languages for implementing a loop: tail recursion.
+</p><p>
+Loops in DSSSL use a special form of
+<tt>let</tt>. This loop counts from 1 to 10:
+<pre class="screen">
+(let <a name="dl1"></a><img src="../images/callouts/1.png" alt="1" border="0">loopvar <a name="dl2"></a><img src="../images/callouts/2.png" alt="2" border="0">((count 1))
+  <a name="dl3"></a><img src="../images/callouts/3.png" alt="3" border="0">(if (&gt; count 10)
+    <a name="dl4"></a><img src="../images/callouts/4.png" alt="4" border="0">#t
+    (<a name="dl5"></a><img src="../images/callouts/5.png" alt="5" border="0">loopvar <a name="dl6"></a><img src="../images/callouts/6.png" alt="6" border="0">(+ count 1))))</pre></p><div class="calloutlist"><a name="id2888672"></a><table border="0" summary="Callout list"><tr><td width="5%" valign="top" align="left"><a name="id2888678"></a><a href="#dl1"><img src="../images/callouts/1.png" alt="1" border="0"></a> </td><td valign="top" align="left"><p>This variable controls the loop. It is declared without an
+initial value, immediately after the <tt>let</tt>
+operand.</p></td></tr><tr><td width="5%" valign="top" align="left"><a name="id2767732"></a><a href="#dl2"><img src="../images/callouts/2.png" alt="2" border="0"></a> </td><td valign="top" align="left"><p>
+<a class="indexterm" name="id2888687"></a>
+
+Any number of additional local variables can be defined after
+the loop variable, just as they can in any other
+<tt>let</tt> expression.</p></td></tr><tr><td width="5%" valign="top" align="left"><a name="id2862434"></a><a href="#dl3"><img src="../images/callouts/3.png" alt="3" border="0"></a> </td><td valign="top" align="left"><p>If you ever want the loop to end, you have to put some sort of a
+test in it.</p></td></tr><tr><td width="5%" valign="top" align="left"><a name="id2862468"></a><a href="#dl4"><img src="../images/callouts/4.png" alt="4" border="0"></a> </td><td valign="top" align="left"><p>This is the value that will be returned.</p></td></tr><tr><td width="5%" valign="top" align="left"><a name="id2770514"></a><a href="#dl5"><img src="../images/callouts/5.png" alt="5" border="0"></a> </td><td valign="top" align="left"><p>Note that you iterate the loop by using the loop variable as if
+it was a function name.</p></td></tr><tr><td width="5%" valign="top" align="left"><a name="id2770548"></a><a href="#dl6"><img src="../images/callouts/6.png" alt="6" border="0"></a> </td><td valign="top" align="left"><p>The arguments to this function are the values that
+you want the local variables declared in <a href="#dl2" title=""><img src="../images/callouts/2.png" alt="2" border="0"></a> to have
+in the next iteration.</p></td></tr></table></div></div></body></html>

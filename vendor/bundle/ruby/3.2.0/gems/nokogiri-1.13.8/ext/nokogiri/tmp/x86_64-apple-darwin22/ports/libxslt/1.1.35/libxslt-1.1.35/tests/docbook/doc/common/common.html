@@ -1,0 +1,379 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+   
+      <title>Common Template Reference</title>
+      <link rel="stylesheet" href="../reference.css" type="text/css">
+      <meta name="generator" content="DocBook XSL Stylesheets V1.38">
+   </head>
+   <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+      <div class="reference">
+         <div class="titlepage">
+            <div>
+               <h1 class="title"><a name="d41e1"></a>Common Template Reference
+               </h1>
+            </div>
+            <div>
+               <h3 class="author">Norman Walsh</h3>
+            </div>
+            <div>
+               <p class="releaseinfo">
+                  $Id$
+                  
+               </p>
+            </div>
+            <div>
+               <p class="copyright"><a href="../copyright.html">Copyright</a> &copy; 1999, 2000 by Norman Walsh. <a href="../warranty.html">No Warranty</a>.
+               </p>
+            </div>
+            <hr>
+         </div>
+         <div class="partintro">
+            <div></div>
+            <div class="section"><a name="d41e24"></a><div class="titlepage">
+                  <div>
+                     <h2 class="title" style="clear: all"><a name="d41e24"></a>Introduction
+                     </h2>
+                  </div>
+               </div>
+               <p>This is technical reference documentation for the DocBook XSL
+                  Stylesheets; it documents (some of) the parameters, templates, and
+                  other elements of the stylesheets.
+               </p>
+               <p>This is not intended to be &#8220;user&#8221; documentation.
+                  It is provided for developers writing customization layers for the
+                  stylesheets, and for anyone who's interested in &#8220;how it
+                  works&#8221;.
+               </p>
+               <p>Although I am trying to be thorough, this documentation is known
+                  to be incomplete. Don't forget to read the source, too :-)
+               </p>
+            </div>
+            <div class="toc">
+               <p><b>Table of Contents</b></p>
+               <dl>
+                  <dt><a href="#template.is.component">is.component</a></dt>
+                  <dt><a href="#template.is.section">is.section</a></dt>
+                  <dt><a href="#template.section.level">section.level</a></dt>
+                  <dt><a href="#template.qanda.section.level">qanda.section.level</a></dt>
+                  <dt><a href="#template.select.mediaobject">select.mediaobject</a></dt>
+                  <dt><a href="#template.is.acceptable.mediaobject">is.acceptable.mediaobject</a></dt>
+                  <dt><a href="#template.check.id.unique">check.id.unique</a></dt>
+                  <dt><a href="#template.check.idref.targets">check.idref.targets</a></dt>
+               </dl>
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="template.is.component"></a>is.component
+            </h1>
+            <div class="refnamediv"><a name="d41e40"></a><h2>Name</h2>is.component &#8212; Tests if a given node is a component-level element
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e45"></a><h2>Synopsis</h2><pre class="synopsis">&lt;xsl:template name="is.component"&gt;
+&lt;xsl:param name="node" select="."/&gt;
+  ...
+&lt;/xsl:template&gt;</pre></div>
+            <div class="refdescription"><a name="d41e48"></a>
+               
+               
+               <p>This template returns '1' if the specified node is a component
+                  (Chapter, Appendix, etc.), and '0' otherwise.
+               </p>
+               
+               
+            </div>
+            <div class="refparameter"><b><a name="d41e53"></a>Parameters</b>
+               
+               
+               <div class="variablelist">
+                  <dl>
+                     <dt><a name="d41e56"></a><span class="term">node</span></dt>
+                     <dd>
+                        <p><a name="d41e59"></a>The node which is to be tested.
+                        </p>
+                     </dd>
+                  </dl>
+               </div>
+               
+               
+            </div>
+            <div class="refreturn"><b><a name="d41e63"></a>Returns</b>
+               
+               
+               <p>This template returns '1' if the specified node is a component
+                  (Chapter, Appendix, etc.), and '0' otherwise.
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="template.is.section"></a>is.section
+            </h1>
+            <div class="refnamediv"><a name="d41e69"></a><h2>Name</h2>is.section &#8212; Tests if a given node is a section-level element
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e74"></a><h2>Synopsis</h2><pre class="synopsis">&lt;xsl:template name="is.section"&gt;
+&lt;xsl:param name="node" select="."/&gt;
+  ...
+&lt;/xsl:template&gt;</pre></div>
+            <div class="refdescription"><a name="d41e77"></a>
+               
+               
+               <p>This template returns '1' if the specified node is a section
+                  (Section, Sect1, Sect2, etc.), and '0' otherwise.
+               </p>
+               
+               
+            </div>
+            <div class="refparameter"><b><a name="d41e82"></a>Parameters</b>
+               
+               
+               <div class="variablelist">
+                  <dl>
+                     <dt><a name="d41e85"></a><span class="term">node</span></dt>
+                     <dd>
+                        <p><a name="d41e88"></a>The node which is to be tested.
+                        </p>
+                     </dd>
+                  </dl>
+               </div>
+               
+               
+            </div>
+            <div class="refreturn"><b><a name="d41e92"></a>Returns</b>
+               
+               
+               <p>This template returns '1' if the specified node is a section
+                  (Section, Sect1, Sect2, etc.), and '0' otherwise.
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="template.section.level"></a>section.level
+            </h1>
+            <div class="refnamediv"><a name="d41e98"></a><h2>Name</h2>section.level &#8212; Returns the hierarchical level of a section.
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e103"></a><h2>Synopsis</h2><pre class="synopsis">&lt;xsl:template name="section.level"&gt;
+&lt;xsl:param name="node" select="."/&gt;
+  ...
+&lt;/xsl:template&gt;</pre></div>
+            <div class="refdescription"><a name="d41e106"></a>
+               
+               
+               <p>This template calculates the hierarchical level of a section.
+                  Hierarchically, components are &#8220;top level&#8221;, so a
+                  <tt>sect1</tt> is at level 2, <tt>sect3</tt> is
+                  at level 3, etc.
+               </p>
+               
+               
+               
+               
+               <p>Recursive sections are calculated down to the sixth level.</p>
+               
+               
+            </div>
+            <div class="refparameter"><b><a name="d41e123"></a>Parameters</b>
+               
+               
+               <div class="variablelist">
+                  <dl>
+                     <dt><a name="d41e126"></a><span class="term">node</span></dt>
+                     <dd>
+                        <p><a name="d41e129"></a>The section node for which the level should be calculated.
+                           Defaults to the context node.
+                        </p>
+                     </dd>
+                  </dl>
+               </div>
+               
+               
+            </div>
+            <div class="refreturn"><b><a name="d41e133"></a>Returns</b>
+               
+               
+               <p>The section level, &#8220;2&#8221;, &#8220;3&#8221;, etc.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="template.qanda.section.level"></a>qanda.section.level
+            </h1>
+            <div class="refnamediv"><a name="d41e145"></a><h2>Name</h2>qanda.section.level &#8212; Returns the hierarchical level of a QandASet.
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e150"></a><h2>Synopsis</h2><pre class="synopsis">&lt;xsl:template name="qanda.section.level"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e153"></a>
+               
+               
+               <p>This template calculates the hierarchical level of a QandASet.
+                  
+               </p>
+               
+               
+            </div>
+            <div class="refreturn"><b><a name="d41e158"></a>Returns</b>
+               
+               
+               <p>The level, &#8220;1&#8221;, &#8220;2&#8221;, etc.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="template.select.mediaobject"></a>select.mediaobject
+            </h1>
+            <div class="refnamediv"><a name="d41e170"></a><h2>Name</h2>select.mediaobject &#8212; Selects an appropriate media object from a list
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e175"></a><h2>Synopsis</h2><pre class="synopsis">&lt;xsl:template name="select.mediaobject"&gt;
+&lt;xsl:param name="olist" select="imageobject|imageobjectco                      |videoobject|audioobject|textobject"/&gt;
+&lt;xsl:param name="count"&gt;1&lt;/xsl:param&gt;
+  ...
+&lt;/xsl:template&gt;</pre></div>
+            <div class="refdescription"><a name="d41e178"></a>
+               
+               
+               <p>This template examines a list of media objects (usually the
+                  children of a mediaobject or inlinemediaobject) and processes
+                  the "right" object.
+               </p>
+               
+               
+               
+               
+               <p>This template relies on a template named "is.acceptable.mediaobject"
+                  to determine if a given object is an acceptable graphic. The semantics
+                  of media objects is that the first acceptable graphic should be used.
+                  
+               </p>
+               
+               
+               
+               
+               <p>If no acceptable object is located, nothing happens.</p>
+               
+               
+            </div>
+            <div class="refparameter"><b><a name="d41e189"></a>Parameters</b>
+               
+               
+               <div class="variablelist">
+                  <dl>
+                     <dt><a name="d41e192"></a><span class="term">olist</span></dt>
+                     <dd>
+                        <p><a name="d41e195"></a>The node list of potential objects to examine.
+                        </p>
+                     </dd>
+                  </dl>
+               </div>
+               
+               
+            </div>
+            <div class="refreturn"><b><a name="d41e199"></a>Returns</b>
+               
+               
+               <p>Calls &lt;xsl:apply-templates&gt; on the selected object.</p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="template.is.acceptable.mediaobject"></a>is.acceptable.mediaobject
+            </h1>
+            <div class="refnamediv"><a name="d41e205"></a><h2>Name</h2>is.acceptable.mediaobject &#8212; Returns '1' if the specified media object is recognized.
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e210"></a><h2>Synopsis</h2><pre class="synopsis">&lt;xsl:template name="is.acceptable.mediaobject"&gt;
+&lt;xsl:param name="object"/&gt;
+  ...
+&lt;/xsl:template&gt;</pre></div>
+            <div class="refdescription"><a name="d41e213"></a>
+               
+               
+               <p>This template examines a media object and returns '1' if the
+                  object is recognized as a graphic.
+               </p>
+               
+               
+            </div>
+            <div class="refparameter"><b><a name="d41e218"></a>Parameters</b>
+               
+               
+               <div class="variablelist">
+                  <dl>
+                     <dt><a name="d41e221"></a><span class="term">object</span></dt>
+                     <dd>
+                        <p><a name="d41e224"></a>The media object to consider.
+                        </p>
+                     </dd>
+                  </dl>
+               </div>
+               
+               
+            </div>
+            <div class="refreturn"><b><a name="d41e228"></a>Returns</b>
+               
+               
+               <p>0 or 1</p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="template.check.id.unique"></a>check.id.unique
+            </h1>
+            <div class="refnamediv"><a name="d41e234"></a><h2>Name</h2>check.id.unique &#8212; Warn users about references to non-unique IDs
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e239"></a><h2>Synopsis</h2><pre class="synopsis">&lt;xsl:template name="check.id.unique"&gt;
+&lt;xsl:param name="linkend"/&gt;
+  ...
+&lt;/xsl:template&gt;</pre></div>
+            <div class="refdescription"><a name="d41e242"></a>
+               
+               
+               <p>If passed an ID in <tt>linkend</tt>,
+                  <tt>check.id.unique</tt> prints
+                  a warning message to the user if either the ID does not exist or
+                  the ID is not unique.
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="template.check.idref.targets"></a>check.idref.targets
+            </h1>
+            <div class="refnamediv"><a name="d41e254"></a><h2>Name</h2>check.idref.targets &#8212; Warn users about incorrectly typed references
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e259"></a><h2>Synopsis</h2><pre class="synopsis">&lt;xsl:template name="check.idref.targets"&gt;
+&lt;xsl:param name="linkend"/&gt;
+&lt;xsl:param name="element-list"/&gt;
+  ...
+&lt;/xsl:template&gt;</pre></div>
+            <div class="refdescription"><a name="d41e262"></a>
+               
+               
+               <p>If passed an ID in <tt>linkend</tt>,
+                  <tt>check.idref.targets</tt> makes sure that the element
+                  pointed to by the link is one of the elements listed in
+                  <tt>element-list</tt> and warns the user otherwise.
+               </p>
+               
+               
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

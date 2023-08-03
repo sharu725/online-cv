@@ -1,0 +1,5 @@
+compilation error: file ./bug-145.xsl line 4 element transform
+xsl:version is missing: document may not be a stylesheet
+runtime error: file ./bug-145.xsl line 6 element call-template
+The called template '{a}a' was not found.
+no result for ./../docs/bug-145.xml

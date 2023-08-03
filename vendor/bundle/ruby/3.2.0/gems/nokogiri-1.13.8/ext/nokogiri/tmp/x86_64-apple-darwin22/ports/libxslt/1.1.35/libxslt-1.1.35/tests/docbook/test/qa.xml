@@ -1,0 +1,136 @@
+<!DOCTYPE book
+  PUBLIC "-//Norman Walsh//DTD DocBk XML V3.1.7//EN"
+  "../dtd/3.1.7/docbookx.dtd" [
+<!ENTITY qandasetbody "<qandadiv><title>Q&amp;A Div 1</title>
+<qandaentry>
+<question><label>Q1</label>
+<para>Question para 1</para>
+<para>Question para 2</para>
+</question>
+<answer><label>A1</label>
+<para>Answer para 1</para>
+<para>Answer para 2</para>
+</answer>
+</qandaentry>
+</qandadiv>
+<qandadiv><title>Q&amp;A Div 2</title>
+<qandaentry>
+<question>
+<para>Question para 1</para>
+<para>Question para 2</para>
+</question>
+<answer>
+<para>Answer para 1</para>
+<para>Answer para 2</para>
+</answer>
+</qandaentry>
+<qandaentry>
+<question>
+<para>Question para 1</para>
+<para>Question para 2</para>
+</question>
+<answer>
+<para>Answer para 1</para>
+<para>Answer para 2</para>
+</answer>
+</qandaentry>
+</qandadiv>">
+]>
+<book><title>book title</title>
+<chapter><title>chapter test</title>
+
+<qandaset>
+<title>Q&amp;A Set (unspecified)</title>
+&qandasetbody;
+</qandaset>
+
+<qandaset defaultlabel="none">
+<title>Q&amp;A Set (none)</title>
+&qandasetbody;
+</qandaset>
+
+<qandaset defaultlabel="number">
+<title>Q&amp;A Set (number)</title>
+&qandasetbody;
+</qandaset>
+
+<qandaset defaultlabel="qanda">
+<title>Q&amp;A Set (qanda)</title>
+&qandasetbody;
+</qandaset>
+
+<section><title>Section title</title>
+
+<qandaset>
+<title>Q&amp;A Set (unspecified)</title>
+&qandasetbody;
+</qandaset>
+
+<qandaset defaultlabel="none">
+<title>Q&amp;A Set (none)</title>
+&qandasetbody;
+</qandaset>
+
+<qandaset defaultlabel="number">
+<title>Q&amp;A Set (number)</title>
+&qandasetbody;
+</qandaset>
+
+<qandaset defaultlabel="qanda">
+<title>Q&amp;A Set (qanda)</title>
+&qandasetbody;
+</qandaset>
+
+</section>
+
+</chapter>
+
+<appendix><title>appendix test</title>
+
+<qandaset>
+<title>Q&amp;A Set (unspecified)</title>
+&qandasetbody;
+</qandaset>
+
+<qandaset defaultlabel="none">
+<title>Q&amp;A Set (none)</title>
+&qandasetbody;
+</qandaset>
+
+<qandaset defaultlabel="number">
+<title>Q&amp;A Set (number)</title>
+&qandasetbody;
+</qandaset>
+
+<qandaset defaultlabel="qanda">
+<title>Q&amp;A Set (qanda)</title>
+&qandasetbody;
+</qandaset>
+
+<section><title>Section title</title>
+
+<qandaset>
+<title>Q&amp;A Set (unspecified)</title>
+&qandasetbody;
+</qandaset>
+
+<qandaset defaultlabel="none">
+<title>Q&amp;A Set (none)</title>
+&qandasetbody;
+</qandaset>
+
+<qandaset defaultlabel="number">
+<title>Q&amp;A Set (number)</title>
+&qandasetbody;
+</qandaset>
+
+<qandaset defaultlabel="qanda">
+<title>Q&amp;A Set (qanda)</title>
+&qandasetbody;
+</qandaset>
+
+</section>
+
+</appendix>
+</book>
+

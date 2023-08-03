@@ -1,0 +1,29 @@
+libFuzzer instructions for libxslt
+==================================
+
+Set compiler and options. Disable float-divide-by-zero and pointer-overflow
+sanitizers when using UBSan.
+
+    export CC=clang
+    export CFLAGS="-g -fsanitize=fuzzer-no-link,address,undefined \
+        -fno-sanitize=float-divide-by-zero,pointer-overflow \
+        -fno-sanitize-recover=all \
+        -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION"
+
+Build libxml2 with instrumentation:
+
+    cd /path/to/libxml2
+    ./configure --without-python
+    make
+
+Build libxslt with instrumentation:
+
+    cd /path/to/libxslt
+    ./configure --without-python --with-libxml-src=/path/to/libxml2
+    make
+
+Run fuzzers:
+
+    make -C tests/fuzz fuzz-xslt
+    make -C tests/fuzz fuzz-xpath
+

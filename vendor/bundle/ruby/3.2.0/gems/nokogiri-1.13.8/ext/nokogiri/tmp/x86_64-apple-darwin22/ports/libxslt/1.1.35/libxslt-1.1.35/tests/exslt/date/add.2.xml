@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<page>
+  <!-- invalid arguments -->
+  <date date='PT0S'                 dur='2000-01-01T01:01:00Z'/>
+  <date date='2000-01-01T01:01:00Z' dur=''/>
+  <date date=''                     dur='PT60S'/>
+  <!-- invalid date/time types -->
+  <date date="--10-29"              dur="PT60S"/>
+  <date date="---29"                dur="PT60S"/>
+  <date date="10:31:07"             dur="PT60S"/>
+</page>
+

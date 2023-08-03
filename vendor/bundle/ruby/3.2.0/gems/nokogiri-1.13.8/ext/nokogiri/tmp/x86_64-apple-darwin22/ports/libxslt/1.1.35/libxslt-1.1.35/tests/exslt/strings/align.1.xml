@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<test-cases>
+    <test-case string="déja vu" padding="–––––––––––––" alignment="left"/>
+    <test-case string="déja vu" padding="–––––––––––––" alignment="center"/>
+    <test-case string="déja vu" padding="–––––––––––––" alignment="right"/>
+    <test-case string="déja vu" padding="––––" alignment="left"/>
+    <test-case string="déja vu" padding="–––––––" alignment="left"/>
+</test-cases>
+

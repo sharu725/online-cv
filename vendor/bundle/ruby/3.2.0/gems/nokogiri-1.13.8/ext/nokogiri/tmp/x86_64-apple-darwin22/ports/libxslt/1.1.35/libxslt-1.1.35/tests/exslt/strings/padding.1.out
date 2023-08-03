@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<test-results>
+  <test-result>
+    <padding>     </padding>
+    <length-check>OK</length-check>
+  </test-result>
+  <test-result>
+    <padding>--------</padding>
+    <length-check>OK</length-check>
+  </test-result>
+  <test-result>
+    <padding>abcabcabca</padding>
+    <length-check>OK</length-check>
+  </test-result>
+  <test-result>
+    <padding>–––––––</padding>
+    <length-check>OK</length-check>
+  </test-result>
+  <test-result>
+    <padding>– – – – – –</padding>
+    <length-check>OK</length-check>
+  </test-result>
+  <test-result>
+    <padding>ÄÖÜÄÖÜ</padding>
+    <length-check>OK</length-check>
+  </test-result>
+</test-results>

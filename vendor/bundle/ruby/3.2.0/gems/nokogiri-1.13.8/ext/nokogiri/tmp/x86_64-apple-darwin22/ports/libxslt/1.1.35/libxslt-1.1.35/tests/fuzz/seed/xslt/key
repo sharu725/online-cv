@@ -1,0 +1,4 @@
+<x:stylesheet xmlns:x="http://www.w3.org/1999/XSL/Transform" xmlns:a="a" xmlns:b="b" version="1.0">
+<x:key name="k" match="*" use="."/>
+<x:template match="a:*"><x:copy-of select="key('k',.)"/></x:template>
+</x:stylesheet>

@@ -1,0 +1,5 @@
+<!ENTITY % cals.table.module "INCLUDE">
+
+<!ENTITY % docbook SYSTEM "docbookx.dtd">
+%docbook;
+

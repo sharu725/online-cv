@@ -1,0 +1,76 @@
+README for the DocBk XML V3.1.7 DTD
+
+This is an XML version of the DocBook V3.1 DTD
+
+Manifest
+--------
+
+README        - This readme file
+VERSION       - The version number
+COPYRIGHT     - Copyright statement
+ChangeLog     - Summary of changes from previous versions
+calstblx.dtd  - An XML version of the CALS Table Model DTD
+dbcentx.mod   - Character entities
+dbgenent.ent  - General entities
+dbhierx.mod   - The XML version of the hierarchy module
+dbnotnx.mod   - Notations
+dbpoolx.mod   - The XML version of the information pool module
+docbookx.dtd  - The XML version of the DocBook 3.1 DTD
+soextblx.dtd  - An XML version of the OASIS Exchange Table model
+test.xml      - A test document
+ent/          - XML versions of the ISO entity sets
+
+Installation
+------------
+
+Place the files in this distribution somewhere on your machine.  Adjust
+your catalog(s) if appropriate (XML tools frequently do not support 
+catalogs, so this may be irrelevant for you).
+
+Please use the following formal public identifier to identify this DTD:
+
+"-//Norman Walsh//DTD DocBk XML V3.1.7//EN"
+
+For example, if your document's top-level element is <book>, and
+you are using DocBk XML directly, use the FPI in the DOCTYPE
+declaration:
+
+<!DOCTYPE book PUBLIC "-//Norman Walsh//DTD DocBk XML V3.1.7//EN"
+          "/system/identifier/on/your/system/db3xml.dtd" [
+...
+]>
+
+Or, if you have a higher-level driver file that customizes DocBk XML,
+use the FPI in the parameter entity declaration:
+
+<!ENTITY % DocBkXML PUBLIC "-//Norman Walsh//DTD DocBk XML V3.1.7//EN"
+           "/system/identifier/on/your/system/db3xml.dtd">
+%DocBkXML;
+
+
+Copyright
+---------
+
+Copyright (C) 1998, 1999 Norman Walsh
+
+See COPYRIGHT for more information
+
+Warranty
+--------
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT.  IN NO EVENT SHALL NORMAN WALSH OR ANY OTHER
+CONTRIBUTOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+Contacting the Author
+---------------------
+
+This DTD is maintained by Norman Walsh, <ndw@nwalsh.com>.
+
+The best way to reach norm is by email.  You will find additional
+contact information at http://nwalsh.com/docbook/xml/

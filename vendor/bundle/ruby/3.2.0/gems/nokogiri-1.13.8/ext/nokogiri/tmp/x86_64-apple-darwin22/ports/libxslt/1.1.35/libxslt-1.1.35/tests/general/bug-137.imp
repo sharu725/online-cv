@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<xsl:stylesheet version="1.0"
+ xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+ xmlns:func="http://exslt.org/functions"
+ extension-element-prefixes="func"
+ >
+ <xsl:key name="mykey" match="test" use="func:initial(.)" />
+  <func:function name="func:initial">
+    <xsl:param name="s" />
+    <func:result select="substring($s,1,1)" />
+  </func:function>
+</xsl:stylesheet>

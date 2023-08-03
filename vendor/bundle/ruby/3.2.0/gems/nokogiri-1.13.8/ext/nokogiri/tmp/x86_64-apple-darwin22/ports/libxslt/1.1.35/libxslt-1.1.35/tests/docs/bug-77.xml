@@ -1,0 +1,4 @@
+<foo>
+<bar  id="Wowie" xml:lang="en">Hi</bar>
+<bar id="Zowie" xml:lang="fr">bonjour</bar>
+</foo>

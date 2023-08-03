@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<page>
+  <date seconds="60"/>
+  <date seconds="360"/>
+  <date seconds="3600"/>
+  <date seconds="86400"/>
+  <date seconds="86400.5"/>
+  <date seconds="3660"/>
+  <date seconds="61"/>
+  <date seconds="90061"/>
+  <date seconds="0.5"/>
+  <date seconds="0.05"/>
+  <date seconds="990.005"/>
+  <date seconds="-60"/>
+  <date seconds="9999999999999"/>
+  <date seconds="-2999999999"/>
+</page>
+

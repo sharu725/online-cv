@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding="ISO-8859-1"?>
+
+<test:schema xmlns:test="http://test.com"
+             xmlns:xlink="http://xlink.com">
+<test:root >
+   <test:child>
+   </test:child>
+</test:root>
+</test:schema>

@@ -1,0 +1,22 @@
+<test>
+    <formats>
+        <format>&#x0660;&#x0661;</format>
+        <format>&#x06F0;&#x06F1;</format>
+        <format>&#x0966;&#x0967;</format>
+        <format>&#x09E6;&#x09E7;</format>
+        <format>&#x0A66;&#x0A67;</format>
+        <format>&#x0AE6;&#x0AE7;</format>
+        <format>&#x0B66;&#x0B67;</format>
+        <format>&#x0C66;&#x0C67;</format>
+        <format>&#x0CE6;&#x0CE7;</format>
+        <format>&#x0D66;&#x0D67;</format>
+        <format>&#x0E50;&#x0E51;</format>
+        <format>&#x0ED0;&#x0ED1;</format>
+        <format>&#x0F20;&#x0F21;</format>
+    </formats>
+    <values>
+        <value>0</value>
+        <value>9</value>
+	<value>1234567890</value>
+    </values>
+</test>

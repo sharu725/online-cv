@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<xsl:stylesheet
+    version="1.0"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:exsl="http://exslt.org/common"
+    xmlns:func="http://exslt.org/functions"
+        extension-element-prefixes="exsl func"
+        exclude-result-prefixes="exsl func my"
+    xmlns:my="my://own.uri"
+>
+
+<xsl:import href="import-test1b.imp"/>
+
+<func:function name="my:f1">
+<func:result>
+Func f1 in module 1a</func:result>
+</func:function>
+
+<func:function name="my:f2">
+<func:result>
+Func f2 in module 1a</func:result>
+</func:function>
+
+<xsl:template match="/">
+    <xsl:copy-of select="my:f1()"/>
+    <xsl:copy-of select="my:f2()"/>
+    <xsl:copy-of select="my:f3()"/>
+</xsl:template>
+
+</xsl:stylesheet>

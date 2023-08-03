@@ -1,0 +1,8 @@
+<x:stylesheet xmlns:x="http://www.w3.org/1999/XSL/Transform" xmlns:a="a" xmlns:b="b" version="1.0">
+<x:template match="*">
+<x:call-template name="n"><x:with-param name="p" select="."/></x:call-template>
+</x:template>
+<x:template name="n">
+<x:param name="p"/><x:value-of select="$p"/>
+</x:template>
+</x:stylesheet>

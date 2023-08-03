@@ -1,0 +1,53 @@
+p.who {
+	font-size: small;
+	text-align: right;
+}
+
+hr.thin {
+	height: 1px;
+}
+
+table.progress {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	border-bottom: hidden;
+
+}
+
+td:first-child.progress {
+	border-spacing: 0px;
+	border-style: solid;
+	border-right: hidden;
+	border-left: hidden;
+	border-width: 1px;
+}
+
+td.progress {
+	border-spacing: 0px;
+	border-style: solid;
+	border-right: hidden;
+	border-width: 1px;
+}
+
+th:first-child.progress {
+	border-spacing: 0px;
+	border-style: solid;
+	border-right: hidden;
+	border-left: hidden;
+	border-top: hidden;
+	border-width: 1px;
+	border-bottom: solid 2px;
+}
+
+th.progress {
+	border-spacing: 0px;
+	border-style: solid;
+	border-right: hidden;
+	border-width: 1px;
+	border-top: hidden;
+	border-bottom: solid 2px;
+}
+

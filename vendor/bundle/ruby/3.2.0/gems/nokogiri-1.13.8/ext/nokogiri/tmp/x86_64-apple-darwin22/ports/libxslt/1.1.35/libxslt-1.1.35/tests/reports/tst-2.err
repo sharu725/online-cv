@@ -1,0 +1,6 @@
+compilation error: file ./tst-2.xsl line 2 element text
+misplaced text element: '
+
+a not allowed top level element
+
+'

@@ -1,0 +1,34 @@
+<doc>
+    <orderedlist>
+      <listitem>listitem1</listitem>
+      <listitem>listitem2</listitem>
+      <listitem>listitem3</listitem>
+      <listitem>listitem4</listitem>
+      <listitem>listitem5</listitem>
+      <listitem>listitem6</listitem>
+      <listitem>
+	<orderedlist>
+	  <listitem>
+	    <orderedlist>
+	      <listitem>
+	      </listitem>
+	      <listitem>listitem7.1.2</listitem>
+	      <listitem>listitem7.1.3</listitem>
+	      <listitem>listitem7.1.4</listitem>
+	      <listitem>listitem7.1.5</listitem>
+	      <listitem>listitem7.1.6</listitem>
+	      <listitem>
+	      </listitem>
+	    </orderedlist>
+	  </listitem>
+	  <listitem>listitem7.2</listitem>
+	  <listitem>listitem7.3</listitem>
+	  <listitem>listitem7.4</listitem>
+	  <listitem>listitem7.5</listitem>
+	  <listitem>listitem7.6</listitem>
+	  <listitem>
+	  </listitem>
+	</orderedlist>
+      </listitem>
+    </orderedlist>
+</doc>

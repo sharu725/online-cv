@@ -1,0 +1,12 @@
+<!DOCTYPE doc [
+<!NOTATION GIF PUBLIC "GIF">
+<!ENTITY graphic SYSTEM "graphic.gif" NDATA GIF>
+<!ELEMENT doc (img)>
+<!ELEMENT img EMPTY>
+<!ATTLIST img
+	entref	ENTITY	#REQUIRED
+>
+]>
+<doc>
+<img entref="graphic"/>
+</doc>

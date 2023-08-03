@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE book
+  PUBLIC "-//Norman Walsh//DTD DocBk XML V3.1.7//EN"
+  "../dtd/3.1.7/docbookx.dtd">
+<book id="book">
+<title>Book Title</title>
+
+<chapter id="ch1">
+<title>test</title>
+<para>How many &deg; can you &copy;.</para>
+<para>And what about <xref linkend="ch1"/>.</para>
+<para>And what about <xref linkend="s1"/>.</para>
+
+<programlisting>
+This is a program
+listing.
+</programlisting>
+
+</chapter>
+</book>

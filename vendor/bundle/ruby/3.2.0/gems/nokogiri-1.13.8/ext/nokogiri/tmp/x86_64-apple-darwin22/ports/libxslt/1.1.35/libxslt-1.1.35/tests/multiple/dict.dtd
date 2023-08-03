@@ -1,0 +1,114 @@
+<!--* $Id$
+    *-->
+<!--* &c; expands to "&c." *-->
+<!ENTITY c "&#38;#38;c.">
+
+<!--* &stress; is a foot mark to indicate a stressed syllable *-->
+<!ENTITY stress "'">
+
+<!--* amp is an ampersand *-->
+<!ENTITY amp "&#38;#38;">
+
+<!ENTITY hy "-">
+
+<!ELEMENT dict
+  (titlepage?, letter+)
+>
+
+<!ELEMENT titlepage
+    (title, (p|note)*)
+>
+
+<!ELEMENT letter
+    (title,entry*,graphic?)
+>
+<!ATTLIST letter
+    pagesize CDATA #IMPLIED
+    name CDATA #IMPLIED
+>
+
+<!ELEMENT graphic
+    (sheet*)
+>
+
+<!ELEMENT sheet
+    (#PCDATA)
+>
+
+
+<!ENTITY % Text '(#PCDATA|i|b|sc|sub|sup|eg|meaning|xref)*'>
+
+<!ELEMENT title
+    (#PCDATA|i|b|sc|sub|sup|eg|meaning|xref)*
+>
+<!ATTLIST title
+    brace (left|right|both|neither) "neither"
+    link (target|ignore) #IMPLIED
+>
+
+<!ENTITY % Lumps '(p|blockquote)+' >
+
+<!ELEMENT entry
+    (title+,target*,%Lumps;)
+>
+<!ATTLIST entry
+    sortas CDATA #IMPLIED
+    id ID #IMPLIED
+    category CDATA #REQUIRED
+>
+
+<!--* a target gives an extra headword to use in linking *-->
+<!ELEMENT target
+    (#PCDATA)*
+>
+
+<!ELEMENT p
+    (#PCDATA|i|b|sc|sub|sup|eg|meaning|xref)*
+>
+
+<!ELEMENT blockquote
+    (%Lumps;)
+>
+
+<!ELEMENT note
+    (p+)
+>
+
+<!ELEMENT xref
+    (#PCDATA|i|b|sc|sub|sup|eg|meaning|xref)*
+>
+<!ATTLIST xref
+    refint IDREF #REQUIRED
+>
+
+<!ELEMENT i
+    (#PCDATA|i|b|sc|sub|sup|eg|meaning|xref)*
+>
+
+<!ELEMENT b
+    (#PCDATA|i|b|sc|sub|sup|eg|meaning|xref)*
+>
+
+<!ELEMENT sc
+    (#PCDATA|i|b|sc|sub|sup|eg|meaning|xref)*
+>
+
+<!ELEMENT sup
+    (#PCDATA|i|b|sc|sub|sup|eg|meaning|xref)*
+>
+
+<!ELEMENT eg
+    (#PCDATA|i|b|sc|sub|sup|eg|meaning|xref|interj)*
+>
+
+<!ELEMENT interj
+    (#PCDATA|i|b|sc|sub|sup|eg|meaning|xref)*
+>
+
+<!ELEMENT meaning
+    (#PCDATA|i|b|sc|sub|sup|eg|meaning|xref)*
+>
+
+<!ELEMENT sub
+    (#PCDATA|i|b|sc|sub|sup|eg|meaning|xref)*
+>

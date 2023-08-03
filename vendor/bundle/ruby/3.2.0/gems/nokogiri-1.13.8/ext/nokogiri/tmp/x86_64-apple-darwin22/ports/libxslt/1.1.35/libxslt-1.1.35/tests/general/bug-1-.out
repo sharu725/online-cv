@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<FOO>
+        <BAR>This is bar 1</BAR>
+        <XXX/>
+        <BAR>This is bar 2</BAR>
+</FOO>

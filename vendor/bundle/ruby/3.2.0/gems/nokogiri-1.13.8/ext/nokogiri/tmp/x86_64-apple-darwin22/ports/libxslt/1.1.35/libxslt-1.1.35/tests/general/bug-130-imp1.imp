@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<xsl:stylesheet version="1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:template match="article">
+  <xsl:text>article in module #1;</xsl:text>
+  <xsl:apply-templates/>
+</xsl:template>
+
+
+<xsl:template match="title">
+  <xsl:text>title in module #1;</xsl:text>
+</xsl:template>
+
+
+<xsl:template match="header">
+  <xsl:text>header #1 in module #1;</xsl:text>
+</xsl:template>
+
+
+<xsl:template match="header[logo]">
+  <xsl:text>header #2 in module #1;</xsl:text>
+</xsl:template>
+
+</xsl:stylesheet>

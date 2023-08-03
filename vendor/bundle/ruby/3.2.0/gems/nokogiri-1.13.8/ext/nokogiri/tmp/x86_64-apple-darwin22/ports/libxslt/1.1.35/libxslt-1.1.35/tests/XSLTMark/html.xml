@@ -1,0 +1,21 @@
+<sales>
+
+<division id="North">
+<revenue>10</revenue>
+<growth>9</growth>
+<bonus>7</bonus>
+</division>
+
+<division id="South">
+<revenue>4</revenue>
+<growth>3</growth>
+<bonus>4</bonus>
+</division>
+
+<division id="West">
+<revenue>6</revenue>
+<growth>-1.5</growth>
+<bonus>2</bonus>
+</division>
+
+</sales>

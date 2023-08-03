@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bb:root xmlns:bb="http://bbrack.org">
+  <element1 xmlns="http://delightful.com.hk">
+    <element2>Content 2</element2>
+  </element1>
+  <bb:element3>Content 3</bb:element3>
+</bb:root>

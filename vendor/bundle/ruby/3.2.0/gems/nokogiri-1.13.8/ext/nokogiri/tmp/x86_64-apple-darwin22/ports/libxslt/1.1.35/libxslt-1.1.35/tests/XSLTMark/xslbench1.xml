@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<table>
+	<row>
+		<column>Row1 - Text1</column>
+		<column>Row1 - Text2</column>
+	</row>
+	<row>
+		<column>Row2 - Text1</column>
+		<column>Row2 - Text2</column>
+	</row>
+	<row>
+		<column>Row3 - Text1</column>
+		<column>Row3 - Text2</column>
+	</row>
+	<row>
+		<column>Row4 - Text1</column>
+		<column>Row4 - Text2</column>
+	</row>
+</table>		

@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<out xmlns:math="http://exslt.org/math">
+        Minimum: <minprice>10</minprice>
+        Maximum: <maxprice>15</maxprice></out>

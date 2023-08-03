@@ -1,0 +1,34 @@
+2001-06-14  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* VERSION: Version 1.40 released.
+
+2001-05-24  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* VERSION: Version 1.39 released.
+
+2001-05-21  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* VERSION: Version 1.38 released.
+
+2001-04-20  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* VERSION: Version 1.37 released.
+
+2001-04-15  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* Makefile, README: Make distribution hacks
+
+2001-04-04  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* VERSION: Version 1.36 released.
+
+2001-04-03  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* .cvsignore, Makefile: Misc. cleanup in preparation for making a distrib
+
+2001-04-02  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* BUGS, Makefile, README.CVS, TODO, VERSION: New file.
+
+	* Makefile: Make common files
+

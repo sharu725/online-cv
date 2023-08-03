@@ -1,0 +1,72 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Packaging Applet Documentation</title><meta name="generator" content="DocBook XSL Stylesheets V1.40"><link rel="home" href="index.html" title="The GNOME Handbook of Writing Software Documentation"><link rel="up" href="index.html" title="The GNOME Handbook of Writing Software Documentation"><link rel="previous" href="indexs08.html" title="Application Help Buttons"><link rel="next" href="indexs10.html" title="Writing Context Sensitive Help (coming in GNOME-2.0)"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Packaging Applet Documentation</th></tr><tr><td width="20%" align="left"><a href="indexs08.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a href="indexs10.html">Next</a></td></tr></table><hr></div><div class="sect1"><a name="packagingappletdocs"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="packagingappletdocs"></a>Packaging Applet Documentation</h2></div></div><div class="sect2"><a name="appletfiles"></a><div class="titlepage"><div><h3 class="title"><a name="appletfiles"></a>Applet Documentation Files</h3></div></div><p>
+        In GNOME 2.0 each applet will have its own documentation
+        installed separately, and the GNOME 2.0 help
+        browser (Nautilus) will dynamically
+        merge the applet documents into a single virtual book
+        called <i>GNOME Applets</i>. During the
+        transitionary stage between GNOME 1.0 and GNOME 2.0, each
+        applet in the gnome-applets package has its own manual(stored
+        with the applet in CVS), but they are merged together manually
+        to create the <i>GNOME Applets</i> book before
+        distribution.  Telsa 
+        <tt>&lt;<a href="mailto:hobbit@aloss.ukuu.org.uk">hobbit@aloss.ukuu.org.uk</a>&gt;</tt> is the maintainer of
+        this document.  Applet documentation should be sent to Telsa
+        (or placed in CVS) who will make sure they are correctly
+        packaged with the applets.  The applet author should be
+        contacted to modify the menu items and help buttons to bind to
+        the applet documentation if necessary.
+      </p><p>
+        Images which are part of the applet documentation should be in
+        PNG format and should reside in the same directory as the SGML
+        document file in CVS(gnome-applets/APPLETNAME/help/C).
+      </p><p>
+        Applets which are not part of the gnome-applets package must
+        package their documentation with the particular applet
+        package. They should use the same applet template as other
+        applets.  However, the <tt>&lt;xref&gt;</tt> links to
+        the introductory chapter of the <i>GNOME
+        Applets</i>  book must be removed (as the 1.x
+        GNOME Help Browser does not allow
+        you to create links between separate documents) and replaced
+        with suitable text.  Note that since this document is not part
+        of the <i>GNOME Applets</i> book, you must
+        remember to add <tt>&lt;legalnotice&gt;</tt> and
+        <tt>&lt;copyright&gt;</tt> sections.
+      </p></div><div class="sect2"><a name="appletmenu"></a><div class="titlepage"><div><h3 class="title"><a name="appletmenu"></a>Adding Documentation to an Applet Menu</h3></div></div><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title"><a name="id2940608"></a>Developer Information</h3><p>
+          This section is for developers.  Documentation authors
+          generally do not need to know this material.
+        </p></div><p>
+        Applets should have About and
+        Manual menu items, typically as the first
+        and second top-most items in the menu respectively.  This
+        section describes how the developer creates these menu items
+        and links them to the documentation.
+      </p><p>
+        To add an applet's manual to its applet menu, use:
+<pre class="programlisting">
+/* add an item to the applet menu */
+applet_widget_register_callback(APPLET_WIDGET(applet), "manual",
+_("Manual"), &amp;open_manual, NULL);
+</pre>
+        Here the second argument is an arbitrary name for the
+        callback, the third argument is the label which will appear
+        when the user right clicks on the applet, and the fourth
+        argument is the callback function.
+      </p><p>
+        You will need to write a simple callback function to open the
+        help browser to the appropriate document.  This is done using
+        the <tt>gnome_help_file_find_file</tt> function,
+        as described in <a href="indexs08.html" title="Application Help Buttons">the section called &#8220;Application Help Buttons&#8221;</a>.
+      </p><p>
+        You will also want to add an About menu
+        item to the applet's menu.  This is a
+        stock menu item and is done:
+<pre class="programlisting">
+applet_widget_register_stock_callback (APPLET_WIDGET(applet), "about",
+       GNOME_STOCK_MENU_ABOUT, _("About"), &amp;my_applet_cb_about,
+       NULL);
+</pre>
+      </p><p>
+        More information can be found at <a href="http://developer.gnome.org/doc/tutorials/applet/index.html" target="_top">Writing
+        GNOME panel applets using the GTK+/GTK-- widget set</a>.
+      </p></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a href="indexs08.html">Prev</a> </td><td width="20%" align="center"><a href="index.html">Home</a></td><td width="40%" align="right"> <a href="indexs10.html">Next</a></td></tr><tr><td width="40%" align="left">Application Help Buttons </td><td width="20%" align="center"><a href="index.html">Up</a></td><td width="40%" align="right"> Writing Context Sensitive Help (coming in GNOME-2.0)</td></tr></table></div></body></html>

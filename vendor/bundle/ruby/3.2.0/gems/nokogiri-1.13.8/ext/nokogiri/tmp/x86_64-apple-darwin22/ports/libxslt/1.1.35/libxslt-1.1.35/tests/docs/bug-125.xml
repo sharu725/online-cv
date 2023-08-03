@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<errataset>
+  <errata page="28" paragraph="3" line="1" type="GRAMMAR" tracker="151902">
+    Replace "at once" with "both".
+  </errata>
+  <errata page="17" line="2" type="CLARIFICATION" tracker="151902">
+    Replace "the previous explanation of namespaces" with "the example of
+    namespaces in Example 2-1".
+  </errata>
+  <errata page="40" paragraph="1" line="5" type="CLARIFICATION"
+          tracker="151902">
+    Replace "content-encoding" with "content encoding".
+    <explanation>The hyphen implies the "Content-Encoding" HTTP header, and
+      here I am referring instead to the general concept of content
+      encoding.</explanation>
+  </errata>
+  <errata page="52" paragraph="3" type="UPDATE" tracker="151902">
+    As of this current errata update, the RPC::XMLSimple package has not yet
+    been released to CPAN. Until it is released, none of the examples using
+    this module can be run as presented.
+  </errata>
+  <errata page="47" line="33" type="CORRECTION" tracker="151902">
+    Replace "resolve_name" (in the error message) with "get_data".
+  </errata>
+  <errata page="186" line="32" type="CORRECTION" tracker="157190">
+    The last character of this line, ">", should be replaced with "/>" in
+    order to make it valid XML.
+  </errata>
+  <errata page="203" paragraph="2" line="3" type="CORRECTION" tracker="163134">
+    Replace "soap:address" with "http:address".
+  </errata>
+  <errata page="237" paragraph="1" line="6" type="GRAMMAR">
+    Replace "more" with "most".
+  </errata>
+  <errata page="245" paragraph="4" line="2" type="CORRECTION">
+    Replace "different" with "difference".
+  </errata>
+  <errata page="247" paragraph="4" line="5" type="CORRECTION">
+    Replace "out of hand" with "out-of-band".
+  </errata>
+  <errata page="251" paragraph="2" line="4" type="GRAMMAR">
+    Replace "sequence," with "sequence" (remove the comma).
+  </errata>
+  <errata page="297" line="1" type="CORRECTION">
+    Replace "Description" with "Definition".
+  </errata>
+  <errata page="53" line="24" type="CORRECTION">
+    The script should start with the line, "#!/usr/bin/perl -w" before the
+    first line of actual code.
+  </errata>
+  <errata page="59" line="16" type="CORRECTION">
+    The script should start with the line, "#!/usr/bin/perl -w" before the
+    first line of actual code.
+  </errata>
+  <errata page="68" line="4" type="CORRECTION">
+    The script should start with the line, "#!/usr/bin/perl -w" before the
+    first line of actual code.
+  </errata>
+  <errata page="115" line="20" type="CORRECTION">
+    Append " -w" after "perl".
+  </errata>
+  <errata page="120" line="30" type="CORRECTION">
+    Append " -w" after "perl".
+  </errata>
+  <errata page="146" line="10" type="CORRECTION">
+    Append " -w" after "perl".
+  </errata>
+  <errata page="151" line="27" type="CORRECTION">
+    Append " -w" after "perl".
+  </errata>
+  <errata page="157" line="16" type="CORRECTION">
+    Append " -w" after "perl".
+  </errata>
+  <errata page="165" line="26" type="CORRECTION">
+    Append " -w" after "perl".
+  </errata>
+  <errata page="166" line="25" type="CORRECTION">
+    Append " -w" after "perl".
+  </errata>
+  <errata page="168" line="20" type="CORRECTION">
+    Append " -w" after "perl".
+  </errata>
+  <errata page="170" line="1" type="CORRECTION">
+    Append " -w" after "perl".
+  </errata>
+  <errata page="171" line="18" type="CORRECTION">
+    Append " -w" after "perl".
+  </errata>
+  <errata page="172" line="20" type="CORRECTION">
+    Append " -w" after "perl".
+  </errata>
+  <errata page="174" line="9" type="CORRECTION">
+    Append " -w" after "perl".
+  </errata>
+  <errata page="175" line="6" type="CORRECTION">
+    Append " -w" after "perl".
+  </errata>
+  <errata page="176" line="23" type="CORRECTION">
+    Append " -w" after "perl".
+  </errata>
+  <errata page="232" line="3" type="CORRECTION">
+    Append " -w" after "perl".
+  </errata>
+  <errata page="253" line="24" type="CORRECTION">
+    Replace "#!perl" with "#!/usr/bin/perl".
+    <explanation>This and the identical changes later are for consistency with
+      other code examples.</explanation>
+  </errata>
+  <errata page="274" line="9" type="CORRECTION">
+    Replace "#!perl" with "#!/usr/bin/perl".
+  </errata>
+  <errata page="274" line="19" type="CORRECTION">
+    Replace "#!perl" with "#!/usr/bin/perl".
+  </errata>
+  <errata page="431" line="9" type="CORRECTION">
+    Append " -w" after "perl".
+  </errata>
+</errataset>

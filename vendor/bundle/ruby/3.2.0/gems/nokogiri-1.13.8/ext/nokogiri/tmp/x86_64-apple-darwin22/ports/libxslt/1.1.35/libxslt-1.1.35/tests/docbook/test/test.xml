@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+  "../dtd/4.1.2/docbookx.dtd">
+<article>
+<articleinfo>
+<title>Article Title</title>
+<keywordset>
+<keyword>keyword1</keyword>
+<keyword>keyword2</keyword>
+<keyword>keyword3</keyword>
+</keywordset>
+</articleinfo>
+
+<screen linenumbering="numbered"><?dbhtml linenumbering.everyNth="3" linenumbering.separator=" XX"?>This
+  is                  <lineannotation>With a line-annotation</lineannotation>
+    a 
+     screen<co id="foo"/>
+     This
+    is                <lineannotation>With a line-annotation</lineannotation>
+  a 
+screen
+This
+  is                  <lineannotation>With a line-annotation</lineannotation>
+    a 
+     screen</screen>
+
+<para>What about <xref linkend="foo"/>?</para>
+
+<mediaobjectco>
+<imageobjectco>
+<areaspec units="calspair">
+  <areaset id="oneway" coords="">
+    <area id="oneway1" coords="300 400"/>
+    <area id="oneway2" coords="325 340"/>
+  </areaset>
+  <area id="myhouse" coords="425 590"/>
+</areaspec>
+<!-- This is not a real URL! -->
+<imageobject>
+<imagedata fileref="http://maps.example.com/EARTH?USA?MA?AMHERST"/>
+</imageobject>
+</imageobjectco>
+</mediaobjectco>
+
+</article>

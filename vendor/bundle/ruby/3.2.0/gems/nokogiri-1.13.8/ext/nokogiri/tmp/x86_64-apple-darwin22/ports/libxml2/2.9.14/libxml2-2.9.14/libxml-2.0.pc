@@ -1,0 +1,13 @@
+prefix=/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14
+exec_prefix=${prefix}
+libdir=/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.9.14
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2
+Libs.private:  -lpthread -lz -L/usr/local/Cellar/xz/5.4.3/lib -llzma  -liconv -lm  
+Cflags: -I${includedir}/libxml2 

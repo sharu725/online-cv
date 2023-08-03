@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+a
+   b
+      c
+         d
+         e
+      f
+      g
+         h
+         i
+      j
+      <FOLLOWING>n
+      o
+         p
+      q
+      r
+   </FOLLOWING><PRECEDING>d</PRECEDING><EMPTY></EMPTY><EMPTY></EMPTY><ANCESTOR2>a
+   b
+      c
+         d
+         e
+      f
+      g
+         h
+         i
+      j
+      k
+   l
+   m
+   n
+      o
+         p
+      q
+      r
+   s
+   t
+</ANCESTOR2><TRICKY>e</TRICKY>k
+   l
+   <FOLLOWINGSIBLING1>n
+      o
+         p
+      q
+      r
+   </FOLLOWINGSIBLING1><FOLLOWINGSIBLING2>t</FOLLOWINGSIBLING2><FOLLOWINGSIBLING3></FOLLOWINGSIBLING3>m
+   n
+      o
+         p
+      q
+      r
+   s
+   t
+

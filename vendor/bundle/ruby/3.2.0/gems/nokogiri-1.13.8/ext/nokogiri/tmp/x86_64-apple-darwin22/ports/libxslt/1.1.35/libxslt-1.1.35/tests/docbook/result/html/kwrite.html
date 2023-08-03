@@ -1,0 +1,421 @@
+<html><head><meta content="text/html; charset=ISO-8859-1" http-equiv="Content-Type"><title>the kwrite handbook</title><meta name="generator" content="DocBook XSL Stylesheets V1.40"><meta name="keywords" content="kde, kwrite, text, editor"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="book" id="id2862524"><div class="titlepage"><div><h1 class="title"><a name="id2862524"></a>the kwrite handbook</h1></div><div><h3 class="author">thad mcginnis</h3><div class="affiliation"><div class="address"><tt>&lt;<a href="mailto:ctmcginnis@compuserve.com">ctmcginnis@compuserve.com</a>&gt;</tt></div></div><h3 class="othercredit">jochen wilhelmy</h3><div class="affiliation"><div class="address"><tt>&lt;<a href="mailto:digisnap@cs.tu-berlin.de">digisnap@cs.tu-berlin.de</a>&gt;</tt></div></div><h3 class="othercredit">glen parker</h3><div class="affiliation"><div class="address"><tt>&lt;<a href="mailto:glenebob@nwlink.com">glenebob@nwlink.com</a>&gt;</tt></div></div><h3 class="othercredit">michael koch</h3><div class="affiliation"><div class="address"><tt>&lt;<a href="mailto:koch@kde.org">koch@kde.org</a>&gt;</tt></div></div><h3 class="othercredit">christian tibirna</h3><div class="affiliation"><div class="address"><tt>&lt;<a href="mailto:tibirna@kde.org">tibirna@kde.org</a>&gt;</tt></div></div><h3 class="othercredit">lauri watts</h3><div class="affiliation"><div class="address"><tt>&lt;<a href="mailto:vampyr@atconnex.net">vampyr@atconnex.net</a>&gt;</tt></div></div></div><div><p class="releaseinfo">2.00.00</p></div><div><p class="copyright">Copyright © 2000, 2001 thad mcginnis</p></div><div><div class="legalnotice"><p>permission is granted to copy, distribute and/or modify this
+document under the terms of the gnu free documentation license,
+version 1.1 or any later version published by the free software
+foundation; with no invariant sections, with no front-cover texts, and
+with no back-cover texts.  a copy of the license is included in <a href="#gnu-fdl">the section entitled gnu free documentation license</a>.</p></div></div><div><div class="abstract"><p><a name="id2769790"></a><b>Abstract</b></p><p>this handbook describes kwrite version 2.0</p><p>kwrite is a text editor for kde 2.0</p></div></div><hr></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt>1 <a href="#introduction">introduction</a></dt><dt>2 <a href="#on-screen-fundamentals">some fundamentals</a></dt><dd><dl><dt> <a href="#drag-and-drop">drag and drop</a></dt><dt> <a href="#command-line-options">command line options</a></dt><dd><dl><dt> <a href="#specify-a-file">specify a file</a></dt><dt> <a href="#editing-files-on-the-internet">specify a file on the internet</a></dt><dt> <a href="#other-command-line-options">other command line options</a></dt></dl></dd><dt> <a href="#keybindings">key bindings</a></dt></dl></dd><dt>3 <a href="#the-menu-entries">the menu entries</a></dt><dd><dl><dt> <a href="#file">the file menu</a></dt><dt> <a href="#edit">the edit menu</a></dt><dt> <a href="#go">the go menu</a></dt><dt> <a href="#tools">the tools menu</a></dt><dt> <a href="#settings">the settings menu</a></dt><dt> <a href="#help">the help menu</a></dt></dl></dd><dt>4 <a href="#pref-dialog">configure kwrite</a></dt><dd><dl><dt> <a href="#prefcolors">colors</a></dt><dt> <a href="#pref-indent">indent</a></dt><dt> <a href="#pref-select">select</a></dt><dt> <a href="#pref-edit">edit</a></dt><dt> <a href="#prefspellchecker">spelling</a></dt></dl></dd><dt>5 <a href="#pref-highlighting">highlighting</a></dt><dt>6 <a href="#credits">credits and licenses</a></dt><dt>A <a href="#installation">installation</a></dt></dl></div><div class="chapter"><div class="titlepage"><div><h2 class="title"><a name="introduction"></a>Chapter 1. introduction</h2></div></div><p>kwrite is more than a text editor for the kde desktop. it is meant
+to be a programmer's editor, and could be considered as at least a partial
+alternative to more powerful editors.  it may be best used in conjunction
+with konqueror for source file browsing for
+different languages. kwrite also works very well as a simple text editor.
+one of kwrite's main features is the colorized syntax, customized for
+many different programming languages such as: c/c++, java&#8482;, python, perl,
+bash, modula 2, html, and ada.</p></div><div class="chapter"><div class="titlepage"><div><h2 class="title"><a name="on-screen-fundamentals"></a>Chapter 2. some fundamentals</h2></div></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt> <a href="#drag-and-drop">drag and drop</a></dt><dt> <a href="#command-line-options">command line options</a></dt><dd><dl><dt> <a href="#specify-a-file">specify a file</a></dt><dt> <a href="#editing-files-on-the-internet">specify a file on the internet</a></dt><dt> <a href="#other-command-line-options">other command line options</a></dt></dl></dd><dt> <a href="#keybindings">key bindings</a></dt></dl></div><p>kwrite is very simple to use. anyone that has used a text editor should
+have no problems. </p><div class="sect1"><a name="drag-and-drop"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="drag-and-drop"></a>drag and drop</h2></div></div><p>kwrite uses the kde drag and drop protocol. files may be dragged  
+and dropped onto kwrite from the desktop,  
+konqueror or some remote ftp site opened in one  
+of konqueror's windows. </p></div><div class="sect1"><a name="command-line-options"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="command-line-options"></a>command line options</h2></div></div><p>though kwrite may most often be started from the kde program menu,  
+or a desktop icon, it can also be opened at the command line prompt of a  
+terminal window.  there are a few useful options that are available when  
+doing this.</p><div class="sect2"><a name="specify-a-file"></a><div class="titlepage"><div><h3 class="title"><a name="specify-a-file"></a>specify a file</h3></div></div><p>by specifying the path and name of a particular file the user can  
+have kwrite open (or create) that file immediately upon startup.  this
+option might look something like the following:</p><div class="informalexample" id="id2775561"><a name="id2775561"></a><pre class="screen"><tt>%</tt> <b><tt><b>kwrite</b> <tt><i><tt>/home/myhome/docs/myfile.txt</tt></i></tt></tt></b></pre></div></div><div class="sect2"><a name="editing-files-on-the-internet"></a><div class="titlepage"><div><h3 class="title"><a name="editing-files-on-the-internet"></a>specify a file on the internet</h3></div></div><p>the above-mentioned method could even be used to open files on the
+internet (if the user has an active connection at the time.)  an example of
+this might look like the following:</p><div class="informalexample" id="id2775672"><a name="id2775672"></a><pre class="screen"><tt>%</tt> <b><tt><b>kwrite</b> <tt><i><tt>ftp://ftp.kde.org/pub/kde/welcome.msg</tt></i></tt></tt></b></pre></div></div><div class="sect2"><a name="other-command-line-options"></a><div class="titlepage"><div><h3 class="title"><a name="other-command-line-options"></a>other command line options</h3></div></div><p>the following command line help options are available</p><div class="variablelist"><dl><dt><a name="id2775784"></a><span class="term"><b><tt><b>kwrite</b> <tt>--help</tt></tt></b></span></dt><dd><p><a name="id2775822"></a>this lists the most basic options available at the command  
+line.</p></dd><dt><a name="id2775838"></a><span class="term"><b><tt><b>kwrite</b> <tt>--help-qt</tt></tt></b></span></dt><dd><p><a name="id2775875"></a>this lists the options available for changing the way  
+kwrite interacts with qt&#8482;.</p></dd><dt><a name="id2775918"></a><span class="term"><b><tt><b>kwrite</b> <tt>--help-kde</tt></tt></b></span></dt><dd><p><a name="id2775559"></a>this lists the options available for changing the way  
+kwrite interacts with kde.</p></dd><dt><a name="id2775626"></a><span class="term"><b><tt><b>kwrite</b> <tt>--help-all</tt></tt></b></span></dt><dd><p><a name="id2766542"></a>this lists all of the command line options.</p></dd><dt><a name="id2766559"></a><span class="term"><b><tt><b>kwrite</b> <tt>--author</tt></tt></b></span></dt><dd><p><a name="id2766598"></a>lists kwrite's authors in the terminal window</p></dd><dt><a name="id2766628"></a><span class="term"><b><tt><b>kwrite</b> <tt>--version</tt></tt></b></span></dt><dd><p><a name="id2766667"></a>lists version information for qt&#8482;, kde, and kwrite. also available through <b><tt><b>kwrite</b> <tt>-v</tt></tt></b> </p></dd></dl></div></div></div><div class="sect1"><a name="keybindings"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="keybindings"></a>key bindings</h2></div></div><p>many of the key bindings (shortcuts) are configurable by way of the <a href="#settings" title="the settings menu">settings</a> menu.  by default kwrite honors the  
+following key bindings.</p><div class="informaltable" id="id2766819"><a name="id2766819"></a><table border="1"><colgroup><col><col></colgroup><tbody><tr><td><p>insert</p></td><td><p> toggle between insert and overwrite mode. when in insert mode the
+editor will add any typed characters to the text while pushing along any data to
+the right of the text cursor. overwrite mode causes the entry of each character
+to eliminate the character immediately to the right of the text
+cursor.</p></td></tr><tr><td><p>left arrow</p></td><td><p>move the cursor one character to the left </p></td></tr><tr><td><p>right arrow</p></td><td><p> move the cursor one character to the right </p></td></tr><tr><td><p>up arrow</p></td><td><p> move the cursor up one line  </p></td></tr><tr><td><p>down arrow</p></td><td><p> move the cursor down one line </p></td></tr><tr><td><p>page up</p></td><td><p> move the cursor up one page  </p></td></tr><tr><td><p>page down</p></td><td><p>move the cursor down one page  </p></td></tr><tr><td><p>backspace</p></td><td><p> delete the character to the left of the cursor </p></td></tr><tr><td><p>home</p></td><td><p> move the cursor to the beginning of the line </p></td></tr><tr><td><p>end</p></td><td><p> move the cursor to the end of the line </p></td></tr><tr><td><p>delete</p></td><td><p>delete the character to the right of the cursor (or any selected  
+text)</p></td></tr><tr><td><p>shift-left arrow</p></td><td><p> mark text one character to the left </p></td></tr><tr><td><p>shift-right arrow</p></td><td><p> mark text one character to the right </p></td></tr><tr><td><p>f1</p></td><td><p> help</p></td></tr><tr><td><p>shift-f1</p></td><td><p><a href="#whats-this">what's this?</a></p></td></tr><tr><td><p>ctrl-f</p></td><td><p><a href="#find"> find</a></p></td></tr><tr><td><p>f3</p></td><td><p><a href="#find-again"> find again</a></p></td></tr><tr><td><p>ctrl-c</p></td><td><p> copy the marked text to the clipboard. </p></td></tr><tr><td><p>ctrl-m</p></td><td><p>set a bookmark</p></td></tr><tr><td><p>ctrl-n</p></td><td><p> <a href="#new">new</a> document</p></td></tr><tr><td><p>ctrl-p</p></td><td><p><a href="#print">print</a> </p></td></tr><tr><td><p>ctrl-q</p></td><td><p>quit - close active copy of editor </p></td></tr><tr><td><p>ctrl-r</p></td><td><p><a href="#replace"> replace</a></p></td></tr><tr><td><p>ctrl-s</p></td><td><p>invokes the <a href="#save">save</a> command.</p></td></tr><tr><td><p>ctrl-v</p></td><td><p> paste the clipboard text into line edit. </p></td></tr><tr><td><p>ctrl-x</p></td><td><p>delete the marked text and copy it to the clipboard. </p></td></tr><tr><td><p>ctrl-z</p></td><td><p><a href="#undo">undo</a></p></td></tr><tr><td><p>ctrl-shift-z</p></td><td><p><a href="#redo">redo</a></p></td></tr></tbody></table></div></div></div><div class="chapter"><div class="titlepage"><div><h2 class="title"><a name="the-menu-entries"></a>Chapter 3. the menu entries</h2></div></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt> <a href="#file">the file menu</a></dt><dt> <a href="#edit">the edit menu</a></dt><dt> <a href="#go">the go menu</a></dt><dt> <a href="#tools">the tools menu</a></dt><dt> <a href="#settings">the settings menu</a></dt><dt> <a href="#help">the help menu</a></dt></dl></div><div class="sect1"><a name="file"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="file"></a>the file menu</h2></div></div><div class="variablelist"><dl><dt><a name="id2890097"></a><span class="term"><a name="new"></a>file-&gt;new (<b>ctrl-n</b>)</span></dt><dd><p><a name="id2890219"></a>this starts a new document in the editor. if there is a current  
+document with unsaved changes the user is given a chance to save it.</p></dd><dt><a name="id2890239"></a><span class="term"><a name="open"></a>file-&gt;0pen (<b>ctrl-o</b>)</span></dt><dd><p><a name="id2890362"></a>this command opens a file.  it does this by means of a dialog box  
+which allows the user to navigate the file system.  the dialog operates  
+like a small file manager. clicking on directories displayed in the
+central window directs the dialog to enter that directory - displaying its  
+contents.  there is an entry/dropdown box which can be used to type in  
+directly the location and name of the file or by clicking the arrow at the  
+side choose from a dropdown list of recently used locations. below this is  
+a filter which similarly may have data entered directly or chosen from a  
+dropdown list of recent filter types.  the filter facility lets only files  
+that meet its specifications be displayed in the central window. if the  
+filter contained text such as <tt>*.txt</tt> then only files  
+with the txt extension would be visible in the selection window. below the filter
+is a status bar giving information about the number of files and subdirectories
+within the current directory.</p><p>the  toolbar, which is located at the top of the dialog, has left and right
+arrow buttons that let the user move back and forth through previously selected
+directories as well as an up arrow button for moving up the directory tree. the
+button with the little house takes the user to his or her home directory and the one
+with the two arrows curved in on each other updates the view of the current
+directory. the flag button lets the user set a new bookmark at the current directory
+or go to  one that was previously set. 
+ the last button on the toolbar allows you to create a new
+directory, and finally  there is dropdown box with a list of some commonly
+frequented directories.</p></dd><dt><a name="id2890436"></a><span class="term"><a name="open-recent"></a>file-&gt;open  
+recent</span></dt><dd><p><a name="id2890509"></a>this is a shortcut to open recently saved documents. clicking on
+this item opens a list to the side of the menu with several of the most recently
+saved files. clicking on a specific file will open it in kwrite - if the file
+still resides at the same location. </p></dd><dt><a name="id2890544"></a><span class="term"><a name="save"></a>file-&gt;save (<b>ctrl-s</b>)</span></dt><dd><p><a name="id2890667"></a>this saves the current document.  if there has already been a
+save of the document then this will overwrite the previously saved file without
+asking for the user's consent.  if it is the first save of a new document the
+save as dialog (described below) will be invoked.</p></dd><dt><a name="id2890690"></a><span class="term"><a name="save-as"></a>file-&gt;save
+as</span></dt><dd><p><a name="id2890762"></a>this allows a document to be saved with a new file name. this is
+done by means of the file dialog box described above in the <a href="#open">open</a> section of this help file.</p></dd><dt><a name="id2890803"></a><span class="term"><a name="print"></a>file-&gt;print (<b>ctrl-p</b>)</span></dt><dd><p><a name="id2890925"></a>opens a simple print dialog allowing the user to specify what, where, and how to print</p></dd><dt><a name="id2890944"></a><span class="term"><a name="new-window"></a>file-&gt;new window</span></dt><dd><p><a name="id2891017"></a>this creates a new window, i.e. a new instance of kwrite. in this way the user can easily work  
+on more than one file at a time with kwrite.</p></dd><dt><a name="id2891070"></a><span class="term"><a name="new-view"></a>file-&gt;new view</span></dt><dd><p><a name="id2891143"></a>this creates a new view of the current document, i.e., a new instance of
+kwrite (as explained in the previous entry) but containing the same
+document.</p></dd><dt><a name="id2891184"></a><span class="term"><a name="close"></a>file-&gt;quit (<b>ctrl-q</b>)</span></dt><dd><p><a name="id2891306"></a>this will close the editor window, if you have more than one
+instance of kwrite running, through the new view or
+new window menu items, those instances will not be
+closed.</p></dd></dl></div></div><div class="sect1"><a name="edit"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="edit"></a>the edit menu</h2></div></div><div class="variablelist"><dl><dt><a name="id2891412"></a><span class="term"><a name="undo"></a>edit-&gt;undo (<b>ctrl-z</b>)</span></dt><dd><p><a name="id2891535"></a>this is used to eliminate or reverse the most recent user action or operation. just what  
+constitutes such an action may be better understood by referring to the <a href="#group-undos">group undos</a> portion of this help file.</p></dd><dt><a name="id2891576"></a><span class="term"><a name="redo"></a>edit-&gt;redo (<b>ctrl-shift-z</b>)</span></dt><dd><p><a name="id2891714"></a>this will reverse the most recent change (if any) made using undo</p></dd><dt><a name="id2891732"></a><span class="term"><a name="undohistory"></a>edit-&gt;undo/redo history</span></dt><dd><p><a name="id2891805"></a>this will call a display box showing a list of the most recent actions on  
+the left and another list of actions which have been 'undone' on the right.  
+there are also three buttons at the right of the box labeled  
+undo, redo, and  
+close.  clicking on the undo  
+button will cause the action at the top of the undo list to be reversed which  
+will place that particular action at the top of the redo list. likewise,  
+clicking on the redo button will reinstate the reversed  
+action and move it back to the top of the undo list.  clicking on an item below  
+the top item in either list will select all the items from the top down to that  
+point.  a subsequent click on the corresponding button will cause all the  
+selected actions to be undone or redone accordingly.  this would be particularly  
+useful when the user knows precisely the point to which she or he would like to  
+proceed - making it unnecessary to go through a series of single undo or redo  
+actions.</p></dd><dt><a name="id2891916"></a><span class="term"><a name="cut"></a>edit-&gt;cut (<b>ctrl-x</b>)</span></dt><dd><p><a name="id2892040"></a>this command deletes the current selection and places it on the clipboard.  the  
+clipboard is a feature of kde that works invisibly to provide a way to transfer data between  
+applications.</p></dd><dt><a name="id2892062"></a><span class="term"><a name="copy"></a>edit-&gt;copy (<b>ctrl-c</b>)</span></dt><dd><p><a name="id2892184"></a>this copies the currently selected text to the clipboard so that it may be  
+pasted elsewhere.  the clipboard is a feature of kde that works invisibly to  
+provide a way to transfer data between applications.</p></dd><dt><a name="id2892205"></a><span class="term"><a name="paste"></a>edit-&gt;paste (<b>ctrl-v</b>)</span></dt><dd><p><a name="id2892328"></a>this will insert the contents of the clipboard at the cursor position. the  
+clipboard is feature of kde that works invisibly to provide a way to transfer  
+data between applications.</p></dd><dt><a name="id2892349"></a><span class="term"><a name="select-all"></a>edit-&gt;select all (<b>ctrl-a</b>)</span></dt><dd><p><a name="id2892474"></a>this will select the entire document. this could be very useful for  
+copying the entire file to another application.</p></dd><dt><a name="id2892494"></a><span class="term"><a name="invert-the-selection"></a>edit-&gt;invert selection</span></dt><dd><p><a name="id2892567"></a>this selects any unselected text while unselecting any selected text -  
+effectively reversing the current state of selection.</p></dd><dt><a name="id2892587"></a><span class="term"><a name="find"></a>edit-&gt;find (<b>ctrl-f</b>)</span></dt><dd><p><a name="id2892709"></a>this opens the find dialog which is used to specify the text to  
+find in the document. there is small text box for entering the search  
+pattern which also doubles as a dropdown box. clicking on the dropdown arrow at  
+the side of the box makes available other recent search patterns. other  
+parameters are included to make the search more efficient. selecting  
+case sensitive will limit finds to entries that match the  
+case (upper or lower) of each of the characters in the search  
+pattern. find backwards directs the search to proceed in an  
+upwardly direction. the selected text option keeps the  
+search within currently selected text. checking whole words
+only prevents the search from stopping on words that contain the
+searched for pattern. the search from cursor option begins  
+the search from the current position of the cursor within the document rather  
+than from the beginning.</p></dd><dt><a name="id2892821"></a><span class="term"><a name="find-again"></a>edit-&gt;find next (<b>f3</b>)</span></dt><dd><p><a name="id2892933"></a>this repeats the last find operation, if any, without calling the find  
+dialog box.</p></dd><dt><a name="id2892952"></a><span class="term"><a name="replace"></a>edit-&gt;replace (<b>ctrl-r</b>)</span></dt><dd><p><a name="id2893075"></a>this command opens the replace dialog box.  the replace dialog is  
+almost identical to the above-mentioned find dialog.  in addition to the features in
+the find dialog it contains a replace with: text
+entry/dropdown box.  using this dialog the user can specify both the text to be found
+and text with which to replace it.  the additional prompt
+on replace option allows the user to have kwrite ask for
+confirmation before each replacement.</p></dd><dt><a name="id2893139"></a><span class="term"><a name="insertfile"></a>
+edit-&gt;insert file</span></dt><dd><p><a name="id2893212"></a>this opens the file <a href="#open">open</a> dialog box whereby the
+user can insert a complete file in the open document.  the the contents of
+the file will be entered at the position of the blinking text
+cursor.</p></dd></dl></div></div><div class="sect1"><a name="go"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="go"></a>the go menu</h2></div></div><div class="variablelist"><dl><dt><a name="id2893328"></a><span class="term"><a name="go-to-line"></a>go-&gt;go to line</span></dt><dd><p><a name="id2893398"></a>this opens the goto line dialog box which is used to have the cursor jump  
+to a particular line (specified by number) in the document.  the line number may  
+be entered directly into the text box or graphically by clicking on the up or  
+down arrow spin controls at the side of the text box. the little up arrow will  
+increase the line number and the down arrow decrease it.  there is also a slide  
+control to the right of the text box which allows the user to move the goto  
+point in the document in an analog manner.</p></dd><dt><a name="id2893426"></a><span class="term"><a name="add-marker"></a>go-&gt;add marker (<b>ctrl-m</b>)</span></dt><dd><p><a name="id2893548"></a>this creates a marker in the document at the line where the cursor is  
+located and places it at the bottom of the list of markers located at the
+bottom of the go menu.</p><p>markers are points within a kwrite document
+marked for easy return. if  the user thinks (s)he may need to return to a specific
+point (s)he may by way of this feature instruct kwrite to remember it. </p></dd><dt><a name="id2893606"></a><span class="term"><a name="set-bookmark"></a>go-&gt;set marker</span></dt><dd><p><a name="id2893676"></a>this creates a marker in the document at the line where the cursor is  
+located, and allows the user to choose its position in the list of bookmarks  
+which is appended at the bottom of this menu item.</p></dd><dt><a name="id2893697"></a><span class="term"><a name="clear-bookmarks"></a>go-&gt;clear markers</span></dt><dd><p><a name="id2893768"></a>this command will remove all the markers from the docucument as well as the
+list of markers which is appended at the  bottom of this menu item.</p></dd></dl></div><p>at the bottom of this menu, a list of markers appears if any  
+markers are available for this window.</p></div><div class="sect1"><a name="tools"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="tools"></a>the tools menu</h2></div></div><div class="variablelist"><dl><dt><a name="id2893844"></a><span class="term"><a name="spelling..."></a>tools-&gt;spelling...</span></dt><dd><p><a name="id2893914"></a>this initiates the spell checking program - a program
+designed to help the user catch and correct any spelling errors.
+clicking on this entry will start the checker and bring up the speller dialog
+box through which the user can control the process.  there are three text boxes
+lined up vertically in the center of the dialog with their corresponding labels
+just to the left.  starting at the top they are:</p><div class="variablelist"><dl><dt><a name="id2893953"></a><span class="term">misspelled word:</span></dt><dd><p><a name="id2893975"></a>here, the spell checker indicates the word currently under
+consideration.  this happens when the checker encounters a word not in its
+dictionary - a file containing a list of correctly spelled words against which
+it compares each word in the editor.</p></dd><dt><a name="id2893998"></a><span class="term">replacement:</span></dt><dd><p><a name="id2894020"></a> if the checker has any similar words in its dictionary the
+first one will be listed here.  the user can accept the suggestion, type in his
+or her own correction, or choose a different suggestion from the next
+box.</p></dd><dt><a name="id2894042"></a><span class="term">suggestions:</span></dt><dd><p><a name="id2894064"></a> the checker may list here a number of possible replacements for
+the word under consideration.  clicking on any one of the suggestions will cause
+that word to be entered in the replacement: box,
+above.</p></dd></dl></div><p>on the right side of the dialog box are 6 buttons that allow the user to
+control the spell check process.  they are:</p><div class="variablelist"><dl><dt><a name="id2894117"></a><span class="term">replace</span></dt><dd><p><a name="id2894139"></a> this button has the checker replace the word under
+consideration in the document with the word in the
+replacement: box.</p></dd><dt><a name="id2894171"></a><span class="term">replace all</span></dt><dd><p><a name="id2894193"></a> this button causes the checker to replace not only the current
+misspelled word: but to automatically make the same
+substitution for any other occurences of this misspelled
+word: in the document.</p></dd><dt><a name="id2894240"></a><span class="term">ignore</span></dt><dd><p><a name="id2894262"></a>activating this button will have the checker move on without
+making any changes.</p></dd><dt><a name="id2894281"></a><span class="term">ignore all</span></dt><dd><p><a name="id2894303"></a> this button tells the checker to do nothing with the current
+misspelled word: and to pass over any other instances of
+the same word.</p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title"><a name="id2894333"></a>Note</h3><p>this only applies to the current spell check
+run.  if the checker is run again later it will stop on this same
+word.</p></div></dd><dt><a name="id2894354"></a><span class="term">add</span></dt><dd><p><a name="id2894376"></a>pressing this button adds the word in the misspelled
+word: box to the checker's dictionary. this means that in the future
+the checker will always consider this word to be correctly
+spelled.</p></dd><dt><a name="id2894410"></a><span class="term">stop</span></dt><dd><p><a name="id2894432"></a> this button stops the spell check process.</p></dd></dl></div><p>located horizontally along the bottom of the spell check dialog is a
+progress bar.  as the checking process proceeds the bar will fill from left to
+right providing a graphical representation of how far along in the document the
+process has reached.  in addition, the progress is displayed numerically in
+the center of the progress bar.</p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title"><a name="id2894473"></a>Note</h3><p>a numerical display of the spell check
+process is simultaneously displayed in the status bar of the editor.  the <a href="#show-statusbar">status bar</a> is the horizontal strip at the bottom
+of the editor just outside of the text entry area.</p></div><p>two more buttons are located below the progress bar.  they are:</p><div class="variablelist"><dl><dt><a name="id2894528"></a><span class="term">help</span></dt><dd><p><a name="id2894550"></a> this invokes the kde help system starting at the kwrite help
+pages (this document).</p></dd><dt><a name="id2894582"></a><span class="term">cancel</span></dt><dd><p><a name="id2894604"></a> this button cancels the spell check process.</p></dd><dt><a name="id2894623"></a><span class="term"><a name="indent"></a>tools-&gt;indent</span></dt><dd><p><a name="id2894682"></a>this increases the paragraph's indentation by one step. the size of the
+step depends on the <a href="#pref-indent" title="indent"> indentation  
+settings</a>.</p></dd><dt><a name="id2894722"></a><span class="term"><a name="unindent"></a>tools-&gt;unindent</span></dt><dd><p><a name="id2894782"></a>this reduces the paragraph's indentation by one step. the size of the step  
+depends on the <a href="#pref-indent" title="indent"> indentation settings</a>.</p></dd><dt><a name="id2894818"></a><span class="term"><a name="cleanindent"></a>tools-&gt;clean
+indentation</span></dt><dd><p><a name="id2894878"></a>not yet implemented</p></dd><dt><a name="id2894896"></a><span class="term">tools-&gt;comment</span></dt><dd><p><a name="id2894944"></a>this adds one space to the beginning of the line
+where the text cursor is located or to the beginning of any
+selected lines.</p></dd><dt><a name="id2894964"></a><span class="term">tools-&gt;uncomment</span></dt><dd><p><a name="id2895012"></a>this removes one space (if any exist) from the beginning of the line
+where the text cursor is located or from the beginning of any
+selected lines.</p></dd></dl></div></dd></dl></div></div><div class="sect1"><a name="settings"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="settings"></a>the settings menu</h2></div></div><div class="variablelist"><dl><dt><a name="id2895084"></a><span class="term"><a name="show-toolbar"></a>settings-&gt;show toolbar</span></dt><dd><p><a name="id2895156"></a>when checked, this displays a movable toolbar containing buttons used to  
+initiate frequently used commands. when unchecked the toolbar is hidden.</p></dd><dt><a name="id2895177"></a><span class="term"><a name="show-statusbar"></a>settings-&gt;show statusbar</span></dt><dd><p><a name="id2895250"></a>when checked, this displays a small bar at the bottom of the editor  
+containing information about the status of the current document.  when unchecked  
+the statusbar is hidden.</p></dd><dt><a name="id2895270"></a><span class="term"><a name="show-path"></a>settings-&gt;show path</span></dt><dd><p><a name="id2895343"></a>when selected, this displays in the title bar the path (its location in the
+file system) of the current document.  when unchecked the path is hidden.</p></dd><dt><a name="id2895364"></a><span class="term"><a name="configure-keybindings"></a>settings-&gt;configure key bindings</span></dt><dd><p><a name="id2895437"></a>this command opens a dialog box whereby the <a href="#keybindings" title="key bindings">key bindings</a> may be changed.  a display window at
+the top of the dialog box shows the list of commands (actions) that can have
+keyboard shortcuts.  below the display are three radio buttons.  the user may choose
+between no key, default key, and custom key.  (note that a set of radio buttons only
+allows the selection of one of the offered items - in the way that buttons on a car
+radio only offer the selection of one preset station.  also, the default key
+selection  is only available for those commands that actually have a 'default'
+shortcut.)  selecting the custom key option activates the three check boxes and key
+button at the bottom of the dialog. the user may then select a key
+combination for the command in question by means of the check boxes and key
+button. for example, with the about kde command selected in the display window,  
+the user could select <b>ctrl</b> and <b>alt</b>, click on  
+the key button, and then press the <b>k</b> key on the keyboard.  this  
+would mean that anytime he or she held down the <b>ctrl</b> and  
+<b>alt</b> buttons and pressed <b>k</b> (while using  
+kwrite) the about kde display box would be called. </p></dd><dt><a name="id2895587"></a><span class="term"><a name="configure-toolbars"></a>settings-&gt;configure toolbars</span></dt><dd><p><a name="id2895660"></a>this will open the dialog whereby the toolbar configuration may
+be changed.   the user can choose which shortcut buttons should appear on the  
+toolbar. a display window on the left lists the commands available to placed
+on the toolbar.  a display on the right lists those commands already on the  
+toolbar.  a set of four arrow buttons between the two displays manipulates the  
+selections.  the right pointing arrow places any command selected in the left  
+pane onto the right pane, i.e., it is added to the toolbar.  
+the left arrow does just the opposite, removing any action selected in the right  
+window from the toolbar.  the up and down pointing arrows change the position of  
+an action selected in the right window which changes the position of its button  
+in the toolbar.</p></dd><dt><a name="id2895700"></a><span class="term"><a name="preferences"></a>settings-&gt;preferences</span></dt><dd><p><a name="id2895770"></a>this menu item opens a dialog whereby several different <a href="#pref-dialog" title="Chapter 4. configure kwrite">settings</a> may be adjusted.</p></dd><dt><a name="id2895809"></a><span class="term">settings-&gt;configure
+highlighting</span></dt><dd><p><a name="id2895871"></a>opens a dialog box allowing configuration of the syntax  
+highlighting.  the dialog is described in <a href="#pref-highlighting" title="Chapter 5. highlighting">Chapter 5. highlighting</a>.</p></dd><dt><a name="id2895908"></a><span class="term"><a name="vertical-selection"></a>settings-&gt;vertical  
+selection</span></dt><dd><p><a name="id2895978"></a>this is used to turn on or off the vertical selection feature.  vertical  
+selection allows text to be selected by column as well as by row.  in other  
+words with this feature the user is able to select text contained in only  
+particular contiguous columns and rows.  in affect the user can select a  
+rectangular area of text anywhere in the document.</p></dd><dt><a name="id2896002"></a><span class="term"><a name="set-highlight"></a>settings-&gt;highlight mode</span></dt><dd><p><a name="id2896071"></a>this allows the user to choose the style of color highlighting which the  
+editor uses to display the text. the styles are selected by programming
+language. the font/color information is not stored with the document.</p></dd><dt><a name="id2896093"></a><span class="term"><a name="end-of-line"></a>settings-&gt;end of line</span></dt><dd><p><a name="id2896163"></a>this opens a sub-menu from which the user can select the type of &#8216;end of  
+line&#8217; code for kwrite to use, i.e., the accepted standard  
+used by unix, mac® or msdos/windows® systems.</p></dd></dl></div></div><div class="sect1"><a name="help"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="help"></a>the help menu</h2></div></div><div class="variablelist"><dl><dt><a name="id2896284"></a><span class="term"><a name="contents"></a>help-&gt;contents (<b>f1</b>)</span></dt><dd><p><a name="id2896393"></a>this invokes the kde help system starting at the kwrite help pages (this document).</p></dd><dt><a name="id2896425"></a><span class="term"><a name="whats-this"></a>help-&gt;what's this? (<b>shift-f1</b>)</span></dt><dd><p><a name="id2896550"></a>this changes the mouse cursor to a combination arrow and question mark.  
+clicking on items within kwrite with this arrow will open a help window (if  
+one exists for the particular item) explaining the item's function.</p></dd><dt><a name="id2896585"></a><span class="term"><a name="report-bug"></a>help-&gt;report bug</span></dt><dd><p><a name="id2896655"></a>this calls a dialog box to help
+the user help the kde team to track down and solve any
+problems(bugs) in the program.  the dialog attempts to do this by
+means of email using the information given by the user.</p></dd><dt><a name="id2896684"></a><span class="term"><a name="about-kwrite"></a>help-&gt;about kwrite</span></dt><dd><p><a name="id2896754"></a>this will display version and author information</p></dd><dt><a name="id2896773"></a><span class="term"><a name="about-kde"></a>help-&gt;about kde</span></dt><dd><p><a name="id2896845"></a>this displays the kde version and other basic information.</p></dd></dl></div></div></div><div class="chapter"><div class="titlepage"><div><h2 class="title"><a name="pref-dialog"></a>Chapter 4. configure kwrite</h2></div></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt> <a href="#prefcolors">colors</a></dt><dt> <a href="#pref-indent">indent</a></dt><dt> <a href="#pref-select">select</a></dt><dt> <a href="#pref-edit">edit</a></dt><dt> <a href="#prefspellchecker">spelling</a></dt></dl></div><p>selecting
+settings-&gt;configure
+kwrite from the menu brings up the configure-kwrite
+dialog box.  this dialog can be used to alter a number of different settings.  the
+settings available for change vary according to which category the user chooses from
+a vertical list on the left side of the dialog.  by means of three buttons
+along the bottom of the box the user can control the process.  she or he may invoke
+the help system, accept the current settings and close the
+dialog by means of the ok button, or
+cancel the process. the categories
+colors, indent,
+select, edit, and
+spelling are detailed below.</p><div class="sect1"><a name="prefcolors"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="prefcolors"></a>colors</h2></div></div><p>this section provides access to <a href="#pref-color-settings">five different color settings</a>,  
+described below.  each of these settings may be changed by clicking on its  
+corresponding button.  these are special wide buttons that are the color of  
+the current setting.  clicking on one of the buttons calls a special color  
+dialog box used to change the setting.</p><p>the color dialog box provides a convenient and graphical way to
+select a color.  in the upper left of the box is a rectangular display of a  
+spectrum of colors. to the immediate right of this, is vertical bar  
+displaying a range of intensity from the most dark at the bottom to the  
+most light at the top.  the user may select and adjust a color by clicking  
+in these two boxes. clicking in the rectangular display selects a  
+particular mix of red, green, and blue colors and in the vertical bar  
+selects a level of intensity (value).  the various color attributes are displayed  
+in numerical form in small text boxes located directly below the spectral  
+rectangle and the user can see them change as the color is adjusted.  these  
+attributes include the mix of the basic color components (red, green, and  
+blue) as well as hue and saturation levels.  alternatively the user can  
+enter figures directly in these boxes.  there is also a square at the  
+bottom center of the dialog box which displays the color which is under  
+consideration at any time.  to the right of this display is another text  
+box labeled html: this shows the user the color code  
+that would be used to specify the particular displayed color in  
+html code which is widely used for web pages.</p><p>in addition to the above, the color dialog allows the capture of any  
+color currently displayed on the desktop or in another program.  clicking  
+on the button with the dropper icon (located on the right side of the  
+dialog box,) changes the shape of the mouse cursor to a set of crosshairs.  
+clicking again will pick up the color attributes of whatever color is  
+displayed under the cross hairs.</p><p>furthermore the user has the option of adding any color to a personal
+palette of &#8220;custom colors&#8221; by clicking on the wide button labeled
+add to custom colors (which is located directly above the
+display square.)  this adds the current color to the custom color palette.  this
+palette and any other available palettes can be displayed using the drop down
+selection box located directly above the palette display at the top right of the
+dialog box.  besides the custom colors, the user can access a number of
+pre-prepared palettes.</p><div class="variablelist"><dl><dt><a name="pref-color-settings"></a><span class="term">background</span></dt><dd><p><a name="id2897266"></a>here the user can specify a color for the general background of  
+kwrite.</p></dd><dt><a name="id2897298"></a><span class="term">text background</span></dt><dd><p><a name="id2897320"></a>this is used to set a particular color to display in the  
+background of those areas of the document containing text.</p></dd><dt><a name="id2897340"></a><span class="term">selected</span></dt><dd><p><a name="id2897362"></a>this allows the user to select a color to be used for indicating  
+selected (or highlighted) portions of the document.</p></dd><dt><a name="id2897382"></a><span class="term">found</span></dt><dd><p><a name="id2897404"></a>this specifies the preferred color with which to mark text  
+encountered as the result of a <a href="#find">find</a>  
+operation.</p></dd><dt><a name="id2897440"></a><span class="term">selected + found</span></dt><dd><p><a name="id2897462"></a>this sets the color for text that has not only been found as in  
+the previous entry above but that has also been selected.</p></dd></dl></div></div><div class="sect1"><a name="pref-indent"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="pref-indent"></a>indent</h2></div></div><div class="variablelist"><dl><dt><a name="id2897514"></a><span class="term">auto indent</span></dt><dd><p><a name="id2897536"></a>this causes  
+new lines to begin with the same indentation level as the previous  
+line.</p></dd><dt><a name="id2897555"></a><span class="term">indent with spaces</span></dt><dd><p><a name="id2897578"></a>this  
+replaces tabs with the number of spaces selected in the tab width window in  
+the <a href="#pref-edit" title="edit">edit</a> section of the preferences  
+dialog.</p></dd><dt><a name="id2897617"></a><span class="term">backspace key indents</span></dt><dd><p><a name="id2897640"></a>this allows the  
+backspace key to be used to  
+indent.</p></dd><dt><a name="id2897684"></a><span class="term">tab key indents</span></dt><dd><p><a name="id2897706"></a>this  
+allows the tab key to be used to  
+indent.</p></dd><dt><a name="id2897751"></a><span class="term">keep indent profile</span></dt><dd><p><a name="id2897773"></a>this  
+retains current indentation settings for future documents.</p></dd><dt><a name="id2897792"></a><span class="term">keep extra spaces</span></dt><dd><p><a name="id2897814"></a>indentations of more than the selected number of spaces  
+will not be shortened.</p></dd></dl></div></div><div class="sect1"><a name="pref-select"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="pref-select"></a>select</h2></div></div><div class="variablelist"><dl><dt><a name="id2897866"></a><span class="term">persistent selections</span></dt><dd><p><a name="id2897889"></a>this prevents key input or cursor movement by way of the  
+arrow keys from causing the elimination of text  
+selection. </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title"><a name="id2897905"></a>Note</h3><p>(note: if the overwrite selections option is  
+activated then any typed character input or paste operation will replace  
+the selected text.)</p></div></dd><dt><a name="id2897927"></a><span class="term">overwrite selections</span></dt><dd><p><a name="id2897950"></a>any keyed character input or paste operation will replace  
+the selected text.  </p></dd><dt><a name="id2897969"></a><span class="term">mouse autocopy</span></dt><dd><p><a name="id2897991"></a>any text  
+selected with the mouse will be automatically copied to the  
+clipboard.</p></dd><dt><a name="id2898010"></a><span class="term">x11-like single selection</span></dt><dd><p><a name="id2898032"></a>not implemented yet.</p></dd><dt><a name="id2898050"></a><span class="term">vertical selections</span></dt><dd><p><a name="id2898073"></a>this  
+activates the <a href="#vertical-selection">vertical selection</a>  
+option.</p></dd><dt><a name="id2898112"></a><span class="term">toggle old</span></dt><dd><p><a name="id2898126"></a>not yet implemented</p></dd></dl></div></div><div class="sect1"><a name="pref-edit"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="pref-edit"></a>edit</h2></div></div><div class="variablelist"><dl><dt><a name="id2898176"></a><span class="term">word wrap</span></dt><dd><p><a name="id2898208"></a>word wrap is a feature that causes the editor to
+automatically start a new line of text and move (wrap) the cursor to the
+beginning of that new line.  kwrite will automatically start a new line of text
+when  the current line reaches the length specified by the <a href="#pref-wrap-words-at">wrap words at:</a>  
+option.</p></dd><dt><a name="id2898264"></a><span class="term">wrap words  
+at:</span></dt><dd><p><a name="id2898296"></a>if the <a href="#pref-word-wrap">word wrap</a> option is selected this entry  
+determines the length (in characters) at which the editor will
+automatically start a new line.</p></dd><dt><a name="id2898336"></a><span class="term">replace tabs by  
+spaces</span></dt><dd><p><a name="id2898369"></a>kwrite will replace any tabs  
+with the number of spaces indicated in the <a href="#pref-tab-width">tab width:</a> entry.</p></dd><dt><a name="id2898419"></a><span class="term">tab width</span></dt><dd><p><a name="id2898443"></a>if the <a href="#pref-word-wrap">replace tabs by spaces</a>  
+option is selected this entry determines the number of spaces with which
+the editor will automatically replace tabs.</p></dd><dt><a name="id2898486"></a><span class="term">remove trailing spaces</span></dt><dd><p><a name="id2898509"></a>kwrite will automatically eliminate extra spaces at the  
+ends of lines of text.</p></dd><dt><a name="id2898538"></a><span class="term">auto brackets</span></dt><dd><p><a name="id2898560"></a>when the
+user types a left bracket ([,(, or {) kwrite automatically
+enters the right bracket (}, ), or ]) to the right of the
+cursor.</p></dd><dt><a name="id2898593"></a><span class="term">group undos</span></dt><dd><p><a name="id2898624"></a>groups of similar actions are to be considered a single
+<a href="#undo">undo</a> step by kwrite. in other words, a series
+of regular character keystrokes (words or expressions) would be considered
+one step and therefore be removed by a single undo operation.  if the
+series of character entries were interrupted by a non-character entry
+operation (such as a backspace), invoking undo would only remove the
+entries made since that operation. the next undo would then reverse that
+operation and so on.</p><p> when this option is not selected kwrite considers
+each keystroke to be a single step.  so if the user (with this option
+active) were to type several words or even sentences without having to make
+corrections or cut or paste or some other non-character entry operation
+then a click of the undo button would eliminate all that had been typed
+since the last non-entry operation.  a second click would eliminate that
+operation and a third any operation or series of entries that occurred
+before the operation and so on.  when not selected three clicks of the undo
+button would only remove the last three letters typed, or the last three
+operations.</p></dd><dt><a name="id2898713"></a><span class="term">show tabs</span></dt><dd><p><a name="id2898735"></a>the editor will display a symbol to indicate the presence  
+of a tab in the text.</p></dd><dt><a name="id2898754"></a><span class="term">smart home</span></dt><dd><p><a name="id2898776"></a>not yet implemented</p></dd><dt><a name="id2898794"></a><span class="term">page up/down moves cursor</span></dt><dd><p><a name="id2898816"></a>this option changes the behavior of the cursor when
+the user presses the <b>page up</b> or <b>page down</b> key. if
+unselected the text cursor will maintain its relative position within the visible
+text in kwrite as new text becomes visible as a result of the operation.  so if
+the cursor is in the middle of the visible text when the operation occurs it will
+remain there (except when one reaches the beginning or end.)  with this
+option selected, the first key press will cause the cursor to move to either the top
+or bottom of the visible text as a new page of text is displayed.</p></dd><dt><a name="id2898883"></a><span class="term">wrap cursor</span></dt><dd><p><a name="id2898897"></a>when this option is chosen, moving
+the cursor with the arrow keys off the end of a line (to the right) causes
+it to jump down to the beginning of the next line.  likewise when the
+cursor is moved past the beginning of a line (to the left) it jumps up to
+the end of the preceding line. when this option is not selected, moving the
+cursor right past the end of a line merely causes it to continue
+horizontally in the same line and trying to move it left past the beginning
+does nothing.</p></dd><dt><a name="id2898924"></a><span class="term"><a href="#undo">undo</a> steps:</span></dt><dd><p><a name="id2898952"></a>here
+the user may specify the number of steps kwrite will retain in memory for
+purposes of undoing entries and actions.  this means that the higher the
+number of steps set the more memory kwrite will use for this.  setting
+this entry to 10 would mean that the user would be be able reverse the last
+ten operations, i.e.i&gt;, click the undo
+button 10 times and obtain results.</p></dd></dl></div></div><div class="sect1"><a name="prefspellchecker"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="prefspellchecker"></a>spelling</h2></div></div><p>a spell checker is a program designed to
+help the user catch and correct any spelling errors.  this section of the
+preferences dialog allows certain important settings to be adjusted in this
+regard.</p><div class="variablelist"><dl><dt><a name="id2899068"></a><span class="term">create root/affix combinations not in
+dictionary</span></dt><dd><p><a name="id2899091"></a>selecting this option allows
+the spell checker to register as 'correct' combinations of root words with
+suffixes or prefixes even if the particular combination is not listed in
+its dictionary data base of words.</p></dd><dt><a name="id2899112"></a><span class="term">consider run-together words as spelling
+errors</span></dt><dd><p><a name="id2899135"></a>selecting this will cause the
+spell checker to register as 'misspelled' two or more correctly spelled
+words that are 'run-together', i.e., that do not have spaces
+separating them.</p></dd><dt><a name="id2899164"></a><span class="term">dictionary:</span></dt><dd><p><a name="id2899186"></a>depending on
+the user's installation one or more different language spelling
+dictionaries may be available.  this drop down box allows the user to
+choose which language the spell checker should use.</p></dd><dt><a name="id2899207"></a><span class="term">encoding:</span></dt><dd><p><a name="id2899229"></a>there are  
+different coding systems used to associate particular codes with particular  
+characters and symbols.  if the user knows which code he or she is using  
+this drop down box allows this code to be specified so that the spell
+checker can do its job correctly. </p></dd><dt><a name="id2899252"></a><span class="term">client:</span></dt><dd><p><a name="id2899274"></a>since kwrite
+does not contain its own spell checker, an external one must be chosen.
+this is where the user may specify which spell check program to
+use.</p></dd></dl></div></div></div><div class="chapter"><div class="titlepage"><div><h2 class="title"><a name="pref-highlighting"></a>Chapter 5. highlighting</h2></div></div><p>the configure highlighting dialog consists of two
+pages, defaults and highlighting
+modes.  the user can select which page to view by clicking on the
+appropriate tab at the top of the dialog</p><p>items available on the defaults page are as
+follows:</p><div class="variablelist"><dl><dt><a name="id2899415"></a><span class="term">default item styles</span></dt><dd><p><a name="id2899437"></a>the user can configure the default appearance for particular items.
+this would allow a programmer to more easily identify different items (types of
+entries) in his or her code.
+
+</p><div class="variablelist"><dl><dt><a name="id2899461"></a><span class="term">item</span></dt><dd><p><a name="id2899483"></a>this drop down list offers a variety of items that the user
+might want to highlight.  they include normal for
+text does not fit in any of the other categories, comment,
+string, keyword and many more.  not
+all of these entries will need to be configured for every language and so may be
+selected as needed.  the options in the rest of this section apply
+to the entry selected in this box.</p></dd><dt><a name="id2899560"></a><span class="term">normal</span></dt><dd><p><a name="id2899582"></a>this allows the user to choose the item's normal
+(unselected) color.  this is done by means of a color selection
+dialog box, a further explanation of which may be found in the <a href="#prefcolors" title="colors">colors</a> section of <a href="#pref-dialog" title="Chapter 4. configure kwrite">configure kwrite</a>.</p></dd><dt><a name="id2899638"></a><span class="term">bold</span></dt><dd><p><a name="id2899660"></a>this option determines whether or not the item should be displayed in
+bold text.</p></dd><dt><a name="id2899679"></a><span class="term">italic</span></dt><dd><p><a name="id2899701"></a>this option determines whether or not the item should be displayed in italic
+text.</p></dd><dt><a name="id2899720"></a><span class="term">selected</span></dt><dd><p><a name="id2899742"></a>this allows the user to choose the item's color
+when selected.  this is done by means of a color selection
+dialog box, a further explanation of which may be found in the <a href="#prefcolors" title="colors">colors</a> section of <a href="#pref-dialog" title="Chapter 4. configure kwrite">configure kwrite</a>.</p></dd></dl></div></dd><dt><a name="id2899800"></a><span class="term">default font</span></dt><dd><p><a name="id2899822"></a>here the user can choose the default font for all
+text.</p><div class="variablelist"><dl><dt><a name="id2899844"></a><span class="term">family</span></dt><dd><p><a name="id2899866"></a>this is used to choose the font family.  the default is fixed.
+for most programming purposes, a monospaced font (one in which a w takes up the same
+amount of space as an i) may be the best choice.</p></dd><dt><a name="id2899888"></a><span class="term">size</span></dt><dd><p><a name="id2899910"></a>the font size can be changed here.  the default is 12
+points.</p></dd><dt><a name="id2899928"></a><span class="term">charset</span></dt><dd><p><a name="id2899950"></a>here the user can choose which character set to work in.</p></dd></dl></div></dd></dl></div><p>items on the highlight modes tab allow the user to define
+more specific highlighting depending on the language style.</p><p>one need not set every available option, items not configured
+specifically will use the default configuration specified on the previous  
+(defaults tab.</p><div class="variablelist"><dl><dt><a name="id2900029"></a><span class="term">config select</span></dt><dd><p><a name="id2900051"></a>this group of options is used to customize the highlighting styles
+for each programming language type.  any changes you made in
+other areas of this dialog apply only to this type.</p><div class="variablelist"><dl><dt><a name="id2900075"></a><span class="term">highlight</span></dt><dd><p><a name="id2900097"></a>this is used to choose the language type to
+configure</p></dd><dt><a name="id2900116"></a><span class="term">item</span></dt><dd><p><a name="id2900138"></a>this is to choose the syntax item to configure.  remember
+this  only configures <i>this</i> item for <i>this</i>
+language.</p></dd></dl></div><p>as an example, if the user wished to configure the appearance of
+&#8220;comments&#8221; while writing c++, she or he could choose c++ in the
+highlight drop down list, and then choose comment in the
+item drop down list. to have &#8220;comments&#8221; look
+the same across all languages, the user would need to configure this in the
+defaults page of this dialog box while leaving
+&#8220;comments&#8221; unconfigured within the more specific
+highlight modes page.</p></dd><dt><a name="id2900267"></a><span class="term">item style</span></dt><dd><p><a name="id2900289"></a>here the user can configure the general appearance of the above
+selected item.  checking the default checkbox causes the default
+style as configured on the previous tab to be set, or the
+appearance can be configured directly.  the available options are the same as on the
+defaults tab: normal,
+selected, bold and
+italic.</p></dd><dt><a name="id2900390"></a><span class="term">highlight auto select</span></dt><dd><p><a name="id2900413"></a>kwrite can apply syntax highlighting automatically, depending  
+on the file extension or mime-type of the opened file.  the defaults are fairly
+comprehensive, but users that regularly edit files with non-standard extensions
+can add them here.  wildcards are allowed in the file
+extensions text box.  for example, the default entry for the c++
+language is <b><tt>*.cpp;*.cc;*.c;*.h</tt></b>.  opening a file called
+<tt>foo.h</tt> would automatically apply the c++ style to it.</p></dd><dt><a name="id2900487"></a><span class="term">item font</span></dt><dd><p><a name="id2900509"></a>here the user can choose the font for the selected item.</p><p>the default style can be applied by checking the
+default checkbox or the user can choose a specific font
+family, size and
+charset.  the available options are the same as those on
+the defaults tab.</p></dd></dl></div></div><div class="chapter"><div class="titlepage"><div><h2 class="title"><a name="credits"></a>Chapter 6. credits and licenses</h2></div></div><p>kwrite copyright 2000 by jochen wilhelmy  
+<tt>&lt;<a href="mailto:digisnap@cs.tu-berlin.de">digisnap@cs.tu-berlin.de</a>&gt;</tt></p><p>contributions:</p><div class="itemizedlist"><ul><li><p><a name="id2900670"></a>additional contributions by glen parker <tt>&lt;<a href="mailto:glenebob@nwlink.com">glenebob@nwlink.com</a>&gt;</tt></p></li><li><p><a name="id2900691"></a>michael koch <tt>&lt;<a href="mailto:koch@kde.org">koch@kde.org</a>&gt;</tt></p></li></ul></div><p>documentation by thad mcginnis <tt>&lt;<a href="mailto:ctmcginnis@compuserve.com">ctmcginnis@compuserve.com</a>&gt;</tt></p><div class="itemizedlist"><ul><li><p><a name="id2900735"></a>this version of the kwrite handbook is based on the original by cristian tibirna <tt>&lt;<a href="mailto:tibirna@kde.org">tibirna@kde.org</a>&gt;</tt></p></li></ul></div><p>converted to docbook/proofreading by lauri watts <tt>&lt;<a href="mailto:vampyr@atconnex.net">vampyr@atconnex.net</a>&gt;</tt></p><p><a name="gnu-fdl"></a>this documentation is licensed under the terms of the <a href="common/fdl-license.html" target="_top">gnu free documentation
+license</a>.</p><p>this program is licensed under the terms of the <a href="common/gpl-translated.html" target="_top">gnu general public license</a>.</p></div><div class="appendix"><div class="titlepage"><div><h2 class="title"><a name="installation"></a>Appendix A. installation</h2></div></div><p>kwrite is packaged as part of the kdebase package.  for more information
+on installing and compiling kde please see <a href="http://www.kde.org" target="_top">www.kde.org</a>.</p></div></div></body></html>

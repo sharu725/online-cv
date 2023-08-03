@@ -1,0 +1,363 @@
+<?xml version="1.0"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" font-family="Times Roman" font-size="10pt" text-align="justify">
+  <fo:layout-master-set>
+    <fo:simple-page-master master-name="blank" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="10pc" margin-right="1in">
+      <fo:region-body margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-blank" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-blank" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="simple1" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="10pc" margin-right="1in">
+      <fo:region-body margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before extent="12pt"/>
+      <fo:region-after extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="left1" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="10pc" margin-right="1in">
+      <fo:region-body margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-left" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-left" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="right1" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="1in" margin-right="10pc">
+      <fo:region-body margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-right" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-right" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="first1" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="1in" margin-right="1in">
+      <fo:region-body margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-first" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-first" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="simple2" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="10pc" margin-right="1in">
+      <fo:region-body column-count="1" margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before extent="12pt"/>
+      <fo:region-after extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="left2" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="10pc" margin-right="1in">
+      <fo:region-body column-count="1" margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-left" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-left" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="right2" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="1in" margin-right="10pc">
+      <fo:region-body column-count="1" margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-right" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-right" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="first2" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="1in" margin-right="1in">
+      <fo:region-body column-count="1" margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-first" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-first" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:page-sequence-master master-name="titlepage1">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="first1"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+    <fo:page-sequence-master master-name="oneside1">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="simple1"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+    <fo:page-sequence-master master-name="twoside1">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="blank" blank-or-not-blank="blank"/>
+        <fo:conditional-page-master-reference master-name="right1" odd-or-even="odd"/>
+        <fo:conditional-page-master-reference master-name="left1" odd-or-even="even"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+    <fo:page-sequence-master master-name="titlepage2">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="first2"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+    <fo:page-sequence-master master-name="oneside2">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="simple2"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+    <fo:page-sequence-master master-name="twoside2">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="blank" blank-or-not-blank="blank"/>
+        <fo:conditional-page-master-reference master-name="right2" odd-or-even="odd"/>
+        <fo:conditional-page-master-reference master-name="left2" odd-or-even="even"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+  </fo:layout-master-set>
+  <fo:page-sequence id="book" hyphenate="true" master-name="titlepage1" language="en">
+    <fo:flow flow-name="xsl-region-body">
+      <fo:block>
+        <fo:block font-family="Helvetica" font-weight="bold" font-size="24.8832pt" text-align="center" space-before="18.6624pt">
+          <fo:block keep-with-next.within-column="always" hyphenate="false">Book Title</fo:block>
+        </fo:block>
+        <fo:block font-family="Helvetica" font-weight="bold" font-size="17.28pt" text-align="center" keep-with-next="always" space-before="2in">Some Corporation</fo:block>
+        <fo:block font-family="Helvetica" font-weight="bold" font-size="17.28pt" text-align="center" space-before="10.8pt" keep-with-next="always">Norman Walsh</fo:block>
+        <fo:block break-after="page"/>
+        <fo:block font-size="14.4pt" font-weight="bold" font-family="Helvetica">
+          <fo:block>Book Title</fo:block>
+        </fo:block>
+        <fo:block font-size="10pt">
+          <fo:block>by Some Corporation</fo:block>
+        </fo:block>
+        <fo:block font-size="10pt">
+          <fo:block>by Norman Walsh</fo:block>
+        </fo:block>
+        <fo:block font-size="10pt">Copyright &#xA9; 1998 Norman Walsh</fo:block>
+        <fo:block font-size="8pt">
+          <fo:block>
+            <fo:block font-weight="bold" font-size="12pt" hyphenate="false" keep-with-next.within-column="always" space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">Legal Notice</fo:block>
+            <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">This is a test document. You can do what you will with it.</fo:block>
+          </fo:block>
+        </fo:block>
+        <fo:block font-size="8pt">
+          <fo:block>
+            <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">This is a second legal notice.  But it's not noteworthy.
+  Some more text. Some more text. Some more text. Some more text. 
+  Some more text. Some more text. Some more text. Some more text. 
+  Some more text. Some more text. Some more text. Some more text. 
+  Some more text. Some more text. Some more text. Some more text. 
+  Some more text. Some more text. Some more text. Some more text. 
+  Some more text. Some more text. Some more text. Some more text. 
+  Some more text. Some more text. Some more text. Some more text. 
+  </fo:block>
+          </fo:block>
+        </fo:block>
+        <fo:block break-after="page"/>
+      </fo:block>
+    </fo:flow>
+  </fo:page-sequence>
+  <fo:page-sequence hyphenate="true" format="i" master-name="titlepage1" language="en">
+    <fo:flow flow-name="xsl-region-body">
+      <fo:block space-before.minimum="0.5em" space-before.optimum="1em" space-before.maximum="2em" space-after.minimum="0.5em" space-after.optimum="1em" space-after.maximum="2em">
+        <fo:block>
+          <fo:block space-after="1em" margin-left="-4pc" font-size="17.28pt" font-weight="bold" font-family="Helvetica">Table of Contents</fo:block>
+        </fo:block>
+        <fo:block text-align-last="justify" end-indent="2pc" last-line-end-indent="-2pc">
+          <fo:inline keep-with-next.within-line="always"> A Test Bibliography</fo:inline>
+          <fo:inline keep-together.within-line="always"> <fo:leader leader-pattern="dots" keep-with-next.within-line="always"/> <fo:basic-link internal-destination="bib1"><fo:page-number-citation ref-id="bib1"/></fo:basic-link></fo:inline>
+        </fo:block>
+        <fo:block text-align-last="justify" end-indent="2pc" last-line-end-indent="-2pc">
+          <fo:inline keep-with-next.within-line="always"> Example Glossary</fo:inline>
+          <fo:inline keep-together.within-line="always"> <fo:leader leader-pattern="dots" keep-with-next.within-line="always"/> <fo:basic-link internal-destination="gloss"><fo:page-number-citation ref-id="gloss"/></fo:basic-link></fo:inline>
+        </fo:block>
+        <fo:block text-align-last="justify" end-indent="2pc" last-line-end-indent="-2pc">
+          <fo:inline keep-with-next.within-line="always"> Index</fo:inline>
+          <fo:inline keep-together.within-line="always"> <fo:leader leader-pattern="dots" keep-with-next.within-line="always"/> <fo:basic-link internal-destination="index"><fo:page-number-citation ref-id="index"/></fo:basic-link></fo:inline>
+        </fo:block>
+        <fo:block text-align-last="justify" end-indent="2pc" last-line-end-indent="-2pc">
+          <fo:inline keep-with-next.within-line="always"> Index</fo:inline>
+          <fo:inline keep-together.within-line="always"> <fo:leader leader-pattern="dots" keep-with-next.within-line="always"/> <fo:basic-link internal-destination="id2779208"><fo:page-number-citation ref-id="id2779208"/></fo:basic-link></fo:inline>
+        </fo:block>
+      </fo:block>
+    </fo:flow>
+  </fo:page-sequence>
+  <fo:page-sequence id="bib1" hyphenate="true" master-name="oneside1" language="en">
+    <fo:static-content flow-name="xsl-region-after">
+      <fo:block text-align="center" font-size="10pt">
+        <fo:page-number/>
+      </fo:block>
+    </fo:static-content>
+    <fo:flow flow-name="xsl-region-body">
+      <fo:block>
+        <fo:block margin-left="-4pc" font-size="17.28pt" font-family="Helvetica" font-weight="bold">
+          <fo:block keep-with-next.within-column="always" hyphenate="false">A Test Bibliography</fo:block>
+        </fo:block>
+      </fo:block>
+      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">The stock stylesheet attempts to do a Bibliography.  It probably needs
+a lot of tweaking.  It probably doesn't conform to any specific style.</fo:block>
+      <fo:block>
+        <fo:block font-size="16pt" font-weight="bold">Books</fo:block>
+        <fo:block id="id2784988" space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+          <fo:inline>[AhoSethiUllman96] </fo:inline>
+          <fo:inline>Alfred V. Aho,Ravi Sethi, and Jeffrey D. Ullman. </fo:inline>
+          <fo:inline><fo:inline font-style="italic">Compilers, Principles, Techniques, and Tools</fo:inline>. </fo:inline>
+          <fo:inline>
+            <fo:inline>Addison-Wesley Publishing Company. </fo:inline>
+          </fo:inline>
+          <fo:inline>Copyright &#xA9; 1996 Bell Telephone Laboratories, Inc.. </fo:inline>
+          <fo:inline>0-201-10088-6. </fo:inline>
+          <fo:inline>James T. DeWolf. </fo:inline>
+        </fo:block>
+      </fo:block>
+      <fo:block>
+        <fo:block font-size="16pt" font-weight="bold">Periodicals</fo:block>
+        <fo:block id="walsh97" space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+          <fo:inline>[Walsh97] </fo:inline>
+          <fo:inline>&quot;A Guide to XML&quot;. <fo:inline>Norman Walsh. </fo:inline><fo:inline>1997. </fo:inline><fo:inline>Copyright &#xA9; 1997 ArborText, Inc.. </fo:inline><fo:inline>97-108. </fo:inline></fo:inline>
+          <fo:inline><fo:inline font-style="italic">XML: Principles, Tools, and Techniques</fo:inline>. <fo:inline><fo:inline>O'Reilly &amp; Associates, Inc.. </fo:inline></fo:inline><fo:inline>1085-2301. </fo:inline><fo:inline>Dan Connolly. </fo:inline></fo:inline>
+        </fo:block>
+        <fo:block id="walsh96" space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">  <fo:inline>    <fo:inline>Walsh</fo:inline>, <fo:inline>Norman</fo:inline>.
+    &quot;Introduction to Cascading Style Sheets&quot;.
+  </fo:inline>
+  <fo:inline>    <fo:inline font-style="italic">The World Wide Web Journal</fo:inline>.
+    <fo:inline>2</fo:inline>(<fo:inline>1</fo:inline>).
+    <fo:inline>O'Reilly &amp; Associates, Inc.</fo:inline> and
+    <fo:inline>The World Wide Web Consortium</fo:inline>.
+    <fo:inline>Winter, 1996</fo:inline></fo:inline>.</fo:block>
+        <fo:block id="id2786280" space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+          <fo:inline>[Abbrev] </fo:inline>
+          <fo:inline><fo:inline font-style="italic">A Really Full BiblioEntry</fo:inline>. </fo:inline>
+          <fo:inline>Subtitle. </fo:inline>
+          <fo:inline><fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">Abstract, abstract, abstract. Abstract, abstract, abstract. 
+Abstract, abstract, abstract. Abstract, abstract, abstract. 
+Abstract, abstract, abstract. Abstract, abstract, abstract. 
+Abstract, abstract, abstract. Abstract, abstract, abstract. 
+Abstract, abstract, abstract. Abstract, abstract, abstract. 
+Abstract, abstract, abstract. Abstract, abstract, abstract. </fo:block>. </fo:inline>
+          <fo:inline>Any Street
+Anywhere, XX 99999
+USA. </fo:inline>
+          <fo:inline><fo:inline>shortaffil. </fo:inline><fo:inline>jobtitle. </fo:inline><fo:inline>orgname. </fo:inline><fo:inline>orgdiv. </fo:inline><fo:inline>Any Street
+Anywhere, XX 99999
+USA. </fo:inline>. </fo:inline>
+          <fo:inline>ArtPageNums. </fo:inline>
+          <fo:inline>AuthorFirstname AuthorSurname. </fo:inline>
+          <fo:inline><fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">AuthorBlurb, authorblurb, authorblurb. AuthorBlurb, authorblurb, authorblurb. 
+AuthorBlurb, authorblurb, authorblurb. AuthorBlurb, authorblurb, authorblurb. 
+AuthorBlurb, authorblurb, authorblurb. AuthorBlurb, authorblurb, authorblurb. 
+AuthorBlurb, authorblurb, authorblurb. AuthorBlurb, authorblurb, authorblurb. 
+AuthorBlurb, authorblurb, authorblurb. AuthorBlurb, authorblurb, authorblurb. </fo:block>. </fo:inline>
+          <fo:inline>AuthorInitials. </fo:inline>
+          <fo:inline><fo:inline>The names of some collaborators. </fo:inline><fo:inline><fo:inline>shortaffil. </fo:inline><fo:inline>jobtitle. </fo:inline><fo:inline>orgname. </fo:inline><fo:inline>orgdiv. </fo:inline><fo:inline>Any Street
+Anywhere, XX 99999
+USA. </fo:inline>. </fo:inline>. </fo:inline>
+          <fo:inline><fo:inline>confdates. </fo:inline><fo:inline>conftitle. </fo:inline><fo:inline>confnum. </fo:inline><fo:inline>Any Street
+Anywhere, XX 99999
+USA. </fo:inline><fo:inline>confsponsor. </fo:inline>. </fo:inline>
+          <fo:inline>ContractNum. </fo:inline>
+          <fo:inline>ContractSponsor. </fo:inline>
+          <fo:inline>Contrib. </fo:inline>
+          <fo:inline>Copyright &#xA9; 1998 Copyright holder. </fo:inline>
+          <fo:inline>CorpName. </fo:inline>
+          <fo:inline>Date. </fo:inline>
+          <fo:inline>Edition. </fo:inline>
+          <fo:inline>EditorFirstName EditorSurname. </fo:inline>
+          <fo:inline>FirstName. </fo:inline>
+          <fo:inline>Honorific. </fo:inline>
+          <fo:inline>ISBN. </fo:inline>
+          <fo:inline>ISSN. </fo:inline>
+          <fo:inline>InvPartNumber. </fo:inline>
+          <fo:inline>IssueNum. </fo:inline>
+          <fo:inline>Lineage. </fo:inline>
+          <fo:inline>OrgName. </fo:inline>
+          <fo:inline><fo:inline>OCFirstName. </fo:inline><fo:inline>OCSurname. </fo:inline>. </fo:inline>
+          <fo:inline>OtherName. </fo:inline>
+          <fo:inline>PageNums. </fo:inline>
+          <fo:inline><fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">PrintHistory, printhistory, printhistory. PrintHistory, printhistory.
+PrintHistory, printhistory, printhistory. PrintHistory, printhistory.
+PrintHistory, printhistory, printhistory. PrintHistory, printhistory.
+PrintHistory, printhistory, printhistory. PrintHistory, printhistory.</fo:block>. </fo:inline>
+          <fo:inline>ProductName. </fo:inline>
+          <fo:inline>ProductNumber. </fo:inline>
+          <fo:inline>PubDate. </fo:inline>
+          <fo:inline>
+            <fo:inline>PubPublisherName. </fo:inline>
+            <fo:inline>Any Street
+Anywhere, XX 99999
+USA. </fo:inline>
+          </fo:inline>
+          <fo:inline>PublisherName. </fo:inline>
+          <fo:inline>PubsNumber. </fo:inline>
+          <fo:inline>ReleaseInfo. </fo:inline>
+          <fo:inline><fo:block color="red">&lt;revision&gt;<fo:block color="red">&lt;revnumber&gt;1.0&lt;/revnumber&gt;</fo:block><fo:block color="red">&lt;date&gt;20 Nov 1998&lt;/date&gt;</fo:block><fo:block color="red">&lt;authorinitials&gt;ndw&lt;/authorinitials&gt;</fo:block><fo:block color="red">&lt;revremark&gt;Some remark about the revision&lt;/revremark&gt;</fo:block>&lt;/revision&gt;</fo:block><fo:block color="red">&lt;revision&gt;<fo:block color="red">&lt;revnumber&gt;0.9&lt;/revnumber&gt;</fo:block><fo:block color="red">&lt;date&gt;19 Nov 1998&lt;/date&gt;</fo:block><fo:block color="red">&lt;authorinitials&gt;ndw&lt;/authorinitials&gt;</fo:block><fo:block color="red">&lt;revremark&gt;Some remark about the revision&lt;/revremark&gt;</fo:block>&lt;/revision&gt;</fo:block><fo:block color="red">&lt;revision&gt;<fo:block color="red">&lt;revnumber&gt;0.4&lt;/revnumber&gt;</fo:block><fo:block color="red">&lt;date&gt;18 Nov 1998&lt;/date&gt;</fo:block><fo:block color="red">&lt;authorinitials&gt;ndw&lt;/authorinitials&gt;</fo:block><fo:block color="red">&lt;revremark&gt;Some remark about the revision&lt;/revremark&gt;</fo:block>&lt;/revision&gt;</fo:block>. </fo:inline>
+          <fo:inline>SeriesVolNums. </fo:inline>
+          <fo:inline>Surname. </fo:inline>
+          <fo:inline>TitleAbbrev. </fo:inline>
+          <fo:inline>VolumeNum. </fo:inline>
+        </fo:block>
+      </fo:block>
+    </fo:flow>
+  </fo:page-sequence>
+  <fo:page-sequence id="gloss" hyphenate="true" master-name="oneside1" language="en">
+    <fo:static-content flow-name="xsl-region-after">
+      <fo:block text-align="center" font-size="10pt">
+        <fo:page-number/>
+      </fo:block>
+    </fo:static-content>
+    <fo:flow flow-name="xsl-region-body">
+      <fo:block>
+        <fo:block margin-left="-4pc" font-size="17.28pt" font-family="Helvetica" font-weight="bold">
+          <fo:block keep-with-next.within-column="always" hyphenate="false">Example Glossary</fo:block>
+        </fo:block>
+      </fo:block>
+      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">This is not a real glossary, it's just an example.</fo:block>
+      <fo:block font-size="16pt" font-weight="bold">E</fo:block>
+      <fo:list-block provisional-distance-between-starts="2in" provisional-label-separation="0.25in" space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+        <fo:list-item id="xml" space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+          <fo:list-item-label end-indent="label-end()">
+            <fo:block>Extensible Markup Language</fo:block>
+          </fo:list-item-label>
+          <fo:list-item-body start-indent="body-start()">
+            <fo:block>Some reasonable definition here.</fo:block>
+            <fo:block>See Also <fo:basic-link internal-destination="sgml">Standard Generalized
+  Markup Language</fo:basic-link>.</fo:block>
+          </fo:list-item-body>
+        </fo:list-item>
+      </fo:list-block>
+      <fo:block font-size="16pt" font-weight="bold">S</fo:block>
+      <fo:list-block provisional-distance-between-starts="2in" provisional-label-separation="0.25in" space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+        <fo:list-item id="id2778673" space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+          <fo:list-item-label end-indent="label-end()">
+            <fo:block>SGML</fo:block>
+          </fo:list-item-label>
+          <fo:list-item-body start-indent="body-start()">
+            <fo:block>See <fo:basic-link internal-destination="sgml">Standard Generalized
+  Markup Language</fo:basic-link>.</fo:block>
+          </fo:list-item-body>
+        </fo:list-item>
+        <fo:list-item id="sgml" space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+          <fo:list-item-label end-indent="label-end()">
+            <fo:block>Standard Generalized
+  Markup Language</fo:block>
+          </fo:list-item-label>
+          <fo:list-item-body start-indent="body-start()">
+            <fo:block>Some reasonable definition here.</fo:block>
+            <fo:block>See Also <fo:basic-link internal-destination="xml">Extensible Markup Language</fo:basic-link>.</fo:block>
+          </fo:list-item-body>
+        </fo:list-item>
+      </fo:list-block>
+    </fo:flow>
+  </fo:page-sequence>
+  <fo:page-sequence id="index" hyphenate="true" master-name="oneside1" language="en">
+    <fo:static-content flow-name="xsl-region-after">
+      <fo:block text-align="center" font-size="10pt">
+        <fo:page-number/>
+      </fo:block>
+    </fo:static-content>
+    <fo:flow flow-name="xsl-region-body">
+      <fo:block>
+        <fo:block margin-left="-4pc" font-size="17.28pt" font-family="Helvetica" font-weight="bold">
+          <fo:block keep-with-next.within-column="always" hyphenate="false">Index</fo:block>
+        </fo:block>
+      </fo:block>
+      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">This is a test index.</fo:block>
+      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em"><fo:inline font-weight="bold" keep-with-next.within-line="always" padding-end="1em">a formal para</fo:inline>this is a formal paragraph.</fo:block>
+    </fo:flow>
+  </fo:page-sequence>
+  <fo:page-sequence id="id2779208" hyphenate="true" master-name="oneside1" language="en">
+    <fo:static-content flow-name="xsl-region-after">
+      <fo:block text-align="center" font-size="10pt">
+        <fo:page-number/>
+      </fo:block>
+    </fo:static-content>
+    <fo:flow flow-name="xsl-region-body">
+      <fo:block>
+        <fo:block margin-left="-4pc" font-size="17.28pt" font-family="Helvetica" font-weight="bold">
+          <fo:block keep-with-next.within-column="always" hyphenate="false">Index</fo:block>
+        </fo:block>
+      </fo:block>
+      <fo:block>
+        <fo:block font-size="16pt" font-weight="bold">Symbols</fo:block>
+      </fo:block>
+      <fo:block>
+        <fo:block font-size="16pt" font-weight="bold">A</fo:block>
+      </fo:block>
+      <fo:block>
+        <fo:block font-size="16pt" font-weight="bold">C</fo:block>
+      </fo:block>
+      <fo:block>
+        <fo:block font-size="16pt" font-weight="bold">O</fo:block>
+      </fo:block>
+      <fo:block>
+        <fo:block font-size="16pt" font-weight="bold">S</fo:block>
+      </fo:block>
+    </fo:flow>
+  </fo:page-sequence>
+</fo:root>

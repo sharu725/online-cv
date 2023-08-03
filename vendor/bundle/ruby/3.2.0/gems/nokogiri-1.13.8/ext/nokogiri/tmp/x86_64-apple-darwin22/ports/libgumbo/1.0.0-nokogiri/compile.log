@@ -1,0 +1,37 @@
+clang -fPIC -g -std=c99 -Wall   -c -o ascii.o ascii.c
+clang -fPIC -g -std=c99 -Wall   -c -o attribute.o attribute.c
+clang -fPIC -g -std=c99 -Wall   -c -o char_ref.o char_ref.c
+clang -fPIC -g -std=c99 -Wall   -c -o error.o error.c
+clang -fPIC -g -std=c99 -Wall   -c -o foreign_attrs.o foreign_attrs.c
+clang -fPIC -g -std=c99 -Wall   -c -o parser.o parser.c
+clang -fPIC -g -std=c99 -Wall   -c -o string_buffer.o string_buffer.c
+clang -fPIC -g -std=c99 -Wall   -c -o string_piece.o string_piece.c
+clang -fPIC -g -std=c99 -Wall   -c -o svg_attrs.o svg_attrs.c
+clang -fPIC -g -std=c99 -Wall   -c -o svg_tags.o svg_tags.c
+clang -fPIC -g -std=c99 -Wall   -c -o tag.o tag.c
+clang -fPIC -g -std=c99 -Wall   -c -o tag_lookup.o tag_lookup.c
+clang -fPIC -g -std=c99 -Wall   -c -o token_buffer.o token_buffer.c
+clang -fPIC -g -std=c99 -Wall   -c -o tokenizer.o tokenizer.c
+clang -fPIC -g -std=c99 -Wall   -c -o utf8.o utf8.c
+clang -fPIC -g -std=c99 -Wall   -c -o util.o util.c
+clang -fPIC -g -std=c99 -Wall   -c -o vector.o vector.c
+ar rv libgumbo.a ascii.o attribute.o char_ref.o error.o foreign_attrs.o parser.o string_buffer.o string_piece.o svg_attrs.o svg_tags.o tag.o tag_lookup.o token_buffer.o tokenizer.o utf8.o util.o vector.o
+ar: creating archive libgumbo.a
+a - ascii.o
+a - attribute.o
+a - char_ref.o
+a - error.o
+a - foreign_attrs.o
+a - parser.o
+a - string_buffer.o
+a - string_piece.o
+a - svg_attrs.o
+a - svg_tags.o
+a - tag.o
+a - tag_lookup.o
+a - token_buffer.o
+a - tokenizer.o
+a - utf8.o
+a - util.o
+a - vector.o
+(ranlib libgumbo.a || true) >/dev/null 2>&1

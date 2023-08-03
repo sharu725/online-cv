@@ -1,0 +1,29 @@
+<!ELEMENT internationalization (localization+)>
+
+<!ELEMENT localization (gentext|dingbat|context)*>
+<!ATTLIST localization
+	language	CDATA	#REQUIRED
+>
+
+<!ELEMENT gentext EMPTY>
+<!ATTLIST gentext
+	key		CDATA	#REQUIRED
+	text		CDATA	#REQUIRED
+>
+
+<!ELEMENT dingbat EMPTY>
+<!ATTLIST dingbat
+	key		CDATA	#REQUIRED
+	text		CDATA	#REQUIRED
+>
+
+<!ELEMENT context (template+)>
+<!ATTLIST context
+	name		CDATA	#REQUIRED
+>
+
+<!ELEMENT template EMPTY>
+<!ATTLIST template
+	name		CDATA	#REQUIRED
+	text		CDATA	#REQUIRED
+>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<character>
+  <skills>
+    <skill name="Balance" base="dex" ranks="2" total="5" mod="3"/>
+    <skill name="Bluff" base="cha" ranks="3" total="4" mod="1"/>
+    <skill name="Climb" base="str" ranks="6" total="5" mod="-1"/>
+    <skill name="Diplomacy" base="cha" ranks="2" total="3" mod="1"/>
+    <skill name="Escape artist" base="dex" ranks="2" total="5" mod="3"/>
+    <skill name="Gather info" base="cha" ranks="2" total="3" mod="1"/>
+    <skill name="Hide" base="dex" ranks="2" total="5" mod="3"/>
+    <skill name="Jump" base="str" ranks="4" total="3" mod="-1"/>
+    <skill name="Listen" base="wis" ranks="2" total="3" mod="1"/>
+    <skill name="Move silently" base="dex" ranks="2" total="5" mod="3"/>
+    <skill name="Perform" base="cha" ranks="4" total="5" mod="1"/>
+    <skill name="Ride" base="dex" ranks="4" total="7" mod="3"/>
+    <skill name="Search" base="int" ranks="2" total="3" mod="1"/>
+    <skill name="Sense motive" base="wis" ranks="2" total="3" mod="1"/>
+    <skill name="Spot" base="wis" ranks="2" total="3" mod="1"/>
+    <skill name="Swim" base="str" ranks="4" total="3" mod="-1"/>
+    <skill name="Tumble" base="dex" ranks="3" total="6" mod="3"/>
+    <skill name="Use rope" base="dex" ranks="2" total="5" mod="3"/>
+  </skills>
+</character>

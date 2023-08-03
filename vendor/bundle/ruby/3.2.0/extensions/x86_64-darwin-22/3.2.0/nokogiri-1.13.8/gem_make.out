@@ -1,0 +1,119 @@
+current directory: /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri
+/usr/local/opt/ruby/bin/ruby extconf.rb
+checking for whether -std=c99 is accepted as CFLAGS... no
+checking for whether -Wno-declaration-after-statement is accepted as CFLAGS... no
+checking for whether -g is accepted as CFLAGS... no
+checking for whether -Winline is accepted as CFLAGS... no
+checking for whether -Wmissing-noreturn is accepted as CFLAGS... no
+checking for whether -Wno-error=unused-command-line-argument-hard-error-in-future is accepted as CFLAGS... no
+Building nokogiri using packaged libraries.
+Static linking is enabled.
+Cross build is disabled.
+checking for iconv.h... yes
+Using mini_portile version 2.8.4
+checking for iconv using --with-opt-* flags... yes
+---------- IMPORTANT NOTICE ----------
+Building Nokogiri with a packaged version of libxml2-2.9.14.
+Configuration options: --host\=x86_64-apple-darwin22 --enable-static --disable-shared --libdir\=/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib --with-iconv\=yes --disable-dependency-tracking --without-python --without-readline --with-c14n --with-debug --with-threads --disable-shared --enable-static CPPFLAGS\=-I/usr/local/opt/libyaml/include\ -I/usr/local/opt/openssl@3/include\ -I/usr/local/opt/readline/include LDFLAGS\=-L/usr/local/opt/libyaml/lib\ -L/usr/local/opt/openssl@3/lib\ -L/usr/local/opt/readline/lib RANLIB\=/usr/bin/ranlib AR\=/usr/bin/ar CFLAGS\=-O2\ -U_FORTIFY_SOURCE\ -g\ -fPIC
+The following patches are being applied:
+  - 0001-Remove-script-macro-support.patch
+  - 0002-Update-entities-to-remove-handling-of-ssi.patch
+  - 0003-libxml2.la-is-in-top_builddir.patch
+  - 0004-use-glibc-strlen.patch
+  - 0005-avoid-isnan-isinf.patch
+  - 0006-update-automake-files-for-arm64.patch
+  - 0008-htmlParseComment-handle-abruptly-closed-comments.patch
+  - 0009-allow-wildcard-namespaces.patch
+
+The Nokogiri maintainers intend to provide timely security updates, but if
+this is a concern for you and want to use your OS/distro system library
+instead, then abort this installation process and install nokogiri as
+instructed at:
+
+  https://nokogiri.org/tutorials/installing_nokogiri.html#installing-using-standard-system-libraries
+
+Note, however, that nokogiri cannot guarantee compatibility with every
+version of libxml2 that may be provided by OS/package vendors.
+
+[{:url=>
+   "https://mirror.csclub.uwaterloo.ca/gnome/sources/libxml2/2.9/libxml2-2.9.14.tar.xz",
+  :sha256=>"60d74a257d1ccec0475e749cba2f21559e48139efba6ff28224357c7c798dfee"}]
+Extracting libxml2-2.9.14.tar.xz into tmp/x86_64-apple-darwin22/ports/libxml2/2.9.14... OK
+Running git apply with /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/patches/libxml2/0001-Remove-script-macro-support.patch... OK
+Running git apply with /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/patches/libxml2/0002-Update-entities-to-remove-handling-of-ssi.patch... OK
+Running git apply with /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/patches/libxml2/0003-libxml2.la-is-in-top_builddir.patch... OK
+Running git apply with /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/patches/libxml2/0004-use-glibc-strlen.patch... OK
+Running git apply with /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/patches/libxml2/0005-avoid-isnan-isinf.patch... OK
+Running git apply with /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/patches/libxml2/0006-update-automake-files-for-arm64.patch... OK
+Running git apply with /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/patches/libxml2/0008-htmlParseComment-handle-abruptly-closed-comments.patch... OK
+Running git apply with /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/patches/libxml2/0009-allow-wildcard-namespaces.patch... OK
+Running 'configure' for libxml2 2.9.14... OK
+Running 'compile' for libxml2 2.9.14... OK
+Running 'install' for libxml2 2.9.14... OK
+Activating libxml2 2.9.14 (from /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14)...
+Using mini_portile version 2.8.4
+---------- IMPORTANT NOTICE ----------
+Building Nokogiri with a packaged version of libxslt-1.1.35.
+Configuration options: --host\=x86_64-apple-darwin22 --enable-static --disable-shared --libdir\=/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib --disable-dependency-tracking --without-python --without-crypto --with-debug --with-libxml-prefix\=/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14 --disable-shared --enable-static RANLIB\=/usr/bin/ranlib AR\=/usr/bin/ar CFLAGS\=-O2\ -U_FORTIFY_SOURCE\ -g\ -fPIC
+The following patches are being applied:
+  - 0001-update-automake-files-for-arm64.patch
+
+The Nokogiri maintainers intend to provide timely security updates, but if
+this is a concern for you and want to use your OS/distro system library
+instead, then abort this installation process and install nokogiri as
+instructed at:
+
+  https://nokogiri.org/tutorials/installing_nokogiri.html#installing-using-standard-system-libraries
+
+[{:url=>
+   "https://mirror.csclub.uwaterloo.ca/gnome/sources/libxslt/1.1/libxslt-1.1.35.tar.xz",
+  :sha256=>"8247f33e9a872c6ac859aa45018bc4c4d00b97e2feac9eebc10c93ce1f34dd79"}]
+Extracting libxslt-1.1.35.tar.xz into tmp/x86_64-apple-darwin22/ports/libxslt/1.1.35... OK
+Running git apply with /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/patches/libxslt/0001-update-automake-files-for-arm64.patch... OK
+Running 'configure' for libxslt 1.1.35... OK
+Running 'compile' for libxslt 1.1.35... OK
+Running 'install' for libxslt 1.1.35... OK
+Activating libxslt 1.1.35 (from /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35)...
+checking for whether -DNOKOGIRI_PACKAGED_LIBRARIES is accepted as CPPFLAGS... no
+checking for whether -DNOKOGIRI_LIBXML2_PATCHES="\"0001-Remove-script-macro-support.patch 0002-Update-entities-to-remove-handling-of-ssi.patch 0003-libxml2.la-is-in-top_builddir.patch 0004-use-glibc-strlen.patch 0005-avoid-isnan-isinf.patch 0006-update-automake-files-for-arm64.patch 0008-htmlParseComment-handle-abruptly-closed-comments.patch 0009-allow-wildcard-namespaces.patch\"" is accepted as CPPFLAGS... no
+checking for -llzma... yes
+checking for whether -DNOKOGIRI_LIBXSLT_PATCHES="\"0001-update-automake-files-for-arm64.patch\"" is accepted as CPPFLAGS... no
+checking for xmlParseDoc() in libxml/parser.h... yes
+checking for xsltParseStylesheetDoc() in libxslt/xslt.h... yes
+checking for exsltFuncRegister() in libexslt/exslt.h... yes
+Using mini_portile version 2.8.4
+---------- IMPORTANT NOTICE ----------
+Building Nokogiri with a packaged version of libgumbo-1.0.0-nokogiri.
+Configuration options: --disable-shared --enable-static CFLAGS\=-fPIC
+[]
+Copying gumbo-parser files into tmp/x86_64-apple-darwin22/ports/libgumbo/1.0.0-nokogiri/gumbo-parser...
+Running 'compile' for libgumbo 1.0.0-nokogiri... OK
+Activating libgumbo 1.0.0-nokogiri (from ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri)...
+checking for whether -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/include is accepted as CPPFLAGS... no
+checking for gumbo_parse_with_options() in gumbo.h... yes
+checking for xmlHasFeature()... yes
+checking for xmlFirstElementChild()... yes
+checking for xmlRelaxNGSetParserStructuredErrors()... yes
+checking for xmlRelaxNGSetValidStructuredErrors()... yes
+checking for xmlSchemaSetValidStructuredErrors()... yes
+checking for xmlSchemaSetParserStructuredErrors()... yes
+checking for rb_gc_location()... yes
+checking for rb_category_warning()... yes
+checking for vasprintf()... yes
+checking for whether -DNOKOGIRI_OTHER_LIBRARY_VERSIONS="\"libgumbo:1.0.0-nokogiri\"" is accepted as CPPFLAGS... no
+creating Makefile
+
+current directory: /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri
+make DESTDIR\= sitearchdir\=./.gem.20230803-55708-f0y400 sitelibdir\=./.gem.20230803-55708-f0y400 clean
+
+current directory: /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri
+make DESTDIR\= sitearchdir\=./.gem.20230803-55708-f0y400 sitelibdir\=./.gem.20230803-55708-f0y400
+compiling gumbo.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+gumbo.c:32:10: fatal error: 'gumbo.h' file not found
+#include "gumbo.h"
+         ^~~~~~~~~
+1 warning and 1 error generated.
+make: *** [gumbo.o] Error 1
+
+make failed, exit code 2

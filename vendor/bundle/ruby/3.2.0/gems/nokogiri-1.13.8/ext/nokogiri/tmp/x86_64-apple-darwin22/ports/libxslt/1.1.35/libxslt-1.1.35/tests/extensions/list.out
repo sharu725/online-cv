@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+ === 24 Standard elements:
+xsl:apply-templates available
+xsl:apply-imports available
+xsl:call-template available
+xsl:element available
+xsl:attribute available
+xsl:text available
+xsl:processing-instruction available
+xsl:comment available
+xsl:copy available
+xsl:value-of available
+xsl:number available
+xsl:for-each available
+xsl:if available
+xsl:choose available
+xsl:sort available
+xsl:copy-of available
+xsl:message available
+xsl:variable available
+xsl:param available
+xsl:with-param available
+xsl:decimal-format available
+xsl:when available
+xsl:otherwise available
+xsl:fallback available
+ === 5 Extension elements:
+xsl:element available
+saxon:output available
+xalanredirect:write available
+xt:document available
+libxslt:debug available
+ === 6 Extension functions:
+libxslt:node-set() available
+saxon:node-set() available
+xt:node-set() available
+saxon:evaluate() available
+saxon:expression() available
+saxon:eval() available
+

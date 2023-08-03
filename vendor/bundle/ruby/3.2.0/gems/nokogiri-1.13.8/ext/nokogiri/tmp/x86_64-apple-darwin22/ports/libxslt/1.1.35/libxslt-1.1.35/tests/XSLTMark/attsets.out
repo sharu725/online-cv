@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<salesdata att1="foo" att2="bar">
+  <year att1="foo" att2="bar">
+    <year att1="foo" att2="bar">1997</year>
+	<region att3="baz" att4="quux">
+	  <name att1="foo" att2="bar" att3="baz" att4="quux">west</name>
+      <sales att1="foo" att2="bar" att3="baz" att4="quux">32</sales>
+    </region>
+	<region att3="baz" att4="quux">
+	  <name att1="foo" att2="bar" att3="baz" att4="quux">central</name>
+      <sales att1="foo" att2="bar" att3="baz" att4="quux">11</sales>
+    </region>
+	<region att3="baz" att4="quux">
+	  <name att1="foo" att2="bar" att3="baz" att4="quux">east</name>
+      <sales att1="foo" att2="bar" att3="baz" att4="quux">19</sales>
+    </region>
+  </year>
+  <year att1="foo" att2="bar">
+    <year att1="foo" att2="bar">1998</year>
+	<region att3="baz" att4="quux">
+	  <name att1="foo" att2="bar" att3="baz" att4="quux">west</name>
+      <sales att1="foo" att2="bar" att3="baz" att4="quux">35</sales>
+    </region>
+	<region att3="baz" att4="quux">
+	  <name att1="foo" att2="bar" att3="baz" att4="quux">central</name>
+      <sales att1="foo" att2="bar" att3="baz" att4="quux">12</sales>
+    </region>
+	<region att3="baz" att4="quux">
+	  <name att1="foo" att2="bar" att3="baz" att4="quux">east</name>
+      <sales att1="foo" att2="bar" att3="baz" att4="quux">25</sales>
+    </region>
+  </year>
+  <year att1="foo" att2="bar">
+    <year att1="foo" att2="bar">1999</year>
+	<region att3="baz" att4="quux">
+	  <name att1="foo" att2="bar" att3="baz" att4="quux">west</name>
+      <sales att1="foo" att2="bar" att3="baz" att4="quux">36</sales>
+    </region>
+	<region att3="baz" att4="quux">
+	  <name att1="foo" att2="bar" att3="baz" att4="quux">central</name>
+      <sales att1="foo" att2="bar" att3="baz" att4="quux">12</sales>
+    </region>
+	<region att3="baz" att4="quux">
+	  <name att1="foo" att2="bar" att3="baz" att4="quux">east</name>
+      <sales att1="foo" att2="bar" att3="baz" att4="quux">31</sales>
+    </region>
+  </year>
+  <year att1="foo" att2="bar">
+    <year att1="foo" att2="bar">2000</year>
+	<region att3="baz" att4="quux">
+	  <name att1="foo" att2="bar" att3="baz" att4="quux">west</name>
+      <sales att1="foo" att2="bar" att3="baz" att4="quux">37</sales>
+    </region>
+	<region att3="baz" att4="quux">
+	  <name att1="foo" att2="bar" att3="baz" att4="quux">central</name>
+      <sales att1="foo" att2="bar" att3="baz" att4="quux">11</sales>
+    </region>
+	<region att3="baz" att4="quux">
+	  <name att1="foo" att2="bar" att3="baz" att4="quux">east</name>
+      <sales att1="foo" att2="bar" att3="baz" att4="quux">40</sales>
+    </region>
+  </year>
+</salesdata>

@@ -1,0 +1,161 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+   
+      <title>Library Template Reference</title>
+      <link rel="stylesheet" href="../reference.css" type="text/css">
+      <meta name="generator" content="DocBook XSL Stylesheets V1.37">
+   </head>
+   <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+      <div class="reference">
+         <div class="titlepage">
+            <div>
+               <h1 class="title"><a name="d41e1"></a>Library Template Reference
+               </h1>
+            </div>
+            <div>
+               <h3 class="author">Norman Walsh</h3>
+            </div>
+            <div>
+               <p class="releaseinfo">
+                  $Id$
+                  
+               </p>
+            </div>
+            <div>
+               <p class="copyright"><a href="../copyright.html">Copyright</a> &copy; 1999, 2000 by Norman Walsh. <a href="../warranty.html">No Warranty</a>.
+               </p>
+            </div>
+            <hr>
+         </div>
+         <div class="partintro">
+            <div></div>
+            <div class="section"><a name="d41e24"></a><div class="titlepage">
+                  <div>
+                     <h2 class="title" style="clear: all"><a name="d41e24"></a>Introduction
+                     </h2>
+                  </div>
+               </div>
+               <p>This is technical reference documentation for the DocBook XSL
+                  Stylesheets; it documents (some of) the parameters, templates, and
+                  other elements of the stylesheets.
+               </p>
+               <p>This is not intended to be &#8220;user&#8221; documentation.
+                  It is provided for developers writing customization layers for the
+                  stylesheets, and for anyone who's interested in &#8220;how it
+                  works&#8221;.
+               </p>
+               <p>Although I am trying to be thorough, this documentation is known
+                  to be incomplete. Don't forget to read the source, too :-)
+               </p>
+            </div>
+            <div class="toc">
+               <p><b>Table of Contents</b></p>
+               <dl>
+                  <dt><a href="#template.string.subst">string.subst</a></dt>
+                  <dt><a href="#template.xpointer.idref">xpointer.idref</a></dt>
+                  <dt><a href="#template.length-magnitude">length-magnitude</a></dt>
+                  <dt><a href="#template.length-spec">length-spec</a></dt>
+               </dl>
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="template.string.subst"></a>string.subst
+            </h1>
+            <div class="refnamediv"><a name="d41e40"></a><h2>Name</h2>string.subst &#8212; Substitute one text string for another in a string
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e45"></a><h2>Synopsis</h2><pre class="synopsis">&lt;xsl:template name="string.subst"&gt;
+&lt;xsl:param name="string"/&gt;
+&lt;xsl:param name="target"/&gt;
+&lt;xsl:param name="replacement"/&gt;
+  ...
+&lt;/xsl:template&gt;</pre></div>
+            <div class="refdescription"><a name="d41e48"></a>
+               
+               
+               <p>The <tt>string.subst</tt> template replaces all
+                  occurances of <i><tt>target</tt></i> in <i><tt>string</tt></i>
+                  with <i><tt>replacement</tt></i> and returns the result.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="template.xpointer.idref"></a>xpointer.idref
+            </h1>
+            <div class="refnamediv"><a name="d41e66"></a><h2>Name</h2>xpointer.idref &#8212; Extract IDREF from an XPointer
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e71"></a><h2>Synopsis</h2><pre class="synopsis">&lt;xsl:template name="xpointer.idref"&gt;
+&lt;xsl:param name="xpointer"&gt;http://...&lt;/xsl:param&gt;
+  ...
+&lt;/xsl:template&gt;</pre></div>
+            <div class="refdescription"><a name="d41e74"></a>
+               
+               
+               <p>The <tt>xpointer.idref</tt> template returns the
+                  ID portion of an XPointer which is a pointer to an ID within the current
+                  document, or the empty string if it is not.
+               </p>
+               
+               
+               
+               <p>In other words, <tt>xpointer.idref</tt> returns
+                  &#8220;foo&#8221; when passed either <tt>#foo</tt>
+                  or <tt>#xpointer(id('foo'))</tt>, otherwise it returns
+                  the empty string.
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="template.length-magnitude"></a>length-magnitude
+            </h1>
+            <div class="refnamediv"><a name="d41e98"></a><h2>Name</h2>length-magnitude &#8212; Return the unqualified dimension from a length specification
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e103"></a><h2>Synopsis</h2><pre class="synopsis">&lt;xsl:template name="length-magnitude"&gt;
+&lt;xsl:param name="length" select="'0pt'"/&gt;
+  ...
+&lt;/xsl:template&gt;</pre></div>
+            <div class="refdescription"><a name="d41e106"></a>
+               
+               
+               <p>The <tt>length-magnitude</tt> template returns the
+                  unqualified length ("20" for "20pt") from a dimension.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="template.length-spec"></a>length-spec
+            </h1>
+            <div class="refnamediv"><a name="d41e115"></a><h2>Name</h2>length-spec &#8212; Return a fully qualified length specification
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e120"></a><h2>Synopsis</h2><pre class="synopsis">&lt;xsl:template name="length-spec"&gt;
+&lt;xsl:param name="length" select="'0pt'"/&gt;
+&lt;xsl:param name="default.units" select="'pt'"/&gt;
+  ...
+&lt;/xsl:template&gt;</pre></div>
+            <div class="refdescription"><a name="d41e123"></a>
+               
+               
+               <p>The <tt>length-spec</tt> template returns the
+                  qualified length from a dimension. If an unqualified length is given,
+                  the <i><tt>default.units</tt></i> will be added to it.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

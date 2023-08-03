@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<pa:Contact xmlns:pa="urn:test:pa" xmlns:rdf="urn:test:rdf" rdf:about="hello"><pa:primaryPhone rdf:about="toto"/></pa:Contact>

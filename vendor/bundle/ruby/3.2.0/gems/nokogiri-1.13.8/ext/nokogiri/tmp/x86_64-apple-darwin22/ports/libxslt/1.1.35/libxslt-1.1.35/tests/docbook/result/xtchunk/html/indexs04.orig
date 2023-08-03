@@ -1,0 +1,513 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>DocBook Basics </title><meta name="generator" content="DocBook XSL Stylesheets V1.40"><link rel="home" href="index.html" title="The GNOME Handbook of Writing Software Documentation"><link rel="up" href="index.html" title="The GNOME Handbook of Writing Software Documentation"><link rel="previous" href="indexs03.html" title="The GNOME Documentation System"><link rel="next" href="indexs05.html" title="GDP Documentation Conventions "></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">DocBook Basics </th></tr><tr><td width="20%" align="left"><a href="indexs03.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a href="indexs05.html">Next</a></td></tr></table><hr></div><div class="sect1"><a name="docbookbasics"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="docbookbasics"></a>DocBook Basics </h2></div></div><div class="sect2"><a name="introtodocbook"></a><div class="titlepage"><div><h3 class="title"><a name="introtodocbook"></a>Introduction to DocBook</h3></div></div><p>
+        To understand DocBook, a basic understanding of SGML is
+        helpful. SGML stands for Standard General Markup Language and
+        is one of the first markup languages every created. HTML is
+        actually derived from SGML and XML is a subset of SGML.  SGML
+        uses what is called a Document Type Definition to specify
+        <i>elements</i> which are contained between
+        brackets, &lt; and &gt;. Text is marked by both beginning and
+        ending elements, for example in the DocBook DTD, one denotes a
+        title with <tt>&lt;title&gt;</tt>The
+        Title<tt>&lt;/title&gt;</tt>.
+      </p><p>
+        The DTD (in the case of the GDP, DocBook) defines rules for how the
+        elements can be used. For example, if one element can only be used when
+        embedded within another, this is defined in the DTD.
+      </p><p> 
+	An SGML file is just a plain ASCII file containing the text
+	with the markup specified above. To convert it  to some easily
+	readable format, you need special tools. The GDP uses <i>DocBook
+        Tools</i>, a free package of utilities for working with DocBook
+        which includes <i>Jade</i>, which does the SGML/DSSL
+        parsing. You can read more about DocBook Tools in <a href="indexs02.html#installingdocbook" title="Installing DocBook">the section called &#8220;Installing DocBook&#8221;</a>. 
+      </p><p>
+        The final appearance of the output (e.g. PostScript or HTML)
+        is determined by a
+        <i>stylesheet</i>. Stylesheets are files,
+        written in a special language (DSSSL -- Document Style
+        Semantics and Specification Language), which  specify the
+        appearance of various DocBook elements, for example,
+        what fonts to use for titles and various inline elements, page
+        numbering style, and much more. DocBook tools come with a
+        collection of stylesheets (Norman Walsh's modular
+        stylesheets); GNOME Document Project uses some customized
+        version of this stylesheets -- see <a href="indexs02.html#gdpstylesheets" title="GDP Stylesheets">the section called &#8220;GDP Stylesheets&#8221;</a>.   
+      </p><p>
+        The advantage of specifying the <i>structure</i>
+        of a document with SGML instead of specifying the
+        <i>appearance</i> of the document with a typical
+        word processor, or with html, is that the resulting document
+        can be processed in a variety of ways using the structural
+        information.  Whereas formatting a document for appearance
+        assumes a medium (typically written text on a standard-sized
+        piece of paper), SGML can be processed to produce output for a
+        large variety of media such as text, postscript, HTML,
+        Braille, audio, and potentially many other formats.
+      </p><p>
+        Using 'content' as the elements to define the text of a document also
+        allows for search engines to make use of the actual elements to make a
+        "smarter search". For example, if you are searching for all documents
+        written by the author "Susie" your search engine could be made smart
+        enough to only search &lt;author&gt; elements, making for a faster and more
+        accurate search.
+      </p><p>
+        Since the overall appearance of the output is determined not by the DTD
+        or the SGML document, but rather by a stylesheet, the appearance of a
+        document can be easily changed just by changing the stylesheet. This
+        allows everyone in the project to create documents that all look the
+        same.
+      </p><p>
+        As stated before, the GDP uses the DocBook DTD.  For a list of
+        introductory and reference resources on DocBook, see <a href="indexs15.html" title="Resources">the section called &#8220;Resources&#8221;</a>.  The following sections also provide
+        convenient instructions on which markup tags to use in various
+        circumstances.  Be sure to read <a href="indexs05.html" title="GDP Documentation Conventions ">the section called &#8220;GDP Documentation Conventions &#8221;</a>
+        for GDP documentation-specific guidelines.
+      </p></div><div class="sect2"><a name="xml"></a><div class="titlepage"><div><h3 class="title"><a name="xml"></a>XML and SGML</h3></div></div><p> In not so distant future (probably before GNOME 2.0),
+      DocBook itself and GNOME Documentation project will migrate from
+      SGML to XML. This transition should be relatively painless:
+      (almost) all DocBook tags will remain the same. However, XML has
+      stricter syntax rules than SGML; thus, some constructions which
+      are valid in SGML will not be valid in XML. Therefore, to be
+      ready for this transistion, it is <i>strongly
+      advised</i> that the documentation writers conform to XML
+      syntax rules. Here are most important differences:
+      </p><div class="variablelist"><dl><dt><a name="id2936091"></a><span class="term"> <i>Minimization</i></span></dt><dd><p><a name="id2936110"></a>
+	      It is possible with some implementations of SGML to use
+	      minimizations to close elements in a document by using
+	      &lt;/&gt;, for example:
+	      <tt><tt>&lt;title&gt;</tt>The
+		Title<tt>&lt;/&gt;</tt></tt>. This is not
+              allowed in XML. You can use <b>sgmlnorm</b> command,
+              included in DocBook Tools package, to expand minimized tags;
+              if you are using Emacs with psgml
+              mode, you can also use menu command
+          Modify-&gt;Normalize.
+         </p></dd><dt><a name="id2936225"></a><span class="term"> <i>Self-closing tags</i></span></dt><dd><p><a name="id2936244"></a>
+            Also, in SGML some tags are allowed not to have closing
+            tags.  For example, it is legal for
+            <tt>&lt;xref&gt;</tt> not to have a closing tag: 
+            <tt><tt>&lt;xref 
+                   linkend="someid"&gt;</tt></tt>. In
+            XML, it is illegal; instead, you should use  
+            <tt><tt>&lt;xref 
+                   linkend="someid"/&gt;</tt></tt> (note the
+            slash!).
+          </p></dd><dt><a name="id2936311"></a><span class="term"> <i>Case sensitive tags</i></span></dt><dd><p><a name="id2936327"></a>
+	      In XML, unlike SGML, tags are case-senstive
+	      <tt>&lt;title&gt;</tt> and
+	      <tt>&lt;TITLE&gt;</tt> are different tags!
+	      Therefore, please always use lowercase tags (except for
+	      things like <tt>DOCTYPE, CDATA</tt> and
+	      <tt>ENTITY</tt>, which are not DocBook tags). 
+	    </p></dd></dl></div></div><div class="sect2"><a name="structure"></a><div class="titlepage"><div><h3 class="title"><a name="structure"></a> Structure Elements</h3></div></div><div class="sect3"><a name="section"></a><div class="titlepage"><div><h4 class="title"><a name="section"></a>Sections and paragraphs</h4></div></div><p>
+          Top-level element of a book body must be
+          <tt>&lt;chapter&gt;</tt>; it may contain one or more
+          <tt>&lt;sect1&gt;</tt>, each of them may contain
+          <tt>&lt;sect2&gt;</tt> and so on up to
+          <tt>&lt;sect5&gt;</tt>. The top-level element of an
+          article body is always
+          <tt>&lt;sect1&gt;</tt>. Regardless of which elements
+          you use, give each structural element a unique id, so that
+          you can link to it. For usage example, see the template.
+        </p><p> Please try to avoid using deeply nested sections; for
+          most situations, <tt>&lt;sect1&gt;</tt> and
+          <tt>&lt;sect2&gt;</tt> should be sufficient. If not,
+          you probably should split your <tt>&lt;sect1&gt;</tt>
+          into several smaller ones.
+        </p><p> Use the tag <tt>&lt;para&gt;</tt> for
+          paragraphs, even if there is only one paragraph in a
+          section--see template for examples.
+        </p></div><div class="sect3"><a name="notes"></a><div class="titlepage"><div><h4 class="title"><a name="notes"></a>Notes, Warnings, And Tips</h4></div></div><p>
+          For notes, tips, warnings, and important information, which
+          should be set apart from the main text (usually as a
+          paragraph with some warning sign on the margin), use tags
+          <tt>&lt;note&gt;</tt>, <tt>&lt;tip&gt;</tt>,
+          <tt>&lt;warning&gt;</tt>,
+          <tt>&lt;important&gt;</tt> respectively. For example:
+          <pre class="programlisting">
+
+&lt;tip&gt;
+ &lt;title&gt;TIP&lt;/title&gt;
+ &lt;para&gt;
+  To speed up program compilation, use &lt;application&gt;gcc&lt;/application&gt;
+  compiler with Pentium optimization.
+ &lt;/para&gt;
+&lt;/tip&gt; </pre>  produces
+        </p><div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title"><a name="extip"></a>TIP</h3><p>
+            To speed up program compilation, use
+            gcc compiler with Pentium
+            optimization.  </p></div><p>
+          Note that this should not be inside a
+          <tt>&lt;para&gt;</tt> but between paragraphs.
+        </p></div><div class="sect3"><a name="figures"></a><div class="titlepage"><div><h4 class="title"><a name="figures"></a> Screenshots and other figures</h4></div></div><p>
+          To include screenshots and other figures, use the following
+          tags:
+          
+          <pre class="programlisting">
+
+&lt;figure id="shot1"&gt;
+ &lt;title&gt;Screenshot&lt;/title&gt;
+ &lt;screenshot&gt;
+  &lt;screeninfo&gt;Screenshot of a program&lt;/screeninfo&gt;
+  &lt;graphic format="PNG"  fileref="figures/example_screenshot" srccredit="ME"&gt;
+  &lt;/graphic&gt;
+ &lt;/screenshot&gt;
+&lt;/figure&gt;
+          </pre>
+          replacing <tt>example_screenshot</tt> with the
+          actual file name (without extension). The result will look like this:
+          
+          <div class="figure"><p><a name="shot1"></a><b>Figure 1. Screenshot</b></p><div class="screenshot"><p><img src="figures/example_screenshot"></p></div></div>
+        </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title"><a name="id2936851"></a>NOTE</h3><p>
+            Notice in this example that the screenshot file name does
+            not include the file type extension -- to find out
+            why, please read <a href="indexs02.html#jadeimages" title="Images in DocBook Tools">the section called &#8220;Images in DocBook Tools&#8221;</a>.
+          </p></div></div><div class="sect3"><a name="listing"></a><div class="titlepage"><div><h4 class="title"><a name="listing"></a>Program listings and terminal session</h4></div></div><p>
+          To show a file fragment--for example, program
+          listing--use <tt>&lt;programlisting&gt;</tt> tag:
+          <pre class="programlisting">
+
+&lt;programlisting&gt;
+[Desktop Entry] 
+Name=Gnumeric spreadsheet
+Exec=gnumeric 
+Icon=gnome-gnumeric.png 
+Terminal=0
+Type=Application
+&lt;/programlisting&gt;
+          </pre>
+          which produces
+          <pre class="programlisting">
+[Desktop Entry] 
+Name=Gnumeric spreadsheet 
+Exec=gnumeric
+Icon=gnome-gnumeric.png 
+Terminal=0 
+Type=Application
+          </pre>
+          As a matter of fact, all examples in this document were
+          produced using <tt>&lt;programlisting&gt;</tt>.
+        </p><p>
+          To show a record of terminal session--i.e., sequence of
+          commands entered at the command line--use
+          <tt>&lt;screen&gt;</tt> tag:
+          <pre class="programlisting">
+
+&lt;screen&gt;
+&lt;prompt&gt;bash$&lt;/prompt&gt;&lt;userinput&gt;make love&lt;/userinput&gt; 
+make: *** No rule to make target `love'. Stop.
+&lt;/screen&gt;
+          </pre>
+          which produces
+          <pre class="screen">
+<tt>bash$</tt><b><tt>make love</tt></b>  
+make: *** No rule to make target `love'.  Stop.
+          </pre>
+          Note the use of tags <tt>&lt;prompt&gt;</tt> and
+          <tt>&lt;userinput&gt;</tt> for marking system prompt
+          and commands entered by user.
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title"><a name="id2937067"></a>NOTE</h3><p>
+              Note that both <tt>&lt;programlisting&gt;</tt>
+              and <tt>&lt;screen&gt;</tt> preserve linebreaks,
+              but interpret SGML tags (unlike LaTeX
+              verbatim environment). Take a look at
+              the source of this document to see how you can have SGML
+              tags literally shown but not interpreted,
+            </p></div>
+        </p></div><div class="sect3"><a name="lists"></a><div class="titlepage"><div><h4 class="title"><a name="lists"></a> Lists</h4></div></div><p>
+	  The most common list types  in DocBook are
+	  <tt>&lt;itemizedlist&gt;</tt>,
+	  <tt>&lt;orderedlist&gt;</tt>, and 
+	  <tt>&lt;variablelist&gt;</tt>.
+	</p><div class="variablelist"><dl><dt><a name="id2937185"></a><span class="term"> <tt>&lt;itemizedlist&gt;</tt></span></dt><dd><p><a name="id2937205"></a> 
+		This is the simplest unnumbered list, parallel to
+	    <tt>&lt;ul&gt;</tt> in HTML. Here is an example: 
+		<pre class="programlisting">
+
+&lt;itemizedlist&gt;
+  &lt;listitem&gt;
+    &lt;para&gt;
+      &lt;guilabel&gt;Show backup files&lt;/guilabel&gt; &amp;mdash; This will
+      show any backup file that might be on your system.
+    &lt;/para&gt;
+  &lt;/listitem&gt;
+  &lt;listitem&gt;
+    &lt;para&gt;
+      &lt;guilabel&gt;Show hidden files&lt;/guilabel&gt; &amp;mdash; This will
+      show all "dot files" or files that begin with a dot.  This
+      files typically include configuration files and directories.
+    &lt;/para&gt;
+  &lt;/listitem&gt;
+  &lt;listitem&gt;
+    &lt;para&gt;
+      &lt;guilabel&gt;Mix files and directories&lt;/guilabel&gt; &amp;mdash; This
+      option will  display files and directories in the order you
+      sort them instead of 
+      always having directories shown above files.
+    &lt;/para&gt;
+   &lt;/listitem&gt;
+&lt;/itemizedlist&gt; 
+
+		</pre>
+		and output:
+                </p><div class="itemizedlist"><ul><li><p><a name="id2937244"></a>
+		      Show backup files --
+		      This will show any backup file that might be on
+		      your system.
+		    </p></li><li><p><a name="id2937304"></a>
+		      Show hidden files --
+		      This will show all "dot files" or files that
+		      begin with a dot.  This files typically include
+		      configuration files and directories.
+		    </p></li><li><p><a name="id2937335"></a>
+		      Mix files and directories
+		      -- This option will display files and
+		      directories in the order you sort them instead
+		      of always having directories shown above files.
+		    </p></li></ul></div><p> Note the use of <tt>&amp;mdash;</tt>
+              for long dash (see <a href="indexs04.html#specsymb" title=" Special symbols ">the section called &#8220; Special symbols &#8221;</a>). Also,
+              please note that the result looks much nicer because the
+              terms being explained (Show backup
+              files, etc.) are set in a different font. In
+              this case, it was achieved by using <a href="indexs04.html#gui" title="GUI elements"><tt>&lt;guilabel&gt;</tt></a>
+              tag. In other cases, use appropriate tags such as
+              <a href="indexs04.html#gui" title="GUI elements"><tt>&lt;guimenuitem&gt;</tt></a>,
+              <a href="indexs04.html#filenames" title="Filenames, commands, and other
+        computer-related things"><tt>&lt;command&gt;</tt></a>,
+              or -- if none of
+              this applies -- use
+              <a href="indexs04.html#gui" title="GUI elements"><tt>&lt;emphasis&gt;</tt></a>.
+	      </p></dd><dt><a name="id2937507"></a><span class="term"> <tt>&lt;orderedlist&gt;</tt></span></dt><dd><p><a name="id2937525"></a>
+		This list is completely analogous to
+		<tt>&lt;itemizedlist&gt;</tt> and has the same
+		syntax, but  it produces numbered list. By default,
+		this list uses Arabic numerals for numbering entries;
+		you can override this using <tt>numeration</tt>,
+		for example <tt>&lt;orderedlist
+		  numeration="lowerroman"&gt;</tt>. Possible values of
+		these attribute are <tt>arabic</tt>,
+		<tt>upperalpha</tt>,
+		<tt>loweralpha</tt>,
+		<tt>upperroman</tt>,
+		<tt>lowerroman</tt>.
+	      </p></dd><dt><a name="id2937607"></a><span class="term"> <tt>&lt;variablelist&gt;</tt></span></dt><dd><p><a name="id2937625"></a> This list is used when each entry is
+	    rather long, so it should be formatted as a block of text
+	    with some subtitle, like a small subsection.  The
+	    <tt>&lt;variablelist&gt;</tt> is more complicated
+	    than itemizedlists, but for larger blocks of text, or when
+	    you're explaining or defining something, it's best to use
+	    them.  Their greatest advantage is that it's easier for a
+	    computer to search.  The lines you are reading now were
+	    produced by <tt>&lt;variablelist&gt;</tt>. The
+	    source looked liked this:
+		<pre class="programlisting">
+
+&lt;variablelist&gt;
+  &lt;varlistentry&gt;
+    &lt;term&gt; &lt;sgmltag&gt;&amp;lt;itemizedlist&gt;&lt;/sgmltag&gt;&lt;/term&gt; 
+    &lt;listitem&gt;&lt;para&gt; 
+	This is the simplest unnumbered list, parallel to
+        &lt;sgmltag&gt;&amp;lt;ul&gt;&lt;/sgmltag&gt; in HTML. Here is an example:...
+    &lt;/para&gt;&lt;/listitem&gt;
+    &lt;/varlistentry&gt;
+    &lt;varlistentry&gt;		 
+	&lt;term&gt; &lt;sgmltag&gt;&amp;lt;orderedlist&gt;&lt;/sgmltag&gt;&lt;/term&gt;
+     &lt;listitem&gt;&lt;para&gt;	
+	This list is completely analogous to
+	&lt;sgmltag&gt;&amp;lt;itemizedlist&gt;&lt;/sgmltag&gt; 
+    &lt;/para&gt;&lt;/listitem&gt;
+    &lt;/varlistentry&gt;
+    &lt;varlistentry&gt;		 
+	&lt;term&gt; &lt;sgmltag&gt;&amp;lt;variablelist&gt;&lt;/sgmltag&gt;&lt;/term&gt;
+     &lt;listitem&gt;&lt;para&gt;	
+		This list is used when each entry is rather long,...
+    &lt;/para&gt;&lt;/listitem&gt;
+    &lt;/varlistentry&gt;
+&lt;/variablelist&gt;        
+
+		</pre>		
+		</p></dd></dl></div><p>
+	Lists can be nested; in this case, the stylesheets
+	are smart enough to change the numeration (for
+	<tt>&lt;orderedlist&gt;</tt>) or marks of each entry
+	(in  <tt>&lt;itemizedlist&gt;</tt>) for sub-lists
+	</p></div></div><div class="sect2"><a name="inline"></a><div class="titlepage"><div><h3 class="title"><a name="inline"></a>Inline Elements</h3></div></div><div class="sect3"><a name="gui"></a><div class="titlepage"><div><h4 class="title"><a name="gui"></a>GUI elements</h4></div></div><div class="itemizedlist"><ul><li><p><a name="id2937796"></a>
+              <tt>&lt;guibutton&gt;</tt> -- used for
+              buttons, including checkbuttons and radio buttons
+            </p></li><li><p><a name="id2937822"></a>
+              <tt>&lt;guimenu&gt;</tt>, 
+              <tt>&lt;guisubmenu&gt;</tt> --used for 
+	      top-level menus and submenus
+              respectively, for example <tt>
+              &lt;guisubmenu&gt;Utilities&lt;/guisubmenu&gt; submenu of the
+              &lt;guimenu&gt;Main Menu&lt;/guimenu&gt;</tt>
+            </p></li><li><p><a name="id2937872"></a>
+              <tt>&lt;guimenuitem&gt;</tt>--an entry in a
+              menu
+            </p></li><li><p><a name="id2937896"></a>
+              <tt>&lt;guiicon&gt;</tt>--an icon
+            </p></li><li><p><a name="id2937921"></a>
+              <tt>&lt;guilabel&gt;</tt>--for items which have
+              labels, like tabs, or bounding boxes. 
+            </p></li><li><p><a name="id2937946"></a>
+              <tt>&lt;interface&gt;</tt>-- for most everything
+              else... a window, a dialog box, the Panel, etc.
+            </p></li></ul></div><p>
+          If you need to refer to a sequence of menu choices, such as
+          Main Menu-&gt;Utilities-&gt;GNOME
+            terminal
+          there is a special construction for this, too:
+          <pre class="programlisting">
+
+&lt;menuchoice&gt;
+ &lt;guimenu&gt;Main Menu&lt;/guimenu&gt; &lt;guisubmenu&gt;Utilities&lt;/guisubmenu&gt;
+ &lt;guimenuitem&gt;GNOME terminal&lt;/guimenuitem&gt; &lt;/menuchoice&gt;
+          </pre>
+        </p></div><div class="sect3"><a name="links"></a><div class="titlepage"><div><h4 class="title"><a name="links"></a>Links and references</h4></div></div><p>
+          To refer to another place in the same document, you can use
+          tags <tt>&lt;xref&gt;</tt> and
+          <tt>&lt;link&gt;</tt>. The first of them
+          automatically inserts the full name of the element you refer
+          to (section, figure, etc.), while the second just creates a
+          link (in HTML output). Here is an example:
+          <pre class="programlisting">
+An example of a &lt;link linkend="extip"&gt;tip&lt;/link&gt; was given in
+&lt;xref linkend="notes" /&gt;.  
+          </pre>
+          which produces: An example of a <a href="indexs04.html#extip">tip</a> was given in  <a href="indexs04.html#notes" title="Notes, Warnings, And Tips">the section called &#8220;Notes, Warnings, And Tips&#8221;</a>.
+        </p><p>
+          Here <tt>notes</tt> and <tt>extip</tt>
+          are the id attributes of <a href="indexs04.html#notes" title="Notes, Warnings, And Tips">the section called &#8220;Notes, Warnings, And Tips&#8221;</a> and of the
+          example of a tip in it.
+        </p><p>  To produce a link  to an external source, such as a
+          Web page or a local file, use <tt>&lt;ulink&gt;</tt>
+          tag, for example:
+          <pre class="programlisting">
+ To find more about GNOME, please visit &lt;ulink type="http"
+url="http://www.gnome.org"&gt;GNOME Web page&lt;/ulink&gt; 
+          </pre>
+          which produces:  To find more about GNOME, please visit
+          <a href="http://www.gnome.org" target="_top">The GNOME Web
+          Site</a> You can use any of the standard URL types, such
+          as <tt>http, ftp, file, telnet, mailto</tt> (in
+          most cases, however, use of <tt>mailto</tt> is
+          unnecessary--see discussion of
+          <tt>&lt;email&gt;</tt> tag).
+        </p></div><div class="sect3"><a name="filenames"></a><div class="titlepage"><div><h4 class="title"><a name="filenames"></a>Filenames, commands, and other
+        computer-related things</h4></div></div><p>
+          Here are some tags used to describe operating system-related
+          things:  
+        </p><div class="itemizedlist"><ul><li><p><a name="id2938334"></a>  <tt>&lt;filename&gt;</tt> -- used
+              for filenames,
+              e.g.<tt>&lt;filename&gt;</tt>
+                    foo.sgml
+                  <tt>&lt;/filename&gt;</tt> 
+              produces: <tt>foo.sgml</tt>.
+            </p></li><li><p><a name="id2938391"></a>  <tt>&lt;filename
+              class="directory"&gt;</tt> -- used for
+              directories, e.g.<tt>&lt;filename
+              class="directory"&gt;</tt>/usr/bin
+                  <tt>&lt;/filename&gt;</tt>
+              produces: <tt>/usr/bin</tt>.
+            </p></li><li><p><a name="id2938454"></a>
+              <tt>&lt;application&gt;</tt> -- used for
+              application names,
+              e.g. <tt>&lt;application&gt;</tt>Gnumeric
+              <tt>&lt;/application&gt;</tt> produces:
+              Gnumeric.
+            </p></li><li><p><a name="id2938509"></a>
+	      <tt>&lt;envar&gt;</tt> -- used for
+	      environment variables, e.g. 
+              <tt>&lt;envar&gt;</tt>PATH<tt>&lt;/envar&gt;</tt>. 
+            </p></li><li><p><a name="id2938551"></a>
+              <tt>&lt;command&gt;</tt> -- used for
+              commands entered on command line, e.g.
+              <tt>&lt;command&gt;</tt>make install
+              <tt>&lt;/command&gt;</tt> produces:
+              <b>make install</b>.
+            </p></li><li><p><a name="id2938607"></a>
+              <tt>&lt;replaceable&gt;</tt> -- used for
+              replaceable text, e.g.
+              <tt>&lt;command&gt;</tt>db2html<tt>&lt;replaceable&gt;</tt>
+              foo.sgml
+              <tt>&lt;/replaceable&gt;</tt><tt>&lt;/command&gt;</tt>
+              produces: <b>db2html
+              <i><tt>foo.sgml</tt></i></b>.
+            </p></li></ul></div></div><div class="sect3"><a name="keys"></a><div class="titlepage"><div><h4 class="title"><a name="keys"></a>Keyboard input</h4></div></div><p> To mark up text input by the user, use
+        <tt>&lt;userinput&gt;</tt>.
+        </p><p>  To mark keystrokes such as shortcuts and other
+          commands, use <tt>&lt;keycap&gt;</tt>. 
+          This is used for marking up what is printed on the top 
+          of the physical key on the keyboard. There are a couple of
+          other tags for keys, too: <tt>&lt;keysym&gt;</tt>
+          and <tt>&lt;keycode&gt;</tt>. However you are
+          unlikely to need these for most documentation. For reference,
+          <tt>&lt;keysym&gt;</tt> is for the &#8220;symbolic
+          name&#8221; of a key. <tt>&lt;keycode&gt;</tt> is
+          for the &#8220;scan code&#8221; of a key. These are not
+          terms commonly required in GNOME documentation,
+          although <tt>&lt;keysym&gt;</tt> is useful for marking
+          up control codes.
+       </p><p>
+          To mark up a combination of keystrokes, use the
+          <tt>&lt;keycombo&gt;</tt> wrapper:
+          <pre class="programlisting">
+
+&lt;keycombo&gt;
+ &lt;keycap&gt;Ctrl&lt;/keycap&gt;
+ &lt;keycap&gt;Alt&lt;/keycap&gt;
+ &lt;keycap&gt;F1&lt;/keycap&gt;
+&lt;/keycombo&gt;
+          </pre>
+        </p><p>
+          Finally, if you want to show a shortcut for some menu
+          command, here are the appropriate tags (rather long):
+          <pre class="programlisting">
+
+&lt;menuchoice&gt;
+ &lt;shortcut&gt;
+  &lt;keycombo&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;q&lt;/keycap&gt;&lt;/keycombo&gt;
+ &lt;/shortcut&gt; 
+ &lt;guimenuitem&gt; Quit&lt;/guimenuitem&gt; 
+&lt;/menuchoice&gt;
+          </pre>
+          which produces simply
+           Quit (<b>Ctrl-q</b>)
+        </p></div><div class="sect3"><a name="email"></a><div class="titlepage"><div><h4 class="title"><a name="email"></a>E-mail addresses</h4></div></div><p>  To mark up e-mail
+        address, use <tt>&lt;email&gt;</tt>:
+          <pre class="programlisting">
+ The easiest way to get in touch with me is by e-mail
+(&lt;email&gt;me@mydomain.com&lt;/email&gt;)
+          </pre>
+          which produces: The easiest way to get in touch with me is
+          by e-mail  (<tt>&lt;<a href="mailto:me@mydomain.com">me@mydomain.com</a>&gt;</tt>) Note that
+          <tt>&lt;email&gt;</tt> automatically produces a link
+          in html version.
+        </p></div><div class="sect3"><a name="specsymb"></a><div class="titlepage"><div><h4 class="title"><a name="specsymb"></a> Special symbols </h4></div></div><p> 
+	  DocBook also provides special means for entering
+	typographic symbols which can not be entered directly
+	form the keyboard (such as copyright sign). This is done using
+	<i>entities</i>, which is SGML analogue of
+	macros, or commands, of LaTeX. They generally have the form 
+	  <tt>&amp;entityname;</tt>. Note that the semicolon
+	is required. 
+	</p><p>
+	  here is partial list of most commonly used enitites:
+	</p><div class="itemizedlist"><ul><li><p><a name="id2939068"></a>
+             <tt>&amp;amp;</tt> -- ampersend (&amp;)
+	  </p></li><li><p><a name="id2939089"></a>
+             <tt>&amp;lt;</tt> -- left angle bracket (&lt;)
+	  </p></li><li><p><a name="id2939108"></a>
+             <tt>&amp;copy;</tt> -- copyright sign (©)
+	  </p></li><li><p><a name="id2939126"></a>
+             <tt>&amp;mdash;</tt> -- long dash (--)
+	  </p></li><li><p><a name="id2939152"></a>
+             <tt>&amp;hellip;</tt> -- ellipsis (...)
+	  </p></li></ul></div><p>
+	  Note that the actual look of the resulting symbols depends
+	  on the fonts used by your browser; for example, it might
+	  happen that long dash (<tt>&amp;mdash;</tt>) looks
+	  exactly like the usual dash (-). However, in the PostScript
+	  (and thus, in print) the output will look markedly better if
+	  you use appropriate tags. 
+	</p></div></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a href="indexs03.html">Prev</a> </td><td width="20%" align="center"><a href="index.html">Home</a></td><td width="40%" align="right"> <a href="indexs05.html">Next</a></td></tr><tr><td width="40%" align="left">The GNOME Documentation System </td><td width="20%" align="center"><a href="index.html">Up</a></td><td width="40%" align="right"> GDP Documentation Conventions </td></tr></table></div></body></html>

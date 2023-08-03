@@ -1,0 +1,20 @@
+current directory: /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/usr/local/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20230803-55708-9u2388 sitelibdir\=./.gem.20230803-55708-9u2388 clean
+
+current directory: /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20230803-55708-9u2388 sitelibdir\=./.gem.20230803-55708-9u2388
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+ld: warning: dylib (/usr/local/Cellar/ruby/3.2.2_1/lib/libruby.3.2.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+
+current directory: /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20230803-55708-9u2388 sitelibdir\=./.gem.20230803-55708-9u2388 install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20230803-55708-9u2388
+
+current directory: /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20230803-55708-9u2388 sitelibdir\=./.gem.20230803-55708-9u2388 clean

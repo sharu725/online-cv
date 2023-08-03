@@ -1,0 +1,2 @@
+compilation error: file ./test-6.1.xsl line 11 element template
+xsl:template: error duplicate name 'duplicateTemplateName'

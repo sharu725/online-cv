@@ -1,0 +1,10 @@
+<a:tst xmlns:a="http://example.org/">
+     <a:doc/>
+     <a:doc/>
+     <a:doc/>
+     <a:doc/>
+     <a:doc>Failed</a:doc>
+     <a:doc/>
+     <a:doc/>
+     <a:doc/>
+</a:tst>

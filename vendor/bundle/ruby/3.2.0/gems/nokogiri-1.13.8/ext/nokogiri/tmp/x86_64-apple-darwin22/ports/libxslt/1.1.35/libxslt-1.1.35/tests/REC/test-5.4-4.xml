@@ -1,0 +1,17 @@
+<doc>
+<department>
+<name>dept1</name>
+<group>
+<name>group1</name>
+<employee><name>employee1</name></employee>
+<employee><name>employee3</name></employee>
+</group>
+</department>
+<department>
+<name>dept2</name>
+<group>
+<name>group2</name>
+<employee><name>employee2</name></employee>
+</group>
+</department>
+</doc>

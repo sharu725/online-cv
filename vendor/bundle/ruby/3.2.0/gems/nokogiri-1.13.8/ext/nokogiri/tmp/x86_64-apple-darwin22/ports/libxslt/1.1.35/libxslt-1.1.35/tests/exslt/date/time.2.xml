@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<page>
+  <!-- invalid xs:time syntax -->
+  <date date="10:31:07z"/>
+  <date date="T10:31:07"/>
+  <date date="10:31-07"/>
+  <date date="10:31:07-6:00"/>
+  <date date="10:31:07-06:00Z"/>
+  <!-- invalid xs:time values -->
+  <date date="00:00:00+24:00"/>
+  <date date="24:00:00"/>
+  <date date="00:60:00"/>
+  <date date="00:00:60"/>
+  <date date="99:00:00"/>
+  <date date="00:99:00"/>
+  <date date="00:00:99"/>
+</page>
+

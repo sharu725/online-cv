@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<results>
+  <format f="&#x660;&#x661;">
+    <value v="0">٠٠</value>
+    <value v="9">٠٩</value>
+    <value v="1234567890">١٢٣٤٥٦٧٨٩٠</value>
+  </format>
+  <format f="&#x6F0;&#x6F1;">
+    <value v="0">۰۰</value>
+    <value v="9">۰۹</value>
+    <value v="1234567890">۱۲۳۴۵۶۷۸۹۰</value>
+  </format>
+  <format f="&#x966;&#x967;">
+    <value v="0">००</value>
+    <value v="9">०९</value>
+    <value v="1234567890">१२३४५६७८९०</value>
+  </format>
+  <format f="&#x9E6;&#x9E7;">
+    <value v="0">০০</value>
+    <value v="9">০৯</value>
+    <value v="1234567890">১২৩৪৫৬৭৮৯০</value>
+  </format>
+  <format f="&#xA66;&#xA67;">
+    <value v="0">੦੦</value>
+    <value v="9">੦੯</value>
+    <value v="1234567890">੧੨੩੪੫੬੭੮੯੦</value>
+  </format>
+  <format f="&#xAE6;&#xAE7;">
+    <value v="0">૦૦</value>
+    <value v="9">૦૯</value>
+    <value v="1234567890">૧૨૩૪૫૬૭૮૯૦</value>
+  </format>
+  <format f="&#xB66;&#xB67;">
+    <value v="0">୦୦</value>
+    <value v="9">୦୯</value>
+    <value v="1234567890">୧୨୩୪୫୬୭୮୯୦</value>
+  </format>
+  <format f="&#xC66;&#xC67;">
+    <value v="0">౦౦</value>
+    <value v="9">౦౯</value>
+    <value v="1234567890">౧౨౩౪౫౬౭౮౯౦</value>
+  </format>
+  <format f="&#xCE6;&#xCE7;">
+    <value v="0">೦೦</value>
+    <value v="9">೦೯</value>
+    <value v="1234567890">೧೨೩೪೫೬೭೮೯೦</value>
+  </format>
+  <format f="&#xD66;&#xD67;">
+    <value v="0">൦൦</value>
+    <value v="9">൦൯</value>
+    <value v="1234567890">൧൨൩൪൫൬൭൮൯൦</value>
+  </format>
+  <format f="&#xE50;&#xE51;">
+    <value v="0">๐๐</value>
+    <value v="9">๐๙</value>
+    <value v="1234567890">๑๒๓๔๕๖๗๘๙๐</value>
+  </format>
+  <format f="&#xED0;&#xED1;">
+    <value v="0">໐໐</value>
+    <value v="9">໐໙</value>
+    <value v="1234567890">໑໒໓໔໕໖໗໘໙໐</value>
+  </format>
+  <format f="&#xF20;&#xF21;">
+    <value v="0">༠༠</value>
+    <value v="9">༠༩</value>
+    <value v="1234567890">༡༢༣༤༥༦༧༨༩༠</value>
+  </format>
+</results>

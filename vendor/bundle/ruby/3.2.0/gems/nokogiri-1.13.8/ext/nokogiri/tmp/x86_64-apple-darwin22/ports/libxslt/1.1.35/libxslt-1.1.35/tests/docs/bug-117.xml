@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<l:doc xmlns:l="http://www.foobar.com/xmlns/l">
+        <l:doc-head>
+                <l:doc-title>Doc Title</l:doc-title>
+        </l:doc-head>
+        <l:doc-content>
+                <l:p>Hello World!</l:p>
+        </l:doc-content>
+</l:doc>

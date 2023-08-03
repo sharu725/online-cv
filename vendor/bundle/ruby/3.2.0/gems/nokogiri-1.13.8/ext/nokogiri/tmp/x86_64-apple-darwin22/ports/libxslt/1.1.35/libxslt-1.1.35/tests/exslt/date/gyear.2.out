@@ -1,0 +1,39 @@
+
+  
+  
+  Test Date : 00010
+    year                 : NaN
+    leap-year            : NaN
+    month-in-year        : NaN
+    month-name           : 
+    month-abbreviation   : 
+    week-in-year         : NaN
+    day-in-year          : NaN
+    day-in-month         : NaN
+    day-of-week-in-month : NaN
+    day-in-week          : NaN
+    day-name             : 
+    day-abbreviation     : 
+    time                 : 
+    hour-in-day          : NaN
+    minute-in-hour       : NaN
+    second-in-minute     : NaN
+  
+  
+  Test Date : 0000
+    year                 : NaN
+    leap-year            : NaN
+    month-in-year        : NaN
+    month-name           : 
+    month-abbreviation   : 
+    week-in-year         : NaN
+    day-in-year          : NaN
+    day-in-month         : NaN
+    day-of-week-in-month : NaN
+    day-in-week          : NaN
+    day-name             : 
+    day-abbreviation     : 
+    time                 : 
+    hour-in-day          : NaN
+    minute-in-hour       : NaN
+    second-in-minute     : NaN

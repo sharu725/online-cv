@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<FOO><BAR INDEX="1">
+    This is bar 1
+  </BAR><BAR INDEX="2">
+    This is bar 2
+  </BAR><BAR INDEX="3">
+    This is bar 3
+  </BAR></FOO>

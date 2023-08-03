@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<measurements>
+  <measurement fromunit="km" tounit="in">
+	 314
+  </measurement>
+  <measurement fromunit="m" tounit="ft">
+	 159
+  </measurement>
+  <measurement fromunit="km" tounit="yd">
+	 253
+  </measurement>
+  <measurement fromunit="cm" tounit="mi">
+	 22
+  </measurement>
+  <measurement fromunit="mm" tounit="in">
+	 32.4
+  </measurement>
+  <measurement fromunit="km" tounit="ft">
+	 406
+  </measurement>
+  <measurement fromunit="m" tounit="yd">
+	 86879.59
+  </measurement>
+  <measurement fromunit="m" tounit="mi">
+	 4.033
+  </measurement>
+  <measurement fromunit="km" tounit="in">
+	 1.0
+  </measurement>
+  <measurement fromunit="mm" tounit="ft">
+	 2625.09
+  </measurement>
+  <measurement fromunit="cm" tounit="yd">
+	 4.3
+  </measurement>
+  <measurement fromunit="cm" tounit="mi">
+	 14.38
+  </measurement>
+  <measurement fromunit="km" tounit="in">
+	 77
+  </measurement>
+</measurements>

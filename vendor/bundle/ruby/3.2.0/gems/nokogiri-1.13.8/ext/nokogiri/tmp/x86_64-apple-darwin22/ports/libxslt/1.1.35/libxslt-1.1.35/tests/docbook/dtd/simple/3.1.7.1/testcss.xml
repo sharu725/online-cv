@@ -1,0 +1,52 @@
+<!DOCTYPE article 
+          PUBLIC "-//Norman Walsh//DTD Simplified DocBk XML V3.1.7.1//EN"
+          "sdocbook.dtd">
+<?xml-stylesheet href="sdocbook.css" type="text/css"?>
+<article>
+<title>foo</title>
+<para>This is a pargraph</para>
+<literallayout>
+59 North Street
+Belchertown, MA 01007
+</literallayout>
+<section><title>sect1</title>
+<para>This is a paragraph.</para>
+<section><title>sect2</title>
+<para>This is a paragraph.</para>
+<blockquote><para>This is a block quote.</para></blockquote>
+<para>This is a paragraph.</para>
+<section><title>sect3</title>
+<para>This is a paragraph with a <citetitle>title citation</citetitle>,
+a <command>command</command>, and some <computeroutput>computer output</computeroutput>.
+</para>
+<section><title>sect4</title>
+<itemizedlist>
+<listitem><para>this is a list item.</para></listitem>
+<listitem><para>this is a list item.</para></listitem>
+<listitem><para>this is a list item.</para></listitem>
+</itemizedlist>
+<section><title>sect5</title>
+<orderedlist>
+<listitem><para>this is a list item.</para></listitem>
+<listitem><para>this is a list item.</para></listitem>
+<listitem><para>this is a list item.</para></listitem>
+</orderedlist>
+<section><title>sect6</title>
+
+<informaltable>
+<tgroup cols="3">
+<tbody>
+<row><entry>1</entry><entry>2</entry><entry>3</entry></row>
+<row><entry>1</entry><entry>2</entry><entry>3</entry></row>
+<row><entry>1</entry><entry>2</entry><entry>3</entry></row>
+</tbody>
+</tgroup>
+</informaltable>
+
+</section>
+</section>
+</section>
+</section>
+</section>
+</section>
+</article>

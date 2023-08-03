@@ -1,0 +1,674 @@
+abbrev
+{
+  display: inline;
+}
+
+abstract
+{
+  margin-left: 0.5in;
+  margin-right: 0.5in;
+  display: inline;
+}
+
+acronym
+{
+  display: inline;
+}
+
+address
+{
+  white-space: pre;
+  display: block;
+}
+
+anchor
+{
+  display: inline;
+}
+
+appendix
+{
+  display: block;
+}
+
+artheader
+{
+  display: none;
+}
+
+article
+{
+  display: block;
+}
+
+audiodata
+{
+  display: none;
+}
+
+audioobject
+{
+  display: none;
+}
+
+author
+{
+  display: inline;
+}
+
+authorgroup
+{
+  display: inline;
+}
+
+authorinitials
+{
+  display: inline;
+}
+
+bibliomisc
+{
+  display: inline;
+}
+
+bibliomset
+{
+  display: inline;
+}
+
+biblioset
+{
+  display: inline;
+}
+
+blockquote
+{
+  display: block;
+  margin-left: 0.5in;
+  margin-right: 0.5in;
+}
+
+caption
+{
+  display: none;
+}
+
+citetitle
+{
+  display: inline;
+  font-style: italic;
+}
+
+city
+{
+  display: inline;
+}
+
+colspec
+{
+  display: none;
+}
+
+command
+{
+  display: inline;
+  font-style: italic;
+}
+
+computeroutput
+{
+  display: inline;
+  font-family: monospace;
+}
+
+copyright
+{
+  display: inline;
+}
+
+corpauthor
+{
+  display: inline;
+}
+
+country
+{
+  display: inline;
+}
+
+date
+{
+  display: inline;
+}
+
+docinfo
+{
+  display: none;
+}
+
+edition
+{
+  display: inline;
+}
+
+editor
+{
+  display: inline;
+}
+
+email
+{
+  display: inline;
+  font-style: italic;
+}
+
+emphasis
+{
+  display: inline;
+  font-style: italic;
+}
+
+entry
+{
+  display: table-cell;
+}
+
+example
+{
+  display: block;
+}
+
+fax
+{
+  display: inline;
+}
+
+figure
+{
+  display: block;
+}
+
+filename
+{
+  display: inline;
+  font-style: italic;
+}
+
+firstname
+{
+  display: inline;
+}
+
+footnote
+{
+  display: inline;
+}
+
+holder
+{
+  display: inline;
+}
+
+honorific
+{
+  display: inline;
+}
+
+imagedata
+{
+  display: inline;
+}
+
+imageobject
+{
+  display: inline;
+}
+
+informaltable
+{
+  display: block;
+}
+
+inlinemediaobject
+{
+  display: inline;
+}
+
+isbn
+{
+  display: inline;
+}
+
+issn
+{
+  display: inline;
+}
+
+issuenum
+{
+  display: inline;
+}
+
+itemizedlist
+{
+  display: block;
+  list-style-type: disc;
+}
+
+keyword
+{
+  display: inline;
+}
+
+keywordset
+{
+  display: inline;
+}
+
+legalnotice
+{
+  display: inline;
+}
+
+lineage
+{
+  display: inline;
+}
+
+lineannotation
+{
+  display: inline;
+}
+
+link
+{
+  display: inline;
+}
+
+listitem
+{
+  display: list-item;
+}
+
+literal
+{
+  display: inline;
+}
+
+literallayout
+{
+  display: inline;
+}
+
+mediaobject
+{
+  display: inline;
+}
+
+member
+{
+  display: inline;
+}
+
+note
+{
+  display: inline;
+}
+
+objectinfo
+{
+  display: inline;
+}
+
+option
+{
+  display: inline;
+}
+
+orderedlist
+{
+  display: block;
+  list-style-type: decimal;
+}
+
+otheraddr
+{
+  display: inline;
+}
+
+othercredit
+{
+  display: inline;
+}
+
+othername
+{
+  display: inline;
+}
+
+pagenums
+{
+  display: inline;
+}
+
+para
+{
+  display: block;
+}
+
+phone
+{
+  display: inline;
+}
+
+phrase
+{
+  display: inline;
+}
+
+pob
+{
+  display: inline;
+}
+
+postcode
+{
+  display: inline;
+}
+
+printhistory
+{
+  display: inline;
+}
+
+procedure
+{
+  display: inline;
+}
+
+programlisting
+{
+  display: inline;
+}
+
+pubdate
+{
+  display: inline;
+}
+
+publisher
+{
+  display: inline;
+}
+
+publishername
+{
+  display: inline;
+}
+
+quote
+{
+  display: inline;
+}
+
+replaceable
+{
+  display: inline;
+}
+
+revhistory
+{
+  display: inline;
+}
+
+revision
+{
+  display: inline;
+}
+
+revnumber
+{
+  display: inline;
+}
+
+revremark
+{
+  display: inline;
+}
+
+row
+{
+  display: table-row;
+}
+
+section
+{
+  display: block;
+}
+
+sectioninfo
+{
+  display: none;
+}
+
+sidebar
+{
+  display: block;
+}
+
+simplelist
+{
+  display: inline;
+}
+
+state
+{
+  display: inline;
+}
+
+step
+{
+  display: inline;
+}
+
+street
+{
+  display: inline;
+}
+
+substeps
+{
+  display: inline;
+}
+
+subtitle
+{
+  display: inline;
+}
+
+surname
+{
+  display: inline;
+}
+
+systemitem
+{
+  display: inline;
+}
+
+tbody
+{
+  display: table-row-group;
+}
+
+term
+{
+  display: inline;
+}
+
+textobject
+{
+  display: inline;
+}
+
+tgroup
+{
+  display: table;
+}
+
+thead
+{
+  display: table-row-group;
+}
+
+title
+{
+  display: block;
+}
+
+article title
+{
+  font-size: 36pt;
+  font-weight: bold;
+  display: block;
+}
+
+section title
+{
+  font-size: 24pt;
+  font-weight: bold;
+  display: block;
+}
+
+section section title
+{
+  font-size: 20pt;
+  font-weight: bold;
+  display: block;
+}
+
+section section section title
+{
+  font-size: 18pt;
+  font-weight: bold;
+  display: block;
+}
+
+section section section section title
+{
+  font-size: 16pt;
+  font-weight: bold;
+  display: block;
+}
+
+section section section section section title
+{
+  font-size: 14pt;
+  font-weight: bold;
+  display: block;
+}
+
+section section section section section section title
+{
+  font-size: 12pt;
+  font-weight: bold;
+  display: block;
+}
+
+appendix title
+{
+  font-size: 24pt;
+  font-weight: bold;
+  display: block;
+}
+
+appendix section title
+{
+  font-size: 22pt;
+  font-weight: bold;
+  display: block;
+}
+
+appendix section section title
+{
+  font-size: 18pt;
+  font-weight: bold;
+  display: block;
+}
+
+appendix section section section title
+{
+  font-size: 16pt;
+  font-weight: bold;
+  display: block;
+}
+
+appendix section section section section title
+{
+  font-size: 14pt;
+  font-weight: bold;
+  display: block;
+}
+
+appendix section section section section section title
+{
+  font-size: 12pt;
+  font-weight: bold;
+  display: block;
+}
+
+titleabbrev
+{
+  display: none;
+}
+
+trademark
+{
+  display: inline;
+}
+
+ulink
+{
+  display: inline;
+}
+
+userinput
+{
+  display: inline;
+}
+
+variablelist
+{
+  display: inline;
+}
+
+varlistentry
+{
+  display: inline;
+}
+
+videodata
+{
+  display: inline;
+}
+
+videoobject
+{
+  display: inline;
+}
+
+volumenum
+{
+  display: inline;
+}
+
+xref
+{
+  display: inline;
+}
+
+year
+{
+  display: inline;
+}
+

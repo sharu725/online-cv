@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE chapter PUBLIC '-//OASIS//DTD DocBook XML V4.1.2//EN'
+                      'http://www.oasis-open.org/docbook/xml/4.0/docbookx.dtd'>
+<chapter lang="en">
+<chapterinfo>
+<author>
+<firstname>Jirka</firstname>
+<surname>Kosek</surname>
+</author>
+<copyright>
+<year>2001</year>
+<holder>Ji&rcaron;&iacute; Kosek</holder>
+</copyright>
+<releaseinfo>$Id$</releaseinfo>
+</chapterinfo>
+<title>Using XSL stylesheets to generate HTML Help</title>
+<?dbhtml filename="htmlhelp.html"?>
+
+<para>HTML Help (HH) is help-format used in newer versions of MS
+Windows and applications written for this platform. This format allows
+to pack several HTML files together with images, table of contents and
+index into single file. Windows contains browser for this file-format
+and full-text search is also supported on HH files. If you want know
+more about HH and its capabilities look at <ulink
+url="http://msdn.microsoft.com/library/tools/htmlhelp/chm/HH1Start.htm">HTML
+Help pages</ulink>.</para>
+
+<section>
+<title>How to generate first HTML Help file from DocBook sources</title>
+
+<para>Working with HH stylesheets is same as with other XSL DocBook
+stylesheets. Simply run your favorite XSLT processor on your document
+with stylesheet suited for HH:</para>
+
+<screen format="linespecific">saxon <replaceable>yourfile</replaceable> <replaceable>/path/to/stylesheets/</replaceable>contrib/htmlhelp/htmlhelp.xsl</screen>
+
+<para>If you are using XT processor, you should use stylesheet
+<filename moreinfo="none">xthtmlhelp.xsl</filename> instead of
+<filename moreinfo="none">htmlhelp.xsl</filename>.</para>
+
+<para>Stylesheet imports standard chunking stylesheet, thus set of
+HTML files is created in usual way. Other files are also created
+&ndash; <filename>htmlhelp.hhp</filename> is project file for HTML
+Help Compiler and <filename>toc.hhc</filename> holds structure of your
+document.</para>
+
+<para>Language identifier for whole HH file is taken from the top most
+element with <sgmltag class="attribute">lang</sgmltag> attribute in
+your DocBook source. This is perfectly legal for documents in only one
+language. If language is not specified in the document, US English is
+defaulted. There is one problem &ndash; MS language codes are country
+sensitive, and this information is not available in DocBook source. If
+the stylesheet selects bad code for you, edit
+<filename>langcodes.xml</filename>, and remove all entries which have
+yours language code, but are located in inappropriate country.</para>
+
+<para>Title of whole HH file is taken from first title element in your
+document. Fulltext searching is automatically on. If your document
+contains index terms, they are automatically converted to HH ActiveX
+objects, which are recognized by HTML Help compiler.</para>
+
+<para>Stylesheet creates couple of files which are then used as an
+input for HTML Help Compiler (HHC) which is part of <ulink
+url="http://msdn.microsoft.com/library/tools/htmlhelp/wkshp/download_main.htm">HTML
+Help Workshop</ulink>. If you have HHC in your path, you can start
+conversion to HH format by running command:</para>
+
+<screen format="linespecific">hhc htmlhelp.hhp</screen>
+
+<para>If you can not stand without your mouse, there is alternative
+way. Just double-click on <filename
+moreinfo="none">htmlhelp.hhp</filename> file. HH Workshop will be
+launched automaticaly. Generation of HH file can be started by selecting
+<menuchoice moreinfo="none">
+<guimenu moreinfo="none">File</guimenu> <guimenuitem
+moreinfo="none">Compile</guimenuitem> </menuchoice> from application's
+menu.</para>
+
+</section>
+
+<section>
+<title>Customizing generated files</title>
+
+<section>
+<title>Enabling navigation links</title>
+
+<para>By default, HTML Help stylesheet disables navigation links at
+the start and the bottom of each page. If you want to enable this
+feature, start your XSLT processor with parameter <parameter
+moreinfo="none">suppress.navigation</parameter> set to 0.</para>
+
+<screen format="linespecific">saxon <replaceable>yourfile</replaceable> <replaceable>/path/to/stylesheets/</replaceable>contrib/htmlhelp/htmlhelp.xsl "suppress.navigation=0"</screen>
+
+<para>Another approach is to create driver file, which overrides
+default parameter value.</para>
+
+<programlisting><![CDATA[<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+	        version="1.0">
+
+  <xsl:import href="]]><replaceable>/path/to/stylesheets/</replaceable>contrib/htmlhelp/htmlhelp.xsl<![CDATA["/>
+
+  <xsl:param name="suppress.navigation" select="0"/>
+
+</xsl:stylesheet>
+]]></programlisting>
+
+</section>
+
+<section>
+<title>Generating HTML Help for non-Western European languages</title>
+
+<para>If you are generating HTML Help for non-Western Europe
+languages, you should change output encoding of your files, because
+HTML Help compiler improperly handles UTF-8 and even character
+entities in TOC file and index entries. This can be easily done by
+<quote>driver</quote> file like this:</para>
+
+<programlisting><![CDATA[<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+	        version="1.0">
+
+  <xsl:import href="]]><replaceable>/path/to/stylesheets/</replaceable>contrib/htmlhelp/htmlhelp.xsl<![CDATA["/>
+
+  <xsl:param name="htmlhelp.encoding" select="'windows-1250'"/>
+  <xsl:param name="default.encoding" select="'windows-1250'"/>
+  <xsl:param name="saxon.character.representation" select="'native'"/>
+
+</xsl:stylesheet>
+]]></programlisting>
+
+<para>Default encoding is ISO-8859-1 (aka ISO Latin 1).</para>
+
+</section>
+
+</section>
+
+<section>
+<title>Feedback</title>
+
+<para>If you have any comments and suggestion about HTML Help
+stylesheet feel free to contact me at following address
+<email>jirka@kosek.cz</email>.</para>
+
+</section>
+
+</chapter>

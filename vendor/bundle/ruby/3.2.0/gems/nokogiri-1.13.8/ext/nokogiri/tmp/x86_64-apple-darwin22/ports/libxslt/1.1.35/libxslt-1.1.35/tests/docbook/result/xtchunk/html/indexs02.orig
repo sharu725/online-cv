@@ -1,0 +1,431 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Getting Started Writing GNOME Documentation</title><meta name="generator" content="DocBook XSL Stylesheets V1.40"><link rel="home" href="index.html" title="The GNOME Handbook of Writing Software Documentation"><link rel="up" href="index.html" title="The GNOME Handbook of Writing Software Documentation"><link rel="previous" href="index.html" title="The GNOME Handbook of Writing Software Documentation"><link rel="next" href="indexs03.html" title="The GNOME Documentation System"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Getting Started Writing GNOME Documentation</th></tr><tr><td width="20%" align="left"><a href="index.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a href="indexs03.html">Next</a></td></tr></table><hr></div><div class="sect1"><a name="gettingstarted"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="gettingstarted"></a>Getting Started Writing GNOME Documentation</h2></div></div><div class="sect2"><a name="selecting"></a><div class="titlepage"><div><h3 class="title"><a name="selecting"></a>Selecting A Document</h3></div></div><div class="sect3"><a name="know"></a><div class="titlepage"><div><h4 class="title"><a name="know"></a>Document Something You Know</h4></div></div><p>
+          The most frequently asked question of new contributors who
+          join the GDP is "which document should I start
+          with?". Because most people involved are volunteers, we do
+          not <i>assign</i> projects and applications to
+          write documents for. The first step is all yours - you must
+          decide what about GNOME interests you most and find out if
+          it has complete documents or not.
+        </p><p>
+          It is also important to spend some time with GNOME to make
+          sure you are familiar enough with it to be
+          <i>authoritative</i>  in your writing. The
+          best way to do this is to just sit down and play with GNOME
+          as much as possible before starting to write.
+        </p><p>
+          The easiest way to get started is to improve existing
+          documentation. If you notice some inaccuracies or omissions
+          in the documentation, or you think that you can explain the
+          material more clearly, just send your suggestions to the
+          author of the original documentation or to the GNOME
+          documentation project at <tt>&lt;<a href="mailto:docs@gnome.org">docs@gnome.org</a>&gt;</tt>.
+        </p></div><div class="sect3"><a name="doctable"></a><div class="titlepage"><div><h4 class="title"><a name="doctable"></a>The GNOME Documentation Status Table</h4></div></div><p>
+          The <i>GDP Documentation Status Table</i>
+          (<i>DocTable</i>) (<a href="http://www.gnome.org/gdp/doctable/" target="_top">http://www.gnome.org/gdp/doctable/</a>) is a
+          web page which tracks the status of all the various
+          documentation components of GNOME.  These components include
+          application documentation, internal GNOME component
+          documentation, user documentation, and developer
+          documentation.  For each documentation item, it tracks the
+          current status of the documentation, who is working on the
+          particular document, where the documentation can be found,
+          and provides a forum for the discussion of each item.
+        </p><p>
+          You should use the <i>DocTable</i> to help
+          you select a documentation item which needs work done.  Once
+          you have selected an item to work on, please register
+          yourself as an author so that other authors do not duplicate
+          your work and may contact you to help or offer suggestions.
+          Also be sure to keep the status icons up-to-date  so that
+          the GDP team can easily identify which items need additional
+          help.  The <i>DocTable</i> also allows
+          people to make announcements and suggestions and to discuss
+          issues in the comments section.
+        </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title"><a name="id2810555"></a>Note</h3><p>
+          Note that the information in the
+          <i>DocTable</i> may not always be up-to-date
+          or accurate.  When you assign yourself to documenting an
+          application, make sure you find out the latest status of
+          documentation by contacting the application author.  
+         </p></div></div></div><div class="sect2"><a name="docbook"></a><div class="titlepage"><div><h3 class="title"><a name="docbook"></a>Installing and Using DocBook</h3></div></div><p>
+        All documentation for the GNOME project is written in SGML
+        using the DocBook DTD. There are many advantages to using
+        this for documentation, not least of which is the single
+        source nature of SGML. To contribute to the GDP you should
+        learn to use DocBook.
+      </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title"><a name="id2810638"></a>NOTE</h3><p>
+          To get started writing for the GDP you do not need to rush
+          out and learn DocBook - if you feel it is too much to handle
+          for now, you can submit plain ASCII text to the <a href="http://mail.gnome.org/mailman/listinfo/gnome-doc-list/" target="_top">
+          <i>gnome-doc-list mailing list</i>
+          </a>and a volunteer will mark it up for you. Seeing your
+          document marked up will also be a great way for you to start
+          learning DocBook.
+        </p></div><div class="sect3"><a name="installingdocbook"></a><div class="titlepage"><div><h4 class="title"><a name="installingdocbook"></a>Installing DocBook</h4></div></div><p>
+          Download and install the following <a href="ftp://sourceware.cygnus.com:/pub/docbook-tools/" target="_top">DocBook Tools packages</a>: jade, docbook,
+          jadetex, sgml-common, and stylesheets. (RPM users should note
+          that jade is platform dependent (eg. i386), while the other packages
+          are in the <tt>noarch</tt>
+          directory.) You can find more 
+          information on DocBook Tools <a href="http://sourceware.cygnus.com/docbook-tools/" target="_top">here</a>.
+        </p><p>
+          If you are an Emacs user you may
+          want to grab the psgml package as well. This is a major mode
+          for editing sgml files in Emacs.
+        </p></div><div class="sect3"><a name="gdpstylesheets"></a><div class="titlepage"><div><h4 class="title"><a name="gdpstylesheets"></a>GDP Stylesheets</h4></div></div><p>
+          The GDP uses its own DocBook stylesheets.  To use the GDP
+          stylesheets, you should download the file
+          <tt>gdp-both.dsl</tt> from the <tt>gnome-docu/gdp/dsssl</tt> module in
+          CVS (or from <a href="http://developer.gnome.org/projects/gdp/stylesheets.html" target="_top">
+          GDP Custom DSSSL Stylesheet</a>)and copy it
+
+          over the file
+          <tt>/usr/lib/sgml/stylesheets/cygnus-both.dsl</tt>.
+          Alternately, you can download and install the
+          <a href="http://people.redhat.com/dcm/software.html" target="_top">gnome-doc-tools package</a> which will set
+          up the stylesheets as well as the DTD discussed below.
+        </p></div><div class="sect3"><a name="gdpdtd"></a><div class="titlepage"><div><h4 class="title"><a name="gdpdtd"></a>GDP DTD (PNG Image Support)</h4></div></div><p>
+          Due to some license issues involved with the creation of
+          gifs, the GNOME Documentation Project has decided to use the
+          PNG image format for all images in GNOME documentation. You
+          can read more about the issues involved with gifs at <a href="http://www.gnu.org/philosophy/gif.html" target="_top">http://www.gnu.org/philosophy/gif.html</a>.
+        </p><p>
+          The current DocBook DTD(3.1) does not include support for
+          embedding PNG images in your documents.  Since the GDP uses
+          many screenshots in its documentation, we use our own
+          variation on the DocBook DTD which has PNG image support.
+          We encourage everybody to use this DTD instead of the
+          default DocBook DTD since your source document header and
+          your output document appearance subtly vary between the two
+          DTD's.  To install the GDP custom DTD with PNG image support
+          by hand:
+        </p><div class="itemizedlist"><ul><li style="list-style-type: opencircle"><p><a name="id2811052"></a>
+              Download <a href="http://www.labs.redhat.com/png/png-support.html" target="_top">the
+              GDP DocBook DTD for PNG support</a> and install it
+              where you keep your DTD's. (On Red Hat use <tt>/usr/lib/sgml/</tt>.) Note that
+              the 3.0 DTD is missing support for the
+              <tt>&lt;legalnotice&gt;</tt> tag, so it is
+              recommended that you use version 3.1
+            </p></li><li style="list-style-type: disc"><p><a name="id2811114"></a>
+              Add the new DTD to your SGML CATALOG file.  The location
+              of your SGML CATALOG file may vary depending upon your
+              distribution. (On Red Hat it is usually in
+              /usr/lib/sgml/CATALOG.) Add the following line to this
+              file:
+              <pre class="programlisting">
+PUBLIC "-//GNOME//DTD DocBook PNG Variant V1.0//EN" "png-support-3.0.dtd"
+              </pre> 
+              If you are using the 3.1 DTD, use:
+              <pre class="programlisting">
+PUBLIC "-//GNOME//DTD DocBook PNG Variant V1.1//EN" "png-support-3.1.dtd"
+              </pre> 
+            </p></li></ul></div><p>
+          Alternately, you can download and install the
+          <a href="http://people.redhat.com/dcm/software.html" target="_top">gnome-doc-tools package</a> which will set
+          up the custom stylesheets and DTD for you.
+        </p><p>
+          To include PNG files in your documents, you will need to
+          indicate that you are using this special DTD.  To do
+          this, use the following headers:
+        </p><p>
+          Articles:
+          <pre class="programlisting">
+&lt;!DOCTYPE Article PUBLIC "-//GNOME//DTD DocBook PNG Variant
+V1.1//EN"[]&gt;
+          </pre>
+        </p><p>
+          Books:
+          <pre class="programlisting">
+&lt;!DOCTYPE Book PUBLIC "-//GNOME//DTD DocBook PNG Variant
+V1.1//EN"[]&gt;
+          </pre>
+        </p></div><div class="sect3"><a name="editors"></a><div class="titlepage"><div><h4 class="title"><a name="editors"></a>Editors</h4></div></div><p>
+          There are many editors on Linux and UNIX systems available
+          to you. Which editor you use to work on the sgml documents
+          is completely up to you, as long as the editor is able to
+          preserve sgml and produce the source in a format that is
+          readable by everyone.
+        </p><p>
+          Probably the two most popular editors available are
+          Emacs and
+          vi. These and other editors are
+          used regularly by members of the GDP. Emacs has a major
+          mode, psgml, for editing sgml files which can save you time
+          and effort in adding and closing tags. You will find the
+          psgml package in DocBook Tools, which is the standard set of
+          tools for the GDP. You may find out more about DocBook Tools
+          in <a href="indexs02.html#installingdocbook" title="Installing DocBook">the section called &#8220;Installing DocBook&#8221;</a>.
+        </p></div><div class="sect3"><a name="make-output"></a><div class="titlepage"><div><h4 class="title"><a name="make-output"></a>Creating Something Useful with your Docs</h4></div></div><p>
+          The tools available in DocBook Tools allow you to convert
+          your sgml document to many different formats including html
+          and Postscript. The primary tool used to do the conversion
+          is an application called Jade. In
+          most cases you will not have to work directly with
+          Jade; Instead,  you will use the
+          scripts provided by DocBook Tools.
+        </p><p>
+          To preview your DocBook document, it is easiest to convert
+          it to <tt>html</tt>. If you have installed the
+          DocBook tools described above, all you have to do is to run
+          the command <tt>$</tt><b>db2html
+          mydocument.sgml</b>. If there are no sgml syntax
+          errors, this will create a directory <tt>mydocument</tt> and place the
+          resulting html files in it. The title page of the document
+          will typically be
+          <tt>mydocument/index.html</tt>.  If you have
+          screenshots in your document, you will have to copy these
+          files into the <tt>mydocument</tt> directory by
+          hand. You can use any web browser to view your document.
+          Note that every time you run <b>db2html</b>, it
+          creates the <tt>mydocument</tt> directory over, so
+          you will have to copy the screenshots over each time.
+        </p><p>
+          You can also convert your document to PostScript by running
+          the command <tt>$</tt><b>db2ps
+          mydocument.sgml</b>, after which you can print out or
+          view the resulting .ps file.  
+        </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title"><a name="id2811592"></a>NOTE</h3><p>
+            The html files you get will not look quite the same as the
+            documentation distributed with GNOME unless you have the
+            custom stylesheets installed on your machine. DocBook
+            Tools' default stylesheets will produce a different look
+            to your docs. You can read more about the GDP stylesheets
+            in <a href="indexs02.html#gdpstylesheets" title="GDP Stylesheets">the section called &#8220;GDP Stylesheets&#8221;</a>.
+          </p></div></div><div class="sect3"><a name="jadeimages"></a><div class="titlepage"><div><h4 class="title"><a name="jadeimages"></a>Images in DocBook Tools</h4></div></div><p>
+          If your document uses images you will need to take note of a
+          few things that should take place in order for you to make
+          use of those images in your output.
+        </p><p>
+          The DocBook Tools scripts and applications are smart enough
+          to know that when you are creating html you will be using
+          PNG files and when you are creating Postscript you will be
+          using EPS files (you must use EPS with Postscript).
+        </p><p>
+          Thus, you should never explicitly
+          include the extension of the image file, since DocBook
+          Tools will automatically insert it for you. For example:
+        </p><pre class="programlisting">
+
+&lt;figure&gt;
+ &lt;title&gt;My Image&lt;/title&gt;
+ &lt;screenshot&gt;
+  &lt;screeninfo&gt;Sample GNOME Display&lt;/screeninfo&gt;
+  &lt;graphic  format="png" fileref="myfile" srccredit="me"&gt;
+  &lt;/graphic&gt;
+ &lt;/screenshot&gt;
+&lt;/figure&gt;
+     </pre><p>
+          You will notice in this example that the file
+          <tt>myfile.png</tt> was referred to as simply
+          <tt>myfile</tt>. Now when you run
+          <b>db2html</b> to create an html file, it will
+          automatically look for <tt>myfile.png</tt> in
+          the directory.
+        </p><p>
+          If you want to create PostScript output, you will need to create an
+          EPS version of your image file to be displayed in the
+          PostScript file. There is a simple script available which
+          allows you to change a PNG image into an EPS file
+          easily. You can download this file - img2eps - from <a href="http://people.redhat.com/dcm/sgml.html" target="_top">http://people.redhat.com/dcm/sgml.html</a>
+          (look for the img2eps section).  Note that this script is
+          included in the gnome-doc-tools package, so if you are using
+          this package, you should already have
+          <b>img2eps</b> on you system.
+        </p></div><div class="sect3"><a name="moredocbookinfo"></a><div class="titlepage"><div><h4 class="title"><a name="moredocbookinfo"></a>Learning DocBook</h4></div></div><p>
+          There are many resources available to help you learn DocBook.
+          The following resources on the web are useful for learning
+          DocBook:
+        </p><div class="itemizedlist"><ul><li style="list-style-type: disc"><p><a name="id2933577"></a>
+              <a href="http://www.docbook.org" target="_top">http://www.docbook.org</a>  - Norman
+              Walsh's <i>DocBook: The Definitive
+              Guide</i>.  Online O'Reilly book on using
+              DocBook. Contains an excellent element reference. May be
+              too formal for a beginner.
+            </p></li><li style="list-style-type: disc"><p><a name="id2933624"></a>
+              <a href="http://www.oswg.org/oswg-nightly/oswg/en_US.ISO_8859-1/articles/DocBook-Intro/docbook-intro/index.html" target="_top">A Practical Introduction to DocBook</a>
+              - The Open Source Writers Group's introduction to using
+              DocBook. This is an excellent HOW-TO type article on
+              getting started.
+            </p></li><li style="list-style-type: disc"><p><a name="id2933666"></a>
+              <a href="http://nis-www.lanl.gov/~rosalia/mydocs/docbook-intro/docbook-intro.html" target="_top">Getting Going with DocBook: Notes for
+              Hackers</a> - Mark Galassi's introduction to DocBook
+              for hackers. This has to be one of the first
+              introductions to DocBook ever - still as good as it ever
+              was.
+            </p></li><li style="list-style-type: disc"><p><a name="id2933704"></a>
+              <a href="http://www.freebsd.org/tutorials/docproj-primer/" target="_top">
+              FreeBSD Documentation Project Primer for New
+              Contributors</a> - FreeBSD documentation project
+              primer. Chapter 4.2 provides a very good introduction to
+              writing documentation using DocBook. Note that it also
+              describes some custom extensions of DocBook;
+              fortunately, they are clearly marked as such.
+            </p></li></ul></div><p>
+          Norman Walsh's book is also available in print.
+        </p><p>
+          The following sections of this document are designed to help
+          documentation authors write correct and consistent DocBook:
+        </p><div class="itemizedlist"><ul><li style="list-style-type: disc"><p><a name="id2933779"></a>
+              <a href="indexs04.html" title="DocBook Basics ">the section called &#8220;DocBook Basics &#8221;</a> - Descriptions of
+              commonly used DocBook tags.
+            </p></li></ul></div><p>
+          You may also discuss specific DocBook questions with GDP
+          members on the #docs IRC channel at irc.gnome.org and on the
+          gnome-doc-list mailing list.
+        </p></div></div><div class="sect2"><a name="gdptemplates"></a><div class="titlepage"><div><h3 class="title"><a name="gdptemplates"></a>GDP Document Templates</h3></div></div><p>
+        Templates for various types of GNOME documents are found in
+        <a href="apa.html" title="A. Document Templates">Appendix A. Document Templates</a>.  They are kept in CVS in
+        gnome-docu/gdp/templates. The easiest source to get them from
+        is probably the <a href="http://developer.gnome.org/projects/gdp/templates.html" target="_top">GDP
+        Document Templates</a> web page, which is typically kept
+        completely up-to-date with CVS and has a basic description of
+        each file from CVS.
+      </p></div><div class="sect2"><a name="screenshots"></a><div class="titlepage"><div><h3 class="title"><a name="screenshots"></a>Screenshots</h3></div></div><p>
+        Most GNOME documents will have screenshots of the particular
+        applet, application, GNOME component, or widget being
+        discussed.  As discussed above in <a href="indexs02.html#gdpdtd" title="GDP DTD (PNG Image Support)">the section called &#8220;GDP DTD (PNG Image Support)&#8221;</a> you
+        will need to install the special GDP DocBook DTD which
+        supports PNG images, the format used for all images in GNOME
+        documentation. For the basic DocBook structure used to insert
+        images in a document, see <a href="indexs02.html#jadeimages" title="Images in DocBook Tools">the section called &#8220;Images in DocBook Tools&#8221;</a> above.
+      </p><div class="sect3"><a name="screenshotappearance"></a><div class="titlepage"><div><h4 class="title"><a name="screenshotappearance"></a>Screenshot Appearance</h4></div></div><p>
+          For all screenshots of windows that typically have border
+          decorations (e.g. applications and dialogs, but not applets
+          in a panel), GDP standards dictate
+          the appearance of the window.  (This is to minimize possible
+          confusion to the reader, improve the appearance of GNOME
+          documents, and guarantee the screenshot is readable when
+          printed.) All screenshots should be taken with the SawFish
+          (formerly known as Sawmill) window manager using the
+          MicroGui theme and Helvetica 12pt font. (A different window
+          manager can be used provided the MicroGui theme is available
+          for this window manager and the appearance is identical to
+          that when using the SawFish window manager.) The default
+          GTK+ theme(gtk) and font (Helvetica 12 pt) should be used
+          for all screenshots.  If you are unable to provide
+          screenshots in this form, you should create screenshots as
+          you wish them to appear and send them to the
+          <a href="http://mail.gnome.org/mailman/listinfo/gnome-doc-list/" target="_top">
+          <i>gnome-doc-list mailing list</i> </a>
+          requesting a GDP member reproduce these screenshots in the
+          correct format and email them to you.
+        </p></div><div class="sect3"><a name="screenshottools"></a><div class="titlepage"><div><h4 class="title"><a name="screenshottools"></a>Screenshot Tools</h4></div></div><p>
+          There are many tools for taking screenshots in
+          GNOME/Linux. Perhaps the most convenient is the
+          Screen-Shooter Applet. Just click
+          on the window icon in the applet and then on the window you
+          would like to take a screenshot of. (Note that
+          at the time of this writing, PNG images taken by
+          screenshooter do not appear properly in
+          Netscape or the
+          GNOME Help Browser.  You
+          should save your screenshot as a GIF and
+          then use <b>convert filename.gif
+          filename.png</b>.) For applets
+          in a Panel,
+          xv can be used to crop the
+          screenshot to only include the relevant portion of the
+          Panel. Note that
+          xv and 
+          gimp can both be used for taking
+          screenshots, cropping screenshots, and converting image
+          formats. 
+        </p></div><div class="sect3"><a name="screenshotfiles"></a><div class="titlepage"><div><h4 class="title"><a name="screenshotfiles"></a>Screenshot Files</h4></div></div><p>
+          Screenshots should be kept in the main documentation
+          directory with your SGML file for applets, or should be
+          kept in a directory called "figs" for application and other
+          documentation.  After you use <b>db2html</b> to
+          convert your SGML file to HTML (see <a href="indexs02.html#make-output" title="Creating Something Useful with your Docs">the section called &#8220;Creating Something Useful with your Docs&#8221;</a>), you will need to copy your
+          screenshots (either the individual PNG files for applet
+          documentation, or the whole "figs" directory for other
+          documentation) into the newly created HTML directory.  Note
+          that every time you use <b>db2html</b> the HTML
+          directory is erased and rewritten, so do not store your only
+          copy of the screenshots in that directory.  If you wish to
+          create PostScript or PDF output, you will need to manually
+          convert the PNG images to EPS as described in <a href="indexs02.html#jadeimages" title="Images in DocBook Tools">the section called &#8220;Images in DocBook Tools&#8221;</a>, but will not need to copy these
+          images from their default location, as they are included
+          directly into the output(PostScript of PDF) file.
+        </p></div></div><div class="sect2"><a name="applicationbugs"></a><div class="titlepage"><div><h3 class="title"><a name="applicationbugs"></a>Application Bugs</h3></div></div><p>
+        Documentation authors tend to investigate and test applets and
+        applications more thoroughly than most 
+        users.  Often documentation authors will discover one or
+        more bugs in the software.  These bugs vary from small ones,
+        such as mis-spelled words or missing
+        About dialogs in the menu, to large
+        ones which cause the applet to crash.  As all users, you
+        should be sure to report these bugs so that application
+        developers know of them and can fix them.  The easiest way to
+        submit a bug report is by using the Bug
+        Buddy applet which is part of the gnome-applets
+        package.  
+      </p></div><div class="sect2"><a name="cvs"></a><div class="titlepage"><div><h3 class="title"><a name="cvs"></a>Using CVS</h3></div></div><p>
+        CVS (Concurrent Versions System) is a tool that allows
+        multiple developers to concurrently work on a set of
+        documents, keeping track of the modifications made by each
+        person.  The files are stored on a server and each developer
+        checks files out, modifies them, and then checks in their
+        modified version of the files.  Many GNOME programs and
+        documents are stored in CVS.  The GNOME CVS server allows
+        users to anonymously check out CVS files. Most GDP members
+        will need to use anonymous CVS to download the most up-to-date
+        version of documentation or programs.  Modified documents will
+        typically be emailed to the the application developer. Core
+        GDP members may also be granted login CVS privileges so they
+        may commit modified files directly to CVS.
+      </p><div class="sect3"><a name="anonymouscvs"></a><div class="titlepage"><div><h4 class="title"><a name="anonymouscvs"></a>Anonymous CVS</h4></div></div><p>
+          To anonymously check out documents from CVS, you must first
+          log in.  From the bash shell, you should set your CVSROOT
+          shell variable with <b>  export
+          CVSROOT=':pserver:anonymous@anoncvs.gnome.org:/cvs/gnome'</b>
+          and then login with <b>cvs login</b>(there is no
+          password, just hit return). As an example, we will use the
+          "gnome-docu/gdp" module which contains this and several
+          other documents. To check these documents out for the first
+          time, type <b>cvs -z3 checkout
+          gnome-docu/gdp</b>. After you have this document
+          checked out and you would like to download any updates on
+          the CVS server, use <b>cvs -z3 update -Pd</b>.
+        </p></div><div class="sect3"><a name="logincvs"></a><div class="titlepage"><div><h4 class="title"><a name="logincvs"></a>Login CVS</h4></div></div><p>  If you have been given a
+        login for the GNOME CVS server,  you may commit your file
+        modifications to CVS.  Be sure to read the following section
+        on CVS etiquette before making any commits to CVS.  To log in
+        to the CVS server as user
+        <b><i><tt>username</tt></i></b> with a
+        password, you must first set your CVSROOT shell variable with
+        <b> export
+        CVSROOT=':pserver:<i><tt>username</tt></i>@cvs.gnome.org:/cvs/gnome'</b>.
+        Log in with <b>cvs login</b> and enter your
+        password. You may check out and update modules as described
+        above for anonymous CVS access.  As a login CVS user, you may
+        also check modified versions of a file into the CVS server.
+        To check
+        <b><i><tt>filename</tt></i></b> into
+        the CVS server, type <b>cvs -z3 commit
+        <i><tt>filename</tt></i></b>. You will be
+        given a vi editor window to type in a brief log entry,
+        summarizing your changes.  The default editor can be changed
+        using the <tt>EDITOR</tt> environment variable or
+        with the <b><tt>-e</tt></b> option. You
+        may also check in any modifications to files in the working
+        directory and subdirectories using <b>cvs -z3
+        commit</b>.  To
+        add a new file to the CVS server, use <b>cvs -z3 add
+        <i><tt>filename</tt></i></b>, followed by the
+        commit command.
+        </p></div><div class="sect3"><a name="cvsetiquette"></a><div class="titlepage"><div><h4 class="title"><a name="cvsetiquette"></a>CVS Etiquette</h4></div></div><p>
+          Because files in CVS are typically used and modified by
+          multiple developers and documentation authors, users should
+          exercise a few simple practices out of courtesy towards the
+          other CVS users and the project leader.  First, you should
+          not make CVS commits to a package without first discussing
+          your plans with the project leader.  This way, the project
+          leader knows who is modifying the files and generally, what
+          sort of changes/development is being done.  Also, whenever a
+          CVS user commits a file to CVS, they should make an entry in
+          the CVS log and in the <tt>ChangeLog</tt> so
+          that other users know who is making modifications and what
+          is being modified.  When modifying files created by others,
+          you should follow the indentation scheme used by the initial
+          author.
+        </p></div></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a href="index.html">Prev</a> </td><td width="20%" align="center"><a href="index.html">Home</a></td><td width="40%" align="right"> <a href="indexs03.html">Next</a></td></tr><tr><td width="40%" align="left">The GNOME Handbook of Writing Software Documentation </td><td width="20%" align="center"><a href="index.html">Up</a></td><td width="40%" align="right"> The GNOME Documentation System</td></tr></table></div></body></html>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Message xmlns="http://me.envelope">
+  <Header>
+    <Title>My Document</Title>
+    <From>someone</From>
+  </Header>
+  <Body xmlns="http://me.content">
+    <Item>
+      <Ref>1234</Ref>
+      <Info desc="A widget">
+        <Note>min qty 5</Note>
+      </Info>
+      <Quantity>10</Quantity>
+    </Item>
+    <Item>
+      <Ref>99999</Ref>
+      <Info desc="Miscellaneous">
+        <Note>add comment</Note>
+      </Info>
+      <Quantity>3</Quantity>
+    </Item>
+  </Body>
+</Message>

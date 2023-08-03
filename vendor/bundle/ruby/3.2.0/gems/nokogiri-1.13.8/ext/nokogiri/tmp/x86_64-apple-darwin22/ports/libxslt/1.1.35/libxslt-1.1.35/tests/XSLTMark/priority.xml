@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<node key="1">
+ <left>
+  <node key="3">
+   <left>
+    <node key="5">
+     <left>
+      <node key="7"/>
+     </left>
+     <right>
+      <node key="9"/>
+     </right>
+    </node>
+   </left>
+   <right>
+    <node key="8"/>
+   </right>
+  </node>
+ </left>
+ <right>
+  <node key="2">
+   <left>
+    <node key="9">
+     <left>
+      <node key="10"/>
+     </left>
+     <right>
+      <node key="11">
+       <left>
+        <node key="14"/>
+       </left>
+       <right>
+        <node key="12"/>
+       </right>
+      </node>
+     </right>
+    </node>
+   </left>
+   <right>
+    <node key="5">
+     <left>
+      <node key="6">
+       <left>
+        <node key="8"/>
+       </left>
+       <right>
+        <node key="7"/>
+       </right>
+      </node>
+     </left>
+     <right>
+      <node key="17">
+	   <right>
+	    <node key="12"/>
+       </right>
+      </node>
+     </right>
+    </node>
+   </right>
+  </node>
+ </right>
+</node>

@@ -1,0 +1,9 @@
+<!DOCTYPE xmp:moop [<!ATTLIST xsl:transform id ID #IMPLIED>]>
+<?xml-stylesheet type="text/xsl" href="#transform"?>
+<xmp:moop xmlns:xmp="http://example.com/ns" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:transform id="transform" version="1.0" xmlns:xmp="http://example.com/ns">
+		<xsl:template match="/xmp:moop">
+			<xsl:copy-of select="."/>
+		</xsl:template>
+	</xsl:transform>
+</xmp:moop>

@@ -1,0 +1,6 @@
+runtime error: file ./bug-201.xsl line 13 element copy-of
+exsltFuncFunctionFunction: Potentially infinite recursion detected in function {test}func.
+XPath error : Stack usage error
+runtime error: file ./bug-201.xsl line 8 element param
+Failed to evaluate the expression of variable 'var'.
+no result for ./../docs/bug-201.xml

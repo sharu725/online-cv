@@ -1,0 +1,6 @@
+<x:stylesheet xmlns:x="http://www.w3.org/1999/XSL/Transform" xmlns:a="a" xmlns:b="b" version="1.0">
+<x:template match="*">
+<x:for-each select="*"><x:sort select="count(.)" data-type="number" order="ascending"/><x:value-of select="local-name()"/></x:for-each>
+<x:copy><x:apply-templates select="*"><x:sort select="." order="descending" lang="en"/></x:apply-templates></x:copy>
+</x:template>
+</x:stylesheet>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article 
+  PUBLIC "-//Norman Walsh//DTD Simplified DocBk XML V3.1.7.1//EN" 
+  "../dtd/simple/3.1.7.1/sdocbook.dtd">
+
+<!-- test document -->
+
+<article><title>Article Test Document Title</title>
+<artheader>
+<title>Artheader Test Document Title</title>
+<authorgroup>
+<corpauthor>nwalsh</corpauthor>
+<author><firstname>Norman</firstname><surname>Walsh</surname></author>
+<othercredit><firstname>Other</firstname><surname>Credit</surname></othercredit>
+<editor><firstname>Someother</firstname><surname>Editor</surname></editor>
+<author><firstname>Someone</firstname><surname>Else</surname></author>
+</authorgroup>
+<pubdate>Apr. 26, 1999</pubdate>
+<copyright><year>1999</year><holder>Norman Walsh</holder></copyright>
+
+<abstract>
+<para>This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+</para>
+</abstract>
+</artheader>
+
+<para>This is a footnote<footnote><para>See?</para></footnote>.</para>
+
+<informaltable>
+<tgroup cols="3">
+<tbody>
+<row><entry>entry</entry><entry>entry</entry><entry>entry</entry></row>
+<row><entry>entry<footnote><para>table cell footnote</para></footnote></entry>
+<entry>entry</entry><entry>entry</entry></row>
+<row><entry>entry</entry><entry>entry</entry><entry>entry</entry></row>
+<row>
+<entry>Nebbiolo, Bonarda<footnote role="tablenote" label="1" id="ch15tb1">
+<para>
+<emphasis>Blended wines, made from two or more grapes</emphasis>
+</para>
+</footnote>
+</entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry>Sangiovese, Canaiolo, and others<footnoteref label="1"
+linkend="ch15tb1"></footnoteref>
+</entry>
+<entry/>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<appendix><title>Appendix</title>
+
+<para>This is just a test.</para>
+
+</appendix>
+</article>
+

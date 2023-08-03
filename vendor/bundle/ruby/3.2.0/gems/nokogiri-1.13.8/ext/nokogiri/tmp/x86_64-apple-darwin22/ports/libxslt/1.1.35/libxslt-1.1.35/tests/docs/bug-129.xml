@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<root xmlns:foo="http://foo.org">
+  <foo:elt>
+    <![CDATA[>]]>
+  </foo:elt>
+</root>

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<page>
+  <!-- valid date/times -->
+  <sum>
+    <date dur='PT1M'/>
+    <date dur='PT2M'/>
+  </sum>
+
+  <sum>
+    <date dur='P1DT2H'/>
+    <date dur='PT3M'/>
+    <date dur='PT4S'/>
+  </sum>
+
+  <sum>
+    <date dur='PT20M'/>
+    <date dur='PT20M'/>
+    <date dur='PT20M'/>
+  </sum>
+
+  <sum>
+    <date dur='PT01S'/>
+    <date dur='PT02S'/>
+    <date dur='PT04S'/>
+    <date dur='PT8S'/>
+    <date dur='PT16S'/>
+    <date dur='PT32S'/>
+  </sum>
+
+  <!-- Base case: sum of 1 node -->
+  <sum>
+    <date dur='P1M'/>
+  </sum>
+
+  <!-- Non-normalized input -->
+  <sum>
+    <date dur='PT70M'/>
+  </sum>
+
+  <sum>
+    <date dur='PT70M'/>
+    <date dur='P13M'/>
+  </sum>
+
+  <!-- Negative durations -->
+  <sum>
+    <date dur='PT70M'/>
+    <date dur='-PT30M'/>
+  </sum>
+
+  <sum>
+    <date dur='PT1H10M'/>
+    <date dur='-PT30M'/>
+    <date dur='-PT30S'/>
+  </sum>
+
+  <!-- Zero sum -->
+  <sum>
+    <date dur='PT1M'/>
+    <date dur='-PT1M'/>
+  </sum>
+
+</page>

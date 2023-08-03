@@ -1,0 +1,25 @@
+
+selecting by element:    /a
+          by attribute:  /a
+
+selecting by element:    /a/b
+          by attribute:  /a/b
+
+selecting by element:    /a/b/c
+          by attribute:  /a/b/c
+
+selecting by element:    /a/b/c/d
+          by attribute:  /a/b/c/d
+
+selecting by element:    /a/b/c/d/e
+          by attribute:  /a/b/c/d/e
+
+selecting by element:    /a/b/c/d/e/f
+          by attribute:  /a/b/c/d/e/f
+
+selecting by element:    /a/b/c/d/e/f/g
+          by attribute:  /a/b/c/d/e/f/g
+
+selecting by element:    /a/b/c/d/e/f/g/h
+          by attribute:  /a/b/c/d/e/f/g/h
+

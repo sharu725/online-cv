@@ -1,0 +1,13 @@
+2001-05-05  Jirka Kosek <kosek@users.sourceforge.net>
+
+	* htmlhelp-common.xsl: Colophon is now included in toc.hhc
+
+2001-04-21  Jirka Kosek <kosek@users.sourceforge.net>
+
+	* README: Removed obsolete file
+
+2001-04-04  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* README, htmlhelp-common.xsl, htmlhelp.xsl, langcodes.xml, xthtmlhelp.xsl: 
+	New file.
+

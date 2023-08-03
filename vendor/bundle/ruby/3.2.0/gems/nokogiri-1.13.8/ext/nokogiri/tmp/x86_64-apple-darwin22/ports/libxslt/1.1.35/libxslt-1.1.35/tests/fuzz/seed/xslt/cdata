@@ -1,0 +1,4 @@
+<x:stylesheet version="1.0" xmlns:x="http://www.w3.org/1999/XSL/Transform" xmlns:a="a" xmlns:b="b">
+<x:output cdata-section-elements="b a:c"/>
+<x:template match="*"><x:copy><x:apply-templates select="node()"/></x:copy></x:template>
+</x:stylesheet>

@@ -1,0 +1,127 @@
+2000-08-08  Norman Walsh  <ndw@nwalsh.com>
+
+	* article.xml, test.xml: Test case hacking
+
+	* idxbook.xml: New file.
+
+2000-06-29  Norman Walsh  <ndw@nwalsh.com>
+
+	* test.xml: Added another table test
+
+2000-06-26  Norman Walsh  <ndw@nwalsh.com>
+
+	* qa2.xml: New file.
+
+2000-04-19  Norman Walsh  <ndw@nwalsh.com>
+
+	* book2.xml: Remove broken tables; PassiveTeX can't handle them at all
+
+	* test.xml: Hackery
+
+2000-04-06  Norman Walsh  <ndw@nwalsh.com>
+
+	* classsynop.xml, docbook40.xml: New file.
+
+2000-04-03  Norman Walsh  <ndw@nwalsh.com>
+
+	* book.xml: Added some indexterm tests
+
+	* func.xml: Added an unadorned function
+
+	* test.xml: Hacked
+
+2000-03-23  Norman Walsh  <ndw@nwalsh.com>
+
+	* article.xml, article2.xml, article3.xml, bib.xml, book.xml, book2.xml, book3.xml, chunk.xml, condition.xml, figtest.xml, foottest.xml, fotest.xml, func.xml, gtest.xml, multilingual.xml, qa.xml, set.xml, table.xml, test.xml, verbtest.xml: 
+	Updated doctypes
+
+2000-02-16  Norman Walsh  <ndw@nwalsh.com>
+
+	* test.xml: Just tweaking
+
+2000-02-07  Norman Walsh  <ndw@nwalsh.com>
+
+	* test.xml: Misc. testcase hacking
+
+2000-01-27  Norman Walsh  <ndw@nwalsh.com>
+
+	* test.xml: Added char entity test
+
+2000-01-14  Norman Walsh  <ndw@nwalsh.com>
+
+	* multilingual.xml: Added ptbr
+
+2000-01-10  Norman Walsh  <ndw@nwalsh.com>
+
+	* multilingual.xml: New file.
+
+	* qa.xml: New file.
+
+1999-12-28  Norman Walsh  <ndw@nwalsh.com>
+
+	* test.xml: Added glossary test case
+
+1999-12-24  Norman Walsh  <ndw@nwalsh.com>
+
+	* book.xml: Added dbhtml test
+
+1999-12-22  Norman Walsh  <ndw@nwalsh.com>
+
+	* book.xml: Fiddled with the content
+
+	* set.xml: New file.
+
+1999-11-16  Norman Walsh  <ndw@nwalsh.com>
+
+	* emc2.gif, gtest.xml: New file.
+
+1999-11-10  Norman Walsh  <ndw@nwalsh.com>
+
+	* article.xml, article2.xml, article3.xml, bib.xml, book.xml, book2.xml, book3.xml, chunk.xml, foottest.xml, fotest.xml, test.xml: 
+	Updated system identifiers to make them proper URIs
+
+1999-11-03  Norman Walsh  <ndw@nwalsh.com>
+
+	* book.xml: Test revhistory and character entities
+
+1999-07-16  Norman Walsh  <ndw@nwalsh.com>
+
+	* fixfo.pl: New file.
+
+1999-07-06  Norman Walsh  <ndw@nwalsh.com>
+
+	* article.xml: Added a literallayout
+
+	* foottest.xml: New file.
+
+1999-07-02  Norman Walsh  <ndw@nwalsh.com>
+
+	* fotest.xml: New file.
+
+1999-06-14  Norman Walsh  <ndw@nwalsh.com>
+
+	* bib.xml: New file.
+
+	* book2.xml: Added title to index
+
+	* chunk.xml: New file.
+
+	* docbook.css: Move abstracts in titlepages back to the left
+
+	* test.xml: Removed a bunch of stuff
+
+1999-06-03  Norman Walsh  <ndw@nwalsh.com>
+
+	* book3.xml: New file.
+
+1999-05-20  Norman Walsh  <ndw@nwalsh.com>
+
+	* article.xml, book.xml, book2.xml, docbook.css, test.xml: 
+	More test files
+
+	* test.xml: Updates
+
+1999-05-19  Norman Walsh  <ndw@nwalsh.com>
+
+	* article.xml, article2.xml, article3.xml: New file.
+

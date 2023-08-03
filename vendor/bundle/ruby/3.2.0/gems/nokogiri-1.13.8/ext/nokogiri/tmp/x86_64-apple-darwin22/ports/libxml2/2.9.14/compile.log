@@ -1,0 +1,96 @@
+/Library/Developer/CommandLineTools/usr/bin/make  all-recursive
+Making all in include
+Making all in libxml
+make[3]: Nothing to be done for `all'.
+make[3]: Nothing to be done for `all-am'.
+Making all in .
+  CC       xmllint.o
+  CC       SAX.lo
+  CC       entities.lo
+entities.c:599:68: warning: unused parameter 'attr' [-Wunused-parameter]
+xmlEncodeEntitiesInternal(xmlDocPtr doc, const xmlChar *input, int attr) {
+                                                                   ^
+1 warning generated.
+  CC       encoding.lo
+encoding.c:505:26: warning: cast from 'const unsigned char *' to 'unsigned short *' increases required alignment from 1 to 2 [-Wcast-align]
+    unsigned short* in = (unsigned short*) inb;
+                         ^~~~~~~~~~~~~~~~~~~~~
+encoding.c:592:27: warning: cast from 'unsigned char *' to 'unsigned short *' increases required alignment from 1 to 2 [-Wcast-align]
+    unsigned short* out = (unsigned short*) outb;
+                          ^~~~~~~~~~~~~~~~~~~~~~
+encoding.c:748:26: warning: cast from 'const unsigned char *' to 'unsigned short *' increases required alignment from 1 to 2 [-Wcast-align]
+    unsigned short* in = (unsigned short*) inb;
+                         ^~~~~~~~~~~~~~~~~~~~~
+encoding.c:835:27: warning: cast from 'unsigned char *' to 'unsigned short *' increases required alignment from 1 to 2 [-Wcast-align]
+    unsigned short* out = (unsigned short*) outb;
+                          ^~~~~~~~~~~~~~~~~~~~~~
+4 warnings generated.
+  CC       error.lo
+  CC       parserInternals.lo
+  CC       parser.lo
+  CC       tree.lo
+  CC       hash.lo
+  CC       list.lo
+  CC       xmlIO.lo
+  CC       xmlmemory.lo
+  CC       uri.lo
+  CC       valid.lo
+  CC       xlink.lo
+  CC       HTMLparser.lo
+  CC       HTMLtree.lo
+  CC       debugXML.lo
+  CC       xpath.lo
+  CC       xpointer.lo
+  CC       xinclude.lo
+  CC       nanohttp.lo
+  CC       nanoftp.lo
+  CC       catalog.lo
+  CC       globals.lo
+  CC       threads.lo
+  CC       c14n.lo
+  CC       xmlstring.lo
+  CC       buf.lo
+  CC       xmlregexp.lo
+  CC       xmlschemas.lo
+  CC       xmlschemastypes.lo
+  CC       xmlunicode.lo
+  CC       xmlreader.lo
+  CC       relaxng.lo
+  CC       dict.lo
+  CC       SAX2.lo
+  CC       xmlwriter.lo
+  CC       legacy.lo
+  CC       chvalid.lo
+  CC       pattern.lo
+  CC       xmlsave.lo
+  CC       xmlmodule.lo
+  CC       schematron.lo
+  CC       xzlib.lo
+  CCLD     libxml2.la
+  CCLD     xmllint
+ld: warning: dylib (/usr/local/Cellar/xz/5.4.3/lib/liblzma.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+  CC       xmlcatalog.o
+  CCLD     xmlcatalog
+ld: warning: dylib (/usr/local/Cellar/xz/5.4.3/lib/liblzma.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+  CC       testdso.lo
+  CCLD     testdso.la
+sed -e 's?\@XML_LIBDIR\@?-L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib?g' \
+	    -e 's?\@XML_INCLUDEDIR\@?-I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2?g' \
+	    -e 's?\@VERSION\@?2.9.14?g' \
+	    -e 's?\@XML_LIBS\@?-lxml2?g' \
+	    -e 's?\@XML_PRIVATE_LIBS\@?-lz -L/usr/local/Cellar/xz/5.4.3/lib -llzma -lpthread  -liconv  -lm ?g' \
+	       < ./xml2Conf.sh.in > xml2Conf.tmp \
+	&& mv xml2Conf.tmp xml2Conf.sh
+Making all in doc
+Making all in .
+make[3]: Nothing to be done for `all-am'.
+Making all in devhelp
+make[3]: Nothing to be done for `all'.
+Making all in examples
+make[3]: Nothing to be done for `all'.
+Making all in example
+make[2]: Nothing to be done for `all'.
+Making all in fuzz
+make[2]: Nothing to be done for `all'.
+Making all in xstc
+make[2]: Nothing to be done for `all'.

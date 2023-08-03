@@ -1,0 +1,70 @@
+2001-01-30  Norman Walsh  <ndw@nwalsh.com>
+
+	* Makefile: Changes
+
+2001-01-28  Norman Walsh  <ndw@nwalsh.com>
+
+	* Makefile: Tweaks
+
+	* book.xml, graphics.xml, idxbook.xml, test.xml: Hacking
+
+2001-01-12  Norman Walsh  <ndw@nwalsh.com>
+
+	* Makefile: Turn on PT extensions, cause that's what I'm using most
+
+	* emc2.png: New file.
+
+	* table.xml: Added frame attributes, needs more testing
+
+	* test.xml: Hackery
+
+2001-01-07  Norman Walsh  <ndw@nwalsh.com>
+
+	* Makefile, book.xml, mlang.pl: Updated
+
+2000-12-14  Norman Walsh  <ndw@nwalsh.com>
+
+	* Makefile, foottest.xml, sectest.xml, table.xml, testmath.xml: 
+	Updated tests
+
+2000-11-29  Norman Walsh  <ndw@nwalsh.com>
+
+	* Makefile: Support PassiveTeX or FOP
+
+	* condition.xml: Fixed doctype and table
+
+	* test.xml: Hacking
+
+2000-11-15  Norman Walsh  <ndw@nwalsh.com>
+
+	* Makefile: Updated
+
+	* book3.xml: Fixes for 4.1.2
+
+	* callout.xml: New file.
+
+2000-11-09  Norman Walsh  <ndw@nwalsh.com>
+
+	* Makefile: Added call to 'tidy'
+
+	* book3.xml: Fixed doctype
+
+	* test.xml: Hacked
+
+2000-10-29  Norman Walsh  <ndw@nwalsh.com>
+
+	* table.xml: Added a few more tests
+
+2000-10-26  Norman Walsh  <ndw@nwalsh.com>
+
+	* Makefile, idxbook.xml, mlang.pl, test.xml: Added localization tests; indexing tests
+
+2000-10-14  Norman Walsh  <ndw@nwalsh.com>
+
+	* graphics.xml: New file.
+
+2000-10-09  Norman Walsh  <ndw@nwalsh.com>
+
+	* LostLog, article.xml, article2.xml, article3.xml, bib.xml, book.xml, book2.xml, book3.xml, chunk.xml, classsynop.xml, condition.xml, docbook.css, docbook40.xml, emc2.gif, figtest.xml, foottest.xml, fotest.xml, func.xml, gtest.xml, idxbook.xml, multilingual.xml, qa.xml, qa2.xml, set.xml, table.xml, test.xml, verbtest.xml: 
+	New file.
+

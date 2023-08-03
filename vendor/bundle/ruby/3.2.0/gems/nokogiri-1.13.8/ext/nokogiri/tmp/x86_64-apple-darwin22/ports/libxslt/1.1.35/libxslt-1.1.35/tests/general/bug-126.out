@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+    <foo attr="$x"/> Expect '$x'
+    <foo attr="val"/> Expect 'val'
+    <foo attr="{$x"/> Expect 'bracket $x'
+    <foo attr="$x}"/> Expect '$x bracket'
+    <foo attr="{$x}"/> Expect 'bracket $x bracket'
+    <foo attr="{val}"/> Expect 'bracket val bracket'
+  

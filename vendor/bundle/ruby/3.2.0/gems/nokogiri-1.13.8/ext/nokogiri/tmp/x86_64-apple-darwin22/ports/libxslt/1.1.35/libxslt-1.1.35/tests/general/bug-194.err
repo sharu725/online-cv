@@ -1,0 +1,9 @@
+runtime error
+Variable 'p' has not been declared.
+XPath error : Undefined variable
+runtime error: file ./bug-194.xsl line 4 element param
+Failed to evaluate the expression of variable 'p'.
+XPath error : Undefined variable
+runtime error: file ./bug-194.xsl line 5 element param
+Failed to evaluate the expression of variable 'p2'.
+no result for ./../docs/bug-194.xml

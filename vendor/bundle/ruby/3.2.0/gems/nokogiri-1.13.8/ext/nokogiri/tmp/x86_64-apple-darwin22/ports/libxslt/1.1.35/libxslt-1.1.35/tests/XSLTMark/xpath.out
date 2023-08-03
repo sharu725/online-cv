@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TOP>
+   <FOO>foo1</FOO>
+   barg1
+   nar1
+   <BAR>
+      
+      
+   </BAR>
+   nomba
+   <BAR>bar2</BAR>
+   nar2
+   nyargh
+   gurf
+   hurk
+   nar2
+   foo2
+   barg2
+</TOP>

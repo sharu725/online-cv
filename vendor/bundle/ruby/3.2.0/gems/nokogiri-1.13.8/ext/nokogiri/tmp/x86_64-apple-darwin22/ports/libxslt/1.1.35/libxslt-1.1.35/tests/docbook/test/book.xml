@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE book
+  PUBLIC "-//Norman Walsh//DTD DocBk XML V3.1.7//EN"
+  "../dtd/3.1.7/docbookx.dtd">
+
+<!-- test document -->
+<book><title>Book Test Document Title</title>
+<bookinfo>
+<title>Bookinfo Test Document Title</title>
+<subtitle>Book Subtitle</subtitle>
+<authorgroup>
+<author><firstname>Norman</firstname><surname>Walsh</surname></author>
+<author><firstname>John</firstname><surname>Doe</surname></author>
+</authorgroup>
+<releaseinfo>Some releaseinfo</releaseinfo>
+<copyright><year>2000</year><holder>Norman Walsh</holder></copyright>
+<legalnotice>
+<para>Some legal notice. Some legal notice. Some legal notice.
+Some legal notice. Some legal notice. Some legal notice.
+Some legal notice. Some legal notice. Some legal notice.
+Some legal notice. Some legal notice. Some legal notice.
+</para>
+</legalnotice>
+<pubdate>16 December 2000</pubdate>
+<abstract>
+<para>Some abstract. Some abstract. Some abstract. Some abstract.
+Some abstract. Some abstract. Some abstract. Some abstract.
+Some abstract. Some abstract. Some abstract. Some abstract.
+Some abstract. Some abstract. Some abstract. Some abstract.
+Some abstract. Some abstract. Some abstract. Some abstract.
+Some abstract. Some abstract. Some abstract. Some abstract.
+</para>
+<para>Some abstract. Some abstract. Some abstract. Some abstract.
+Some abstract. Some abstract. Some abstract. Some abstract.
+</para>
+</abstract>
+<!--
+<revhistory>
+<revision>
+<revnumber>1.0</revnumber>
+<date>20 Nov 1998</date>
+<authorinitials>ndw</authorinitials>
+<revremark>Some remark about the revision</revremark>
+</revision>
+<revision>
+<revnumber>0.9</revnumber>
+<date>19 Nov 1998</date>
+<authorinitials>ndw</authorinitials>
+<revremark>Some remark about the revision</revremark>
+</revision>
+<revision>
+<revnumber>0.4</revnumber>
+<date>18 Nov 1998</date>
+<authorinitials>ndw</authorinitials>
+<revremark>Some remark about the revision</revremark>
+</revision>
+</revhistory>
+-->
+</bookinfo>
+
+<dedication><title>First Dedication</title>
+<para>Just a test. &ldquo;What about&mdash;this?&rdquo;</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+Blah blah blah blah blah blah blah blah. Blah blah blah blah.
+Blah. Blah blah blah blah. Blah blah. Blah blah blah blah.
+</para>
+</dedication>
+
+<dedication>
+<para>Just a test dedication.</para>
+</dedication>
+
+<preface><title>Foreword</title>
+<?dbhtml filename="forward.htm"?>
+<para>This is a test paragraph.</para>
+</preface>
+
+<preface>
+<para>This is a test preface.</para>
+</preface>
+
+<part>
+<docinfo>
+<title>Part One Title</title>
+<legalnotice>
+<para>Foo! A legal notice in a part!</para>
+</legalnotice>
+</docinfo>
+<title>Part One Title</title>
+<partintro>
+<title>PartIntro Title</title>
+<para>Partintro content<footnote>
+<para>This is a footnote in a partintro.</para>
+</footnote>.</para>
+<sect1>
+<title>PartIntro Section</title>
+<para>PartIntros can actually have section content as well.</para>
+</sect1>
+</partintro>
+<chapter id="chapter">
+<title id="chaptertitle">Section <anchor id="stestfoo"/>Tests</title>
+
+<sect1><title>First Sect1</title>
+<para>Paragraph.</para>
+<figure id="testfig1"><title>Test Figure</title>
+<programlisting>This is a
+  ProgramListing
+</programlisting>
+</figure>
+</sect1>
+<sect1><title>Second Sect1</title>
+<para>Paragraph.</para>
+</sect1>
+<sect1><title>Third Sect1</title>
+<para>Paragraph.</para>
+<figure id="testfig2"><title>Test Figure</title>
+<programlisting>This is a
+  ProgramListing
+</programlisting>
+</figure>
+</sect1>
+
+</chapter>
+</part>
+
+<chapter>
+  <docinfo><title>First Chapter</title><subtitle>Chapter Subtitle</subtitle>
+  </docinfo><title>First Chapter</title>
+<para>This is a test paragraph.</para>
+<figure id="testfig3"><title>Test Figure</title>
+<programlisting>This is a
+  ProgramListing
+</programlisting>
+</figure>
+</chapter>
+
+<chapter><title>Second Chapter</title>
+<para>This is a test paragraph.
+<indexterm>
+<primary>ap1</primary>
+</indexterm>
+<indexterm>
+<primary>ap2</primary>
+</indexterm>
+
+<indexterm>
+<primary>bp1</primary>
+<secondary>bp1bs1</secondary>
+</indexterm>
+<indexterm>
+<primary>bp2</primary>
+</indexterm>
+
+<indexterm>
+<primary>cp1</primary>
+<secondary>cp1cs1</secondary>
+<tertiary>cp1cs1ct1</tertiary>
+</indexterm>
+
+<indexterm>
+<primary>cp2</primary>
+</indexterm>
+<indexterm>
+<primary>cp2see</primary><see>cp2</see>
+</indexterm>
+
+<indexterm>
+<primary>dp1</primary>
+<secondary>dp1ds1</secondary>
+</indexterm>
+<indexterm>
+<primary>dp1</primary>
+<secondary>dp1ds2</secondary>
+</indexterm>
+<indexterm>
+<primary>dp2</primary>
+</indexterm></para>
+</chapter>
+
+<chapter><title>Third Chapter</title>
+<para>This is a test paragraph.</para>
+</chapter>
+
+<appendix><title>First Appendix</title>
+<para>This is just a test.</para>
+<figure id="testfig4"><title>Test Figure</title>
+<programlisting>This is a
+  ProgramListing
+</programlisting>
+</figure>
+</appendix>
+
+<appendix><title>Second Appendix</title>
+<para>This is just a test.
+<indexterm>
+<primary>ap1</primary>
+</indexterm>
+<indexterm>
+<primary>ap2</primary>
+</indexterm>
+
+<indexterm>
+<primary>bp1</primary>
+<secondary>bp1bs1</secondary>
+</indexterm>
+<indexterm>
+<primary>bp2</primary>
+</indexterm>
+
+<indexterm>
+<primary>cp1</primary>
+<secondary>cp1cs1</secondary>
+<tertiary>cp1cs1ct1</tertiary>
+</indexterm>
+<indexterm>
+<primary>cp2</primary>
+</indexterm>
+
+<indexterm>
+<primary>dp1</primary>
+<secondary>dp1ds1</secondary>
+</indexterm>
+<indexterm>
+<primary>dp1</primary>
+<secondary>dp1ds2</secondary>
+</indexterm>
+<indexterm>
+<primary>dp2</primary>
+</indexterm></para>
+</appendix>
+
+</book>
+
+

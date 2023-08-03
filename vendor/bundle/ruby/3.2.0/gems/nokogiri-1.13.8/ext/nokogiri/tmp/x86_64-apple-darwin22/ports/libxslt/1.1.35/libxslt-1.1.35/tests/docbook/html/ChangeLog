@@ -1,0 +1,173 @@
+2001-06-13  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* chunk-common.xsl: Make sure the root element gets processed correctly so that it generates the right titlepage
+
+	* component.xsl: Don't output ID attributes on DIVs with required titles since they conflict with the NAME attributes on the subsequently output A tags.
+
+	* docbook.xsl: Pass the current node to user.head.content
+
+	* index.xsl: Updated comment
+
+2001-06-07  Jirka Kosek <kosek@users.sourceforge.net>
+
+	* lists.xsl: Things preceding steps in procedure are placed before OL list.
+
+2001-06-04  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* lists.xsl: Fixed typo in compact list support; backed out procedure step changes
+
+	* sections.xsl: Fixed CSS typo; clear: all should be clear: both
+
+2001-06-02  Jirka Kosek <kosek@users.sourceforge.net>
+
+	* lists.xsl: Fixed bug #424926. Things preceding steps in procedure are not placed inside OL list.
+
+2001-05-23  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* component.xsl: Reorganized templates for clarity
+
+	* graphics.xsl: Fix dup. template bug with is.graphic.*
+
+	* titlepage.xsl: Added template for publisher
+
+2001-05-21  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* autotoc.xsl: Make the TOC label/title separator a parameter
+
+	* callout.xsl, verbatim.xsl: Move calculation of linenumber.* parameters into the number.rtf.lines template
+
+	* changebars.xsl: Add link and member as inlines
+
+	* sections.xsl: Refactor the section title code
+
+	* titlepage.templates.xml: Reworked titlepage template processing to support use of more interesting
+	predicates.
+	
+	Note: in previous versions, at most one title, subtitle, or titleabbrev
+	element would be processed for each title page. In the new design, if you
+	have multiple title, subtitle, or titleabbrev elements inside an info
+	wrapper (you shouldn't!), they will all be processed.
+
+2001-05-13  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* param.xsl: Fixed ID typo
+
+	* synop.xsl: Fixed synopfragmentref link (suggested by Philippe Martin)
+
+2001-05-12  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* autotoc.xsl, param.xsl: Mostly failed attempt to add bridgeheads to the automatic TOC; this option is turned off by default and you should leave it that way.
+
+	* sections.xsl: Calculate the heading level for bridgeheads
+
+2001-05-03  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* lists.xsl: Output anchors for procedures and steps
+
+	* table.xsl: Process head/body/foot in the right order
+
+2001-04-29  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* chunk-common.xsl, chunk.xsl, xtchunk.xsl: Automatically make an index when chunking with a processor other than XT
+
+2001-04-26  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* changebars.xsl: Support a few more elements
+
+	* inline.xsl: Make glossterms hot if they're links. And make them italic.
+
+	* lists.xsl: Improve procedure step/substep enumeration
+
+2001-04-24  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* chunk-common.xsl: Feature request 416507: added chunk.sections and chunk.first.sections to provide greater chunking flexibility
+
+	* chunk-common.xsl: Fix chunking bug
+
+	* chunker.xsl: Output ID in message
+
+	* glossary.xsl: Fix bug that caused duplicated glossary entries
+
+	* qandaset.xsl: Bug #418100: fix qandaentry anchors; also fixed formatting bug in questions with indexterms
+
+2001-04-21  Jirka Kosek <kosek@users.sourceforge.net>
+
+	* chunker.xsl, param.xsl: Added parameters for changing output encoding in chunked HTML
+
+	* inline.xsl: Improve processing of trademarks
+
+2001-04-20  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* inline.xsl: Restoring accidentally deleted citetitle template
+
+2001-04-18  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* autoidx.xsl: Fix bug: lowercase and uppercase need to be strings (not element names :-)
+
+	* inline.xsl, param.xsl: Bug #413982, easy support for man page CGI links on citerefentry
+
+2001-04-17  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* docbook.xsl, param.xsl: Move label.from.part parameter into param.xsl; default it to 0 so that chapters and appendixes are numbered monotonically throughout a book by default. Moved param.xsl up in the include list, just for good measure
+
+2001-04-16  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* component.xsl: Fix bug in processing of subtitle content on components
+
+	* glossary.xsl, titlepage.templates.xml: Fix formatting of glossarys--things were really broken
+
+	* xref.xsl: Patches Tracker #415439: support title attribute on HTML anchors associated with xrefs
+
+2001-04-15  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* chunk-common.xsl: Process footnotes correctly when chunking; add summary attribute to navigation tables
+
+	* docbook.xsl: Support inheriting of *info keywords
+
+	* footnote.xsl, sections.xsl: Process footnotes correctly when chunking
+
+	* formal.xsl: Use gentext templates for formal object titles
+
+	* param.xsl: Added new parameters: inherit.keywords, process.source.toc, and process.empty.source.toc; changed the default for spacing.paras to 0
+
+	* table.xsl: Improve support for align attribute on tgroup
+
+	* toc.xsl: Support DocBook toc markup
+
+	* xref.xsl: Make a title attribute on HTML anchors for links to things with titles
+
+2001-04-05  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* table.xsl: Don't translate tgroup align into HTML table align--they don't mean the same thing
+
+	* titlepage.xsl: Suppress titleabbrev on the title page
+
+2001-04-04  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* chunk-common.xsl: Move xsl:message about chunks into the chunker modules
+
+	* chunker.xsl: Support indent and doctype public/system on chunks (for Saxon, anyway, Xalan's multiple-document extension doesn't seem to support this)
+
+	* xtchunker.xsl: Use xsl:choose to support xml, html, and text output methods
+
+2001-04-03  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* callout.xsl: Fix bug 412487, make XSL-generated callout marks honor callout mark parameters
+
+	* chunk-common.xsl: Remove unnecessary xmlns declarations
+
+	* chunker.xsl: Patch to make saxon not produce xml version=1.1 documents
+
+	* param.xsl: Documentation fixes
+
+	* qandaset.xsl: Apply patch 412510 by Jon Willeke, make xref to Question work correctly
+
+	* xref.xsl: Remove unnecessary parameter assignment
+
+2001-04-02  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* .cvsignore, Makefile, admon.xsl, autoidx.xsl, autotoc.xsl, biblio.xsl, block.xsl, callout.xsl, changebars.xsl, chunk-common.xsl, chunk.xsl, chunker.xsl, component.xsl, division.xsl, docbook.xsl, ebnf.xsl, footnote.xsl, formal.xsl, glossary.xsl, graphics.xsl, html.xsl, index.xsl, info.xsl, inline.xsl, keywords.xsl, lists.xsl, math.xsl, param.xsl, pi.xsl, qandaset.xsl, refentry.xsl, sections.xsl, synop.xsl, table.xsl, titlepage.templates.xml, titlepage.xsl, toc.xsl, verbatim.xsl, xref.xsl, xtchunk.xsl, xtchunker.xsl: 
+	New file.
+
+	* Makefile: Use the cvstools version of saxon
+

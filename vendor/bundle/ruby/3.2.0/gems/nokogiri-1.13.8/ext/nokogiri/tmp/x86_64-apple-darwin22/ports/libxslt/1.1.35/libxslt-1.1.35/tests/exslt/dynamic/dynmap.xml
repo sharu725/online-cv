@@ -1,0 +1,29 @@
+<dynmap>
+ <with-child>
+  <childNode1>aaa</childNode1>
+  <childNode2>bbbb</childNode2>
+  <childNode3>ccc</childNode3>
+  <childNode4>dddd</childNode4>
+  <childNode5>eee</childNode5>
+  <childNode6>ffff</childNode6>
+  <childNode7>ggg</childNode7>
+  <childNode8>hhhh</childNode8>
+  <childNode9>iii</childNode9>
+ </with-child>
+ <without-child>some text</without-child>
+ <without-child>some text</without-child>
+ <without-child>some text</without-child>
+ <without-child>some text</without-child>
+ <without-child>some text</without-child>
+ <with-child>
+  <childNode1>jjjj</childNode1>
+  <childNode2>kkk</childNode2>
+  <childNode3>llll</childNode3>
+  <childNode4>mmm</childNode4>
+  <childNode5>nnnn</childNode5>
+  <childNode6>ooo</childNode6>
+  <childNode7>pppp</childNode7>
+  <childNode8>qqq</childNode8>
+  <childNode9>rrrr</childNode9>
+ </with-child>
+</dynmap>

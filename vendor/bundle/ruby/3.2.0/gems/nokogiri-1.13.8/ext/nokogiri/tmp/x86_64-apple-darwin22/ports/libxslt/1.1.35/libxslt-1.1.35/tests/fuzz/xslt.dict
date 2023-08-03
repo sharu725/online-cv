@@ -1,0 +1,83 @@
+# Instructions
+
+inst_attribute="<x:attribute name=\"n\"></x:attribute>"
+inst_apply_imports="<x:apply-imports/>"
+inst_apply_templates="<x:apply-templates select=\"*\"/>"
+inst_call_template="<x:call-template name=\"n\"/>"
+inst_choose="<x:choose><x:when test=\"*\"></x:when><x:otherwise></x:otherwise></x:choose>"
+inst_comment="<x:comment>c</x:comment>"
+inst_copy="<x:copy></x:copy>"
+inst_copy_of="<x:copy-of select=\"*\"/>"
+inst_element="<x:element name=\"n\"></x:element>"
+inst_for_each="<x:for-each select=\"*\"></x:for-each>"
+inst_if="<x:if test=\"*\"></x:if>"
+inst_processing_instruction="<x:processing-instruction name=\"pi\">c</x:processing-instruction>"
+inst_template_element="<x:template match=\"*\"></x:template>"
+inst_template_name="<x:template name=\"n\"></x:template>"
+inst_text="<x:text>t</x:text>"
+inst_text_noesc="<x:text disable-output-escaping=\"yes\">&lt;&gt;&amp;</x:text>"
+inst_var_select="<x:variable name=\"v\" select=\".\"/>"
+inst_var_templ="<x:variable name=\"v\"></x:variable>"
+inst_value_of="<x:value-of select=\"*\"/>"
+
+# Move to corpus?
+inst_message_no="<x:message terminate=\"no\">m</x:message>"
+inst_message_yes="<x:message terminate=\"yes\">m</x:message>"
+inst_namespace_alias="<x:namespace-alias stylesheet-prefix=\"a\" result-prefix=\"x\"/>"
+
+# Attributes
+
+attr_mode=" mode=\"m\""
+attr_namespace=" namespace=\"a\""
+attr_priority=" priority=\"-0.1\""
+
+# XPath
+
+axis_attribute_abbrev="@"
+axis_namespace="namespace::"
+
+node_test_any="|//*"
+node_test_name="|//a"
+node_test_qname="|//a:a"
+node_test_ns_any="|//a:*"
+node_test_comment="|//comment()"
+node_test_node="|//node()"
+node_test_pi="|//processing-instruction()"
+node_test_text="|//text()"
+node_test_attr_a="|@a"
+node_test_attr_b="|@b"
+node_test_parent="|.."
+
+step="/"
+step_a="/a"
+step_b="/b"
+step_any="/*"
+step_node="/node()"
+step_text="/text()"
+step_comment="/comment()"
+step_pi="/processing-instruction()"
+step_self="/."
+step_parent="/.."
+step_namespace="/namespace::*"
+
+op_and=" and 1"
+op_or=" or 0"
+op_eq="=*"
+op_ne="!=*"
+op_gt=">*"
+op_plus="+1"
+op_mod=" mod 2"
+
+pred_num="[1]"
+pred_string="['a']"
+pred_position="[position()]"
+pred_last="[last()]"
+pred_current="[current()]"
+
+expr_var="+$v"
+
+# Unicode
+
+utf8_2="\xC3\x84"
+utf8_3="\xE2\x80\x9C"
+utf8_4="\xF0\x9F\x98\x80"

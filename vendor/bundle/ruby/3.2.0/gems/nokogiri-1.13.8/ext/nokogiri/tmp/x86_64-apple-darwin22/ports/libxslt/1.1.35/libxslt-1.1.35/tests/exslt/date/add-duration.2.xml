@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<page>
+  <!-- invalid types -->
+  <date dur1='2001'      dur2='-P1Y'/>
+  <date dur1='P1M'       dur2='2000-01-01'/>
+  <!-- cannot express result -->
+  <date dur1='P11M30D'   dur2='-P12M'/>
+  <date dur1='P11M'      dur2='-P12D'/>
+  <date dur1='P1000Y11M' dur2='-PT9S'/>
+  <date dur1='-P1000Y'   dur2='PT9S'/>
+</page>
+

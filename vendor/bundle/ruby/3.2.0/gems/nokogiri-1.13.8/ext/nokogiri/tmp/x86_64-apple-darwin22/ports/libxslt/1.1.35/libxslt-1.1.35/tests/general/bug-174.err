@@ -1,0 +1,1 @@
+exsltFuncResultElem: only xsl:fallback is allowed to follow func:result

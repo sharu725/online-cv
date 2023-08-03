@@ -1,0 +1,10 @@
+<doc>
+    <chapter security="low">
+        <para security="high">
+	    <procedure>secure-proc</procedure>
+	</para>
+        <para>
+	    <procedure>insecure-proc</procedure>
+	</para>
+    </chapter>
+</doc>

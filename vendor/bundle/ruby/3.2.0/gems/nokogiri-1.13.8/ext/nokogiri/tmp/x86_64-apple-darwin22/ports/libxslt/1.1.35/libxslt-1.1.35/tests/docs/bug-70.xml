@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<div id="div111" href="div111href">
+<div id="div222" href="div222href" >
+<obj id="obj333" href="obj333href" ></obj>
+</div>
+<link linkend="div111"/>
+<link linkend="div222"/>
+<link linkend="obj333"/>
+</div>
+

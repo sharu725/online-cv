@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<page>
+  <!-- invalid xs:gDay syntax -->
+  <date date="--09-"/>
+  <date date="---9"/>
+  <!-- invalid xs:gDay values -->
+  <date date="---32"/>
+  <date date="---00"/>
+</page>
+

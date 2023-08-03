@@ -1,0 +1,128 @@
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.0//EN"
+               "../dtd/4.0/docbookx.dtd">
+<book>
+<bookinfo>
+<title>DocBook V4.0 Example Document</title>
+<author><firstname>Norman</firstname><surname>Walsh</surname></author>
+<abstract>
+<para>This document demonstrates the new tags in DocBook V4.0.</para>
+<para>The focus of this document is to present examples of new elements,
+minor changes such as the addition of new attribute values are not
+included.</para>
+</abstract>
+</bookinfo>
+<chapter><title>Block-level Markup</title>
+<para>There's a new simple-alternative for <sgmltag>msgentry</sgmltag>:
+<sgmltag>simplemsgentry</sgmltag>.</para>
+<msgset>
+<simplemsgentry>
+<msgtext><para>The text of a message</para></msgtext>
+<msgexplan><para>An explanation of the message.</para></msgexplan>
+</simplemsgentry>
+<simplemsgentry>
+<msgtext><para>The text of a message</para></msgtext>
+<msgexplan><para>An explanation of the message.</para></msgexplan>
+</simplemsgentry>
+</msgset>
+
+<para>Longer descriptions are possible in a <sgmltag>revhistory</sgmltag>:
+</para>
+
+<para>
+<revhistory>
+<revision>
+<revnumber>2</revnumber>
+<date>today</date>
+<authorinitials>nwalsh</authorinitials>
+<revdescription>
+<para>Here are a few paragraphs of description:</para>
+<para>Did some stuff.</para>
+<para>Did some other stuff.</para>
+</revdescription>
+</revision>
+<revision>
+<revnumber>1</revnumber>
+<date>yesterday</date>
+<authorinitials>nwalsh</authorinitials>
+<revdescription>
+<para>Here are a few paragraphs of description:</para>
+<para>Did some stuff.</para>
+<para>Did some other stuff.</para>
+</revdescription>
+</revision>
+</revhistory>
+</para>
+
+<para>Ordered and itemized lists can have titles:</para>
+
+<itemizedlist><title>Itemized List</title>
+<listitem><para>First thing</para></listitem>
+<listitem><para>Second thing</para></listitem>
+<listitem><para>Third thing</para></listitem>
+</itemizedlist>
+
+<itemizedlist><title>Ordered List</title>
+<listitem><para>First thing</para></listitem>
+<listitem><para>Second thing</para></listitem>
+<listitem><para>Third thing</para></listitem>
+</itemizedlist>
+
+<para>Linespecific environments can indicate line numbering:</para>
+
+<programlisting linenumbering="numbered">
+&lt;!ENTITY % linespecific.attrib
+	"format		NOTATION
+			(linespecific)	'linespecific'
+         linenumbering	(numbered|unnumbered) 	#IMPLIED">
+</programlisting>
+
+<para>Added <sgmltag>classsynopsis</sgmltag> for documenting
+object-oriented programming language classes. Here's one example:</para>
+
+<classsynopsis language="java">
+  <ooclass><modifier>public</modifier>
+  <classname>TextFileWriter</classname></ooclass>
+  <ooclass><classname>HandlerBase</classname></ooclass>
+
+  <fieldsynopsis>
+    <modifier>private</modifier>
+    <type>Writer</type>
+    <varname>writer</varname>
+  </fieldsynopsis>
+
+  <fieldsynopsis>
+    <modifier>public</modifier>
+    <type>String</type>
+    <varname>writerName</varname>
+    <initializer>"MyWriter"</initializer>
+  </fieldsynopsis>
+
+  <methodsynopsis>
+    <modifier>static</modifier>
+    <modifier>public</modifier>
+    <void/>
+    <methodname>write</methodname>
+    <methodparam>
+       <type>ResultTreeFragment</type>
+       <parameter>frag</parameter>
+    </methodparam>
+    <methodparam>
+       <type>String</type>
+       <parameter>file</parameter>
+    </methodparam>
+    <exceptionname>SAXException</exceptionname>
+  </methodsynopsis>
+</classsynopsis>
+</chapter>
+
+<chapter><title>Inline markup</title>
+<para>The <sgmltag>sgmltag</sgmltag> element has new
+<sgmltag class="attribute">class</sgmltag> attribute values:
+<literal>xmlpi</literal> and
+<literal>emptytag</literal>. These produce
+<sgmltag class="xmlpi">processing instructions</sgmltag>
+and <sgmltag class="emptytag">empty-tag</sgmltag> markup
+suitable for XML.
+</para>
+</chapter>
+</book>

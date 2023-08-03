@@ -1,0 +1,92 @@
+
+  
+  
+  Test Date : 2001-02-28T10:31:07
+    year                 : 2001
+    leap-year            : false
+    month-in-year        : 2
+    month-name           : February
+    month-abbreviation   : Feb
+    week-in-year         : 9
+    day-in-year          : 59
+    day-in-month         : 28
+    day-of-week-in-month : 4
+    day-in-week          : 4
+    day-name             : Wednesday
+    day-abbreviation     : Wed
+    time                 : 10:31:07
+    hour-in-day          : 10
+    minute-in-hour       : 31
+    second-in-minute     : 7
+  
+  Test Date : 0001-12-31T23:59:59.1234-05:00
+    year                 : 1
+    leap-year            : false
+    month-in-year        : 12
+    month-name           : December
+    month-abbreviation   : Dec
+    week-in-year         : 1
+    day-in-year          : 365
+    day-in-month         : 31
+    day-of-week-in-month : 5
+    day-in-week          : 2
+    day-name             : Monday
+    day-abbreviation     : Mon
+    time                 : 23:59:59.1234-05:00
+    hour-in-day          : 23
+    minute-in-hour       : 59
+    second-in-minute     : 59.1234
+  
+  Test Date : -0001-12-31T23:59:59-05:00
+    year                 : -1
+    leap-year            : true
+    month-in-year        : 12
+    month-name           : December
+    month-abbreviation   : Dec
+    week-in-year         : 52
+    day-in-year          : 366
+    day-in-month         : 31
+    day-of-week-in-month : 5
+    day-in-week          : 1
+    day-name             : Sunday
+    day-abbreviation     : Sun
+    time                 : 23:59:59-05:00
+    hour-in-day          : 23
+    minute-in-hour       : 59
+    second-in-minute     : 59
+  
+  Test Date : 10000-12-31T23:59:59.9901Z
+    year                 : 10000
+    leap-year            : true
+    month-in-year        : 12
+    month-name           : December
+    month-abbreviation   : Dec
+    week-in-year         : 52
+    day-in-year          : 366
+    day-in-month         : 31
+    day-of-week-in-month : 5
+    day-in-week          : 1
+    day-name             : Sunday
+    day-abbreviation     : Sun
+    time                 : 23:59:59.9901Z
+    hour-in-day          : 23
+    minute-in-hour       : 59
+    second-in-minute     : 59.9901
+  
+  Test Date : -10000-12-31T23:59:59Z
+    year                 : -10000
+    leap-year            : false
+    month-in-year        : 12
+    month-name           : December
+    month-abbreviation   : Dec
+    week-in-year         : 1
+    day-in-year          : 365
+    day-in-month         : 31
+    day-of-week-in-month : 5
+    day-in-week          : 2
+    day-name             : Monday
+    day-abbreviation     : Mon
+    time                 : 23:59:59Z
+    hour-in-day          : 23
+    minute-in-hour       : 59
+    second-in-minute     : 59

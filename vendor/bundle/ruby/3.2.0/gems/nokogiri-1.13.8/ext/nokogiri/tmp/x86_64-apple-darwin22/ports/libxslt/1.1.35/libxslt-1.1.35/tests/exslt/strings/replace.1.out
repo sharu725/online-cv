@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<out>;
+        result nodes: 1
+        result text nodes: 1
+        result string: a
+
+	str:replace('a, simple, list', ', ', '-')
+	a-simple-list
+
+	str:replace('a, simple, list', 'a, ', 'the ')
+	the simple, list
+
+	str:replace('a, simple, list', 'list', 'array')
+	a, simple, array
+
+	str:replace('a, simple, list', 'i', 'I')
+	a, sImple, lIst
+
+	str:replace('a, simple, list', ', ', '')
+	asimplelist
+
+	str:replace('fee, fi, fo, fum', $x, $y)
+	tee, eye, billow, a longer string
+
+	str:replace('fee, fi, fo, fum', $x, 'j')
+	j, , , 
+
+	str:replace('foo', '', 'baz')
+	fbazobazo
+
+	str:replace('Price is $1.10', $from, $to)
+	Price is \$1.10</out>

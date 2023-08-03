@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<?pi first id="1"?><root>
+    <?pi second id="2"?>
+    <foo>
+        <?pi third id="3"?>
+    </foo>
+</root><?pi fourth id="4"?>

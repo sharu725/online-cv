@@ -1,0 +1,43 @@
+<html><head><meta content="text/html; charset=ISO-8859-1" http-equiv="Content-Type"><title>Chapter 1. Class Synopses</title><meta name="generator" content="DocBook XSL Stylesheets V1.40"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="chapter"><div class="titlepage"><div><h2 class="title"><a name="id2862517"></a>Chapter 1. Class Synopses</h2></div></div><p>This example is Perl; it's the standard DirHandle module. I've
+cut out the code, so you'll have to trust me on the parameters.
+</p><p>ProgramListing version:</p><pre class="programlisting">
+package DirHandle;
+
+require 5.000;
+use Carp;
+use Symbol;
+
+sub new {
+}
+</pre><p>ClassSynopsis version:</p><pre class="classsynopsis">package <span class="ooclass"><span class="classname">DirHandle</span></span>;
+@ISA = (<span class="ooclass"><span class="classname">superclass1</span></span>, <span class="ooclass"><span class="classname">superclass2</span></span>);
+
+require 5.000;
+use Carp;
+use Symbol;
+
+<div class="constructorsynopsis">sub <span class="methodname">new</span> { ... };</div><div class="destructorsynopsis">sub <span class="methodname">DESTROY</span> { ... };</div></pre><p>This example is IDL from the DOM spec.</p><p>ProgramListing version:</p><pre class="programlisting">
+interface Element : Node {
+  readonly attribute  DOMString            tagName;
+  DOMString                 getAttribute(in DOMString name);
+  void                      setAttribute(in DOMString name, 
+                                         in DOMString value)
+                                         raises(DOMException);
+};
+</pre><p>ClassSynopsis version:</p><pre class="classsynopsis">interface <span class="ooclass"><span class="classname">Element</span></span>: <span class="ooclass"><span class="classname">Node</span></span> {
+
+<div class="fieldsynopsis">  <span class="modifier">readonly </span><span class="modifier">attribute </span><span class="type">DOMString </span><span class="varname">tagName </span>;</div><div class="methodsynopsis">  <span class="type">DOMString </span><span class="methodname">getAttribute</span>(<span class="methodparam"><span class="modifier">in </span><span class="type">DOMString </span><span class="parameter">name</span></span>);</div><div class="methodsynopsis">  <span class="void">void </span><span class="methodname">setAttribute</span>(<span class="methodparam"><span class="modifier">in </span><span class="type">DOMString </span><span class="parameter">name</span></span>, <span class="methodparam"><span class="modifier">in </span><span class="type">DOMString </span><span class="parameter">value</span></span>)
+    raises(<span class="exceptionname">DOMException</span>);</div>}</pre><pre class="classsynopsis"> <span class="ooclass"><span class="modifier">public </span><span class="classname">TextFileWriter</span></span> extends <span class="ooclass"><span class="classname">Superclass1</span></span>, <span class="ooclass"><span class="classname">Superclass2</span></span>
+    implements <span class="oointerface"><span class="interfacename">Interface1</span></span>, <span class="oointerface"><span class="interfacename">Interface2</span></span>
+    throws <span class="ooexception"><span class="exceptionname">Exception1</span></span>, <span class="ooexception"><span class="exceptionname">Exception2</span></span> {
+
+<div class="fieldsynopsis">  <span class="modifier">private </span><span class="type">Writer </span><span class="varname">writer </span>;</div><div class="fieldsynopsis">  <span class="modifier">public </span><span class="type">String </span><span class="varname">writerName </span><span class="initializer">= &quot;MyWriter&quot;</span>;</div><div class="methodsynopsis">  <span class="modifier">static </span><span class="modifier">public </span><span class="void">void </span><span class="methodname">write</span>(<span class="methodparam"><span class="type">ResultTreeFragment </span><span class="parameter">frag</span></span>,
+                           <span class="methodparam"><span class="type">String </span><span class="parameter">file</span></span>)
+    throws <span class="exceptionname">Exception1</span>, <span class="exceptionname">Exception2</span>;</div>}</pre><pre class="programlisting">
+class Rectangle_with_data:  virtual Shape, virtual Data_container
+{
+...
+};
+</pre><p>ClassSynopsis version:</p><pre class="classsynopsis"><span class="ooclass"><span class="classname">Rectangle_with_data</span></span>: <span class="ooclass"><span class="modifier">virtual </span><span class="classname">Shape</span></span>, <span class="ooclass"><span class="modifier">virtual </span><span class="classname">Data_container</span></span> {
+
+...}</pre></div></body></html>

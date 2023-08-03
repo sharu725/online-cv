@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<page>
+  <!-- valid xs:gMonth -->
+  <date date="--12--"/>
+  <date date="--06--"/>
+  <date date="--02--"/>
+  <date date="--11--"/>
+</page>
+

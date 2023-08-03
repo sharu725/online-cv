@@ -1,0 +1,19 @@
+<?pi content?>
+<a xmlns:a="a">
+    <b xmlns:b="b" a="1" id="b">
+        <c b="2">Ärger</c>
+        <b:d b="3">text</b:d>
+        <!-- comment -->
+        <a:b b="4">ß&#x1f600;</a:b>
+        <b:c a="4"><![CDATA[text]]></b:c>
+    </b>
+    <?pi content?>
+    <a:e xmlns:c="c" a="αβγ">
+        <c:d b="2"/>
+        <a:c>99</a:c>
+        <e a="2">content</e>
+    </a:e>
+    <b/>
+    <a:a/>
+    <!-- comment -->
+</a>

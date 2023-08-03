@@ -1,0 +1,107 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>The GNOME Handbook of Writing Software Documentation</title><meta name="generator" content="DocBook XSL Stylesheets V1.40"><link rel="home" href="index.html" title="The GNOME Handbook of Writing Software Documentation"><link rel="next" href="indexs02.html" title="Getting Started Writing GNOME Documentation"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">The GNOME Handbook of Writing Software Documentation</th></tr><tr><td width="20%" align="left"> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a href="indexs02.html">Next</a></td></tr></table><hr></div><div class="article"><div class="titlepage"><div><h2 class="title"><a name="index"></a>The GNOME Handbook of Writing Software Documentation</h2></div><div><h3 class="author">David Mason</h3><div class="affiliation"><span class="orgname">Red Hat, Inc.<br></span><div class="address"><br>
+            <tt>&lt;<a href="mailto:dcm@redhat.com">dcm@redhat.com</a>&gt;</tt><br>
+          </div></div><h3 class="author">Daniel Mueth</h3><div class="affiliation"><div class="address"><br>
+            <tt>&lt;<a href="mailto:d-mueth@uchicago.edu">d-mueth@uchicago.edu</a>&gt;</tt><br>
+          </div></div><h3 class="author">Alexander Kirillov</h3><div class="affiliation"><div class="address"><br>
+            <tt>&lt;<a href="mailto:kirillov@math.sunysb.edu">kirillov@math.sunysb.edu</a>&gt;</tt><br>
+          </div></div></div><div><p class="releaseinfo">
+      This is a pre-release!
+    </p></div><div><p class="copyright">Copyright © 2000 Red Hat, Inc., Daniel Mueth, and Alexander Kirillov</p></div><div><div class="legalnotice"><p>
+      Permission is granted to copy, distribute and/or modify this
+      document under the terms of the <i>GNU Free Documentation
+      License</i>, Version 1.1 or any later version published
+      by the Free Software Foundation with no Invariant Sections, no
+      Front-Cover Texts, and no Back-Cover Texts. You may obtain a copy
+      of the <i>GNU Free Documentation License</i> from
+      the Free Software Foundation by visiting <a href="http://www.fsf.org" target="_top">their Web site</a> or by writing to:
+      Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+      Boston, MA 02111-1307, USA.
+     </p><p>
+      Many of the names used by companies to distinguish their products and
+      services are claimed as trademarks. Where those names appear in any
+      GNOME documentation, and those trademarks are made aware to the members
+      of the GNOME Documentation Project, the names have been printed in caps
+      or initial caps.
+     </p></div></div><div><div class="revhistory"><table border="1" width="100%" summary="Revision history"><tr><th align="left" valign="top" colspan="2"><b>Revision History</b></th></tr><tr><td align="left">Revision 
+          0.99
+        </td><td align="left">
+         04.10.2000
+        </td></tr></table></div></div><hr></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt> <a href="index.html#intro">Introduction</a></dt><dd><dl><dt> <a href="index.html#gdp">The GNOME Documentation Project</a></dt><dt> <a href="index.html#notation">Notation and Conventions</a></dt><dt> <a href="index.html#about">About This Handbook</a></dt></dl></dd><dt> <a href="indexs02.html">Getting Started Writing GNOME Documentation</a></dt><dd><dl><dt> <a href="indexs02.html#selecting">Selecting A Document</a></dt><dt> <a href="indexs02.html#docbook">Installing and Using DocBook</a></dt><dt> <a href="indexs02.html#gdptemplates">GDP Document Templates</a></dt><dt> <a href="indexs02.html#screenshots">Screenshots</a></dt><dt> <a href="indexs02.html#applicationbugs">Application Bugs</a></dt><dt> <a href="indexs02.html#cvs">Using CVS</a></dt></dl></dd><dt> <a href="indexs03.html">The GNOME Documentation System</a></dt><dd><dl><dt> <a href="indexs03.html#gnomehelpbrowser">The GNOME Help Browser</a></dt><dt> <a href="indexs03.html#gnomehelpbrowser2">The GNOME Help Browser (GNOME-2.0)</a></dt><dt> <a href="indexs03.html#gnomehelponthefly">Dynamic Document Synthesis(GNOME-2.0)</a></dt><dt> <a href="indexs03.html#gnomehelpcomponents">The GNOME Documentation Components</a></dt></dl></dd><dt> <a href="indexs04.html">DocBook Basics </a></dt><dd><dl><dt> <a href="indexs04.html#introtodocbook">Introduction to DocBook</a></dt><dt> <a href="indexs04.html#xml">XML and SGML</a></dt><dt> <a href="indexs04.html#structure"> Structure Elements</a></dt><dt> <a href="indexs04.html#inline">Inline Elements</a></dt></dl></dd><dt> <a href="indexs05.html">GDP Documentation Conventions </a></dt><dd><dl><dt> <a href="indexs05.html#conventionsalldocs">Conventions for All GDP Documentation</a></dt><dt> <a href="indexs05.html#conventionsappdocs">Conventions for Application Documentation</a></dt></dl></dd><dt> <a href="indexs06.html">Writing Application and Applet Manuals</a></dt><dt> <a href="indexs07.html">Listing Documents in the Help Menu</a></dt><dt> <a href="indexs08.html">Application Help Buttons</a></dt><dt> <a href="indexs09.html">Packaging Applet Documentation</a></dt><dd><dl><dt> <a href="indexs09.html#appletfiles">Applet Documentation Files</a></dt><dt> <a href="indexs09.html#appletmenu">Adding Documentation to an Applet Menu</a></dt></dl></dd><dt> <a href="indexs10.html">Writing Context Sensitive Help (coming in GNOME-2.0)</a></dt><dt> <a href="indexs11.html">Referring to Other GNOME Documentation (coming in
+    GNOME-2.0)</a></dt><dt> <a href="indexs12.html">Basics of Documentation Style</a></dt><dd><dl><dt> <a href="indexs12.html#styleplanning">Planning</a></dt><dt> <a href="indexs12.html#balance">Achieving a Balanced Style</a></dt><dt> <a href="indexs12.html#stylestructure">Structure</a></dt><dt> <a href="indexs12.html#stylegrammar">Grammar and Spelling</a></dt></dl></dd><dt> <a href="indexs13.html">Teamwork</a></dt><dd><dl><dt> <a href="indexs13.html#teamworkgdp">Working With The GDP Team</a></dt><dt> <a href="indexs13.html#teamworkdevelopers">Working With Developers</a></dt></dl></dd><dt> <a href="indexs14.html">Finishing A Document</a></dt><dd><dl><dt> <a href="indexs14.html#editting">Editing The Document</a></dt><dt> <a href="indexs14.html#submitting">Submitting The Document</a></dt></dl></dd><dt> <a href="indexs15.html">Resources</a></dt><dd><dl><dt> <a href="indexs15.html#resourcesweb">Resources On The Web</a></dt><dt> <a href="indexs15.html#resourcesbooks">Books</a></dt><dt> <a href="indexs15.html#mailinglists">Mailing Lists</a></dt><dt> <a href="indexs15.html#irc">IRC</a></dt></dl></dd><dt>A <a href="apa.html">Document Templates</a></dt><dd><dl><dt> <a href="apa.html#template1">Template 1: Application Manual</a></dt><dt> <a href="apas02.html">Template 2: Applet Manual For GNOME 1.x</a></dt><dt> <a href="apas03.html">Template 2: Applet Manual For GNOME 2.x</a></dt></dl></dd></dl></div><div class="sect1"><a name="intro"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="intro"></a>Introduction</h2></div></div><div class="sect2"><a name="gdp"></a><div class="titlepage"><div><h3 class="title"><a name="gdp"></a>The GNOME Documentation Project</h3></div></div><div class="sect3"><a name="goals"></a><div class="titlepage"><div><h4 class="title"><a name="goals"></a>Goals</h4></div></div><p>
+          The GNOME Documentation Project (GDP) aims to provide GNOME
+          and GNOME applications with a complete, intuitive, and clear
+          documentation system.  At the center of the GDP is the
+          GNOME Help Browser, which
+          presents a unified interface to GNOME-specific documentation
+          as well as other Linux documentation such as man pages and
+          texinfo documents. The GNOME Help System provides a
+          comprehensive view of documentation on a machine by
+          dynamically assembling the documentation of GNOME
+          applications and components which are installed. The GDP is
+          responsible for writing numerous GNOME-related documents,
+          both for developers and for users.  Developer documentation
+          includes <a href="http://developer.gnome.org/doc/API/" target="_top">APIs for the GNOME libraries</a>, <a href="http://developer.gnome.org/doc/whitepapers/" target="_top"><i>GNOME White
+          Papers</i></a>, GNOME developer <a href="http://developer.gnome.org/doc/tutorials/" target="_top">tutorials</a>, the <a href="http://developer.gnome.org/doc/FAQ/" target="_top"><i>GNOME Developer
+          FAQ</i></a>, the <a href="http://developer.gnome.org" target="_top">GNOME
+          Developer's Website</a>, and <i>GNOME
+          Handbook</i>'s, such as the one you are reading.
+          User documentation include the <a href="http://www.gnome.org/learn/" target="_top"><i>GNOME User's
+          Guide</i></a>, the <a href="http://www.gnome.org/learn/" target="_top"><i>GNOME FAQ</i></a>, and
+          GNOME application documentation.  Most GNOME applications
+          have their own manual in addition to context sensitive help.
+        </p></div><div class="sect3"><a name="joining"></a><div class="titlepage"><div><h4 class="title"><a name="joining"></a>Joining the GDP</h4></div></div><p>
+         Documenting GNOME and all the numerous GNOME applications is
+         a very large project.  The GDP is always looking for people
+         to help write, update, and edit documentation.  If you are
+         interested in joining the GDP team, you should join the
+         <a href="http://mail.gnome.org/mailman/listinfo/gnome-doc-list/" target="_top">
+         <i>gnome-doc-list mailing list</i> </a>.
+         Read <a href="indexs02.html" title="Getting Started Writing GNOME Documentation">the section called &#8220;Getting Started Writing GNOME Documentation&#8221;</a>, for help selecting a
+         project to work on.  Feel free to introduce yourself on the
+         gnome-doc-list mailing list and indicate which project you
+         intend to work on, or else ask for suggestions of important
+         documents which need work done. You may also want to join the
+         #docs IRC channel on irc.gnome.org to meet other GDP members
+         and discuss any questions you may have.  For a list of GDP
+         projects and members, see the
+         <a href="http://developer.gnome.org/projects/gdp" target="_top">
+           <i>GDP Website</i></a>.
+       </p></div><div class="sect3"><a name="collaborating"></a><div class="titlepage"><div><h4 class="title"><a name="collaborating"></a>Collaborating with the GDP</h4></div></div><p>
+        GNOME developers, packagers, and translators may not be
+        writing GNOME documentation but will want to understand how
+        the GNOME documentation system works and will need to
+        collaborate with GDP members.  This document should help to
+        outline the structure of how the GNOME documentation system
+        works.  Developers who do not write the documentation for
+        their applications are encouraged to find a GDP member to
+        write the documentation.  This is best done by sending an
+        email to the <a href="http://mail.gnome.org/mailman/listinfo/gnome-doc-list/" target="_top">
+        <i>gnome-doc-list mailing list</i> </a>
+        describing the application, where it can be downloaded from,
+        and that the developer(s) would like a GDP member to write
+        documentation for the application. The #docs IRC channel on
+        irc.gnome.org is another option for contacting GDP members.
+       </p></div></div><div class="sect2"><a name="notation"></a><div class="titlepage"><div><h3 class="title"><a name="notation"></a>Notation and Conventions</h3></div></div><p>
+        This Handbook uses the following notation:
+        <div class="informaltable" id="id2814391"><a name="id2814391"></a><table border="0"><colgroup><col><col></colgroup><tbody><tr><td><tt>/usr/bin</tt></td><td>
+                  Directory
+                </td></tr><tr><td><tt>foo.sgml</tt></td><td>
+                  Filename
+                </td></tr><tr><td><b>command</b></td><td>
+                  Command or text that would be typed.
+                </td></tr><tr><td><b><i><tt>replaceable</tt></i></b></td><td>
+                  "Variable" text that can be replaced.
+                </td></tr><tr><td><tt>Program or Doc Code</tt></td><td>Program or document code</td></tr></tbody></table></div>
+      </p></div><div class="sect2"><a name="about"></a><div class="titlepage"><div><h3 class="title"><a name="about"></a>About This Handbook</h3></div></div><p>
+       This Handbook is a guide for both writing documentation for
+       GNOME components and applications and for properly binding and
+       packaging documentation into GNOME applications.
+      </p><p>
+       This Handbook, like all GNOME documentation, was written in
+       DocBook(SGML) and is available in several formats including
+       SGML, HTML, PostScript, and PDF.  For the latest version, see
+       <a href="http://developer.gnome.org/projects/gdp/handbook.html" target="_top"> 
+       <i>Getting The GNOME Handbook of Writing Software
+       Documentation</i> </a>.  Alternately, one may
+       download it anonymously from GNOME CVS under <tt>gnome-docu/gdp</tt>.
+      </p></div></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"> </td><td width="20%" align="center"> </td><td width="40%" align="right"> <a href="indexs02.html">Next</a></td></tr><tr><td width="40%" align="left"> </td><td width="20%" align="center"> </td><td width="40%" align="right"> Getting Started Writing GNOME Documentation</td></tr></table></div></body></html>

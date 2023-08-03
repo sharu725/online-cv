@@ -1,0 +1,69 @@
+<html>
+<head bgcolor="#ffffff">
+</head>
+<body>
+<table border="0">
+<tr>
+<td bgcolor="#000000" colspan="2">
+<font color="#ffffff">
+personel
+record
+#0432
+</font>
+</td>
+</tr>
+<tr>
+<td bgcolor="#888888">
+First
+Name:
+</td>
+<td bgcolor="#dddddd">
+Charles
+</td>
+</tr>
+<tr>
+<td bgcolor="#888888">
+Last
+Name:
+</td>
+<td bgcolor="#dddddd">
+Dershowitz
+</td>
+</tr>
+<tr>
+<td bgcolor="#888888">
+Street:
+</td>
+<td bgcolor="#dddddd">
+33
+Any
+St.
+</td>
+</tr>
+<tr>
+<td bgcolor="#888888">
+City:
+</td>
+<td bgcolor="#dddddd">
+Anytown
+</td>
+</tr>
+<tr>
+<td bgcolor="#888888">
+State:
+</td>
+<td bgcolor="#dddddd">
+CA
+</td>
+</tr>
+<tr>
+<td bgcolor="#888888">
+Zip
+</td>
+<td bgcolor="#dddddd">
+22000
+</td>
+</tr>
+</table>
+</body>
+</html>

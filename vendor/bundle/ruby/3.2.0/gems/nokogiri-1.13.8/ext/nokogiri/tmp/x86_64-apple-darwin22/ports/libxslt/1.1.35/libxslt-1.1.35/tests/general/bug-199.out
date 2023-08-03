@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<root xmlns:a="a" ns="a(1)">
+    <foo xmlns:a="b" ns="b(2)">
+        <bar xmlns:a="c" ns="c(3)"/>
+    </foo>
+</root>

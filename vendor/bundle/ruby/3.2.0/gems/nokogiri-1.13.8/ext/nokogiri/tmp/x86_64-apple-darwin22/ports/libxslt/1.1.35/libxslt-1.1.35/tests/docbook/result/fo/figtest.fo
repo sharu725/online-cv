@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" font-family="Times Roman" font-size="10pt" text-align="justify">
+  <fo:layout-master-set>
+    <fo:simple-page-master master-name="blank" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="10pc" margin-right="1in">
+      <fo:region-body margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-blank" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-blank" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="simple1" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="10pc" margin-right="1in">
+      <fo:region-body margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before extent="12pt"/>
+      <fo:region-after extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="left1" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="10pc" margin-right="1in">
+      <fo:region-body margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-left" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-left" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="right1" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="1in" margin-right="10pc">
+      <fo:region-body margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-right" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-right" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="first1" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="1in" margin-right="1in">
+      <fo:region-body margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-first" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-first" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="simple2" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="10pc" margin-right="1in">
+      <fo:region-body column-count="1" margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before extent="12pt"/>
+      <fo:region-after extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="left2" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="10pc" margin-right="1in">
+      <fo:region-body column-count="1" margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-left" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-left" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="right2" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="1in" margin-right="10pc">
+      <fo:region-body column-count="1" margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-right" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-right" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="first2" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="1in" margin-right="1in">
+      <fo:region-body column-count="1" margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-first" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-first" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:page-sequence-master master-name="titlepage1">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="first1"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+    <fo:page-sequence-master master-name="oneside1">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="simple1"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+    <fo:page-sequence-master master-name="twoside1">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="blank" blank-or-not-blank="blank"/>
+        <fo:conditional-page-master-reference master-name="right1" odd-or-even="odd"/>
+        <fo:conditional-page-master-reference master-name="left1" odd-or-even="even"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+    <fo:page-sequence-master master-name="titlepage2">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="first2"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+    <fo:page-sequence-master master-name="oneside2">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="simple2"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+    <fo:page-sequence-master master-name="twoside2">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="blank" blank-or-not-blank="blank"/>
+        <fo:conditional-page-master-reference master-name="right2" odd-or-even="odd"/>
+        <fo:conditional-page-master-reference master-name="left2" odd-or-even="even"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+  </fo:layout-master-set>
+  <fo:page-sequence id="id2602101" hyphenate="true" master-name="oneside1" language="en">
+    <fo:static-content flow-name="xsl-region-after">
+      <fo:block text-align="center" font-size="10pt">
+        <fo:page-number/>
+      </fo:block>
+    </fo:static-content>
+    <fo:flow flow-name="xsl-region-body">
+      <fo:block>
+        <fo:block text-align="center" margin-left="-4pc" keep-with-next="always" font-size="24.8832pt" font-weight="bold" font-family="Helvetica">
+          <fo:block keep-with-next.within-column="always" hyphenate="false">Article Test Document Title</fo:block>
+        </fo:block>
+      </fo:block>
+      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+This is a &#x201C;short quote&#x201D;.
+This is a &#x201C;Quotation with a &#x2018;nested quotation
+containing a &#x201C;nested quotation and another &#x2018;nested
+quotation&#x2019;&#x201D;&#x2019;&#x201D;.
+</fo:block>
+      <fo:block id="testfig1" space-before.minimum="1em" space-before.optimum="1.5em" space-before.maximum="2em" space-after.minimum="1em" space-after.optimum="1.5em" space-after.maximum="2em" keep-with-previous.within-column="always">
+        <fo:block font-weight="bold" font-size="12pt" hyphenate="false" keep-with-next.within-column="always" space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">Test Figure</fo:block>
+        <fo:block wrap-option="no-wrap" text-align="start" white-space-collapse="false" linefeed-treatment="preserve" font-family="Courier" font-size="9pt" space-before.minimum="0.8em" space-before.optimum="1em" space-before.maximum="1.2em">This is a
+  ProgramListing
+</fo:block>
+      </fo:block>
+      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">This para contains an xref to a figure: <fo:basic-link internal-destination="testfig1">Figure 1. Test Figure</fo:basic-link>.
+</fo:block>
+      <fo:block id="testfig2" space-before.minimum="1em" space-before.optimum="1.5em" space-before.maximum="2em" space-after.minimum="1em" space-after.optimum="1.5em" space-after.maximum="2em" keep-with-previous.within-column="always">
+        <fo:block font-weight="bold" font-size="12pt" hyphenate="false" keep-with-next.within-column="always" space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">Test Figure2</fo:block>
+        <fo:block wrap-option="no-wrap" text-align="start" white-space-collapse="false" linefeed-treatment="preserve" font-family="Courier" font-size="9pt" space-before.minimum="0.8em" space-before.optimum="1em" space-before.maximum="1.2em">A Second
+  Test Figure
+</fo:block>
+      </fo:block>
+      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">This para contains an <fo:basic-link internal-destination="testfig2">link</fo:basic-link> to a
+figure. And an xref:  <fo:basic-link internal-destination="testfig2">Figure 2. Test Figure2</fo:basic-link>.
+</fo:block>
+      <fo:block id="testfig3" space-before.minimum="1em" space-before.optimum="1.5em" space-before.maximum="2em" space-after.minimum="1em" space-after.optimum="1.5em" space-after.maximum="2em" keep-with-previous.within-column="always">
+        <fo:block font-weight="bold" font-size="12pt" hyphenate="false" keep-with-next.within-column="always" space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">Test Figure</fo:block>
+        <fo:block wrap-option="no-wrap" text-align="start" white-space-collapse="false" linefeed-treatment="preserve" font-family="Courier" font-size="9pt" space-before.minimum="0.8em" space-before.optimum="1em" space-before.maximum="1.2em">This is a
+  ProgramListing
+</fo:block>
+      </fo:block>
+      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">This para contains an xref to a figure: <fo:basic-link internal-destination="testfig3">Figure 3. Test Figure</fo:basic-link>.
+</fo:block>
+    </fo:flow>
+  </fo:page-sequence>
+</fo:root>

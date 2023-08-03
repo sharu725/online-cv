@@ -1,0 +1,326 @@
+<!-- This file describes all the exported entry points from libxslt
+     library, grouped by release with the first release being 1.0.11
+     Add new exported entry points at the end, this will be used to
+     generate libxslt.syms the definition of exported symbols from
+     shared libraries
+-->
+<symbols>
+  <release version="1.0.11">
+    <symbol file="attributes">xsltApplyAttributeSet</symbol>
+    <symbol file="attributes">xsltFreeAttributeSetsHashes</symbol>
+    <symbol file="attributes">xsltParseStylesheetAttributeSet</symbol>
+    <symbol file="documents">xsltFindDocument</symbol>
+    <symbol file="documents">xsltFreeDocuments</symbol>
+    <symbol file="documents">xsltFreeStyleDocuments</symbol>
+    <symbol file="documents">xsltLoadDocument</symbol>
+    <symbol file="documents">xsltLoadStyleDocument</symbol>
+    <symbol file="documents">xsltNewDocument</symbol>
+    <symbol file="documents">xsltNewStyleDocument</symbol>
+    <symbol file="extensions">xsltCheckExtPrefix</symbol>
+    <symbol file="extensions">xsltExtElementLookup</symbol>
+    <symbol file="extensions">xsltExtModuleElementLookup</symbol>
+    <symbol file="extensions">xsltExtModuleFunctionLookup</symbol>
+    <symbol file="extensions">xsltExtModuleTopLevelLookup</symbol>
+    <symbol file="extensions">xsltFreeCtxtExts</symbol>
+    <symbol file="extensions">xsltFreeExts</symbol>
+    <symbol file="extensions">xsltGetExtData</symbol>
+    <symbol file="extensions">xsltInitCtxtExts</symbol>
+    <symbol file="extensions">xsltInitElemPreComp</symbol>
+    <symbol file="extensions">xsltNewElemPreComp</symbol>
+    <symbol file="extensions">xsltPreComputeExtModuleElement</symbol>
+    <symbol file="extensions">xsltRegisterExtElement</symbol>
+    <symbol file="extensions">xsltRegisterExtFunction</symbol>
+    <symbol file="extensions">xsltRegisterExtModuleElement</symbol>
+    <symbol file="extensions">xsltRegisterExtModuleFull</symbol>
+    <symbol file="extensions">xsltRegisterExtModuleFunction</symbol>
+    <symbol file="extensions">xsltRegisterExtModule</symbol>
+    <symbol file="extensions">xsltRegisterExtModuleTopLevel</symbol>
+    <symbol file="extensions">xsltRegisterExtPrefix</symbol>
+    <symbol file="extensions">xsltRegisterTestModule</symbol>
+    <symbol file="extensions">xsltShutdownCtxtExts</symbol>
+    <symbol file="extensions">xsltShutdownExts</symbol>
+    <symbol file="extensions">xsltStyleGetExtData</symbol>
+    <symbol file="extensions">xsltUnregisterExtModuleElement</symbol>
+    <symbol file="extensions">xsltUnregisterExtModuleFunction</symbol>
+    <symbol file="extensions">xsltUnregisterExtModule</symbol>
+    <symbol file="extensions">xsltUnregisterExtModuleTopLevel</symbol>
+    <symbol file="extra">xsltDebug</symbol>
+    <symbol file="extra">xsltFunctionNodeSet</symbol>
+    <symbol file="extra">xsltRegisterAllExtras</symbol>
+    <symbol file="extra">xsltRegisterExtras</symbol>
+    <symbol file="functions">xsltDocumentFunction</symbol>
+    <symbol file="functions">xsltElementAvailableFunction</symbol>
+    <symbol file="functions">xsltFormatNumberFunction</symbol>
+    <symbol file="functions">xsltFunctionAvailableFunction</symbol>
+    <symbol file="functions">xsltGenerateIdFunction</symbol>
+    <symbol file="functions">xsltKeyFunction</symbol>
+    <symbol file="functions">xsltRegisterAllFunctions</symbol>
+    <symbol file="functions">xsltSystemPropertyFunction</symbol>
+    <symbol file="functions">xsltUnparsedEntityURIFunction</symbol>
+    <symbol file="functions">xsltXPathFunctionLookup</symbol>
+    <symbol file="imports">xsltFindElemSpaceHandling</symbol>
+    <symbol file="imports">xsltFindTemplate</symbol>
+    <symbol file="imports">xsltNeedElemSpaceHandling</symbol>
+    <symbol file="imports">xsltNextImport</symbol>
+    <symbol file="imports">xsltParseStylesheetImport</symbol>
+    <symbol file="imports">xsltParseStylesheetInclude</symbol>
+    <symbol file="keys">xsltAddKey</symbol>
+    <symbol file="keys">xsltFreeDocumentKeys</symbol>
+    <symbol file="keys">xsltFreeKeys</symbol>
+    <symbol file="keys">xsltGetKey</symbol>
+    <symbol file="keys">xsltInitCtxtKeys</symbol>
+    <symbol file="namespaces">xsltCopyNamespaceList</symbol>
+    <symbol file="namespaces">xsltCopyNamespace</symbol>
+    <symbol file="namespaces">xsltFreeNamespaceAliasHashes</symbol>
+    <symbol file="namespaces">xsltGetNamespace</symbol>
+    <symbol file="namespaces">xsltGetSpecialNamespace</symbol>
+    <symbol file="namespaces">xsltNamespaceAlias</symbol>
+    <symbol file="pattern">xsltAddTemplate</symbol>
+    <symbol file="pattern">xsltCleanupTemplates</symbol>
+    <symbol file="pattern">xsltCompilePattern</symbol>
+    <symbol file="pattern">xsltFreeCompMatchList</symbol>
+    <symbol file="pattern">xsltFreeTemplateHashes</symbol>
+    <symbol file="pattern">xsltGetTemplate</symbol>
+    <symbol removed="1.0.12" file="pattern">xsltMatchPattern</symbol>
+    <symbol file="pattern">xsltTestCompMatchList</symbol>
+    <symbol file="preproc">xsltDocumentComp</symbol>
+    <symbol file="preproc">xsltFreeStylePreComps</symbol>
+    <symbol file="preproc">xsltStylePreCompute</symbol>
+    <symbol file="templates">xsltAttrListTemplateProcess</symbol>
+    <symbol file="templates">xsltAttrTemplateProcess</symbol>
+    <symbol file="templates">xsltAttrTemplateValueProcess</symbol>
+    <symbol file="templates">xsltEvalAttrValueTemplate</symbol>
+    <symbol file="templates">xsltEvalStaticAttrValueTemplate</symbol>
+    <symbol file="templates">xsltEvalTemplateString</symbol>
+    <symbol file="templates">xsltEvalXPathPredicate</symbol>
+    <symbol file="templates">xsltEvalXPathString</symbol>
+    <symbol file="templates">xsltTemplateProcess</symbol>
+    <symbol file="transform">xslHandleDebugger</symbol>
+    <symbol file="transform">xsltApplyImports</symbol>
+    <symbol file="transform">xsltApplyOneTemplate</symbol>
+    <symbol file="transform">xsltApplyStripSpaces</symbol>
+    <symbol file="transform">xsltApplyStylesheet</symbol>
+    <symbol file="transform">xsltApplyStylesheetUser</symbol>
+    <symbol file="transform">xsltApplyTemplates</symbol>
+    <symbol file="transform">xsltAttribute</symbol>
+    <symbol file="transform">xsltCallTemplate</symbol>
+    <symbol file="transform">xsltChoose</symbol>
+    <symbol file="transform">xsltComment</symbol>
+    <symbol file="transform">xsltCopyOf</symbol>
+    <symbol file="transform">xsltCopy</symbol>
+    <symbol file="transform">xsltDocumentElem</symbol>
+    <symbol file="transform">xsltElement</symbol>
+    <symbol file="transform">xsltForEach</symbol>
+    <symbol file="transform">xsltFreeTransformContext</symbol>
+    <symbol file="transform">xsltGetXIncludeDefault</symbol>
+    <symbol file="transform">xsltIf</symbol>
+    <symbol file="transform">xsltNewTransformContext</symbol>
+    <symbol file="transform">xsltNumber</symbol>
+    <symbol file="transform">xsltProcessingInstruction</symbol>
+    <symbol file="transform">xsltProfileStylesheet</symbol>
+    <symbol file="transform">xsltRegisterAllElement</symbol>
+    <symbol file="transform">xsltRunStylesheet</symbol>
+    <symbol file="transform">xsltSetXIncludeDefault</symbol>
+    <symbol file="transform">xsltSort</symbol>
+    <symbol file="transform">xsltText</symbol>
+    <symbol file="transform">xsltValueOf</symbol>
+    <symbol file="variables">xsltAddStackElemList</symbol>
+    <symbol file="variables">xsltEvalGlobalVariables</symbol>
+    <symbol file="variables">xsltEvalOneUserParam</symbol>
+    <symbol file="variables">xsltEvalUserParams</symbol>
+    <symbol file="variables">xsltFreeGlobalVariables</symbol>
+    <symbol file="variables">xsltParseGlobalParam</symbol>
+    <symbol file="variables">xsltParseGlobalVariable</symbol>
+    <symbol file="variables">xsltParseStylesheetCallerParam</symbol>
+    <symbol file="variables">xsltParseStylesheetParam</symbol>
+    <symbol file="variables">xsltParseStylesheetVariable</symbol>
+    <symbol file="variables">xsltQuoteOneUserParam</symbol>
+    <symbol file="variables">xsltQuoteUserParams</symbol>
+    <symbol file="variables">xsltVariableLookup</symbol>
+    <symbol file="variables">xsltXPathVariableLookup</symbol>
+    <symbol file="xsltInternals">xsltDecimalFormatGetByName</symbol>
+    <symbol file="xsltInternals">xsltFormatNumberConversion</symbol>
+    <symbol file="xsltInternals">xsltFreeStackElemList</symbol>
+    <symbol file="xsltInternals">xsltFreeStylesheet</symbol>
+    <symbol file="xsltInternals">xsltIsBlank</symbol>
+    <symbol file="xsltInternals">xsltLoadStylesheetPI</symbol>
+    <symbol file="xsltInternals">xsltNewStylesheet</symbol>
+    <symbol file="xsltInternals">xsltNumberFormat</symbol>
+    <symbol file="xsltInternals">xsltParseStylesheetDoc</symbol>
+    <symbol file="xsltInternals">xsltParseStylesheetFile</symbol>
+    <symbol file="xsltInternals">xsltParseStylesheetOutput</symbol>
+    <symbol file="xsltInternals">xsltParseStylesheetProcess</symbol>
+    <symbol file="xsltInternals">xsltParseTemplateContent</symbol>
+    <symbol file="xsltutils">xslAddCall</symbol>
+    <symbol file="xsltutils">xslDropCall</symbol>
+    <symbol file="xsltutils">xsltCalibrateAdjust</symbol>
+    <symbol file="xsltutils">xsltDocumentSortFunction</symbol>
+    <symbol file="xsltutils">xsltDoSortFunction</symbol>
+    <symbol file="xsltutils">xsltGetNsProp</symbol>
+    <symbol file="xsltutils">xsltGetQNameURI</symbol>
+    <symbol file="xsltutils">xsltMessage</symbol>
+    <symbol file="xsltutils">xsltPrintErrorContext</symbol>
+    <symbol file="xsltutils">xsltSaveProfiling</symbol>
+    <symbol file="xsltutils">xsltSaveResultToFd</symbol>
+    <symbol file="xsltutils">xsltSaveResultToFilename</symbol>
+    <symbol file="xsltutils">xsltSaveResultToFile</symbol>
+    <symbol file="xsltutils">xsltSaveResultTo</symbol>
+    <symbol file="xsltutils">xsltSetDebuggerCallbacks</symbol>
+    <symbol file="xsltutils">xsltSetGenericDebugFunc</symbol>
+    <symbol file="xsltutils">xsltSetGenericErrorFunc</symbol>
+    <symbol file="xsltutils">xsltTimestamp</symbol>
+    <symbol file="xslt">xsltCleanupGlobals</symbol>
+  </release>
+  <release version="1.0.12">
+    <symbol file="xsltInternals">xsltAllocateExtraCtxt</symbol>
+    <symbol file="xsltInternals">xsltAllocateExtra</symbol>
+  </release>
+  <release version="1.0.13">
+    <symbol file="extensions">xsltExtModuleElementPreComputeLookup</symbol>
+    <symbol file="extensions">xsltXPathGetTransformContext</symbol>
+  </release>
+  <release version="1.0.16">
+    <symbol file="attributes">xsltResolveStylesheetAttributeSet</symbol>
+  </release>
+  <release version="1.0.17">
+    <symbol file="transform">xsltRunStylesheetUser</symbol>
+  </release>
+  <release version="1.0.18">
+    <symbol file="extensions">xsltDebugDumpExtensions</symbol>
+    <symbol file="xsltutils">xsltSaveResultToString</symbol>
+  </release>
+  <release version="1.0.22">
+    <symbol file="templates">xsltAttrTemplateValueProcessNode</symbol>
+    <symbol file="security">xsltCheckRead</symbol>
+    <symbol file="security">xsltCheckWrite</symbol>
+    <symbol file="templates">xsltEvalXPathStringNs</symbol>
+    <symbol file="security">xsltFreeSecurityPrefs</symbol>
+    <symbol file="security">xsltGetDefaultSecurityPrefs</symbol>
+    <symbol file="security">xsltGetSecurityPrefs</symbol>
+    <symbol file="security">xsltNewSecurityPrefs</symbol>
+    <symbol file="security">xsltSecurityAllow</symbol>
+    <symbol file="security">xsltSecurityForbid</symbol>
+    <symbol file="security">xsltSetCtxtSecurityPrefs</symbol>
+    <symbol file="security">xsltSetDefaultSecurityPrefs</symbol>
+    <symbol file="security">xsltSetSecurityPrefs</symbol>
+    <symbol file="xsltutils">xsltSetTransformErrorFunc</symbol>
+    <symbol file="xsltutils">xsltTransformError</symbol>
+  </release>
+  <release version="1.0.24">
+    <symbol file="xsltutils">xslDebugStatus</symbol>
+    <symbol file="xsltutils">xsltComputeSortResult</symbol>
+    <symbol file="xsltutils">xsltDefaultSortFunction</symbol>
+    <symbol file="xslt">xsltEngineVersion</symbol>
+    <symbol file="preproc">xsltExtMarker</symbol>
+    <symbol file="xsltutils">xsltGenericDebugContext</symbol>
+    <symbol file="xsltutils">xsltGenericDebug</symbol>
+    <symbol file="xsltutils">xsltGenericErrorContext</symbol>
+    <symbol file="xsltutils">xsltGenericError</symbol>
+    <symbol file="xsltutils">xsltGetProfileInformation</symbol>
+    <symbol file="xsltutils">xsltGetUTF8Char</symbol>
+    <symbol file="xslt">xsltLibxmlVersion</symbol>
+    <symbol file="xslt">xsltLibxsltVersion</symbol>
+    <symbol file="xslt">xsltMaxDepth</symbol>
+    <!-- xsltMaxVars was added in 1.1.27 with a wrong version. -->
+    <symbol file="xslt">xsltMaxVars</symbol>
+    <symbol file="xsltInternals">xsltParseStylesheetImportedDoc</symbol>
+    <symbol file="xsltutils">xsltSetCtxtSortFunc</symbol>
+    <symbol file="xsltutils">xsltSetSortFunc</symbol>
+  </release>
+  <release version="1.0.30">
+    <symbol file="xsltInternals">xsltCreateRVT</symbol>
+    <symbol file="xsltInternals">xsltFreeRVTs</symbol>
+    <symbol file="xsltInternals">xsltRegisterPersistRVT</symbol>
+    <symbol file="xsltInternals">xsltRegisterTmpRVT</symbol>
+  </release>
+  <release version="1.0.32">
+    <symbol file="transform">xsltCopyTextString</symbol>
+    <symbol file="extensions">xsltGetExtInfo</symbol>
+  </release>
+  <release version="1.0.33">
+    <symbol file="pattern">xsltNormalizeCompSteps</symbol>
+  </release>
+  <release version="1.1.0">
+    <symbol file="xsltutils">xsltGetDebuggerStatus</symbol>
+    <symbol file="xsltutils">xsltSetDebuggerStatus</symbol>
+  </release>
+  <release version="1.1.1">
+    <symbol file="xsltutils">xsltDebugGetDefaultTrace</symbol>
+    <symbol file="xsltutils">xsltDebugSetDefaultTrace</symbol>
+  </release>
+  <release version="1.1.2">
+    <symbol file="xsltutils">xsltSetCtxtParseOptions</symbol>
+  </release>
+  <release version="1.1.3">
+    <symbol file="xsltInternals">xsltCompileAttr</symbol>
+    <symbol file="xsltInternals">xsltEvalAVT</symbol>
+    <symbol file="xsltInternals">xsltFreeAVTList</symbol>
+    <symbol file="xsltutils">xsltGetCNsProp</symbol>
+    <symbol file="xsltutils">xsltSplitQName</symbol>
+    <symbol file="xsltutils">xsltXPathCompile</symbol>
+  </release>
+  <release version="1.1.5">
+    <symbol file="xsltutils">xsltGetQNameURI2</symbol>
+  </release>
+  <release version="1.1.7">
+    <symbol file="namespaces">xsltGetPlainNamespace</symbol>
+  </release>
+  <release version="1.1.9">
+    <symbol file="documents">xsltDocDefaultLoader</symbol>
+    <symbol file="documents">xsltSetLoaderFunc</symbol>
+  </release>
+  <release version="1.1.18">
+    <symbol switch="REFACTORED" file="xsltInternals">xsltConstNamespaceNameXSLT</symbol>
+    <symbol file="xsltInternals">xsltExtensionInstructionResultFinalize</symbol>
+    <symbol file="xsltInternals">xsltExtensionInstructionResultRegister</symbol>
+    <symbol file="xsltInternals">xsltInitCtxtKey</symbol>
+    <symbol file="xslt">xsltInit</symbol>
+    <symbol switch="REFACTORED" file="xsltInternals">xsltParseAnyXSLTElem</symbol>
+    <symbol switch="REFACTORED" file="xsltInternals">xsltParseSequenceConstructor</symbol>
+    <symbol switch="REFACTORED" file="xsltInternals">xsltPointerListAddSize</symbol>
+    <symbol switch="REFACTORED" file="xsltInternals">xsltPointerListClear</symbol>
+    <symbol switch="REFACTORED" file="xsltInternals">xsltPointerListCreate</symbol>
+    <symbol switch="REFACTORED" file="xsltInternals">xsltPointerListFree</symbol>
+    <symbol file="xsltInternals">xsltRegisterLocalRVT</symbol>
+    <symbol file="xsltInternals">xsltReleaseRVT</symbol>
+    <symbol switch="REFACTORED" file="xsltInternals">xsltRestoreDocumentNamespaces</symbol>
+    <symbol switch="REFACTORED" file="extensions">xsltStyleStylesheetLevelGetExtData</symbol>
+    <symbol removed="1.1.28" file="xsltInternals">xsltTransStorageAdd</symbol>
+    <symbol removed="1.1.28" file="xsltInternals">xsltTransStorageRemove</symbol>
+    <symbol file="xsltInternals">xsltUninit</symbol>
+    <symbol switch="REFACTORED" file="xsltInternals">xsltXSLTAttrMarker</symbol>
+  </release>
+  <release version="1.1.20">
+    <symbol file="transform">xsltLocalVariablePop</symbol>
+    <symbol file="transform">xsltLocalVariablePush</symbol>
+  </release>
+  <release version="1.1.23">
+    <symbol file="xsltInternals">xsltInitAllDocKeys</symbol>
+  </release>
+  <release version="1.1.24">
+    <symbol file="extensions">xsltCheckExtURI</symbol>
+  </release>
+  <release version="1.1.25">
+    <symbol file="xsltlocale">xsltFreeLocale</symbol>
+    <symbol file="xsltlocale">xsltLocaleStrcmp</symbol>
+    <symbol file="xsltlocale">xsltNewLocale</symbol>
+    <symbol file="xsltlocale">xsltStrxfrm</symbol>
+    <symbol file="extensions">xsltInitGlobals</symbol>
+  </release>
+  <release version="1.1.26">
+    <!-- lxml was using it even if not pusblished -->
+    <symbol file="transform">xsltProcessOneNode</symbol>
+  </release>
+  <release version="1.1.27">
+    <symbol file="xsltlocale">xsltFreeLocales</symbol>
+    <symbol file="xsltutils">xsltXPathCompileFlags</symbol>
+  </release>
+  <release version="1.1.30">
+    <symbol file="xsltInternals">xsltFlagRVTs</symbol>
+    <symbol file="xsltInternals">xsltDecimalFormatGetByQName</symbol>
+  </release>
+  <release version="1.1.34">
+    <symbol file="xsltInternals">xsltParseStylesheetUser</symbol>
+    <symbol file="pattern">xsltCompMatchClearCache</symbol>
+  </release>
+</symbols>

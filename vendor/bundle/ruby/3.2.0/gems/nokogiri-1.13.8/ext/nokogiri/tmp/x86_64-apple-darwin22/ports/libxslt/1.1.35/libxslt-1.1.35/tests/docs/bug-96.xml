@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<operators>
+  <compare><![CDATA[X < Y]]></compare>
+  <compare>X &lt; Y</compare>
+</operators>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+
+Func f1 at top level
+Func f2 in module 1a
+Func f3 in module 1b

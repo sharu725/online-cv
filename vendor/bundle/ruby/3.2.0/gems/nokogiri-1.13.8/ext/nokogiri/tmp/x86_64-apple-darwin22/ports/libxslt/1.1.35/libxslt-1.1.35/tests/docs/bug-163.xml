@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<!DOCTYPE my-root [
+    <!ATTLIST my-root myns:id ID #IMPLIED>
+]>
+<my-root xmlns:myns="uri" myns:id="indexme" some-attr="findme"/>

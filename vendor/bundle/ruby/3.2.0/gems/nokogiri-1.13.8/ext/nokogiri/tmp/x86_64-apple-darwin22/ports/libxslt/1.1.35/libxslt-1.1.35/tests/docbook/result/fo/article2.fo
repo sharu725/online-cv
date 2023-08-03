@@ -1,0 +1,265 @@
+<?xml version="1.0"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" font-family="Times Roman" font-size="10pt" text-align="justify">
+  <fo:layout-master-set>
+    <fo:simple-page-master master-name="blank" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="10pc" margin-right="1in">
+      <fo:region-body margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-blank" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-blank" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="simple1" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="10pc" margin-right="1in">
+      <fo:region-body margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before extent="12pt"/>
+      <fo:region-after extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="left1" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="10pc" margin-right="1in">
+      <fo:region-body margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-left" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-left" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="right1" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="1in" margin-right="10pc">
+      <fo:region-body margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-right" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-right" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="first1" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="1in" margin-right="1in">
+      <fo:region-body margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-first" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-first" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="simple2" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="10pc" margin-right="1in">
+      <fo:region-body column-count="1" margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before extent="12pt"/>
+      <fo:region-after extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="left2" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="10pc" margin-right="1in">
+      <fo:region-body column-count="1" margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-left" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-left" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="right2" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="1in" margin-right="10pc">
+      <fo:region-body column-count="1" margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-right" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-right" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="first2" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="1in" margin-right="1in">
+      <fo:region-body column-count="1" margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-first" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-first" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:page-sequence-master master-name="titlepage1">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="first1"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+    <fo:page-sequence-master master-name="oneside1">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="simple1"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+    <fo:page-sequence-master master-name="twoside1">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="blank" blank-or-not-blank="blank"/>
+        <fo:conditional-page-master-reference master-name="right1" odd-or-even="odd"/>
+        <fo:conditional-page-master-reference master-name="left1" odd-or-even="even"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+    <fo:page-sequence-master master-name="titlepage2">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="first2"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+    <fo:page-sequence-master master-name="oneside2">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="simple2"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+    <fo:page-sequence-master master-name="twoside2">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="blank" blank-or-not-blank="blank"/>
+        <fo:conditional-page-master-reference master-name="right2" odd-or-even="odd"/>
+        <fo:conditional-page-master-reference master-name="left2" odd-or-even="even"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+  </fo:layout-master-set>
+  <fo:page-sequence id="id2602101" hyphenate="true" master-name="oneside1" language="en">
+    <fo:static-content flow-name="xsl-region-after">
+      <fo:block text-align="center" font-size="10pt">
+        <fo:page-number/>
+      </fo:block>
+    </fo:static-content>
+    <fo:flow flow-name="xsl-region-body">
+      <fo:block>
+        <fo:block text-align="center" margin-left="-4pc" keep-with-next="always" font-size="24.8832pt" font-weight="bold" font-family="Helvetica">
+          <fo:block keep-with-next.within-column="always" hyphenate="false">Article Test Document Title</fo:block>
+        </fo:block>
+        <fo:block>Norman Walsh</fo:block>
+        <fo:block>Copyright &#xA9; 1999 Norman Walsh</fo:block>
+        <fo:block>Apr. 26, 1999</fo:block>
+        <fo:block>
+          <fo:block>
+            <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">This article is just a test. This <fo:inline font-style="italic">article</fo:inline>
+is just a test. 
+This <fo:inline font-weight="bold" font-family="Courier">article</fo:inline> is just a test.
+This <fo:inline font-family="Courier">&lt;ndw@nwalsh.com&gt;</fo:inline> is just a test. 
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+</fo:block>
+          </fo:block>
+        </fo:block>
+      </fo:block>
+      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">This article is just a test. This <fo:inline font-style="italic">article</fo:inline>
+is just a test. 
+This <fo:inline font-weight="bold" font-family="Courier">article</fo:inline> is just a test.
+This <fo:inline font-family="Courier">&lt;ndw@nwalsh.com&gt;</fo:inline> is just a test. 
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+</fo:block>
+      <fo:table-and-caption id="id2778451" keep-together.within-column="always" space-before.minimum="0.8em" space-before.optimum="1em" space-before.maximum="1.2em" space-after.minimum="0.8em" space-after.optimum="1em" space-after.maximum="1.2em">
+        <fo:table-caption>
+          <fo:block font-weight="bold" space-after.minimum="0.2em" space-after.optimum="0.5em" space-after.maximum="0.8em" keep-with-next.within-column="always" hyphenate="false">This is a test table</fo:block>
+        </fo:table-caption>
+        <fo:table table-layout="fixed">
+          <fo:table-column column-number="1"/>
+          <fo:table-column column-number="2" column-width="proportional-column-width(2)"/>
+          <fo:table-column column-number="3"/>
+          <fo:table-header>
+            <fo:table-row>
+              <fo:table-cell>
+                <fo:block>Head1</fo:block>
+              </fo:table-cell>
+              <fo:table-cell>
+                <fo:block>Head2</fo:block>
+              </fo:table-cell>
+              <fo:table-cell>
+                <fo:block>Head3</fo:block>
+              </fo:table-cell>
+            </fo:table-row>
+          </fo:table-header>
+          <fo:table-body>
+            <fo:table-row>
+              <fo:table-cell>
+                <fo:block>Entry1</fo:block>
+              </fo:table-cell>
+              <fo:table-cell>
+                <fo:block>Entry2</fo:block>
+              </fo:table-cell>
+              <fo:table-cell>
+                <fo:block>Entry3</fo:block>
+              </fo:table-cell>
+            </fo:table-row>
+            <fo:table-row>
+              <fo:table-cell>
+                <fo:block>Entry1</fo:block>
+              </fo:table-cell>
+              <fo:table-cell number-columns-spanned="2">
+                <fo:block>span 2-3</fo:block>
+              </fo:table-cell>
+            </fo:table-row>
+            <fo:table-row>
+              <fo:table-cell>
+                <fo:block>Entry1</fo:block>
+              </fo:table-cell>
+              <fo:table-cell number-rows-spanned="3">
+                <fo:block>morerows2</fo:block>
+              </fo:table-cell>
+              <fo:table-cell>
+                <fo:block>Entry3</fo:block>
+              </fo:table-cell>
+            </fo:table-row>
+            <fo:table-row>
+              <fo:table-cell>
+                <fo:block>Entry1</fo:block>
+              </fo:table-cell>
+              <fo:table-cell>
+                <fo:block>Entry3</fo:block>
+              </fo:table-cell>
+            </fo:table-row>
+            <fo:table-row>
+              <fo:table-cell>
+                <fo:block>Entry1</fo:block>
+              </fo:table-cell>
+              <fo:table-cell>
+                <fo:block>Entry3</fo:block>
+              </fo:table-cell>
+            </fo:table-row>
+            <fo:table-row>
+              <fo:table-cell number-columns-spanned="NaN">
+                <fo:block>fullspan</fo:block>
+              </fo:table-cell>
+            </fo:table-row>
+            <fo:table-row>
+              <fo:table-cell>
+                <fo:block>Entry1</fo:block>
+              </fo:table-cell>
+              <fo:table-cell>
+                <fo:block>Entry2</fo:block>
+              </fo:table-cell>
+              <fo:table-cell>
+                <fo:block>Entry3</fo:block>
+              </fo:table-cell>
+            </fo:table-row>
+            <fo:table-row>
+              <fo:table-cell>
+                <fo:block>Entry1</fo:block>
+              </fo:table-cell>
+              <fo:table-cell>
+                <fo:block>Entry2</fo:block>
+              </fo:table-cell>
+              <fo:table-cell>
+                <fo:block>Entry3</fo:block>
+              </fo:table-cell>
+            </fo:table-row>
+            <fo:table-row>
+              <fo:table-cell>
+                <fo:block>Entry1</fo:block>
+              </fo:table-cell>
+              <fo:table-cell>
+                <fo:block>Entry2</fo:block>
+              </fo:table-cell>
+              <fo:table-cell>
+                <fo:block>Entry3</fo:block>
+              </fo:table-cell>
+            </fo:table-row>
+          </fo:table-body>
+        </fo:table>
+      </fo:table-and-caption>
+      <fo:list-block id="id2778803" provisional-distance-between-starts="1in" provisional-label-separation="0.25in" space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+        <fo:list-item id="id2778809" space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+          <fo:list-item-label end-indent="label-end()">
+            <fo:block>
+              <fo:inline>term</fo:inline>
+            </fo:block>
+          </fo:list-item-label>
+          <fo:list-item-body start-indent="body-start()">
+            <fo:block>some text</fo:block>
+          </fo:list-item-body>
+        </fo:list-item>
+        <fo:list-item id="id2778838" space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+          <fo:list-item-label end-indent="label-end()">
+            <fo:block>
+              <fo:inline>term2a, </fo:inline>
+              <fo:inline>term2b</fo:inline>
+            </fo:block>
+          </fo:list-item-label>
+          <fo:list-item-body start-indent="body-start()">
+            <fo:block>some text</fo:block>
+          </fo:list-item-body>
+        </fo:list-item>
+        <fo:list-item id="id2778872" space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+          <fo:list-item-label end-indent="label-end()">
+            <fo:block>
+              <fo:inline>term3</fo:inline>
+            </fo:block>
+          </fo:list-item-label>
+          <fo:list-item-body start-indent="body-start()">
+            <fo:block>some text</fo:block>
+            <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">some text</fo:block>
+            <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">some text</fo:block>
+          </fo:list-item-body>
+        </fo:list-item>
+      </fo:list-block>
+    </fo:flow>
+  </fo:page-sequence>
+</fo:root>

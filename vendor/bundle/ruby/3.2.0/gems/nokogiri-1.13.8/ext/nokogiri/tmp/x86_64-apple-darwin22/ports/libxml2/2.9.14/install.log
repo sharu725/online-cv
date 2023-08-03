@@ -1,0 +1,78 @@
+/Library/Developer/CommandLineTools/usr/bin/make  install-recursive
+Making install in include
+Making install in libxml
+make[4]: Nothing to be done for `install-exec-am'.
+ ../.././install-sh -c -d '/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2/libxml'
+ /usr/bin/install -c -m 644 SAX.h entities.h encoding.h parser.h parserInternals.h xmlerror.h HTMLparser.h HTMLtree.h debugXML.h tree.h list.h hash.h xpath.h xpathInternals.h xpointer.h xinclude.h xmlIO.h xmlmemory.h nanohttp.h nanoftp.h uri.h valid.h xlink.h xmlversion.h DOCBparser.h catalog.h threads.h globals.h c14n.h xmlautomata.h xmlregexp.h xmlmodule.h xmlschemas.h schemasInternals.h xmlschemastypes.h xmlstring.h xmlunicode.h xmlreader.h relaxng.h dict.h '/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2/libxml'
+ /usr/bin/install -c -m 644 SAX2.h xmlexports.h xmlwriter.h chvalid.h pattern.h xmlsave.h schematron.h '/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2/libxml'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+Making install in .
+ ./install-sh -c -d '/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libxml2.la '/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib'
+libtool: install: /usr/bin/install -c .libs/libxml2.lai /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.la
+libtool: install: /usr/bin/install -c .libs/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a
+libtool: install: chmod 644 /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a
+libtool: install: /usr/bin/ranlib /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a
+ ./install-sh -c -d '/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c xmllint xmlcatalog '/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/bin'
+libtool: install: /usr/bin/install -c xmllint /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/bin/xmllint
+libtool: install: /usr/bin/install -c xmlcatalog /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/bin/xmlcatalog
+ ./install-sh -c -d '/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/bin'
+ /usr/bin/install -c xml2-config '/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/bin'
+ ./install-sh -c -d '/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib'
+ /usr/bin/install -c -m 644 xml2Conf.sh '/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib'
+ ./install-sh -c -d '/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/cmake/libxml2'
+ /usr/bin/install -c -m 644 libxml2-config.cmake '/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/cmake/libxml2'
+./install-sh -c -d /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/doc/libxml2
+/usr/bin/install -c -m 0644 ./Copyright /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/doc/libxml2
+./install-sh -c -d /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/doc/libxml2/examples
+/usr/bin/install -c -m 0644 ./xmllint.c /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/doc/libxml2/examples
+/usr/bin/install -c -m 0644 ./testSAX.c /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/doc/libxml2/examples
+/usr/bin/install -c -m 0644 ./testHTML.c /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/doc/libxml2/examples
+/usr/bin/install -c -m 0644 ./testXPath.c /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/doc/libxml2/examples
+ ./install-sh -c -d '/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/aclocal'
+ /usr/bin/install -c -m 644 libxml.m4 '/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/aclocal'
+ ./install-sh -c -d '/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/man/man1'
+ /usr/bin/install -c -m 644 xml2-config.1 '/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/man/man1'
+ ./install-sh -c -d '/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/man/man3'
+ /usr/bin/install -c -m 644 libxml.3 '/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/man/man3'
+ ./install-sh -c -d '/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libxml-2.0.pc '/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/pkgconfig'
+Making install in doc
+Making install in .
+make[4]: Nothing to be done for `install-exec-am'.
+.././install-sh -c -d /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/doc/libxml2/html
+/usr/bin/install -c -m 0644 ./xml.html ./encoding.html ./FAQ.html ./structure.gif ./DOM.gif ./smallfootonly.gif ./redhat.gif ./libxml.gif ./w3c.png ./Libxml2-Logo-180x168.gif ./Libxml2-Logo-90x34.gif /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/doc/libxml2/html
+.././install-sh -c -d /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/doc/libxml2/html/html
+/usr/bin/install -c -m 0644 ./html/*.html /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/doc/libxml2/html/html
+/usr/bin/install -c -m 0644 ./html/*.png /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/doc/libxml2/html/html
+.././install-sh -c -d /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/doc/libxml2/html/tutorial
+/usr/bin/install -c -m 0644 ./tutorial/*.* \
+		/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/doc/libxml2/html/tutorial
+.././install-sh -c -d /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/doc/libxml2/html/tutorial/images
+/usr/bin/install -c -m 0644 ./tutorial/images/*.* \
+		/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/doc/libxml2/html/tutorial/images
+.././install-sh -c -d /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/doc/libxml2/html/tutorial/images/callouts
+/usr/bin/install -c -m 0644 ./tutorial/images/callouts/*.* \
+		/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/doc/libxml2/html/tutorial/images/callouts
+ .././install-sh -c -d '/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/man/man1'
+ /usr/bin/install -c -m 644 xmllint.1 xmlcatalog.1 '/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/man/man1'
+Making install in devhelp
+make[4]: Nothing to be done for `install-exec-am'.
+ ../.././install-sh -c -d '/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/gtk-doc/html/libxml2'
+ /usr/bin/install -c -m 644 libxml2.devhelp2 general.html index.html libxml2-c14n.html libxml2-catalog.html libxml2-chvalid.html libxml2-debugXML.html libxml2-dict.html libxml2-DOCBparser.html libxml2-encoding.html libxml2-entities.html libxml2-globals.html libxml2-hash.html libxml2-HTMLparser.html libxml2-HTMLtree.html libxml2-list.html libxml2-nanoftp.html libxml2-nanohttp.html libxml2-parser.html libxml2-parserInternals.html libxml2-pattern.html libxml2-relaxng.html libxml2-SAX2.html libxml2-SAX.html libxml2-schemasInternals.html libxml2-schematron.html libxml2-threads.html libxml2-tree.html libxml2-uri.html libxml2-valid.html libxml2-xinclude.html libxml2-xlink.html libxml2-xmlautomata.html libxml2-xmlerror.html libxml2-xmlexports.html libxml2-xmlIO.html libxml2-xmlmemory.html libxml2-xmlmodule.html libxml2-xmlreader.html libxml2-xmlregexp.html '/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/gtk-doc/html/libxml2'
+ /usr/bin/install -c -m 644 libxml2-xmlsave.html libxml2-xmlschemas.html libxml2-xmlschemastypes.html libxml2-xmlstring.html libxml2-xmlunicode.html libxml2-xmlversion.html libxml2-xmlwriter.html libxml2-xpath.html libxml2-xpathInternals.html libxml2-xpointer.html home.png left.png right.png up.png style.css '/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/gtk-doc/html/libxml2'
+Making install in examples
+make[4]: Nothing to be done for `install-exec-am'.
+../.././install-sh -c -d /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/doc/libxml2/html/examples
+/usr/bin/install -c -m 0644 ./*.html ./*.c ./*.xml ./*.xsl ./*.res /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/share/doc/libxml2/html/examples/
+Making install in example
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+Making install in fuzz
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+Making install in xstc
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.

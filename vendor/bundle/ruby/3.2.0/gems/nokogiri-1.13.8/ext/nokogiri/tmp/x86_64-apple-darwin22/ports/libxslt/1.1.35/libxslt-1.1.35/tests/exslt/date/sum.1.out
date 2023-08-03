@@ -1,0 +1,21 @@
+
+sum    : PT1M + PT2M
+result : PT3M
+sum    : P1DT2H + PT3M + PT4S
+result : P1DT2H3M4S
+sum    : PT20M + PT20M + PT20M
+result : PT1H
+sum    : PT01S + PT02S + PT04S + PT8S + PT16S + PT32S
+result : PT1M3S
+sum    : P1M
+result : P1M
+sum    : PT70M
+result : PT1H10M
+sum    : PT70M + P13M
+result : P1Y1MT1H10M
+sum    : PT70M + -PT30M
+result : PT40M
+sum    : PT1H10M + -PT30M + -PT30S
+result : PT39M30S
+sum    : PT1M + -PT1M
+result : P0D

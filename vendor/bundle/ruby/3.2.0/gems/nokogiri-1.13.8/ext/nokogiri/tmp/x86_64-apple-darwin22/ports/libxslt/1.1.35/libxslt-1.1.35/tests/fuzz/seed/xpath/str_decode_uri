@@ -1,0 +1,1 @@
+str:decode-uri('%41%00%2d')

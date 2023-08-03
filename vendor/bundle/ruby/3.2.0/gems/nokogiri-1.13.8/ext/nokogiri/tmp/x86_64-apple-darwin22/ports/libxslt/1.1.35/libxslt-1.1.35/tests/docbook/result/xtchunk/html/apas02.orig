@@ -1,0 +1,323 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Template 2: Applet Manual For GNOME 1.x</title><meta name="generator" content="DocBook XSL Stylesheets V1.40"><link rel="home" href="index.html" title="The GNOME Handbook of Writing Software Documentation"><link rel="up" href="apa.html" title="A. Document Templates"><link rel="previous" href="apa.html" title="A. Document Templates"><link rel="next" href="apas03.html" title="Template 2: Applet Manual For GNOME 2.x"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Template 2: Applet Manual For GNOME 1.x</th></tr><tr><td width="20%" align="left"><a href="apa.html">Prev</a> </td><th width="60%" align="center">A. Document Templates</th><td width="20%" align="right"> <a href="apas03.html">Next</a></td></tr></table><hr></div><div class="sect1"><a name="template2-1x"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="template2-1x"></a>Template 2: Applet Manual For GNOME 1.x</h2></div></div><p>
+        The following templates should be used for all applet
+        manuals in GNOME 1.x releases.  You can always get the latest
+        copy of these templates from  <a href="http://developer.gnome.org/projects/gdp/templates.html" target="_top">GDP
+        Documentation Templates</a>.  Note that the template
+        consists of two files; the first file calls the second as an
+        entity. You should name the first file
+        <tt><i><tt>appletname</tt></i>-applet.sgml</tt>
+        and the second file should be named
+        <tt><i><tt>appletname</tt></i>.sgml</tt>,
+        where
+        <tt><i><tt>appletname</tt></i></tt> is
+        the name of the applet.
+        <pre class="programlisting">
+
+
+&lt;!DOCTYPE Article PUBLIC "-//GNOME//DTD DocBook PNG Variant V1.1//EN"[
+ &lt;!entity APPLETNAME.sgml SYSTEM "applet_template_1.sgml"&gt;
+        &lt;!--  Template Version: 1.0.1  (do not remove this line) --&gt;
+]&gt;
+
+&lt;!-- This is a GNOME documentation template, designed by the GNOME
+  Documentation Project Team. Please use it for writing GNOME
+  documentation, making obvious changes. In particular, all the words
+  written in UPPERCASE (with the exception of GNOME) should be
+  replaced. As for "legalnotice", please leave the reference
+  unchanged,make sure to add/remove trademarks to the list as
+  appropriate for your document.
+
+  Please don't forget to remove these comments in your final documentation,
+  thanks ;-).
+--&gt;
+
+&lt;article id="index"&gt; &lt;!-- please do not change the id --&gt;
+
+ &lt;!-- ============= Document Header ============================= --&gt;
+ &lt;artheader&gt; 
+  &lt;title&gt;APPLETNAME Applet&lt;/title&gt;
+  &lt;copyright&gt;
+   &lt;year&gt;2000&lt;/year&gt;
+   &lt;holder&gt;YOURFULLNAME&lt;/holder&gt;
+  &lt;/copyright&gt;
+
+  &lt;!-- translators: uncomment this:
+
+  &lt;copyright&gt;
+   &lt;year&gt;2000&lt;/year&gt;
+   &lt;holder&gt;ME-THE-TRANSLATOR (Latin translation)&lt;/holder&gt;
+  &lt;/copyright&gt;
+
+   --&gt;
+
+  &lt;!-- do not put authorname in the header except in copyright - use
+  section "authors" below --&gt;
+
+  &lt;legalnotice&gt;
+   &lt;para&gt;
+    Permission is granted to copy, distribute and/or modify this
+    document under the terms of the &lt;citetitle&gt;GNU Free Documentation
+    License&lt;/citetitle&gt;, Version 1.1 or any later version published
+    by the Free Software Foundation with no Invariant Sections, no
+    Front-Cover Texts, and no Back-Cover Texts. You may obtain a copy
+    of the &lt;citetitle&gt;GNU Free Documentation License&lt;/citetitle&gt; from
+    the Free Software Foundation by visiting &lt;ulink type="http"
+    url="http://www.fsf.org"&gt;their Web site&lt;/ulink&gt; or by writing to:
+    Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+    Boston, MA 02111-1307, USA.
+   &lt;/para&gt;
+   &lt;para&gt;
+    Many of the names used by companies to distinguish their products and
+    services are claimed as trademarks. Where those names appear in any
+    GNOME documentation, and those trademarks are made aware to the members
+    of the GNOME Documentation Project, the names have been printed in caps
+    or initial caps.
+   &lt;/para&gt;
+  &lt;/legalnotice&gt;
+
+  &lt;releaseinfo&gt;
+   This is version XXX of the APPLETNAME applet manual.
+  &lt;/releaseinfo&gt;
+ &lt;/artheader&gt;
+
+ &lt;!-- ============= Document Body ============================= --&gt;
+
+ &amp;APPLETNAME.sgml;
+
+&lt;/article&gt;
+
+
+
+
+
+</pre>
+        <pre class="programlisting">
+
+        &lt;!--  Template Version: 1.0.1  (do not remove this line) --&gt;
+
+ &lt;sect1 id="APPLET"&gt;
+  &lt;title&gt;APPLET Applet&lt;/title&gt;
+
+  &lt;para&gt;
+   &lt;application&gt;APPLET&lt;/application&gt; applet, shown in &lt;xref
+   linkend="APPLETapplet-fig"&gt;, allows you to &amp;hellip;.  To add this
+   applet to a &lt;interface&gt;Panel&lt;/interface&gt;, 
+   right-click on the &lt;interface&gt;Panel&lt;/interface&gt; and choose
+   &lt;menuchoice&gt;
+    &lt;guimenu&gt;Panel&lt;/guimenu&gt;
+    &lt;guisubmenu&gt;Add to panel&lt;/guisubmenu&gt;
+    &lt;guisubmenu&gt;Applet&lt;/guisubmenu&gt;
+    &lt;guisubmenu&gt;SECTION&lt;/guisubmenu&gt;
+    &lt;guimenuitem&gt;APPLET&lt;/guimenuitem&gt;
+   &lt;/menuchoice&gt;.
+  &lt;/para&gt;
+
+  &lt;figure id="APPLETapplet-fig"&gt;
+   &lt;title&gt;APPLET Applet&lt;/title&gt;
+   &lt;screenshot&gt;
+    &lt;screeninfo&gt;APPLET Applet&lt;/screeninfo&gt;
+    &lt;graphic format="png" fileref="APPLET_applet" 
+    srccredit="YOURNAME"&gt;
+    &lt;/graphic&gt;
+   &lt;/screenshot&gt;
+  &lt;/figure&gt;
+
+  &lt;!-- ============= Usage  ================================ --&gt;
+  &lt;sect2 id="APPLET-usage"&gt;
+   &lt;title&gt;Usage&lt;/title&gt;
+   &lt;para&gt;
+    (Place a short description of how to use the applet here.)
+   &lt;/para&gt;
+
+   &lt;para&gt;
+    Right-clicking on the applet brings up a menu containing the
+    following items:
+    &lt;itemizedlist&gt;
+
+     &lt;listitem&gt;
+      &lt;para&gt;
+       &lt;guimenuitem&gt;Properties&amp;hellip;&lt;/guimenuitem&gt; &amp;mdash;
+       opens the &lt;link linkend="APPLET-prefs"&gt;
+       &lt;guilabel&gt;Properties&lt;/guilabel&gt;&lt;/link&gt; dialog.
+      &lt;/para&gt;
+     &lt;/listitem&gt;
+
+     &lt;listitem&gt;
+      &lt;para&gt;
+       &lt;guimenuitem&gt;Help&lt;/guimenuitem&gt; &amp;mdash;
+       displays this document.
+      &lt;/para&gt;
+     &lt;/listitem&gt;
+
+     &lt;listitem&gt;
+      &lt;para&gt;
+       &lt;guimenuitem&gt;About&amp;hellip;&lt;/guimenuitem&gt; &amp;mdash;
+       shows basic information about &lt;application&gt;APPLET
+       Applet&lt;/application&gt;, including the applet's version and the
+       author's name.
+      &lt;/para&gt;
+     &lt;/listitem&gt;
+
+    &lt;/itemizedlist&gt;
+   &lt;/para&gt;
+  &lt;/sect2&gt;
+
+
+  &lt;!-- ============= Customization ============================= --&gt;
+  &lt;sect2 id="APPLET-prefs"&gt;
+    &lt;title&gt;Customization&lt;/title&gt;
+    &lt;para&gt;
+      You can customize &lt;application&gt;APPLET&lt;/application&gt;
+      applet by right-clicking on it and choosing
+      &lt;guimenuitem&gt;Properties&amp;hellip;&lt;/guimenuitem&gt;. This will open the
+      &lt;interface&gt;Properties&lt;/interface&gt; dialog(shown in &lt;xref
+      linkend="APPLET-settings-fig"&gt;), which allows you to
+      change various settings.
+    &lt;/para&gt;
+
+    &lt;figure id="APPLET-settings-fig"&gt;
+     &lt;title&gt;Properties dialog&lt;/title&gt;
+     &lt;screenshot&gt;
+      &lt;screeninfo&gt;Properties dialog&lt;/screeninfo&gt;
+      &lt;graphic format="png" fileref="APPLET_settings"
+      srccredit="YOURNAME"&gt;
+      &lt;/graphic&gt;
+     &lt;/screenshot&gt;
+    &lt;/figure&gt;
+
+    &lt;para&gt;
+     The properties are:
+     &lt;itemizedlist&gt;
+
+      &lt;listitem&gt;
+       &lt;para&gt;
+        (Configuration Item Label) &amp;mdash; If this button is
+        checked&amp;hellip;(description)
+       &lt;/para&gt;
+      &lt;/listitem&gt;
+
+      &lt;listitem&gt;
+       &lt;para&gt;
+        (Configuration Item Label) &amp;mdash; Selecting this
+        button&amp;hellip;(description)
+       &lt;/para&gt;
+      &lt;/listitem&gt;
+
+      &lt;listitem&gt;
+       &lt;para&gt;
+        (Configuration Item Label) &amp;mdash; Enter the name of
+        &amp;hellip;(description)
+       &lt;/para&gt;
+      &lt;/listitem&gt;
+     &lt;/itemizedlist&gt;
+    &lt;/para&gt;
+
+    &lt;para&gt; 
+      After you have made all the changes you want, click on
+      &lt;guibutton&gt;OK&lt;/guibutton&gt; to apply the changes and close the
+      &lt;interface&gt;Properties&lt;/interface&gt; dialog. To cancel the changes
+      and return to previous values, click the
+      &lt;guibutton&gt;Close&lt;/guibutton&gt; button.
+    &lt;/para&gt;
+  &lt;/sect2&gt;
+
+
+  &lt;!-- ============= Bugs ================================== --&gt;
+  &lt;!-- This section should describe known bugs and limitations of
+       the program if there are any - please be frank and list all
+       problems you know of --&gt;
+  &lt;sect2 id="bugs"&gt;
+   &lt;title&gt;Known Bugs and Limitations&lt;/title&gt;
+   &lt;para&gt;
+    This applet has no known bugs.
+   &lt;/para&gt;
+  &lt;/sect2&gt;
+
+
+  &lt;!-- ============= Authors ================================ --&gt;
+
+  &lt;sect2 id="authors"&gt;
+   &lt;title&gt;Authors&lt;/title&gt;
+   &lt;para&gt;
+    &lt;application&gt;APPLET&lt;/application&gt; was written by GNOME-HACKER
+    (&lt;email&gt;hacker@gnome.org&lt;/email&gt;).  Please send all comments,
+    suggestions, and bug 
+    reports to the &lt;ulink url="http://bugs.gnome.org" type="http"&gt;GNOME
+    bug tracking database&lt;/ulink&gt;. (Instructions for submitting bug
+    reports can be found &lt;ulink
+    url="http://bugs.gnome.org/Reporting.html" type="http"&gt;
+    on-line&lt;/ulink&gt;.  You can also use &lt;application&gt;Bug Report
+    Tool&lt;/application&gt; (&lt;command&gt;bug-buddy&lt;/command&gt;), available in the
+    &lt;guisubmenu&gt;Utilities&lt;/guisubmenu&gt; submenu of &lt;guimenu&gt;Main
+    Menu&lt;/guimenu&gt;, for submitting bug reports.
+   &lt;/para&gt;
+
+   &lt;para&gt;
+    This manual was written by ME
+    (&lt;email&gt;MYNAME@MYADDRESS&lt;/email&gt;). Please send all comments and
+    suggestions regarding this manual to the &lt;ulink type="http"
+    url="http://developer.gnome.org/projects/gdp"&gt;GNOME Documentation
+    Project&lt;/ulink&gt;  by sending an email to
+    &lt;email&gt;docs@gnome.org&lt;/email&gt;. You can also submit comments online
+    by using the &lt;ulink type="http"
+    url="http://www.gnome.org/gdp/doctable/"&gt;GNOME Documentation
+    Status Table&lt;/ulink&gt;.
+   &lt;/para&gt;
+
+   &lt;!-- For translations: uncomment this:
+
+   &lt;para&gt;
+    Latin translation was done by ME
+    (&lt;email&gt;MYNAME@MYADDRESS&lt;/email&gt;). Please send all  comments  and
+    suggestions regarding this translation to SOMEWHERE.
+   &lt;/para&gt;
+
+   --&gt;
+
+  &lt;/sect2&gt;
+
+
+  &lt;!-- ============= Application License ============================= --&gt;
+
+  &lt;sect2 id="license"&gt;
+   &lt;title&gt;License&lt;/title&gt;
+   &lt;para&gt;
+    This program is free software; you can redistribute it and/or
+    modify it under the terms of the &lt;citetitle&gt;GNU General Public
+    License&lt;/citetitle&gt; as published by the Free Software Foundation;
+    either version 2 of the License, or (at your option) any later
+    version.
+   &lt;/para&gt;
+   &lt;para&gt;
+    This program is distributed in the hope that it will be useful, but
+    WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    &lt;citetitle&gt;GNU General Public License&lt;/citetitle&gt; for more details.
+   &lt;/para&gt;
+   &lt;para&gt;
+    A copy of the &lt;citetitle&gt;GNU General Public License&lt;/citetitle&gt; is
+    included as an appendix to the &lt;citetitle&gt;GNOME Users
+    Guide&lt;/citetitle&gt;.  You may also obtain a copy of the
+    &lt;citetitle&gt;GNU General Public License&lt;/citetitle&gt; from the Free
+    Software Foundation by visiting &lt;ulink type="http"
+    url="http://www.fsf.org"&gt;their Web site&lt;/ulink&gt; or by writing to
+    &lt;address&gt;
+     Free Software Foundation, Inc.
+     &lt;street&gt;59 Temple Place&lt;/street&gt; - Suite 330
+     &lt;city&gt;Boston&lt;/city&gt;, &lt;state&gt;MA&lt;/state&gt; &lt;postcode&gt;02111-1307&lt;/postcode&gt;
+     &lt;country&gt;USA&lt;/country&gt;
+    &lt;/address&gt;
+   &lt;/para&gt;
+  &lt;/sect2&gt;
+
+ &lt;/sect1&gt;
+
+
+
+
+
+
+
+
+</pre>
+      </p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a href="apa.html">Prev</a> </td><td width="20%" align="center"><a href="index.html">Home</a></td><td width="40%" align="right"> <a href="apas03.html">Next</a></td></tr><tr><td width="40%" align="left">A. Document Templates </td><td width="20%" align="center"><a href="apa.html">Up</a></td><td width="40%" align="right"> Template 2: Applet Manual For GNOME 2.x</td></tr></table></div></body></html>

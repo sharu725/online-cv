@@ -1,0 +1,5 @@
+<x:stylesheet xmlns:x="http://www.w3.org/1999/XSL/Transform" xmlns:a="a" xmlns:b="b" version="1.0">
+<x:template match="*"><x:element name="e"><x:apply-templates select="node()|@*"/></x:element></x:template>
+<x:template match="@*"><x:attribute name="{local-name()}"></x:attribute></x:template>
+<x:template match="text()"><x:text></x:text></x:template>
+</x:stylesheet>

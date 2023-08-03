@@ -1,0 +1,7 @@
+<!ELEMENT doc (title, chapter*)>
+<!ELEMENT chapter (title, (para|note)*, section*)>
+<!ELEMENT section (title, (para|note)*)>
+<!ELEMENT title (#PCDATA|emph)*>
+<!ELEMENT para (#PCDATA|emph)*>
+<!ELEMENT note (#PCDATA|emph)*>
+<!ELEMENT emph (#PCDATA|emph)*>

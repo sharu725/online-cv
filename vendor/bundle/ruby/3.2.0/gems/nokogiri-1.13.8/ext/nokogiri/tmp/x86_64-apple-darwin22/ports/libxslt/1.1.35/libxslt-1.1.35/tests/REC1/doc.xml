@@ -1,0 +1,17 @@
+<!DOCTYPE doc SYSTEM "doc.dtd">
+<doc>
+<title>Document Title</title>
+<chapter>
+<title>Chapter Title</title>
+<section>
+<title>Section Title</title>
+<para>This is a test.</para>
+<note>This is a note.</note>
+</section>
+<section>
+<title>Another Section Title</title>
+<para>This is <emph>another</emph> test.</para>
+<note>This is another note.</note>
+</section>
+</chapter>
+</doc>

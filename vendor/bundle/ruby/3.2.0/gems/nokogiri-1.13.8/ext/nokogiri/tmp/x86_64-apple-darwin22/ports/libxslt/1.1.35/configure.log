@@ -1,0 +1,250 @@
+checking build system type... x86_64-apple-darwin22.5.0
+checking host system type... x86_64-apple-darwin22
+checking for x86_64-apple-darwin22-gcc... clang
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether clang accepts -g... yes
+checking for clang option to accept ISO C89... none needed
+checking whether clang understands -c and -o together... rm: conftest.dSYM: is a directory
+yes
+checking how to run the C preprocessor... clang -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... rm: conftest.dSYM: is a directory
+rm: conftest.dSYM: is a directory
+yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... no
+checking for mawk... no
+checking for nawk... no
+checking for awk... awk
+checking whether make sets $(MAKE)... yes
+checking whether make supports the include directive... yes (GNU style)
+checking whether make supports nested variables... yes
+checking dependency style of clang... none
+checking whether make supports nested variables... (cached) yes
+checking for x86_64-apple-darwin22-gcc... (cached) clang
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether clang accepts -g... (cached) yes
+checking for clang option to accept ISO C89... (cached) none needed
+checking whether clang understands -c and -o together... (cached) yes
+checking how to run the C preprocessor... clang -E
+checking for xmllint... /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/bin/xmllint
+checking for xsltproc... /usr/bin/xsltproc
+checking for x86_64-apple-darwin22-pkg-config... no
+checking for pkg-config... /usr/local/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for ANSI C header files... (cached) yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by clang... /Library/Developer/CommandLineTools/usr/bin/ld
+checking if the linker (/Library/Developer/CommandLineTools/usr/bin/ld) is GNU ld... no
+checking for BSD- or MS-compatible name lister (nm)... no
+checking for x86_64-apple-darwin22-dumpbin... no
+checking for x86_64-apple-darwin22-link... no
+checking for dumpbin... no
+checking for link... link -dump
+checking the name lister (nm) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 786432
+checking how to convert x86_64-apple-darwin22.5.0 file names to x86_64-apple-darwin22 format... func_convert_file_noop
+checking how to convert x86_64-apple-darwin22.5.0 file names to toolchain format... func_convert_file_noop
+checking for /Library/Developer/CommandLineTools/usr/bin/ld option to reload object files... -r
+checking for x86_64-apple-darwin22-objdump... no
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for x86_64-apple-darwin22-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for x86_64-apple-darwin22-ar... /usr/bin/ar
+checking for archiver @FILE support... no
+checking for x86_64-apple-darwin22-strip... no
+checking for strip... strip
+checking for x86_64-apple-darwin22-ranlib... /usr/bin/ranlib
+checking command to parse nm output from clang object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for x86_64-apple-darwin22-mt... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for x86_64-apple-darwin22-dsymutil... no
+checking for dsymutil... dsymutil
+checking for x86_64-apple-darwin22-nmedit... no
+checking for nmedit... nmedit
+checking for x86_64-apple-darwin22-lipo... no
+checking for lipo... lipo
+checking for x86_64-apple-darwin22-otool... no
+checking for otool... otool
+checking for x86_64-apple-darwin22-otool64... no
+checking for otool64... no
+checking for -single_module linker flag... yes
+checking for -exported_symbols_list linker flag... yes
+checking for -force_load linker flag... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if clang supports -fno-rtti -fno-exceptions... yes
+checking for clang option to produce PIC... -fno-common -DPIC
+checking if clang PIC flag -fno-common -DPIC works... yes
+checking if clang static flag -static works... no
+checking if clang supports -c -o file.o... yes
+checking if clang supports -c -o file.o... (cached) yes
+checking whether the clang linker (/Library/Developer/CommandLineTools/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... darwin22 dyld
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for sys/types.h... (cached) yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for string.h... (cached) yes
+checking how to pass version script to the linker (/Library/Developer/CommandLineTools/usr/bin/ld)... none
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for pthread_join in -lpthread... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking xlocale.h usability... yes
+checking xlocale.h presence... yes
+checking for xlocale.h... yes
+checking for strxfrm_l... yes
+checking ieeefp.h usability... no
+checking ieeefp.h presence... no
+checking for ieeefp.h... no
+checking nan.h usability... no
+checking nan.h presence... no
+checking for nan.h... no
+checking math.h usability... yes
+checking math.h presence... yes
+checking for math.h... yes
+checking fp_class.h usability... no
+checking fp_class.h presence... no
+checking for fp_class.h... no
+checking float.h usability... yes
+checking float.h presence... yes
+checking for float.h... yes
+checking sys/timeb.h usability... yes
+checking sys/timeb.h presence... yes
+checking for sys/timeb.h... yes
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking for sys/stat.h... (cached) yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking for stat... yes
+checking for _stat... no
+checking for pow... yes
+checking for floor... yes
+checking for fabs... yes
+checking for gettimeofday... yes
+checking for localtime... yes
+checking for localtime_r... yes
+checking for time... yes
+checking for gmtime... yes
+checking for gmtime_r... yes
+checking for ftime... yes
+checking for printf... yes
+checking for sprintf... yes
+checking for fprintf... yes
+checking for snprintf... yes
+checking for vfprintf... yes
+checking for vsprintf... yes
+checking for vsnprintf... yes
+checking for sscanf... yes
+checking for clock_gettime... yes
+checking for perl... perl
+Disabling crypto support
+Enabling debugger
+Enabling profiler
+checking for x86_64-apple-darwin22-xml2-config... no
+checking for xml2-config... /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/bin/xml2-config
+checking for libxml libraries >= 2.6.27... 2.9.14 found
+checking whether shared libraries will be built (required for plugins)... no
+configure: WARNING: Disabling plugin support.
+configure: WARNING: Plugins require that shared libraries be built.
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libxslt.pc
+config.status: creating libexslt.pc
+config.status: creating libxslt-config.cmake
+config.status: creating libxslt/Makefile
+config.status: creating libxslt/xsltconfig.h
+config.status: creating libxslt/xsltwin32config.h
+config.status: creating libexslt/Makefile
+config.status: creating libexslt/exsltconfig.h
+config.status: creating xsltproc/Makefile
+config.status: creating python/Makefile
+config.status: creating python/tests/Makefile
+config.status: creating tests/Makefile
+config.status: creating tests/docs/Makefile
+config.status: creating tests/REC1/Makefile
+config.status: creating tests/REC2/Makefile
+config.status: creating tests/REC/Makefile
+config.status: creating tests/general/Makefile
+config.status: creating tests/reports/Makefile
+config.status: creating tests/extensions/Makefile
+config.status: creating tests/namespaces/Makefile
+config.status: creating tests/keys/Makefile
+config.status: creating tests/numbers/Makefile
+config.status: creating tests/documents/Makefile
+config.status: creating tests/xmlspec/Makefile
+config.status: creating tests/multiple/Makefile
+config.status: creating tests/xinclude/Makefile
+config.status: creating tests/XSLTMark/Makefile
+config.status: creating tests/docbook/Makefile
+config.status: creating tests/exslt/Makefile
+config.status: creating tests/exslt/common/Makefile
+config.status: creating tests/exslt/functions/Makefile
+config.status: creating tests/exslt/math/Makefile
+config.status: creating tests/exslt/saxon/Makefile
+config.status: creating tests/exslt/sets/Makefile
+config.status: creating tests/exslt/strings/Makefile
+config.status: creating tests/exslt/date/Makefile
+config.status: creating tests/exslt/dynamic/Makefile
+config.status: creating tests/exslt/crypto/Makefile
+config.status: creating tests/plugins/Makefile
+config.status: creating tests/fuzz/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/devhelp/Makefile
+config.status: creating doc/EXSLT/devhelp/Makefile
+config.status: creating xslt-config
+config.status: creating libxslt.spec
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands

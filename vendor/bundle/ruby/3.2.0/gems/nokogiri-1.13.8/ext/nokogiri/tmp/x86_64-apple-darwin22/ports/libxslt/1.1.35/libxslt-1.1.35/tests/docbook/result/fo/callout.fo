@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" font-family="Times Roman" font-size="10pt" text-align="justify">
+  <fo:layout-master-set>
+    <fo:simple-page-master master-name="blank" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="10pc" margin-right="1in">
+      <fo:region-body margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-blank" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-blank" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="simple1" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="10pc" margin-right="1in">
+      <fo:region-body margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before extent="12pt"/>
+      <fo:region-after extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="left1" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="10pc" margin-right="1in">
+      <fo:region-body margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-left" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-left" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="right1" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="1in" margin-right="10pc">
+      <fo:region-body margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-right" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-right" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="first1" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="1in" margin-right="1in">
+      <fo:region-body margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-first" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-first" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="simple2" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="10pc" margin-right="1in">
+      <fo:region-body column-count="1" margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before extent="12pt"/>
+      <fo:region-after extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="left2" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="10pc" margin-right="1in">
+      <fo:region-body column-count="1" margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-left" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-left" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="right2" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="1in" margin-right="10pc">
+      <fo:region-body column-count="1" margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-right" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-right" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="first2" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="1in" margin-right="1in">
+      <fo:region-body column-count="1" margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-first" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-first" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:page-sequence-master master-name="titlepage1">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="first1"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+    <fo:page-sequence-master master-name="oneside1">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="simple1"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+    <fo:page-sequence-master master-name="twoside1">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="blank" blank-or-not-blank="blank"/>
+        <fo:conditional-page-master-reference master-name="right1" odd-or-even="odd"/>
+        <fo:conditional-page-master-reference master-name="left1" odd-or-even="even"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+    <fo:page-sequence-master master-name="titlepage2">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="first2"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+    <fo:page-sequence-master master-name="oneside2">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="simple2"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+    <fo:page-sequence-master master-name="twoside2">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="blank" blank-or-not-blank="blank"/>
+        <fo:conditional-page-master-reference master-name="right2" odd-or-even="odd"/>
+        <fo:conditional-page-master-reference master-name="left2" odd-or-even="even"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+  </fo:layout-master-set>
+  <fo:page-sequence id="" hyphenate="true" master-name="oneside1" language="en">
+    <fo:static-content flow-name="xsl-region-after">
+      <fo:block text-align="center" font-size="10pt">
+        <fo:page-number/>
+      </fo:block>
+    </fo:static-content>
+    <fo:flow flow-name="xsl-region-body">
+      <fo:block>
+        <fo:block margin-left="-4pc" font-family="Helvetica">
+          <fo:block keep-with-next.within-column="always">
+            <fo:block font-size="16pt" font-weight="bold" font-family="Helvetica" space-before.minimum="1em" space-before.optimum="1.5em" space-before.maximum="2em">Loops</fo:block>
+          </fo:block>
+        </fo:block>
+      </fo:block>
+      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+<fo:wrapper id="id2781313"><!--for loop, DSSSL and--></fo:wrapper>
+<fo:wrapper id="id2781330"><!--loops, implementing (DSSSL)--></fo:wrapper>
+<fo:wrapper id="id2781348"><!--tail recursion (DSSSL)--></fo:wrapper>
+
+DSSSL doesn't have any construct that resembles the
+for loop that occurs in most imperative languages like C
+and Java. Instead, DSSSL employs a common trick in
+functional languages for implementing a loop: tail recursion.
+</fo:block>
+      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+Loops in DSSSL use a special form of
+<fo:inline font-family="Courier">let</fo:inline>. This loop counts from 1 to 10:
+<fo:block wrap-option="no-wrap" text-align="start" white-space-collapse="false" linefeed-treatment="preserve" font-family="Courier" font-size="9pt" space-before.minimum="0.8em" space-before.optimum="1em" space-before.maximum="1.2em">
+(let <fo:inline id="dl1">&#x2776;</fo:inline>loopvar <fo:inline id="dl2">&#x2777;</fo:inline>((count 1))
+  <fo:inline id="dl3">&#x2778;</fo:inline>(if (&gt; count 10)
+    <fo:inline id="dl4">&#x2779;</fo:inline>#t
+    (<fo:inline id="dl5">&#x277A;</fo:inline>loopvar <fo:inline id="dl6">&#x277B;</fo:inline>(+ count 1))))</fo:block></fo:block>
+      <fo:block id="id2785036">
+        <fo:list-block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" provisional-distance-between-starts="2.2em" provisional-label-separation="0.2em">
+          <fo:list-item id="id2785045">
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>&#x2776;</fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>This variable controls the loop. It is declared without an
+initial value, immediately after the <fo:inline font-family="Courier">let</fo:inline>
+operand.</fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item id="id2785112">
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>&#x2777;</fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+<fo:wrapper id="id2785136"><!--variables (DSSSL), local, defining after loop variable--></fo:wrapper>
+
+Any number of additional local variables can be defined after
+the loop variable, just as they can in any other
+<fo:inline font-family="Courier">let</fo:inline> expression.</fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item id="id2785185">
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>&#x2778;</fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>If you ever want the loop to end, you have to put some sort of a
+test in it.</fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item id="id2785017">
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>&#x2779;</fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>This is the value that will be returned.</fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item id="id2781490">
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>&#x277A;</fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>Note that you iterate the loop by using the loop variable as if
+it was a function name.</fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item id="id2781524">
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>&#x277B;</fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>The arguments to this function are the values that
+you want the local variables declared in <fo:basic-link internal-destination="dl2">&#x2777;</fo:basic-link> to have
+in the next iteration.</fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+        </fo:list-block>
+      </fo:block>
+    </fo:flow>
+  </fo:page-sequence>
+</fo:root>

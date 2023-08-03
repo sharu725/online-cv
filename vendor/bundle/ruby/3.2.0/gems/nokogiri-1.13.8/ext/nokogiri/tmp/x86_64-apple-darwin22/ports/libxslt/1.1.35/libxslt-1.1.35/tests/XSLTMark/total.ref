@@ -1,0 +1,51 @@
+<html>
+<table border="1">
+<tr>
+<td colspan="2">
+Total
+Sales
+</td>
+</tr>
+<tr>
+<td>
+1997
+</td>
+<td align="right">
+62
+</td>
+</tr>
+<tr>
+<td>
+1998
+</td>
+<td align="right">
+72
+</td>
+</tr>
+<tr>
+<td>
+1999
+</td>
+<td align="right">
+79
+</td>
+</tr>
+<tr>
+<td>
+2000
+</td>
+<td align="right">
+88
+</td>
+</tr>
+<tr>
+<td>
+Grand
+Total
+</td>
+<td align="right">
+301
+</td>
+</tr>
+</table>
+</html>

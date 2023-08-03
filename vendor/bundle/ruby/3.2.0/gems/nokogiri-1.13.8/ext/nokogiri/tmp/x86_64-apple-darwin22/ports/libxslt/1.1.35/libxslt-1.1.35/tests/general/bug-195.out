@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- first comment  id="1"-->
+<root>
+    <!-- second comment  id="2"-->
+    <foo>
+        <!-- third comment  id="3"-->
+    </foo>
+</root><!-- fourth comment  id="4"-->

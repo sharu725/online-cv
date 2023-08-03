@@ -1,0 +1,39 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>GDP Documentation Conventions </title><meta name="generator" content="DocBook XSL Stylesheets V1.40"><link rel="home" href="index.html" title="The GNOME Handbook of Writing Software Documentation"><link rel="up" href="index.html" title="The GNOME Handbook of Writing Software Documentation"><link rel="previous" href="indexs04.html" title="DocBook Basics "><link rel="next" href="indexs06.html" title="Writing Application and Applet Manuals"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">GDP Documentation Conventions </th></tr><tr><td width="20%" align="left"><a href="indexs04.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a href="indexs06.html">Next</a></td></tr></table><hr></div><div class="sect1"><a name="conventions"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="conventions"></a>GDP Documentation Conventions </h2></div></div><div class="sect2"><a name="conventionsalldocs"></a><div class="titlepage"><div><h3 class="title"><a name="conventionsalldocs"></a>Conventions for All GDP Documentation</h3></div></div><div class="sect3"><a name="xmlcomp"></a><div class="titlepage"><div><h4 class="title"><a name="xmlcomp"></a> XML compatibility </h4></div></div><p>
+	  All GNOME documentation  should conform to XML syntax
+	  requirements, which are stricter than SGML ones -- see
+	  <a href="indexs04.html#xml" title="XML and SGML">the section called &#8220;XML and SGML&#8221;</a> for more informaion.
+	</p></div><div class="sect3"><a name="authorsnames"></a><div class="titlepage"><div><h4 class="title"><a name="authorsnames"></a> Authors' names</h4></div></div><p> 
+	  All GNOME documentation should contain the names of both the
+	  application authors and documentation authors, as well as a
+	  link to the application web page (if it exists) and
+	  information for bug submission -- see templates for an
+	  example. 
+	  </p></div></div><div class="sect2"><a name="conventionsappdocs"></a><div class="titlepage"><div><h3 class="title"><a name="conventionsappdocs"></a>Conventions for Application Documentation</h3></div></div><div class="sect3"><a name="applicationversionid"></a><div class="titlepage"><div><h4 class="title"><a name="applicationversionid"></a>Application Version Identification</h4></div></div><p>
+          Application documentation should identify the version of the
+          application for which the documentation is written:
+          <pre class="programlisting">
+
+&lt;sect1 id="intro"&gt;
+ &lt;title&gt;Introduction&lt;/title&gt;
+ &lt;para&gt;
+  blah-blah-blah This document describes version 1.0.53 of gfoo.
+ &lt;/para&gt;
+&lt;/sect1&gt;
+          </pre>
+        </p></div><div class="sect3"><a name="license"></a><div class="titlepage"><div><h4 class="title"><a name="license"></a> Copyright information </h4></div></div><p> Application
+        documentation should contain a copyright notice, stating the
+        licensing terms. It is suggested that you use the GNU Free
+        Documentation License.  You could also use some other license
+        allowing free redistribution, such as GPL or Open Content
+        license.  If documentation uses some trademarks (such as UNIX,
+        Linux, Windows, etc.), proper legal junk should also be
+        included (see templates).
+	</p></div><div class="sect3"><a name="license2"></a><div class="titlepage"><div><h4 class="title"><a name="license2"></a>Software license</h4></div></div><p> 
+         All GNOME applications must contain information about the
+       license (for software, not for documentation), either in the
+       "About" box or in the manual. 
+       </p></div><div class="sect3"><a name="bugtraq"></a><div class="titlepage"><div><h4 class="title"><a name="bugtraq"></a> Bug reporting</h4></div></div><p> 
+	  Application documentation should give an address for
+        reporting bugs and for submitting comments about the
+        documentaion (see templates for an example). 
+       </p></div></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a href="indexs04.html">Prev</a> </td><td width="20%" align="center"><a href="index.html">Home</a></td><td width="40%" align="right"> <a href="indexs06.html">Next</a></td></tr><tr><td width="40%" align="left">DocBook Basics  </td><td width="20%" align="center"><a href="index.html">Up</a></td><td width="40%" align="right"> Writing Application and Applet Manuals</td></tr></table></div></body></html>

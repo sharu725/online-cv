@@ -1,0 +1,160 @@
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.0//EN"
+                  "../dtd/4.0/docbookx.dtd">
+<chapter><title>Class Synopses</title>
+
+<para>This example is Perl; it's the standard DirHandle module. I've
+cut out the code, so you'll have to trust me on the parameters.
+</para>
+
+<para>ProgramListing version:</para>
+
+<programlisting>
+package DirHandle;
+
+require 5.000;
+use Carp;
+use Symbol;
+
+sub new {
+}
+</programlisting>
+
+<para>ClassSynopsis version:</para>
+
+<classsynopsis language="perl">
+  <ooclass><classname>DirHandle</classname></ooclass>
+  <ooclass><classname>superclass1</classname></ooclass>
+  <ooclass><classname>superclass2</classname></ooclass>
+
+  <classsynopsisinfo>
+require 5.000;
+use Carp;
+use Symbol;
+
+</classsynopsisinfo>
+
+  <constructorsynopsis>
+    <methodname>new</methodname>
+    <methodparam choice="opt"><parameter>$dirname</parameter></methodparam>
+  </constructorsynopsis>
+  <destructorsynopsis>
+    <methodname>DESTROY</methodname>
+  </destructorsynopsis>
+
+</classsynopsis>
+
+<para>This example is IDL from the DOM spec.</para>
+
+<para>ProgramListing version:</para>
+
+<programlisting>
+interface Element : Node {
+  readonly attribute  DOMString            tagName;
+  DOMString                 getAttribute(in DOMString name);
+  void                      setAttribute(in DOMString name, 
+                                         in DOMString value)
+                                         raises(DOMException);
+};
+</programlisting>
+
+<para>ClassSynopsis version:</para>
+
+<classsynopsis class="interface" language="idl">
+  <ooclass><classname>Element</classname></ooclass>
+  <ooclass><classname>Node</classname></ooclass>
+
+  <fieldsynopsis>
+    <modifier>readonly</modifier>
+    <modifier>attribute</modifier>
+    <type>DOMString</type>
+    <varname>tagName</varname>
+  </fieldsynopsis>
+
+  <methodsynopsis>
+    <type>DOMString</type>
+    <methodname>getAttribute</methodname>
+      <methodparam>
+        <modifier>in</modifier>
+        <type>DOMString</type>
+        <parameter>name</parameter>
+      </methodparam>
+  </methodsynopsis>
+
+  <methodsynopsis>
+    <void/>
+    <methodname>setAttribute</methodname>
+      <methodparam>
+        <modifier>in</modifier>
+        <type>DOMString</type>
+        <parameter>name</parameter>
+      </methodparam>
+      <methodparam>
+        <modifier>in</modifier>
+        <type>DOMString</type>
+        <parameter>value</parameter>
+      </methodparam>
+    <exceptionname>DOMException</exceptionname>
+  </methodsynopsis>
+</classsynopsis>
+
+<classsynopsis language="java">
+  <ooclass><modifier>public</modifier>
+           <classname>TextFileWriter</classname>
+  </ooclass>
+  <ooclass><classname>Superclass1</classname></ooclass>
+  <ooclass><classname>Superclass2</classname></ooclass>
+  <oointerface><interfacename>Interface1</interfacename></oointerface>
+  <oointerface><interfacename>Interface2</interfacename></oointerface>
+  <ooexception><exceptionname>Exception1</exceptionname></ooexception>
+  <ooexception><exceptionname>Exception2</exceptionname></ooexception>
+
+  <fieldsynopsis>
+    <modifier>private</modifier>
+    <type>Writer</type>
+    <varname>writer</varname>
+  </fieldsynopsis>
+
+  <fieldsynopsis>
+    <modifier>public</modifier>
+    <type>String</type>
+    <varname>writerName</varname>
+    <initializer>"MyWriter"</initializer>
+  </fieldsynopsis>
+
+  <methodsynopsis>
+    <modifier>static</modifier>
+    <modifier>public</modifier>
+    <void/>
+    <methodname>write</methodname>
+    <methodparam>
+       <type>ResultTreeFragment</type>
+       <parameter>frag</parameter>
+    </methodparam>
+    <methodparam>
+       <type>String</type>
+       <parameter>file</parameter>
+    </methodparam>
+    <exceptionname>Exception1</exceptionname>
+    <exceptionname>Exception2</exceptionname>
+  </methodsynopsis>
+</classsynopsis>
+
+<programlisting>
+class Rectangle_with_data:  virtual Shape, virtual Data_container
+{
+...
+};
+</programlisting>
+
+<para>ClassSynopsis version:</para>
+
+<classsynopsis language="cpp">
+  <ooclass><classname>Rectangle_with_data</classname></ooclass>
+  <ooclass><modifier>virtual</modifier><classname>Shape</classname>
+     </ooclass>
+  <ooclass><modifier>virtual</modifier><classname>Data_container</classname>
+     </ooclass>
+  <classsynopsisinfo>...</classsynopsisinfo>
+</classsynopsis>
+
+</chapter>

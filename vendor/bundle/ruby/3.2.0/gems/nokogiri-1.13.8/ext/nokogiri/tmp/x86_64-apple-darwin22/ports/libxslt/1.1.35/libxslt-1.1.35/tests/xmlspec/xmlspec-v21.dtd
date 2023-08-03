@@ -1,0 +1,1734 @@
+<!-- ............................................................... -->
+<!-- XML specification DTD ......................................... -->
+<!-- ............................................................... -->
+
+<!--
+TYPICAL INVOCATION:
+#  <!DOCTYPE spec PUBLIC
+#       "-//W3C//DTD Specification V2.1//EN"
+#       "http://www.w3.org/XML/1998/06/xmlspec-v21.dtd">
+
+PURPOSE:
+  This XML DTD is for W3C specifications and other technical reports.
+  It is based in part on the TEI Lite and Sweb DTDs.
+
+DEPENDENCIES:
+  None.
+
+CHANGE HISTORY:
+  The list of changes is at the end of the DTD.
+
+  For all details, see the design report at:
+
+#   <http://www.w3.org/XML/1998/06/xmlspec-report-v21.htm>
+
+  Search this file for "#" in the first column to see change history
+  comments.  To find changes made this time, search for "2000-03-07".
+
+MAINTAINER:
+  Eve Maler
+  Sun Microsystems, Inc.
+  elm@east.sun.com
+  voice: +1 781 442 3190
+  fax:   +1 781 442 1437
+-->
+
+<!-- ............................................................... -->
+<!-- Entities for characters and symbols ........................... -->
+<!-- ............................................................... -->
+
+<!--
+#1998-03-10: maler: Added &ldquo; and &rdquo;.
+#                   Used 8879:1986-compatible decimal character
+#                   references.
+#                   Merged charent.mod file back into main file.
+#1998-05-14: maler: Fixed ldquo and rdquo.  Gave mdash a real number.
+#1998-12-03: maler: Escaped the leading ampersands.
+-->
+
+<!ENTITY lt     "&#38;#60;">
+<!ENTITY gt     "&#62;">
+<!ENTITY amp    "&#38;#38;">
+<!ENTITY apos   "&#39;">
+<!ENTITY quot   "&#34;">
+<!ENTITY nbsp   "&#160;">
+<!ENTITY mdash  "&#38;#x2014;">
+<!ENTITY ldquo  "&#38;#x201C;">
+<!ENTITY rdquo  "&#38;#x201D;">
+
+<!-- ............................................................... -->
+<!-- Entities for classes of standalone elements ................... -->
+<!-- ............................................................... -->
+
+<!--
+#1997-10-16: maler: Added table to %illus.class;.
+#1997-11-28: maler: Added htable to %illus.class;.
+#1997-12-29: maler: IGNOREd table.
+#1998-03-10: maler: Removed SGML Open-specific %illus.class;.
+#                   Added "local" entities for customization.
+#1998-05-14: maler: Added issue to %note.class;.
+#                   Removed %[local.]statusp.class;.
+#1998-05-21: maler: Added constraintnote to %note.class;.
+#1998-08-22: maler: Changed htable to table in %illus.class;.
+#                   Added definitions to %illus.class;.
+#2000-03-07: maler: Added proto and example to %illus.class;.
+-->
+
+<!ENTITY % local.p.class        "">
+<!ENTITY % p.class              "p
+                                %local.p.class;">
+
+<!ENTITY % local.list.class     "">
+<!ENTITY % list.class           "ulist|olist|slist|glist
+                                %local.list.class;">
+
+<!ENTITY % local.speclist.class "">
+<!ENTITY % speclist.class       "orglist|blist
+                                %local.speclist.class;">
+
+<!ENTITY % local.note.class     "">
+<!ENTITY % note.class           "note|issue|wfcnote|vcnote
+                                |constraintnote %local.note.class;">
+
+<!ENTITY % local.illus.class    "">
+<!ENTITY % illus.class          "eg|graphic|scrap|table|definitions
+                                |proto|example
+                                %local.illus.class;">
+
+<!-- ............................................................... -->
+<!-- Entities for classes of phrase-level elements ................. -->
+<!-- ............................................................... -->
+
+<!--
+#1997-12-29: maler: Added xspecref to %ref.class;.
+#1998-03-10: maler: Added %ednote.class;.
+#                   Added "local" entities for customization.
+#2000-03-07: maler: Added function, var, el, att, and attval to
+#                   %tech.class;.
+#                   Added sub, sup, and phrase to %emph.class;.
+-->
+
+<!ENTITY % local.annot.class    "">
+<!ENTITY % annot.class          "footnote
+                                %local.annot.class;">
+
+<!ENTITY % local.termdef.class  "">
+<!ENTITY % termdef.class        "termdef|term
+                                %local.termdef.class;">
+
+<!ENTITY % local.emph.class     "">
+<!ENTITY % emph.class           "emph|phrase|quote|sub|sup
+                                %local.emph.class;">
+
+<!ENTITY % local.ref.class      "">
+<!ENTITY % ref.class            "bibref|specref|termref|titleref
+                                |xspecref|xtermref
+                                %local.ref.class;">
+
+<!ENTITY % local.loc.class      "">
+<!ENTITY % loc.class            "loc
+                                %local.loc.class;">
+
+<!ENTITY % local.tech.class     "">
+<!ENTITY % tech.class           "kw|nt|xnt|code|function|var
+                                |el|att|attval
+                                %local.tech.class;">
+
+<!ENTITY % local.ednote.class   "">
+<!ENTITY % ednote.class         "ednote
+                                %local.ednote.class;">
+
+<!-- ............................................................... -->
+<!-- Entities for mixtures of standalone elements .................. -->
+<!-- ............................................................... -->
+
+<!--
+#1997-09-30: maler: Created %p.mix; to eliminate p from self.
+#1997-09-30: maler: Added %speclist.class; to %obj.mix; and %p.mix;.
+#1997-09-30: maler: Added %note.class; to %obj.mix; and %p.mix;.
+#1997-10-16: maler: Created %entry.mix;.  Note that some elements
+#                   left out here are still allowed in termdef,
+#                   which entry can contain through %p.pcd.mix;.
+#1997-11-28: maler: Added %p.class; to %statusobj.mix;.
+#1998-03-10: maler: Added %ednote.class; to all mixtures, except
+#                   %p.mix; and %statusobj.mix;, because paragraphs
+#                   and status paragraphs will contain ednote
+#                   through %p.pcd.mix;.
+#1998-03-23: maler: Added %termdef.mix; (broken out from
+#                    %termdef.pcd.mix;).
+#1998-05-14: maler: Removed %statusobj.mix; and all mentions of
+#                   %statusp.mix;.
+-->
+
+<!ENTITY % div.mix
+        "%p.class;|%list.class;|%speclist.class;|%note.class;
+        |%illus.class;|%ednote.class;">
+<!ENTITY % obj.mix
+        "%p.class;|%list.class;|%speclist.class;|%note.class;
+        |%illus.class;|%ednote.class;">
+<!ENTITY % p.mix
+        "%list.class;|%speclist.class;|%note.class;|%illus.class;">
+<!ENTITY % entry.mix
+        "%list.class;|note|eg|graphic|%ednote.class;">
+<!ENTITY % hdr.mix
+        "%p.class;|%list.class;|%ednote.class;">
+<!ENTITY % termdef.mix
+        "%note.class;|%illus.class;">
+
+<!-- ............................................................... -->
+<!-- Entities for mixtures of #PCDATA and phrase-level elements .... -->
+<!-- ............................................................... -->
+
+<!--    Note that %termdef.pcd.mix contains %note.class;
+        and %illus.class;, considered standalone elements. -->
+
+<!--
+#1997-09-30: maler: Added scrap and %note.class; to %termdef.pcd.mix;.
+#1997-11-28: maler: Added %loc.class; to %p.pcd.mix;.
+#1998-03-10: maler: Added %ednote.class; to all mixtures.
+#1998-03-23: maler: Moved some %termdef.pcd.mix; stuff out to
+#                   %termdef.mix;.
+#1998-05-14: maler: Removed %statusp.pcd.mix;.
+#1998-05-21: maler: Added constraint element to %eg.pcd.mix;.
+#1999-07-02: maler: Added %loc.class; to %head.pcd.mix;,
+#                   %label.pcd.mix;, %eg.pcd.mix;, %termdef.pcd.mix;,
+#                   %tech.pcd.mix; (net: all PCD mixes have it).
+#                   Removed unused %loc.pcd.mix;.
+-->
+
+<!ENTITY % p.pcd.mix
+        "#PCDATA|%annot.class;|%termdef.class;|%emph.class;
+        |%ref.class;|%tech.class;|%loc.class;|%ednote.class;">
+<!ENTITY % head.pcd.mix
+        "#PCDATA|%annot.class;|%emph.class;|%tech.class;
+        |%loc.class;|%ednote.class;">
+<!ENTITY % label.pcd.mix
+        "#PCDATA|%annot.class;|%termdef.class;|%emph.class;
+        |%tech.class;|%loc.class;|%ednote.class;">
+<!ENTITY % eg.pcd.mix
+        "#PCDATA|%annot.class;|%emph.class;|%loc.class;
+        |%ednote.class;|constraint">
+<!ENTITY % termdef.pcd.mix
+        "#PCDATA|term|%emph.class;|%ref.class;|%tech.class;
+        |%loc.class;|%ednote.class;">
+<!ENTITY % bibl.pcd.mix
+        "#PCDATA|%emph.class;|%ref.class;|%loc.class;|%ednote.class;">
+<!ENTITY % tech.pcd.mix
+        "#PCDATA|%loc.class;|%ednote.class;">
+
+<!-- ............................................................... -->
+<!-- Entities for customizable content models ...................... -->
+<!-- ............................................................... -->
+
+<!--
+#1998-03-10: maler: Added customization entities.
+#1998-05-14: maler: Allowed prevlocs and latestloc in either order.
+#1999-07-02: maler: Made version optional; added copyright element.
+#2000-03-07: maler: Allowed status and abstract in opposite order.
+-->
+
+<!ENTITY % spec.mdl
+        "header, front?, body, back?">
+
+<!ENTITY % header.mdl
+        "title, subtitle?, version?, w3c-designation, w3c-doctype,
+        pubdate, notice*, publoc, ((prevlocs, latestloc?) |
+        (latestloc, prevlocs?))?, authlist, copyright?,
+        ((status, abstract) | (abstract, status)), pubstmt?,
+        sourcedesc?, langusage, revisiondesc">
+
+<!ENTITY % pubdate.mdl
+        "day?, month, year">
+
+<!-- ............................................................... -->
+<!-- Entities for common attributes ................................ -->
+<!-- ............................................................... -->
+
+<!--
+#2000-03-07: maler: Added %argtypes;.
+-->
+
+<!--    argtypes:
+        Values for function prototype argument datatypes. -->
+<!ENTITY % argtypes
+        '(boolean
+         |expression
+         |location-set
+         |node-set
+         |number
+         |object
+         |point
+         |range
+         |string)'>
+
+<!--    key attribute:
+        Optionally provides a sorting or indexing key, for cases when
+        the element content is inappropriate for this purpose. -->
+<!ENTITY % key.att
+        'key                    CDATA           #IMPLIED'>
+
+<!--    def attribute:
+        Points to the element where the relevant definition can be
+        found, using the IDREF mechanism.  %def.att; is for optional
+        def attributes, and %def-req.att; is for required def
+        attributes. -->
+<!ENTITY % def.att
+        'def                    IDREF           #IMPLIED'>
+<!ENTITY % def-req.att
+        'def                    IDREF           #REQUIRED'>
+
+<!--    ref attribute:
+        Points to the element where more information can be found,
+        using the IDREF mechanism.  %ref.att; is for optional
+        ref attributes, and %ref-req.att; is for required ref
+        attributes. -->
+<!ENTITY % ref.att
+        'ref                    IDREF           #IMPLIED'>
+<!ENTITY % ref-req.att
+        'ref                    IDREF           #REQUIRED'>
+
+<!--
+#1998-03-23: maler: Added show and actuate attributes to href.
+#                   Added semi-common xml:space attribute.
+#1998-08-22: maler: Used new xlink:form and #IMPLIED features.
+#1999-07-02: maler: Reorganized XLink-related entities completely;
+#                   added xmlns:xlink attribute to the mix.
+#2000-03-07: maler: Updated XLink usage to February 2000 draft,
+#                   except that href still has no namespace prefix.
+-->
+
+<!--    xmlns:xlink and xlink:type attributes:
+        xmlns:xlink declares the association of the xlink prefix
+        with the namespace created by the XLink specification.
+        xlink:type identifies an element as an XLink "simple" linking
+        element. -->
+<!ENTITY % simple-xlink.att
+        'xmlns:xlink            CDATA   #FIXED
+                                        "http://www.w3.org/1999/xlink"
+        xlink:type              CDATA   #FIXED "simple" '>
+
+<!--    href attributes:
+        The href attribute locates the remote-resource half of a
+        simple link; the element on which the href appears is the
+        local-resource half.  Some elements are usable links only if
+        the author chooses to supply a functional href.  The attribute
+        name should really be xlink:href, but is kept without the
+        prefix for now in order to be backwards-compatible. -->
+
+<!ENTITY % href.att
+        'href                   CDATA           #IMPLIED '>
+<!ENTITY % href-req.att
+        'href                   CDATA           #REQUIRED '>
+
+<!--    xlink:show and xlink:actuate attributes:
+        These attributes offer instructions to the display engine
+        about how to handle traversal to resource indicated by an
+        href locator. -->
+<!ENTITY % auto-embed.att
+        'xlink:show             CDATA           #FIXED "embed"
+        xlink:actuate           CDATA           #FIXED "onLoad" '>
+<!ENTITY % user-replace.att
+        'xlink:show             CDATA           #FIXED "replace"
+        xlink:actuate           CDATA           #FIXED "onRequest" '>
+<!ENTITY % user-new.att
+        'xlink:show             CDATA           #FIXED "new"
+        xlink:actuate           CDATA           #FIXED "onRequest" '>
+
+<!--    xml:space attribute:
+        Indicates that the element contains whitespace that the
+        formatter or other application should retain, as appropriate
+        to its function. -->
+<!ENTITY % xmlspace.att
+        'xml:space              (default
+                                |preserve)      #FIXED "preserve" '>
+
+<!--
+#2000-03-07: maler: Added common diff attribute.  Made %role.att;.
+-->
+
+<!--    diff attribute:
+        Indicates in what way the element has changed.  When a value
+        is not provided, that subelement should inherit a value from
+        its parent.  If the root element has no value supplied,
+        assume "off". -->
+<!ENTITY % diff.att
+        'diff                   (chg
+                                |add
+                                |del
+                                |off)           #IMPLIED'>
+
+<!--    role attribute:
+        Extends the useful life of the DTD by allowing authors to
+        make a subtype of any element.  No default. -->
+<!ENTITY % role.att
+        'role                   NMTOKEN         #IMPLIED'>
+
+<!--    Common attributes:
+        Every element has an ID attribute for links, a role
+        attribute, and a diff attribute. %common.att; is for
+        common attributes where the ID is optional, and
+        %common-idreq.att; is for common attributes where the
+        ID is required. -->
+<!ENTITY % common.att
+        'id                     ID              #IMPLIED
+        %role.att;
+        %diff.att;'>
+<!ENTITY % common-idreq.att
+        'id                     ID              #REQUIRED
+        %role.att;
+        %diff.att;'>
+
+<!-- ............................................................... -->
+<!-- Common elements ............................................... -->
+<!-- ............................................................... -->
+
+<!--    head: Title on divisions, productions, and the like -->
+<!ELEMENT head (%head.pcd.mix;)*>
+<!ATTLIST head %common.att;>
+
+<!-- ............................................................... -->
+<!-- Major specification structure ................................. -->
+<!-- ............................................................... -->
+
+<!--
+#1998-03-10: maler: Made spec content model easily customizable.
+#1999-07-02: maler: Added doctype atts and status att.
+#2000-03-07: maler: Added cr, issues, and dispcmts to w3c-doctype.
+-->
+
+<!ELEMENT spec (%spec.mdl;)>
+<!--    w3c-doctype attributes:
+        Indicates the type of document, so that the appropriate
+        stylesheet or workflow routing can be applied.  Should
+        *not* generate any text (such as the "REC-" or "NOTE-"
+        prefix on the W3C designation content).  No default.  If
+        w3c-doctype is "other", other-doctype should be filled in.
+
+        status attribute:
+        Indicates the stage of review of the document.  May affect
+        the stylesheet's treatment of ednotes (e.g., whether to
+        output them).  No default. -->
+
+<!ATTLIST spec
+        %common.att;
+        w3c-doctype     (cr
+                        |dispcmts
+                        |issues
+                        |note
+                        |other
+                        |pr
+                        |rec
+                        |wd)                    #IMPLIED
+        other-doctype   CDATA                   #IMPLIED
+        status          (int-review
+                        |ext-review
+                        |final)                 #IMPLIED
+>
+
+<!ELEMENT front (div1+)>
+<!ATTLIST front %common.att;>
+
+<!ELEMENT body (div1+)>
+<!ATTLIST body %common.att;>
+
+<!--
+#1997-09-30: maler: Added inform-div1 to back content.
+-->
+
+<!ELEMENT back ((div1+, inform-div1*) | inform-div1+)>
+<!ATTLIST back %common.att;>
+
+<!ELEMENT div1 (head, (%div.mix;)*, div2*)>
+<!ATTLIST div1 %common.att;>
+
+<!--
+#1997-09-30: maler: Added inform-div1 declarations.
+#2000-03-07: maler: Added div5 level.
+-->
+
+<!--    inform-div1: Non-normative division in back matter -->
+<!ELEMENT inform-div1 (head, (%div.mix;)*, div2*)>
+<!ATTLIST inform-div1 %common.att;>
+
+<!ELEMENT div2 (head, (%div.mix;)*, div3*)>
+<!ATTLIST div2 %common.att;>
+
+<!ELEMENT div3 (head, (%div.mix;)*, div4*)>
+<!ATTLIST div3 %common.att;>
+
+<!ELEMENT div4 (head, (%div.mix;)*, div5*)>
+<!ATTLIST div4 %common.att;>
+
+<!ELEMENT div5 (head, (%div.mix;)*)>
+<!ATTLIST div5 %common.att;>
+
+<!-- ............................................................... -->
+<!-- Specification header .......................................... -->
+<!-- ............................................................... -->
+
+<!--
+#1998-03-10: maler: Made header content model easily customizable.
+-->
+
+<!ELEMENT header (%header.mdl;)>
+<!ATTLIST header %common.att;>
+
+<!--    Example of title: "Extensible Cheese Language (XCL)" -->
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST title %common.att;>
+
+<!--    Example of subtitle: "A Cheesy Specification" -->
+<!ELEMENT subtitle (#PCDATA)>
+<!ATTLIST subtitle %common.att;>
+
+<!--    Example of version: "Version 666.0" -->
+<!ELEMENT version (#PCDATA)>
+<!ATTLIST version %common.att;>
+
+<!--    Example of w3c-designation: "WD-xcl-19991231" -->
+<!ELEMENT w3c-designation (#PCDATA)>
+<!ATTLIST w3c-designation %common.att;>
+
+<!--    Example of w3c-doctype: "W3C Working Draft" -->
+<!ELEMENT w3c-doctype (#PCDATA)>
+<!ATTLIST w3c-doctype %common.att;>
+
+<!--
+#1998-03-10: maler: Made pubdate content model easily customizable.
+-->
+
+<!ELEMENT pubdate (%pubdate.mdl;)>
+<!ATTLIST pubdate %common.att;>
+
+<!ELEMENT day (#PCDATA)>
+<!ATTLIST day %common.att;>
+
+<!ELEMENT month (#PCDATA)>
+<!ATTLIST month %common.att;>
+
+<!ELEMENT year (#PCDATA)>
+<!ATTLIST year %common.att;>
+
+<!--
+#1999-07-02: maler: Declared copyright element.
+-->
+
+<!ELEMENT copyright (%hdr.mix;)+>
+<!ATTLIST copyright %common.att;>
+
+<!--    Example of notice: "This draft is for public comment..." -->
+<!ELEMENT notice (%hdr.mix;)+>
+<!ATTLIST notice %common.att;>
+
+<!--
+#2000-03-07: maler: Broadened models of *loc to %p.pcd.mix;.
+-->
+
+<!ELEMENT publoc (%p.pcd.mix;)*>
+<!ATTLIST publoc %common.att;>
+
+<!ELEMENT prevlocs (%p.pcd.mix;)*>
+<!ATTLIST prevlocs %common.att;>
+
+<!ELEMENT latestloc (%p.pcd.mix;)*>
+<!ATTLIST latestloc %common.att;>
+
+<!--      loc (defined in "Phrase-level elements" below) -->
+
+<!ELEMENT authlist (author+)>
+<!ATTLIST authlist %common.att;>
+
+<!--
+#1997-09-30: maler: Made affiliation optional.
+#1998-03-10: maler: Made email optional.
+-->
+
+<!ELEMENT author (name, affiliation?, email?)>
+<!ATTLIST author %common.att;>
+
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name
+        %common.att;
+        %key.att;>
+
+<!ELEMENT affiliation (#PCDATA)>
+<!ATTLIST affiliation %common.att;>
+
+<!--
+#1999-07-02: maler: Added show/actuate attributes and default values.
+-->
+
+
+<!ELEMENT email (#PCDATA)>
+<!--    href attribute:
+        email functions as a hypertext reference through this
+        required attribute.  Typically the reference would use
+        the mailto: scheme.  E.g.:
+
+<email href="mailto:elm@arbortext.com">elm@arbortext.com</email>
+        -->
+
+<!ATTLIST email
+        %common.att;
+        %simple-xlink.att;
+        %href-req.att;
+        %user-new.att;>
+
+<!--
+#1998-05-15: maler: Changed status content from %statusobj.mix;
+#                   to plain %obj.mix;.  statusp is obsolete.
+-->
+
+<!ELEMENT status (%obj.mix;)+>
+<!ATTLIST status %common.att;>
+
+<!ELEMENT abstract (%hdr.mix;)*>
+<!ATTLIST abstract %common.att;>
+
+<!ELEMENT pubstmt (%hdr.mix;)+>
+<!ATTLIST pubstmt %common.att;>
+
+<!ELEMENT sourcedesc (%hdr.mix;)+>
+<!ATTLIST sourcedesc %common.att;>
+
+<!ELEMENT langusage (language+)>
+<!ATTLIST langusage %common.att;>
+
+<!ELEMENT language (#PCDATA)>
+<!ATTLIST language %common.att;>
+
+<!ELEMENT revisiondesc (%hdr.mix;)+>
+<!ATTLIST revisiondesc %common.att;>
+
+<!-- ............................................................... -->
+<!-- Paragraph ..................................................... -->
+<!-- ............................................................... -->
+
+<!--
+#1997-09-30: maler: Changed from %obj.mix; to %p.mix;.
+#1997-12-29: maler: Changed order of %p.mix; and %p.pcd.mix;
+#                   references.
+#1997-12-29: maler: Changed order of %statusobj.mix; and
+#                   %statusp.pcd.mix; references.
+#1998-05-14: maler: Removed statusp declarations.
+-->
+
+<!ELEMENT p (%p.pcd.mix;|%p.mix;)*>
+<!ATTLIST p %common.att;>
+
+<!-- ............................................................... -->
+<!-- Regular lists ................................................. -->
+<!-- ............................................................... -->
+
+<!--    ulist: Unordered list, typically bulleted. -->
+<!ELEMENT ulist (item+)>
+<!--    spacing attribute:
+        Use "normal" to get normal vertical spacing for items;
+        use "compact" to get less spacing.  The default is dependent
+        on the stylesheet. -->
+<!ATTLIST ulist
+        %common.att;
+        spacing         (normal|compact)        #IMPLIED>
+
+<!--    olist: Ordered list, typically numbered. -->
+<!ELEMENT olist (item+)>
+<!--    spacing attribute:
+        Use "normal" to get normal vertical spacing for items;
+        use "compact" to get less spacing.  The default is dependent
+        on the stylesheet. -->
+<!ATTLIST olist
+        %common.att;
+        spacing         (normal|compact)        #IMPLIED>
+
+<!ELEMENT item (%obj.mix;)+>
+<!ATTLIST item %common.att;>
+
+<!--    slist: Simple list, typically with no mark. -->
+<!ELEMENT slist (sitem+)>
+<!ATTLIST slist %common.att;>
+
+<!ELEMENT sitem (%p.pcd.mix;)*>
+<!ATTLIST sitem %common.att;>
+
+<!--    glist: Glossary list, typically two-column. -->
+<!ELEMENT glist (gitem+)>
+<!ATTLIST glist %common.att;>
+
+<!ELEMENT gitem (label, def)>
+<!ATTLIST gitem %common.att;>
+
+<!ELEMENT label (%label.pcd.mix;)*>
+<!ATTLIST label %common.att;>
+
+<!ELEMENT def (%obj.mix;)*>
+<!ATTLIST def %common.att;>
+
+<!-- ............................................................... -->
+<!-- Special lists ................................................. -->
+<!-- ............................................................... -->
+
+<!--    blist: Bibliography list. -->
+<!ELEMENT blist (bibl+)>
+<!ATTLIST blist %common.att;>
+
+<!--
+#1999-07-02: maler: Added show/actuate attributes and default values.
+-->
+
+<!ELEMENT bibl (%bibl.pcd.mix;)*>
+<!--    href attribute:
+        bibl optionally functions as a hypertext reference to the
+        referred-to resource through this attribute.  E.g.:
+
+        <bibl href="http://www.my.com/doc.htm">My Document</bibl>
+        -->
+<!ATTLIST bibl
+        %common.att;
+        %simple-xlink.att;
+        %href.att;
+        %user-replace.att;
+        %key.att;>
+
+<!--    orglist: Organization member list. -->
+<!ELEMENT orglist (member+)>
+<!ATTLIST orglist %common.att;>
+
+<!--
+#1997-09-30: maler: Added optional affiliation.
+-->
+
+<!ELEMENT member (name, affiliation?, role?)>
+<!ATTLIST member %common.att;>
+
+<!--      name (defined in "Specification header" above) -->
+<!--      affiliation (defined in "Specification header" above) -->
+
+<!ELEMENT role (#PCDATA)>
+<!ATTLIST role %common.att;>
+
+<!-- ............................................................... -->
+<!-- Notes ......................................................... -->
+<!-- ............................................................... -->
+
+<!ELEMENT note (%obj.mix;)+>
+<!ATTLIST note %common.att;>
+
+<!--
+#1998-05-14: maler: Declared issue element.
+#2000-03-07: maler: Added head, source, resolution, and status.
+-->
+
+<!ELEMENT issue (head?, source*, (%obj.mix;)+, resolution?)>
+<!--    status attribute:
+        Indicates whether the issue is open or closed.  Note that
+        the lack of a resolution element does not necessarily mean
+        that the issue is still open. -->
+<!ATTLIST issue
+        id              ID              #REQUIRED
+        %role.att;
+        %diff.att;
+        status          (open
+                        |closed)        "open"
+>
+
+<!ELEMENT source (%p.pcd.mix;)*>
+<!ATTLIST source
+        %common.att;>
+
+<!ELEMENT resolution (%obj.mix;)+>
+<!ATTLIST resolution %common.att;>
+
+<!--    wfcnote: Well-formedness constraint note. -->
+<!ELEMENT wfcnote (head, (%obj.mix;)+)>
+<!--    ID attribute:
+        wfcnote must have an ID so that it can be pointed to
+        from a wfc element in a production. -->
+<!ATTLIST wfcnote
+        %common-idreq.att;>
+
+<!--    vcnote: Validity constraint note. -->
+<!ELEMENT vcnote (head, (%obj.mix;)+)>
+<!--    ID attribute:
+        vcnote must have an ID so that it can be pointed to
+        from a vc element in a production. -->
+<!ATTLIST vcnote
+        %common-idreq.att;>
+
+<!--
+#1998-05-21: maler: Declared generic constraintnote element.
+-->
+
+<!--    constraintnote: Generic constraint note. -->
+<!ELEMENT constraintnote (head, (%obj.mix;)+)>
+<!--    ID attribute:
+        constraintnote must have an ID so that it can be
+        pointed to from a constraint element in a production. -->
+<!--    type attribute:
+        constraintnote must have a type value keyword so that
+        it can be correctly characterized in the specification. -->
+<!ATTLIST constraintnote
+        %common-idreq.att;
+        type            NMTOKEN         #REQUIRED>
+
+<!-- ............................................................... -->
+<!-- Basic display elements ........................................ -->
+<!-- ............................................................... -->
+
+<!--
+#1998-03-23: maler: Added xml:space attribute.
+-->
+
+<!--    eg: Example element, with whitespace respected. -->
+<!ELEMENT eg (%eg.pcd.mix;)*>
+<!ATTLIST eg
+        %common.att;
+        %xmlspace.att;>
+
+<!--
+#2000-03-07: maler: Removed the xml:attributes attribute.
+#                   Added %local.graphic.att;.
+-->
+
+<!--    graphic: Displayed graphic.  Graphic data should be
+        displayed at the point where it is referenced.  Not
+        actually conforming to XLink right now. -->
+<!ELEMENT graphic EMPTY>
+<!--    source attribute:
+        The graphic data must reside at the location pointed to. -->
+<!ENTITY % local.graphic.att "">
+<!ATTLIST graphic
+        %common.att;
+        %simple-xlink.att;
+        source                  CDATA           #REQUIRED
+        %auto-embed.att;
+        alt                     CDATA           #IMPLIED
+        %local.graphic.att;>
+
+<!--
+#2000-03-07: maler: Added proto element structure.
+-->
+
+<!--    proto: Function prototype, in the XPath/XPointer style. -->
+<!ELEMENT proto (arg*)>
+<!ATTLIST proto
+        %common.att;
+        name            NMTOKEN         #REQUIRED
+        return-type     %argtypes;      #REQUIRED
+>
+
+<!ELEMENT arg EMPTY>
+<!ATTLIST arg
+        %common.att;
+        type            %argtypes;      #REQUIRED
+        occur           (opt|req)       #IMPLIED
+>
+
+<!--
+#2000-03-07: maler: Added example element.
+-->
+
+<!ELEMENT example (head?, (%obj.mix;)+)>
+<!ATTLIST example %common.att;>
+
+<!-- ............................................................... -->
+<!-- EBNF .......................................................... -->
+<!-- ............................................................... -->
+
+<!--
+#1997-11-28: maler: Added prodgroup to scrap and defined it.
+#1998-05-21: maler: Added constraint to prod.
+#1999-07-02: maler: Added prodrecap to scrap; broadened scrap model.
+#                   Added headstyle attribute to scrap.
+-->
+
+<!--    scrap: Collection of EBNF language productions. -->
+<!ELEMENT scrap (head, (prodgroup | prod | bnf | prodrecap)+)>
+<!--    lang attribute:
+        The scrap can link to a description of the language used,
+        found in a language element in the header.
+        headstyle attribute:
+        Allows a scrap title to be suppressed from output.  To be
+        used only when a scrap title directly next to a section
+        title is distracting or repetetive. -->
+<!ATTLIST scrap
+        %common.att;
+        lang            IDREF           #IMPLIED
+        headstyle       (show|suppress) "show"
+>
+
+<!--    prodgroup: Sub-collection of productions, needed for
+        formatting reasons. -->
+<!ELEMENT prodgroup (prod+)>
+<!--    pcw<n> attributes:
+        Presentational attributes to control the width
+        of the "pseudo-table" columns used to output
+        groups of productions. -->
+<!ATTLIST prodgroup
+        %common.att;
+        pcw1            CDATA           #IMPLIED
+        pcw2            CDATA           #IMPLIED
+        pcw3            CDATA           #IMPLIED
+        pcw4            CDATA           #IMPLIED
+        pcw5            CDATA           #IMPLIED
+>
+
+<!--    prod: EBNF language production. -->
+<!ELEMENT prod (lhs, (rhs, (com|wfc|vc|constraint)*)+)>
+<!--    ID attribute:
+        The production must have an ID so that cross-references
+        (specref) and mentions of nonterminals (nt) can link to
+        it. -->
+<!ATTLIST prod
+        %common-idreq.att;>
+
+<!--    lhs: Left-hand side of production. -->
+<!ELEMENT lhs (#PCDATA)>
+<!ATTLIST lhs %common.att;>
+
+<!--    rhs: Right-hand side of production; may have many
+        "right-hand sides," one to a line. -->
+<!ELEMENT rhs (#PCDATA|nt|xnt|com)*>
+<!ATTLIST rhs %common.att;>
+
+<!--      nt and xnt (defined in "Phrase-level elements" below) -->
+
+<!--
+#1997-11-28: maler: Added loc and bibref to com content.
+-->
+
+<!--    com: Production comment. -->
+<!ELEMENT com (#PCDATA|loc|bibref)*>
+<!ATTLIST com %common.att;>
+
+<!--    wfc: Reference to a well-formedness constraint; should
+        generate the head of the wfcnote pointed to. -->
+<!ELEMENT wfc EMPTY>
+<!--    def attribute:
+        Each well formedness tagline in a production must link to the
+        wfcnote that defines it. -->
+<!ATTLIST wfc
+        %def-req.att;
+        %common.att;>
+
+<!--    vc: Reference to a validity constraint; should generate
+        the head of the vcnote pointed to. -->
+<!ELEMENT vc EMPTY>
+<!--    def attribute:
+        Each validity tagline in a production must link to the vcnote
+        that defines it. -->
+<!ATTLIST vc
+        %def-req.att;
+        %common.att;>
+
+<!--
+#1998-05-21: maler: Declared generic constraint element.
+-->
+
+<!--    constraint: Reference to a generic constraint; should
+        generate the head of the constraintnote pointed to. -->
+<!ELEMENT constraint EMPTY>
+<!--    def attribute:
+        Each constraint tagline in a production must link to the
+        constraint note that defines it. -->
+<!ATTLIST constraint
+        %def-req.att;
+        %common.att;>
+
+<!--
+#1998-03-23: maler: Added xml:space attribute.
+-->
+
+<!--    bnf: Un-marked-up EBNF production, with whitespace
+        respected. -->
+<!ELEMENT bnf (%eg.pcd.mix;)*>
+<!ATTLIST bnf
+        %common.att;
+        %xmlspace.att;>
+
+<!--
+#1999-07-02: maler: Declared prodrecap.
+-->
+
+<!--    prodrecap: Reference to production or bnf that appears
+        in its "normative" form elsewhere in the spec; should
+        generate a copy of the original production, without
+        a production number next to it. -->
+<!ELEMENT prodrecap EMPTY>
+<!ATTLIST prodrecap
+        %common.att;
+        %ref-req.att;>
+
+<!-- ............................................................... -->
+<!-- Table ......................................................... -->
+<!-- ............................................................... -->
+
+<!--
+#1997-10-16: maler: Added table mechanism.
+#1997-11-28: maler: Added non-null system ID to entity declaration.
+#                   Added HTML table module.
+#1997-12-29: maler: IGNOREd SGML Open table model.
+#1998-03-10: maler: Removed SGML Open table model.
+#                   Merged html-tbl.mod file into main file.
+#                   Added %common.att; to all HTML table elements.
+#1998-05-14: maler: Replaced table model with full HTML 4.0 model.
+#                   Removed htable in favor of table.
+#                   Removed htbody in favor of tbody.
+-->
+
+<!ENTITY % cellhalign.att
+        'align          (left|center
+                        |right|justify
+                        |char)          #IMPLIED
+        char            CDATA           #IMPLIED
+        charoff         CDATA           #IMPLIED'>
+
+<!ENTITY % cellvalign.att
+        'valign         (top|middle
+                        |bottom
+                        |baseline)      #IMPLIED'>
+
+<!ENTITY % thtd.att
+        'abbr           CDATA           #IMPLIED
+        axis            CDATA           #IMPLIED
+        headers         IDREFS          #IMPLIED
+        scope           (row
+                        |col
+                        |rowgroup
+                        |colgroup)      #IMPLIED
+        rowspan         NMTOKEN         "1"
+        colspan         NMTOKEN         "1"'>
+
+<!ENTITY % width.att
+        'width          CDATA           #IMPLIED'>
+
+<!ENTITY % span.att
+        'span           NMTOKEN         "1"'>
+
+<!--    table: HTML-based geometric table model. -->
+<!ELEMENT table
+        (caption?, (col*|colgroup*), thead?, tfoot?, tbody+)>
+<!ATTLIST table
+        %common.att;
+        %width.att;
+        summary         CDATA           #IMPLIED
+        border          CDATA           #IMPLIED
+        frame           (void|above
+                        |below|hsides
+                        |lhs|rhs
+                        |vsides|box
+                        |border)        #IMPLIED
+        rules           (none|groups
+                        |rows|cols
+                        |all)           #IMPLIED
+        cellspacing     CDATA           #IMPLIED
+        cellpadding     CDATA           #IMPLIED>
+
+<!ELEMENT caption (%p.pcd.mix;)*>
+<!ATTLIST caption %common.att;>
+
+<!ELEMENT col EMPTY>
+<!ATTLIST col
+        %common.att;
+        %span.att;
+        %width.att;
+        %cellhalign.att;
+        %cellvalign.att;>
+
+<!ELEMENT colgroup (col)*>
+<!ATTLIST colgroup
+        %common.att;
+        %span.att;
+        %width.att;
+        %cellhalign.att;
+        %cellvalign.att;>
+
+<!ELEMENT thead (tr)+>
+<!ATTLIST thead
+        %common.att;
+        %cellhalign.att;
+        %cellvalign.att;>
+
+<!ELEMENT tfoot (tr)+>
+<!ATTLIST tfoot
+        %common.att;
+        %cellhalign.att;
+        %cellvalign.att;>
+
+<!ELEMENT tbody (tr)+>
+<!ATTLIST tbody
+        %common.att;
+        %cellhalign.att;
+        %cellvalign.att;>
+
+<!ELEMENT tr (th|td)+>
+<!ATTLIST tr
+        %common.att;
+        %cellhalign.att;
+        %cellvalign.att;>
+
+<!ELEMENT th (%p.pcd.mix;|%p.mix;)*>
+<!ATTLIST th
+        %common.att;
+        %thtd.att;
+        %cellhalign.att;
+        %cellvalign.att;>
+
+<!ELEMENT td (%p.pcd.mix;|%p.mix;)*>
+<!ATTLIST td
+        %common.att;
+        %thtd.att;
+        %cellhalign.att;
+        %cellvalign.att;>
+
+<!-- ............................................................... -->
+<!-- IDL structures for DOM specifications ......................... -->
+<!-- ............................................................... -->
+
+<!-- ............................................................... -->
+<!-- Specialized entities for classes .............................. -->
+
+<!ENTITY % idl-desc.class
+        "p|note">
+
+<!ENTITY % idl-tdef.class
+        "typedef|constant|exception|reference|group">
+
+<!ENTITY % idl-mod.class
+        "module|interface">
+
+<!ENTITY % idl-struct.class
+        "struct|enum|sequence|union|typename">
+
+<!ENTITY % idl-meth.class
+        "method|attribute">
+
+<!-- ............................................................... -->
+<!-- Specialized entities for mixtures ............................. -->
+
+<!--    Quick reference to content model mixtures:
+
+                        desc tdef mod struct meth
+group                     x    x   x    x      x
+definitions, module       x    x   x
+interface                 x    x               x
+typedef, case, component                x
+-->
+
+<!ENTITY % idl-grp.mix
+        "%idl-desc.class;|%idl-tdef.class;|%idl-mod.class;
+        |%idl-struct.class;|%idl-meth.class;">
+
+<!ENTITY % idl-defn.mix
+        "%idl-desc.class;|%idl-tdef.class;|%idl-mod.class;">
+
+<!ENTITY % idl-intfc.mix
+        "%idl-desc.class;|%idl-tdef.class;|%idl-meth.class;">
+
+<!ENTITY % idl-type.mix
+        "%idl-struct.class;">
+
+<!-- ............................................................... -->
+<!-- Specialized entities for common attributes .................... -->
+
+<!--    name attribute:
+        Provides a name.  Required. -->
+<!ENTITY % idl-name.att
+        'name                   CDATA           #REQUIRED'>
+
+<!--    type attribute:
+        Provides a type.  Required. -->
+<!ENTITY % idl-type.att
+        'type                   CDATA           #REQUIRED'>
+
+<!-- ............................................................... -->
+<!-- Common IDL element ............................................ -->
+
+<!ELEMENT descr ((%obj.mix;)*)>
+<!ATTLIST descr %common.att;>
+
+<!-- ............................................................... -->
+<!-- IDL definition elements ....................................... -->
+
+<!--    definitions: Top-level element for definitions. -->
+<!ELEMENT definitions (%idl-defn.mix;)+>
+<!ATTLIST definitions %common.att;>
+
+<!--    group: Element used to group a set of definitions. -->
+
+<!ELEMENT group (descr, (%idl-grp.mix;)*)>
+<!ATTLIST group
+        %common.att;
+        %idl-name.att;>
+
+<!--    interface: Definition of an interface. -->
+<!ELEMENT interface (descr, (%idl-intfc.mix;)*)>
+<!ATTLIST interface
+        %common.att;
+        %idl-name.att;
+        inherits        CDATA           #IMPLIED>
+
+<!--    module: Definition of a module. -->
+<!ELEMENT module (descr, (%idl-defn.mix;)*)>
+<!ATTLIST module
+        %common.att;
+        %idl-name.att;>
+
+<!--    reference: Reference to some other declaration. -->
+<!ELEMENT reference EMPTY>
+<!ATTLIST reference
+        %common.att;
+        declaration     IDREF           #REQUIRED>
+
+<!--    typedef: Definition of a named type. -->
+<!ELEMENT typedef (descr, (%idl-type.mix;))>
+<!ATTLIST typedef
+        %common.att;
+        %idl-name.att;
+        array.size      NMTOKEN         #IMPLIED>
+
+<!--    struct: Declaration of a struct type. -->
+<!ELEMENT struct (descr, component+)>
+<!ATTLIST struct
+        %common.att;
+        %idl-name.att;>
+
+<!--    component: Declaration of a structural member. -->
+<!ELEMENT component (%idl-type.mix;)>
+<!ATTLIST component
+        %common.att;
+        %idl-name.att;>
+
+<!--    union: Declaration of a union type. -->
+<!ELEMENT union (descr, case+)>
+<!ATTLIST union
+        %common.att;
+        %idl-name.att;
+        switch.type     CDATA           #REQUIRED>
+
+<!ELEMENT case (descr, (%idl-type.mix;))>
+<!ATTLIST case
+        %common.att;
+        labels          CDATA           #REQUIRED>
+
+<!--    enum: Declaration of an enum type. -->
+<!ELEMENT enum (descr, enumerator+)>
+<!ATTLIST enum
+        %common.att;
+        %idl-name.att;>
+
+<!ELEMENT enumerator (descr)>
+<!ATTLIST enumerator
+        %common.att;
+        %idl-name.att;>
+
+<!--    sequence: Declaration of a sequence type (not named). -->
+<!ELEMENT sequence (sequence*)>
+<!ATTLIST sequence
+        %common.att;
+        %idl-type.att;
+        size            NMTOKEN         #IMPLIED>
+
+<!--    constant: Declaration of a named constant. -->
+<!ELEMENT constant (descr)>
+<!ATTLIST constant
+        %common.att;
+        %idl-name.att;
+        %idl-type.att;
+        value           CDATA           #REQUIRED>
+
+<!--    exception: Declaration of an exception. -->
+<!ELEMENT exception (descr, component*)>
+<!ATTLIST exception
+        %common.att;
+        %idl-name.att;>
+<!-- component (defined under struct, above)-->
+
+<!--    attribute: Declaration of an attribute (data member). -->
+<!ELEMENT attribute (descr)>
+<!ATTLIST attribute
+        %common.att;
+        %idl-name.att;
+        %idl-type.att;
+        readonly        (yes
+                        |no)            "no">
+
+<!--    method: Declaration of a method. -->
+<!ELEMENT method (descr, parameters, returns, raises)>
+<!ATTLIST method
+        %common.att;
+        %idl-name.att;>
+
+<!ELEMENT parameters (param*)>
+<!ATTLIST parameters %common.att;>
+
+<!ELEMENT param (descr)>
+<!ATTLIST param
+        %common.att;
+        %idl-name.att;
+        %idl-type.att;
+        attr            (in
+                        |out
+                        |inout)         "inout">
+
+<!ELEMENT returns (descr)>
+<!ATTLIST returns
+        %common.att;
+        %idl-type.att;>
+
+<!ELEMENT raises (exception*)>
+<!-- exception (defined under constant, above)-->
+
+<!ELEMENT typename (#PCDATA)>
+<!ATTLIST typename %common.att;>
+
+<!-- ............................................................... -->
+<!-- Phrase-level elements ......................................... -->
+<!-- ............................................................... -->
+
+<!--
+#2000-03-07: maler: Added att and attval elements.
+-->
+
+<!--    att: Attribute name. -->
+<!ELEMENT att (%tech.pcd.mix;)*>
+<!ATTLIST att %common.att;>
+
+<!--    attval: Attribute value. -->
+<!ELEMENT attval (%tech.pcd.mix;)*>
+<!ATTLIST attval %common.att;>
+
+<!--    bibref: Reference to a bibliography list entry; should
+        generate, in square brackets, "key" on bibl. -->
+<!ELEMENT bibref EMPTY>
+<!--    ref attribute:
+        A bibliography reference must link to the bibl element that
+        describes the resource. -->
+<!ATTLIST bibref
+        %common.att;
+        %ref-req.att;>
+
+<!ELEMENT code (%tech.pcd.mix;)*>
+<!ATTLIST code %common.att;>
+
+<!--
+#1998-03-10: maler: Declared ednote and related elements.
+#1999-07-02: maler: Changed edtext content from #PCDATA to %p.pcd.mix;.
+-->
+
+<!--    ednote: Editorial note for communication among editors. -->
+<!ELEMENT ednote (name?, date?, edtext)>
+<!ATTLIST ednote %common.att;>
+
+<!ELEMENT date (#PCDATA)>
+<!ATTLIST date %common.att;>
+
+<!ELEMENT edtext (%p.pcd.mix;)*>
+<!ATTLIST edtext %common.att;>
+
+<!--
+#2000-03-07: maler: Added el element.
+-->
+
+<!--    el: Element type name (GI). -->
+<!ELEMENT el (%tech.pcd.mix;)*>
+<!ATTLIST el %common.att;>
+
+<!--
+#2000-03-07: maler: Expanded emph to %p.pcd.mix;.
+-->
+
+<!ELEMENT emph (%p.pcd.mix;)*>
+<!ATTLIST emph %common.att;>
+
+<!--    footnote: Both footnote content and call to footnote. -->
+<!ELEMENT footnote (%obj.mix;)+>
+<!ATTLIST footnote %common.att;>
+
+<!--
+#2000-03-07: maler: Added function and gave it content of
+#                   %tech.pcd.mix; instead of XPath's #PCDATA.
+-->
+
+<!ELEMENT function (%tech.pcd.mix;)*>
+<!ATTLIST function %common.att;>
+
+<!ELEMENT kw (%tech.pcd.mix;)*>
+<!ATTLIST kw %common.att;>
+
+<!--
+#1999-07-02: maler: Added show/actuate attributes and default values.
+-->
+
+<!--    loc: Generic link to a Web resource, similar to HTML's A. -->
+<!ELEMENT loc (#PCDATA)>
+<!--    href attribute:
+        The purpose of a loc element is to function as a A-like
+        hypertext link to a resource.  (Ideally, the content of loc
+        will also mention the URI of the resource, so that readers of
+        the printed version will be able to locate the resource.) E.g.:
+
+<loc href="http://www.my.com/doc.htm">http://www.my.com/doc.htm</loc>
+        -->
+<!ATTLIST loc
+        %common.att;
+        %simple-xlink.att;
+        %href-req.att;
+        %user-replace.att;>
+
+<!--    nt: Mention of a nonterminal in text, along with a link to
+        the production in the current document that defines it. -->
+<!ELEMENT nt (#PCDATA)>
+<!--    def attribute:
+        The nonterminal must link to the production that defines
+        it. -->
+<!ATTLIST nt
+        %common.att;
+        %def-req.att;>
+
+<!--
+#2000-03-07: maler: Declared phrase.
+-->
+
+<!--    phrase: "Attribute hanger" for small bits of (e.g.) differenced
+        text in a paragraph or similar, when another element isn't handy.
+        Beware that its content model may allow more nested elements than
+        would normally be allowed in some contexts. -->
+<!ELEMENT phrase (%p.pcd.mix;)*>
+<!ATTLIST phrase %common.att;>
+
+<!--
+#1998-03-10: maler: Declared quote.
+-->
+
+<!--    quote: Scare quotes and other purely presentational quotes. -->
+<!ELEMENT quote (%p.pcd.mix;)*>
+<!ATTLIST quote %common.att;>
+
+<!--    specref: Reference to a div, olist item, prod, or issue
+        in the current document; should generate italic "[n.n],
+        Section Title" for div, "n" for numbered item, "[n]" for
+        production, or "Issue id" for issue. -->
+<!ELEMENT specref EMPTY>
+<!--    ref attribute:
+        The purpose of a specref element is to link to a div, item
+        in an olist, or production in the current spec. -->
+<!ATTLIST specref
+        %common.att;
+        %ref-req.att;>
+
+<!--
+#2000-03-07: maler: Added sub and sup.
+-->
+
+<!--    sub: Subscript. -->
+<!ELEMENT sub (#PCDATA)>
+<!ATTLIST sub %common.att;>
+
+<!--    sup: Superscript. -->
+<!ELEMENT sup (#PCDATA)>
+<!ATTLIST sup %common.att;>
+
+<!--    term: The term in text that is being defined in text. -->
+<!ELEMENT term (#PCDATA)>
+<!ATTLIST term %common.att;>
+
+<!--    termdef: Definition of a term in text. -->
+<!ELEMENT termdef (%termdef.pcd.mix;|%termdef.mix;)*>
+<!--    ID attribute:
+        A term definition must have an ID so that it can be linked
+        to from termref elements. -->
+<!--    term attribute:
+        The canonical form of the term or phrase being defined must
+        appear in this attribute, even if the term or phrase also
+        appears in the element content in identical form (e.g., in
+        the term element). -->
+<!ATTLIST termdef
+        %common-idreq.att;
+        term            CDATA           #REQUIRED>
+
+<!--    termref: Mention of a term, along with a link to the
+        definition in the current document. -->
+<!ELEMENT termref (#PCDATA)>
+<!--    ref attribute:
+        A term reference must link to the termdef element that
+        defines the term. -->
+<!ATTLIST termref
+        %common.att;
+        %def-req.att;>
+
+<!--
+#1999-07-02: maler: Added show/actuate attributes and default values.
+-->
+
+<!--    titleref: Citation of another document, which can also
+        link to that document if it is a Web resource. -->
+<!ELEMENT titleref (#PCDATA)>
+<!--    href attribute:
+        A title reference can optionally function as a hypertext
+        link to the resource with this title.  E.g.:
+
+<loc href="http://www.my.com/doc.htm">http://www.my.com/doc.htm</loc>
+        -->
+
+<!ATTLIST titleref
+        %common.att;
+        %simple-xlink.att;
+        %href.att;
+        %user-new.att;>
+
+<!--
+#2000-03-07: maler: Added var.
+-->
+
+<!--    var: String standing for a variable value that the user
+        or system will supply.  For example: "For each node
+        <var>x</var> in this node-set..." -->
+<!ELEMENT var (%tech.pcd.mix;)*>
+<!ATTLIST var %common.att;>
+
+<!--
+#1999-07-02: maler: Added show/actuate attributes and default values.
+-->
+
+<!--    xnt: Mention of a nonterminal in text, along with a link to
+        the production in another document that defines it. -->
+<!ELEMENT xnt (#PCDATA)>
+<!--    href attribute:
+        The nonterminal must hyperlink to a resource that serves
+        to define it (e.g., a production in a related XML
+        specification).  E.g.:
+
+<xnt href="http://www.w3.org/TR/spec.htm#prod3">Name</xnt>
+        -->
+
+<!ATTLIST xnt
+        %common.att;
+        %simple-xlink.att;
+        %href-req.att;
+        %user-new.att;>
+
+<!--
+#1997-12-29: maler: Declared xspecref.
+#1999-07-02: maler: Added show/actuate attributes and default values.
+-->
+
+<!--    xspecref: Reference to a div, olist item, prod, or issue
+        in a related specification document; should generate
+        no special text. -->
+<!ELEMENT xspecref (#PCDATA)>
+<!--    href attribute:
+        The spec reference must hyperlink to the resource to
+        cross-refer to (e.g., a section in a related XML
+        specification).  E.g.:
+
+<xspecref href="http://www.w3.org/TR/spec.htm#sec2">
+the section on constraints</xspecref>
+        -->
+
+<!ATTLIST xspecref
+        %common.att;
+        %simple-xlink.att;
+        %href-req.att;
+        %user-new.att;>
+
+<!--
+#1999-07-02: maler: Added show/actuate attributes and default values.
+-->
+
+<!--    termref: Mention of a term, along with a link to the
+        definition in a related document. -->
+<!ELEMENT xtermref (#PCDATA)>
+<!--    href attribute:
+        The term reference must hyperlink to the resource that
+        serves to define the term (e.g., a term definition in
+        a related XML specification).  E.g.:
+
+<xtermref href="http://www.w3.org/TR/spec.htm#term5">
+entity
+</xtermref>
+        -->
+
+<!ATTLIST xtermref
+        %common.att;
+        %simple-xlink.att;
+        %href-req.att;
+        %user-new.att;>
+
+<!-- ............................................................... -->
+<!-- Unused elements for ADEPT ..................................... -->
+<!-- ............................................................... -->
+
+<!--
+#1997-09-30: maler: Added unusued elements.
+#1997-10-14: maler: Fixed div to move nested div to the mixture.
+#1998-05-14: maler: Added key-term, htable, and htbody.
+#1998-11-30: maler: Added para, listitem, itemizedlist, and orderedlist.
+-->
+
+<!--    The following elements are purposely declared but never
+        referenced.  Declaring them allows them to be pasted from
+        an HTML document, an earlier version of an XMLspec document,
+        or a DocBook document into a document using this DTD in ADEPT.
+        The ATD Context Transformation mechanism will try to convert
+        them to the appropriate element for this DTD.  While this
+        conversion will not work for all fragments, it does allow many
+        cases to work reasonably well. -->
+
+<!ELEMENT div
+        (head?, (%div.mix;|ul|ol|h1|h2|h3|h4|h5|h6|div)*)>
+<!ELEMENT h1 (%head.pcd.mix;|em|a)*>
+<!ELEMENT h2 (%head.pcd.mix;|em|a)*>
+<!ELEMENT h3 (%head.pcd.mix;|em|a)*>
+<!ELEMENT h4 (%head.pcd.mix;|em|a)*>
+<!ELEMENT h5 (%head.pcd.mix;|em|a)*>
+<!ELEMENT h6 (%head.pcd.mix;|em|a)*>
+<!ELEMENT pre (%eg.pcd.mix;|em)*>
+<!ELEMENT ul (item|li)*>
+<!ELEMENT ol (item|li)*>
+<!ELEMENT li (#PCDATA|%obj.mix;)*>
+<!ELEMENT em (#PCDATA)>
+<!ELEMENT a (#PCDATA)>
+
+<!ELEMENT key-term (#PCDATA)>
+<!ELEMENT htable
+        (caption?, (col*|colgroup*), thead?, tfoot?, tbody+)>
+<!ELEMENT htbody (tr)+>
+<!ELEMENT statusp (%p.pcd.mix;|%p.mix;)*>
+
+<!ELEMENT itemizedlist (listitem*)>
+<!ELEMENT orderedlist (listitem*)>
+<!ELEMENT listitem (para*)>
+<!ELEMENT para (#PCDATA)>
+
+<!-- ............................................................... -->
+<!-- Change history ................................................ -->
+<!-- ............................................................... -->
+
+<!--
+#1997-08-18: maler
+#- Did a major revision.
+#1997-09-10: maler
+#- Updated FPI.
+#- Removed namekey element and put key attribute on name element.
+#- Made statusp element and supporting entities.
+#- Added slist element with sitem+ content.
+#- Required head on scrap and added new bnf subelement.
+#- Added an xnt element and allowed it and nt in regular text and rhs.
+#- Removed the ntref element.
+#- Added back the com element to the content of rhs.
+#- Added a key attribute to bibl.
+#- Removed the ident element.
+#- Added a term element to be used inside termdef.
+#- Added an xtermref element parallel to termref.
+#- Beefed up DTD comments.
+#1997-09-12: maler
+#- Allowed term element in general text.
+#- Changed bibref to EMPTY.
+#- Added ref.class to termdef.pcd.mix.
+#1997-09-14: maler
+#- Changed main attribute of xtermref from def to href.
+#- Added termdef.class to label contents.
+#1997-09-30: maler
+#- Added character entity module and added new entities.
+#- Removed p from appearing directly in self; created %p.mix;.
+#- Added inform-div (non-normative division) element.
+#- Fixed xtermref comment to mention href, not ref.
+#- Extended orglist model to allow optional affiliation.
+#- Modified author to make affiliation optional.
+#- Added %speclist.class; and %note.class; to %obj.mix; and %p.mix;.
+#- Added %note.class; and %illus.class; to %termdef.pcd.mix;.
+#- Added unused HTML elements.
+#- Put empty system ID next to public ID in entity declarations.
+#1997-10-14: maler
+#- Fixed "unused" div content model to move nested div to mixture.
+#1997-10-16: maler
+#- Added SGML Open Exchange tables.
+#1997-11-28: maler
+#- Added support for prodgroup and its attributes.
+#- Added support for HTML tables.
+#- Added loc and bibref to content of com.
+#- Added loc to general p content models.
+#- Allowed p as alternative to statusp in status.
+#- Added non-null system IDs to external parameter entity declarations.
+#- (Modified the SGML Open table module to make it XML-compliant.)
+#- (Modified the character entity module.)
+#1997-12-29: maler
+#- Moved #PCDATA occurrences to come before GIs in content models.
+#- Removed use of the SGML Open table module.
+#- Added xspecref element.
+#- Ensured that all FPIs contain 4-digit year.
+#- (Modified the character entity module.)
+#1998-03-10: maler
+#- Merged the character entity and table modules into the main file.
+#- Added ldquo and rdquo entities.
+#- Added common attributes to prodgroup.
+#- Made the email element in header optional.
+#- Removed reference to the SGML Open table model.
+#- Added ednote element.
+#- Added quote element.
+#- Updated XLink usage to reflect 3 March 1998 WD.
+#- Added "local" entities to the class entities for customization.
+#- Parameterized several content models to allow for customization.
+#1998-03-23: maler
+#- Cleaned up some comments and removed some others.
+#- Added xml:space semi-common attribute to eg and bnf elements.
+#- Added show and embed attributes on all the uses of href.
+#- Added %common.att; to all HTML table elements.
+#- Added a real URI to the "typical invocation" comment.
+#1998-05-14: maler
+#- Fixed mdash, ldquo, and rdquo character entities.
+#- Switched to the full HTML 4.0 table model.
+#- Removed htable/htbody elements and replaced them with table/tbody.
+#- Added issue element to %note.class; and declared it.
+#- Allowed prevlocs and latestloc in either order.
+#- Added key-term, htable, htbody, and statusp as unused elements.
+#- Removed real statusp element in favor of plain p.
+#1998-05-21: maler
+#- Declared generic constraint and constraintnote elements.
+#- Added constraintnote to %note.class;.
+#- Added constraint to %eg.pcd.mix; and prod content model.
+#1998-08-22: maler
+#- Fixed %illus.class; to mention table instead of htable.
+#- Added definitions to %illus.class; for DOM model.
+#- Added DOM definitions element and its substructure.
+#- Updated XLink usage in %href.att; to use xlink:form and #IMPLIED.
+#- Added clarifying comments to href-using elements.
+#1998-11-30: maler
+#- Added new unused elements to support DocBook translation.
+#- Updated maler phone numbers.
+#1998-12-3: maler
+#- Fixed character entities with respect to escaping of ampersands.
+#- Added many more explanatory comments.
+#1999-07-02: maler
+#- Added %loc.class; to all PCD mixes that didn't already have it.
+#- Removed unused %loc.pcd.mix;.
+#- Made version in spec header optional.
+#- Added three new attributes to spec.
+#- Broadened content of edtext.
+#- Added optional copyright element to header.
+#- Reorganized XLink-related parameter entities; added xmlns:xlink.
+#- Changed edtext content from #PCDATA to %p.pcd.mix;.
+#- Added show/actuate atts and default values to all href elements.
+#- Changed versioning scheme from 8-digit dates to version numbers.
+#- Added w3c-doctype, other-doctype, status atts to spec element.
+#- Added prodrecap element inside scrap.
+#- Added headstyle attribute to scrap.
+#2000-03-07: maler
+#- Added proto element, its arg subelement, and the %argtypes; entity.
+#- Added function, var, sub, sup, phrase, el, att, attval elements.
+#- Expanded emph to %p.pcd.mix;.
+#- Allowed status and abstract to appear in the opposite order.
+#- Updated XLink usage to the latest WD, except for href and source.
+#- Removed the xml:attributes attribute from graphic.
+#- Added %local.graphic.att; to graphic.
+#- Added common diff attribute.
+#- Added div5 element.
+#- Broadened content models of publoc, prevlocs, and latestloc.
+#- Added head, source, resolution, and status attribute to issue.
+#- Added cr, issues, and dispcmts to w3c-doctype attribute on spec.
+#- Added example element.
+-->
+
+<!-- ............................................................... -->
+<!-- End of XML specification DTD .................................. -->
+<!-- ............................................................... -->

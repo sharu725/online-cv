@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr"><body><div id="post6"><h3><a href="2004/01/26/6">他の日本語の伝言</a></h3>
+      <p>この伝言は日本語で書いて、翻訳がある。<span xml:lang="fr">couhin ?</span></p>
+      <p>Et on a une petite phrase en français.</p>
+    </div>
+    Test
+  <div id="post4"><h3><a href="2004/01/25/4">日本語の伝言</a></h3>
+      <p>この伝言は日本語で書いて、翻訳がない。実は少しだけ。</p>
+      <p>あいうえおかきくけこさしすせそ…</p>
+    </div><div id="post3"><h3><a href="2005/08/12/3"/></h3></div><div id="post2"><h3><a href="2004/01/25/2">間違い</a></h3>
+      <p>Quelques tests d'erreurs :</p>
+      <ul>
+	Un paragraphe dans la liste
+	<li><a href="http://www.google.com/">un lien externe sans hreflang,</a></li>
+	<li/>
+	<li><span xml:lang="fr"><li>un couac</li></span>,</li>
+	<li><li>un autre</li>,</li>
+	<li>une <span xml:lang="fr">翻訳</span> sans xml:lang="ja"</li>
+	<li>20040125</li>
+      </ul>
+    </div><div id="post1"><h3><a href="2004/01/25/1">サンプル</a></h3>
+      <p>Ceci est un <span xml:lang="ja">テスト</span>.</p>
+      <ul>
+	<li>Voici une liste,</li>
+	<li>un splendide test de <a href="http://www.google.com/">lien extérieur</a>,</li>
+	<li>un autre test de lien, mais <a href="glandium.png">interne, cette fois</a>,</li>
+	<li>日本語のアイテム、</li>
+	<li><a href="http://www.google.com">リンクがある日本語のアイテム、</a></li>
+	<li><a href="http://www.google.com">un item lien.</a></li>
+	<li>Un <span xml:lang="ja">テスト</span> d'auto-traduction (le mot est présent plus haut dans le post, pas la peine de tout répéter...</li>
+	<li>une date en ligne : 20040301 et <ul><li>une liste dans la liste</li></ul></li>
+	<li>un <a href="glandium.png">lien avec du <span xml:lang="ja">日本語</span> dedans</a></li>
+      </ul>
+      <p><a href="http://www.google.com">un paragraphe lien.</a></p>
+    </div></body></html>

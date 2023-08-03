@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<files>
+<file name="foofile.xml"/>
+<file name="foo%5Ffile.xml"/>
+</files>

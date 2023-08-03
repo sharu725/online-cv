@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE section
+[
+<!ENTITY foo "FOO">
+<!ENTITY bar "&foo; BAR">
+]>
+<section>
+My title is &bar; and some.
+</section>

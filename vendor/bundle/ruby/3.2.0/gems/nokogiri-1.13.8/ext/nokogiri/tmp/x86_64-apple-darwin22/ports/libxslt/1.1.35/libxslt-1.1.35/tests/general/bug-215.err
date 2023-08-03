@@ -1,0 +1,8 @@
+  ELEMENT fake
+element fake: error : Node has no parent
+    ELEMENT elem
+{DEF}f: cannot write to result tree while executing a function
+XPath error : Stack usage error
+runtime error: file ./bug-215.xsl line 5 element variable
+Evaluating global variable  var/param being computed failed
+no result for ./../docs/bug-215.xml

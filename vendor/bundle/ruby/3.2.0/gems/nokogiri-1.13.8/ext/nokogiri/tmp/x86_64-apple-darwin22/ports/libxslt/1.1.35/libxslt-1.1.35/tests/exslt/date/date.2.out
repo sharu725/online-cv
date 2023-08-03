@@ -1,0 +1,129 @@
+
+  
+  
+  Test Date : -1-01-31
+    year                 : NaN
+    leap-year            : NaN
+    month-in-year        : NaN
+    month-name           : 
+    month-abbreviation   : 
+    week-in-year         : NaN
+    day-in-year          : NaN
+    day-in-month         : NaN
+    day-of-week-in-month : NaN
+    day-in-week          : NaN
+    day-name             : 
+    day-abbreviation     : 
+    time                 : 
+    hour-in-day          : NaN
+    minute-in-hour       : NaN
+    second-in-minute     : NaN
+  
+  Test Date : +1-01-31
+    year                 : NaN
+    leap-year            : NaN
+    month-in-year        : NaN
+    month-name           : 
+    month-abbreviation   : 
+    week-in-year         : NaN
+    day-in-year          : NaN
+    day-in-month         : NaN
+    day-of-week-in-month : NaN
+    day-in-week          : NaN
+    day-name             : 
+    day-abbreviation     : 
+    time                 : 
+    hour-in-day          : NaN
+    minute-in-hour       : NaN
+    second-in-minute     : NaN
+  
+  
+  Test Date : 0001-12-32Z
+    year                 : NaN
+    leap-year            : NaN
+    month-in-year        : NaN
+    month-name           : 
+    month-abbreviation   : 
+    week-in-year         : NaN
+    day-in-year          : NaN
+    day-in-month         : NaN
+    day-of-week-in-month : NaN
+    day-in-week          : NaN
+    day-name             : 
+    day-abbreviation     : 
+    time                 : 
+    hour-in-day          : NaN
+    minute-in-hour       : NaN
+    second-in-minute     : NaN
+  
+  Test Date : 0001-13-01
+    year                 : NaN
+    leap-year            : NaN
+    month-in-year        : NaN
+    month-name           : 
+    month-abbreviation   : 
+    week-in-year         : NaN
+    day-in-year          : NaN
+    day-in-month         : NaN
+    day-of-week-in-month : NaN
+    day-in-week          : NaN
+    day-name             : 
+    day-abbreviation     : 
+    time                 : 
+    hour-in-day          : NaN
+    minute-in-hour       : NaN
+    second-in-minute     : NaN
+  
+  Test Date : 0001-11-00
+    year                 : NaN
+    leap-year            : NaN
+    month-in-year        : NaN
+    month-name           : 
+    month-abbreviation   : 
+    week-in-year         : NaN
+    day-in-year          : NaN
+    day-in-month         : NaN
+    day-of-week-in-month : NaN
+    day-in-week          : NaN
+    day-name             : 
+    day-abbreviation     : 
+    time                 : 
+    hour-in-day          : NaN
+    minute-in-hour       : NaN
+    second-in-minute     : NaN
+  
+  Test Date : 0001-99-01
+    year                 : NaN
+    leap-year            : NaN
+    month-in-year        : NaN
+    month-name           : 
+    month-abbreviation   : 
+    week-in-year         : NaN
+    day-in-year          : NaN
+    day-in-month         : NaN
+    day-of-week-in-month : NaN
+    day-in-week          : NaN
+    day-name             : 
+    day-abbreviation     : 
+    time                 : 
+    hour-in-day          : NaN
+    minute-in-hour       : NaN
+    second-in-minute     : NaN
+  
+  Test Date : 0001-01-99
+    year                 : NaN
+    leap-year            : NaN
+    month-in-year        : NaN
+    month-name           : 
+    month-abbreviation   : 
+    week-in-year         : NaN
+    day-in-year          : NaN
+    day-in-month         : NaN
+    day-of-week-in-month : NaN
+    day-in-week          : NaN
+    day-name             : 
+    day-abbreviation     : 
+    time                 : 
+    hour-in-day          : NaN
+    minute-in-hour       : NaN
+    second-in-minute     : NaN

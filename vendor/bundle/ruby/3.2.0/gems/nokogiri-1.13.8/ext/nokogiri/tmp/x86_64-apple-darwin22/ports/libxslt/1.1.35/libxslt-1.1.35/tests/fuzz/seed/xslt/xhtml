@@ -1,0 +1,4 @@
+<x:stylesheet xmlns:x="http://www.w3.org/1999/XSL/Transform" version="1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:a="a" xmlns:b="b" exclude-result-prefixes="a b">
+<x:output encoding="iso-8859-1" media-type="t/h" doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"/>
+<x:template match="*"><div><img/><x:apply-templates select="node()"/></div></x:template>
+</x:stylesheet>

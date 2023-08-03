@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<XML_DATA>
+<chapter>First Chapter</chapter>
+
+<chapter>Second Chapter
+<chapter>Subchapter 1</chapter>
+<chapter>Subchapter 2</chapter>
+</chapter>
+
+<chapter>Third Chapter
+<chapter>Subchapter A</chapter>
+
+<chapter>Subchapter B
+<chapter>sub a</chapter>
+<chapter>sub b</chapter>
+</chapter>
+
+<chapter>Subchapter C</chapter>
+</chapter>
+</XML_DATA>
+

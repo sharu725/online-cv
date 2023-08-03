@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<page>
+  <!-- valid xs:time -->
+  <date date="00:00:00"/>
+  <date date="23:59:59"/>
+  <date date="11:11:11"/>
+  <date date="22:22:22"/>
+  <date date="23:33:33"/>
+  <date date="14:44:44"/>
+  <date date="15:55:55"/>
+</page>
+

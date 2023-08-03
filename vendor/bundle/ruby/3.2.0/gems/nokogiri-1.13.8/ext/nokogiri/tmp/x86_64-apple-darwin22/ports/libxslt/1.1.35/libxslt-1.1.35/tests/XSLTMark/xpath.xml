@@ -1,0 +1,18 @@
+<top>
+   <foo>foo1</foo>
+   <barg>barg1</barg>
+   <nar>nar1</nar>
+   <bar>
+      <baz/>
+      <yadda/>
+   </bar>
+   <foo>nomba</foo>
+   <bar>bar2</bar>
+   <nar>nar2</nar>
+   <bar>nyargh</bar>
+   <bar>gurf</bar>
+   <foo>hurk</foo>
+   <nar>nar2</nar>
+   <foo>foo2</foo>
+   <barg>barg2</barg>
+</top>

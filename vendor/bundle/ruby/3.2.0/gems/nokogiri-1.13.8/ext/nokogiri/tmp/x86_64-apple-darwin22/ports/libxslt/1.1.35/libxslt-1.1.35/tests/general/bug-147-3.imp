@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<xsl:stylesheet version="1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:template match="numliste">
+  <xsl:text>template#1 in module#3;</xsl:text>
+  <xsl:apply-templates/>
+</xsl:template>
+
+
+<xsl:template match="numliste-u">
+  <xsl:text>template#2 in module#3;</xsl:text>
+  <xsl:apply-templates/>
+</xsl:template>
+
+
+<xsl:template match="liste | liste-u">
+  <xsl:text>template#3 in module#3;</xsl:text>
+  <xsl:apply-templates/>
+</xsl:template>
+
+
+<xsl:template match="numliste[@startindex] | numliste-u[@startindex]">
+  <xsl:text>template#4 in module#3;</xsl:text>
+  <xsl:apply-templates/>
+</xsl:template>
+
+
+<xsl:template match="le[parent::*/@typ='strich'] | 
+                     le[parent::liste or parent::liste-u][not
+(parent::*/@typ)]">
+  <xsl:text>template#5 in module#3;</xsl:text>
+  <xsl:apply-templates/>
+</xsl:template>
+
+
+<xsl:template match="le[parent::*/@typ='punkt']">
+  <xsl:text>template#6 in module#3;</xsl:text>
+  <xsl:apply-templates/>
+</xsl:template>
+
+
+<xsl:template match="le[parent::*/@typ='kasten']">
+  <xsl:text>template#7 in module#3;</xsl:text>
+  <xsl:apply-templates/>
+</xsl:template>
+
+
+<xsl:template match="le[parent::*/@typ='arabisch'] | 
+                     le[parent::numliste or parent::numliste-u][not
+(parent::*/@typ)]">
+  <xsl:text>template#8 in module#3;</xsl:text>
+  <xsl:apply-templates/>
+</xsl:template>
+
+</xsl:stylesheet>
+

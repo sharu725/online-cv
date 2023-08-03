@@ -1,0 +1,22 @@
+<?xml version="1.0"?> 
+<TOP>a
+   <ONE>b
+      <TWO>c
+         <THREE>d</THREE>
+         <FOUR>e</FOUR>
+      </TWO>f
+      <FIVE>g
+         <SIX>h</SIX>
+         <SEVEN/>i
+      </FIVE>j
+      <EIGHT/>k
+   </ONE>l
+   <NINE/>m
+   <TEN>n
+      <ELEVEN>o
+         <TWELVE>p</TWELVE>
+      </ELEVEN>q
+      <THIRTEEN/>r
+   </TEN>s
+   <FOURTEEN>t</FOURTEEN>
+</TOP>

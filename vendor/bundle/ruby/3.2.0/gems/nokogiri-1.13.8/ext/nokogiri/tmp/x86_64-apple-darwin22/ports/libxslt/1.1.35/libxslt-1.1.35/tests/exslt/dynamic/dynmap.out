@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<result>
+  <node-set>
+    <childNode2>bbbb</childNode2>
+    <childNode4>dddd</childNode4>
+    <childNode6>ffff</childNode6>
+    <childNode8>hhhh</childNode8>
+    <childNode1>jjjj</childNode1>
+    <childNode3>llll</childNode3>
+    <childNode5>nnnn</childNode5>
+    <childNode7>pppp</childNode7>
+    <childNode9>rrrr</childNode9>
+  </node-set>
+  <boolean>
+    <exsl:boolean xmlns:exsl="http://exslt.org/common">true</exsl:boolean>
+    <exsl:boolean xmlns:exsl="http://exslt.org/common">true</exsl:boolean>
+    <exsl:boolean xmlns:exsl="http://exslt.org/common">true</exsl:boolean>
+    <exsl:boolean xmlns:exsl="http://exslt.org/common">true</exsl:boolean>
+    <exsl:boolean xmlns:exsl="http://exslt.org/common">true</exsl:boolean>
+    <exsl:boolean xmlns:exsl="http://exslt.org/common">true</exsl:boolean>
+    <exsl:boolean xmlns:exsl="http://exslt.org/common">true</exsl:boolean>
+  </boolean>
+  <number>
+    <exsl:number xmlns:exsl="http://exslt.org/common">9</exsl:number>
+    <exsl:number xmlns:exsl="http://exslt.org/common">0</exsl:number>
+    <exsl:number xmlns:exsl="http://exslt.org/common">0</exsl:number>
+    <exsl:number xmlns:exsl="http://exslt.org/common">0</exsl:number>
+    <exsl:number xmlns:exsl="http://exslt.org/common">0</exsl:number>
+    <exsl:number xmlns:exsl="http://exslt.org/common">0</exsl:number>
+    <exsl:number xmlns:exsl="http://exslt.org/common">9</exsl:number>
+  </number>
+  <string>
+    <exsl:string xmlns:exsl="http://exslt.org/common">with-child</exsl:string>
+    <exsl:string xmlns:exsl="http://exslt.org/common">without-child</exsl:string>
+    <exsl:string xmlns:exsl="http://exslt.org/common">without-child</exsl:string>
+    <exsl:string xmlns:exsl="http://exslt.org/common">without-child</exsl:string>
+    <exsl:string xmlns:exsl="http://exslt.org/common">without-child</exsl:string>
+    <exsl:string xmlns:exsl="http://exslt.org/common">without-child</exsl:string>
+    <exsl:string xmlns:exsl="http://exslt.org/common">with-child</exsl:string>
+    <exsl:string xmlns:exsl="http://exslt.org/common">&amp;)</exsl:string>
+  </string>
+  <namespace>
+    <exsl:string xmlns:exsl="http://exslt.org/common">dynmap</exsl:string>
+  </namespace>
+</result>

@@ -1,0 +1,128 @@
+
+  
+  
+  Test Date : 00:00:00
+    year                 : NaN
+    leap-year            : NaN
+    month-in-year        : NaN
+    month-name           : 
+    month-abbreviation   : 
+    week-in-year         : NaN
+    day-in-year          : NaN
+    day-in-month         : NaN
+    day-of-week-in-month : NaN
+    day-in-week          : NaN
+    day-name             : 
+    day-abbreviation     : 
+    time                 : 00:00:00
+    hour-in-day          : 0
+    minute-in-hour       : 0
+    second-in-minute     : 0
+  
+  Test Date : 23:59:59
+    year                 : NaN
+    leap-year            : NaN
+    month-in-year        : NaN
+    month-name           : 
+    month-abbreviation   : 
+    week-in-year         : NaN
+    day-in-year          : NaN
+    day-in-month         : NaN
+    day-of-week-in-month : NaN
+    day-in-week          : NaN
+    day-name             : 
+    day-abbreviation     : 
+    time                 : 23:59:59
+    hour-in-day          : 23
+    minute-in-hour       : 59
+    second-in-minute     : 59
+  
+  Test Date : 11:11:11
+    year                 : NaN
+    leap-year            : NaN
+    month-in-year        : NaN
+    month-name           : 
+    month-abbreviation   : 
+    week-in-year         : NaN
+    day-in-year          : NaN
+    day-in-month         : NaN
+    day-of-week-in-month : NaN
+    day-in-week          : NaN
+    day-name             : 
+    day-abbreviation     : 
+    time                 : 11:11:11
+    hour-in-day          : 11
+    minute-in-hour       : 11
+    second-in-minute     : 11
+  
+  Test Date : 22:22:22
+    year                 : NaN
+    leap-year            : NaN
+    month-in-year        : NaN
+    month-name           : 
+    month-abbreviation   : 
+    week-in-year         : NaN
+    day-in-year          : NaN
+    day-in-month         : NaN
+    day-of-week-in-month : NaN
+    day-in-week          : NaN
+    day-name             : 
+    day-abbreviation     : 
+    time                 : 22:22:22
+    hour-in-day          : 22
+    minute-in-hour       : 22
+    second-in-minute     : 22
+  
+  Test Date : 23:33:33
+    year                 : NaN
+    leap-year            : NaN
+    month-in-year        : NaN
+    month-name           : 
+    month-abbreviation   : 
+    week-in-year         : NaN
+    day-in-year          : NaN
+    day-in-month         : NaN
+    day-of-week-in-month : NaN
+    day-in-week          : NaN
+    day-name             : 
+    day-abbreviation     : 
+    time                 : 23:33:33
+    hour-in-day          : 23
+    minute-in-hour       : 33
+    second-in-minute     : 33
+  
+  Test Date : 14:44:44
+    year                 : NaN
+    leap-year            : NaN
+    month-in-year        : NaN
+    month-name           : 
+    month-abbreviation   : 
+    week-in-year         : NaN
+    day-in-year          : NaN
+    day-in-month         : NaN
+    day-of-week-in-month : NaN
+    day-in-week          : NaN
+    day-name             : 
+    day-abbreviation     : 
+    time                 : 14:44:44
+    hour-in-day          : 14
+    minute-in-hour       : 44
+    second-in-minute     : 44
+  
+  Test Date : 15:55:55
+    year                 : NaN
+    leap-year            : NaN
+    month-in-year        : NaN
+    month-name           : 
+    month-abbreviation   : 
+    week-in-year         : NaN
+    day-in-year          : NaN
+    day-in-month         : NaN
+    day-of-week-in-month : NaN
+    day-in-week          : NaN
+    day-name             : 
+    day-abbreviation     : 
+    time                 : 15:55:55
+    hour-in-day          : 15
+    minute-in-hour       : 55
+    second-in-minute     : 55

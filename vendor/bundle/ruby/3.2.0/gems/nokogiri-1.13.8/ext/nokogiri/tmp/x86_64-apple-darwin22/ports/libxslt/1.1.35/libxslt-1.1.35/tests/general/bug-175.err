@@ -1,0 +1,2 @@
+compilation error: file ./bug-175.xsl line 5 element transform
+xsl:version: only 1.1 features are supported

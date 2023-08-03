@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<xsl:stylesheet version="1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:template match="action[@name='ShowPage']
+                           [@event='onClick']                                
+                           [pass-param/@name='pagenum']">
+  <xsl:text>template#1 in module#6;</xsl:text>
+</xsl:template>
+
+
+<xsl:template match="action[@name='ShowPage']
+                           [@event='onClick']
+                           [pass-param/@name='pageid']">
+  <xsl:text>template#2 in module#6;</xsl:text>
+</xsl:template>
+
+
+<xsl:template match="action[@name='ShowInfoText']
+                           [@event='onCreate']">
+  <xsl:text>template#3 in module#6;</xsl:text>
+</xsl:template>
+
+
+<xsl:template match="pass-param"
+              mode="invlink">
+  <xsl:text>template#4 in module#6;</xsl:text>
+</xsl:template>
+
+</xsl:stylesheet>
+

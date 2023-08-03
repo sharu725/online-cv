@@ -1,0 +1,625 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Template 2: Applet Manual For GNOME 2.x</title><meta name="generator" content="DocBook XSL Stylesheets V1.40"><link rel="home" href="index.html" title="The GNOME Handbook of Writing Software Documentation"><link rel="up" href="apa.html" title="A. Document Templates"><link rel="previous" href="apas02.html" title="Template 2: Applet Manual For GNOME 1.x"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Template 2: Applet Manual For GNOME 2.x</th></tr><tr><td width="20%" align="left"><a href="apas02.html">Prev</a> </td><th width="60%" align="center">A. Document Templates</th><td width="20%" align="right"> </td></tr></table><hr></div><div class="sect1"><a name="template2-2x"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="template2-2x"></a>Template 2: Applet Manual For GNOME 2.x</h2></div></div><p>
+        The following templates should be used for all applet
+        manuals in GNOME 2.x releases.  You can always get the latest
+        copy of these templates from  <a href="http://developer.gnome.org/projects/gdp/templates.html" target="_top">GDP
+        Documentation Templates</a>.
+      </p><p>
+        Note that this template consists of two files.  The first file
+        is an introductory chapter. You should not modify this
+        chapter. The second file is the actual applet document, which
+        you should modify to describe the applet you are documenting.
+        You can name the first file whatever you like, such as
+        <tt>gnome-applets.sgml</tt>.  Name the second file
+        according to the applet's name:
+        <tt><i><tt>appletname</tt></i>-applet.sgml</tt>.
+        Make sure you update the entity
+        at the top of the shell document to reflect the new name of
+        the applet document.
+      </p><p>
+        <pre class="programlisting">
+
+&lt;!DOCTYPE book PUBLIC "-//GNOME//DTD DocBook PNG Variant V1.1//EN"[
+&lt;!ENTITY TEMPLATE-APPLET SYSTEM "gnome-applet-template.sgml.part"&gt;
+
+]&gt;
+
+&lt;book id="gnome-applets"&gt;
+
+ &lt;bookinfo&gt;
+  &lt;title&gt;GNOME Applets&lt;/title&gt;
+  &lt;authorgroup&gt;
+   &lt;author&gt;&lt;firstname&gt;Telsa&lt;/firstname&gt;&lt;surname&gt;Gwynne&lt;/surname&gt;&lt;/author&gt;
+   &lt;author&gt;&lt;firstname&gt;John&lt;/firstname&gt;&lt;surname&gt;Fleck&lt;/surname&gt;&lt;/author&gt;
+   &lt;author&gt;&lt;firstname&gt;David&lt;/firstname&gt;&lt;surname&gt;Mason&lt;/surname&gt;
+      &lt;affiliation&gt;&lt;orgname&gt;Red Hat, Inc.&lt;/orgname&gt;&lt;/affiliation&gt;
+    &lt;/author&gt;
+    &lt;author&gt;&lt;firstname&gt;Dan&lt;/firstname&gt;&lt;surname&gt;Mueth&lt;/surname&gt;&lt;/author&gt;
+    &lt;author&gt;&lt;firstname&gt;Alexander&lt;/firstname&gt;&lt;surname&gt;Kirillov&lt;/surname&gt;&lt;/author&gt;
+  &lt;/authorgroup&gt;
+  &lt;edition&gt;GNOME Applets version 0.1 for GNOME 1.1.5&lt;/edition&gt;
+  &lt;pubdate&gt;2000&lt;/pubdate&gt;
+  &lt;copyright&gt;
+   &lt;year&gt;2000&lt;/year&gt;
+   &lt;holder&gt;Telsa Gwynne, John Fleck, Red Hat Inc., Dan Mueth, and
+    Alexander Kirillov&lt;/holder&gt; 
+  &lt;/copyright&gt;
+  &lt;legalnotice&gt;
+   &lt;para&gt;
+    Permission is granted to make and distribute verbatim copies of this
+    manual provided the copyright notice and this permission notice are
+    preserved on all copies.
+   &lt;/para&gt;
+   &lt;para&gt;
+    Permission is granted to copy and distribute modified versions of
+    this manual under the conditions for verbatim copying, provided that
+    the entire resulting derived work is distributed under the terms of a
+    permission notice identical to this one.
+   &lt;/para&gt;
+   &lt;para&gt;
+    Permission is granted to copy and distribute translations of this
+    manual into another language, under the above conditions for modified
+    versions, except that this permission notice may be stated in a
+    translation approved by the Free Software Foundation.
+   &lt;/para&gt;
+   &lt;para&gt;
+    Many of the names used by companies to distinguish their products and
+    services are claimed as trademarks. Where those names appear in any
+    GNOME documentation, and those trademarks are made aware to the members
+    of the GNOME Documentation Project, the names have been printed in caps
+    or initial caps.
+   &lt;/para&gt;
+  &lt;/legalnotice&gt;
+ &lt;/bookinfo&gt;
+
+ &lt;!-- #### Introduction ###### --&gt;
+ &lt;chapter id="applets-intro"&gt;
+  &lt;title&gt;Introduction&lt;/title&gt; 
+
+  &lt;!-- #### Intro | What Are Applets? ###### --&gt;
+  &lt;sect1 id="applets-what-are"&gt;
+   &lt;title&gt;What Are Applets?&lt;/title&gt; 
+   &lt;para&gt;
+    Applets are one of the most popular and useful objects you can add
+    to your &lt;interface&gt;Panel&lt;/interface&gt; to customize your desktop.
+    An applet is a small application which runs inside a small area of
+    your &lt;interface&gt;Panel&lt;/interface&gt;. Applets have been written for
+    a wide range of purposes.  Some are very powerful interactive
+    tools, such as the &lt;application&gt;Tasklist&lt;/application&gt; Applet
+    which allows you to easily 
+    control all of your main applications.  Others are simple system
+    monitors, displaying information such as the amount of power left
+    in the battery on your laptop (see &lt;application&gt;Battery Charge
+    Monitor&lt;/application&gt;) or weather
+    information(see &lt;application&gt;GNOME Weather&lt;/application&gt;).  Some
+    are simply for amusement(see &lt;application&gt;Fish&lt;/application&gt;).
+   &lt;/para&gt;
+
+   &lt;para&gt;
+    Applets are similar to swallowed applications in that both of them
+    reside within the &lt;interface&gt;Panel&lt;/interface&gt;. However, 
+    swallowed applications are generally applications which were
+    not designed to run within the &lt;interface&gt;Panel&lt;/interface&gt;.
+    Typically one will swallow an application which already exists in
+    the main &lt;interface&gt;desktop&lt;/interface&gt; area, putting it into your
+    &lt;interface&gt;Panel&lt;/interface&gt;.  The application will continue to
+    run in the &lt;interface&gt;Panel&lt;/interface&gt; until you end the
+    application or  unswallow it,  placing it back onto the main part of
+    your desktop when you need to.
+   &lt;/para&gt;
+
+   &lt;para&gt;
+    &lt;figure id="example-applets-fig"&gt;
+     &lt;title&gt;Example Applets&lt;/title&gt;
+     &lt;screenshot&gt;
+      &lt;screeninfo&gt;Example Applets&lt;/screeninfo&gt;
+       &lt;graphic fileref="example_applets" format="png"
+       srccredit="muet"&gt;
+       &lt;/graphic&gt;
+     &lt;/screenshot&gt;
+    &lt;/figure&gt;
+    Several example applets are shown in &lt;xref
+    linkend="example-applets-fig"&gt;.  From left to right, they are: (1)
+    &lt;application&gt;Mixer Applet&lt;/application&gt;, which allows you to turn
+    on/off sound and control its volume by clicking on the applet.  (2)
+    &lt;application&gt;Sound Monitor&lt;/application&gt; Applet, which displays
+    the current volume of sound being played and allows you to control
+    various sound features.  (3) &lt;application&gt;GTCD&lt;/application&gt;
+    Applet, a CD player which has all its controls
+    available in the applet and displays the track and time. (4)
+    &lt;application&gt;Drive Mount&lt;/application&gt; Applet, used to mount and
+    unmount drives with a single click of the mouse. (5)
+    &lt;application&gt;Desk Guide&lt;/application&gt; which allows you to view
+    and control multiple virtual screens. (6)
+    &lt;application&gt;Tasklist&lt;/application&gt; Applet which allows you to
+    control your various windows and applications.
+   &lt;/para&gt;
+   &lt;para&gt;
+    There are many other applets to choose from.  The rest of this
+    chapter will explain the basic information to get you started
+    adding, moving, and removing applets from your
+    &lt;interface&gt;Panels&lt;/interface&gt; and using them. The following
+    chapters go through each of the standard GNOME applets describing
+    them in detail.  There are also additional applets which can be
+    downloaded off the Web.   See &lt;ulink type="http"
+     url="http://www.gnome.org/applist/list-martin.phtml"&gt;The GNOME
+    Software Map&lt;/ulink&gt; for lists of additional GNOME applications
+    and applets. 
+   &lt;/para&gt;
+   &lt;para&gt;
+    As you read through the the rest of this chapter, you should try
+    adding and removing applets from your &lt;interface&gt;Panel&lt;/interface&gt; and
+    experiment with them freely.  
+   &lt;/para&gt;
+  &lt;/sect1&gt;
+
+  &lt;!-- #### Intro | Adding, Moving, and Removing Applets ###### --&gt;
+  &lt;sect1 id="applet-add-move-replace"&gt;
+   &lt;title&gt;Adding, Moving, and Removing Applets&lt;/title&gt;
+
+   &lt;sect2 id="adding-applets"&gt;   
+    &lt;title&gt;Adding Applets to a Panel&lt;/title&gt;
+    &lt;para&gt;
+     To add an applet to a &lt;interface&gt;Panel&lt;/interface&gt;, right-click
+     on the &lt;interface&gt;Panel&lt;/interface&gt; and select 
+     &lt;menuchoice&gt;&lt;guimenu&gt;Panel&lt;/guimenu&gt;&lt;guisubmenu&gt;Add to panel&lt;/guisubmenu&gt;
+     &lt;guisubmenu&gt;Applet&lt;/guisubmenu&gt;&lt;/menuchoice&gt;. This will show you
+     the menu of all the applets on your system, divided into
+     categories. Choosing any applet from this menu will add it to the
+     &lt;interface&gt;Panel&lt;/interface&gt;.
+    &lt;/para&gt;
+   &lt;/sect2&gt;
+
+   &lt;sect2 id="moving-applets"&gt;
+    &lt;title&gt;Moving Applets In or Between Panels&lt;/title&gt;
+    &lt;para&gt;
+     It is easy to move applets in a &lt;interface&gt;Panel&lt;/interface&gt; or
+     between two &lt;interface&gt;Panels&lt;/interface&gt;. If you have a
+     three-button mouse, just move the mouse over the applet, depress
+     the middle mouse button and drag the applet to its new location,
+     releasing the middle mouse button when you are finished.  Note
+     that you can drag applets within a &lt;interface&gt;Panel&lt;/interface&gt;
+     or between two &lt;interface&gt;Panels&lt;/interface&gt; this way. If you
+     don't have a three-button mouse, just 
+     right-click on the applet and choose
+     &lt;guimenuitem&gt;Move&lt;/guimenuitem&gt;. The cursor will turn into a
+     cross and the applet will move with your mouse until you press
+     any mouse button to indicate you are finished moving it.
+     If, in the course of this movement, it hits
+     other objects, the behavior depends on the global preferences
+     you have set for your &lt;interface&gt;Panels&lt;/interface&gt; in the
+     &lt;application&gt;GNOME Control Center&lt;/application&gt;: the applet you are
+     moving can switch places with other objects, "push" all objects
+     it meets, or "jump" over all other objects without disturbing
+     them. You can also override the default behavior by holding
+     &lt;keycap&gt;Shift&lt;/keycap&gt; button (for "push" mode),
+     &lt;keycap&gt;Ctrl&lt;/keycap&gt; (for "switched" mode), or
+     &lt;keycap&gt;Alt&lt;/keycap&gt; (for "free" mode, i.e. jumping other other
+     objects without disturbing them) button while dragging.
+    &lt;/para&gt;
+    &lt;para&gt;
+     To change the global Panel preferences, right-click on any applet
+     or &lt;interface&gt;Panel&lt;/interface&gt; and select 
+     &lt;menuchoice&gt;
+      &lt;guimenu&gt;Panel&lt;/guimenu&gt;
+      &lt;guimenuitem&gt;Global Preferences...&lt;/guimenuitem&gt;
+     &lt;/menuchoice&gt;.
+     The &lt;guilabel&gt;Default movement mode&lt;/guilabel&gt; is set under the
+     &lt;guilabel&gt;Applets&lt;/guilabel&gt; tab.
+    &lt;/para&gt;
+   &lt;/sect2&gt;
+
+   &lt;sect2 id="removing-applets"&gt;
+    &lt;title&gt;Removing Applets from a Panel&lt;/title&gt; 
+    &lt;para&gt;  
+     To remove an applet from a &lt;interface&gt;Panel&lt;/interface&gt;,
+     right-click on the applet and select &lt;guimenuitem&gt;Remove from
+     panel...&lt;/guimenuitem&gt;. 
+    &lt;/para&gt;
+   &lt;/sect2&gt;
+  &lt;/sect1&gt;
+
+
+  &lt;!-- #### Intro | The Right-Click Pop-Up Menu ###### --&gt;
+  &lt;sect1 id="right-click-pop-up-menu"&gt;
+   &lt;title&gt;The Right-Click Pop-Up Menu&lt;/title&gt;
+   &lt;para&gt;
+    Clicking the right mouse button on any applet brings up
+    a &lt;guimenu&gt;pop-up menu&lt;/guimenu&gt;. This 
+    menu always has certain standard menu items in it and
+    often has additional items which vary depending on the particular
+    applet. 
+   &lt;/para&gt;
+   &lt;sect2 id="standard-right-click-items"&gt; 
+    &lt;title&gt;Standard Pop-Up Items&lt;/title&gt;
+    &lt;para&gt;
+     All applets should have the following items in their right-click
+     &lt;guimenu&gt;pop-up menu&lt;/guimenu&gt;:
+     &lt;variablelist&gt;
+      &lt;varlistentry&gt;
+       &lt;term&gt;Remove from panel&lt;/term&gt;
+       &lt;listitem&gt;
+        &lt;para&gt;
+         The &lt;guimenuitem&gt;Remove from panel&lt;/guimenuitem&gt; menu item
+         removes the applet from the &lt;interface&gt;Panel&lt;/interface&gt;. 
+        &lt;/para&gt;
+       &lt;/listitem&gt;
+      &lt;/varlistentry&gt;
+
+      &lt;varlistentry&gt;
+       &lt;term&gt;Move&lt;/term&gt;
+       &lt;listitem&gt;
+        &lt;para&gt;
+         After selecting &lt;guimenuitem&gt;Move&lt;/guimenuitem&gt;, your mouse
+         pointer will change appearance (typically to a cross with
+         arrows in each direction). As you move your mouse, the applet
+         will move with it.  When you have finished moving the applet,
+         click any mouse button and the applet will anchor in its
+         current position.  Note that applets can be moved between two
+         &lt;interface&gt;Panels&lt;/interface&gt; this way.
+        &lt;/para&gt;
+       &lt;/listitem&gt;
+      &lt;/varlistentry&gt;
+
+      &lt;varlistentry&gt;
+       &lt;term&gt;Panel&lt;/term&gt;
+       &lt;listitem&gt;
+        &lt;para&gt;
+         The &lt;guisubmenu&gt;Panel&lt;/guisubmenu&gt; submenu contains various
+         items and submenus for adding and removing
+         &lt;interface&gt;Panels&lt;/interface&gt; and applets and for changing
+         the configuration.
+        &lt;/para&gt;
+       &lt;/listitem&gt;
+      &lt;/varlistentry&gt;
+
+      &lt;varlistentry&gt;
+       &lt;term&gt;About&lt;/term&gt;
+       &lt;listitem&gt;
+        &lt;para&gt;
+         The &lt;guimenuitem&gt;About...&lt;/guimenuitem&gt; menu item brings up a 
+         dialogue box containing various information about the applet,
+         typically including the applet's  name, version, author,
+         copyright, license and desciption. 
+        &lt;/para&gt;
+       &lt;/listitem&gt;
+      &lt;/varlistentry&gt;
+
+      &lt;varlistentry&gt;
+       &lt;term&gt;Help&lt;/term&gt;
+       &lt;listitem&gt;
+        &lt;para&gt;
+         The &lt;guimenuitem&gt;Help&lt;/guimenuitem&gt; menu item brings up the help
+         manual for the applet. 
+        &lt;/para&gt;
+       &lt;/listitem&gt;
+      &lt;/varlistentry&gt;
+     &lt;/variablelist&gt;
+    &lt;/para&gt;
+   &lt;/sect2&gt;
+
+   &lt;sect2 id="applet-properties-dialog"&gt; 
+    &lt;title&gt;The Applet Properties Dialog&lt;/title&gt;
+    &lt;para&gt;
+     Many applets have customizable properties.  These applets will
+     have a &lt;guimenuitem&gt;Properties...&lt;/guimenuitem&gt; menu item in their
+     right-click &lt;guimenu&gt;pop-up menu&lt;/guimenu&gt; which brings up the
+     &lt;interface&gt;Properties&lt;/interface&gt; dialog where you can alter the 
+     appearance or behaviour of the applet.
+     &lt;figure id="example-props-dialog-fig"&gt;
+      &lt;title&gt;An Example Applet Properties Dialog&lt;/title&gt;
+      &lt;screenshot&gt;
+       &lt;screeninfo&gt;An Example Applets Properties Dialog&lt;/screeninfo&gt;
+       &lt;graphic fileref="applet_props_dialog" format="png"
+        srccredit="muet"&gt;
+       &lt;/graphic&gt;
+      &lt;/screenshot&gt;
+     &lt;/figure&gt;
+     All &lt;interface&gt;Properties&lt;/interface&gt; dialogs have the following
+     buttons at the bottom of the dialog:
+     &lt;itemizedlist&gt;
+      &lt;listitem&gt;
+       &lt;para&gt;
+        &lt;guibutton&gt;OK&lt;/guibutton&gt; &amp;mdash;
+        Pressing &lt;guibutton&gt;OK&lt;/guibutton&gt; will activate any changes
+        in the properties you have made and close the
+        &lt;interface&gt;Properties&lt;/interface&gt; dialog.
+       &lt;/para&gt;
+      &lt;/listitem&gt;
+      &lt;listitem&gt;
+       &lt;para&gt;
+        &lt;guibutton&gt;Apply&lt;/guibutton&gt; &amp;mdash;
+        Pressing &lt;guibutton&gt;Apply&lt;/guibutton&gt; at any time will
+        make your changes active without closing the
+        &lt;interface&gt;Properties&lt;/interface&gt; dialog.  This is helpful if
+        you would like to test the effects of the changes you have
+        made but may want to continue changing the properties.
+       &lt;/para&gt;
+      &lt;/listitem&gt;
+      &lt;listitem&gt;
+       &lt;para&gt;
+        &lt;guibutton&gt;Close&lt;/guibutton&gt; &amp;mdash;
+        Pressing &lt;guibutton&gt;Close&lt;/guibutton&gt; will close the
+        &lt;interface&gt;Properties&lt;/interface&gt; dialog.  Only changes in the
+        configuration which were previously applied with the
+        &lt;guibutton&gt;Apply&lt;/guibutton&gt; button will persist.  Other
+        changes will not be made active.
+       &lt;/para&gt;
+      &lt;/listitem&gt;
+      &lt;listitem&gt;
+       &lt;para&gt;
+        &lt;guibutton&gt;Help&lt;/guibutton&gt; &amp;mdash;
+        Pressing &lt;guibutton&gt;Help&lt;/guibutton&gt; brings up the manual for
+        the application, opening it to the page describing the
+        &lt;interface&gt;Properties&lt;/interface&gt; dialog.
+       &lt;/para&gt;
+      &lt;/listitem&gt;
+     &lt;/itemizedlist&gt;
+    &lt;/para&gt;
+   &lt;/sect2&gt;
+ 
+   &lt;sect2 id="common-right-click-items"&gt; 
+    &lt;title&gt;Other Common Pop-Up Items&lt;/title&gt;
+    &lt;para&gt;
+     Many applets also have one or more of the following items in their
+     right-click pop-up menu:
+     &lt;variablelist&gt;
+      &lt;varlistentry&gt;
+       &lt;term&gt;Run...&lt;/term&gt;
+       &lt;listitem&gt;
+        &lt;para&gt;
+         The &lt;guimenuitem&gt;Run...&lt;/guimenuitem&gt; menu item generally
+         invokes a program  which is related to the applet in some way
+         but which runs in its own window rather than in the
+         panel. For example: 
+        &lt;/para&gt;
+        &lt;orderedlist&gt;
+         &lt;listitem&gt;
+          &lt;para&gt;
+           The &lt;application&gt;CPU Load&lt;/application&gt; applet, which monitors
+           what programs are running, has a &lt;guimenuitem&gt;Run
+           gtop...&lt;/guimenuitem&gt;  menu item. Selecting this menu item
+           starts &lt;application&gt;GTop&lt;/application&gt;, which allows you to
+           view and control programs which are running.
+          &lt;/para&gt;
+         &lt;/listitem&gt;
+         &lt;listitem&gt;
+          &lt;para&gt;
+           The &lt;application&gt;CD Player&lt;/application&gt; applet has a
+           &lt;guimenuitem&gt;Run gtcd...&lt;/guimenuitem&gt; menu item which
+           starts the GNOME &lt;application&gt;CD Player&lt;/application&gt; when
+           selected, which has more capabilities than the applet.
+          &lt;/para&gt;
+         &lt;/listitem&gt;
+        &lt;/orderedlist&gt;
+       &lt;/listitem&gt;
+      &lt;/varlistentry&gt;
+     &lt;/variablelist&gt;
+    &lt;/para&gt;
+   &lt;/sect2&gt;
+  &lt;/sect1&gt;
+  
+  &lt;sect1 id="feedback"&gt;
+   &lt;title&gt;Feedback&lt;/title&gt;
+   &lt;sect2 id="reporting-bugs"&gt; 
+    &lt;title&gt;Reporting Applet Bugs&lt;/title&gt;
+    &lt;para&gt;
+     GNOME users are encouraged to report bugs to &lt;ulink type="http"
+     url="http://bugs.gnome.org"&gt;The GNOME Bug Tracking
+     System&lt;/ulink&gt;.  The easiest way to submit bugs is to use the
+     &lt;application&gt;Bug Report Tool&lt;/application&gt; program by selecting
+     &lt;menuchoice&gt;
+      &lt;guimenu&gt;Main Menu&lt;/guimenu&gt; &lt;guisubmenu&gt;Utilities&lt;/guisubmenu&gt;
+      &lt;guimenuitem&gt;Bug Report Tool&lt;/guimenuitem&gt; 
+     &lt;/menuchoice&gt;.
+     Be sure to be complete in describing what you did to cause the
+     bug to surface and, if possible, describe how the developer can
+     reproduce the the scenario.
+    &lt;/para&gt;
+   &lt;/sect2&gt;
+   &lt;sect2 id="documentation-feedback"&gt; 
+    &lt;title&gt;Providing Feedback&lt;/title&gt;
+    &lt;para&gt;
+     GNOME users are welcome to provide suggestions for how
+     applications and documentation can be improved.  Suggestions for
+     application changes should be submitted using the
+     &lt;application&gt;Bug Report Tool&lt;/application&gt; discussed above.
+     Suggestions for documentation changes can be emailed directly to
+     the documentation author (whose email should be included in the
+     "Authors" section of the document) or by sending an email to
+     &lt;email&gt;docs@gnome.org&lt;/email&gt;. 
+    &lt;/para&gt;
+   &lt;/sect2&gt;
+   &lt;sect2 id="joining-gnome"&gt;  
+    &lt;title&gt;Joining GNOME&lt;/title&gt;
+    &lt;para&gt;
+     GNOME is a community project, created by hundreds of programmers,
+     documentation writers, icon design artists, web masters, and
+     other people, most of whom work on a volunteer basis.  New GNOME
+     contributors are always welcome. To join the GNOME team, visit
+     these web sites: developers &amp;mdash; &lt;ulink type="http"
+     url="http://developer.gnome.org"&gt;The GNOME Development
+     Site&lt;/ulink&gt;, documentation writers &amp;mdash; &lt;ulink type="http"
+     url="http://developer.gnome.org/projects/gdp"&gt;The GNOME Documentation
+     Project&lt;/ulink&gt;, icon design artists &amp;mdash; &lt;ulink type="http"
+     url="http://gnome-icons.sourceforge.net/"&gt;Gnome Icon Web&lt;/ulink&gt;,
+     general &amp;mdash; &lt;ulink type="http"
+     url="http://developer.gnome.org/helping/"&gt;Helping GNOME&lt;/ulink&gt;,
+     or just join the gnome-list email list (see &lt;ulink type="http"
+     url="http://www.gnome.org/resources/mailing-lists.html"&gt;GNOME Mailing
+     Lists&lt;/ulink&gt;) to discuss what you are interested in doing.
+    &lt;/para&gt;
+   &lt;/sect2&gt;
+  &lt;/sect1&gt;
+ &lt;/chapter&gt;
+
+ &lt;!-- ############### Template Applets ##################### --&gt;
+ &lt;chapter id="template-applets"&gt;
+  &lt;title&gt;Template Applets&lt;/title&gt;
+
+  &amp;TEMPLATE-APPLET
+
+ &lt;/chapter&gt;
+
+&lt;/book&gt;
+
+
+
+
+
+
+
+
+	</pre>
+	
+        <pre class="programlisting">
+
+
+  &lt;!-- Please replace everywhere below GNOMEAPPLET with the name of --&gt;
+  &lt;!-- your applet. Most importantly, all id attributes should start --&gt;
+  &lt;!-- with the name of your applet - this is necessary to avoid name --&gt;
+  &lt;!-- conflict among different applets --&gt; 
+  &lt;!-- Please replace YOUR-NAME with your name and YOUR-EMAIL with your email--&gt;
+  &lt;!-- Please replace HACKER-NAME with the applet author's name and --&gt;
+  &lt;!-- HACKER-EMAIL with the applet author's email --&gt;
+
+  &lt;!-- You should name your file: GNOMEAPPLET-applet.sgml --&gt;
+  &lt;!-- Screenshots should be in PNG format and placed in the --&gt;
+  &lt;!-- same directory as GNOMEAPPLET-applet.sgml --&gt;
+
+  &lt;!-- Applet docs will be merged into &lt;chapter&gt;'s inside a --&gt;
+  &lt;!-- &lt;book&gt;. Thus, the indentation below (2 spaces before the &lt;sect1&gt;) is --&gt;
+  &lt;!-- correct.--&gt;
+
+  &lt;!-- Permission is granted to make and distribute verbatim copies of --&gt;
+  &lt;!-- this manual provided the copyright notice and this permission --&gt;
+  &lt;!-- notice are  preserved on all copies. --&gt;
+  &lt;!-- --&gt;
+  &lt;!-- Permission is granted to copy and distribute modified versions of --&gt;
+  &lt;!-- this manual under the conditions for verbatim copying, provided --&gt;
+  &lt;!-- that the entire resulting derived work is distributed under the --&gt;
+  &lt;!-- terms of a permission notice identical to this one. --&gt;
+  &lt;!-- --&gt;
+  &lt;!-- Permission is granted to copy and distribute translations of this --&gt;
+  &lt;!-- manual into another language, under the above conditions for --&gt;
+  &lt;!-- modified versions, except that this permission notice may be --&gt;
+  &lt;!-- stated in a translation approved by the Foundation. --&gt;
+
+  &lt;!-- ###############   GNOMEAPPLET   ############### --&gt;
+  &lt;sect1 id="GNOMEAPPLET"&gt;
+   &lt;title&gt;GNOMEAPPLET Applet&lt;/title&gt; 
+
+   &lt;para&gt; 
+    &lt;application&gt;GNOMEAPPLET&lt;/application&gt; applet, shown in &lt;xref
+    linkend="GNOMEAPPLET-fig"&gt;, does this and that. To learn how to
+    add this applet to a &lt;interface&gt;Panel&lt;/interface&gt;, see &lt;xref
+    linkend="adding-applets"&gt;. 
+   &lt;/para&gt;
+  
+ 
+   &lt;figure id="GNOMEAPPLET-fig"&gt;
+   &lt;title&gt;GNOMEAPPLET&lt;/title&gt;
+   &lt;screenshot&gt;
+    &lt;screeninfo&gt;GNOMEAPPLET&lt;/screeninfo&gt;
+    &lt;graphic format="png" fileref="GNOMEAPPLET-fig" srccredit="ME"&gt;
+    &lt;/graphic&gt;
+   &lt;/screenshot&gt;
+   &lt;/figure&gt;
+
+   &lt;sect2 id="GNOMEAPPLET-usage"&gt;
+    &lt;title&gt;Usage&lt;/title&gt;
+    &lt;para&gt;
+     This applet does nothing. To use it, just
+     left-click on it and it will instantly do nothing.   
+    &lt;/para&gt;
+   &lt;/sect2&gt;
+
+   &lt;sect2 id="GNOMEAPPLET-right-click"&gt;
+    &lt;title&gt;Right-Click Pop-Up Menu Items&lt;/title&gt;
+    &lt;para&gt; 
+     In addition to the standard menu items (see &lt;xref
+     linkend="standard-right-click-items"&gt;), the right-click pop-up menu has 
+     the following items: 
+     &lt;itemizedlist&gt; 	
+      &lt;listitem&gt;
+       &lt;para&gt;
+        &lt;guimenuitem&gt;Properties...&lt;/guimenuitem&gt; &amp;mdash; This menu
+        item opens the &lt;interface&gt;Properties&lt;/interface&gt; dialog (see
+        &lt;xref linkend="GNOMEAPPLET-properties"&gt;) which allows you to
+        customize the appearance and behavior of this applet.
+       &lt;/para&gt;
+      &lt;/listitem&gt;
+      &lt;listitem&gt;
+       &lt;para&gt;
+        &lt;guimenuitem&gt;Run Hello World...&lt;/guimenuitem&gt; &amp;mdash; This
+        menu item starts the program &lt;application&gt;Hello
+        World&lt;/application&gt;, used to say "hello" to the world. 
+       &lt;/para&gt;
+      &lt;/listitem&gt;
+     &lt;/itemizedlist&gt;
+    &lt;/para&gt;
+   &lt;/sect2&gt;
+
+   &lt;sect2 id="GNOMEAPPLET-properties"&gt;
+    &lt;title&gt;Properties&lt;/title&gt;
+    &lt;para&gt;
+     You can configure &lt;application&gt;GNOMEAPPLET&lt;/application&gt; applet by
+     right-clicking on the applet and choosing the
+     &lt;guimenuitem&gt;Properties...&lt;/guimenuitem&gt; menu item. This will open the
+     &lt;interface&gt;Properties&lt;/interface&gt; dialog, shown in &lt;xref
+     linkend="GNOMEAPPLET-properties-fig"&gt;.
+    &lt;/para&gt;
+    &lt;figure id="GNOMEAPPLET-properties-fig"&gt;
+     &lt;title&gt;Properties Dialog&lt;/title&gt;
+     &lt;screenshot&gt;
+      &lt;screeninfo&gt;Properties Dialog&lt;/screeninfo&gt; 
+      &lt;graphic format="png" fileref="GNOMEAPPLET-properties" srccredit="ME"&gt;
+      &lt;/graphic&gt;
+     &lt;/screenshot&gt;
+    &lt;/figure&gt;
+    
+    &lt;para&gt; 
+     To change the color of the applet, click on the
+     &lt;guibutton&gt;color&lt;/guibutton&gt; button. To change other properties,
+     click on other buttons. 
+    &lt;/para&gt;
+
+    &lt;para&gt;
+     For more information on the &lt;interface&gt;Properties&lt;/interface&gt;
+     dialog, including descriptions of the &lt;guibutton&gt;OK&lt;/guibutton&gt;,
+     &lt;guibutton&gt;Apply&lt;/guibutton&gt;, &lt;guibutton&gt;Cancel&lt;/guibutton&gt;, and
+     &lt;guibutton&gt;Help&lt;/guibutton&gt; buttons, see &lt;xref
+     linkend="applet-properties-dialog"&gt;.
+    &lt;/para&gt;
+   &lt;/sect2&gt;
+  
+   &lt;sect2 id="GNOMEAPPLET-bugs"&gt;
+    &lt;title&gt; Known Bugs and Limitations&lt;/title&gt;
+    &lt;para&gt;
+     There are no known bugs in the
+     &lt;application&gt;GNOMEAPPLET&lt;/application&gt; applet. 
+    &lt;/para&gt;
+   &lt;/sect2&gt;
+
+   &lt;sect2 id="GNOMEAPPLET-authors"&gt;
+    &lt;title&gt;Authors&lt;/title&gt;
+    &lt;para&gt;
+     This applet was writen by HACKER-NAME
+     &lt;email&gt;HACKER-EMAIL&lt;/email&gt;.  The documentation for this applet
+     which you are reading now was written by
+     YOUR-NAME &lt;email&gt;YOUR-EMAIL&lt;/email&gt;. For information on submitting
+     bug reports and suggestions for improvements, see &lt;xref
+     linkend="feedback"&gt;. 
+    &lt;/para&gt;
+   &lt;/sect2&gt;
+
+  &lt;/sect1&gt;
+
+
+
+
+
+
+
+
+</pre>
+      </p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a href="apas02.html">Prev</a> </td><td width="20%" align="center"><a href="index.html">Home</a></td><td width="40%" align="right"> </td></tr><tr><td width="40%" align="left">Template 2: Applet Manual For GNOME 1.x </td><td width="20%" align="center"><a href="apa.html">Up</a></td><td width="40%" align="right"> </td></tr></table></div></body></html>

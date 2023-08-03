@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<result>
+  <total><type>one</type><a>3</a><b>3</b></total>
+  <total><type>two</type><a>1</a><b>5</b></total>
+  
+</result>

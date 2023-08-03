@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<test-cases>
+    <test-case length="5"/>
+    <test-case length="8">-</test-case>
+    <test-case length="10">abc</test-case>
+    <test-case length="7">&#x2013;</test-case>
+    <test-case length="11">&#x2013;&#xa0;</test-case>
+    <test-case length="6">ÄÖÜ</test-case>
+</test-cases>
+

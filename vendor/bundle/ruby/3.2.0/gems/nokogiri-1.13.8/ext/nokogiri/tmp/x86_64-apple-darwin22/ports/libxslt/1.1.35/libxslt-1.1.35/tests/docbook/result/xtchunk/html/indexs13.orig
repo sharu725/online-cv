@@ -1,0 +1,32 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Teamwork</title><meta name="generator" content="DocBook XSL Stylesheets V1.40"><link rel="home" href="index.html" title="The GNOME Handbook of Writing Software Documentation"><link rel="up" href="index.html" title="The GNOME Handbook of Writing Software Documentation"><link rel="previous" href="indexs12.html" title="Basics of Documentation Style"><link rel="next" href="indexs14.html" title="Finishing A Document"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Teamwork</th></tr><tr><td width="20%" align="left"><a href="indexs12.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a href="indexs14.html">Next</a></td></tr></table><hr></div><div class="sect1"><a name="teamwork"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="teamwork"></a>Teamwork</h2></div></div><div class="sect2"><a name="teamworkgdp"></a><div class="titlepage"><div><h3 class="title"><a name="teamworkgdp"></a>Working With The GDP Team</h3></div></div><p>
+        The GDP team is a valuable resource for any documentation
+        author.  GDP members can answer most questions documentation
+        authors have during the course of their work. It is also
+        important to make sure you are not duplicating work of other
+        GDP members by visiting the <i>GDP Documentation
+        Status Table</i> (<a href="http://www.gnome.org/gdp/doctable/" target="_top">http://www.gnome.org/gdp/doctable/</a>) and
+        assigning a documentation item to yourself.  This table also
+        provides a forum for making suggestions and announcements for
+        each documentation item.  The best way to get in touch with
+        GDP members is on the #docs IRC channel at irc.gnome.org or
+        else by emailing the <a href="http://mail.gnome.org/mailman/listinfo/gnome-doc-list/" target="_top">
+        <i>gnome-doc-list mailing list</i></a>.
+      </p><p>
+        After an author has finished a document (or even a draft
+        version of the document), it is a good idea to ask a member of
+        the GDP team to read the document, checking it for grammar,
+        proper DocBook markup, and clarity.  One may typically find
+        another author to do this by either asking on the #docs IRC
+        channel at irc.gnome.org or by emailing the <a href="http://mail.gnome.org/mailman/listinfo/gnome-doc-list/" target="_top">
+        <i>gnome-doc-list mailing list</i></a>.
+      </p></div><div class="sect2"><a name="teamworkdevelopers"></a><div class="titlepage"><div><h3 class="title"><a name="teamworkdevelopers"></a>Working With Developers</h3></div></div><p>
+        Writing documentation typically involves a certain amount of
+        interaction with the developers of GNOME or the application
+        which is being documented.  Often a document author will need
+        to ask the developer technical questions during the course of
+        writing a document. After the document is finished, it is good
+        idea to ask the developer to read the document to make sure it
+        is technically correct.  The documentation author should also
+        make sure that the application author correctly binds and
+        packages the documentation with the application.
+      </p></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a href="indexs12.html">Prev</a> </td><td width="20%" align="center"><a href="index.html">Home</a></td><td width="40%" align="right"> <a href="indexs14.html">Next</a></td></tr><tr><td width="40%" align="left">Basics of Documentation Style </td><td width="20%" align="center"><a href="index.html">Up</a></td><td width="40%" align="right"> Finishing A Document</td></tr></table></div></body></html>

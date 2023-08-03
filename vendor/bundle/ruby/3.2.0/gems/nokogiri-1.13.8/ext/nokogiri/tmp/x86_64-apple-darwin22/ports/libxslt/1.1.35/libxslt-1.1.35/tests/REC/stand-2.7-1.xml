@@ -1,0 +1,23 @@
+<?xml-stylesheet type="text/xml" href="#style1"?>
+<!DOCTYPE doc SYSTEM "stand-2.7-1.dtd">
+<doc>
+<head>
+<xsl:stylesheet id="style1"
+		version="1.0"
+		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+		xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<xsl:import href="stand-2.7-1.xsl"/>
+<xsl:template match="id('foo')">
+  <fo:block font-weight="bold"><xsl:apply-templates/></fo:block>
+</xsl:template>
+<xsl:template match="xsl:stylesheet">
+  <!-- ignore -->
+</xsl:template>
+</xsl:stylesheet>
+</head>
+<body>
+<para id="foo">
+...
+</para>
+</body>
+</doc>

@@ -1,0 +1,38 @@
+<t:templates xmlns:t="http://nwalsh.com/docbook/xsl/template/1.0"
+             base-stylesheet="../html/docbook.xsl">
+
+<t:variable name="section.autonumber" select="true()"/>
+<t:variable name="html.stylesheet">docbook.css</t:variable>
+
+<t:titlepage element="article" side="recto">
+  <title predicate="[1]"/>
+  <subtitle predicate="[1]"/>
+  <corpauthor/>
+  <author/>
+  <authorgroup>
+    <t:or>
+      <corpauthor/>
+      <author/>
+      <editor/>
+    </t:or>
+  </authorgroup>
+  <editor/>
+  <releaseinfo/>
+  <copyright/>
+  <pubdate/>
+  <revision/>
+  <revhistory/>
+  <abstract/>
+</t:titlepage>
+
+<t:biblioentry>
+  <abbrev/>
+  <title/>
+  <t:or>
+    <authorgroup/>
+    <author/>
+  </t:or>
+  <biblioset/>
+</t:biblioentry>  
+
+</t:templates>

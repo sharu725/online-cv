@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<windows xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <vbox flex="1">
+    <vbox>
+      <xhtml:div>Hello</xhtml:div>
+      <xhtml:div>
+                        foo
+                </xhtml:div>
+    </vbox>
+  </vbox>
+</windows>

@@ -1,0 +1,6 @@
+<!DOCTYPE doc [
+  <!ENTITY a "-">
+  <!ENTITY b "&a;&a;&a;&a;&a;">
+  <!ENTITY c "&b; text">
+]>
+<doc>&c;</doc>

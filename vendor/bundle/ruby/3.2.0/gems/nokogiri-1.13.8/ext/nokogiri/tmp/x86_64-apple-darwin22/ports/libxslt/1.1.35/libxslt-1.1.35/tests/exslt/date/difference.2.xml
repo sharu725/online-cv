@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<page>
+  <!-- invalid date/time types -->
+  <date date1='2000-01-01T05:00:03' date2='---01'/>
+  <date date1='0002-01-05' date2='--01-04'/>
+  <date date1='1970-01-01T05:04:03' date2='04:03:02'/>
+  <date date1='2000' date2=''/>
+</page>
+

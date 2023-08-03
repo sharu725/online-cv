@@ -1,0 +1,6 @@
+<!ATTLIST xsl:stylesheet
+    id ID #IMPLIED>
+<!ATTLIST stylesheet
+    id ID #IMPLIED>
+<!ATTLIST para
+    id ID #IMPLIED>

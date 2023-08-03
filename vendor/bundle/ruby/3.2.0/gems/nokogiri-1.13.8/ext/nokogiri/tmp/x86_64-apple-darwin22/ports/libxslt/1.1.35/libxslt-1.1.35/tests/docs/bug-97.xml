@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<car:cars xmlns:car="http://www.example.com/xmlns/car"
+          xmlns:m="http://www.example.com/xmlns/manufacturer">
+  <car:models>
+    <car:model car:name="Rabbit" m:id="VW" car:year="1984" />
+    <car:model car:name="Tundra" m:id="TY" car:year="2000" />
+    <car:model car:name="Mini" m:id="BM" car:year="2003" />
+  </car:models>
+  <m:manufacturers>
+    <m:manufacturer m:id="VW" m:name="Volkswagen" m:country="Germany" />
+    <m:manufacturer m:id="TY" m:name="Toyota" m:country="Japan" />
+    <m:manufacturer m:id="BM" m:name="Bavarian Motor Works" 
+m:country="Germany"/>
+  </m:manufacturers>
+</car:cars>
+

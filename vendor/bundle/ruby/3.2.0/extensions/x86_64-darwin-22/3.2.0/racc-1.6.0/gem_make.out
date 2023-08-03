@@ -1,0 +1,23 @@
+current directory: /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/racc-1.6.0/ext/racc/cparse
+/usr/local/opt/ruby/bin/ruby extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/racc-1.6.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230803-55708-2c5rf0 sitelibdir\=./.gem.20230803-55708-2c5rf0 clean
+
+current directory: /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/racc-1.6.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230803-55708-2c5rf0 sitelibdir\=./.gem.20230803-55708-2c5rf0
+compiling cparse.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+linking shared-object racc/cparse.bundle
+ld: warning: dylib (/usr/local/Cellar/ruby/3.2.2_1/lib/libruby.3.2.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+
+current directory: /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/racc-1.6.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230803-55708-2c5rf0 sitelibdir\=./.gem.20230803-55708-2c5rf0 install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20230803-55708-2c5rf0/racc
+
+current directory: /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/racc-1.6.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230803-55708-2c5rf0 sitelibdir\=./.gem.20230803-55708-2c5rf0 clean

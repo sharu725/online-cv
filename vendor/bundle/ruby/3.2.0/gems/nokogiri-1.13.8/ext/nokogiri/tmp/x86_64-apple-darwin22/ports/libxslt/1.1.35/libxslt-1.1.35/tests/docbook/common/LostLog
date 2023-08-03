@@ -1,0 +1,167 @@
+2000-08-29  Norman Walsh  <ndw@nwalsh.com>
+
+	* nl.xml: Updated
+
+2000-08-08  Norman Walsh  <ndw@nwalsh.com>
+
+	* et.xml, id.xml, sl.xml: Fixed language attribute
+
+	* hu.xml: Fixup encoding problems; fix language attribute
+
+	* l10n.dtd, l10n.xml: Added DTD
+
+2000-07-21  Norman Walsh  <ndw@nwalsh.com>
+
+	* common.xsl: Fixed hierarchical section numbering
+
+	* et.xml, hu.xml, id.xml, l10n.xml, sl.xml, zh_cn.xml: 
+	Added first cut at ET, HU, ID, SL, and ZH (CN) localizations
+
+	* nl.xml: Updated
+
+2000-06-25  Norman Walsh  <ndw@nwalsh.com>
+
+	* common.xsl: Moved graphic extension stuff into common
+
+2000-04-19  Norman Walsh  <ndw@nwalsh.com>
+
+	* common.xsl: Moved IDREF checking code into common.xsl
+
+	* fr.xml: Fixed typo in gentext key
+
+2000-04-06  Norman Walsh  <ndw@nwalsh.com>
+
+	* common.xsl: Generalized title.content; added DocBook 4.0 elements to strip-space
+
+2000-04-03  Norman Walsh  <ndw@nwalsh.com>
+
+	* it.xml: Fixed revisedby
+
+2000-03-23  Norman Walsh  <ndw@nwalsh.com>
+
+	* common.xsl: Change boolean stylesheet variables to use 0/1 instead of true()/false() to avoid representation issues when setting them from the command line
+
+	* common.xsl: Started adding documentation and fixed formal object numbering
+
+2000-02-18  Norman Walsh  <ndw@nwalsh.com>
+
+	* en.xml: Changed quote characters to avoid Netscape irritation with ldquo
+	and rdquo.
+
+2000-02-16  Norman Walsh  <ndw@nwalsh.com>
+
+	* common.xsl: Added filename.extension and mediaobject.filename named templates
+
+	* l10n.xsl: Tweaked URI for conformance with some broken XSLT processors
+
+2000-02-07  Norman Walsh  <ndw@nwalsh.com>
+
+	* common.xsl: Fiddled with label punctuation; added some xref-related string functions
+
+	* en.xml: Sorted terms; added sect1-5
+
+	* l10n.xsl: Added gentext.xref.text
+
+	* no.xml: Fixed capitalization of keys
+
+2000-01-27  Norman Walsh  <ndw@nwalsh.com>
+
+	* common.xsl: Support section.label.includes.component.label
+
+	* de.xml: Fixed RevisedBy
+
+2000-01-14  Norman Walsh  <ndw@nwalsh.com>
+
+	* ca.xml, cs.xml, da.xml, de.xml, el.xml, en.xml, es.xml, fi.xml, fr.xml, it.xml, ja.xml, nl.xml, no.xml, pl.xml, pt.xml, pt_br.xml, ro.xml, ru.xml, sk.xml, sv.xml: 
+	Fixed typos; added HTML navigation keys
+
+	* l10n.xml: Added Brazilian Portuguese
+
+	* l10n.xsl: Support country subclassing of languages; added gentext for HTML navigation
+
+	* pt_br.xml: New file.
+
+2000-01-11  Norman Walsh  <ndw@nwalsh.com>
+
+	* l10n.xsl: Fix relative URI for l10n.xml
+
+2000-01-10  Norman Walsh  <ndw@nwalsh.com>
+
+	* ca.xml, common.xsl, cs.xml, da.xml, de.xml, el.xml, en.xml, es.xml, fi.xml, fr.xml, it.xml, ja.xml, l10n.xml, l10n.xsl, nl.xml, no.xml, pl.xml, pt.xml, ro.xml, ru.xml, sk.xml, sv.xml: 
+	First cut at I18N/L10N
+
+	* ca.xml, cs.xml, da.xml, de.xml, el.xml, es.xml, fi.xml, it.xml, ja.xml, nl.xml, no.xml, pl.xml, pt.xml, ro.xml, ru.xml, sk.xml, sv.xml: 
+	Added L10N for dingbats
+
+	* common.xsl: Fix gentext space in title.ref
+
+	* l10n.xml: Added ca
+
+	* l10n.xsl: Fix editedby and by gentext calls
+
+1999-12-28  Norman Walsh  <ndw@nwalsh.com>
+
+	* common.xsl: Added modes for generating element labels and titles; added stylesheet version
+
+	* common.xsl: Support bibliography, glossary, and index titles
+
+	* l10n.xsl: Added stylesheet version
+
+1999-10-20  Norman Walsh  <ndw@nwalsh.com>
+
+	* common.xsl, l10n.xsl: Update URI in all the included modules
+
+1999-08-19  Norman Walsh  <ndw@nwalsh.com>
+
+	* common.xsl: Added xsl:preserve-space
+
+1999-07-27  Norman Walsh  <ndw@nwalsh.com>
+
+	* common.xsl, l10n.xsl: Updated to July spec
+
+1999-07-15  Norman Walsh  <ndw@nwalsh.com>
+
+	* common.xsl: Moved strip-space into common
+
+1999-07-06  Norman Walsh  <ndw@nwalsh.com>
+
+	* common.xsl: Removed section.title; it was bogus
+
+	* l10n.xsl: Added appendix and reference
+
+1999-07-02  Norman Walsh  <ndw@nwalsh.com>
+
+	* dbl10n.xsl, l10n.xsl: Renamed
+
+	* l10n.xsl: Added glosssee and glossseealso
+
+1999-06-14  Norman Walsh  <ndw@nwalsh.com>
+
+	* common.xsl: Added section.autolabel support; fixed bug in person.name.list
+
+	* dbl10n.xsl: Added revhistory and revision to element.name
+
+1999-06-09  Norman Walsh  <ndw@nwalsh.com>
+
+	* common.xsl: Removed section.heading and formal.object.heading--they used markup
+
+	* dbl10n.xsl: Added a few entries and sorted them
+
+	* inline.xsl: removed
+
+1999-06-03  Norman Walsh  <ndw@nwalsh.com>
+
+	* common.xsl: Top-level headings now include the clear: all CSS style property
+
+	* dbl10n.xsl: Added a few more element names
+
+1999-05-20  Norman Walsh  <ndw@nwalsh.com>
+
+	* common.xsl, dbl10n.xsl, inline.xsl: Many updates
+
+	* dbl10n.xsl: Updates
+
+1999-05-19  Norman Walsh  <ndw@nwalsh.com>
+
+	* common.xsl, dbl10n.xsl, inline.xsl: New file.
+

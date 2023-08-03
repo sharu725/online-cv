@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<xsl:stylesheet version="1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:template match="document">
+  <xsl:text>document in module #3;</xsl:text>
+  <xsl:apply-templates select="article"/>
+</xsl:template>
+
+
+<xsl:template match="article[position()=1]">
+  <xsl:text>article in module #3;</xsl:text>
+  <xsl:apply-templates select="title"/>
+</xsl:template>
+
+</xsl:stylesheet>

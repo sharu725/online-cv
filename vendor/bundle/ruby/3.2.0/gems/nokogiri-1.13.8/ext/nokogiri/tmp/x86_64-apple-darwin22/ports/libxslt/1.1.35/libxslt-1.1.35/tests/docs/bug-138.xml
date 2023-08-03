@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<report>
+        <title>My Document</title>
+        <origin>someone</origin>
+        <form>
+                <code>1234</code>
+                <description note="min qty 5">A widget</description>
+                <qty>10</qty>
+        </form>
+        <form>
+                <code>99999</code>
+                <description note="add comment">Miscellaneous</description>
+                <qty>3</qty>
+        </form>
+</report>

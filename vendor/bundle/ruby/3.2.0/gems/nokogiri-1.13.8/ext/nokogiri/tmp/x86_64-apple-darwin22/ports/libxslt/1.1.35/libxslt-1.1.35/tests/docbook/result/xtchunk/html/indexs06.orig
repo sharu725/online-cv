@@ -1,0 +1,43 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Writing Application and Applet Manuals</title><meta name="generator" content="DocBook XSL Stylesheets V1.40"><link rel="home" href="index.html" title="The GNOME Handbook of Writing Software Documentation"><link rel="up" href="index.html" title="The GNOME Handbook of Writing Software Documentation"><link rel="previous" href="indexs05.html" title="GDP Documentation Conventions "><link rel="next" href="indexs07.html" title="Listing Documents in the Help Menu"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Writing Application and Applet Manuals</th></tr><tr><td width="20%" align="left"><a href="indexs05.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a href="indexs07.html">Next</a></td></tr></table><hr></div><div class="sect1"><a name="writingapplicationmanuals"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="writingapplicationmanuals"></a>Writing Application and Applet Manuals</h2></div></div><p>
+       Every GNOME application or applet should have a manual specific
+      to that particular application. This manual should be a complete
+      and authoritative guide.  The manual should describe what the
+      program does and how to use it.  Manuals will typically describe
+      each window or panel presented to the user using screenshots (in
+      PNG format only) when appropriate.  They should also describe
+      each feature and preference option available.
+    </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title"><a name="id2939595"></a>Documentation Availability</h3><p>
+        Applications and applets should not rely on documentation
+        which is only available on the internet.  All manuals and
+        other documentation should be packaged with the application or
+        applet and be made available to the user through the standard
+        GNOME help system methods described below.
+      </p></div><p> Application manuals should be based on the template in
+    <a href="apa.html#template1" title="Template 1: Application Manual">the section called &#8220;Template 1: Application Manual&#8221;</a>.  Applet manuals should be based on
+    the templates in <a href="apas02.html" title="Template 2: Applet Manual For GNOME 1.x">the section called &#8220;Template 2: Applet Manual For GNOME 1.x&#8221;</a> for GNOME
+    versions 1.x and the templates in <a href="apas03.html" title="Template 2: Applet Manual For GNOME 2.x">the section called &#8220;Template 2: Applet Manual For GNOME 2.x&#8221;</a>
+    for GNOME versions 2.x.
+    </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title"><a name="id2939689"></a>Manuals For Large Applications</h3><p>
+        Manuals for very large applications, such as GNOME Workshop
+        components should be a <tt>&lt;book&gt;</tt> (and thus
+        use <tt>&lt;chapter&gt;</tt> for each primary section)
+        , instead of <tt>&lt;article&gt;</tt> which most
+        applications use(with each primary section being a
+        <tt>&lt;sect1&gt;</tt>).
+      </p></div><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title"><a name="id2939746"></a>Applet Manuals in GNOME 2.0</h3><p>
+        Note that applet manuals in GNOME 2.0 are treated in a special
+        way.  The manuals for all applets are merged into a single
+        virtual document by Nautilus.  For this reason, the header
+        information for applet manuals is omitted and the  first
+        section of each applet is
+        <tt>&lt;sect1&gt;</tt>. Applet manuals will typically
+        have several sections, each of which is
+        <tt>&lt;sect2&gt;</tt>.
+      </p></div><p>
+      Application manuals should be made available by having a
+      "Manual" entry in the Help pull-down menu
+      at the top of the 
+      application, as described in <a href="indexs07.html" title="Listing Documents in the Help Menu">the section called &#8220;Listing Documents in the Help Menu&#8221;</a>.
+      Applets should make their manuals available by
+      right-clicking on the applet. 
+    </p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a href="indexs05.html">Prev</a> </td><td width="20%" align="center"><a href="index.html">Home</a></td><td width="40%" align="right"> <a href="indexs07.html">Next</a></td></tr><tr><td width="40%" align="left">GDP Documentation Conventions  </td><td width="20%" align="center"><a href="index.html">Up</a></td><td width="40%" align="right"> Listing Documents in the Help Menu</td></tr></table></div></body></html>

@@ -1,0 +1,11 @@
+2001-04-15  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* reference.css: New file.
+
+2001-04-03  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* .cvsignore, Makefile, book.xsl, jrefhtml.xsl, reference.xsl: 
+	New file.
+
+	* Makefile: Misc. cleanup in preparation for making a distrib
+

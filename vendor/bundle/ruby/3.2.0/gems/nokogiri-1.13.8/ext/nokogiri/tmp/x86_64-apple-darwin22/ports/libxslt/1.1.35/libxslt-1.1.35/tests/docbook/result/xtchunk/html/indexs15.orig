@@ -1,0 +1,29 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Resources</title><meta name="generator" content="DocBook XSL Stylesheets V1.40"><link rel="home" href="index.html" title="The GNOME Handbook of Writing Software Documentation"><link rel="up" href="index.html" title="The GNOME Handbook of Writing Software Documentation"><link rel="previous" href="indexs14.html" title="Finishing A Document"><link rel="next" href="apa.html" title="A. Document Templates"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Resources</th></tr><tr><td width="20%" align="left"><a href="indexs14.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a href="apa.html">Next</a></td></tr></table><hr></div><div class="sect1"><a name="resources"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="resources"></a>Resources</h2></div></div><div class="sect2"><a name="resourcesweb"></a><div class="titlepage"><div><h3 class="title"><a name="resourcesweb"></a>Resources On The Web</h3></div></div><p>  The <a href="http://developer.gnome.org/projects/gdp/" target="_top">GNOME
+      Documentation Project Web page</a> lists current GDP 
+      projects and members.
+      </p><p>
+        The <a href="http://www.gnome.org/gdp/doctable/" target="_top">GDP Documentation Status Table</a> tracks the
+        status of all the various documentation components of GNOME.
+      </p><p>
+        Norman Walsh's  <a href="http://www.docbook.org" target="_top"> <i>DocBook: The Definitive
+        Guide</i></a> in an excellent book on DocBook,
+        available both online and in print.
+      </p></div><div class="sect2"><a name="resourcesbooks"></a><div class="titlepage"><div><h3 class="title"><a name="resourcesbooks"></a>Books</h3></div></div><p>
+        Docbook: The Definitive Guide is available in both printed
+        form and on the web at:
+        <a href="http://www.docbook.org/tdg/index.html" target="_top">
+        <i>Docbook: The Definitive Guide</i>
+        </a>
+      </p></div><div class="sect2"><a name="mailinglists"></a><div class="titlepage"><div><h3 class="title"><a name="mailinglists"></a>Mailing Lists</h3></div></div><p>
+        The <i>gnome-docs-list</i> mailing list is the
+        main discussion area for all contributors to the GNOME
+        Documentation Project. You can find out how to subscribe to
+        this list on <a href="http://www.gnome.org/resources/mailing-lists.html" target="_top">GNOME Mailing Lists</a>.  This is a rather
+        low-volume list, so you will not be flooded with messages.
+      </p></div><div class="sect2"><a name="irc"></a><div class="titlepage"><div><h3 class="title"><a name="irc"></a>IRC</h3></div></div><p>
+        Internet Relay Chat (IRC) is a fast and easy way to get in
+        touch with other GDP members.  There are generally at least a
+        few members here who can answer questions or discuss
+        documentation issues.  The IRC channel is #docs at
+        irc.gnome.org.
+      </p></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a href="indexs14.html">Prev</a> </td><td width="20%" align="center"><a href="index.html">Home</a></td><td width="40%" align="right"> <a href="apa.html">Next</a></td></tr><tr><td width="40%" align="left">Finishing A Document </td><td width="20%" align="center"><a href="index.html">Up</a></td><td width="40%" align="right"> A. Document Templates</td></tr></table></div></body></html>

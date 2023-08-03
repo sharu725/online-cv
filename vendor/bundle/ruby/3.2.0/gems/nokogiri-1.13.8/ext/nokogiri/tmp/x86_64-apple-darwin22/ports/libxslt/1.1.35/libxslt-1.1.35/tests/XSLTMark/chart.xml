@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<salesdata>
+  <year>
+    <year>1997</year>
+	<region>
+	  <name>west</name>
+      <sales unit="millions">32</sales>
+    </region>
+	<region>
+	  <name>central</name>
+      <sales unit="millions">11</sales>
+    </region>
+	<region>
+	  <name>east</name>
+      <sales unit="millions">19</sales>
+    </region>
+  </year>
+  <year>
+    <year>1998</year>
+	<region>
+	  <name>west</name>
+      <sales unit="millions">35</sales>
+    </region>
+	<region>
+	  <name>central</name>
+      <sales unit="millions">12</sales>
+    </region>
+	<region>
+	  <name>east</name>
+      <sales unit="millions">25</sales>
+    </region>
+  </year>
+  <year>
+    <year>1999</year>
+	<region>
+	  <name>west</name>
+      <sales unit="millions">36</sales>
+    </region>
+	<region>
+	  <name>central</name>
+      <sales unit="millions">12</sales>
+    </region>
+	<region>
+	  <name>east</name>
+      <sales unit="millions">31</sales>
+    </region>
+  </year>
+  <year>
+    <year>2000</year>
+	<region>
+	  <name>west</name>
+      <sales unit="millions">37</sales>
+    </region>
+	<region>
+	  <name>central</name>
+      <sales unit="millions">11</sales>
+    </region>
+	<region>
+	  <name>east</name>
+      <sales unit="millions">40</sales>
+    </region>
+  </year>
+</salesdata>

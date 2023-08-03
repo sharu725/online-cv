@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE chapter
+  PUBLIC "-//Norman Walsh//DTD DocBk XML V3.1.7//EN"
+  "../dtd/3.1.7/docbookx.dtd">
+<chapter id="ch1">
+<title>test</title>
+<para>How many &deg; can you &copy;.</para>
+
+<table frame="topbot"><title>A Table</title>
+<tgroup cols="3">
+<colspec align="right" colname="c2" colnum="2" colwidth="1.5*+2in"/>
+<colspec colname="c3" colwidth="2*+4pt"/>
+<tbody>
+<row><entry>1</entry><entry>2</entry><entry>3</entry></row>
+<row><entry>1</entry><entry morerows="1">2</entry><entry>3</entry></row>
+<row><entry>1</entry><entry>3</entry></row>
+<row><entry>1</entry><entry>2</entry><entry>3</entry></row>
+<row><entry>1</entry><entry namest="c2" nameend="c3">2</entry></row>
+<row><entry>1</entry><entry>2</entry><entry>3</entry></row>
+<row><entry>1</entry><entry colname="c2">2</entry><entry>3</entry></row>
+<row><entry colname="c2">2</entry><entry>3</entry></row>
+<row><entry>1</entry><entry>2</entry><entry>3</entry></row>
+<row><entry namest="c2" nameend="c3">2</entry></row>
+<row><entry>1</entry><entry>2</entry><entry>3</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<table frame="all"><title>A Table</title>
+<?dbhtml table-width="4in"?>
+<tgroup cols="3">
+<colspec align="right" colname="c2" colnum="2" colwidth="1.5*"/>
+<colspec colname="c3" colwidth="2*"/>
+<tbody>
+<row><entry>1</entry><entry>2</entry><entry>3</entry></row>
+<row><entry>1</entry><entry morerows="1">2</entry><entry>3</entry></row>
+<row><entry>1</entry><entry>3</entry></row>
+<row><entry>1</entry><entry>2</entry><entry>3</entry></row>
+<row><entry>1</entry><entry namest="c2" nameend="c3">2</entry></row>
+<row><entry>1</entry><entry>2</entry><entry>3</entry></row>
+<row><entry>1</entry><entry colname="c2">2</entry><entry>3</entry></row>
+<row><entry colname="c2">2</entry><entry>3</entry></row>
+<row><entry>1</entry><entry>2</entry><entry>3</entry></row>
+<row><entry namest="c2" nameend="c3">2</entry></row>
+<row><entry>1</entry><entry>2</entry><entry>3</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<table><title>A Table</title>
+<?dbhtml table-width="7in"?>
+<tgroup cols="3">
+<colspec colname="c1" colwidth="2in"/>
+<colspec align="right" colname="c2" colnum="2" colwidth="2in"/>
+<colspec colname="c3" colwidth="3in"/>
+<tbody>
+<row><entry>1</entry><entry>2</entry><entry>3</entry></row>
+<row><entry>1</entry><entry morerows="1">2</entry><entry>3</entry></row>
+<row><entry>1</entry><entry>3</entry></row>
+<row><entry>1</entry><entry>2</entry><entry>3</entry></row>
+<row><entry>1</entry><entry namest="c2" nameend="c3">2</entry></row>
+<row><entry>1</entry><entry>2</entry><entry>3</entry></row>
+<row><entry>1</entry><entry colname="c2">2</entry><entry>3</entry></row>
+<row><entry colname="c2">2</entry><entry>3</entry></row>
+<row><entry>1</entry><entry>2</entry><entry>3</entry></row>
+<row><entry namest="c2" nameend="c3">2</entry></row>
+<row><entry>1</entry><entry>2</entry><entry>3</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<table><title>A Table</title>
+<?dbhtml table-width="85%"?>
+<tgroup cols="3">
+<colspec align="right" colname="c2" colnum="2" colwidth="2in"/>
+<colspec colname="c3" colwidth="3in"/>
+<tbody>
+<row><entry>1</entry><entry>2</entry><entry>3</entry></row>
+<row><entry>1</entry><entry morerows="1">2</entry><entry>3</entry></row>
+<row><entry>1</entry><entry>3</entry></row>
+<row><entry>1</entry><entry>2</entry><entry>3</entry></row>
+<row><entry>1</entry><entry namest="c2" nameend="c3">2</entry></row>
+<row><entry>1</entry><entry>2</entry><entry>3</entry></row>
+<row><entry>1</entry><entry colname="c2">2</entry><entry>3</entry></row>
+<row><entry colname="c2">2</entry><entry>3</entry></row>
+<row><entry>1</entry><entry>2</entry><entry>3</entry></row>
+<row><entry namest="c2" nameend="c3">2</entry></row>
+<row><entry>1</entry><entry>2</entry><entry>3</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+</chapter>
+

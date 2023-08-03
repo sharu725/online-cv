@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<page>
+  <!-- valid xs:gYear -->
+  <date date="0001"/>
+  <date date="3000"/>
+  <date date="2000"/>
+  <date date="9990001"/>
+  <date date="-0005"/>
+</page>
+

@@ -1,0 +1,3249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE book
+  PUBLIC "-//Norman Walsh//DTD DocBk XML V3.1.7//EN"
+  "../dtd/3.1.7/docbookx.dtd">
+<book id="book">
+<bookinfo>
+<title>Book Title</title>
+<author>
+<surname>Walsh</surname>
+<firstname>Norman</firstname>
+</author>
+<corpauthor>Some Corporation</corpauthor>
+<legalnotice>
+<title>Legal Notice</title>
+<para>This is a test document. You can do what you will with it.</para>
+</legalnotice>
+<legalnotice>
+<para>This is a second legal notice.  But it's not noteworthy.
+  Some more text. Some more text. Some more text. Some more text. 
+  Some more text. Some more text. Some more text. Some more text. 
+  Some more text. Some more text. Some more text. Some more text. 
+  Some more text. Some more text. Some more text. Some more text. 
+  Some more text. Some more text. Some more text. Some more text. 
+  Some more text. Some more text. Some more text. Some more text. 
+  Some more text. Some more text. Some more text. Some more text. 
+  </para>
+</legalnotice>
+<copyright>
+<year>1998</year>
+<holder>Norman Walsh</holder>
+</copyright>
+</bookinfo>
+<dedication>
+<para>This test book is dedicated to all the testers.  This is the first para
+of the dedication.</para>
+<para>This is the second para of the dedication.</para>
+<para>This is the third para of the dedication.</para>
+</dedication>
+<preface>
+<title>Preface Title</title>
+<para>Preface content.</para>
+<para>This is the second para of the preface.</para>
+<para>This is the third para of the preface.</para>
+</preface>
+<part>
+<docinfo>
+<title>Part One Title</title>
+<legalnotice>
+<para>Foo! A legal notice in a part!</para>
+</legalnotice>
+</docinfo>
+<title>Part One Title</title>
+<partintro>
+<title>PartIntro Title</title>
+<para>Partintro content<footnote>
+<para>This is a footnote in a partintro.</para>
+</footnote>.</para>
+<sect1>
+<title>PartIntro Section</title>
+<para>PartIntros can actually have section content as well.</para>
+</sect1>
+</partintro>
+<chapter id="chapter">
+<title id="chaptertitle">XRef Tests</title>
+<bridgehead renderas="sect3">Xrefs</bridgehead>
+<simplelist>
+<member><xref linkend="book"/></member>
+<member><xref linkend="part"/></member>
+<member><xref linkend="chapter"/></member>
+<member><xref linkend="appendix"/></member>
+<member><xref linkend="table"/></member>
+<member><xref linkend="figure"/></member>
+<member><xref linkend="example"/></member>
+<member><xref linkend="equation"/></member>
+<member><xref linkend="reference"/></member>
+<member><xref linkend="bib1"/></member>
+<member><xref linkend="gloss"/></member>
+<member><xref linkend="index"/></member>
+</simplelist>
+<para>This is the first reference to <firstterm linkend="xml">XML</firstterm>.
+This is the second reference to <glossterm linkend="xml">XML</glossterm>.
+These are references without <sgmltag class="attribute">linkend</sgmltag>
+attributes: <firstterm>XML</firstterm>, <glossterm>XML</glossterm>.</para>
+<bridgehead renderas="sect3">Links</bridgehead>
+<para>More <ulink url="http://www.jclark.com/dsssl/">DSSSL information</ulink>
+is available.</para>
+<para>There is <link linkend="part">a second part</link> in this book.</para>
+<para>This is the <link endterm="chaptertitle" linkend="chapter"></link>
+chapter.</para>
+</chapter>
+<chapter id="stchap">
+<docinfo>
+<title>Section Tests</title>
+<subtitle>Section Tests Subtitle</subtitle>
+</docinfo>
+<title>Section Tests</title>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+<indexterm>
+<primary>ap1</primary>
+</indexterm>
+<indexterm>
+<primary>ap2</primary>
+</indexterm>
+
+<indexterm>
+<primary>bp1</primary>
+<secondary>bp1bs1</secondary>
+</indexterm>
+<indexterm>
+<primary>bp2</primary>
+</indexterm>
+
+<indexterm>
+<primary>cp1</primary>
+<secondary>cp1cs1</secondary>
+<tertiary>cp1cs1ct1</tertiary>
+</indexterm>
+<indexterm>
+<primary>cp2</primary>
+</indexterm>
+
+<indexterm>
+<primary>dp1</primary>
+<secondary>dp1ds1</secondary>
+</indexterm>
+<indexterm>
+<primary>dp1</primary>
+<secondary>dp1ds2</secondary>
+</indexterm>
+<indexterm>
+<primary>dp2</primary>
+</indexterm></para>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+<sect1 id="secttest1">
+<title>a sect1 title</title>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+<indexterm>
+<primary>ep1</primary>
+<secondary>ep1es1</secondary>
+<tertiary>ep1es1et1</tertiary>
+</indexterm>
+<indexterm>
+<primary>ep1</primary>
+<secondary>ep1es2</secondary>
+</indexterm>
+<indexterm>
+<primary>ep2</primary>
+</indexterm>
+
+<indexterm>
+<primary>fp1</primary>
+<secondary>fp1fs1</secondary>
+</indexterm>
+<indexterm>
+<primary>fp1</primary>
+<secondary>fp1fs2</secondary>
+<tertiary>fp1fs2ft1</tertiary>
+</indexterm>
+<indexterm>
+<primary>fp2</primary>
+</indexterm>
+
+<indexterm>
+<primary>gp1</primary>
+<secondary>gp1gs1</secondary>
+</indexterm>
+<indexterm>
+<primary>gp1</primary>
+<secondary>gp1gs2</secondary>
+</indexterm>
+<indexterm>
+<primary>gp1</primary>
+<secondary>gp1gs2</secondary>
+<tertiary>gp1gs2gt1</tertiary>
+</indexterm>
+<indexterm>
+<primary>gp1</primary>
+<secondary>gp1gs2</secondary>
+<tertiary>gp1gs2gt2</tertiary>
+</indexterm>
+<indexterm>
+<primary>gp1</primary>
+<secondary>gp1gs3</secondary>
+</indexterm>
+<indexterm>
+<primary>gp2</primary>
+</indexterm></para>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+<sect2>
+<title>a sect2 title</title>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+<sect3>
+<title>a sect3 title</title>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+<indexterm>
+<primary>hp1</primary>
+<secondary>hp1hs1</secondary>
+<tertiary>hp1hs1ht1</tertiary>
+</indexterm>
+<indexterm>
+<primary>hp1</primary>
+<secondary>hp1hs1</secondary>
+<tertiary>hp1hs1ht2</tertiary>
+</indexterm>
+<indexterm>
+<primary>hp2</primary>
+</indexterm>
+
+<indexterm>
+<primary>ip1</primary>
+</indexterm>
+<indexterm>
+<primary>ip1</primary>
+<secondary>ip1is1</secondary>
+</indexterm>
+<indexterm>
+<primary>ip1</primary>
+<secondary>ip1is1</secondary>
+<tertiary>ip1is1it1</tertiary>
+</indexterm>
+<indexterm>
+<primary>ip1</primary>
+<secondary>ip1is1</secondary>
+<tertiary>ip1is1it2</tertiary>
+</indexterm>
+<indexterm>
+<primary>ip1</primary>
+<secondary>ip1is2</secondary>
+<tertiary>ip1is2it1</tertiary>
+</indexterm>
+<indexterm>
+<primary>ip2</primary>
+</indexterm></para>
+<sect4>
+<title>a sect4 title</title>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+<sect5>
+<title>a sect5 title</title>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+</sect5>
+</sect4>
+</sect3>
+</sect2>
+</sect1>
+<sect1 id="secttest2">
+<sect1info>
+<title>another sect1 title</title>
+<subtitle>a sect1 subtitle</subtitle>
+</sect1info>
+<title>another sect1 title</title>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+<indexterm>
+<primary>jp1</primary>
+</indexterm>
+<indexterm>
+<primary>jp1</primary>
+<secondary>jp1js1</secondary>
+<tertiary>jp1js1jt1</tertiary>
+</indexterm>
+<indexterm>
+<primary>jp1</primary>
+<secondary>jp1js1</secondary>
+<tertiary>jp1js1jt2</tertiary>
+</indexterm>
+<indexterm>
+<primary>jp2</primary>
+</indexterm></para>
+<sect2>
+<sect2info>
+<title>another sect2 title</title>
+<subtitle>a sect2 subtitle</subtitle>
+</sect2info>
+<title>another sect2 title</title>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+<sect3>
+<sect3info>
+<title>another sect3 title</title>
+<subtitle>a sect3 subtitle</subtitle>
+</sect3info>
+<title>another sect3 title</title>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+<sect4>
+<sect4info>
+<title>another sect4 title</title>
+<subtitle>a sect4 subtitle</subtitle>
+</sect4info>
+<title>another sect4 title</title>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+<sect5>
+<sect5info>
+<title>another sect5 title</title>
+<subtitle>a sect5 subtitle</subtitle>
+</sect5info>
+<title>another sect5 title</title>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+</sect5>
+</sect4>
+</sect3>
+</sect2>
+</sect1>
+<sect1 id="secttest3">
+<title>another sect1 title</title>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+</sect1>
+<sect1 id="secttest4">
+<title>another sect1 title</title>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+</sect1>
+</chapter>
+<chapter>
+<title>Inline Tests</title>
+<simplesect>
+<title>Testing <quote>Quotes</quote> in a title</title>
+<para>Footnotes<footnote id="fn1">
+<para>Like this!</para>
+</footnote> are inlines.
+Sort of<footnote>
+<para>Well, the marks are, anyway!</para>
+</footnote>.
+Another footnote<footnoteref linkend="fn1"/>.</para>
+<simplelist columns="3" type="vert">
+<member><abbrev>Abbrev</abbrev></member>
+<member><acronym>Acronym</acronym></member>
+<member><action>Action</action></member>
+<member><application>Application</application></member>
+<member><citation>Citation</citation></member>
+<member><citerefentry>
+<refentrytitle>CiteRefEntry RefEntryTitle</refentrytitle>
+<manvolnum>n</manvolnum>
+</citerefentry></member>
+<member><citetitle>Citetitle</citetitle></member>
+<member><classname>ClassName</classname></member>
+<member><command>Command</command></member>
+<member><comment>Comment</comment> (Comment)</member>
+<member><computeroutput>ComputerOutput</computeroutput></member>
+<member><database>Database</database></member>
+<member><errorname>ErrorName</errorname></member>
+<member><errortype>ErrorType</errortype></member>
+<member><email>Email</email></member>
+<member><emphasis>Emphasis</emphasis></member>
+<member><envar>EnVar</envar></member>
+<member><errorcode>ErrorCode</errorcode></member>
+<member><filename>Filename</filename></member>
+<member><firstterm>Firstterm</firstterm></member>
+<member><foreignphrase>ForeignPhrase</foreignphrase></member>
+<member><function>Function</function></member>
+<member><guimenuitem>GUIMenuItem</guimenuitem></member>
+<member><guibutton>GUIButton</guibutton></member>
+<member><guibutton>GUI<accel>B</accel>utton (with Accel)</guibutton></member>
+<member><guiicon>GUIIcon</guiicon></member>
+<member><guilabel>GUILabel</guilabel></member>
+<member><guimenu>GUIMenu</guimenu></member>
+<member><guisubmenu>GUISubMenu</guisubmenu></member>
+<member><hardware>Hardware</hardware></member>
+<member><inlineequation>
+<alt>e=mc^2</alt>
+<graphic fileref="emc2.gif"/>
+</inlineequation></member>
+<member><interface>Interface</interface></member>
+<member><interfacedefinition>InterfaceDefinition</interfacedefinition></member>
+<member><keycap>KeyCap</keycap></member>
+<member><keycode>KeyCode</keycode></member>
+<member><keycombo>
+<keycap>Key</keycap>
+<keycap>Combo</keycap>
+</keycombo></member>
+<member><keysym>KeySym</keysym></member>
+<member><literal>Literal</literal></member>
+<member><markup>Markup</markup></member>
+<member><medialabel>MediaLabel</medialabel></member>
+<member><mousebutton>MouseButton</mousebutton></member>
+<member><option>Option</option></member>
+<member><optional>Optional</optional></member>
+<member><parameter>Parameter</parameter></member>
+<member><phrase>Phrase</phrase></member>
+<member><prompt>Prompt</prompt></member>
+<member><property>Property</property></member>
+<member><quote>Quote</quote></member>
+<member><replaceable>Replaceable</replaceable></member>
+<member><returnvalue>ReturnValue</returnvalue></member>
+<member><sgmltag class="attribute">SGMLTag</sgmltag> (Attribute)</member>
+<member><sgmltag class="attvalue">SGMLTag</sgmltag> (AttValue)</member>
+<member><sgmltag class="element">SGMLTag</sgmltag> (Element)</member>
+<member><sgmltag class="endtag">SGMLTag</sgmltag> (EndTag)</member>
+<member><sgmltag class="genentity">SGMLTag</sgmltag> (GenEntity)</member>
+<member><sgmltag class="numcharref">SGMLTag</sgmltag> (NumCharRef)</member>
+<member><sgmltag class="paramentity">SGMLTag</sgmltag> (ParamEntity)</member>
+<member><sgmltag class="pi">SGMLTag</sgmltag> (PI)</member>
+<member><sgmltag class="sgmlcomment">SGMLTag</sgmltag> (SGMLComment)</member>
+<member><sgmltag class="starttag">SGMLTag</sgmltag> (StartTag)</member>
+<member><sgmltag>SGMLTag</sgmltag></member>
+<member><structfield>StructField</structfield></member>
+<member><structname>StructName</structname></member>
+<member><subscript>Subscript</subscript></member>
+<member><superscript>Superscript</superscript></member>
+<member><symbol>Symbol</symbol></member>
+<member><systemitem>SystemItem</systemitem></member>
+<member><token>Token</token></member>
+<member><trademark>Trademark</trademark></member>
+<member><type>Type</type></member>
+<member><userinput>UserInput</userinput></member>
+<member><wordasword>WordAsWord</wordasword></member>
+<member><productname>ProductName</productname></member>
+</simplelist>
+<para>And here are a couple of index terms, as another test (of 
+index terms, not inlines).
+<indexterm>
+<primary>aap1</primary>
+<see>ap1</see>
+</indexterm>
+<indexterm>
+<primary>bbp1</primary>
+<seealso>bp1</seealso>
+</indexterm></para>
+</simplesect>
+</chapter>
+<chapter>
+<title>Block Tests</title>
+<simplesect>
+<title>Formal Objects</title>
+<bridgehead renderas="sect4">Example</bridgehead>
+<example id="example">
+<title>An Example</title>
+<para>This is an example of a trivial example.</para>
+</example>
+<bridgehead renderas="sect4">Figure</bridgehead>
+<figure id="figure">
+<title>A Figure</title>
+<screen>This is an example of a trivial figure.</screen>
+</figure>
+<bridgehead renderas="sect4">Equation</bridgehead>
+<equation id="equation">
+<title>An Equation</title>
+<alt>e=mc^2</alt>
+<graphic fileref="emc2.gif"/>
+</equation>
+<bridgehead renderas="sect4">Table</bridgehead>
+<table id="table">
+<title>A Table</title>
+<tgroup cols="2">
+<colspec colwidth="0.5in"/>
+<colspec colwidth="0.5in"/>
+<tbody>
+<row>
+<entry>1</entry>
+<entry>1</entry>
+</row>
+<row>
+<entry>2</entry>
+<entry>4</entry>
+</row>
+<row>
+<entry>3</entry>
+<entry>9</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</simplesect>
+<simplesect>
+<title>Informal Objects</title>
+<bridgehead renderas="sect4">InformalExample</bridgehead>
+<informalexample id="iexample">
+<para>This is an example of a trivial, informal example.</para>
+</informalexample>
+<bridgehead renderas="sect4">InformalEquation</bridgehead>
+<informalequation id="iequation">
+<alt>e=mc^2</alt>
+<graphic fileref="emc2.gif"/>
+</informalequation>
+<bridgehead renderas="sect4">InformalTable</bridgehead>
+<informaltable id="itable">
+<tgroup cols="2">
+<tbody>
+<row>
+<entry>1</entry>
+<entry>1</entry>
+</row>
+<row>
+<entry>2</entry>
+<entry>8</entry>
+</row>
+<row>
+<entry>3</entry>
+<entry>27</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</simplesect>
+<simplesect>
+<title>Admonitions</title>
+<bridgehead renderas="sect4">Note</bridgehead>
+<note>
+<para>Consider yourself noted.</para>
+<para>Second para.</para>
+</note>
+<note>
+<simpara>Consider yourself noted, simply.</simpara>
+</note>
+<note>
+<title>NoteTitle</title>
+<para>Consider yourself noted.</para>
+<para>Second para, with a title.</para>
+</note>
+<note>
+<title>Att</title>
+<simpara>Consider yourself noted, simply.</simpara>
+<simpara>With a title</simpara>
+</note>
+<bridgehead renderas="sect4">Important</bridgehead>
+<important>
+<para>Consider yourself important.</para>
+</important>
+<bridgehead renderas="sect4">Tip</bridgehead>
+<tip>
+<para>Consider yourself tipped.</para>
+</tip>
+<bridgehead renderas="sect4">Warning</bridgehead>
+<warning>
+<para>Consider yourself warned.</para>
+</warning>
+<bridgehead renderas="sect4">Caution</bridgehead>
+<caution>
+<para>Consider yourself cautioned.</para>
+</caution>
+<bridgehead renderas="sect4">SimPara in Caution</bridgehead>
+<caution>
+<title>Simple Caution</title>
+<simpara>A simpler caution.</simpara>
+</caution>
+</simplesect>
+<simplesect>
+<title>Other Objects</title>
+<bridgehead renderas="sect4">Screen</bridgehead>
+<screen>This
+  is                  <lineannotation>With a line-annotation</lineannotation>
+    a 
+     screen
+     This
+    is                <lineannotation>With a line-annotation</lineannotation>
+  a 
+screen
+This
+  is                  <lineannotation>With a line-annotation</lineannotation>
+    a 
+     screen</screen>
+<bridgehead renderas="sect4">ProgramListing</bridgehead>
+<programlisting>This
+  is
+    a 
+programlisting</programlisting>
+<bridgehead renderas="sect4">Address</bridgehead>
+<address>Norman Walsh
+ArborText, Inc.
+<street>1000 Victors Way</street>
+<city>Ann Arbor</city>, <state>MI</state> <postcode>48108</postcode>
+<country>US</country>
+
+Voice: <phone>313.997.0200</phone>
+Fax: <fax>313.997.0201</fax>
+
+Email: <email>nwalsh@arbortext.com</email>
+WWW: <otheraddr role="homepage">http://www.arbortext.com/</otheraddr></address>
+<bridgehead renderas="sect4">BlockQuote</bridgehead>
+<blockquote>
+<para>The universe that we observe has precisely the properties we should 
+expect if there is, at bottom, no design, no purpose, no evil and
+no good, nothing but pitiless indifference.&mdash;Richard Dawkins</para>
+</blockquote>
+<bridgehead renderas="sect4">Procedure</bridgehead>
+<procedure>
+<step>
+<para>This is the first step</para>
+</step>
+<step>
+<para>This is the second step</para>
+<substeps>
+<step>
+<para>This is the first substep</para>
+</step>
+<step>
+<para>This is the second substep</para>
+</step>
+</substeps>
+</step>
+<step>
+<para>This is the third step</para>
+</step>
+</procedure>
+<bridgehead renderas="sect4">Procedure With Title</bridgehead>
+<procedure>
+<title>Same Procedure with a Title</title>
+<step>
+<para>This is the first step</para>
+</step>
+<step>
+<para>This is the second step</para>
+<substeps>
+<step>
+<para>This is the first substep</para>
+</step>
+<step>
+<para>This is the second substep</para>
+</step>
+</substeps>
+</step>
+<step>
+<para>This is the third step</para>
+</step>
+</procedure>
+<bridgehead renderas="sect4">SideBar</bridgehead>
+<sidebar>
+<title>What About Bob?</title>
+<para>This is a sidebar.</para>
+</sidebar>
+<bridgehead renderas="sect4">MsgSet</bridgehead>
+<para>It's not really clear how <sgmltag>MsgSet</sgmltag> should be presented.
+I expect that it's fairly application, if not document, specific.</para>
+<msgset>
+<msgentry>
+<msg>
+<msgmain>
+<msgtext>
+<para>Record failed CRC</para>
+</msgtext>
+</msgmain>
+<msgsub>
+<msgtext>
+<para>Record <replaceable>n</replaceable>
+                    in <replaceable>database</replaceable></para>
+</msgtext>
+</msgsub>
+<msgrel>
+<msgtext>
+<para>File read error on 
+                   <replaceable>database</replaceable></para>
+</msgtext>
+</msgrel>
+<msgrel>
+<msgtext>
+<para>Panic! Corrupt record!</para>
+</msgtext>
+</msgrel>
+</msg>
+<msginfo>
+<msglevel>severe</msglevel>
+<msgorig>server</msgorig>
+<msgaud>all</msgaud>
+</msginfo>
+<msgexplan>
+<para>        Indicates that some sort of error occured attempting to load
+        a record from the database.  Retry.  If failure persists,
+        contact the database administrator.
+        </para>
+</msgexplan>
+</msgentry>
+</msgset>
+<bridgehead renderas="sect4">LiteralLayout</bridgehead>
+<literallayout>This is a
+literal
+       layout</literallayout>
+<para><literallayout>This is a
+literal
+       layout
+  in a para</literallayout></para>
+</simplesect>
+</chapter>
+<chapter>
+<title>List Tests</title>
+<simplesect>
+<title>OrderedLists</title>
+<bridgehead renderas="sect4">Default Numeration</bridgehead>
+<orderedlist>
+<listitem>
+<para>One</para>
+</listitem>
+<listitem>
+<programlisting>this one starts with
+a program listing
+what happens?</programlisting>
+</listitem>
+<listitem>
+<synopsis>this one starts with
+a synopsis
+what happens?</synopsis>
+</listitem>
+<listitem>
+<para>para first</para>
+<synopsis>this one has
+a synopsis
+what happens?</synopsis>
+</listitem>
+<listitem>
+<para>Three</para>
+<screen>A
+Screen
+Here</screen>
+</listitem>
+<listitem>
+<para>Four</para>
+</listitem>
+</orderedlist>
+<bridgehead renderas="sect4">Arabic Numeration</bridgehead>
+<orderedlist numeration="arabic">
+<listitem>
+<para>One</para>
+</listitem>
+<listitem>
+<para>Two</para>
+</listitem>
+<listitem>
+<para>Three</para>
+</listitem>
+<listitem>
+<para>Four</para>
+</listitem>
+</orderedlist>
+<bridgehead renderas="sect4">Arabic Numeration (Long)</bridgehead>
+<orderedlist numeration="arabic">
+<listitem>
+<para>One</para>
+</listitem>
+<listitem>
+<para>Two</para>
+</listitem>
+<listitem>
+<para>Three</para>
+</listitem>
+<listitem>
+<para>Four</para>
+</listitem>
+<listitem>
+<para>Five</para>
+</listitem>
+<listitem>
+<para>Six</para>
+</listitem>
+<listitem>
+<para>Seven</para>
+</listitem>
+<listitem>
+<para>Eight</para>
+</listitem>
+<listitem>
+<para>Nine</para>
+</listitem>
+<listitem>
+<para>Ten</para>
+</listitem>
+<listitem>
+<para>Eleven</para>
+</listitem>
+</orderedlist>
+<bridgehead renderas="sect4">UpperAlpha Numeration</bridgehead>
+<orderedlist numeration="upperalpha">
+<listitem>
+<para>One</para>
+</listitem>
+<listitem>
+<para>Two</para>
+</listitem>
+<listitem>
+<para>Three</para>
+</listitem>
+<listitem>
+<para>Four</para>
+</listitem>
+</orderedlist>
+<bridgehead renderas="sect4">LowerAlpha Numeration</bridgehead>
+<orderedlist numeration="loweralpha">
+<listitem>
+<para>One</para>
+</listitem>
+<listitem>
+<para>Two</para>
+</listitem>
+<listitem>
+<para>Three</para>
+</listitem>
+<listitem>
+<para>Four</para>
+</listitem>
+</orderedlist>
+<bridgehead renderas="sect4">UpperRoman Numeration</bridgehead>
+<orderedlist numeration="upperroman">
+<listitem>
+<para>One</para>
+</listitem>
+<listitem>
+<para>Two</para>
+</listitem>
+<listitem>
+<para>Three</para>
+</listitem>
+<listitem>
+<para>Four</para>
+</listitem>
+</orderedlist>
+<bridgehead renderas="sect4">LowerRoman Numeration</bridgehead>
+<orderedlist numeration="lowerroman">
+<listitem>
+<para>One</para>
+</listitem>
+<listitem>
+<para>Two</para>
+</listitem>
+<listitem>
+<para>Three</para>
+</listitem>
+<listitem>
+<para>Four</para>
+</listitem>
+</orderedlist>
+<bridgehead renderas="sect4">Continued</bridgehead>
+<para>First list:
+<orderedlist>
+<listitem>
+<para>One</para>
+</listitem>
+<listitem>
+<para>Two</para>
+</listitem>
+<listitem>
+<para>Three</para>
+</listitem>
+<listitem>
+<para>Four</para>
+</listitem>
+</orderedlist></para>
+<para>Second list:
+<orderedlist continuation="continues">
+<listitem>
+<para>Five</para>
+</listitem>
+<listitem>
+<para>Six</para>
+</listitem>
+<listitem>
+<para>Seven</para>
+</listitem>
+<listitem>
+<para>Eight</para>
+</listitem>
+<listitem>
+<para>Nine</para>
+</listitem>
+<listitem>
+<para>Ten</para>
+</listitem>
+</orderedlist></para>
+</simplesect>
+<simplesect>
+<title>ItemizedLists</title>
+<bridgehead renderas="sect4">Default Presentation</bridgehead>
+<itemizedlist>
+<listitem>
+<para>One</para>
+</listitem>
+<listitem>
+<programlisting>One-point-five. This one starts with
+a program listing
+what happens?</programlisting>
+</listitem>
+<listitem>
+<para>Two</para>
+</listitem>
+<listitem>
+<para>Three</para>
+</listitem>
+<listitem>
+<para>Four</para>
+</listitem>
+</itemizedlist>
+<bridgehead renderas="sect4">Block Elements in a List</bridgehead>
+<itemizedlist>
+<listitem>
+<para>One</para>
+<para>Another para.</para>
+</listitem>
+<listitem>
+<para>Two</para>
+</listitem>
+<listitem>
+<para>Three</para>
+</listitem>
+<listitem>
+<para>Four</para>
+</listitem>
+</itemizedlist>
+<bridgehead renderas="sect4">Alternate Mark and OverRide</bridgehead>
+<itemizedlist mark="box">
+<listitem>
+<para>TeX and LaTeX</para>
+</listitem>
+<listitem override="bullet">
+<para>Troff</para>
+</listitem>
+<listitem>
+<para>Lout</para>
+</listitem>
+<listitem override="none">
+<para>Test</para>
+</listitem>
+</itemizedlist>
+<bridgehead renderas="sect4">No mark Presentation</bridgehead>
+<itemizedlist mark="none">
+<listitem override="none">
+<para>One</para>
+</listitem>
+<listitem override="bullet">
+<para>Two</para>
+</listitem>
+<listitem>
+<para>Three</para>
+</listitem>
+<listitem>
+<para>Four</para>
+</listitem>
+</itemizedlist>
+</simplesect>
+<simplesect>
+<title>VariableLists</title>
+<variablelist>
+<varlistentry>
+<term>Term1</term>
+<listitem>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Term2</term>
+<listitem>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Term3</term>
+<listitem>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<itemizedlist>
+<listitem>
+<para>One</para>
+</listitem>
+<listitem>
+<para>Two</para>
+</listitem>
+<listitem>
+<para>Three</para>
+</listitem>
+<listitem>
+<para>Four</para>
+</listitem>
+</itemizedlist>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Term4</term>
+<listitem>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+<variablelist>
+<varlistentry>
+<term>Another List</term>
+<listitem>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>ProgramListing</term>
+<listitem>
+<programlisting>A ProgramListing
+Is the First Element
+of this VarListEntry</programlisting>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</simplesect>
+<simplesect>
+<title>SimpleLists</title>
+<bridgehead renderas="sect4">Inline</bridgehead>
+<para>An inline simple list:
+<simplelist type="inline">
+<member>One</member>
+<member>Two</member>
+<member>Three</member>
+<member>Four</member>
+<member>Five</member>
+<member>Six</member>
+<member>Seven</member>
+</simplelist></para>
+<bridgehead renderas="sect4">Horiz</bridgehead>
+<simplelist columns="3" type="horiz">
+<member>One</member>
+<member>Two</member>
+<member>Three</member>
+<member>Four</member>
+<member>Five</member>
+<member>Six</member>
+<member>Seven</member>
+</simplelist>
+<bridgehead renderas="sect4">Vert</bridgehead>
+<simplelist columns="3" type="vert">
+<member>One</member>
+<member>Two</member>
+<member>Three</member>
+<member>Four</member>
+<member>Five</member>
+<member>Six</member>
+<member>Seven</member>
+</simplelist>
+</simplesect>
+<simplesect>
+<title>More Complex List Item Content</title>
+<itemizedlist>
+<listitem>
+<para>One</para>
+<para>Second para</para>
+</listitem>
+<listitem>
+<para>Two</para>
+<para>Second para</para>
+</listitem>
+<listitem>
+<simpara>Three</simpara>
+<para>Second para</para>
+</listitem>
+<listitem>
+<para>Four</para>
+<para>Second para</para>
+</listitem>
+<listitem>
+<formalpara>
+<title>Formal Element</title>
+<para>Five</para>
+</formalpara>
+<para>Second para</para>
+</listitem>
+<listitem>
+<para>Six</para>
+</listitem>
+</itemizedlist>
+<orderedlist>
+<listitem>
+<para>One</para>
+<para>Second para</para>
+</listitem>
+<listitem>
+<para>Two</para>
+<para>Second para</para>
+</listitem>
+<listitem>
+<simpara>Three</simpara>
+<para>Second para</para>
+</listitem>
+<listitem>
+<para>Four</para>
+<para>Second para</para>
+</listitem>
+<listitem>
+<formalpara>
+<title>Formal Element</title>
+<para>Five</para>
+</formalpara>
+<para>Second para</para>
+</listitem>
+<listitem>
+<para>Six</para>
+</listitem>
+</orderedlist>
+</simplesect>
+<simplesect>
+<title>Segmented List</title>
+<segmentedlist>
+<title>State Birds</title>
+<segtitle>State</segtitle>
+<segtitle>Bird</segtitle>
+<seglistitem>
+<seg>Alabama</seg>
+<seg>Yellowhammer</seg>
+</seglistitem>
+<seglistitem>
+<seg>Alaska</seg>
+<seg>Willow Ptarmigan</seg>
+</seglistitem>
+<seglistitem>
+<seg>Arizona</seg>
+<seg>Cactus Wren</seg>
+</seglistitem>
+<seglistitem>
+<seg>Arkansas</seg>
+<seg>Mockingbird</seg>
+</seglistitem>
+<seglistitem>
+<seg>California</seg>
+<seg>California Valley Quail</seg>
+</seglistitem>
+<seglistitem>
+<seg>Colorado</seg>
+<seg>Lark Bunting</seg>
+</seglistitem>
+<seglistitem>
+<seg>Connecticut</seg>
+<seg>Robin</seg>
+</seglistitem>
+<seglistitem>
+<seg>Delaware</seg>
+<seg>Blue Hen Chicken</seg>
+</seglistitem>
+<seglistitem>
+<seg>Florida</seg>
+<seg>Mockingbird</seg>
+</seglistitem>
+<seglistitem>
+<seg>Georgia</seg>
+<seg>Brown Thrasher</seg>
+</seglistitem>
+<seglistitem>
+<seg>Hawaii</seg>
+<seg>Nene</seg>
+</seglistitem>
+<seglistitem>
+<seg>Idaho</seg>
+<seg>Mountain Bluebird</seg>
+</seglistitem>
+<seglistitem>
+<seg>Illinois</seg>
+<seg>Cardinal</seg>
+</seglistitem>
+<seglistitem>
+<seg>Indiana</seg>
+<seg>Cardinal</seg>
+</seglistitem>
+<seglistitem>
+<seg>Iowa</seg>
+<seg>Eastern Goldfinch</seg>
+</seglistitem>
+<seglistitem>
+<seg>Kansas</seg>
+<seg>Western Meadowlark</seg>
+</seglistitem>
+<seglistitem>
+<seg>Kentucky</seg>
+<seg>Cardinal</seg>
+</seglistitem>
+<seglistitem>
+<seg>Louisiana</seg>
+<seg>Eastern Brown Pelican</seg>
+</seglistitem>
+<seglistitem>
+<seg>Maine</seg>
+<seg>Chickadee</seg>
+</seglistitem>
+<seglistitem>
+<seg>Maryland</seg>
+<seg>Baltimore Oriole</seg>
+</seglistitem>
+<seglistitem>
+<seg>Massachusetts</seg>
+<seg>Chickadee</seg>
+</seglistitem>
+<seglistitem>
+<seg>Michigan</seg>
+<seg>Robin</seg>
+</seglistitem>
+<seglistitem>
+<seg>Minnesota</seg>
+<seg>Common Loon</seg>
+</seglistitem>
+<seglistitem>
+<seg>Mississippi</seg>
+<seg>Mockingbird</seg>
+</seglistitem>
+<seglistitem>
+<seg>Missouri</seg>
+<seg>Bluebird</seg>
+</seglistitem>
+<seglistitem>
+<seg>Montana</seg>
+<seg>Western Meadowlark</seg>
+</seglistitem>
+<seglistitem>
+<seg>Nebraska</seg>
+<seg>Western Meadowlark</seg>
+</seglistitem>
+<seglistitem>
+<seg>Nevada</seg>
+<seg>Mountain Bluebird</seg>
+</seglistitem>
+<seglistitem>
+<seg>New Hampshire</seg>
+<seg>Purple Finch</seg>
+</seglistitem>
+<seglistitem>
+<seg>New Jersey</seg>
+<seg>Eastern Goldfinch</seg>
+</seglistitem>
+<seglistitem>
+<seg>New Mexico</seg>
+<seg>Roadrunner</seg>
+</seglistitem>
+<seglistitem>
+<seg>New York</seg>
+<seg>Bluebird</seg>
+</seglistitem>
+<seglistitem>
+<seg>North Carolina</seg>
+<seg>Cardinal</seg>
+</seglistitem>
+<seglistitem>
+<seg>North Dakota</seg>
+<seg>Western Meadowlark</seg>
+</seglistitem>
+<seglistitem>
+<seg>Ohio</seg>
+<seg>Cardinal</seg>
+</seglistitem>
+<seglistitem>
+<seg>Oklahoma</seg>
+<seg>Scissor-tailed Flycatcher</seg>
+</seglistitem>
+<seglistitem>
+<seg>Oregon</seg>
+<seg>Western Meadowlark</seg>
+</seglistitem>
+<seglistitem>
+<seg>Pennsylvania</seg>
+<seg>Ruffed Grouse</seg>
+</seglistitem>
+<seglistitem>
+<seg>Rhode Island</seg>
+<seg>Rhode Island Red</seg>
+</seglistitem>
+<seglistitem>
+<seg>South Carolina</seg>
+<seg>Great Carolina Wren</seg>
+</seglistitem>
+<seglistitem>
+<seg>South Dakota</seg>
+<seg>Ring-necked Pheasant</seg>
+</seglistitem>
+<seglistitem>
+<seg>Tennessee</seg>
+<seg>Mockingbird</seg>
+</seglistitem>
+<seglistitem>
+<seg>Texas</seg>
+<seg>Mockingbird</seg>
+</seglistitem>
+<seglistitem>
+<seg>Utah</seg>
+<seg>American Seagull</seg>
+</seglistitem>
+<seglistitem>
+<seg>Vermont</seg>
+<seg>Hermit Thrush</seg>
+</seglistitem>
+<seglistitem>
+<seg>Virginia</seg>
+<seg>Cardinal </seg>
+</seglistitem>
+<seglistitem>
+<seg>Washington</seg>
+<seg>Willow Goldfinch</seg>
+</seglistitem>
+<seglistitem>
+<seg>West Virginia</seg>
+<seg>Cardinal</seg>
+</seglistitem>
+<seglistitem>
+<seg>Wisconsin</seg>
+<seg>Robin</seg>
+</seglistitem>
+<seglistitem>
+<seg>Wyoming</seg>
+<seg>Western Meadowlark</seg>
+</seglistitem>
+</segmentedlist>
+</simplesect>
+</chapter>
+<chapter>
+<title>Table Tests</title>
+<bridgehead renderas="sect4">Alternate Alignment on Entry</bridgehead>
+<informaltable frame="all">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1" colwidth="2in"/>
+<colspec colnum="2" colname="c2" colwidth="2in"/>
+<colspec colnum="3" colname="c3" align="center"/>
+<thead>
+<row>
+<entry>h1</entry>
+<entry>h2</entry>
+<entry>h3</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left">left</entry>
+<entry align="center">center</entry>
+<entry>center</entry>
+</row>
+<row>
+<entry align="center">center</entry>
+<entry align="right">right</entry>
+<entry align="right">right</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<informaltable frame="topbot">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1" colwidth="2in"/>
+<colspec colnum="2" colname="c2" colwidth="2in"/>
+<colspec colnum="3" colname="c3" align="center"/>
+<thead>
+<row>
+<entry>h1</entry>
+<entry>h2</entry>
+<entry>h3</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left">left</entry>
+<entry align="center">center</entry>
+<entry>center</entry>
+</row>
+<row>
+<entry align="center">center</entry>
+<entry align="right">right</entry>
+<entry align="right">right</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<informaltable>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1" colwidth="2in"/>
+<colspec colnum="2" colname="c2" colwidth="2in"/>
+<colspec colnum="3" colname="c3" align="center"/>
+<thead>
+<row>
+<entry>h1</entry>
+<entry>h2</entry>
+<entry>h3</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left"><emphasis>left emph</emphasis></entry>
+<entry align="center"><emphasis role="bold">center emph/bold</emphasis></entry>
+<entry><literal>center literal</literal></entry>
+</row>
+<row>
+<entry align="center"><filename>center filename</filename></entry>
+<entry align="right"><command>right command</command></entry>
+<entry align="right">right</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<bridgehead renderas="sect4">Absolute Widths</bridgehead>
+<informaltable>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1" colwidth="1in"/>
+<colspec colnum="2" colname="c2" colwidth="1in"/>
+<colspec colnum="3" colname="c3" colwidth="1in" align="center"/>
+<thead>
+<row>
+<entry>h1</entry>
+<entry>h2</entry>
+<entry>h3</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>e1</entry>
+<entry>e2</entry>
+<entry>e3</entry>
+</row>
+<row>
+<entry>e1</entry>
+<entry>e2</entry>
+<entry>e3</entry>
+</row>
+<row>
+<entry>e1</entry>
+<entry>e2</entry>
+<entry>e3</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<bridgehead renderas="sect4">Relative Widths</bridgehead>
+<informaltable>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1" colwidth="3*"/>
+<colspec colnum="2" colname="c2" colwidth="2*"/>
+<tbody>
+<row>
+<entry align="left"><para>left</para></entry>
+<entry align="center"><para>center</para></entry>
+</row>
+<row>
+<entry align="center"><para>center</para></entry>
+<entry align="right"><para>right</para></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<bridgehead renderas="sect4">Complex</bridgehead>
+<informaltable pgwide="1">
+<tgroup cols="6">
+<colspec colnum="2" colname="c2" align="right"/>
+<colspec colnum="3" colname="c3" align="center"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colname="c6" align="left"/>
+<spanspec namest="c2" nameend="c3" spanname="span"/>
+<tbody>
+<row>
+<entry>A1</entry>
+<entry>A2</entry>
+<entry>A3</entry>
+<entry morerows="1">A4</entry>
+<entry>A5</entry>
+<entry>A6</entry>
+</row>
+<row>
+<entry>B1</entry>
+<entry colsep="1" rowsep="1">B2</entry>
+<entry rowsep="1">B3</entry>
+<entry>B5</entry>
+<entry>B6</entry>
+</row>
+<row>
+<entry>C1</entry>
+<entry colsep="1">C2</entry>
+<entry>C3</entry>
+<entry>C4</entry>
+<entry namest="c5" nameend="c6" morerows="2" valign="middle">C5</entry>
+</row>
+<row>
+<entry namest="c2">D2</entry>
+<entry>D3</entry>
+<entry>D4</entry>
+</row>
+<row>
+<entry>E1</entry>
+<entry spanname="span" align="left">E2</entry>
+<entry>E4</entry>
+</row>
+<row>
+<entry>F1</entry>
+<entry>F2</entry>
+<entry>F3</entry>
+<entry>F4</entry>
+<entry>F5</entry>
+<entry>F6</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<bridgehead renderas="sect4">With Footnotes</bridgehead>
+<informaltable>
+<tgroup cols="2">
+<tbody>
+<row>
+<entry>foo<footnote id="fnrex1a">
+<para>A meaningless
+word</para>
+</footnote></entry>
+<entry>3<footnote id="fnrex1b">
+<para>A meaningless
+number</para>
+</footnote></entry>
+</row>
+<row>
+<entry>bar<footnoteref linkend="fnrex1a"/></entry>
+<entry>5<footnoteref linkend="fnrex1b"/></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<bridgehead renderas="sect4">A Big One</bridgehead>
+<informaltable>
+<tgroup cols="15">
+<thead>
+<row>
+<entry>H1</entry>
+<entry>H2</entry>
+<entry>H3</entry>
+<entry>H4</entry>
+<entry>H5</entry>
+<entry>H6</entry>
+<entry>H7</entry>
+<entry>H8</entry>
+<entry>H9</entry>
+<entry>H10</entry>
+<entry>H11</entry>
+<entry>H12</entry>
+<entry>H13</entry>
+<entry>H14</entry>
+<entry>H15</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>6</entry>
+<entry>7</entry>
+<entry>8</entry>
+<entry>9</entry>
+<entry>10</entry>
+<entry>11</entry>
+<entry>12</entry>
+<entry>13</entry>
+<entry>14</entry>
+<entry>15</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</chapter>
+<chapter>
+<title>Index Term Tests</title>
+<para>Test data.</para>
+<indexterm id="idx1">
+<primary>oft-repeated</primary>
+</indexterm>
+<indexterm id="idx2">
+<primary>chap-level</primary>
+</indexterm>
+<sect1>
+<title>Index Term Sect 1</title>
+<para>Test data.</para>
+<indexterm id="idx3">
+<primary>!</primary>
+</indexterm>
+<indexterm id="fred">
+<primary>oft-repeated</primary>
+<secondary>with id</secondary>
+</indexterm>
+<indexterm significance="preferred" id="idx5">
+<primary>sect1-level</primary>
+</indexterm>
+<indexterm id="idx6">
+<primary>sect1-level</primary>
+</indexterm>
+<indexterm id="idx7">
+<primary>sect1-level</primary>
+<secondary>sec</secondary>
+</indexterm>
+<indexterm id="idx8">
+<primary>sect1-other</primary>
+<secondary>sec</secondary>
+</indexterm>
+<indexterm id="idx9">
+<primary>chap-level</primary>
+<secondary>sec</secondary>
+<tertiary>tert</tertiary>
+</indexterm>
+<indexterm scope="local">
+<primary>chap-level</primary>
+<secondary>sec</secondary>
+<tertiary>tert</tertiary>
+</indexterm>
+<indexterm id="idx11">
+<primary>sect1-level</primary>
+</indexterm>
+<sect2>
+<title>Index Term Sect 2</title>
+<para>Test data.</para>
+<indexterm id="idx12">
+<primary>[</primary>
+</indexterm>
+<indexterm id="idx13">
+<primary>oft-repeated</primary>
+</indexterm>
+<indexterm id="idx14">
+<primary sortas="abracadabra">sect2-level</primary>
+</indexterm>
+<indexterm id="idx15">
+<primary>chap-level</primary>
+<secondary>sec</secondary>
+<tertiary>tert</tertiary>
+</indexterm>
+</sect2>
+<sect2>
+<title>Index Term Sect 3</title>
+<para>foo</para>
+</sect2>
+</sect1>
+</chapter>
+</part>
+<part id="part">
+<title>Part Two Title</title>
+<chapter>
+<title>CmdSynopsis Tests</title>
+<bridgehead renderas="sect4">Very Simple CmdSynopsis</bridgehead>
+<cmdsynopsis>
+<command>cd</command>
+<arg choice="req"><replaceable>directory</replaceable></arg>
+</cmdsynopsis>
+<bridgehead renderas="sect4">Simple CmdSynopsis</bridgehead>
+<cmdsynopsis>
+<command>cal</command>
+<arg>-j</arg>
+<arg>-y</arg>
+<arg>month <arg>year</arg></arg>
+</cmdsynopsis>
+<bridgehead renderas="sect4">Another Simple CmdSynopsis</bridgehead>
+<cmdsynopsis>
+<command>chgrp</command>
+<arg>-R 
+    <group>
+<arg>-H</arg>
+<arg>-L</arg>
+<arg>-P</arg>
+</group>
+  </arg>
+<arg>-f</arg>
+<arg choice="plain"><replaceable>group</replaceable></arg>
+<arg choice="plain" rep="repeat"><replaceable>file</replaceable></arg>
+</cmdsynopsis>
+<bridgehead renderas="sect4">Slightly Complex CmdSynopsis</bridgehead>
+<cmdsynopsis>
+<command>emacs</command>
+<arg>-t <replaceable>file</replaceable></arg>
+<arg>-q</arg>
+<arg>-u <replaceable>user</replaceable></arg>
+<arg>+<replaceable>number</replaceable></arg>
+<arg rep="repeat">-f <replaceable>function</replaceable></arg>
+<arg rep="repeat">-l <replaceable>file</replaceable></arg>
+<arg choice="plain" rep="repeat"><replaceable>file</replaceable></arg>
+</cmdsynopsis>
+<bridgehead renderas="sect4">Quite Complex CmdSynopsis</bridgehead>
+<cmdsynopsis>
+<command>cccp</command>
+<arg>-$</arg>
+<arg>-C</arg>
+<arg rep="repeat">-D<replaceable>name</replaceable><arg>=<replaceable>definition</replaceable></arg></arg>
+<arg>-dD</arg>
+<arg>-dM</arg>
+<arg rep="repeat">-I <replaceable>directory</replaceable></arg>
+<arg>-H</arg>
+<arg>-I-</arg>
+<sbr/>
+<arg rep="repeat">-imacros <replaceable>file</replaceable></arg>
+<arg rep="repeat">-include <replaceable>file</replaceable></arg>
+<group>
+<arg>-lang-c</arg>
+<arg>-lang-c++</arg>
+<arg>-lang-objc</arg>
+</group>
+<arg>-lint</arg>
+<sbr/>
+<group>
+<arg>-M</arg>
+<arg>-MD</arg>
+<arg>-MM</arg>
+<arg>-MMD</arg>
+</group>
+<arg>-nostdinc</arg>
+<arg>-P</arg>
+<arg>-pedantic</arg>
+<arg>-pedantic-errors</arg>
+<arg>-trigraphs</arg>
+<arg>-U<replaceable>name</replaceable></arg>
+<sbr/>
+<arg>-undef</arg>
+<arg>-Wtrigraphs</arg>
+<arg>-Wcomment</arg>
+<arg>-Wall</arg>
+<arg>-Wtraditional</arg>
+<group choice="req">
+<arg><replaceable>infile</replaceable></arg>
+<arg>-</arg>
+</group>
+<group choice="req">
+<arg><replaceable>outfile</replaceable></arg>
+<arg>-</arg>
+</group>
+</cmdsynopsis>
+</chapter>
+<chapter>
+<title>FuncSynopsis Tests</title>
+<bridgehead renderas="sect4">Two Simple Parameters</bridgehead>
+<funcsynopsis>
+<funcprototype>
+<funcdef>int <function>max</function></funcdef>
+<paramdef>int <parameter>int1</parameter></paramdef>
+<paramdef>int <parameter>int2</parameter></paramdef>
+</funcprototype>
+</funcsynopsis>
+<bridgehead renderas="sect4">Variable Arguments</bridgehead>
+<funcsynopsis>
+<funcsynopsisinfo>#include &lt;varargs.h&gt;</funcsynopsisinfo>
+<funcprototype>
+<funcdef>int <function>max</function></funcdef>
+<varargs/>
+</funcprototype>
+</funcsynopsis>
+<bridgehead renderas="sect4">Void</bridgehead>
+<funcsynopsis>
+<funcprototype>
+<funcdef>int <function>rand</function></funcdef>
+<void/>
+</funcprototype>
+</funcsynopsis>
+<bridgehead renderas="sect4">Function Pointer Arguments</bridgehead>
+<funcsynopsis>
+<funcprototype>
+<funcdef>void <function>qsort</function></funcdef>
+<paramdef>void *<parameter>dataptr</parameter>[]</paramdef>
+<paramdef>int <parameter>left</parameter></paramdef>
+<paramdef>int <parameter>right</parameter></paramdef>
+<paramdef>int <parameter>(* comp)</parameter>
+      <funcparams>void *, void *</funcparams></paramdef>
+</funcprototype>
+</funcsynopsis>
+</chapter>
+<chapter>
+<title>Callout Tests</title>
+<bridgehead renderas="sect4">CallOut (using AREASPEC)</bridgehead>
+<programlistingco>
+<areaspec>
+<area coords="1" id="prologue"/>
+<area coords="4" id="skipeof"/>
+<areaset coords="" id="xreq">
+<area coords="9" id="require1"/>
+<area coords="10" id="require2"/>
+</areaset>
+<area coords="11 12" id="use"/>
+<area coords="27" id="funccall"/>
+</areaspec>
+<programlisting>@rem = '--*-Perl-*--
+@echo off
+perl.exe %_batchname %$
+goto endofperl
+@rem ';
+
+# Compress mail...
+
+require 'n:/home/nwalsh/lib/cygnus.pl';
+require 'timelocal.pl';
+use Cwd;
+
+select (STDERR); $| = 1;
+select (STDOUT); $| = 1;
+
+@DIRS = ("/home/nwalsh/Mail");
+while (@DIRS) {
+    $dir = shift @DIRS;
+    opendir (DIR, $dir);
+    while ($fname = readdir(DIR)) {
+        $file = "$dir/$fname";
+        next if ! -d $file;
+        next if $fname =~ /^\.\.?$/;
+
+        print "$file\n";
+        push (@DIRS, $file);
+        &amp;compress ($file);
+    }
+}
+
+exit;</programlisting>
+<calloutlist>
+<callout arearefs="prologue">
+<para>The prologue handles embedding a Perl script in a DOS batch file.</para>
+</callout>
+<callout arearefs="skipeof">
+<para>The <literal>goto</literal> statement, interpreted by the DOS batch
+file interpreter, skips over the body of the Perl script.</para>
+</callout>
+<callout arearefs="require1">
+<para>The <literal>require</literal> statement sources in external program
+fragments.</para>
+</callout>
+<callout arearefs="use">
+<para>The <literal>use</literal> statement is similar, but has additional
+utility.  It is a Perl5 function.  (Note that this callout area specifies
+both a line and a column.)</para>
+</callout>
+<callout arearefs="funccall">
+<para>This is a user subroutine call.</para>
+</callout>
+</calloutlist>
+</programlistingco>
+<bridgehead renderas="sect4">CallOut (using CO)</bridgehead>
+<programlisting>this is a line
+this is another line
+there's a <co id="callout1"/>callout in here.
+and there's another on the
+next line
+right here:<co id="callout2"/></programlisting>
+<calloutlist>
+<callout arearefs="callout1">
+<para>First callout.</para>
+<para>Second para in first callout.</para>
+</callout>
+<callout arearefs="callout2">
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Second callout.</para>
+<para>Third para in second callout.</para>
+</callout>
+<callout arearefs="callout1 callout2">
+<para>This paragraph describes <emphasis>both</emphasis> callouts.</para>
+</callout>
+</calloutlist>
+</chapter>
+</part>
+<part>
+<title>A Reference Part</title>
+<reference id="reference">
+<title>Reference</title>
+<refentry>
+<refmeta>
+<refentrytitle>RefEntryTitle</refentrytitle>
+</refmeta>
+<refnamediv>
+<refdescriptor>RefDescriptor</refdescriptor>
+<refname>RefName1</refname>
+<refname>RefName2</refname>
+<refpurpose>Yes, there must be a purpose!</refpurpose>
+</refnamediv>
+<refsynopsisdiv>
+<synopsis>  A
+   Synopsis
+    Goes
+   Here</synopsis>
+</refsynopsisdiv>
+<refsect1>
+<title>A RefSect1</title>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<refsect2>
+<title>A RefSect2</title>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<refsect3>
+<title>A RefSect3</title>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah.<footnote>
+<para>This is a footnote in a refentry.</para>
+</footnote>
+Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+</refsect3>
+</refsect2>
+</refsect1>
+</refentry>
+<refentry>
+<refnamediv>
+<refname><function>Chop</function></refname>
+<refpurpose>strip trailing whitespace</refpurpose>
+</refnamediv>
+<refsect1>
+<title>Description</title>
+<para>     Returns the argument string without trailing whitespace.
+     <example>
+<title>chop() example</title>
+<programlisting>$trimmed = Chop($line);</programlisting>
+</example>
+    </para>
+</refsect1>
+</refentry>
+</reference>
+</part>
+<appendix id="appendix">
+<title>A Very Short Appendix</title>
+<para>Blah.</para>
+</appendix>
+<appendix>
+<title>A Very Long Appendix</title>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<para>Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.
+Blah blah blah blah. Blah blah blah blah. Blah blah blah blah.</para>
+<sect1>
+<title>a sect1 title</title>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+<sect2>
+<title>a sect2 title</title>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+<sect3>
+<title>a sect3 title</title>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+<sect4>
+<title>a sect4 title</title>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+<sect5>
+<title>a sect5 title</title>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+</sect5>
+</sect4>
+</sect3>
+</sect2>
+</sect1>
+<sect1>
+<sect1info>
+<title>another sect1 title</title>
+<subtitle>a sect1 subtitle</subtitle>
+</sect1info>
+<title>another sect1 title</title>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+<sect2>
+<sect2info>
+<title>another sect2 title</title>
+<subtitle>a sect2 subtitle</subtitle>
+</sect2info>
+<title>another sect2 title</title>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+<sect3>
+<sect3info>
+<title>another sect3 title</title>
+<subtitle>a sect3 subtitle</subtitle>
+</sect3info>
+<title>another sect3 title</title>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+<sect4>
+<sect4info>
+<title>another sect4 title</title>
+<subtitle>a sect4 subtitle</subtitle>
+</sect4info>
+<title>another sect4 title</title>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+<sect5>
+<sect5info>
+<title>another sect5 title</title>
+<subtitle>a sect5 subtitle</subtitle>
+</sect5info>
+<title>another sect5 title</title>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+</sect5>
+</sect4>
+</sect3>
+</sect2>
+</sect1>
+<sect1>
+<title>another sect1 title</title>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+</sect1>
+<sect1>
+<title>another sect1 title</title>
+<para>some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. 
+some text. some text. some text. some text. some text. some text. some text. </para>
+</sect1>
+</appendix>
+<bibliography id="bib1">
+<title>A Test Bibliography</title>
+<para>The stock stylesheet attempts to do a Bibliography.  It probably needs
+a lot of tweaking.  It probably doesn't conform to any specific style.</para>
+<bibliodiv>
+<title>Books</title>
+<biblioentry>
+<abbrev>AhoSethiUllman96</abbrev>
+<authorgroup>
+<author>
+<firstname>Alfred V.</firstname>
+<surname>Aho</surname>
+</author>
+<author>
+<firstname>Ravi</firstname>
+<surname>Sethi</surname>
+</author>
+<author>
+<firstname>Jeffrey D.</firstname>
+<surname>Ullman</surname>
+</author>
+</authorgroup>
+<title>Compilers, Principles, Techniques, and Tools</title>
+<publisher>
+<publishername>Addison-Wesley Publishing Company</publishername>
+</publisher>
+<copyright>
+<year>1996</year>
+<holder>Bell Telephone Laboratories, Inc.</holder>
+</copyright>
+<isbn>0-201-10088-6</isbn>
+<editor>
+<firstname>James T.</firstname>
+<surname>DeWolf</surname>
+</editor>
+<seriesinfo>
+<title>Computer Science</title>
+<editor>
+<firstname>Michael A.</firstname>
+<surname>Harrison</surname>
+</editor>
+<publisher>
+<publishername>Addison-Wesley Publishing Company</publishername>
+</publisher>
+</seriesinfo>
+</biblioentry>
+</bibliodiv>
+<bibliodiv>
+<title>Periodicals</title>
+<biblioentry id="walsh97">
+<abbrev>Walsh97</abbrev>
+<biblioset relation="article">
+<title>A Guide to XML</title>
+<author>
+<surname>Walsh</surname>
+<firstname>Norman</firstname>
+</author>
+<pubdate>1997</pubdate>
+<copyright>
+<year>1997</year>
+<holder>ArborText, Inc.</holder>
+</copyright>
+<pagenums>97-108</pagenums>
+</biblioset>
+<biblioset relation="journal">
+<title>XML: Principles, Tools, and Techniques</title>
+<publisher>
+<publishername>O'Reilly &amp; Associates, Inc.</publishername>
+</publisher>
+<issn>1085-2301</issn>
+<editor>
+<firstname>Dan</firstname>
+<surname>Connolly</surname>
+</editor>
+</biblioset>
+</biblioentry>
+<bibliomixed id="walsh96">  <bibliomset relation="article">    <surname>Walsh</surname>, <firstname>Norman</firstname>.
+    <title role="article">Introduction to Cascading Style Sheets</title>.
+  </bibliomset>
+  <bibliomset relation="journal">    <title>The World Wide Web Journal</title>.
+    <volumenum>2</volumenum>(<issuenum>1</issuenum>).
+    <publishername>O'Reilly &amp; Associates, Inc.</publishername> and
+    <corpname>The World Wide Web Consortium</corpname>.
+    <pubdate>Winter, 1996</pubdate></bibliomset>.</bibliomixed>
+<biblioentry>
+<abbrev>Abbrev</abbrev>
+<title>A Really Full BiblioEntry</title>
+<subtitle>Subtitle</subtitle>
+<abstract>
+<para>Abstract, abstract, abstract. Abstract, abstract, abstract. 
+Abstract, abstract, abstract. Abstract, abstract, abstract. 
+Abstract, abstract, abstract. Abstract, abstract, abstract. 
+Abstract, abstract, abstract. Abstract, abstract, abstract. 
+Abstract, abstract, abstract. Abstract, abstract, abstract. 
+Abstract, abstract, abstract. Abstract, abstract, abstract. </para>
+</abstract>
+<address>Any Street
+Anywhere, XX 99999
+USA</address>
+<affiliation>
+<shortaffil>shortaffil</shortaffil>
+<jobtitle>jobtitle</jobtitle>
+<orgname>orgname</orgname>
+<orgdiv>orgdiv</orgdiv>
+<address>Any Street
+Anywhere, XX 99999
+USA</address>
+</affiliation>
+<artpagenums>ArtPageNums</artpagenums>
+<author>
+<firstname>AuthorFirstname</firstname>
+<surname>AuthorSurname</surname>
+</author>
+<authorblurb>
+<para>AuthorBlurb, authorblurb, authorblurb. AuthorBlurb, authorblurb, authorblurb. 
+AuthorBlurb, authorblurb, authorblurb. AuthorBlurb, authorblurb, authorblurb. 
+AuthorBlurb, authorblurb, authorblurb. AuthorBlurb, authorblurb, authorblurb. 
+AuthorBlurb, authorblurb, authorblurb. AuthorBlurb, authorblurb, authorblurb. 
+AuthorBlurb, authorblurb, authorblurb. AuthorBlurb, authorblurb, authorblurb. </para>
+</authorblurb>
+<authorinitials>AuthorInitials</authorinitials>
+<collab>
+<collabname>The names of some collaborators</collabname>
+<affiliation>
+<shortaffil>shortaffil</shortaffil>
+<jobtitle>jobtitle</jobtitle>
+<orgname>orgname</orgname>
+<orgdiv>orgdiv</orgdiv>
+<address>Any Street
+Anywhere, XX 99999
+USA</address>
+</affiliation>
+</collab>
+<confgroup>
+<confdates>confdates</confdates>
+<conftitle>conftitle</conftitle>
+<confnum>confnum</confnum>
+<address>Any Street
+Anywhere, XX 99999
+USA</address>
+<confsponsor>confsponsor</confsponsor>
+</confgroup>
+<contractnum>ContractNum</contractnum>
+<contractsponsor>ContractSponsor</contractsponsor>
+<contrib>Contrib</contrib>
+<copyright>
+<year>1998</year>
+<holder>Copyright holder</holder>
+</copyright>
+<corpname>CorpName</corpname>
+<date>Date</date>
+<edition>Edition</edition>
+<editor>
+<firstname>EditorFirstName</firstname>
+<surname>EditorSurname</surname>
+</editor>
+<firstname>FirstName</firstname>
+<honorific>Honorific</honorific>
+<isbn>ISBN</isbn>
+<issn>ISSN</issn>
+<invpartnumber>InvPartNumber</invpartnumber>
+<issuenum>IssueNum</issuenum>
+<lineage>Lineage</lineage>
+<orgname>OrgName</orgname>
+<othercredit>
+<firstname>OCFirstName</firstname>
+<surname>OCSurname</surname>
+</othercredit>
+<othername>OtherName</othername>
+<pagenums>PageNums</pagenums>
+<printhistory>
+<para>PrintHistory, printhistory, printhistory. PrintHistory, printhistory.
+PrintHistory, printhistory, printhistory. PrintHistory, printhistory.
+PrintHistory, printhistory, printhistory. PrintHistory, printhistory.
+PrintHistory, printhistory, printhistory. PrintHistory, printhistory.</para>
+</printhistory>
+<productname>ProductName</productname>
+<productnumber>ProductNumber</productnumber>
+<pubdate>PubDate</pubdate>
+<publisher>
+<publishername>PubPublisherName</publishername>
+<address><street>Any Street</street>
+<city>Anywhere</city>, <state>XX</state> <postcode>99999</postcode>
+<country>USA</country></address>
+</publisher>
+<publishername>PublisherName</publishername>
+<pubsnumber>PubsNumber</pubsnumber>
+<releaseinfo>ReleaseInfo</releaseinfo>
+<revhistory>
+<revision>
+<revnumber>1.0</revnumber>
+<date>20 Nov 1998</date>
+<authorinitials>ndw</authorinitials>
+<revremark>Some remark about the revision</revremark>
+</revision>
+<revision>
+<revnumber>0.9</revnumber>
+<date>19 Nov 1998</date>
+<authorinitials>ndw</authorinitials>
+<revremark>Some remark about the revision</revremark>
+</revision>
+<revision>
+<revnumber>0.4</revnumber>
+<date>18 Nov 1998</date>
+<authorinitials>ndw</authorinitials>
+<revremark>Some remark about the revision</revremark>
+</revision>
+</revhistory>
+<seriesinfo>
+<title>SeriesInfo Title</title>
+<editor>
+<firstname>SeriesInfo Editor Firstname</firstname>
+<surname>SeriesInfo Editor Surname</surname>
+</editor>
+</seriesinfo>
+<seriesvolnums>SeriesVolNums</seriesvolnums>
+<surname>Surname</surname>
+<titleabbrev>TitleAbbrev</titleabbrev>
+<volumenum>VolumeNum</volumenum>
+</biblioentry>
+</bibliodiv>
+</bibliography>
+<glossary id="gloss">
+<title>Example Glossary</title>
+<para>This is not a real glossary, it's just an example.</para>
+<glossdiv>
+<title>E</title>
+<glossentry id="xml">
+<glossterm>Extensible Markup Language</glossterm>
+<acronym>XML</acronym>
+<glossdef>
+<para>Some reasonable definition here.</para>
+<glossseealso otherterm="sgml"/>
+</glossdef>
+</glossentry>
+</glossdiv>
+<glossdiv>
+<title>S</title>
+<glossentry>
+<glossterm>SGML</glossterm>
+<glosssee otherterm="sgml"/>
+</glossentry>
+<glossentry id="sgml">
+<glossterm>Standard Generalized
+  Markup Language</glossterm>
+<acronym>SGML</acronym>
+<abbrev>ISO 8879:1986</abbrev>
+<glossdef>
+<para>Some reasonable definition here.</para>
+<glossseealso otherterm="xml"/>
+</glossdef>
+</glossentry>
+</glossdiv>
+</glossary>
+<index id="index">
+<para>This is a test index.</para>
+<formalpara>
+<title>a formal para</title>
+<para>this is a formal paragraph.</para>
+</formalpara>
+<indexentry>
+<primaryie>Primary</primaryie>
+<secondaryie>Secondary 1</secondaryie>
+<tertiaryie>Tertiary 11</tertiaryie>
+<tertiaryie>Tertiary 12</tertiaryie>
+<secondaryie>Secondary 2</secondaryie>
+<tertiaryie>Tertiary 21</tertiaryie>
+</indexentry>
+<indexentry id="prim1">
+<primaryie>primary</primaryie>
+</indexentry>
+<indexentry id="prim2">
+<primaryie>primary</primaryie>
+</indexentry>
+<indexentry>
+<primaryie>primary</primaryie>
+<secondaryie>secondary</secondaryie>
+</indexentry>
+<indexentry>
+<primaryie>primary</primaryie>
+<secondaryie>secondary</secondaryie>
+</indexentry>
+<indexentry>
+<primaryie>primary</primaryie>
+<secondaryie>secondary</secondaryie>
+<tertiaryie>tertiary1</tertiaryie>
+</indexentry>
+<indexentry>
+<primaryie>primary</primaryie>
+<secondaryie>secondary</secondaryie>
+<tertiaryie>tertiary2</tertiaryie>
+</indexentry>
+<indexentry>
+<primaryie>primary</primaryie>
+<secondaryie>secondary2</secondaryie>
+<tertiaryie>tertiary3</tertiaryie>
+</indexentry>
+<indexentry>
+<primaryie>primary</primaryie>
+<seeie linkend="prim2">see ie</seeie>
+</indexentry>
+<indexentry>
+<primaryie>primary</primaryie>
+<secondaryie>secondary2</secondaryie>
+<tertiaryie>tertiary3</tertiaryie>
+<seealsoie linkends="prim2 prim1">seealso ie</seealsoie>
+</indexentry>
+</index>
+<index><title>An Index with a Title</title>
+<indexdiv>
+<title>Symbols</title>
+<indexentry>
+<primaryie>!,
+    <ulink url="c3.htm#aen10" role="aen10">Index Term Sect 1</ulink>
+  </primaryie>
+</indexentry>
+<indexentry>
+<primaryie>[,
+    <ulink url="c3.htm#aen38" role="aen38">Index Term Sect 2</ulink>
+  </primaryie>
+</indexentry>
+</indexdiv>
+<indexdiv>
+<title>A</title>
+<indexentry>
+<primaryie>sect2-level,
+    <ulink url="c3.htm#aen38" role="aen38">Index Term Sect 2</ulink>
+  </primaryie>
+</indexentry>
+</indexdiv>
+<indexdiv>
+<title>C</title>
+<indexentry>
+<primaryie>chap-level,
+    <ulink url="c3.htm" role="c3.htm">Index Term Tests</ulink>
+  </primaryie>
+<secondaryie>sec
+  </secondaryie>
+<tertiaryie>tert,
+    <ulink url="c3.htm#aen10" role="aen10">Index Term Sect 1</ulink>,
+    <ulink url="c3.htm#aen38" role="aen38">Index Term Sect 2</ulink>
+  </tertiaryie>
+</indexentry>
+</indexdiv>
+<indexdiv>
+<title>O</title>
+<indexentry>
+<primaryie>oft-repeated,
+    <ulink url="c3.htm" role="c3.htm">Index Term Tests</ulink>,
+    <ulink url="c3.htm#aen38" role="aen38">Index Term Sect 2</ulink>
+  </primaryie>
+<secondaryie>with id,
+    <ulink url="c3.htm#aen10" role="aen10">Index Term Sect 1</ulink>
+  </secondaryie>
+</indexentry>
+</indexdiv>
+<indexdiv>
+<title>S</title>
+<indexentry>
+<primaryie>sect1-level,
+    <ulink url="c3.htm#aen10" role="aen10"><emphasis>Index Term Sect 1</emphasis></ulink>
+  </primaryie>
+<secondaryie>sec,
+    <ulink url="c3.htm#aen10" role="aen10">Index Term Sect 1</ulink>
+  </secondaryie>
+</indexentry>
+<indexentry>
+<primaryie>sect1-other
+  </primaryie>
+<secondaryie>sec,
+    <ulink url="c3.htm#aen10" role="aen10">Index Term Sect 1</ulink>
+  </secondaryie>
+</indexentry>
+</indexdiv>
+</index>
+</book>

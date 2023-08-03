@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" font-family="Times Roman" font-size="10pt" text-align="justify">
+  <fo:layout-master-set>
+    <fo:simple-page-master master-name="blank" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="10pc" margin-right="1in">
+      <fo:region-body margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-blank" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-blank" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="simple1" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="10pc" margin-right="1in">
+      <fo:region-body margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before extent="12pt"/>
+      <fo:region-after extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="left1" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="10pc" margin-right="1in">
+      <fo:region-body margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-left" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-left" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="right1" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="1in" margin-right="10pc">
+      <fo:region-body margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-right" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-right" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="first1" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="1in" margin-right="1in">
+      <fo:region-body margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-first" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-first" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="simple2" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="10pc" margin-right="1in">
+      <fo:region-body column-count="1" margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before extent="12pt"/>
+      <fo:region-after extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="left2" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="10pc" margin-right="1in">
+      <fo:region-body column-count="1" margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-left" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-left" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="right2" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="1in" margin-right="10pc">
+      <fo:region-body column-count="1" margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-right" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-right" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="first2" page-width="8.5in" page-height="11in" margin-top="1in" margin-bottom="1in" margin-left="1in" margin-right="1in">
+      <fo:region-body column-count="1" margin-bottom="24pt" margin-top="24pt"/>
+      <fo:region-before region-name="xsl-region-before-first" extent="12pt"/>
+      <fo:region-after region-name="xsl-region-after-first" extent="12pt"/>
+    </fo:simple-page-master>
+    <fo:page-sequence-master master-name="titlepage1">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="first1"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+    <fo:page-sequence-master master-name="oneside1">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="simple1"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+    <fo:page-sequence-master master-name="twoside1">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="blank" blank-or-not-blank="blank"/>
+        <fo:conditional-page-master-reference master-name="right1" odd-or-even="odd"/>
+        <fo:conditional-page-master-reference master-name="left1" odd-or-even="even"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+    <fo:page-sequence-master master-name="titlepage2">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="first2"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+    <fo:page-sequence-master master-name="oneside2">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="simple2"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+    <fo:page-sequence-master master-name="twoside2">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference master-name="blank" blank-or-not-blank="blank"/>
+        <fo:conditional-page-master-reference master-name="right2" odd-or-even="odd"/>
+        <fo:conditional-page-master-reference master-name="left2" odd-or-even="even"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+  </fo:layout-master-set>
+  <fo:page-sequence id="id2602101" hyphenate="true" master-name="oneside1" language="en">
+    <fo:static-content flow-name="xsl-region-after">
+      <fo:block text-align="center" font-size="10pt">
+        <fo:page-number/>
+      </fo:block>
+    </fo:static-content>
+    <fo:flow flow-name="xsl-region-body">
+      <fo:block>
+        <fo:block text-align="center" margin-left="-4pc" keep-with-next="always" font-size="24.8832pt" font-weight="bold" font-family="Helvetica">
+          <fo:block keep-with-next.within-column="always" hyphenate="false">Article Test Document Title</fo:block>
+        </fo:block>
+      </fo:block>
+      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">This article is just a test. This article is just a test.
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+</fo:block>
+      <fo:block id="id2791866">
+        <fo:block>
+          <fo:block margin-left="-4pc" font-family="Helvetica">
+            <fo:block keep-with-next.within-column="always">
+              <fo:block font-size="16pt" font-weight="bold" font-family="Helvetica" space-before.minimum="1em" space-before.optimum="1.5em" space-before.maximum="2em">First level section</fo:block>
+            </fo:block>
+          </fo:block>
+        </fo:block>
+        <fo:block id="id2791876">
+          <fo:block>
+            <fo:block margin-left="-4pc" font-family="Helvetica">
+              <fo:block keep-with-next.within-column="always">
+                <fo:block font-size="14pt" font-weight="bold" font-family="Helvetica" space-before.minimum="1em" space-before.optimum="1.5em" space-before.maximum="2em">Second level section</fo:block>
+              </fo:block>
+            </fo:block>
+          </fo:block>
+          <fo:block id="id2791887">
+            <fo:block>
+              <fo:block margin-left="-4pc" font-family="Helvetica">
+                <fo:block keep-with-next.within-column="always">
+                  <fo:block font-size="12pt" font-weight="bold" font-family="Helvetica" space-before.minimum="1em" space-before.optimum="1.5em" space-before.maximum="2em">Third level section</fo:block>
+                </fo:block>
+              </fo:block>
+            </fo:block>
+            <fo:block id="id2791991">
+              <fo:block>
+                <fo:block margin-left="-4pc" font-family="Helvetica">
+                  <fo:block keep-with-next.within-column="always">
+                    <fo:block font-size="12pt" font-weight="bold" font-family="Helvetica" space-before.minimum="1em" space-before.optimum="1.5em" space-before.maximum="2em">Fourth level section</fo:block>
+                  </fo:block>
+                </fo:block>
+              </fo:block>
+              <fo:block id="id2792003">
+                <fo:block>
+                  <fo:block margin-left="-4pc" font-family="Helvetica">
+                    <fo:block keep-with-next.within-column="always">
+                      <fo:block font-size="10pt" font-weight="bold" font-family="Helvetica" space-before.minimum="1em" space-before.optimum="1.5em" space-before.maximum="2em">Fifth level section</fo:block>
+                    </fo:block>
+                  </fo:block>
+                </fo:block>
+                <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">This is just a test.</fo:block>
+              </fo:block>
+            </fo:block>
+          </fo:block>
+        </fo:block>
+      </fo:block>
+      <fo:block id="id2778413">
+        <fo:block>
+          <fo:block margin-left="-4pc" font-family="Helvetica">
+            <fo:block keep-with-next.within-column="always">
+              <fo:block font-size="16pt" font-weight="bold" font-family="Helvetica" space-before.minimum="1em" space-before.optimum="1.5em" space-before.maximum="2em">Another Section</fo:block>
+            </fo:block>
+          </fo:block>
+        </fo:block>
+        <fo:block id="id2778425">
+          <fo:block>
+            <fo:block margin-left="-4pc" font-family="Helvetica">
+              <fo:block keep-with-next.within-column="always">
+                <fo:block font-size="14pt" font-weight="bold" font-family="Helvetica" space-before.minimum="1em" space-before.optimum="1.5em" space-before.maximum="2em">SimpleSect @ level 2</fo:block>
+              </fo:block>
+            </fo:block>
+          </fo:block>
+          <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">This is just a test.</fo:block>
+        </fo:block>
+      </fo:block>
+      <fo:block id="id2778448">
+        <fo:block>
+          <fo:block margin-left="-4pc" font-family="Helvetica">
+            <fo:block keep-with-next.within-column="always">
+              <fo:block font-size="16pt" font-weight="bold" font-family="Helvetica" space-before.minimum="1em" space-before.optimum="1.5em" space-before.maximum="2em">Another Section</fo:block>
+            </fo:block>
+          </fo:block>
+        </fo:block>
+        <fo:block id="id2778460">
+          <fo:block>
+            <fo:block margin-left="-4pc" font-family="Helvetica">
+              <fo:block keep-with-next.within-column="always">
+                <fo:block font-size="14pt" font-weight="bold" font-family="Helvetica" space-before.minimum="1em" space-before.optimum="1.5em" space-before.maximum="2em">Another Section</fo:block>
+              </fo:block>
+            </fo:block>
+          </fo:block>
+          <fo:block id="id2778471">
+            <fo:block>
+              <fo:block margin-left="-4pc" font-family="Helvetica">
+                <fo:block keep-with-next.within-column="always">
+                  <fo:block font-size="12pt" font-weight="bold" font-family="Helvetica" space-before.minimum="1em" space-before.optimum="1.5em" space-before.maximum="2em">SimpleSect @ level 3</fo:block>
+                </fo:block>
+              </fo:block>
+            </fo:block>
+            <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">This is just a test.</fo:block>
+          </fo:block>
+        </fo:block>
+      </fo:block>
+      <fo:block id="id2778496">
+        <fo:block>
+          <fo:block margin-left="-4pc" font-family="Helvetica">
+            <fo:block keep-with-next.within-column="always">
+              <fo:block font-size="16pt" font-weight="bold" font-family="Helvetica" space-before.minimum="1em" space-before.optimum="1.5em" space-before.maximum="2em">Another Section</fo:block>
+            </fo:block>
+          </fo:block>
+        </fo:block>
+        <fo:block id="id2778508">
+          <fo:block>
+            <fo:block margin-left="-4pc" font-family="Helvetica">
+              <fo:block keep-with-next.within-column="always">
+                <fo:block font-size="14pt" font-weight="bold" font-family="Helvetica" space-before.minimum="1em" space-before.optimum="1.5em" space-before.maximum="2em">Another Section</fo:block>
+              </fo:block>
+            </fo:block>
+          </fo:block>
+          <fo:block id="id2778519">
+            <fo:block>
+              <fo:block margin-left="-4pc" font-family="Helvetica">
+                <fo:block keep-with-next.within-column="always">
+                  <fo:block font-size="12pt" font-weight="bold" font-family="Helvetica" space-before.minimum="1em" space-before.optimum="1.5em" space-before.maximum="2em">Another Section</fo:block>
+                </fo:block>
+              </fo:block>
+            </fo:block>
+            <fo:block id="id2778531">
+              <fo:block>
+                <fo:block margin-left="-4pc" font-family="Helvetica">
+                  <fo:block keep-with-next.within-column="always">
+                    <fo:block font-size="12pt" font-weight="bold" font-family="Helvetica" space-before.minimum="1em" space-before.optimum="1.5em" space-before.maximum="2em">SimpleSect @ level 4</fo:block>
+                  </fo:block>
+                </fo:block>
+              </fo:block>
+              <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">This is just a test.</fo:block>
+            </fo:block>
+          </fo:block>
+        </fo:block>
+      </fo:block>
+    </fo:flow>
+  </fo:page-sequence>
+</fo:root>

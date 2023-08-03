@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<test-cases>
+    <test-case/>
+    <test-case>abcdefghijklmnopqrstuvwxyz</test-case>
+    <test-case><![CDATA[;/?:&=[]+$,]]></test-case>
+    <test-case>-_.!~*'()</test-case>
+    <test-case>👌</test-case>
+    <test-case>@</test-case>
+    <test-case>%</test-case>
+</test-cases>

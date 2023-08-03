@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+<!DOCTYPE adt SYSTEM "adt.dtd">
+-->
+
+<adt>
+
+  <prosa-name>Test Head Database</prosa-name>
+  <prefix>pcmdb</prefix>
+
+  <author>Max Mueller</author>
+  <date>August 16, 2002</date>
+  
+  <brief>This adt holds relevant information regarding the test head
+  of the tester.</brief> 
+  <detailed>
+    There is only one instance of the adt in the system, and you can
+    query the adt regarding parameters of the current installed test
+    head.
+  </detailed>
+
+</adt>

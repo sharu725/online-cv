@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<root attr="1">
+    <foo attr="1">
+        <bar attr="1"/>
+    </foo>
+</root>

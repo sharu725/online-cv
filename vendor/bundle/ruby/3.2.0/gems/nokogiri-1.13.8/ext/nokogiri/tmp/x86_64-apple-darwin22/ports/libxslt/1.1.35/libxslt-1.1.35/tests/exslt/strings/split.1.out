@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<out>;
+	str:split('a, simple, list', ', ')
+	<token>a</token><token>simple</token><token>list</token>
+
+	str:split('data math str')
+	<token>data</token><token>math</token><token>str</token>
+
+	str:split('foobar', '')
+	<token>f</token><token>o</token><token>o</token><token>b</token><token>a</token><token>r</token>
+
+	str:split('-*- hello - world -*-', '-')
+	<token>*</token><token> hello </token><token> world </token><token>*</token>
+
+	str:split('data &amp;math str;')
+	<token>data</token><token>&amp;math</token><token>str;</token></out>

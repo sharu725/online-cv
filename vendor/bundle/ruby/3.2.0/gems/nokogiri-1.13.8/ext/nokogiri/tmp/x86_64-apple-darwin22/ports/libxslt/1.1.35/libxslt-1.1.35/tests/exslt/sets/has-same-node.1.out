@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<out xmlns:set="http://exslt.org/sets">
+    Test has-same-node() between two intersecting sets:
+    OK;
+    Test has-same-node() between two non-intersecting sets:
+    OK;
+    Test has-same-node() between two identical sets of namespace nodes:
+    OK;        
+    Test has-same-node() between two disjoint sets of namespace nodes:
+    OK;        
+  </out>

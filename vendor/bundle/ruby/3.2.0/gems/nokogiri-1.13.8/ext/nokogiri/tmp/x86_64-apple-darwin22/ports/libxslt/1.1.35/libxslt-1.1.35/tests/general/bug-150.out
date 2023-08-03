@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<root xmlns="urn:A" xmlns:b="urn:B" xmlns:a="urn:A"><Product a:ID="1001"/></root>

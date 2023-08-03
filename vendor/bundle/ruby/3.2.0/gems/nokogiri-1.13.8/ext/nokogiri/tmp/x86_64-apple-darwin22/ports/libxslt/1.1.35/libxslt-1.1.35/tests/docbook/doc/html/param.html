@@ -1,0 +1,1815 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+   
+      <title>HTML Parameter Reference</title>
+      <link rel="stylesheet" href="../reference.css" type="text/css">
+      <meta name="generator" content="DocBook XSL Stylesheets V1.37">
+   </head>
+   <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+      <div class="reference">
+         <div class="titlepage">
+            <div>
+               <h1 class="title"><a name="d41e1"></a>HTML Parameter Reference
+               </h1>
+            </div>
+            <div>
+               <h3 class="author">Norman Walsh</h3>
+            </div>
+            <div>
+               <p class="releaseinfo">
+                  $Id$
+                  
+               </p>
+            </div>
+            <div>
+               <p class="copyright"><a href="../copyright.html">Copyright</a> &copy; 1999, 2000 by Norman Walsh. <a href="../warranty.html">No Warranty</a>.
+               </p>
+            </div>
+            <hr>
+         </div>
+         <div class="partintro">
+            <div></div>
+            <div class="section"><a name="d41e24"></a><div class="titlepage">
+                  <div>
+                     <h2 class="title" style="clear: all"><a name="d41e24"></a>Introduction
+                     </h2>
+                  </div>
+               </div>
+               <p>This is technical reference documentation for the DocBook XSL
+                  Stylesheets; it documents (some of) the parameters, templates, and
+                  other elements of the stylesheets.
+               </p>
+               <p>This reference describes each of the HTML Stylesheet parameters.
+                  These are the &#8220;easily customizable&#8221; parts of the stylesheet.
+                  If you want to specify an alternate value for one or more of these
+                  parameters, you can do so in a &#8220;driver&#8221; stylesheet.
+               </p>
+               <p>For example, if you want to change the <tt>html.stylesheet</tt>
+                  to <tt>reference.css</tt>, you might create a driver
+                  stylesheet like this:
+               </p><pre class="programlisting">&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                version='1.0'&gt;
+
+  &lt;xsl:import href="/path/to/html/docbook.xsl"/&gt;
+
+  &lt;xsl:param name="html.stylesheet"&gt;reference.css&lt;/xsl:param&gt;
+
+&lt;/xsl:stylesheet&gt;</pre><p>Naturally, you have to change the
+                  <tt>href</tt> attribute on
+                  <tt>&lt;xsl:import&gt;</tt>
+                  to point to <tt>docbook.xsl</tt>
+                  on your system. (Or <tt>chunk.xsl</tt>, if you're using
+                  chunking.)
+               </p>
+               <p>This is not intended to be &#8220;user&#8221; documentation.
+                  It is provided for developers writing customization layers for the
+                  stylesheets, and for anyone who's interested in &#8220;how it
+                  works&#8221;.
+               </p>
+               <p>Although I am trying to be thorough, this documentation is known
+                  to be incomplete. Don't forget to read the source, too :-)
+               </p>
+            </div>
+            <div class="toc">
+               <p><b>Table of Contents</b></p>
+               <dl>
+                  <dt><a href="#param.author.othername.in.middle">author.othername.in.middle</a></dt>
+                  <dt><a href="#param.html.stylesheet">html.stylesheet</a></dt>
+                  <dt><a href="#param.html.stylesheet.type">html.stylesheet.type</a></dt>
+                  <dt><a href="#param.html.base">html.base</a></dt>
+                  <dt><a href="#param.ulink.target">ulink.target</a></dt>
+                  <dt><a href="#param.refentry.xref.manvolnum">refentry.xref.manvolnum</a></dt>
+                  <dt><a href="#param.show.comments">show.comments</a></dt>
+                  <dt><a href="#param.funcsynopsis.style">funcsynopsis.style</a></dt>
+                  <dt><a href="#param.funcsynopsis.decoration">funcsynopsis.decoration</a></dt>
+                  <dt><a href="#param.function.parens">function.parens</a></dt>
+                  <dt><a href="#param.refentry.generate.name">refentry.generate.name</a></dt>
+                  <dt><a href="#param.admon.graphics">admon.graphics</a></dt>
+                  <dt><a href="#param.admon.graphics.path">admon.graphics.path</a></dt>
+                  <dt><a href="#param.admon.graphics.extension">admon.graphics.extension</a></dt>
+                  <dt><a href="#param.admon.style">admon.style</a></dt>
+                  <dt><a href="#param.section.autolabel">section.autolabel</a></dt>
+                  <dt><a href="#param.section.label.includes.component.label">section.label.includes.component.label</a></dt>
+                  <dt><a href="#param.chapter.autolabel">chapter.autolabel</a></dt>
+                  <dt><a href="#param.preface.autolabel">preface.autolabel</a></dt>
+                  <dt><a href="#param.part.autolabel">part.autolabel</a></dt>
+                  <dt><a href="#param.qandadiv.autolabel">qandadiv.autolabel</a></dt>
+                  <dt><a href="#param.qanda.inherit.numeration">qanda.inherit.numeration</a></dt>
+                  <dt><a href="#param.qanda.defaultlabel">qanda.defaultlabel</a></dt>
+                  <dt><a href="#param.generate.qandaset.toc">generate.qandaset.toc</a></dt>
+                  <dt><a href="#param.generate.qandadiv.toc">generate.qandadiv.toc</a></dt>
+                  <dt><a href="#param.biblioentry.item.separator">biblioentry.item.separator</a></dt>
+                  <dt><a href="#param.toc.section.depth">toc.section.depth</a></dt>
+                  <dt><a href="#param.using.chunker">using.chunker</a></dt>
+                  <dt><a href="#param.generate.component.toc">generate.component.toc</a></dt>
+                  <dt><a href="#param.generate.division.toc">generate.division.toc</a></dt>
+                  <dt><a href="#param.link.mailto.url">link.mailto.url</a></dt>
+                  <dt><a href="#param.graphic.default.extension">graphic.default.extension</a></dt>
+                  <dt><a href="#param.toc.list.type">toc.list.type</a></dt>
+                  <dt><a href="#param.check.idref">check.idref</a></dt>
+                  <dt><a href="#param.use.id.function">use.id.function</a></dt>
+                  <dt><a href="#param.spacing.paras">spacing.paras</a></dt>
+                  <dt><a href="#attrset.body.attrs">body.attrs mode</a></dt>
+                  <dt><a href="#param.css.decoration">css.decoration</a></dt>
+                  <dt><a href="#param.show.revisionflag">show.revisionflag</a></dt>
+                  <dt><a href="#param.suppress.navigation">suppress.navigation</a></dt>
+                  <dt><a href="#param.rootid">rootid</a></dt>
+                  <dt><a href="#param.callout.list.table">callout.list.table</a></dt>
+                  <dt><a href="#param.callout.graphics">callout.graphics</a></dt>
+                  <dt><a href="#param.callout.graphics.extension">callout.graphics.extension</a></dt>
+                  <dt><a href="#param.callout.graphics.path">callout.graphics.path</a></dt>
+                  <dt><a href="#param.callout.graphics.number.limit">callout.graphics.number.limit</a></dt>
+                  <dt><a href="#param.use.extensions">use.extensions</a></dt>
+                  <dt><a href="#param.textinsert.extension">textinsert.extension</a></dt>
+                  <dt><a href="#param.saxon.linenumbering">saxon.linenumbering</a></dt>
+                  <dt><a href="#param.linenumbering.extension">linenumbering.extension</a></dt>
+                  <dt><a href="#param.linenumbering.everyNth">linenumbering.everyNth</a></dt>
+                  <dt><a href="#param.linenumbering.width">linenumbering.width</a></dt>
+                  <dt><a href="#param.linenumbering.separator">linenumbering.separator</a></dt>
+                  <dt><a href="#param.saxon.callouts">saxon.callouts</a></dt>
+                  <dt><a href="#param.callouts.extension">callouts.extension</a></dt>
+                  <dt><a href="#param.callout.defaultcolumn">callout.defaultcolumn</a></dt>
+                  <dt><a href="#param.stylesheet.result.type">stylesheet.result.type</a></dt>
+                  <dt><a href="#param.nominal.table.width">nominal.table.width</a></dt>
+                  <dt><a href="#param.default.table.width">default.table.width</a></dt>
+                  <dt><a href="#param.saxon.tablecolumns">saxon.tablecolumns</a></dt>
+                  <dt><a href="#param.tablecolumns.extension">tablecolumns.extension</a></dt>
+                  <dt><a href="#param.generate.set.toc">generate.set.toc</a></dt>
+                  <dt><a href="#param.generate.book.toc">generate.book.toc</a></dt>
+                  <dt><a href="#param.generate.part.toc">generate.part.toc</a></dt>
+                  <dt><a href="#param.generate.reference.toc">generate.reference.toc</a></dt>
+                  <dt><a href="#param.generate.preface.toc">generate.preface.toc</a></dt>
+                  <dt><a href="#param.generate.chapter.toc">generate.chapter.toc</a></dt>
+                  <dt><a href="#param.generate.appendix.toc">generate.appendix.toc</a></dt>
+                  <dt><a href="#param.generate.article.toc">generate.article.toc</a></dt>
+                  <dt><a href="#param.generate.section.toc">generate.section.toc</a></dt>
+                  <dt><a href="#param.process.source.toc">process.source.toc</a></dt>
+                  <dt><a href="#param.process.empty.source.toc">process.empty.source.toc</a></dt>
+                  <dt><a href="#param.bridgehead.in.toc">bridgehead.in.toc</a></dt>
+                  <dt><a href="#param.generate.index">generate.index</a></dt>
+                  <dt><a href="#param.callout.unicode">callout.unicode</a></dt>
+                  <dt><a href="#param.callout.unicode.start.character">callout.unicode.start.character</a></dt>
+                  <dt><a href="#param.callout.unicode.number.limit">callout.unicode.number.limit</a></dt>
+                  <dt><a href="#param.use.id.as.filename">use.id.as.filename</a></dt>
+                  <dt><a href="#param.inherit.keywords">inherit.keywords</a></dt>
+                  <dt><a href="#param.label.from.part">label.from.part</a></dt>
+                  <dt><a href="#param.citerefentry.link">citerefentry.link</a></dt>
+                  <dt><a href="#param.default.encoding">default.encoding</a></dt>
+                  <dt><a href="#param.saxon.character.representation">saxon.character.representation</a></dt>
+               </dl>
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.author.othername.in.middle"></a>author.othername.in.middle
+            </h1>
+            <div class="refnamediv"><a name="d41e72"></a><h2>Name</h2>author.othername.in.middle &#8212; Is <tt>othername</tt> in <tt>author</tt> a
+               middle name?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e83"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="author.othername.in.middle" select="1" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e86"></a>
+               
+               
+               <p>If true (non-zero), the <tt>othername</tt> of an <tt>author</tt>
+                  appears between the <tt>firstname</tt> and
+                  <tt>surname</tt>.  Otherwise, <tt>othername</tt>
+                  is suppressed.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.html.stylesheet"></a>html.stylesheet
+            </h1>
+            <div class="refnamediv"><a name="d41e107"></a><h2>Name</h2>html.stylesheet &#8212; Name of the stylesheet to use in the generated HTML
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e112"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="html.stylesheet" select="''" doc:type="string"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e115"></a>
+               
+               
+               <p>The name of the stylesheet to place in the HTML <tt>LINK</tt>
+                  tag, or the empty string to suppress the stylesheet <tt>LINK</tt>.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.html.stylesheet.type"></a>html.stylesheet.type
+            </h1>
+            <div class="refnamediv"><a name="d41e127"></a><h2>Name</h2>html.stylesheet.type &#8212; The type of the stylesheet used in the generated HTML
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e132"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="html.stylesheet.type" doc:type="string"&gt;text/css&lt;/xsl:param&gt;</pre></div>
+            <div class="refdescription"><a name="d41e135"></a>
+               
+               
+               <p>The type of the stylesheet to place in the HTML <tt>link</tt> tag.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.html.base"></a>html.base
+            </h1>
+            <div class="refnamediv"><a name="d41e144"></a><h2>Name</h2>html.base &#8212; An HTML base URI
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e149"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="html.base" doc:type="uri"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e152"></a>
+               
+               
+               <p>If html.base is set, it is used for the <tt>BASE</tt>
+                  element in the <tt>HEAD</tt> of the HTML documents.
+                  This is useful for dynamically served HTML where the base URI needs
+                  to be shifted.
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.ulink.target"></a>ulink.target
+            </h1>
+            <div class="refnamediv"><a name="d41e164"></a><h2>Name</h2>ulink.target &#8212; The HTML anchor target for ULinks
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e169"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="ulink.target" select="'_top'" doc:type="string"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e172"></a>
+               
+               
+               <p>If <i><tt>ulink.target</tt></i> is set, its value will
+                  be used for the <tt>target</tt> attribute
+                  on anchors generated for <tt>ulink</tt>s.
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.refentry.xref.manvolnum"></a>refentry.xref.manvolnum
+            </h1>
+            <div class="refnamediv"><a name="d41e187"></a><h2>Name</h2>refentry.xref.manvolnum &#8212; Output <tt>manvolnum</tt> as part of 
+               <tt>refentry</tt> cross-reference?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e198"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="refentry.xref.manvolnum" select="1" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e201"></a>
+               
+               
+               <p>if true (non-zero), the <tt>manvolnum</tt> is used when cross-referencing
+                  <tt>refentry</tt>s, either with <tt>xref</tt>
+                  or <tt>citerefentry</tt>.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.show.comments"></a>show.comments
+            </h1>
+            <div class="refnamediv"><a name="d41e219"></a><h2>Name</h2>show.comments &#8212; Display <tt>comment</tt> elements?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e227"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="show.comments" doc:type="boolean"&gt;1&lt;/xsl:param&gt;</pre></div>
+            <div class="refdescription"><a name="d41e230"></a>
+               
+               
+               <p>If true (non-zero), comments will be displayed, otherwise they are suppressed.
+                  Comments here refers to the <tt>comment</tt> element,
+                  which will be renamed <tt>remark</tt> in DocBook V4.0,
+                  not XML comments (&lt;-- like this --&gt;) which are unavailable.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.funcsynopsis.style"></a>funcsynopsis.style
+            </h1>
+            <div class="refnamediv"><a name="d41e242"></a><h2>Name</h2>funcsynopsis.style &#8212; What style of 'FuncSynopsis' should be generated?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e247"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="funcsynopsis.style" doc:type="list" doc:list="ansi kr"&gt;kr&lt;/xsl:param&gt;</pre></div>
+            <div class="refdescription"><a name="d41e250"></a>
+               
+               
+               <p>If <tt>funcsynopsis.style</tt> is <tt>ansi</tt>,
+                  ANSI-style function synopses are generated for a
+                  <tt>funcsynopsis</tt>, otherwise K&amp;R-style
+                  function synopses are generated.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.funcsynopsis.decoration"></a>funcsynopsis.decoration
+            </h1>
+            <div class="refnamediv"><a name="d41e265"></a><h2>Name</h2>funcsynopsis.decoration &#8212; Decorate elements of a FuncSynopsis?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e270"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="funcsynopsis.decoration" select="1" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e273"></a>
+               
+               
+               <p>If true (non-zero), elements of the FuncSynopsis will be decorated (e.g. bold or
+                  italic).  The decoration is controlled by functions that can be redefined
+                  in a customization layer.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.function.parens"></a>function.parens
+            </h1>
+            <div class="refnamediv"><a name="d41e279"></a><h2>Name</h2>function.parens &#8212; Generate parens after a function?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e284"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="function.parens" doc:type="boolean"&gt;0&lt;/xsl:param&gt;</pre></div>
+            <div class="refdescription"><a name="d41e287"></a>
+               
+               
+               <p>If not 0, the formatting of
+                  a <tt>&lt;function&gt;</tt> element will include
+                  generated parenthesis.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.refentry.generate.name"></a>refentry.generate.name
+            </h1>
+            <div class="refnamediv"><a name="d41e296"></a><h2>Name</h2>refentry.generate.name &#8212; Output NAME header before 'RefName'(s)?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e301"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="refentry.generate.name" select="1" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e304"></a>
+               
+               
+               <p>If true (non-zero), a "NAME" section title is output before the list
+                  of 'RefName's.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.admon.graphics"></a>admon.graphics
+            </h1>
+            <div class="refnamediv"><a name="d41e310"></a><h2>Name</h2>admon.graphics &#8212; Use graphics in admonitions?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e315"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="admon.graphics" select="0" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e318"></a>
+               
+               
+               <p>If true (non-zero), admonitions are presented in an alternate style that uses
+                  a graphic.  Default graphics are provided in the distribution.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.admon.graphics.path"></a>admon.graphics.path
+            </h1>
+            <div class="refnamediv"><a name="d41e324"></a><h2>Name</h2>admon.graphics.path &#8212; Path to admonition graphics
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e329"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="admon.graphics.path" doc:type="string"&gt;../images/&lt;/xsl:param&gt;</pre></div>
+            <div class="refdescription"><a name="d41e332"></a>
+               
+               
+               <p>Sets the path, probably relative to the directory where the HTML
+                  files are created, to the admonition graphics.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.admon.graphics.extension"></a>admon.graphics.extension
+            </h1>
+            <div class="refnamediv"><a name="d41e338"></a><h2>Name</h2>admon.graphics.extension &#8212; Extension for admonition graphics
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e343"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="admon.graphics.extension" select="'.png'" doc:type="string"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e346"></a>
+               
+               
+               <p>Sets the extension to use on admonition graphics.</p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.admon.style"></a>admon.style
+            </h1>
+            <div class="refnamediv"><a name="d41e352"></a><h2>Name</h2>admon.style &#8212; CSS style attributes for admonitions
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e357"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="admon.style" doc:type="string"&gt;
+  &lt;xsl:text&gt;margin-left: 0.5in; margin-right: 0.5in;&lt;/xsl:text&gt;
+&lt;/xsl:param&gt;</pre></div>
+            <div class="refdescription"><a name="d41e360"></a>
+               
+               
+               <p>Specifies the value of the <tt>STYLE</tt>
+                  attribute that should be added to admonitions.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.section.autolabel"></a>section.autolabel
+            </h1>
+            <div class="refnamediv"><a name="d41e369"></a><h2>Name</h2>section.autolabel &#8212; Are sections enumerated?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e374"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="section.autolabel" select="0" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e377"></a>
+               
+               
+               <p>If true (non-zero), unlabeled sections will be enumerated.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.section.label.includes.component.label"></a>section.label.includes.component.label
+            </h1>
+            <div class="refnamediv"><a name="d41e383"></a><h2>Name</h2>section.label.includes.component.label &#8212; Do section labels include the component label?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e388"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="section.label.includes.component.label" select="0" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e391"></a>
+               
+               
+               <p>If true (non-zero), section labels are prefixed with the label of the
+                  component that contains them.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.chapter.autolabel"></a>chapter.autolabel
+            </h1>
+            <div class="refnamediv"><a name="d41e397"></a><h2>Name</h2>chapter.autolabel &#8212; Are chapters and appendixes enumerated?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e402"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="chapter.autolabel" select="1" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e405"></a>
+               
+               
+               <p>If true (non-zero), unlabeled chapters and appendixes will be enumerated.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.preface.autolabel"></a>preface.autolabel
+            </h1>
+            <div class="refnamediv"><a name="d41e411"></a><h2>Name</h2>preface.autolabel &#8212; Are prefaces enumerated?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e416"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="preface.autolabel" select="0" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e419"></a>
+               
+               
+               <p>If true (non-zero), unlabeled prefaces will be enumerated.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.part.autolabel"></a>part.autolabel
+            </h1>
+            <div class="refnamediv"><a name="d41e425"></a><h2>Name</h2>part.autolabel &#8212; Are parts and references enumerated?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e430"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="part.autolabel" select="1" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e433"></a>
+               
+               
+               <p>If true (non-zero), unlabeled parts and references will be enumerated.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.qandadiv.autolabel"></a>qandadiv.autolabel
+            </h1>
+            <div class="refnamediv"><a name="d41e439"></a><h2>Name</h2>qandadiv.autolabel &#8212; Are divisions in QAndASets enumerated?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e444"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="qandadiv.autolabel" select="1" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e447"></a>
+               
+               
+               <p>If true (non-zero), unlabeled qandadivs will be enumerated.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.qanda.inherit.numeration"></a>qanda.inherit.numeration
+            </h1>
+            <div class="refnamediv"><a name="d41e453"></a><h2>Name</h2>qanda.inherit.numeration &#8212; Does enumeration of QandASet components inherit the numeration of parent elements?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e458"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="qanda.inherit.numeration" select="1" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e461"></a>
+               
+               
+               <p>If true (non-zero), numbered QandADiv elements and Questions and Answers inherit
+                  the numeration of the ancestors of the QandASet.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.qanda.defaultlabel"></a>qanda.defaultlabel
+            </h1>
+            <div class="refnamediv"><a name="d41e467"></a><h2>Name</h2>qanda.defaultlabel &#8212; Sets the default for defaultlabel on QandASet.
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e472"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="qanda.defaultlabel" doc:type="boolean" doc:list="qanda number none"&gt;number&lt;/xsl:param&gt;</pre></div>
+            <div class="refdescription"><a name="d41e475"></a>
+               
+               
+               <p>If no defaultlabel attribute is specified on a QandASet, this
+                  value is used. It must be one of the legal values for the defaultlabel
+                  attribute.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.generate.qandaset.toc"></a>generate.qandaset.toc
+            </h1>
+            <div class="refnamediv"><a name="d41e481"></a><h2>Name</h2>generate.qandaset.toc &#8212; Is a Table of Contents created for QandASets?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e486"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="generate.qandaset.toc" doc:type="boolean"&gt;1&lt;/xsl:param&gt;</pre></div>
+            <div class="refdescription"><a name="d41e489"></a>
+               
+               
+               <p>If true (non-zero), a ToC is constructed for QandASets.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.generate.qandadiv.toc"></a>generate.qandadiv.toc
+            </h1>
+            <div class="refnamediv"><a name="d41e495"></a><h2>Name</h2>generate.qandadiv.toc &#8212; Is a Table of Contents created for QandADivs?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e500"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="generate.qandadiv.toc" doc:type="boolean"&gt;0&lt;/xsl:param&gt;</pre></div>
+            <div class="refdescription"><a name="d41e503"></a>
+               
+               
+               <p>If true (non-zero), a ToC is constructed for QandADivs.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.biblioentry.item.separator"></a>biblioentry.item.separator
+            </h1>
+            <div class="refnamediv"><a name="d41e509"></a><h2>Name</h2>biblioentry.item.separator &#8212; Text to separate bibliography entries
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e514"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="biblioentry.item.separator" doc:type="string"&gt;. &lt;/xsl:param&gt;</pre></div>
+            <div class="refdescription"><a name="d41e517"></a>
+               
+               
+               <p>Text to separate bibliography entries
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.toc.section.depth"></a>toc.section.depth
+            </h1>
+            <div class="refnamediv"><a name="d41e523"></a><h2>Name</h2>toc.section.depth &#8212; How deep should recursive <tt>section</tt>s appear
+               in the TOC?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e531"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="toc.section.depth" doc:type="integer" doc:min="1" doc:max="10"&gt;2&lt;/xsl:param&gt;</pre></div>
+            <div class="refdescription"><a name="d41e534"></a>
+               
+               
+               <p>Specifies the depth to which recursive sections should appear in the
+                  TOC.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.using.chunker"></a>using.chunker
+            </h1>
+            <div class="refnamediv"><a name="d41e540"></a><h2>Name</h2>using.chunker &#8212; Will the output be chunked?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e545"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="using.chunker" select="0" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e548"></a>
+               
+               
+               <p>In addition to providing chunking, the chunker can cleanup a
+                  number of XML to HTML issues. If the chunker is not being used, the
+                  stylesheets try to avoid producing results that will not appear properly
+                  in browsers.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.generate.component.toc"></a>generate.component.toc
+            </h1>
+            <div class="refnamediv"><a name="d41e554"></a><h2>Name</h2>generate.component.toc &#8212; Should TOCs be genereated in components (Chapters, Appendixes, etc.)?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e559"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="generate.component.toc" select="1" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e562"></a>
+               
+               
+               <p>If true (non-zero), they are.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.generate.division.toc"></a>generate.division.toc
+            </h1>
+            <div class="refnamediv"><a name="d41e568"></a><h2>Name</h2>generate.division.toc &#8212; Should TOCs be genereated in divisions (Books, Parts, etc.)?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e573"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="generate.division.toc" select="1" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e576"></a>
+               
+               
+               <p>If true (non-zero), they are.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.link.mailto.url"></a>link.mailto.url
+            </h1>
+            <div class="refnamediv"><a name="d41e582"></a><h2>Name</h2>link.mailto.url &#8212; Mailto URL for the LINK REL=made HTML HEAD element
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e587"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="link.mailto.url" doc:type="string"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e590"></a>
+               
+               
+               <p>If not the empty string, this address will be used for the
+                  REL=made <tt>LINK</tt> element in the HTML <tt>HEAD</tt>.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.graphic.default.extension"></a>graphic.default.extension
+            </h1>
+            <div class="refnamediv"><a name="d41e602"></a><h2>Name</h2>graphic.default.extension &#8212; Default extension for graphic filenames
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e607"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="graphic.default.extension" doc:type="string"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e610"></a>
+               
+               
+               <p>If a <tt>graphic</tt> or <tt>mediaobject</tt>
+                  includes a reference to a filename that does not include an extension,
+                  and the <tt>format</tt> attribute is
+                  <i>unspecified</i>, the default extension will be used.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.toc.list.type"></a>toc.list.type
+            </h1>
+            <div class="refnamediv"><a name="d41e628"></a><h2>Name</h2>toc.list.type &#8212; Type of HTML list element to use for Tables of Contents
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e633"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="toc.list.type" doc:type="list" doc:list="dl ul ol"&gt;dl&lt;/xsl:param&gt;</pre></div>
+            <div class="refdescription"><a name="d41e636"></a>
+               
+               
+               <p>When an automatically generated Table of Contents (or List of Titles)
+                  is produced, this HTML element will be used to make the list.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.check.idref"></a>check.idref
+            </h1>
+            <div class="refnamediv"><a name="d41e642"></a><h2>Name</h2>check.idref &#8212; Test the target of IDREF attributes?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e647"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="check.idref" doc:type="boolean"&gt;1&lt;/xsl:param&gt;</pre></div>
+            <div class="refdescription"><a name="d41e650"></a>
+               
+               
+               <p>If 1, the target of IDREF attributes are tested for presence
+                  (and uniqueness). This can be very expensive in large documents.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.use.id.function"></a>use.id.function
+            </h1>
+            <div class="refnamediv"><a name="d41e656"></a><h2>Name</h2>use.id.function &#8212; Use the XPath id() function to find link targets?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e661"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="use.id.function" doc:type="boolean" select="'1'"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e664"></a>
+               
+               
+               <p>If 1, the stylesheets use the <tt>id()</tt> function
+                  to find the targets of cross reference elements. This is more
+                  efficient, but only works if your XSLT processor implements the
+                  <tt>id()</tt> function, naturally.
+               </p>
+               
+               
+               
+               <p>THIS PARAMETER IS NOT SUPPORTED. IT IS ALWAYS ASSUMED TO BE 1.
+                  SEE xref.xsl IF YOU NEED TO TURN IT OFF.
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.spacing.paras"></a>spacing.paras
+            </h1>
+            <div class="refnamediv"><a name="d41e679"></a><h2>Name</h2>spacing.paras &#8212; Insert additional &lt;p&gt; elements for spacing?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e684"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="spacing.paras" doc:type="boolean" select="'0'"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e687"></a>
+               
+               
+               <p>When non-zero, additional, empty paragraphs are inserted in
+                  several contexts (for example, around informal figures), to create a
+                  more pleasing visual appearance in many browsers.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="attrset.body.attrs"></a>body.attrs mode
+            </h1>
+            <div class="refnamediv"><a name="d41e693"></a><h2>Name</h2>body.attrs mode &#8212; Additional attributes for the HTML body tag
+            </div>
+            <div class="refdescription"><a name="d41e698"></a>
+               
+               
+               <p>The attributes defined by this attribute set are added to the
+                  HTML &lt;body&gt; tag.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.css.decoration"></a>css.decoration
+            </h1>
+            <div class="refnamediv"><a name="d41e704"></a><h2>Name</h2>css.decoration &#8212; Enable CSS decoration of elements
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e709"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="css.decoration" doc:type="boolean"&gt;1&lt;/xsl:param&gt;</pre></div>
+            <div class="refdescription"><a name="d41e712"></a>
+               
+               
+               <p>
+                  If <tt>css.decoration</tt> is turned on, then HTML elements
+                  produced by the
+                  stylesheet may be decorated with STYLE attributes.  For example, the
+                  LI tags produced for list items may include a fragment of CSS in the
+                  STYLE attribute which sets the CSS property "list-style-type".
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.show.revisionflag"></a>show.revisionflag
+            </h1>
+            <div class="refnamediv"><a name="d41e721"></a><h2>Name</h2>show.revisionflag &#8212; Enable decoration of elements that have a revisionflag
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e726"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="show.revisionflag" doc:type="boolean"&gt;0&lt;/xsl:param&gt;</pre></div>
+            <div class="refdescription"><a name="d41e729"></a>
+               
+               
+               <p>
+                  If <tt>show.revisionflag</tt> is turned on, then the stylesheets
+                  may produce additional markup designed to allow a CSS stylesheet to
+                  highlight elements that have specific revisionflag settings.
+               </p>
+               
+               
+               
+               
+               <p>The markup inserted will be usually be either a &lt;span&gt; or &lt;div&gt;
+                  with an appropriate <tt>class</tt> attribute. (The value of
+                  the class attribute will be the same as the value of the revisionflag
+                  attribute). In some contexts, for example tables, where extra markup
+                  would be structurally illegal, the class attribute will be added to the
+                  appropriate container element.
+               </p>
+               
+               
+               
+               
+               <p>In general, the stylesheets only test for revisionflag in contexts
+                  where an importing stylesheet would have to redefine whole templates.
+                  Most of the revisionflag processing is expected to be done by another
+                  stylesheet, for example <tt>changebars.xsl</tt>.
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.suppress.navigation"></a>suppress.navigation
+            </h1>
+            <div class="refnamediv"><a name="d41e750"></a><h2>Name</h2>suppress.navigation &#8212; Disable header and footer navigation
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e755"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="suppress.navigation" doc:type="boolean"&gt;0&lt;/xsl:param&gt;</pre></div>
+            <div class="refdescription"><a name="d41e758"></a>
+               
+               
+               <p>
+                  If <tt>suppress.navigation</tt> is turned on, header and
+                  footer navigation will be suppressed.
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.rootid"></a>rootid
+            </h1>
+            <div class="refnamediv"><a name="d41e767"></a><h2>Name</h2>rootid &#8212; Specify the root element to format
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e772"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="rootid" select="''" doc:type="string"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e775"></a>
+               
+               
+               <p>If <i><tt>rootid</tt></i> is specified, it must be the
+                  value of an ID that occurs in the document being formatted. The entire
+                  document will be loaded and parsed, but formatting will begin at the
+                  element identified, rather than at the root. For example, this allows
+                  you to process only chapter 4 of a book.
+               </p>
+               
+               
+               
+               <p>Because the entire document is available to the processor, automatic
+                  numbering, cross references, and other dependencies are correctly
+                  resolved.
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.callout.list.table"></a>callout.list.table
+            </h1>
+            <div class="refnamediv"><a name="d41e787"></a><h2>Name</h2>callout.list.table &#8212; Present callout lists using a table?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e792"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="callout.list.table" select="'1'" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e795"></a>
+               
+               
+               <p>The default presentation of <tt>CalloutList</tt>s uses
+                  an HTML <tt>DL</tt>. Some browsers don't align DLs very well
+                  if <i><tt>callout.graphics</tt></i> are used. With this option
+                  turned on, <tt>CalloutList</tt>s are presented in an HTML
+                  <tt>TABLE</tt>, which usually results in better alignment
+                  of the callout number with the callout description.
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.callout.graphics"></a>callout.graphics
+            </h1>
+            <div class="refnamediv"><a name="d41e816"></a><h2>Name</h2>callout.graphics &#8212; Use graphics for callouts?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e821"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="callout.graphics" select="'1'" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e824"></a>
+               
+               
+               <p>If non-zero, callouts are presented with graphics (e.g., reverse-video
+                  circled numbers instead of "(1)", "(2)", etc.).
+                  Default graphics are provided in the distribution.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.callout.graphics.extension"></a>callout.graphics.extension
+            </h1>
+            <div class="refnamediv"><a name="d41e830"></a><h2>Name</h2>callout.graphics.extension &#8212; Extension for callout graphics
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e835"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="callout.graphics.extension" select="'.png'" doc:type="string"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e838"></a>
+               
+               
+               <p>Sets the extension to use on callout graphics.</p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.callout.graphics.path"></a>callout.graphics.path
+            </h1>
+            <div class="refnamediv"><a name="d41e844"></a><h2>Name</h2>callout.graphics.path &#8212; Path to callout graphics
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e849"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="callout.graphics.path" select="'../images/callouts/'" doc:type="string"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e852"></a>
+               
+               
+               <p>Sets the path, probably relative to the directory where the HTML
+                  files are created, to the callout graphics.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.callout.graphics.number.limit"></a>callout.graphics.number.limit
+            </h1>
+            <div class="refnamediv"><a name="d41e858"></a><h2>Name</h2>callout.graphics.number.limit &#8212; Number of the largest callout graphic
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e863"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="callout.graphics.number.limit" select="'10'" doc:type="integer"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e866"></a>
+               
+               
+               <p>If <i><tt>callout.graphics</tt></i>
+                  is non-zero, graphics are used to represent
+                  callout numbers. The value of
+                  <i><tt>callout.graphics.number.limit</tt></i>
+                  is
+                  the largest number for which a graphic exists. If the callout number
+                  exceeds this limit, the default presentation "(nnn)" will always
+                  be used.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.use.extensions"></a>use.extensions
+            </h1>
+            <div class="refnamediv"><a name="d41e878"></a><h2>Name</h2>use.extensions &#8212; Enable extensions
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e883"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="use.extensions" select="'0'" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e886"></a>
+               
+               
+               <p>If non-zero, extensions may be used. Each extension is
+                  further controlled by its own parameter. But if
+                  <i><tt>use.extensions</tt></i> is zero, no extensions will
+                  be used.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.textinsert.extension"></a>textinsert.extension
+            </h1>
+            <div class="refnamediv"><a name="d41e895"></a><h2>Name</h2>textinsert.extension &#8212; Enable the textinsert extension element
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e900"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="textinsert.extension" select="'1'" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e903"></a>
+               
+               
+               <p>The textinsert extension element inserts the contents of a
+                  a file into the result tree (as text).
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.saxon.linenumbering"></a>saxon.linenumbering
+            </h1>
+            <div class="refnamediv"><a name="d41e909"></a><h2>Name</h2>saxon.linenumbering &#8212; Enable the line numbering extension
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e914"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="saxon.linenumbering" select="'1'" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e917"></a>
+               
+               
+               <p>If true, verbatim environments (elements that have the
+                  format='linespecific' notation attribute: address, literallayout,
+                  programlisting, screen, synopsis) that specify line numbering will
+                  have, surprise, line numbers.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.linenumbering.extension"></a>linenumbering.extension
+            </h1>
+            <div class="refnamediv"><a name="d41e923"></a><h2>Name</h2>linenumbering.extension &#8212; Enable the line numbering extension
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e928"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="linenumbering.extension" select="'1'" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e931"></a>
+               
+               
+               <p>If true, verbatim environments (elements that have the
+                  format='linespecific' notation attribute: address, literallayout,
+                  programlisting, screen, synopsis) that specify line numbering will
+                  have, surprise, line numbers.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.linenumbering.everyNth"></a>linenumbering.everyNth
+            </h1>
+            <div class="refnamediv"><a name="d41e937"></a><h2>Name</h2>linenumbering.everyNth &#8212; Indicate which lines should be numbered
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e942"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="linenumbering.everyNth" select="'5'" doc:type="integer"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e945"></a>
+               
+               
+               <p>If line numbering is enabled, everyNth line will be numbered.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.linenumbering.width"></a>linenumbering.width
+            </h1>
+            <div class="refnamediv"><a name="d41e951"></a><h2>Name</h2>linenumbering.width &#8212; Indicates the width of line numbers
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e956"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="linenumbering.width" select="'3'" doc:type="integer"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e959"></a>
+               
+               
+               <p>If line numbering is enabled, line numbers will appear right
+                  justified in a field "width" characters wide.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.linenumbering.separator"></a>linenumbering.separator
+            </h1>
+            <div class="refnamediv"><a name="d41e965"></a><h2>Name</h2>linenumbering.separator &#8212; Specify a separator between line numbers and lines
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e970"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="linenumbering.separator" select="' '" doc:type="string"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e973"></a>
+               
+               
+               <p>The separator is inserted between line numbers and lines in
+                  the verbatim environment.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.saxon.callouts"></a>saxon.callouts
+            </h1>
+            <div class="refnamediv"><a name="d41e979"></a><h2>Name</h2>saxon.callouts &#8212; Enable the callout extension
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e984"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="saxon.callouts" select="'1'" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e987"></a>
+               
+               
+               <p>The callouts extension processes <tt>areaset</tt>
+                  elements in <tt>ProgramListingCO</tt> and other text-based
+                  callout elements.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.callouts.extension"></a>callouts.extension
+            </h1>
+            <div class="refnamediv"><a name="d41e999"></a><h2>Name</h2>callouts.extension &#8212; Enable the callout extension
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1004"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="callouts.extension" select="'1'" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1007"></a>
+               
+               
+               <p>The callouts extension processes <tt>areaset</tt>
+                  elements in <tt>ProgramListingCO</tt> and other text-based
+                  callout elements.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.callout.defaultcolumn"></a>callout.defaultcolumn
+            </h1>
+            <div class="refnamediv"><a name="d41e1019"></a><h2>Name</h2>callout.defaultcolumn &#8212; Indicates what column callouts appear in by default
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1024"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="callout.defaultcolumn" select="'60'" doc:type="integer"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1027"></a>
+               
+               
+               <p>If a callout does not identify a column (for example, if it uses
+                  the <tt>linerange</tt> <tt>unit</tt>),
+                  it will appear in the default column.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.stylesheet.result.type"></a>stylesheet.result.type
+            </h1>
+            <div class="refnamediv"><a name="d41e1039"></a><h2>Name</h2>stylesheet.result.type &#8212; Identifies the output format of this stylesheet
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1044"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="stylesheet.result.type" select="'html'" doc:type="list" doc:list="html fo"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1047"></a>
+               
+               
+               <p>The Saxon extension functions need to know if the output format
+                  is HTML ('html') or XSL Formatting Objects ('fo'). This variable answers
+                  that question. Valid settings are 'html' or 'fo'.
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.nominal.table.width"></a>nominal.table.width
+            </h1>
+            <div class="refnamediv"><a name="d41e1053"></a><h2>Name</h2>nominal.table.width &#8212; The (absolute) nominal width of tables
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1058"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="nominal.table.width" select="'6in'" doc:type="length"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1061"></a>
+               
+               
+               <p>In order to convert CALS column widths into HTML column widths, it
+                  is sometimes necessary to have an absolute table width to use for conversion
+                  of mixed absolute and relative widths. This value must be an absolute
+                  length (not a percentag).
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.default.table.width"></a>default.table.width
+            </h1>
+            <div class="refnamediv"><a name="d41e1067"></a><h2>Name</h2>default.table.width &#8212; The default width of tables
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1072"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="default.table.width" select="''" doc:type="length"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1075"></a>
+               
+               
+               <p>If specified, this value will be used for the WIDTH attribute on
+                  tables that do not specify an alternate width (with the dbhtml processing
+                  instruction).
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.saxon.tablecolumns"></a>saxon.tablecolumns
+            </h1>
+            <div class="refnamediv"><a name="d41e1081"></a><h2>Name</h2>saxon.tablecolumns &#8212; Enable the table columns extension function
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1086"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="saxon.tablecolumns" select="'1'" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1089"></a>
+               
+               
+               <p>The table columns extension function adjusts the widths of table
+                  columns in the HTML result to more accurately reflect the specifications
+                  in the CALS table.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.tablecolumns.extension"></a>tablecolumns.extension
+            </h1>
+            <div class="refnamediv"><a name="d41e1095"></a><h2>Name</h2>tablecolumns.extension &#8212; Enable the table columns extension function
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1100"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="tablecolumns.extension" select="'1'" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1103"></a>
+               
+               
+               <p>The table columns extension function adjusts the widths of table
+                  columns in the HTML result to more accurately reflect the specifications
+                  in the CALS table.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.generate.set.toc"></a>generate.set.toc
+            </h1>
+            <div class="refnamediv"><a name="d41e1109"></a><h2>Name</h2>generate.set.toc &#8212; FIXME:
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1114"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="generate.set.toc" select="1" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1117"></a>
+               
+               
+               <p>FIXME:
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.generate.book.toc"></a>generate.book.toc
+            </h1>
+            <div class="refnamediv"><a name="d41e1123"></a><h2>Name</h2>generate.book.toc &#8212; FIXME:
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1128"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="generate.book.toc" select="1" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1131"></a>
+               
+               
+               <p>FIXME:
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.generate.part.toc"></a>generate.part.toc
+            </h1>
+            <div class="refnamediv"><a name="d41e1137"></a><h2>Name</h2>generate.part.toc &#8212; FIXME:
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1142"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="generate.part.toc" select="1" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1145"></a>
+               
+               
+               <p>FIXME:
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.generate.reference.toc"></a>generate.reference.toc
+            </h1>
+            <div class="refnamediv"><a name="d41e1151"></a><h2>Name</h2>generate.reference.toc &#8212; FIXME:
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1156"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="generate.reference.toc" select="1" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1159"></a>
+               
+               
+               <p>FIXME:
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.generate.preface.toc"></a>generate.preface.toc
+            </h1>
+            <div class="refnamediv"><a name="d41e1165"></a><h2>Name</h2>generate.preface.toc &#8212; FIXME:
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1170"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="generate.preface.toc" select="1" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1173"></a>
+               
+               
+               <p>FIXME:
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.generate.chapter.toc"></a>generate.chapter.toc
+            </h1>
+            <div class="refnamediv"><a name="d41e1179"></a><h2>Name</h2>generate.chapter.toc &#8212; FIXME:
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1184"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="generate.chapter.toc" select="1" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1187"></a>
+               
+               
+               <p>FIXME:
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.generate.appendix.toc"></a>generate.appendix.toc
+            </h1>
+            <div class="refnamediv"><a name="d41e1193"></a><h2>Name</h2>generate.appendix.toc &#8212; FIXME:
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1198"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="generate.appendix.toc" select="1" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1201"></a>
+               
+               
+               <p>FIXME:
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.generate.article.toc"></a>generate.article.toc
+            </h1>
+            <div class="refnamediv"><a name="d41e1207"></a><h2>Name</h2>generate.article.toc &#8212; FIXME:
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1212"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="generate.article.toc" select="1" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1215"></a>
+               
+               
+               <p>FIXME:
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.generate.section.toc"></a>generate.section.toc
+            </h1>
+            <div class="refnamediv"><a name="d41e1221"></a><h2>Name</h2>generate.section.toc &#8212; FIXME:
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1226"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="generate.section.toc" select="0" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1229"></a>
+               
+               
+               <p>FIXME:
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.process.source.toc"></a>process.source.toc
+            </h1>
+            <div class="refnamediv"><a name="d41e1235"></a><h2>Name</h2>process.source.toc &#8212; FIXME:
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1240"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="process.source.toc" select="0" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1243"></a>
+               
+               
+               <p>FIXME:
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.process.empty.source.toc"></a>process.empty.source.toc
+            </h1>
+            <div class="refnamediv"><a name="d41e1249"></a><h2>Name</h2>process.empty.source.toc &#8212; FIXME:
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1254"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="process.empty.source.toc" select="0" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1257"></a>
+               
+               
+               <p>FIXME:
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.bridgehead.in.toc"></a>bridgehead.in.toc
+            </h1>
+            <div class="refnamediv"><a name="d41e1263"></a><h2>Name</h2>bridgehead.in.toc &#8212; Should bridgehead elements appear in the TOC?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1268"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="bridgehead.in.toc" select="0" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1271"></a>
+               
+               
+               <p>If non-zero, bridgeheads appear in the TOC. Note that this option
+                  is not fully supported and may be removed in a future version of the
+                  stylesheets.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.generate.index"></a>generate.index
+            </h1>
+            <div class="refnamediv"><a name="d41e1277"></a><h2>Name</h2>generate.index &#8212; FIXME:
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1282"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="generate.index" select="1" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1285"></a>
+               
+               
+               <p>FIXME:
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.callout.unicode"></a>callout.unicode
+            </h1>
+            <div class="refnamediv"><a name="d41e1291"></a><h2>Name</h2>callout.unicode &#8212; FIXME:
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1296"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="callout.unicode" select="0" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1299"></a>
+               
+               
+               <p>FIXME:
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.callout.unicode.start.character"></a>callout.unicode.start.character
+            </h1>
+            <div class="refnamediv"><a name="d41e1305"></a><h2>Name</h2>callout.unicode.start.character &#8212; Number of the largest callout graphic
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1310"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="callout.unicode.start.character" select="10102" doc:type="integer"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1313"></a>
+               
+               
+               <p>If <i><tt>callout.graphics</tt></i>
+                  is non-zero, graphics are used to represent
+                  callout numbers. The value of
+                  <i><tt>callout.graphics.number.limit</tt></i>
+                  is
+                  the largest number for which a graphic exists. If the callout number
+                  exceeds this limit, the default presentation "(nnn)" will always
+                  be used.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.callout.unicode.number.limit"></a>callout.unicode.number.limit
+            </h1>
+            <div class="refnamediv"><a name="d41e1325"></a><h2>Name</h2>callout.unicode.number.limit &#8212; Number of the largest callout graphic
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1330"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="callout.unicode.number.limit" select="'10'" doc:type="integer"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1333"></a>
+               
+               
+               <p>If <i><tt>callout.graphics</tt></i>
+                  is non-zero, graphics are used to represent
+                  callout numbers. The value of
+                  <i><tt>callout.graphics.number.limit</tt></i>
+                  is
+                  the largest number for which a graphic exists. If the callout number
+                  exceeds this limit, the default presentation "(nnn)" will always
+                  be used.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.use.id.as.filename"></a>use.id.as.filename
+            </h1>
+            <div class="refnamediv"><a name="d41e1345"></a><h2>Name</h2>use.id.as.filename &#8212; Use ID value of chunk elements as the filename?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1350"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="use.id.as.filename" select="'0'" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1353"></a>
+               
+               
+               <p>If <i><tt>use.id.as.filename</tt></i>
+                  is non-zero, the filename of chunk elements that have IDs will be
+                  derived from the ID value.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.inherit.keywords"></a>inherit.keywords
+            </h1>
+            <div class="refnamediv"><a name="d41e1362"></a><h2>Name</h2>inherit.keywords &#8212; Inherit keywords from ancestor elements?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1367"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="inherit.keywords" select="'1'" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1370"></a>
+               
+               
+               <p>If <i><tt>inherit.keywords</tt></i>
+                  is non-zero, the keyword <tt>META</tt> for each HTML
+                  <tt>HEAD</tt> element will include all of the keywords from
+                  ancestral elements. Otherwise, only the keywords from the current section
+                  will be used.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.label.from.part"></a>label.from.part
+            </h1>
+            <div class="refnamediv"><a name="d41e1385"></a><h2>Name</h2>label.from.part &#8212; Renumber chapters in each part?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1390"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="label.from.part" select="'0'" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1393"></a>
+               
+               
+               <p>If <i><tt>label.from.part</tt></i> is non-zero, components
+                  (<tt>chapter</tt>s, <tt>appendixe</tt>s, etc.)
+                  will be numbered from 1 in each <tt>part</tt>. Otherwise,
+                  they will be numbered monotonically throughout each
+                  <tt>book</tt>.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.citerefentry.link"></a>citerefentry.link
+            </h1>
+            <div class="refnamediv"><a name="d41e1414"></a><h2>Name</h2>citerefentry.link &#8212; Generate URL links when cross-referencing RefEntrys?
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1419"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="citerefentry.link" select="'0'" doc:type="boolean"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1422"></a>
+               
+               
+               <p>If true, a web link will be generated, presumably
+                  to an online man-&gt;HTML gateway. The text of the link is
+                  generated by the generate.citerefentry.link template.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.default.encoding"></a>default.encoding
+            </h1>
+            <div class="refnamediv"><a name="d41e1428"></a><h2>Name</h2>default.encoding &#8212; Encoding used in generated HTML pages
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1433"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="default.encoding" select="'ISO-8859-1'" doc:type="string"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1436"></a>
+               
+               
+               <p>This encoding is used in files generated by chunking stylesheet. Currently
+                  only Saxon is able to change output encoding.
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.saxon.character.representation"></a>saxon.character.representation
+            </h1>
+            <div class="refnamediv"><a name="d41e1442"></a><h2>Name</h2>saxon.character.representation &#8212; Saxon character representation used in generated HTML pages
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e1447"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="saxon.character.representation" select="'entity;decimal'" doc:type="string"/&gt;</pre></div>
+            <div class="refdescription"><a name="d41e1450"></a>
+               
+               
+               <p>This character representation is used in files generated by chunking stylesheet. If
+                  you want to suppress entity references for characters with direct representation 
+                  in default.encoding, set this parameter to value <tt>native</tt>. 
+                  
+               </p>
+               
+               
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

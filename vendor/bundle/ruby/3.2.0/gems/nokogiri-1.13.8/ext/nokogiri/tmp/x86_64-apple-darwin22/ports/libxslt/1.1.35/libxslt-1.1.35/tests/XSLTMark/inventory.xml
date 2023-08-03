@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+
+<table>
+  <tr>
+    <td colspan="2">Detroit</td>
+  </tr>
+  <tr>
+    <td>Sprockets</td>
+    <td>14</td>
+  </tr>
+   <tr>
+    <td>Widgets</td>
+    <td>11</td>
+  </tr>
+  <tr>
+    <td>Whozits</td>
+    <td>15</td>
+  </tr>
+  <tr>
+    <td>Whatchamacallems</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>Grommits</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>Foobars</td>
+    <td>12</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Boston</td>
+  </tr>
+  <tr>
+    <td>Sprockets</td>
+    <td>0</td>
+  </tr>
+   <tr>
+    <td>Widgets</td>
+    <td>32</td>
+  </tr>
+  <tr>
+    <td>Whozits</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>Whatchamacallems</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>Grommits</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>Foobars</td>
+    <td>8</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">London</td>
+  </tr>
+  <tr>
+    <td>Sprockets</td>
+    <td>8</td>
+  </tr>
+   <tr>
+    <td>Widgets</td>
+    <td>22</td>
+  </tr>
+  <tr>
+    <td>Whozits</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>Whatchamacallems</td>
+    <td>18</td>
+  </tr>
+  <tr>
+    <td>Grommits</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>Foobars</td>
+    <td>13</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">New York</td>
+  </tr>
+  <tr>
+    <td>Sprockets</td>
+    <td>16</td>
+  </tr>
+   <tr>
+    <td>Widgets</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Whozits</td>
+    <td>24</td>
+  </tr>
+  <tr>
+    <td>Whatchamacallems</td>
+    <td>17</td>
+  </tr>
+  <tr>
+    <td>Grommits</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Foobars</td>
+    <td>6</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Paris</td>
+  </tr>
+  <tr>
+    <td>Sprockets</td>
+    <td>10</td>
+  </tr>
+   <tr>
+    <td>Widgets</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>Whozits</td>
+    <td>28</td>
+  </tr>
+  <tr>
+    <td>Whatchamacallems</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>Grommits</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Foobars</td>
+    <td>1</td>
+  </tr>
+  
+</table>
+

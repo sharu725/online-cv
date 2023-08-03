@@ -1,0 +1,20 @@
+current directory: /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+/usr/local/opt/ruby/bin/ruby extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20230803-55708-1awpch sitelibdir\=./.gem.20230803-55708-1awpch clean
+
+current directory: /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20230803-55708-1awpch sitelibdir\=./.gem.20230803-55708-1awpch
+compiling unf.cc
+linking shared-object unf_ext.bundle
+ld: warning: dylib (/usr/local/Cellar/ruby/3.2.2_1/lib/libruby.3.2.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+
+current directory: /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20230803-55708-1awpch sitelibdir\=./.gem.20230803-55708-1awpch install
+/usr/bin/install -c -m 0755 unf_ext.bundle ./.gem.20230803-55708-1awpch
+
+current directory: /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20230803-55708-1awpch sitelibdir\=./.gem.20230803-55708-1awpch clean

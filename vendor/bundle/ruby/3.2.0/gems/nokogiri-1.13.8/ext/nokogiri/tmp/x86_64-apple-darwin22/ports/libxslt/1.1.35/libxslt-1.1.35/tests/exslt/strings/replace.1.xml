@@ -1,0 +1,16 @@
+<doc>
+	<strings>
+		<x>fee</x>
+		<x>fi</x>
+		<x>fo</x>
+		<x>fum</x>
+		<y>tee</y>
+		<y>eye</y>
+		<y>billow</y>
+		<y>a longer string</y>
+                <from>$</from>
+                <from>\</from>
+                <to>\$</to>
+                <to>$\backslash$</to>
+	</strings>
+</doc>

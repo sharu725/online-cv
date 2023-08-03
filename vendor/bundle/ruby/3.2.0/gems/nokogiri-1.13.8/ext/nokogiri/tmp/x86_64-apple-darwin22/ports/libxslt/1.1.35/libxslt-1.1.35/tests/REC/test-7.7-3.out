@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+  
+    <fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format">1 First Chapter</fo:block>
+      Here is some text.
+    
+      <fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format">1.1 First Chapter, First Section</fo:block>
+        More text here.
+      
+        <fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format">1.1.1 First Chapter, First Section, First Subsection</fo:block>
+      
+      
+        <fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format">1.1.2 First Chapter, First Section, Second Subsection</fo:block>
+      
+    
+  
+  
+    <fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format">2 Second Chapter</fo:block>
+  
+  
+    <fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format">A First Appendix</fo:block>
+    
+      <fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format">A.1 First Appendix, First Section</fo:block>
+    
+  
+  
+    <fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format">B Second Appendix</fo:block>
+  
+

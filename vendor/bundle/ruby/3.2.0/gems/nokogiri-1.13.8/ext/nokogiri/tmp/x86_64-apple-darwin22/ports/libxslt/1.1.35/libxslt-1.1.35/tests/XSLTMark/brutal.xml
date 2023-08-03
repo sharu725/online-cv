@@ -1,0 +1,74 @@
+<inventory>
+  <warehouse>
+    <name>
+      Virginia
+    </name>
+    <items>
+      <item>
+        <sku>2201</sku>
+        <desc>sprocket</desc>
+        <qty>12</qty>
+      </item>
+      <item>
+        <sku>2203</sku>
+        <desc>cog</desc>
+        <qty>0</qty>
+      </item>
+      <item>
+        <sku>2202</sku>
+        <desc>widget</desc>
+        <qty>19</qty>
+      </item>
+      <item>
+        <sku>2209</sku>
+        <desc>doohickey</desc>
+        <qty>0</qty>
+      </item>
+      <item>
+        <sku>2205</sku>
+        <desc>whatchamidigger</desc>
+        <qty>42</qty>
+      </item>
+      <item>
+        <sku>2204</sku>
+        <desc>whoozit</desc>
+        <qty>11</qty>
+      </item>
+    </items>
+  </warehouse>
+  <warehouse>
+    <name>
+      Pluto
+    </name>
+    <items>
+      <item>
+        <sku>2201</sku>
+        <desc>sprocket</desc>
+        <qty>4</qty>
+      </item>
+      <item>
+        <sku>2210</sku>
+        <desc>flange</desc>
+        <qty>0</qty>
+      </item>
+      <item>
+        <sku>2214</sku>
+        <desc>squeegie</desc>
+        <qty>74</qty>
+      </item>
+      <item>
+        <sku>2204</sku>
+        <desc>whoozit</desc>
+        <qty>4</qty>
+      </item>
+      <item>
+        <sku>2210</sku>
+        <desc>knick knack</desc>
+        <qty>5</qty>
+      </item>
+    </items>
+  </warehouse>
+
+</inventory>
+
+

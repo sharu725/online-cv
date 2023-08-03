@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<html><head><title>DocBook V4.0 Example Document</title><meta name="generator" content="DocBook XSL Stylesheets V1.40"/></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="book" id="id2602144"><div class="titlepage"><div><h1 class="title"><a name="id2602144"/>DocBook V4.0 Example Document</h1></div><div><h3 class="author">Norman Walsh</h3></div><div><div class="abstract"><p><a name="id2790082"/><b>Abstract</b></p><p>This document demonstrates the new tags in DocBook V4.0.</p><p>The focus of this document is to present examples of new elements,
+minor changes such as the addition of new attribute values are not
+included.</p></div></div><hr/></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt>1 <a href="#id2909938">Block-level Markup</a></dt><dt>2 <a href="#id2792579">Inline markup</a></dt></dl></div><div class="chapter"><div class="titlepage"><div><h2 class="title"><a name="id2909938"/>Chapter 1. Block-level Markup</h2></div></div><p>There's a new simple-alternative for <tt>msgentry</tt>:
+<tt>simplemsgentry</tt>.</p><div class="simplemsgentry"><a name="id2909975"/><p>The text of a message</p><div class="msgexplan"><a name="id2789946"/><p>An explanation of the message.</p></div></div><div class="simplemsgentry"><a name="id2789959"/><p>The text of a message</p><div class="msgexplan"><a name="id2789976"/><p>An explanation of the message.</p></div></div><p>Longer descriptions are possible in a <tt>revhistory</tt>:
+</p><p>
+<div class="revhistory"><table border="0" width="100%" summary="Revision history"><tr><th align="left" valign="top" colspan="3"><b>Revision History</b></th></tr><tr><td align="left">Revision 2</td><td align="left">today</td><td align="left">nwalsh</td></tr><tr><td align="left">Revision 1</td><td align="left">yesterday</td><td align="left">nwalsh</td></tr></table></div>
+</p><p>Ordered and itemized lists can have titles:</p><div class="itemizedlist"><p><b>Itemized List</b></p><ul><li><p><a name="id2792268"/>First thing</p></li><li><p><a name="id2792279"/>Second thing</p></li><li><p><a name="id2792289"/>Third thing</p></li></ul></div><div class="itemizedlist"><p><b>Ordered List</b></p><ul><li><p><a name="id2792313"/>First thing</p></li><li><p><a name="id2792324"/>Second thing</p></li><li><p><a name="id2792334"/>Third thing</p></li></ul></div><p>Linespecific environments can indicate line numbering:</p><pre class="programlisting">
+&lt;!ENTITY % linespecific.attrib
+	&quot;format		NOTATION
+			(linespecific)	'linespecific'
+         linenumbering	(numbered|unnumbered) 	#IMPLIED&quot;&gt;
+</pre><p>Added <tt>classsynopsis</tt> for documenting
+object-oriented programming language classes. Here's one example:</p><pre class="classsynopsis"> <span class="ooclass"><span class="modifier">public </span><span class="classname">TextFileWriter</span></span> extends <span class="ooclass"><span class="classname">HandlerBase</span></span> {
+
+<div class="fieldsynopsis">  <span class="modifier">private </span><span class="type">Writer </span><span class="varname">writer </span>;</div><div class="fieldsynopsis">  <span class="modifier">public </span><span class="type">String </span><span class="varname">writerName </span><span class="initializer">= &quot;MyWriter&quot;</span>;</div><div class="methodsynopsis">  <span class="modifier">static </span><span class="modifier">public </span><span class="void">void </span><span class="methodname">write</span>(<span class="methodparam"><span class="type">ResultTreeFragment </span><span class="parameter">frag</span></span>,
+                           <span class="methodparam"><span class="type">String </span><span class="parameter">file</span></span>)
+    throws <span class="exceptionname">SAXException</span>;</div>}</pre></div><div class="chapter"><div class="titlepage"><div><h2 class="title"><a name="id2792579"/>Chapter 2. Inline markup</h2></div></div><p>The <tt>sgmltag</tt> element has new
+<tt>class</tt> attribute values:
+<tt>xmlpi</tt> and
+<tt>emptytag</tt>. These produce
+<tt>&lt;?processing instructions?&gt;</tt>
+and <tt>&lt;empty-tag/&gt;</tt> markup
+suitable for XML.
+</p></div></div></body></html>

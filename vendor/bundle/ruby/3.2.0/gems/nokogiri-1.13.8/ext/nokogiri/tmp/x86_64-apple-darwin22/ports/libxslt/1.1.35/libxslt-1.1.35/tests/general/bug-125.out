@@ -1,0 +1,351 @@
+<div class="errataset">
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr>
+<td style="width: 15%;" class="page">Page: 17</td>
+<td style="width: 15%;" class="line">Line: 2</td>
+<td style="width: 70%;" class="type">CLARIFICATION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Replace "the previous explanation of namespaces" with "the example of namespaces in Example 2-1".</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr><td style="width: 15%;" class="page">Page: 28</td>
+<td style="width: 15%;" class="paragraph">Paragraph: 3</td>
+<td style="width: 15%;" class="line">Line: 1</td>
+<td style="width: 55%;" class="type">GRAMMAR</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Replace "at once" with "both".</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr><td style="width: 15%;" class="page">Page: 40</td>
+<td style="width: 15%;" class="paragraph">Paragraph: 1</td>
+<td style="width: 15%;" class="line">Line: 5</td>
+<td style="width: 55%;" class="type">CLARIFICATION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Replace "content-encoding" with "content encoding".</p>
+<blockquote class="explanation">
+<p>
+The hyphen implies the "Content-Encoding" HTTP header, and here I am referring instead to the general concept of content encoding.
+</p>
+</blockquote>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr>
+<td style="width: 15%;" class="page">Page: 47</td>
+<td style="width: 15%;" class="line">Line: 33</td>
+<td style="width: 70%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Replace "resolve_name" (in the error message) with "get_data".</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr><td style="width: 15%;" class="page">Page: 52</td>
+<td style="width: 15%;" class="paragraph">Paragraph: 3</td>
+<td style="width: 70%;" class="type">UPDATE</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">As of this current errata update, the RPC::XMLSimple package has not yet been released to CPAN. Until it is released, none of the examples using this module can be run as presented.</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr>
+<td style="width: 15%;" class="page">Page: 53</td>
+<td style="width: 15%;" class="line">Line: 24</td>
+<td style="width: 70%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">The script should start with the line, "#!/usr/bin/perl -w" before the first line of actual code.</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr>
+<td style="width: 15%;" class="page">Page: 59</td>
+<td style="width: 15%;" class="line">Line: 16</td>
+<td style="width: 70%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">The script should start with the line, "#!/usr/bin/perl -w" before the first line of actual code.</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr>
+<td style="width: 15%;" class="page">Page: 68</td>
+<td style="width: 15%;" class="line">Line: 4</td>
+<td style="width: 70%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">The script should start with the line, "#!/usr/bin/perl -w" before the first line of actual code.</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr>
+<td style="width: 15%;" class="page">Page: 115</td>
+<td style="width: 15%;" class="line">Line: 20</td>
+<td style="width: 70%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Append " -w" after "perl".</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr>
+<td style="width: 15%;" class="page">Page: 120</td>
+<td style="width: 15%;" class="line">Line: 30</td>
+<td style="width: 70%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Append " -w" after "perl".</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr>
+<td style="width: 15%;" class="page">Page: 146</td>
+<td style="width: 15%;" class="line">Line: 10</td>
+<td style="width: 70%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Append " -w" after "perl".</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr>
+<td style="width: 15%;" class="page">Page: 151</td>
+<td style="width: 15%;" class="line">Line: 27</td>
+<td style="width: 70%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Append " -w" after "perl".</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr>
+<td style="width: 15%;" class="page">Page: 157</td>
+<td style="width: 15%;" class="line">Line: 16</td>
+<td style="width: 70%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Append " -w" after "perl".</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr>
+<td style="width: 15%;" class="page">Page: 165</td>
+<td style="width: 15%;" class="line">Line: 26</td>
+<td style="width: 70%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Append " -w" after "perl".</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr>
+<td style="width: 15%;" class="page">Page: 166</td>
+<td style="width: 15%;" class="line">Line: 25</td>
+<td style="width: 70%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Append " -w" after "perl".</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr>
+<td style="width: 15%;" class="page">Page: 168</td>
+<td style="width: 15%;" class="line">Line: 20</td>
+<td style="width: 70%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Append " -w" after "perl".</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr>
+<td style="width: 15%;" class="page">Page: 170</td>
+<td style="width: 15%;" class="line">Line: 1</td>
+<td style="width: 70%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Append " -w" after "perl".</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr>
+<td style="width: 15%;" class="page">Page: 171</td>
+<td style="width: 15%;" class="line">Line: 18</td>
+<td style="width: 70%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Append " -w" after "perl".</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr>
+<td style="width: 15%;" class="page">Page: 172</td>
+<td style="width: 15%;" class="line">Line: 20</td>
+<td style="width: 70%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Append " -w" after "perl".</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr>
+<td style="width: 15%;" class="page">Page: 174</td>
+<td style="width: 15%;" class="line">Line: 9</td>
+<td style="width: 70%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Append " -w" after "perl".</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr>
+<td style="width: 15%;" class="page">Page: 175</td>
+<td style="width: 15%;" class="line">Line: 6</td>
+<td style="width: 70%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Append " -w" after "perl".</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr>
+<td style="width: 15%;" class="page">Page: 176</td>
+<td style="width: 15%;" class="line">Line: 23</td>
+<td style="width: 70%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Append " -w" after "perl".</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr>
+<td style="width: 15%;" class="page">Page: 186</td>
+<td style="width: 15%;" class="line">Line: 32</td>
+<td style="width: 70%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">The last character of this line, "&gt;", should be replaced with "/&gt;" in order to make it valid XML.</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr><td style="width: 15%;" class="page">Page: 203</td>
+<td style="width: 15%;" class="paragraph">Paragraph: 2</td>
+<td style="width: 15%;" class="line">Line: 3</td>
+<td style="width: 55%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Replace "soap:address" with "http:address".</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr>
+<td style="width: 15%;" class="page">Page: 232</td>
+<td style="width: 15%;" class="line">Line: 3</td>
+<td style="width: 70%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Append " -w" after "perl".</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr><td style="width: 15%;" class="page">Page: 237</td>
+<td style="width: 15%;" class="paragraph">Paragraph: 1</td>
+<td style="width: 15%;" class="line">Line: 6</td>
+<td style="width: 55%;" class="type">GRAMMAR</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Replace "more" with "most".</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr><td style="width: 15%;" class="page">Page: 245</td>
+<td style="width: 15%;" class="paragraph">Paragraph: 4</td>
+<td style="width: 15%;" class="line">Line: 2</td>
+<td style="width: 55%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Replace "different" with "difference".</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr><td style="width: 15%;" class="page">Page: 247</td>
+<td style="width: 15%;" class="paragraph">Paragraph: 4</td>
+<td style="width: 15%;" class="line">Line: 5</td>
+<td style="width: 55%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Replace "out of hand" with "out-of-band".</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr><td style="width: 15%;" class="page">Page: 251</td>
+<td style="width: 15%;" class="paragraph">Paragraph: 2</td>
+<td style="width: 15%;" class="line">Line: 4</td>
+<td style="width: 55%;" class="type">GRAMMAR</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Replace "sequence," with "sequence" (remove the comma).</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr>
+<td style="width: 15%;" class="page">Page: 253</td>
+<td style="width: 15%;" class="line">Line: 24</td>
+<td style="width: 70%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Replace "#!perl" with "#!/usr/bin/perl".</p>
+<blockquote class="explanation">
+<p>
+This and the identical changes later are for consistency with other code examples.
+</p>
+</blockquote>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr>
+<td style="width: 15%;" class="page">Page: 274</td>
+<td style="width: 15%;" class="line">Line: 9</td>
+<td style="width: 70%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Replace "#!perl" with "#!/usr/bin/perl".</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr>
+<td style="width: 15%;" class="page">Page: 274</td>
+<td style="width: 15%;" class="line">Line: 19</td>
+<td style="width: 70%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Replace "#!perl" with "#!/usr/bin/perl".</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr>
+<td style="width: 15%;" class="page">Page: 297</td>
+<td style="width: 15%;" class="line">Line: 1</td>
+<td style="width: 70%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Replace "Description" with "Definition".</p>
+</div>
+<div class="errata">
+<table class="location-type" cellspacing="0" cellpadding="2">
+<tr>
+<td style="width: 15%;" class="page">Page: 431</td>
+<td style="width: 15%;" class="line">Line: 9</td>
+<td style="width: 70%;" class="type">CORRECTION</td>
+</tr>
+</table>
+<p style="clear: both; padding: 3px;">Append " -w" after "perl".</p>
+</div>
+</div>

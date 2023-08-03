@@ -1,0 +1,2 @@
+typedef struct Pcmdb_TestHeadDatabase Pcmdb_TestHeadDatabase; 
+

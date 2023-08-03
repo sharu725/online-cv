@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<api name='libxslt-python'>
+  <files>
+    <file name='python'>
+    </file>
+  </files>
+  <symbols>
+    <function name='xsltSaveResultToString' file='python'>
+      <info>Have the stylesheet serialize the result of a transformation to a python string</info>
+      <return type='char *' info='The result document as a string' />
+      <arg name='style' type='xsltStylesheetPtr' info='a parsed XSLT stylesheet'/>
+      <arg name='result' type='xmlDocPtr' info='The result document'/>
+    </function>
+    <function name='xsltSetLoaderFunc' file='python'>
+      <info>Set the function for controlling document loading</info>
+      <return type='long' info='0 for failure or 1 for success'/>
+      <arg name='loader' type='pythonObject' info='the loader function; should take: string URI, xsltParserContext, context, type; when type == 1 the context is a stylesheet, when type == 0 the context is a transformCtxt'/>
+    </function>
+    <function name='xsltGetLoaderFunc' file='python'>
+      <info>Get the function for controlling document loading</info>
+      <return type='pythonObject *' info='the function'/>
+    </function>
+    <function name='xsltNewTransformContext' file='python'>
+      <info>Create a new XSLT TransformContext</info>
+      <return type='xsltTransformContextPtr' info='an xslt TransformContext'/>
+      <arg name='style' type='xsltStylesheetPtr' info='a parsed XSLT stylesheet'/>
+      <arg name='doc' type='xmlDocPtr' info='the input document'/>
+    </function>
+    <function name='xsltFreeTransformContext' file='python'>
+      <info>Free up an existing XSLT TransformContext</info>
+      <return type='void' info='None'/>
+      <arg name='transformCtxt' type='xsltTransformContextPtr' info='an existing tranformCtxt'/>
+    </function>
+    <function name='xsltGetTransformContextHashCode' file='python'>
+      <info>Get the hash code of the transformContext</info>
+      <return type='int' info='the hash code' />
+      <arg name='transformCtxt' type='xsltTransformContextPtr' info='a parsed XSLT transformContext'/>
+    </function>
+    <function name='xsltGetStylesheetHashCode' file='python'>
+      <info>Get the hash code of the stylesheet</info>
+      <return type='int' info='the hash code' />
+      <arg name='stylesheet' type='xsltStylesheetPtr' info='a parsed XSLT stylesheet'/>
+    </function>
+    <function name='xsltCompareTransformContextsEqual' file='python'>
+      <info>Compare one transformCtxt with another</info>
+      <return type='int' info='1 in case of success, 0 or -1 in error' />
+      <arg name='transformCtxt' type='xsltTransformContextPtr' info='a parsed XSLT transformContext'/>
+      <arg name='other' type='xsltTransformContextPtr' info='a parsed XSLT transformContext'/>
+    </function>
+    <function name='xsltCompareStylesheetsEqual' file='python'>
+      <info>Compare one stylesheet with another</info>
+      <return type='int' info='1 in case of success, 0 or -1 in error' />
+      <arg name='stylesheet' type='xsltStylesheetPtr' info='a parsed XSLT stylesheet'/>
+      <arg name='other' type='xsltStylesheetPtr' info='a parsed XSLT stylesheet'/>
+    </function>
+    <function name='xsltApplyStylesheetUser' file='python'>
+      <info>Apply the stylesheet to the document</info>
+      <return type='xmlDocPtr' info="the result document or NULL in case of error"/>
+      <arg name='style' type='xsltStylesheetPtr' info='a parsed XSLT stylesheet'/>
+      <arg name='doc' type='xmlDocPtr' info='a parsed XML document'/>
+      <arg name='params' type='pythonObject' info='the parameters dictionary'/>
+      <arg name='transformCtxt' type='xsltTransformContextPtr' info='transformation context'/>
+    </function>
+    <function name='xsltApplyStylesheet' file='python'>
+      <info>Apply the stylesheet to the document</info>
+      <return type='xmlDocPtr' info="the result document or NULL in case of error"/>
+      <arg name='style' type='xsltStylesheetPtr' info='a parsed XSLT stylesheet'/>
+      <arg name='doc' type='xmlDocPtr' info='a parsed XML document'/>
+      <arg name='params' type='pythonObject' info='the parameters dictionary'/>
+    </function>
+    <function name='xsltRegisterErrorHandler' file='python'>
+      <info>Register a Python written function to for error reporting. The function is called back as f(ctx, error).</info>
+      <return type='int' info="1 in case of success, 0 or -1 in case of error"/>
+      <arg name='f' type='pythonObject' info='the python function'/>
+      <arg name='ctx' type='pythonObject' info='a context for the callback'/>
+    </function>
+    <function name='xsltRegisterExtModuleElement' file='python'>
+      <info>Register a Python written element to the XSLT engine</info>
+      <return type='int' info="0 in case of success, -1 in case of error"/>
+      <arg name='name' type='xmlChar *' info='the element name'/>
+      <arg name='URI' type='xmlChar *' info='the namespace or NULL'/>
+      <arg name='precompile' type='pythonObject' info='method called when stylesheet is compiled'/>
+      <arg name='transform' type='pythonObject' info='method called during transform, must not modify stylesheet'/>
+    </function>
+    <function name='xsltRegisterExtModuleFunction' file='python'>
+      <info>Register a Python written function to the XSLT engine</info>
+      <return type='int' info="0 in case of success, -1 in case of error"/>
+      <arg name='name' type='xmlChar *' info='the function name'/>
+      <arg name='URI' type='xmlChar *' info='the namespace or NULL'/>
+      <arg name='f' type='pythonObject' info='the python function'/>
+    </function>
+    <function name='xsltRegisterExtensionClass' file='python'>
+      <info>Register a Python written extension class to the XSLT engine</info>
+      <return type='int' info="0 in case of success, -1 in case of error"/>
+      <arg name='URI' type='xmlChar *' info='the namespace or NULL'/>
+      <arg name='c' type='pythonObject' info='the python class instance'/>
+    </function>
+    <function name='xsltPythonCleanup' file='python'>
+      <info>Cleanup just libxslt (not libxml2) memory allocated</info>
+      <return type='void'/>
+    </function>
+    <!-- xmlXPathParserContextPtr accessors -->
+    <function name='xsltXPathParserGetContext' file='python_accessor'>
+      <info>Get the xpathContext from an xpathParserContext</info>
+      <return type='xmlXPathContextPtr' info="The XPath context" field="context"/>
+      <arg name='ctxt' type='xmlXPathParserContextPtr' info='the XPath parser context'/>
+    </function>
+    <!-- xmlXPathContextPtr accessors -->
+    <function name='xsltXPathGetTransformContext' file='python_accessor'>
+      <info>Get the transformation context from an xpathContext</info>
+      <return type='xsltTransformContextPtr' info="The node context" field="extra"/>
+      <arg name='ctxt' type='xmlXPathContextPtr' info='the XPath context'/>
+    </function>
+    <!-- xsltTransformContextPtr accessors -->
+    <function name='xsltTransformGetStyle' file='python_accessor'>
+      <info>Get the stylesheet from a transformation</info>
+      <return type='xsltStylesheetPtr' info="The stylesheet" field="style"/>
+      <arg name='ctxt' type='xsltTransformContextPtr' info='the transformation context'/>
+    </function>
+    <function name='xsltTransformGetCurrent' file='python_accessor'>
+      <info>Get the current() node of a transformation</info>
+      <return type='xmlNodePtr' info="The node" field="node"/>
+      <arg name='ctxt' type='xsltTransformContextPtr' info='the transformation context'/>
+    </function>
+    <function name='xsltTransformGetOutputDoc' file='python_accessor'>
+      <info>Get the output document of a transformation</info>
+      <return type='xmlDocPtr' info="The output doc" field="output"/>
+      <arg name='ctxt' type='xsltTransformContextPtr' info='the transformation context'/>
+    </function>
+    <function name='xsltTransformGetOutputURI' file='python_accessor'>
+      <info>Get the output URI of a transformation if known</info>
+      <return type='const char *' info="The output URI" field="outputFile"/>
+      <arg name='ctxt' type='xsltTransformContextPtr' info='the transformation context'/>
+    </function>
+    <function name='xsltTransformGetInsertNode' file='python_accessor'>
+      <info>Get the insertion node in the output document</info>
+      <return type='xmlNodePtr' info="The insertion node" field="insert"/>
+      <arg name='ctxt' type='xsltTransformContextPtr' info='the transformation context'/>
+    </function>
+    <function name='xsltTransformGetInstruction' file='python_accessor'>
+      <info>Get the instruction node in the stylesheet</info>
+      <return type='xmlNodePtr' info="The instruction node" field="inst"/>
+      <arg name='ctxt' type='xsltTransformContextPtr' info='the transformation context'/>
+    </function>
+    <function name='xsltTransformGetMode' file='python_accessor'>
+      <info>Get the mode of a transformation</info>
+      <return type='const xmlChar *' info="The mode" field="mode"/>
+      <arg name='ctxt' type='xsltTransformContextPtr' info='the transformation context'/>
+    </function>
+    <function name='xsltTransformGetModeURI' file='python_accessor'>
+      <info>Get the mode URI of a transformation</info>
+      <return type='const xmlChar *' info="The mode URI" field="modeURI"/>
+      <arg name='ctxt' type='xsltTransformContextPtr' info='the transformation context'/>
+    </function>
+    <function name='xsltTransformGetContext' file='python_accessor'>
+      <info>Get the XPath context of a transformation</info>
+      <return type='xmlXPathContextPtr' info="The XPath context" field="xpathCtxt"/>
+      <arg name='ctxt' type='xsltTransformContextPtr' info='the transformation context'/>
+    </function>
+    <function name='xsltTransformGetPrivate' file='python_accessor'>
+      <info>Get the private field of a transformation</info>
+      <return type='pythonObject *' info="The private field" field="_private"/>
+      <arg name='ctxt' type='xsltTransformContextPtr' info='the transformation context'/>
+    </function>
+    <function name='xsltTransformSetPrivate' file='python_accessor'>
+      <info>Set the private field of a transformation</info>
+      <return type='void'/>
+      <arg name='ctxt' type='xsltTransformContextPtr' info='the transformation context'/>
+      <arg name='_private' type='pythonObject *' info='The private field'/>
+    </function>
+    <!-- xsltStylesheetPtr accessors -->
+    <function name='xsltStylesheetGetParent' file='python_accessor'>
+      <info>Get the parent of a stylesheet</info>
+      <return type='xsltStylesheetPtr' info="The parent" field="parent"/>
+      <arg name='style' type='xsltStylesheetPtr' info='the stylesheet'/>
+    </function>
+    <function name='xsltStylesheetGetNext' file='python_accessor'>
+      <info>Get the next sibling of a stylesheet</info>
+      <return type='xsltStylesheetPtr' info="The next sibling" field="next"/>
+      <arg name='style' type='xsltStylesheetPtr' info='the stylesheet'/>
+    </function>
+    <function name='xsltStylesheetGetImports' file='python_accessor'>
+      <info>Get the imports of a stylesheet</info>
+      <return type='xsltStylesheetPtr' info="The next sibling" field="imports"/>
+      <arg name='style' type='xsltStylesheetPtr' info='the stylesheet'/>
+    </function>
+    <function name='xsltStylesheetGetDoc' file='python_accessor'>
+      <info>Get the document of a stylesheet</info>
+      <return type='xmlDocPtr' info="The XML document" field="doc"/>
+      <arg name='style' type='xsltStylesheetPtr' info='the stylesheet'/>
+    </function>
+    <function name='xsltStylesheetGetMethod' file='python_accessor'>
+      <info>Get the output method of a stylesheet</info>
+      <return type='const xmlChar *' info="The output method" field="method"/>
+      <arg name='style' type='xsltStylesheetPtr' info='the stylesheet'/>
+    </function>
+    <function name='xsltStylesheetGetMethodURI' file='python_accessor'>
+      <info>Get the output method URI of a stylesheet</info>
+      <return type='const xmlChar *' info="The output method URI" field="methodURI"/>
+      <arg name='style' type='xsltStylesheetPtr' info='the stylesheet'/>
+    </function>
+    <function name='xsltStylesheetGetVersion' file='python_accessor'>
+      <info>Get the output version of a stylesheet</info>
+      <return type='const xmlChar *' info="The output version" field="version"/>
+      <arg name='style' type='xsltStylesheetPtr' info='the stylesheet'/>
+    </function>
+    <function name='xsltStylesheetGetEncoding' file='python_accessor'>
+      <info>Get the output encoding of a stylesheet</info>
+      <return type='const xmlChar *' info="The output encoding" field="encoding"/>
+      <arg name='style' type='xsltStylesheetPtr' info='the stylesheet'/>
+    </function>
+    <function name='xsltStylesheetGetDoctypePublic' file='python_accessor'>
+      <info>Get the output PUBLIC of a stylesheet</info>
+      <return type='const xmlChar *' info="The output PUBLIC" field="doctypePublic"/>
+      <arg name='style' type='xsltStylesheetPtr' info='the stylesheet'/>
+    </function>
+    <function name='xsltStylesheetGetDoctypeSystem' file='python_accessor'>
+      <info>Get the output SYSTEM of a stylesheet</info>
+      <return type='const xmlChar *' info="The output SYSTEM" field="doctypeSystem"/>
+      <arg name='style' type='xsltStylesheetPtr' info='the stylesheet'/>
+    </function>
+    <function name='xsltStylesheetGetPrivate' file='python_accessor'>
+      <info>Get the private field of a stylesheet</info>
+      <return type='pythonObject *' info="The private field" field="_private"/>
+      <arg name='style' type='xsltStylesheetPtr' info='the stylesheet'/>
+    </function>
+    <function name='xsltStylesheetSetPrivate' file='python_accessor'>
+      <info>Set the private field of a stylesheet</info>
+      <return type='void'/>
+      <arg name='style' type='xsltStylesheetPtr' info='the stylesheet'/>
+      <arg name='_private' type='pythonObject *' info='The private field'/>
+    </function>
+  </symbols>
+</api>

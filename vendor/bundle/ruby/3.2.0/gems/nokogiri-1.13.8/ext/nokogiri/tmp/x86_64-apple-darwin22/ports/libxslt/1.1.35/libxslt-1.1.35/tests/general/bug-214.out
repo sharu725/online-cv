@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<root>
+    <element type="a" pos="1"/>
+    <element type="b" pos="1"/>
+    <element type="a" pos="2"/>
+</root>

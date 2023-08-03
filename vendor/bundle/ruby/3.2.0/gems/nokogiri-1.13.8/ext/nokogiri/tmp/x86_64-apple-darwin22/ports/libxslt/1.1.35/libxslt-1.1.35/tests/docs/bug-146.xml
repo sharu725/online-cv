@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Victor 
+Prylipko (Linia) -->
+<root>
+    <colls COL_COD="PT" COL_NAME="Арго" CURR_ID_0="" CURR_ID_1="" CURR_ID_2="" 
+CURR_ID_3="">
+        <goodcoll CODE="2655" ART="PA310ST" NAME="Комплект стекол для А310 тон" 
+WEIGHT="10" VOLUME="0.09" GABS_W="72" GABS_H="112" GABS_D="0.4" SH_DESC="" 
+SUPP_ART="PA310ST" NUM="0" COL_COD="PT" 
+IMAGE_="/images/goods/image/PA310ST.gif" 
+SCHEMA_="/images/goods/schema/PA310ST.gif">
+            <currency CURRENCY_="RUR" OPT="1" ROZN="2" ZAKUP="3" IN="4"/>
+            <currency CURRENCY_="USD" OPT="2" ROZN="3" ZAKUP="4" IN="5"/>
+            <goodcomb GOOD_ID="63647" NUM_COLOR="0" COL_ID="24007" 
+TITLE="пустой" COEF="0" ABS_COEF="0" RU_CODE="" EN_CODE="" PROPNAME_="C" 
+MODEL_="">
+                <ost NUM_TIP="0" TIP="0"/>
+                <ost NUM_TIP="2" TIP="-3"/>
+                <ost NUM_TIP="4" TIP="-4"/>
+                <ost NUM_TIP="5" TIP="-4"/>
+                <ost NUM_TIP="6" TIP="-4"/>
+                <ost NUM_TIP="7" TIP="-3"/>
+                <ost NUM_TIP="8" TIP="-3"/>
+                <ost NUM_TIP="9" TIP="-3"/>
+            </goodcomb>
+        </goodcoll>
+    </colls>
+</root>

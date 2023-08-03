@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml">
+<body>
+<p><pPr><pStyle val="Quick1"/><tabs><tab val="left" pos="-1080"/><tab val="left" pos="-720"/><tab val="left" pos="0"/><tab val="num" pos="450"/><tab val="left" pos="1170"/><tab val="left" pos="1440"/><tab val="left" pos="2160"/><tab val="left" pos="2880"/><tab val="left" pos="3600"/><tab val="left" pos="4320"/><tab val="left" pos="5040"/><tab val="left" pos="5760"/><tab val="left" pos="6480"/><tab val="left" pos="7200"/><tab val="left" pos="7920"/><tab val="left" pos="8640"/><tab val="left" pos="9360"/></tabs><spacing line="242" lineRule="auto"/></pPr><r><t>1</t></r></p>
+<p><pPr><pStyle val="Quick1"/><tabs><tab val="left" pos="-1080"/><tab val="left" pos="-720"/><tab val="left" pos="0"/><tab val="num" pos="450"/><tab val="left" pos="1170"/><tab val="left" pos="1440"/><tab val="left" pos="2160"/><tab val="left" pos="2880"/><tab val="left" pos="3600"/><tab val="left" pos="4320"/><tab val="left" pos="5040"/><tab val="left" pos="5760"/><tab val="left" pos="6480"/><tab val="left" pos="7200"/><tab val="left" pos="7920"/><tab val="left" pos="8640"/><tab val="left" pos="9360"/></tabs><spacing line="242" lineRule="auto"/></pPr><r><t>2</t></r></p>
+</body>
+<styles>
+<style type="paragraph" customStyle="1" styleId="Quick1"><name val="Quick 1."/><basedOn val="Normal"/><uiPriority val="99"/><rsid val="0036577A"/><pPr><numPr><numId val="1"/></numPr><ind left="450" hanging="450"/></pPr></style>
+</styles>
+</document>

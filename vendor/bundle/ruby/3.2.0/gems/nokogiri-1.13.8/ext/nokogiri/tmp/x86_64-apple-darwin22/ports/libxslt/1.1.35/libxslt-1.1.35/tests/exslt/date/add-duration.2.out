@@ -1,0 +1,13 @@
+
+add-duration : 2001 + -P1Y
+result       : 
+add-duration : P1M + 2000-01-01
+result       : 
+add-duration : P11M30D + -P12M
+result       : 
+add-duration : P11M + -P12D
+result       : 
+add-duration : P1000Y11M + -PT9S
+result       : 
+add-duration : -P1000Y + PT9S
+result       : 

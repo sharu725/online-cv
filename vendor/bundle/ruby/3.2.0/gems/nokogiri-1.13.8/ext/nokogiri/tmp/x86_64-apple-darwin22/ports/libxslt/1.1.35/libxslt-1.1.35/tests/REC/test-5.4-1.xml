@@ -1,0 +1,6 @@
+<doc>
+<chapter>
+This is a chapter
+</chapter>
+<chapter>This is <em>another</em> chapter</chapter>
+</doc>

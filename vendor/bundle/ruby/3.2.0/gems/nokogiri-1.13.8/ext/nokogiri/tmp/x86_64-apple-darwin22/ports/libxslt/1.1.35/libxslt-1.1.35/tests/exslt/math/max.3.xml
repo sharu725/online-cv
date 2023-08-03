@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<rootelement>
+  <childelement val="100"/>
+  <childelement val="200"/>
+  <childelement val="500"/>
+  <childelement val="300"/>
+  <childelement val="nothing"/>
+</rootelement>
+

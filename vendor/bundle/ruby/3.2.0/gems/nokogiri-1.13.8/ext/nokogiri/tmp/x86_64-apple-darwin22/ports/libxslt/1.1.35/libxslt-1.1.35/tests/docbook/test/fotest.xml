@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE book
+  PUBLIC "-//Norman Walsh//DTD DocBk XML V3.1.7//EN"
+  "../dtd/3.1.7/docbookx.dtd">
+
+<!-- test document -->
+
+<book><title>Book Test Document Title</title>
+<bookinfo>
+<title>Bookinfo Test Document Title</title>
+<subtitle>Book Subtitle</subtitle>
+<authorgroup>
+<author><firstname>Norman</firstname><surname>Walsh</surname></author>
+</authorgroup>
+</bookinfo>
+
+<preface><title>Foreword</title>
+<para>This is a test paragraph.</para>
+
+<table id="table">
+<title>A Table</title>
+<tgroup cols="2">
+<colspec colwidth="0.5in"/>
+<colspec colwidth="0.5in"/>
+<tbody>
+<row>
+<entry>1</entry>
+<entry>1</entry>
+</row>
+<row>
+<entry>2</entry>
+<entry>4</entry>
+</row>
+<row>
+<entry>3</entry>
+<entry>9</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+
+</preface>
+
+<chapter>
+  <docinfo><title>First Chapter</title><subtitle>Chapter Subtitle</subtitle>
+  </docinfo><title>First Chapter</title>
+<para>This is a test paragraph.</para>
+</chapter>
+
+<appendix><title>First Appendix</title>
+<para>This is just a test.</para>
+</appendix>
+
+</book>
+
+

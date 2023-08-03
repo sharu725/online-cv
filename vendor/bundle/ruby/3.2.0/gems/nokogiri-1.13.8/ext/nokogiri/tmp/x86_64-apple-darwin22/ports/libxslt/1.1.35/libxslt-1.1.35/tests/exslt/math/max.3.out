@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+Largest number value: 500
+Largest number value (computed by function foo:getMaxVal): 500
+Largest number value (computed by function foo:getMaxVal2): 500

@@ -1,0 +1,27 @@
+DocBk XML V3.1.7 DTD
+Copyright (C) 1998, 1999 Norman Walsh
+http://nwalsh.com/docbook/xml/
+
+You may distribute this DTD under the same terms as DocBook.
+
+Please direct all questions and comments about this DTD to
+Norman Walsh, <ndw@nwalsh.com>.
+
+This DTD is based on the DocBook V3.1 DTD from OASIS:
+
+  [DocBook is] Copyright 1992, 1993, 1994, 1995, 1996, 1998,
+  1999 HaL Computer Systems, Inc., O'Reilly & Associates, Inc.,
+  ArborText, Inc., Fujitsu Software Corporation, and the
+  Organization for the Advancement of Structured Information
+  Standards (OASIS).
+
+  Permission to use, copy, modify and distribute the DocBook
+  DTD and its accompanying documentation for any purpose and
+  without fee is hereby granted in perpetuity, provided that
+  the above copyright notice and this paragraph appear in all
+  copies.  The copyright holders make no representation about
+  the suitability of the DTD for any purpose.  It is provided
+  "as is" without expressed or implied warranty.
+
+For more information about the DocBook DTD, see 
+http://www.oasis-open.org/docbook/

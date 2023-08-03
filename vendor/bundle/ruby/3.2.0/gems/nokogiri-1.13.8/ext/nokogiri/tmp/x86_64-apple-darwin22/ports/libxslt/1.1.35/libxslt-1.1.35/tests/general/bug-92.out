@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<toto n="xsl:stylesheet">
+  <toto n="xsl:output"/>
+  <toto n="xsl:template">
+    <toto n="xsl:element">
+      <toto n="xsl:attribute">
+        <toto n="xsl:value-of"/>
+      </toto>
+      <toto n="xsl:apply-templates"/>
+    </toto>
+  </toto>
+  <toto n="xsl:template"/>
+  <toto n="xsl:template"/>
+  <toto n="xsl:template"/>
+</toto>

@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format" font-size="8pt" font-weight="bold" hyphenate="false" keep-with-next.within-column="always">My title</fo:block>

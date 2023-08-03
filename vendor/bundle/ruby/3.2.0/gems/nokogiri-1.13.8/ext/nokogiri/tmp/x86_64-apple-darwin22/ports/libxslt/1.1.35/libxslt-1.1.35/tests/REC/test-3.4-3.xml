@@ -1,0 +1,14 @@
+<doc>
+    <container>
+        <element1> <child>test01</child> </element1>
+        <element2> <child>test02</child> </element2>
+    </container>
+    <foo1:container xmlns:foo1="urn:foo1">
+        <foo1:element1> <foo1:child>test11</foo1:child> </foo1:element1>
+        <foo1:element2> <foo1:child>test12</foo1:child> </foo1:element2>
+    </foo1:container>
+    <foo2:container xmlns:foo2="urn:foo2">
+        <foo2:element1> <foo2:child>test11</foo2:child> </foo2:element1>
+        <foo2:element2> <foo2:child>test12</foo2:child> </foo2:element2>
+    </foo2:container>
+</doc>

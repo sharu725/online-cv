@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<doc xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<fo:block>
+This is a chapter
+</fo:block>
+<fo:block>This is another chapter</fo:block>
+</doc>

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<sales>
+<sale id="1" qty="10" price="15.00"/>
+<sale id="2" qty="2" price="12.00"/>
+<sale id="3" qty="1" price="10.00"/>
+<sale id="4" qty="2" price="5.00"/>
+<sale id="5" qty="2" price="15.00"/>
+<sale id="6" qty="2" price="8.00"/>
+<sale id="7" qty="2" price="5.00"/>
+</sales>

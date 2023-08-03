@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<page>
+  <!-- sum of empty node-set -->
+  <sum/>
+
+  <!-- According to http://exslt.org/date/functions/add-duration/
+       add-duration should fail when a sum involving negative durations
+       involve borrowing -->
+  <sum>
+    <date dur='P1M'/>
+    <date dur='-P1D'/>
+  </sum>
+
+  <sum>
+    <date dur='P1M'/>
+    <date dur='-P1D'/>
+    <date dur='P1D'/>
+  </sum>
+
+  <!-- ... but switching the order should make it work -->
+  <sum>
+    <date dur='P1M'/>
+    <date dur='P1D'/>
+    <date dur='-P1D'/>
+  </sum>
+
+  <!-- Empty durations -->
+  <sum>
+    <date dur=''/>
+  </sum>
+
+  <sum>
+    <date dur=''/>
+    <date dur='P45S'/>
+  </sum>
+
+  <!-- Invalid durations -->
+  <sum>
+    <date dur='2004-09-20'/>
+  </sum>
+
+  <sum>
+    <date dur='1H'/>
+  </sum>
+
+  <sum>
+    <date dur='2004-09-22'/>
+    <date dur='P1D'/>
+  </sum>
+
+  <sum>
+    <date dur='P2D'/>
+    <date dur='--P1D'/>
+  </sum>
+</page>

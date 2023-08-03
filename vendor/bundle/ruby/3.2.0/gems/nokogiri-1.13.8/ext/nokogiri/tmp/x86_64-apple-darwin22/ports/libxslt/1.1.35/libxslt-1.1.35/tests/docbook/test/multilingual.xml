@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE book
+  PUBLIC "-//Norman Walsh//DTD DocBk XML V3.1.7//EN"
+  "../dtd/3.1.7/docbookx.dtd">
+
+<!-- test document -->
+
+<book><title>Multilingual Test Document</title>
+
+<chapter lang="ca" id="cachap">
+<title>Catalan</title>
+<note>
+<para>
+This paragraph would be in Catalan, if I knew any.
+<quote>Quote test.</quote>
+</para>
+</note>
+<para>
+See <xref linkend="cachap"/>.
+See <xref linkend="cschap"/>.
+See <xref linkend="dachap"/>.
+See <xref linkend="dechap"/>.
+See <xref linkend="elchap"/>.
+See <xref linkend="enchap"/>.
+See <xref linkend="eschap"/>.
+See <xref linkend="fichap"/>.
+See <xref linkend="frchap"/>.
+See <xref linkend="itchap"/>.
+See <xref linkend="jachap"/>.
+See <xref linkend="nlchap"/>.
+See <xref linkend="nochap"/>.
+See <xref linkend="plchap"/>.
+See <xref linkend="ptchap"/>.
+See <xref linkend="ptbrchap"/>.
+See <xref linkend="rochap"/>.
+See <xref linkend="ruchap"/>.
+See <xref linkend="skchap"/>.
+See <xref linkend="svchap"/>.
+See <xref linkend="bibl"/>.
+</para>
+</chapter>
+
+<chapter lang="cs" id="cschap">
+<title>Czech</title>
+<note>
+<para>
+This paragraph would be in Czech, if I knew any.
+<quote>Quote test.</quote>
+</para>
+</note>
+<para>
+See <xref linkend="cachap"/>.
+See <xref linkend="cschap"/>.
+See <xref linkend="dachap"/>.
+See <xref linkend="dechap"/>.
+See <xref linkend="elchap"/>.
+See <xref linkend="enchap"/>.
+See <xref linkend="eschap"/>.
+See <xref linkend="fichap"/>.
+See <xref linkend="frchap"/>.
+See <xref linkend="itchap"/>.
+See <xref linkend="jachap"/>.
+See <xref linkend="nlchap"/>.
+See <xref linkend="nochap"/>.
+See <xref linkend="plchap"/>.
+See <xref linkend="ptchap"/>.
+See <xref linkend="ptbrchap"/>.
+See <xref linkend="rochap"/>.
+See <xref linkend="ruchap"/>.
+See <xref linkend="skchap"/>.
+See <xref linkend="svchap"/>.
+See <xref linkend="bibl"/>.
+</para>
+</chapter>
+
+<chapter lang="da" id="dachap">
+<title>Danish</title>
+<note>
+<para>
+This paragraph would be in Danish, if I knew any.
+<quote>Quote test.</quote>
+</para>
+</note>
+<para>
+See <xref linkend="cachap"/>.
+See <xref linkend="cschap"/>.
+See <xref linkend="dachap"/>.
+See <xref linkend="dechap"/>.
+See <xref linkend="elchap"/>.
+See <xref linkend="enchap"/>.
+See <xref linkend="eschap"/>.
+See <xref linkend="fichap"/>.
+See <xref linkend="frchap"/>.
+See <xref linkend="itchap"/>.
+See <xref linkend="jachap"/>.
+See <xref linkend="nlchap"/>.
+See <xref linkend="nochap"/>.
+See <xref linkend="plchap"/>.
+See <xref linkend="ptchap"/>.
+See <xref linkend="ptbrchap"/>.
+See <xref linkend="rochap"/>.
+See <xref linkend="ruchap"/>.
+See <xref linkend="skchap"/>.
+See <xref linkend="svchap"/>.
+See <xref linkend="bibl"/>.
+</para>
+</chapter>
+
+<chapter lang="es" id="eschap">
+<title>Spanish</title>
+<note>
+<para>
+This paragraph would be in Spanish, if I knew any.
+<quote>Quote test.</quote>
+</para>
+</note>
+<para>
+See <xref linkend="fichap"/>.
+See <xref linkend="frchap"/>.
+See <xref linkend="cachap"/>.
+See <xref linkend="cschap"/>.
+See <xref linkend="dachap"/>.
+See <xref linkend="eschap"/>.
+See <xref linkend="itchap"/>.
+See <xref linkend="jachap"/>.
+See <xref linkend="dechap"/>.
+See <xref linkend="elchap"/>.
+See <xref linkend="enchap"/>.
+See <xref linkend="ruchap"/>.
+See <xref linkend="rochap"/>.
+See <xref linkend="nochap"/>.
+See <xref linkend="nlchap"/>.
+See <xref linkend="plchap"/>.
+See <xref linkend="ptchap"/>.
+See <xref linkend="ptbrchap"/>.
+See <xref linkend="skchap"/>.
+See <xref linkend="svchap"/>.
+See <xref linkend="bibl"/>.
+</para>
+</chapter>
+
+<chapter lang="fi" id="fichap">
+<title>Finnish</title>
+<note>
+<para>
+This paragraph would be in Finnish, if I knew any.
+<quote>Quote test.</quote>
+</para>
+</note>
+<para>
+See <xref linkend="fichap"/>.
+See <xref linkend="frchap"/>.
+See <xref linkend="cachap"/>.
+See <xref linkend="cschap"/>.
+See <xref linkend="dachap"/>.
+See <xref linkend="eschap"/>.
+See <xref linkend="itchap"/>.
+See <xref linkend="jachap"/>.
+See <xref linkend="dechap"/>.
+See <xref linkend="elchap"/>.
+See <xref linkend="enchap"/>.
+See <xref linkend="ruchap"/>.
+See <xref linkend="rochap"/>.
+See <xref linkend="nochap"/>.
+See <xref linkend="nlchap"/>.
+See <xref linkend="plchap"/>.
+See <xref linkend="ptchap"/>.
+See <xref linkend="ptbrchap"/>.
+See <xref linkend="skchap"/>.
+See <xref linkend="svchap"/>.
+See <xref linkend="bibl"/>.
+</para>
+</chapter>
+
+<chapter lang="fr" id="frchap">
+<title>French</title>
+<note>
+<para>
+This paragraph would be in French, if I knew any.
+<quote>Quote test.</quote>
+</para>
+</note>
+<para>
+See <xref linkend="fichap"/>.
+See <xref linkend="frchap"/>.
+See <xref linkend="cachap"/>.
+See <xref linkend="cschap"/>.
+See <xref linkend="dachap"/>.
+See <xref linkend="eschap"/>.
+See <xref linkend="itchap"/>.
+See <xref linkend="jachap"/>.
+See <xref linkend="dechap"/>.
+See <xref linkend="elchap"/>.
+See <xref linkend="enchap"/>.
+See <xref linkend="ruchap"/>.
+See <xref linkend="rochap"/>.
+See <xref linkend="nochap"/>.
+See <xref linkend="nlchap"/>.
+See <xref linkend="plchap"/>.
+See <xref linkend="ptchap"/>.
+See <xref linkend="ptbrchap"/>.
+See <xref linkend="skchap"/>.
+See <xref linkend="svchap"/>.
+See <xref linkend="bibl"/>.
+</para>
+</chapter>
+
+<chapter lang="it" id="itchap">
+<title>Italian</title>
+<note>
+<para>
+This paragraph would be in Italian, if I knew any.
+<quote>Quote test.</quote>
+</para>
+</note>
+<para>
+See <xref linkend="fichap"/>.
+See <xref linkend="frchap"/>.
+See <xref linkend="cachap"/>.
+See <xref linkend="cschap"/>.
+See <xref linkend="dachap"/>.
+See <xref linkend="eschap"/>.
+See <xref linkend="itchap"/>.
+See <xref linkend="jachap"/>.
+See <xref linkend="dechap"/>.
+See <xref linkend="elchap"/>.
+See <xref linkend="enchap"/>.
+See <xref linkend="ruchap"/>.
+See <xref linkend="rochap"/>.
+See <xref linkend="nochap"/>.
+See <xref linkend="nlchap"/>.
+See <xref linkend="plchap"/>.
+See <xref linkend="ptchap"/>.
+See <xref linkend="ptbrchap"/>.
+See <xref linkend="skchap"/>.
+See <xref linkend="svchap"/>.
+See <xref linkend="bibl"/>.
+</para>
+</chapter>
+
+<chapter lang="de" id="dechap">
+<title>German</title>
+<note>
+<para>
+This paragraph would be in German, if I knew any.
+<quote>Quote test.</quote>
+</para>
+</note>
+<para>
+See <xref linkend="fichap"/>.
+See <xref linkend="frchap"/>.
+See <xref linkend="cachap"/>.
+See <xref linkend="cschap"/>.
+See <xref linkend="dachap"/>.
+See <xref linkend="eschap"/>.
+See <xref linkend="itchap"/>.
+See <xref linkend="jachap"/>.
+See <xref linkend="dechap"/>.
+See <xref linkend="elchap"/>.
+See <xref linkend="enchap"/>.
+See <xref linkend="ruchap"/>.
+See <xref linkend="rochap"/>.
+See <xref linkend="nochap"/>.
+See <xref linkend="nlchap"/>.
+See <xref linkend="plchap"/>.
+See <xref linkend="ptchap"/>.
+See <xref linkend="ptbrchap"/>.
+See <xref linkend="skchap"/>.
+See <xref linkend="svchap"/>.
+See <xref linkend="bibl"/>.
+</para>
+</chapter>
+
+<chapter lang="el" id="elchap">
+<title>Greek</title>
+<note>
+<para>
+This paragraph would be in Greek, if I knew any.
+<quote>Quote test.</quote>
+</para>
+</note>
+<para>
+See <xref linkend="fichap"/>.
+See <xref linkend="frchap"/>.
+See <xref linkend="cachap"/>.
+See <xref linkend="cschap"/>.
+See <xref linkend="dachap"/>.
+See <xref linkend="eschap"/>.
+See <xref linkend="itchap"/>.
+See <xref linkend="jachap"/>.
+See <xref linkend="dechap"/>.
+See <xref linkend="elchap"/>.
+See <xref linkend="enchap"/>.
+See <xref linkend="ruchap"/>.
+See <xref linkend="rochap"/>.
+See <xref linkend="nochap"/>.
+See <xref linkend="nlchap"/>.
+See <xref linkend="plchap"/>.
+See <xref linkend="ptchap"/>.
+See <xref linkend="ptbrchap"/>.
+See <xref linkend="skchap"/>.
+See <xref linkend="svchap"/>.
+See <xref linkend="bibl"/>.
+</para>
+</chapter>
+
+<chapter lang="en" id="enchap">
+<title>English</title>
+<note>
+<para>
+This paragraph is in English.
+<quote>Quote test.</quote>
+</para>
+</note>
+<para>
+See <xref linkend="fichap"/>.
+See <xref linkend="frchap"/>.
+See <xref linkend="cachap"/>.
+See <xref linkend="cschap"/>.
+See <xref linkend="dachap"/>.
+See <xref linkend="eschap"/>.
+See <xref linkend="itchap"/>.
+See <xref linkend="jachap"/>.
+See <xref linkend="dechap"/>.
+See <xref linkend="elchap"/>.
+See <xref linkend="enchap"/>.
+See <xref linkend="ruchap"/>.
+See <xref linkend="rochap"/>.
+See <xref linkend="nochap"/>.
+See <xref linkend="nlchap"/>.
+See <xref linkend="plchap"/>.
+See <xref linkend="ptchap"/>.
+See <xref linkend="ptbrchap"/>.
+See <xref linkend="skchap"/>.
+See <xref linkend="svchap"/>.
+See <xref linkend="bibl"/>.
+</para>
+</chapter>
+
+<chapter lang="ja" id="jachap">
+<title>Japanese</title>
+<note>
+<para>
+This paragraph would be in Japanese, if I knew any.
+<quote>Quote test.</quote>
+</para>
+</note>
+<para>
+See <xref linkend="fichap"/>.
+See <xref linkend="frchap"/>.
+See <xref linkend="cachap"/>.
+See <xref linkend="cschap"/>.
+See <xref linkend="dachap"/>.
+See <xref linkend="eschap"/>.
+See <xref linkend="itchap"/>.
+See <xref linkend="jachap"/>.
+See <xref linkend="dechap"/>.
+See <xref linkend="elchap"/>.
+See <xref linkend="enchap"/>.
+See <xref linkend="ruchap"/>.
+See <xref linkend="rochap"/>.
+See <xref linkend="nochap"/>.
+See <xref linkend="nlchap"/>.
+See <xref linkend="plchap"/>.
+See <xref linkend="ptchap"/>.
+See <xref linkend="ptbrchap"/>.
+See <xref linkend="skchap"/>.
+See <xref linkend="svchap"/>.
+See <xref linkend="bibl"/>.
+</para>
+</chapter>
+
+<chapter lang="ro" id="rochap">
+<title>Romanian</title>
+<note>
+<para>
+This paragraph would be in Romanian, if I knew any.
+<quote>Quote test.</quote>
+</para>
+</note>
+<para>
+See <xref linkend="fichap"/>.
+See <xref linkend="frchap"/>.
+See <xref linkend="cachap"/>.
+See <xref linkend="cschap"/>.
+See <xref linkend="dachap"/>.
+See <xref linkend="eschap"/>.
+See <xref linkend="itchap"/>.
+See <xref linkend="jachap"/>.
+See <xref linkend="dechap"/>.
+See <xref linkend="elchap"/>.
+See <xref linkend="enchap"/>.
+See <xref linkend="ruchap"/>.
+See <xref linkend="rochap"/>.
+See <xref linkend="nochap"/>.
+See <xref linkend="nlchap"/>.
+See <xref linkend="plchap"/>.
+See <xref linkend="ptchap"/>.
+See <xref linkend="ptbrchap"/>.
+See <xref linkend="skchap"/>.
+See <xref linkend="svchap"/>.
+See <xref linkend="bibl"/>.
+</para>
+</chapter>
+
+<chapter lang="ru" id="ruchap">
+<title>Russian</title>
+<note>
+<para>
+This paragraph would be in Russian, if I knew any.
+<quote>Quote test.</quote>
+</para>
+</note>
+<para>
+See <xref linkend="fichap"/>.
+See <xref linkend="frchap"/>.
+See <xref linkend="cachap"/>.
+See <xref linkend="cschap"/>.
+See <xref linkend="dachap"/>.
+See <xref linkend="eschap"/>.
+See <xref linkend="itchap"/>.
+See <xref linkend="jachap"/>.
+See <xref linkend="dechap"/>.
+See <xref linkend="elchap"/>.
+See <xref linkend="enchap"/>.
+See <xref linkend="ruchap"/>.
+See <xref linkend="rochap"/>.
+See <xref linkend="nochap"/>.
+See <xref linkend="nlchap"/>.
+See <xref linkend="plchap"/>.
+See <xref linkend="ptchap"/>.
+See <xref linkend="ptbrchap"/>.
+See <xref linkend="skchap"/>.
+See <xref linkend="svchap"/>.
+See <xref linkend="bibl"/>.
+</para>
+</chapter>
+
+<chapter lang="no" id="nochap">
+<title>Norsk</title>
+<note>
+<para>
+This paragraph would be in Norsk, if I knew any.
+<quote>Quote test.</quote>
+</para>
+</note>
+<para>
+See <xref linkend="fichap"/>.
+See <xref linkend="frchap"/>.
+See <xref linkend="cachap"/>.
+See <xref linkend="cschap"/>.
+See <xref linkend="dachap"/>.
+See <xref linkend="eschap"/>.
+See <xref linkend="itchap"/>.
+See <xref linkend="jachap"/>.
+See <xref linkend="dechap"/>.
+See <xref linkend="elchap"/>.
+See <xref linkend="enchap"/>.
+See <xref linkend="ruchap"/>.
+See <xref linkend="rochap"/>.
+See <xref linkend="nochap"/>.
+See <xref linkend="nlchap"/>.
+See <xref linkend="plchap"/>.
+See <xref linkend="ptchap"/>.
+See <xref linkend="ptbrchap"/>.
+See <xref linkend="skchap"/>.
+See <xref linkend="svchap"/>.
+See <xref linkend="bibl"/>.
+</para>
+</chapter>
+
+<chapter lang="nl" id="nlchap">
+<title>Dutch</title>
+<note>
+<para>
+This paragraph would be in Dutch, if I knew any.
+<quote>Quote test.</quote>
+</para>
+</note>
+<para>
+See <xref linkend="fichap"/>.
+See <xref linkend="frchap"/>.
+See <xref linkend="cachap"/>.
+See <xref linkend="cschap"/>.
+See <xref linkend="dachap"/>.
+See <xref linkend="eschap"/>.
+See <xref linkend="itchap"/>.
+See <xref linkend="jachap"/>.
+See <xref linkend="dechap"/>.
+See <xref linkend="elchap"/>.
+See <xref linkend="enchap"/>.
+See <xref linkend="ruchap"/>.
+See <xref linkend="rochap"/>.
+See <xref linkend="nochap"/>.
+See <xref linkend="nlchap"/>.
+See <xref linkend="plchap"/>.
+See <xref linkend="ptchap"/>.
+See <xref linkend="ptbrchap"/>.
+See <xref linkend="skchap"/>.
+See <xref linkend="svchap"/>.
+See <xref linkend="bibl"/>.
+</para>
+</chapter>
+
+<chapter lang="pl" id="plchap">
+<title>Polish</title>
+<note>
+<para>
+This paragraph would be in Polish, if I knew any.
+<quote>Quote test.</quote>
+</para>
+</note>
+<para>
+See <xref linkend="fichap"/>.
+See <xref linkend="frchap"/>.
+See <xref linkend="cachap"/>.
+See <xref linkend="cschap"/>.
+See <xref linkend="dachap"/>.
+See <xref linkend="eschap"/>.
+See <xref linkend="itchap"/>.
+See <xref linkend="jachap"/>.
+See <xref linkend="dechap"/>.
+See <xref linkend="elchap"/>.
+See <xref linkend="enchap"/>.
+See <xref linkend="ruchap"/>.
+See <xref linkend="rochap"/>.
+See <xref linkend="nochap"/>.
+See <xref linkend="nlchap"/>.
+See <xref linkend="plchap"/>.
+See <xref linkend="ptchap"/>.
+See <xref linkend="ptbrchap"/>.
+See <xref linkend="skchap"/>.
+See <xref linkend="svchap"/>.
+See <xref linkend="bibl"/>.
+</para>
+</chapter>
+
+<chapter lang="pt" id="ptchap">
+<title>Portuguese</title>
+<note>
+<para>
+This paragraph would be in Portugeuse, if I knew any.
+<quote>Quote test.</quote>
+</para>
+</note>
+<para>
+See <xref linkend="fichap"/>.
+See <xref linkend="frchap"/>.
+See <xref linkend="cachap"/>.
+See <xref linkend="cschap"/>.
+See <xref linkend="dachap"/>.
+See <xref linkend="eschap"/>.
+See <xref linkend="itchap"/>.
+See <xref linkend="jachap"/>.
+See <xref linkend="dechap"/>.
+See <xref linkend="elchap"/>.
+See <xref linkend="enchap"/>.
+See <xref linkend="ruchap"/>.
+See <xref linkend="rochap"/>.
+See <xref linkend="nochap"/>.
+See <xref linkend="nlchap"/>.
+See <xref linkend="plchap"/>.
+See <xref linkend="ptchap"/>.
+See <xref linkend="ptbrchap"/>.
+See <xref linkend="skchap"/>.
+See <xref linkend="svchap"/>.
+See <xref linkend="bibl"/>.
+</para>
+</chapter>
+
+<chapter lang="pt-br" id="ptbrchap">
+<title>Portuguese (Brazilian)</title>
+<note>
+<para>
+This paragraph would be in Brazilian Portugeuse, if I knew any.
+<quote>Quote test.</quote>
+</para>
+</note>
+<para>
+See <xref linkend="fichap"/>.
+See <xref linkend="frchap"/>.
+See <xref linkend="cachap"/>.
+See <xref linkend="cschap"/>.
+See <xref linkend="dachap"/>.
+See <xref linkend="eschap"/>.
+See <xref linkend="itchap"/>.
+See <xref linkend="jachap"/>.
+See <xref linkend="dechap"/>.
+See <xref linkend="elchap"/>.
+See <xref linkend="enchap"/>.
+See <xref linkend="ruchap"/>.
+See <xref linkend="rochap"/>.
+See <xref linkend="nochap"/>.
+See <xref linkend="nlchap"/>.
+See <xref linkend="plchap"/>.
+See <xref linkend="ptchap"/>.
+See <xref linkend="ptbrchap"/>.
+See <xref linkend="skchap"/>.
+See <xref linkend="svchap"/>.
+See <xref linkend="bibl"/>.
+</para>
+</chapter>
+
+<chapter lang="sk" id="skchap">
+<title>Slovak</title>
+<note>
+<para>
+This paragraph would be in Slovak, if I knew any.
+<quote>Quote test.</quote>
+</para>
+</note>
+<para>
+See <xref linkend="cachap"/>.
+See <xref linkend="cschap"/>.
+See <xref linkend="dachap"/>.
+See <xref linkend="dechap"/>.
+See <xref linkend="elchap"/>.
+See <xref linkend="enchap"/>.
+See <xref linkend="eschap"/>.
+See <xref linkend="fichap"/>.
+See <xref linkend="frchap"/>.
+See <xref linkend="itchap"/>.
+See <xref linkend="jachap"/>.
+See <xref linkend="nlchap"/>.
+See <xref linkend="nochap"/>.
+See <xref linkend="plchap"/>.
+See <xref linkend="ptchap"/>.
+See <xref linkend="ptbrchap"/>.
+See <xref linkend="rochap"/>.
+See <xref linkend="ruchap"/>.
+See <xref linkend="skchap"/>.
+See <xref linkend="svchap"/>.
+See <xref linkend="bibl"/>.
+</para>
+</chapter>
+
+<chapter lang="sv" id="svchap">
+<title>Swedish</title>
+<note>
+<para>
+This paragraph would be in Swedish, if I knew any.
+<quote>Quote test.</quote>
+</para>
+</note>
+<para>
+See <xref linkend="cachap"/>.
+See <xref linkend="cschap"/>.
+See <xref linkend="dachap"/>.
+See <xref linkend="dechap"/>.
+See <xref linkend="elchap"/>.
+See <xref linkend="enchap"/>.
+See <xref linkend="eschap"/>.
+See <xref linkend="fichap"/>.
+See <xref linkend="frchap"/>.
+See <xref linkend="itchap"/>.
+See <xref linkend="jachap"/>.
+See <xref linkend="nlchap"/>.
+See <xref linkend="nochap"/>.
+See <xref linkend="plchap"/>.
+See <xref linkend="ptchap"/>.
+See <xref linkend="ptbrchap"/>.
+See <xref linkend="rochap"/>.
+See <xref linkend="ruchap"/>.
+See <xref linkend="skchap"/>.
+See <xref linkend="svchap"/>.
+See <xref linkend="bibl"/>.
+</para>
+</chapter>
+
+<bibliography id="bibl">
+<biblioentry>
+  <abbrev>AhoSethiUllman96</abbrev>
+  <authorgroup>
+    <author><firstname>Alfred V.</firstname><surname>Aho</surname></author>  
+    <author><firstname>Ravi</firstname><surname>Sethi</surname></author>
+    <author><firstname>Jeffrey D.</firstname><surname>Ullman</surname></author>
+  </authorgroup>
+  <title>Compilers, Principles, Techniques, and Tools</title>    
+  <publisher>
+    <publishername>Addison-Wesley Publishing Company</publishername>
+  </publisher>
+  <copyright><year>1996</year>
+             <holder>Bell Telephone Laboratories, Inc.</holder></copyright>
+  <isbn>0-201-10088-6</isbn>    
+  <editor><firstname>James T.</firstname><surname>DeWolf</surname></editor>
+  <seriesinfo>
+    <title>Computer Science</title>
+    <editor>
+      <firstname>Michael A.</firstname>
+      <surname>Harrison</surname>
+    </editor>
+    <publisher>
+      <publishername>Addison-Wesley Publishing Company</publishername>
+    </publisher>
+  </seriesinfo>
+</biblioentry>
+
+</bibliography>
+
+</book>

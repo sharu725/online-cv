@@ -1,0 +1,15 @@
+<book>
+  <chapter>
+    <section>
+      <subsection>
+	<note>A note here</note>
+	<note>And here</note>
+      </subsection>
+      <subsection>
+      </subsection>
+    </section>
+  </chapter>
+  <chapter>
+    <note>And another note here</note>
+  </chapter>
+</book>

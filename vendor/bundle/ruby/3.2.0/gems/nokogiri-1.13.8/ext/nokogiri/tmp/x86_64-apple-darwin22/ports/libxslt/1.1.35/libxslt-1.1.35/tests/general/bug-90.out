@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+  <new-fruit1 type="apples"><![CDATA[
+      The site is at
+      http://www.apples.com/site?args&stuff
+    ]]></new-fruit1><new-fruit2 type="apples"><![CDATA[
+	  The site is at http://www.apples.com/site?args&stuff
+    ]]></new-fruit2>
+  <new-fruit1 type="pears"><![CDATA[
+      The site is at
+      http://www.pears.com/index.html]]></new-fruit1><new-fruit2 type="pears"><![CDATA[
+	  The site is at http://www.pears.com/index.html]]></new-fruit2>
+

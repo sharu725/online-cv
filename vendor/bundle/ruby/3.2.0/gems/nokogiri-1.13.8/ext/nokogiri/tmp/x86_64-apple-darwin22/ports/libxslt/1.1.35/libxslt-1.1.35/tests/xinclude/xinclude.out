@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<foo> 
+        <element>x1</element> 
+        <foo> 
+        <element>x2</element> 
+</foo> 
+</foo>

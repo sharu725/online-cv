@@ -1,0 +1,7 @@
+XPath error : Invalid expression
+###
+^
+XPath error : Invalid expression
+runtime error: file ./eval.2.xsl line 11 element value-of
+XPath evaluation returned no result.
+no result for ./eval.2.xml

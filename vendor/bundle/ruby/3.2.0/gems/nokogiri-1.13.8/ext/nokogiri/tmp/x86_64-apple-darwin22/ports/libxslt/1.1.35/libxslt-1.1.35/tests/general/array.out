@@ -1,0 +1,4 @@
+First we try to find the value for "12M" (should be 1): 1
+Now we define a variable $BP to be "18M".
+$BP is defined as: 18M
+Now we try to find the value for $BP (should be 2): 2

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<out xmlns:exslt="http://exslt.org/common">:
+    string;
+    number;
+    boolean;
+    node-set;
+    RTF;
+    external;                    
+  </out>

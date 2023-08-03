@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<result>
+  <elem att1="1" commonatt="2" att2="2"/>
+  <elem att3a="2" att3b="2"/>
+</result>

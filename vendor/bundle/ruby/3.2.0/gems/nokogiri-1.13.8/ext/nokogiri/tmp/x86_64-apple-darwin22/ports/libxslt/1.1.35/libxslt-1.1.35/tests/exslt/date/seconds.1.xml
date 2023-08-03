@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<page>
+  <!-- valid durations -->
+  <date duration="PT10M"/>
+  <date duration="-P10D"/>
+  <date duration="PT10H"/>
+  <date duration="PT10H10M10.5S"/>
+  <date duration="PT0.00001S"/>
+  <date duration="PT49.00001S"/>
+  <date duration="P0Y0M31DT10H10M10.09S"/>
+  <date duration="-P0Y0M31DT10H10M10.09S"/>
+  <date duration="PT100H100M100.001S"/>
+  <date duration="PT10H10M.5S"/>
+  <date duration="PT10H10M5.S"/>
+  <!-- date/times -->
+  <date duration="2001"/>
+  <date duration="2001-10-29T10:31:07"/>
+  <date duration="1970-01-01T00:00:00"/>
+  <date duration="1970-01-01T00:00:01"/>
+  <date duration="1969-12-31T23:59:59"/>
+  <date duration="1969-01-01T00:00:00"/>
+  <date duration="1971-01-01T00:00:00"/>
+  <date duration="0001-01-01T00:00:00"/>
+  <date duration="-0001-01-01T00:00:00"/>
+  <!-- timezones -->
+  <date duration="1970-01-01" />
+  <date duration="1970-01-01Z" />
+  <date duration="1970-01-01-11:00" />
+  <date duration="1970-01-01+11:00" />
+  <date duration="1970-01-01-12:00" />
+  <date duration="1970-01-01+12:00" />
+  <date duration="1970-01-01-13:00" />
+  <date duration="1970-01-01+13:00" />
+</page>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<xsl:stylesheet version="1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:template match="frame">
+  <div>
+    <xsl:apply-templates select="$g.doc.root/document/header"/>
+    <xsl:apply-templates select="$g.doc.root/document"/>
+  </div>
+</xsl:template>
+
+
+<xsl:template match="header">
+  <xsl:text>header #1 in module #4;</xsl:text>
+</xsl:template>
+
+
+<xsl:template match="header[logo]">
+  <xsl:text>header #2 in module #4;</xsl:text>
+</xsl:template>
+
+</xsl:stylesheet>

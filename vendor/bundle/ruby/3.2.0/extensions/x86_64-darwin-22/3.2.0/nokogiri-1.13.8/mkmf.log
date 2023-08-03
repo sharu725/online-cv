@@ -1,0 +1,816 @@
+block in append_cflags: checking for whether -std=c99 is accepted as CFLAGS... -------------------- no
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.2_1/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib     -lruby.3.2  -lpthread  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: dylib (/usr/local/Cellar/ruby/3.2.2_1/lib/libruby.3.2.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe  -std=c99 -Werror -c conftest.c"
+error: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Werror,-Wunknown-warning-option]
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+--------------------
+
+block in append_cflags: checking for whether -Wno-declaration-after-statement is accepted as CFLAGS... -------------------- no
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe  -Wno-declaration-after-statement -Werror -c conftest.c"
+error: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Werror,-Wunknown-warning-option]
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+--------------------
+
+block in append_cflags: checking for whether -g is accepted as CFLAGS... -------------------- no
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe  -g -Werror -c conftest.c"
+error: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Werror,-Wunknown-warning-option]
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+--------------------
+
+block in append_cflags: checking for whether -Winline is accepted as CFLAGS... -------------------- no
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe  -Winline -Werror -c conftest.c"
+error: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Werror,-Wunknown-warning-option]
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+--------------------
+
+block in append_cflags: checking for whether -Wmissing-noreturn is accepted as CFLAGS... -------------------- no
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe  -Wmissing-noreturn -Werror -c conftest.c"
+error: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Werror,-Wunknown-warning-option]
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+--------------------
+
+block in append_cflags: checking for whether -Wno-error=unused-command-line-argument-hard-error-in-future is accepted as CFLAGS... -------------------- no
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe  -Wno-error=unused-command-line-argument-hard-error-in-future -Werror -c conftest.c"
+error: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Werror,-Wunknown-warning-option]
+error: unknown warning option '-Werror=unused-command-line-argument-hard-error-in-future'; did you mean '-Werror=unused-command-line-argument'? [-Werror,-Wunknown-warning-option]
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+--------------------
+
+have_header: checking for iconv.h... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe   -c conftest.c"
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <iconv.h>
+/* end */
+
+--------------------
+
+try_link_iconv: checking for iconv using --with-opt-* flags... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.2_1/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib     -lruby.3.2  -lpthread  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: dylib (/usr/local/Cellar/ruby/3.2.2_1/lib/libruby.3.2.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+Undefined symbols for architecture x86_64:
+  "_iconv", referenced from:
+      _main in conftest-939949.o
+  "_iconv_open", referenced from:
+      _main in conftest-939949.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <stdlib.h>
+ 4: #include <iconv.h>
+ 5: int main(void)
+ 6: {
+ 7:     iconv_t cd = iconv_open("", "");
+ 8:     iconv(cd, NULL, NULL, NULL, NULL);
+ 9:     return EXIT_SUCCESS;
+10: }
+/* end */
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.2_1/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib     -lruby.3.2 -liconv -lpthread  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: dylib (/usr/local/Cellar/ruby/3.2.2_1/lib/libruby.3.2.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <stdlib.h>
+ 4: #include <iconv.h>
+ 5: int main(void)
+ 6: {
+ 7:     iconv_t cd = iconv_open("", "");
+ 8:     iconv(cd, NULL, NULL, NULL, NULL);
+ 9:     return EXIT_SUCCESS;
+10: }
+/* end */
+
+--------------------
+
+block in append_cppflags: checking for whether -DNOKOGIRI_PACKAGED_LIBRARIES is accepted as CPPFLAGS... -------------------- no
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe  -DNOKOGIRI_PACKAGED_LIBRARIES -Werror -c conftest.c"
+error: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Werror,-Wunknown-warning-option]
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+--------------------
+
+block in append_cppflags: checking for whether -DNOKOGIRI_LIBXML2_PATCHES="\"0001-Remove-script-macro-support.patch 0002-Update-entities-to-remove-handling-of-ssi.patch 0003-libxml2.la-is-in-top_builddir.patch 0004-use-glibc-strlen.patch 0005-avoid-isnan-isinf.patch 0006-update-automake-files-for-arm64.patch 0008-htmlParseComment-handle-abruptly-closed-comments.patch 0009-allow-wildcard-namespaces.patch\"" is accepted as CPPFLAGS... -------------------- no
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe  -DNOKOGIRI_LIBXML2_PATCHES="\"0001-Remove-script-macro-support.patch 0002-Update-entities-to-remove-handling-of-ssi.patch 0003-libxml2.la-is-in-top_builddir.patch 0004-use-glibc-strlen.patch 0005-avoid-isnan-isinf.patch 0006-update-automake-files-for-arm64.patch 0008-htmlParseComment-handle-abruptly-closed-comments.patch 0009-allow-wildcard-namespaces.patch\"" -Werror -c conftest.c"
+error: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Werror,-Wunknown-warning-option]
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+--------------------
+
+have_library: checking for -llzma... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.2_1/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib -L/usr/local/Cellar/xz/5.4.3/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib     -lruby.3.2 -llzma  -lpthread  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: dylib (/usr/local/Cellar/ruby/3.2.2_1/lib/libruby.3.2.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+ld: warning: dylib (/usr/local/Cellar/xz/5.4.3/lib/liblzma.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: 
+15: int t(void) { ; return 0; }
+/* end */
+
+--------------------
+
+block in append_cppflags: checking for whether -DNOKOGIRI_LIBXSLT_PATCHES="\"0001-update-automake-files-for-arm64.patch\"" is accepted as CPPFLAGS... -------------------- no
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/include -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe  -DNOKOGIRI_LIBXSLT_PATCHES="\"0001-update-automake-files-for-arm64.patch\"" -Werror -c conftest.c"
+error: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Werror,-Wunknown-warning-option]
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+--------------------
+
+have_func: checking for xmlParseDoc() in libxml/parser.h... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/include -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.2_1/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib -L/usr/local/Cellar/xz/5.4.3/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib    /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma -lruby.3.2 /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma -lpthread  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: dylib (/usr/local/Cellar/xz/5.4.3/lib/liblzma.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+ld: warning: dylib (/usr/local/Cellar/ruby/3.2.2_1/lib/libruby.3.2.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <libxml/parser.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlParseDoc; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for xsltParseStylesheetDoc() in libxslt/xslt.h... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/include -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.2_1/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib -L/usr/local/Cellar/xz/5.4.3/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib    /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma -lruby.3.2 /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma -lpthread  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+conftest.c:16:57: error: use of undeclared identifier 'xsltParseStylesheetDoc'
+int t(void) { void ((*volatile p)()); p = (void ((*)()))xsltParseStylesheetDoc; return !p; }
+                                                        ^
+1 warning and 1 error generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <libxslt/xslt.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))xsltParseStylesheetDoc; return !p; }
+/* end */
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/include -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.2_1/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib -L/usr/local/Cellar/xz/5.4.3/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib    /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma -lruby.3.2 /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma -lpthread  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: dylib (/usr/local/Cellar/xz/5.4.3/lib/liblzma.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+ld: warning: dylib (/usr/local/Cellar/ruby/3.2.2_1/lib/libruby.3.2.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <libxslt/xslt.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: extern void xsltParseStylesheetDoc();
+17: int t(void) { xsltParseStylesheetDoc(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for exsltFuncRegister() in libexslt/exslt.h... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/include -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.2_1/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib -L/usr/local/Cellar/xz/5.4.3/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib    /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma -lruby.3.2 /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma -lpthread  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: dylib (/usr/local/Cellar/xz/5.4.3/lib/liblzma.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+ld: warning: dylib (/usr/local/Cellar/ruby/3.2.2_1/lib/libruby.3.2.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <libexslt/exslt.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))exsltFuncRegister; return !p; }
+/* end */
+
+--------------------
+
+block in append_cppflags: checking for whether -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/include is accepted as CPPFLAGS... -------------------- no
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/include -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe  -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/include -Werror -c conftest.c"
+error: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Werror,-Wunknown-warning-option]
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+--------------------
+
+have_func: checking for gumbo_parse_with_options() in gumbo.h... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/include -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.2_1/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib -L/usr/local/Cellar/xz/5.4.3/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib    /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lruby.3.2 /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lpthread  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: dylib (/usr/local/Cellar/xz/5.4.3/lib/liblzma.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+ld: warning: dylib (/usr/local/Cellar/ruby/3.2.2_1/lib/libruby.3.2.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <gumbo.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))gumbo_parse_with_options; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlHasFeature()... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/include -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.2_1/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib -L/usr/local/Cellar/xz/5.4.3/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib    /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lruby.3.2 /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lpthread  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+conftest.c:14:57: error: use of undeclared identifier 'xmlHasFeature'
+int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlHasFeature; return !p; }
+                                                        ^
+1 warning and 1 error generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlHasFeature; return !p; }
+/* end */
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/include -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.2_1/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib -L/usr/local/Cellar/xz/5.4.3/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib    /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lruby.3.2 /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lpthread  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: dylib (/usr/local/Cellar/xz/5.4.3/lib/liblzma.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+ld: warning: dylib (/usr/local/Cellar/ruby/3.2.2_1/lib/libruby.3.2.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: extern void xmlHasFeature();
+15: int t(void) { xmlHasFeature(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlFirstElementChild()... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/include -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.2_1/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib -L/usr/local/Cellar/xz/5.4.3/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib    /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lruby.3.2 /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lpthread  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+conftest.c:14:57: error: use of undeclared identifier 'xmlFirstElementChild'
+int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlFirstElementChild; return !p; }
+                                                        ^
+1 warning and 1 error generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlFirstElementChild; return !p; }
+/* end */
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/include -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.2_1/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib -L/usr/local/Cellar/xz/5.4.3/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib    /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lruby.3.2 /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lpthread  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: dylib (/usr/local/Cellar/xz/5.4.3/lib/liblzma.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+ld: warning: dylib (/usr/local/Cellar/ruby/3.2.2_1/lib/libruby.3.2.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: extern void xmlFirstElementChild();
+15: int t(void) { xmlFirstElementChild(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlRelaxNGSetParserStructuredErrors()... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/include -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.2_1/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib -L/usr/local/Cellar/xz/5.4.3/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib    /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lruby.3.2 /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lpthread  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+conftest.c:14:57: error: use of undeclared identifier 'xmlRelaxNGSetParserStructuredErrors'
+int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetParserStructuredErrors; return !p; }
+                                                        ^
+1 warning and 1 error generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetParserStructuredErrors; return !p; }
+/* end */
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/include -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.2_1/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib -L/usr/local/Cellar/xz/5.4.3/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib    /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lruby.3.2 /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lpthread  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: dylib (/usr/local/Cellar/xz/5.4.3/lib/liblzma.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+ld: warning: dylib (/usr/local/Cellar/ruby/3.2.2_1/lib/libruby.3.2.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: extern void xmlRelaxNGSetParserStructuredErrors();
+15: int t(void) { xmlRelaxNGSetParserStructuredErrors(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlRelaxNGSetValidStructuredErrors()... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/include -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.2_1/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib -L/usr/local/Cellar/xz/5.4.3/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib    /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lruby.3.2 /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lpthread  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+conftest.c:14:57: error: use of undeclared identifier 'xmlRelaxNGSetValidStructuredErrors'
+int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetValidStructuredErrors; return !p; }
+                                                        ^
+1 warning and 1 error generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetValidStructuredErrors; return !p; }
+/* end */
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/include -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.2_1/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib -L/usr/local/Cellar/xz/5.4.3/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib    /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lruby.3.2 /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lpthread  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: dylib (/usr/local/Cellar/xz/5.4.3/lib/liblzma.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+ld: warning: dylib (/usr/local/Cellar/ruby/3.2.2_1/lib/libruby.3.2.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: extern void xmlRelaxNGSetValidStructuredErrors();
+15: int t(void) { xmlRelaxNGSetValidStructuredErrors(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlSchemaSetValidStructuredErrors()... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/include -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.2_1/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib -L/usr/local/Cellar/xz/5.4.3/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib    /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lruby.3.2 /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lpthread  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+conftest.c:14:57: error: use of undeclared identifier 'xmlSchemaSetValidStructuredErrors'
+int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlSchemaSetValidStructuredErrors; return !p; }
+                                                        ^
+1 warning and 1 error generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlSchemaSetValidStructuredErrors; return !p; }
+/* end */
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/include -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.2_1/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib -L/usr/local/Cellar/xz/5.4.3/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib    /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lruby.3.2 /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lpthread  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: dylib (/usr/local/Cellar/xz/5.4.3/lib/liblzma.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+ld: warning: dylib (/usr/local/Cellar/ruby/3.2.2_1/lib/libruby.3.2.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: extern void xmlSchemaSetValidStructuredErrors();
+15: int t(void) { xmlSchemaSetValidStructuredErrors(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlSchemaSetParserStructuredErrors()... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/include -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.2_1/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib -L/usr/local/Cellar/xz/5.4.3/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib    /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lruby.3.2 /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lpthread  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+conftest.c:14:57: error: use of undeclared identifier 'xmlSchemaSetParserStructuredErrors'
+int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlSchemaSetParserStructuredErrors; return !p; }
+                                                        ^
+1 warning and 1 error generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlSchemaSetParserStructuredErrors; return !p; }
+/* end */
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/include -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.2_1/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib -L/usr/local/Cellar/xz/5.4.3/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib    /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lruby.3.2 /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lpthread  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: dylib (/usr/local/Cellar/xz/5.4.3/lib/liblzma.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+ld: warning: dylib (/usr/local/Cellar/ruby/3.2.2_1/lib/libruby.3.2.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: extern void xmlSchemaSetParserStructuredErrors();
+15: int t(void) { xmlSchemaSetParserStructuredErrors(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_gc_location()... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/include -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.2_1/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib -L/usr/local/Cellar/xz/5.4.3/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib    /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lruby.3.2 /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lpthread  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: dylib (/usr/local/Cellar/xz/5.4.3/lib/liblzma.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+ld: warning: dylib (/usr/local/Cellar/ruby/3.2.2_1/lib/libruby.3.2.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_gc_location; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_category_warning()... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/include -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.2_1/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib -L/usr/local/Cellar/xz/5.4.3/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib    /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lruby.3.2 /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lpthread  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: dylib (/usr/local/Cellar/xz/5.4.3/lib/liblzma.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+ld: warning: dylib (/usr/local/Cellar/ruby/3.2.2_1/lib/libruby.3.2.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_category_warning; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for vasprintf()... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/include -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.2_1/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib -L/usr/local/Cellar/xz/5.4.3/lib -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@3/lib -L/usr/local/opt/readline/lib    /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lruby.3.2 /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib/libxml2.a -llzma /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ext/nokogiri/ports/x86_64-darwin22/libgumbo/1.0.0-nokogiri/lib/libgumbo.a -lpthread  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: dylib (/usr/local/Cellar/xz/5.4.3/lib/liblzma.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+ld: warning: dylib (/usr/local/Cellar/ruby/3.2.2_1/lib/libruby.3.2.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))vasprintf; return !p; }
+/* end */
+
+--------------------
+
+block in append_cppflags: checking for whether -DNOKOGIRI_OTHER_LIBRARY_VERSIONS="\"libgumbo:1.0.0-nokogiri\"" is accepted as CPPFLAGS... -------------------- no
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.2_1/lib "clang -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/x86_64-darwin22 -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.2_1/include/ruby-3.2.0 -I. -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/include -I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/include/libxml2 -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@3/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe  -DNOKOGIRI_OTHER_LIBRARY_VERSIONS="\"libgumbo:1.0.0-nokogiri\"" -Werror -c conftest.c"
+error: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Werror,-Wunknown-warning-option]
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+--------------------
+

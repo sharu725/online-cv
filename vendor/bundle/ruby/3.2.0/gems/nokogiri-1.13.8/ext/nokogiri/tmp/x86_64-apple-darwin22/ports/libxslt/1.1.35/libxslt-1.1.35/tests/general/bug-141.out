@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+
+
+current page : 1
+--------------------
+  dump union : "document,group,"
+  union-last : group
+  union-last (without /root) : group
+  preceeding-sibling 
+  parent-group group
+  root document
+-----------------------
+
+
+current page : 2
+--------------------
+  dump union : "document,group,page,"
+  union-last : page
+  union-last (without /root) : page
+  preceeding-sibling page
+  parent-group group
+  root document
+-----------------------
+
+
+current page : 3
+--------------------
+  dump union : "document,group,page,"
+  union-last : page
+  union-last (without /root) : page
+  preceeding-sibling page
+  parent-group group
+  root document
+-----------------------
+
+
+current page : 4
+--------------------
+  dump union : "document,group,page,"
+  union-last : page
+  union-last (without /root) : page
+  preceeding-sibling page
+  parent-group group
+  root document
+-----------------------
+

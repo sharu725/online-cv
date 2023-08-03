@@ -1,0 +1,12 @@
+<foo xmlns="urn:foo" xmlns:foo="urn:foo" xmlns:foo2="urn:foo2">
+  <bar>hello</bar>
+  <foo:baz>phaw</foo:baz>
+  <foo:bling xmlns="urn:foo2">
+    <bar2>hello2</bar2>
+  </foo:bling>
+  <bar>hello</bar>
+  <foo:baz>phaw</foo:baz>
+  <bling xmlns="urn:foo2">
+    <bar2>hello2</bar2>
+  </bling>
+</foo>

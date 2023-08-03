@@ -1,0 +1,8 @@
+2001-04-03  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* chunk.xsl, docbook.xsl, xtchunk.xsl: Support MathML and chunking properly
+
+2001-04-02  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* docbook.xsl, xtchunk.xsl: New file.
+

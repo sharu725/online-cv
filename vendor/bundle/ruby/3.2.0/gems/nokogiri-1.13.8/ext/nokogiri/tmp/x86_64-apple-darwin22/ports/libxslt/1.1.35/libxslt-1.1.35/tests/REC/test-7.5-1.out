@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<doc attr="value">
+    <child attr1="val" attr2="val2">content</child>
+</doc>

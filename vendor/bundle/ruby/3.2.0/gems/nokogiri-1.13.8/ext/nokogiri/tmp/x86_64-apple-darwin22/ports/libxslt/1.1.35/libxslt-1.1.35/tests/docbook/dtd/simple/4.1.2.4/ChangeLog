@@ -1,0 +1,31 @@
+2000-11-03  Norman Walsh  <ndw@nwalsh.com>
+
+	* COPYRIGHT, README, sdbcent.mod, sdbhier.mod, sdbpool.mod, sdocbook-custom.dtd, sdocbookref-custom.dtd, sinclist.mod, test.xml, testcss.xml: 
+	Updated version numbers
+
+	* Makefile: New file.
+
+	* Makefile: Added distrib target
+
+	* Makefile: Added test target
+
+	* VERSION: Version 4.1.2.4 released
+
+	* sdocbook.dtd: Automatically built from sdocbook-custom.dtd
+
+	* sdocbookref-custom.dtd: Added common declaration comment
+
+	* sdocbookref.dtd: Automatically built from sdocbookref-custom.dtd
+
+2000-10-12  Norman Walsh  <ndw@nwalsh.com>
+
+	* COPYRIGHT, LostLog, README, VERSION, catalog, sdbcent.mod, sdbhier.mod, sdbpool.mod, sdocbook-custom.dtd, sdocbook.css, sdocbook.dtd, sdocbookref-custom.dtd, sdocbookref.dtd, sinclist.mod, test.xml, testcss.xml, testcust.xml, testrefcust.xml: 
+	New file.
+
+	* COPYRIGHT, README, sdbcent.mod, sdbhier.mod, sdbpool.mod, sdocbook-custom.dtd, sdocbook.dtd, sdocbookref-custom.dtd, sdocbookref.dtd, sinclist.mod, test.xml, testcss.xml: 
+	Updated version numbers
+
+	* VERSION: Version 4.1.2.3 released
+
+	* sdocbook-custom.dtd: Added revisionflag as a common attribute
+

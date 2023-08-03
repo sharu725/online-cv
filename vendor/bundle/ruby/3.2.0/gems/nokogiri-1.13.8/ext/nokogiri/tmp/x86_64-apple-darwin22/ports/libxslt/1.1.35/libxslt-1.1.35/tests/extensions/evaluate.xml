@@ -1,0 +1,11 @@
+<doc>
+  <one>one</one>
+  <two>two</two>   
+  <three>/doc/one</three>
+  <four>
+    <doc>
+      <one>four-one</one>
+      <two>four-two</two>   
+    </doc>
+  </four>
+</doc>

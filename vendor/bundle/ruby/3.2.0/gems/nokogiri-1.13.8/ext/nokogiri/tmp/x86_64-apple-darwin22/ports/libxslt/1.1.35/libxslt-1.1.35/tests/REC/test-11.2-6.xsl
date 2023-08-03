@@ -1,0 +1,10 @@
+<xsl:stylesheet version="1.0"
+      xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:param name="x" select="/.."/>
+
+<xsl:template match="doc">
+<doc value="{count($x)}"/>
+</xsl:template>
+
+</xsl:stylesheet>

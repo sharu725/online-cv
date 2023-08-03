@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE xsa PUBLIC "-//LM Garshol//DTD XML Software Autoupdate 1.0//EN//XML" "http://www.garshol.priv.no/download/xsa/xsa.dtd">
+<xsa>
+  <vendor>
+    <name>Daniel Veillard</name>
+    <email>daniel@veillard.com</email>
+    <url>http://veillard.com/</url>
+  </vendor>
+  <product id="libxml2">
+    <name>libxml2</name>
+    <version>v2.9.12</version>
+    <last-release> May 13 2021</last-release>
+    <info-url>https://gitlab.gnome.org/GNOME/libxml2</info-url>
+    <changes>   - Build system:
+  Add fuzz.h and seed/regexp to EXTRA_DIST
+  
+
+</changes>
+  </product>
+</xsa>

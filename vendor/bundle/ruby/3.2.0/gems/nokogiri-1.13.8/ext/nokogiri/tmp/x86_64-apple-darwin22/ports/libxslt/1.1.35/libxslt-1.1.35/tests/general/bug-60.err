@@ -1,0 +1,2 @@
+compilation error: file ./bug-60.xsl line 6 element foo-of
+xsltStylePreCompute: unknown xsl:foo-of

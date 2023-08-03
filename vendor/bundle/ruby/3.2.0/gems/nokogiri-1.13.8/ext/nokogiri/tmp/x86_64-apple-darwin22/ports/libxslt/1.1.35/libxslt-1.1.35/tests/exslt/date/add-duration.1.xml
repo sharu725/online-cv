@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<page>
+  <date dur1='P1Y' dur2='-P1Y'/>
+  <date dur1='P1M' dur2='-P1M'/>
+  <date dur1='P1D' dur2='-P1D'/>
+  <date dur1='PT1H' dur2='-PT1H'/>
+  <date dur1='PT1M' dur2='-PT1M'/>
+  <date dur1='PT1S' dur2='-PT1S'/>
+  <date dur1='P1Y' dur2='-P12M'/>
+  <date dur1='P1D' dur2='-PT24H'/>
+  <date dur1='P1D' dur2='-PT1440M'/>
+  <date dur1='P1D' dur2='-PT86400S'/>
+  <date dur1='P1Y1D' dur2='-P12MT86400S'/>
+  <date dur1='P30D' dur2='PT24H'/>
+  <date dur1='P10Y' dur2='P45M'/>
+  <date dur1='P10Y' dur2='-P12M'/>
+  <date dur1='P5Y11M' dur2='-P12M'/>
+  <date dur1='P1000Y11M30D' dur2='-PT9S'/>
+  <date dur1='P12M29D' dur2='P365D'/>
+  <date dur1='P1000Y' dur2='PT45.65S'/>
+  <date dur1='PT23H59M0S' dur2='PT59S'/>
+  <date dur1='PT23H59M0S' dur2='PT61S'/>
+  <date dur1='P1000Y11M30DT23H59M0.1S' dur2='PT59.9S'/>
+  <date dur1='P1000Y11M30DT23H59M1S'   dur2='PT59S'/>
+  <date dur1='P1000Y11M30D' dur2='-P1DT9S'/>
+</page>
+

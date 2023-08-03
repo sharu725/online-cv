@@ -1,0 +1,9 @@
+<x:stylesheet xmlns:x="http://www.w3.org/1999/XSL/Transform" xmlns:a="a" xmlns:b="b" version="1.0">
+<x:attribute-set name="s"><x:attribute name="a:f" namespace="a">v</x:attribute></x:attribute-set>
+<x:attribute-set name="t" use-attribute-sets="s"><x:attribute name="g">w</x:attribute></x:attribute-set>
+<x:template match="a:*">
+<x:element name="e" use-attribute-sets="t"/>
+<a:e x:use-attribute-sets="t"/>
+<x:copy use-attribute-sets="t"></x:copy>
+</x:template>
+</x:stylesheet>

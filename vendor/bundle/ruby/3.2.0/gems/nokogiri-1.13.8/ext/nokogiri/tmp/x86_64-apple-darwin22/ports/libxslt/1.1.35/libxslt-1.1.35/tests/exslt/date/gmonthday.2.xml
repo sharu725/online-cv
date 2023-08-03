@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<page>
+  <!-- invalid xs:gMonthDay syntax -->
+  <date date="---09-01"/>
+  <date date="--09-01-"/>
+  <!-- invalid xs:gMonthDay values -->
+  <date date="--01-00"/>
+</page>
+

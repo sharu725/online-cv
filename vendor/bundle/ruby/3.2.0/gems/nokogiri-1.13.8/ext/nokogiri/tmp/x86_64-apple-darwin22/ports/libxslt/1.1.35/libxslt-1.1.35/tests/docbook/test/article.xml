@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article 
+  PUBLIC "-//Norman Walsh//DTD Simplified DocBk XML V3.1.7.1//EN" 
+  "../dtd/simple/3.1.7.1/sdocbook.dtd">
+
+<!--  "../dtd/simple/3.1.7.1/sdocbook.dtd">-->
+
+<!-- test document -->
+
+<article><title>Article Test Document Title</title>
+<artheader>
+<title>Artheader Test Document Title</title>
+<authorgroup>
+<corpauthor>nwalsh</corpauthor>
+<author><firstname>Norman</firstname><surname>Walsh</surname></author>
+<othercredit><firstname>Other</firstname><surname>Credit</surname></othercredit>
+<editor><firstname>Someother</firstname><surname>Editor</surname></editor>
+<author><firstname>Someone</firstname><surname>Else</surname></author>
+</authorgroup>
+<pubdate>Apr. 26, 1999</pubdate>
+<copyright><year>1999</year><holder>Norman Walsh</holder></copyright>
+
+<abstract>
+<para>This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+</para>
+</abstract>
+</artheader>
+
+<para>
+This is a <quote>short quote</quote>.
+This is a <quote>Quotation with a <quote>nested quotation
+containing a <quote>nested quotation and another <quote>nested
+quotation</quote></quote></quote></quote>.
+</para>
+
+<literallayout>This is a <emphasis>literal layout</emphasis>
+  It'll be a &lt;pre&gt; until the <filename>chunk.pl</filename>
+script    fixes   things    up.</literallayout>
+
+<para>This article is just a test. This article is just a test.
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+</para>
+
+<figure id="testfig"><title>Test Figure</title>
+<programlisting>This is a
+  ProgramListing
+</programlisting>
+</figure>
+
+<para>This para contains an xref to a figure: <xref linkend="testfig"/>.
+</para>
+
+<figure id="testfig2"><title>Test Figure2</title>
+<programlisting>A Second
+  Test Figure
+</programlisting>
+</figure>
+
+<para>This para contains an <link linkend="testfig2">link</link> to a 
+figure.
+</para>
+
+<itemizedlist>
+<listitem><para>Test item.</para></listitem>
+<listitem><para>Test item.</para></listitem>
+<listitem><para>Test item.</para></listitem>
+</itemizedlist>
+
+<orderedlist>
+<listitem><para>Test item.</para></listitem>
+<listitem><para>Test item.</para></listitem>
+<listitem><para>Test item.</para></listitem>
+</orderedlist>
+
+<para>This article is just a test. This article is just a test.
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+</para>
+
+<section><title>First level section</title>
+<section><title>Second level section</title>
+<section><title>Third level section</title>
+<section><title>Fourth level section</title>
+<section>
+<sectioninfo>
+<title>Fifth level section (SI)</title>
+</sectioninfo>
+<title>Fifth level section</title>
+<section><title>Sixth level section</title>
+<section><title>Seventh level section</title>
+<para>This article is just a test. This article is just a test.
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+</para>
+</section>
+</section>
+</section>
+</section>
+</section>
+</section>
+</section>
+
+<appendix><title>Appendix</title>
+
+<para>This is just a test.</para>
+
+</appendix>
+</article>
+

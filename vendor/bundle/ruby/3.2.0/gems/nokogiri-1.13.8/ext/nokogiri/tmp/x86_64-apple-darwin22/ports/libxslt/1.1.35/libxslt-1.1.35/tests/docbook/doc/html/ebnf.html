@@ -1,0 +1,103 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+   
+      <title>HTML EBNF Reference</title>
+      <link rel="stylesheet" href="../reference.css" type="text/css">
+      <meta name="generator" content="DocBook XSL Stylesheets V1.37">
+   </head>
+   <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+      <div class="reference">
+         <div class="titlepage">
+            <div>
+               <h1 class="title"><a name="d41e1"></a>HTML EBNF Reference
+               </h1>
+            </div>
+            <div>
+               <h3 class="author">Norman Walsh</h3>
+            </div>
+            <div>
+               <p class="releaseinfo">
+                  $Id$
+                  
+               </p>
+            </div>
+            <div>
+               <p class="copyright"><a href="../copyright.html">Copyright</a> &copy; 1999, 2000 by Norman Walsh. <a href="../warranty.html">No Warranty</a>.
+               </p>
+            </div>
+            <hr>
+         </div>
+         <div class="partintro">
+            <div></div>
+            <div class="section"><a name="d41e24"></a><div class="titlepage">
+                  <div>
+                     <h2 class="title" style="clear: all"><a name="d41e24"></a>Introduction
+                     </h2>
+                  </div>
+               </div>
+               <p>This is technical reference documentation for the DocBook XSL
+                  Stylesheets; it documents (some of) the parameters, templates, and
+                  other elements of the stylesheets.
+               </p>
+               <p>This reference describes the templates and parameters relevant
+                  to formatting EBNF markup.
+               </p>
+               <p>This is not intended to be &#8220;user&#8221; documentation.
+                  It is provided for developers writing customization layers for the
+                  stylesheets, and for anyone who's interested in &#8220;how it
+                  works&#8221;.
+               </p>
+               <p>Although I am trying to be thorough, this documentation is known
+                  to be incomplete. Don't forget to read the source, too :-)
+               </p>
+            </div>
+            <div class="toc">
+               <p><b>Table of Contents</b></p>
+               <dl>
+                  <dt><a href="#param.ebnf.table.bgcolor">ebnf.table.bgcolor</a></dt>
+                  <dt><a href="#param.ebnf.table.border">ebnf.table.border</a></dt>
+               </dl>
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.ebnf.table.bgcolor"></a>ebnf.table.bgcolor
+            </h1>
+            <div class="refnamediv"><a name="d41e42"></a><h2>Name</h2>ebnf.table.bgcolor &#8212; Background color for EBNF tables
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e47"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="ebnf.table.bgcolor"&gt;#F5DCB3&lt;/xsl:param&gt;</pre></div>
+            <div class="refdescription"><a name="d41e50"></a>
+               
+               
+               <p>Sets the background color for EBNF tables. No <tt>bgcolor</tt>
+                  attribute is output if <tt>ebnf.table.bgcolor</tt> is set to
+                  the null string. The default value matches the value used in recent
+                  online versions of the W3C's XML Spec productions.
+               </p>
+               
+               
+            </div>
+         </div>
+         <hr>
+         <div class="refentry">
+            <h1 class="title"><a name="param.ebnf.table.border"></a>ebnf.table.border
+            </h1>
+            <div class="refnamediv"><a name="d41e62"></a><h2>Name</h2>ebnf.table.border &#8212; Selects border on EBNF tables
+            </div>
+            <div class="refsynopsisdiv"><a name="d41e67"></a><h2>Synopsis</h2><pre class="synopsis">
+&lt;xsl:param name="ebnf.table.border"&gt;1&lt;/xsl:param&gt;</pre></div>
+            <div class="refdescription"><a name="d41e70"></a>
+               
+               
+               <p>Selects the border on EBNF tables. If non-zero, the tables have
+                  borders, otherwise they don't.
+               </p>
+               
+               
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

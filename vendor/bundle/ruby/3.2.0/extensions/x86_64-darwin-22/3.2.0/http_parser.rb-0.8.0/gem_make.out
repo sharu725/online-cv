@@ -1,0 +1,27 @@
+current directory: /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/usr/local/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20230803-55708-hxz96x sitelibdir\=./.gem.20230803-55708-hxz96x clean
+
+current directory: /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20230803-55708-hxz96x sitelibdir\=./.gem.20230803-55708-hxz96x
+compiling ruby_http_parser.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+ruby_http_parser.c:365:17: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'long' [-Wsign-compare]
+    if (nparsed < len)
+        ~~~~~~~ ^ ~~~
+2 warnings generated.
+compiling ryah_http_parser.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+linking shared-object ruby_http_parser.bundle
+ld: warning: dylib (/usr/local/Cellar/ruby/3.2.2_1/lib/libruby.3.2.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+
+current directory: /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20230803-55708-hxz96x sitelibdir\=./.gem.20230803-55708-hxz96x install
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20230803-55708-hxz96x
+
+current directory: /Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20230803-55708-hxz96x sitelibdir\=./.gem.20230803-55708-hxz96x clean

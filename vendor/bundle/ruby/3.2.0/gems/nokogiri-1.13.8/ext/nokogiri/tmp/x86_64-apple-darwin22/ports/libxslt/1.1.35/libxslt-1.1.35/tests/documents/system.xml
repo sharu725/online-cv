@@ -1,0 +1,29 @@
+<page title="System spec">
+<h2>Dotcom</h2>
+<p>
+Dotcom is our factories, producing top-of-the-line high quality tokbands
+(although we're not really sure yet what a tokband is).
+</p>
+
+<h2>Amazon</h2>
+<p>
+Amazon is our sales server, responsible for the transactions and interfacing
+with our factories.
+</p>
+
+<h2>Meister</h2>
+<p> Meister is our own webserver, running <a
+href="http://www.php.net">PHP</a>-scripts and serving static pages for our
+dear customers.  </p>
+
+<h2>Red Chief</h2>
+<p> Red Chief is our proxy, responsible for keeping  control of our network and
+keeping our internal network safe from bad and evil stuff.  </p>
+
+
+<h2>System specification</h2>
+<p>
+A more detailed system specification is available as pdf <a href="sysspec-1.pdf">here</a>.
+</p>
+
+</page>

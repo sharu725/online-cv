@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article 
+  PUBLIC "-//Norman Walsh//DTD Simplified DocBk XML V3.1.7.1//EN" 
+  "../dtd/simple/3.1.7.1/sdocbook.dtd">
+
+<!-- test document -->
+
+<article><title>Article Test Document Title</title>
+
+<para>This article is just a test. This article is just a test.
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+</para>
+
+<section><title>First level section</title>
+<section><title>Second level section</title>
+<section>
+<sectioninfo>
+<title>Third level section</title>
+</sectioninfo>
+<section><title>Fourth level section</title>
+<section><title>Fifth level section</title>
+<sectioninfo>
+<title>Fifth level section (SI)</title>
+</sectioninfo>
+<para>This is just a test.</para>
+</section>
+</section>
+</section>
+</section>
+</section>
+
+<section><title>Another Section</title>
+<simplesect><title>SimpleSect @ level 2</title>
+<para>This is just a test.</para>
+</simplesect>
+</section>
+
+<section><title>Another Section</title>
+<section><title>Another Section</title>
+<simplesect><title>SimpleSect @ level 3</title>
+<para>This is just a test.</para>
+</simplesect>
+</section>
+</section>
+
+<section><title>Another Section</title>
+<section><title>Another Section</title>
+<section><title>Another Section</title>
+<simplesect><title>SimpleSect @ level 4</title>
+<para>This is just a test.</para>
+</simplesect>
+</section>
+</section>
+</section>
+
+</article>
+

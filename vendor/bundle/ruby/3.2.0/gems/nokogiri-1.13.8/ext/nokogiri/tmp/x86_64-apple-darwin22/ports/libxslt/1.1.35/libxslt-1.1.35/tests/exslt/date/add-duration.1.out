@@ -1,0 +1,47 @@
+
+add-duration : P1Y + -P1Y
+result       : P0D
+add-duration : P1M + -P1M
+result       : P0D
+add-duration : P1D + -P1D
+result       : P0D
+add-duration : PT1H + -PT1H
+result       : P0D
+add-duration : PT1M + -PT1M
+result       : P0D
+add-duration : PT1S + -PT1S
+result       : P0D
+add-duration : P1Y + -P12M
+result       : P0D
+add-duration : P1D + -PT24H
+result       : P0D
+add-duration : P1D + -PT1440M
+result       : P0D
+add-duration : P1D + -PT86400S
+result       : P0D
+add-duration : P1Y1D + -P12MT86400S
+result       : P0D
+add-duration : P30D + PT24H
+result       : P31D
+add-duration : P10Y + P45M
+result       : P13Y9M
+add-duration : P10Y + -P12M
+result       : P9Y
+add-duration : P5Y11M + -P12M
+result       : P4Y11M
+add-duration : P1000Y11M30D + -PT9S
+result       : P1000Y11M29DT23H59M51S
+add-duration : P12M29D + P365D
+result       : P1Y394D
+add-duration : P1000Y + PT45.65S
+result       : P1000YT45.65S
+add-duration : PT23H59M0S + PT59S
+result       : PT23H59M59S
+add-duration : PT23H59M0S + PT61S
+result       : P1DT1S
+add-duration : P1000Y11M30DT23H59M0.1S + PT59.9S
+result       : P1000Y11M31D
+add-duration : P1000Y11M30DT23H59M1S + PT59S
+result       : P1000Y11M31D
+add-duration : P1000Y11M30D + -P1DT9S
+result       : P1000Y11M28DT23H59M51S

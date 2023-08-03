@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<sample>
+  <foo name="one"/>
+  <foo name="two"/>
+  <foo name="three"/>
+  <foo name="four"/>
+</sample>

@@ -1,0 +1,2 @@
+compilation error: file ./bug-204.xsl line 4 element decimal-format
+xsltParseStylestyleDecimalFormat: format already exists

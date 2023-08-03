@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<script xmlns="http://www.w3.org/2000/svg" type="text/ecmascript"><![CDATA[
+  var foo2 = text;
+  ]]></script>

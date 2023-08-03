@@ -1,0 +1,105 @@
+README for the Simplified DocBk XML V3.1.7.1 DTD
+
+This is a simplified version of the DocBk XML V3.1.3 DTD.  This
+DTD is my attempt to make a small subset of DocBook.  I tried to
+achieve the following goals:
+
+ * Documents written in the subset must be 100% legal DocBk XML
+   documents.
+
+ * This is for small documents, articles and the like, so
+   there's no need for 'book's or 'set's, just 'article's.
+
+ * The markup should be the smallest practical subset, if you
+   need richly structured markup, use DocBook or DocBk XML.
+
+ * The result is roughly "HTML-level markup in DocBook", but I
+   didn't set out explicitly to produce that result.
+
+ * The DTD must work in IE5 (it's XML not SGML). It should be
+   small enough to download more-or-less painlessly.
+
+ * There should be a CSS stylesheet for it (mine's pretty lame).
+
+ * There should be an XSL stylesheet for it. Since I'm in the
+   somewhat privileged position of knowing how many changes are
+   coming, I'm going to wait until after the next draft ;-).
+
+Instead of DocBook's 350+ elements, this DTD has fewer than 100.
+
+
+Manifest
+--------
+
+README        - This readme file
+VERSION       - The version number
+COPYRIGHT     - Copyright statement
+sdbcent.mod   - Character entities
+sdbhier.mod   - Hierarchy overrides
+sdbpool.mod   - Information pool overrides
+sdocbook-custom.dtd - The DTD
+sdocbook.css  - CSS stylesheet
+sdocbook.dtd  - A flattened version of the DTD (mechanically generated)
+sinclist.mod  - A set of 'ignore' parameter entities
+test.xml      - A test document
+testcss.xml   - A test document for the CSS stylesheet
+testcust.xml  - A test document for the raw customization layer
+ent/          - The ISO character entity files used by sdocbook.dtd
+
+
+Installation
+------------
+
+Place the files in this distribution somewhere on your machine.  Adjust
+your catalog(s) if appropriate (XML tools frequently do not support 
+catalogs, so this may be irrelevant for you).
+
+Please use the following formal public identifier to identify this DTD:
+
+  "-//Norman Walsh//DTD Simplified DocBk XML V3.1.7.1//EN"
+
+For example, if your document's top-level element is <article>, and
+you are using this DTD directly, use the FPI in the DOCTYPE
+declaration:
+
+<!DOCTYPE article
+          PUBLIC "-//Norman Walsh//DTD Simplified DocBk XML V3.1.7.1//EN"
+                 "/system/identifier/on/your/system/sdocbook.dtd" [
+...
+]>
+
+
+Note: if you are using the customization layer directly (sdocbook-custom.dtd),
+you may have to adjust the system identifier that points to the DocBk XML
+DTD.  You will also have to install the DocBk XML V3.1.3 DTD somewhere on
+your system.
+
+
+Copyright
+---------
+
+Copyright (C) 1998, 1999 Norman Walsh
+
+See COPYRIGHT for more information
+
+
+Warranty
+--------
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT.  IN NO EVENT SHALL NORMAN WALSH OR ANY OTHER
+CONTRIBUTOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+
+Contacting the Author
+---------------------
+
+This DTD is maintained by Norman Walsh, <ndw@nwalsh.com>.
+
+The best way to reach norm is by email.  You will find additional
+contact information at http://nwalsh.com/docbook/simple/

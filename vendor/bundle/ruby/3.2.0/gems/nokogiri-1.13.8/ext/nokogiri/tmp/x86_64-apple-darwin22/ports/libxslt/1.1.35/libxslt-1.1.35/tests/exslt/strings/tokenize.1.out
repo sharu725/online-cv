@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<out>;
+  str:tokenize('2001-06-03T11:40:23', '-T:')
+  <token>2001</token><token>06</token><token>03</token><token>11</token><token>40</token><token>23</token>;
+
+  str:tokenize('date math str')
+  <token>date</token><token>math</token><token>str</token>;
+
+  str:tokenize('This is &amp; strange behavior', ' ')
+  <token>This</token><token>is</token><token>&amp;</token><token>strange</token><token>behavior</token>;
+
+  str:tokenize('This is &amp; strange; behavior', ' ')
+  <token>This</token><token>is</token><token>&amp;</token><token>strange;</token><token>behavior</token>;
+
+  str:tokenize('This is &amp;strange; behavior', ' ')
+  <token>This</token><token>is</token><token>&amp;strange;</token><token>behavior</token>;
+</out>

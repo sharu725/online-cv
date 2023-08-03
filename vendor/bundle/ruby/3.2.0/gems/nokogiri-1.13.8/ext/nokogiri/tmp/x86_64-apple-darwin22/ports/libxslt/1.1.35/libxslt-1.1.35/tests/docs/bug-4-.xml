@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+  <GROUP name="G1">
+    <MEMBER name="M1">
+      <CONTENT>MEMBER 1 of GROUP 1</CONTENT>
+    </MEMBER>
+    <MEMBER name="M2">
+      <CONTENT>MEMBER 2 of GROUP 1</CONTENT>
+    </MEMBER>
+    <MEMBER name="M3">
+      <CONTENT>MEMBER 3 of GROUP 1</CONTENT>
+    </MEMBER>
+  </GROUP>
+
+  <GROUP name="G2">
+    <MEMBER name="M1">
+      <CONTENT>MEMBER 1 of GROUP 2</CONTENT>
+    </MEMBER>
+    <MEMBER name="M2">
+      <CONTENT>MEMBER 2 of GROUP 2</CONTENT>
+    </MEMBER>
+    <MEMBER name="M3">
+      <CONTENT>MEMBER 3 of GROUP 2</CONTENT>
+    </MEMBER>
+  </GROUP>
+
+  <GROUP name="G3">
+    <MEMBER name="M1">
+      <CONTENT>MEMBER 1 of GROUP 3</CONTENT>
+    </MEMBER>
+    <MEMBER name="M2">
+      <CONTENT>MEMBER 2 of GROUP 3</CONTENT>
+    </MEMBER>
+    <MEMBER name="M3">
+      <CONTENT>MEMBER 3 of GROUP 3</CONTENT>
+    </MEMBER>
+  </GROUP>
+</ROOT>

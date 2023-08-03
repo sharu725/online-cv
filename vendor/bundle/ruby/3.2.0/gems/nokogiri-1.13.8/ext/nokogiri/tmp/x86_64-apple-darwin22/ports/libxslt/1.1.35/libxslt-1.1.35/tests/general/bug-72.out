@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ROOT><ELEMENT1>
+Some result
+foo<hello/></ELEMENT1><ELEMENT2>
+other one
+foo<hello/></ELEMENT2></ROOT>

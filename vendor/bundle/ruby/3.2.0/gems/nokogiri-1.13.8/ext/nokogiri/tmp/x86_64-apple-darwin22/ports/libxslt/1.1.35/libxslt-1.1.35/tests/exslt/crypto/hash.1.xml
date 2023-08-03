@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<patterns>
+
+	<pattern>Привет, Мир!</pattern>
+	<pattern>Привет, Мир?</pattern>
+	<pattern>Привет, Мир </pattern>
+	<pattern>Привет, Мир.</pattern>
+	<pattern>Привет, Мир9</pattern>
+	<pattern>Привет, МирЖ</pattern>
+	<pattern>Привет, МирZ</pattern>
+	<pattern>Привет,МирZ </pattern>
+	<pattern>Привет, МирZ </pattern>
+	<pattern>Привет,   МирZ</pattern>
+	<pattern>ПриветМирL</pattern>
+
+	<br/>
+
+	<pattern>Hello, World!</pattern>
+	<pattern>Hello, World?</pattern>
+	<pattern>Hello, World </pattern>
+	<pattern>Hello, World.</pattern>
+	<pattern>Hello, World9</pattern>
+	<pattern>Hello, WorldЖ</pattern>
+	<pattern>Hello, WorldZ</pattern>
+
+	<br/>
+
+        <!-- Empty string. -->
+        <pattern/>
+
+</patterns>

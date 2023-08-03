@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<page title="Worklog - what we've done so far">
+
+<progresstable>
+<progress week="4,5">
+<!-- Sys. des    Test des.   Sälj cli.   Adm. cli.   Proxy -->
+ <st> 95</st><st>  5</st><st>  0</st><st>  0</st><st>  0</st>
+<!--        Sale serv.  Fab. serv.  Komp. test  Funk. text  Syst. test -->
+	<st>  5</st><st> 90</st><st>  0</st><st>  0</st><st>  0</st>
+</progress>
+<progress week="6">
+ <st>100</st><st>  5</st><st>  0</st><st>  0</st><st>  1</st>
+	<st>  5</st><st>90</st><st>  0</st><st>  0</st><st>  0</st>
+</progress>
+</progresstable>
+
+<week num="4, 5">
+ <what who="janlert, nikke, stric">
+ <p> We do some planing, resulting in a System specification.</p>
+ </what>
+
+ <what who="janlert, nikke, stric">
+ <p>
+ Waiting for the review of the system specification there's not much we can do.
+ we look into the different specifications and libraries we will use (
+ <a href="http://www.corba.org">CORBA</a>,
+ <a href="http://www.w3c.org/XML">XML</a>, 
+ <a href="http://www.netscape.com/eng/ssl3/">SSL</a> etc).
+ </p>
+ </what>
+
+ <what who="janlert">
+ <p> Work is done on <a href="system.html">dotcom</a>, resulting in a mostly
+ working factory. Big fights with <a href="http://java.sun.com">java</a> to get
+ <a href="http://www.corba.org">CORBA</a> working ends up with a (temporary)
+ switch to <a href="http://www.pythong.org">python</a> for the <a
+ href="http://www.corba.org">CORBA</a> client part.
+ </p>
+ </what>
+
+ <what who="janlert">
+ <p>This web-page is set up (at least a first version).</p>
+ </what>
+</week>
+
+<week num="6">
+ <what who="janlert, nikke, stric">
+ <p>We got our design approved, and did some planning for a couple of hours,
+ we now have everything pretty much nailed down.</p>
+ </what>
+ <what who="stric">
+ <p>Some SSL work.</p>
+ </what>
+</week>
+
+<!--
+<week num="">
+<what who="">
+<p></p>
+</what>
+</week>
+-->
+
+</page>

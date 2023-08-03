@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document name="doc">
+  <group name="group">
+    <page name="1"/>
+    <page name="2"/>
+    <page name="3"/>
+    <page name="4"/>
+  </group>
+</document>

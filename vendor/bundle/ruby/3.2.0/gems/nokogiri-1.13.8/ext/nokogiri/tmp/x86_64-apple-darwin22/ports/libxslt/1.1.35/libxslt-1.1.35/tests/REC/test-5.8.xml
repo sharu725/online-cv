@@ -1,0 +1,7 @@
+<?tst-pi pi 1 ?>
+<!-- comment 1 -->
+<doc xmlns:unused="http://example.org/unused">
+    <?tst-pi pi 2 ?>
+    <!-- comment 2 -->
+    <elem attr="attr value">elem content</elem>
+</doc>

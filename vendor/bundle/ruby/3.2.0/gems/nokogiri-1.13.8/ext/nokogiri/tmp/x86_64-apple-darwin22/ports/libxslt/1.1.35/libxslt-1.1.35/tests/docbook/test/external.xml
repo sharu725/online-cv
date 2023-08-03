@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.0//EN"
+               "../dtd/4.0/docbookx.dtd" [
+  <!ENTITY subdoc SYSTEM "subdoc.ent">
+]>
+
+<book lang="en">
+<title>Main document</title>
+
+<chapter id="main">
+<para>This references to: <link linkend="subdoc"/></para>
+</chapter>
+&subdoc;
+
+</book>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<exam name="Midterm Exam" id="TK421" timeLimit="00:30:00" hints="true">
+ <questions xmlns:xlink="http://www.w3.org/1999/xlink">
+   <question type="choice" id="TK421-2" instructionId="1">
+     <questionText>A <emphasis>constant</emphasis> is something that does
+not change.</questionText>
+     <answers>
+       <answer id="TK421-2-1" correct="true">True</answer>
+       <answer id="TK421-2-2">False</answer>
+     </answers>
+   </question>
+ </questions>
+</exam>

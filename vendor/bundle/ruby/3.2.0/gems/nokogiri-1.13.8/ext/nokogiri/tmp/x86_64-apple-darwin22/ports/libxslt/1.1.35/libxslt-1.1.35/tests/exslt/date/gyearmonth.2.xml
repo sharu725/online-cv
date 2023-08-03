@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<page>
+  <!-- invalid xs:gYearMonth syntax -->
+  <date date="0010-8"/>
+  <!-- invalid xs:gYearMonth values -->
+  <date date="0001-13"/>
+</page>
+

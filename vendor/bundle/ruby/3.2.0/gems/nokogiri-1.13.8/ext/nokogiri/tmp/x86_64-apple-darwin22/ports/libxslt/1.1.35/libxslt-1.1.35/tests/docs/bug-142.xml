@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<posts xmlns:日本語="http://glandium.org/nihongo/" xmlns="http://glandium.org/" xml:lang="fr">
+  <post xml:lang="ja" id="6">
+    <title 日本語:翻訳="Un autre message en japonais" 日本語:読方="ほかのにほんごのでんごん">他の日本語の伝言</title>
+    <date weekday="0">20040126</date>
+    <section>ウェブサイト</section>
+    <content>
+      <para 日本語:翻訳="Ce message est écrit en japonais et a une traduction" 日本語:読方="このでんごんはにほんごでかいて、ほんやくがある">この伝言は日本語で書いて、翻訳がある。<span xml:lang="fr">couhin ?</span></para>
+      <para xml:lang="fr">Et on a une petite phrase en français.</para>
+    </content>
+  </post>
+  <post id="5">
+    <title>Test</title>
+  </post>
+  <post xml:lang="ja" id="4">
+    <title>日本語の伝言</title>
+    <date weekday="0">20040125</date>
+    <section>ウェブサイト</section>
+    <content>
+      <para>この伝言は日本語で書いて、翻訳がない。<span 日本語:翻訳="En fait, juste un peu (et c'est une erreur)" 日本語:読方="じつはすこしだけ">実は少しだけ</span>。</para>
+      <para>あいうえおかきくけこさしすせそ…</para>
+    </content>
+  </post>
+  <post id="3">
+    <date weekday="5">20050812</date>
+  </post>
+  <post id="2">
+    <!-- Titre d'un post qui n'est pas en japonais non traduit ? -> erreur ! -->
+    <title>間違い</title>
+    <date weekday="0">20040125</date>
+    <section>部門は間違い</section>
+    <content>
+      <para>Quelques <item href="plop">tests</item> d'erreurs :</para>
+      <list>
+	<para>Un paragraphe dans la liste</para>
+	<item href="http://www.google.com/">un lien externe sans hreflang,</item>
+	<item></item>
+	<item><span><list><item>un couac</item></list></span>,</item>
+	<item><para><list><item>un autre</item></list></para>,</item>
+	<item>une <span 日本語:翻訳="traduction">翻訳</span> sans xml:lang="ja"</item>
+	<item xml:lang="ja" 日本語:翻訳="une date dans un bloc traduit"><date>20040125</date></item>
+      </list>
+    </content>
+  </post>
+  <post id="1">
+    <title xml:lang="ja">サンプル</title>
+    <date weekday="0">20040125</date>
+    <section xml:lang="ja">ウェブサイト</section>
+    <content>
+      <para>Ceci est un <span xml:lang="ja" 日本語:翻訳="test" 日本語:読方="てすと">テスト</span>.</para>
+      <list>
+	<item>Voici une liste,</item>
+	<item>un splendide test de <span href="http://www.google.com/" hreflang="en">lien extérieur</span>,</item>
+	<item>un autre test de lien, mais <span href="glandium.png">interne, cette fois</span>,</item>
+	<item xml:lang="ja" 日本語:翻訳="Item en japonais" 日本語:読方="にほんごのあいてむ">日本語のアイテム、</item>
+	<item xml:lang="ja" href="http://www.google.com" 日本語:翻訳="Item en japonais avec un lien" 日本語:読方="リンクがあるにほんごのあいてむ">リンクがある日本語のアイテム、</item>
+	<item href="http://www.google.com" hreflang="en">un item lien.</item>
+	<item>Un <span xml:lang="ja">テスト</span> d'auto-traduction (le mot est présent plus haut dans le post, pas la peine de tout répéter...</item>
+	<item>une date en ligne : <date weekday="1">20040301</date> et <list><item>une liste dans la liste</item></list></item>
+	<item>un <span href="glandium.png">lien avec du <span xml:lang="ja" 日本語:翻訳="japonais" 日本語:読方="にほんご">日本語</span> dedans</span></item>
+      </list>
+      <para href="http://www.google.com" hreflang="en">un paragraphe lien.</para>
+    </content>
+  </post>
+</posts>

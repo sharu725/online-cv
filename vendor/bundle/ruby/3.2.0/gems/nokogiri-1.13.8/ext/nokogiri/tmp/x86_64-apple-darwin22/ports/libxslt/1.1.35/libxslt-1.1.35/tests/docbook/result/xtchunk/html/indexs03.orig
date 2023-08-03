@@ -1,0 +1,103 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>The GNOME Documentation System</title><meta name="generator" content="DocBook XSL Stylesheets V1.40"><link rel="home" href="index.html" title="The GNOME Handbook of Writing Software Documentation"><link rel="up" href="index.html" title="The GNOME Handbook of Writing Software Documentation"><link rel="previous" href="indexs02.html" title="Getting Started Writing GNOME Documentation"><link rel="next" href="indexs04.html" title="DocBook Basics "></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">The GNOME Documentation System</th></tr><tr><td width="20%" align="left"><a href="indexs02.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a href="indexs04.html">Next</a></td></tr></table><hr></div><div class="sect1"><a name="gnomedocsystem"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="gnomedocsystem"></a>The GNOME Documentation System</h2></div></div><div class="sect2"><a name="gnomehelpbrowser"></a><div class="titlepage"><div><h3 class="title"><a name="gnomehelpbrowser"></a>The GNOME Help Browser</h3></div></div><p>
+        At the core of the GNOME help system is the GNOME
+        Help Browser. The Help
+        Browser provides a unified interface to several
+        distinct documentation systems on Linux/Unix systems: man
+        pages, texinfo pages, Linux Documentation Project(LDP)
+        documents, GNOME application documentation, and other GNOME
+        documents.
+      </p><p>
+        The GNOME Help Browser works by
+        searching standard directories for documents which are to be
+        presented.  Thus, the documentation that appears in the GHB is
+        specific to each computer and will typically only represent
+        software that is installed on the computer.
+      </p></div><div class="sect2"><a name="gnomehelpbrowser2"></a><div class="titlepage"><div><h3 class="title"><a name="gnomehelpbrowser2"></a>The GNOME Help Browser (GNOME-2.0)</h3></div></div><p> In
+      GNOME 2.0, the GNOME Help Browser
+      will be replaced by Nautilus.
+      Nautilus will be the file manager/graphical shell for GNOME 2.0
+      and will also implement a more sophisticated help system than
+      that used by the GNOME Help Browser
+      used in GNOME 1.0.  It will read and display DocBook files
+      directly, avoiding the need for duplicating documents in both
+      DocBook and HTML formats.  Its display engine for DocBook will
+      be much faster than running jade to
+      convert to HTML for rendering.  Because it uses the original
+      DocBook source for documentation, it will be possible to do more
+      sophisticated searching using the meta information included in
+      the documents.  And since Nautilus is a virtual file system
+      layer which is Internet-capable, it will be able to find and
+      display documents which are on the web as well as those on the
+      local file system. For more information on
+      Nautilus, visit the #nautilus IRC
+      channel on irc.gnome.org.  </p></div><div class="sect2"><a name="gnomehelponthefly"></a><div class="titlepage"><div><h3 class="title"><a name="gnomehelponthefly"></a>Dynamic Document Synthesis(GNOME-2.0)</h3></div></div><p>
+        GNOME uses the documentation presented by all the various
+        GNOME components and applications installed on the system to
+        present a complete and customized documentation environment
+        describing only components which are currently installed on a
+        users system.  Some of this documentation, such as the manuals
+        for applets, will be combined in such a way that it appears to
+        be a single document.
+      </p><p>
+        By using such a system, you can be sure that any GNOME app you
+        install that has documentation will show up in the index,
+        table of contents, any search you do in the help browser.
+      </p></div><div class="sect2"><a name="gnomehelpcomponents"></a><div class="titlepage"><div><h3 class="title"><a name="gnomehelpcomponents"></a>The GNOME Documentation Components</h3></div></div><div class="sect3"><a name="applicationmanualsintro"></a><div class="titlepage"><div><h4 class="title"><a name="applicationmanualsintro"></a>Application Manuals</h4></div></div><p>
+          Every GNOME application should have an application manual.
+          An application manual is a document specific to the
+          particular application which explains the various windows
+          and features of the application.  Application Manuals
+          typically use screenshots (PNG format) for clarity.  Writing
+          application manuals is discussed in more detail in <a href="indexs06.html" title="Writing Application and Applet Manuals">the section called &#8220;Writing Application and Applet Manuals&#8221;</a> below.
+        </p></div><div class="sect3"><a name="applicationhelpintro"></a><div class="titlepage"><div><h4 class="title"><a name="applicationhelpintro"></a>Application Help</h4></div></div><p>
+          Applications should have a Help
+          button on screens on which users may need help.  These
+          Help buttons should pull up the
+          default help browser, determined by the
+          <tt>ghelp</tt> URL Handler (configured using the
+          Control Center), typically the
+          GNOME Help Browser.  The help
+          browser should show either the first page of the application
+          manual, or else the relevant page thereof. Application help
+          is described in more detail in <a href="indexs08.html" title="Application Help Buttons">the section called &#8220;Application Help Buttons&#8221;</a> below.
+        </p></div><div class="sect3"><a name="contextsensitivehelpintro"></a><div class="titlepage"><div><h4 class="title"><a name="contextsensitivehelpintro"></a>Application Context Sensitive Help (coming in
+        GNOME-2.0)</h4></div></div><p>
+          Context sensitive help is a system which will allow the user
+          to query any part (button, widget, etc.) of an application
+          window.  This is done by either entering a CS Help mode by
+          clicking on an icon or by right clicking on the application
+          part and selecting "What's This" or whatever is decided on
+          at the time.  Context sensitive help is described in more
+          detail in <a href="indexs10.html" title="Writing Context Sensitive Help (coming in GNOME-2.0)">the section called &#8220;Writing Context Sensitive Help (coming in GNOME-2.0)&#8221;</a>
+          below.
+        </p></div><div class="sect3"><a name="userguide"></a><div class="titlepage"><div><h4 class="title"><a name="userguide"></a>The GNOME User Guide</h4></div></div><p>
+          The <i>GNOME User Guide</i> describes the
+          GNOME desktop environment and core components of GNOME such
+          as the panel and
+          control center. In GNOME 1.x this
+          was the main and only source of documentation. In GNOME 2.0
+          this will become a document for the web and for printing
+          that is derived from various parts chosen in the system that
+          are necessary for the new user to understand.
+        </p></div><div class="sect3"><a name="userdocs"></a><div class="titlepage"><div><h4 class="title"><a name="userdocs"></a>User Documents</h4></div></div><p>
+          Aside from the <i>GNOME User Guide</i>,
+          there are several other documents to help GNOME users learn
+          GNOME, including the <i>GNOME FAQ</i>,
+          <i>GNOME Installation and Configuration
+          Guide</i>, and the <i>GNOME Administrators
+          Guide</i>.
+        </p></div><div class="sect3"><a name="developerdocs"></a><div class="titlepage"><div><h4 class="title"><a name="developerdocs"></a>Developer Documents</h4></div></div><p>
+          There are many White Papers, Tutorials, HOWTO's and FAQ's to
+          make programming GNOME and GNOME applications as easy as
+          possible.
+        </p><p>
+          API documentation is also available for the GNOME libraries. This is
+          detailed documentation of the code that is used to build GNOME
+          apps. You can keep up with the GNOME API docs on the <a href="http://developer.gnome.org/doc/API/" target="_top">GNOME API
+          Reference</a> page.
+        </p></div><div class="sect3"><a name="projectdocs"></a><div class="titlepage"><div><h4 class="title"><a name="projectdocs"></a>Project Documents</h4></div></div><p>
+          Some GNOME projects have documentation to maintain
+          consistency in their product and to help new contributors
+          get up to speed quickly. Among these are the GDP documents,
+          such as the one you are reading now.
+        </p></div></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a href="indexs02.html">Prev</a> </td><td width="20%" align="center"><a href="index.html">Home</a></td><td width="40%" align="right"> <a href="indexs04.html">Next</a></td></tr><tr><td width="40%" align="left">Getting Started Writing GNOME Documentation </td><td width="20%" align="center"><a href="index.html">Up</a></td><td width="40%" align="right"> DocBook Basics </td></tr></table></div></body></html>

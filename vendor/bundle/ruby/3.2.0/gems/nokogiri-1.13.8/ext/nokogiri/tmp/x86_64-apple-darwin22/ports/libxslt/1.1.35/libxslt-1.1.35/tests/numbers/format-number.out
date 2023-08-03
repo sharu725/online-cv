@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<format-number>
+  <fixes>
+    one prefix3.14suffix
+    two -_3.14_
+    three -_003.1415_
+    four _(3.1)_
+    five prefix3*14suffix
+  </fixes>
+  <point-test>
+    format-number(-1.0,'#'  ) = -1
+    format-number(-0.5,'#'  ) = -1
+    format-number( 0.0,'#'  ) = 0
+    format-number( 0.5,'#'  ) = 1
+    format-number( 1.0,'#'  ) = 1
+  </point-test>
+  <point-test>
+    format-number(-1.0,'0'  ) = -1
+    format-number(-0.5,'0'  ) = -1
+    format-number( 0.0,'0'  ) = 0
+    format-number( 0.5,'0'  ) = 1
+    format-number( 1.0,'0'  ) = 1
+  </point-test>
+  <point-test>
+    format-number(-1.0, '.' ) = -1.
+    format-number(-0.5, '.' ) = -1.
+    format-number( 0.0, '.' ) = 0.
+    format-number( 0.5, '.' ) = 1.
+    format-number( 1.0, '.' ) = 1.
+  </point-test>
+  <point-test>
+    format-number(-1.0,'#.' ) = -1.
+    format-number(-0.5,'#.' ) = -1.
+    format-number( 0.0,'#.' ) = 0.
+    format-number( 0.5,'#.' ) = 1.
+    format-number( 1.0,'#.' ) = 1.
+  </point-test>
+  <point-test>
+    format-number(-1.0,'0.' ) = -1.
+    format-number(-0.5,'0.' ) = -1.
+    format-number( 0.0,'0.' ) = 0.
+    format-number( 0.5,'0.' ) = 1.
+    format-number( 1.0,'0.' ) = 1.
+  </point-test>
+  <point-test>
+    format-number(-1.0, '.#') = -1.0
+    format-number(-0.5, '.#') = -.5
+    format-number( 0.0, '.#') = .0
+    format-number( 0.5, '.#') = .5
+    format-number( 1.0, '.#') = 1.0
+  </point-test>
+  <point-test>
+    format-number(-1.0, '.##') = -1.0
+    format-number(-0.5, '.##') = -.5
+    format-number( 0.0, '.##') = .0
+    format-number( 0.5, '.##') = .5
+    format-number( 1.0, '.##') = 1.0
+  </point-test>
+  <point-test>
+    format-number(-1.0, '.0') = -1.0
+    format-number(-0.5, '.0') = -.5
+    format-number( 0.0, '.0') = .0
+    format-number( 0.5, '.0') = .5
+    format-number( 1.0, '.0') = 1.0
+  </point-test>
+  <point-test>
+    format-number(-1.0,'#.#') = -1
+    format-number(-0.5,'#.#') = -0.5
+    format-number( 0.0,'#.#') = 0
+    format-number( 0.5,'#.#') = 0.5
+    format-number( 1.0,'#.#') = 1
+  </point-test>
+  <point-test>
+    format-number(-1.0,'0.0') = -1.0
+    format-number(-0.5,'0.0') = -0.5
+    format-number( 0.0,'0.0') = 0.0
+    format-number( 0.5,'0.0') = 0.5
+    format-number( 1.0,'0.0') = 1.0
+  </point-test>
+  <point-test>
+    format-number(-1.0,'#.0') = -1.0
+    format-number(-0.5,'#.0') = -.5
+    format-number( 0.0,'#.0') = .0
+    format-number( 0.5,'#.0') = .5
+    format-number( 1.0,'#.0') = 1.0
+  </point-test>
+  <point-test>
+    format-number(-1.0,'0.#') = -1
+    format-number(-0.5,'0.#') = -0.5
+    format-number( 0.0,'0.#') = 0
+    format-number( 0.5,'0.#') = 0.5
+    format-number( 1.0,'0.#') = 1
+  </point-test>
+</format-number>

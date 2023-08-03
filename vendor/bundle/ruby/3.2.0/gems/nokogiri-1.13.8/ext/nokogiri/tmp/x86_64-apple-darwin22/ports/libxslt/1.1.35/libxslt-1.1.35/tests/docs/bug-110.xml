@@ -1,0 +1,9 @@
+<!DOCTYPE root [ 
+<!ATTLIST elem id ID #IMPLIED> 
+<!ENTITY target SYSTEM "bug-110.ent"> 
+]> 
+ 
+<root> 
+  &target;
+  <!-- <elem id='id0' /> --> 
+</root> 

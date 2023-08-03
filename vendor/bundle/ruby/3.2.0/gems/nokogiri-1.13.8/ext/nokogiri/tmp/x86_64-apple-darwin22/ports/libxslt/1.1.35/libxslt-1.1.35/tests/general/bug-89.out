@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<todo>
+<domain add="task" del="domain" id="id2588147">
+<name replace="PCDATA" id="id2588150">job</name>
+<task replace="PCDATA" add="task" id="id2588154">to this</task>
+<task replace="PCDATA" add="task" id="id2589156">undefined</task>
+</domain>
+<domain add="task" del="domain" id="id2588996">
+<name replace="PCDATA" id="id2588515">courses</name>
+<task replace="PCDATA" add="task" id="id2588931">undefined</task>
+</domain>
+</todo>

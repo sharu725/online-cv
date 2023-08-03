@@ -1,0 +1,13 @@
+<format-number>
+  <fixes>
+    <pi>3.1415</pi>
+    <negpi>-3.1415</negpi>
+  </fixes>
+  <point-test>
+    <number>-1.0</number>
+    <number>-0.5</number>
+    <number> 0.0</number>
+    <number> 0.5</number>
+    <number> 1.0</number>
+  </point-test>
+</format-number>

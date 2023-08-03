@@ -1,0 +1,2 @@
+compilation error: file ./bug-202.xsl line 3 element decimal-format
+xsl:decimal-format: Invalid QName 'testns:0format'.

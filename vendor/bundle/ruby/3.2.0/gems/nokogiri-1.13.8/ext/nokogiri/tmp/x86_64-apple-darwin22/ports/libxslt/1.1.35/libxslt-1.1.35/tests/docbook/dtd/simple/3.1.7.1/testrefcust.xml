@@ -1,0 +1,10 @@
+<!DOCTYPE refentry SYSTEM "sdocbookref-custom.dtd">
+<refentry>
+<refnamediv>
+<refname>test</refname>
+<refpurpose>just testing</refpurpose>
+</refnamediv>
+<refsect1><title>description</title>
+<para>just a test.</para>
+</refsect1>
+</refentry>

@@ -1,0 +1,1 @@
+date:parse-date('20160101120000','yyyyMMddkkmmss')

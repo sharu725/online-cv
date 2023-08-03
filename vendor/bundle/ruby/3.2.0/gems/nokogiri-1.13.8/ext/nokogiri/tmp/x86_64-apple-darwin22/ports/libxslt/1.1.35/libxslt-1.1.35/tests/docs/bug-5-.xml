@@ -1,0 +1,475 @@
+<?xml version="1.0"?>
+<XMLDATA>
+<RUNDATE>Wed Apr  4 23:00:55 2001 GMT</RUNDATE>
+<GROUP type="PRODUCT" name="Apple">
+<GROUP type="ACTION" name="PICK">
+<GROUP type="REC" name="Non-Recurring">
+<ROW>
+<NUM>1</NUM>
+<PRODUCT>Apple</PRODUCT>
+<REC>Non-Recurring</REC>
+<SEGMENT>Birch</SEGMENT>
+<PREV>0</PREV>
+<AREV>50</AREV>
+<ACTION>PICK</ACTION>
+</ROW>
+</GROUP>
+</GROUP>
+<GROUP type="ACTION" name="EAT">
+<GROUP type="REC" name="Non-Recurring">
+<ROW>
+<NUM>6</NUM>
+<PRODUCT>Apple</PRODUCT>
+<REC>Non-Recurring</REC>
+<SEGMENT>Pine</SEGMENT>
+<PREV>0</PREV>
+<AREV>0</AREV>
+<ACTION>EAT</ACTION>
+</ROW>
+<ROW>
+<NUM>60</NUM>
+<PRODUCT>Apple</PRODUCT>
+<REC>Non-Recurring</REC>
+<SEGMENT>Elm</SEGMENT>
+<PREV>0</PREV>
+<AREV>0</AREV>
+<ACTION>EAT</ACTION>
+</ROW>
+<ROW>
+<NUM>2</NUM>
+<PRODUCT>Apple</PRODUCT>
+<REC>Non-Recurring</REC>
+<SEGMENT>Birch</SEGMENT>
+<PREV>0</PREV>
+<AREV>0</AREV>
+<ACTION>EAT</ACTION>
+</ROW>
+</GROUP>
+</GROUP>
+<GROUP type="ACTION" name="SQUEEZE">
+<GROUP type="REC" name="Recurring">
+<ROW>
+<NUM>7</NUM>
+<PRODUCT>Apple</PRODUCT>
+<REC>Recurring</REC>
+<SEGMENT>Pine</SEGMENT>
+<PREV>19250</PREV>
+<AREV>16.61</AREV>
+<ACTION>SQUEEZE</ACTION>
+</ROW>
+<ROW>
+<NUM>96</NUM>
+<PRODUCT>Apple</PRODUCT>
+<REC>Recurring</REC>
+<SEGMENT>Elm</SEGMENT>
+<PREV>220000</PREV>
+<AREV>11.76</AREV>
+<ACTION>SQUEEZE</ACTION>
+</ROW>
+<ROW>
+<NUM>6</NUM>
+<PRODUCT>Apple</PRODUCT>
+<REC>Recurring</REC>
+<SEGMENT>Birch</SEGMENT>
+<PREV>16500</PREV>
+<AREV>7.16</AREV>
+<ACTION>SQUEEZE</ACTION>
+</ROW>
+</GROUP>
+</GROUP>
+</GROUP>
+<GROUP type="PRODUCT" name="Orange">
+<GROUP type="ACTION" name="PICK">
+<GROUP type="REC" name="Non-Recurring">
+<ROW>
+<NUM>34</NUM>
+<PRODUCT>Orange</PRODUCT>
+<REC>Non-Recurring</REC>
+<SEGMENT>Pine</SEGMENT>
+<PREV>0</PREV>
+<AREV>1420</AREV>
+<ACTION>PICK</ACTION>
+</ROW>
+<ROW>
+<NUM>1</NUM>
+<PRODUCT>Orange</PRODUCT>
+<REC>Non-Recurring</REC>
+<SEGMENT>Almond</SEGMENT>
+<PREV>0</PREV>
+<AREV>25</AREV>
+<ACTION>PICK</ACTION>
+</ROW>
+<ROW>
+<NUM>8</NUM>
+<PRODUCT>Orange</PRODUCT>
+<REC>Non-Recurring</REC>
+<SEGMENT>Birch</SEGMENT>
+<PREV>0</PREV>
+<AREV>300</AREV>
+<ACTION>PICK</ACTION>
+</ROW>
+<ROW>
+<NUM>186</NUM>
+<PRODUCT>Orange</PRODUCT>
+<REC>Non-Recurring</REC>
+<SEGMENT>Elm</SEGMENT>
+<PREV>0</PREV>
+<AREV>6555</AREV>
+<ACTION>PICK</ACTION>
+</ROW>
+</GROUP>
+<GROUP type="REC" name="Recurring">
+<ROW>
+<NUM>36</NUM>
+<PRODUCT>Orange</PRODUCT>
+<REC>Recurring</REC>
+<SEGMENT>Pine</SEGMENT>
+<PREV>171000</PREV>
+<AREV>221.3</AREV>
+<ACTION>PICK</ACTION>
+</ROW>
+<ROW>
+<NUM>240</NUM>
+<PRODUCT>Orange</PRODUCT>
+<REC>Recurring</REC>
+<SEGMENT>Elm</SEGMENT>
+<PREV>950000</PREV>
+<AREV>1412.34</AREV>
+<ACTION>PICK</ACTION>
+</ROW>
+<ROW>
+<NUM>8</NUM>
+<PRODUCT>Orange</PRODUCT>
+<REC>Recurring</REC>
+<SEGMENT>Birch</SEGMENT>
+<PREV>38000</PREV>
+<AREV>30.84</AREV>
+<ACTION>PICK</ACTION>
+</ROW>
+</GROUP>
+</GROUP>
+<GROUP type="ACTION" name="EAT">
+<GROUP type="REC" name="Non-Recurring">
+<ROW>
+<NUM>34</NUM>
+<PRODUCT>Orange</PRODUCT>
+<REC>Non-Recurring</REC>
+<SEGMENT>Pine</SEGMENT>
+<PREV>0</PREV>
+<AREV>0</AREV>
+<ACTION>EAT</ACTION>
+</ROW>
+<ROW>
+<NUM>1</NUM>
+<PRODUCT>Orange</PRODUCT>
+<REC>Non-Recurring</REC>
+<SEGMENT>Almond</SEGMENT>
+<PREV>0</PREV>
+<AREV>0</AREV>
+<ACTION>EAT</ACTION>
+</ROW>
+<ROW>
+<NUM>62</NUM>
+<PRODUCT>Orange</PRODUCT>
+<REC>Non-Recurring</REC>
+<SEGMENT>Elm</SEGMENT>
+<PREV>0</PREV>
+<AREV>0</AREV>
+<ACTION>EAT</ACTION>
+</ROW>
+<ROW>
+<NUM>4</NUM>
+<PRODUCT>Orange</PRODUCT>
+<REC>Non-Recurring</REC>
+<SEGMENT>Birch</SEGMENT>
+<PREV>0</PREV>
+<AREV>0</AREV>
+<ACTION>EAT</ACTION>
+</ROW>
+</GROUP>
+<GROUP type="REC" name="Recurring">
+<ROW>
+<NUM>8</NUM>
+<PRODUCT>Orange</PRODUCT>
+<REC>Recurring</REC>
+<SEGMENT>Birch</SEGMENT>
+<PREV>0</PREV>
+<AREV>0</AREV>
+<ACTION>EAT</ACTION>
+</ROW>
+</GROUP>
+</GROUP>
+<GROUP type="ACTION" name="SQUEEZE">
+<GROUP type="REC" name="Recurring">
+<ROW>
+<NUM>36</NUM>
+<PRODUCT>Orange</PRODUCT>
+<REC>Recurring</REC>
+<SEGMENT>Pine</SEGMENT>
+<PREV>171000</PREV>
+<AREV>221.3</AREV>
+<ACTION>SQUEEZE</ACTION>
+</ROW>
+<ROW>
+<NUM>80</NUM>
+<PRODUCT>Orange</PRODUCT>
+<REC>Recurring</REC>
+<SEGMENT>Elm</SEGMENT>
+<PREV>380000</PREV>
+<AREV>470.78</AREV>
+<ACTION>SQUEEZE</ACTION>
+</ROW>
+<ROW>
+<NUM>4</NUM>
+<PRODUCT>Orange</PRODUCT>
+<REC>Recurring</REC>
+<SEGMENT>Birch</SEGMENT>
+<PREV>19000</PREV>
+<AREV>15.42</AREV>
+<ACTION>SQUEEZE</ACTION>
+</ROW>
+<ROW>
+<NUM>3</NUM>
+<PRODUCT>Orange</PRODUCT>
+<REC>Recurring</REC>
+<SEGMENT>Almond</SEGMENT>
+<PREV>14250</PREV>
+<AREV>23.25</AREV>
+<ACTION>SQUEEZE</ACTION>
+</ROW>
+</GROUP>
+</GROUP>
+</GROUP>
+<GROUP type="PRODUCT" name="Banana">
+<GROUP type="ACTION" name="PICK">
+<GROUP type="REC" name="Non-Recurring">
+<ROW>
+<NUM>2</NUM>
+<PRODUCT>Banana</PRODUCT>
+<REC>Non-Recurring</REC>
+<SEGMENT>Elm</SEGMENT>
+<PREV>0</PREV>
+<AREV>100</AREV>
+<ACTION>PICK</ACTION>
+</ROW>
+</GROUP>
+<GROUP type="REC" name="Recurring">
+<ROW>
+<NUM>1</NUM>
+<PRODUCT>Banana</PRODUCT>
+<REC>Recurring</REC>
+<SEGMENT>Pine</SEGMENT>
+<PREV>12250</PREV>
+<AREV>12.25</AREV>
+<ACTION>PICK</ACTION>
+</ROW>
+<ROW>
+<NUM>6</NUM>
+<PRODUCT>Banana</PRODUCT>
+<REC>Recurring</REC>
+<SEGMENT>Elm</SEGMENT>
+<PREV>73500</PREV>
+<AREV>78.4</AREV>
+<ACTION>PICK</ACTION>
+</ROW>
+<ROW>
+<NUM>1</NUM>
+<PRODUCT>Banana</PRODUCT>
+<REC>Recurring</REC>
+<SEGMENT>Almond</SEGMENT>
+<PREV>12250</PREV>
+<AREV>12.25</AREV>
+<ACTION>PICK</ACTION>
+</ROW>
+</GROUP>
+</GROUP>
+<GROUP type="ACTION" name="EAT">
+<GROUP type="REC" name="Recurring">
+<ROW>
+<NUM>1</NUM>
+<PRODUCT>Banana</PRODUCT>
+<REC>Recurring</REC>
+<SEGMENT>Almond</SEGMENT>
+<PREV>12250</PREV>
+<AREV>0</AREV>
+<ACTION>EAT</ACTION>
+</ROW>
+</GROUP>
+</GROUP>
+</GROUP>
+<GROUP type="PRODUCT" name="Nectarine">
+<GROUP type="ACTION" name="SQUEEZE">
+<GROUP type="REC" name="Recurring">
+<ROW>
+<NUM>1</NUM>
+<PRODUCT>Nectarine</PRODUCT>
+<REC>Recurring</REC>
+<SEGMENT>Pine</SEGMENT>
+<PREV>5950</PREV>
+<AREV>-5.95</AREV>
+<ACTION>SQUEEZE</ACTION>
+</ROW>
+</GROUP>
+</GROUP>
+</GROUP>
+<GROUP type="PRODUCT" name="Pineapple">
+<GROUP type="ACTION" name="PICK">
+<GROUP type="REC" name="Non-Recurring">
+<ROW>
+<NUM>1</NUM>
+<PRODUCT>Pineapple</PRODUCT>
+<REC>Non-Recurring</REC>
+<SEGMENT>Pine</SEGMENT>
+<PREV>0</PREV>
+<AREV>50</AREV>
+<ACTION>PICK</ACTION>
+</ROW>
+</GROUP>
+<GROUP type="REC" name="Recurring">
+<ROW>
+<NUM>2</NUM>
+<PRODUCT>Pineapple</PRODUCT>
+<REC>Recurring</REC>
+<SEGMENT>Pine</SEGMENT>
+<PREV>17500</PREV>
+<AREV>8.75</AREV>
+<ACTION>PICK</ACTION>
+</ROW>
+<ROW>
+<NUM>1</NUM>
+<PRODUCT>Pineapple</PRODUCT>
+<REC>Recurring</REC>
+<SEGMENT>Birch</SEGMENT>
+<PREV>6250</PREV>
+<AREV>10</AREV>
+<ACTION>PICK</ACTION>
+</ROW>
+</GROUP>
+</GROUP>
+<GROUP type="ACTION" name="EAT">
+<GROUP type="REC" name="Non-Recurring">
+<ROW>
+<NUM>1</NUM>
+<PRODUCT>Pineapple</PRODUCT>
+<REC>Non-Recurring</REC>
+<SEGMENT>Elm</SEGMENT>
+<PREV>0</PREV>
+<AREV>0</AREV>
+<ACTION>EAT</ACTION>
+</ROW>
+</GROUP>
+</GROUP>
+<GROUP type="ACTION" name="SQUEEZE">
+<GROUP type="REC" name="Recurring">
+<ROW>
+<NUM>2</NUM>
+<PRODUCT>Pineapple</PRODUCT>
+<REC>Recurring</REC>
+<SEGMENT>Elm</SEGMENT>
+<PREV>12500</PREV>
+<AREV>4.38</AREV>
+<ACTION>SQUEEZE</ACTION>
+</ROW>
+</GROUP>
+</GROUP>
+</GROUP>
+<GROUP type="PRODUCT" name="Coconut">
+<GROUP type="ACTION" name="PICK">
+<GROUP type="REC" name="Recurring">
+<ROW>
+<NUM>1</NUM>
+<PRODUCT>Coconut</PRODUCT>
+<REC>Recurring</REC>
+<SEGMENT>Elm</SEGMENT>
+<PREV>13750</PREV>
+<AREV>17.87</AREV>
+<ACTION>PICK</ACTION>
+</ROW>
+</GROUP>
+</GROUP>
+</GROUP>
+<GROUP type="PRODUCT" name="Guava">
+<GROUP type="ACTION" name="SQUEEZE">
+<GROUP type="REC" name="Recurring">
+<ROW>
+<NUM>1</NUM>
+<PRODUCT>Guava</PRODUCT>
+<REC>Recurring</REC>
+<SEGMENT>Pine</SEGMENT>
+<PREV>14995</PREV>
+<AREV>-19.49</AREV>
+<ACTION>SQUEEZE</ACTION>
+</ROW>
+</GROUP>
+</GROUP>
+</GROUP>
+<GROUP type="PRODUCT" name="Pear">
+<GROUP type="ACTION" name="PICK">
+<GROUP type="REC" name="Recurring">
+<ROW>
+<NUM>1</NUM>
+<PRODUCT>Pear</PRODUCT>
+<REC>Recurring</REC>
+<SEGMENT>Pine</SEGMENT>
+<PREV>29995</PREV>
+<AREV>38.99</AREV>
+<ACTION>PICK</ACTION>
+</ROW>
+</GROUP>
+</GROUP>
+</GROUP>
+<GROUP type="PRODUCT" name="Raisin">
+<GROUP type="ACTION" name="EAT">
+<GROUP type="REC" name="Non-Recurring">
+<ROW>
+<NUM>17</NUM>
+<PRODUCT>Raisin</PRODUCT>
+<REC>Non-Recurring</REC>
+<SEGMENT>Oak</SEGMENT>
+<PREV>0</PREV>
+<AREV>0</AREV>
+<ACTION>EAT</ACTION>
+</ROW>
+</GROUP>
+</GROUP>
+<GROUP type="ACTION" name="SQUEEZE">
+<GROUP type="REC" name="Recurring">
+<ROW>
+<NUM>15</NUM>
+<PRODUCT>Raisin</PRODUCT>
+<REC>Recurring</REC>
+<SEGMENT>Oak</SEGMENT>
+<PREV>299925</PREV>
+<AREV>227.95</AREV>
+<ACTION>SQUEEZE</ACTION>
+</ROW>
+</GROUP>
+</GROUP>
+</GROUP>
+<GROUP type="PRODUCT" name="Fig">
+<GROUP type="ACTION" name="PICK">
+<GROUP type="REC" name="Non-Recurring">
+<ROW>
+<NUM>1</NUM>
+<PRODUCT>Fig</PRODUCT>
+<REC>Non-Recurring</REC>
+<SEGMENT>Oak</SEGMENT>
+<PREV>0</PREV>
+<AREV>50</AREV>
+<ACTION>PICK</ACTION>
+</ROW>
+</GROUP>
+<GROUP type="REC" name="Recurring">
+<ROW>
+<NUM>2</NUM>
+<PRODUCT>Fig</PRODUCT>
+<REC>Recurring</REC>
+<SEGMENT>Oak</SEGMENT>
+<PREV>74990</PREV>
+<AREV>86.24</AREV>
+<ACTION>PICK</ACTION>
+</ROW>
+</GROUP>
+</GROUP>
+</GROUP>
+</XMLDATA>

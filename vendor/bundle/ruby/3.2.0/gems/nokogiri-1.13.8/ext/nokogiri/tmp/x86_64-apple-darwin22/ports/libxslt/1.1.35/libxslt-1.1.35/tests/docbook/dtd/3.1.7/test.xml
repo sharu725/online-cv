@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<!DOCTYPE book PUBLIC "-//Norman Walsh//DTD DocBk XML V3.1.7//EN" 
+               "docbookx.dtd">
+<book><title>foo</title>
+
+<chapter><title>bar</title>
+
+<para>
+foo
+</para>
+
+<informaltable>
+<tgroup cols="1">
+<tbody>
+<row>
+<entry>foo</entry></row>
+<row><entry>bar</entry></row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<table><title>bar</title>
+<tgroup cols="1">
+<tbody>
+<row><entry>bar</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+</chapter>
+
+<glossary>
+<glossentry><glossterm>foo</glossterm>
+<indexterm><primary>foo</primary></indexterm>
+<glossdef>
+<para>
+Some appropriate definition goes here.
+</para>
+</glossdef>
+</glossentry>
+</glossary>
+
+</book>

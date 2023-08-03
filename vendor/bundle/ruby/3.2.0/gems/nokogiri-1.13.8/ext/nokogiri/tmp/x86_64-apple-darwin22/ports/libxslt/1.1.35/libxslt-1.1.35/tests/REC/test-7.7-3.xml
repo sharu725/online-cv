@@ -1,0 +1,28 @@
+<book>
+  <chapter>
+    <title>First Chapter</title>
+      Here is some text.
+    <section>
+      <title>First Chapter, First Section</title>
+        More text here.
+      <subsection>
+        <title>First Chapter, First Section, First Subsection</title>
+      </subsection>
+      <subsection>
+        <title>First Chapter, First Section, Second Subsection</title>
+      </subsection>
+    </section>
+  </chapter>
+  <chapter>
+    <title>Second Chapter</title>
+  </chapter>
+  <appendix>
+    <title>First Appendix</title>
+    <section>
+      <title>First Appendix, First Section</title>
+    </section>
+  </appendix>
+  <appendix>
+    <title>Second Appendix</title>
+  </appendix>
+</book>

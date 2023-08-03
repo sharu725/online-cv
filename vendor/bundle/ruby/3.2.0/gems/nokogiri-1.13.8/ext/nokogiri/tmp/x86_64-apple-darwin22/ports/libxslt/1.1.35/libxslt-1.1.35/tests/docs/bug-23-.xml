@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<article>
+  <indexterm><primary>A</primary></indexterm>
+  <indexterm><primary>B</primary></indexterm>
+  <indexterm><primary>C</primary></indexterm>
+  <indexterm><primary>B</primary><secondary>A</secondary></indexterm>
+  <indexterm><primary>B</primary><secondary>B</secondary></indexterm>
+  <indexterm><primary>B</primary><secondary>BA</secondary></indexterm>
+  <indexterm><primary>B</primary><secondary>C</secondary></indexterm>
+  <indexterm><primary>B</primary><secondary>CB</secondary></indexterm>
+  <indexterm><primary>B</primary><secondary>C A</secondary></indexterm>
+  <indexterm><primary>B</primary><secondary>CBA</secondary></indexterm>
+  <indexterm><primary>B</primary><secondary>C-A</secondary></indexterm>
+  <indexterm><primary>B</primary><secondary>CDA</secondary></indexterm>
+</article>
+
+
+
+
+
+

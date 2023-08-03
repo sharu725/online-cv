@@ -1,0 +1,22 @@
+<!-- ====================================================================== -->
+<!-- Simplified DocBk XML RefEntry V3.1.7.1 DTD
+     Copyright (C) 1999 Norman Walsh
+     http://nwalsh.com/docbook/simple/
+
+     See COPYRIGHT for more information
+
+     Please direct all questions and comments about this DTD to
+     Norman Walsh, <ndw@nwalsh.com>.
+                                                                            -->
+<!-- ====================================================================== -->
+
+<!ENTITY % include.refentry "INCLUDE">
+
+<!ENTITY % local.refclass.char.mix "">
+<!ENTITY % refclass.char.mix
+		"#PCDATA
+		%local.refclass.char.mix;">
+
+<!ENTITY % sdocbook-custom.dtd SYSTEM "sdocbook-custom.dtd">
+%sdocbook-custom.dtd;
+

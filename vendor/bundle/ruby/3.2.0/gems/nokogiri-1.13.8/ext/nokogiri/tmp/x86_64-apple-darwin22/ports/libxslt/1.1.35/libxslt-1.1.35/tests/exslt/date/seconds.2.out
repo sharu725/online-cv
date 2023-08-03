@@ -1,0 +1,25 @@
+
+seconds : P10H
+result  : NaN
+seconds : P-T10D
+result  : NaN
+seconds : PT-10D
+result  : NaN
+seconds : --PT10H
+result  : NaN
+seconds : PYT0.00001S
+result  : NaN
+seconds : PT49.00001
+result  : NaN
+seconds : P0Y0MDT10H10M10.09S
+result  : NaN
+seconds : --10-29
+result  : NaN
+seconds : ---29
+result  : NaN
+seconds : 10:31:07
+result  : NaN
+seconds : P10Y20M100DT40H61M100S
+result  : NaN
+seconds : P10000Y
+result  : NaN

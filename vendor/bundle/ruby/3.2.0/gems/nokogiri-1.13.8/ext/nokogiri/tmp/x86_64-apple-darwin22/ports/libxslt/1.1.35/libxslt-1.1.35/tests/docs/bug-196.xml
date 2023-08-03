@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pi first?>
+<root>
+    <?pi second?>
+    <foo>
+        <?pi third?>
+    </foo>
+</root>
+<?pi fourth?>

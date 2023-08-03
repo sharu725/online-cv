@@ -1,0 +1,15 @@
+<x:stylesheet xmlns:x="http://www.w3.org/1999/XSL/Transform" version="1.0">
+<x:decimal-format name="f"
+decimal-separator="•" grouping-separator="`"
+infinity="∞" minus-sign="–" NaN="🀀"
+percent="⁄" per-mille="*"
+zero-digit="0" digit="÷"
+pattern-separator="|"/>
+<x:template match="*">
+<n><x:value-of select="format-number(123456789.123456,'_÷÷`÷`00•00÷÷_','f')"/></n>
+<n><x:value-of select="format-number(-1.5,'÷•÷*|–0•0⁄','f')"/></n>
+<n><x:value-of select="format-number(-1 div 0,'0','f')"/></n>
+<n><x:value-of select="format-number(0 div 0,'0','f')"/></n>
+</x:template>
+</x:stylesheet>
+

@@ -1,0 +1,494 @@
+2000-08-29  Norman Walsh  <ndw@nwalsh.com>
+
+	* docbook.xsl: Support html.base parameter
+
+	* param.xsl: Made parameters into xsl:params instead of xsl:variables
+
+2000-08-08  Norman Walsh  <ndw@nwalsh.com>
+
+	* lists.xsl: Support numeration on orderedlists, mark and override with CSS
+
+	* param.xsl: Added css.decoration parameter
+
+	* xref.xsl: Support new ulink semantics; an empty ulink prints the URL as its content
+
+2000-07-21  Norman Walsh  <ndw@nwalsh.com>
+
+	* biblio.xsl: Support bibliographyinfo; improve handling of copyright holders
+
+	* block.xsl: Support attribution on blockquote
+
+	* chunk.xsl: Add root.filename parameter to rename 'index.html'
+
+	* ebnf.xsl, param.xsl: Add exclude-result-prefixes for the doc: namespace
+
+	* footnote.xsl: Improve formatting of footnote numbers
+
+	* inline.xsl: Support IDs on inlines; fix priority problem on parameter
+
+	* qandaset.xsl: Keep revhistory out of qandaset tocs
+
+	* table.xsl: Support tfoot
+
+	* titlepage.templates.xml, titlepage.templates.xsl: Output legalnotice on titlepages
+
+	* xref.xsl: Support IDs on links
+
+2000-06-25  Norman Walsh  <ndw@nwalsh.com>
+
+	* chunk.xsl, docbook.xsl: Use attribute set for body attributes
+
+	* graphics.xsl: Start adding support for graphic extensions
+
+	* param.xsl: Add body.attrs and move qanda params into here
+
+	* qandaset.xsl: Moved qanda params into param.xsl; changed to 0/1 for command-line setting
+
+	* xref.xsl: Support xref to Q and A
+
+2000-05-21  Norman Walsh  <ndw@nwalsh.com>
+
+	* block.xsl: Handle sidebar titles more flexibly
+
+	* chunk.xsl, xtchunk.xsl: Support chunking with xalan (sortof) and saxon in addition to xt
+
+	* formal.xsl: Improve spacing around formal and informal objects
+
+	* info.xsl: Handle jobtitle, orgname, and orgdiv in other contexts
+
+	* param.xsl: Added spacing.paras
+
+2000-05-07  Norman Walsh  <ndw@nwalsh.com>
+
+	* xtchunk.xsl: Strip dbhtml PIs from the HTML output after chunking
+
+2000-04-19  Norman Walsh  <ndw@nwalsh.com>
+
+	* ebnf.xsl: More hacking
+
+	* glossary.xsl: Glossary title formatting made to conform to the model of other titles
+
+	* lists.xsl: Added ids to listitems; fixed simplelist formatting
+
+	* xref.xsl: Some templates moved to common; support endterm
+
+2000-04-06  Norman Walsh  <ndw@nwalsh.com>
+
+	* ebnf.xsl: New file.
+
+	* inline.xsl: Support new class values on sgmltag
+
+	* lists.xsl: Support titles on ordered and itemized lists
+
+	* synop.xsl: Support classsynopsis
+
+	* xref.xsl: Added xpointer.idref, check.idref.targets, and check.id.unique
+
+2000-04-03  Norman Walsh  <ndw@nwalsh.com>
+
+	* lists.xsl: Fixed bug in tabular simplelist presentation
+
+	* xref.xsl: Fixed message typo
+
+2000-03-23  Norman Walsh  <ndw@nwalsh.com>
+
+	* admon.xsl, autotoc.xsl, html.xsl, inline.xsl, lists.xsl, param.xsl, refentry.xsl, synop.xsl: 
+	Change boolean stylesheet variables to use 0/1 instead of true()/false() to avoid representation issues when setting them from the command line
+
+	* inline.xsl: Improve formatting of functions
+
+	* param.xsl: Tweaked documentation; added (unused) use.id.function parameter
+
+	* xref.xsl: Switch to using id() for cross refs
+
+	* xtchunk.xsl: Fix error in test for parent of refentry
+
+2000-02-25  Norman Walsh  <ndw@nwalsh.com>
+
+	* biblio.xsl: Crude support for missing elements
+
+	* component.xsl, glossary.xsl: Support for new *info elements
+
+	* inline.xsl: Added exceptionname, interfacename, methodname, and remark
+
+	* param.xsl: Added check.idref
+
+	* xref.xsl: Added support for check.idref and href.target
+
+2000-02-18  Norman Walsh  <ndw@nwalsh.com>
+
+	* admon.xsl, biblio.xsl, block.xsl, callout.xsl, component.xsl, division.xsl, docbook.xsl, footnote.xsl, formal.xsl, glossary.xsl, graphics.xsl, html.xsl, index.xsl, info.xsl, inline.xsl, keywords.xsl, lists.xsl, math.xsl, param.xsl, pi.xsl, qandaset.xsl, refentry.xsl, sections.xsl, synop.xsl, table.xsl, titlepage.xsl, toc.xsl, verbatim.xsl, xref.xsl: 
+	Removed default xmlns for HTML; it didn't work the way I thought and caused problems with Xalan
+
+	* autotoc.xsl: Support changing the TOC list type
+
+	* docbook.xsl: Added user.head.content hook for adding additional HEAD tags
+
+	* inline.xsl: Made systemitem monospaced
+
+	* param.xsl: Added toc.list.type
+
+2000-02-16  Norman Walsh  <ndw@nwalsh.com>
+
+	* graphics.xsl: Improved support for mediaobject and inlinemediaobject
+
+	* lists.xsl: Handle title on step in procedure
+
+	* param.xsl: Added graphic.default.extension
+
+	* table.xsl: Changed the calculation of empty cells.
+
+	* titlepage.templates.xsl: Added version attribute
+
+	* xref.xsl: Fixed typo
+
+2000-02-07  Norman Walsh  <ndw@nwalsh.com>
+
+	* inline.xsl: Fixed bug in email formatting in verbatim environments
+
+	* lists.xsl: Added (broken) support for orderedlist continuation
+
+	* table.xsl: Fixed calculation of empty cells
+
+	* titlepage.templates.xsl: Regenerated to workaround attr name bug
+
+	* xref.xsl: Xref text changes for I18N; this could be buggy
+
+2000-01-27  Norman Walsh  <ndw@nwalsh.com>
+
+	* block.xsl: Support titles in MsgSet elements; support SimpleMsgEntry; support RevDescription
+
+	* docbook.xsl, titlepage.article.xsl, titlepage.book.xsl, titlepage.part.xsl, titlepage.reference.xsl, titlepage.section.xsl, titlepage.set.xsl, titlepage.templates.xml, titlepage.templates.xsl: 
+	Completely revamped titlepage code; it's now all template based
+
+	* lists.xsl: Support list titles
+
+	* param.xsl: Added section.label.includes.component.lable
+
+	* refentry.xsl: Support refentry *info meta
+
+	* sections.xsl: Fix section DIV class names
+
+	* titlepage.xsl: Support RevDescription
+
+2000-01-14  Norman Walsh  <ndw@nwalsh.com>
+
+	* docbook.xsl: Display message about unmatched tags
+
+	* index.xsl: Don't output anything for a completely empty index
+
+	* param.xsl: Fixed docbug
+
+	* xtchunk.xsl: Don't output a chunk for a completely blank index
+
+2000-01-11  Norman Walsh  <ndw@nwalsh.com>
+
+	* component.xsl, titlepage.article.xsl: Handle ArticleInfo (DocBook 4.0 :-)
+
+	* xtchunk.xsl: Fix bug calculating ischunk
+
+2000-01-10  Norman Walsh  <ndw@nwalsh.com>
+
+	* autotoc.xsl: Updated label.content (for recursion) and TOC name (for L10N)
+
+	* block.xsl: Added AckNo
+
+	* docbook.xsl, xref.xsl: Support anchor and olink; L10N of quotation marks
+
+	* index.xsl: Handle SetIndex and indexing inlines
+
+	* inline.xsl: Added constant, varname, and pob; L10N on quotation marks
+
+	* param.xsl: Made default html.stylesheet empty; added qandadiv.autolabel and qanda.inherit.numeration
+
+	* qandaset.xsl: New file.
+
+	* refentry.xsl: Added ref*info
+
+	* table.xsl: Support tfoot
+
+	* toc.xsl: Handle lot and descendants of toc and lot
+
+	* xref.xsl: Fixed xrefs to formal objects
+
+1999-12-28  Norman Walsh  <ndw@nwalsh.com>
+
+	* admon.xsl: Use admon.graphic.width
+
+	* autotoc.xsl, block.xsl, component.xsl, formal.xsl, sections.xsl, titlepage.xsl, xref.xsl: 
+	Updated to use new title generation code from common.xsl
+
+	* docbook.xsl: Reorganize HTML HEAD computation for xtchunk.xsl; use new title generation code
+
+	* html.xsl: Use Unicode chars for dingbats since we have a real serializer now
+
+	* param.xsl: Added part.autolabel, preface.autolabel, link.mailto.url, and tweaked documentation
+
+	* pi.xsl: Added dbhtml-attribute, dbhtml-dir, and dbhtml-filename (for xtchunk.xsl, mostly)
+
+	* xtchunk.xsl: Finished first pass at XT-based chunker
+
+	* xtchunk.xsl: Fixed typos; improved messages
+
+1999-12-24  Norman Walsh  <ndw@nwalsh.com>
+
+	* xtchunk.xsl: New file.
+
+1999-12-22  Norman Walsh  <ndw@nwalsh.com>
+
+	* autotoc.xsl: Created function href.target so xtchunk.xsl can override it
+
+	* division.xsl: Add some ID attributes
+
+	* param.xsl: More doc namespace fiddling
+
+	* table.xsl: Try to output nbsp when cells are empty
+
+	* xref.xsl: Output warning messages about broken IDREFs
+
+1999-11-23  Norman Walsh  <ndw@nwalsh.com>
+
+	* autotoc.xsl, sections.xsl: Split section label/title code, allow auto TOCs to link just the title
+
+	* graphics.xsl: Added support for align attribute on graphics
+
+	* table.xsl: Replace xsl:element with literal element
+
+1999-11-16  Norman Walsh  <ndw@nwalsh.com>
+
+	* graphics.xsl: Support fileref and entityref on external objects
+
+1999-11-10  Norman Walsh  <ndw@nwalsh.com>
+
+	* block.xsl: Don't put borders around revhistorys
+
+	* docbook.xsl: Produce HTML; handle a few more root titles
+
+1999-11-05  Norman Walsh  <ndw@nwalsh.com>
+
+	* docbookh.xsl: Rearranged code so this isn't necessary
+
+1999-11-03  Norman Walsh  <ndw@nwalsh.com>
+
+	* admon.xsl, autotoc.xsl, biblio.xsl, block.xsl, callout.xsl, component.xsl, division.xsl, docbook.xsl, docbookh.xsl, footnote.xsl, formal.xsl, glossary.xsl, graphics.xsl, html.xsl, index.xsl, info.xsl, inline.xsl, keywords.xsl, lists.xsl, math.xsl, param.xsl, pi.xsl, refentry.xsl, sections.xsl, synop.xsl, table.xsl, titlepage.article.xsl, titlepage.book.xsl, titlepage.part.xsl, titlepage.reference.xsl, titlepage.section.xsl, titlepage.set.xsl, titlepage.xsl, toc.xsl, verbatim.xsl, xref.xsl: 
+	Added default namespace and stylesheet version
+
+	* block.xsl: Support revhistory in block contexts
+
+1999-11-02  Norman Walsh  <ndw@nwalsh.com>
+
+	* autotoc.xsl: Added support for generate.{division|component}.toc
+
+	* block.xsl: Added space after formal para titles
+
+	* callout.xsl: Rudimentary support for callouts
+
+	* component.xsl: Support for label attribute on components
+
+	* html.xsl: Use disable-output-escaping to produce entity refs if the chunker isn't being used
+
+	* lists.xsl: More simplelist fixes, support for callouts
+
+	* param.xsl: Added documentation (there's no processor for it yet)
+
+	* refentry.xsl: Renamed refentry.function parameter to refentry.xref.manvolnum
+
+	* sections.xsl: Support for label attributes on sections
+
+1999-10-28  Norman Walsh  <ndw@nwalsh.com>
+
+	* autotoc.xsl: Format RefEntrys correctly in the TOC
+
+	* division.xsl: Make TOCs in Parts
+
+	* docbook.xsl: Try a little harder to find the title
+
+	* lists.xsl: Fix SimpleList formatting
+
+	* refentry.xsl: Fix RefName formatting; add TOCs to References; process RefEntry footnotes
+
+	* titlepage.xsl: Fix ID values on titles
+
+1999-10-22  Norman Walsh  <ndw@nwalsh.com>
+
+	* lists.xsl: Updated support for simplelist
+
+1999-10-21  Norman Walsh  <ndw@nwalsh.com>
+
+	* docbook.xsl: Add meta back to the head
+
+	* titlepage.article.xsl: Fixed URI
+
+1999-10-20  Norman Walsh  <ndw@nwalsh.com>
+
+	* admon.xsl, autotoc.xsl, biblio.xsl, block.xsl, callout.xsl, component.xsl, division.xsl, docbook.xsl, footnote.xsl, formal.xsl, glossary.xsl, graphics.xsl, html.xsl, index.xsl, info.xsl, inline.xsl, keywords.xsl, lists.xsl, math.xsl, param.xsl, pi.xsl, refentry.xsl, sections.xsl, synop.xsl, table.xsl, titlepage.book.xsl, titlepage.part.xsl, titlepage.reference.xsl, titlepage.section.xsl, titlepage.set.xsl, titlepage.xsl, toc.xsl, verbatim.xsl, xref.xsl: 
+	Update URI in all the included modules
+
+	* docbookh.xsl: New file.
+
+1999-10-18  Norman Walsh  <ndw@nwalsh.com>
+
+	* docbook.xsl: Added xsl:output, fixed URI for PR
+
+1999-09-27  Norman Walsh  <ndw@nwalsh.com>
+
+	* autotoc.xsl: Use DL instead of UL for auto TOCs (no bullets)
+
+1999-09-25  Norman Walsh  <ndw@nwalsh.com>
+
+	* xref.xsl: Improved xreflabel support, support for xref to cmdsynopsis and funcsynopsis
+
+1999-09-24  Norman Walsh  <ndw@nwalsh.com>
+
+	* autotoc.xsl: Made TOC entries 'hot'
+
+	* docbook.xsl: Moved PI handling to pi.xsl, use strip/preserve from common.xsl
+
+	* formal.xsl: Tidy up some code, make sure objects have anchors
+
+	* pi.xsl: New file.
+
+	* synop.xsl: Make sure synopses have anchors and IDs
+
+1999-08-19  Norman Walsh  <ndw@nwalsh.com>
+
+	* docbook.xsl: Removed default-space attribute
+
+	* lists.xsl: Fixed name/select bug on with-param
+
+1999-08-11  Norman Walsh  <ndw@nwalsh.com>
+
+	* autotoc.xsl: Support links from TOC
+
+	* lists.xsl: Reworked buggy call-template (used to contain xsl:if)
+
+	* sections.xsl: Support auto-label again
+
+	* titlepage.book.xsl, titlepage.part.xsl, titlepage.reference.xsl, titlepage.set.xsl: 
+	Removed unused named templates
+
+1999-07-31  Norman Walsh  <ndw@nwalsh.com>
+
+	* component.xsl: Fixed bad anchor name
+
+1999-07-27  Norman Walsh  <ndw@nwalsh.com>
+
+	* admon.xsl, autotoc.xsl, biblio.xsl, block.xsl, callout.xsl, component.xsl, division.xsl, docbook.xsl, footnote.xsl, formal.xsl, glossary.xsl, graphics.xsl, html.xsl, index.xsl, info.xsl, inline.xsl, lists.xsl, param.xsl, refentry.xsl, sections.xsl, synop.xsl, table.xsl, titlepage.article.xsl, titlepage.book.xsl, titlepage.part.xsl, titlepage.reference.xsl, titlepage.section.xsl, titlepage.set.xsl, titlepage.xsl, verbatim.xsl, xref.xsl: 
+	Updated to July spec
+
+1999-07-18  Norman Walsh  <ndw@nwalsh.com>
+
+	* admon.xsl, inline.xsl, titlepage.xsl: Mode bugs
+
+	* refentry.xsl: Removed bogus text
+
+1999-07-16  Norman Walsh  <ndw@nwalsh.com>
+
+	* lists.xsl: Fixed bug where match/name were misused
+
+1999-07-06  Norman Walsh  <ndw@nwalsh.com>
+
+	* component.xsl: Remodularized to support titles on components with optional titles
+
+	* footnote.xsl, table.xsl: Handle table footnotes properly
+
+	* refentry.xsl: Support numbering of references
+
+	* sections.xsl: Added inline.section.title
+
+	* xref.xsl: Remodularized to make customization of xrefs easier
+
+1999-07-02  Norman Walsh  <ndw@nwalsh.com>
+
+	* autotoc.xsl: Fixed bugs in toc generation; support for toc.section.depth
+
+	* block.xsl: Make a blockquote a blockquote; support abstract outside of info blocks
+
+	* division.xsl: Added support for numbering of Books and Parts
+
+	* docbook.xsl: Adjust includes, dbl10n becomes l10n, add toc
+
+	* glossary.xsl: Improvements to glossary and glosslist handling
+
+	* graphics.xsl: Add screenshot
+
+	* html.xsl: Test for using.chunker in dingbat output
+
+	* inline.xsl: Support inline persons (author, editor, othercredit), fix menuchoice, support productnumber
+
+	* lists.xsl: Allow xrefs to listitems in orderedlists, remove borders from tabular simplelists
+
+	* param.xsl: Added using.chunker and toc.section.depth
+
+	* refentry.xsl: Improve support for refentry page titles
+
+	* toc.xsl: New file.
+
+	* xref.xsl: Add support for xrefs to sections, appendixes, prefaces, books, and parts
+
+1999-06-14  Norman Walsh  <ndw@nwalsh.com>
+
+	* biblio.xsl: Significant improvements in bibliography support
+
+	* docbook.xsl: Added strip/preserve space support; fixed bug in HTML title header
+
+	* formal.xsl: Replaced an xsl:attribute element with a AVT
+
+	* info.xsl: Changed comments; added and then removed much more substantial changes
+
+	* keywords.xsl: New file.
+
+	* param.xsl: Added section.autolabel and biblioentry.item.separator
+
+	* sections.xsl: Added support for section titlepages
+
+	* titlepage.article.xsl, titlepage.book.xsl, titlepage.part.xsl, titlepage.reference.xsl, titlepage.set.xsl, titlepage.xsl: 
+	Reorganized titlepages; things are much simpler now and most titlepages simply inherit from titlepage.xsl
+
+	* titlepage.section.xsl: New file.
+
+1999-06-09  Norman Walsh  <ndw@nwalsh.com>
+
+	* admon.xsl, autotoc.xsl, biblio.xsl, block.xsl, callout.xsl, component.xsl, division.xsl, docbook.xsl, footnote.xsl, formal.xsl, glossary.xsl, graphics.xsl, index.xsl, info.xsl, inline.xsl, lists.xsl, param.xsl, refentry.xsl, sections.xsl, synop.xsl, table.xsl, titlepage.article.xsl, titlepage.book.xsl, titlepage.part.xsl, titlepage.reference.xsl, titlepage.set.xsl, titlepage.xsl, verbatim.xsl, xref.xsl: 
+	Changed HTML markup to lowercase; tinkered with autotoc and admonitions
+
+1999-06-07  Norman Walsh  <ndw@nwalsh.com>
+
+	* autotoc.xsl, component.xsl, division.xsl, docbook.xsl: 
+	Automatic TOCs
+
+	* sections.xsl: Section headings can't be in common
+
+1999-06-03  Norman Walsh  <ndw@nwalsh.com>
+
+	* biblio.xsl: New file.
+
+	* docbook.xsl: Added result-ns; rudimentary biblio and glossary support
+
+	* formal.xsl: Added informalfigure
+
+	* glossary.xsl: New file.
+
+	* graphics.xsl: Added mediaobject and inlinemediaobject
+
+	* titlepage.article.xsl: Added revision to article titlepage
+
+	* xref.xsl: Added support for xref to section
+
+1999-05-20  Norman Walsh  <ndw@nwalsh.com>
+
+	* admon.xsl, block.xsl, component.xsl, division.xsl, docbook.xsl, footnote.xsl, formal.xsl, graphics.xsl, html.xsl, index.xsl, inline.xsl, lists.xsl, math.xsl, param.xsl, refentry.xsl, sections.xsl, synop.xsl, table.xsl, titlepage.article.xsl, titlepage.book.xsl, titlepage.part.xsl, titlepage.set.xsl, verbatim.xsl, xref.xsl: 
+	Many updates
+
+	* block.xsl, docbook.xsl, formal.xsl, html.xsl, inline.xsl, lists.xsl, param.xsl, refentry.xsl, synop.xsl, table.xsl: 
+	Updates
+
+	* callout.xsl: New file.
+
+	* titlepage.reference.xsl: New file.
+
+1999-05-19  Norman Walsh  <ndw@nwalsh.com>
+
+	* docbook.xsl, formal.xsl, html.xsl, info.xsl, inline.xsl, lists.xsl, param.xsl, sections.xsl, table.xsl, titlepage.article.xsl, titlepage.xsl, verbatim.xsl, xref.xsl: 
+	New file.
+

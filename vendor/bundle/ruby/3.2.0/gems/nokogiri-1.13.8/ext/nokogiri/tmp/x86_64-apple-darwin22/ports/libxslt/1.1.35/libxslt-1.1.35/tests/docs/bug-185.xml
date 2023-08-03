@@ -1,0 +1,2 @@
+<?xml-stylesheet href="poc.xsl" type="text/xsl"?>
+<in>bug-185-data.xml#xpointer(id('X')/range-to(id('Y')))</in>

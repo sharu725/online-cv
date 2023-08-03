@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding="ISO-8859-1"?>
+<?xml-stylesheet href="style.xsl" type="text/xsl"?>
+<dummy xmlns:html="http://www.w3.org/1999/xhtml">
+<html:h1/>
+</dummy>
+

@@ -1,0 +1,26 @@
+<?xml version="1.0"?> 
+
+<doc>
+  <section index="section1" index2="atr2val">
+    <section index="subSection1.1">
+      <p>Hello</p>
+      <p>Its me again.</p>
+    </section>
+  </section>
+  <section index="section2">
+    <p>Jam</p>
+    <section index="subSection2.1">
+      <p>Marmalade</p>
+      <p>And Honey</p>
+    </section>
+    <section index="subSection2.2">
+      <p>With peanut butter</p>
+      <p>On toast</p>
+    </section>
+    <p>Delicious!</p>
+    <section index="subSection2.3">
+      <p>Full up now?</p>
+      <p>You bet.</p>
+    </section>
+  </section>
+</doc>

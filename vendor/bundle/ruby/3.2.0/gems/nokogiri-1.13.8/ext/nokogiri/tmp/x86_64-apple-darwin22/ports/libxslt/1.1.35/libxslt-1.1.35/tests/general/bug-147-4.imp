@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<xsl:stylesheet version="1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:import href="./bug-147-5.imp"/>
+
+     
+<xsl:template match="action[@name='ShowPage']
+                           [@event='onClick']
+                           [pass-param/@name='pageid']">
+  <xsl:text>template#1 in module#4;</xsl:text>
+</xsl:template>
+
+</xsl:stylesheet>
+

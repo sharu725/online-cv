@@ -1,0 +1,165 @@
+<html>
+<table border="1">
+<tr><td class="bigtablehead" colspan="3">
+            Warehouse: 
+      Virginia
+    </td></tr>
+<tr>
+<td class="tablehead">Sku</td>
+<td class="tablehead">Quantity</td>
+<td class="tablehead">Description</td>
+</tr>
+<tr>
+<td class="tablecell">2201</td>
+<td class="tablecell"><table border="1"><tr>
+<td width="40">12</td>
+<td width="12" bgcolor="#ffffff">.</td>
+<td width="88" bgcolor="#000000">.</td>
+</tr></table></td>
+<td class="tablecell">sprocket</td>
+</tr>
+<tr>
+<td class="tablecell">2202</td>
+<td class="tablecell"><table border="1"><tr>
+<td width="40">19</td>
+<td width="19" bgcolor="#ffffff">.</td>
+<td width="81" bgcolor="#000000">.</td>
+</tr></table></td>
+<td class="tablecell">widget</td>
+</tr>
+<tr>
+<td class="tablecell">2203</td>
+<td class="tablecell"><table border="1"><tr>
+<td width="40">0</td>
+<td width="0" bgcolor="#ffffff">.</td>
+<td width="100" bgcolor="#000000">.</td>
+</tr></table></td>
+<td class="tablecell">cog</td>
+</tr>
+<tr>
+<td class="tablecell">2204</td>
+<td class="tablecell"><table border="1"><tr>
+<td width="40">11</td>
+<td width="11" bgcolor="#ffffff">.</td>
+<td width="89" bgcolor="#000000">.</td>
+</tr></table></td>
+<td class="tablecell">whoozit</td>
+</tr>
+<tr>
+<td class="tablecell">2205</td>
+<td class="tablecell"><table border="1"><tr>
+<td width="40">42</td>
+<td width="42" bgcolor="#ffffff">.</td>
+<td width="58" bgcolor="#000000">.</td>
+</tr></table></td>
+<td class="tablecell">whatchamidigger</td>
+</tr>
+<tr>
+<td class="tablecell">2209</td>
+<td class="tablecell"><table border="1"><tr>
+<td width="40">0</td>
+<td width="0" bgcolor="#ffffff">.</td>
+<td width="100" bgcolor="#000000">.</td>
+</tr></table></td>
+<td class="tablecell">doohickey</td>
+</tr>
+<tr>
+<td class="tablehead">Total:</td>
+<td class="tablehead" colspan="2">84 instances of
+             6 kinds of items.
+          </td>
+</tr>
+<tr><td class="bigtablehead" colspan="3">
+            Warehouse: 
+      Pluto
+    </td></tr>
+<tr>
+<td class="tablehead">Sku</td>
+<td class="tablehead">Quantity</td>
+<td class="tablehead">Description</td>
+</tr>
+<tr>
+<td class="tablecell">2201</td>
+<td class="tablecell"><table border="1"><tr>
+<td width="40">4</td>
+<td width="4" bgcolor="#ffffff">.</td>
+<td width="96" bgcolor="#000000">.</td>
+</tr></table></td>
+<td class="tablecell">sprocket</td>
+</tr>
+<tr>
+<td class="tablecell">2204</td>
+<td class="tablecell"><table border="1"><tr>
+<td width="40">4</td>
+<td width="4" bgcolor="#ffffff">.</td>
+<td width="96" bgcolor="#000000">.</td>
+</tr></table></td>
+<td class="tablecell">whoozit</td>
+</tr>
+<tr>
+<td class="tablecell">2210</td>
+<td class="tablecell"><table border="1"><tr>
+<td width="40">0</td>
+<td width="0" bgcolor="#ffffff">.</td>
+<td width="100" bgcolor="#000000">.</td>
+</tr></table></td>
+<td class="tablecell">flange</td>
+</tr>
+<tr>
+<td class="tablecell">2210</td>
+<td class="tablecell"><table border="1"><tr>
+<td width="40">5</td>
+<td width="5" bgcolor="#ffffff">.</td>
+<td width="95" bgcolor="#000000">.</td>
+</tr></table></td>
+<td class="tablecell">knick knack</td>
+</tr>
+<tr>
+<td class="tablecell">2214</td>
+<td class="tablecell"><table border="1"><tr>
+<td width="40">74</td>
+<td width="74" bgcolor="#ffffff">.</td>
+<td width="26" bgcolor="#000000">.</td>
+</tr></table></td>
+<td class="tablecell">squeegie</td>
+</tr>
+<tr>
+<td class="tablehead">Total:</td>
+<td class="tablehead" colspan="2">87 instances of
+             5 kinds of items.
+          </td>
+</tr>
+</table>
+<table border="1">
+<tr><td colspan="4">Need to Reorder:</td></tr>
+<tr>
+<td class="tablecell">
+      Virginia
+    </td>
+<td class="tablecell">2203</td>
+<td class="tablecell">0</td>
+<td class="tablecell">cog</td>
+</tr>
+<tr>
+<td class="tablecell">
+      Virginia
+    </td>
+<td class="tablecell">2209</td>
+<td class="tablecell">0</td>
+<td class="tablecell">doohickey</td>
+</tr>
+<tr>
+<td class="tablecell">
+      Pluto
+    </td>
+<td class="tablecell">2210</td>
+<td class="tablecell">0</td>
+<td class="tablecell">flange</td>
+</tr>
+<tr>
+<td>Total:</td>
+<td colspan="3">3 items
+        </td>
+</tr>
+</table>
+</html>

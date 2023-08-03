@@ -1,0 +1,306 @@
+<!-- ====================================================================== -->
+<!-- Simplified DocBook XML V4.1.2.4 DTD
+     Copyright (C) 1999, 2000 Norman Walsh
+     http://nwalsh.com/docbook/simple/
+
+     See COPYRIGHT for more information
+
+     Please direct all questions and comments about this DTD to
+     Norman Walsh, <ndw@nwalsh.com>.
+
+     Common declaration:
+
+     <?xml version="1.0"?>
+     <!DOCTYPE article
+       PUBLIC "-//Norman Walsh//DTD Simplified DocBook XML V4.1.2.4//EN"
+       "http://nwalsh.com/docbook/simple/4.1.2.4/sdocbook.dtd">
+                                                                            -->
+<!-- ====================================================================== -->
+
+<!ENTITY % include.refentry "IGNORE">
+<![ %include.refentry; [
+<!ENTITY % refsect.title.content "title, subtitle?">
+<!ENTITY % exclude.refentry "IGNORE">
+<!ENTITY % refentry.element "IGNORE">
+<!ENTITY % refmeta.element "IGNORE">
+<!ENTITY % refnamediv.element "IGNORE">
+]]>
+<!ENTITY % exclude.refentry "INCLUDE">
+
+<!ENTITY % sinclist SYSTEM "sinclist.mod">
+%sinclist;
+
+<!ENTITY % formalobject.title.content "title">
+<!ENTITY % div.title.content "title, subtitle?">
+<!ENTITY % bookcomponent.title.content
+	"title, subtitle?">
+<!ENTITY % sect.title.content
+	"title, subtitle?">
+
+<!ENTITY % ndxterm.class "">
+
+<!ENTITY % local.list.class "">
+<!ENTITY % list.class
+		"itemizedlist|orderedlist
+		|variablelist %local.list.class;">
+
+<!ENTITY % local.admon.class "">
+<!ENTITY % admon.class
+		"note %local.admon.class;">
+
+<!ENTITY % local.linespecific.class "">
+<!ENTITY % linespecific.class
+		"literallayout|programlisting %local.linespecific.class;">
+
+<!ENTITY % local.para.class "">
+<!ENTITY % para.class
+		"para %local.para.class;">
+
+<!ENTITY % local.informal.class "">
+<!ENTITY % informal.class
+		"blockquote
+		|mediaobject
+		|informaltable %local.informal.class;">
+
+<!ENTITY % local.formal.class "">
+<!ENTITY % formal.class
+		"example|figure|table %local.formal.class;">
+
+<!ENTITY % local.compound.class "">
+<!ENTITY % compound.class
+		"sidebar %local.compound.class;">
+
+<!ENTITY % local.genobj.class "">
+<!ENTITY % genobj.class "">
+
+<!ENTITY % local.descobj.class "">
+<!ENTITY % descobj.class
+		"abstract|authorblurb|epigraph
+		%local.descobj.class;">
+
+<!-- Character-level classes .............................................. -->
+
+<!ENTITY % local.xref.char.class "">
+<!ENTITY % xref.char.class "">
+
+<!ENTITY % local.gen.char.class "">
+<!ENTITY % gen.char.class
+		"abbrev|acronym|citetitle|emphasis|footnote|phrase
+		|quote|trademark %local.gen.char.class;">
+
+<!ENTITY % local.link.char.class "">
+<!ENTITY % link.char.class
+		"xref|link|ulink %local.link.char.class;">
+
+<!ENTITY % local.tech.char.class "">
+<!ENTITY % tech.char.class
+		"command|computeroutput
+		|email|filename
+		|literal
+		|option
+		|replaceable
+		|systemitem|userinput
+		%local.tech.char.class;">
+
+<!ENTITY % local.base.char.class "">
+<!ENTITY % base.char.class "">
+
+<!ENTITY % local.docinfo.char.class "">
+<!ENTITY % docinfo.char.class
+		"author|corpauthor|othercredit
+		|revhistory
+		%local.docinfo.char.class;">
+
+<!ENTITY % local.inlineobj.char.class "">
+<!ENTITY % inlineobj.char.class
+		"inlinemediaobject %local.inlineobj.char.class;">
+
+<!ENTITY % local.effectivity.attrib "">
+<!ENTITY % effectivity.attrib 
+	"%local.effectivity.attrib;"
+>
+
+<!ENTITY % local.common.attrib "">
+<!ENTITY % common.attrib
+	"id		ID		#IMPLIED
+	revisionflag	(changed
+			|added
+			|deleted
+			|off)		#IMPLIED
+	%local.common.attrib;"
+>
+
+<!ENTITY % idreq.common.attrib
+	"id		ID		#REQUIRED
+	revisionflag	(changed
+			|added
+			|deleted
+			|off)		#IMPLIED
+	%local.common.attrib;"
+>
+
+<!ENTITY % local.person.ident.mix "">
+<!ENTITY % person.ident.mix
+		"honorific|firstname|surname|lineage|othername|affiliation
+		|authorblurb
+		%local.person.ident.mix;">
+
+<!ENTITY % local.bibliocomponent.mix "">
+<!ENTITY % bibliocomponent.mix
+		"abbrev|abstract|author
+		|authorgroup|bibliomisc
+		|copyright|corpauthor|date|edition
+		|editor|issuenum
+		|othercredit
+		|pubdate|publishername
+		|releaseinfo|revhistory
+		|subtitle|title|volumenum|citetitle
+		|%person.ident.mix;
+		%local.bibliocomponent.mix;">
+
+<!ENTITY % dbpool.redecl.module "INCLUDE">
+<!ENTITY % rdbpool SYSTEM "sdbpool.mod">
+
+<!ENTITY % dbhier.redecl.module "INCLUDE">
+<!ENTITY % rdbhier SYSTEM "sdbhier.mod">
+
+<!ENTITY % sdbcent SYSTEM "sdbcent.mod">
+%sdbcent;
+
+<!ENTITY % docinfo.element "IGNORE">
+<!ENTITY % objectinfo.element "IGNORE">
+<!ENTITY % section.element "IGNORE">
+<!ENTITY % sectioninfo.element "IGNORE">
+<!ENTITY % authorgroup.element "IGNORE">
+<!ENTITY % para.element "IGNORE">
+<!ENTITY % informaltable.element "IGNORE">
+<!ENTITY % replaceable.element "IGNORE">
+<!ENTITY % trademark.element "IGNORE">
+<!ENTITY % systemitem.element "IGNORE">
+<!ENTITY % article.element "IGNORE">
+<!ENTITY % articleinfo.element "IGNORE">
+<!ENTITY % appendix.element "IGNORE">
+<!ENTITY % appendixinfo.module "IGNORE">
+<!ENTITY % sidebar.element "IGNORE">
+<!ENTITY % programlisting.element "IGNORE">
+<!ENTITY % literallayout.element "IGNORE">
+
+<!ENTITY % cals.table.module "IGNORE">
+<!ENTITY % docbook PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+                   "http://docbook.org/xml/4.1.2/docbookx.dtd"
+>
+%docbook;
+
+<!ENTITY % simple.objectinfo.element "INCLUDE">
+<![%simple.objectinfo.element;[
+<!ELEMENT objectinfo ((mediaobject | legalnotice
+	| keywordset | subjectset | %bibliocomponent.mix;)+)>
+]]>
+
+<!ENTITY % simple.section.element "INCLUDE">
+<![%simple.section.element;[
+<!ELEMENT section (sectioninfo?,
+			(%sect.title.content;),
+			(((%divcomponent.mix;)+, section*)
+			 | section+))>
+]]>
+
+<!ENTITY % simple.sectioninfo.element "INCLUDE">
+<![%simple.sectioninfo.element;[
+<!ELEMENT sectioninfo ((mediaobject | legalnotice
+	| keywordset | subjectset | %bibliocomponent.mix;)+)>
+]]>
+
+<!ENTITY % simple.authorgroup.element "INCLUDE">
+<![%simple.authorgroup.element;[
+<!ELEMENT authorgroup ((author|editor|corpauthor|othercredit)+)>
+]]>
+
+<!ENTITY % simple.affiliation.element "INCLUDE">
+<![%simple.affiliation.element;[
+<!ELEMENT affiliation (jobtitle?, orgname?)>
+]]>
+
+<!ENTITY % simple.para.element "INCLUDE">
+<![%simple.para.element;[
+<!ELEMENT para (%para.char.mix;)*>
+]]>
+
+<!ENTITY % simple.informaltable.element "INCLUDE">
+<![%simple.informaltable.element;[
+<!ELEMENT informaltable (mediaobject+|tgroup+) %tbl.table.excep;>
+]]>
+
+<!ENTITY % simple.replaceable.element "INCLUDE">
+<![%simple.replaceable.element;[
+<!ELEMENT replaceable (#PCDATA 
+		| %link.char.class; 
+		| inlinemediaobject)*>
+]]>
+
+<!ENTITY % simple.trademark.element "INCLUDE">
+<![%simple.trademark.element;[
+<!ELEMENT trademark (#PCDATA 
+		| %link.char.class; 
+		| %tech.char.class;
+		| inlinemediaobject
+		| emphasis)*>
+]]>
+
+<!ENTITY % simple.systemitem.element "INCLUDE">
+<![%simple.systemitem.element;[
+<!ELEMENT systemitem (%cptr.char.mix;)*>
+]]>
+
+<!ENTITY % simple.article.element "INCLUDE">
+<![%simple.article.element;[
+<!ELEMENT article ((%div.title.content;)?, articleinfo?,
+		       (%bookcomponent.content;),
+		       ((%appendix.class;)|bibliography)*)>
+]]>
+
+<!ENTITY % simple.articleinfo.element "INCLUDE">
+<![%simple.articleinfo.element;[
+<!ELEMENT articleinfo ((mediaobject | legalnotice
+	| subjectset | keywordset | %bibliocomponent.mix;)+)>
+]]>
+
+<!ENTITY % simple.appendix.element "INCLUDE">
+<![%simple.appendix.element;[
+<!ELEMENT appendix ((%bookcomponent.title.content;),
+		(%bookcomponent.content;))>
+]]>
+
+<!ENTITY % simple.bibliography.element "INCLUDE">
+<![%simple.bibliography.element;[
+<!ELEMENT bibliography ((%bookcomponent.title.content;)?,
+                        (%component.mix;)*,
+                        (bibliodiv+ | bibliomixed+))>
+]]>
+
+<!ENTITY % simple.bibliomixed.element "INCLUDE">
+<![%simple.bibliomixed.element;[
+<!ELEMENT bibliomixed (#PCDATA | %bibliocomponent.mix; | bibliomset)*>
+]]>
+
+<!ENTITY % simple.bibliodiv.element "INCLUDE">
+<![%simple.bibliodiv.element;[
+<!ELEMENT bibliodiv ((%sect.title.content;)?, (%component.mix;)*,
+		(bibliomixed)+)>
+]]>
+
+<!ENTITY % simple.sidebar.element "INCLUDE">
+<![%simple.sidebar.element;[
+<!ELEMENT sidebar ((%formalobject.title.content;)?,
+                   (%sidebar.mix;)+)>
+]]>
+
+<!ENTITY % simple.programlisting.element "INCLUDE">
+<![%simple.programlisting.element;[
+<!ELEMENT programlisting (%para.char.mix; | lineannotation)*>
+]]>
+
+<!ENTITY % simple.literallayout.element "INCLUDE">
+<![%simple.literallayout.element;[
+<!ELEMENT literallayout (%para.char.mix; | lineannotation)*>
+]]>

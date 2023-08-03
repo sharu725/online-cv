@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<a>
+   Ascending numeric
+   <b/><b/><b/><b>some alpha</b><b/><b/><b>-99999999</b><b>-1</b><b>1</b><b>3</b><b>4</b>
+   Descending numeric
+   <b>4</b><b>3</b><b>1</b><b>-1</b><b>-99999999</b><b/><b/><b/><b>some alpha</b><b/><b/>
+   Ascending alpha
+   <b/><b/><b/><b/><b/><b>-1</b><b>-99999999</b><b>1</b><b>3</b><b>4</b><b>some alpha</b></a>

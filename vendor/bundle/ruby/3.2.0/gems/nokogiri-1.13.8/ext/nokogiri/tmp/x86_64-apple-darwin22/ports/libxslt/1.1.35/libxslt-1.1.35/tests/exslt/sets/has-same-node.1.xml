@@ -1,0 +1,14 @@
+<?xml version="1.0"?> 
+
+<doc>
+<city name="Paris" country="France" xmlns:x="one"/>
+<city name="Madrid" country="Spain" xmlns:x="one"/>
+<city name="Vienna" country="Austria" xmlns:x="one"/>
+<city name="Barcelona" country="Spain" xmlns:x="one"/>
+<city name="Salzburg" country="Austria" xmlns:x="one"/>
+<city name="Bonn" country="Germany" xmlns:x="one"/>
+<city name="Lyon" country="France" xmlns:x="one"/>
+<city name="Hannover" country="Germany" xmlns:x="one"/>
+<city name="Calais" country="France" xmlns:x="one"/>
+<city name="Berlin" country="Germany" xmlns:x="one"/>
+</doc>

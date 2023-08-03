@@ -1,0 +1,4 @@
+<x:stylesheet xmlns:x="http://www.w3.org/1999/XSL/Transform" version="1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:a="a" xmlns:b="b" exclude-result-prefixes="a b">
+<x:output method="xml" version="1.0" encoding="iso-8859-1" omit-xml-declaration="yes" standalone="yes" doctype-public="p" doctype-system="s" cdata-section-elements="a" indent="yes" media-type="t/x"/>
+<x:template match="@*|node()"><x:copy><x:apply-templates select="@*|node()"/></x:copy></x:template>
+</x:stylesheet>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc attr ENTITY #REQUIRED>
+<!NOTATION JPEG SYSTEM "jpeg.exe">
+<!ENTITY test SYSTEM "test.jpg" NDATA JPEG>
+]>
+<doc attr="test"/>

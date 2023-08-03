@@ -1,0 +1,34 @@
+---------------------------------------------------------------------------
+EXTENSIONS.H
+142,154c142
+< 
+< #if defined(VMS) || defined(__VMS)
+< 
+<   xsltPreComputeFunction
+< 	xsltExtModElemPreComputeLookup
+< 					(const xmlChar *name,
+< 					 const xmlChar *URI);
+< 
+<   #define xsltExtModuleElementPreComputeLookup xsltExtModElemPreComputeLookup
+< 
+< #else
+< 
+<   xsltPreComputeFunction
+---
+> xsltPreComputeFunction
+158,159d145
+< #endif
+< 
+
+
+---------------------------------------------------------------------------
+EXTENSIONS.C
+1142,1146d1141
+< #if defined(VMS) || defined(__VMS)
+<   xsltPreComputeFunction
+<     xsltExtModElemPreComputeLookup (const xmlChar *name,
+< 				      const xmlChar *URI) {
+< #else
+1150,1151d1144
+< #endif
+< 

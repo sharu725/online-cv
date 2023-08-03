@@ -1,0 +1,13 @@
+
+add    : PT0S + 2000-01-01T01:01:00Z
+result : 
+add    : 2000-01-01T01:01:00Z + 
+result : 
+add    :  + PT60S
+result : 
+add    : --10-29 + PT60S
+result : 
+add    : ---29 + PT60S
+result : 
+add    : 10:31:07 + PT60S
+result : 

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<page>
+  <!-- invalid duration syntax -->
+  <date duration="P10H"/>
+  <date duration="P-T10D"/>
+  <date duration="PT-10D"/>
+  <date duration="--PT10H"/>
+  <date duration="PYT0.00001S"/>
+  <date duration="PT49.00001"/>
+  <date duration="P0Y0MDT10H10M10.09S"/>
+  <!-- invalid date/time type -->
+  <date duration="--10-29"/>
+  <date duration="---29"/>
+  <date duration="10:31:07"/>
+  <!-- invalid duration values for date:seconds -->
+  <!-- years and months are not handled by date:seconds() -->
+  <date duration="P10Y20M100DT40H61M100S"/>
+  <date duration="P10000Y"/>
+</page>
+

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<api name='libexslt'>
+  <files>
+    <file name='exslt'>
+     <summary>main header file </summary>
+     <exports symbol='EXSLT_DATE_NAMESPACE' type='macro'/>
+     <exports symbol='EXSLT_STRINGS_NAMESPACE' type='macro'/>
+     <exports symbol='SAXON_NAMESPACE' type='macro'/>
+     <exports symbol='EXSLT_COMMON_NAMESPACE' type='macro'/>
+     <exports symbol='EXSLT_FUNCTIONS_NAMESPACE' type='macro'/>
+     <exports symbol='EXSLT_SETS_NAMESPACE' type='macro'/>
+     <exports symbol='EXSLT_DYNAMIC_NAMESPACE' type='macro'/>
+     <exports symbol='EXSLT_CRYPTO_NAMESPACE' type='macro'/>
+     <exports symbol='EXSLT_MATH_NAMESPACE' type='macro'/>
+     <exports symbol='exsltLibxmlVersion' type='variable'/>
+     <exports symbol='exsltLibexsltVersion' type='variable'/>
+     <exports symbol='exsltLibraryVersion' type='variable'/>
+     <exports symbol='exsltLibxsltVersion' type='variable'/>
+     <exports symbol='exsltDynRegister' type='function'/>
+     <exports symbol='exsltCommonRegister' type='function'/>
+     <exports symbol='exsltRegisterAll' type='function'/>
+     <exports symbol='exsltStrXpathCtxtRegister' type='function'/>
+     <exports symbol='exsltSetsXpathCtxtRegister' type='function'/>
+     <exports symbol='exsltFuncRegister' type='function'/>
+     <exports symbol='exsltStrRegister' type='function'/>
+     <exports symbol='exsltSetsRegister' type='function'/>
+     <exports symbol='exsltDateRegister' type='function'/>
+     <exports symbol='exsltCryptoRegister' type='function'/>
+     <exports symbol='exsltMathRegister' type='function'/>
+     <exports symbol='exsltMathXpathCtxtRegister' type='function'/>
+     <exports symbol='exsltSaxonRegister' type='function'/>
+     <exports symbol='exsltDateXpathCtxtRegister' type='function'/>
+    </file>
+    <file name='exsltexports'>
+     <summary>macros for marking symbols as exportable/importable. </summary>
+     <author>Igor Zlatkovic &lt;igor@zlatkovic.com&gt; </author>
+     <exports symbol='LIBEXSLT_PUBLIC' type='macro'/>
+     <exports symbol='_REENTRANT' type='macro'/>
+     <exports symbol='EXSLTCALL' type='macro'/>
+     <exports symbol='EXSLTPUBFUN' type='macro'/>
+     <exports symbol='EXSLTPUBVAR' type='macro'/>
+    </file>
+  </files>
+  <symbols>
+    <macro name='EXSLTCALL' file='exsltexports'>
+    </macro>
+    <macro name='EXSLTPUBFUN' file='exsltexports'>
+    </macro>
+    <macro name='EXSLTPUBVAR' file='exsltexports'>
+    </macro>
+    <macro name='EXSLT_COMMON_NAMESPACE' file='exslt'>
+      <info>Namespace for EXSLT common functions</info>
+    </macro>
+    <macro name='EXSLT_CRYPTO_NAMESPACE' file='exslt'>
+      <info>Namespace for EXSLT crypto functions</info>
+    </macro>
+    <macro name='EXSLT_DATE_NAMESPACE' file='exslt'>
+      <info>Namespace for EXSLT date functions</info>
+    </macro>
+    <macro name='EXSLT_DYNAMIC_NAMESPACE' file='exslt'>
+      <info>Namespace for EXSLT dynamic functions</info>
+    </macro>
+    <macro name='EXSLT_FUNCTIONS_NAMESPACE' file='exslt'>
+      <info>Namespace for EXSLT functions extension functions</info>
+    </macro>
+    <macro name='EXSLT_MATH_NAMESPACE' file='exslt'>
+      <info>Namespace for EXSLT math functions</info>
+    </macro>
+    <macro name='EXSLT_SETS_NAMESPACE' file='exslt'>
+      <info>Namespace for EXSLT set functions</info>
+    </macro>
+    <macro name='EXSLT_STRINGS_NAMESPACE' file='exslt'>
+      <info>Namespace for EXSLT strings functions</info>
+    </macro>
+    <macro name='LIBEXSLT_PUBLIC' file='exsltexports'>
+    </macro>
+    <macro name='SAXON_NAMESPACE' file='exslt'>
+      <info>Namespace for SAXON extensions functions</info>
+    </macro>
+    <macro name='_REENTRANT' file='exsltexports'>
+    </macro>
+    <variable name='exsltLibexsltVersion' file='exslt' type='const int'/>
+    <variable name='exsltLibraryVersion' file='exslt' type='const char *'/>
+    <variable name='exsltLibxmlVersion' file='exslt' type='const int'/>
+    <variable name='exsltLibxsltVersion' file='exslt' type='const int'/>
+    <function name='exsltCommonRegister' file='exslt'>
+      <info>Registers the EXSLT - Common module</info>
+      <return type='void'/>
+    </function>
+    <function name='exsltCryptoRegister' file='exslt'>
+      <info>Registers the EXSLT - Crypto module</info>
+      <return type='void'/>
+    </function>
+    <function name='exsltDateRegister' file='exslt'>
+      <info>Registers the EXSLT - Dates and Times module</info>
+      <return type='void'/>
+    </function>
+    <function name='exsltDateXpathCtxtRegister' file='exslt'>
+      <info>Registers the EXSLT - Dates and Times module for use outside XSLT</info>
+      <return type='int' info=''/>
+      <arg name='ctxt' type='xmlXPathContextPtr' info=''/>
+      <arg name='prefix' type='const xmlChar *' info=''/>
+    </function>
+    <function name='exsltDynRegister' file='exslt'>
+      <info>Registers the EXSLT - Dynamic module</info>
+      <return type='void'/>
+    </function>
+    <function name='exsltFuncRegister' file='exslt'>
+      <info>Registers the EXSLT - Functions module</info>
+      <return type='void'/>
+    </function>
+    <function name='exsltMathRegister' file='exslt'>
+      <info>Registers the EXSLT - Math module</info>
+      <return type='void'/>
+    </function>
+    <function name='exsltMathXpathCtxtRegister' file='exslt'>
+      <info>Registers the EXSLT - Math module for use outside XSLT</info>
+      <return type='int' info=''/>
+      <arg name='ctxt' type='xmlXPathContextPtr' info=''/>
+      <arg name='prefix' type='const xmlChar *' info=''/>
+    </function>
+    <function name='exsltRegisterAll' file='exslt'>
+      <info>Registers all available EXSLT extensions</info>
+      <return type='void'/>
+    </function>
+    <function name='exsltSaxonRegister' file='exslt'>
+      <info>Registers the SAXON extension module</info>
+      <return type='void'/>
+    </function>
+    <function name='exsltSetsRegister' file='exslt'>
+      <info>Registers the EXSLT - Sets module</info>
+      <return type='void'/>
+    </function>
+    <function name='exsltSetsXpathCtxtRegister' file='exslt'>
+      <info>Registers the EXSLT - Sets module for use outside XSLT</info>
+      <return type='int' info=''/>
+      <arg name='ctxt' type='xmlXPathContextPtr' info=''/>
+      <arg name='prefix' type='const xmlChar *' info=''/>
+    </function>
+    <function name='exsltStrRegister' file='exslt'>
+      <info>Registers the EXSLT - Strings module</info>
+      <return type='void'/>
+    </function>
+    <function name='exsltStrXpathCtxtRegister' file='exslt'>
+      <info>Registers the EXSLT - Strings module for use outside XSLT</info>
+      <return type='int' info=''/>
+      <arg name='ctxt' type='xmlXPathContextPtr' info=''/>
+      <arg name='prefix' type='const xmlChar *' info=''/>
+    </function>
+  </symbols>
+</api>

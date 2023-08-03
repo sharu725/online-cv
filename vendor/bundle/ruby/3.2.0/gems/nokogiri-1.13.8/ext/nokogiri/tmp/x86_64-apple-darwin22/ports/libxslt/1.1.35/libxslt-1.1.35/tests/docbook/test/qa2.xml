@@ -1,0 +1,50 @@
+<!DOCTYPE book
+  PUBLIC "-//OASIS//DTD DocBook XML V4.0//EN"
+  "../dtd/4.1.2/docbookx.dtd" [
+]>
+<book><title>book title</title>
+<chapter><title>chapter test</title>
+
+<para>Test a cross reference to a question: <xref linkend="q1"/>.
+</para>
+
+<qandaset>
+<title>Q&amp;A Set (unspecified)</title>
+<qandadiv><title>Q&amp;A Div 1</title>
+<qandaentry>
+<question id="q1"><label>Q1</label>
+<para>Question para 1</para>
+<para>Question para 2</para>
+</question>
+<answer id="a1"><label>A1</label>
+<para>Answer para 1</para>
+<para>Answer para 2</para>
+</answer>
+</qandaentry>
+</qandadiv>
+<qandadiv><title>Q&amp;A Div 2</title>
+<qandaentry>
+<question>
+<para>Question para 1</para>
+<para>Question para 2</para>
+</question>
+<answer>
+<para>Answer para 1</para>
+<para>Answer para 2</para>
+</answer>
+</qandaentry>
+<qandaentry>
+<question>
+<para>Question para 1</para>
+<para>Question para 2</para>
+</question>
+<answer>
+<para>Answer para 1</para>
+<para>Answer para 2</para>
+</answer>
+</qandaentry>
+</qandadiv>
+</qandaset>
+</chapter>
+</book>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<root>
+  <list type="one"/>
+  <list type="two"/>
+  <entries>
+    <entry cat1="a" cat2="a" qty="1"/>
+    <entry cat1="a" cat2="b" qty="2"/>
+    <entry cat1="b" cat2="b" qty="3"/>
+  </entries>
+</root>

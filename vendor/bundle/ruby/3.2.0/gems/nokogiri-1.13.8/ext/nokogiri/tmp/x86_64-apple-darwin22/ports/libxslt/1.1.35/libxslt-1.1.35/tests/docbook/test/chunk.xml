@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE book
+  PUBLIC "-//Norman Walsh//DTD DocBk XML V3.1.7//EN"
+  "../dtd/3.1.7/docbookx.dtd">
+
+<!-- test document -->
+
+<book><title>Book Test Document Title</title>
+<bookinfo>
+<title>Bookinfo Test Document Title</title>
+<subtitle>Book Subtitle</subtitle>
+<authorgroup>
+<author><firstname>Norman</firstname><surname>Walsh</surname></author>
+</authorgroup>
+</bookinfo>
+
+<dedication id="dedication"><title>First Dedication</title>
+<para>Just a test.</para>
+</dedication>
+
+<dedication>
+<para>Just a test.</para>
+</dedication>
+
+<preface id="preface"><title>Foreword</title>
+<?dbhtml filename="preface.html" dir="x"?>
+<para>This is a test paragraph. (<link linkend="chapter">chapter</link>)</para>
+</preface>
+
+<chapter id="xreftest">
+<?dbhtml filename="xreftest.html"?>
+<title id="chaptertitle">XRef Tests</title>
+
+<para><link linkend="dedication">Dedication</link></para>
+<para><link linkend="preface">Preface</link></para>
+<para><link linkend="chapter">Chapter</link></para>
+<para><link linkend="appendix">Appendix</link></para>
+
+<sect1><title>First sect1</title>
+<para>...</para>
+</sect1>
+
+<sect1><title>Second sect1</title>
+<para>...</para>
+</sect1>
+
+</chapter>
+
+<chapter id="chapter"><title>Second Chapter</title>
+<para>This is a test paragraph.</para>
+</chapter>
+
+<chapter><title>Third Chapter</title>
+<para>This is a test paragraph.</para>
+</chapter>
+
+<appendix id="appendix"><title>First Appendix</title>
+<para>This is just a test.</para>
+<para>This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.</para>
+
+<para>This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.</para>
+
+<para>This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.</para>
+
+<para>This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.</para>
+
+<para>This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.</para>
+
+<para>This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.</para>
+
+<para>This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.</para>
+
+<para>This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.</para>
+
+<para>This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.</para>
+
+<para>This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.
+This makes the appendix long. This makes the appendix long.</para>
+
+</appendix>
+
+<appendix><title>Second Appendix</title>
+<para>This is just a test.</para>
+</appendix>
+
+</book>
+
+

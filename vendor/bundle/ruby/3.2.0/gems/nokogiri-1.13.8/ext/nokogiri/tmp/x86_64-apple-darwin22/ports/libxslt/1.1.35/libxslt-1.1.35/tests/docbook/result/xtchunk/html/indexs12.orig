@@ -1,0 +1,118 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Basics of Documentation Style</title><meta name="generator" content="DocBook XSL Stylesheets V1.40"><link rel="home" href="index.html" title="The GNOME Handbook of Writing Software Documentation"><link rel="up" href="index.html" title="The GNOME Handbook of Writing Software Documentation"><link rel="previous" href="indexs11.html" title="Referring to Other GNOME Documentation (coming in
+    GNOME-2.0)"><link rel="next" href="indexs13.html" title="Teamwork"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Basics of Documentation Style</th></tr><tr><td width="20%" align="left"><a href="indexs11.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a href="indexs13.html">Next</a></td></tr></table><hr></div><div class="sect1"><a name="basics"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="basics"></a>Basics of Documentation Style</h2></div></div><p>
+       Most people have never enjoyed reading a software manual, and
+       they probably never will.  Many times, they'll read the
+       documentation only when they run into problems, and they'll be
+       frustrated and upset before they even read a word.  On the
+       other hand, some readers will read the manual all the way
+       through, or at least look at the introduction before they
+       start. Your document might serve as a reference for an expert
+       or a guide to a beginner, and it must have enough depth to
+       satisfy the first without overwhelming the second.  Ideally, it
+       will serve beginners as they <i>become</i>
+       experts. Remember, your goal is to produce <i>complete,
+       intuitive and clear</i> documentation.
+    </p><p>
+       In order to write useful documentation, you'll have to know who
+       your audience is likely to be.  Then, you can look for the
+       problems they're likely to run into, and solve them.  It will
+       also help if you focus on the tasks users will perform, and
+       group features accordingly, rather than simply describing
+       features at random.  
+    </p><div class="sect2"><a name="styleplanning"></a><div class="titlepage"><div><h3 class="title"><a name="styleplanning"></a>Planning</h3></div></div><p>
+         Begin documenting by learning how to use the application and
+         reading over any existing documentation.  Pay attention to
+         places where your document will differ from the template.  It
+         may help to develop a document skeleton: a valid XML or SGML
+         document that has little or no content.  For very large
+         applications, you will need to make significant departures
+         from the templates, since you'll be using the
+         <tt>&lt;book&gt;</tt> tag instead of
+         <tt>&lt;chapter&gt;</tt> or
+         <tt>&lt;article&gt;</tt>.
+      </p></div><div class="sect2"><a name="balance"></a><div class="titlepage"><div><h3 class="title"><a name="balance"></a>Achieving a Balanced Style</h3></div></div><p> 
+         Just as you need to juggle expert and novice readers,
+         you'll have to juggle a number of other extremes as you write:
+         <div class="itemizedlist"><ul><li><p><a name="id2941166"></a>
+              Documents should be complete, yet concise.  You should
+              describe every feature, but you'll have decide how much
+              detail is really necessary.  It's not, for example,
+              necessary to describe every button and form field in a
+              dialog box, but you should make sure that your readers
+              know how to bring up the dialog and what it does.  If
+              you spend fewer words on the obvious, you can spend more
+              time clarifying the ambiguous labels and explaining
+              items that are more complex.
+            </p></li><li><p><a name="id2941193"></a>
+              Be engaging and friendly, yet professional. Games
+              documents may be less formal than productivity
+              application documents (people don't
+              <i>use</i> games, they
+              <i>play</i> them), but all of them should
+              maintain a standard of style which holds the reader's
+              interest without resorting to jokes and untranslatable
+              allusions or puns.
+           </p></li><li><p><a name="id2941232"></a>
+              Examples, tips, notes, and screenshots are useful to
+              break up long stretches of text, but too many can get in
+              the way, and make your documents too choppy to read.
+              It's good to provide a screenshot of any dialog windows
+              a user might run into, but if a dialog box has several
+              tabs, it's not usually necessary to have one for each.
+           </p></li><li><p><a name="id2941255"></a>
+              The GDP strives to have all of its documentation conform
+              to certain standards of style and content, but every
+              document (and every writer) is different.  You will need
+              to use your judgement, and write documents to fit with
+              the rest of the project, without compromising the
+              individual needs of your subject, or your own
+              individuality as a writer.
+           </p></li></ul></div>
+       </p></div><div class="sect2"><a name="stylestructure"></a><div class="titlepage"><div><h3 class="title"><a name="stylestructure"></a>Structure</h3></div></div><p>
+         In general, you won't have to worry too much about structure,
+         because the templates provide you with an excellent example.
+         As a general rule, try to follow that structural example.
+         That means using links, hierarchical nesting, and, if
+         necessary, a glossary or index.  You probably won't need to
+         use every available structural tag, but take advantage of
+         what DocBook provides you.
+      </p><p>
+         As to linking, there's some disagreement about whether to use
+         <tt>&lt;xref&gt;</tt> <tt>&lt;link&gt;</tt>
+         when you make links within your documents.  You'll have to
+         decide, based on the different ways that they are presented
+         in output, which is more appropriate given the context.
+         Regardless of which you use, you should not forget to use
+         them.  Help your readers find information that relevant to
+         the issue at hand.
+      </p><p>
+         The table of contents will be generated automatically, but
+         you will probably have to develop your own index if you wish
+         to have one.  The Nautilus Help Browser will have new, and
+         currently unknown, indexing capabilities, so index style and
+         structure are still under discussion.  The GNOME User's Guide
+         will contain a glossary in its next versions; unless you're
+         writing a<tt>&lt;book&gt;</tt>, it will probably be best to
+         contribute to that rather than developing your own.
+      </p></div><div class="sect2"><a name="stylegrammar"></a><div class="titlepage"><div><h3 class="title"><a name="stylegrammar"></a>Grammar and Spelling</h3></div></div><p>
+        Nobody expects you to be perfect; they just expect the
+        documentation for their software to be error-free.  That means
+        that, in the same way that developers look for bugs and accept
+        bug reports, writers must check for errors in their documents.
+        Poor grammar, bad spelling, and gross technical errors in
+        draft documents are fine.  However, if those problems show up
+        in a "real" release, they can count against the credibility of
+        GNOME and Linux.  They'll also make you look bad.
+      </p><p>
+        There is no substitute for a human proofreader; use a
+        spell-check program, then read it over yourself, and then find
+        someone else to help you.  Other GDP members are, of course,
+        willing and able to help you, but non-writers are often at
+        least as helpful.
+      </p><p>
+        Proofreading documents is both a also a good way to
+        familiarize yourself with documentation, and it certainly
+        makes you valuable to the GDP. Help other writers proof their
+        documents, and they will help you with yours.
+      </p></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a href="indexs11.html">Prev</a> </td><td width="20%" align="center"><a href="index.html">Home</a></td><td width="40%" align="right"> <a href="indexs13.html">Next</a></td></tr><tr><td width="40%" align="left">Referring to Other GNOME Documentation (coming in
+    GNOME-2.0) </td><td width="20%" align="center"><a href="index.html">Up</a></td><td width="40%" align="right"> Teamwork</td></tr></table></div></body></html>

@@ -1,0 +1,5 @@
+<!ENTITY % cals.table.module "IGNORE">
+
+<!ENTITY % docbook SYSTEM "docbookx.dtd">
+%docbook;
+

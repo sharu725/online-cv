@@ -1,0 +1,21 @@
+
+sum    : 
+result : 
+sum    : P1M + -P1D
+result : 
+sum    : P1M + -P1D + P1D
+result : 
+sum    : P1M + P1D + -P1D
+result : P1M
+sum    : 
+result : 
+sum    :  + P45S
+result : 
+sum    : 2004-09-20
+result : 
+sum    : 1H
+result : 
+sum    : 2004-09-22 + P1D
+result : 
+sum    : P2D + --P1D
+result : 

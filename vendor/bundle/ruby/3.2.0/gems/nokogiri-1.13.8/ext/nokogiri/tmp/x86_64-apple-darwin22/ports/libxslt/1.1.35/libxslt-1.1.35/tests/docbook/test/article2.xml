@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article 
+  PUBLIC "-//Norman Walsh//DTD Simplified DocBk XML V3.1.7.1//EN" 
+  "../dtd/simple/3.1.7.1/sdocbook.dtd">
+
+<!-- test document -->
+
+<article><title>Article Test Document Title</title>
+<artheader>
+<title>Artheader Test Document Title</title>
+<author><firstname>Norman</firstname><surname>Walsh</surname></author>
+<pubdate>Apr. 26, 1999</pubdate>
+<copyright><year>1999</year><holder>Norman Walsh</holder></copyright>
+
+<abstract>
+<para>This article is just a test. This <emphasis>article</emphasis>
+is just a test. 
+This <userinput>article</userinput> is just a test.
+This <email>ndw@nwalsh.com</email> is just a test. 
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+</para>
+</abstract>
+</artheader>
+
+<para>This article is just a test. This <emphasis>article</emphasis>
+is just a test. 
+This <userinput>article</userinput> is just a test.
+This <email>ndw@nwalsh.com</email> is just a test. 
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+This article is just a test. This article is just a test. 
+</para>
+
+<table><title>This is a test table</title>
+<tgroup cols="3">
+<colspec colname="c2" colnum="2" align="right" colwidth="2*"/>
+<colspec colname="c3"/>
+<thead>
+  <row><entry>Head1</entry><entry align="center">Head2</entry><entry>Head3</entry></row>
+</thead>
+<tbody>
+  <row><entry>Entry1</entry><entry>Entry2</entry><entry>Entry3</entry></row>
+  <row><entry>Entry1</entry><entry namest="c2" nameend="c3" align="center">span 2-3</entry></row>
+  <row><entry>Entry1</entry><entry morerows="2" valign="middle">morerows2</entry><entry>Entry3</entry></row>
+  <row><entry>Entry1</entry><entry>Entry3</entry></row>
+  <row><entry>Entry1</entry><entry>Entry3</entry></row>
+  <row><entry namest="c1" nameend="c3" align="center">fullspan</entry></row>
+  <row align="center"><entry>Entry1</entry><entry>Entry2</entry><entry align="left">Entry3</entry></row>
+  <row><entry>Entry1</entry><entry>Entry2</entry><entry>Entry3</entry></row>
+  <row><entry>Entry1</entry><entry>Entry2</entry><entry>Entry3</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<variablelist>
+<varlistentry><term>term</term>
+<listitem>
+<para>some text</para>
+</listitem>
+</varlistentry>
+
+<varlistentry><term>term2a</term><term>term2b</term>
+<listitem>
+<para>some text</para>
+</listitem>
+</varlistentry>
+
+<varlistentry><term>term3</term>
+<listitem>
+<para>some text</para>
+<para>some text</para>
+<para>some text</para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</article>
+

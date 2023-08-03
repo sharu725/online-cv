@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE book
+  PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+  "../dtd/4.1.2/docbookx.dtd" [
+<!ENTITY idxbook.idx SYSTEM "idxbook.idx">
+]>
+<book><title>Book Test Index Document Title</title>
+<bookinfo>
+<indexterm zone="chapter ch2">
+<primary>chapter zone</primary></indexterm>
+<title>Bookinfo Test Index Document Title</title>
+<subtitle>Book Subtitle</subtitle>
+<authorgroup>
+<author><firstname>Norman</firstname><surname>Walsh</surname></author>
+</authorgroup>
+</bookinfo>
+
+<preface><title>Foreword</title>
+<para>This is a test paragraph<indexterm>
+<primary>paragraph</primary>
+<secondary>test</secondary></indexterm>.</para>
+</preface>
+
+<chapter id="chapter">
+<title>First Chapter</title>
+
+<para>Paragraph<indexterm>
+<primary>paragraph</primary></indexterm>.</para>
+
+<sect1><title>First Sect1</title>
+<para>Another paragraph<indexterm>
+<primary>paragraph</primary>
+<secondary>another</secondary>
+</indexterm>.</para>
+</sect1>
+</chapter>
+
+<chapter id="ch2"><title>Second Chapter</title>
+<para>This is a test paragraph.
+<indexterm>
+<primary sortas="ap1">the ap1</primary>
+</indexterm>
+<indexterm>
+<primary sortas="ap1">the ap1</primary>
+<seealso>see also ap2</seealso>
+</indexterm>
+<indexterm>
+<primary>ap2</primary>
+</indexterm>
+
+<indexterm>
+<primary>bp1</primary>
+<secondary>bp1bs1</secondary>
+</indexterm>
+<indexterm>
+<primary>bp2</primary>
+</indexterm>
+
+<indexterm>
+<primary>cp1</primary>
+<secondary>cp1cs1</secondary>
+<tertiary>cp1cs1ct1</tertiary>
+</indexterm>
+
+<indexterm>
+<primary>cp2</primary>
+</indexterm>
+<indexterm>
+<primary>cp2see</primary>
+<secondary>cp2seesec</secondary>
+<see>cp2</see>
+</indexterm>
+
+<indexterm>
+<primary>dp1</primary>
+<secondary>dp1ds1</secondary>
+</indexterm>
+<indexterm>
+<primary>dp1</primary>
+<secondary>dp1ds2</secondary>
+</indexterm>
+<indexterm>
+<primary>dp2</primary>
+</indexterm></para>
+</chapter>
+
+<appendix><title>First Appendix</title>
+<para>This is just a test.
+<indexterm>
+<primary>ap1</primary>
+</indexterm>
+<indexterm>
+<primary>ap2</primary>
+</indexterm>
+
+<indexterm>
+<primary>bp1</primary>
+<secondary>bp1bs1</secondary>
+</indexterm>
+<indexterm>
+<primary>bp2</primary>
+</indexterm>
+
+<indexterm>
+<primary>cp1</primary>
+<secondary>cp1cs1</secondary>
+<tertiary>cp1cs1ct1</tertiary>
+</indexterm>
+<indexterm>
+<primary>cp2</primary>
+</indexterm>
+
+<indexterm>
+<primary>dp1</primary>
+<secondary>dp1ds1</secondary>
+</indexterm>
+<indexterm>
+<primary>dp1</primary>
+<secondary>dp1ds2</secondary>
+</indexterm>
+<indexterm>
+<primary>dp2</primary>
+</indexterm>
+
+<indexterm>
+<primary>1 digit test</primary>
+</indexterm>
+<indexterm>
+<primary>[square bracket test]</primary>
+</indexterm>
+<indexterm>
+<primary>2 digit test</primary>
+</indexterm>
+</para>
+</appendix>
+
+<!--&idxbook.idx;-->
+<index/>
+
+</book>
+
+

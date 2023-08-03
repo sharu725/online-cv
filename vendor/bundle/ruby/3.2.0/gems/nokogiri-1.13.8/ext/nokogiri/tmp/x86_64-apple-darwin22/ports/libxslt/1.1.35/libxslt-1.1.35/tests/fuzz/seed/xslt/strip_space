@@ -1,0 +1,6 @@
+<x:stylesheet xmlns:x="http://www.w3.org/1999/XSL/Transform" xmlns:a="a" xmlns:b="b" version="1.0">
+<x:strip-space elements="a b a:*"/>
+<x:preserve-space elements="a:e"/>
+<x:output indent="yes"/>
+<x:template match="*"><x:copy><x:apply-templates select="node()"/></x:copy></x:template>
+</x:stylesheet>

@@ -1,0 +1,5 @@
+<s:doc xmlns:s="http://www.foobar.com/xmlns/s"><s:doc-head>
+                <s:doc-title>Doc Title</s:doc-title>
+        </s:doc-head><s:doc-body><s:div class="header"><s:a href="/"><s:img src="/images/logo/mylogo.jpg" width="200" height="100" border="0" title="LOGO" alt="LOGO"></s:img></s:a></s:div><s:br></s:br><s:div class="body">
+                <s:p>Hello World!</s:p>
+        </s:div></s:doc-body></s:doc>

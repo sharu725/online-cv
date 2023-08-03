@@ -1,0 +1,1784 @@
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.0//EN"
+               "../dtd/4.0/docbookx.dtd">
+<book lang="en">
+<bookinfo>
+<title>the <application>kwrite</application> handbook</title>
+<authorgroup>
+<author>
+<firstname>thad</firstname>
+<surname>mcginnis</surname>
+<affiliation>
+<address><email>ctmcginnis@compuserve.com</email></address>
+</affiliation>
+</author>
+<othercredit role="developer">
+<firstname>jochen</firstname>
+<surname>wilhelmy</surname>
+<contrib>principal developer</contrib>
+<affiliation>
+<address><email>digisnap@cs.tu-berlin.de</email></address>
+</affiliation>
+</othercredit>
+<othercredit role="developer">
+<firstname>glen</firstname>
+<surname>parker</surname>
+<contrib>additional development</contrib>
+<affiliation>
+<address><email>glenebob@nwlink.com</email></address>
+</affiliation>
+</othercredit>
+<othercredit role="developer">
+<firstname>michael</firstname>
+<surname>koch</surname>
+<contrib>additional development</contrib>
+<affiliation>
+<address><email>koch@kde.org</email></address>
+</affiliation>
+</othercredit>
+<othercredit role="developer">
+<firstname>christian</firstname>
+<surname>tibirna</surname>
+<contrib>original help document</contrib>
+<affiliation>
+<address><email>tibirna@kde.org</email></address>
+</affiliation>
+</othercredit>
+<othercredit role="reviewer">
+<firstname>lauri</firstname>
+<surname>watts</surname>
+<contrib>reviewer</contrib>
+<affiliation>
+<address><email>vampyr@atconnex.net</email></address>
+</affiliation>
+</othercredit>
+</authorgroup>
+<copyright>
+<year>2000</year>
+<year>2001</year>
+<holder>thad mcginnis</holder>
+</copyright>
+<legalnotice>
+<para>permission is granted to copy, distribute and/or modify this
+document under the terms of the gnu free documentation license,
+version 1.1 or any later version published by the free software
+foundation; with no invariant sections, with no front-cover texts, and
+with no back-cover texts.  a copy of the license is included in <xref linkend="gnu-fdl"/>.</para>
+</legalnotice>
+<date>15/02/2001</date>
+<releaseinfo>2.00.00</releaseinfo>
+<abstract>
+<para>this handbook describes <application>kwrite</application> version 2.0</para>
+<para><application>kwrite</application> is a text editor for kde 2.0</para>
+</abstract>
+<keywordset>
+<keyword>kde</keyword>
+<keyword>kwrite</keyword>
+<keyword>text</keyword>
+<keyword>editor</keyword>
+</keywordset>
+</bookinfo>
+<chapter id="introduction">
+<title>introduction</title>
+<para><application>kwrite</application> is more than a text editor for the kde desktop. it is meant
+to be a programmer's editor, and could be considered as at least a partial
+alternative to more powerful editors.  it may be best used in conjunction
+with <application>konqueror</application> for source file browsing for
+different languages. <application>kwrite</application> also works very well as a simple text editor.
+one of <application>kwrite</application>'s main features is the colorized syntax, customized for
+many different programming languages such as: c/c++, <trademark>java</trademark>, python, perl,
+bash, modula 2, <acronym>html</acronym>, and ada.</para>
+</chapter>
+<chapter id="on-screen-fundamentals">
+<title>some fundamentals</title>
+<para><application>kwrite</application> is very simple to use. anyone that has used a text editor should
+have no problems. </para>
+<sect1 id="drag-and-drop">
+<title>drag and drop</title>
+<para><application>kwrite</application> uses the kde drag and drop protocol. files may be dragged  
+and dropped onto <application>kwrite</application> from the desktop,  
+<application>konqueror</application> or some remote ftp site opened in one  
+of <application>konqueror</application>'s windows. </para>
+</sect1>
+<sect1 id="command-line-options">
+<title>command line options</title>
+<para>though <application>kwrite</application> may most often be started from the kde program menu,  
+or a desktop icon, it can also be opened at the command line prompt of a  
+terminal window.  there are a few useful options that are available when  
+doing this.</para>
+<sect2 id="specify-a-file">
+<title>specify a file</title>
+<para>by specifying the path and name of a particular file the user can  
+have <application>kwrite</application> open (or create) that file immediately upon startup.  this
+option might look something like the following:</para>
+<informalexample>
+<screen><prompt>%</prompt> <userinput><command>kwrite</command> <option><replaceable>/home/myhome/docs/myfile.txt</replaceable></option></userinput></screen>
+</informalexample>
+</sect2>
+<sect2 id="editing-files-on-the-internet">
+<title>specify a file on the internet</title>
+<para>the above-mentioned method could even be used to open files on the
+internet (if the user has an active connection at the time.)  an example of
+this might look like the following:</para>
+<informalexample>
+<screen><prompt>%</prompt> <userinput><command>kwrite</command> <option><replaceable>ftp://ftp.kde.org/pub/kde/welcome.msg</replaceable></option></userinput></screen>
+</informalexample>
+</sect2>
+<sect2 id="other-command-line-options">
+<title>other command line options</title>
+<para>the following command line help options are available</para>
+<variablelist>
+<varlistentry>
+<term><userinput><command>kwrite</command> <option>--help</option></userinput></term>
+<listitem>
+<para>this lists the most basic options available at the command  
+line.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><userinput><command>kwrite</command> <option>--help-qt</option></userinput></term>
+<listitem>
+<para>this lists the options available for changing the way  
+<application>kwrite</application> interacts with <trademark>qt</trademark>.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><userinput><command>kwrite</command> <option>--help-kde</option></userinput></term>
+<listitem>
+<para>this lists the options available for changing the way  
+<application>kwrite</application> interacts with kde.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><userinput><command>kwrite</command> <option>--help-all</option></userinput></term>
+<listitem>
+<para>this lists all of the command line options.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><userinput><command>kwrite</command> <option>--author</option></userinput></term>
+<listitem>
+<para>lists <application>kwrite</application>'s authors in the terminal window</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><userinput><command>kwrite</command> <option>--version</option></userinput></term>
+<listitem>
+<para>lists version information for <trademark>qt</trademark>, kde, and <application>kwrite</application>. also available through <userinput><command>kwrite</command> <option>-v</option></userinput> </para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect2>
+</sect1>
+<sect1 id="keybindings">
+<title>key bindings</title>
+<para>many of the key bindings (shortcuts) are configurable by way of the <link linkend="settings">settings</link> menu.  by default <application>kwrite</application> honors the  
+following key bindings.</para>
+<informaltable>
+<tgroup cols="2">
+<tbody>
+<row>
+<entry><para><keycombo>
+<keycap>insert</keycap>
+</keycombo></para></entry>
+<entry><para> toggle between insert and overwrite mode. when in insert mode the
+editor will add any typed characters to the text while pushing along any data to
+the right of the text cursor. overwrite mode causes the entry of each character
+to eliminate the character immediately to the right of the text
+cursor.</para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>left arrow</keycap>
+</keycombo></para></entry>
+<entry><para>move the cursor one character to the left </para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>right arrow</keycap>
+</keycombo></para></entry>
+<entry><para> move the cursor one character to the right </para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>up arrow</keycap>
+</keycombo></para></entry>
+<entry><para> move the cursor up one line  </para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>down arrow</keycap>
+</keycombo></para></entry>
+<entry><para> move the cursor down one line </para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>page up</keycap>
+</keycombo></para></entry>
+<entry><para> move the cursor up one page  </para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>page down</keycap>
+</keycombo></para></entry>
+<entry><para>move the cursor down one page  </para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>backspace</keycap>
+</keycombo></para></entry>
+<entry><para> delete the character to the left of the cursor </para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>home</keycap>
+</keycombo></para></entry>
+<entry><para> move the cursor to the beginning of the line </para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>end</keycap>
+</keycombo></para></entry>
+<entry><para> move the cursor to the end of the line </para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>delete</keycap>
+</keycombo></para></entry>
+<entry><para>delete the character to the right of the cursor (or any selected  
+text)</para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>shift</keycap>
+<keycap>left arrow</keycap>
+</keycombo></para></entry>
+<entry><para> mark text one character to the left </para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>shift</keycap>
+<keycap>right arrow</keycap>
+</keycombo></para></entry>
+<entry><para> mark text one character to the right </para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>f1</keycap>
+</keycombo></para></entry>
+<entry><para> help</para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>shift</keycap>
+<keycap>f1</keycap>
+</keycombo></para></entry>
+<entry><para><link linkend="whats-this">what's this?</link></para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>ctrl</keycap>
+<keycap>f</keycap>
+</keycombo></para></entry>
+<entry><para><link linkend="find"> find</link></para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>f3</keycap>
+</keycombo></para></entry>
+<entry><para><link linkend="find-again"> find again</link></para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>ctrl</keycap>
+<keycap>c</keycap>
+</keycombo></para></entry>
+<entry><para> copy the marked text to the clipboard. </para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>ctrl</keycap>
+<keycap>m</keycap>
+</keycombo></para></entry>
+<entry><para>set a bookmark</para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>ctrl</keycap>
+<keycap>n</keycap>
+</keycombo></para></entry>
+<entry><para> <link linkend="new">new</link> document</para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>ctrl</keycap>
+<keycap>p</keycap>
+</keycombo></para></entry>
+<entry><para><link linkend="print">print</link> </para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>ctrl</keycap>
+<keycap>q</keycap>
+</keycombo></para></entry>
+<entry><para>quit - close active copy of editor </para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>ctrl</keycap>
+<keycap>r</keycap>
+</keycombo></para></entry>
+<entry><para><link linkend="replace"> replace</link></para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>ctrl</keycap>
+<keycap>s</keycap>
+</keycombo></para></entry>
+<entry><para>invokes the <link linkend="save"><guilabel>save</guilabel></link> command.</para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>ctrl</keycap>
+<keycap>v</keycap>
+</keycombo></para></entry>
+<entry><para> paste the clipboard text into line edit. </para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>ctrl</keycap>
+<keycap>x</keycap>
+</keycombo></para></entry>
+<entry><para>delete the marked text and copy it to the clipboard. </para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>ctrl</keycap>
+<keycap>z</keycap>
+</keycombo></para></entry>
+<entry><para><link linkend="undo">undo</link></para></entry>
+</row>
+<row>
+<entry><para><keycombo>
+<keycap>ctrl</keycap>
+<keycap>shift</keycap>
+<keycap>z</keycap>
+</keycombo></para></entry>
+<entry><para><link linkend="redo">redo</link></para></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</sect1>
+</chapter>
+<chapter id="the-menu-entries">
+<title>the menu entries</title>
+<sect1 id="file">
+<title>the <guimenu>file</guimenu> menu</title>
+<variablelist>
+<varlistentry>
+<term><anchor id="new"/><menuchoice>
+<shortcut>
+<keycombo>
+<keycap>ctrl</keycap>
+<keycap>n</keycap>
+</keycombo>
+</shortcut>
+<guimenu><accel>f</accel>ile</guimenu>
+<guimenuitem><accel>n</accel>ew</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this starts a new document in the editor. if there is a current  
+document with unsaved changes the user is given a chance to save it.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="open"/><menuchoice>
+<shortcut>
+<keycombo>
+<keycap>ctrl</keycap>
+<keycap>o</keycap>
+</keycombo>
+</shortcut>
+<guimenu><accel>f</accel>ile</guimenu>
+<guimenuitem><accel>0</accel>pen</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this command opens a file.  it does this by means of a dialog box  
+which allows the user to navigate the file system.  the dialog operates  
+like a small file manager. clicking on directories displayed in the
+central window directs the dialog to enter that directory - displaying its  
+contents.  there is an entry/dropdown box which can be used to type in  
+directly the location and name of the file or by clicking the arrow at the  
+side choose from a dropdown list of recently used locations. below this is  
+a filter which similarly may have data entered directly or chosen from a  
+dropdown list of recent filter types.  the filter facility lets only files  
+that meet its specifications be displayed in the central window. if the  
+filter contained text such as <literal role="extension">*.txt</literal> then only files  
+with the txt extension would be visible in the selection window. below the filter
+is a status bar giving information about the number of files and subdirectories
+within the current directory.</para>
+<para>the  toolbar, which is located at the top of the dialog, has left and right
+arrow buttons that let the user move back and forth through previously selected
+directories as well as an up arrow button for moving up the directory tree. the
+button with the little house takes the user to his or her home directory and the one
+with the two arrows curved in on each other updates the view of the current
+directory. the flag button lets the user set a new bookmark at the current directory
+or go to  one that was previously set. 
+ the last button on the toolbar allows you to create a new
+directory, and finally  there is dropdown box with a list of some commonly
+frequented directories.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="open-recent"/><menuchoice>
+<guimenu><accel>f</accel>ile</guimenu>
+<guimenuitem>open  
+<accel>r</accel>ecent</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this is a shortcut to open recently saved documents. clicking on
+this item opens a list to the side of the menu with several of the most recently
+saved files. clicking on a specific file will open it in <application>kwrite</application> - if the file
+still resides at the same location. </para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="save"/><menuchoice>
+<shortcut>
+<keycombo>
+<keycap>ctrl</keycap>
+<keycap>s</keycap>
+</keycombo>
+</shortcut>
+<guimenu><accel>f</accel>ile</guimenu>
+<guimenuitem><accel>s</accel>ave</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this saves the current document.  if there has already been a
+save of the document then this will overwrite the previously saved file without
+asking for the user's consent.  if it is the first save of a new document the
+save as dialog (described below) will be invoked.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="save-as"/><menuchoice>
+<guimenu><accel>f</accel>ile</guimenu>
+<guimenuitem>save
+<accel>a</accel>s</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this allows a document to be saved with a new file name. this is
+done by means of the file dialog box described above in the <link linkend="open">open</link> section of this help file.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="print"/><menuchoice>
+<shortcut>
+<keycombo>
+<keycap>ctrl</keycap>
+<keycap>p</keycap>
+</keycombo>
+</shortcut>
+<guimenu><accel>f</accel>ile</guimenu>
+<guimenuitem><accel>p</accel>rint</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>opens a simple print dialog allowing the user to specify what, where, and how to print</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="new-window"/><menuchoice>
+<guimenu><accel>f</accel>ile</guimenu>
+<guimenuitem>new <accel>w</accel>indow</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this creates a new window, <abbrev>i.e.</abbrev> a new instance of <application>kwrite</application>. in this way the user can easily work  
+on more than one file at a time with <application>kwrite</application>.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="new-view"/><menuchoice>
+<guimenu><accel>f</accel>ile</guimenu>
+<guimenuitem>new <accel>v</accel>iew</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this creates a new view of the current document, <abbrev>i.e.</abbrev>, a new instance of
+<application>kwrite</application> (as explained in the previous entry) but containing the same
+document.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="close"/><menuchoice>
+<shortcut>
+<keycombo>
+<keycap>ctrl</keycap>
+<keycap>q</keycap>
+</keycombo>
+</shortcut>
+<guimenu><accel>f</accel>ile</guimenu>
+<guimenuitem><accel>q</accel>uit</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this will close the editor window, if you have more than one
+instance of <application>kwrite</application> running, through the <guimenuitem>new view</guimenuitem> or
+<guimenuitem>new window</guimenuitem> menu items, those instances will not be
+closed.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect1>
+<sect1 id="edit">
+<title>the <guimenu>edit</guimenu> menu</title>
+<variablelist>
+<varlistentry>
+<term><anchor id="undo"/><menuchoice>
+<shortcut>
+<keycombo>
+<keycap>ctrl</keycap>
+<keycap>z</keycap>
+</keycombo>
+</shortcut>
+<guimenu><accel>e</accel>dit</guimenu>
+<guimenuitem>und<accel>o</accel></guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this is used to eliminate or reverse the most recent user action or operation. just what  
+constitutes such an action may be better understood by referring to the <link linkend="group-undos">group undos</link> portion of this help file.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="redo"/><menuchoice>
+<shortcut>
+<keycombo>
+<keycap>ctrl</keycap>
+<keycap>shift</keycap>
+<keycap>z</keycap>
+</keycombo>
+</shortcut>
+<guimenu><accel>e</accel>dit</guimenu>
+<guimenuitem>re<accel>d</accel>o</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this will reverse the most recent change (if any) made using undo</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="undohistory"/><menuchoice>
+<guimenu><accel>e</accel>dit</guimenu>
+<guimenuitem>undo/redo <accel>h</accel>istory</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this will call a display box showing a list of the most recent actions on  
+the left and another list of actions which have been 'undone' on the right.  
+there are also three buttons at the right of the box labeled  
+<guibutton>undo</guibutton>, <guibutton>redo</guibutton>, and  
+<guibutton>close</guibutton>.  clicking on the <guibutton>undo</guibutton>  
+button will cause the action at the top of the undo list to be reversed which  
+will place that particular action at the top of the redo list. likewise,  
+clicking on the <guibutton>redo</guibutton> button will reinstate the reversed  
+action and move it back to the top of the undo list.  clicking on an item below  
+the top item in either list will select all the items from the top down to that  
+point.  a subsequent click on the corresponding button will cause all the  
+selected actions to be undone or redone accordingly.  this would be particularly  
+useful when the user knows precisely the point to which she or he would like to  
+proceed - making it unnecessary to go through a series of single undo or redo  
+actions.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="cut"/><menuchoice>
+<shortcut>
+<keycombo>
+<keycap>ctrl</keycap>
+<keycap>x</keycap>
+</keycombo>
+</shortcut>
+<guimenu><accel>e</accel>dit</guimenu>
+<guimenuitem>c<accel>u</accel>t</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this command deletes the current selection and places it on the clipboard.  the  
+clipboard is a feature of kde that works invisibly to provide a way to transfer data between  
+applications.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="copy"/><menuchoice>
+<shortcut>
+<keycombo>
+<keycap>ctrl</keycap>
+<keycap>c</keycap>
+</keycombo>
+</shortcut>
+<guimenu><accel>e</accel>dit</guimenu>
+<guimenuitem><accel>c</accel>opy</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this copies the currently selected text to the clipboard so that it may be  
+pasted elsewhere.  the clipboard is a feature of kde that works invisibly to  
+provide a way to transfer data between applications.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="paste"/><menuchoice>
+<shortcut>
+<keycombo>
+<keycap>ctrl</keycap>
+<keycap>v</keycap>
+</keycombo>
+</shortcut>
+<guimenu><accel>e</accel>dit</guimenu>
+<guimenuitem><accel>p</accel>aste</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this will insert the contents of the clipboard at the cursor position. the  
+clipboard is feature of kde that works invisibly to provide a way to transfer  
+data between applications.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="select-all"/><menuchoice>
+<shortcut>
+<keycombo>
+<keycap>ctrl</keycap>
+<keycap>a</keycap>
+</keycombo>
+</shortcut>
+<guimenu><accel>e</accel>dit</guimenu>
+<guimenuitem>select <accel>a</accel>ll</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this will select the entire document. this could be very useful for  
+copying the entire file to another application.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="invert-the-selection"/><menuchoice>
+<guimenu><accel>e</accel>dit</guimenu>
+<guimenuitem>invert <accel>s</accel>election</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this selects any unselected text while unselecting any selected text -  
+effectively reversing the current state of selection.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="find"/><menuchoice>
+<shortcut>
+<keycombo>
+<keycap>ctrl</keycap>
+<keycap>f</keycap>
+</keycombo>
+</shortcut>
+<guimenu><accel>e</accel>dit</guimenu>
+<guimenuitem><accel>f</accel>ind</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this opens the find dialog which is used to specify the <guilabel>text to  
+find</guilabel> in the document. there is small text box for entering the search  
+pattern which also doubles as a dropdown box. clicking on the dropdown arrow at  
+the side of the box makes available other recent search patterns. other  
+parameters are included to make the search more efficient. selecting  
+<guilabel>case sensitive</guilabel> will limit finds to entries that match the  
+case (upper or lower) of each of the characters in the search  
+pattern. <guilabel>find backwards</guilabel> directs the search to proceed in an  
+upwardly direction. the <guilabel>selected text</guilabel> option keeps the  
+search within currently selected text. checking <guilabel>whole words
+only</guilabel> prevents the search from stopping on words that contain the
+searched for pattern. the <guilabel>search from cursor</guilabel> option begins  
+the search from the current position of the cursor within the document rather  
+than from the beginning.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="find-again"/><menuchoice>
+<shortcut>
+<keycombo>
+<keycap>f3</keycap>
+</keycombo>
+</shortcut>
+<guimenu><accel>e</accel>dit</guimenu>
+<guimenuitem>find <accel>n</accel>ext</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this repeats the last find operation, if any, without calling the find  
+dialog box.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="replace"/><menuchoice>
+<shortcut>
+<keycombo>
+<keycap>ctrl</keycap>
+<keycap>r</keycap>
+</keycombo>
+</shortcut>
+<guimenu><accel>e</accel>dit</guimenu>
+<guimenuitem><accel>r</accel>eplace</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this command opens the replace dialog box.  the replace dialog is  
+almost identical to the above-mentioned find dialog.  in addition to the features in
+the find dialog it contains a <guilabel>replace with:</guilabel> text
+entry/dropdown box.  using this dialog the user can specify both the text to be found
+and text with which to replace it.  the additional <guilabel>prompt
+on replace</guilabel> option allows the user to have <application>kwrite</application> ask for
+confirmation before each replacement.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="insertfile"/>
+<menuchoice>
+<guimenu><accel>e</accel>dit</guimenu>
+<guimenuitem><accel>i</accel>nsert file</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this <action>opens</action> the <guimenu>file</guimenu> <link linkend="open"><guimenuitem>open</guimenuitem></link> dialog box whereby the
+user can insert a complete file in the open document.  the the contents of
+the file will be entered at the position of the blinking text
+cursor.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect1>
+<sect1 id="go">
+<title>the <guimenu>go</guimenu> menu</title>
+<variablelist>
+<varlistentry>
+<term><anchor id="go-to-line"/><menuchoice>
+<guimenu><accel>g</accel>o</guimenu>
+<guimenuitem><accel>g</accel>o to line</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this opens the goto line dialog box which is used to have the cursor jump  
+to a particular line (specified by number) in the document.  the line number may  
+be entered directly into the text box or graphically by clicking on the up or  
+down arrow spin controls at the side of the text box. the little up arrow will  
+increase the line number and the down arrow decrease it.  there is also a slide  
+control to the right of the text box which allows the user to move the goto  
+point in the document in an analog manner.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="add-marker"/><menuchoice>
+<shortcut>
+<keycombo>
+<keycap>ctrl</keycap>
+<keycap>m</keycap>
+</keycombo>
+</shortcut>
+<guimenu><accel>g</accel>o</guimenu>
+<guimenuitem><accel>a</accel>dd marker</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this creates a marker in the document at the line where the cursor is  
+located and places it at the bottom of the list of markers located at the
+bottom of the go menu.</para>
+<para>markers are points within a <application>kwrite</application> document
+marked for easy return. if  the user thinks (s)he may need to return to a specific
+point (s)he may by way of this feature instruct <application>kwrite</application> to remember it. </para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="set-bookmark"/><menuchoice>
+<guimenu><accel>g</accel>o</guimenu>
+<guimenuitem><accel>s</accel>et marker</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this creates a marker in the document at the line where the cursor is  
+located, and allows the user to choose its position in the list of bookmarks  
+which is appended at the bottom of this menu item.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="clear-bookmarks"/><menuchoice>
+<guimenu><accel>g</accel>o</guimenu>
+<guimenuitem><accel>c</accel>lear markers</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this command will remove all the markers from the docucument as well as the
+list of markers which is appended at the  bottom of this menu item.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+<para>at the bottom of this menu, a list of markers appears if any  
+markers are available for this window.</para>
+</sect1>
+<sect1 id="tools">
+<title>the <guimenu>tools</guimenu> menu</title>
+<variablelist>
+<varlistentry>
+<term><anchor id="spelling..."/><menuchoice>
+<guimenu><accel>t</accel>ools</guimenu>
+<guimenuitem><accel>s</accel>pelling...</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para><action>this initiates the spell checking program - a program
+designed to help the user catch and correct any spelling errors.</action>
+clicking on this entry will start the checker and bring up the speller dialog
+box through which the user can control the process.  there are three text boxes
+lined up vertically in the center of the dialog with their corresponding labels
+just to the left.  starting at the top they are:</para>
+<variablelist>
+<varlistentry>
+<term><guilabel>misspelled word:</guilabel></term>
+<listitem>
+<para>here, the spell checker indicates the word currently under
+consideration.  this happens when the checker encounters a word not in its
+dictionary - a file containing a list of correctly spelled words against which
+it compares each word in the editor.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>replacement:</guilabel></term>
+<listitem>
+<para> if the checker has any similar words in its dictionary the
+first one will be listed here.  the user can accept the suggestion, type in his
+or her own correction, or choose a different suggestion from the next
+box.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>suggestions:</guilabel></term>
+<listitem>
+<para> the checker may list here a number of possible replacements for
+the word under consideration.  clicking on any one of the suggestions will cause
+that word to be entered in the <guilabel>replacement:</guilabel> box,
+above.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+<para>on the right side of the dialog box are 6 buttons that allow the user to
+control the spell check process.  they are:</para>
+<variablelist>
+<varlistentry>
+<term><guibutton>replace</guibutton></term>
+<listitem>
+<para> this button has the checker replace the word under
+consideration in the document with the word in the
+<guilabel>replacement:</guilabel> box.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guibutton>replace all</guibutton></term>
+<listitem>
+<para> this button causes the checker to replace not only the current
+<guilabel>misspelled word:</guilabel> but to automatically make the same
+substitution for any other occurences of this <guilabel>misspelled
+word:</guilabel> in the document.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guibutton>ignore</guibutton></term>
+<listitem>
+<para>activating this button will have the checker move on without
+making any changes.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guibutton>ignore all</guibutton></term>
+<listitem>
+<para> this button tells the checker to do nothing with the current
+<guilabel>misspelled word:</guilabel> and to pass over any other instances of
+the same word.</para>
+<note>
+<para>this only applies to the current spell check
+run.  if the checker is run again later it will stop on this same
+word.</para>
+</note>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guibutton>add</guibutton></term>
+<listitem>
+<para>pressing this button adds the word in the <guilabel>misspelled
+word:</guilabel> box to the checker's dictionary. this means that in the future
+the checker will always consider this word to be correctly
+spelled.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guibutton>stop</guibutton></term>
+<listitem>
+<para> this button stops the spell check process.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+<para>located horizontally along the bottom of the spell check dialog is a
+progress bar.  as the checking process proceeds the bar will fill from left to
+right providing a graphical representation of how far along in the document the
+process has reached.  in addition, the progress is displayed numerically in
+the center of the progress bar.</para>
+<note>
+<para>a numerical display of the spell check
+process is simultaneously displayed in the status bar of the editor.  the <link linkend="show-statusbar">status bar</link> is the horizontal strip at the bottom
+of the editor just outside of the text entry area.</para>
+</note>
+<para>two more buttons are located below the progress bar.  they are:</para>
+<variablelist>
+<varlistentry>
+<term><guibutton>help</guibutton></term>
+<listitem>
+<para> this invokes the kde help system starting at the <application>kwrite</application> help
+pages (this document).</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guibutton>cancel</guibutton></term>
+<listitem>
+<para> this button cancels the spell check process.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="indent"/><menuchoice>
+<guimenu>tools</guimenu>
+<guimenuitem>indent</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this increases the paragraph's indentation by one step. the size of the
+step depends on the <link linkend="pref-indent"> indentation  
+settings</link>.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="unindent"/><menuchoice>
+<guimenu>tools</guimenu>
+<guimenuitem>unindent</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this reduces the paragraph's indentation by one step. the size of the step  
+depends on the <link linkend="pref-indent"> indentation settings</link>.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="cleanindent"/><menuchoice>
+<guimenu>tools</guimenu>
+<guimenuitem>clean
+indentation</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>not yet implemented</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><menuchoice>
+<guimenu>tools</guimenu>
+<guimenuitem>comment</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this adds one space to the beginning of the line
+where the text cursor is located or to the beginning of any
+selected lines.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><menuchoice>
+<guimenu>tools</guimenu>
+<guimenuitem>uncomment</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this removes one space (if any exist) from the beginning of the line
+where the text cursor is located or from the beginning of any
+selected lines.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect1>
+<sect1 id="settings">
+<title>the <guimenu>settings</guimenu> menu</title>
+<variablelist>
+<varlistentry>
+<term><anchor id="show-toolbar"/><menuchoice>
+<guimenu><accel>s</accel>ettings</guimenu>
+<guimenuitem>show <accel>t</accel>oolbar</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>when checked, this displays a movable toolbar containing buttons used to  
+initiate frequently used commands. when unchecked the toolbar is hidden.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="show-statusbar"/><menuchoice>
+<guimenu><accel>s</accel>ettings</guimenu>
+<guimenuitem>show <accel>s</accel>tatusbar</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>when checked, this displays a small bar at the bottom of the editor  
+containing information about the status of the current document.  when unchecked  
+the statusbar is hidden.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="show-path"/><menuchoice>
+<guimenu><accel>s</accel>ettings</guimenu>
+<guimenuitem>sho<accel>w</accel> path</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>when selected, this displays in the title bar the path (its location in the
+file system) of the current document.  when unchecked the path is hidden.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="configure-keybindings"/><menuchoice>
+<guimenu><accel>s</accel>ettings</guimenu>
+<guimenuitem>configure <accel>k</accel>ey bindings</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this command opens a dialog box whereby the <link linkend="keybindings">key bindings</link> may be changed.  a display window at
+the top of the dialog box shows the list of commands (actions) that can have
+keyboard shortcuts.  below the display are three radio buttons.  the user may choose
+between no key, default key, and custom key.  (note that a set of radio buttons only
+allows the selection of one of the offered items - in the way that buttons on a car
+radio only offer the selection of one preset station.  also, the default key
+selection  is only available for those commands that actually have a 'default'
+shortcut.)  selecting the custom key option activates the three check boxes and key
+button at the bottom of the dialog. the user may then select a key
+combination for the command in question by means of the check boxes and key
+button. for example, with the about kde command selected in the display window,  
+the user could select <keycap>ctrl</keycap> and <keycap>alt</keycap>, click on  
+the key button, and then press the <keycap>k</keycap> key on the keyboard.  this  
+would mean that anytime he or she held down the <keycap>ctrl</keycap> and  
+<keycap>alt</keycap> buttons and pressed <keycap>k</keycap> (while using  
+<application>kwrite</application>) the about kde display box would be called. </para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="configure-toolbars"/><menuchoice>
+<guimenu><accel>s</accel>ettings</guimenu>
+<guimenuitem>configure tool<accel>b</accel>ars</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this will open the dialog whereby the toolbar configuration may
+be changed.   the user can choose which shortcut buttons should appear on the  
+toolbar. a display window on the left lists the commands available to placed
+on the toolbar.  a display on the right lists those commands already on the  
+toolbar.  a set of four arrow buttons between the two displays manipulates the  
+selections.  the right pointing arrow places any command selected in the left  
+pane onto the right pane, <abbrev>i.e.</abbrev>, it is added to the toolbar.  
+the left arrow does just the opposite, removing any action selected in the right  
+window from the toolbar.  the up and down pointing arrows change the position of  
+an action selected in the right window which changes the position of its button  
+in the toolbar.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="preferences"/><menuchoice>
+<guimenu><accel>s</accel>ettings</guimenu>
+<guimenuitem><accel>p</accel>references</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this menu item opens a dialog whereby several different <link linkend="pref-dialog">settings</link> may be adjusted.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><menuchoice>
+<guimenu><accel>s</accel>ettings</guimenu>
+<guimenuitem>configure
+highlighti<accel>n</accel>g</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>opens a dialog box allowing configuration of the syntax  
+highlighting.  the dialog is described in <xref linkend="pref-highlighting"/>.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="vertical-selection"/><menuchoice>
+<guimenu><accel>s</accel>ettings</guimenu>
+<guimenuitem><accel>v</accel>ertical  
+selection</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this is used to turn on or off the vertical selection feature.  vertical  
+selection allows text to be selected by column as well as by row.  in other  
+words with this feature the user is able to select text contained in only  
+particular contiguous columns and rows.  in affect the user can select a  
+rectangular area of text anywhere in the document.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="set-highlight"/><menuchoice>
+<guimenu><accel>s</accel>ettings</guimenu>
+<guimenuitem><accel>h</accel>ighlight mode</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this allows the user to choose the style of color highlighting which the  
+editor uses to display the text. the styles are selected by programming
+language. the font/color information is not stored with the document.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="end-of-line"/><menuchoice>
+<guimenu><accel>s</accel>ettings</guimenu>
+<guisubmenu><accel>e</accel>nd of line</guisubmenu>
+</menuchoice></term>
+<listitem>
+<para>this opens a sub-menu from which the user can select the type of <quote>end of  
+line</quote> code for <application>kwrite</application> to use, <abbrev>i.e.</abbrev>, the accepted standard  
+used by unix, <trademark class="registered">mac</trademark> or msdos/<trademark class="registered">windows</trademark> systems.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect1>
+<sect1 id="help">
+<title>the <guimenuitem>help</guimenuitem> menu</title>
+<variablelist>
+<varlistentry>
+<term><anchor id="contents"/><menuchoice>
+<shortcut>
+<keycombo>
+<keycap>f1</keycap>
+</keycombo>
+</shortcut>
+<guimenu><accel>h</accel>elp</guimenu>
+<guimenuitem><accel>c</accel>ontents</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this invokes the kde help system starting at the <application>kwrite</application> help pages (this document).</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="whats-this"/><menuchoice>
+<shortcut>
+<keycombo>
+<keycap>shift</keycap>
+<keycap>f1</keycap>
+</keycombo>
+</shortcut>
+<guimenu><accel>h</accel>elp</guimenu>
+<guimenuitem>what's <accel>t</accel>his?</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this changes the mouse cursor to a combination arrow and question mark.  
+clicking on items within <application>kwrite</application> with this arrow will open a help window (if  
+one exists for the particular item) explaining the item's function.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="report-bug"/><menuchoice>
+<guimenu><accel>h</accel>elp</guimenu>
+<guimenuitem><accel>r</accel>eport bug</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para><action>this calls a dialog box to help
+the user help the kde team to track down and solve any
+problems(bugs) in the program.  the dialog attempts to do this by
+means of email using the information given by the user.</action></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="about-kwrite"/><menuchoice>
+<guimenu><accel>h</accel>elp</guimenu>
+<guimenuitem><accel>a</accel>bout kwrite</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this will display version and author information</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><anchor id="about-kde"/><menuchoice>
+<guimenu><accel>h</accel>elp</guimenu>
+<guimenuitem>about <accel>k</accel>de</guimenuitem>
+</menuchoice></term>
+<listitem>
+<para>this displays the kde version and other basic information.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect1>
+</chapter>
+<chapter id="pref-dialog">
+<title>configure <application>kwrite</application></title>
+<para>selecting
+<menuchoice>
+<guimenu>settings</guimenu>
+<guimenuitem>configure
+kwrite</guimenuitem>
+</menuchoice> from the menu brings up the configure-kwrite
+dialog box.  this dialog can be used to alter a number of different settings.  the
+settings available for change vary according to which category the user chooses from
+a vertical list on the left side of the dialog.  by means of three buttons
+along the bottom of the box the user can control the process.  she or he may invoke
+the <guilabel>help</guilabel> system, accept the current settings and close the
+dialog by means of the <guibutton>ok</guibutton> button, or
+<guibutton>cancel</guibutton> the process. the categories
+<guilabel>colors</guilabel>, <guilabel>indent</guilabel>,
+<guilabel>select</guilabel>, <guilabel>edit</guilabel>, and
+<guilabel>spelling</guilabel> are detailed below.</para>
+<sect1 id="prefcolors">
+<title>colors</title>
+<para>this section provides access to <link linkend="pref-color-settings">five different color settings</link>,  
+described below.  each of these settings may be changed by clicking on its  
+corresponding button.  these are special wide buttons that are the color of  
+the current setting.  clicking on one of the buttons calls a special color  
+dialog box used to change the setting.</para>
+<para>the color dialog box provides a convenient and graphical way to
+select a color.  in the upper left of the box is a rectangular display of a  
+spectrum of colors. to the immediate right of this, is vertical bar  
+displaying a range of intensity from the most dark at the bottom to the  
+most light at the top.  the user may select and adjust a color by clicking  
+in these two boxes. clicking in the rectangular display selects a  
+particular mix of red, green, and blue colors and in the vertical bar  
+selects a level of intensity (value).  the various color attributes are displayed  
+in numerical form in small text boxes located directly below the spectral  
+rectangle and the user can see them change as the color is adjusted.  these  
+attributes include the mix of the basic color components (red, green, and  
+blue) as well as hue and saturation levels.  alternatively the user can  
+enter figures directly in these boxes.  there is also a square at the  
+bottom center of the dialog box which displays the color which is under  
+consideration at any time.  to the right of this display is another text  
+box labeled <guilabel>html:</guilabel> this shows the user the color code  
+that would be used to specify the particular displayed color in  
+<acronym>html</acronym> code which is widely used for web pages.</para>
+<para>in addition to the above, the color dialog allows the capture of any  
+color currently displayed on the desktop or in another program.  clicking  
+on the button with the dropper icon (located on the right side of the  
+dialog box,) changes the shape of the mouse cursor to a set of crosshairs.  
+clicking again will pick up the color attributes of whatever color is  
+displayed under the cross hairs.</para>
+<para>furthermore the user has the option of adding any color to a personal
+palette of <quote>custom colors</quote> by clicking on the wide button labeled
+<guibutton>add to custom colors</guibutton> (which is located directly above the
+display square.)  this adds the current color to the custom color palette.  this
+palette and any other available palettes can be displayed using the drop down
+selection box located directly above the palette display at the top right of the
+dialog box.  besides the custom colors, the user can access a number of
+pre-prepared palettes.</para>
+<variablelist>
+<varlistentry id="pref-color-settings">
+<term><guilabel>background</guilabel></term>
+<listitem>
+<para>here the user can specify a color for the general background of  
+<application>kwrite</application>.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>text background</guilabel></term>
+<listitem>
+<para>this is used to set a particular color to display in the  
+background of those areas of the document containing text.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>selected</guilabel></term>
+<listitem>
+<para>this allows the user to select a color to be used for indicating  
+selected (or highlighted) portions of the document.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>found</guilabel></term>
+<listitem>
+<para>this specifies the preferred color with which to mark text  
+encountered as the result of a <link linkend="find">find</link>  
+operation.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>selected + found</guilabel></term>
+<listitem>
+<para>this sets the color for text that has not only been found as in  
+the previous entry above but that has also been selected.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect1>
+<sect1 id="pref-indent">
+<title>indent</title>
+<variablelist>
+<varlistentry>
+<term><guilabel>auto indent</guilabel></term>
+<listitem>
+<para>this causes  
+new lines to begin with the same indentation level as the previous  
+line.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>indent with spaces</guilabel></term>
+<listitem>
+<para>this  
+replaces tabs with the number of spaces selected in the tab width window in  
+the <link linkend="pref-edit">edit</link> section of the preferences  
+dialog.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>backspace key indents</guilabel></term>
+<listitem>
+<para>this allows the  
+<keycombo>
+<keycap>backspace</keycap>
+</keycombo> key to be used to  
+indent.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>tab key indents</guilabel></term>
+<listitem>
+<para>this  
+allows the <keycombo>
+<keycap>tab</keycap>
+</keycombo> key to be used to  
+indent.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>keep indent profile</guilabel></term>
+<listitem>
+<para>this  
+retains current indentation settings for future documents.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>keep extra spaces</guilabel></term>
+<listitem>
+<para>indentations of more than the selected number of spaces  
+will not be shortened.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect1>
+<sect1 id="pref-select">
+<title>select</title>
+<variablelist>
+<varlistentry>
+<term><guilabel>persistent selections</guilabel></term>
+<listitem>
+<para>this prevents key input or cursor movement by way of the  
+arrow keys from causing the elimination of text  
+selection. </para>
+<note>
+<para>(note: if the overwrite selections option is  
+activated then any typed character input or paste operation will replace  
+the selected text.)</para>
+</note>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>overwrite selections</guilabel></term>
+<listitem>
+<para>any keyed character input or paste operation will replace  
+the selected text.  </para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>mouse autocopy</guilabel></term>
+<listitem>
+<para>any text  
+selected with the mouse will be automatically copied to the  
+clipboard.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>x11-like single selection</guilabel></term>
+<listitem>
+<para>not implemented yet.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>vertical selections</guilabel></term>
+<listitem>
+<para>this  
+activates the <link linkend="vertical-selection">vertical selection</link>  
+option.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>toggle old</term>
+<listitem>
+<para>not yet implemented</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect1>
+<sect1 id="pref-edit">
+<title>edit</title>
+<variablelist>
+<varlistentry>
+<term id="pref-word-wrap"><guilabel>word wrap</guilabel></term>
+<listitem>
+<para>word wrap is a feature that causes the editor to
+automatically start a new line of text and move (wrap) the cursor to the
+beginning of that new line.  <application>kwrite</application> will automatically start a new line of text
+when  the current line reaches the length specified by the <link linkend="pref-wrap-words-at">wrap words at:</link>  
+option.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term id="pref-wrap-words-at"><guilabel>wrap words  
+at:</guilabel></term>
+<listitem>
+<para>if the <link linkend="pref-word-wrap">word wrap</link> option is selected this entry  
+determines the length (in characters) at which the editor will
+automatically start a new line.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term id="pref-replace-tabs-by-spaces"><guilabel>replace tabs by  
+spaces</guilabel></term>
+<listitem>
+<para><application>kwrite</application> will replace any tabs  
+with the number of spaces indicated in the <link linkend="pref-tab-width">tab width:</link> entry.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term id="pref-tab-width">tab width</term>
+<listitem>
+<para>if the <link linkend="pref-word-wrap"><guilabel>replace tabs by spaces</guilabel></link>  
+option is selected this entry determines the number of spaces with which
+the editor will automatically replace tabs.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>remove trailing spaces</guilabel></term>
+<listitem>
+<para><application>kwrite</application> will automatically eliminate extra spaces at the  
+ends of lines of text.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>auto brackets</guilabel></term>
+<listitem>
+<para>when the
+user types a left bracket ([,(, or {) <application>kwrite</application> automatically
+enters the right bracket (}, ), or ]) to the right of the
+cursor.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term id="group-undos"><guilabel>group undos</guilabel></term>
+<listitem>
+<para>groups of similar actions are to be considered a single
+<link linkend="undo">undo</link> step by <application>kwrite</application>. in other words, a series
+of regular character keystrokes (words or expressions) would be considered
+one step and therefore be removed by a single undo operation.  if the
+series of character entries were interrupted by a non-character entry
+operation (such as a backspace), invoking undo would only remove the
+entries made since that operation. the next undo would then reverse that
+operation and so on.</para>
+<para> when this option is not selected <application>kwrite</application> considers
+each keystroke to be a single step.  so if the user (with this option
+active) were to type several words or even sentences without having to make
+corrections or cut or paste or some other non-character entry operation
+then a click of the undo button would eliminate all that had been typed
+since the last non-entry operation.  a second click would eliminate that
+operation and a third any operation or series of entries that occurred
+before the operation and so on.  when not selected three clicks of the undo
+button would only remove the last three letters typed, or the last three
+operations.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>show tabs</guilabel></term>
+<listitem>
+<para>the editor will display a symbol to indicate the presence  
+of a tab in the text.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>smart home</guilabel></term>
+<listitem>
+<para>not yet implemented</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>page up/down moves cursor</guilabel></term>
+<listitem>
+<para>this option changes the behavior of the cursor when
+the user presses the <keycap>page up</keycap> or <keycap>page down</keycap> key. if
+unselected the text cursor will maintain its relative position within the visible
+text in <application>kwrite</application> as new text becomes visible as a result of the operation.  so if
+the cursor is in the middle of the visible text when the operation occurs it will
+remain there (except when one reaches the beginning or end.)  with this
+option selected, the first key press will cause the cursor to move to either the top
+or bottom of the visible text as a new page of text is displayed.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>wrap cursor</term>
+<listitem>
+<para>when this option is chosen, moving
+the cursor with the arrow keys off the end of a line (to the right) causes
+it to jump down to the beginning of the next line.  likewise when the
+cursor is moved past the beginning of a line (to the left) it jumps up to
+the end of the preceding line. when this option is not selected, moving the
+cursor right past the end of a line merely causes it to continue
+horizontally in the same line and trying to move it left past the beginning
+does nothing.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><link linkend="undo">undo</link> steps:</term>
+<listitem>
+<para>here
+the user may specify the number of steps <application>kwrite</application> will retain in memory for
+purposes of undoing entries and actions.  this means that the higher the
+number of steps set the more memory <application>kwrite</application> will use for this.  setting
+this entry to 10 would mean that the user would be be able reverse the last
+ten operations, <abbrev>i.e.</abbrev>i&#62;, click the <guibutton>undo</guibutton>
+button 10 times and obtain results.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect1>
+<sect1 id="prefspellchecker">
+<title>spelling</title>
+<para>a spell checker is a program designed to
+help the user catch and correct any spelling errors.  this section of the
+preferences dialog allows certain important settings to be adjusted in this
+regard.</para>
+<variablelist>
+<varlistentry>
+<term><guilabel>create root/affix combinations not in
+dictionary</guilabel></term>
+<listitem>
+<para>selecting this option allows
+the spell checker to register as 'correct' combinations of root words with
+suffixes or prefixes even if the particular combination is not listed in
+its dictionary data base of words.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>consider run-together words as spelling
+errors</guilabel></term>
+<listitem>
+<para>selecting this will cause the
+spell checker to register as 'misspelled' two or more correctly spelled
+words that are 'run-together', <abbrev>i.e.</abbrev>, that do not have spaces
+separating them.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>dictionary:</guilabel></term>
+<listitem>
+<para>depending on
+the user's installation one or more different language spelling
+dictionaries may be available.  this drop down box allows the user to
+choose which language the spell checker should use.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>encoding:</guilabel></term>
+<listitem>
+<para>there are  
+different coding systems used to associate particular codes with particular  
+characters and symbols.  if the user knows which code he or she is using  
+this drop down box allows this code to be specified so that the spell
+checker can do its job correctly. </para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>client:</guilabel></term>
+<listitem>
+<para>since <application>kwrite</application>
+does not contain its own spell checker, an external one must be chosen.
+this is where the user may specify which spell check program to
+use.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect1>
+</chapter>
+<chapter id="pref-highlighting">
+<title>highlighting</title>
+<para>the <guilabel>configure highlighting</guilabel> dialog consists of two
+pages, <guilabel>defaults</guilabel> and <guilabel>highlighting
+modes</guilabel>.  the user can select which page to view by clicking on the
+appropriate tab at the top of the dialog</para>
+<para>items available on the <guilabel>defaults</guilabel> page are as
+follows:</para>
+<variablelist>
+<varlistentry>
+<term><guilabel>default item styles</guilabel></term>
+<listitem>
+<para>the user can configure the default appearance for particular items.
+this would allow a programmer to more easily identify different items (types of
+entries) in his or her code.
+
+</para>
+<variablelist>
+<varlistentry>
+<term><guilabel>item</guilabel></term>
+<listitem>
+<para>this drop down list offers a variety of items that the user
+might want to highlight.  they include <guilabel>normal</guilabel> for
+text does not fit in any of the other categories, <guilabel>comment</guilabel>,
+<guilabel>string</guilabel>, <guilabel>keyword</guilabel> and many more.  not
+all of these entries will need to be configured for every language and so may be
+selected as needed.  the options in the rest of this section apply
+to the entry selected in this box.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>normal</guilabel></term>
+<listitem>
+<para>this allows the user to choose the item's normal
+(unselected) color.  this is done by means of a color selection
+dialog box, a further explanation of which may be found in the <link linkend="prefcolors">colors</link> section of <link linkend="pref-dialog">configure kwrite</link>.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>bold</guilabel></term>
+<listitem>
+<para>this option determines whether or not the item should be displayed in
+bold text.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>italic</guilabel></term>
+<listitem>
+<para>this option determines whether or not the item should be displayed in italic
+text.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>selected</guilabel></term>
+<listitem>
+<para>this allows the user to choose the item's color
+when selected.  this is done by means of a color selection
+dialog box, a further explanation of which may be found in the <link linkend="prefcolors">colors</link> section of <link linkend="pref-dialog">configure kwrite</link>.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>default font</guilabel></term>
+<listitem>
+<para>here the user can choose the default font for all
+text.</para>
+<variablelist>
+<varlistentry>
+<term><guilabel>family</guilabel></term>
+<listitem>
+<para>this is used to choose the font family.  the default is fixed.
+for most programming purposes, a monospaced font (one in which a w takes up the same
+amount of space as an i) may be the best choice.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>size</guilabel></term>
+<listitem>
+<para>the font size can be changed here.  the default is 12
+points.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>charset</guilabel></term>
+<listitem>
+<para>here the user can choose which character set to work in.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</listitem>
+</varlistentry>
+</variablelist>
+<para>items on the <guilabel>highlight modes</guilabel> tab allow the user to define
+more specific highlighting depending on the language style.</para>
+<para>one need not set every available option, items not configured
+specifically will use the default configuration specified on the previous  
+(<guilabel>defaults</guilabel> tab.</para>
+<variablelist>
+<varlistentry>
+<term><guilabel>config select</guilabel></term>
+<listitem>
+<para>this group of options is used to customize the highlighting styles
+for each programming language type.  any changes you made in
+other areas of this dialog apply only to this type.</para>
+<variablelist>
+<varlistentry>
+<term><guilabel>highlight</guilabel></term>
+<listitem>
+<para>this is used to choose the language type to
+configure</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>item</guilabel></term>
+<listitem>
+<para>this is to choose the syntax item to configure.  remember
+this  only configures <emphasis>this</emphasis> item for <emphasis>this</emphasis>
+language.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+<para>as an example, if the user wished to configure the appearance of
+<quote>comments</quote> while writing c++, she or he could choose c++ in the
+<guilabel>highlight</guilabel> drop down list, and then choose comment in the
+<guilabel>item</guilabel> drop down list. to have <quote>comments</quote> look
+the same across all languages, the user would need to configure this in the
+<guilabel>defaults</guilabel> page of this dialog box while leaving
+<quote>comments</quote> unconfigured within the more specific
+<guilabel>highlight modes</guilabel> page.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>item style</guilabel></term>
+<listitem>
+<para>here the user can configure the general appearance of the above
+selected item.  checking the <guilabel>default</guilabel> checkbox causes the default
+style as configured on the previous tab to be set, or the
+appearance can be configured directly.  the available options are the same as on the
+<guilabel>defaults</guilabel> tab: <guilabel>normal</guilabel>,
+<guilabel>selected</guilabel>, <guilabel>bold</guilabel> and
+<guilabel>italic</guilabel>.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>highlight auto select</guilabel></term>
+<listitem>
+<para><application>kwrite</application> can apply syntax highlighting automatically, depending  
+on the file extension or mime-type of the opened file.  the defaults are fairly
+comprehensive, but users that regularly edit files with non-standard extensions
+can add them here.  wildcards are allowed in the <guilabel>file
+extensions</guilabel> text box.  for example, the default entry for the c++
+language is <userinput>*.cpp;*.cc;*.c;*.h</userinput>.  opening a file called
+<filename>foo.h</filename> would automatically apply the c++ style to it.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>item font</guilabel></term>
+<listitem>
+<para>here the user can choose the font for the selected item.</para>
+<para>the default style can be applied by checking the
+<guilabel>default</guilabel> checkbox or the user can choose a specific font
+<guilabel>family</guilabel>, <guilabel>size</guilabel> and
+<guilabel>charset</guilabel>.  the available options are the same as those on
+the <guilabel>defaults</guilabel> tab.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</chapter>
+<chapter id="credits">
+<title>credits and licenses</title>
+<para><application>kwrite</application> copyright 2000 by jochen wilhelmy  
+<email>digisnap@cs.tu-berlin.de</email></para>
+<para>contributions:</para>
+<itemizedlist>
+<listitem>
+<para>additional contributions by glen parker <email>glenebob@nwlink.com</email></para>
+</listitem>
+<listitem>
+<para>michael koch <email>koch@kde.org</email></para>
+</listitem>
+</itemizedlist>
+<para>documentation by thad mcginnis <email>ctmcginnis@compuserve.com</email></para>
+<itemizedlist>
+<listitem>
+<para>this version of the <application>kwrite</application> handbook is based on the original by cristian tibirna <email>tibirna@kde.org</email></para>
+</listitem>
+</itemizedlist>
+<para>converted to docbook/proofreading by lauri watts <email>vampyr@atconnex.net</email></para>
+<para id="gnu-fdl" xreflabel="the section entitled gnu free documentation license">this documentation is licensed under the terms of the <ulink url="common/fdl-license.html">gnu free documentation
+license</ulink>.</para>
+<para>this program is licensed under the terms of the <ulink url="common/gpl-translated.html">gnu general public license</ulink>.</para>
+</chapter>
+<appendix id="installation">
+<title>installation</title>
+<para><application>kwrite</application> is packaged as part of the kdebase package.  for more information
+on installing and compiling kde please see <ulink url="http://www.kde.org">www.kde.org</ulink>.</para>
+</appendix>
+</book>

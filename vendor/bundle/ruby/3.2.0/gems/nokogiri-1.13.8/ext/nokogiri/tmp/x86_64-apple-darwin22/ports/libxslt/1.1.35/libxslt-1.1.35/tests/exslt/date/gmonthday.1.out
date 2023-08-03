@@ -1,0 +1,110 @@
+
+  
+  
+  Test Date : --01-01
+    year                 : NaN
+    leap-year            : NaN
+    month-in-year        : 1
+    month-name           : January
+    month-abbreviation   : Jan
+    week-in-year         : NaN
+    day-in-year          : NaN
+    day-in-month         : 1
+    day-of-week-in-month : NaN
+    day-in-week          : NaN
+    day-name             : 
+    day-abbreviation     : 
+    time                 : 
+    hour-in-day          : NaN
+    minute-in-hour       : NaN
+    second-in-minute     : NaN
+  
+  Test Date : --02-28
+    year                 : NaN
+    leap-year            : NaN
+    month-in-year        : 2
+    month-name           : February
+    month-abbreviation   : Feb
+    week-in-year         : NaN
+    day-in-year          : NaN
+    day-in-month         : 28
+    day-of-week-in-month : NaN
+    day-in-week          : NaN
+    day-name             : 
+    day-abbreviation     : 
+    time                 : 
+    hour-in-day          : NaN
+    minute-in-hour       : NaN
+    second-in-minute     : NaN
+  
+  Test Date : --06-04
+    year                 : NaN
+    leap-year            : NaN
+    month-in-year        : 6
+    month-name           : June
+    month-abbreviation   : Jun
+    week-in-year         : NaN
+    day-in-year          : NaN
+    day-in-month         : 4
+    day-of-week-in-month : NaN
+    day-in-week          : NaN
+    day-name             : 
+    day-abbreviation     : 
+    time                 : 
+    hour-in-day          : NaN
+    minute-in-hour       : NaN
+    second-in-minute     : NaN
+  
+  Test Date : --09-01
+    year                 : NaN
+    leap-year            : NaN
+    month-in-year        : 9
+    month-name           : September
+    month-abbreviation   : Sep
+    week-in-year         : NaN
+    day-in-year          : NaN
+    day-in-month         : 1
+    day-of-week-in-month : NaN
+    day-in-week          : NaN
+    day-name             : 
+    day-abbreviation     : 
+    time                 : 
+    hour-in-day          : NaN
+    minute-in-hour       : NaN
+    second-in-minute     : NaN
+  
+  Test Date : --10-31
+    year                 : NaN
+    leap-year            : NaN
+    month-in-year        : 10
+    month-name           : October
+    month-abbreviation   : Oct
+    week-in-year         : NaN
+    day-in-year          : NaN
+    day-in-month         : 31
+    day-of-week-in-month : NaN
+    day-in-week          : NaN
+    day-name             : 
+    day-abbreviation     : 
+    time                 : 
+    hour-in-day          : NaN
+    minute-in-hour       : NaN
+    second-in-minute     : NaN
+  
+  Test Date : --12-31
+    year                 : NaN
+    leap-year            : NaN
+    month-in-year        : 12
+    month-name           : December
+    month-abbreviation   : Dec
+    week-in-year         : NaN
+    day-in-year          : NaN
+    day-in-month         : 31
+    day-of-week-in-month : NaN
+    day-in-week          : NaN
+    day-name             : 
+    day-abbreviation     : 
+    time                 : 
+    hour-in-day          : NaN
+    minute-in-hour       : NaN
+    second-in-minute     : NaN

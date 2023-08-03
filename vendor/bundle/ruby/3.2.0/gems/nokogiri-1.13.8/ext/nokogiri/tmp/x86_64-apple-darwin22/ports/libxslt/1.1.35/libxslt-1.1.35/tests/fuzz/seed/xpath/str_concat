@@ -1,0 +1,1 @@
+str:concat(str:split('ab,cd,ef',','))

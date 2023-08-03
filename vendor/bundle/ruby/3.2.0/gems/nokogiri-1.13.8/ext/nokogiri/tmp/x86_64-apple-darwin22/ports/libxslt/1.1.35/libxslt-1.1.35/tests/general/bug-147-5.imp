@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<xsl:stylesheet version="1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:import href="./bug-147-6.imp"/>
+
+     
+<xsl:template match="action[@name='ShowPage']
+                           [@event='onClick']
+                           [pass-param/@name='pageid']">
+  <xsl:text>template#1 in module#5;</xsl:text>
+</xsl:template>
+
+
+<xsl:template match="action[@name='ChangeBGColor']
+                           [@event='onMouseOver']">
+  <xsl:text>template#2 in module#5;</xsl:text>
+</xsl:template>
+
+
+<xsl:template match="action[@name='ChangeBGColor']
+                           [@event='onMouseOut']">
+  <xsl:text>template#3 in module#5;</xsl:text>
+</xsl:template>
+
+</xsl:stylesheet>
+

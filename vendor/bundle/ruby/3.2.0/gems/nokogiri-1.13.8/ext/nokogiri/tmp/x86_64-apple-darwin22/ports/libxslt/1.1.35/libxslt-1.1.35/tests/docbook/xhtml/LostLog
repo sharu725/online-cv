@@ -1,0 +1,14 @@
+1999-12-28  Norman Walsh  <ndw@nwalsh.com>
+
+	* xtchunk.xsl: Improved messages
+
+	* xtchunk.xsl: Finished first pass at XT-based chunker
+
+1999-12-24  Norman Walsh  <ndw@nwalsh.com>
+
+	* xtchunk.xsl: New file.
+
+1999-11-10  Norman Walsh  <ndw@nwalsh.com>
+
+	* docbook.xsl: New file.
+

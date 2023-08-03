@@ -1,0 +1,19 @@
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:fo="http://www.w3.org/1999/XSL/Format"
+                version="1.0">
+<xsl:attribute-set name="title.properties">
+  <xsl:attribute name="font-size">14pt</xsl:attribute>
+  <xsl:attribute name="font-weight">bold</xsl:attribute>
+  <xsl:attribute name="hyphenate">false</xsl:attribute>
+  <xsl:attribute name="keep-with-next.within-column">always</xsl:attribute>
+</xsl:attribute-set>
+
+<xsl:template match="/title">
+    <fo:block xsl:use-attribute-sets="title.properties">
+        <xsl:apply-templates/>
+    </fo:block>
+</xsl:template>
+
+</xsl:stylesheet>
+
+

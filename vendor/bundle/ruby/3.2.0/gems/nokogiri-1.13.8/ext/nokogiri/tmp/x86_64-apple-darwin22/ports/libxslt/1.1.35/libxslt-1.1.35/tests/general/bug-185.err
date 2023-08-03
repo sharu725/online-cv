@@ -1,0 +1,3 @@
+runtime error: file ./bug-185.xsl line 7 element copy-of
+document() : XPointer does not select a node set: #xpointer(id('X')/range-to(id('Y')))
+no result for ./../docs/bug-185.xml

@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+  "../dtd/4.1.2/docbookx.dtd">
+<section id="dsssl.expr.loop"><title>Loops</title>
+<para>
+<indexterm><primary>for loop, DSSSL and</primary></indexterm>
+<indexterm><primary>loops, implementing (DSSSL)</primary></indexterm>
+<indexterm><primary>tail recursion (DSSSL)</primary></indexterm>
+
+<acronym>DSSSL</acronym> doesn't have any construct that resembles the
+for loop that occurs in most imperative languages like C
+and Java. Instead, <acronym>DSSSL</acronym> employs a common trick in
+functional languages for implementing a loop: tail recursion.
+</para>
+<para>
+Loops in <acronym>DSSSL</acronym> use a special form of
+<literal>let</literal>. This loop counts from 1 to 10:
+<screen>
+(let <co id="dl1"/>loopvar <co id="dl2"/>((count 1))
+  <co id="dl3"/>(if (> count 10)
+    <co id="dl4"/>#t
+    (<co id="dl5"/>loopvar <co id="dl6"/>(+ count 1))))</screen></para>
+<calloutlist>
+<callout arearefs="dl1">
+<para>This variable controls the loop. It is declared without an
+initial value, immediately after the <literal>let</literal>
+operand.</para>
+</callout>
+<callout arearefs="dl2">
+<para>
+<indexterm><primary>variables (DSSSL)</primary>
+  <secondary>local, defining after loop variable</secondary></indexterm>
+
+Any number of additional local variables can be defined after
+the loop variable, just as they can in any other
+<literal>let</literal> expression.</para>
+</callout>
+<callout arearefs="dl3">
+<para>If you ever want the loop to end, you have to put some sort of a
+test in it.</para>
+</callout>
+<callout arearefs="dl4">
+<para>This is the value that will be returned.</para>
+</callout>
+<callout arearefs="dl5">
+<para>Note that you iterate the loop by using the loop variable as if
+it was a function name.</para>
+</callout>
+<callout arearefs="dl6">
+<para>The arguments to this function are the values that
+you want the local variables declared in <xref linkend="dl2"/> to have
+in the next iteration.</para>
+</callout>
+</calloutlist>
+</section>

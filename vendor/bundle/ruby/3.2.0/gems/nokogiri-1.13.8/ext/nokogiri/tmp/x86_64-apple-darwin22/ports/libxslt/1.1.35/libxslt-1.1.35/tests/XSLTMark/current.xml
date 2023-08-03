@@ -1,0 +1,13 @@
+<top>
+<refs>
+   <blah ref="foo"/>
+   <blah ref="bar"/>
+</refs>
+
+<glossary>
+    <item name="foo" ref="bar"/>
+    <item name="bar" ref="foo"/>
+    <item name="baz" ref="baz"/>
+</glossary>
+
+</top>

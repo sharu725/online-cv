@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+  "../dtd/4.1.2/docbookx.dtd" [
+<!ENTITY emc2 SYSTEM "emc2.png" NDATA PNG>
+]>
+
+<!-- test document -->
+
+<article><title>Graphics Test Document Title</title>
+
+<section><title>Graphic</title>
+
+    <para>fileref:</para>
+    <graphic fileref="emc2.png"/>
+
+    <para>entityref:</para>
+    <graphic entityref="emc2"/>
+
+    <para>fileref, scale=200:</para>
+    <graphic fileref="emc2.png" scale="200"/>
+
+    <para>fileref, width=20, depth=20</para>
+    <graphic fileref="emc2.png" width="20" depth="20"/>
+
+</section>
+
+<section><title>Inlinegraphic</title>
+
+    <para>fileref: <inlinegraphic fileref="emc2.png"/></para>
+
+    <para>entityref: <inlinegraphic entityref="emc2"/></para>
+
+    <para>fileref, scale=200: <inlinegraphic fileref="emc2.png" scale="200"/></para>
+
+</section>
+
+<section><title>MediaObject</title>
+    <para>fileref:</para>
+    <mediaobject>
+      <imageobject>
+	<imagedata fileref="emc2.png"/>
+      </imageobject>
+    </mediaobject>
+
+    <para>entityref:</para>
+    <mediaobject>
+      <imageobject>
+	<imagedata entityref="emc2"/>
+      </imageobject>
+    </mediaobject>
+
+    <para>fileref, scale=20:</para>
+    <mediaobject>
+      <imageobject>
+	<imagedata fileref="emc2.png" scale="20"/>
+      </imageobject>
+    </mediaobject>
+
+    <para>fileref, width=200, depth=400:</para>
+    <mediaobject>
+      <imageobject>
+	<imagedata fileref="xyzzy.foo"/>
+      </imageobject>
+      <imageobject>
+	<imagedata fileref="emc2.png" width="200" depth="400"/>
+      </imageobject>
+      <textobject>
+	<para>This is a text object</para>
+      </textobject>
+    </mediaobject>
+
+    <para>fileref, width=20, depth=20, alt=Alt text:</para>
+    <mediaobject>
+      <imageobject>
+	<imagedata fileref="xyzzy.foo"/>
+      </imageobject>
+      <imageobject>
+	<imagedata fileref="emc2.png" width="20" depth="20"/>
+      </imageobject>
+      <textobject>
+	<phrase>Alt text</phrase>
+      </textobject>
+    </mediaobject>
+
+</section>
+
+</article>
+

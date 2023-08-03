@@ -1,0 +1,73 @@
+<html><body bgcolor="#ffffff"><table border="0">
+<tr><td colspan="4" align="center">Sales By Region</td></tr>
+<tr>
+<td valign="top"><table border="0" cellpadding="2" cellspacing="0">
+<tr>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tr height="90"><td bgcolor="#ffffff" width="10" height="90">&#160;</td></tr>
+<tr height="160"><td bgcolor="#0000ff" width="10" height="160">&#160;</td></tr>
+</table></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tr height="195"><td bgcolor="#ffffff" width="10" height="195">&#160;</td></tr>
+<tr height="55"><td bgcolor="#ff00ff" width="10" height="55">&#160;</td></tr>
+</table></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tr height="155"><td bgcolor="#ffffff" width="10" height="155">&#160;</td></tr>
+<tr height="95"><td bgcolor="#00ff00" width="10" height="95">&#160;</td></tr>
+</table></td>
+</tr>
+<tr><td colspan="3" align="center">1997</td></tr>
+</table></td>
+<td valign="top"><table border="0" cellpadding="2" cellspacing="0">
+<tr>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tr height="75"><td bgcolor="#ffffff" width="10" height="75">&#160;</td></tr>
+<tr height="175"><td bgcolor="#0000ff" width="10" height="175">&#160;</td></tr>
+</table></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tr height="190"><td bgcolor="#ffffff" width="10" height="190">&#160;</td></tr>
+<tr height="60"><td bgcolor="#ff00ff" width="10" height="60">&#160;</td></tr>
+</table></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tr height="125"><td bgcolor="#ffffff" width="10" height="125">&#160;</td></tr>
+<tr height="125"><td bgcolor="#00ff00" width="10" height="125">&#160;</td></tr>
+</table></td>
+</tr>
+<tr><td colspan="3" align="center">1998</td></tr>
+</table></td>
+<td valign="top"><table border="0" cellpadding="2" cellspacing="0">
+<tr>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tr height="70"><td bgcolor="#ffffff" width="10" height="70">&#160;</td></tr>
+<tr height="180"><td bgcolor="#0000ff" width="10" height="180">&#160;</td></tr>
+</table></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tr height="190"><td bgcolor="#ffffff" width="10" height="190">&#160;</td></tr>
+<tr height="60"><td bgcolor="#ff00ff" width="10" height="60">&#160;</td></tr>
+</table></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tr height="95"><td bgcolor="#ffffff" width="10" height="95">&#160;</td></tr>
+<tr height="155"><td bgcolor="#00ff00" width="10" height="155">&#160;</td></tr>
+</table></td>
+</tr>
+<tr><td colspan="3" align="center">1999</td></tr>
+</table></td>
+<td valign="top"><table border="0" cellpadding="2" cellspacing="0">
+<tr>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tr height="65"><td bgcolor="#ffffff" width="10" height="65">&#160;</td></tr>
+<tr height="185"><td bgcolor="#0000ff" width="10" height="185">&#160;</td></tr>
+</table></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tr height="195"><td bgcolor="#ffffff" width="10" height="195">&#160;</td></tr>
+<tr height="55"><td bgcolor="#ff00ff" width="10" height="55">&#160;</td></tr>
+</table></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tr height="50"><td bgcolor="#ffffff" width="10" height="50">&#160;</td></tr>
+<tr height="200"><td bgcolor="#00ff00" width="10" height="200">&#160;</td></tr>
+</table></td>
+</tr>
+<tr><td colspan="3" align="center">2000</td></tr>
+</table></td>
+</tr>
+</table></body></html>

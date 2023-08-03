@@ -1,0 +1,737 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>A. Document Templates</title><meta name="generator" content="DocBook XSL Stylesheets V1.40"><link rel="home" href="index.html" title="The GNOME Handbook of Writing Software Documentation"><link rel="up" href="index.html" title="The GNOME Handbook of Writing Software Documentation"><link rel="previous" href="indexs15.html" title="Resources"><link rel="next" href="apas02.html" title="Template 2: Applet Manual For GNOME 1.x"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">A. Document Templates</th></tr><tr><td width="20%" align="left"><a href="indexs15.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a href="apas02.html">Next</a></td></tr></table><hr></div><div class="appendix"><h2 class="title" style="clear: both"><a name="templates"></a>A. Document Templates</h2><div class="sect1"><a name="template1"></a><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="template1"></a>Template 1: Application Manual</h2></div></div><p>
+        The following template should be used for all application
+        manuals.  You can always get the latest copy of this
+        template from  <a href="http://developer.gnome.org/projects/gdp/templates.html" target="_top">GDP
+        Documentation Templates</a>.
+        <pre class="programlisting">
+
+
+&lt;!DOCTYPE Article PUBLIC "-//GNOME//DTD DocBook PNG Variant V1.1//EN"[
+        &lt;!-- if not using PNG graphic, replace reference above with
+             .....PUBLIC "-//OASIS//DTD DocBook V3.1//EN"[
+         --&gt;
+&lt;!ENTITY version "1.0.53"&gt;
+        &lt;!-- replace version above with actual application version number--&gt;
+	&lt;!--  Template Version: 1.0.1  (do not remove this line) --&gt;
+]&gt;
+
+
+&lt;!-- This is a GNOME documentation template, designed by the GNOME
+  Documentation Project Team. Please use it for writing GNOME
+  documentation, making obvious changes. In particular, all the words
+  written in UPPERCASE (with the exception of GNOME) should be
+  replaced. As for "legalnotice", please leave the reference
+  unchanged.
+
+  Remember that this is a guide, rather than a perfect model to follow
+  slavishly. Make your manual logical and readable.  And don't forget
+  to remove these comments in your final documentation!  ;-)
+  --&gt;
+
+&lt;!-- =============Document Header ============================= --&gt;
+
+&lt;article id="index"&gt; &lt;!-- please do not change the id --&gt;
+
+  &lt;artheader&gt;
+    &lt;title&gt;MY-GNOME-APP&lt;/title&gt;
+    &lt;copyright&gt;
+      &lt;year&gt;2000&lt;/year&gt;
+      &lt;holder&gt;ME-THE-AUTHOR&lt;/holder&gt;
+    &lt;/copyright&gt;
+
+  &lt;!-- translators: uncomment this:
+
+  &lt;copyright&gt;
+   &lt;year&gt;2000&lt;/year&gt;
+   &lt;holder&gt;ME-THE-TRANSLATOR (Latin translation)&lt;/holder&gt;
+  &lt;/copyright&gt;
+
+   --&gt;
+
+  &lt;!-- do not put authorname in the header except in copyright - use
+  section "authors" below --&gt;
+
+    &lt;legalnotice&gt;
+      &lt;para&gt;
+        Permission is granted to copy, distribute and/or modify this
+        document under the terms of the &lt;citetitle&gt;GNU Free
+        Documentation License&lt;/citetitle&gt;, Version 1.1 or any later
+        version published by the Free Software Foundation with no
+        Invariant Sections, no Front-Cover Texts, and no Back-Cover
+        Texts. You may obtain a copy of the &lt;citetitle&gt;GNU Free
+        Documentation License&lt;/citetitle&gt; from the Free Software
+        Foundation by visiting &lt;ulink type="http"
+        url="http://www.fsf.org"&gt;their Web site&lt;/ulink&gt; or by writing
+        to: Free Software Foundation, Inc., 59 Temple Place - Suite
+        330, Boston, MA 02111-1307, USA.
+      &lt;/para&gt;
+      &lt;para&gt;
+        Many of the names used by companies to distinguish their
+        products and services are claimed as trademarks. Where those
+        names appear in any GNOME documentation, and those trademarks
+        are made aware to the members of the GNOME Documentation
+        Project, the names have been printed in caps or initial caps.
+      &lt;/para&gt;
+    &lt;/legalnotice&gt;
+
+  &lt;!-- this is the version of manual, not application --&gt; 
+    &lt;releaseinfo&gt;
+       This is version 1.0 of MY-GNOME-APP manual.
+    &lt;/releaseinfo&gt;
+
+  &lt;/artheader&gt;
+
+ &lt;!-- ============= Document Body ============================= --&gt;
+
+ &lt;!-- ============= Introduction ============================== --&gt;
+  &lt;sect1 id="intro"&gt;
+    &lt;title&gt;Introduction&lt;/title&gt;
+
+    &lt;para&gt;
+     &lt;application&gt;MY-GNOME-APP&lt;/application&gt; is an application which
+     proves mathematical theorems.  It has all the basic features
+     expected from a mathematical theorem prover, as well as a number
+     of advanced ones, such as proof by confusion.  In fact, many of
+     the proofs produced by &lt;application&gt;MY-GNOME-APP&lt;/application&gt;
+     are so complex that they are capable of proving almost anything
+     with a virtually null likelihood of being disproven.  It also has
+     the very popular predecessor of proof by confusion, proof by
+     dialog, first implemented by Plato.
+    &lt;/para&gt;
+    &lt;para&gt;
+      It also allows you to save and print theorem proofs and to add
+      comments to the proofs it produces.
+    &lt;/para&gt;
+
+    &lt;para&gt;
+      To run &lt;application&gt;MY-GNOME-APP&lt;/application&gt;, select
+      &lt;menuchoice&gt;
+	&lt;guisubmenu&gt;SUBMENU&lt;/guisubmenu&gt;
+	&lt;guimenuitem&gt;MY-GNOME-APP&lt;/guimenuitem&gt;
+      &lt;/menuchoice&gt;
+      from the &lt;guimenu&gt;Main Menu&lt;/guimenu&gt;, or type
+      &lt;command&gt;MYGNOMEAPP&lt;/command&gt; on the command line.
+  &lt;/para&gt;
+
+    &lt;para&gt;
+      &lt;application&gt;MY-GNOME-APP&lt;/application&gt; is included in the
+      &lt;filename&gt;GNOME-PACKAGE&lt;/filename&gt; package, which is part of the
+      GNOME desktop environment. This document describes version
+      &amp;version; of &lt;application&gt;MY-GNOME-APP&lt;/application&gt;.
+    &lt;/para&gt;
+  &lt;/sect1&gt;
+
+
+ &lt;!-- ================ Usage ================================ --&gt;
+ &lt;!-- This section should describe basic usage of the application. --&gt;
+
+  &lt;sect1 id="usage"&gt;
+    &lt;title&gt;Using MY-GNOME-APP&lt;/title&gt;
+    &lt;para&gt;
+      &lt;application&gt;MY-GNOME-APP&lt;/application&gt; can be used to produce a
+      perfect proof of &lt;emphasis&gt;any&lt;/emphasis&gt; mathematical theorem
+      (provided, of course, that this theorem is correct), thus
+      providing for new users an easy-to-use graphical interface to
+      modern mathematics. This section describes basic usage of
+      &lt;application&gt;MY-GNOME-APP&lt;/application&gt;.
+    &lt;/para&gt;
+
+    &lt;!-- ========= Basic Usage =========================== --&gt;
+    &lt;sect2 id="mainwin"&gt;
+      &lt;title&gt;Basic usage&lt;/title&gt;
+      &lt;para&gt;
+        Starting &lt;application&gt;MY-GNOME-APP&lt;/application&gt; opens the
+        &lt;interface&gt;Main window&lt;/interface&gt;, shown in &lt;xref
+        linkend="mainwindow-fig"&gt;. The window is at first empty.
+
+        &lt;!-- ==== Figure ==== --&gt;
+        &lt;figure id="mainwindow-fig"&gt;
+	  &lt;title&gt;MY-GNOME-APP Main Window&lt;/title&gt;
+	  &lt;screenshot&gt;
+	    &lt;screeninfo&gt;MY-GNOME-APP Main Window&lt;/screeninfo&gt;
+	    &lt;graphic fileref="SCREENSHOT" format="png" srccredit="ME"&gt;
+            &lt;/graphic&gt;
+	  &lt;/screenshot&gt;
+	&lt;/figure&gt;
+    &lt;!-- ==== End of Figure ==== --&gt;
+      &lt;/para&gt; 
+
+
+ &lt;!-- For this app, one could put "proving" or "edit" (probably even
+      both of them) as sect2's seperate from the main window
+      section. Since they were both so closely involved with the main
+      window, I decided to have them as sect3's isntead. Judgement
+      call. --&gt;
+
+      &lt;sect3 id="proving"&gt;
+	&lt;title&gt;Proving a Theorem&lt;/title&gt;
+	&lt;para&gt;
+          To get a proof of a theorem, select
+          &lt;menuchoice&gt;
+	    &lt;guisubmenu&gt;File&lt;/guisubmenu&gt;
+	    &lt;guimenuitem&gt;New&lt;/guimenuitem&gt;
+	  &lt;/menuchoice&gt;,
+            which will
+	    bring up the &lt;interface&gt;New Proof&lt;/interface&gt; dialog box.
+	    Enter the statement of the theorem in the
+	    &lt;guilabel&gt;Theorem statement&lt;/guilabel&gt; field, select your
+	    desired proof type from the drop-down menu, and and press
+	    &lt;guibutton&gt;Prove!&lt;/guibutton&gt;.
+        &lt;/para&gt;
+	&lt;para&gt;
+          If &lt;application&gt;MY-GNOME-APP&lt;/application&gt; cannot prove the
+          theorem by the method you have chosen, or if you have not
+          selected a proof type at all,
+          &lt;application&gt;MY-GNOME-APP&lt;/application&gt; will attempt to
+          choose the one that it thinks is most conclusive.  In order,
+          it will attempt to prove the theorem with the following techniques: 
+     
+                &lt;variablelist&gt;
+	    &lt;varlistentry&gt;
+	      &lt;term&gt;Deduction&lt;/term&gt;
+	      &lt;listitem&gt;
+		&lt;para&gt;
+                  This is a proof method that is generally accepted
+                  for full credit by Logic professors.
+                &lt;/para&gt;
+	      &lt;/listitem&gt;
+	    &lt;/varlistentry&gt;
+	    &lt;varlistentry&gt;
+            &lt;term&gt;Induction&lt;/term&gt;
+	    &lt;listitem&gt;
+	      &lt;para&gt;
+                This logical style will also earn you full credit on
+                your homework.
+             &lt;/para&gt;
+	    &lt;/listitem&gt;
+            &lt;/varlistentry&gt;
+	    &lt;varlistentry&gt;
+	      &lt;term&gt;Dialog&lt;/term&gt;
+	      &lt;listitem&gt;
+	      &lt;para&gt;
+                This logical method is best for Philosophy classes,
+                and will probably only merit partial credit on Logic
+                or Mathematics homework.
+              &lt;/para&gt;
+	    &lt;/listitem&gt;
+            &lt;/varlistentry&gt;
+            &lt;varlistentry&gt;
+	      &lt;term&gt;Confusion&lt;/term&gt;
+	      &lt;listitem&gt;
+	      &lt;para&gt;
+                Suitable only for political debates, battles of wits
+                against the unarmed, and Philosophy classes focusing
+                on the works of Kant. Use with caution.
+              &lt;/para&gt;
+	      &lt;/listitem&gt;
+	    &lt;/varlistentry&gt;
+	  &lt;/variablelist&gt;
+          &lt;/para&gt;
+
+   &lt;!-- You might want to include a note, warning, or tip, e.g. --&gt;
+	
+	&lt;warning&gt;
+	  &lt;title&gt;Proving Incorrect Theorms&lt;/title&gt;
+	  &lt;para&gt;
+            &lt;application&gt;MY-GNOME-APP&lt;/application&gt; cannot prove
+            incorrect theorems. If the theorem you have entered is not
+            demonstrably true, you will get a message to that effect
+            in the main window.  To disprove a theorem, ask
+            &lt;application&gt;MY-GNOME-APP&lt;/application&gt; to prove its
+            logical inverse.
+          &lt;/para&gt;
+	&lt;/warning&gt;
+      &lt;/sect3&gt;
+      &lt;sect3 id="editing"&gt;
+	&lt;title&gt;Editing Proofs&lt;/title&gt;
+	&lt;para&gt;
+          Once you have proven the theorem, it will be displayed in
+          the &lt;interface&gt;main window&lt;/interface&gt;.  There, you can read
+          it over, choose text styles for different portions of it,
+          and make comments on it. This section will guide you through
+          that process.
+        &lt;/para&gt;
+	&lt;para&gt;
+          To alter text styles, first select the statement you wish to
+          change by clicking on it once.  You can select several
+          statements by Then, choose the style you want to apply from
+          the &lt;guisubmenu&gt;Style&lt;/guisubmenu&gt; submenu of the
+          &lt;guimenu&gt;Edit&lt;/guimenu&gt; menu.
+          &lt;application&gt;MY-GNOME-APP&lt;/application&gt; will convert the
+          text to that style.
+        &lt;/para&gt;
+        &lt;para&gt;
+          You can also enter comments on a statement by selecting that
+          statement, and then beginning to type.  Comments will appear
+          after the statement you have selected.
+        &lt;/para&gt;
+
+	&lt;note&gt;
+	  &lt;title&gt;Altering The Proofs Themselves&lt;/title&gt;
+          &lt;para&gt;
+            &lt;application&gt;MY-GNOME-APP&lt;/application&gt; does not allow you
+            to alter a proof it has produced itself.  You can, save
+            your proof as a plain text file (using the
+            &lt;guimenuitem&gt;Save as...&lt;/guimenuitem&gt; menu), and alter it
+            that way.  Be aware, however, that
+            &lt;application&gt;MY-GNOME-APP&lt;/application&gt; uses its own file
+            format for saved proofs, and cannot re-open a file unless
+            it is in the .mga format.
+          &lt;/para&gt;
+	&lt;/note&gt;
+      &lt;/sect3&gt;
+
+
+  &lt;!-- If there are other functions performed from the main window,
+       they belong here.   --&gt;
+
+    &lt;/sect2&gt;
+ 
+    &lt;!-- ========================================================= 
+      Additional Sect2's should describe additional windows, such as
+      larger dialog boxes, or functionality that differs significantly
+      from the most immediate functions of the application. Make the
+      structure logical.
+      =============================================================  --&gt;
+
+
+    &lt;sect2 id="toolbar"&gt;
+      &lt;title&gt;Toolbar&lt;/title&gt;
+      &lt;para&gt;
+        The toolbar (shown in &lt;xref linkend="figure-usage-toolbar"&gt;)
+        provides access to several commonly used routines.
+        &lt;figure id="figure-usage-toolbar"&gt;
+	  &lt;title&gt;MY-GNOME-APP Toolbar&lt;/title&gt;
+	  &lt;screenshot&gt;
+	    &lt;screeninfo&gt;MY-GNOME-APP Toolbar&lt;/screeninfo&gt;
+	    &lt;graphic fileref="usage-toolbar.png" format="png"&gt;&lt;/graphic&gt;
+	  &lt;/screenshot&gt;
+	&lt;/figure&gt;
+        &lt;variablelist&gt;
+	  &lt;varlistentry&gt;
+	    &lt;term&gt;New&lt;/term&gt;
+	    &lt;listitem&gt;
+	      &lt;para&gt;
+                Brings up the &lt;interface&gt;New Theorem&lt;/interface&gt;
+                dialog.
+              &lt;/para&gt;
+	    &lt;/listitem&gt;
+	  &lt;/varlistentry&gt;
+	  &lt;varlistentry&gt;
+	    &lt;term&gt;Open&lt;/term&gt;
+	    &lt;listitem&gt;
+	      &lt;para&gt;
+                 Open an exisiting theorem you want to prove, or a
+                 completed proof you wish to print or format.
+               &lt;/para&gt;
+	    &lt;/listitem&gt;
+	  &lt;/varlistentry&gt;
+	  &lt;varlistentry&gt;
+	    &lt;term&gt;Save&lt;/term&gt;
+	    &lt;listitem&gt;
+	      &lt;para&gt;
+	         Save the current theorem permanently in a
+	         file.
+               &lt;/para&gt;
+	    &lt;/listitem&gt; 
+	  &lt;/varlistentry&gt;
+	&lt;/variablelist&gt;
+       &lt;/para&gt;
+    &lt;/sect2&gt;
+    &lt;!-- ========= Menus =========================== --&gt; 
+
+    &lt;sect2 id="menubar"&gt;
+
+       &lt;!-- Describing the menubar ensures comprehensive feature
+       coverage. Nest itemizedlists inside variablelists so that each
+       menu is easily located by indexing software. Proper indentation
+       makes it easier! --&gt;
+
+      &lt;title&gt;Menus&lt;/title&gt;
+      &lt;para&gt;
+	The menu bar, located at the top of the &lt;interface&gt;Main
+	Window&lt;/interface&gt;, contains the following menus:
+       &lt;/para&gt;
+      &lt;variablelist&gt;
+	&lt;varlistentry&gt;
+	  &lt;term&gt;&lt;guimenu&gt;File&lt;/guimenu&gt;&lt;/term&gt;
+	  &lt;listitem&gt;
+	    &lt;para&gt;
+	       This menu contains:
+	       &lt;itemizedlist&gt;
+		&lt;listitem&gt;
+		  &lt;para&gt;
+	            &lt;menuchoice&gt;
+		      &lt;shortcut&gt;
+			&lt;keycap&gt;F3&lt;/keycap&gt;
+		      &lt;/shortcut&gt;
+		      &lt;guimenuitem&gt;Open&lt;/guimenuitem&gt;
+		     &lt;/menuchoice&gt;
+	             &amp;mdash; This opens a file which is saved on your computer.
+	           &lt;/para&gt;
+		&lt;/listitem&gt;
+		&lt;listitem&gt;
+		  &lt;para&gt;
+	             &lt;menuchoice&gt;
+		      &lt;shortcut&gt;
+			&lt;keycombo&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;S&lt;/keycap&gt;&lt;/keycombo&gt;
+		      &lt;/shortcut&gt;
+		      &lt;guimenuitem&gt;Save&lt;/guimenuitem&gt;
+		    &lt;/menuchoice&gt;
+	            &amp;mdash; This saves your file.
+	          &lt;/para&gt;
+		&lt;/listitem&gt;
+		&lt;listitem&gt;
+		  &lt;para&gt;
+	             &lt;menuchoice&gt;
+		      &lt;shortcut&gt;
+			&lt;keycombo&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;W&lt;/keycap&gt;&lt;/keycombo&gt;
+		      &lt;/shortcut&gt;
+		      &lt;guimenuitem&gt;Close&lt;/guimenuitem&gt;
+		    &lt;/menuchoice&gt;
+	            &amp;mdash; This closes your file.
+	          &lt;/para&gt;
+		&lt;/listitem&gt;
+		&lt;listitem&gt;
+		  &lt;para&gt;
+	            &lt;menuchoice&gt;
+		      &lt;shortcut&gt;
+			&lt;keycombo&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;Q&lt;/keycap&gt;&lt;/keycombo&gt;
+		      &lt;/shortcut&gt;
+		      &lt;guimenuitem&gt;Exit&lt;/guimenuitem&gt;
+		    &lt;/menuchoice&gt;
+	            &amp;mdash; This quits the application.
+	          &lt;/para&gt;
+		&lt;/listitem&gt;
+	      &lt;/itemizedlist&gt;
+	  &lt;/para&gt;
+	  &lt;/listitem&gt;
+	&lt;/varlistentry&gt;
+	
+	&lt;varlistentry&gt;
+	  &lt;term&gt;&lt;guimenu&gt;Edit&lt;/guimenu&gt;&lt;/term&gt;
+	  &lt;listitem&gt;
+	    &lt;para&gt;
+	   This menu contains:
+	   &lt;itemizedlist&gt;
+		&lt;listitem&gt;
+		  &lt;para&gt;
+	            &lt;menuchoice&gt;
+		      &lt;shortcut&gt;
+			&lt;keycombo&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;X&lt;/keycap&gt;&lt;/keycombo&gt;
+		      &lt;/shortcut&gt;
+		      &lt;guimenuitem&gt;Cut&lt;/guimenuitem&gt;
+		    &lt;/menuchoice&gt;
+	            &amp;mdash; This removes any text or data which is selected and
+	            places it in the buffer.
+	          &lt;/para&gt;
+		&lt;/listitem&gt;
+		&lt;listitem&gt;
+		  &lt;para&gt;
+	            &lt;menuchoice&gt;
+		      &lt;shortcut&gt;
+			&lt;keycombo&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;C&lt;/keycap&gt;&lt;/keycombo&gt;
+		      &lt;/shortcut&gt;
+		      &lt;guimenuitem&gt;Copy&lt;/guimenuitem&gt;
+		    &lt;/menuchoice&gt;
+	            &amp;mdash; This copies any text or data which is selected into
+	            the buffer.
+	          &lt;/para&gt;
+		&lt;/listitem&gt;
+		&lt;listitem&gt;
+		  &lt;para&gt;
+	           &lt;menuchoice&gt;
+		      &lt;shortcut&gt;
+			&lt;keycombo&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;V&lt;/keycap&gt;&lt;/keycombo&gt;
+		      &lt;/shortcut&gt;
+		      &lt;guimenuitem&gt;Paste&lt;/guimenuitem&gt;
+		    &lt;/menuchoice&gt;
+	            &amp;mdash; This pastes any text or data which is copied into
+	            the buffer.
+	        &lt;/para&gt;
+		&lt;/listitem&gt;
+		&lt;listitem&gt;
+		  &lt;para&gt;
+	             &lt;guimenuitem&gt;COMMAND1&amp;hellip;&lt;/guimenuitem&gt;
+	             &amp;mdash; This opens the &lt;interface&gt;COMMAND1&lt;/interface&gt;
+	             dialog, which is used to ....
+	          &lt;/para&gt;
+		&lt;/listitem&gt;
+		&lt;listitem&gt;
+		  &lt;para&gt;
+	            &lt;guimenuitem&gt;COMMAND2&lt;/guimenuitem&gt;
+	            &amp;mdash; This ....
+	          &lt;/para&gt;
+		&lt;/listitem&gt;
+	      &lt;/itemizedlist&gt;
+	    &lt;/para&gt;
+	  &lt;/listitem&gt;
+	&lt;/varlistentry&gt;
+	
+
+	&lt;varlistentry&gt;
+	  &lt;term&gt;&lt;guimenu&gt;Settings&lt;/guimenu&gt;&lt;/term&gt;
+	  &lt;listitem&gt;
+	    &lt;para&gt;
+	   This menu contains:
+	   &lt;itemizedlist&gt;
+		&lt;listitem&gt;
+		  &lt;para&gt;
+	      &lt;guimenuitem&gt;Preferences&amp;hellip;&lt;/guimenuitem&gt;
+	       &amp;mdash; This opens the &lt;link
+	       linkend="prefs"&gt;&lt;interface&gt;Preferences
+	       Dialog&lt;/interface&gt;&lt;/link&gt;, which allows you to configure
+	       many settings.
+	     &lt;/para&gt;
+		&lt;/listitem&gt;
+		&lt;listitem&gt;
+		  &lt;para&gt;
+	            &lt;guimenuitem&gt;COMMAND3&lt;/guimenuitem&gt; &amp;mdash;
+    	            This command does something.
+    	    	   &lt;/para&gt;
+		&lt;/listitem&gt;
+	      &lt;/itemizedlist&gt;
+	    &lt;/para&gt;
+	  &lt;/listitem&gt;
+	&lt;/varlistentry&gt;
+	
+	&lt;varlistentry&gt;
+	  &lt;term&gt;&lt;guimenu&gt;Help&lt;/guimenu&gt;&lt;/term&gt;
+	  &lt;listitem&gt;
+	    &lt;para&gt;
+	      This menu contains:
+	       &lt;itemizedlist&gt;
+		&lt;listitem&gt;
+		  &lt;para&gt;
+	             &lt;guimenuitem&gt;Manual&lt;/guimenuitem&gt; &amp;mdash; This
+    	              opens the &lt;application&gt;GNOME Help
+    	              Browser&lt;/application&gt; and displays this manual.
+	          &lt;/para&gt;
+		&lt;/listitem&gt;
+		
+		&lt;listitem&gt;
+		  &lt;para&gt;
+	            &lt;guimenuitem&gt;About&lt;/guimenuitem&gt; &amp;mdash; This
+    	            opens the &lt;interface&gt;About&lt;/interface&gt; dialog
+    	            which shows basic information about
+    	            &lt;application&gt;MY-GNOME-APP&lt;/application&gt;, such as
+    	            the author's name, the application version number,
+    	            and the URL for the application's Web page if one
+    	            exists.
+	          &lt;/para&gt;
+		&lt;/listitem&gt;
+	      &lt;/itemizedlist&gt;
+            &lt;/para&gt;
+	  &lt;/listitem&gt;
+	&lt;/varlistentry&gt;
+      &lt;/variablelist&gt;
+    &lt;/sect2&gt;
+  &lt;/sect1&gt;
+
+
+
+ &lt;!-- ============= Customization ============================= --&gt;
+
+ &lt;sect1 id="prefs"&gt;
+  &lt;title&gt;Customization&lt;/title&gt;
+  &lt;para&gt;
+   To change the application settings, select
+   &lt;menuchoice&gt;
+    &lt;guimenu&gt;Settings&lt;/guimenu&gt;
+    &lt;guimenuitem&gt;Preferences...&lt;/guimenuitem&gt;
+   &lt;/menuchoice&gt;.  This opens the
+   &lt;interface&gt;Preferences&lt;/interface&gt; dialog, shown in &lt;xref
+   linkend="preferences-fig"&gt;.
+  &lt;/para&gt;
+
+  &lt;figure id="preferences-fig"&gt;
+   &lt;title&gt;Preferences Dialog&lt;/title&gt;
+   &lt;screenshot&gt;
+    &lt;screeninfo&gt;Preferences Dialog&lt;/screeninfo&gt;
+    &lt;graphic fileref="SCREENSHOT" format="png"
+     srccredit="ME"&gt;
+    &lt;/graphic&gt;
+   &lt;/screenshot&gt;
+  &lt;/figure&gt;
+
+  &lt;para&gt;
+   The properties in the &lt;guilabel&gt;PREFSTABNAME&lt;/guilabel&gt; tab are:
+   
+   &lt;!--many people use itemizedlists in cases like this. Variablelists
+   are more appropriate --&gt;
+
+      &lt;variablelist&gt;
+	&lt;varlistentry&gt;
+	  &lt;term&gt; &lt;guilabel&gt;Default Text Style&lt;/guilabel&gt;&lt;/term&gt;
+	  &lt;listitem&gt;
+	    &lt;para&gt;
+              Select the default text style for statements in your
+              proof.  You can still change the style for individual
+              proofs or sections of a proof at a later date.
+            &lt;/para&gt;
+	  &lt;/listitem&gt;
+	&lt;/varlistentry&gt;
+	&lt;varlistentry&gt;
+	  &lt;term&gt;(Configuration Item Label)&lt;/term&gt;
+	  &lt;listitem&gt;
+	    &lt;para&gt;
+             (Description of Configuration)
+             &lt;/para&gt;
+	  &lt;/listitem&gt;
+	&lt;/varlistentry&gt;
+	&lt;varlistentry&gt;
+	  &lt;term&gt;(Configuration Item Label)&lt;/term&gt;
+	  &lt;listitem&gt;
+	    &lt;para&gt;
+             (Description of Configuration)
+             &lt;/para&gt;
+	  &lt;/listitem&gt;
+	&lt;/varlistentry&gt;
+      &lt;/variablelist&gt;
+    &lt;/para&gt;
+
+    &lt;para&gt;
+     The properties in the &lt;guilabel&gt;SECONDTABNAME&lt;/guilabel&gt; tab are:
+       &lt;variablelist&gt;
+	&lt;varlistentry&gt;
+	  &lt;term&gt;(Configuration Item Label)&lt;/term&gt;
+	  &lt;listitem&gt;
+	    &lt;para&gt;
+             (Description of Configuration)
+             &lt;/para&gt;
+	  &lt;/listitem&gt;
+	&lt;/varlistentry&gt;
+	&lt;varlistentry&gt;
+	  &lt;term&gt;(Configuration Item Label)&lt;/term&gt;
+	  &lt;listitem&gt;
+	    &lt;para&gt;
+             (Description of Configuration)
+             &lt;/para&gt;
+	  &lt;/listitem&gt;
+	&lt;/varlistentry&gt;
+      &lt;/variablelist&gt;
+    &lt;/para&gt;
+
+  &lt;para&gt;
+    After you have made all the changes you want, click on
+    &lt;guibutton&gt;OK&lt;/guibutton&gt; to apply the changes and close the
+    &lt;interface&gt;Properties&lt;/interface&gt; dialog. To cancel the changes
+    and return to previous values, click the
+    &lt;guibutton&gt;Close&lt;/guibutton&gt; button.
+  &lt;/para&gt;
+
+ &lt;/sect1&gt;
+
+
+ &lt;!-- ============= Various Sections ============================= --&gt;
+
+ &lt;!-- Here you should add, if necessary, several more sect1's,
+ describing other windows (besides the main one), file formats,
+ preferences dialogs,  etc. as appropriate. Try not to make any of
+ these sections too long. --&gt;
+
+
+ &lt;!-- ============= Bugs ================================== --&gt;
+ &lt;!-- This section should describe known bugs and limitations of
+      the program if there are any - please be frank and list all
+      problems you know of. --&gt;
+ &lt;sect1 id="bugs"&gt;
+  &lt;title&gt;Known Bugs and Limitations&lt;/title&gt;
+  &lt;para&gt;
+   This application has no known bugs.
+  &lt;/para&gt;
+ &lt;/sect1&gt;
+
+
+&lt;!-- ============= Authors ================================ --&gt;
+
+ &lt;sect1 id="authors"&gt;
+  &lt;title&gt;Authors&lt;/title&gt;
+  &lt;para&gt;
+   &lt;application&gt;MY-GNOME-APP&lt;/application&gt; was written by GNOME-HACKER
+   (&lt;email&gt;hacker@gnome.org&lt;/email&gt;). To find more information about
+   &lt;application&gt;MY-GNOME-APP&lt;/application&gt;, please visit the &lt;ulink
+   url="http://www.my-gnome-app.org" type="http"&gt;MY-GNOME-APP Web
+   page&lt;/ulink&gt;.  Please send all comments, suggestions, and bug
+   reports to the &lt;ulink url="http://bugs.gnome.org" type="http"&gt;GNOME
+   bug tracking database&lt;/ulink&gt;. (Instructions for submitting bug
+   reports can be found &lt;ulink
+   url="http://bugs.gnome.org/Reporting.html" type="http"&gt;
+   on-line&lt;/ulink&gt;.)  You can also use &lt;application&gt;Bug Report
+   Tool&lt;/application&gt; (&lt;command&gt;bug-buddy&lt;/command&gt;), available in the
+   &lt;guisubmenu&gt;Utilities&lt;/guisubmenu&gt; submenu of &lt;guimenu&gt;Main
+   Menu&lt;/guimenu&gt;, for submitting bug reports.
+  &lt;/para&gt;
+
+  &lt;para&gt;
+   This manual was written by ME
+   (&lt;email&gt;MYNAME@MYADDRESS&lt;/email&gt;). Please send all comments and
+   suggestions regarding this manual to the &lt;ulink type="http"
+   url="http://developer.gnome.org/projects/gdp"&gt;GNOME Documentation 
+   Project&lt;/ulink&gt; by sending an email to 
+   &lt;email&gt;docs@gnome.org&lt;/email&gt;. You can also add your comments online 
+   by using the &lt;ulink type="http" 
+   url="http://www.gnome.org/gdp/doctable/"&gt;GNOME Documentation Status
+   Table&lt;/ulink&gt;.
+  &lt;/para&gt;
+
+  &lt;!-- For translations: uncomment this:
+
+  &lt;para&gt;
+   Latin translation was done by ME
+   (&lt;email&gt;MYNAME@MYADDRESS&lt;/email&gt;). Please send all  comments  and
+   suggestions regarding this translation to SOMEWHERE.
+  &lt;/para&gt;
+
+  --&gt;
+
+ &lt;/sect1&gt;
+
+
+ &lt;!-- ============= Application License ============================= --&gt;
+
+ &lt;sect1 id="license"&gt;
+  &lt;title&gt;License&lt;/title&gt;
+  &lt;para&gt;
+   This program is free software; you can redistribute it and/or
+   modify it under the terms of the &lt;citetitle&gt;GNU General Public
+   License&lt;/citetitle&gt; as published by the Free Software Foundation;
+   either version 2 of the License, or (at your option) any later
+   version.
+  &lt;/para&gt;
+  &lt;para&gt;
+   This program is distributed in the hope that it will be useful, but
+   WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   &lt;citetitle&gt;GNU General Public License&lt;/citetitle&gt; for more details.
+  &lt;/para&gt;
+  &lt;para&gt;
+   A copy of the &lt;citetitle&gt;GNU General Public License&lt;/citetitle&gt; is
+   included as an appendix to the &lt;citetitle&gt;GNOME Users
+   Guide&lt;/citetitle&gt;.  You may also obtain a copy of the
+   &lt;citetitle&gt;GNU General Public License&lt;/citetitle&gt; from the Free
+   Software Foundation by visiting &lt;ulink type="http"
+   url="http://www.fsf.org"&gt;their Web site&lt;/ulink&gt; or by writing to
+   &lt;address&gt;
+    Free Software Foundation, Inc.
+    &lt;street&gt;59 Temple Place&lt;/street&gt; - Suite 330
+    &lt;city&gt;Boston&lt;/city&gt;, &lt;state&gt;MA&lt;/state&gt; &lt;postcode&gt;02111-1307&lt;/postcode&gt;
+    &lt;country&gt;USA&lt;/country&gt;
+   &lt;/address&gt;
+  &lt;/para&gt;
+ &lt;/sect1&gt;
+&lt;/article&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
+      </p></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a href="indexs15.html">Prev</a> </td><td width="20%" align="center"><a href="index.html">Home</a></td><td width="40%" align="right"> <a href="apas02.html">Next</a></td></tr><tr><td width="40%" align="left">Resources </td><td width="20%" align="center"><a href="index.html">Up</a></td><td width="40%" align="right"> Template 2: Applet Manual For GNOME 1.x</td></tr></table></div></body></html>

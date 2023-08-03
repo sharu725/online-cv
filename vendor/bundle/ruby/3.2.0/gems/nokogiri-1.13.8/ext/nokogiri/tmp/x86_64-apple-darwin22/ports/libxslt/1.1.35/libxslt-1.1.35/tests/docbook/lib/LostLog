@@ -1,0 +1,24 @@
+2000-04-19  Norman Walsh  <ndw@nwalsh.com>
+
+	* lib.xsl: Added xpointer.idref
+
+1999-12-28  Norman Walsh  <ndw@nwalsh.com>
+
+	* lib.xsl: Added stylesheet version
+
+1999-10-20  Norman Walsh  <ndw@nwalsh.com>
+
+	* lib.xsl: Update URI in all the included modules
+
+1999-07-27  Norman Walsh  <ndw@nwalsh.com>
+
+	* lib.xsl: Updated to July spec
+
+1999-07-15  Norman Walsh  <ndw@nwalsh.com>
+
+	* lib.xsl: Added copy-string function
+
+1999-05-20  Norman Walsh  <ndw@nwalsh.com>
+
+	* lib.xsl: New file.
+

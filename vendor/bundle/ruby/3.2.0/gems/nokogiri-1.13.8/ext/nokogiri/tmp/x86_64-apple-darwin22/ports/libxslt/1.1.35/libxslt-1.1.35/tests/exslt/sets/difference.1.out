@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<out xmlns:set="http://exslt.org/sets">
+    Containing i and e:
+    Vienna;
+    Berlin;
+         
+    Containing i and no e:
+    Paris;
+    Madrid;
+    Calais;
+     
+    Containing e and no i:
+    Barcelona;
+    Hannover;
+    
+    Containing i:
+    Paris;
+    Madrid;
+    Vienna;
+    Calais;
+    Berlin;
+    
+    Empty set:
+         
+    Empty set:
+     
+    Empty set:
+    </out>

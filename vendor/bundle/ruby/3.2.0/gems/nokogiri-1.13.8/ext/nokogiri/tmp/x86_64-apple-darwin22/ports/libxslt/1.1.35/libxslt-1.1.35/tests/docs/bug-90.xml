@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- 
+============================================================
+This is the input XML
+============================================================
+ -->
+<fruit-sites>
+  <fruit type="apples">
+    <site><![CDATA[http://www.apples.com/site?args&stuff]]>
+    </site>
+  </fruit>
+  <fruit type="pears">
+    <site>http://www.pears.com/index.html</site>
+  </fruit>
+</fruit-sites>

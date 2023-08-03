@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE book
+  PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+  "../dtd/4.1.2/docbookx.dtd">
+<book id="book">
+<bookinfo>
+<title>Book Title</title>
+<author>
+<surname>Walsh</surname>
+<firstname>Norman</firstname>
+</author>
+<corpauthor>Some Corporation</corpauthor>
+<legalnotice>
+<title>Legal Notice</title>
+<para>This is a test document. You can do what you will with it.</para>
+</legalnotice>
+<legalnotice>
+<para>This is a second legal notice.  But it's not noteworthy.
+  Some more text. Some more text. Some more text. Some more text. 
+  Some more text. Some more text. Some more text. Some more text. 
+  Some more text. Some more text. Some more text. Some more text. 
+  Some more text. Some more text. Some more text. Some more text. 
+  Some more text. Some more text. Some more text. Some more text. 
+  Some more text. Some more text. Some more text. Some more text. 
+  Some more text. Some more text. Some more text. Some more text. 
+  </para>
+</legalnotice>
+<copyright>
+<year>1998</year>
+<holder>Norman Walsh</holder>
+</copyright>
+</bookinfo>
+<bibliography id="bib1">
+<title>A Test Bibliography</title>
+<para>The stock stylesheet attempts to do a Bibliography.  It probably needs
+a lot of tweaking.  It probably doesn't conform to any specific style.</para>
+<bibliodiv>
+<title>Books</title>
+<biblioentry>
+<abbrev>AhoSethiUllman96</abbrev>
+<authorgroup>
+<author>
+<firstname>Alfred V.</firstname>
+<surname>Aho</surname>
+</author>
+<author>
+<firstname>Ravi</firstname>
+<surname>Sethi</surname>
+</author>
+<author>
+<firstname>Jeffrey D.</firstname>
+<surname>Ullman</surname>
+</author>
+</authorgroup>
+<title>Compilers, Principles, Techniques, and Tools</title>
+<publisher>
+<publishername>Addison-Wesley Publishing Company</publishername>
+</publisher>
+<copyright>
+<year>1996</year>
+<holder>Bell Telephone Laboratories, Inc.</holder>
+</copyright>
+<isbn>0-201-10088-6</isbn>
+<editor>
+<firstname>James T.</firstname>
+<surname>DeWolf</surname>
+</editor>
+</biblioentry>
+</bibliodiv>
+<bibliodiv>
+<title>Periodicals</title>
+<biblioentry id="walsh97">
+<abbrev>Walsh97</abbrev>
+<biblioset relation="article">
+<title>A Guide to XML</title>
+<author>
+<surname>Walsh</surname>
+<firstname>Norman</firstname>
+</author>
+<pubdate>1997</pubdate>
+<copyright>
+<year>1997</year>
+<holder>ArborText, Inc.</holder>
+</copyright>
+<pagenums>97-108</pagenums>
+</biblioset>
+<biblioset relation="journal">
+<title>XML: Principles, Tools, and Techniques</title>
+<publisher>
+<publishername>O'Reilly &amp; Associates, Inc.</publishername>
+</publisher>
+<issn>1085-2301</issn>
+<editor>
+<firstname>Dan</firstname>
+<surname>Connolly</surname>
+</editor>
+</biblioset>
+</biblioentry>
+<bibliomixed id="walsh96">  <bibliomset relation="article">    <surname>Walsh</surname>, <firstname>Norman</firstname>.
+    <title role="article">Introduction to Cascading Style Sheets</title>.
+  </bibliomset>
+  <bibliomset relation="journal">    <title>The World Wide Web Journal</title>.
+    <volumenum>2</volumenum>(<issuenum>1</issuenum>).
+    <publishername>O'Reilly &amp; Associates, Inc.</publishername> and
+    <corpname>The World Wide Web Consortium</corpname>.
+    <pubdate>Winter, 1996</pubdate></bibliomset>.</bibliomixed>
+<biblioentry>
+<abbrev>Abbrev</abbrev>
+<title>A Really Full BiblioEntry</title>
+<subtitle>Subtitle</subtitle>
+<abstract>
+<para>Abstract, abstract, abstract. Abstract, abstract, abstract. 
+Abstract, abstract, abstract. Abstract, abstract, abstract. 
+Abstract, abstract, abstract. Abstract, abstract, abstract. 
+Abstract, abstract, abstract. Abstract, abstract, abstract. 
+Abstract, abstract, abstract. Abstract, abstract, abstract. 
+Abstract, abstract, abstract. Abstract, abstract, abstract. </para>
+</abstract>
+<address>Any Street
+Anywhere, XX 99999
+USA</address>
+<affiliation>
+<shortaffil>shortaffil</shortaffil>
+<jobtitle>jobtitle</jobtitle>
+<orgname>orgname</orgname>
+<orgdiv>orgdiv</orgdiv>
+<address>Any Street
+Anywhere, XX 99999
+USA</address>
+</affiliation>
+<artpagenums>ArtPageNums</artpagenums>
+<author>
+<firstname>AuthorFirstname</firstname>
+<surname>AuthorSurname</surname>
+</author>
+<authorblurb>
+<para>AuthorBlurb, authorblurb, authorblurb. AuthorBlurb, authorblurb, authorblurb. 
+AuthorBlurb, authorblurb, authorblurb. AuthorBlurb, authorblurb, authorblurb. 
+AuthorBlurb, authorblurb, authorblurb. AuthorBlurb, authorblurb, authorblurb. 
+AuthorBlurb, authorblurb, authorblurb. AuthorBlurb, authorblurb, authorblurb. 
+AuthorBlurb, authorblurb, authorblurb. AuthorBlurb, authorblurb, authorblurb. </para>
+</authorblurb>
+<authorinitials>AuthorInitials</authorinitials>
+<collab>
+<collabname>The names of some collaborators</collabname>
+<affiliation>
+<shortaffil>shortaffil</shortaffil>
+<jobtitle>jobtitle</jobtitle>
+<orgname>orgname</orgname>
+<orgdiv>orgdiv</orgdiv>
+<address>Any Street
+Anywhere, XX 99999
+USA</address>
+</affiliation>
+</collab>
+<confgroup>
+<confdates>confdates</confdates>
+<conftitle>conftitle</conftitle>
+<confnum>confnum</confnum>
+<address>Any Street
+Anywhere, XX 99999
+USA</address>
+<confsponsor>confsponsor</confsponsor>
+</confgroup>
+<contractnum>ContractNum</contractnum>
+<contractsponsor>ContractSponsor</contractsponsor>
+<contrib>Contrib</contrib>
+<copyright>
+<year>1998</year>
+<holder>Copyright holder</holder>
+</copyright>
+<corpname>CorpName</corpname>
+<date>Date</date>
+<edition>Edition</edition>
+<editor>
+<firstname>EditorFirstName</firstname>
+<surname>EditorSurname</surname>
+</editor>
+<firstname>FirstName</firstname>
+<honorific>Honorific</honorific>
+<isbn>ISBN</isbn>
+<issn>ISSN</issn>
+<invpartnumber>InvPartNumber</invpartnumber>
+<issuenum>IssueNum</issuenum>
+<lineage>Lineage</lineage>
+<orgname>OrgName</orgname>
+<othercredit>
+<firstname>OCFirstName</firstname>
+<surname>OCSurname</surname>
+</othercredit>
+<othername>OtherName</othername>
+<pagenums>PageNums</pagenums>
+<printhistory>
+<para>PrintHistory, printhistory, printhistory. PrintHistory, printhistory.
+PrintHistory, printhistory, printhistory. PrintHistory, printhistory.
+PrintHistory, printhistory, printhistory. PrintHistory, printhistory.
+PrintHistory, printhistory, printhistory. PrintHistory, printhistory.</para>
+</printhistory>
+<productname>ProductName</productname>
+<productnumber>ProductNumber</productnumber>
+<pubdate>PubDate</pubdate>
+<publisher>
+<publishername>PubPublisherName</publishername>
+<address><street>Any Street</street>
+<city>Anywhere</city>, <state>XX</state> <postcode>99999</postcode>
+<country>USA</country></address>
+</publisher>
+<publishername>PublisherName</publishername>
+<pubsnumber>PubsNumber</pubsnumber>
+<releaseinfo>ReleaseInfo</releaseinfo>
+<revhistory>
+<revision>
+<revnumber>1.0</revnumber>
+<date>20 Nov 1998</date>
+<authorinitials>ndw</authorinitials>
+<revremark>Some remark about the revision</revremark>
+</revision>
+<revision>
+<revnumber>0.9</revnumber>
+<date>19 Nov 1998</date>
+<authorinitials>ndw</authorinitials>
+<revremark>Some remark about the revision</revremark>
+</revision>
+<revision>
+<revnumber>0.4</revnumber>
+<date>18 Nov 1998</date>
+<authorinitials>ndw</authorinitials>
+<revremark>Some remark about the revision</revremark>
+</revision>
+</revhistory>
+<seriesvolnums>SeriesVolNums</seriesvolnums>
+<surname>Surname</surname>
+<titleabbrev>TitleAbbrev</titleabbrev>
+<volumenum>VolumeNum</volumenum>
+</biblioentry>
+</bibliodiv>
+</bibliography>
+<glossary id="gloss">
+<title>Example Glossary</title>
+<para>This is not a real glossary, it's just an example.</para>
+<glossdiv>
+<title>E</title>
+<glossentry id="xml">
+<glossterm>Extensible Markup Language</glossterm>
+<acronym>XML</acronym>
+<glossdef>
+<para>Some reasonable definition here.</para>
+<glossseealso otherterm="sgml"/>
+</glossdef>
+</glossentry>
+</glossdiv>
+<glossdiv>
+<title>S</title>
+<glossentry>
+<glossterm>SGML</glossterm>
+<glosssee otherterm="sgml"/>
+</glossentry>
+<glossentry id="sgml">
+<glossterm>Standard Generalized
+  Markup Language</glossterm>
+<acronym>SGML</acronym>
+<abbrev>ISO 8879:1986</abbrev>
+<glossdef>
+<para>Some reasonable definition here.</para>
+<glossseealso otherterm="xml"/>
+</glossdef>
+</glossentry>
+</glossdiv>
+</glossary>
+<index id="index">
+<para>This is a test index.</para>
+<formalpara>
+<title>a formal para</title>
+<para>this is a formal paragraph.</para>
+</formalpara>
+<indexentry>
+<primaryie>Primary</primaryie>
+<secondaryie>Secondary 1</secondaryie>
+<tertiaryie>Tertiary 11</tertiaryie>
+<tertiaryie>Tertiary 12</tertiaryie>
+<secondaryie>Secondary 2</secondaryie>
+<tertiaryie>Tertiary 21</tertiaryie>
+</indexentry>
+<indexentry id="prim1">
+<primaryie>primary</primaryie>
+</indexentry>
+<indexentry id="prim2">
+<primaryie>primary</primaryie>
+</indexentry>
+<indexentry>
+<primaryie>primary</primaryie>
+<secondaryie>secondary</secondaryie>
+</indexentry>
+<indexentry>
+<primaryie>primary</primaryie>
+<secondaryie>secondary</secondaryie>
+</indexentry>
+<indexentry>
+<primaryie>primary</primaryie>
+<secondaryie>secondary</secondaryie>
+<tertiaryie>tertiary1</tertiaryie>
+</indexentry>
+<indexentry>
+<primaryie>primary</primaryie>
+<secondaryie>secondary</secondaryie>
+<tertiaryie>tertiary2</tertiaryie>
+</indexentry>
+<indexentry>
+<primaryie>primary</primaryie>
+<secondaryie>secondary2</secondaryie>
+<tertiaryie>tertiary3</tertiaryie>
+</indexentry>
+<indexentry>
+<primaryie>primary</primaryie>
+<seeie linkend="prim2">see ie</seeie>
+</indexentry>
+<indexentry>
+<primaryie>primary</primaryie>
+<secondaryie>secondary2</secondaryie>
+<tertiaryie>tertiary3</tertiaryie>
+<seealsoie linkends="prim2 prim1">seealso ie</seealsoie>
+</indexentry>
+</index>
+<index>
+<indexdiv>
+<title>Symbols</title>
+<indexentry>
+<primaryie>!,
+    <ulink url="c3.htm#aen10" role="aen10">Index Term Sect 1</ulink>
+  </primaryie>
+</indexentry>
+<indexentry>
+<primaryie>[,
+    <ulink url="c3.htm#aen38" role="aen38">Index Term Sect 2</ulink>
+  </primaryie>
+</indexentry>
+</indexdiv>
+<indexdiv>
+<title>A</title>
+<indexentry>
+<primaryie>sect2-level,
+    <ulink url="c3.htm#aen38" role="aen38">Index Term Sect 2</ulink>
+  </primaryie>
+</indexentry>
+</indexdiv>
+<indexdiv>
+<title>C</title>
+<indexentry>
+<primaryie>chap-level,
+    <ulink url="c3.htm" role="c3.htm">Index Term Tests</ulink>
+  </primaryie>
+<secondaryie>sec
+  </secondaryie>
+<tertiaryie>tert,
+    <ulink url="c3.htm#aen10" role="aen10">Index Term Sect 1</ulink>,
+    <ulink url="c3.htm#aen38" role="aen38">Index Term Sect 2</ulink>
+  </tertiaryie>
+</indexentry>
+</indexdiv>
+<indexdiv>
+<title>O</title>
+<indexentry>
+<primaryie>oft-repeated,
+    <ulink url="c3.htm" role="c3.htm">Index Term Tests</ulink>,
+    <ulink url="c3.htm#aen38" role="aen38">Index Term Sect 2</ulink>
+  </primaryie>
+<secondaryie>with id,
+    <ulink url="c3.htm#aen10" role="aen10">Index Term Sect 1</ulink>
+  </secondaryie>
+</indexentry>
+</indexdiv>
+<indexdiv>
+<title>S</title>
+<indexentry>
+<primaryie>sect1-level,
+    <ulink url="c3.htm#aen10" role="aen10"><emphasis>Index Term Sect 1</emphasis></ulink>
+  </primaryie>
+<secondaryie>sec,
+    <ulink url="c3.htm#aen10" role="aen10">Index Term Sect 1</ulink>
+  </secondaryie>
+</indexentry>
+<indexentry>
+<primaryie>sect1-other
+  </primaryie>
+<secondaryie>sec,
+    <ulink url="c3.htm#aen10" role="aen10">Index Term Sect 1</ulink>
+  </secondaryie>
+</indexentry>
+</indexdiv>
+</index>
+</book>

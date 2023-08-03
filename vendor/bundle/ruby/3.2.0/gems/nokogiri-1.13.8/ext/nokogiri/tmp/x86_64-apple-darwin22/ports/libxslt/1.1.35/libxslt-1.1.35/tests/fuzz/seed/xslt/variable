@@ -1,0 +1,4 @@
+<x:stylesheet xmlns:x="http://www.w3.org/1999/XSL/Transform" xmlns:a="a" xmlns:b="b" version="1.0">
+<x:variable name="g" select="/*"/>
+<x:template match="a:*"><x:variable name="v" select="*"/><x:value-of select="$v"/></x:template>
+</x:stylesheet>

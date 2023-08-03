@@ -1,0 +1,43 @@
+
+difference : 2000 - 1999
+result     : -P1Y
+difference : 2000-01 - 1999-12
+result     : -P1M
+difference : 1999-12 - 2000-01
+result     : P1M
+difference : 1999-12-31 - 2000-01-01
+result     : P1D
+difference : 1999 - 2000-01
+result     : P1Y
+difference : 0002-01-05 - 0001-01-04
+result     : -P366D
+difference : 0002-05-05 - 0001-01
+result     : -P1Y4M
+difference : -0002-01-05 - 0001-01-04
+result     : P730D
+difference : 0002 - -0001
+result     : -P2Y
+difference : 1970-01-01T05:04:03 - 1970-01-01T04:03:02
+result     : -PT1H1M1S
+difference : 2000-01-01T05:00:03 - 2000-01-01T04:03:02
+result     : -PT57M1S
+difference : 2000-01-01T05:00:03 - 1980-01-01T04:03:02
+result     : -P7305DT57M1S
+difference : 1970-01-01T04:03:02 - 1970-01-01T05:04:03
+result     : PT1H1M1S
+difference : 2000-01-01T04:03:02 - 2000-01-01T05:00:03
+result     : PT57M1S
+difference : 1980-01-01T04:03:02 - 2000-01-01T05:00:03
+result     : P7305DT57M1S
+difference : 2002-05-02T23:59:59 - 2002-05-03T00:00:01
+result     : PT2S
+difference : 2002-05-03T00:00:01 - 2002-05-02T23:59:59
+result     : -PT2S
+difference : 2000-01-02T05:00:03 - 2000-01-01T04:03:02
+result     : -P1DT57M1S
+difference : 2016-04-28T17:59:30+02:00 - 2016-04-28T17:59:30+04:00
+result     : -PT2H
+difference : 2000-01-05T01:00:00+11:00 - 2000-01-01T23:00:00-11:00
+result     : -P2DT4H
+difference : 2000-01-01T23:00:00-11:00 - 2000-01-05T01:00:00+11:00
+result     : P2DT4H

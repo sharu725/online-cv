@@ -1,0 +1,112 @@
+/Library/Developer/CommandLineTools/usr/bin/make  all-recursive
+Making all in libxslt
+  CC       attrvt.lo
+  CC       xslt.lo
+  CC       xsltlocale.lo
+  CC       xsltutils.lo
+  CC       pattern.lo
+  CC       templates.lo
+  CC       variables.lo
+  CC       keys.lo
+  CC       numbers.lo
+  CC       extensions.lo
+  CC       extra.lo
+  CC       functions.lo
+  CC       namespaces.lo
+  CC       imports.lo
+  CC       attributes.lo
+  CC       documents.lo
+  CC       preproc.lo
+  CC       transform.lo
+  CC       security.lo
+  CCLD     libxslt.la
+Making all in libexslt
+  CC       exslt.lo
+  CC       common.lo
+  CC       crypto.lo
+  CC       math.lo
+  CC       sets.lo
+  CC       functions.lo
+  CC       strings.lo
+  CC       date.lo
+  CC       saxon.lo
+  CC       dynamic.lo
+  CCLD     libexslt.la
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: .libs/libexslt.a(crypto.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: .libs/libexslt.a(crypto.o) has no symbols
+Making all in xsltproc
+  CC       xsltproc.o
+  CCLD     xsltproc
+ld: warning: dylib (/usr/local/Cellar/xz/5.4.3/lib/liblzma.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+  CC       testThreads.o
+  CCLD     testThreads
+ld: warning: dylib (/usr/local/Cellar/xz/5.4.3/lib/liblzma.dylib) was built for newer macOS version (13.0) than being linked (11.1)
+Making all in doc
+Making all in devhelp
+make[3]: Nothing to be done for `all'.
+Making all in EXSLT/devhelp
+make[3]: Nothing to be done for `all'.
+make[3]: Nothing to be done for `all-am'.
+Making all in tests
+Making all in docs
+make[3]: Nothing to be done for `all'.
+Making all in REC1
+make[3]: Nothing to be done for `all'.
+Making all in REC2
+make[3]: Nothing to be done for `all'.
+Making all in REC
+make[3]: Nothing to be done for `all'.
+Making all in general
+make[3]: Nothing to be done for `all'.
+Making all in namespaces
+make[3]: Nothing to be done for `all'.
+Making all in keys
+make[3]: Nothing to be done for `all'.
+Making all in numbers
+make[3]: Nothing to be done for `all'.
+Making all in documents
+make[3]: Nothing to be done for `all'.
+Making all in extensions
+make[3]: Nothing to be done for `all'.
+Making all in reports
+make[3]: Nothing to be done for `all'.
+Making all in xmlspec
+make[3]: Nothing to be done for `all'.
+Making all in multiple
+make[3]: Nothing to be done for `all'.
+Making all in xinclude
+make[3]: Nothing to be done for `all'.
+Making all in XSLTMark
+make[3]: Nothing to be done for `all'.
+Making all in docbook
+make[3]: Nothing to be done for `all'.
+Making all in exslt
+Making all in common
+make[4]: Nothing to be done for `all'.
+Making all in functions
+make[4]: Nothing to be done for `all'.
+Making all in math
+make[4]: Nothing to be done for `all'.
+Making all in saxon
+make[4]: Nothing to be done for `all'.
+Making all in sets
+make[4]: Nothing to be done for `all'.
+Making all in strings
+make[4]: Nothing to be done for `all'.
+Making all in dynamic
+make[4]: Nothing to be done for `all'.
+Making all in date
+make[4]: Nothing to be done for `all'.
+make[4]: Nothing to be done for `all-am'.
+Making all in plugins
+make[3]: Nothing to be done for `all'.
+Making all in fuzz
+make[3]: Nothing to be done for `all'.
+make[3]: Nothing to be done for `all-am'.
+sed -e 's?\@XSLT_LIBDIR\@?-L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/lib?g' \
+	    -e 's?\@XSLT_INCLUDEDIR\@?-I/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxslt/1.1.35/include?g' \
+	    -e 's?\@VERSION\@?1.1.35?g' \
+	    -e 's?\@XSLT_LIBS\@?-lxslt -L/Users/adonnell/Desktop/resume/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.13.8/ports/x86_64-darwin22/libxml2/2.9.14/lib -lxml2 -lz -L/usr/local/Cellar/xz/5.4.3/lib -llzma -lpthread -liconv -lm ?g' \
+	    -e 's?\@XSLT_PRIVATE_LIBS\@??g' \
+	       < ./xsltConf.sh.in > xsltConf.tmp \
+	&& mv xsltConf.tmp xsltConf.sh

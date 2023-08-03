@@ -1,0 +1,8 @@
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=ascii"></head>
+<body>
+<a href="#%D1%91">&#1105;</a><p>a lot of text</p>
+<a name="%D1%91"></a><h1>&#1105;</h1>
+<p>a lot of text</p>
+</body>
+</html>

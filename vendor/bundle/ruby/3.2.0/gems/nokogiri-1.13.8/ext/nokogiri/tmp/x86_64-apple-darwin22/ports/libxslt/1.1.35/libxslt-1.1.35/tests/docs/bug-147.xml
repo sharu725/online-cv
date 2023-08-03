@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<dokument>
+<paragraph>
+<liste>
+<le>abc</le>
+</liste>
+</paragraph>
+<navigation location="bottom">
+<interestguide>
+<index>
+<link type="internal" text="Allgemein">
+<action name="ChangeBGColor" event="onMouseOver">
+<pass-param name="color" value="#f9e84a"/>
+</action>
+<action name="ChangeBGColor" event="onMouseOut"><pass-param name="color" 
+value="#ffffff"/></action>
+</link>
+</index>
+</interestguide>
+</navigation>
+</dokument>
