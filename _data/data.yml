@@ -15,6 +15,7 @@ sidebar:
     # Sidebar links
     email: hello@webjeda.com
     phone: 012 345 6789
+    # location: Cancún, México
     timezone: America/Cancun Timezone
     citizenship:
     website: blog.webjeda.com #do not add http://
