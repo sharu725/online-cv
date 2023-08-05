@@ -30,7 +30,7 @@ I have made this into a Jekyll Theme. Checkout the live demo [here](https://onli
 * Your new site should be ready at `https://<username>.github.io/online-cv/`
 * Printable version of the site can be found at `https://<username>.github.io/online-cv/print`. Use a third party link https://pdflayer.com/, https://www.web2pdfconvert.com/ etc to get the printable PDF.
 
-Change all the details from one place: ``_data/data.yml``
+Change all the details from one place: ``docs/_data/data.yml``
 
 ## To preview/edit locally with docker
 
@@ -39,7 +39,7 @@ docker-compose up
 ```
 
 *docker-compose.yml* file is used to create a container that is reachable under http://localhost:4000.
-Changes *data/_data/data.yml* will be visible after a while.
+Changes *docs/_data/data.yml* will be visible after a while.
 
 ### Local machine
 
@@ -47,9 +47,9 @@ Changes *data/_data/data.yml* will be visible after a while.
 ```bash
 git clone https://github.com/sharu725/online-cv.git
 ```
-* Go to data directory
+* Go to docs directory
 ```bash
-cd data
+cd docs
 ```
 * Install required ruby gems
 ```bash
