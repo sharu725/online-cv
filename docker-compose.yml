@@ -6,7 +6,4 @@ services:
       ports:
           - 4000:4000
       volumes:
-          - .:/srv/jekyll
-      environment:
-        JEKYLL_UID: 1001
-        JEKYLL_GID: 1001
+          - ./docs:/srv/jekyll

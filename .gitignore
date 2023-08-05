@@ -1,4 +1,9 @@
-_site/
-.sass-cache/
-.jekyll-metadata
-.jekyll-cache
+# Cache
+docs/_site/
+docs/.sass-cache/
+docs/.jekyll-metadata
+docs/.jekyll-cache
+
+# Intellij Idea files
+.idea
+*.iml
