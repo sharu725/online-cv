@@ -8,14 +8,14 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Rohan Singh Rajput
+    tagline: Personalization Lead
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
+    email: rohan.rajput4@gmail.com
     phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    timezone: America/Pacfic Time Zone
     citizenship:
     website: blog.webjeda.com #do not add http://
     linkedin: alandoe
