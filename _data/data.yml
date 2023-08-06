@@ -14,21 +14,21 @@ sidebar:
 
     # Sidebar links
     email: rohan.rajput4@gmail.com
-    phone: 012 345 6789
+    phone: 321 310 3620
     timezone: America/Pacfic Time Zone
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    website: #do not add http://
+    linkedin: rohan3
+    xing: 
+    github: Rohan0401
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@rohanrajput1'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: 
 
     languages:
       title: Languages
@@ -36,8 +36,8 @@ sidebar:
         - idiom: English
           level: Native
 
-        - idiom: French
-          level: Professional
+        - idiom:
+          level: 
 
         - idiom: Spanish
           level: Professional
@@ -45,10 +45,10 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Reading
           link:
 
-        - item: Snowboarding
+        - item: Hiking
           link:
 
         - item: Cooking
@@ -57,43 +57,32 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Rohan Singh Rajput is a distinguished leader in the field of personalization, currently serving as the Personalization Domain Lead at Headspace. With over eight years of experience in analytics, data science, machine learning, and AI, Rohan has developed and deployed several successful machine learning models in production. His expertise in the field has garnered him a massive following on LinkedIn, with over 10,000 followers. Rohan has also been invited to speak at numerous data science conferences and has published several articles in newsletters.
+      Additionally, his contributions to the field have earned him a patent, and he has been featured in company blog posts and data science podcasts. Rohan's dedication and passion for his work are reflected in his work history, which includes working in prominent Fortune 500 companies such as Disney and Ticketmaster.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: MS in Computer Engineering
+        university: University of Central Florida
+        time: 2015 - 2017
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
+          Activities and societies: Graduate Student Association, IEEE @ UCF, ACF @ UCF, TechKinghts, Hack@UCFActivities and societies: Graduate Student Association, IEEE @ UCF, ACF @ UCF, TechKinghts, Hack@UCF.
+          Graduate Research Assistant in Institute of Simulation and Training in University of Central Florida. Currently pursuing master's in Computer Engineering. 
             - Bullet point
             - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+      - degree: BE in Electrical and Electronics Engineering
+        university: Rajiv Gandhi Prodyogiki Vishwavidyalaya
+        time: 2008 - 2012
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
+         Activities and societies: Placement Coordinator of Electrical and Electronic Engineering Department..
             - Bullet point
             - Bullet point
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Senior Data Scientist
+        time: Nov 2020 - Present
+        company: Headspace, Santa Monica
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -106,9 +95,9 @@ experiences:
           architecto beatae vitae dicta sunt explicabo.
             - Bullet point
             - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+      - role: Data Scientist II
+        time: Aug 2019 - Nov 2020
+        company: Ticketmaster, Los Angeles
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -117,9 +106,9 @@ experiences:
           pellentesque eu, pretium quis, sem.
             - Bullet point
             - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+      - role: Machine Learning Engineer
+        time: Oct 2017 - Aug 2019
+        company: Owned Outcomes, Las Vegas
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -245,20 +234,29 @@ skills:
       - name: Python & Django
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: SQL
         level: 98%
 
-      - name: Angular
+      - name: machine Learning
         level: 98%
 
-      - name: HTML5 & CSS
+      - name: Data Analysis
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Statistics
+        level: 95%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: AI
+        level: 95%
+
+      - name: Data Science
+        level: 95%
+
+      - name: A/B testing
+        level: 95%
+
+      - name: Hypothesis testing
+        level: 95%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
