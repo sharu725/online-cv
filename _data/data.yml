@@ -72,8 +72,8 @@ experiences:
       details: |
         Working as a backend engineer at Knowns. 
         I am responsible for data management on AWS Redshift and backend development with Spring Boot.
-          - Python, SQL
-          - AWS, Git, MySQL, Docker
+          - Python, SQL, Kotlin
+          - AWS, Git, MySQL, Docker, Spring Boot, DDD
 
     - role: Internship at Morgan Stanley
       link: https://www.morganstanley.co.jp/ja/people/students-graduates
