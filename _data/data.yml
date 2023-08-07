@@ -15,7 +15,7 @@ sidebar:
     # Sidebar links
     # email: hello@webjeda.com
     # phone: +41 78 269 78 xx
-    timezone: Suisse
+    timezone: Suisse/Vaud
     citizenship: Français
     # website: blog.webjeda.com #do not add http://
     linkedin: alexandrematinda
@@ -96,7 +96,7 @@ experiences:
     info:
       - role: Architecte solution
         time: 2019 - Present
-        company: Europcar Mobility Groupe, Paris (France)
+        company: Europcar Mobility Groupe, Genève (Suisse)
         details: |
           Europcar souhaite prendre le virage du Cloud et pour les accompagner dans cette transformation, j'ai rejoint l'équipe infrastructure et transformation Cloud pour participer:
 
