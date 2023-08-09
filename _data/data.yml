@@ -161,10 +161,10 @@ skills:
         level: 98%
 
       - name: Application Trobleshooting
-        level: 85%
+        level: 95%
 
       - name: CI/CD
-        level: 90%
+        level: 95%
 
       - name: Automation
         level: 95%
@@ -173,7 +173,7 @@ skills:
         level: 95%
 
       - name: Configuration Management
-        level: 90%
+        level: 95%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://oluops.io" target="_blank" rel="nofollow">olu bankole</a>
