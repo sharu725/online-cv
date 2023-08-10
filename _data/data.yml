@@ -3,6 +3,7 @@
 #
 
 sidebar:
+    position: right # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
@@ -18,27 +19,34 @@ sidebar:
     linkedin: /olu-bankole-★-39a5918/
     github: rbankole
     pdf: /Olu_Resume.pdf
-
+    timezone: America/Cancun Timezone
+    citizenship: USA
     languages:
-      - idiom: English
-        level: Native
-
-      - idiom: Yoruba
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
-
-    interests:
+      title: Languages
+      info:
+        - idiom: English
+          level: Native
+        - idiom: Yoruba
+          level: Professional
+        - idiom: French
+          level: Professional
+        - idiom: Spanish
+          level: Professional
+      interests:
       - item: Photography
         link: www.pochopov.photography
-
       - item: Music Production
         link: soundcloud.com/pochopov
-
       - item: Video Games
         link: 
-
+      title: Interests
+      info:
+        - item: Climbing
+          link:
+        - item: Snowboarding
+          link:
+        - item: Cooking
+          link:
 career-profile:
     title: Career Profile
     summary: |
@@ -122,19 +130,17 @@ experiences:
         - Lead and maintain VB login scripts for Active Directory object connectivity for
           end users in multiple Active Directory forests in a small 10 person team.
         - Configure DRBD and Heartbeat on XenServer 5.6 FP1 for virtual machine storage redundancy.
+
 projects:
     title: Client Projects
-    intro: >
-      Major milestones from recent years in various agile environments. 
+    intro: Major milestones from recent years in various agile environments. 
     assignments:
       - title: Legacy To Microservices
         link: "#hook"
         tagline: "DotNET to DotNET.core/Angular/Bootstrap"
-
       - title: Herding Containers. 
         link: "#"
         tagline: "Migration to AKS"
-
       - title: Helm!
         link: "#"
         tagline: "Stop writing k8s manifests!"
