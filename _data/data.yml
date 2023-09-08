@@ -13,22 +13,24 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: caipengy@mail3.sysu.edu.cn   caipengy@qq.com
-    phone: CN - 18010195079   SG - 83302765
+    email: caipengy@mail3.sysu.edu.cn
+           caipengy@qq.com
+    phone: CN - 18010195079   
+           SG - 83302765
     timezone:  Singapore & Shanghai UTC+08:00
     citizenship: Chinese
     website: caipengyang.github.io/online-cv/ #do not add http://
-    linkedin: alandoe
-    xing: alandoe
+    linkedin: caipengyang
+    xing: NA
     github: caipengyang
-    telegram: # add your nickname without '@' sign
+    telegram: NA # add your nickname without '@' sign
     gitlab: caipengyang
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    bitbucket: NA
+    twitter: NA
+    stack-overflow: NA # Number/Username, e.g. 123456/alandoe
+    codewars: NA
+    goodreads: NA # Number-Username, e.g. 123456-alandoe
+    pdf: http://caipengyang.github.io/online-cv/print
 
     languages:
       title: Languages
@@ -252,23 +254,26 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: C/C++
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Golang
         level: 98%
 
-      - name: Angular
+      - name: Java
         level: 98%
 
-      - name: HTML5 & CSS
+      - name: Python
+        level: 98%
+
+      - name: C#
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Typescript/Javascript
+        level: 70%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Typescript/Javascript
+        level: 70%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
