@@ -1,9 +1,21 @@
 <div class="contact-container container-block">
   <ul class="list-unstyled contact-list">
 
-    {% if sidebar.email %}
-    <li class="email"><i class="fas fa-envelope"></i>
-      <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
+    {% if sidebar.birthday %}
+    <li class="birthday"><i class="fas fa-birthday-cake"></i>
+      <a href="">{{ sidebar.birthday }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.citizenship %}
+    <li class="citizenship"><i class="fas fa-passport"></i>
+      <a href="">{{ sidebar.citizenship }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.address %}
+    <li class="address"><i class="fas fa-address-book"></i>
+      <a href="">{{ sidebar.address }}</a>
     </li>
     {% endif %}
 
@@ -13,9 +25,9 @@
     </li>
     {% endif %}
 
-    {% if sidebar.citizenship %}
-    <li class="phone"><i class="fas fa-passport"></i>
-      <a href="">{{ sidebar.citizenship }}</a>
+    {% if sidebar.email %}
+    <li class="email"><i class="fas fa-envelope"></i>
+      <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
     </li>
     {% endif %}
 

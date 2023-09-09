@@ -4,262 +4,193 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Lukas Püttner
+    tagline: AI Engineer
+    avatar: c903fb83.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    birthday: 17.06.1995 in Karlsruhe
+    email: lpuettner@mail.de
+    phone: +49 162 4274495
+    citizenship: German
+    address: Bäckerstr. 22
+            <div style="text-indent:25px;">81241 Munich</div>
+            <div style="text-indent:25px;">Bavaria, DE</div>
+    #website: blog.webjeda.com #do not add http://
+    #linkedin: alandoe
+    #xing: alandoe
+    #github: sharu725
+    #telegram: # add your nickname without '@' sign
+    #gitlab:
+    #bitbucket:
+    #twitter: '@webjeda'
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+    #codewars:
+    #goodreads: # Number-Username, e.g. 123456-alandoe
+    #pdf: /print
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: German
           level: Native
 
-        - idiom: French
+        - idiom: English
           level: Professional
+        
+        - idiom: Ancient Greek
+          level: Graecum
 
-        - idiom: Spanish
-          level: Professional
+        - idiom: Latin
+          level: Latinum
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Hiking
           link:
 
-        - item: Snowboarding
+        - item: Mountainbiking
           link:
 
-        - item: Cooking
+        - item: Home Barista
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am a highly motivated software engineer interested in the areas of Robotics, Automation, Computer Vision and Machine Learning.
+      My passion for software already started with the age of twelve where I did my first steps in coding.
+      During my studies at the Technical University of Munich I put a big focus on hands-on projects in robotics and machine learning. 
+      In my current positon at CareX.ai I also built up an high interest in creating data pipelines and infrastructure for Machine Learning projects in Python.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: MSc in Electrical Engineering and Information Technology
+        university: Technical University of Munich
+        time: 04/2017 - 06/2020
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          - Focus on Automation & Robotics
+          - Final Grade: 1.2
+          - Master Thesis at the Chair of Media Technology<br>
+            "Driver Awareness Detection with Eye-Tracking Glasses and the CARLA Simulator"<br>
+            Grade: 1.0
+            - Development of an algorithm and a metric to assess the drivers awareness
+            - Implementation of a prototype using Eye-Tracking Glasses and the CARLA Simulator in a ROS environment
+            - Tools: ROS, Python, ZMQ
+
+          <div style="text-indent:25px;">Selected Projects</div>
+          - Advanced Programming in C++
+            - Programming of a Turtlebot to play a hockey-like game in a tournament setting
+            - Localization of the robot in the playground using Kinect Camera and LIDAR
+            - Path planning
+            - Execution of actions to score by pushing the pucks into the goal
+            - Tools: ROS, C++, OpenCV
+          - Humanoid Cognitive Reasoning
+            - Detection and inference of different spatial relations between objects using the robots camera
+            - Tools: ROS, C++, OpenCV, Prolog
+
+      - degree: Exchange Studies
+        university: Linköpings University, Sweden
+        time: 08/2017 - 01/2018
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Courses on Image and Signal Processing
+      - degree: BSc in Electrical Engineering and Information Technology
+        university: Technical University of Munich
+        time: 10/2013 - 03/2017
+        details: |
+          - Final Grade: 1.8
+          - Bachelor Thesis at the Chair of Media Technology<br>
+          "Positioning of a low-cost robotic arm using 2.5D Visual Servoing"<br>
+          Grade: 1.0
+            - Usage of an open source robotic arm made out of dynamixel engines
+            - Design of a 3D-printed camera mount
+            - Tools: ROS, C++, Inria Visual Servoing Platform, Orocos KDL
+          
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: AI Engineer
+        time: 12/2021 - Present
+        company: CareX.ai Inc., Palo Alto (remote)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          - Implementation and management of infrastructure for AI 
+          development
+          - Setup and maintenance of Python ETL pipeline for 
+          unstructured data
+          - Development of a mobile camera calibration for vital sign measurements
+          - Prototyping AI models for vital sign measurements
+
+      - role: Research Assistant
+        time: 04/2021 - 10/2021
+        company: Chair of Media Technology - Technical University of Munich
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Research on Scene Reconstruction using LIDAR sensors, cameras and 6G radio technology
+
+      - company: Stercom Power Solutions GmbH, Weyarn
+        role: Embedded Software Engineer / Intern
+        time: 04/2019 - 03/2021
+        
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          - Embedded software development for energy storage systems and power electronics
+          - Integration of an external software stack for SAE J1939 communication in Stercom systems
+          - Integration of an external module for battery charging using power line communication according to DIN SPEC 70121 and ISO 15118
+          - Participation in development and design of an electric avalanche airbag system
+          
+          <div style="text-indent:25px;">04/2019 - 07/2020 Student Intern / Working Student</div>
+          <div style="text-indent:25px;">07/2020 - 03/2021 Embedded Software Engineer</div>
+          
+          
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - company: ESG Elektroniksystem- und Logistik-GmbH, Fürstenfeldbruck
+        role: Working Student / Student Intern
+        time: 04/2019 - 03/2021
+        
+        details: |
+          - Development of a tool to extract IP data packets of specific applications using the API of a commercial product for deep packet inspection
+          - Implementation of a LUA Wireshark plugin for malware detection using YARA rules
+          - Evaluation of commercial products for deep packet inspection and metadata visualization
+          - Evaluation of different tools for metadata extraction from network traffic
+          - Development of a LUA plugin for Wireshark to extract application-specific metadata  
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    intro:
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Measuring Driver Situation Awareness Using Region-of-Interest Prediction and Eye Tracking
+        link: "https://ieeexplore.ieee.org/document/9327914"
+        authors: Markus Hofbauer, Christopher B. Kuhn, Lukas Püttner, Goran Petrovic, Eckehard Steinbach
+        conference: 2020 IEEE International Symposium on Multimedia · 30. Nov. 2020
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: ROS
+        level: 70%
 
-      - name: Angular
-        level: 98%
+      - name: Computer Vision
+        level: 65%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Machine Learning
+        level: 70%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: C++
+        level: 40%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: C
+        level: 50%
+
+      - name: AWS Cloud Services
+        level: 50%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
