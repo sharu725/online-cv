@@ -8,23 +8,18 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Ruchi Pandey 
+    tagline: Tech Innovator and Content Creator
+   #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
+    email: ruchipandey1709@gmail.com
+    phone: 7987136380
+    timezone: India Timezone
+    citizenship: India
+    linkedin: ruchipandey8
+    github: ruchipandey17
+    twitter: '@ruchi1097'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -34,13 +29,13 @@ sidebar:
       title: Languages
       info:
         - idiom: English
+          level: Professional proficiency
+
+        - idiom: Hindi
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+        - idiom: German
+          level: Limited working proficiency
 
     interests:
       title: Interests
