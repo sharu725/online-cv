@@ -80,7 +80,7 @@ education:
             "Driver Awareness Detection with Eye-Tracking Glasses and the CARLA Simulator"<br>
             Grade: 1.0
             - Development of an algorithm and a metric to assess the drivers awareness
-            - Implementation of a prototype using Eye-Tracking Glasses and the CARLA Simulator in a ROS environment
+            - Implementation of a prototype using eye-tracking glasses and the CARLA simulator in a ROS environment
             - Tools: ROS, Python, ZMQ
 
           <div style="text-indent:25px;">Selected Projects</div>
@@ -107,8 +107,9 @@ education:
           - Bachelor Thesis at the Chair of Media Technology<br>
           "Positioning of a low-cost robotic arm using 2.5D Visual Servoing"<br>
           Grade: 1.0
-            - Usage of an open source robotic arm made out of dynamixel engines
+            - Usage of an open source robotic arm made out of dynamixel servomotors
             - Design of a 3D-printed camera mount
+            - Implementation of a visual servoing algorithm to position the end effector of the robotic arm relative to an object
             - Tools: ROS, C++, Inria Visual Servoing Platform, Orocos KDL
           
 
@@ -117,12 +118,10 @@ experiences:
     info:
       - role: AI Engineer
         time: 12/2021 - Present
-        company: CareX.ai Inc., Palo Alto (remote)
+        company: CareX.ai Inc., Palo Alto, California (remote)
         details: |
-          - Implementation and management of infrastructure for AI 
-          development
-          - Setup and maintenance of Python ETL pipeline for 
-          unstructured data
+          - Implementation and management of infrastructure for AI development
+          - Setup and maintenance of Python ETL pipeline for unstructured data
           - Development of a mobile camera calibration for vital sign measurements
           - Prototyping AI models for vital sign measurements
 
@@ -130,20 +129,20 @@ experiences:
         time: 04/2021 - 10/2021
         company: Chair of Media Technology - Technical University of Munich
         details: |
-          Research on Scene Reconstruction using LIDAR sensors, cameras and 6G radio technology
+          Research on Digital Twins in the 6G network setting using LIDAR sensors, cameras and 6G radio technology
 
       - company: Stercom Power Solutions GmbH, Weyarn
         role: Embedded Software Engineer / Intern
         time: 04/2019 - 03/2021
         
         details: |
+          04/2019 - 07/2020 Student Intern / Working Student<br>
+          07/2020 - 03/2021 Embedded Software Engineer<br>
           - Embedded software development for energy storage systems and power electronics
           - Integration of an external software stack for SAE J1939 communication in Stercom systems
           - Integration of an external module for battery charging using power line communication according to DIN SPEC 70121 and ISO 15118
           - Participation in development and design of an electric avalanche airbag system
           
-          <div style="text-indent:25px;">04/2019 - 07/2020 Student Intern / Working Student</div>
-          <div style="text-indent:25px;">07/2020 - 03/2021 Embedded Software Engineer</div>
           
           
 
@@ -153,10 +152,8 @@ experiences:
         
         details: |
           - Development of a tool to extract IP data packets of specific applications using the API of a commercial product for deep packet inspection
-          - Implementation of a LUA Wireshark plugin for malware detection using YARA rules
+          - Implementation of LUA Wireshark plugins for extraction of application-specific metadata and malware detection using YARA rules
           - Evaluation of commercial products for deep packet inspection and metadata visualization
-          - Evaluation of different tools for metadata extraction from network traffic
-          - Development of a LUA plugin for Wireshark to extract application-specific metadata  
 
 publications:
     title: Publication
