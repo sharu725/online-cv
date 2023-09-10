@@ -159,7 +159,7 @@ experiences:
           - Development of a LUA plugin for Wireshark to extract application-specific metadata  
 
 publications:
-    title: Publications
+    title: Publication
     intro:
     papers:
       - title: Measuring Driver Situation Awareness Using Region-of-Interest Prediction and Eye Tracking
@@ -192,5 +192,5 @@ skills:
       - name: AWS Cloud Services
         level: 50%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
