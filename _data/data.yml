@@ -10,7 +10,7 @@ sidebar:
     # Profile information
     name: Cai Pengyang
     tagline: Development Engineer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: caipengyang-profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: caipengy@mail3.sysu.edu.cn
@@ -68,56 +68,58 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am a software developer with 16+ years programming experience. I
+      started coding in 2006 and have finished several opensource projects independently using
+      different programming languages. I also have rich backend & algorithm enginnering experience in 
+      China's top IT companies like Tencent, Alibaba, Bytedance, Netease and so on. I'm now working
+      at SEA group and responsible for the e-commerse intelligence engineering team. I love coding and 
+      backend technologies like Cache, Storage, Message Queue and Analysis Engine. Now I'm working 
+      together with my team mates to drive SEA business growth using AI technologies. 
 education:
     title: Education
     info:
       - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+        university: Sun Yat-sen University
+        time: Sep 2010 - Jun 2013
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          I studied in Computer Science department without examination. My major is Computer Software and Theory. 
+          I studied Mathematical logic, Game theory, Intelligent planning and 
+          so on. I also participated in some competitions in China. I had a 2-year internship in Tecent 
+          Guangzhou R&D center(fomer Wechat Group). 
+            - Champion of Robocup China, Home Service Simulation Natual Language Group, May,  2012
+            - Champion of Robocup China, Home Service Simulation Command Language Group, Aug, 2011
+      - degree: BSc in Computer Science
+        university: Sun Yat-sen University
+        time: Sep 2006 - Jun 2010
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          I studied in Computer Science department. May major is network engineering. I studied computer fundamental
+          classes like C++ programming language, assembly language, operating system, The Dragon book, Computer network,
+          database management system, artifical intelligence. 
+            - Sun Yat-sen University ACM (Level 2), 2009-2010
+            - Sun Yat-sen University ACM (Level 2), 2008-2009
+            - Outstanding Student Scholarship (Grade 3), 2008-2009
+            - Outstanding Student Scholarship (Grade 2), 2007-2008
+            - Zeng Xianzi Outstanding Student Scholarship 2006-2007
+            - Outstanding Student Scholarship (Grade 1), 2006-2007
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Manager
+        time: 2019 - Present
+        company: SEA(Garena Online Private LTD)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+          As the manager of the intelligence engineering team(100+ members), I built the whole team from zero.The team
+          include backend developers, frontend developers, App developers and QA. 
+          Our team is supporting all the products of Shopee as well as some other products of SEA group.
+          The features include Promotion Item Search, Personalization, User Tag Intelligence, Computer Vision,
+          Listing Intelligence, Machine Translation, Audio intelligence, Identify verification(KYC) and so on.
+          WE are supporting business lines include Promotion, User, Marketing, Order, Listing, Seller... We are 
+          improving the core indicators of e-commerce platform and the iteration efficiency of both business projects
+          and technical projects.
+            - 2022 Performance: A+(Outstanding)
+            - 2021 Performance: A+(Outstanding) 
+
       - role: Senior Software Engineer
         time: 2014 - 2015
         company: Google, London
