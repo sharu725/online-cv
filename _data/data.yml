@@ -8,12 +8,12 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
+    name: 燕锦
     tagline: Full Stack Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
+    email: yanjin734@Gmail.com
     phone: 012 345 6789
     timezone: America/Cancun Timezone
     citizenship:
