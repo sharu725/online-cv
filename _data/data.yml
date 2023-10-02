@@ -10,16 +10,16 @@ sidebar:
     # Profile information
     name: Lukas Püttner
     tagline: AI Engineer
-    avatar: c903fb83.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile-pic.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     birthday: 17.06.1995 in Karlsruhe
     email: lpuettner@mail.de
     phone: +49 162 4274495
-    citizenship: German
+    citizenship: deutsch
     address: Bäckerstr. 22
-            <div style="text-indent:25px;">81241 Munich</div>
-            <div style="text-indent:25px;">Bavaria, DE</div>
+            <div style="text-indent:25px;">81241 München</div>
+            <div style="text-indent:25px;">Bayern, DE</div>
     #website: blog.webjeda.com #do not add http://
     #linkedin: alandoe
     #xing: alandoe
@@ -34,129 +34,118 @@ sidebar:
     #pdf: /print
 
     languages:
-      title: Languages
+      title: Sprachen
       info:
-        - idiom: German
-          level: Native
+        - idiom: Deutsch
+          level: Muttersprache
 
-        - idiom: English
-          level: Professional
+        - idiom: Englich
+          level: Verhandlungssicher
         
-        - idiom: Ancient Greek
+        - idiom: Altgriechisch
           level: Graecum
 
-        - idiom: Latin
+        - idiom: Latein
           level: Latinum
 
     interests:
-      title: Interests
+      title: Interessen
       info:
-        - item: Hiking
+        - item: Wandern
           link:
 
-        - item: Mountainbiking
+        - item: Mountainbiken
           link:
 
         - item: Home Barista
           link:
 
-career-profile:
-    title: Career Profile
-    summary: |
-      I am a highly motivated software engineer interested in the areas of Robotics, Automation, Computer Vision and Machine Learning.
-      My passion for software already started at the age of twelve where I made my first steps in coding.
-      During my studies at the Technical University of Munich I put a big focus on hands-on projects in robotics and machine learning. 
-      In my current positon at CareX.ai I also built up an high interest in creating data pipelines and infrastructure for Machine Learning projects in Python.
 education:
-    title: Education
+    title: Ausbildung
     info:
-      - degree: MSc in Electrical Engineering and Information Technology
-        university: Technical University of Munich
+      - degree: MSc in Elektro- und Informationstechnik
+        university: Technische Universität München
         time: 04/2017 - 06/2020
         details: |
-          - Focus on Automation & Robotics
-          - Final Grade: 1.2
-          - Master Thesis at the Chair of Media Technology<br>
+          - Schwerpunkt Automatisierung & Robotik
+          - Abschlussnote: 1,2
+          - Masterarbeit am Lehrstuhl für Medientechnik<br>
             "Driver Awareness Detection with Eye-Tracking Glasses and the CARLA Simulator"<br>
-            Grade: 1.0
-            - Development of an algorithm and a metric to assess the drivers awareness
-            - Implementation of a prototype using eye-tracking glasses and the CARLA simulator in a ROS environment
+            Note: 1,0
+            - Entwicklung eines Algorithmus und einer Metrik zur Einschätzung der Fahrerwahrnehmung
+            - Implementierung eines Prototypen in einer ROS Umgebung unter Verwendung einer Eye-Tracking Brille und des CARLA Simulators
             - Tools: ROS, Python, ZMQ
 
-          <div style="text-indent:25px;">Selected Projects</div>
-          - Advanced Programming in C++
-            - Programming of a Turtlebot to play a hockey-like game in a tournament setting
-            - Localization of the robot in the playground using Kinect Camera and LIDAR
-            - Path planning
-            - Execution of actions to score by pushing the pucks into the goal
+          <div style="text-indent:25px;">Ausgewählte Projekte</div>
+          - Leistungskurs C++
+            - Programmierung eines Turtlebots, um ein hockeyähnliches Spiel in einem Turnier zu spielen
+            - Lokalisierung des Roboters auf dem Spielfeld mit einer Kinect-Kamera und LIDAR Sensor
+            - Pfadplanung
             - Tools: ROS, C++, OpenCV
           - Humanoid Cognitive Reasoning
-            - Detection and inference of different spatial relations between objects using the robots camera
+            - Erkennung und Schlussfolgern verschiedener räumlicher Zusammenhänge zwischen Objekten mittels der Kamera
             - Tools: ROS, C++, OpenCV, Prolog
 
-      - degree: Exchange Studies
-        university: Linköpings University, Sweden
+      - degree: Auslandssemester
+        university: Linköpings Universitet, Schweden
         time: 08/2017 - 01/2018
         details: |
-          Courses on Image and Signal Processing
-      - degree: BSc in Electrical Engineering and Information Technology
-        university: Technical University of Munich
+          Kurse im Bereich Bild- und Signalverarbeitung
+      - degree: BSc in Elektro- und Informationstechnik
+        university: Technische Universität München
         time: 10/2013 - 03/2017
         details: |
-          - Final Grade: 1.8
-          - Bachelor Thesis at the Chair of Media Technology<br>
-          "Positioning of a low-cost robotic arm using 2.5D Visual Servoing"<br>
-          Grade: 1.0
-            - Usage of an open source robotic arm made out of dynamixel servomotors
-            - Design of a 3D-printed camera mount
-            - Implementation of a visual servoing algorithm to position the end effector of the robotic arm relative to an object
-            - Tools: ROS, C++, Inria Visual Servoing Platform, Orocos KDL
+          - Abschlussnote: 1,8
+          - Bachelorarbeit am Lehrstuhl für Medientechnik<br>
+          "Positionierung eines low-cost Roboterarm mittels 2.5D Visual Servoing"<br>
+          Note: 1,0
+            - Verwendung eines Open-Source Roboterarm bestehend aus Dynamixel Servomotoren
+            - Entwurf einer 3D-gedruckten Kamerahaltung
+            - Implementierung eines Algorithmus zur Positionierung des Endeffektors relativ zu einem Objekt mittels Visual Servoing
+            - Tools: ROS, C++, Inria Visual Servoing Platform (VISP), Orocos KDL
           
 
 experiences:
-    title: Experiences
+    title: Berufserfahrung
     info:
       - role: AI Engineer
-        time: 12/2021 - Present
-        company: CareX.ai Inc., Palo Alto, California (remote)
+        time: 12/2021 - heute
+        company: CareX.ai Inc., Palo Alto, Kalifornien (remote)
         details: |
-          - Implementation and management of infrastructure for AI development
-          - Setup and maintenance of Python ETL pipeline for unstructured data
-          - Development of a mobile camera calibration for vital sign measurements
-          - Prototyping AI models for vital sign measurements
+          - Implementierung und Management der Infrastruktur für KI-Entwicklung
+          - Entwicklung und Instandhaltung einer Python ETL Pipeline für unstrukturierte Daten
+          - Entwicklung eines Algorithmus zur Kalibrierung der Kamera für die Schätzung von Vitalparametern
+          - Implementierung von KI-Modell Prototypen zur Messung von Vitalparametern mit einer Kamera
 
-      - role: Research Assistant
+      - role: Wissenschaftlicher Mitarbeiter
         time: 04/2021 - 10/2021
-        company: Chair of Media Technology - Technical University of Munich
+        company: Lehrstuhl für Medientechnik - Technische Universität München
         details: |
-          Research on Digital Twins in the 6G network setting using LIDAR sensors, cameras and 6G radio technology
+          Forschung an Digitalen Zwillingen im Bereich von 6G Netzwerken mithilfe von LIDAR Sensoren, Kameras und 6G Hochfrequenz Technologie
 
       - company: Stercom Power Solutions GmbH, Weyarn
-        role: Embedded Software Engineer / Intern
+        role: Embedded Softwareentwickler / Praktikant
         time: 04/2019 - 03/2021
-        
+      
         details: |
-          04/2019 - 07/2020 Student Intern / Working Student<br>
-          07/2020 - 03/2021 Embedded Software Engineer<br>
-          - Embedded software development for energy storage systems and power electronics
-          - Integration of an external software stack for SAE J1939 communication in Stercom systems
-          - Integration of an external module for battery charging using power line communication according to DIN SPEC 70121 and ISO 15118
-          - Participation in development and design of an electric avalanche airbag system
-          
-          
-          
+          07/2020 - 03/2021 Embedded Softwareentwickler<br>
+          04/2019 - 07/2020 Praktikant / Werkstudent<br>
+          - Embedded Softwareentwicklung für Energiespeichersysteme und Leistungselektronik
+          - Integration eines externen Softwarestacks für SAE J1939 Kommunikation in Stercom Systeme
+          - Integration eines externen Hardwaremoduls für Ladevorgänge mittels Powerline Communication gemäß DIN SPEC 70121 und ISO 15118
+          - Mithilfe bei der Entwicklung und des Entwurfes eines elektronischen Lawinenairbags
 
       - company: ESG Elektroniksystem- und Logistik-GmbH, Fürstenfeldbruck
-        role: Working Student / Student Intern
+        role: Praktikant / Werkstudent
         time: 08/2015 - 08/2017
         
         details: |
-          - Development of a tool to extract IP data packets of specific applications using the API of a commercial product for deep packet inspection
-          - Implementation of LUA Wireshark plugins for extraction of application-specific metadata and malware detection using YARA rules
-          - Evaluation of commercial products for deep packet inspection and metadata visualization
+          - Entwicklung einer Software für die Extraktion von IP Daten von spezifischen Applikationen mithilfe der API eines komerziellen Produkts für Deep Packet Inspection
+          - Implementierung eines Lua Plugins für Wireshark zur Extraktion von anwendungsspezifischen Metadaten sowie zur Erkennung von Malware mittels YARA Regeln
+          - Evaluation von komerziellen Produkten für Deep Packet Inspection und Visualisierung von extrahierten Metadaten
 
 publications:
-    title: Publication
+    title: Publikation
     intro:
     papers:
       - title: Measuring Driver Situation Awareness Using Region-of-Interest Prediction and Eye Tracking
@@ -165,7 +154,7 @@ publications:
         conference: 2020 IEEE International Symposium on Multimedia · 30. Nov. 2020
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Fähigkeiten &amp; Kompetenzen
 
     toolset:
       - name: Python
@@ -181,10 +170,10 @@ skills:
         level: 70%
 
       - name: C++
-        level: 40%
+        level: 50%
 
       - name: C
-        level: 50%
+        level: 55%
 
       - name: AWS Cloud Services
         level: 50%

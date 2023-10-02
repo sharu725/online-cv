@@ -1,0 +1,186 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: right # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Lukas Püttner
+    tagline: AI Engineer
+    avatar: profile-pic.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    birthday: 17.06.1995 in Karlsruhe
+    email: lpuettner@mail.de
+    phone: +49 162 4274495
+    citizenship: German
+    address: Bäckerstr. 22
+            <div style="text-indent:25px;">81241 Munich</div>
+            <div style="text-indent:25px;">Bavaria, DE</div>
+    #website: blog.webjeda.com #do not add http://
+    #linkedin: alandoe
+    #xing: alandoe
+    #github: sharu725
+    #telegram: # add your nickname without '@' sign
+    #gitlab:
+    #bitbucket:
+    #twitter: '@webjeda'
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+    #codewars:
+    #goodreads: # Number-Username, e.g. 123456-alandoe
+    #pdf: /print
+
+    languages:
+      title: Languages
+      info:
+        - idiom: German
+          level: Native
+
+        - idiom: English
+          level: Professional
+        
+        - idiom: Ancient Greek
+          level: Graecum
+
+        - idiom: Latin
+          level: Latinum
+
+    interests:
+      title: Interests
+      info:
+        - item: Hiking
+          link:
+
+        - item: Mountainbiking
+          link:
+
+        - item: Home Barista
+          link:
+
+education:
+    title: Education
+    info:
+      - degree: MSc in Electrical Engineering and Information Technology
+        university: Technical University of Munich
+        time: 04/2017 - 06/2020
+        details: |
+          - Focus on Automation & Robotics
+          - Final Grade: 1.2
+          - Master Thesis at the Chair of Media Technology<br>
+            "Driver Awareness Detection with Eye-Tracking Glasses and the CARLA Simulator"<br>
+            Grade: 1.0
+            - Development of an algorithm and a metric to assess the drivers awareness
+            - Implementation of a prototype using eye-tracking glasses and the CARLA simulator in a ROS environment
+            - Tools: ROS, Python, ZMQ
+
+          <div style="text-indent:25px;">Selected Projects</div>
+          - Advanced Programming in C++
+            - Programming of a Turtlebot to play a hockey-like game in a tournament setting
+            - Localization of the robot in the playground using Kinect Camera and LIDAR
+            - Path planning
+            - Execution of actions to score by pushing the pucks into the goal
+            - Tools: ROS, C++, OpenCV
+          - Humanoid Cognitive Reasoning
+            - Detection and inference of different spatial relations between objects using the robots camera
+            - Tools: ROS, C++, OpenCV, Prolog
+
+      - degree: Exchange Studies
+        university: Linköpings University, Sweden
+        time: 08/2017 - 01/2018
+        details: |
+          Courses on Image and Signal Processing
+      - degree: BSc in Electrical Engineering and Information Technology
+        university: Technical University of Munich
+        time: 10/2013 - 03/2017
+        details: |
+          - Final Grade: 1.8
+          - Bachelor Thesis at the Chair of Media Technology<br>
+          "Positioning of a low-cost robotic arm using 2.5D Visual Servoing"<br>
+          Grade: 1.0
+            - Usage of an open source robotic arm made out of dynamixel servomotors
+            - Design of a 3D-printed camera mount
+            - Implementation of a visual servoing algorithm to position the end effector of the robotic arm relative to an object
+            - Tools: ROS, C++, Inria Visual Servoing Platform, Orocos KDL
+          
+
+experiences:
+    title: Experiences
+    info:
+      - role: AI Engineer
+        time: 12/2021 - Present
+        company: CareX.ai Inc., Palo Alto, California (remote)
+        details: |
+          - Implementation and management of infrastructure for AI development
+          - Setup and maintenance of Python ETL pipeline for unstructured data
+          - Development of a mobile camera calibration for vital sign measurements
+          - Prototyping AI models for vital sign measurements
+
+      - role: Research Assistant
+        time: 04/2021 - 10/2021
+        company: Chair of Media Technology - Technical University of Munich
+        details: |
+          Research on Digital Twins in the 6G network setting using LIDAR sensors, cameras and 6G radio technology
+
+      - company: Stercom Power Solutions GmbH, Weyarn
+        role: Embedded Software Engineer / Intern
+        time: 04/2019 - 03/2021
+      
+        details: |
+          04/2019 - 07/2020 Student Intern / Working Student<br>
+          07/2020 - 03/2021 Embedded Software Engineer<br>
+          - Embedded software development for energy storage systems and power electronics
+          - Integration of an external software stack for SAE J1939 communication in Stercom systems
+          - Integration of an external module for battery charging using power line communication according to DIN SPEC 70121 and ISO 15118
+          - Participation in development and design of an electric avalanche airbag system
+          
+          
+          
+
+      - company: ESG Elektroniksystem- und Logistik-GmbH, Fürstenfeldbruck
+        role: Working Student / Student Intern
+        time: 08/2015 - 08/2017
+        
+        details: |
+          - Development of a tool to extract IP data packets of specific applications using the API of a commercial product for deep packet inspection
+          - Implementation of LUA Wireshark plugins for extraction of application-specific metadata and malware detection using YARA rules
+          - Evaluation of commercial products for deep packet inspection and metadata visualization
+
+publications:
+    title: Publication
+    intro:
+    papers:
+      - title: Measuring Driver Situation Awareness Using Region-of-Interest Prediction and Eye Tracking
+        link: "https://ieeexplore.ieee.org/document/9327914"
+        authors: Markus Hofbauer, Christopher B. Kuhn, Lukas Püttner, Goran Petrovic, Eckehard Steinbach
+        conference: 2020 IEEE International Symposium on Multimedia · 30. Nov. 2020
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python
+        level: 90%
+
+      - name: ROS
+        level: 70%
+
+      - name: Computer Vision
+        level: 65%
+
+      - name: Machine Learning
+        level: 70%
+
+      - name: C++
+        level: 50%
+
+      - name: C
+        level: 55%
+
+      - name: AWS Cloud Services
+        level: 50%
+
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
