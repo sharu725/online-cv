@@ -121,6 +121,9 @@ leadership:
     - title: Professional
       description: "Jagersfontein: Intergovernmental environmental rehabilitation specialist committee: Leading the hydraulic and sediment transport numerical modelling component to predict long term effects."
       time: '2023'
+    - title: Professional
+      description: "St Lucia Dredging and Clearing: Leading the hydraulic and geomorphology scientific and engineering team."
+      time: '2023'
       
 
     - title: Research
@@ -159,9 +162,13 @@ projects:
     intro: >
       
     assignments:
+      - title: St Lucia dredging and clearing of the lower uMfolozi and uMsunduzi Rivers (2023)
+        link: "#"
+        tagline: "Lead scientist and hydraulic engineer to evaulate causal mechanisms of backflooding with remedial recommendations"
+
       - title: "Jagersfontein Intergovernmental environmental rehabilitation specialist committee (2023)"
         link: "#"
-        tagline: "Long term Hydraulic and sediment modelling using Mike by DHI for the Jagersfontein Tailings Dam Failure (2023)"
+        tagline: "Long term Hydraulic and sediment modelling using Mike by DHI for the Jagersfontein Tailings Dam Failure"
       - title: Coastal Vulnerability Milnerton Cape Town (2015-2017)
         link: "#"
         tagline: "Coastal vulnerability analysis and shoreline protection design for Milnerton Beach Cape Town"
@@ -304,7 +311,7 @@ students:
     
 
     - name: Danel Capelo
-      year: (Submission Expected)
+      year: (2023)
       title: On the design of hydrokites to harness ocean current energy
       level: MSc
       link: https://efml.ukzn.ac.za/danel/
@@ -339,11 +346,16 @@ students:
       level: MSc
       link: https://efml.ukzn.ac.za
 
-    - name: Kamogelo Mohlala 
-      year: "(Submission expected)"
-      title: Flow Ecosystem Dynamics For Selected River Reaches Of The Incomati Basin
-      level: MSc
-      link: https://efml.ukzn.ac.za
+    # - name: Kamogelo Mohlala 
+    #   year: "(Submission expected)"
+    #   title: Flow Ecosystem Dynamics For Selected River Reaches Of The Incomati Basin
+    #   level: MSc
+    #   link: https://efml.ukzn.ac.za
+    - name: Siviwe Mabija
+      year: "(Submission Expected)"
+      title: Forecasting Infragravity and Far-Infragravity Wave Climate To Assess the Dynamics of Moored Tanker Vessels
+      level: "MSc"
+      link: "#"
 
     - name: Atish Deoraj
       year: "(Submission Expected)"
@@ -352,7 +364,7 @@ students:
       link: https://efml.ukzn.ac.za/atish/
 
     - name: Calvin Wells
-      year: (Submission Expected)
+      year: (Under Review)
       title: The study of sub-meso scale flow regimes along the Coral Reefs of KwaZulu Natal
       level: PhD
       link: https://efml.ukzn.ac.za/calvin/
