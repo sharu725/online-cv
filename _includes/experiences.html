@@ -2,36 +2,35 @@
 {% if experiences %}
 <section class="section experiences-section">
   <h2 class="section-title">
-    <span class="fa-stack fa-xs">
+    <!-- <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ experiences.title }}
+    </span> -->
+    Experiences
   </h2>
-
-  {% for experience in experiences.info %}
+  <hr>
+  {% for experience in experiences %}
   <div class="item">
 
     <div class="meta">
 
       <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
-        <div class="time">{{ experience.time }}</div>
-      </div><!--//upper-row-->
+        <h3 class="job-title column left3">{{ experience.role }}</h3>
+        <div class="company column middle3">{{ experience.company }}</div>
+        <div class="time column right3 ">{{ experience.time }}</div> 
+        
 
-      <div class="company">{{ experience.company }}</div>
-
-    </div><!--//meta-->
+    <!--//meta-->
 
     {% if experience.details %}
-    <div class="details">
+    <div class="details ">
       {{ experience.details | markdownify }}
     </div><!--//details-->
     {% endif %}
-
-  </div><!--//item-->
+    </div>
+  </div>
   {% endfor %}
-
+</div><!--//item-->
 </section><!--//section-->
 {% endif %}
 

@@ -4,14 +4,19 @@
   <div class="education-container container-block">
 
     <h2 class="container-block-title">
-      {{ education.title }}
+      Education
     </h2>
 
-    {% for graduation in education.info %}
+    {% for graduation in education %}
     <div class="item">
       <h4 class="degree">{{ graduation.degree }}</h4>
       <h5 class="meta">{{ graduation.university }}</h5>
       <div class="time">{{ graduation.time }}</div>
+      {% if graduation.details %}
+      <h4 class="degree">
+        {{ graduation.details | markdownify }}
+      </h4><!--//details-->
+      {% endif %}
     </div><!--//item-->
     {% endfor %}
 
@@ -24,10 +29,11 @@
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
       </span>
-      {{ education.title }}
+      Education
     </h2>
+    
 
-    {% for graduation in education.info %}
+    {% for graduation in education %}
     <div class="item">
 
       <div class="meta">

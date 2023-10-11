@@ -3,30 +3,62 @@
 <section class="section publications-section">
 
   <h2 class="section-title">
-    <span class="fa-stack fa-xs">
+    <!-- <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
-    </span>
+    </span> -->
     {{ publications.title }}
   </h2>
-
+  <hr>
   {% if publications.intro %}
   <div class="intro">
     {{ publications.intro | markdownify }}
   </div><!--//intro-->
   {% endif %}
-
-  {% for publication in publications.papers %}
+  <h4>Journals</h4>
+  {% assign journals= publications.papers | where:"type":"journal" %}
+  <ol>
+  {% for publication in journals %}
   <div class="item">
     {% if publication.link %}
-      <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
+      <li class="publication-title"><a href="{{ publication.link }}" target="_blank">{{ publication.title }}</a></li>
     {% else %}
-      <li>{{ publication.title }}</li>
+      <li class="publication-title">{{ publication.title }}</li>
     {% endif %}
     <div class="publication-authors">{{ publication.authors }}</div>
     <div class="publication-conference">{{ publication.conference }}</div>
   </div><!--//item-->
   {% endfor %}
-
+  </ol>
+  <h4>Books</h4>
+  {% assign books= publications.papers | where:"type":"book" %}
+  <ol>
+  {% for book in books%}
+  <div class="item">
+    {% if book.link %}
+      <li class="publication-title"><a href="{{ book.link }}" target="_blank">{{ book.title }}</a></li>
+    {% else %}
+      <li class="publication-title">{{ book.title }}</li>
+    {% endif %}
+    <div class="publication-authors">{{ book.authors }}</div>
+    <div class="publication-conference">{{ book.conference }}</div>
+  </div><!--//item-->
+  {% endfor %}
+  </ol>
+  <h4>Other</h4>
+  {% assign others= publications.papers | where:"type":"other" %}
+  <ol>
+  {% for other in others %}
+  <div class="item">
+    {% if other.link %}
+      <li class="publication-title"><a href="{{ publication.link }}" target="_blank">{{ other.title }}</a></li>
+    {% else %}
+      <li class="publication-title">{{ other.title }}</li>
+    {% endif %}
+    <div class="publication-authors">{{ other.authors }}</div>
+    <div class="publication-conference">{{ other.conference }}</div>
+  </div><!--//item-->
+  {% endfor %}
+  </ol>
 </section><!--//section-->
 {% endif %}

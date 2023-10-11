@@ -1,0 +1,47 @@
+{% assign references = site.data.data.references %}
+{% if references %}
+<section class="section course-section">
+
+  <h2 class="section-title">
+    <!-- <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+    </span> -->
+    {{ references.title }}
+  </h2>
+  <hr>
+  {% if references.intro %}
+  <div class="intro">
+      <p>{{ references.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for reference in references.reference %}
+  <div class="item">
+    <div class="upper-row">
+      <div class="column left3 ">
+    
+      <span class="project-title">
+        {% if reference.link %}
+        <a href="{{ project.link }}" target="_blank">{{ reference.name }}</a>
+        {% else %}
+        {{ reference.name }}
+        {% endif %}
+      </span>
+
+      {% if reference.tagline %}
+      - <span class="project-tagline">{{ reference.tagline }}</span>
+      {% endif %}
+
+    </div><!--//lefft-->
+    <div class="column middle3"> {{reference.workplace}} </div>
+    <div class = "column right3"> 
+      <a href="mailto:{{ reference.email }}">{{ reference.email }}</a>
+      
+    </div>
+  </div>
+</div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

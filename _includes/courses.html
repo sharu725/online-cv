@@ -1,0 +1,54 @@
+{% assign course = site.data.data.courses %}
+{% if course %}
+<section class="section course-section">
+
+  <h2 class="section-title">
+    <!-- <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+    </span> -->
+    {{ course.title }}
+  </h2>
+  <hr>
+  {% if course.intro %}
+  <div class="intro">
+      <p>{{ course.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  <div class="project-title">  Undergraduate</div>
+  
+  {% for course in course.undergraduate %}
+  <div class="item">
+    <div class="upper-row">
+      <div class="column left">
+        
+          {% if course.link %}
+          <a href="{{ course.link }}" target="_blank">{{ course.course }}</a>
+          {% else %}
+          {{ course.course }}
+          {% endif %}
+        
+
+        {% if course.tagline %}
+        - <span class="award-tagline">{{ course.tagline }}</span>
+        {% endif %}
+
+      </div><!--//lefft-->
+      <div class = "column right"> {{course.title}}</div>
+    </div>
+  </div>
+  {% endfor %}
+  {% if course.postgraduate %}
+  <div class="project-title">  Post-Graduate</div>
+  {% for course in course.postgraduate %}
+  <div class="item">
+    <div class="upper-row">
+      <!--//lefft-->
+      <div class = "column"> {{course.title}}</div>
+    </div>
+  </div>
+  {% endfor %}
+  {% endif %}
+</section><!--//section-->
+{% endif %}
