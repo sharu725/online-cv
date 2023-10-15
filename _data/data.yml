@@ -343,11 +343,23 @@ skills:
       - name: C#
         level: 95%
 
-      - name: Typescript/Javascript
+      - name: ASM(NASM & MASM)
         level: 70%
 
       - name: Typescript/Javascript
         level: 70%
+
+      - name: PHP
+        level: 60%
+
+      - name: Rust
+        level: 60%
+
+      - name: Swift
+        level: 50%
+
+      - name: Dart(Flutter)
+        level: 50%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
