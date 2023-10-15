@@ -71,10 +71,20 @@ career-profile:
       I am a software developer with 16+ years programming experience. I
       started coding in 2006 and have finished several opensource projects independently using
       different programming languages. I also have rich backend & algorithm enginnering experience in 
-      China's top IT companies like Tencent, Alibaba, Bytedance, Netease and so on. I'm now working
-      at SEA group and responsible for the e-commerse intelligence engineering team. I love coding and 
+      China's top IT companies like 
+        - Tencent
+        - Alibaba
+        - Bytedance
+        - Netease
+
+      and so on. I'm now working at SEA group and responsible for the e-commerse intelligence engineering team. I love coding and 
       backend technologies like Cache, Storage, Message Queue and Analysis Engine. Now I'm working 
       together with my team mates to drive SEA business growth using AI technologies. 
+
+      I am also good at building new teams. I had several successful practises to build a large team(up to 110+ members)
+      from zero. Also had experience on defining the key inditors of a team, finalize the OKR and do long term planning
+      for the team.
+
 education:
     title: Education
     info:
@@ -106,151 +116,213 @@ experiences:
     title: Experiences
     info:
       - role: Manager
-        time: 2019 - Present
-        company: SEA(Garena Online Private LTD)
+        time: Oct 2019 - Present
+        company: SEA(Garena Online Private LTD), Singapore
         details: |
-          As the manager of the intelligence engineering team(100+ members), I built the whole team from zero.The team
-          include backend developers, frontend developers, App developers and QA. 
+          As the manager of the intelligence engineering team(110+ members), I built the whole team from zero.The team
+          include **backend developers**, **frontend developers**, **App developers** and **QA**. 
           Our team is supporting all the products of Shopee as well as some other products of SEA group.
-          The features include Promotion Item Search, Personalization, User Tag Intelligence, Computer Vision,
-          Listing Intelligence, Machine Translation, Audio intelligence, Identify verification(KYC) and so on.
-          WE are supporting business lines include Promotion, User, Marketing, Order, Listing, Seller... We are 
+          The features include 
+            - Promotion Item Search
+            - Recommendation(include item, voucher, banner, brands...)
+            - User Tag Intelligence
+            - Computer Vision
+            - Listing Intelligence
+            - Machine Translation
+            - Audio intelligence
+            - Identify verification(KYC)
+
+          and so on.  We are supporting business lines include **Promotion**, **User**, **Marketing**, **Order**, **Listing**, **Seller**... We are 
           improving the core indicators of e-commerce platform and the iteration efficiency of both business projects
           and technical projects.
+
+          We also developed our in-house AI infrastructors from zero. Include
+            - vector retrieval engine (based on Faiss, ScaNN and redis Search)
+            - inference framework(based on nvidia triton)
+            - feature KV middleware(kvRocks)
+            - data ingestion middleware
+            
+          We also built our own AI API gateway to manage all our team's AI services, include ACL, tenants quota management, sync & async protocol support and 3rd party AI services(like ChatGPT, Google Translation...)
+          management for the company.
+
+          > **Highlights**
             - 2022 Performance: A+(Outstanding)
             - 2021 Performance: A+(Outstanding) 
 
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+      - role: Business Architect
+        time: Api 2019 - Oct 2019
+        company: Bytedance, Shenzhen
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          I was in business architecture team under IES group of Bytedance. We built core backend services and solutions for several products include 
+          1. Douyin
+          2. TikTok
+          3. Huoshan
+          4. Live Stream
+          5. FaceU 
+          
+          My team was focusing on the efficiency direction and responsible for environment 
+          management, traffic management and tracing solutions for common used middlewares by business teams. I was leading the environment
+          management team and released non-live environments(BOE) and pre-releasing environments(like PPE) to support traffic control and businss verification
+          under different environments.
+
+          > **Highlights**
+            - Release Environment & Traffic governance for IES products
+
+      - role: Architect
+        time: Jul 2016 - Apr 2019
+        company: 58 ganji, Beijing
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          I was responsible for the DMP platform design, develop and maintaiance for e-commerce group in 58. I lead the whole team and finished
+          the 1st feature mining, store, analysis and online retrieval services in 58. And the platform was 
+          widely used in different components of our e-commerce platforms like Ads retreival(targeting), recall, ranking and creativities. I was 
+          also the team lead of the membership(VIP) system, promotion system and enterprise management system. We also built the beta version machine learning platform with 2 teammates.
+
+          > **Highlights**
+            - 3rd prize of 58 Programming Contest, 2018
+            - Feature Platform(ETL)
+
+      - role: Senior Java Engineer
+        time: Aug 2015 - Jul 2016
+        company: Alibaba, Hangzhou
+        details: |
+          I was responsible for the SCM platform development and maintaiance for TMall Supermarket, and Lirengou(俪人购). I worked on 
+          several components include purchase, item, inventory, order, return & refund. And also the core developer of the settlement
+          system of the entire SCM platform.
+
+          > **Highlights**
+            - DoD on 11.11 promotion day(2015)
+
+      - role: Development Engineer
+        time: Feb 2014 - Api 2015
+        company: Netease, Guangzhou
+        details: |
+          I am one of the core developers to develop the 1st 3d action mobile game in Netease. We used our self-developed 3d game engine to develop the core action
+          systems and also used scaleform(flash) as the game UI engine. And later we also introduced Cocos2d-X to support the 2d components and UI features. 
+          I finished several sub-systems of the game include accout, package(bag), sprite(pet), equipment, skill and so on. 
+          And I also developed several auxiliary tools to help our teammates do realtime update for the properties of 
+          the monsters and players in the game, auto-importing UI resources generated by Cocos2d-X framework solutions and so on. I ganed a lot experience 
+          in UI engine, resource optimization and annimation effects.
+
+          > **Highlights**
+            - Action Mobile Game
+
+      - role: Backend Developer
+        time: Aug 2011 - Feb 2014
+        company: Tencent, Guangzhou(fomer Wechat team)
+        details: |
+          I was responsible for the development and maintaiance work for QQ Mail. I collaborated with my teammates and developed 
+          several new features include batch operating(Select, Delete...), Star Mail, Mail Tags, Important
+          mail, Mail Calendar & Events, Ads email aggregation and so on. I also developed the email thumbnail cache service and 
+          it was used in email preview. I also develped several features for the early versions of Wechat like "Add to favourites".
+
+          > **Highlights**
+            - QQMail & Wechat
+            - Drifting bottle
+
+      
+
 
 certifications:
-      title: Certifications
+      title: Certifications & Rewards
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
+        - name: Robocup China 
+          start: 2011
+          end: 2012
+          organization: Robocup China
+          credentialid:
+          credentialurl: NA
+          credentialname: Champion of Robocup China
           details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            - Champion of Robocup China, Home Service Simulation Natual Language Group, May,  2012
+            - Champion of Robocup China, Home Service Simulation Command Language Group, Aug, 2011
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
+        - name: Programming Contest
+          start: 2006
+          end: Now
+          organization: SYSU & 58 Ganji
+          credentialid: 
+          credentialurl: NA
+          credentialname: Programming Contest & ACM
           details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            - 3rd prize of 58 Programming Contest, 2018
+            - Sun Yat-sen University ACM (Level 2), 2009-2010
+            - Sun Yat-sen University ACM (Level 2), 2008-2009
+
+
+
+        - name: Scholarship
+          start: 2006
+          end: 2012
+          organization: SYSU
+          credentialid:
+          credentialurl: NA
+          credentialname: Scholarship
+          details: |
+            - Outstanding Student Scholarship, 2011-2012
+            - Outstanding Student Scholarship (Grade 3), 2008-2009
+            - Outstanding Student Scholarship (Grade 2), 2007-2008
+            - Zeng Xianzi Outstanding Student Scholarship 2006-2007
+            - Outstanding Student Scholarship (Grade 1), 2006-2007
 
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+     Here are some of my opensource projects that I'd like to share. These projects include RPC frameworks, HTTP servers, 
+     Desktop applications, mobile applications and so on. They are implemented by different programming languages include C/C++, 
+     C#, Python, Java, Golang, JS/TS...
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: sharpsvr
+        link: "https://github.com/caipengyang/sharpsvr"
+        tagline: "A C# RPC framework for distirbuted systems. The 1st batch of C# RPC framework for dotnet Core"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: sharpems
+        link: "https://github.com/caipengyang/sharpems"
+        tagline: "A Smart electical tools management platform written in C#"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: sweet-bear
+        link: "https://github.com/caipengyang/sweet-bear"
+        tagline: "An Android PDF editing APP  written in Java"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: woba
+        link: "https://gitlab.com/caipengyang/woba"
+        tagline: "A community website for Singaporeans."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: esvr
+        link: "https://gitee.com/caipengyang/esvr"
+        tagline: "A cross-platform high-performance http server written in C++(c++11). Using lua as the script language to develop web applications"
 
 oss:
     title: OSS Contributions
     intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Here are some of my contributions to the opensource platform
     contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: About Box(Linux Lite)
+        link: "https://github.com/caipengyang/about-box"
+        tagline: "I contacted to the maintainer of linux lite and contributed to the about box tool(using PyGTK) for it."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Github
+        link: "https://github.com/caipengyang"
+        tagline: "My github home page."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Gitlab
+        link: "https://gitlab.com/caipengyang"
+        tagline: "My gitlab home page"
+
+      - title: Gitee
+        link: "https://gitee.com/caipengyang"
+        tagline: "My Gitee home page"
+
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      So of my important publications.
     papers:
-      - title: The Art of Computer Programming
+      - title: TBD 
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        authors: TBD
+        conference: TBD
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
