@@ -2,6 +2,7 @@
 # Be aware that even a small syntax error here can lead to failures in output.
 #
 
+
 sidebar:
     position: right # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
