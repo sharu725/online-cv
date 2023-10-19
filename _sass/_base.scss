@@ -178,6 +178,7 @@ p {
   }
 
   .experiences-section,
+  .recommendations-section,
   .educations-section {
     .item {
       margin-bottom: 30px;
@@ -191,6 +192,7 @@ p {
     display: flex;
   }
   .job-title,
+  .recommendation
   .degree,
   .cert-title{
     color: $text-color;

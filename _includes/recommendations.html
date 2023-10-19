@@ -1,0 +1,33 @@
+{% assign recommendations = site.data.data.recommendations %}
+{% if recommendations %}
+<section class="section recommendations-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ recommendations.title }}
+  </h2>
+
+  {% for recommendation in recommendations.list %}
+  <div class="item">
+
+    <div class="meta">
+
+      <div class="upper-row">
+        <h3 class="recommendation">{{ recommendation.person }}</h3>
+      </div><!--//upper-row-->
+    </div><!--//meta-->
+
+    {% if recommendation.recommendation %}
+    <div class="details">
+      {{ recommendation.recommendation | markdownify }}
+    </div><!--//details-->
+    {% endif %}
+
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
+
