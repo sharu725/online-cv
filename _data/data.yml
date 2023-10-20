@@ -265,6 +265,8 @@ recommendations:
     title: Recommendations
     list:
       - person: p4irin
+        contact: "phone:012 345 6789, email:p4irin@example.com"
+        role: General Director at example.com     
         recommendation: |
           sharu725 is a super employee!
 
