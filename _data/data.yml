@@ -63,25 +63,21 @@ skills:
 
     toolset:
 
-      - name: Python
-        # details: Python, C++, Matlab, ...
+      - name: Programming
+        details: Python, C++, Matlab, ...
+        level: 90%
+      
+      - name: Software development
+        details: CI/CD, docker, Github Actions, ...
         level: 90%
 
-      - name: Data science 
-        details: Numpy, Pandas, ...
+      - name: Data science
+        details: Numpy, Pandas,  ...
         level: 70%
 
-      - name: Machine learning 
+      - name: Machine learning algorithms
         details: Decision trees, KNN, ...
-        level: 80%
-     
-
-      - name: Cloud computing 
-        details: GCP, AWS, ... 
-        level: 60%
-
-      - name: Statistics &amp; Probability 
-        level: 60%
+        level: 70%
 
 
 experiences:
@@ -89,28 +85,23 @@ experiences:
       time: 2023 - Present
       company: Ansys Inc
       details: |
-          - Main maintainer of [PyMAPDL](https://github.com/pyansys/pymapdl) library, an open source Python interface to Ansys MAPDL structural solvers.
-          - Maintainer of MAPDL solver docker image
-          - Design and development of an application with graphic user interface for data analysis of microscope images.  
-          - Processing health image big data using own algorithms. Development of our database.
+          - Main maintainer of [PyMAPDL](https://github.com/ansys/pymapdl) library, an open source Python interface to Ansys MAPDL structural solvers.
+          - Co-owner of [Ansys github enterprise organization](https://github.com/ansys)
+          - Co-maintainer of [MAPDL solver ubuntu docker image](https://github.com/ansys/pymapdl/pkgs/container/pymapdl%2Fmapdl/74268714?tag=v22.2-ubuntu)
+          - Contributor to MAPDL solver and gRPC interface
+          - Mentoring new employees
+          - Supporting customer engagements.
 
     - role: Research and Development Engineer II
       time: 2021 - 2022
       company: Ansys Inc
       details: |
-          - 
+          - Contributor to [PyMAPDL](https://github.com/pyansys/pymapdl) library.
+          - Supporting other Ansys libraries [ansys/actions](https://github.com/ansys/actions), [ansys-tools-path](https://github.com/ansys/ansys-tools-path), [ansys-sphinx-theme](https://github.com/ansys/ansys-sphinx-theme), etc
+          - Supporting the technological transformation of business units. Implementing code best-practices.
 
     - role: Research Officer in Data Science
       time: 2020 - 2021
-      company: Medical School, Swansea University, Swansea, UK
-      details: |
-          - Application of machine learning algorithms (clustering and deep learning techniques) to detect abnormal behaviour in real cardiac cells optical data and fluorescent calcium measurements. Application to commercial business case. 
-          - Image processing for data extraction. Application of machine learning techniques to extract data features. 
-          - Design and development of an application with graphic user interface for data analysis of microscope images.  
-          - Processing health image big data using own algorithms. Development of our database.
-
-    - role: Research Officer in Data Science
-      time: 2020 - Present
       company: Medical School, Swansea University, Swansea, UK
       details: |
           - Application of machine learning algorithms (clustering and deep learning techniques) to detect abnormal behaviour in real cardiac cells optical data and fluorescent calcium measurements. Application to commercial business case. 
