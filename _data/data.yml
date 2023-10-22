@@ -69,6 +69,8 @@ career-profile:
       Following my passion, I would like to accomplish bigger challenges in my career. 
 
 experiences:
+    title: Experiences
+    info:
     - role: Research Officer in Data Science
       time: 2020 - Present
       company: Medical School, Swansea University, Swansea, UK
@@ -103,7 +105,6 @@ projects:
     title: Data Science Projects
     intro: A (small) list of projects, repositories and/or ideas I am involved in.
     assignments:
-
       - title: Machine learning for damage detection
         link: "https://github.com/germa89/Machine_Learning_for_damage_detection_in_rolling_bearings"
         tagline: "Machine learning algorithms such as Principal Component Analysis (PCA) and Gaussian Mixture Models (GMM) 
@@ -173,6 +174,8 @@ publications:
       #   conference: #Addison-Wesley, 1968
       
 education:
+    title: Education
+    info:
     - degree: PhD in Civil Engineering
       university: Swansea University
       time: 2015 - 2019
