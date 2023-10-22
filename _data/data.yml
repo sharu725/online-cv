@@ -63,7 +63,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I'm a software enginner with extensive experience in python programming, software development, and continous integrations-continous deployment.
+      I'm a software enginner with extensive experience in python programming, software development, and continous integrations-continous deployment (CI/CD).
       Experienced with AI and machine learning, I have applied different machine learning algorithms such as KNN neighbours 
       I also posses a PhD in Civil Engineering from Swansea University in materials modelling using finite elements method.
 
@@ -135,7 +135,7 @@ experiences:
       details: |
           - Application of techniques from the domain of data science such as data pre-processing, neural networks and multi constraint optimisation to reduce costs in steel manufacturing industry. 
           - Developed an addon in Python and JavaScript for a commercial finite element software ANSYS. This addon integrates in the interface of ANSYS application and perform operations to simplify continuum mechanics calculations.
-          - Developed Python scripts to collect and analyse large data sets from files, websites, etc.
+          - Developed Python scripts to collect and analyse large data sets from internal company website to analyse machinery performance and propose optimisations.
           - Developed numerical models to improve manufacturing processes in the industry. The processes range from material behaviour prediction to optimisation of properties such as geometry, elastic properties, viscosity, etc.
 
     - role: Research Assistant
