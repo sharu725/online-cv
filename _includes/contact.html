@@ -13,6 +13,24 @@
     </li>
     {% endif %}
 
+    {% if sidebar.citizenship %}
+    <li class="phone"><i class="fas fa-passport"></i>
+      <a href="">{{ sidebar.citizenship }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.timezone %}
+    <li class="timezone"><i class="fas fa-clock"></i>
+      <a href="">{{ sidebar.timezone }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.telegram %}
+    <li class="telegram"><i class="fab fa-telegram"></i>
+      <a href="https://t.me/{{ sidebar.telegram }}" target="_blank">{{ sidebar.telegram }}</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.website %}
     <li class="website"><i class="fas fa-globe-americas"></i>
       <a href="http://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
@@ -22,6 +40,12 @@
     {% if sidebar.linkedin %}
     <li class="linkedin"><i class="fab fa-linkedin"></i>
       <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.xing %}
+    <li class="xing"><i class="fab fa-xing"></i>
+      <a href="https://www.xing.com/profile/{{ sidebar.xing }}" target="_blank">{{ sidebar.xing }}</a>
     </li>
     {% endif %}
 
@@ -64,6 +88,12 @@
     {% if sidebar.goodreads %}
     <li class="goodreads-g"><i class="fab fa-goodreads-g"></i>
       <a href="https://www.goodreads.com/user/show/{{ sidebar.goodreads }}" target="_blank">{{ sidebar.goodreads }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.pdf %}
+    <li class="pdf"><i class="fas fa-file-pdf"></i>
+      <a href="{{ sidebar.pdf }}" target="_blank">Resume PDF</a>
     </li>
     {% endif %}
 

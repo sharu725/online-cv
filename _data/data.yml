@@ -3,6 +3,7 @@
 #
 
 sidebar:
+    position: right # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: False # set to False if you want education in main section instead of in sidebar
 
@@ -12,19 +13,25 @@ sidebar:
     avatar: ger3.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
+
     email: germanmartinezayuso@gmail.com
     # phone: +34 662 065 125
     website: germa89.github.io #blog.webjeda.com #do not add http://
     linkedin: gmartinezayuso
     github: germa89
+    telegram: germa89
+
     gitlab:
     bitbucket:
     twitter: #'@germa89'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
+      title: Languages
+      info:
       - idiom: English
         level: Bilingual
 
@@ -38,6 +45,8 @@ sidebar:
       #   level: Beginner
 
     interests:
+      title: Interests
+      info:
       - item: Running
         link:
 
@@ -49,6 +58,7 @@ sidebar:
 
       - item: Reading novels
         link:
+
 
 career-profile:
     title: Career Profile
