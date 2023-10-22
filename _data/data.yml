@@ -78,7 +78,7 @@ skills:
         level: 90%
       
       - name: Software development
-        details: CI/CD, docker, Github Actions, ...
+        details: CI/CD, docker, OOP, APIs, ...
         level: 90%
 
       - name: Data science
