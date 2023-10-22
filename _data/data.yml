@@ -91,6 +91,8 @@ skills:
 
 
 experiences:
+    title: Experiences
+    info:
     - role: Senior R&D Engineer
       time: 2023 - Present
       company: Ansys Inc
@@ -147,7 +149,6 @@ projects:
     title: Data Science Projects
     intro: A (small) list of projects, repositories and/or ideas I am involved in.
     assignments:
-
       - title: Machine learning for damage detection
         link: "https://github.com/germa89/Machine_Learning_for_damage_detection_in_rolling_bearings"
         tagline: "Machine learning algorithms such as Principal Component Analysis (PCA) and Gaussian Mixture Models (GMM) 
@@ -183,6 +184,8 @@ projects:
 #       #   conference: #Addison-Wesley, 1968
       
 education:
+    title: Education
+    info:
     - degree: PhD in Civil Engineering
       university: Swansea University
       time: 2015 - 2019
