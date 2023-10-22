@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  jekyll:
+    container_name: online-cv
+    image: jekyll/jekyll:4.0
+    command: jekyll serve --watch --force_polling --verbose --livereload --host 0.0.0.0
+    volumes:
+      - .:/srv/jekyll
+    ports:
+      - 4000:4000
