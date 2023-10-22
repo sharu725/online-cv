@@ -8,12 +8,12 @@ sidebar:
 
     # Profile information
     name: Dr Germ&aacute;n Mart&iacute;nez-Ayuso
-    tagline: PhD, Data Scientist - Data Analyst
+    tagline: PhD, Software Engineer
     avatar: ger2.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: germanmartinezayuso@gmail.com
-    phone: +44 (0) 7784 284149
+    # phone: +34 662 065 125
     website: germa89.github.io #blog.webjeda.com #do not add http://
     linkedin: gmartinezayuso
     github: germa89
@@ -34,8 +34,8 @@ sidebar:
       - idiom: French
         level: Beginner
 
-      - idiom: Arabic
-        level: Beginner
+      # - idiom: Arabic
+      #   level: Beginner
 
     interests:
       - item: Running
@@ -47,15 +47,14 @@ sidebar:
       - item: Gym 
         link:
 
-      - item: Reading 
+      - item: Reading novels
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      I'm a data scientist with extensive experience in modelling, programming and numerical methods. 
-      My passion for programming leads me to develop machine learning-based solutions for companies and universities. 
-      Following my passion, I would like to accomplish bigger challenges in my career. 
+      I'm a software enginner with extensive experience in python programming, software development, and continous integrations-continous deployment.
+      I also posses a PhD in Civil Engineering from Swansea University in materials modelling using finite elements method.
 
 experiences:
     - role: Research Officer in Data Science
