@@ -8,4 +8,4 @@ services:
     volumes:
       - .:/srv/jekyll
     ports:
-      - 4000:4000
+      - 4400:4000

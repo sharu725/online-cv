@@ -3,173 +3,157 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
+    position: left # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Alessandro Lollo
+    tagline: Data Engineering Manager
+    avatar: ale.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: alessandro.lollo@gmail.com
+    #phone: 012 345 6789
+    timezone: Europe/Rome
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
+    #website: blog.webjeda.com #do not add http://
+    linkedin: AlessandroLollo
+    github: AlessandroLollo
+    twitter: '@ale_lollo87'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    #codewars:
+    #goodreads: # Number-Username, e.g. 123456-alandoe
+    #pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Italian
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
+        - idiom: English
           level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
+        - item: Music
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      10+ years experience in Data Engineering, BI & Analytics.
+      I use data, technology and modern approaches to help businesses
+      make better, data-driven decisions.
+      Eager to learn, grow and help others growing.
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: BSc in Computer Science
+        university: Università degli studi di Padova
+        time: 2006 - 2009
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
+          TODO
             - Bullet point
             - Bullet point
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Data Engineering Manager
+        time: 2020 - Present
+        company: Cloud Academy
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Built from scratch, lead and mentor the Data Engineering Team.
+
+          I've lead and implemented the Data Engineering infrastructure
+          to ingest, process, and transform data coming from several sources
+          that are being used to serve analytics to both internal stakeholders
+          and enterprise customers.
+
+          I've defined best practices and lead initiatives with regards to:
+          - Data Lake/DWH design and implementation.
+          - Dimensional modeling.Data pipelines design and implementation.
+          - Dashboard design and implementation.
+          - Design and implementation of the headless BI platform to serve
+            enterprise clients data needs.
+          - Management of data needs coming from both internal stakeholders
+            and enterprise clients.
+          
+          I've been working with the Engineering, Product, and Content Teams
+          to help them identifying the most appropriate KPIs to track how
+          users are using product features and how they consume the content
+          we create for them.
+          In this context, I've been leading several initiatives about:
+          - Business requirements collection.
+          - Data source selection.
+          - KPI definition.
+
+      - role: Data Governance Manager
+        time: 2018 - 2020
+        company: Cuebiq
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          I have established Data Governance policies to improve the
+          corporate data management strategy.
+
+          I established and led the Data Quality team which was in charge,
+          together with Product Data Owners, for the definition,
+          implementation and monitoring of Data Quality indicators to help
+          the Product team to better understand and manage the quality of
+          several data products.
+          I've worked and led the technical implementation and deployment of
+          the following solutions:
+           - a Data Catalog, which was being used by 150+ people to find
+             information and metadata about the datasets they need to do their job.
+           - a corporate Data Warehouse, which was being used as the single
+             source of truth for certified, high quality and trusted data used to analyze and monitor company performances.
+
+      - role: Chied Data Officer
+        time: 2017 - 2018
+        company: Linear Assicurazioni
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          I led the Data Center & Business Intelligence Team which was in
+          charge of the development, implementation and maintenance of data
+          analytics solutions used for monitoring company performances,
+          with a focus on revenues generated by car and life insurance
+          subscribers.
+
+          I worked together with the Head of IT Department,
+          the General Manager and the senior management to develop
+          the company long-term data strategy.
+
+      - role: Senior Solution Designer & Analyst
+        time: 2013 - 2017
+        company: IConsulting
+        details: |
+          I was responsible for the design, implementation and optimization
+          of Business Analytics solutions for a variety of customers including
+          multinational holdings, banks, B2C and B2B, fashion.
+
+          As a Tech Team Leader I focused on the technical side of projects
+          such as the design and implementation of ETL and BI solutions and
+          the management of the development team.
+
+          I've also worked on business facing activities, like functional
+          analysis, business requirements definitions and UATs.
+
+          I regularly held tech training for both my team members and customers.
 
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
+        - name: TODO
+          start: TODO
+          end: TODO
+          organization: TODO
+          credentialid: TODO
+          credentialurl: TODO
+          credentialname: TODO
           details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            TODO
 
 projects:
     title: Projects
