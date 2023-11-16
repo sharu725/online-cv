@@ -8,23 +8,23 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Luke Dobson
+    tagline: IT 2nd Line Support
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: dobson990@gmail.com
+    phone: 07950989065
+    timezone: 
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    website: cybersh4d0w.github.io/online-cv/ #do not add http://
+    linkedin: luke-dobson-191b94128
+    xing: 
+    github: CyberSh4d0w
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -36,19 +36,13 @@ sidebar:
         - idiom: English
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
-
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Coding
           link:
 
-        - item: Snowboarding
+        - item: Gaming
           link:
 
         - item: Cooking
@@ -57,12 +51,14 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      As a dedicated and experienced IT professional, I bring a unique blend ofd skills and attributes shaped by over 6 years of service in the British Army and a progressive career in IT, spanning first-line and second-line support roles. I am conscientious, adaptable, and friendly, committed to teamwork and individual excellence. My ability to work effectively both independently and as part of a team is complemented by my excellent communication skills.
+
+      My career in IT support has been marked by a continuous pursuit of professional development, through ongoing training and reflective practice. I pride myself on punctuality and reliability, as evidenced by my exceptional attendance and sickness record. My time in the British Army has instilled a sense of discipline and a capacity to thrive in challenging environments. This background has been instrumental in developing my ability to meet tight deadlines, work to high standards, and resolve problems with calm efficiency.
+
+      In my roles in first-line and second-line IT support, I have honed my problem-solving skills and technical knowledge. My experience ranges from providing immediate, user-facing support in a first-line capacity to tackling more complex technical challenges in a second-line role. I have a proven track record of collaborating with teams to implement effective solutions, manage critical IT infrastructure, and ensure seamless IT operations. My approach to IT support is always user-centric, aiming to provide the highest level of service and support to all stakeholders.
+
+      My career journey has been one of continual learning and adaptation, always seeking to align my skills with the evolving demands of the IT industry. I am eager to bring my blend of military discipline, technical expertise, and team-oriented mindset to a challenging and dynamic new role.
+
 education:
     title: Education
     info:
@@ -90,45 +86,92 @@ education:
             - Bullet point
 
 experiences:
-    title: Experiences
+    title: Professional Experience
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: IT 2nd Line Support
+        time: November 2021 – Present
+        company: SSB Law
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          - 1st/2nd line ICT support for users of equipment such as Desktops/Laptops/Phones (For various companies across the business. This includes telephone advice, face-to-face help, and remote IT support.
+          
+          - Managed critical incidents, ensuring timely resolution and minimal business impact.
+
+          - Administered and optimized VMware environments, enhancing virtualization efficiency and reducing hardware costs.
+            
+          - Managed Cisco network switches, implementing VLANs and optimizing network traffic for organizational needs.
+
+          - Maintained and upgraded Dell Storage Area Network (SAN) infrastructure, ensuring high availability and performance.
+
+          - Successfully resolved escalated technical issues, including complex VMware and network problems.
+
+          - Oversaw Remote Desktop Services (RDS) deployment and management, improving remote workforce support and productivity.
+
+          - Managed Veeam backup solutions, ensuring reliable data recovery and business continuity.
+
+          - Collaborated with the development/projects team, providing creative PowerShell scripting solutions to automate tasks and streamline processes.
+
+          - Designed and implemented Group Policy Objects (GPOs) for network security and configuration management, enhancing system compliance and user environment control.
+
+          - Troubleshoot complex issues related to Office 365, including SharePoint online, User access problems, Exchange Online, and Defender for Endpoint, ensuring timely and effective resolution.
+
+          - Implemented and maintained Microsoft Defender for Endpoint, providing advanced threat protection, security management, and ensuring the integrity and safety of end-user devices.
+  
+      - role: ICT Technician
+        time: April 2018 – November 2021
+        company: One Call Group
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+            - 1st/2nd line ICT support for users of equipment such as Desktops/Laptops/Tablets/Phones (For various companies across the group. This includes telephone advice, face to face help and remote IT support.
+            
+            - Built, maintained, and deployed Laptops and Desktops to a high standard and imaged them using WDS (Windows Deployment Services).
+              
+            - Use of Sophos Anti-Virus and Web Filter Systems. 
+
+            - Managing and maintaining Cisco and 3cx Phone systems to a high standard and creation of phone scripts with customer facing queues to enable clients to reach the department they need with ease. 
+
+            - Use of VMware to manage and build various servers and maintain and fault find on those systems. 
+              During the lockdown period, I assisted in the rapid deployment of various equipment to our staff to enable the company to carry on working from home and providing excellent customer service. Provided remote IT support and problem-solving support at this time.
+
+            - Use of Veeam Backup and Replication to recover files and whole servers if necessary, in the event of servers going down. 
+
+            - Recently the company experienced a major cyberattack (ransomware) and I was part of the team that worked, alongside the police and cybersecurity experts to get the company's systems up and running as quickly as possible. 
+              We worked many overtime hours including night shifts to ensure disruption was kept to a minimum. The team received personal thanks from the Directors along with a bonus.
+
+            - Using and improving all the skills I have listed at my time at Amefa.
+
+            - Use of the OTRS and Jira Service Desk’s to meet SLA’s and provide helpdesk support to over 600 members of staff across the group. 
+            
+
+      - role: ICT Technician 
+        time: April 2017 – April 2018
+        company: Amefa UK
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+            - 1st/2nd line IT support for users of equipment such as Desktops/Laptops/Tablets. (For Various Locations including China, Hong Kong, Netherlands, Germany and the UK)
+            
+            - Built, maintained, deployed, and repaired Laptops/Desktops to a high standard in line with company requirements.
+
+            - Investigated and problem solved technical issues.
+
+            - Deployed and setup POS Systems and PDQ devices to retail outlets.
+
+            - Experience on Server 2003/2008/2012 – Active Directory Services, Active Directory Group Policy Objects (GPO), Group Policy Management Console (GPMC), Task Scheduler.
+
+            - Used various types of backup software such as Microsoft Azure, Microsoft Windows Backup, Veeam Backup and Replication (one of my daily duties was to ensure that all sites had successful backups logged in case disaster recovery was needed).
+            
+            - Used a helpdesk system and prioritized and managed work in a timely manner.   
+
+            - Maintaining Asset lists of all the IT equipment/software licenses that the company owns and purchases. 
+           
+           - Use of the Office 365 admin portal to manage user licenses and basic use of the online exchange. 
+
+           - Communicated and escalated effectively and professionally with 3rd party company’s when required.
+
+           - Use of Microsoft Office Products Such as Office 365,2010,2016 and Skype for Business. 
+
+           - Use of Kaspersky Endpoint Security 10 to monitor and protect servers and other devices that the company uses. 
+
+           - Involved in major projects in the business such as a CRM project and was a project lead on introducing a new scanner system to the warehouse this helped warehouse staff manage and pick stock more accurately and efficiently. 
+
+           - Due to financial difficulties of the company I was made redundant from the post. I received notification of this on 29/03/2018.
 
 certifications:
       title: Certifications
@@ -197,47 +240,6 @@ projects:
       - title: Delta
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
