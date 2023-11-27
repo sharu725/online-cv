@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Anton Björkman
-    tagline: Integration Devloper
+    tagline: Integration Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -17,10 +17,10 @@ sidebar:
     phone: 070 947 89 31
     timezone: America/Cancun Timezone
     citizenship: Sweden
-    website: blog.webjeda.com #do not add http://
+    website: antonidag.github.io/myblog/ #do not add http://
     linkedin: alandoe
     xing:
-    github: antonidag
+    github: anton-björkman-447a1a1b1
     telegram: 
     gitlab:
     bitbucket:
@@ -54,18 +54,15 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am an integration developer with experience working with Azure and DigitalOcean. My technical expertise includes C# .Net, JavaScript, TypeScript, and SQL, with proficiency in both relational and document databases. 
+      As a self-motivated and attentive team player, I approach challenges in a structured and efficient manner and strive to continually learn and grow as a professional. I believe in the power of collaboration and teamwork to achieve success.
+      Whether working on a solo project or as part of a larger team, I am always looking for ways to deliver top-quality results to my clients and colleagues.
 education:
     title: Education
     info:
       - degree: BSc in Computer Science
         university: Malmö University
-        time: 2014 - 2011
+        time: 2014 - 2019
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -76,86 +73,41 @@ education:
             - Bullet point
 
 experiences:
-    title: Experiences
+    title: Experience
     info:
       - role: Integration Developer
-        time: 2022 - Present
-        company: Epical, Sweden Malmö
+        time: Sep 2022 - Present
+        company: Epical, Malmö Sweden
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+          Working as an Integration Developer focusing on Microsoft Azure Integration Services.
       - role: Integration Specialist
-        time: 2014 - 2015
-        company: Stioo, Sweden Stockholm
+        time: Aug 2021 - Sep 2022
+        company: Stioo, Stockholm Sweden
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
+          Design and development of custom P2P integrations from POS (Point-Of-Sale) to ERP systems. Data formats would include JSON and Flat Files. Set up CI/CD using GitLab to deploy, running the instance using Docker.
+      - role: Technical Specialist
+        time: Jan 2021 - Aug 2012
+        company: inriver, Malmö Sweden
+        details: |
+          Develop and maintaining an internal tool used for migrating customers from inriver onPrem to inriver Cloud. Data formats include JSON, and Flat files. Using Microsoft DevOps for versioning and deployment. Supporting several migrations projects in parallel, configuring and making custom adjustments to make a successful migration.
+      - role: Technical Consultant
+        time: Jan 2021 - Aug 2012
         company: Amazon, London
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
+          Develop and maintaining several Exports applications and customized solutions. Configuring SFTP imports and mapping data. 
+          Being a part of pre-sales process and consulting customers in the APSIS Web Services.
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
+        - name: 'Microsoft Certified: Azure Fundamentals'
+          start: 2022
+          end: 2023
           organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
+          credentialid: 
+          credentialurl: https://www.credly.com/badges/c1eb362e-22d3-4c91-9ade-6de8c0e26fb3/linked_in_profile
+          credentialname: Microsoft
           details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            Earners of the Azure Fundamentals certification have demonstrated foundational level knowledge of cloud services and how those services are provided with Microsoft Azure.
 
 projects:
     title: Projects
@@ -184,25 +136,6 @@ projects:
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
 publications:
     title: Publications
     intro: |
@@ -212,40 +145,20 @@ publications:
     papers:
       - title: The Art of Computer Programming
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        authors: Anton Björkman
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: C# .NET
         level: 98%
 
       - name: Javascript
         level: 98%
 
-      - name: Angular
-        level: 98%
+      - name: Git
+        level: 90%
 
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: Docker
+        level: 70%

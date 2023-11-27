@@ -11,7 +11,7 @@ This project is my CV / Resume site.
 
 ## Stack
 - Github Pages for hosting
-- forked repo from[Online-cv](https://github.com/sharu725/online-cv)
+- forked repo from [Online-cv](https://github.com/sharu725/online-cv)
 
 ## Getting Started
 ### Prerequisites
