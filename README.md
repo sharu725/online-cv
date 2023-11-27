@@ -16,7 +16,8 @@ This project is my CV / Resume site.
 Once installed, to create new site and run it locally
 ```sh
 docker-compose up
-```p
+```
+
 ### Edit CV
 Edit:
 _data/data.yml
