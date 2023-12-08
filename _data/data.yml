@@ -13,10 +13,11 @@ sidebar:
 
     # Sidebar links
     email: yao.wang@vis.uni-stuttgart.de
-    phone: 0172 5388 764
+    phone: +49 0172 5388 764
     timezone: CET
+    address: Stuttgart, Germany
     citizenship: China
-    website: https://perceptualui.org/people/wang/ #do not add http://
+    website: perceptualui.org/people/wang/ #do not add http://
     linkedin: yao-wang-a93ab9217
     xing: Yao_Wang090809
     github: marcwong
@@ -54,23 +55,22 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-       I am a PhD student at University of Stuttgart. I am working on visual attention modelling for optimization of information visualizations. 
-       My expected graduation time will be September 2024. I am open to research and software development positions in industry. 
+       I am a PhD student at University of Stuttgart since September 2020, and expected to graduate in September-December 2024. I am open to research and software development positions in industry, ideally in Germany.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Software and Technology
+      - degree: M.Sc. in Computer Software and Technology
         university: Peking University
         time: 2017 - 2020
         details: |
             - GPA: 3.50 / 4.0
-            - relevant courses: Image and Video Based 3D Reconstruction, Computational Vision, Advanced Graphics Computing, Technique and Application of Deep Learning, Human Computer Interaction: Theory and Techniques
-      - degree: BSc in Intelligence Science and Technology
+            - key courses: Image and Video Based 3D Reconstruction, Computational Vision, Advanced Graphics Computing, Technique and Application of Deep Learning, Human Computer Interaction: Theory and Techniques
+      - degree: B.Sc. in Intelligence Science and Technology
         university: Peking University
         time: 2013 - 2017
         details: |
             - GPA: 3.34 / 4.0
-            - relevant courses: Introduction to Pattern Recognition, Digital Image Processing, Algorithm Design and Analysis, Introduction to Computer Systems, Data Structures and Algorithms, Set and Graph Theory, Web Software Technology
+            - key courses: Data Structures and Algorithms, Algorithm Design and Analysis, Introduction to Computer Systems, Introduction to Pattern Recognition, Digital Image Processing, Set and Graph Theory, Web Software Technology
 experiences:
     title: Experiences
     info:
@@ -106,52 +106,56 @@ experiences:
 publications:
     title: Publications
     intro: |
-      See my <a href="https://scholar.google.com/citations?user=X8je0QsAAAAJ">Google Scholar</a> page for full publication list.
+      See my <a href="https://scholar.google.com/citations?user=X8je0QsAAAAJ">Google Scholar</a> page for full publication list. <br>
+      §: Equal contribution.
     papers:
       - title: "VisRecall: Quantifying Information Visualisation Recallability via Question Answering"
         link: "https://arxiv.org/pdf/2112.15217.pdf"
-        authors: Y. Wang, C. Jiao, M. Bâce, A. Bulling,
+        authors: <b>Y. Wang</b>, C. Jiao, M. Bâce, A. Bulling
         conference: "IEEE Transactions on Visualization and Computer Graphics (TVCG), vol. 28, no. 12, pp. 4995-5005, 1 Dec. 2022"
 
       - title: "Scanpath Prediction on Information Visualisations"
         link: "https://arxiv.org/pdf/2112.02340.pdf"
-        authors: Y. Wang, M. Bâce, A. Bulling.
+        authors: <b>Y. Wang</b>, M. Bâce, A. Bulling
         conference: "IEEE Transactions on Visualization and Computer Graphics (TVCG), early access, pp. 1-13, 6 Feb. 2023"
 
       - title: Impact of Gaze Uncertainty on AOIs in Information Visualisations
         link: "https://dl.acm.org/doi/10.1145/3517031.3531166"
-        authors: Y. Wang, M. Koch, M. Bâce, D. Weiskopf, A. Bulling
+        authors: <b>Y. Wang§</b>, M. Koch§, M. Bâce, D. Weiskopf, A. Bulling
         conference: "2022 Symposium on Eye Tracking Research and Applications (ETRA), No. 60, pp. 1-6"
 
       - title: Semantic 3D Reconstruction with Learning MVS and 2D Segmentation of Aerial Images
-        link: "https://dl.acm.org/doi/10.1145/3517031.3531166"
-        authors: Z. Wei, Y. Wang, H. Yi, Y. Chen, G. Wang
+        link: "https://www.mdpi.com/2076-3417/10/4/1275"
+        authors: Z. Wei§, <b>Y. Wang§</b>, H. Yi, Y. Chen, G. Wang
         conference: "Applied Sciences, 10(4), pp. 1275, 2020"
 
-      - title: Large-scale structure from motion with semantic constraints of aerial images
-        link: "https://dl.acm.org/doi/10.1145/3517031.3531166"
-        authors: Y. Chen, Y. Wang, P. Lu, Y. Chen, G. Wang
+      - title: Large-scale Structure from Motion with Semantic Constraints of Aerial Images
+        link: "https://link.springer.com/chapter/10.1007/978-3-030-03398-9_30"
+        authors: Y. Chen§, <b>Y. Wang§</b>, P. Lu, Y. Chen, G. Wang
         conference: "Chinese Conference on Pattern Recognition and Computer Vision (PRCV), 2018: 347-359"
 
       - title: Sobel Heuristic Kernel for Aerial Semantic Segmentation
-        link: "https://dl.acm.org/doi/10.1145/3517031.3531166"
-        authors: T. Hu, Y. Wang, Y. Chen, P. Lu, H.Wang, G. Wang
+        link: "https://ieeexplore.ieee.org/document/8451170"
+        authors: T. Hu, <b>Y. Wang</b>, Y. Chen, P. Lu, H.Wang, G. Wang
         conference: "25th IEEE International Conference on Image Processing (ICIP), 2018: 3074-3078"
 
 skills:
     knowledgetitle: Knowledge Bases
     title: Programming Languages
     knowledgeset:
-      - name: Deep Learning
+      - name: Eye Tracking
         level: 98%
 
-      - name: Eye Tracking
+      - name: Deep Learning
         level: 95%
 
       - name: Computer Vision
-        level: 85%
+        level: 90%
 
       - name: Human Computer Interaction
+        level: 85%
+
+      - name: Information Visualization
         level: 85%
 
       - name: Natural Language Processing

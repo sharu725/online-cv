@@ -13,15 +13,21 @@
     </li>
     {% endif %}
 
+    {% if sidebar.address %}
+    <li class="phone"><i class="fas fa-address-book"></i>
+      <a href="https://maps.app.goo.gl/1oDusdfJLm5tq7xe8">{{ sidebar.address }}</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.citizenship %}
     <li class="phone"><i class="fas fa-passport"></i>
-      <a href="">{{ sidebar.citizenship }}</a>
+      {{ sidebar.citizenship }}
     </li>
     {% endif %}
 
     {% if sidebar.timezone %}
     <li class="timezone"><i class="fas fa-clock"></i>
-      <a href="">{{ sidebar.timezone }}</a>
+      <a href="https://time.is/Germany">{{ sidebar.timezone }}</a>
     </li>
     {% endif %}
 
