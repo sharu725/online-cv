@@ -3,218 +3,177 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Yao Wang
+    tagline: PhD Student
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    email: yao.wang@vis.uni-stuttgart.de
+    phone: 0172 5388 764
+    timezone: CET
+    citizenship: China
+    website: https://perceptualui.org/people/wang/ #do not add http://
+    linkedin: yao-wang-a93ab9217
+    xing: Yao_Wang090809
+    github: marcwong
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@Marc_Y_Wang'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: Curriculum_Vitae.pdf
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Chinese
           level: Native
 
-        - idiom: French
+        - idiom: English
           level: Professional
 
-        - idiom: Spanish
-          level: Professional
+        - idiom: German
+          level: B1/B2
 
     interests:
       title: Interests
       info:
-        - item: Climbing
-          link:
+        - item: Billiard Player@BC_Feuersee
+          link: https://billard-bvbw.de/verein-mitglied-statistiken.php?p=999--2023/2024-2496--368109
 
-        - item: Snowboarding
-          link:
+        - item: Drummer
+          link: https://www.bilibili.com/video/BV1954y1a7U6/?spm_id_from=333.337.search-card.all.click 
 
-        - item: Cooking
-          link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+       I am a PhD student at University of Stuttgart. I am working on visual attention modelling for optimization of information visualizations. 
+       My expected graduation time will be September 2024. I am open to research and software development positions in industry. 
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: MSc in Computer Software and Technology
+        university: Peking University
+        time: 2017 - 2020
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+            - GPA: 3.50 / 4.0
+            - relevant courses: Image and Video Based 3D Reconstruction, Computational Vision, Advanced Graphics Computing, Technique and Application of Deep Learning, Human Computer Interaction: Theory and Techniques
+      - degree: BSc in Intelligence Science and Technology
+        university: Peking University
+        time: 2013 - 2017
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+            - GPA: 3.34 / 4.0
+            - relevant courses: Introduction to Pattern Recognition, Digital Image Processing, Algorithm Design and Analysis, Introduction to Computer Systems, Data Structures and Algorithms, Set and Graph Theory, Web Software Technology
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: PhD Student
+        time: 2020 - Present
+        company: University of Stuttgart
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+          My PhD topic is visual attention modelling for optimization of information visualizations, which integrated to Project A07 in <a href="https://www.sfbtrr161.de/research/project_a07/">SFB-TRR 161</a>.
+          My first research goal is acquiring large-scale humanlike attention data without eye tracking equipment on information visualizations. I turn to crowdsourcing approaches (webcam or mouse-clicking) or gaze data synthesis by generative or cognitive models. My second research goal is to computationally model human visual behaviour (saliency map, scanpath) under different tasks (top-down) in information visualizations. My third research goal is to develop a task-driven computational model to optimize information visualisation by maximising metrics (e.g. recallability, gaze uncertainty).
+#projects:
+#    title: Projects
+#    intro: >
+#      You can list your side projects in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#    assignments:
+#      - title: Velocity
+#        link: "#hook"
+#        tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+#oss:
+#    title: OSS Contributions
+#    intro: >
+#      You can list your open source software contributions in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#    contributions:
+#      - title: Tempo
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      See my <a href="https://scholar.google.com/citations?user=X8je0QsAAAAJ">Google Scholar</a> page for full publication list.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "VisRecall: Quantifying Information Visualisation Recallability via Question Answering"
+        link: "https://arxiv.org/pdf/2112.15217.pdf"
+        authors: Y. Wang, C. Jiao, M. Bâce, A. Bulling,
+        conference: "IEEE Transactions on Visualization and Computer Graphics (TVCG), vol. 28, no. 12, pp. 4995-5005, 1 Dec. 2022"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Scanpath Prediction on Information Visualisations"
+        link: "https://arxiv.org/pdf/2112.02340.pdf"
+        authors: Y. Wang, M. Bâce, A. Bulling.
+        conference: "IEEE Transactions on Visualization and Computer Graphics (TVCG), early access, pp. 1-13, 6 Feb. 2023"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Impact of Gaze Uncertainty on AOIs in Information Visualisations
+        link: "https://dl.acm.org/doi/10.1145/3517031.3531166"
+        authors: Y. Wang, M. Koch, M. Bâce, D. Weiskopf, A. Bulling
+        conference: "2022 Symposium on Eye Tracking Research and Applications (ETRA), No. 60, pp. 1-6"
+
+      - title: Semantic 3D Reconstruction with Learning MVS and 2D Segmentation of Aerial Images
+        link: "https://dl.acm.org/doi/10.1145/3517031.3531166"
+        authors: Z. Wei, Y. Wang, H. Yi, Y. Chen, G. Wang
+        conference: "Applied Sciences, 10(4), pp. 1275, 2020"
+
+      - title: Large-scale structure from motion with semantic constraints of aerial images
+        link: "https://dl.acm.org/doi/10.1145/3517031.3531166"
+        authors: Y. Chen, Y. Wang, P. Lu, Y. Chen, G. Wang
+        conference: "Chinese Conference on Pattern Recognition and Computer Vision (PRCV), 2018: 347-359"
+
+      - title: Sobel Heuristic Kernel for Aerial Semantic Segmentation
+        link: "https://dl.acm.org/doi/10.1145/3517031.3531166"
+        authors: T. Hu, Y. Wang, Y. Chen, P. Lu, H.Wang, G. Wang
+        conference: "25th IEEE International Conference on Image Processing (ICIP), 2018: 3074-3078"
 
 skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
+    knowledgetitle: Knowledge Bases
+    title: Programming Languages
+    knowledgeset:
+      - name: Deep Learning
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Eye Tracking
         level: 95%
 
-      - name: Ruby on Rails
+      - name: Computer Vision
         level: 85%
 
-      - name: Sketch & Photoshop
+      - name: Human Computer Interaction
+        level: 85%
+
+      - name: Natural Language Processing
+        level: 60%
+
+    toolset:
+      - name: Python
+        level: 98%
+
+      - name: Javascript, CSS, HTML
+        level: 90%
+
+      - name: C++
+        level: 80%
+
+      - name: Matlab
+        level: 70%
+
+      - name: PHP
+        level: 70%
+
+      - name: Java
         level: 60%
 
 footer: >
