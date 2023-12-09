@@ -136,10 +136,8 @@ projects:
           This system helps to automate the process of maintaining
           the attendance system and achieved partial proxy detection
           by using thermal sensors and motion detector.
-
           LAMP server was used as backend and admin dashboard.
           Built the system along with three other teammates .
-
           Tech: Arduino, PHP, MySQL, HTML, CSS, Bootstrap, jQuery, AJAX
 
       - title: Mail-Me: E-mail Server with Admin Control Panel
@@ -147,9 +145,7 @@ projects:
         details: |
           Designed an E-mail web interface using HTML. An Admin
           Panel was built to control user activities and server maintenance.
-
           PHP and MySQL was used in the backend Apache server.
-
           Tech: PHP, MySQL, HTML, CSS, AJAX
 
 skills:
