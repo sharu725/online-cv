@@ -9,12 +9,12 @@ sidebar:
     # Profile information
     name: Ken Shirakawa
     tagline: Ph.D. student
-    avatar: Img_profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: Img_profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: shirakawa.ken.38w@st.kyoto-u.ac.jp
     phone: 
-    website: https://kencan7749.github.io/ 
+    website: kencan7749.github.io/ 
     linkedin: 
     github: kencan7749
     gitlab:
@@ -43,16 +43,18 @@ sidebar:
 
       - item: Listing music (R&B, HipHip and Balck music)
         link:
+      - item: Taking a bath (Sauna)
+        link: 
 
 career-profile:
     title: Career Profile
     summary: |
       I have been working brain decoding research, which is reading out brain information using machine learning techniques. 
-      Currently, I use deep neural networks (DNNs) for video recognition for brain decoding. 
+      Previously, I utilized deep neural networks (DNNs) for video recognition for brain decoding. Recently, I have grown concerned about the prevalence of exaggerated findings in our field. I am keenly interested in fostering healthy development in brain decoding to reduce such hype.
 education:
     - degree: Ph.D course in Neuroinformatics
       university: Kyoto university
-      time: April 2020 - present
+      time: April 2020 - March 2024
       details: |
     - degree: M.E. in Neuroinformatics
       university: Kyoto university
@@ -63,3 +65,87 @@ education:
       university: Kyoto university
       time: April 2014 - March 2018
       details: 
+      
+experiences:
+    - role: Special Research Fellowship for Young Scientists (DC2)
+      time: April 2022 - March 2024
+      company: Japan Society for the Promotion of Science
+      details: |
+
+    - role: Research intern
+      time: August 2018 - September 2018
+      company: NTT Communication Science Laboratories, Atsugi
+      details: |
+        I worked on developing voice conversion methods. 
+        I tried to convert speech into a voice that matches an input face image and generates a face image that matches the voice of the input speech by Deep neural network. 
+        My work was just preliminary but this project was submitted to arXiv ("Crossmodal Voice Conversion" https://arxiv.org/abs/1904.04540)
+    - role: New business planning (Summer internship)
+      time: September 2016 - September 2016
+      company: Works Applications Co.,Ltd., Osaka
+      details: 
+      
+projects:
+    title: Work
+    
+    intro: >
+      I implemtent the tool for generating image/video that increases the DNN unit's activity value.
+      The code is available on the Github (linked below). I also upload these image on Instagram everyday.
+    assignments:
+      - title: pytorch_cnn_preferred
+        link: "https://github.com/kencan7749/pytorch_cnn_preferred"
+        tagline: "Generate aimage/video that increased target unit's activity value in arbitrary CNN model written in pytorch."
+
+      - title: Instagram
+        link: "https://www.instagram.com/k__shirakawa/"
+        tagline: "Generating images using such tools"
+        
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python 
+        level: 94%
+      
+      - name: Matlab
+        level: 80%
+        
+      - name: R
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 70%
+        
+      - name: Javascript 
+        level: 40%
+        
+      - name: C
+        level: 40%
+        
+      - name: Java
+        level: 20%
+
+      - name: Go
+        level: 20%
+        
+        
+publications:
+    title: Research achievement
+    #intro: |
+    #  I've been engaged in brain decoding research, which read out the subject's perceptual information from brain activity by machine learning methods. 
+    #  I'm also conducting collaborative research classify iPS cells using machine learning.
+
+
+    papers,conference presenation:
+      - title: Decoding image motion using deep neural network features
+        #link: "#"
+        authors: Ken Shirakawa and Yukiyasu Kamitani 
+        conference: The 15th Asia-Pacific Conference on Vision Osaka, Japan, July, 2019
+        
+      - title: ヒト iPS 細胞由来分化心筋細胞の収縮機能に対する統合的品質評価
+        authors: 山口 賢彦, 中川 桃夏, 鈴木 結衣, 佐野 優介, 白川 健, 間島 慶, 神谷 之康, 坂本 多穂, 諌田 泰成, 黒川 洵子
+        conference: 日本安全性薬理研究会 第 10 回学術年会, 東京, 2019 年 3 月
+        
+      - title: Pytorch_cnn_preferred ~ニューラルネットの中間表現を探る~
+        authors: 白川 健
+        conference: 第 11 回脳科学若手の会 春の合宿ワークショップ, 東京，2018 年 3 月
