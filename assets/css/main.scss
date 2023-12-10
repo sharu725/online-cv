@@ -16,3 +16,22 @@ $sidebar-order: 2;
 
 @import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
 @import "default"; // main partials
+
+.skill-item {
+  display: inline-block;
+  margin-right: 10px; /* Add some spacing between skills */
+}
+
+.skill-item-tile {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #3498db; /* Set the background color of the button */
+  color: #fff; /* Set the text color of the button */
+  text-decoration: none;
+  border-radius: 5px; /* Add some rounded corners */
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.skill-item-tile:hover {
+  background-color: #2980b9; /* Change the background color on hover */
+}
