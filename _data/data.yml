@@ -128,21 +128,81 @@ experiences:
 skills:
     title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+toolset:
+    - name: Java & Spring Boot
+      level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
+    - name: Python & Django
+      level: 95%
 
-      - name: Angular
-        level: 98%
+    - name: C
+      level: 80%
 
-      - name: HTML5 & CSS
-        level: 95%
+    - name: C++
+      level: 80%
 
-      - name: Sketch & Photoshop
-        level: 60%
+    - name: Shell
+      level: 75%
+
+    - name: MERN Stack
+      level: 70%
+
+    - name: SQL
+      level: 90%
+
+    - name: MongoDB
+      level: 90%
+
+    - name: PHP
+      level: 75%
+
+    - name: jQuery & AJAX
+      level: 80%
+
+    - name: Bootstrap & JavaScript
+      level: 85%
+
+    - name: Photoshop
+      level: 60%
+
+    - name: Illustrator
+      level: 60%
+
+    - name: Microsoft Windows
+      level: 90%
+
+    - name: Linux
+      level: 85%
+
+    - name: Flutter
+      level: 70%
+
+    - name: Android
+      level: 70%
+
+    - name: Git & GitHub
+      level: 95%
+
+    - name: Bitbucket
+      level: 90%
+
+    - name: Jira
+      level: 90%
+
+    - name: Confluence
+      level: 90%
+
+    - name: Elastic Search
+      level: 75%
+
+    - name: Kubernetes
+      level: 80%
+
+    - name: Docker
+      level: 80%
+
+    - name: JMeter
+      level: 75%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
