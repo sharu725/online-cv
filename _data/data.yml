@@ -67,21 +67,21 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am a software developer with 16+ years programming experience. I
+      I am a software developer with 16+ years of programming experience. I
       started coding in 2006 and have finished several opensource projects independently using
-      different programming languages. I also have rich backend & algorithm enginnering experience in 
+      different programming languages. I also have rich backend & algorithm engineering experience in 
       China's top IT companies like 
         - Tencent
         - Alibaba
         - Bytedance
         - Netease
 
-      and so on. I'm now working at SEA group and responsible for the e-commerse intelligence engineering team. I love coding and 
-      backend technologies like Cache, Storage, Message Queue and Analysis Engine. Now I'm working 
-      together with my team mates to drive SEA business growth using AI technologies. 
+      and so on. I'm now working at SEA group and responsible for the e-commerce intelligence engineering team. I love coding and 
+      backend technologies like Cache, Storage, Message Queue, and Analysis Engine. Now I'm working 
+      together with my teammates to drive SEA business growth using AI technologies. 
 
-      I am also good at building new teams. I had several successful practises to build a large team(up to 110+ members)
-      from zero. Also had experience on defining the key inditors of a team, finalize the OKR and do long term planning
+      I am also good at building new teams. I had several successful practices to build a large team(up to 110+ members)
+      from zero. Also had experience on defining the key indicators of a team, finalizing the OKR, and doing long-term planning
       for the team.
 
 education:
@@ -91,19 +91,19 @@ education:
         university: Sun Yat-sen University
         time: Sep 2010 - Jun 2013
         details: |
-          I studied in Computer Science department without examination. My major is Computer Software and Theory. 
-          I studied Mathematical logic, Game theory, Intelligent planning and 
-          so on. I also participated in some competitions in China. I had a 2-year internship in Tecent 
-          Guangzhou R&D center(fomer Wechat Group). 
-            - Champion of Robocup China, Home Service Simulation Natual Language Group, May,  2012
-            - Champion of Robocup China, Home Service Simulation Command Language Group, Aug, 2011
+          I studied in the Computer Science department without examination. My major is Computer Software and Theory. 
+          I studied Mathematical logic, Game theory, Intelligent planning, and 
+          so on. I also participated in some competitions in China. I had a 2-year internship at Tencent 
+          Guangzhou R&D center(former Wechat Group). 
+            - Champion of Robocup China, Home Service Simulation Natual Language Group, May  2012
+            - Champion of Robocup China, Home Service Simulation Command Language Group, Aug 2011
       - degree: BSc in Computer Science
         university: Sun Yat-sen University
         time: Sep 2006 - Jun 2010
         details: |
-          I studied in Computer Science department. May major is network engineering. I studied computer fundamental
-          classes like C++ programming language, assembly language, operating system, The Dragon book, Computer network,
-          database management system, artifical intelligence. 
+          I studied in the Computer Science department. May major is network engineering. I studied computer fundamental
+          classes like C++ programming language, assembly language, operating system, The Dragon Book, Computer network,
+          database management system, artificial intelligence. 
             - Sun Yat-sen University ACM (Level 2), 2009-2010
             - Sun Yat-sen University ACM (Level 2), 2008-2009
             - Outstanding Student Scholarship (Grade 3), 2008-2009
@@ -118,9 +118,9 @@ experiences:
         time: Oct 2019 - Present
         company: SEA(Garena Online Private LTD), Singapore
         details: |
-          As the manager of the intelligence engineering team(110+ members), I built the whole team from zero.The team
+          As the manager of the intelligence engineering team(110+ members), I built the whole team from zero. The team
           include **backend developers**, **frontend developers**, **App developers** and **QA**. 
-          Our team is supporting all the products of Shopee as well as some other products of SEA group.
+          Our team is supporting all the products of Shopee as well as some other products of the SEA group.
           The features include 
             - Promotion Item Search
             - Recommendation(include item, voucher, banner, brands...)
@@ -132,16 +132,16 @@ experiences:
             - Identify verification(KYC)
 
           and so on.  We are supporting business lines include **Promotion**, **User**, **Marketing**, **Order**, **Listing**, **Seller**... We are 
-          improving the core indicators of e-commerce platform and the iteration efficiency of both business projects
+          improving the core indicators of the e-commerce platform and the iteration efficiency of both business projects
           and technical projects.
 
           We also developed our in-house AI infrastructors from zero. Include
-            - vector retrieval engine (based on Faiss, ScaNN and redis Search)
-            - inference framework(based on nvidia triton)
+            - vector retrieval engine (based on Faiss, ScaNN, and redis Search)
+            - inference framework(based on Nvidia triton)
             - feature KV middleware(kvRocks)
             - data ingestion middleware
             
-          We also built our own AI API gateway to manage all our team's AI services, include ACL, tenants quota management, sync & async protocol support and 3rd party AI services(like ChatGPT, Google Translation...)
+          We also built our own AI API gateway to manage all our team's AI services, including ACL, tenants quota management, sync & async protocol support, and 3rd party AI services(like ChatGPT, Google Translation...)
           management for the company.
 
           > **Highlights**
@@ -152,70 +152,70 @@ experiences:
         time: Api 2019 - Oct 2019
         company: Bytedance, Shenzhen
         details: |
-          I was in business architecture team under IES group of Bytedance. We built core backend services and solutions for several products include 
+          I was in the business architecture team under the IES group of Bytedance. We built core backend services and solutions for several products include 
           1. Douyin
           2. TikTok
           3. Huoshan
           4. Live Stream
           5. FaceU 
           
-          My team was focusing on the efficiency direction and responsible for environment 
-          management, traffic management and tracing solutions for common used middlewares by business teams. I was leading the environment
-          management team and released non-live environments(BOE) and pre-releasing environments(like PPE) to support traffic control and businss verification
+          My team was focused on the efficiency direction and responsible for environment 
+          management, traffic management, and tracing solutions for commonly used middleware by business teams. I was leading the environment
+          management team and released non-live environments(BOE) and pre-releasing environments(like PPE) to support traffic control and business verification
           under different environments.
 
           > **Highlights**
-            - Release Environment & Traffic governance for IES products
+            - Release Environment and traffic governance for IES products
 
       - role: Architect
         time: Jul 2016 - Apr 2019
         company: 58 ganji, Beijing
         details: |
-          I was responsible for the DMP platform design, develop and maintaiance for e-commerce group in 58. I lead the whole team and finished
-          the 1st feature mining, store, analysis and online retrieval services in 58. And the platform was 
-          widely used in different components of our e-commerce platforms like Ads retreival(targeting), recall, ranking and creativities. I was 
-          also the team lead of the membership(VIP) system, promotion system and enterprise management system. We also built the beta version machine learning platform with 2 teammates.
+          I was responsible for the DMP platform design, development, and maintenance for the e-commerce group in 58. I led the whole team and finished
+          the 1st feature mining, store, analysis, and online retrieval services in 58. The platform was 
+          widely used in different components of our e-commerce platforms like Ads retrieval (targeting), recall, ranking, and creativities. I was 
+          also the team lead of the membership(VIP) system, promotion system, and enterprise management system. We also built the beta version machine learning platform with 2 teammates.
 
           > **Highlights**
-            - 3rd prize of 58 Programming Contest, 2018
+            - 3rd prize in 58 Programming Contest, 2018
             - Feature Platform(ETL)
 
       - role: Senior Java Engineer
         time: Aug 2015 - Jul 2016
         company: Alibaba, Hangzhou
         details: |
-          I was responsible for the SCM platform development and maintaiance for TMall Supermarket, and Lirengou(俪人购). I worked on 
-          several components include purchase, item, inventory, order, return & refund. And also the core developer of the settlement
+          I was responsible for the SCM platform development and maintenance for TMall Supermarket, and Lirengou(俪人购). I worked on 
+          several components including purchase, item, inventory, order, return & refund. And also the core developer of the settlement
           system of the entire SCM platform.
 
           > **Highlights**
             - DoD on 11.11 promotion day(2015)
 
       - role: Development Engineer
-        time: Feb 2014 - Api 2015
+        time: Feb 2014 - Apr 2015
         company: Netease, Guangzhou
         details: |
           I am one of the core developers to develop the 1st 3d action mobile game in Netease. We used our self-developed 3d game engine to develop the core action
           systems and also used scaleform(flash) as the game UI engine. And later we also introduced Cocos2d-X to support the 2d components and UI features. 
-          I finished several sub-systems of the game include accout, package(bag), sprite(pet), equipment, skill and so on. 
-          And I also developed several auxiliary tools to help our teammates do realtime update for the properties of 
-          the monsters and players in the game, auto-importing UI resources generated by Cocos2d-X framework solutions and so on. I ganed a lot experience 
-          in UI engine, resource optimization and annimation effects.
+          I finished several sub-systems of the game including account, package(bag), sprite(pet), equipment, skill, and so on. 
+          I also developed several auxiliary tools to help our teammates do real-time updates for the properties of 
+          the monsters and players in the game, auto-importing UI resources generated by Cocos2d-X framework solutions, and so on. I gained a lot of experience 
+          in UI engines, resource optimization, and animation effects.
 
           > **Highlights**
             - Action Mobile Game
 
       - role: Backend Developer
         time: Aug 2011 - Feb 2014
-        company: Tencent, Guangzhou(fomer Wechat team)
+        company: Tencent, Guangzhou(former WeChat team)
         details: |
-          I was responsible for the development and maintaiance work for QQ Mail. I collaborated with my teammates and developed 
-          several new features include batch operating(Select, Delete...), Star Mail, Mail Tags, Important
-          mail, Mail Calendar & Events, Ads email aggregation and so on. I also developed the email thumbnail cache service and 
-          it was used in email preview. I also develped several features for the early versions of Wechat like "Add to favourites".
+          I was responsible for the development and maintenance work for QQ Mail. I collaborated with my teammates and developed 
+          several new features including batch operating(Select, Delete...), Star Mail, Mail Tags, Important
+          mail, Mail Calendar & Events, Ads email aggregation, and so on. I also developed the email thumbnail cache service and 
+          it was used in the email preview. I also developed several features for the early versions of WeChat like "Add to favorites".
 
           > **Highlights**
-            - QQMail & Wechat
+            - QQMail & WeChat
             - Drifting bottle
 
       
@@ -228,22 +228,22 @@ certifications:
           start: 2011
           end: 2012
           organization: Robocup China
-          credentialid:
+          credentialid: NA
           credentialurl: NA
           credentialname: Champion of Robocup China
           details: |
-            - Champion of Robocup China, Home Service Simulation Natual Language Group, May,  2012
-            - Champion of Robocup China, Home Service Simulation Command Language Group, Aug, 2011
+            - Champion of Robocup China, Home Service Simulation Natual Language Group, May  2012
+            - Champion of Robocup China, Home Service Simulation Command Language Group, Aug 2011
 
         - name: Programming Contest
           start: 2006
           end: Now
           organization: SYSU & 58 Ganji
-          credentialid: 
+          credentialid: NA
           credentialurl: NA
           credentialname: Programming Contest & ACM
           details: |
-            - 3rd prize of 58 Programming Contest, 2018
+            - 3rd prize in 58 Programming Contest, 2018
             - Sun Yat-sen University ACM (Level 2), 2009-2010
             - Sun Yat-sen University ACM (Level 2), 2008-2009
 
@@ -253,7 +253,7 @@ certifications:
           start: 2006
           end: 2012
           organization: SYSU
-          credentialid:
+          credentialid: NA
           credentialurl: NA
           credentialname: Scholarship
           details: |
@@ -266,17 +266,17 @@ certifications:
 projects:
     title: Projects
     intro: >
-     Here are some of my opensource projects that I'd like to share. These projects include RPC frameworks, HTTP servers, 
-     Desktop applications, mobile applications and so on. They are implemented by different programming languages include C/C++, 
+     Here are some of my open-source projects that I'd like to share. These projects include RPC frameworks, HTTP servers, 
+     Desktop applications, mobile applications, and so on. They are implemented by different programming languages including C/C++, 
      C#, Python, Java, Golang, JS/TS...
     assignments:
       - title: sharpsvr
         link: "https://github.com/caipengyang/sharpsvr"
-        tagline: "A C# RPC framework for distirbuted systems. The 1st batch of C# RPC framework for dotnet Core"
+        tagline: "A C# RPC framework for distributed systems. The 1st batch of C# RPC framework for dotnet Core"
 
       - title: sharpems
         link: "https://github.com/caipengyang/sharpems"
-        tagline: "A Smart electical tools management platform written in C#"
+        tagline: "A Smart electrical tools management platform written in C#"
 
       - title: sweet-bear
         link: "https://github.com/caipengyang/sweet-bear"
@@ -288,7 +288,7 @@ projects:
 
       - title: esvr
         link: "https://gitee.com/caipengyang/esvr"
-        tagline: "A cross-platform high-performance http server written in C++(c++11). Using lua as the script language to develop web applications"
+        tagline: "A cross-platform high-performance HTTP server written in C++(c++11). Using Lua as the script language to develop web applications"
 
 oss:
     title: OSS Contributions
@@ -297,7 +297,7 @@ oss:
     contributions:
       - title: About Box(Linux Lite)
         link: "https://github.com/caipengyang/about-box"
-        tagline: "I contacted to the maintainer of linux lite and contributed to the about box tool(using PyGTK) for it."
+        tagline: "I contacted the maintainer of Linux lite and contributed to the 'About box' tool(using PyGTK) for it."
 
       - title: Github
         link: "https://github.com/caipengyang"
