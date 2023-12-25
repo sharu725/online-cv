@@ -75,11 +75,11 @@ skills:
     toolset:
 
       - name: Programming
-        details: Python, Matlab, C++, ...
+        details: Python, Matlab, C++
         level: 90%
 
       - name: Software development
-        details: CICD, OOP, ...
+        details: CICD, OOP
         level: 70%
 
       - name: Structural engineering
@@ -87,11 +87,11 @@ skills:
         level: 70%
 
       - name: Data Analysis
-        details: Cleaning, Visualization, etc.
+        details: Cleaning, Visualization
         level: 70%
 
       - name: Data science tools
-        details: Numpy, Pandas, etc.
+        details: Numpy, Pandas
         level: 70%
 
       - name: Cloud computing
