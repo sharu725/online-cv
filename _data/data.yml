@@ -63,31 +63,37 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I'm a software enginner with extensive experience in python programming, software development, and continous integrations-continous deployment (CI/CD).
-      Experienced with AI and machine learning, I have applied different machine learning algorithms such as KNN neighbours 
-      I also posses a PhD in Civil Engineering from Swansea University in materials modelling using finite elements method.
+      I am a civil engineer with software development focus. I do posses extensive experience in python programming, software development, and continuous integrations-continuous deployment (CI/CD).
 
+      Experienced with machine learning algorithms such as K-Nearest neighbors and neural networks, which I have applied to different research and business cases.
+
+      My interests are also related to civil engineering, more specifically materials modelling and structural design.
   
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
 
-      - name: Programming
-        details: Python, C++, Matlab, ...
-        level: 90%
-      
+      - name: Optimisation and algorithms
+        level: 60%
+      - name: Machine learning
+        details: Sk-learn, TensorFlow
+        level: 60%
+      - name: Data science tools
+        details: Numpy, Pandas, etc.
+        level: 70%
+      - name: Data Analysis
+        details: Cleaning, Visualization, etc.
+        level: 70%
+      - name: Structural engineering
+        details: Finite element methods
+        level: 70%
       - name: Software development
-        details: CI/CD, docker, OOP, APIs, ...
+        details: CICD, OOP, ...
+        level: 70%
+      - name: Programming
+        details: Python, Matlab, C++, ...
         level: 90%
-
-      - name: Data science
-        details: Numpy, Pandas,  ...
-        level: 70%
-
-      - name: Machine learning algorithms
-        details: Decision trees, KNN, ...
-        level: 70%
 
 
 experiences:
@@ -98,36 +104,35 @@ experiences:
       company: Ansys Inc
       details: |
           - Main maintainer of [PyMAPDL](https://github.com/ansys/pymapdl) library, an open source Python interface to Ansys MAPDL structural solvers.
-          - Co-owner of [Ansys github enterprise organization](https://github.com/ansys)
-          - Co-maintainer of [MAPDL solver ubuntu docker image](https://github.com/ansys/pymapdl/pkgs/container/pymapdl%2Fmapdl/74268714?tag=v22.2-ubuntu)
-          - Contributor to MAPDL solver and gRPC interface
-          - Mentoring new employees
+          - Co-owner of [Ansys github enterprise organization](https://github.com/ansys). Help to maintain CICD pipelines and implementing best practices.
+          - Co-maintainer of [MAPDL solver Ubuntu docker image](https://github.com/ansys/pymapdl/pkgs/container/pymapdl%2Fmapdl)  Containerization of applications for cloud deployment.
+          - Contributor to MAPDL solver and its gRPC data interface. Implementation of new methods to transfer data from the C++ application server to a Python client.
+          - Mentoring new employees and interns.
           - Supporting customer engagements.
 
     - role: Research and Development Engineer II
-      time: 2021 - 2022
+      time: 2022 - 2023
       company: Ansys Inc
       details: |
           - Contributor to [PyMAPDL](https://github.com/pyansys/pymapdl) library.
           - Supporting other Ansys libraries [ansys/actions](https://github.com/ansys/actions), [ansys-tools-path](https://github.com/ansys/ansys-tools-path), [ansys-sphinx-theme](https://github.com/ansys/ansys-sphinx-theme), etc
-          - Supporting the technological transformation of business units. Implementing code best-practices.
+          - Supporting the technological transformation of business units. Implementing best code practices, maintaining CICD pipelines in many organization packages, etc.
 
     - role: Research Officer in Data Science
       time: 2020 - 2021
       company: Medical School, Swansea University, Swansea, UK
       details: |
-          - Application of machine learning algorithms (clustering and deep learning techniques) to detect abnormal behaviour in real cardiac cells optical data and fluorescent calcium measurements. Application to commercial business case. 
+          - Application of machine learning algorithms (clustering and deep learning techniques) to detect abnormal behaviour in real cardiac cells optical data and fluorescent calcium measurements.
           - Image processing for data extraction. Application of machine learning techniques to extract data features. 
-          - Design and development of an application with graphic user interface for data analysis of microscope images.  
-          - Processing health image big data using own algorithms. Development of our database.
+          - Design and development of a workflow to analise of microscope images. Development of a graphic user interface in Python.  
 
     - role: Research Fellow
       time: 2019 - 2020
       company: Institute of Material Discovery, University College of London, London, UK
       details: |
+          - Using numerical techniques based on finite element methods and machine learning techniques to optimise industrial composites such as honeycomb or recycled aggregates. 
+          - Collaborated with colleagues using Machine Learning to predict materials properties and accelerate materials discovery. Text mining on research databases. 
           - Collaborated with industrial and academic partners to develop a web platform for industry access to materials modelling expertise. This project was funded by the European Union and companies such as Fraunhofer, Enthought, Bosch, etc. 
-          - Collaborated with colleagues using Machine Learning to predict materials properties and accelerate materials discovery. Text mining on research databases.
-          - Using numerical techniques based on finite element methods (FEM) to optimise industrial composites such as honeycomb or recycled aggregates.     
 
     - role: Project officer
       time: 2018 - 2019
@@ -136,7 +141,7 @@ experiences:
           - Application of techniques from the domain of data science such as data pre-processing, neural networks and multi constraint optimisation to reduce costs in steel manufacturing industry. 
           - Developed an addon in Python and JavaScript for a commercial finite element software ANSYS. This addon integrates in the interface of ANSYS application and perform operations to simplify continuum mechanics calculations.
           - Developed Python scripts to collect and analyse large data sets from internal company website to analyse machinery performance and propose optimisations.
-          - Developed numerical models to improve manufacturing processes in the industry. The processes range from material behaviour prediction to optimisation of properties such as geometry, elastic properties, viscosity, etc.
+          - Developed numerical models to improve manufacturing processes in the industry. The processes range from material behavior prediction to optimisation of properties such as geometry, elastic properties, viscosity, etc.
 
     - role: Research Assistant
       time: 2017
@@ -163,25 +168,30 @@ projects:
         tagline: Predict the success rate of a marketing campaing given previous records. 
 
 
-# publications:
-#     title: Publications
-#     intro: #|
-#       # You can list your publications in this section. Lorem ipsum dolor sit
-#       # amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-#       # bibendum fringilla a eu lectus.
-#     papers:
-#       - title: Multi-objective Optimisation of Electric Arc Furnace Using the NSGA-II Evolutionary Algorithm (In Review)
-#         link: ""
-#         authors: Matteus Torquato, Germán Martínez-Ayuso, Hoceine Matallah, Ashraf Fahmy
-#         conference: #Addison-Wesley, 1968
+publications:
+    title: Publications
+    intro: #|
+      # You can list your publications in this section. Lorem ipsum dolor sit
+      # amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      # bibendum fringilla a eu lectus.
+    papers:
+      - title: Multi-objective Optimisation of Electric Arc Furnace Using the NSGA-II Evolutionary Algorithm
+        link: https://ieeexplore.ieee.org/abstract/document/9600818
+        authors: Matteus Torquato, Germán Martínez-Ayuso, Hoceine Matallah, Ashraf Fahmy
+        conference: #Addison-Wesley, 1968
 
-#       - title: Other papers in my Google scholar profile.
-#         link: "https://scholar.google.co.uk/citations?user=1MqmJ0sAAAAJ&hl=en"
+      - title: Electric field distribution in porous piezoelectric materials during polarization
+        link: https://www.sciencedirect.com/science/article/abs/pii/S135964541930223X
+        authors: Germán Martínez-Ayuso, Michael I Friswell, Hamed H Khodaparast, JI Roscow, CR Bowen
+        conference: #Addison-Wesley, 1968
 
-#       # - title: Machine learning for  (In Review)
-#       #   link: ""
-#       #   authors: Matteus Torquato, Germán Martínez-Ayuso, Hoceine Matallah, Ashraf Fahmy
-#       #   conference: #Addison-Wesley, 1968
+      - title: Other papers in my Google scholar profile.
+        link: "https://scholar.google.co.uk/citations?user=1MqmJ0sAAAAJ&hl=en"
+
+      # - title: Machine learning for  (In Review)
+      #   link: ""
+      #   authors: Matteus Torquato, Germán Martínez-Ayuso, Hoceine Matallah, Ashraf Fahmy
+      #   conference: #Addison-Wesley, 1968
       
 education:
     title: Education
@@ -191,6 +201,8 @@ education:
       time: 2015 - 2019
       details: |
         Micro to macro-scale material modelling using numerical techniques for energy harvesting applications. Fully-funded scholarship
+        * Developed my own non-linear finite element code in Matlab for piezoelectric harvesters based on Euler-Bernoulli beams. Validated experimentally. 
+        * Used commercial finite element packages to obtain the equivalent mechanical properties of micro composite structures (Homogenization). 
     
     - degree: M.Sc. in Structures
       university: University of Granada, Spain
@@ -210,5 +222,5 @@ education:
       details: |
         Special award, Graduated with honours. Best student record award.
 
-# footer: >
-#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+footer: >
+    *References* upon request.
