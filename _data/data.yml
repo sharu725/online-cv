@@ -74,26 +74,33 @@ skills:
 
     toolset:
 
-      - name: Optimisation and algorithms
-        level: 60%
-      - name: Machine learning
-        details: Sk-learn, TensorFlow
-        level: 60%
-      - name: Data science tools
-        details: Numpy, Pandas, etc.
-        level: 70%
-      - name: Data Analysis
-        details: Cleaning, Visualization, etc.
-        level: 70%
-      - name: Structural engineering
-        details: Finite element methods
-        level: 70%
-      - name: Software development
-        details: CICD, OOP, ...
-        level: 70%
       - name: Programming
         details: Python, Matlab, C++, ...
         level: 90%
+
+      - name: Software development
+        details: CICD, OOP, ...
+        level: 70%
+
+      - name: Structural engineering
+        details: Finite element methods
+        level: 70%
+
+      - name: Data Analysis
+        details: Cleaning, Visualization, etc.
+        level: 70%
+
+      - name: Data science tools
+        details: Numpy, Pandas, etc.
+        level: 70%
+
+      - name: Cloud computing
+        details: Azure, GCP
+        level: 70%
+
+      - name: Machine learning
+        details: Sk-learn, TensorFlow
+        level: 60%
 
 
 experiences:
@@ -104,7 +111,7 @@ experiences:
       company: Ansys Inc
       details: |
           - Main maintainer of [PyMAPDL](https://github.com/ansys/pymapdl) library, an open source Python interface to Ansys MAPDL structural solvers.
-          - Co-owner of [Ansys github enterprise organization](https://github.com/ansys). Help to maintain CICD pipelines and implementing best practices.
+          - Co-owner of [Ansys github enterprise organization](https://github.com/ansys). Help to maintain Azure CICD pipelines and implementing best practices.
           - Co-maintainer of [MAPDL solver Ubuntu docker image](https://github.com/ansys/pymapdl/pkgs/container/pymapdl%2Fmapdl)  Containerization of applications for cloud deployment.
           - Contributor to MAPDL solver and its gRPC data interface. Implementation of new methods to transfer data from the C++ application server to a Python client.
           - Mentoring new employees and interns.
