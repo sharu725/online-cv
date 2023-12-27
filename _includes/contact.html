@@ -15,13 +15,13 @@
 
     {% if sidebar.citizenship %}
     <li class="phone"><i class="fas fa-passport"></i>
-      <a href="">{{ sidebar.citizenship }}</a>
+      <a href="{{ sidebar.citizenship.url }}">{{ sidebar.citizenship.name }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.timezone %}
     <li class="timezone"><i class="fas fa-clock"></i>
-      <a href="">{{ sidebar.timezone }}</a>
+      <a href="{{ sidebar.timezone.url }}"">{{ sidebar.timezone.name }}</a>
     </li>
     {% endif %}
 
@@ -39,7 +39,7 @@
 
     {% if sidebar.linkedin %}
     <li class="linkedin"><i class="fab fa-linkedin"></i>
-      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
+      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin_name }}</a>
     </li>
     {% endif %}
 

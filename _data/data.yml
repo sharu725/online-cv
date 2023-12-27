@@ -8,258 +8,251 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Afonso Videira
+    tagline: Software Developer
+    avatar: profile_av.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    email: afonsovideira.94@gmail.com
+    phone: 
+    timezone: 
+      name: Portugal timezone
+      url: https://www.timeanddate.com/worldclock/portugal/lisbon
+    citizenship: 
+      name: Portuguese
+      url: https://en.wikipedia.org/wiki/Portugal
+    website: # blog.webjeda.com #do not add http://
+    linkedin_name: Afonso Videira
+    linkedin: afonso-videira-7157b5225
+    github: AfonsoVideira
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: # http://www.africau.edu/images/default/sample
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Portuguese
           level: Native
 
-        - idiom: French
-          level: Professional
+        - idiom: English
+          level: Advanced
 
         - idiom: Spanish
-          level: Professional
+          level: Intermediate
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Hiking
           link:
 
-        - item: Snowboarding
+        - item: Traveling
           link:
 
-        - item: Cooking
+        - item: Cinema
+          link:
+
+        - item: Animals
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      My passion for science ignited early,
+      sparked by childhood curiosity about dinosaurs,
+      leading me to explore diverse scientific subjects from biology to physics through books and online research.
+      My academic journey reflects this curiosity. 
+      Despite a broad interest in science throughout my pre-university education,
+      choosing a specific branch proved challenging.
+      I embarked on Electrical Engineering at FEUP initially but later transitioned to Biology at FCUP for my bachelor's degree,
+      drawn by the allure of life sciences. Then I've pursued a Master's in Bioinformatics and Computational Biology at FCUP
+      ***the programming bug won I guess*** &#128517;.
+# This journey equipped me with expertise in Python (Pyramid framework) for backend development and frontend technologies like HTML, CSS, JavaScript, and React.
+# Professionally, I've merged my academic prowess with roles spanning biotech, research,
+# and software development. My contributions encompass streamlining development environments,
+# managing CI/CD pipelines, orchestrating infrastructure using Kubernetes,
+# and fortifying systems through secure authentication services.
+
+# Throughout, my focus remains on advancing technology, 
+# optimizing workflows, and fostering synergy between scientific exploration and technological innovation.
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: MSc in Bioinformatics and Computational Biology 
+        university: Faculdade de Ciências da Universidade do Porto
+        time: 2018 - 2020
+      - degree: BSc degree, Biology - General
+        university: Faculdade de Ciências da Universidade do Porto
+        time: 2013 - 2018
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Software Developer | DevOps Engineer
+        time: 2022 - Present
+        company: Amyris, Emeryville
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          At Amyris, I've held multifaceted roles,
+          initially starting as a Software Developer and transitioning into the role of a DevOps Engineer,
+          contributing significantly to the Research and Development (R&D) department.
+
+          **As a Software Developer:**
+            - Developed in-house software solutions tailored for the R&D department's specific needs within a biotech setting.
+            - Proficiently worked as a backend developer utilizing Python and the Pyramid framework,
+              ensuring robust functionality and performance.
+            - Engaged in frontend development employing HTML, CSS, JavaScript, and the React framework,
+              providing a comprehensive user experience.
+            - Managed project workflows using a mix of waterfall and agile methodologies, ensuring efficient development cycles.s
+            - Collaborated within a ticketing system to distribute workloads effectively. 
+
+          **As a DevOps Engineer:**
+            - Optimized the development environment by employing containerized applications,
+              ensuring consistency and efficiency throughout the software development lifecycle.
+            - Managed and refined CI/CD pipelines to guarantee comprehensive build and testing stages
+               before code integration into GitLab, ensuring high-quality code deployment.
+            - Orchestrated infrastructure utilizing both virtual machines and Kubernetes.
+            - Developed deploy templates to facilitate the deployment process.
+            - Currently leading efforts in infrastructure and application monitoring,
+              implementing robust monitoring strategies to proactively identify and address system issues.
+
+      - role: Bioinformatician and Software Developer
+        time: 2020 - 2021
+        company: Mitotag, Cantanhede
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          At Mitotag, I held a pivotal role in managing and leveraging experimental data
+          by designing and maintaining comprehensive databases using Google Sheets.
+          My responsibilities encompassed data transformation, 
+          utilizing the R programming language to perform statistical analysis, 
+          and generating insightful dashboards using Shiny.
+            - Developed and maintained robust databases housing crucial lab experimental data, 
+              ensuring accuracy and accessibility for the research team.
+            - Executed data transformations to streamline information for analysis, 
+              contributing significantly to the efficiency of data interpretation. 
+            - Leveraged R programming language proficiently to conduct comprehensive statistical analyses,
+              extracting meaningful insights pivotal for research and paper publications.
+            - Created user-friendly dashboards using Shiny,
+              facilitating data visualization and accessibility,
+              thereby enhancing team understanding and decision-making processes.
 
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+        - name: Helm Kubernetes Packaging Manager for Developers and DevOps
+          start: 2023
+          end: 2023
+          organization: Udemy
+          credentialid: UC-165b52ef-130f-4ee8-a901-adb855833b36
+          credentialurl: ude.my/UC-165b52ef-130f-4ee8-a901-adb855833b36
+          credentialname: Udemy
+        - name: The Full JavaScript & ES6 Tutorial - (including ES7 & React)
+          start: 2023
+          end: 2023
+          organization: Udemy
+          credentialid: UC-c780fc5f-c9f7-446a-8320-851ca10bfe76
+          credentialurl: ude.my/UC-c780fc5f-c9f7-446a-8320-851ca10bfe76
+          credentialname: Udemy
+        - name: "SOLID Principles: Introducing Software Architecture & Design"
+          start: 2023
+          end: 2023
+          organization: Udemy
+          credentialid: UC-bed9ea60-897b-497b-9e0e-0351f8ec4977
+          credentialurl: ude.my/UC-bed9ea60-897b-497b-9e0e-0351f8ec4977
+          credentialname: Udemy
+        - name: "The Complete SQL Bootcamp: Go from Zero to Hero"
+          start: 2023
+          end: 2023
+          organization: Udemy
+          credentialid: UC-dc5fef1c-f89c-4367-86f2-11aac1745c32
+          credentialurl: ude.my/UC-dc5fef1c-f89c-4367-86f2-11aac1745c32
+          credentialname: Udemy
+        - name: "Docker & Kubernetes: The Practical Guide [2022 Edition]"
+          start: 2022
+          end: 2022
+          organization: Udemy
+          credentialid: UC-57479fc2-f26a-41af-9e20-e772f3f2b17b
+          credentialurl: ude.my/UC-57479fc2-f26a-41af-9e20-e772f3f2b17b
+          credentialname: Udemy
+        - name: UML and Object-Oriented Design Foundations
+          start: 2022
+          end: 2022
+          organization: Udemy
+          credentialid: UC-ce3b91eb-24f7-47dc-9eb0-adbf8839c308
+          credentialurl: ude.my/UC-ce3b91eb-24f7-47dc-9eb0-adbf8839c308
+          credentialname: Udemy
+        # - name: "Linux Mastery: Master the Linux Command Line in 11.5 Hours"
+        #   start: 2022
+        #   end: 2022
+        #   organization: Udemy
+        #   credentialid: UC-24fd3260-f660-4508-bb42-b9c59d1f7fea
+        #   credentialurl: ude.my/UC-24fd3260-f660-4508-bb42-b9c59d1f7fea
+        #   credentialname: Udemy
+        # - name: Introduction to Computer Networks for Non-Techies
+        #   start: 2022
+        #   end: 2022
+        #   organization: Udemy
+        #   credentialid: UC-ed6b9c69-f89d-48c5-89ff-4201e75440a3
+        #   credentialurl: ude.my/UC-ed6b9c69-f89d-48c5-89ff-4201e75440a3
+        #   credentialname: Udemy
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "Cytotoxicity and Mitochondrial Effects of Phenolic and Quinone-Based Mitochondria-Targeted and Untargeted Antioxidants on Human Neuronal and Hepatic Cell Lines: A Comparative Analysis."
+        link: "https://pubmed.ncbi.nlm.nih.gov/34827603/"
+        authors: Fernandes C, Videira AJC, Veloso CD, Benfeito S, Soares P, Martins JD, Gonçalves B, Duarte JFS, Santos AMS, Oliveira PJ, Borges F, Teixeira J, Silva FSG.
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "Targeting Hydroxybenzoic Acids to Mitochondria as a Strategy to Delay Skin Ageing: An In Vitro Approach."
+        link: "https://pubmed.ncbi.nlm.nih.gov/36234718/"
+        authors: Fernandes C, Cagide F, Simões J, Pita C, Pereira E, Videira AJC, Soares P, Duarte JFS, Santos AMS, Oliveira PJ, Borges F, Silva FSG.
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Python & Pyramid
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: HTML5 & CSS
+        level: 90%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Javascript & React
+        level: 80%
+
+
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
