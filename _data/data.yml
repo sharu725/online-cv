@@ -8,50 +8,25 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Jooneui Hong
+    tagline: Transportation System Researcher
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: jooneui@uci.edu
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
-
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
-
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+    website: https://brunch.co.kr/@jooneuih
+    linkedin: 
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Soccer
           link:
 
-        - item: Snowboarding
+        - item: Tennis
           link:
 
-        - item: Cooking
+        - item: Economics
           link:
 
 career-profile:
@@ -66,9 +41,9 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: MS, Department of Civil and Environmental Engineering
+        university: Seoul National University, Seoul, South Korea
+        time: 2016 - 2018
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -77,9 +52,21 @@ education:
           pretium quis, sem.
             - Bullet point
             - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+      - degree: BS, School of Civil, Environmental and Architectural Engineering
+        university: Korea University, Seoul, South Korea
+        time: 2010 - 2016
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
+
+        - degree: Exchange Student, School of Civil Engineering
+        university: University of Leeds, Leeds, The United Kingdom
+        time: Feb. 2015 - July. 2015
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -90,11 +77,11 @@ education:
             - Bullet point
 
 experiences:
-    title: Experiences
+    title: Research Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Research Assistant
+        time: Sep. 2023 - Present
+        company: Institute of Transporation Studies, UC Irvine
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -107,28 +94,27 @@ experiences:
           architecto beatae vitae dicta sunt explicabo.
             - Bullet point
             - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+      - role: Research Associate
+        time: 2018 - 2022
+        company: Public and Private Infrastructure Investment Management Center, Korea Development Institute
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+            - Prliminary Feasibility Studies (PFS)* of government-financed projects
+                - Conducted 8 road and railway projects
+                - *Evaluating the validity of a large-scale project in accordance with the National Finance Act of Korea to prevent the government's budget mismanagement.
+            - Revising guidelines for the measurement of monetary value of traffic noise reduction
+                - Transformed micro noise prediction models into macro models to apply to travel demand analysis, and estimated traffic noise cost based on deamage cost approach
+            - Revision of Preliminary Feasibility Study (PFS) guideline - road & railway (6th edition)
+            - Construction of weekend trip-based origin-destination matrix from mobile data
+            - Collaboration and coordination with the Ministry of Economy and Finance, the Ministry of Land, Infrastructure and Transport, and Korea Transport Institute
+
+      - role: Research Assistant
+        time: 2016 - 2018
+        company: Department of Civil and Environmental Engineering, Seoul National University
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          - Development of a driving-simulator based training system to reduce drivers’ aggressive behavior
+              - Applied Surrogate Safety Measures (SSMs) to the training system, which can consider the interaction of surrounding vehicles.
+              - Applied traffic flow models (i.e., car following, lane changing, and gap acceptance) to a simulation.
+              - Developed the overall scoring system of each driver by applying factor analysis and principal component analysis with R.
 
 certifications:
       title: Certifications
@@ -198,68 +184,47 @@ projects:
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
+      - title: Implementing Surrogate Safety Measures to Driving Simulator and Evaluating the Safety Effects of Simulator-Based Training on Aggressive Driving Behaviors
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        authors: Ka, E., Kim, D., __Hong, J.__, and Lee, C. 
+        conference: Journal of Advanced Transportation (2020)
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+    title: Referred Conference Proceedings
+    papers:
+      - title: __Hong, J.__, Kim, S., Ka, E., and Lee, C. (2017) Application of Support Vector Machine (SVM) to Judge the Risky Driver in Driving Simulator. 2017 Fall Korea Institute of ITS Conference, Seoul, South Korea.
+      - title: Ka, E., Ha, S., __Hong, J.__, and Lee, C. (2017) Application of Deep Learning for Demand Forecasting of Call Taxi for the Handicapped in Seoul. The 77th Korean Society of Transportation Conference, Seoul, South Korea.
+      - title: __Hong, J.__, Ka, E., Kim, S., and Lee, C. (2017) Analysis and Comparison of Drivers between South Korea and the United States of America by using Surrogate Safety Measures (SSMs). The 6th International Conference of Euro Asia Civil Engineering Forum, Seoul, South Korea.
+      - title: Ka, E., Kim, S., __Hong, J.__, and Lee, C. (2017) A Preliminary Study of Comparison with Lane Changing Model Parameters in Merging Area between Normal and Raining Conditions. The 12th International Conference of Eastern Asia's Society for Transportation Studies (EASTS), Ho Chi Minh, Vietnam.
+      - title: __Hong, J.__, Lee, S., Lee, C. (2016) Drivers’ Evaluation Indices Considering the Interaction with Surrounding Vehicles on Driving Simulator. The third International Conference on Computational Science and Engineering (ICST), Ho Chi Minh City, Vietnam.
+      - title: __Hong, J.__, Kim, J., Lee, J., Lee, C. (2016) A Statistical Method to Assess Overall Driving Risk Using Driving Simulator. 2016 Fall Korea Institute of ITS Conference, Busan, South Korea
+      - title: __Hong, J.__, Ka, E., Kim, S., Lee, C. (2016) Selecting a Variety of Surrogate Safety Measures (SSMs) Using Driving Simulator. The 75th Korean Society of Transportation Conference, Busan, South Korea. 
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python (tensorflow)
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: R
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: MATLAB
+        level: 90%
 
-      - name: Sketch & Photoshop
+      - name: C
         level: 60%
+
+      - name: Fortran
+        level: 60%
+
+      - name: Emme4, VISSIM, CPLEX, MS Excel, MS Acess
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
