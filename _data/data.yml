@@ -19,7 +19,7 @@ sidebar:
     citizenship: Iran
     #website: blog.webjeda.com #do not add http://
     linkedin: monahashemi
-    scholar: https://github.com/monahashemiii#:~:text=https%3A//scholar.google.com/citations%3Fuser%3DO56sNyEAAAAJ%26hl%3Den
+    # scholar: https://github.com/monahashemiii#:~:text=https%3A//scholar.google.com/citations%3Fuser%3DO56sNyEAAAAJ%26hl%3Den
     # xing: alandoe
     github: monahashemiii
     # telegram: # add your nickname without '@' sign
@@ -29,6 +29,7 @@ sidebar:
     stack-overflow: 18590616/mona # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
+    website: https://github.com/monahashemiii#:~:text=https%3A//scholar.google.com/citations%3Fuser%3DO56sNyEAAAAJ%26hl%3Den
     pdf: https://www.dropbox.com/scl/fi/5yyruav4vatv181jb02ol/MonaHashemi-CV.pdf?rlkey=trw4ik87rez8krjeonbd5iz3y&dl=0
 
     languages:
