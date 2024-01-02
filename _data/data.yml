@@ -28,7 +28,7 @@ sidebar:
     stack-overflow: 18590616/mona # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: https://www.dropbox.com/scl/fi/5yyruav4vatv181jb02ol/MonaHashemi-CV.pdf?rlkey=trw4ik87rez8krjeonbd5iz3y&dl=0
 
     languages:
       title: Languages
@@ -37,7 +37,7 @@ sidebar:
           level: Native
 
         - idiom: English
-          level: Professional
+          level: Upper-Intermediate
 
         - idiom: French
           level: Basic
@@ -60,9 +60,9 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: MSc in Computer Engineering
+        university: Sharif University of Technology
+        time: 2014 - 2016
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -71,9 +71,9 @@ education:
           pretium quis, sem.
             - Bullet point
             - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+      - degree: BSc in Computer Engineering
+        university: K.N.T.U University of Technology
+        time: 2008 - 2012
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
