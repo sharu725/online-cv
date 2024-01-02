@@ -8,8 +8,8 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Mona Hashemi
+    tagline: Ph.D. Candidate at University of Tehran | Visiting Researcher at National University of Singapore
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -18,14 +18,14 @@ sidebar:
     timezone: America/Cancun Timezone
     citizenship:
     website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    linkedin: monahashemi
+    # xing: alandoe
+    github: monahashemiii
+    # telegram: # add your nickname without '@' sign
+    # gitlab:
+    # bitbucket:
+    # twitter: '@webjeda'
+    stack-overflow: 18590616/mona # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: http://www.africau.edu/images/default/sample.pdf
@@ -33,25 +33,19 @@ sidebar:
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Persian
           level: Native
 
-        - idiom: French
+        - idiom: English
           level: Professional
 
-        - idiom: Spanish
-          level: Professional
+        - idiom: French
+          level: Basic
 
     interests:
       title: Interests
       info:
         - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
           link:
 
 career-profile:
