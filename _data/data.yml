@@ -54,20 +54,12 @@ sidebar:
 career-profile:
     title: À propos de moi
     summary: |
-      - Connaissance en gouvernance et gestion du changement
-      - Optimisation et suivi des dépenses Cloud
-      - Excellente capacité à communiquer, documenter et à produire des schémas d’architecture
-      - Très bonne connaissance des infrastructures data center et cloud
-      - Solide expérience dans la sécurité du Cloud
-      - Certifié architecte solution AWS associé
-      - Plus de 15 années d’expériences
-
-      Après avoir occupé avec succès des role d’expert technique, de chef de projet, de consultant et d’architecte dans le domaine de l’infrastructure et du Cloud, je mets mes compétences et mon expérience à votre disposition pour:
+      Après avoir occupé avec succès des rôles d’expert technique, de chef de projet, de consultant et d’architecte dans le domaine de l’infrastructure et du Cloud, je mets mes compétences et mon expérience à votre disposition pour:
 
       - Tirer le meilleur des innovations technologiques;
       - Améliorer votre compétitivité;
       - Délivrer des services digitaux en solutionnant dès la conception les problématiques de gouvernance, de coût, de sécurité, de fiabilité et de performances.
-      
+
       Mes expériences passées m’ont permis d’acquérir une connaissance transverse de l’hébergement, du réseau, du stockage, des serveurs, de la virtualisation, du middleware et des applications.
       Ceci me permet d’accompagner mes clients dans la mise en oeuvre de leurs projets Cloud tant sur les aspects techniques que fonctionnels.
 
@@ -75,8 +67,72 @@ career-profile:
       Je suis en capacité de former et de promouvoir les bénéfices de Cloud à diverses populations tout en adaptant la cible à l’état d’esprit et au enjeux des métiers de mes clients.
       Je peux vous accompagner dans la définition de votre stratégie et de vos standards Cloud en m’appuyant sur les bonnes pratiques en vigueur.
 
-      J’affectionne de rédiger les livrables en Markdown agrémenter de schémas facilitant la compréhension de l’architecture à différents niveaux. Je ne suis pas un développeur. N’attendez pas de moi que je produise du code d’infrastructure ou du code application. Cependant, j’ai l’habitude de lire du code d’infrastructure.
+      J’affectionne de rédiger les livrables en Markdown agrémenter de schémas facilitant la compréhension de l’architecture à différents niveaux. Je ne suis pas un développeur mais je suis en capacité d'implémenter l'ensemble des solutions que je conçois.
 
+skills:
+    title: Compétences techniques
+    toolset:
+      - name: AWS
+        level: 100%
+
+      - name: GCP
+        level: 50%
+
+      - name: Azure
+        level: 40%
+
+      - name: Scaleway
+        level: 30%
+
+      - name: Docker Compose
+        level: 40%
+
+      - name: Packer
+        level: 20%
+
+      - name: AWS CDK
+        level: 30%
+
+      - name: Terrafom
+        level: 20%
+
+      - name: Pulumi
+        level: 40%
+
+      - name: GitHub
+        level: 40%
+
+      - name: Gitlab
+        level: 40%
+
+      - name: JIRA
+        level: 80%
+
+      - name: MacOS
+        level: 60%
+
+      - name: Linux
+        level: 60%
+
+      - name: Windows
+        level: 40%
+
+      - name: Citrix
+        level: 40%
+
+certifications:
+      title: Certifications
+      list:
+        - name: AWS Certified Solutions Architect – Associate
+          start: 2020
+          end: 2023
+          organization: Amazon Web services
+          credentialid: 
+          credentialurl: credly.com/badges/9270db77-f312-47ff-986c-852a94fc3b38/public_url
+          credentialname: Credly
+          details: |
+            La certification AWS Certified Solutions Architect - Associate met en évidence les connaissances et les compétences en matière de technologie AWS, à travers un large éventail de services AWS. Cette certification est centrée sur la conception de solutions optimisées en termes de coûts et de performances, démontrant une solide compréhension du cadre AWS Well-Architected.
+       
 education:
     title: Formation
     info:
@@ -91,6 +147,7 @@ education:
         #   pretium quis, sem.
         #     - Bullet point
         #     - Bullet point
+
 experiences:
     title: Expériences
     info:
@@ -98,25 +155,33 @@ experiences:
         time: 2019 - Present
         company: Europcar Mobility Groupe, Genève (Suisse)
         details: |
-          Europcar souhaite prendre le virage du Cloud et pour les accompagner dans cette transformation, j'ai rejoint l'équipe infrastructure et transformation Cloud pour participer:
-
-          - À la définition de la stratégie cloud du groupe
-          - À la définition de la feuille de route détaillée des projets à mener pour mener à bien la migration
-          - À la définition des fondations qui permettront de mettre en place le socle technique et méthodologique axé sur les piliers suivants :
-            - Gouvernance et conformité
-            - Sécurité
-            - Automatisation et standardisation
-            - Réseaux
-            - Gestion des coûts et empreinte carbone
-            - Stockage et sauvegarde
-          - Aux sessions recrutements
-
-          Je suis également en charge de :
+          Europcar Mobility Group vise à opérer une transition vers le Cloud. Afin de soutenir cette transformation, j'ai accompagné l'équipe Infrastructure et Transformation Cloud pour:
+          - [1] Définir, piloter et déployer la première itération des fondations et des applications pilotes.
+          - [2] Concevoir l'architecture et participé à la migration des 71 applications (1761 serveurs) hébergées dans les data centers français (Europcar).
+          - [3] Concevoir l'architecture et participé à la migration des 30 applications (250 serveurs) hébergées dans les data centers espagnols (Goldcar).
           
-          - La structuration et du pilotage technique de projets d'adoption du Cloud (cadrage, normes, standards, méthodologie, architecture, formation, évangélisation)
-          - La supervision de la mise en place et industrialisation des environnements cloud
-          - La mise en place de la gouvernance et des bonnes pratiques de gestion
-          - La conduite du changement et le transfert du savoir-faire sur les usages du cloud et le développement des applications
+          Phase 1 :
+          - Piloter la définition de la stratégie multi-cloud du groupe
+          - Piloter la définition de la feuille de route détaillée des projets techniques à mener.
+          - Piloter la définition et implémenter les fondations qui permettront de mettre en place le socle technique et méthodologique.
+          - Piloter la mise en place de la gouvernance et des bonnes pratiques de gestion.
+          - Documenter les éléments lister ci-dessus.
+          - Concevoir et déployer les applications pilotes de la migration.
+          - Piloter l'équipe d'intégration Cloud.
+          - Participer à l'évolution des fondations.
+          
+          Phase 2 :
+          - Mener des ateliers visant à mettre en place le programme MAP afin de profiter des optimisations opérationnelles et financières.
+          - Accompagner à la conduite du changement les différentes équipes
+          - Transfert de compétences sur les usages du Cloud.
+          - Concevoir les infrastructures visant à héberger des applications telles que SAP, Citrix, jusqu'aux applications mobiles "sans serveurs".
+          - Proposer des évolutions des applications afin de tirer partie des apports du Cloud
+          - Assurer le support technique durant les migrations.
+          
+          Phase 3 :
+          - Concevoir les infrastructures visant à héberger des applications telles que SAP, cluster MS SQL jusqu'à des micros services.
+          - Proposer des évolutions des applications afin de tirer partie des apports du Cloud
+          - Assurer le support technique durant les migrations.
 
       - role: Consultant infrastructure et Cloud
         time: 2018 - 2019
@@ -359,20 +424,7 @@ experiences:
           - Analyse du besoin, étude de l’existant.
           - Définition et mise en place de l’architecture.
           - Formations et procédures d’exploitation.
-
-certifications:
-      title: Certifications
-      list:
-        - name: AWS Certified Solutions Architect – Associate
-          start: 2020
-          end: 2023
-          organization: Amazon Web services
-          credentialid: 
-          credentialurl: credly.com/badges/9270db77-f312-47ff-986c-852a94fc3b38/public_url
-          credentialname: Credly
-          details: |
-            La certification AWS Certified Solutions Architect - Associate met en évidence les connaissances et les compétences en matière de technologie AWS, à travers un large éventail de services AWS. Cette certification est centrée sur la conception de solutions optimisées en termes de coûts et de performances, démontrant une solide compréhension du cadre AWS Well-Architected.
-        
+ 
 projects:
     title: Projects
     intro: >
@@ -422,57 +474,6 @@ projects:
 #         link: "#"
 #         authors: Edgar T. Irons
 #         conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Compétences techniques
-    toolset:
-      - name: AWS
-        level: 100%
-
-      - name: GCP
-        level: 50%
-
-      - name: Azure
-        level: 40%
-
-      - name: Scaleway
-        level: 30%
-
-      - name: Docker Compose
-        level: 40%
-
-      - name: Packer
-        level: 20%
-
-      - name: AWS CDK
-        level: 30%
-
-      - name: Terrafom
-        level: 20%
-
-      - name: Pulumi
-        level: 40%
-
-      - name: GitHub
-        level: 40%
-
-      - name: Gitlab
-        level: 40%
-
-      - name: JIRA
-        level: 80%
-
-      - name: MacOS
-        level: 60%
-
-      - name: Linux
-        level: 60%
-
-      - name: Windows
-        level: 40%
-
-      - name: Citrix
-        level: 40%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
