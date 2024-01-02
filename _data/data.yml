@@ -9,16 +9,15 @@ sidebar:
 
     # Profile information
     name: Mona Hashemi
-    tagline: Ph.D. Candidate at University of Tehran 
-    tagline: Visiting Researcher at National University of Singapore
+    tagline: Ph.D. Candidate at University of Tehran | Visiting Researcher at National University of Singapore
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
+    email: hashemi.mona@ut.ac.ir
+    # phone: 012 345 6789
+    timezone: Singapore/UTC +8
+    citizenship: Iran
+    #website: blog.webjeda.com #do not add http://
     linkedin: monahashemi
     # xing: alandoe
     github: monahashemiii
