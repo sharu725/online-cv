@@ -34,6 +34,8 @@ sidebar:
       info:
         - item: Physical Design Optimization
 
+        - item: SoC Architecture
+
         - item: Bicycle
 
 career-profile:
@@ -45,14 +47,15 @@ education:
     title: EDUCATION
     info:
       - degree: M.Sc in Electrical Engineering
-        time: Jan 2024 - present
+        university: in CSDL, POSTECH (Pohang University of Science and Technology), Republic of Korea
+        time: Feb 2024 - present
         details: |
-          in CSDL, POSTECH (Pohang University of Science and Technology), Republic of Korea
+          Advisor: Prof. Seokhyeong Kang
 
       - degree: B.Sc in Electronic Engineering
+        university: Hanyang University, Seoul, South Korea
         time: Feb 2018 - Feb 2024
         details: |
-          Hanyang University, Seoul, South Korea
           
 experiences:
     title: EXPERIENCES
@@ -61,7 +64,7 @@ experiences:
         time: August 2022 - July 2023
         company: IoT Laboratory, in Hanyang University
         details: |
-          Researched energy efficiency of three PAM-3 encoding techniques using DRAM memory traces from the gem5 computer architecture simulator running benchmarks.
+          Researched energy efficiency of three PAM-3 encoding techniques using DRAM memory traces from the GEM5 computer architecture simulator running benchmarks.
           
 # certifications:
 #       title: Certifications
@@ -158,12 +161,12 @@ award & scholarshipment:
           end: 2023
           organization: Korea Student Aid Foundation
         
-        - name: ULJU SCHOLARSHIP Semiconductor major track
+        - name: ULJU SCHOLARSHIP
           start: 2022
           end: 2023
           organization: ULJU-GUN Office
 
-        - name: SEMICONDUCTOR MAJOR TRACK
+        - name: SEMICONDUCTOR MAJOR TRACK SCHOLARSHIP
           start: 2022
           end: 2023
           organization: Hanyang University
@@ -180,12 +183,15 @@ skills:
 
     toolset:
       - name: Python
-        level: 60%
+        level: 50%
 
       - name: C/C++
         level: 50%
 
       - name: Verilog
+        level: 50%
+
+      - name: Linux
         level: 50%
 
 footer: >
