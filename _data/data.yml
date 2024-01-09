@@ -107,33 +107,28 @@ experiences:
 #             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
 #             Praesent venenatis erat non augue suscipit consectetur.
 
-# projects:
-#     title: Projects
+projects:
+      title: AWARD & SCHOLARSHIPMENT
 #     intro: >
 #       You can list your side projects in this
 #       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#     assignments:
-#       - title: Velocity
-#         link: "#hook"
-#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      assignments:
+        - title: National Science and Engineering Undergraduate Scholarchip
+          tagline: 2018 - 2023
+          # end: 2023
+          # organization: Korea Student Aid Foundation
+        
+        - title: ULJU SCHOLARSHIP
+          tagline: 2022
+          # end: 2023
+          # organization: ULJU-GUN Office
 
-#       - title: DevStudio
-#         link: "#"
-#         tagline: "A responsive website template designed to help web developers/designers market their services."
-
-#       - title: Tempo
-#         link: "#"
-#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-#       - title: Atom
-#         link: "#"
-#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-#       - title: Delta
-#         link: "#"
-#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
+        - title: SEMICONDUCTOR MAJOR TRACK SCHOLARSHIP
+          tagline: 2022
+          # end: 2023
+          # organization: Hanyang University
+          
 # oss:
 #     title: OSS Contributions
 #     intro: >
@@ -152,24 +147,6 @@ experiences:
 #       - title: Delta
 #         link: "#"
 #         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-projects:
-      title: AWARD & SCHOLARSHIPMENT
-      list:
-        - name: National Science and Engineering Undergraduate Scholarchip
-          start: 2018
-          end: 2023
-          organization: Korea Student Aid Foundation
-        
-        - name: ULJU SCHOLARSHIP
-          start: 2022
-          end: 2023
-          organization: ULJU-GUN Office
-
-        - name: SEMICONDUCTOR MAJOR TRACK SCHOLARSHIP
-          start: 2022
-          end: 2023
-          organization: Hanyang University
 
 publications:
     title: Publications
