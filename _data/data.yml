@@ -10,7 +10,7 @@ sidebar:
     # Profile information
     name: Jonghyeon Nam
     tagline: Master candidate of CSDL, POSTECH in Korea
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: private.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: jonghyen51@gmail.com
