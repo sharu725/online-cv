@@ -109,15 +109,20 @@ publications:
       See my <a href="https://scholar.google.com/citations?user=X8je0QsAAAAJ">Google Scholar</a> page for full publication list. <br>
       §: Equal contribution.
     papers:
-      - title: "VisRecall: Quantifying Information Visualisation Recallability via Question Answering"
-        link: "https://arxiv.org/pdf/2112.15217.pdf"
-        authors: <b>Y. Wang</b>, C. Jiao, M. Bâce, A. Bulling
-        conference: "IEEE Transactions on Visualization and Computer Graphics (TVCG), vol. 28, no. 12, pp. 4995-5005, 1 Dec. 2022"
+      - title: "SalChartQA: Question-driven Saliency on Information Visualisations"
+        link: ""
+        authors: <b>Y. Wang</b>, W. Wang, A. Abdelhafez, M. Elfares, Z. Hu, M. Bâce, A. Bulling
+        conference: "Proc. ACM SIGCHI Conference on Human Factors in Computing Systems (CHI), 2024"
 
       - title: "Scanpath Prediction on Information Visualisations"
         link: "https://arxiv.org/pdf/2112.02340.pdf"
         authors: <b>Y. Wang</b>, M. Bâce, A. Bulling
         conference: "IEEE Transactions on Visualization and Computer Graphics (TVCG), early access, pp. 1-13, 6 Feb. 2023"
+
+      - title: "VisRecall: Quantifying Information Visualisation Recallability via Question Answering"
+        link: "https://arxiv.org/pdf/2112.15217.pdf"
+        authors: <b>Y. Wang</b>, C. Jiao, M. Bâce, A. Bulling
+        conference: "IEEE Transactions on Visualization and Computer Graphics (TVCG), vol. 28, no. 12, pp. 4995-5005, 1 Dec. 2022"
 
       - title: Impact of Gaze Uncertainty on AOIs in Information Visualisations
         link: "https://dl.acm.org/doi/10.1145/3517031.3531166"
