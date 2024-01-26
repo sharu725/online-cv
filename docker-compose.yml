@@ -3,6 +3,7 @@ version: '3'
 services:
   jekyll:
     container_name: online-cv
+    user: root
     image: jekyll/jekyll:4.0
     command: jekyll serve --watch --force_polling --verbose --livereload --host 0.0.0.0
     volumes:

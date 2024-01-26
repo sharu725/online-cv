@@ -4,262 +4,172 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Julian Lohrber
+    tagline: Site Reliability Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    email: mail@skl.works
+    timezone: Europe/Berlin
+    website: blog.cawfee.site #do not add http://
+    linkedin: julian-lohrber
+    xing: Julian_Lohrber
+    github: lohrbini
     telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
-
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: German
           level: Native
-
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+        - idiom: English
+          level: Good
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Homelabbing
           link:
-
-        - item: Snowboarding
-          link:
-
         - item: Cooking
+          link:
+        - item: Hiking
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      As a seasoned Systems Administrator, I have developed a comprehensive skill set encompassing both Windows and Unix environments. My journey began as a Windows System Administrator, where I honed my skills in maintaining and optimizing systems for seamless operations.
+      Driven by a passion for home labbing and a desire to delve deeper into Unix systems, I transitioned my career to focus exclusively on Unix administration. This move allowed me to not only broaden my technical expertise but also gave me the opportunity to work on automation tools such as Ansible, Terraform, and GitLab CI.
+      In the year 2022, I took on the responsibility of maintaining the Elastic Cloud Enterprise platform, showcasing my ability to manage complex and critical systems. This experience also led me to achieve certification as an Elastic Certified Engineer, validating my proficiency in implementing and managing Elastic Stack solutions.
+      My expertise extends beyond traditional system administration, as I actively leverage automation tools to streamline processes and enhance efficiency. With hands-on experience in Ansible and Terraform, I have successfully automated routine tasks, ensuring consistency and reliability in system configurations.
+      My commitment to continuous learning and adaptability has been key to navigating the dynamic landscape of IT. I bring a wealth of experience in Unix system administration, coupled with a strong foundation in automation, making me well-equipped to tackle the challenges of modern IT infrastructures.
+      Looking ahead, I am eager to contribute my skills to innovative projects, collaborate with cross-functional teams, and stay at the forefront of emerging technologies in the ever-evolving field of systems administration.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: IT Specialist for System Integration
+        university: August-Bebel-Schule Offenbach am Main
+        time: 2016 - 2019
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          Apprenticeship completed as IT Specialist for System Integration
+      - degree: Technical University Entrance Qualification
+        university: Gewerblich-technische Schulen der Stadt Offenbach am Main
+        time: 2013 - 2016
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Technical Diploma with a Focus on IT (Fachabitur mit dem Schwerpunkt Datenverarbeitung)
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Site Reliability Engineer
+        time: March 2021 - now
+        company: German Edge Cloud GmbH & Co. KG, Eschborn, Hessen, Germany
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          <b>Elastic:</b><br>
+          Successfully orchestrated the installation of Elasticsearch clusters, demonstrating expertise in configuring and managing policies. Proficiently implemented Logstash for efficient log data processing. Additionally, executed the migration of clusters to Elastic Cloud Enterprise (ECE),
+          ensuring a smooth transition and optimal performance in the Elasticsearch environment.
+
+          <b>Elastic Cloud Enterprise:</b><br>
+          Helped installing the Elastic Cloud Enterprise (ECE) platform on hardware nodes and maintained the entire ecosystem using automation tools such as Terraform, Ansible, Gitlab CI/CD for streamlined and efficient management.
+
+          <b>Customer Support:</b><br>
+          Effectively manage and create customer platforms utilizing automation tools
+      - role: vOffice Cloud Engineer
+        time: Aug 2020 - Feb 2021
+        company: German Edge Cloud GmbH & Co. KG, Eschborn, Hessen, Germany
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Former iNNOVO Cloud GmbH has been merged with two other companies into the German Edge Cloud GmbH & Co. KG
+      - role: vOffice Cloud Engineer
+        time: Nov 2019 - Aug 2020
+        company: iNNOVO Cloud GmbH, Eschborn, Hessen, Germany
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          <b>Customer Support:</b><br>
+          Windows administrator with a focus on customer support, adept at promptly responding to user inquiries, providing effective assistance, and remotely resolving technical issues to ensure optimal functionality of IT systems.
+
+          <b>Project Management:</b><br>
+          Proficiently onboarded customers to our Remote Desktop farm, encompassing the meticulous preparation of hardware, installation, and configuration of necessary servers.
+          Additionally, handled customer hardware setup and installation at their premises for a seamless integration experience.
+      - role: IT Technician
+        time: Jan. 2019 - Oct. 2019
+        company: net-wb GmbH, Muehlheim am Main, Hessen, Germany
+        details: |
+          <b>Nagios</b><br>
+          Administering Nagios involves the implementation and maintenance of a robust monitoring system. This includes configuring monitors for servers
+          networks, and services, setting up alerts, and ensuring proactive identification of potential issues to maintain system reliability.
+          
+          <b>Redmine</b><br>
+          Redmine ticket system administration requires overseeing task management, issue tracking, and project collaboration. Administrators configure user permissions,
+          customize workflows, and ensure efficient communication within teams using the Redmine platform. Also enable customer for project management with custom workflows and 
+          meetings to optimise their workflows internally
+
+          <b>Sophos UTM / XG</b><br>
+          Administrating Sophos UTM encompasses managing a comprehensive suite of security features, such as firewall rules, intrusion prevention.
+          It requires ongoing monitoring, updating security policies, and responding to potential threats to ensure a secure network environment.
+      - role: Trainee
+        time: Sep. 2016 - Jan. 2019
+        company: net-wb GmbH, Muehlheim am Main, Hessen, Germany
+        details: |
+          <b>First Level Support:</b>
+
+          Windows administration as a first-level support professional. In this capacity, their responsibilities likely involved addressing basic user issues related to Windows operating systems.
+          Tasks may have included troubleshooting software and hardware problems, assisting with system configurations, and providing general technical support. 
+          This experience likely provided the trainee with a foundational understanding of Windows environments and valuable hands-on skills in resolving common issues encountered by end-users.
+
+          <b>Sophos:</b><br>
+          Sophos UTM (Unified Threat Management) appliances involved learning and implementing essential tasks for ensuring robust network security.
+          This likely included setting up firewall rules, intrusion prevention, web filtering configurations. Managing security policies, monitoring network traffic.
+
+          <b>Synology:</b><br>
+          Configuring Synology as a storage server or backup system in conjunction with Veeam provides customers with a reliable and efficient solution for data storage and backup. 
+         
+          <b>Microsoft Intune:</b><br>
+          Installing Microsoft Intune as a Mobile Device Management (MDM) solution. Organization and management of Intune policies, enrolling devices and rollout to all customers.
+
+          <b>Project Management: Establishment of a Redundant Domain Structure</b><br>
+          Relocation of the existing domain structure to two new AD controllers. Throughout this initiative, I autonomously organized various aspects, including offers, planning, and client coordination.
+
 
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
+        - name: Elastic Certified Engineer
+          start: May 2022
+          end: May 2024
+          organization: Elastic
+          credentialid: 50811346
+          credentialurl:
+          credentialname: Elastic Certified Engineer
           details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
-
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Elastic Cloud Enterprise
+        level: 80%
+      - name: Elasticsearch
+        level: 70%
+      - name: Docker
+        level: 70%
+      - name: Docker Swarm
+        level: 40%
+      - name: Kubernetes
+        level: 30%
+      - name: Ansible
+        level: 50%
+      - name: Terraform
+        level: 50%
+      - name: Ubuntu server administration.
+        level: 50%
+      - name: git cli
+        level: 50%
+      - name: Gitlab
+        level: 40%
+      - name: Gitlab CI/CD
+        level: 40%
+      
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    
