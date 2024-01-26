@@ -8,258 +8,234 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
+    name: Zulfikar Annur Ahmad
     tagline: Full Stack Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: elayang@cakjulpikar.id
+    phone: +62 821 4170 5406
+    timezone: Asia/Jakarta Timezone
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    website: cakjulpikar.id #do not add http://
+    linkedin: cakjulpikar
+    xing: # TBD
+    github: cakjulpikar
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@cakjulpikar'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: # TBD
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Java
           level: Native
 
-        - idiom: French
-          level: Professional
+        - idiom: Bahasa Indonesia
+          level: Native
 
-        - idiom: Spanish
+        - idiom: English
           level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Mountaineering
           link:
 
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
+        - item: Traditional Art
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
-education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      I bring extensive experience in developing microservice applications using Go and Node.js, 
+      coupled with proficiency in development methodologies like test-driven development (TDD) and agile methodologies. 
+      My collaborative approach is underscored by adept use of Git for version control, 
+      and I possess the ability to craft technical specifications for implementation guidance.
+
+      I adeptly handle complex data structures and specialize in crafting clear data visualizations using Databricks. 
+      I'm also skilled at generating concise product performance reports, delivering key insights for effective decision-making.
+
+      I'm well-equipped to work within complex architectures that leverage REST APIs and event-based systems. 
+      My skill set extends to the operation of CI/CD tools, 
+      including Buddy.Works, Terraform, Kubernetes, Docker, and Helm. 
+      I am proficient in writing structured tests, spanning from unit test levels to integration testing. 
+      Additionally, I have the capability to write Gherkin syntax for QA purposes. 
+      
+      This comprehensive skill set positions me as a versatile professional, 
+      capable of navigating diverse challenges in software development and infrastructure management.
 
 experiences:
-    title: Experiences
+  title: Experiences
+  info:
+    - role: Senior Software Engineer
+      time: Oct 2022 - Jan 2024
+      company: Xendit, PT Sinar Digital Terdepan
+      details: |
+        I took the chance in the crisis to hone my technical skill.
+        
+        The solution I deliver using technical capability are:
+        - Data pipeline integration from Databrick's Data Lake to Kafka Broker,
+          using Python to build the SQL query and transform to message event.
+          Utilizing Apache Airflow to manage the notebook running in Databrick.
+          This enable the data to be consumed by internal transaction monitoring system,
+          which will alert the potential fraudulent transaction.
+        - Design a system to dynamically calculate the audit result for government body.
+        - Improve the cards transaction monitoting by implement the notification
+          for Internal Audit Team if a merchant is predicted to breach the limit already set.
+
+        Also in term of technical debt solving, I have delivered:
+        - Eleiminate all CVA vulnerability for service owned by team team.
+          This is crucial to make sure the service  are safe to be deployed.
+        - Evaluate the legacy API usage and create a technical plan to deprecate unused sservice.
+    - role: Junior Engineering Manager
+      time: May 2022 - Oct 2022
+      company: Xendit, PT Sinar Digital Terdepan
+      details: |
+        Promoted to become Junior Engineering Manager,
+        and managing multiple Tech Lead until the first lay-off wave.
+
+        The group domain which I manage called Internal Business Operations.
+        Which handle these domains:
+        - Internal financial operation optimization
+        - Internal financial audit and reporting
+        - Merchant lifecycle operation optimization
+        - Risk assessment and compliance reporting
+        - Sales enablement
+
+        And beside the responsibility of a Tech Lead,
+        the responsibility in this role is include:
+        - Become an interface for business stakeholder
+        - Collaborate to make sure the multi-month timeline is delivered
+        - Accounting for SLA and SLO achievement
+        - Running the hiring pipeline process and do technical assesment
+    - role: Tech Lead
+      time: June 2021 - May 2022
+      company: Xendit, PT Sinar Digital Terdepan
+      details: |
+        Step up to become lead for internal financial operation team,
+        which handle these processes:
+        - Observe end-to-end feature delivery process from defining problem until product monitoring.
+        - Write technical specification document for junior engineer to implement
+        - Review the feasibility of technical planning
+        - Conduct code review to catch the potential bug and suggesting code optimization
+
+        And also to observe these features:
+        - Internal User Interface to manage partners transaction under Xendit entities.
+        - Integration service to handle messaging between Xendit and financial partner.
+        - Forex transaction ledger
+        - Partner balance monitoring application
+        - Internal financial operations audit system
+    - role: Software Engineer
+      time: September 2017 - June 2021
+      company: Xendit, PT Sinar Digital Terdepan
+      details: |
+        I become full time engineer and work across different scope, such as;
+          - Processing of payment channel creation administatation for a merchant
+          - Building interface for merchant to track the status of payout request
+          - Handling intermittent Virtual Account issue
+          - Help senior engineer to work on payment channel integration with one of Indonesia bank
+          - Building new payout integration with one of Indonesia bank
+          - Building from stratch, including meeting with the partner directly, to integrate one of the largest retail outlet in Indonesia
+    - role: Internship
+      time: August 2017 - September 2017
+      company: Xendit, PT Sinar Digital Terdepan
+      details: |
+        I joined Xendit by referral from Hackiv8 Alumni.
+        I worked on automation and reliability project, such as;
+          - Working to automate internal bank management using RTGS interface from bank
+          - Do transfer operation automation using Python
+
+
+education:
+    title: Education & Course
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - degree: S.E (Bachelor of Economic)
+        university: Universitas Terbuka
+        time: February 2022 - Present
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          I am presently engaged in part-time studies (less than 10 hours per week) to serve as a role model for my daughter, 
+          emphasizing the importance of ongoing education.
+      - degree: Certificate of Immersive Fullstack Javascript Bootcamp
+        university: Hacktiv8 Pondok Indah Jakarta Selatan
+        time: February 2017 - August 2017
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          I joined this bootcamp as a transition from my childhood hobby of tinkering with computers and electronics. 
+          It laid the foundation for my IT career, covering essential aspects such as 
+          algorithms, debugging, designing logic flows and interfaces, databases, mobile applications, desktop front-end development, and cloud deployment management.
+      - degree: S.Sos (Bachelor of Social Science)
+        university: Sekolah Tinggi Ilmu Dakwah Al-Hadid Yayasan Al-Kahfi, Surabaya
+        time: June 2012 - February 2017
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
+          I'm awarded with scholarship from Yayasan Al Kahfi. 
+          Main focus of the study is on social enterprises and NGO organization strategy to achieve it's mission and maintain the related stakeholder.
+      - degree: High School Diploma - Natural Science
+        university: SMAN 1 Malang
+        time: June 2009 - June 2012
+        details: |
+          I took Natural Science program in High School, 
+          and joined organization such as Youth Red Cross and Islamic Studies Group.
+          
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      These are the publications I've authored, encompassing my thesis, scientific journals, and technical articles.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Deskripsi Tingkat Komitmen Organisasional Anggota Himpunan Mahasiswa Islam (HMI) Komisariat Ekonomi Bisnis Universitas Brawijaya Malang Berdasarkan Teori Three-Component Model OfCommitment Allen-Meyer
+        authors: Zulfikar Annur Ahmad
+        conference: Thesis Defense in January 2017 at the Sekolah Tinggi Ilmu Dakwah Al-Hadid Yayasan Al-Kahfi, Surabaya
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Node.js
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Typescript
+        level: 80%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: GO
+        level: 80%
+
+      - name: Python
+        level: 80%
+
+      - name: Technical Writing
+        level: 80%
+
+      - name: PostgreSQL
+        level: 80%
+
+      - name: MongoDB
+        level: 80%
+      
+      - name: Black-box Testing
+        level: 75%
+
+      - name: Database Design
+        level: 75%
+
+      - name: SQL Query
+        level: 70%
+
+      - name: Domain Driven Design
+        level: 70%
+      
+      - name: Databricks
+        level: 65%
+      
+      - name: Amazon Web Service
+        level: 50%
+      
+      - name: React & React Native
+        level: 50%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
