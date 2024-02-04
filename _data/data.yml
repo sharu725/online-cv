@@ -155,31 +155,31 @@ skills:
         level: 95%
 
       - name: Computer Vision
-        level: 90%
+        level: 95%
 
       - name: Human Computer Interaction
-        level: 85%
+        level: 90%
 
       - name: Information Visualization
         level: 85%
 
       - name: Natural Language Processing
-        level: 60%
-
-    toolset:
-      - name: Python
-        level: 98%
-
-      - name: Javascript, CSS, HTML
-        level: 90%
-
-      - name: C++
-        level: 80%
-
-      - name: Matlab
         level: 70%
 
-      - name: PHP
+    toolset:
+      - name: Python (PyTorch, Keras, Numpy, Pandas, Django...)
+        level: 98%
+
+      - name: Git
+        level: 90%
+
+      - name: Javascript (Vue.js), CSS, HTML
+        level: 90%
+
+      - name: Matlab
+        level: 75%
+
+      - name: C++
         level: 70%
 
       - name: Java
