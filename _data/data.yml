@@ -33,13 +33,6 @@ sidebar:
           level: Native
         - idiom: English
           level: Professional
-    interests:
-      title: Interests
-      info:
-        - item: Esports
-          link:
-        - item: Running
-          link:
 career-profile:
     title: Career Profile
     summary: I am a M.S. Student in the Dept. Computer Science and Engineering at Pohang University of Science and Technology (POSTECH). I am doing research under the supervision of Professor Wook-Shin Han.
