@@ -49,8 +49,7 @@ education:
       - degree: B.S. in Industrial Engineering, B.S. in Computer Science & Engineering
         university: Hanyang University
         time: 2012 - 2018
-        details:
-        GPA: 3.79/4.5 (Cum Laude)
+        details: 'GPA: 3.79/4.5 (Cum Laude)'
 
 experiences:
     title: Experiences
