@@ -40,7 +40,7 @@ sidebar:
           level: Professional
 
         - idiom: German
-          level: B1/B2
+          level: B1-B2
 
     interests:
       title: Interests
@@ -110,22 +110,22 @@ publications:
       §: Equal contribution.
     papers:
       - title: "SalChartQA: Question-driven Saliency on Information Visualisations"
-        link: ""
+        link: "https://perceptualui.org/publications/wang24_chi/"
         authors: <b>Y. Wang</b>, W. Wang, A. Abdelhafez, M. Elfares, Z. Hu, M. Bâce, A. Bulling
         conference: "Proc. ACM SIGCHI Conference on Human Factors in Computing Systems (CHI), 2024"
 
       - title: "Scanpath Prediction on Information Visualisations"
-        link: "https://arxiv.org/pdf/2112.02340.pdf"
+        link: "https://perceptualui.org/publications/wang23_tvcg/"
         authors: <b>Y. Wang</b>, M. Bâce, A. Bulling
         conference: "IEEE Transactions on Visualization and Computer Graphics (TVCG), early access, pp. 1-13, 6 Feb. 2023"
 
       - title: "VisRecall: Quantifying Information Visualisation Recallability via Question Answering"
-        link: "https://arxiv.org/pdf/2112.15217.pdf"
+        link: "https://perceptualui.org/publications/wang22_tvcg/"
         authors: <b>Y. Wang</b>, C. Jiao, M. Bâce, A. Bulling
         conference: "IEEE Transactions on Visualization and Computer Graphics (TVCG), vol. 28, no. 12, pp. 4995-5005, 1 Dec. 2022"
 
       - title: Impact of Gaze Uncertainty on AOIs in Information Visualisations
-        link: "https://dl.acm.org/doi/10.1145/3517031.3531166"
+        link: "https://perceptualui.org/publications/wang22_etvis/"
         authors: <b>Y. Wang§</b>, M. Koch§, M. Bâce, D. Weiskopf, A. Bulling
         conference: "2022 Symposium on Eye Tracking Research and Applications (ETRA), No. 60, pp. 1-6"
 
