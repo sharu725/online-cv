@@ -4,10 +4,10 @@
   <div class="education-container container-block">
 
     <h2 class="container-block-title">
-      Education
+      {{ education.title }}
     </h2>
 
-    {% for graduation in education %}
+    {% for graduation in education.info %}
     <div class="item">
       <h4 class="degree">{{ graduation.degree }}</h4>
       <h5 class="meta">{{ graduation.university }}</h5>
@@ -25,10 +25,10 @@
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
       </span>
-      Education
+      {{ education.title }}
     </h2>
 
-    {% for graduation in education %}
+    {% for graduation in education.info %}
     <div class="item">
 
       <div class="meta">
