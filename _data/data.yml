@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Sanket Totewar
-    tagline: Full Stack Product Leader
+    tagline: Full Stack Product & Engineering Leader
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -72,13 +72,13 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Full stack _Product Leader_ with extensive experience in spearheading research and development for innovative digital tech products in hypergrowth. Presently, I oversee products at SAP that contribute to more than fifty percent of the organizational unit’s annual revenue by consulting on product strategy, engineering operations, and organization readiness for growth at scale.
+      Full stack _Product & Engineering Leader_ with extensive experience in spearheading research and development for innovative digital tech products in hypergrowth. Presently, I oversee products at SAP Signavio that contribute to the organisation’s long-term goals by consulting on product strategy and leading engineering operations for growth at scale.
 education:
     title: Education
     info:
         - degree: Master of Business Administration
           university: Boston University
-          time: 2021 - Present
+          time: 2022 - 2024
           details: |
             Describe your study here lorem ipsum dolor sit amet, consectetuer
             adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
