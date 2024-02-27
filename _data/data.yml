@@ -13,14 +13,14 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    #email: 66536097+markcrowe-com@users.noreply.github.com
+    #email: 66536097+marcocrowe@users.noreply.github.com
     #phone: 012 345 6789
     timezone: Ireland/GMT
     #citizenship:
-    website: markcrowe-com.github.io #do not add http://
-    #linkedin: markcrowe-com
-    #xing: markcrowe-com
-    github: markcrowe-com
+    website: marcocrowe.github.io #do not add http://
+    #linkedin: marcocrowe
+    #xing: marcocrowe
+    github: marcocrowe
     telegram: # add your nickname without '@' sign
     gitlab: markcrowe
     bitbucket:
