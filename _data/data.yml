@@ -153,7 +153,7 @@ publications:
     papers:
       - title: Low-Power Encoding for PAM-3 DRAM Bus
         authors: J. Nam, J. Han, and H. Kim
-        conference: 27th DDECS in Kielce, Poland, April 3-5, 2024
+        #conference: 27th DDECS in Kielce, Poland, April 3-5, 2024
 
 skills:
     title: SKILLS & PROFICIENCY
