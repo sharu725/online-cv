@@ -4,6 +4,18 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+.skill-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills p {
+  margin: 0; /* Remove default margin */
+}
+
+.skills p span {
+  font-weight: bold; /* Example: make skills bold */
+}
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -26,6 +38,9 @@ nav,
 section,
 summary {
   display: block;
+}
+details  ul {
+  padding-left: 50px;
 }
 audio,
 canvas,

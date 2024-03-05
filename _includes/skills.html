@@ -10,22 +10,35 @@
     {{ skills.title }}
   </h2>
 
-  <div class="skillset">
+<!--  <div class="skillset">-->
 
-    {% for skill in skills.toolset %}
-    <div class="item">
+<!--    {% for skill in skills.toolset %}-->
+<!--    <div class="item">-->
 
-      <h3 class="level-title">{{ skill.name }}</h3>
+<!--      <h3 class="level-title">{{ skill.name }}</h3>-->
 
-      <div class="level-bar">
-        <div class="level-bar-inner" data-level="{{ skill.level }}">
-        </div>
-      </div><!--//level-bar-->
+<!--      <div class="level-bar">-->
+<!--        <div class="level-bar-inner" data-level="{{ skill.level }}">-->
+<!--        </div>-->
+<!--      </div>&lt;!&ndash;//level-bar&ndash;&gt;-->
 
-    </div><!--//item-->
-    {% endfor %}
+<!--    </div>&lt;!&ndash;//item&ndash;&gt;-->
+<!--    {% endfor %}-->
 
+<!--  </div>-->
+  <div class="skill-section">
+    <div class="skills">
+      <p><strong>Programming Languages: </strong><span>Java, Python, C++, C, SQL, Kotlin, TypeScript, JavaScript, R, Scala, Bash script</span></p>
+      <p><strong>Databases: </strong><span>MySQL, Redis, MemCached, NoSQL, PostgreSQL, MongoDB, SQLite, MSSQL</span></p>
+      <p><strong>Frameworks: </strong><span>Spring Boot, React, Flask, Locust, Srping MVC, Django, OpenFaas, Node.js, JUnit</span></p>
+      <p><strong>Tools: </strong><span>Docker, Git, Maven, Gradle, Jenkins, Postman, SoapUI, Minikube, IntelliJ, JupyterLab, Sonar</span></p>
+      <p><strong>Libraries: </strong><span>Scikit-learn, Jacoco, NumPy, Pandas, Matplotlib, JDBC, Mybatis, Hibernate-ORM</span></p>
+      <p><strong>AWS Technologies: </strong><span>Lambda, EC2, ASG, SQS, S3, RDS, DynamoDB, Athena, Step Functions, IAM</span></p>
+      <p><strong>Technologies: </strong><span>ActiveMq, Kubernetes, REST, Kafka, RabbitMq, gRPC, SOAP, Ceph, ZooKeeper, Heroku, OOPs</span></p>
+      <!--    <p>Databases: <span>MySQL, Redis, MemCached, NoSQL, PostgreSQL, MongoDB, SQLite, MSSQL</span></p>-->
+    </div>
   </div>
 
 </section><!--//skills-section-->
 {% endif %}
+

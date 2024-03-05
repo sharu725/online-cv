@@ -8,67 +8,66 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Raviteja
+    tagline: Software Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    email: rguntak1@asu.edu
+    phone: 623 632 4758
+    timezone: Mountain Standard Time
+    citizenship: Indian
+    website: raviteja-reddy-guntaka.github.io #do not add http://
+    linkedin: ravi-teja-reddy
+#    xing: alandoe
+    github: raviteja-reddy-guntaka
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter:
+    stack-overflow: 4911177/raviteja-reddy # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: https://www.linkedin.com/in/ravi-teja-reddy/overlay/1709282750451/single-media-viewer/?profileId=ACoAABa0acEBY55EArUkViXisptADSsJj-yhpJs
 
     languages:
       title: Languages
       info:
         - idiom: English
+          level: Professional
+
+        - idiom: Hindi
+          level: Professional
+
+        - idiom: Telugu
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
-
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
+#    interests:
+#      title: Interests
+#      info:
+#        - item: Climbing
+#          link:
+#
+#        - item: Snowboarding
+#          link:
+#
+#        - item: Cooking
+#          link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Backend Developer experienced in building robust microservices and web applications,
+      adept at integrating data from various sources and third-party APIs to streamline 
+      processes and enhance functionality. Proven ability to design and implement scalable 
+      solutions to meet business requirements. Passionate about leveraging technology to 
+      drive innovation and deliver exceptional user experiences.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: MS in Computer Science
+        university: Arizona State UNiversity
+        time: Aug 2022 - May 2024
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -77,9 +76,9 @@ education:
           pretium quis, sem.
             - Bullet point
             - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+      - degree: BTech in Mathematics & Computing
+        university: Indian Institute of Technology Guwahati (IITG)
+        time: Jul 2013 - Jun 2017
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -92,174 +91,263 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Software Development Intern
+        time: May 2023 - Present
+        company: ESRI, Redlands, CA, USA
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+            - Architected a suite of REST APIs in Java to perform seamless CRUD operations over NoSQL database.
+            - Engineered a JSON-based solution to enable defining custom data classification model. Complemented by a POC application developed in React and TypeScript.
       - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+        time: Mar 2021 - Aug 2022
+        company: ClearTax, Bangalore, India
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+            - Order Management Service - (Backend microservice)
+              - Developed Low Level Design following SOLID principles and design patterns like Factory, Builder and Singleton.
+              - Devised REST APIs and webhooks using Java Spring Boot and MySQL ensuring idempotency for transactions.
+              - Created exhaustive unit and integration tests using Jacoco library to maintain a code coverage of over 90%.
+            - Sales Sync Service - (Event-driven backend microservice)
+              - Engineered a robust microservice with AWS Step Functions workflows, implementing an event-driven architecture
+                for seamless synchronization of offline sales data from Salesforce to the OMS.
+              - Designed workflows for offline sales creation and updation events, implemented in a Java Spring Boot application.
+              - Improved data accuracy by 60% and reduced human effort by 90% through synchronization workflows.
+            - Integrated SAML authentication in Python Django application through REST APIs for customer onboarding.
+            - Performed stress and load testing on 5 backend microservices using Locust to measure throughput and latency.
+      - role: Senior Software Engineer
+        time: Apr 2019 - Mar 2021
+        company: Arcesium, Hyderabad, India
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+            - Data Warehouse Pipelines - Custom ETL Application
+              - Spearheaded a 3-member cross-functional team in building ActiveMQ based events processing Microservice.
+              - Implemented pessimistic locking for data consistency. Pipeline is capable of processing books with 2 million events.
+              - Reduced the application deployment time by 60% through containerization and github CI/CD pipeline.
+            - Utilizing caching, asynchronous calls and batching, improved application performance by over 30%.
+            - Exposed REST endpoints to pause or resume Spring Batch job thus reducing failure handling effort by 40%.
+      - role: Solution Integration Consultant - I
+        time: Jun 2017 - Mar 2019
+        company: FICO, Bangalore, India
+        details: |
+            - Analysed business requirements and enhanced RDBMS schema of Java web application by extending base product.
+            - Added an auditing capability leveraging the change event in jQuery for seamless tracking of data changes.
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+#certifications:
+#      title: Certifications
+#      list:
+#        - name: CV Builder
+#          start: 2020
+#          end: 2021
+#          organization: Microsoft
+#          credentialid: 111-222
+#          credentialurl: www.google.com
+#          credentialname: Google
+#          details: |
+#            Details about cert. Lorem ipsum dolor sit amet, consectetur
+#            adipiscing elit.
+#            Nullam eget orci purus. Nullam ultrices neque nibh.
+#            Aenean fermentum, felis vulputate suscipit accumsan,
+#            sem enim bibendum augue, sed convallis arcu lacus at dui.
+#            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#            Praesent venenatis erat non augue suscipit consectetur.
+#
+#            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+#            fringilla vel. Ut euismod, sem sed vulputate venenatis,
+#            justo diam viverra velit, sed rhoncus leo leo eu justo.
+#            Suspendisse placerat risus ante, sed porta nisi blandit at.
+#        - name: Git learning
+#          start: 2019
+#          end:
+#          organization: Microsoft
+#          credentialid: 111-222
+#          credentialurl: www.github.com
+#          credentialname: Github
+#          details: |
+#            Older certification. Lorem ipsum dolor sit amet, consectetur
+#            adipiscing elit.
+#            Nullam eget orci purus. Nullam ultrices neque nibh.
+#            Aenean fermentum, felis vulputate suscipit accumsan,
+#            sem enim bibendum augue, sed convallis arcu lacus at dui.
+#            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#            Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
     title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#    intro: >
+#      You can list your side projects in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Face Recognition as a Service
+        link: https://github.com/raviteja-reddy-guntaka/FaceRecognition-aws-IaaS-Application
+        tagline: "A web app which accepts POST requests with images and returns face recognition result as text in response (IaaS and PaaS Architecture)."
+        details: |
+            - Created a multi-threaded Python Flask application on AWS EC2 along with essential S3 buckets and SQS queues.
+            - Replicated auto-scaling behavior in Python script to dynamically provision up to 20 instances from saved AMI.
+            - Shifted from IaaS to PaaS architecture using AWS Lambda, eliminating the auto-scaling script dependency.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: FitLife
+        link: https://github.com/raviteja-reddy-guntaka/FitLife
+        tagline: "Android application"
+        details: |
+            - Created an android application using Kotlin to suggest personalized workouts as per user preferences and history.
+            - By leveraging coroutines, we significantly enhanced the transition between different activities in the Android application, resulting in a smoother and more seamless user experience.
+            - Developed fuzzy logic to generate user rating and suggest workouts. Added capability to record user feedback.
+            - Used camera and accelerometer sensor in the smart phone to measure metrics like heart and respiratory rate.
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Glucose Data Analysis & Clustering
+        link:
+        tagline: "Machine learning model for use in Glucose Monitoring machines."
+        details: |
+            - Developed a Python script for extracting Time Series data from Continuous Glucose Monitoring (CGM) and insulin pump datasets.
+            - Implemented a feature extraction pipeline and generated a machine learning model to derive valuable insights for optimizing diabetes treatment strategies.
+            - Designed and executed a clustering algorithm to categorize data patterns. Evaluated the accuracy of clustering using key metrics, including Sum of Squared Errors (SSE) and supervised cluster validity metrics.
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Habitability Prediction of Exoplanets
+        link:
+        tagline: "Machine Learning model to predict habitability of an Exoplanet"
+        details: |
+            - Performed data pre-processing and Exploratory Data Analysis (EDA) on PHL data for feature selection.
+            - Implemented a collection of Machine Learning models like SVM, Logistic Regression, KNN, K-Means on the pre-processed data.
+            - Compared the model prediction accuracy using metrics like Accuracy, Precision, Recall and F1 Score. Achieved an average accuracy of 97%.
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#oss:
+#    title: OSS Contributions
+#    intro: >
+#      You can list your open source software contributions in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#    contributions:
+#      - title: Tempo
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#
+#      - title: Atom
+#        link: "#"
+#        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+#      - title: Delta
+#        link: "#"
+#        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
+#publications:
+#    title: Publications
+#    intro: |
+#      You can list your publications in this section. Lorem ipsum dolor sit
+#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#      bibendum fringilla a eu lectus.
+#    papers:
+#      - title: The Art of Computer Programming
+#        link: "#"
+#        authors: Donald E. Knuth
+#        conference: Addison-Wesley, 1968
+#
+#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#        link: "#"
+#        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#
+#      - title: A syntax directed compiler for Algol 60
+#        link: "#"
+#        authors: Edgar T. Irons
+#        conference: "Comm. ACM 4 (1961), 51–55"
+#
 skills:
     title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+#
+#    toolset:
+#      - name: Java
+#        level: 98%
+#
+#      - name: Python
+#        level: 98%
+#
+#      - name: C / C++
+#        level: 98%
+#
+#      - name: SQL
+#        level: 95%
+#
+#      - name: Kotlin
+#        level: 85%
+#
+#      - name: TypeScript
+#        level: 60%
+#
+#      - name: Javascript & jQuery
+#        level: 98%
+#
+#      - name: R Language
+#        level: 98%
+#
+#      - name: Scala
+#        level: 95%
+#
+#      - name: Bash script
+#        level: 85%
+#
+#      - name: MySQL
+#        level: 60%
+#
+#      - name: Redis
+#        level: 98%
+#
+#      - name: MemCached
+#        level: 98%
+#
+#      - name: NoSQL
+#        level: 95%
+#
+#      - name: PostgreSQL
+#        level: 85%
+#
+#      - name: MongoDB
+#        level: 60%
+#
+#      - name: SQLite
+#        level: 98%
+#
+#      - name: MSSQL
+#        level: 98%
+#
+#      - name: HTML5 & CSS
+#        level: 95%
+#
+#      - name: Ruby on Rails
+#        level: 85%
+#
+#      - name: Sketch & Photoshop
+#        level: 60%
+#
+#      - name: Javascript & jQuery
+#        level: 98%
+#
+#      - name: Angular
+#        level: 98%
+#
+#      - name: HTML5 & CSS
+#        level: 95%
+#
+#      - name: Ruby on Rails
+#        level: 85%
+#
+#      - name: Sketch & Photoshop
+#        level: 60%
+#
+#      - name: Javascript & jQuery
+#        level: 98%
+#
+#      - name: Angular
+#        level: 98%
+#
+#      - name: HTML5 & CSS
+#        level: 95%
+#
+#      - name: Ruby on Rails
+#        level: 85%
+#
+#      - name: Sketch & Photoshop
+#        level: 60%
+#
+#
+#footer: >
+#    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
