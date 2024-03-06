@@ -2,7 +2,7 @@
 body {
   font-family: 'Tahoma', sans-serif;;
   color: $text-color-secondary;
-  background: $smoky-white;
+  background: #A2D7CF;
   font-size: 14px;
   padding: 30px;
   -webkit-font-smoothing: antialiased;
@@ -38,6 +38,7 @@ p {
   grid-template-columns: repeat(10, 1fr);
   background: $theme-color;
   max-width: 1000px;
+  border-right: 1px solid #ccc;
   margin: 0 auto;
   position: relative;
   @include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
@@ -47,38 +48,42 @@ p {
   grid-column: span 3;
   order: $sidebar-order;
   background: $theme-color;
-  color: #fff;
+  border-right: 1.8px solid #fff;
+  //padding-right: 20px;
+  color: #0B1A19;
   a {
-    color: #fff;
+    color: #E3F3F2;
   }
   .profile-container {
     padding: 30px;
-    //background: darken($theme-color, 10%);
-    background: rgba(0, 0, 0, 0.2);
+    background: darken($theme-color, 30%);
+    //background: rgba(0, 0, 0, 0.2);
     text-align: center;
     color: #fff;
   }
   .name {
     font-size: 32px;
     font-weight: 900;
-    margin-top: 0;
+    margin-top: 10px;
     margin-bottom: 10px;
   }
   .tagline {
-    color: rgba(256, 256, 256, 0.6);
+    color: #E3F3F2;
+    //color: rgba(256, 256, 256, 0.6);
     font-size: 16px;
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 0;
   }
   .profile {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 
   .avatar {
     //used for profile image
-    max-width: 100px;
-    margin-bottom: 15px;
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 5px;
     border: 0px solid #fff;
     border-radius: 100%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
@@ -162,8 +167,12 @@ p {
 .main-wrapper {
   grid-column: span 7;
   order: $resume-order;
-  background: #fff;
+  background: #0B1A19;
   padding: 60px;
+  border-right: 1.2px solid #ccc;
+  border-bottom: 1.2px solid #ccc; 
+  padding-bottom: 20px;
+  padding-right: 20px;
   .section-title {
     text-transform: uppercase;
     font-size: 20px;
@@ -175,6 +184,8 @@ p {
   }
   .section {
     margin-bottom: 60px;
+    border-bottom: 1px solid #ccc; /* Cambia el color y grosor según tus preferencias */
+    padding-bottom: 20px;
   }
 
   .experiences-section,

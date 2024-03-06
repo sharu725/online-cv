@@ -3,14 +3,14 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
+    position: left # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Martin Vasquez
     tagline: Student
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: Profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: martinvasquezr@outlook.com
@@ -20,7 +20,7 @@ sidebar:
     website: no website #do not add http://
     linkedin: no linkedin
     xing: no xing
-    github: martinvasquezr
+    github: MartinVR009
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
@@ -45,14 +45,14 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Climbing
-          link:
+        - item: Game development
+          link: https://dev-axis.itch.io
 
-        - item: Snowboarding
-          link:
+        - item: Web development
+          link: https://github.com/MartinVR009
 
-        - item: Cooking
-          link:
+        - item: Problem Solving
+          link: https://github.com/code50/125981830
 
 career-profile:
     title: Career Profile
