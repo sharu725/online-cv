@@ -16,9 +16,9 @@ sidebar:
 
   # Sidebar links
   email: antony.s.smirnov@gmail.com
-  website: test-engineer.online
-  linkedin: vaskocuturilo
-  github: vaskocuturilo
+  website: https://test-engineer.tech/
+  linkedin: https://www.linkedin.com/in/vaskocuturilo
+  github: https://github.com/vaskocuturilo
 
   languages:
     - idiom: Russian
@@ -34,27 +34,28 @@ sidebar:
     - item: Testing / Programming
       link: https://github.com/vaskocuturilo/
 
-    - item: Travelling
-      link: https://www.instagram.com/testengineerinfo/
+    - item: Articles
+      link: https://medium.com/@antony-s-smirnov
 
 
 career-profile:
   title: Career Profile
   summary: '<div><ul>
-            <li>9+ years overall experience in IT field.</li>
-            <li>3+ years experience in Software Testing.</li>
-            <li>2+ years experience in Test Automation.</li>
-            <li>Strong knowledge: Java 8, Selenium WebDriver / Selenide, Maven/Gradle, TestNG/JUnit, Allure, Jenkins, Git, Docker, REST, SQL.</li>
+            <li>10+ years overall experience in IT field.</li>
+            <li>8+ years experience in Software Testing.</li>
+            <li>5+ years experience in Test Automation.</li>
+            <li>Strong knowledge: Java 8/11/17/21, JavaScript/TypeScript, Cypress/Playwright, Selenium/Selenide, Maven/Gradle, TestNG/JUnit, Jest/Vitest, Gitlab/Github/Jenkins, Allure, Git, Docker, REST, SQL.</li>
             <li>Experience in creating test automation frameworks / raising up automation infrastructure from scratch.</li>
             <li><a href="https://github.com/vaskocuturilo">GitHub</a> profile</li>
-            <li>IT <a href="http://test-engineer.site/">blogger</a></li>
+            <li>IT <a href="https://test-engineer.tech/">blogger</a></li>
             </ul></div>
-            <div>I started career as a manual tester and have passed a long way from junior  up to qa lead position. 
-            Since 2016 have been fully concentrated on software test automation (mostly web direction). 
-            Developed few frameworks with successful usage experience on big projects.</div><br>Consulting and coaching automation engineers within local teams. 
-            Actively participating in code review processes. Continuously improving skills in Java / Pyhton and latest web automation trends.
-            Strong knowledge of software testing fundamentals, testing throughout the software life cycle, test design techniques, 
-            and tool support for testing.'
+            <div>I began my journey in the software industry as a manual tester, gradually progressing from a junior role to that of a Senior QA automation engineer. 
+            Since 2016, I have dedicated myself entirely to the realm of software test automation, encompassing web, mobile, and API testing. 
+            Over the years, I have honed my skills, developing several frameworks that have proven successful on large-scale projects</div>
+            <br>In addition to my technical contributions, I have also taken on a mentoring role, providing guidance and coaching to fellow automation engineers within local teams. 
+            I actively participate in code review processes, striving to uphold high standards of quality and efficiency.I am committed to staying abreast of the latest advancements in automation technology, continually enhancing my proficiency in Java, JavaScript, and TypeScript, and emerging web automation trends. 
+            With a robust understanding of software testing fundamentals, including testing throughout the software life cycle and various test design techniques, I am well-equipped to navigate complex testing challenges. 
+            Furthermore, I possess comprehensive knowledge of tool support for testing, ensuring effective and streamlined testing processes.
 
 
 education:
@@ -66,6 +67,11 @@ education:
 
 experiences:
   - role: QA Automation Engineer
+    time: 2018 - 2019
+    company: Gosuslugi, Moscow
+    details:
+    
+  - role: QA Automation Engineer
     time: 2020 - 2021
     company: Dostavista Global, Moscow
     details:
@@ -74,12 +80,7 @@ experiences:
     time: 2019 - 2020
     company: Sportamix, Los Angeles
     details:
-
-  - role: QA Automation Engineer
-    time: 2018 - 2019
-    company: Gosuslugi, Moscow
-    details:
-
+    
 projects:
   title: Projects
   intro: "Here you can find a list of commercial projects I've been working on for the past 5 years.
@@ -87,17 +88,17 @@ projects:
 
 
   assignments:
-    - title: Dostavista Global
-      link: "https://dostavista.global/"
-      tagline: "Global crowdsourced delivery service in 60 minutes or precisely on time."
+    - title: Andersen lab
+      link: "https://andersenlab.com"
+      tagline: "Software Development Company"
+
+    - title: Borzo
+      link: "https://borzodelivery.com/"
+      tagline: "Fast and flexible intra-city delivery for businesses and individuals. Place an order in seconds, and your customers will receive their items the same day: in 60 minutes or at a specified time."
 
     - title: Sportamix
       link: "https://sportamix.com/"
       tagline: "Sportamix has revolutionized networking in the sports industry by offering direct communication between athletes, coaches, recruiters, and fans around the world."
-
-    - title: Gosuslugi
-      link: "https://www.gosuslugi.ru/"
-      tagline: "Portal of public services of the Russian Federation"
 
     - title: Farecompare
       link: "https://www.farecompare.com/"
