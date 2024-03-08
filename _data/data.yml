@@ -33,13 +33,13 @@ sidebar:
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Spanish
           level: Native
 
-        - idiom: French
+        - idiom: English
           level: Professional
 
-        - idiom: Spanish
+        - idiom: French
           level: Professional
 
     interests:
