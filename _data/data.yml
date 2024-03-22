@@ -59,6 +59,12 @@ career-profile:
 education:
     title: Education
     info:
+      - degree: PhD in Computer Science
+        university: University of Stuttgart
+        time: 2020 - now
+        details: |
+            - Institute of Visualisation and Interactive System
+            - Human-computer Interaction and Cognitive System Lab
       - degree: M.Sc. in Computer Software and Technology
         university: Peking University
         time: 2017 - 2020
@@ -109,6 +115,16 @@ publications:
       See my <a href="https://scholar.google.com/citations?user=X8je0QsAAAAJ">Google Scholar</a> page for full publication list. <br>
       §: Equal contribution.
     papers:
+      - title: "VisRecall++: Analysing and Predicting Recallability of Information Visualisations from Gaze Behaviour "
+        link: "https://perceptualui.org/publications/wang24_etra/"
+        authors: <b>Y. Wang</b>, Y. Jiang, Z. Hu, C. Ruhdorfer, M. Bâce, A. Bulling
+        conference: "Proceedings of ACM on Human-Computer Interaction (PACM HCI), 2024"
+
+      - title: "Saliency3D: a 3D Saliency Dataset Collected on Screen"
+        link: "https://perceptualui.org/publications/wang24_etras/"
+        authors: <b>Y. Wang§</b>, Q. Dai§, M. Bâce, K. Klein, A. Bulling
+        conference: "2024 Symposium on Eye Tracking Research and Applications (ETRA), No. 18, pp. 1-9"
+
       - title: "SalChartQA: Question-driven Saliency on Information Visualisations"
         link: "https://perceptualui.org/publications/wang24_chi/"
         authors: <b>Y. Wang</b>, W. Wang, A. Abdelhafez, M. Elfares, Z. Hu, M. Bâce, A. Bulling
@@ -157,10 +173,10 @@ skills:
       - name: Computer Vision
         level: 95%
 
-      - name: Human Computer Interaction
-        level: 90%
-
       - name: Information Visualization
+        level: 85%
+
+      - name: Human Computer Interaction
         level: 85%
 
       - name: Natural Language Processing
@@ -169,9 +185,6 @@ skills:
     toolset:
       - name: Python (PyTorch, Keras, Numpy, Pandas, Django...)
         level: 98%
-
-      - name: Git
-        level: 90%
 
       - name: Javascript (Vue.js), CSS, HTML
         level: 90%
@@ -183,6 +196,9 @@ skills:
         level: 70%
 
       - name: Java
+        level: 60%
+
+      - name: Php
         level: 60%
 
 footer: >
