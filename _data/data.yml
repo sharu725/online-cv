@@ -3,6 +3,7 @@
 #
 
 sidebar:
+    position: right # position of the sidebar : left or right
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
@@ -86,27 +87,6 @@ experiences:
         details: |
           My PhD topic is visual attention modelling for optimization of information visualizations, which integrated to Project A07 in <a href="https://www.sfbtrr161.de/research/project_a07/">SFB-TRR 161</a>.
           My first research goal is acquiring large-scale humanlike attention data without eye tracking equipment on information visualizations. I turn to crowdsourcing approaches (webcam or mouse-clicking) or gaze data synthesis by generative or cognitive models. My second research goal is to computationally model human visual behaviour (saliency map, scanpath) under different tasks (top-down) in information visualizations. My third research goal is to develop a task-driven computational model to optimize information visualisation by maximising metrics (e.g. recallability, gaze uncertainty).
-#projects:
-#    title: Projects
-#    intro: >
-#      You can list your side projects in this
-#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#    assignments:
-#      - title: Velocity
-#        link: "#hook"
-#        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-#oss:
-#    title: OSS Contributions
-#    intro: >
-#      You can list your open source software contributions in this
-#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#    contributions:
-#      - title: Tempo
-#        link: "#"
-#        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
 
 publications:

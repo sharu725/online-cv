@@ -45,7 +45,7 @@ p {
 
 .sidebar-wrapper {
   grid-column: span 3;
-  order: 2;
+  order: $sidebar-order;
   background: $theme-color;
   color: #fff;
   a {
@@ -161,6 +161,7 @@ p {
 
 .main-wrapper {
   grid-column: span 7;
+  order: $resume-order;
   background: #fff;
   padding: 60px;
   .section-title {
@@ -182,14 +183,16 @@ p {
       margin-bottom: 30px;
     }
   }
-  .upper-row {
+  .upper-row,
+  .second-upper-row {
     position: relative;
     overflow: hidden;
     margin-bottom: 2px;
     display: flex;
   }
   .job-title,
-  .degree {
+  .degree,
+  .cert-title{
     color: $text-color;
     font-size: 16px;
     margin-top: 0;
@@ -197,7 +200,8 @@ p {
     font-weight: 500;
     flex: 75%;
   }
-  .time {
+  .time,
+  .cert-url {
     position: absolute;
     right: 0;
     top: 0;
@@ -205,7 +209,8 @@ p {
     flex: 25%;
   }
   .company,
-  .university {
+  .university,
+  .cert-org {
     margin-bottom: 10px;
     color: $text-grey;
   }
@@ -279,3 +284,4 @@ p {
     color: $heart;
   }
 }
+
