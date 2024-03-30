@@ -14,15 +14,17 @@ sidebar:
 
     # Sidebar links
     email: baopk22092004@gmail.com
-    phone: +84: 0383710728
+    phone: +84:0383710728
+    timezone: America/Cancun Timezone
     citizenship:
-    website: 
-    linkedin: Thien Bao
-    github: thnbao22
+    website: blog.webjeda.com #do not add http://
+    linkedin: alandoe
+    xing: alandoe
+    github: sharu725
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: 
+    twitter: '@webjeda'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -33,14 +35,23 @@ sidebar:
       info:
         - idiom: English
           level: Native
-          
+
+        - idiom: French
+          level: Professional
+
+        - idiom: Spanish
+          level: Professional
+
     interests:
       title: Interests
       info:
-        - item: Devops
+        - item: Climbing
           link:
 
-        - item: Coding
+        - item: Snowboarding
+          link:
+
+        - item: Cooking
           link:
 
 career-profile:
@@ -48,16 +59,17 @@ career-profile:
     summary: |
       I am currently studying Information Technology at the Ho Chi Minh University of Transport.
       My greatest strength is my ability to work well under pressure. I am comfortable working with different groups of people and can transform a negative work environment into a positive one. 
-      I am also able to learn well on my own, handle multiple tasks, and have excellent communication skills. 
+          I am also able to learn well on my own, handle multiple tasks, and have excellent communication skills.          
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Bachelor of Infromation Technology
+        university: University of Trasport Ho Chi Minh City
+        time: 2022 - 2026
         details: |
           Throughout my education, I have learned the importance of teamwork and supporting other students in achieving their goals. I have also gained theoretical knowledge in subjects like corporate communication and international economics.
-                 
+          My greatest strength is my ability to work well under pressure. I am comfortable working with different groups of people and can transform a negative work environment into a positive one. 
+          I am also able to learn well on my own, handle multiple tasks, and have excellent communication skills.        
             - Bullet point
             - Bullet point
       - degree: BSc in Applied Mathematics
@@ -71,6 +83,7 @@ education:
           pretium quis, sem.
             - Bullet point
             - Bullet point
+      
 
 experiences:
     title: Experiences
