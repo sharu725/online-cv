@@ -14,27 +14,33 @@ sidebar:
 
     # Sidebar links
     email: baopk22092004@gmail.com
-    phone: +84: 0383710728
-    timezone: 
+    phone: +84:0383710728
+    timezone: America/Cancun Timezone
     citizenship:
-    website:  #do not add http://
-    linkedin: Thien Bao
-    xing: 
-    github: thnbao22
+    website: blog.webjeda.com #do not add http://
+    linkedin: alandoe
+    xing: alandoe
+    github: sharu725
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: 
+    twitter: '@webjeda'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: 
+    pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
         - idiom: English
           level: Native
+
+        - idiom: French
+          level: Professional
+
+        - idiom: Spanish
+          level: Professional
 
     interests:
       title: Interests
@@ -51,17 +57,32 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am currently studying Information Technology at the Ho Chi Minh University of Transport. My greatest strength is my ability to work well under pressure. I am comfortable working with different groups of people and can transform a negative work environment into a positive one. I am also able to learn well on my own, handle multiple tasks, and have excellent communication skills.          
+      I am currently studying Information Technology at the Ho Chi Minh University of Transport.
+      My greatest strength is my ability to work well under pressure. I am comfortable working with different groups of people and can transform a negative work environment into a positive one. 
+          I am also able to learn well on my own, handle multiple tasks, and have excellent communication skills.          
 education:
     title: Education
     info:
       - degree: Bachelor of Infromation Technology
         university: University of Trasport Ho Chi Minh City
         time: 2022 - 2026
-        details: |       
+        details: |
+          Throughout my education, I have learned the importance of teamwork and supporting other students in achieving their goals. I have also gained theoretical knowledge in subjects like corporate communication and international economics.
+          My greatest strength is my ability to work well under pressure. I am comfortable working with different groups of people and can transform a negative work environment into a positive one. 
+          I am also able to learn well on my own, handle multiple tasks, and have excellent communication skills.        
             - Bullet point
             - Bullet point
-      
+      - degree: BSc in Applied Mathematics
+        university: Bristol University
+        time: 2007 - 2011
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
       
 
 experiences:
