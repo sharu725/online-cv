@@ -8,13 +8,13 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Thien Bao
+    tagline: 
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
+    email: baopk22092004@gmail.com
+    phone: +84:0383710728
     timezone: America/Cancun Timezone
     citizenship:
     website: blog.webjeda.com #do not add http://
@@ -57,24 +57,19 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am currently studying Information Technology at the Ho Chi Minh University of Transport.
+      My greatest strength is my ability to work well under pressure. I am comfortable working with different groups of people and can transform a negative work environment into a positive one. 
+          I am also able to learn well on my own, handle multiple tasks, and have excellent communication skills.          
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Bachelor of Infromation Technology
+        university: University of Trasport Ho Chi Minh City
+        time: 2022 - 2026
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
+          Throughout my education, I have learned the importance of teamwork and supporting other students in achieving their goals. I have also gained theoretical knowledge in subjects like corporate communication and international economics.
+          My greatest strength is my ability to work well under pressure. I am comfortable working with different groups of people and can transform a negative work environment into a positive one. 
+          I am also able to learn well on my own, handle multiple tasks, and have excellent communication skills.        
             - Bullet point
             - Bullet point
       - degree: BSc in Applied Mathematics
@@ -88,6 +83,7 @@ education:
           pretium quis, sem.
             - Bullet point
             - Bullet point
+      
 
 experiences:
     title: Experiences
