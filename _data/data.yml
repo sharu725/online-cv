@@ -15,7 +15,6 @@ sidebar:
     # Sidebar links
     email: baopk22092004@gmail.com
     phone: +84:0383710728
-    timezone: America/Cancun Timezone
     citizenship:
     website: blog.webjeda.com #do not add http://
     linkedin: alandoe
@@ -35,23 +34,14 @@ sidebar:
       info:
         - idiom: English
           level: Native
-
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
-
+          
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Devops
           link:
 
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
+        - item: Coding
           link:
 
 career-profile:
