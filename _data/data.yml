@@ -29,9 +29,30 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: 
 
-    technologies:
-        title: Technology stack
-        info: 
+  skills:
+      title: Skills &amp; Proficiency
+
+      toolset:
+        - name: C / C++
+          level: 98%
+
+        - name: Python
+          level: 98%
+          
+        - name: Linux
+          level: 90%
+        
+        - name: Git
+          level: 90%
+          
+        - name: JavaScript
+          level: 90%
+          
+        - name: PHP
+          level: 80%
+          
+        - name: HTML5 & CSS
+          level: 80%
     
     languages:
       title: Languages
@@ -112,27 +133,4 @@ experiences:
         details: |
           As a member of the Viking Team, tasked with developing an electric car for the Formula Student Competition, my primary responsibility was the design of the Battery Management System (BMS). 
           The BMS was designed to provide basic functionality, including protection of the battery pack during the charging and discharging process, and communication through Controller Area Network (CAN) to send real-time data about the battery pack's parameters to the user interface.
-skills:
-    title: Skills &amp; Proficiency
 
-    toolset:
-      - name: C / C++
-        level: 98%
-
-      - name: Python
-        level: 98%
-        
-      - name: Linux
-        level: 90%
-      
-      - name: Git
-        level: 90%
-        
-      - name: JavaScript
-        level: 90%
-        
-      - name: PHP
-        level: 80%
-        
-      - name: HTML5 & CSS
-        level: 80%
