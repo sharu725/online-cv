@@ -126,6 +126,14 @@ experiences:
           My role involved implementing analytics and optimization software to measure, analyze, and enhance the online efficiency of our clients. 
           This required identifying and specifying a technical solution that aligned with the customer's requirements, architecture, and infrastructure, including MySQL databases with big data. 
           Worked with code using programming languages such as PHP, JavaScript, HTML, and CSS. As part of this process, I also administered MySQL databases and optimized SQL queries to ensure smooth operation.
+          Software stack used: 
+              - PHP (Laravel framework for backend development)
+              - MySQL database
+              - JavaScript (Ember JS framework for frontend development)
+              - HTML/CSS
+              - MongoDB database
+              - Java (Playframework for backend for backend development)
+              
       
       - role: Student assistant
         time: 2011 - 2012 (1 year)
