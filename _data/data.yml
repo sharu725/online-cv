@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Pawel Drabik
-    tagline: Senior Embedded Software Engineer
+    tagline: Senior Software Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -19,7 +19,7 @@ sidebar:
     website: 
     linkedin: pawel-drabik-81848364
     xing: 
-    github: pawel-drabik
+    github: owenek1
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
