@@ -29,6 +29,10 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: 
 
+    technologies:
+        title: Technology stack
+        info: 
+    
     languages:
       title: Languages
       info:
@@ -62,9 +66,8 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Senior Embedded Software Engineer with 5+ years of experience developing software for ASML lithography machines. 
-      Skilled in developing high quality embedded software and calibration software for the machines according to the requirements. 
-      Experienced in testing and debugging software to ensure it meets performance specification. Strong ability to work effectively in a team environment, collaborating with other software engineers, hardware engineers, and product managers. Utilizes Agile methodology, demonstrates high problem-solving skills, and with experience as a Lead Engineer and Scrum Master. 
+      Senior Software Engineer with 7 years of experience developing software. Skilled in developing high quality software according to its requirements. 
+      Experienced in testing and debugging software to ensure it meets performance specification. Strong ability to work effectively in a team environment, collaborating with other software engineers, hardware engineers, and product managers, both remote and on-site. Utilizes Agile methodology, demonstrates high problem-solving skills, and with experience as a Lead Engineer and Scrum Master. 
       Has excellent communication skills and teamwork abilities.
 
 education:
