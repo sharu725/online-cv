@@ -30,60 +30,60 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: 
 
-  skills:
-      title: Skills &amp; Proficiency
+skills:
+  title: Skills &amp; Proficiency
 
-      toolset:
-        - name: C / C++
-          level: 98%
+  toolset:
+    - name: C / C++
+      level: 98%
 
-        - name: Python
-          level: 98%
-          
-        - name: Linux
-          level: 90%
-        
-        - name: Git
-          level: 90%
-          
-        - name: JavaScript
-          level: 90%
-          
-        - name: PHP
-          level: 80%
-          
-        - name: HTML5 & CSS
-          level: 80%
+    - name: Python
+      level: 98%
+      
+    - name: Linux
+      level: 90%
     
-    languages:
-      title: Languages
-      info:
-        - idiom: Polish
-          level: Native
+    - name: Git
+      level: 90%
+      
+    - name: JavaScript
+      level: 90%
+      
+    - name: PHP
+      level: 80%
+      
+    - name: HTML5 & CSS
+      level: 80%
+    
+languages:
+  title: Languages
+  info:
+    - idiom: Polish
+      level: Native
 
-        - idiom: English
-          level: Proficient
+    - idiom: English
+      level: Proficient
 
-        - idiom: Spanish
-          level: Proficient
-        
-        - idiom: Dutch
-          level: Intermediate
+    - idiom: Spanish
+      level: Proficient
+    
+    - idiom: Dutch
+      level: Intermediate
 
-    interests:
-      title: Interests
-      info:
-        - item: Football
-          link:
+interests:
+  title: Interests
+  info:
+    - item: Football
+      link:
 
-        - item: Snowboarding
-          link:
+    - item: Snowboarding
+      link:
 
-        - item: Cooking
-          link:
-          
-        - item: Traveling
-          link:
+    - item: Cooking
+      link:
+      
+    - item: Traveling
+      link:
           
 career-profile:
     title: Career Profile
