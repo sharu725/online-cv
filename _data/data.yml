@@ -129,6 +129,7 @@ experiences:
           Software stack used: 
               - PHP (Laravel framework for backend development)
               - MySQL database
+              - SQL
               - JavaScript (Ember JS framework for frontend development)
               - HTML/CSS
               - MongoDB database
