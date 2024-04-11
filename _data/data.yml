@@ -113,14 +113,14 @@ experiences:
     title: Experiences
     info:
       - role: Embedded Software Engineer
-        time: 2017 - Present
+        time: 2017 - Present (7 years)
         company: ASML, Eindoven (The Netherlands)
         details: |
           Designing and developing embedded software for ASML lithography machines using programming languages such as C/C++ and Python. Collaboration with hardware and functional engineers to integrate software and hardware components.
           Lead Software Engineer and Scrum Master, with a track record of managing small development teams.
  
       - role: Software Engineer
-        time: 2013 - 2016
+        time: 2013 - 2016 (3 years)
         company: Adversitement B.V, Uden (The Netherlands)
         details: |
           My role involved implementing analytics and optimization software to measure, analyze, and enhance the online efficiency of our clients. 
@@ -128,7 +128,7 @@ experiences:
           Worked with code using programming languages such as PHP, JavaScript, HTML, and CSS. As part of this process, I also administered MySQL databases and optimized SQL queries to ensure smooth operation.
       
       - role: Student assistant
-        time: 2011 - 2012
+        time: 2011 - 2012 (1 year)
         company: University of Southern Denmark, Odense (Denmark)
         details: |
           As a member of the Viking Team, tasked with developing an electric car for the Formula Student Competition, my primary responsibility was the design of the Battery Management System (BMS). 
