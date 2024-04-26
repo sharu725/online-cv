@@ -55,6 +55,12 @@
     </li>
     {% endif %}
 
+    {% if sidebar.dockerhub %}
+    <li class="docker"><i class="fab fa-docker"></i>
+      <a href="https://hub.docker.com/u/{{ sidebar.dockerhub }}" target="_blank">{{ sidebar.dockerhub }}</a>
+    </li>
+    {% endif %}    
+
     {% if sidebar.gitlab %}
     <li class="gitlab"><i class="fab fa-gitlab"></i>
       <a href="http://gitlab.com/{{ sidebar.gitlab }}" target="_blank">{{ sidebar.gitlab }}</a>
