@@ -24,11 +24,11 @@ sidebar:
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: 
 
     languages:
       title: Languages
@@ -37,7 +37,7 @@ sidebar:
           level: Morsmål
 
         - idiom: Engelsk
-          level: Professional
+          level: Avansert
 
         - idiom: 
           level: 
@@ -45,7 +45,7 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Motorsykkel
+        - item: Motorsykler
           link:
 
         - item: Fotografi
