@@ -49,17 +49,12 @@ sidebar:
 career-profile:
     title: Karriereprofil
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Tidligere erfaring fra drift og datasenter 
 education:
     title: Utdannelse
     info:
-      - degree: MSc in Computer Science
-        university: University of London
+      - degree: Lærepenge
+        university: Høyskolen i Huttaheita
         time: 2011 - 2012
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
