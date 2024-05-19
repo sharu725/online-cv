@@ -68,26 +68,26 @@ experiences:
         time: 2012 - 2022
         company: Det Norske Veritas (DNV)
         details: |
-Synergi Life er en markedsledende softwareløsning for HMS/HSEQ og risikostyring, som leveres av DNV. 
-ImplementeringsprosjekterNy installasjon av Synergi Life, enten hos ny kunde eller utvidelse, gjerne geografisk, av et eksisterende kundemiljø. 
-Går i store trekk ut på å sette opp fullstendig eller delvis ny infrastruktur on-prem, i skyen eller i kombinasjon. Innebærer installasjon og konfigurasjon av MS-SQL server, Internet information Server (IIS), støttende programtillegg for IIS og Windows Server i tillegg til selve Synergi Life applikasjonen. 
-Det blir som regel holdt en workshop i forkant for å kartlegge og forstå kundens behov. 
-Denne danner grunnlaget for spesifikasjonen. En workshop har en HMS og en teknisk konsulent tilstede fra DNV. Som teknisk konsulent blir spesifikasjonen som oftest skrevet av Christopher. 
-I en workshop er det viktig at den tekniske konsulenten har en deltagende rolle, og forstår og noterer kundenes krav. 
-I workshop anmodes det om ryddig og saklig dialog, og det er viktig å kutte inn hvis det blir for mye frem-og-tilbake snakk. 
-Få på det rene hva man har blitt enig om og hva som skal være med i spesifikasjonen. 
-Når spesifikasjonen er godkjent av kunden kan et timeestimat anslås og pristilbud gis. 
-OppgraderingsprosjekterOppgradering av Synergi Life.  
-Den største utfordringen med denne typen prosjekt er endringer i databasemodellen fra versjon til versjon. 
-Det medfører at man må skrive om SQL spesialkriterier til å teste mot korrekte tabeller. 
-Det vil også alltid være typer spesialkonfigurasjon som ikke støttes lenger, og man må lage nye løsninger i den oppgraderte versjonen for å beholde nødvendig funksjonalitet. 
-KonfigurasjonsprosjekterKonfigurasjonsprosjekter er spesialtilpasninger av applikasjonen. 
-Dette kan være alt fra å lage obligatoriske felter, til å opprette helt nye sakstyper som ikke finnes fra før. 
-Synergi Life brukes i mange forskjellige bransjer, alt fra sykehus til oljeindustri og jernbanevirksomhet, for å nevne noen. 
-Med et vidt bransjespekter er det umulig å lage ett produkt som fungerer for alle, og en av styrkene i programvaren er fleksibiliteten til å kunne spesialtilpasse produktet. 
-Spesialkonfigurasjon gjøres stort sett i SQL og det er vanlig å holde workshop i forkant, som beskrevet under implementeringsprosjekter.
-            -  sjam
-            - æsjam
+          Synergi Life er en markedsledende softwareløsning for HMS/HSEQ og risikostyring, som leveres av DNV. 
+          ImplementeringsprosjekterNy installasjon av Synergi Life, enten hos ny kunde eller utvidelse, gjerne geografisk, av et eksisterende kundemiljø. 
+          Går i store trekk ut på å sette opp fullstendig eller delvis ny infrastruktur on-prem, i skyen eller i kombinasjon. Innebærer installasjon og konfigurasjon av MS-SQL server, Internet information Server (IIS), støttende programtillegg for IIS og Windows Server i tillegg til selve Synergi Life applikasjonen. 
+          Det blir som regel holdt en workshop i forkant for å kartlegge og forstå kundens behov. 
+          Denne danner grunnlaget for spesifikasjonen. En workshop har en HMS og en teknisk konsulent tilstede fra DNV. Som teknisk konsulent blir spesifikasjonen som oftest skrevet av Christopher. 
+          I en workshop er det viktig at den tekniske konsulenten har en deltagende rolle, og forstår og noterer kundenes krav. 
+          I workshop anmodes det om ryddig og saklig dialog, og det er viktig å kutte inn hvis det blir for mye frem-og-tilbake snakk. 
+          Få på det rene hva man har blitt enig om og hva som skal være med i spesifikasjonen. 
+          Når spesifikasjonen er godkjent av kunden kan et timeestimat anslås og pristilbud gis. 
+          OppgraderingsprosjekterOppgradering av Synergi Life.  
+          Den største utfordringen med denne typen prosjekt er endringer i databasemodellen fra versjon til versjon. 
+          Det medfører at man må skrive om SQL spesialkriterier til å teste mot korrekte tabeller. 
+          Det vil også alltid være typer spesialkonfigurasjon som ikke støttes lenger, og man må lage nye løsninger i den oppgraderte versjonen for å beholde nødvendig funksjonalitet. 
+          KonfigurasjonsprosjekterKonfigurasjonsprosjekter er spesialtilpasninger av applikasjonen. 
+          Dette kan være alt fra å lage obligatoriske felter, til å opprette helt nye sakstyper som ikke finnes fra før. 
+          Synergi Life brukes i mange forskjellige bransjer, alt fra sykehus til oljeindustri og jernbanevirksomhet, for å nevne noen. 
+          Med et vidt bransjespekter er det umulig å lage ett produkt som fungerer for alle, og en av styrkene i programvaren er fleksibiliteten til å kunne spesialtilpasse produktet. 
+          Spesialkonfigurasjon gjøres stort sett i SQL og det er vanlig å holde workshop i forkant, som beskrevet under implementeringsprosjekter.
+              -  sjam
+              - æsjam
 
 certifications:
       title: Sertifiseringer
