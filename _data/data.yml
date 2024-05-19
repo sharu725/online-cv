@@ -64,21 +64,16 @@ education:
 experiences:
     title: Jobberfaring
     info:
-      - role: Konsulent
+      - role: Konsulent, Synergi Life
         time: 2012 - 2022
         company: Det Norske Veritas (DNV)
         details: |
-          Synergi Life er en softwareløsning for HMS/HSEQ og risikostyring, som leveres av DNV. Har deltatt i implementeringsprosjekter hos nye kunder, enten utvidelser, geografisk eller i eksisterende kundemiljøer. 
-          Sette opp fullstendig eller delvis ny infrastruktur on-prem eller skyen med komponenter som 
-          MS-SQL server, Internet information Server (IIS), støttende programtillegg for IIS og Windows Server. Det ble ofte holdt workshop i forkant av et prosjekter, og denne dannet grunnlaget 
-          for spesifikasjonen. I workshopen er det en HMS og teknisk konsulent tilstede. Som teknisk konsulent blir spesifikasjonen ofte skrevet av meg. I en workshop er det viktig at den tekniske 
-          konsulenten har en deltagende rolle, og forstår og noterer kundenes krav. I workshop anmodes det om ryddig og saklig dialog, og det er viktig å kutte inn hvis det blir for mye frem-og-tilbake snakk. 
-          Når spesifikasjonen er godkjent av kunden kan et timeestimat anslås og pristilbud gis. Den største utfordringen med denne typen prosjekt er endringer i databasemodellen fra versjon til versjon. 
-          Det medfører at man må skrive om SQL spesialkriterier til å teste mot enkelte tabeller. Det vil også alltid være typer spesialkonfigurasjon som ikke støttes lenger, og man må lage nye løsninger 
-          i den grad det er mulig, for at den oppgraderte versjonen skal beholde nødvendig funksjonalitet. Konfigurasjonsprosjekter er spesialtilpasninger av applikasjonen. Dette kan være fra å lage 
-          obligatoriske felter til å opprette nye sakstyper. Synergi Life brukes i mange forskjellige bransjer, fra sykehus til oljeindustri og jernbanevirksomhet for å nevne noen. 
-          Med et vidt bransjespekter er det utfordrende å lage ett produkt som fungerer for alle, og en stor styrke i programvaren er nok fleksibilitet til å kunne spesialtilpasse produktet. 
-          Spesialkonfigurasjon gjøres stort sett i SQL og det er vanlig å holde workshop i forkant, som beskrevet under implementeringsprosjekter.
+          Synergi Life er en softwareløsning for HMS/HSEQ og risikostyring som leveres av DNV. Har deltatt i implementeringsprosjekter hos nye kunder, samt utvidelser, enten geografisk eller i eksisterende miljøer. 
+          Satte opp fullstendig eller delvis ny infrastruktur, on-prem eller skyen, og med komponenter som MS-SQL server, Internet information Server (IIS), støttende programtillegg for IIS og Windows Server. 
+          Deltatt i workshop i forkant av prosjekter, som dannet grunnlaget for spesifikasjonen. I workshopen er en HMS og teknisk konsulent tilstede. Som teknisk konsulent ble spesifikasjonen ofte skrevet av meg. 
+          I mulig grad skal oppgradert versjon beholde eksisterende funksjonalitet. Konfigurasjonsprosjekter er som oftest spesialtilpasninger av applikasjonen, men også at man lager helt ny sakstype, 
+          Synergi Life brukes i forskjellige bransjer, fra sykehus til oljeindustri og jernbanevirksomhet for å nevne noen. Et vidt bransjespekter krever at man later et produkt som fungerer for alle. 
+          Spesialkonfigurasjon gjøres stort sett i SQL og det er vanlig å holde workshop i forkant, som under implementeringsprosjekter.
               -  sjam
               - æsjam
 
