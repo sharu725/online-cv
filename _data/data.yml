@@ -49,37 +49,35 @@ sidebar:
 career-profile:
     title: Karriereprofil
     summary: |
-      Startet yrkeslivet i IBM Norge, Mastemyr Oslo i 1995, og etterhvert Strandsvingen, Stavanger. Fem år i IBM gav verdifull erfaring med operativsystemer, nettverk og drift. 
-      Etter IBM dro jeg til USA og jobbet for Fast Search & Transfer, Rackspace Managed Hosting, Yahoo! og comScore. Hovedsakelig drift og datasenter arbeid med fokus på maskinvare 
-      og IT infrastruktur. Etter nesten 11 år i USA jobbet jeg de neste ti årene med programvare for HMS og risikostyring hos Det Norske Veritas, Bjergsted Stavanger. 
-      Selvstendig, men trives best med andre. I nåværende stilling er hovedfokus Azure skyløsninger.
+      Startet yrkeslivet i IBM Norge, Mastemyr Oslo i 1995, og etterhvert Strandsvingen i Stavanger. Det var fem år som gav verdifull erfaring med operativsystemer, nettverk og drift. 
+      Etter IBM dro jeg til USA og jobbet for Fast Search & Transfer, Rackspace Managed Hosting, Yahoo! og comScore. Hovedsakelig med drift og datasenter arbeid, med fokus på IT infrastruktur. 
+      Etter nesten 11 år i USA jobbet jeg de neste ti årene med programvare for HMS og risikostyring for Det Norske Veritas, Bjergsted Stavanger. 
+      Min nåværende stilling er i Bouvet, Stadionparken Stavanger og har hovedfokus på kodet infrastruktur i Azure ("Infrastructure as code - IaC"), og GitHub workflows.
 education:
     title: Utdannelse
     info:
-      - degree: Lærepenge
-        university: Høyskolen i Huttaheita
-        time: 2011 - 2012
+      - degree: Påbegynt 2 årig grunnstudie for IT bachelor
+        university: NHI Datahøgskolen
+        time: 1994 - 1995
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
 
 experiences:
     title: Jobberfaring
     info:
       - role: Pre-sales
-        time: 1995 - 1996
-        company: IBM Norge
+        time: 2012 - 2022
+        company: Det Norske Veritas (DNV)
         details: |
-          Førsalg av IBMs produkter, hovedsakelig OS/2. Teknisk brukerstøtte til IBMs forhandlere og hjelpe 
-          selgere og forhandlere å integrere OS/2 i eksisterende løsninger. Drift av en OS/2 LAN
-          server nettverk og brukerstøtte internt i organisasjonen.
-          -  sjam
-          - æsjam
+          Installasjon, oppgradering og tilpasning av Synergi Life for kunder. Synergi Life er en markedsledende
+          softwareløsning for HMS/HSE og risikostyring. Synergi brukergrensesnittet er web basert med SQL
+          server i bakkant. Det kan kjøre på server plattform eller MS Azure. Gjennom å jobbe med produktet i 8
+          år har jeg fått erfaring med SQL, IIS, MS Azure og OpenID identitetstilbyder.
+          I de fleste kundeprosjekter er vi som konsulenter også prosjektledere og ivaretar kundekontakten i
+          form av møter og/eller direkte kommunikasjon. Graden av prosjektstyring bestemmes som regel av
+          kunden. Noen ønsker strukturert fremdrift, faste møter, milepæler osv, mens andre foretrekker en
+          løsere mer uformell kommunikasjon.
+            -  sjam
+            - æsjam
 
 certifications:
       title: Sertifiseringer
