@@ -147,7 +147,7 @@ experiences:
           server nettverk og brukerstøtte internt i organisasjonen.
 certifications:
       title: Sertifiseringer
-      list:
+      list: Aix
         - name: AIX 4.1 System Administrator
           start: 2020
           end: 2021
@@ -157,13 +157,7 @@ certifications:
           credentialname: 
           details: |
             # Details about cert. Lorem ipsum dolor sit amet, consectetur
-            # adipiscing elit.
-            # Nullam eget orci purus. Nullam ultrices neque nibh.
-            # Aenean fermentum, felis vulputate suscipit accumsan,
-            # sem enim bibendum augue, sed convallis arcu lacus at dui.
-            # Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            # Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            # Praesent venenatis erat non augue suscipit consectetur.
+
 
 # projects:
 #     title: Projects
