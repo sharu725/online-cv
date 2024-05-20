@@ -130,12 +130,14 @@ experiences:
           Systems Integrator 2 - Saga Hydro (98 - 00):
           Drift og vedlikehold i et VAX/VMS klyngemiljø. Vedlikehold av applikasjoner, brukerkontoer,
           monitorering og innsamling av statistikkdata i tillegg til rutinemessige driftsoppgaver.
+          
           Systems Integrator 2 - Saga Petroleum (97 - 98):
           Del av et team som driftet og vedlikeholdt en ADSM backup løsning for Saga Petroleum, Sandvika
           Oslo. Håndtering av IBM 3494 tape robot. Første introduksjon til enterprise, kryss plattform backup
           løsning. Hjalp å utvikle en disaster recovery plan. Oppgavene inkluderte backup og restore av data for
           brukere, automatisering av driftsoppgaver med Unix shell scripts og håndtering og off-siting av backup
           media.
+          
           Systems Integrator - Unix operations (96 - 97):
           Del av et team som driftet og vedlikeholdt det interne AIX Unix miljøet på IBM's hovedkvarter på
           Mastemyr. Drift av TCP/IP tjenester som WWW server, og SMTP (Sendmail). Ble introdusert til
