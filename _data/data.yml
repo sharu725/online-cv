@@ -49,17 +49,18 @@ sidebar:
 career-profile:
     title: Karriereprofil
     summary: |
-      Startet yrkeslivet i IBM Norge på Mastemyr Oslo, og etterhvert Strandsvingen i Stavanger. Fem år i IBM gav verdifull erfaring med operativsystemer, nettverk og drift. 
+      Startet yrkeslivet i IBM Norge på Mastemyr Oslo, og etter hvert Strandsvingen i Stavanger. Fem år i IBM gav verdifull erfaring med operativsystemer, nettverk og drift. 
       Etter det dro jeg til USA og jobbet for Fast Search & Transfer, Rackspace Managed Hosting, Yahoo! og comScore. Hovedsakelig med drift og datasenter arbeid.
       Etter nesten 11 år i USA jobbet jeg de neste ti årene med programvare for HMS og risikostyring for Det Norske Veritas, Bjergsted Stavanger. 
       Min nåværende stilling er for Bouvet i Stadionparken Stavanger med fokus på kodet infrastruktur ("Infrastructure as code - IaC") i Microsoft Azure, og GitHub workflows.
 education:
     title: Utdannelse
     info:
-      - degree: Påbegynt 2 årig grunnstudie for IT bachelor
+      - degree: Påbegynt toårig grunnstudie for IT bachelor
         university: NHI Datahøgskolen
         time: 1994 - 1995
         details: |
+          Høyskolen ble lagt ned midt i studiet.
 
 experiences:
     title: Jobberfaring
