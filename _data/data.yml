@@ -148,15 +148,15 @@ experiences:
 certifications:
       title: Sertifiseringer
       list: Aix
-        - name: AIX 4.1 System Administrator
-          start: 2020
-          end: 2021
-          organization: IBM
-          credentialid: 
-          credentialurl: 
-          credentialname: 
-          details: |
-            # Details about cert. Lorem ipsum dolor sit amet, consectetur
+      - name: AIX 4.1 System Administrator
+        start: 2020
+        end: 2021
+        organization: IBM
+        credentialid: 
+        credentialurl: 
+        credentialname: 
+        details: |
+          # Details about cert. Lorem ipsum dolor sit amet, consectetur
 # projects:
 #     title: Projects
 #     intro: >
