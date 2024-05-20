@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Christopher Yngvar Bull
-    tagline: IT guy
+    tagline: The IT guy
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -68,7 +68,7 @@ experiences:
         time: 2012 - 2022
         company: Det Norske Veritas (DNV)
         details: |
-          Jobbet med Synergi Life, DNVs softwareløsning for HMS/HSEQ og risikostyring. Deltatt i implementeringsprosjekter hos nye kunder og utvidelsesprosjekter hos eksisterende. 
+          Jobbet med Synergi Life, DNVs softwareløsning for HMS/HSEQ og risikostyring. Deltatt i implementeringsprosjekter hos nye kunder og utvidelser hos eksisterende. 
           Satt opp fullstendig eller delvis ny infrastruktur, on-prem eller skyløsning, og tilleggskomponenter som MS-SQL server, Internet information Server (IIS). 
           Deltok i workshop i forkant av prosjekter som teknisk konsulent, og skrev spesifikasjonen etterpå. 
       - role: Konsulent, Cegal
@@ -77,6 +77,23 @@ experiences:
         details: |
           Vedlikehold og feilsøking på kundeservere. Reperasjon av hardware og planlegge installasjon av nytt
           utstyr. Onsite Deskside support for Cegals kunder.
+      - role:  Sr. Infrastructure Technician
+        time: 2006 - 2010
+        company: comScore, Inc
+        details: |
+          Planla og bygde selskapets Veritas Netbackup løsning fra grunn. Systemet består av en ADIC Scalar
+          i2000 og EMC Virtuell Tape Robot. Etablerte rutiner for off-siting av backup media. Eneansvarlig
+          for all backup i selskapet i 3 år. Datasenter drift i enterprise server miljø på mer enn tusen servere,
+          hovedsaklig Dell 2650, 2850, 2950, R710 and R510. Datasenter arbeid som racking, installasjon
+          kabling og feilsøking på servere og utstyr. Installasjon av Windows OS, samt hardware og software
+          oppgraderinger.
+      - role:  Data Center Operations Technician
+        time: 2005 - 2006
+        company: Yahoo!
+        details: |
+          Jobbet i Yahoo!'s datasenter i Virginia, USA. Ansvarlig for installasjon av servere feilsøking på
+          hardware, software og operativsystemer. I hovedsak Rackable Systems og Dell PowerEdge servere.
+          Installasjon av nettverksutstyr.
 
 certifications:
       title: Sertifiseringer
@@ -98,10 +115,6 @@ certifications:
             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
             Praesent venenatis erat non augue suscipit consectetur.
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
         - name: Git learning
           start: 2019
           end:
