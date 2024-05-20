@@ -65,6 +65,11 @@ education:
 experiences:
     title: Jobberfaring
     info:
+      - role: Konsulent, Azure
+        time: 2022 - Np
+        company: Bouvet
+        details: |
+          Jobber med Azure skyløsning for firmaets kunder
       - role: Konsulent, Synergi Life
         time: 2012 - 2022
         company: Det Norske Veritas (DNV)
