@@ -68,9 +68,15 @@ experiences:
         time: 2012 - 2022
         company: Det Norske Veritas (DNV)
         details: |
-          Jobbet med Synergi Life, DNVs softwareløsning for HMS/HSEQ og risikostyring. Deltatt i implementeringsprosjekter hos nye kunder, samt utvidelser hos eksisterende. 
-          Satt opp fullstendig eller delvis ny infrastruktur, on-prem eller i skyløsning, og med komponenter som MS-SQL server, Internet information Server (IIS). 
+          Jobbet med Synergi Life, DNVs softwareløsning for HMS/HSEQ og risikostyring. Deltatt i implementeringsprosjekter hos nye kunder og utvidelsesprosjekter hos eksisterende. 
+          Satt opp fullstendig eller delvis ny infrastruktur, on-prem eller skyløsning, og tilleggskomponenter som MS-SQL server, Internet information Server (IIS). 
           Deltok i workshop i forkant av prosjekter som teknisk konsulent, og skrev spesifikasjonen etterpå. 
+      - role: Konsulent, Cegal
+        time: 2011 - 2012
+        company: Cegal AS
+        details: |
+          Vedlikehold og feilsøking på kundeservere. Reperasjon av hardware og planlegge installasjon av nytt
+          utstyr. Onsite Deskside support for Cegals kunder.
 
 certifications:
       title: Sertifiseringer
