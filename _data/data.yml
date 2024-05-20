@@ -122,6 +122,29 @@ experiences:
           FreeBSD vedlikehold som oppdateringer og monitorering av ytelse. Ansvarlig for drift av delen av
           applikasjonen som indekserer søkemotoren og innsamling av statistikk data for planlegging av
           utbygging/skalering av systemet.
+      - role:  Systems Integrator
+        time: 1995 - 2000
+        company: IBM Global Services
+        details: |
+          Systems Integrator 2 - Saga Hydro (98 - 00):
+          Drift og vedlikehold i et VAX/VMS klyngemiljø. Vedlikehold av applikasjoner, brukerkontoer,
+          monitorering og innsamling av statistikkdata i tillegg til rutinemessige driftsoppgaver.
+          Systems Integrator 2 - Saga Petroleum (97 - 98):
+          Del av et team som driftet og vedlikeholdt en ADSM backup løsning for Saga Petroleum, Sandvika
+          Oslo. Håndtering av IBM 3494 tape robot. Første introduksjon til enterprise, kryss plattform backup
+          løsning. Hjalp å utvikle en disaster recovery plan. Oppgavene inkluderte backup og restore av data for
+          brukere, automatisering av driftsoppgaver med Unix shell scripts og håndtering og off-siting av backup
+          media.
+          
+          Systems Integrator - Unix operations (96 - 97):
+          Del av et team som driftet og vedlikeholdt det interne AIX Unix miljøet på IBM's hovedkvarter på
+          Mastemyr. Drift av TCP/IP tjenester som WWW server, og SMTP (Sendmail). Ble introdusert til
+          Firewall teknologi.
+          
+          Pre-sales (95 - 96):
+          Førsalg på IBM produkter, hovedsakelig OS/2. Teknisk brukerstøtte til IBM's forhandlere og hjelp til
+          IBM's selgere og forhandlere å integrere OS/2 med eksisterende løsninger. Drift av en OS/2 LAN
+          server nettverk og brukerstøtte internt i organisasjonen.
 certifications:
       title: Sertifiseringer
       list:
