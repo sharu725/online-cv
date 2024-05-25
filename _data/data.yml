@@ -125,8 +125,8 @@ experiences:
           Drafted UI guides, developer documentation, migrating release notes,
           and content architecture for confidential clients.
 
-            - Tools: Git-flavored Markdown and Readme.io.
-            
+            - Tools: Git-flavored Markdown and Readme.io.     
+      
       - role: Technical Writer (Associate Trainer)
         time: 2014 - 2016
         company: County of Santa Clara, San Jose, California
@@ -145,7 +145,7 @@ experiences:
             *Skills and Tools: Learning Management System
              (LMS), Support Desk, CMS, HTML, SaaS*
        
-        - role: Marketing and Documentation Creator (Training Coordinator)
+      - role: Marketing and Documentation Creator (Training Coordinator)
         time: 2012-2014
         company: County of Santa Clara, San Jose, California
         details: |
