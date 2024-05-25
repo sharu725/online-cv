@@ -38,7 +38,7 @@ sidebar:
         - item: Gardening
           link:
 
-        - item: Cooking
+        - item: Reading
           link:
 
 career-profile:
@@ -69,17 +69,39 @@ experiences:
           company in areas such as UI, API reference documentation,
           machine learning, microcopy, workflows, governance, and 
           data and insights modeling. Emphasis on process improvement.
-            - Pioneered Treasure Data's first developer documentation portal, creating a single-source of truth that reduced contract alignment time between FE and BE teams and accelerated implementation.
-            - Designed and launched Treasure Data’s first Jira Service Desk for Docs, leading to faster issue resolution and enhanced documentation quality.
-            - Implemented workflows for Support Engineers to update documentation, simplifying their contribution process and reducing labor, particularly for quick updates.
-            - Presented a strategic solution to address technical debt through the standardization of TD’s APIs.
+            - Pioneered Treasure Data's first developer documentation
+              portal, creating a single-source of truth that reduced
+              contract alignment time between FE and BE teams and
+              accelerated implementation.
+            - Designed and launched Treasure Data’s first Jira Service
+              Desk for Docs, leading to faster issue resolution and
+              enhanced documentation quality.
+            - Implemented workflows for Support Engineers to update
+              documentation, simplifying their contribution process
+              and reducing labor, particularly for quick updates.
+            - Presented a strategic solution to address technical debt
+              through the standardization of TD’s APIs.
             - Developed API Style Guide.
-            - Manage monthly release process and associated automations, significantly increasing efficiency for all stakeholders.
-            - Set up automations and developed policies and procedures for internal stakeholders, enhancing overall productivity.
-            - Created and conducted new employee onboarding sessions and designed internal documentation, fostering an open and engaged partnership in product shipping and informing them of available resources.
-            - Collaborated with Product Operations and Technical Program Management to streamline operations, break down silos between stakeholders, and enhance cross-disciplinary collaboration.
-            - Engaged with worldwide stakeholders to deliver accurate, concise, and high-quality documentation representing a singular truth in one company voice.
-            - Tools: Git, Linux CLI, HTML, Bash, Regex, Markdown, JSON, YAML, Python, Zapier, Confluence, Jira, JQL, Redocly, ClickHelp, VSCode, Sublime Text, Brackets
+            - Manage monthly release process and associated
+              automations, significantly increasing efficiency for
+              all stakeholders.
+            - Set up automations and developed policies and procedures
+              for internal stakeholders, enhancing overall
+              productivity.
+            - Created and conducted new employee onboarding sessions
+              and designed internal documentation, fostering an open
+              and engaged partnership in product shipping and
+              informing them of available resources.
+            - Collaborated with Product Operations and Technical
+              Program Management to streamline operations, break down
+              silos between stakeholders, and enhance
+              cross-disciplinary collaboration.
+            - Engaged with worldwide stakeholders to deliver accurate,
+              concise, and high-quality documentation representing a
+              singular truth in one company voice.
+            - Tools: Git, Linux CLI, HTML, Bash, Regex, Markdown,
+              JSON, YAML, Python, Zapier, Confluence, Jira, JQL,
+              Redocly, ClickHelp, VSCode, Sublime Text, Brackets
 
       - role: Contract Writer and Editor
         time: 2014 - Present
@@ -89,9 +111,12 @@ experiences:
           copywriting, case studies, consulting, and editing for clients 
           in various industries.
 
-            - Skilled in competitive intelligence, writing, research, and elicitation techniques.
-            - Develop, implement, and manage the delivery of projects in accordance with budget and schedule.
-            - Knowledgeable in MLA, APA, AP, and Chicago style guides.
+            - Skilled in competitive intelligence, writing, research,
+              and elicitation techniques.
+            - Develop, implement, and manage the delivery of projects
+              in accordance with budget and schedule.
+            - Knowledgeable in MLA, APA, AP, and Chicago style
+              guides.
             
       - role: Technical Writer (Contract)
         time: 2019
@@ -111,9 +136,14 @@ experiences:
           27 user groups.
 
 
-            - Consulted SMEs, conducted testing, and translated complex technical information into easy-to-understand language.
-            - Responsible for content management, course uploads, and help desk. Managed Countywide training partners in providing classes to County employees via LMS.
-            *Skills and Tools: Learning Management System (LMS), Support Desk, CMS, HTML, SaaS*
+            - Consulted SMEs, conducted testing, and translated
+              complex technical information into easy-to-understand
+              language.
+            - Responsible for content management, course uploads, and
+              help desk. Managed Countywide training partners in
+              providing classes to County employees via LMS.
+            *Skills and Tools: Learning Management System
+             (LMS), Support Desk, CMS, HTML, SaaS*
        
         - role: Marketing and Documentation Creator (Training Coordinator)
         time: 2012-2014
@@ -123,82 +153,40 @@ experiences:
           including web content, presentations, manuals, marketing materials, 
           and end-user documentation.     
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Sample
 
-      - name: Javascript & jQuery
+      - name: Redocly
         level: 98%
 
       - name: Angular
