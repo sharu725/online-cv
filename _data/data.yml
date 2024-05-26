@@ -152,18 +152,20 @@ experiences:
           Førsalg på IBM produkter, hovedsakelig OS/2. Teknisk brukerstøtte til IBM's forhandlere og hjelp til
           IBM's selgere og forhandlere å integrere OS/2 med eksisterende løsninger. Drift av en OS/2 LAN
           server nettverk og brukerstøtte internt i organisasjonen.
-# certifications:
-#       title: Sertifiseringer
-#       list: Aix
-#       - name: AIX 4.1 System Administrator
-#         start: 2020
-#         end: 2021
-#         organization: IBM
-#         credentialid: 
-#         credentialurl: 
-#         credentialname: 
-#         details: |
-#           # Details about cert. Lorem ipsum dolor sit amet, consectetur
+
+certifications:
+      title: Sertifiseringer
+      list: Aix
+      - name: AIX 4.1 System Administrator
+        start: 1998
+        end: 1998
+        organization: IBM
+        credentialid: EM8000333
+        credentialurl: 
+        credentialname: IBM Certified Specialist
+        # details: |
+        #   # Details about cert. Lorem ipsum dolor sit amet, consectetur
+
 # projects:
 #     title: Projects
 #     intro: >
