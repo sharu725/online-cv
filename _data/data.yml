@@ -163,8 +163,8 @@ certifications:
         credentialid: EM8000333
         credentialurl: https://www.redbooks.ibm.com/redbooks/pdfs/sg247738.pdf
         credentialname: IBM Certified Specialist
-        details: |
-          # Details about cert. Lorem ipsum dolor sit amet, consectetur
+        # details: |
+        #   # Details about cert. Lorem ipsum dolor sit amet, consectetur
 
 # projects:
 #     title: Projects
@@ -256,5 +256,5 @@ certifications:
 #       - name: Sketch & Photoshop
 #         level: 60%
 
-# footer: >
-#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
