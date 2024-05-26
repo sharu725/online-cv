@@ -133,10 +133,12 @@ experiences:
         time: 1995 - 2000
         company: IBM Global Services
         details: |
-          Systems Integrator 2 - Saga Hydro (98 - 00):
+          Systems Integrator 2 - Saga Hydro (98 - 00): 
+          
           Drift og vedlikehold i et VAX/VMS klyngemiljø. Vedlikehold av applikasjoner, brukerkontoer,
           monitorering og innsamling av statistikkdata i tillegg til rutinemessige driftsoppgaver.
           
+
           Systems Integrator 2 - Saga Petroleum (97 - 98):
           Del av et team som driftet og vedlikeholdt en ADSM backup løsning for Saga Petroleum, Sandvika
           Oslo. Håndtering av IBM 3494 tape robot. Introduksjon til enterprise, kryss plattform backup
@@ -144,7 +146,9 @@ experiences:
           brukere, automatisering av driftsoppgaver med Unix shell scripts og håndtering og off-siting av backup
           media.
           
+
           Systems Integrator - Unix operations (96 - 97):
+          
           Del av et team som driftet og vedlikeholdt det interne AIX Unix miljøet på IBM's hovedkvarter på
           Mastemyr. Drift av TCP/IP tjenester som WWW server, og SMTP (Sendmail). Ble introdusert til
           Firewall teknologi.
