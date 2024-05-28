@@ -155,16 +155,16 @@ experiences:
 
 certifications:
       title: Sertifiseringer
-      list: Aix
-      - name: AIX 4.1 System Administrator
-        start: 1998
-        end: 1998
-        organization: IBM
-        credentialid: EM8000333
-        credentialurl: https://www.redbooks.ibm.com/redbooks/pdfs/sg247738.pdf
-        credentialname: IBM Certified Specialist
+      list: 
+        - name: AIX 4.1 System Administrator
+          start: 1998
+          end: 1998
+          organization: IBM
+          credentialid: EM8000333
+          credentialurl: https://www.redbooks.ibm.com/redbooks/pdfs/sg247738.pdf
+          credentialname: IBM Certified Specialist
         # details: |
-        #   # Details about cert. Lorem ipsum dolor sit amet, consectetur
+      #   # Details about cert. Lorem ipsum dolor sit amet, consectetur
 
 # projects:
 #     title: Projects
