@@ -39,35 +39,29 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Majoring in robotics, machine learning and deep learning at Ogata Lab, and working as a backend engineer in Knowns.
-
-      At university, I am researching soft robots which generate complex behaviors and manipulated them by using deep learning algorithms. In addition, I have hands-on experience in developing hardware models in Fusion 360.
-
-      As a backend engineer, I tackle with cloud maintenance and its operations. Especially, I am interested in data engineering which optimize a performane of huge databese on web applications. 
+      Masato Nagashima is a Backend Engineer with a specialized focus on Spring Boot, Domain-Driven Design (DDD), and Clean Architecture. 
+      With a solid foundation in creating robust and scalable backend systems, Masato excels in developing high-quality, maintainable, and efficient software solutions.
       
-      Fortunately, my research environment is quite international even in Japan. This experience has improved my English skills as native Japanese speaker. After completing a master's degree, I want to work globaly as a backend enginner.
-education:
-    - degree: MSc in Fundamental Science and Engineering
-      university: Waseda University
-      time: April 2022 - Present
-      details: |
-        Working on research project for soft robotics. Mainly, I focused on
-        making a inflatable robot which is made of balloons, like Baymax, and
-        develop its control system.  
-          - Computer Science, Robotics, Machine Learning, CAD
-    - degree: BSc in Fundamental Science and Engineering
-      university: Waseda University
-      time: April 2018 - March 2022
-      details: |
-        Learned about computer science, robotics, and statistics for developing
-        robot control method implemented by deep learning models.
-          - Computer Science, Robotics, Machine Learning, CAD, Statistics
+      In addition to his backend engineering expertise, Masato has a background as a Data Engineer. 
+      His proficiency in SQL, Python, Airflow, data warehouse (DWH) management, and Business Intelligence (BI) design has equipped him with a versatile skill set. 
+      This blend of backend and data engineering experience allows him to seamlessly integrate data processing workflows with backend services, ensuring optimal performance and data integrity.
+      
+      Throughout his career, Masato has demonstrated a strong commitment to best practices in software development, including code quality, testing, and documentation.
+      His ability to bridge the gap between backend engineering and data engineering makes him a valuable asset to any team, capable of handling complex technical challenges and delivering comprehensive, end-to-end solutions.
 
 
 experiences:
+    - role: Infrastructure Engineer at Rakuten
+      link: https://www.rakuten.co.jp/
+      time: April 2024 - Present
+      company: Tokyo
+      details: |
+        Working as an infrastructure engineer at Rakuten. 
+        
+    
     - role: Backend Engineer at Knowns
       link: https://knowns.co.jp/
-      time: May 2022 - Present
+      time: May 2022 - March 2024
       company: Tokyo
       details: |
         Working as a backend engineer at Knowns. 
@@ -109,16 +103,6 @@ experiences:
         motion generation program, and deep learning models. 
           - Python, C++
           - Pytorch, Tensorflow, CUDA, Git, Deep Learning, URX, Math3d
-
-oss:
-    title: OSS Contributions
-    intro:
-
-    assignments:
-      - title: Google Machine Learning Bootcamp Japan
-        link: https://developers-jp.googleblog.com/2022/06/ml-bootcamp.html
-        tagline: "Participating in Tensorflow Bootcamp at Google. I mainly focused on implementing fundamental ML models."
-      
     
 projects:
     title: Projects
