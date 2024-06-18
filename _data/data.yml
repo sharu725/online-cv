@@ -127,39 +127,49 @@ certifications:
           start: 2021
           end: Present
           organization: Amazon Web Services
-          #credentialid: 111-222
+          credentialid: Q5M8KS2CBEEEQ7WH
           #credentialurl: www.google.com
-          #credentialname: Google
+          credentialname: AWS Certified Solutions Architect - Associate
           details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            Associate certification validates an individual's expertise in designing and deploying scalable systems on the Amazon Web Services (AWS) platform.
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
+            To validate the ability to effectively demonstrate knowledge of how to architect and deploy secure and robust applications on AWS technologies.
+
+        - name: Red Hat Certified Systems Administrator
           start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
+          end: Present
+          organization: Red Hat
+          credentialid: 170-120-950
+          credentialurl: www.redhat.com
+          credentialname: Red Hat
           details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+             Credential that validates the skills and knowledge necessary to perform core system administration tasks in a Red Hat Enterprise Linux (RHEL) environment.
+
+             To certify individuals who have demonstrated the skills required to perform the core system administration tasks needed in Red Hat Enterprise Linux environments.
+
+         - name: Certified Ethical Hacker
+           start: 2017
+           end: Present
+           organization: EC-Council
+           credentialid: ECC76283627214
+           credentialurl: codered.eccouncil.org
+           credentialname: EC-Council
+           details: |
+              A professional credential that demonstrates an individual's skills in identifying and addressing vulnerabilities and weaknesses in computer systems using the same tools and knowledge as a malicious hacker, but in a lawful and legitimate manner.
+
+              To certify individuals in the specific network security discipline of Ethical Hacking from a vendor-neutral perspective. The goal is to help organizations take preemptive measures against malicious attacks by understanding the tactics and tools used by hackers.
+
+         - name: Certified Network Defense Architect
+           start: 2017
+           end: Present
+           organization: EC-Council
+           credentialid: ECC22661864854
+           credentialurl: codered.eccouncil.org
+           credentialname: EC-Council
+           details: |
+              A credential offered by EC-Council that is designed specifically for government and military agencies. It validates the skills and knowledge required to design and implement secure network infrastructure and systems to protect against various cyber threats.
+
+              To certify individuals in the skills necessary to design, implement, and manage secure network defenses for government and military infrastructures. It focuses on identifying network vulnerabilities and implementing defensive measures to safeguard against cyber threats.
 
 projects:
     title: Projects
@@ -188,68 +198,74 @@ projects:
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#oss:
+ #   title: OSS Contributions
+  #  intro: >
+   #   You can list your open source software contributions in this
+    #  section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+     # Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    #contributions:
+     # - title: Tempo
+      #  link: "#"
+       # tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
+#      - title: Atom
+ #       link: "#"
+  #      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+ #     - title: Delta
+  #      link: "#"
+   #     tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#
 publications:
     title: Publications
     intro: |
       You can list your publications in this section. Lorem ipsum dolor sit
       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
       bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+    #papers:
+     # - title: The Art of Computer Programming
+      #  link: "#"
+       # authors: Donald E. Knuth
+        #conference: Addison-Wesley, 1968
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+ #       link: "#"
+  #      authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+   #     conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#      - title: A syntax directed compiler for Algol 60
+ #       link: "#"
+  #      authors: Edgar T. Irons
+   #     conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: AWS
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Terraform
+        level: 90%
 
-      - name: Angular
-        level: 98%
+      - name: Linux
+        level: 90%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Kubernetes/EKS
+        level: 70%
 
-      - name: Ruby on Rails
+      - name: Python
+        level: 50%
+
+      - name: Bash
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Network
+        level: 70%
+      
+      - name: Powershell
+        level: 70%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Alexander Kem</a>
