@@ -78,8 +78,8 @@ experiences:
           Promotion as the Cloud Engineering Team Lead. I was the product owner for AWS Cloud Infastructure and Hybrid Infrastructure Projects.
           Worked with the business and vendors to identify and implement new solutions to optimize efficient, secure architecture and data flow.
           Initiated and implemented new design strategies to comply with FINMA security policies and standards.
-            - Delivered POC for Terraform modules and CI/CD deployements
-            - Defined new pcocesses and procedures for change management
+            - Delivered POC for Terraform modules and CI/CD deployments
+            - Defined new processes and procedures for change management
             - Developed and implemented disaster recovery plans and procedures for cloud infrastuture and resources.
             - Defined roles and worked with Head of Security to identify teams accesses and permission sets to various resources
             - Facilitated employee growth and career development for Infrastructure Team.
@@ -177,7 +177,7 @@ projects:
     assignments:
       - title: Elastic Kubernetes Service
         #link: "#hook"
-        tagline: "Designed an AWS EKS cluster consisting of the microservices for the bank. Consisting of the kubernetes control plane, API's database and control plane nodes. Developed via Terraform to automate recovery of resources. High availability and fault tolerant deployed across multiple availability zones. Also includes VPC integration with configured VPC, subnets, security group, network ACLs and role based access control based on least privilege access.  Includes persistent storage EBS volumes and s3 for specific object storage needs."
+        tagline: "Designed an AWS EKS cluster consisting of the microservices for the bank. Consisting of the kubernetes control plane, API's, database and control plane nodes. Developed via Terraform to automate recovery of resources. High availability and fault tolerant deployed across multiple availability zones. Also includes VPC integration with configured VPC, subnets, security group, network ACLs and role based access control based on least privilege access.  Includes persistent storage EBS volumes and s3 for specific object storage needs."
 
       - title: AWS Data Lake Topology
         #link: "#"
