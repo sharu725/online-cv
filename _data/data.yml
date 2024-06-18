@@ -9,22 +9,20 @@ sidebar:
 
     # Profile information
     name: Alexander Kem
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline: Cloud Solutions Architect
+    avatar: Screenshot 2024-06-18 at 3.56.24 PM.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: akem710@gmail.com
+    phone: +41 79 888 46 35
+    timezone: Central European Time
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    website: cv.alexkem.com #do not add http://
+    linkedin: alexanderkem
+    github: ssa99mid
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -37,18 +35,18 @@ sidebar:
           level: Native
 
         - idiom: French
-          level: Professional
+          level: Beginner
 
         - idiom: Spanish
-          level: Professional
+          level: Intermediate
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Football
           link:
 
-        - item: Snowboarding
+        - item: Coaching
           link:
 
         - item: Cooking
@@ -57,29 +55,16 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      A results driven program and project management professional with a Bachelors focused in
+      Information Systems and Business from Mount St. Mary's University. Top Secret Clearance
+      with Security + CE, Redhat Certified Systems Administrator, Certified Ethical Hacker,
+      Certified Network Defense Architect, AWS Certified Solutions Architect Associate
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+      - degree: Bachelor of Science in Information Systems and Business
+        university: Mount St. Mary's University
+        time: 2006 - 2010
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -92,9 +77,9 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Cloud Architecture Lead
+        time: 12/2023 - Present
+        company: FlowBank SA, Geneva, Switzerland
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
