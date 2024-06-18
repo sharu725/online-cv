@@ -134,7 +134,6 @@ certifications:
             Associate certification validates an individual's expertise in designing and deploying scalable systems on the Amazon Web Services (AWS) platform.
 
             To validate the ability to effectively demonstrate knowledge of how to architect and deploy secure and robust applications on AWS technologies.
-
         - name: Red Hat Certified Systems Administrator
           start: 2019
           end: Present
@@ -146,30 +145,30 @@ certifications:
              Credential that validates the skills and knowledge necessary to perform core system administration tasks in a Red Hat Enterprise Linux (RHEL) environment.
 
              To certify individuals who have demonstrated the skills required to perform the core system administration tasks needed in Red Hat Enterprise Linux environments.
+             
+        - name: Certified Ethical Hacker
+          start: 2017
+          end: Present
+          organization: EC-Council
+          credentialid: ECC76283627214
+          credentialurl: codered.eccouncil.org
+          credentialname: EC-Council
+          details: |
+            A professional credential that demonstrates an individual's skills in identifying and addressing vulnerabilities and weaknesses in computer systems using the same tools and knowledge as a malicious hacker, but in a lawful and legitimate manner.
 
-         - name: Certified Ethical Hacker
-           start: 2017
-           end: Present
-           organization: EC-Council
-           credentialid: ECC76283627214
-           credentialurl: codered.eccouncil.org
-           credentialname: EC-Council
-           details: |
-              A professional credential that demonstrates an individual's skills in identifying and addressing vulnerabilities and weaknesses in computer systems using the same tools and knowledge as a malicious hacker, but in a lawful and legitimate manner.
+            To certify individuals in the specific network security discipline of Ethical Hacking from a vendor-neutral perspective. The goal is to help organizations take preemptive measures against malicious attacks by understanding the tactics and tools used by hackers.
 
-              To certify individuals in the specific network security discipline of Ethical Hacking from a vendor-neutral perspective. The goal is to help organizations take preemptive measures against malicious attacks by understanding the tactics and tools used by hackers.
+        - name: Certified Network Defense Architect
+          start: 2017
+          end: Present
+          organization: EC-Council
+          credentialid: ECC22661864854
+          credentialurl: codered.eccouncil.org
+          credentialname: EC-Council
+          details: |
+            A credential offered by EC-Council that is designed specifically for government and military agencies. It validates the skills and knowledge required to design and implement secure network infrastructure and systems to protect against various cyber threats.
 
-         - name: Certified Network Defense Architect
-           start: 2017
-           end: Present
-           organization: EC-Council
-           credentialid: ECC22661864854
-           credentialurl: codered.eccouncil.org
-           credentialname: EC-Council
-           details: |
-              A credential offered by EC-Council that is designed specifically for government and military agencies. It validates the skills and knowledge required to design and implement secure network infrastructure and systems to protect against various cyber threats.
-
-              To certify individuals in the skills necessary to design, implement, and manage secure network defenses for government and military infrastructures. It focuses on identifying network vulnerabilities and implementing defensive measures to safeguard against cyber threats.
+            To certify individuals in the skills necessary to design, implement, and manage secure network defenses for government and military infrastructures. It focuses on identifying network vulnerabilities and implementing defensive measures to safeguard against cyber threats.
 
 projects:
     title: Projects
