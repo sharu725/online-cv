@@ -66,13 +66,7 @@ education:
         university: Mount St. Mary's University
         time: 2006 - 2010
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+        
 
 experiences:
     title: Experiences
@@ -81,50 +75,61 @@ experiences:
         time: 12/2023 - Present
         company: FlowBank SA, Geneva, Switzerland
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Promotion as the Cloud Engineering Team Lead. I was the product owner for AWS Cloud Infastructure and Hybrid Infrastructure Projects.
+          Worked with the business and vendors to identify and implement new solutions to optimize efficient, secure architecture and data flow.
+          Initiated and implemented new design strategies to comply with FINMA security policies and standards.
+            - Delivered POC for Terraform modules and CI/CD deployements
+            - Defined new pcocesses and procedures for change management
+            - Developed and implemented disaster recovery plans and procedures for cloud infrastuture and resources.
+            - Defined roles and worked with Head of Security to identify teams accesses and permission sets to various resources
+            - Facilitated employee growth and career development for Infrastructure Team.
+            AWS Devops Engineer
+            - Terraform IAC. Rebuilt terraform modules and CICD pipelines for proper code reviews and workflows to deploy new infrastructure
+            - Created 3 brand new AWS environments in development, staging and production
+            - Delivered strategy for Disaster Recovery exercises
+            - Kubernetes management and execution of microservices including Nifi, Grafana and Prometheus monitoring on AWS
+            - ServiceNow implementation
+      - role: Senior Cloud Engineer/ Product Owner
+        time: 06/2021 - 06/2023
+        company: First Republic, San Francisco, California
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Managed and implemented new system design architecture following SDLC utilizing AWS with new and
+          existing infrastructure and applications to support the banks internal/external clients, and investors. Ensuring system robustness and scalability, while proactively addressing potential security risks inherent in cloud-based environments.
+            - Infrastructure migration from on premise to AWS
+            - Automation with ansible playbooks and terraform workspaces to support applications such as JFrog Artifactory, Infoblox, Perform InvestorTools, Jira, New Relic, Spinnaker, Splunk, Thales Tokenization, Cashview, Jetbrains and VMC.
+            - High volume of terraform infrastructure as code. From creating new workspaces and modules, coding/building infrastructure to testing and deploying into dev, stage and prod environments through the proper change management channels. 
+            - Collaboration with multi-cloud teams and vendors to find new solutions and create new designs to help improve efficiency, security and funds with the highest visibility and approvals from all levels of management including the CIO.
+            - Risk Management and Security
+            - Budget and Resource Allocation
+            - Strategic Planning and Execution
+            - Daily SCRUM meetings to cover days agenda and weekly deliverables
+            - Biweekly sprint meetings to cover new projects, time reallocation, shift of priorities depending on the mission
+            - Biweekly meetings to help colleagues find/set individual goals and improvements for midyear and year end reviews
+            - Exhibiting exceptional proficiency in interpersonal communication
+            - Actively engaging and fostering positive and productive relationships with colleagues, while effectively navigating cross-functional collaborations towards shared objectives.
+      - role: Senior System Engineer
+        time: 02/2019 - 06/2021
+        company: Amazon, Palo Alto, California
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
+          Managed several Kinesis Service Team Projects including region builds for Kinesis Firehose, Kinesis Analytics, and AWS Datafeeds Ingestion Hub for multiple commercial and government regions.
+          Platform Infrastructure optimization and solutions.  Expanding services in regions and using automation tools to deploy changes.Developed project plans and workflows for each of these services for internal and global availability to our clients.
+            - Worked with native AWS tools in compliance with our overall security posture.
+            - Led team trainings and demos for our Director of Engineering
+            - Client Engagements with new internal and external customers
+            - Participated in ATO process for authority to operate new services in regions.
+            - Worked with services Cloudformation, CloudFront, Cloudwatch, EC2,Kinesis, S3, SQS, SNS, VPC
+            - Created metrics dashboards for team analytics and operations
+            - Worked extensively with commercial and government clients on new project plans
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
+        - name: AWS Solutions Architect Associate
+          start: 2021
+          end: Present
+          organization: Amazon Web Services
+          #credentialid: 111-222
+          #credentialurl: www.google.com
+          #credentialname: Google
           details: |
             Details about cert. Lorem ipsum dolor sit amet, consectetur
             adipiscing elit.
