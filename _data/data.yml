@@ -13,8 +13,8 @@ sidebar:
     avatar: Screenshot 2024-06-18 at 3.56.24 PM.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: akem710@gmail.com
-    phone: +41 79 888 46 35
+    email:
+    phone: 
     timezone: Central European Time
     citizenship:
     website: cv.alexkem.com #do not add http://
@@ -120,6 +120,35 @@ experiences:
             - Worked with services Cloudformation, CloudFront, Cloudwatch, EC2,Kinesis, S3, SQS, SNS, VPC
             - Created metrics dashboards for team analytics and operations
             - Worked extensively with commercial and government clients on new project plans
+      - role: Senior Linux System Engineer
+        time: 11/2018 - 02/2019
+        company: Aerospace Corporation, Herndon, Virginia
+        details: |
+            - Network and server security, server sizing, configuration and deployment 
+            - Designed ansible playbooks to automate engineering tasks and security checklists for production
+            - Client Engagements with new internal and external customers
+            - Participated in ATO process for authority to operate new services in regions.
+            - Worked with frameworks including Hadoop, MapReduce, Cloudera, and Hive
+      - role: Associate, Deputy Network Engineering Lead
+        time: 10/2016 - 11/2018
+        company: Booz Allen Hamilton, Herndon, Virginia
+        details: |
+          Oversee the entire JIDO Network Operations consisting of a team of 10 Network/System Engineers. Team Lead Network Engineering in support of the US Army Joint Improvised Threat Defeat Organization.
+            - Work with other contractors, consultants, and engineers to ensure maximum value is delivered to our client.
+            - Provide network/system engineering and cyber security services.
+            - Redhat 7 build, configure, and test for Palantir Servers, Splunk, and Decision Lens.
+            - Building/deploying docker container images and creating data containers
+            - Provide tier III incident resolution
+            - Microsoft Exchange 2007/2013 System Engineer.  Built entire Enterprise Architecture for all 3 Enclaves
+            - Information Support Server Environment Guard (ISSE) Certification (Solaris 10)
+            - Secure Systems by implementing STIGS and verifying security with ACAS/Nessus
+            - Oversee the use and enhancement of industry-leading network and system monitoring systems including Solarwinds, Splunk and SCOM.
+            - Create and modify Juniper firewall policies
+            - Automate reporting tasks via PowerShell and Management Shell
+            - Cisco switch management and configuration/ Port Security/VLAN configuration/Trunk Configuration
+            - Commvault Enterprise Backup Solutions for most Enterprise applications
+            - Vmware/Vcenter
+            - Implementation of F5 Load Balancing to optimize security with applications such as JIRA, Exchange and other clustered applications
 certifications:
       title: Certifications
       list:
