@@ -145,7 +145,7 @@ certifications:
              Credential that validates the skills and knowledge necessary to perform core system administration tasks in a Red Hat Enterprise Linux (RHEL) environment.
 
              To certify individuals who have demonstrated the skills required to perform the core system administration tasks needed in Red Hat Enterprise Linux environments.
-             
+
         - name: Certified Ethical Hacker
           start: 2017
           end: Present
@@ -173,29 +173,19 @@ certifications:
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Please take a look at my recent projects.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Elastic Kubernetes Service
+        #link: "#hook"
+        tagline: "Designed an AWS EKS cluster consisting of the microservices for the bank. Consisting of the kubernetes control plane, API's database and control plane nodes. Developed via Terraform to automate recovery of resources. High availability and fault tolerant deployed across multiple availability zones. Also includes VPC integration with configured VPC, subnets, security group, network ACLs and role based access control based on least privilege access.  Includes persistent storage EBS volumes and s3 for specific object storage needs."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: AWS Data Lake Topology
+        #link: "#"
+        tagline: "Provided the team with a proof of concept for ingesting real time data using Amazon Kinesis. A storage mechanism using Amazon s3 as the central storage layer for data lake, capable of storing structured, semi-structured and unstructured data.  Provides high durability, availability and scalability. Data Catalag and Metadata Management using AWS Glue. Maintains metadata about the data stored in s3 which helps in data discovery, schema management and provides a centralized metadata repository.  Athena which is an interactive query service that allow for querying data stored in s3. This platform also provides options for data analystics tools such as Redshift."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: ProsperOps Evaluation
+        #link: "#"
+        tagline: "Worked with the team to identify ways to cut on costs in the cloud. We were able to work with a third party vendor ProsperOps to identify ways to automate cost savings for resources that may be over utilized such as compute cost"
 
 #oss:
  #   title: OSS Contributions
@@ -216,12 +206,12 @@ projects:
   #      link: "#"
    #     tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 #
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+#publications:
+ #   title: Publications
+  #  intro: |
+   #   You can list your publications in this section. Lorem ipsum dolor sit
+    #  amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+     # bibendum fringilla a eu lectus.
     #papers:
      # - title: The Art of Computer Programming
       #  link: "#"
