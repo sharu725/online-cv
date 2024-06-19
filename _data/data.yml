@@ -8,27 +8,25 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Alexander Kem
+    tagline: Cloud Solutions Architect
+    avatar: Screenshot 2024-06-18 at 3.56.24 PM.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: akem710@gmail.com
+    phone: 
+    timezone: Central European Time
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    website: cv.alexkem.com #do not add http://
+    linkedin: https://www.linkedin.com/in/alexander-kem-69783633/
+    github: ssa99mid
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf:
 
     languages:
       title: Languages
@@ -37,18 +35,18 @@ sidebar:
           level: Native
 
         - idiom: French
-          level: Professional
+          level: Beginner
 
         - idiom: Spanish
-          level: Professional
+          level: Intermediate
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Football
           link:
 
-        - item: Snowboarding
+        - item: Coaching
           link:
 
         - item: Cooking
@@ -57,209 +55,235 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      A results driven program and project management professional with a Bachelors focused in
+      Information Systems and Business from Mount St. Mary's University. Top Secret Clearance
+      with Security + CE, Redhat Certified Systems Administrator, Certified Ethical Hacker,
+      Certified Network Defense Architect, AWS Certified Solutions Architect Associate
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Bachelor of Science in Information Systems and Business
+        university: Mount St. Mary's University
+        time: 2006 - 2010
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+        
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Cloud Architecture Lead
+        time: 12/2023 - Present
+        company: FlowBank SA, Geneva, Switzerland
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Promotion as the Cloud Engineering Team Lead. I was the product owner for AWS Cloud Infastructure and Hybrid Infrastructure Projects.
+          Worked with the business and vendors to identify and implement new solutions to optimize efficient, secure architecture and data flow.
+          Initiated and implemented new design strategies to comply with FINMA security policies and standards.
+            - Delivered POC for Terraform modules and CI/CD deployments
+            - Defined new processes and procedures for change management
+            - Developed and implemented disaster recovery plans and procedures for cloud infrastuture and resources.
+            - Defined roles and worked with Head of Security to identify teams accesses and permission sets to various resources
+            - Facilitated employee growth and career development for Infrastructure Team.
+            AWS Devops Engineer
+            - Terraform IAC. Rebuilt terraform modules and CICD pipelines for proper code reviews and workflows to deploy new infrastructure
+            - Created 3 brand new AWS environments in development, staging and production
+            - Delivered strategy for Disaster Recovery exercises
+            - Kubernetes management and execution of microservices including Nifi, Grafana and Prometheus monitoring on AWS
+            - ServiceNow implementation
+      - role: Senior Cloud Engineer/ Product Owner
+        time: 06/2021 - 06/2023
+        company: First Republic, San Francisco, California
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Managed and implemented new system design architecture following SDLC utilizing AWS with new and
+          existing infrastructure and applications to support the banks internal/external clients, and investors. Ensuring system robustness and scalability, while proactively addressing potential security risks inherent in cloud-based environments.
+            - Infrastructure migration from on premise to AWS
+            - Automation with ansible playbooks and terraform workspaces to support applications such as JFrog Artifactory, Infoblox, Perform InvestorTools, Jira, New Relic, Spinnaker, Splunk, Thales Tokenization, Cashview, Jetbrains and VMC.
+            - High volume of terraform infrastructure as code. From creating new workspaces and modules, coding/building infrastructure to testing and deploying into dev, stage and prod environments through the proper change management channels. 
+            - Collaboration with multi-cloud teams and vendors to find new solutions and create new designs to help improve efficiency, security and funds with the highest visibility and approvals from all levels of management including the CIO.
+            - Risk Management and Security
+            - Budget and Resource Allocation
+            - Strategic Planning and Execution
+            - Daily SCRUM meetings to cover days agenda and weekly deliverables
+            - Biweekly sprint meetings to cover new projects, time reallocation, shift of priorities depending on the mission
+            - Biweekly meetings to help colleagues find/set individual goals and improvements for midyear and year end reviews
+            - Exhibiting exceptional proficiency in interpersonal communication
+            - Actively engaging and fostering positive and productive relationships with colleagues, while effectively navigating cross-functional collaborations towards shared objectives.
+      - role: Senior System Engineer
+        time: 02/2019 - 06/2021
+        company: Amazon, Palo Alto, California
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
+          Managed several Kinesis Service Team Projects including region builds for Kinesis Firehose, Kinesis Analytics, and AWS Datafeeds Ingestion Hub for multiple commercial and government regions.
+          Platform Infrastructure optimization and solutions.  Expanding services in regions and using automation tools to deploy changes.Developed project plans and workflows for each of these services for internal and global availability to our clients.
+            - Worked with native AWS tools in compliance with our overall security posture.
+            - Led team trainings and demos for our Director of Engineering
+            - Client Engagements with new internal and external customers
+            - Participated in ATO process for authority to operate new services in regions.
+            - Worked with services Cloudformation, CloudFront, Cloudwatch, EC2,Kinesis, S3, SQS, SNS, VPC
+            - Created metrics dashboards for team analytics and operations
+            - Worked extensively with commercial and government clients on new project plans
+      - role: Senior Linux System Engineer
+        time: 11/2018 - 02/2019
+        company: Aerospace Corporation, Herndon, Virginia
+        details: |
+            - Network and server security, server sizing, configuration and deployment 
+            - Designed ansible playbooks to automate engineering tasks and security checklists for production
+            - Client Engagements with new internal and external customers
+            - Participated in ATO process for authority to operate new services in regions.
+            - Worked with frameworks including Hadoop, MapReduce, Cloudera, and Hive
+      - role: Associate, Deputy Network Engineering Lead
+        time: 10/2016 - 11/2018
+        company: Booz Allen Hamilton, Herndon, Virginia
+        details: |
+          Oversee the entire JIDO Network Operations consisting of a team of 10 Network/System Engineers. Team Lead Network Engineering in support of the US Army Joint Improvised Threat Defeat Organization.
+            - Work with other contractors, consultants, and engineers to ensure maximum value is delivered to our client.
+            - Provide network/system engineering and cyber security services.
+            - Redhat 7 build, configure, and test for Palantir Servers, Splunk, and Decision Lens.
+            - Building/deploying docker container images and creating data containers
+            - Provide tier III incident resolution
+            - Microsoft Exchange 2007/2013 System Engineer.  Built entire Enterprise Architecture for all 3 Enclaves
+            - Information Support Server Environment Guard (ISSE) Certification (Solaris 10)
+            - Secure Systems by implementing STIGS and verifying security with ACAS/Nessus
+            - Oversee the use and enhancement of industry-leading network and system monitoring systems including Solarwinds, Splunk and SCOM.
+            - Create and modify Juniper firewall policies
+            - Automate reporting tasks via PowerShell and Management Shell
+            - Cisco switch management and configuration/ Port Security/VLAN configuration/Trunk Configuration
+            - Commvault Enterprise Backup Solutions for most Enterprise applications
+            - Vmware/Vcenter
+            - Implementation of F5 Load Balancing to optimize security with applications such as JIRA, Exchange and other clustered applications
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
+        - name: AWS Solutions Architect Associate
+          start: 2021
+          end: Present
+          organization: Amazon Web Services
+          credentialid: Q5M8KS2CBEEEQ7WH
+          #credentialurl: www.google.com
+          credentialname: AWS Certified Solutions Architect - Associate
           details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            Associate certification validates an individual's expertise in designing and deploying scalable systems on the Amazon Web Services (AWS) platform.
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
+            To validate the ability to effectively demonstrate knowledge of how to architect and deploy secure and robust applications on AWS technologies.
+        - name: Red Hat Certified Systems Administrator
           start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
+          end: Present
+          organization: Red Hat
+          credentialid: 170-120-950
+          credentialurl: www.redhat.com
+          credentialname: Red Hat
           details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+             Credential that validates the skills and knowledge necessary to perform core system administration tasks in a Red Hat Enterprise Linux (RHEL) environment.
+
+             To certify individuals who have demonstrated the skills required to perform the core system administration tasks needed in Red Hat Enterprise Linux environments.
+
+        - name: Certified Ethical Hacker
+          start: 2017
+          end: Present
+          organization: EC-Council
+          credentialid: ECC76283627214
+          credentialurl: codered.eccouncil.org
+          credentialname: EC-Council
+          details: |
+            A professional credential that demonstrates an individual's skills in identifying and addressing vulnerabilities and weaknesses in computer systems using the same tools and knowledge as a malicious hacker, but in a lawful and legitimate manner.
+
+            To certify individuals in the specific network security discipline of Ethical Hacking from a vendor-neutral perspective. The goal is to help organizations take preemptive measures against malicious attacks by understanding the tactics and tools used by hackers.
+
+        - name: Certified Network Defense Architect
+          start: 2017
+          end: Present
+          organization: EC-Council
+          credentialid: ECC22661864854
+          credentialurl: codered.eccouncil.org
+          credentialname: EC-Council
+          details: |
+            A credential offered by EC-Council that is designed specifically for government and military agencies. It validates the skills and knowledge required to design and implement secure network infrastructure and systems to protect against various cyber threats.
+
+            To certify individuals in the skills necessary to design, implement, and manage secure network defenses for government and military infrastructures. It focuses on identifying network vulnerabilities and implementing defensive measures to safeguard against cyber threats.
 
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Please take a look at my recent projects.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Elastic Kubernetes Service
+        #link: "#hook"
+        tagline: "Designed an AWS EKS cluster consisting of the microservices for the bank. Consisting of the kubernetes control plane, API's, database and control plane nodes. Developed via Terraform to automate recovery of resources. High availability and fault tolerant deployed across multiple availability zones. Also includes VPC integration with configured VPC, subnets, security group, network ACLs and role based access control based on least privilege access.  Includes persistent storage EBS volumes and s3 for specific object storage needs."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: AWS Data Lake Topology
+        #link: "#"
+        tagline: "Provided the team with a proof of concept for ingesting real time data using Amazon Kinesis. A storage mechanism using Amazon s3 as the central storage layer for data lake, capable of storing structured, semi-structured and unstructured data.  Provides high durability, availability and scalability. Data Catalag and Metadata Management using AWS Glue. Maintains metadata about the data stored in s3 which helps in data discovery, schema management and provides a centralized metadata repository.  Athena which is an interactive query service that allow for querying data stored in s3. This platform also provides options for data analystics tools such as Redshift."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: ProsperOps Evaluation
+        #link: "#"
+        tagline: "Worked with the team to identify ways to cut on costs in the cloud. We were able to work with a third party vendor ProsperOps to identify ways to automate cost savings for resources that may be over utilized such as compute cost"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#oss:
+ #   title: OSS Contributions
+  #  intro: >
+   #   You can list your open source software contributions in this
+    #  section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+     # Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    #contributions:
+     # - title: Tempo
+      #  link: "#"
+       # tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#      - title: Atom
+ #       link: "#"
+  #      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+ #     - title: Delta
+  #      link: "#"
+   #     tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#
+#publications:
+ #   title: Publications
+  #  intro: |
+   #   You can list your publications in this section. Lorem ipsum dolor sit
+    #  amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+     # bibendum fringilla a eu lectus.
+    #papers:
+     # - title: The Art of Computer Programming
+      #  link: "#"
+       # authors: Donald E. Knuth
+        #conference: Addison-Wesley, 1968
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+ #       link: "#"
+  #      authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+   #     conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#      - title: A syntax directed compiler for Algol 60
+ #       link: "#"
+  #      authors: Edgar T. Irons
+   #     conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: AWS
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Terraform
+        level: 90%
 
-      - name: Angular
-        level: 98%
+      - name: Linux
+        level: 90%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Kubernetes/EKS
+        level: 70%
 
-      - name: Ruby on Rails
+      - name: Python
+        level: 50%
+
+      - name: Bash
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Network
+        level: 70%
+      
+      - name: Powershell
+        level: 70%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Alexander Kem</a>
