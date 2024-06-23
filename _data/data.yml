@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -75,6 +75,14 @@ education:
 experiences:
     title: Experiences
     info:
+      - role: Data Analyst & Business Developer
+        time: Jan 2024 - Present
+        company: Dagens industri, Stockholm
+        details: |
+            - Working with a data migration project, aimed att make our behavioral data compatible with new GDPR regulations
+            - Built data pipelines and dashboards for important business initiatives
+            - Part of a team developing an AI-driven recommendation tool for editorial content
+            - Used DBT and Airflow for managing and transforming data
       - role: Data Analyst
         time: Jan 2021 - Present
         company: Dagens industri, Stockholm
@@ -86,7 +94,7 @@ experiences:
             - Responsible for the design and execution of several A/B-tests related to user behavior 
 
       - role: Research Analyst
-        time: Sep 2020 - Dec 2020
+        time: Sep 2020 - Dec 2023
         company: Karolinska Institute, Stockholm
         details: |
             - Statistical advisor for undergraduate students covering consultancies such as choice of analytical approach, execution of analyses, and interpretations of the results
@@ -101,7 +109,7 @@ experiences:
             - Built machine learning models for predicting future dropout rates on a web-based learning platform
       - role: Research Analyst/Doctoral student
         time: Nov 2015 - Jan 2019
-        company: Åbo Akademi University, turku
+        company: Åbo Akademi University, Turku
         details: |
             - Taught an university-level course, covering the basic principles in research methodology and statistical analysis
             - Supervision of one Ph.D student, five Master's theses, and 10 research assistants 
@@ -192,4 +200,4 @@ skills:
       - name: Data Studio
         #level: 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+#    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
