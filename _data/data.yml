@@ -31,7 +31,7 @@ sidebar:
     pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
-      title: Languages
+      title: Idiomas
       info:
         - idiom: Spanish
           level: Native
@@ -40,16 +40,19 @@ sidebar:
           level: B2
 
     interests:
-      title: Interests
+      title: Intereses
       info:
-        - item: Motorcycling
+        - item: Motociclismo
           link:
 
         - item: Snowboarding
           link:
 
-        - item: Hiking
+        - item: Senderismo
           link:
+
+        - item: Música
+          link: 
 
 career-profile:
     title: Career Profile
@@ -60,6 +63,7 @@ career-profile:
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
+
 education:
     title: Education
     info:
@@ -67,82 +71,57 @@ education:
         university: Universidad Politécnica de Madrid
         time: 2009 - 2020
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Elaboración, desarrollo y gestión de proyectos para el diseño, la concepción, despliegue y explotación de redes, servicios y aplicaciones de Telecomunicación.
+          Adquirir la formación científica y tecnológica, sobre materiales y componentes electrónicos, necesaria para el ejercicio profesional en el diseño y desarrollo de sistemas electrónicos en el sector de las telecomunicaciones.
+          Realizar la especificación, simulación, diseño, desarrollo, diagnóstico, documentación y puesta a punto de circuitos, sistemas y productos con aplicación en el ámbito de la informática y de las telecomunicaciones.
+          Diseñar sistemas digitales apoyándose en las tecnologías basadas en la lógica programable, circuitos integrados de aplicación específica y microprocesadores.
+          Desarrollar el hardware analógico y digital necesario que permita captar, adaptar, generar, procesar o digitalizar señales de diferentes características.
+          Diseñar aplicaciones orientadas a sistemas de medida y control electrónico.
+          Definir especificaciones de seguridad, calidad y fiabilidad de los productos electrónicos. Describir las pruebas y ensayos de acuerdo a las normativas reguladoras.
+          Integrar adecuadamente soluciones de tipo hardware y de tipo software, para alcanzar la máxima eficacia en el desarrollo de los sistemas electrónicos.
 
 experiences:
-    title: Experiences
+    title: Experecias
     info:
-      - role: Lead Developer
+      - role: Python Django Developer, DevOps, SER and Automation Engineer
         time: 2015 - Present
-        company: Startup Hubs, San Francisco
+        company: BBVA Technologies, Madrid
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Lider en el desarrollo de flujos, 
+      - role: OpenStack Administrator & Developer at Oesia
+        time: 2015 - 2017
+        company: Oesia, Madrid
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Desarrollo de herramienta de CloudComputing.
+          Basado en Openstack y ceph.           
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+# certifications:
+#       title: Certifications
+#       list:
+#         - name: CV Builder
+#           start: 2020
+#           end: 2021
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.google.com
+#           credentialname: Google
+#           details: |
+#             Details about cert. Lorem ipsum dolor sit amet, consectetur
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh.
+#             Aenean fermentum, felis vulputate suscipit accumsan,
+#             sem enim bibendum augue, sed convallis arcu lacus at dui.
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#             Praesent venenatis erat non augue suscipit consectetur.
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
+#             Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+#             fringilla vel. Ut euismod, sem sed vulputate venenatis,
+#             justo diam viverra velit, sed rhoncus leo leo eu justo.
+#             Suspendisse placerat risus ante, sed porta nisi blandit at.
 
 projects:
-    title: Projects
+    title: Projectos
     intro: >
       You can list your side projects in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -172,9 +151,10 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
+      - name: Python
+        level: 85%
+      - name: Django
+        level: 90%
       - name: Celery
         level: 75%
          
@@ -183,7 +163,39 @@ skills:
 
       - name: HTML5 & CSS
         level: 70%
-
+      
+      - name: Ansible
+        level: 85%
+      - name: Openstak
+        level: 80%
+      - name: AWS
+        level: 65%
+      - name: Azure
+        level: 40%
+      - name: Kubernetes
+        level: 50%
+      - name: Docker
+        level: 80%
+      - name: Infoblox
+        level: 55%
+      - name: Django Rest Framework
+        level: 80%
+      - name: Postgres
+        level: 65%
+      - name: MongoDB
+        level: 80%
+      - name: Linux
+        level: 75%
+      - name:  Java
+        level: 45%
+      - name: Groovy
+        level: 75%
+      - name: Jenkins
+        level: 75%
+      - name: Git
+        level: 85%
+      - name: F5 Load Balancer
+        level: 30%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
