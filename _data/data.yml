@@ -28,7 +28,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: 
 
     languages:
       title: Idiomas
@@ -132,29 +132,18 @@ experiences:
 projects:
     title: Logros Destacados
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Proyectos destacados que he liderado y llevado a cabo con éxito a lo largo de mi carrera.
+
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Orion
+        tagline: "Creación de Orion, una aplicación para la gestión y auditoría de la infraestructura del banco, que administra más de 4000 máquinas en diversas plataformas como on-premise, AWS, hardware físico y OpenStack.
+                  Generando una api para interectuar con la informacion en tiempo real."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Jenkins pipelines
+        tagline: "Generación de pipelines y librerias complejas que permiten la generación de infrastructura de forma ordenada y efectiva."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Integración F5 con Openstack
+        tagline: "Tras la deprecación de la integración de F5 con OpenStack, se generó una API RESTful que permitió la integración de ambos productos."
 
 skills:
     title: Skills &amp; Proficiency
@@ -206,5 +195,15 @@ skills:
       - name: F5 Load Balancer
         level: 30%
 
+      - name: Comunicación Efectiva
+        level: 75%  
+      - name: Trabajo en Equipo
+        level: 95%
+      - name: Adaptabilidad
+        level: 95%
+      - name: Capacidad de Aprendizaje
+        level: 95%
+      - name: Liderazgo
+        level: 70%
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
