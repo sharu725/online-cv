@@ -4,7 +4,7 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -33,11 +33,11 @@ sidebar:
     languages:
       title: Idiomas
       info:
-        - idiom: Spanish
-          level: Native
+        - idiom: Español
+          level: Nativo
 
-        - idiom: English
-          level: B2
+        - idiom: Ingles
+          level: Avanzado
 
     interests:
       title: Intereses
