@@ -55,17 +55,18 @@ sidebar:
           link: 
 
 career-profile:
-    title: Career Profile
+    title: Perfil de carrera
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Ingeniero de software con más de 9 años de experiencia en el desarrollo de aplicaciones web utilizando
+       Python y Django, así como en la implementación y gestión de prácticas DevOps y de confiabilidad del sitio (SRE). 
+      Apasionado por crear soluciones tecnológicas eficientes y escalables, mi objetivo es mejorar continuamente la calidad 
+      del software y la infraestructura, optimizando procesos y asegurando una operación continua y sin interrupciones.
+      Experto en generar una trazabilidad de la infrastructura y generar flujos de trabajos y las mejores practicas.
+
+
 
 education:
-    title: Education
+    title: Educación
     info:
       - degree: Grado en Ingeniería Electrónica de Comunicaciones
         university: Universidad Politécnica de Madrid
@@ -84,10 +85,18 @@ experiences:
     title: Experecias
     info:
       - role: Python Django Developer, DevOps, SER and Automation Engineer
-        time: 2015 - Present
+        time: 2017 - Present
         company: BBVA Technologies, Madrid
         details: |
-          Lider en el desarrollo de flujos, 
+          Diseño y desarrollo de aplicaciones web robustas utilizando Python y el framework Django.
+          Implementación de APIs RESTful para facilitar la integración con otros sistemas.
+          Automatización de pipelines de CI/CD utilizando herramientas como Jenkins, GitLab CI/CD...
+          Configuración y administración de infraestructura en la nube (AWS, Rhv Manager, Openstack, physical).
+          Implementación de prácticas de Infraestructura como Código (IaC) utilizando Ansible.
+          Gestión de incidentes y resolución de problemas críticos en tiempo real, asegurando la alta disponibilidad y resiliencia del sistema.
+          Análisis y mejora continua del rendimiento y la seguridad de las aplicaciones y la infraestructura.
+
+
       - role: OpenStack Administrator & Developer at Oesia
         time: 2015 - 2017
         company: Oesia, Madrid
@@ -121,7 +130,7 @@ experiences:
 #             Suspendisse placerat risus ante, sed porta nisi blandit at.
 
 projects:
-    title: Projectos
+    title: Logros Destacados
     intro: >
       You can list your side projects in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
