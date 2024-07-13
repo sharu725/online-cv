@@ -137,7 +137,8 @@ projects:
     assignments:
       - title: Orion
         tagline: "Creación de Orion, una aplicación para la gestión y auditoría de la infraestructura del banco, que administra más de 4000 máquinas en diversas plataformas como on-premise, AWS, hardware físico y OpenStack.
-                  Generando una api para interectuar con la informacion en tiempo real."
+                  Generando una api para interectuar con la informacion en tiempo real. Gesiona la operación de toda la infraestructura
+                  asi como la subida a producción de todo ASO y APX, con miles de operaciones diarias."
 
       - title: Jenkins pipelines
         tagline: "Generación de pipelines y librerias complejas que permiten la generación de infrastructura de forma ordenada y efectiva."
