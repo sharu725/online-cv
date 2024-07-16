@@ -8,17 +8,17 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Matt Wilcox
+    tagline: Cloud Architect
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: matthew.w.wilcox@gmail.com
+    phone: 07540564126
+    timezone: GMT Timezone
     citizenship:
     website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
+    linkedin: https://www.linkedin.com/in/matt-wilcox-501a27199?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
     xing: alandoe
     github: sharu725
     telegram: # add your nickname without '@' sign
@@ -36,65 +36,64 @@ sidebar:
         - idiom: English
           level: Native
 
-        - idiom: French
-          level: Professional
+        # - idiom: French
+        #   level: Professional
 
-        - idiom: Spanish
-          level: Professional
+        # - idiom: Spanish
+        #   level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Tech
           link:
 
-        - item: Snowboarding
+        - item: Boxing
           link:
 
-        - item: Cooking
+        - item: Fitness
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Dynamic and results-driven professional with a robust background in technology solutions and a proven track record 
+      of success in diverse roles. Finished A levels and secured a degree apprenticeship at Capgemini, 
+      where I started as an RPA Developer and quickly transitioned to learning cloud and DevOps. 
+      Completed the apprenticeship and have since worked on four public sector clients. 
+      Currently, I am serving as a Technical Delivery Lead for an innovative data visualization project for a 
+      high-profile public sector client. Proficient at leveraging cutting-edge technologies to deliver innovative 
+      solutions and drive operational excellence. A proactive learner committed to continuous improvement and 
+      professional development. Excellent communicator and team player with strong problem-solving 
+      skills and a passion for mentoring and developing junior talent.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: BSc Digital & Technology Solutions
+        university: Aston University
+        time: 2019 - 2024
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          Completed a part-time BSc degree sponsored by Capgemini, undertaken concurrently with full-time employment. 
+          The curriculum encompassed a diverse array of subjects, ranging from technical computer science modules to business-focused and consulting topics.
+          Notably, my dissertation project involved the design, development, and presentation of an automation solution in Azure. 
+          This solution facilitated the scanning of a platform for potential non-compliant resources, subsequently automating the ticket creation process in Azure DevOps to address these issues efficiently.
+      - degree: A Level Business & Computer Science
+        university: Shrewsbury Sixth Form
+        time: 2017 - 2019
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+
+      - degree: 11 GCSE's A* - C
+        university: Charlton School
+        time: 2012 - 2017
+        details: |
+         
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Technical Architect
+        time: 2024 - Present
+        company: Capgemini
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -107,39 +106,64 @@ experiences:
           architecto beatae vitae dicta sunt explicabo.
             - Bullet point
             - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+      - role: Platform Lead
+        time: 2023 - 2024
+        company: Capgemini
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Worked as the platform lead to build and develop an Azure hosted platform to support cutting edge data visualisation
+        for the health sector. Took over from a much senior colleage which was a big step up, and required me to develop not only my technical skills, but a number of soft skills including presentation, managerial, communication, time management etc. 
+        In this role I was tasked with designing, developing and deploying a system to allow our platform to be completely metadata driven, using a CMDB to drive everything that happens within out platform. 
+        Key take aways
+          - Soft skill improvement
+          - New technical competencies developed
+          - Developing an automated metadata driven platform 
+          - Delivering and explaining the work to senior client stakeholders 
+      - role: Platform Engineer
+        time: 2022 - 2023
+        company: Capgemini
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          I was part of the infrastructure team that managed and improved the AWS platform on which a data visualisation project for a government department was hosted on. 
+        I acted as a DevOps advisor, identifying, addressing and solving issues related to processes, ways of working, coding standards, cost savings mechanisms, and security improvements.
+        I was given a brief opportunity to lead the team while the manager was away, where I had to guide and motivate the team, and ensure project delivery remained on track.
+        Key take aways
+          - Vast variety of AWS services worked with
+          - Responsible for the management of entire AWS platform
+          - Created numerous improvements for the platform
+          - Acted as lead periodically and had strong comms with the client
+      - role: DevOps Engineer
+        time: 2021 - 2022
+        company: Capgemini
+        details: |
+          Worked on one of the largest AWS environments as a DevOps engineer in data migration, we handle bulk data and deliver it to multiple downstream consumers across a number of releases. 
+        The project used terraform to create, manage and destroy migration infrastructure and automated repetitive processes with Jenkins.
+        I've supported multiple data releases and presented the work we're doing to the wider team in a knowledge share session, as well as being able to contribute my own ideas to the project.
+        Key take aways
+          - Use of DMS, S3, SNS, RDS, CloudWatch, CLI
+          - SC Clearance
+          - Confidently deploy AWS Database Migration infrastructure and carry out bulk operations independently
+          - The main resource responsible for all the data to a downstream consumer
+      - role: RPA Developer
+        time: 2020 - 2021
+        company: Capgemini
+        details: |
+           I started as a developer to create an RPA solution for the client, before moving to the live service team where we actively monitored, repaired, and improved all existing robots on the platform.
+        During this project I was approached by my reviewer who put me forward for the Junior Talent community, I was also placed on an accelerated learning path for my degree programme. 
+        On this project I developed an interest for DevOps and the cloud, I completed the AWS Cloud Practitioner certification alongside this work to open more opportunities for me to work in this field.
+        Key take aways
+          - Cloud Practitioner Certification
+          - BPSS Clearance
+          - JT community
 
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
+        - name: AWS Cloud Practitioner
+          start: #2020
+          end: #2021
+          organization: Amazon
+          credentialid: #111-222
+          credentialurl: #www.google.com
+          credentialname: #Google
           details: |
             Details about cert. Lorem ipsum dolor sit amet, consectetur
             adipiscing elit.
@@ -154,13 +178,13 @@ certifications:
             fringilla vel. Ut euismod, sem sed vulputate venenatis,
             justo diam viverra velit, sed rhoncus leo leo eu justo.
             Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
+        - name: Microsoft Azure Fundamentals
+          start: #2019
           end:
           organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
+          credentialid: #111-222
+          credentialurl: #www.github.com
+          credentialname: #Github
           details: |
             Older certification. Lorem ipsum dolor sit amet, consectetur
             adipiscing elit.
@@ -243,23 +267,35 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 55%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Terraform
+        level: 75%
 
-      - name: Angular
-        level: 98%
+      - name: Vault
+        level: 50%
 
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: Amazon Web Services
         level: 60%
+
+      - name: Microsoft Azure
+        level: 60%
+
+      - name: Azure DevOps
+        level: 55%
+
+      - name: CI/CD
+        level: 60%
+
+      - name: Jenkins Automation
+        level: 45%
+
+      - name: DevOps Methodologies
+        level: 55%
+
+      - name: NICE RPA
+        level: 45%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

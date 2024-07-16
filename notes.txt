@@ -1,0 +1,10 @@
+Career summary:
+    Finished A levels and got a degree apprenticeship at capgemini, started off as an RPA developer and quickly 
+    moved over to learning cloud and devops. Now have finished apprenticeship and working my 4th public sector client,
+    currently working as technical delivery lead for an innovative data visualisation project for a high profile
+    public sector client. 
+
+After the success as platform lead I was asked if I'd like to take on the role of Technical  Architect for the delivery,
+I onboarded 2 new juniors to the project to replace me on the platform and stepped up into a new architecture role.
+This role was taking a step back to understand and analyse what we're doing, why we're doing it, and the best way 
+to deliver this to bring the most possible value to the business. 
