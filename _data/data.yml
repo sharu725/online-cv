@@ -15,9 +15,9 @@ sidebar:
     # Sidebar links
     email: hello@webjeda.com
     phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
     citizenship:
-    website: blog.webjeda.com #do not add http://
+    website: https://blog.webjeda.com/ # Include the full website URL, including "http://" or "https://".
     linkedin: alandoe
     xing: alandoe
     github: sharu725
@@ -28,6 +28,9 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
+    mastodon: https://fosstodon.org/@plinkr # Please include your full Mastodon link here.
+    hackerrank: plinkr # Please provide your HackerRank username.
+    leetcode: plinkr # Please provide your LeetCode username.
     pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
