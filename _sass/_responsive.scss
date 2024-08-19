@@ -34,19 +34,25 @@
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .skillset .level-title {
-    display: inline-block;
     float: left;
     width: 30%;
     margin-bottom: 0;
   }
 
   .skillset .level-bar {
-    display: inline-block;
     width: 70%;
     float: left;
     position: relative;
     top: 1px;
   }
+}
+
+.skillset .level-bar-inner {
+  width: auto;
+  -webkit-transition: width 2s ease-in-out;
+  -moz-transition: width 2s ease-in-out;
+  -o-transition: width 2s ease-in-out;
+  transition: width 2s ease-in-out;
 }
 
 /* Large devices (large desktops, 1200px and up) */
