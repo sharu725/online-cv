@@ -25,7 +25,11 @@ sidebar:
     stack-overflow: 13162018/seok-jeongeum # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf:
+    mastodon:  # Please include your full Mastodon link here.
+    hackerrank: jeongeumseok910
+    leetcode: jeongeumseok910
+    pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+
     languages:
       title: Languages
       info:
