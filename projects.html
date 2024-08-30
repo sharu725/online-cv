@@ -1,3 +1,9 @@
+---
+layout: default
+permalink: /projects
+---
+
+
 {% assign projects = site.data.data.projects %}
 {% if projects %}
 <section class="section projects-section">
@@ -10,26 +16,22 @@
     {{ projects.title }}
   </h2>
 
-  {% if projects.intro %}
-  <div class="intro">
-      <p>{{ projects.intro }}</p>
-  </div><!--//intro-->
-  {% endif %}
-
   {% for project in projects.assignments %}
     <div class="item">
-
+ 
       <span class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-        {{ project.title }}
-        {% endif %}
+        {{project.title}}
       </span>
-
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+      <p> Discription: <br/> {{project.description}} </p>
+      {% if project.github %}
+      <p><a href="{{ project.github }}">Github</a></p>
       {% endif %}
+
+      <div class="video-container">
+        <iframe width="560" height="315" src="{{ project.youtube }}" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <hr/>
+
 
     </div><!--//item-->
   {% endfor %}

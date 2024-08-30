@@ -1,0 +1,41 @@
+---
+layout: default
+permalink: /blogs
+---
+
+
+{% assign blogs = site.data.data.blogs %}
+{% if blogs %}
+<section class="section projects-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ blogs.title}}
+  </h2>
+
+  <!-- title: Hello World
+      author: Sandesh Nilas Khatiwada.
+      date: 2020-05-20
+      description: Its by first blog on jekyll. And I am having fun with it.  -->
+
+  {% for blog in blogs.blogs-list %}
+    <div class="item">
+
+      <span class="blog-title">
+        {{blog.title}}
+      </span>
+      <div class="blog-detail">
+      <p>Author: {{blog.author}}</p>
+      <p>Date: {{blog.date}}</p>
+    </div>
+
+      <p>{{blog.description}}</p>
+    </div><!--//item-->
+    <hr/>
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
