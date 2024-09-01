@@ -52,30 +52,30 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Cycling
           link:
 
-        - item: Snowboarding
+        - item: Travel
           link:
 
-        - item: Cooking
+        - item: Football
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+       I am a 4th-semester student specializing in ethical hacking and cybersecurity, 
+       with a strong foundation in programming and hands-on experience in secure coding 
+       and vulnerability assessment. I possess solid skills in both offensive and 
+       defensive security strategies and intermediate networking concepts.
+
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: BSc in Ethical Hacking and CyberSecurity
+        university: Coventry University
+        time: 2023 - 2025
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
