@@ -1,0 +1,16 @@
+/* assets/css/custom.css */
+
+/* Adjust navbar link font size */
+.navbar-nav .nav-link {
+    font-size: 1.2rem; /* Adjust as needed */
+}
+
+/* Style for the navbar toggler button */
+.navbar-toggler {
+    border: 1px solid #ddd; /* Example border color */
+}
+
+/* Change the background color of the collapsed menu */
+.navbar-collapse {
+    background-color: #f8f9fa; /* Example background color */
+}

@@ -2,47 +2,51 @@
 # Be aware that even a small syntax error here can lead to failures in output.
 #
 
+navbar:
+    Home:
+
+
 sidebar:
-    position: right # position of the sidebar : left or right
+    position: left # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Prasanna Poudel
+    tagline: Student
+    avatar: profile_jekyll.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: example@email.com
-    phone: 012 345 6789
-    timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+    email: prasannapoudel51@gmail.com
+    phone: +977-9860343904
+    timezone: Asia/Nepal # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
     citizenship:
-    website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-    linkedin: alandoe
-    xing: alandoe
-    github: jekyll
+    website: https://prasannapoudel.com.np/ # Include the full website URL, including "http://" or "https://".
+    linkedin: Prasanna Poudel
+    xing: #alandoe
+    github: prasanna-wdev
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@jekyllrb'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
     mastodon:  # Please include your full Mastodon link here.
     hackerrank: # Please provide your HackerRank username.
     leetcode: # Please provide your LeetCode username.
-    pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+    pdf: https://drive.google.com/file/d/16qPU4KQdRv-OSHgX-cm-0_hT5_9GlQCu/view?usp=sharing # Add a PDF link here if you want to include a PDF custom version in your resume.
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Nepali
           level: Native
 
-        - idiom: French
+        - idiom: English
           level: Professional
 
-        - idiom: Spanish
+        - idiom: Hindi
           level: Professional
 
     interests:
