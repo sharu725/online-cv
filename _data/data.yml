@@ -4,8 +4,7 @@
 
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Daniel Fellman
@@ -70,6 +69,9 @@ education:
         university: Åbo Akademi University, Turku
         time: Sep 2015 - Jan 2019
         details: |
+            - Developed online testing platforms together with software developers for maximizing user-friendliness, efficacy, and simplicity
+            - Built statistical models for hypothesis testing related to human behavior
+            - Responsible for a university-level course titled “Behavioral Science”, covering the basic principles in research methodology and psychometrics
 experiences:
     title: Experiences
     info:
@@ -82,7 +84,7 @@ experiences:
             - Part of a team developing an AI-driven recommendation tool for editorial content
             - Used DBT and Airflow for managing and transforming data
       - role: Data Analyst
-        time: Jan 2021 - Present
+        time: Jan 2021 - Dec 2023
         company: Dagens industri, Stockholm
         details: |
             - Built real-time dashboards for visualizing important editorial KPI:s
@@ -90,8 +92,9 @@ experiences:
             - Used SQL (BigQuery), and R/Python for data analysis in my everyday work
             - Frequent presentations to stakeholders with varying backgrounds
             - Responsible for the design and execution of several A/B-tests related to user behavior 
+
       - role: Research Analyst
-        time: Sep 2020 - Dec 2023
+        time: Sep 2020 - Dec 2020
         company: Karolinska Institute, Stockholm
         details: |
             - Statistical advisor for undergraduate students covering consultancies such as choice of analytical approach, execution of analyses, and interpretations of the results
@@ -133,6 +136,48 @@ projects:
       - title: Bayesian inference
         link: "https://rpubs.com/dfellman/bayes"
         tagline: "Examining the effects of cognitive training using Bayesian statistics in R"
+
+#oss:
+#    title: OSS Contributions
+#    intro: >
+#      You can list your open source software contributions in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#    contributions:
+#      - title: Tempo
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#
+#      - title: Atom
+#        link: "#"
+#        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+#      - title: Delta
+#        link: "#"
+#        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+#publications:
+#    title: Publications
+#    intro: |
+#      You can list your publications in this section. Lorem ipsum dolor sit
+#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#      bibendum fringilla a eu lectus.
+#    papers:
+#      - title: The Art of Computer Programming
+#        link: "#"
+#        authors: Donald E. Knuth
+#        conference: Addison-Wesley, 1968
+#
+#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#        link: "#"
+#        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#
+#      - title: A syntax directed compiler for Algol 60
+#        link: "#"
+#        authors: Edgar T. Irons
+#        conference: "Comm. ACM 4 (1961), 51–55"
+
 skills:
     title: Skills
 
