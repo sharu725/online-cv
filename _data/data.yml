@@ -8,27 +8,15 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Andrejs Serebrjakovs
+    tagline: Full-stack Developer
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: example@email.com
-    phone: 012 345 6789
-    timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-    citizenship:
-    website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-    linkedin: alandoe
-    xing: alandoe
-    github: jekyll
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@jekyllrb'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
+    email: andrejs.serebrjakovs@arcsystems.lv
+    linkedin: andrejs-serebrjakovs
+    github: serebryak0v
     goodreads: # Number-Username, e.g. 123456-alandoe
-    mastodon:  # Please include your full Mastodon link here.
     hackerrank: # Please provide your HackerRank username.
     leetcode: # Please provide your LeetCode username.
     pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
@@ -37,52 +25,44 @@ sidebar:
       title: Languages
       info:
         - idiom: English
+          level: Professional
+
+        - idiom: Latvian
+          level: Professional
+
+        - idiom: Russian
           level: Native
-
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Playing hockey
           link:
 
-        - item: Snowboarding
+        - item: Exploring Machine Learning
           link:
 
-        - item: Cooking
+        - item: Travel
+          link:
+
+        - item: Cars
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am a full-stack software developer based in **Riga, Latvia**. 
+      I like to tackle complex problems methodically and systematically. 
+      I am open to innovation and like to experiment with new technologies. 
+      That is why I took up **Machine Learning** as an interest.
+      I mainly specialize in **.NET, Angular and React** but I am open to learning other langauges like Rust and Go.
+      I am a developer during the day and a hockey goalie at night.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+      - degree: BSc in Computer Science
+        university: Riga Technical University
+        time: 2014 - 2017
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -95,174 +75,135 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Software Developer
+        time: 08.2022 - Present
+        duration:
+        company: Helmes, Tallinn, Estonia
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+            I am a part of autonomous senior specialists team. We deliver complex projects on time and budget, effectively managing 
+            and addressing customer challenges.
+
+            Main projects: 
+            - Social media communication control platform
+
+              Product allows managing content and user engagement on major social medias from one place.
+              Main responsibility is keeping system stable and implementing high-level customer requirements. 
+              My work involved analysing and adapting frequent changes in social media APIs, ensuring platform remained up-to-date and secure. 
+              I also have implemented crucial authentication and security fixes with IdenityServer and OAuth2.
+              One of the main challenges was maintaining sophisticated frontend solution with two frameworks Angular.Js and React.Js.
+              
+            - Construction Equipment Management System
+
+              Developed and architected new solution for replacing old legacy system. I was focused on building frontend applicaton using
+              Angular and PrimeNg to ensure that interface is user-friendly and efficient for field workers working on mobile apps and tablets.
+              I have also developed a prototype for data synchronization through ODBC to sunset legacy system and switch users to new one.
+
+            - International Logistics Project
+
+              Developed and maintaned application for order, fleet management as well as route and pricing calculation. Developed three React Native mobile applications
+              based on Expo SDK for different roles in logistics chain. I worked closely with stakeholders to gather requirements and manage the project growth. 
+              I was also responsible for architecture and development of web app which incorporated all needed features for logistics management, ensuring system is
+              user friendly and performant. 
+
+              Technologies used: **ASP.NET, Angular, React, PrimeNg, EntityFramework, MS SQL Server, Redux, MobX, MUI, React Native, Expo SDK, Terraform, Azure**
+
+      - role: Software Developer
+        time: 01.2017 - 08.2022
+        duration: 5 years 8 months
+        company: If P&C Insurance, Riga, Latvia
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          - Developed new generation claim handling system as a part of 
+            cross-functional team. The product allowed claim handlers to spend less time on operational tasks
+            and focus on important cases as process was fully automated. In case of anomaly claims handler
+            could dig in, resolve the problem and resume automated handling.
+            Project was broken into loosely coupled event-based services which allowed rapid deployment and scaling
+            as project grew. I also have developed fraud detection system as a part of claims handling flow.
+          
+            Technologies used: **ASP.NET, React, Typescript, Javascript, EntityFramework, MSSQL, Elasticsearch, GraphQL, RabbitMQ, MassTransit**
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+          - Together with small cross-functional team I have developed claims submission platform for clients across Baltics. Instead of classic form submission
+            we have developed conversation-styled flow which was much more user-friendly and less overwhelming for the users to fill. We have tried 
+            to make the product and user-experience as welcoming as possible because in case of high-stress or frustrating situations users can make mistakes
+            while filling the claim request. We constantly monitored user behaviour using Google Analytics, logs in Kibana and collected user feedback which allowed us
+            rapidly adjust and improve the system. After thousands of applications users have rated their experience 4.8/5.
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            System was integrated with the old claims handling system which later will be replaced by new generation claim handling system as my next project.
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+            Technologies used: **ASP.NET, Angular, MassTransit, RabbitMQ, Typescript, Microsoft ServiceFabric, Dapper, OAuth2 & OIDC**
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+          Other technologies used: **Microsoft Azure, Azure DevOps, Octopus Deploy, Terraform, JetBrains TeamCity**
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+          - During various periods I have participated in different smaller scaler projects like client registry, address search registry, email encryption service, 
+          large scale system maintenance.
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - title: Programming Languages
+        skills:
+          - name: C#
+            level: 80%
+          - name: Javascript/Typescript
+            level: 80%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - title: Frameworks/Libraries
+        skills:
+          - name: .NET
+            level: 80%
+          - name: React
+            level: 80%
+          - name: Angular
+            level: 80%
+          - name: MobX
+            level: 72%
+          - name: Redux
+            level: 72%
+          - name: RxJS
+            level: 72%
+          - name: React Native
+            level: 65%
+          - name: Expo SDK
+            level: 65%
+          - name: Entity Framework
+            level: 65%
+          - name: Hangfire
+            level: 65%
+          - name: GraphQL
+            level: 60%
+          - name: PrimeNG
+            level: 60%
+          - name: MUI
+            level: 60%
 
-      - name: Angular
-        level: 98%
+      - title: Databases
+        skills:
+          - name: SQL Server
+            level: 75%
+          - name: Elasticsearch
+            level: 50%
+          - name: Redis
+            level: 50%
+          - name: MongoDB
+            level: 10%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - title: DevOps
+        skills:
+          - name: Azure
+            level: 75%
+          - name: Octopus Deploy
+            level: 70%
+          - name: Terraform
+            level: 50%
+          - name: Docker
+            level: 10%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - title: Other tools
+        skills:
+          - name: HTML
+            level: 90%
+          - name: CSS
+            level: 90%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

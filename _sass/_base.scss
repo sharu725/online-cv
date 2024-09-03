@@ -1,6 +1,6 @@
 /* ======= Base ======= */
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif !important;
   color: $text-color-secondary;
   background: $smoky-white;
   font-size: 14px;
@@ -190,23 +190,30 @@ p {
     margin-bottom: 2px;
     display: flex;
   }
+  .bottom-row {
+    @extend .upper-row;
+    justify-content: space-between;
+  }
   .job-title,
   .degree,
   .cert-title{
+    font-weight: bold;
     color: $text-color;
     font-size: 16px;
     margin-top: 0;
     margin-bottom: 0;
-    font-weight: 500;
+    font-weight: 700;
     flex: 75%;
   }
   .time,
+  .duration,
   .cert-url {
     position: absolute;
     right: 0;
     top: 0;
     color: $text-grey;
     flex: 25%;
+    font-weight: 700
   }
   .company,
   .university,
