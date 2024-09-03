@@ -89,8 +89,8 @@ experiences:
               Product allows managing content and user engagement on major social medias from one place.
               Main responsibility is keeping system stable and implementing high-level customer requirements. 
               My work involved analysing and adapting frequent changes in social media APIs, ensuring platform remained up-to-date and secure. 
-              I also have implemented crucial authentication and security fixes with IdenityServer and OAuth2.
-              One of the main challenges was maintaining sophisticated frontend solution with two frameworks Angular.Js and React.Js.
+              I have implemented crucial authentication and security fixes with IdenityServer and OAuth2.
+              One of the main challenges was maintaining sophisticated frontend solution with two frameworks Angular.Js and React.
               
             - Construction Equipment Management System
 
@@ -100,7 +100,7 @@ experiences:
 
             - International Logistics Project
 
-              Developed and maintaned application for order, fleet management as well as route and pricing calculation. Developed three React Native mobile applications
+              Developed and maintained application for order, fleet management as well as route and pricing calculation. Developed three React Native mobile applications
               based on Expo SDK for different roles in logistics chain. I worked closely with stakeholders to gather requirements and manage the project growth. 
               I was also responsible for architecture and development of web app which incorporated all needed features for logistics management, ensuring system is
               user friendly and performant. 
@@ -129,7 +129,7 @@ experiences:
 
             System was integrated with the old claims handling system which later will be replaced by new generation claim handling system as my next project.
 
-            Technologies used: **ASP.NET, Angular, MassTransit, RabbitMQ, Typescript, Microsoft ServiceFabric, Dapper, OAuth2 & OIDC**
+            Technologies used: **ASP.NET, Angular, Typescript, Javascript, Microsoft ServiceFabric, Dapper, OAuth2 & OIDC, MassTransit, RabbitMQ**
 
           Other technologies used: **Microsoft Azure, Azure DevOps, Octopus Deploy, Terraform, JetBrains TeamCity**
 
@@ -205,5 +205,4 @@ skills:
           - name: CSS
             level: 90%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+footer:
