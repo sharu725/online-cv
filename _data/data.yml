@@ -79,7 +79,7 @@ experiences:
         time: Jan 2024 - Present
         company: Dagens industri, Stockholm
         details: |
-            - Drove a data-driven culture by promoting and developing new KPIs focused on reader engagement and user loyalty, enhancing editorial decision-making.
+            - Drove a data-driven culture by promoting and developing new KPIs focused on reader engagement and user loyalty, enhancing editorial decision-making
             - Working with a data migration project, aimed att make our behavioral data compatible with new GDPR regulations
             - Built data pipelines and dashboards for important business initiatives
             - Part of a team developing an AI-driven recommendation tool for editorial content
@@ -203,10 +203,5 @@ skills:
       
       - name: Airflow
       # level
-      
-      - name: SPSS
-      # level
-
-
 footer: >
 #    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
