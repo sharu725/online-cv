@@ -20,7 +20,7 @@ sidebar:
     website: https://mohsenna.github.io/online-cv/ # Include the full website URL, including "http://" or "https://".
     linkedin: linkedin.com/in/mohsen-nazari-072254138
     #xing: alandoe
-    3github: jekyll
+    #github: jekyll
     #telegram: # add your nickname without '@' sign
     #gitlab:
     #bitbucket:
@@ -109,15 +109,17 @@ experiences:
 
       - role: Devops Engineer
         time: 2017 - 2022
-        company: Hamrahnegar, kordkuy Golestan , Iran
+        company: Hamrahnegar, Gorgan Golestan , Iran
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          - Set up and managed GitLab on-premises, including the migration of all projects from the server to this platform.
+          - Stored images in the GitLab registry and managed the CI/CD process using GitLab features.
+          - Implemented automated testing and deployment, resulting in enhanced control over code and development processes.
+          - Improved team productivity and reduced deployment time by optimizing workflows.
+          - Enabled easy tracking of changes and versions, enhancing transparency in the development process.
+          - Deployed and managed applications in a Kubernetes environment, ensuring high availability and scalability.
+          - Configured Helm charts for application deployment, simplifying the management of complex applications.
+          - Monitored and maintained the health of Kubernetes clusters, implementing self-healing mechanisms for improved reliability.
+          - Collaborated with development teams to containerize applications, facilitating seamless integration into the CI/CD pipeline.
 
 certifications:
       title: Certifications
@@ -167,17 +169,20 @@ projects:
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: News Website for IRIB (Islamic Republic of Iran Broadcasting)
+        - Description: Developed a backend application using Django and REST Framework, managing queues with Redis and Celery.
+        - Technologies: Python, Django, REST Framework, Redis, Celery.
 
-      - title: DevStudio
+      - title: Collaboration with Mobile Operators
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        - Description:  Worked with Irancell and Hamrah Aval to provide VAS services.
+                        Set up a Kubernetes cluster and implemented CI/CD with GitHub Actions for the news platform.
+        - Technologies: Kubernetes, GitHub Actions.
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Rahafilm
+       
+        - Description: Developed a backend application using Django and REST Framework, managing queues with Redis and Celery.
+        - Technologies: Python, Django, REST Framework, Redis, Celery.
 
       - title: Atom
         link: "#"
