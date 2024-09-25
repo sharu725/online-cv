@@ -1,0 +1,46 @@
+# _data/data.yml
+
+# Basic info
+name: "Pascal Rösler"
+position: "Cloud FinOps / Strategische Analyse & Planung / Emerging Technologies"
+email: "mail@pascalroesler.com"
+phone: "+49 1515 0041296"
+linkedin: "https://www.linkedin.com/in/pascalroesler/"
+
+# Profile
+profile: "Erfahrener Cloud-Infrastrukturarchitekt mit Fachkenntnissen im Cloud-Kostenmanagement (FinOps), Automatisierung und Prozessoptimierung in Multi-Cloud-Umgebungen (Azure, AWS, GCP)."
+
+# Skills
+skills:
+  - "Strategische Analyse & Planung"
+  - "Führung & Teammanagement"
+  - "Datenanalyse & Automatisierung"
+  - "Cloud-Architektur & Sicherheit"
+  - "Emerging Technologies"
+  - "Partner- & Beziehungsmanagement"
+
+# Experience
+experience:
+  - company: "Capgemini"
+    position: "Solution Architect | Cloud Infrastructure Services"
+    time: "Dez. 2021 – heute"
+    responsibilities:
+      - "Leitung des Designs und der Bereitstellung einer FinOps-Automatisierungspipeline."
+      - "Planung von Cloud-Compliance-Lösungen nach ISO27001-Standards."
+  - company: "tegos Group"
+    position: "Azure Cloud Consultant"
+    time: "Sept. 2019 – Nov. 2021"
+    responsibilities:
+      - "Überwachung der Migration von MS Dynamics NAV-Lösungen in die Azure-Cloud."
+      - "Automatisierung der Verwaltung von Azure/M365-Ressourcen."
+
+# Certifications
+certifications:
+  - "FinOps Certified FOCUS Analyst – 2024"
+  - "Certified SAFe® 6 Agilist – 2024"
+  - "AWS Partner: Generative AI Essentials – 2023"
+
+# Languages
+languages:
+  - "Deutsch: Muttersprache"
+  - "Englisch: Fließend"
