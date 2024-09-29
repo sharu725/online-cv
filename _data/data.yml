@@ -1,192 +1,173 @@
-#
 # Be aware that even a small syntax error here can lead to failures in output.
-#
 
 sidebar:
-    position: left # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  position: left  # position of the sidebar: left or right
+  about: true  # set to false or comment line if you want to remove the "how to use?" in the sidebar
+  education: true  # set to false if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Jooneui Hong
-    title: Ph.D. Student in Transportation Engineering
-    tagline: Transportation System Researcher
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Jooneui Hong
+  title: Ph.D. Student in Transportation Engineering
+  tagline: Transportation System Researcher
+  avatar: profile.png  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: jooneui@uci.edu
-    website: https://brunch.co.kr/@jooneuih
-    linkedin: 
+  # Sidebar links
+  email: jooneui@uci.edu
+  website: https://brunch.co.kr/@jooneuih
+  linkedin: null  # set to null if no value is available
 
-    interests:
-      title: Interests
-      info:
-        - item: Soccer
-          link:
+  interests:
+    title: Interests
+    info:
+      - item: Soccer
+        link: null  # set to null if no link is available
 
-        - item: Tennis
-          link:
+      - item: Tennis
+        link: null  # set to null if no link is available
 
-        - item: Economics
-          link:
+      - item: Economics
+        link: null  # set to null if no link is available
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
-      
+  title: Career Profile
+  summary: |
+    Summarise your career here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+    nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.
+
 education:
-    title: Education
-    info:
-      - degree: MS, Department of Civil and Environmental Engineering
-        university: Seoul National University, Seoul, South Korea
-        time: 2016 - 2018
-        details: |
-          - I am jooneui Hong
+  title: Education
+  info:
+    - degree: MS, Department of Civil and Environmental Engineering
+      university: Seoul National University, Seoul, South Korea
+      time: 2016 - 2018
+      details: |
+        - I am Jooneui Hong
 
 experiences:
-    title: Research Experiences
-    info:
-      - role: Research Assistant
-        time: Sep. 2023 - Present
-        company: Institute of Transporation Studies, UC Irvine
-        details: |
-      - role: Research Associate
-        time: 2018 - 2022
-        company: Public and Private Infrastructure Investment Management Center, Korea Development Institute
-        details: |
-          - Prliminary Feasibility Studies (PFS)* of government-financed projects
-              - Conducted 8 road and railway projects
-              - *Evaluating the validity of a large-scale project in accordance with the National Finance Act of Korea to prevent the government's budget mismanagement.
-          - Revising guidelines for the measurement of monetary value of traffic noise reduction
-              - Transformed micro noise prediction models into macro models to apply to travel demand analysis, and estimated traffic noise cost based on deamage cost approach
-          - Revision of Preliminary Feasibility Study (PFS) guideline - road & railway (6th edition)
-          - Construction of weekend trip-based origin-destination matrix from mobile data
-          - Collaboration and coordination with the Ministry of Economy and Finance, the Ministry of Land, Infrastructure and Transport, and Korea Transport Institute
+  title: Research Experiences
+  info:
+    - role: Research Assistant
+      time: Sep. 2023 - Present
+      company: Institute of Transportation Studies, UC Irvine
+      details: |
+        - Add your research details here.
 
-      - role: Research Assistant
-        time: 2016 - 2018
-        company: Department of Civil and Environmental Engineering, Seoul National University
-        details: |
-          - Development of a driving-simulator based training system to reduce drivers’ aggressive behavior
-              - Applied Surrogate Safety Measures (SSMs) to the training system, which can consider the interaction of surrounding vehicles.
-              - Applied traffic flow models (i.e., car following, lane changing, and gap acceptance) to a simulation.
-              - Developed the overall scoring system of each driver by applying factor analysis and principal component analysis with R.
+    - role: Research Associate
+      time: 2018 - 2022
+      company: Public and Private Infrastructure Investment Management Center, Korea Development Institute
+      details: |
+        - Preliminary Feasibility Studies (PFS) of government-financed projects.
+        - Conducted 8 road and railway projects.
+        - Evaluating the validity of a large-scale project in accordance with the National Finance Act of Korea.
+        - Revising guidelines for the measurement of monetary value of traffic noise reduction.
+        - Transformed micro noise prediction models into macro models.
+        - Estimated traffic noise cost based on damage cost approach.
+        - Revision of Preliminary Feasibility Study (PFS) guideline - road & railway (6th edition).
+        - Construction of weekend trip-based origin-destination matrix from mobile data.
+        - Collaboration and coordination with the Ministry of Economy and Finance, the Ministry of Land, Infrastructure and Transport, and Korea Transport Institute.
+
+    - role: Research Assistant
+      time: 2016 - 2018
+      company: Department of Civil and Environmental Engineering, Seoul National University
+      details: |
+        - Development of a driving-simulator-based training system to reduce drivers’ aggressive behavior.
+        - Applied Surrogate Safety Measures (SSMs) to the training system.
+        - Applied traffic flow models (i.e., car following, lane changing, and gap acceptance) to a simulation.
+        - Developed the overall scoring system of each driver by applying factor analysis and principal component analysis with R.
 
 certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+  title: Certifications
+  list:
+    - name: CV Builder
+      start: 2020
+      end: 2021
+      organization: Microsoft
+      credentialid: 111-222
+      credentialurl: https://www.google.com
+      credentialname: Google
+      details: |
+        Details about the certification. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Nullam eget orci purus. Nullam ultrices neque nibh. Aenean fermentum, felis vulputate suscipit accumsan,
+        sem enim bibendum augue, sed convallis arcu lacus at dui.
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+    - name: Git learning
+      start: 2019
+      end: null  # set to null if no end date
+      organization: Microsoft
+      credentialid: 111-222
+      credentialurl: https://www.github.com
+      credentialname: GitHub
+      details: |
+        Older certification. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Nullam eget orci purus. Nullam ultrices neque nibh. Aenean fermentum, felis vulputate suscipit accumsan,
+        sem enim bibendum augue, sed convallis arcu lacus at dui.
 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  title: Projects
+  intro: >
+    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+    - title: DevStudio
+      link: "#"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - title: Tempo
+      link: "#"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users & investors."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    - title: Atom
+      link: "#"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - title: Delta
+      link: "#"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps."
 
 publications:
-    title: Publications
-    intro: |
-    papers:
-      - title: Implementing Surrogate Safety Measures to Driving Simulator and Evaluating the Safety Effects of Simulator-Based Training on Aggressive Driving Behaviors
-        link: "#"
-        authors: Ka, E., Kim, D., __Hong, J.__, and Lee, C. 
-        conference: Journal of Advanced Transportation (2020)
+  title: Publications
+  intro: |
+    Here are some of the publications authored by Jooneui Hong.
+  papers:
+    - title: Implementing Surrogate Safety Measures to Driving Simulator and Evaluating the Safety Effects of Simulator-Based Training on Aggressive Driving Behaviors
+      link: "#"
+      authors: Ka, E., Kim, D., __Hong, J.__, and Lee, C.
+      conference: Journal of Advanced Transportation (2020)
 
-    title: Referred Conference Proceedings
-    papers:
-      - title: __Hong, J.__, Kim, S., Ka, E., and Lee, C. (2017) Application of Support Vector Machine (SVM) to Judge the Risky Driver in Driving Simulator. 2017 Fall Korea Institute of ITS Conference, Seoul, South Korea.
-      - title: Ka, E., Ha, S., __Hong, J.__, and Lee, C. (2017) Application of Deep Learning for Demand Forecasting of Call Taxi for the Handicapped in Seoul. The 77th Korean Society of Transportation Conference, Seoul, South Korea.
-      - title: __Hong, J.__, Ka, E., Kim, S., and Lee, C. (2017) Analysis and Comparison of Drivers between South Korea and the United States of America by using Surrogate Safety Measures (SSMs). The 6th International Conference of Euro Asia Civil Engineering Forum, Seoul, South Korea.
-      - title: Ka, E., Kim, S., __Hong, J.__, and Lee, C. (2017) A Preliminary Study of Comparison with Lane Changing Model Parameters in Merging Area between Normal and Raining Conditions. The 12th International Conference of Eastern Asia's Society for Transportation Studies (EASTS), Ho Chi Minh, Vietnam.
-      - title: __Hong, J.__, Lee, S., Lee, C. (2016) Drivers’ Evaluation Indices Considering the Interaction with Surrounding Vehicles on Driving Simulator. The third International Conference on Computational Science and Engineering (ICST), Ho Chi Minh City, Vietnam.
-      - title: __Hong, J.__, Kim, J., Lee, J., Lee, C. (2016) A Statistical Method to Assess Overall Driving Risk Using Driving Simulator. 2016 Fall Korea Institute of ITS Conference, Busan, South Korea
-      - title: __Hong, J.__, Ka, E., Kim, S., Lee, C. (2016) Selecting a Variety of Surrogate Safety Measures (SSMs) Using Driving Simulator. The 75th Korean Society of Transportation Conference, Busan, South Korea. 
-
-
+  title: Referred Conference Proceedings
+  papers:
+    - title: __Hong, J.__, Kim, S., Ka, E., and Lee, C. (2017) Application of Support Vector Machine (SVM) to Judge the Risky Driver in Driving Simulator. 2017 Fall Korea Institute of ITS Conference, Seoul, South Korea.
+    - title: Ka, E., Ha, S., __Hong, J.__, and Lee, C. (2017) Application of Deep Learning for Demand Forecasting of Call Taxi for the Handicapped in Seoul. The 77th Korean Society of Transportation Conference, Seoul, South Korea.
+    - title: __Hong, J.__, Ka, E., Kim, S., and Lee, C. (2017) Analysis and Comparison of Drivers between South Korea and the United States of America by using Surrogate Safety Measures (SSMs). The 6th International Conference of Euro Asia Civil Engineering Forum, Seoul, South Korea.
+    - title: Ka, E., Kim, S., __Hong, J.__, and Lee, C. (2017) A Preliminary Study of Comparison with Lane Changing Model Parameters in Merging Area between Normal and Raining Conditions. The 12th International Conference of Eastern Asia's Society for Transportation Studies (EASTS), Ho Chi Minh, Vietnam.
+    - title: __Hong, J.__, Lee, S., Lee, C. (2016) Drivers’ Evaluation Indices Considering the Interaction with Surrounding Vehicles on Driving Simulator. The third International Conference on Computational Science and Engineering (ICST), Ho Chi Minh City, Vietnam.
+    - title: __Hong, J.__, Kim, J., Lee, J., Lee, C. (2016) A Statistical Method to Assess Overall Driving Risk Using Driving Simulator. 2016 Fall Korea Institute of ITS Conference, Busan, South Korea
+    - title: __Hong, J.__, Ka, E., Kim, S., Lee, C. (2016) Selecting a Variety of Surrogate Safety Measures (SSMs) Using Driving Simulator. The 75th Korean Society of Transportation Conference, Busan, South Korea.
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills & Proficiency
+  toolset:
+    - name: Python (tensorflow)
+      level: 90%
 
-    toolset:
-      - name: Python (tensorflow)
-        level: 90%
+    - name: R
+      level: 95%
 
-      - name: R
-        level: 95%
+    - name: MATLAB
+      level: 90%
 
-      - name: MATLAB
-        level: 90%
+    - name: C
+      level: 60%
 
-      - name: C
-        level: 60%
+    - name: Fortran
+      level: 60%
 
-      - name: Fortran
-        level: 60%
-
-      - name: Emme4, VISSIM, CPLEX, MS Excel, MS Acess
+    - name: Emme4, VISSIM, CPLEX, MS Excel, MS Access
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
