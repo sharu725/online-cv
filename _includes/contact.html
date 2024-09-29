@@ -31,9 +31,15 @@
     </li>
     {% endif %}
 
+    {% if sidebar.github %}
+    <li class="github"><i class="fab fa-github"></i>
+      <a href="https://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.website %}
     <li class="website"><i class="fas fa-globe-americas"></i>
-      <a href="{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
+      <a href="https://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
     </li>
     {% endif %}
 
@@ -46,12 +52,6 @@
     {% if sidebar.xing %}
     <li class="xing"><i class="fab fa-xing"></i>
       <a href="https://www.xing.com/profile/{{ sidebar.xing }}" target="_blank">{{ sidebar.xing }}</a>
-    </li>
-    {% endif %}
-
-    {% if sidebar.github %}
-    <li class="github"><i class="fab fa-github"></i>
-      <a href="https://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
     </li>
     {% endif %}
 
