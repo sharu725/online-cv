@@ -16,7 +16,7 @@ sidebar:
 
     email: germanmartinezayuso@gmail.com
     # phone: +34 662 065 125
-    website: germa89.github.io #blog.webjeda.com #do not add http://
+    website: blog.imger.dev #blog.webjeda.com #do not add http://
     linkedin: gmartinezayuso
     github: germa89
     telegram: germa89
@@ -27,7 +27,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://github.com/germa89/cv/blob/software-1.0/assets/my%20resume.pdf
+    pdf: https://github.com/germa89/cv/blob/master/assets/my%20resume.pdf
 
     languages:
       title: Languages
