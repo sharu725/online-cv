@@ -5,15 +5,17 @@ layout: default
 
 {% include career-profile.html %}
 
+{% include skills.html %}
+
 {% include experiences.html %}
 
 {% include certifications.html %}
 
-{% include projects.html %}
-
 {% unless site.data.data.sidebar.education %}
   {% include education.html %}
 {% endunless %}
+
+{% include projects.html %}
 
 {% include oss-contributions.html %}
 
@@ -21,5 +23,4 @@ layout: default
 
 {% include publications.html %}
 
-{% include skills.html %}
 

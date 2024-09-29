@@ -9,14 +9,13 @@ sidebar:
 
     # Profile information
     name: Dr Germ&aacute;n Mart&iacute;nez-Ayuso
-    tagline: PhD, Data Scientist - Data Analyst
-    avatar: ger2.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline: PhD, Software Engineer
+    avatar: ger3.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
 
     email: germanmartinezayuso@gmail.com
-    phone: +44 (0) 7784 284149
-    timezone: Madrid Timezone
+    # phone: +34 662 065 125
     website: germa89.github.io #blog.webjeda.com #do not add http://
     linkedin: gmartinezayuso
     github: germa89
@@ -28,7 +27,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: https://github.com/germa89/cv/blob/software-1.0/assets/my%20resume.pdf
 
     languages:
       title: Languages
@@ -42,8 +41,8 @@ sidebar:
       - idiom: French
         level: Beginner
 
-      - idiom: Arabic
-        level: Beginner
+      # - idiom: Arabic
+      #   level: Beginner
 
     interests:
       title: Interests
@@ -57,43 +56,100 @@ sidebar:
       - item: Gym 
         link:
 
-      - item: Reading 
+      - item: Reading novels
         link:
 
 
 career-profile:
     title: Career Profile
     summary: |
-      I'm a data scientist with extensive experience in modelling, programming and numerical methods. 
-      My passion for programming leads me to develop machine learning-based solutions for companies and universities. 
-      Following my passion, I would like to accomplish bigger challenges in my career. 
+      I am a civil engineer with software development focus. I do posses extensive experience in python programming, software development, and continuous integrations-continuous deployment (CI/CD).
+
+      Experienced with machine learning algorithms such as K-Nearest neighbors and neural networks, which I have applied to different research and business cases.
+
+      My interests are also related to civil engineering, more specifically materials modelling and structural design.
+  
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+
+      - name: Programming
+        details: Python, Matlab, C++
+        level: 90%
+
+      - name: Software development
+        details: CICD, OOP
+        level: 70%
+
+      - name: Structural engineering
+        details: Finite element methods
+        level: 70%
+
+      - name: Data Analysis
+        details: Cleaning, Visualization
+        level: 70%
+
+      - name: Data science tools
+        details: Numpy, Pandas
+        level: 70%
+
+      - name: Cloud computing
+        details: Azure, GCP
+        level: 70%
+
+      - name: Machine learning
+        details: Sk-learn, TensorFlow
+        level: 60%
+
 
 experiences:
     title: Experiences
     info:
+    - role: Senior Research and Development Engineer
+      time: 2023 - Present
+      company: Ansys Inc
+      details: |
+          - Main maintainer of [PyMAPDL](https://github.com/ansys/pymapdl) library, an open source Python interface to Ansys MAPDL structural solvers.
+          - Co-owner of [Ansys github enterprise organization](https://github.com/ansys). Help to maintain Azure CICD pipelines and implementing best practices.
+          - Co-maintainer of [MAPDL solver Ubuntu docker image](https://github.com/ansys/pymapdl/pkgs/container/pymapdl%2Fmapdl)  Containerization of applications for cloud deployment.
+          - Contributor to MAPDL solver and its gRPC data interface. Implementation of new methods to transfer data from the C++ application server to a Python client.
+          - Mentoring new employees and interns.
+          - Supporting customer engagements.
+
+    - role: Research and Development Engineer II
+      time: 2022 - 2023
+      company: Ansys Inc
+      details: |
+          - Contributor to [PyMAPDL](https://github.com/pyansys/pymapdl) library.
+          - Supporting other Ansys libraries [ansys/actions](https://github.com/ansys/actions), [ansys-tools-path](https://github.com/ansys/ansys-tools-path), [ansys-sphinx-theme](https://github.com/ansys/ansys-sphinx-theme), etc
+          - Supporting the technological transformation of business units. Implementing best code practices, maintaining CICD pipelines in many organization packages, etc.
+
     - role: Research Officer in Data Science
-      time: 2020 - Present
+      time: 2020 - 2021
       company: Medical School, Swansea University, Swansea, UK
       details: |
-          - Application of machine learning algorithms (clustering and deep learning techniques) to detect abnormal behaviour in real cardiac cells optical data and fluorescent calcium measurements. Application to commercial business case. 
+          - Application of machine learning algorithms (clustering and deep learning techniques) to detect abnormal behaviour in real cardiac cells optical data and fluorescent calcium measurements.
           - Image processing for data extraction. Application of machine learning techniques to extract data features. 
-          - Design and development of an application with graphic user interface for data analysis of microscope images.  
-          - Processing health image big data using own algorithms. Development of our database.
+          - Design and development of a workflow to analise of microscope images. Development of a graphic user interface in Python.  
+
     - role: Research Fellow
       time: 2019 - 2020
       company: Institute of Material Discovery, University College of London, London, UK
       details: |
+          - Using numerical techniques based on finite element methods and machine learning techniques to optimise industrial composites such as honeycomb or recycled aggregates. 
+          - Collaborated with colleagues using Machine Learning to predict materials properties and accelerate materials discovery. Text mining on research databases. 
           - Collaborated with industrial and academic partners to develop a web platform for industry access to materials modelling expertise. This project was funded by the European Union and companies such as Fraunhofer, Enthought, Bosch, etc. 
-          - Collaborated with colleagues using Machine Learning to predict materials properties and accelerate materials discovery. Text mining on research databases.
-          - Using numerical techniques based on finite element methods (FEM) to optimise industrial composites such as honeycomb or recycled aggregates.     
+
     - role: Project officer
       time: 2018 - 2019
       company: Swansea University, Swansea, UK
       details: |
           - Application of techniques from the domain of data science such as data pre-processing, neural networks and multi constraint optimisation to reduce costs in steel manufacturing industry. 
           - Developed an addon in Python and JavaScript for a commercial finite element software ANSYS. This addon integrates in the interface of ANSYS application and perform operations to simplify continuum mechanics calculations.
-          - Developed Python scripts to collect and analyse large data sets from files, websites, etc.
-          - Developed numerical models to improve manufacturing processes in the industry. The processes range from material behaviour prediction to optimisation of properties such as geometry, elastic properties, viscosity, etc.
+          - Developed Python scripts to collect and analyse large data sets from internal company website to analyse machinery performance and propose optimisations.
+          - Developed numerical models to improve manufacturing processes in the industry. The processes range from material behavior prediction to optimisation of properties such as geometry, elastic properties, viscosity, etc.
+
     - role: Research Assistant
       time: 2017
       company: Swansea University, Swansea, UK
@@ -118,40 +174,6 @@ projects:
         link: "https://github.com/germa89/Finance-Marketing-Prediction-ML"
         tagline: Predict the success rate of a marketing campaing given previous records. 
 
-#       - title: Financial Fraud Detection
-#         link: "https://github.com/germa89/Financial_Fraud_Detection"
-#         tagline: "Demonstration of how we can use boosted decision trees to detect fraud in credit cards records."
-
-      # - title: DevStudio
-      #   link: "#"
-      #   tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      # - title: Atom
-      #   link: "https://github.com/germa89/Finance-Marketing-Prediction-ML"
-      #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      # - title: Delta
-      #   link: "#"
-      #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-# oss:
-#     title: OSS Contributions
-#     intro: >
-#       You can list your open source software contributions in this
-#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#     contributions:
-#       - title: Tempo
-#         link: "#"
-#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-#       - title: Atom
-#         link: "#"
-#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-#       - title: Delta
-#         link: "#"
-#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 oss:
     title: OSS Contributions
@@ -179,9 +201,14 @@ publications:
       # amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
       # bibendum fringilla a eu lectus.
     papers:
-      - title: Multi-objective Optimisation of Electric Arc Furnace Using the NSGA-II Evolutionary Algorithm (In Review)
-        link: ""
+      - title: Multi-objective Optimisation of Electric Arc Furnace Using the NSGA-II Evolutionary Algorithm
+        link: https://ieeexplore.ieee.org/abstract/document/9600818
         authors: Matteus Torquato, Germán Martínez-Ayuso, Hoceine Matallah, Ashraf Fahmy
+        conference: #Addison-Wesley, 1968
+
+      - title: Electric field distribution in porous piezoelectric materials during polarization
+        link: https://www.sciencedirect.com/science/article/abs/pii/S135964541930223X
+        authors: Germán Martínez-Ayuso, Michael I Friswell, Hamed H Khodaparast, JI Roscow, CR Bowen
         conference: #Addison-Wesley, 1968
 
       - title: Other papers in my Google scholar profile.
@@ -200,6 +227,8 @@ education:
       time: 2015 - 2019
       details: |
         Micro to macro-scale material modelling using numerical techniques for energy harvesting applications. Fully-funded scholarship
+        * Developed my own non-linear finite element code in Matlab for piezoelectric harvesters based on Euler-Bernoulli beams. Validated experimentally. 
+        * Used commercial finite element packages to obtain the equivalent mechanical properties of micro composite structures (Homogenization). 
     
     - degree: M.Sc. in Structures
       university: University of Granada, Spain
@@ -218,54 +247,6 @@ education:
       time: 2007 - 2010
       details: |
         Special award, Graduated with honours. Best student record award.
-        
-        
-skills:
-    title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Data science 
-        details: Numpy, Pandas, ...
-        level: 90%
-
-      - name: Programming 
-        details: Python, C++, Matlab, ...
-        level: 90%
-
-      - name: Microsoft Office &amp; LaTeX 
-        details: Word, Powerpoint, Excel, ...
-        level: 90%
-
-      - name: Data Visualization 
-        details: Matplotlib, Tableau
-        level: 80%   
-
-      - name: Machine learning 
-        details: Decision trees, KNN, ...
-        level: 80%
-
-      - name: Deep learning 
-        details: TensorFlow, Sk-learn
-        level: 70%
-
-      - name: Business Analysis 
-        details: Excel, VBA, Power BI
-        level: 70%        
-
-      - name: Databases 
-        details: SQL, BigQuery, ...
-        level: 70%
-
-      - name: Mathematical modelling 
-        details: Mathematica, Matlab
-        level: 70%     
-
-      - name: Cloud computing 
-        details: GCP, AWS, ... 
-        level: 60%
-
-      - name: Statistics &amp; Probability 
-        level: 60%
-
-# footer: >
-#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+footer: >
+    *References* upon request.
