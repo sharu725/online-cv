@@ -3,28 +3,28 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
+    position: left # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Willian Rocha
+    tagline: Data Engineer | Data Architect | Data Platform | AWS Certified
+    avatar: profile-foto-face.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: example@email.com
-    phone: 012 345 6789
-    timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+    email: willian.barbosarocha@gmail.com
+    phone: +55 12 99111 2356
+    timezone: BRT # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
     citizenship:
-    website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-    linkedin: alandoe
-    xing: alandoe
-    github: jekyll
+    website: https://dataengbill.medium.com/ # Include the full website URL, including "http://" or "https://".
+    linkedin: whrocha89
+    xing:
+    github: whrocha
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@jekyllrb'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -36,233 +36,319 @@ sidebar:
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Portuguese
           level: Native
 
-        - idiom: French
-          level: Professional
+        - idiom: English
+          level: Fluent
 
         - idiom: Spanish
-          level: Professional
+          level: Basic
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
+#    interests:
+#      title: Interests
+#      info:
+#        - item: Climbing
+#          link:
+#
+#        - item: Snowboarding
+#          link:
+#
+#        - item: Cooking
+#          link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Hello There!
+
+      Bill Here! I have been working since 2008 exclusively with DATA - 16 years and counting.
+
+      I'm a Data Engineer & Data Architect that focus on building scalable, reliable, and world class's Data Platform solutions.
+
+      I have a huge experience in Data Driven Development, Data Integrations, Data Modeling, Data Engineering, Data Architecture, Data Platform and AWS Data Services.
+
+      My main focus is Data Engineering, Data Architecture ( specially Data Mesh ) and Cloud Computing using all of this to build Scalable & Cost Effective Data Platform.
+
+      Talk Data with me, and let's change the world using DATA!
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: Extension Degree in Big Data
+        university: FIA Business School
+        time: 2016 - 2016
+      - degree: Bachelor Degree in Computer Engineering
+        university: University Salesian of São Paulo - UNISAL
+        time: 2013 - 2016
+        details:
+      - degree: Database Technologist
+        university: Technology College of São Paulo - FATEC
+        time: 2007 - 2009
+        details:
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Associate Direct - Data Platform Tech Lead
+        time: Jan 2024 - Present
+        company: BTG Pactual, São Paulo (Full Time)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Responsible for Data Platform used in the whole Data Analytics Team at BTG & Data Mesh Expansion adding more Data Producers and Data Consumers.
+
+          Some technology of our Data Platform which I'm responsible:
+            - AWS Technology Stack: Redshift (RA3, Serverless), Athena, EMR, ECS, Fargate, Lambda, StepFunctions, KMS, Lake Formation, Glue Data Catalog, EKS.
+            - Kafka: Usage of Amazon Managed Streaming for Apache Kafka (MSK).
+            - Airflow.
+            - DataHub for Data Catalog.
+
+          I also work closely with Data stakeholders in order to build and sustain a Self-service Data Platform following the Data Mesh Principle.
+
+          Focusing on enable a cost effective Data Platform to ensure the best results for the business as well for all stakeholders.
+      - role: Associate Director - Data Architect
+        time: Dec 2021 - Dec 2023
+        company: BTG Pactual, São Paulo (Full Time)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Design, build and implement Data world class solution using AWS technology, focusing on Data stack, using services like Redshift, Kinesis, Fargate, Aurora, EMR, Lake Formation, and others.
+
+          My focus is to help the Data Analytics team to build the best Cloud Data Platform and implement Data Platform Foundations.
+      - role: Data Engineer
+        time: Aug 2020 - Dec 2021
+        company: BTG Pactual, São Paulo (Full Time)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Work closely with business unit to build, implement and monitoring Big Data pipelines.
+
+          Build and maintain Data solutions using AWS technology:
+            - S3
+            - EMR
+            - Kinesis
+            - Redshift
+            - Others AWS Data Technology
+
+          Main Projects:
+
+          - Migrate Data Lake to AWS Lake Formation
+
+            I migrate the Data Lake to be entire managed by Lake Formation, Data Analytics team needs to share data cross account using the Lake Formation feature, to enable this feature the Data Lake needs to be managed by Lake Formation instead of IAM.
+
+            Tech stack: AWS Lake Formation, AWS Redshift, boto3.
+
+          - Income model MLOps
+
+            This was my first MLOps project, the Data Science team build the model and I help them to deploy this model in production, to achieve this challenge, I architect the whole solution using AWS ECS Fargate, Kinesis Data Stream, Kinesis Firehose and DynamoDB for model metadata. I architect a Serverless solution.
+
+            Tech Stack: AWS ECS Fargate, AWS Kinesis Data Stream, AWS Kinesis Firehose, AWS DynamoDB, AWS Athena, AWS Glue data catalog, AWS Lambda, parquet.
+
+          - Legacy DW migration to AWS
+
+            Migration the legacy DW solution to AWS, to achieve this I built a Cloud native solution using Amazon MQ to receive the statement data, AWS Fargate to write the received data in AWS Aurora (Postgre engine), move the OLTP data from Aurora to Redshift using Federated Query, and orchestrated the batch job using AWS Step Functions.
+
+
+          Least but not last I used scheduled query to unload the data from Redshift to S3 in parquet format, enabling Data Science team could analyse the DW data.
+
+          Tech Stack:
+            - AWS Amazon MQ (RabbitMQ)
+            - AWS Redshift
+            - AWS Step Functions
+            - AWS Glue Data Catalog
+            - AWS Federated query
+            - AWS Aurora (Postgres engine)
+            - AWS Redshift Scheduled queries
+            - AWS ECS Fargate
+            - AWS Lambda
+
+      - role: Senior Data Engineer / Data Architect / Data Platform
+        time: Dec 2023 - Present
+        company: Proxify, Sweden (Part Time)
+        details: |
+          Proxify is an award-winning Swedish tech company matching the world's best tech talent with leading companies.
+
+          Proxify embraces a people-first approach, with the goal to transform futures for companies, and talented professionals alike.
+
+          At Proxify, we live and breathe our values.
+            - Speed: We seize opportunities and embrace our mistakes as a key ingredient of innovation.
+            - Impact: We're driven to create positive change together, fuelled by an uncompromising dedication to our clients.
+            - Quality: We're always meticulous and dedicated to data. We celebrate excellence everyday.
+            - Personal: Empathy is our north star. We believe that anything is possible, with a little help from our friends.
+
+          More details: https://proxify.io/company
+
+      - role: Senior Data Engineer / Data Architect / Data Platform
+        time: Dec 2023 - Present
+        company: Proxify, Sweden (Part Time)
+        details: |
+          Proxify is an award-winning Swedish tech company matching the world's best tech talent with leading companies.
+
+          Proxify embraces a people-first approach, with the goal to transform futures for companies, and talented professionals alike.
+
+          At Proxify, we live and breathe our values.
+            - Speed: We seize opportunities and embrace our mistakes as a key ingredient of innovation.
+            - Impact: We're driven to create positive change together, fuelled by an uncompromising dedication to our clients.
+            - Quality: We're always meticulous and dedicated to data. We celebrate excellence everyday.
+            - Personal: Empathy is our north star. We believe that anything is possible, with a little help from our friends.
+
+          More details: https://proxify.io/company
+
+      - role: Data Engineer Expert
+        time: Sep 2020 - Sep 2023
+        company: Cognitivo.ai, Brazil (Freelance)
+        details: |
+          Data Engineering freelance projects: Big Data, Data Lake, Cloud Computing using AWS Stack.
+
+          Key technology's used:
+            - AWS
+            - AWS ECR
+            - AWS ECS
+            - Terraform
+            - Airflow
+            - AWS Lambda
+            - DynamoDB
+            - AWS EMR
+            - AWS Athena
+
+      - role: Data Engineer
+        time: Aug 2019 - Aug 2020
+        company: EBANX, Curitiba/PR (Full Time)
+        details: |
+          - Build and maintain data ingestion pipelines using AWS stack and Airflow.
+          - Develop data modeling algorithms.
+          - Manipulate and analyze complex, high-volume, high-dimensionality data from varying sources.
+          - Monitoring performance and advising any necessary infrastructure changes.
+          - Collaborate with partners and development team to drive analytic projects end to
+          end.
+          - Data Visualization Server Admin (Tableau Server).
+          - AWS Redshift Admin.
+
+      - role: Data Engineer
+        time: Apr 2017 - Ago 2019
+        company: EMBRAER, São José dos Campos/SP (Full Time)
+        details: |
+          - ETL development for main company system such as MES (Manufacturing
+          Exection Systems) and SAP.
+          - Massive use of Pentaho Data Integration, development ETL process for all
+          legacy system that used PL/SQL as ETL.
+          - Data driven application development for Production Planning, Aircraft
+          Delivery Center and International Logistics.
+          - Multidimensial database modeling for BI tools.
+          - Production planning data cleansing in Boeing carve-out process, a lot of
+          data to analyze and clean, a huge data cleansing processing.
+
+      - role: Full Stack Data Developer
+        time: Jan 2008 - Mar 2017
+        company: EMBRAER, São José dos Campos/SP (Full Time)
+        details: |
+          Software development and process automation for Production Planning
+          team.
+
+          Main Technologies: .NET, PL/SQL, Oracle, OLAP, JavaScript, AngularJS, CSS.
 
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
+        - name: AWS Data Analytics Specialty
+          start:
           end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
+          organization: AWS
           details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            Earners of this certification have an in-depth understanding of how to use AWS services for data collection, storage, processing, and visualization. They demonstrated the ability to leverage AWS analytics tools for deriving business value from data. Badge owners are able to leverage various AWS services to manipulate collections of data for organizations of all sizes.
+        - name: AWS Database Specialty
+          start:
+          end:
+          organization: AWS
+          details: |
+            Earners of this certification have an in-depth understanding of how to compare AWS database engines with one another to know when which one should be used. They demonstrated the ability to leverage both relational and nonrelational engines. Badge owners have technical expertise to select optimal engines and design solutions to improve performance, reduce costs, and enable innovation for organizations of all sizes.
+        - name: AWS Solutions Architect Associate
+          start:
+          end:
+          organization: AWS
+          details: |
+            Earners of this certification have a comprehensive understanding of AWS services and technologies. They demonstrated the ability to build secure and robust solutions using architectural design principles based on customer requirements. Badge owners are able to strategically design well-architected distributed systems that are scalable, resilient, efficient, and fault-tolerant.
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#projects:
+#    title: Projects
+#    intro: >
+#      You can list your side projects in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#    assignments:
+#      - title: Velocity
+#        link: "#hook"
+#        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+#
+#      - title: DevStudio
+#        link: "#"
+#        tagline: "A responsive website template designed to help web developers/designers market their services."
+#
+#      - title: Tempo
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#
+#      - title: Atom
+#        link: "#"
+#        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+#      - title: Delta
+#        link: "#"
+#        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: AWARDS
+    intro:
     contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: AWS Community Builder for Data & Analytics
+        link: "https://go.aws/3KA2v6v"
+        tagline: >
+          2021-2023 <br>The AWS Community Builders program offers technical resources,
+          mentorship, and networking opportunities to AWS enthusiasts and
+          emerging thought leaders who are passionate about sharing knowledge
+          and connecting with the technical community. My cohort is Data and during
+          the program I participate in technical talks about data architecture; data
+          engineering; learn new AWS technology with AWS experts; produce and
+          share technical contents; help to engage the AWS Community; Keep
+          learning new knowledge about Data world (Lifelong Learner).
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#publications:
+#    title: Publications
+#    intro: |
+#      You can list your publications in this section. Lorem ipsum dolor sit
+#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#      bibendum fringilla a eu lectus.
+#    papers:
+#      - title: The Art of Computer Programming
+#        link: "#"
+#        authors: Donald E. Knuth
+#        conference: Addison-Wesley, 1968
+#
+#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#        link: "#"
+#        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#
+#      - title: A syntax directed compiler for Algol 60
+#        link: "#"
+#        authors: Edgar T. Irons
+#        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: SQL & Python
+        level: 100%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: ETL & ELT
+        level: 100%
 
-      - name: Angular
-        level: 98%
+      - name: Data Engineering
+        level: 100%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Data Architecture
+        level: 100%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Data Platform
+        level: 100%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: AWS
+        level: 100%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Willian "BILL" Rocha <br> Data Engineering | Data Architecture | Data Platform | AWS
