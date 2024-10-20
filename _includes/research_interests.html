@@ -1,0 +1,38 @@
+{% assign research_interests = site.data.data.research_interests %}
+{% if research_interests %}
+<section class="section research_interests-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ research_interests.title }}
+  </h2>
+
+  {% if research_interests.intro %}
+  <div class="intro">
+      <p>{{ research_interests.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for research_interest in research_interests.assignments %}
+    <div class="item">
+
+      <span class="research_interest-title">
+        {% if research_interests.link %}
+        <a href="{{ research_interests.link }}" target="_blank">{{ research_interests.title }}</a>
+        {% else %}
+        {{ research_interests.title }}
+        {% endif %}
+      </span>
+
+      {% if research_interests.tagline %}
+      - <span class="research_interests-tagline">{{ research_interests.tagline }}</span>
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
