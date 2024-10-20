@@ -21,12 +21,17 @@ sidebar:
     info:
       - item: Soccer, Tennis, Economics
       
-career-profile:
+research_interests:
   title: Resesarch interests
-  summary: |
-    Summarise your career here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
-    nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.
+  intro: >
+    Ovrerall topics
+  assignments:
+    - title: Demand-prediction
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+    - title: DevStudio
+      link: "#"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
 
 education:
   title: Education
