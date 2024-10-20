@@ -21,10 +21,8 @@ sidebar:
     info:
       - item: Soccer
         link: null  # set to null if no link is available
-
       - item: Tennis
         link: null  # set to null if no link is available
-
       - item: Economics
         link: null  # set to null if no link is available
 
