@@ -21,18 +21,6 @@ sidebar:
     info:
       - item: Soccer, Tennis, Economics
       
-research_interests:
-  title: Resesarch interests
-  intro: >
-    Ovrerall topics
-  assignments:
-    - title: Demand-prediction
-      tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-    - title: DevStudio
-      link: "#"
-      tagline: "A responsive website template designed to help web developers/designers market their services."
-
 education:
   title: Education
   info:
@@ -48,6 +36,20 @@ education:
       university: University of Leeds, Leeds, The United Kingdom
       time: Feb.2015 - Jun.2015
       details: |
+      
+
+research_interests:
+  title: Resesarch interests
+  intro: >
+    Ovrerall topics
+  assignments:
+    - title: Demand-prediction
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+    - title: DevStudio
+      link: "#"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
+
   
 experiences:
   title: Research Experiences
