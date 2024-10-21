@@ -38,17 +38,12 @@ education:
       details: |
       
 research_interests:
-  title: Resesarch interests
-  intro: >
-    Ovrerall topics
+  title: "My Research Interests"
+  intro: "I focus on transportation systems and data analysis."
   assignments:
-    - title: Demand-prediction
-      tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-    - title: DevStudio
-      link: "#"
-      tagline: "A responsive website template designed to help web developers/designers market their services."
-
+    - title: "Traffic flow optimization"
+      tagline: "Exploring efficient traffic flow"
+      link: "https://example.com"
   
 experiences:
   title: Research Experiences
