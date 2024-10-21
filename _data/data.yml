@@ -19,7 +19,7 @@ sidebar:
   interests:
     title: Interests
     info:
-      - item: Soccer, Tennis, Economics, Classic
+      - item: Soccer, Tennis, Economics
       
 education:
   title: Education
@@ -36,14 +36,6 @@ education:
       university: University of Leeds, Leeds, The United Kingdom
       time: Feb.2015 - Jun.2015
       details: |
-      
-researchints:
-  title: "Research Interests"
-  intro: "I focus on transportation systems and data analysis."
-  assignments:
-    - title: "Traffic flow optimization"
-      tagline: "Exploring efficient traffic flow"
-      link: "https://example.com"
   
 experiences:
   title: Research Experiences
@@ -76,6 +68,15 @@ experiences:
         - Applied Surrogate Safety Measures (SSMs) to the training system.
         - Applied traffic flow models (i.e., car following, lane changing, and gap acceptance) to a simulation.
         - Developed the overall scoring system of each driver by applying factor analysis and principal component analysis with R.
+
+
+researchints:
+  title: "Research Interests"
+  intro: "I focus on transportation systems and data analysis."
+  assignments:
+    - title: "Traffic flow optimization"
+      tagline: "Exploring efficient traffic flow"
+      link: "https://example.com"
 
 certifications:
   title: Certifications
