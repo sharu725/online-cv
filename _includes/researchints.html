@@ -1,0 +1,38 @@
+{% assign researchints = site.data.data.researchints %}
+{% if researchints %}
+<section class="section researchints-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ researchints.title }}
+  </h2>
+
+  {% if researchints.intro %}
+  <div class="intro">
+      <p>{{ researchints.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for researchint in researchints.assignments %}
+    <div class="item">
+
+      <span class="researchint-title">
+        {% if researchint.link %}
+        <a href="{{ researchint.link }}" target="_blank">{{ researchint.title }}</a>
+        {% else %}
+        {{ researchint.title }}
+        {% endif %}
+      </span>
+
+      {% if researchint.tagline %}
+      - <span class="researchint-tagline">{{ researchint.tagline }}</span>
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
