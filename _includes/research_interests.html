@@ -1,34 +1,34 @@
-{% assign research_interests = site.data.data.research_interests %}
-{% if research_interests %}
-<section class="section research_interests-section">
+{% assign researchints = site.data.data.researchints %}
+{% if researchints %}
+<section class="section researchints-section">
 
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
     </span>
-    {{ research_interests.title }}
+    {{ researchints.title }}
   </h2>
 
-  {% if research_interests.intro %}
+  {% if researchints.intro %}
   <div class="intro">
-      <p>{{ research_interests.intro }}</p>
+      <p>{{ researchints.intro }}</p>
   </div><!--//intro-->
   {% endif %}
 
-  {% for research_interest in research_interests.assignments %}
+  {% for researchint in researchints.assignments %}
     <div class="item">
 
-      <span class="research_interest-title">
-        {% if research_interest.link %}
-        <a href="{{ research_interest.link }}" target="_blank">{{ research_interest.title }}</a>
+      <span class="researchint-title">
+        {% if researchint.link %}
+        <a href="{{ researchint.link }}" target="_blank">{{ researchint.title }}</a>
         {% else %}
-        {{ research_interest.title }}
+        {{ researchint.title }}
         {% endif %}
       </span>
 
-      {% if research_interest.tagline %}
-      - <span class="research_interest-tagline">{{ research_interest.tagline }}</span>
+      {% if researchint.tagline %}
+      - <span class="researchint-tagline">{{ researchint.tagline }}</span>
       {% endif %}
 
     </div><!--//item-->
