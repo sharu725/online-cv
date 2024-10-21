@@ -20,15 +20,15 @@
     <div class="item">
 
       <span class="research_interest-title">
-        {% if research_interests.link %}
-        <a href="{{ research_interests.link }}" target="_blank">{{ research_interests.title }}</a>
+        {% if research_interest.link %}
+        <a href="{{ research_interest.link }}" target="_blank">{{ research_interest.title }}</a>
         {% else %}
-        {{ research_interests.title }}
+        {{ research_interest.title }}
         {% endif %}
       </span>
 
-      {% if research_interests.tagline %}
-      - <span class="research_interests-tagline">{{ research_interests.tagline }}</span>
+      {% if research_interest.tagline %}
+      - <span class="research_interests-tagline">{{ research_interest.tagline }}</span>
       {% endif %}
 
     </div><!--//item-->
