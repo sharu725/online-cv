@@ -71,12 +71,12 @@ experiences:
 
 
 researchints:
-  title: "Research Interests"
-  intro: "I focus on transportation systems and data analysis."
+  title: Research Interests
+  intro: I focus on transportation systems and data analysis.
   assignments:
-    - title: "Traffic flow optimization"
-      tagline: "Exploring efficient traffic flow"
-      link: "https://example.com"
+    - title: Traffic flow optimization
+      tagline: Exploring efficient traffic flow
+      link: https://example.com
 
 certifications:
   title: Certifications
