@@ -1,16 +1,16 @@
 #Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
-title: My Resume
-url: 'http://webjeda.com'
+title: ONLINE CV
+url: 
 
 #change it according to your repository name
 # disabling since we are using a custom domain
 #baseurl: '/online-cv' 
 
-description: A beautiful Jekyll theme for creating resume
+description: A online CV practice
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: orange # blue turquoise green berry orange ceramic teal oceanstale
+theme_skin: ceramic # blue turquoise green berry orange ceramic teal oceanstale
 chrome_mobile_color: #F1DEB8 (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
 # Tracker
