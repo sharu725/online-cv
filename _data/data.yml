@@ -6,7 +6,7 @@ sidebar:
     position: right # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
-    Color theme: Berry 
+ 
     # Profile information
     name: Diego Martín García
     tagline: Daw Student
@@ -16,21 +16,12 @@ sidebar:
     email: diemargar5@alu.edu.gva.es
     phone: 651557272
     timezone: Madrid,Europe # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-    citizenship:
-    website: https://example.com/ # Include the full website URL, including "http://" or "https://".
+   
+
     linkedin: mmaartiinnn
-    xing: alandoe
     github: mmaartiinnn
-    telegram: 
-    gitlab:
-    bitbucket:
     # twitter:@__mmaartiinnn__
-    stack-overflow:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    mastodon:  # Please include your full Mastodon link here.
-    hackerrank: # Please provide your HackerRank username.
-    leetcode: # Please provide your LeetCode username.
-    pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+   
 
     languages:
       title: Languages
