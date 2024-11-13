@@ -14,5 +14,5 @@ $resume-order: 1;
 $sidebar-order: 2;
 {% endif %}
 
-@import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
+@import "skins/{{ site.theme_skin | default: 'berry' }}"; // skin
 @import "default"; // main partials
