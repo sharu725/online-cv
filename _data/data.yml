@@ -10,7 +10,7 @@ sidebar:
     # Profile information
     name: Diego Martín García
     tagline: Daw Student
-    avatar: assets/images/images.jpeg
+    avatar: ea769603-5f21-4860-b7fb-57dc847e619b_alta-libre-aspect-ratio_default_0.png
 
     # Sidebar links
     email: diemargar5@alu.edu.gva.es
@@ -96,5 +96,4 @@ certifications:
 
 
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+
