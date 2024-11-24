@@ -4,12 +4,12 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    #about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Marco J. Otero
+    tagline: Estudiante Especialización en Desarrollo de Software
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -242,27 +242,27 @@ publications:
         authors: Edgar T. Irons
         conference: "Comm. ACM 4 (1961), 51–55"
 
-skills:
-    title: Skills &amp; Proficiency
+#skills:
+ #   title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+ #   toolset:
+  #    - name: Python & Django
+   #     level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+ #     - name: Javascript & jQuery
+  #      level: 98%
 
-      - name: Angular
-        level: 98%
+   #   - name: Angular
+    #    level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+     # - name: HTML5 & CSS
+      #  level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+ #     - name: Ruby on Rails
+  #      level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+   #   - name: Sketch & Photoshop
+    #    level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Marco J. Otero &copy; 2024
