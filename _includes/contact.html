@@ -106,7 +106,13 @@
 
     {% if sidebar.pdf %}
     <li class="pdf"><i class="fas fa-file-pdf"></i>
-      <a href="{{ sidebar.pdf }}" target="_blank">  Resume PDF</a>
+      <a href="{{ sidebar.pdf }}" target="_blank">  Printer friendly PDF</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.pdf %}
+    <li class="pdf"><i class="fas fa-file-pdf"></i>
+      <a href="./assets/pdf/enhancedresume.pdf" target="_blank">  Enhanced PDF</a>
     </li>
     {% endif %}
 
