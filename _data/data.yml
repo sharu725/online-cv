@@ -23,7 +23,7 @@ sidebar:
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@forever_isle'
+    twitter: '@MasatoN_ja'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -51,72 +51,48 @@ career-profile:
 
 
 experiences:
-    - role: Infrastructure Engineer at Rakuten
+    - role: Backend Engineer at Rakuten
       link: https://www.rakuten.co.jp/
       time: April 2024 - Present
       company: Tokyo
       details: |
-        Working as an infrastructure engineer at Rakuten. 
+        Designed and developed a scalable backend architecture for a logistics system.
+        Managed the server-side development of a product with over 1 million monthly active users.
+        - Java, Oracle DB
+        - Spring Framework, Java, Kubernetes
         
-    
-    - role: Backend Engineer at Knowns
+    - role: Backend/Data Engineer at Knowns
       link: https://knowns.co.jp/
       time: May 2022 - March 2024
       company: Tokyo
       details: |
-        Working as a backend engineer at Knowns. 
-        I am responsible for data management on AWS Redshift and backend development with Spring Boot.
-          - Python, SQL, Kotlin
-          - AWS, Git, MySQL, Docker, Spring Boot, DDD
+        As a backend engineer, designed and developed backend systems with high scalability and maintainability by adopting DDD and Clean Architecture.
+        As a data engineer, designed and built dwh and data pipelines utilizing Snowflake, RDS, and Redshift.
+          - Python, Kotlin, MySQL
+          - ChatGPT API, DDD, Clean Architecture, Spring Framework, Snowflake, RDS, Redshift, S3, Machine Learning
 
     - role: Internship at Morgan Stanley
       link: https://www.morganstanley.co.jp/ja/people/students-graduates
-      time: Feb 2023 - Mar 2023
+      time: Feb 2023 - Apr 2023
       company: Tokyo
       details: |
-        This is a full-time 2 month internship at Morgan Stanley. Focus on developing financial algorithms and its PoC.
+        Conducted PoC for machine learning models targeting sell-side products.
+          - Python
+          - Financial Trading, Unsupervised Learning
 
-    - role: Internship at Sony
-      link: https://www.sonyjobs.com/internships.html
-      time: Aug 2022 - Sep 2022
-      company: Tokyo
-      details: |
-        Developing UWB positioning system in Sony Summer Internship. This development were supported by NaviCX Engineering Team in FeliCa Divison.
-        - Python
-    
-    - role: Internship at Rakuten
-      link: https://corp.rakuten.co.jp/careers/graduates/internship/2022-summer/
-      time: Ang 2022 - Aug 2022
-      company: Tokyo
-      details: |
-        Implementing a web application in Rakuten Summer Internship. I focused on database management and backend programming here. 
-        - Python, SQL
-        - Flask, MySQL
           
     - role: Research Assistant at Mitsubishi Heavy Institute
       link: https://www.mhi.com/jp
       time: April 2021 - May 2022
       company: Tokyo
       details: |
-        Working on a research project controlling robots with deep learning models.
-        I was responsible for all aspects of software development including data collection algorithm, 
-        motion generation program, and deep learning models. 
-          - Python, C++
-          - Pytorch, Tensorflow, CUDA, Git, Deep Learning, URX, Math3d
-    
-projects:
-    title: Projects
-    intro: >
-      
-    assignments:
-      - title: Google Machine Learning Bootcamp Japan
-        link: https://developers-jp.googleblog.com/2022/06/ml-bootcamp.html
-        tagline: "Working on Tensorflow Bootcamp at Google. I mainly focused on implementing fundamental ML models."
+        Conducted research on a control method for adaptive screw fastening in collaborative robots by introducing deep predictive learning.
+          - Python
+          - Pytorch, Tensorflow, CUDA, Deep Learning, URX, Math3d
 
 publications:
     title: Research
     intro: |
-      
     papers:
       - title: "Design of 3-dof 2-link inflatable collaborative robot arm with internal drop stitch structure"
         link: "https://www.web-concier.net/arena/rsj2022/pdf/2J2-01.pdf"
@@ -125,19 +101,13 @@ publications:
 
 skills:
     title: Skills &amp; Proficiency
-
     toolset:
       - name: Python
-        level: 80%
-
+        level: 90%
       - name: Java & Kotlin
-        level: 40%
-
+        level: 80%
       - name: Javascript & Typescript
         level: 40%
-
-      - name: Rust
-        level: 45%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
