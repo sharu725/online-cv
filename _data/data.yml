@@ -137,7 +137,7 @@ publications:
     - title: **Hong, J.**, Kim, J., Lee, J., Lee, C. (2016) A Statistical Method to Assess Overall Driving Risk Using Driving Simulator. 2016 Fall Korea Institute of ITS Conference, Busan, South Korea
     - title: **Hong, J.**, Ka, E., Kim, S., Lee, C. (2016) Selecting a Variety of Surrogate Safety Measures (SSMs) Using Driving Simulator. The 75th Korean Society of Transportation Conference, Busan, South Korea. 
 skills:
-  title: Skills & Proficiency
+  title: "Skills & Proficiency"
   toolset:
     - name: Python (tensorflow)
       level: 90%
