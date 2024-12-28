@@ -24,40 +24,18 @@ sidebar:
       info:
         - item: Soccer, Tennis, Economy
 
-career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
 education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+  title: Education
+  info:
+    - degree: MS, Department of Civil and Environmental Engineering
+      university: Seoul National University, Seoul, South Korea
+      time: 2016 - 2018
+    - degree: BS, School of Civil, Environmental and Architectural Engineering
+      university: Korea University, Seoul, South Korea
+      time: 2010 - 2016
+    - degree: Exchange Student, School of Civil Engineering
+      university: University of Leeds, Leeds, The United Kingdom
+      time: Feb.2015 - Jun.2015
 
 experiences:
     title: Experiences
