@@ -70,7 +70,7 @@ awards:
     title: Awards Honors
     assignments:
        - title: UCLA Bruin AI Responsibility Summit - Most Innovative (1/18 teams) 2024
-         time: 2024
+         time: "2024"
          tagline: Developed and tuned machine learning models for vehicle trajectory data smoothing, utilizing architectures including Denoising Autoencoder Neural Network, Random Forest, and Gradient Boosting
 
 
