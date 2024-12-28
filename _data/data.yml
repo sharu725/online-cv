@@ -147,6 +147,7 @@ conferences:
   title: Referred Conference Proceedings
   papers:
     - title: Application of Support Vector Machine (SVM) to Judge the Risky Driver in Driving Simulator
+      link: "https://onlinelibrary.wiley.com/doi/10.1155/2020/7525721"
       authors: **Hong, J.**, Kim, S., Ka, E., and Lee, C.
       conference: 2017 Fall Korea Institute of ITS Conference, Seoul, South Korea (2017)
 
