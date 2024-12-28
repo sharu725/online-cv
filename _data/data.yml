@@ -1,160 +1,268 @@
+#
 # Be aware that even a small syntax error here can lead to failures in output.
+#
 
 sidebar:
-  position: left  # position of the sidebar: left or right
-  about: false  # set to false or comment line if you want to remove the "how to use?" in the sidebar
-  education: true  # set to false if you want education in main section instead of in sidebar
+    position: right # position of the sidebar : left or right
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
 
-  # Profile information
-  name: Jooneui Hong
-  title: Ph.D. Student in Transportation Engineering
-  tagline: Transportation System Researcher
-  avatar: "Portrait_Jooneui Hong_face.png"  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    # Profile information
+    name: Alan Doe
+    tagline: Full Stack Developer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-  # Sidebar links
-  email: jooneuih@uci.edu
-  website: https://brunch.co.kr/@jooneuih
-  linkedin: null  # set to null if no value is available
+    # Sidebar links
+    email: example@email.com
+    phone: 012 345 6789
+    timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+    citizenship:
+    website: https://example.com/ # Include the full website URL, including "http://" or "https://".
+    linkedin: alandoe
+    xing: alandoe
+    github: jekyll
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: '@jekyllrb'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    mastodon:  # Please include your full Mastodon link here.
+    hackerrank: # Please provide your HackerRank username.
+    leetcode: # Please provide your LeetCode username.
+    pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
-  interests:
-    title: Interests
-    info:
-      - item: Soccer, Tennis, Economics
-      
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Native
+
+        - idiom: French
+          level: Professional
+
+        - idiom: Spanish
+          level: Professional
+
+    interests:
+      title: Interests
+      info:
+        - item: Climbing
+          link:
+
+        - item: Snowboarding
+          link:
+
+        - item: Cooking
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
 education:
-  title: Education
-  info:
-    - degree: MS, Department of Civil and Environmental Engineering
-      university: Seoul National University, Seoul, South Korea
-      time: 2016 - 2018
-    - degree: BS, School of Civil, Environmental and Architectural Engineering
-      university: Korea University, Seoul, South Korea
-      time: 2010 - 2016
-    - degree: Exchange Student, School of Civil Engineering
-      university: University of Leeds, Leeds, The United Kingdom
-      time: Feb.2015 - Jun.2015
-      
-      
+    title: Education
+    info:
+      - degree: MSc in Computer Science
+        university: University of London
+        time: 2011 - 2012
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
+      - degree: BSc in Applied Mathematics
+        university: Bristol University
+        time: 2007 - 2011
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
+
 experiences:
-  title: Research Experiences
-  info:
-    - role: Research Assistant
-      time: Sep. 2023 - Present
-      company: Institute of Transportation Studies, UC Irvine
-      details: |
-        - Road Usage Charge (RUC) Plus: A comprehensive transportation pricing system (Caltrans)
-
-    - role: Research Associate
-      time: 2018 - 2022
-      company: Public and Private Infrastructure Investment Management Center, Korea Development Institute
-      details: |
-        - Conducted Preliminary Feasibility Studies (PFS) for 8 government-funded road and railway projects under Korea's National Finance Act.
-        - Revised guidelines for traffic noise valuation and developed macro noise prediction models.
-        - Built weekend trip origin-destination matrices from mobile data.
-        - Estimated traffic noise costs using a damage-cost approach.
-        - Authored the 6th edition of the PFS guidelines for road and railway projects.
-        - Collaborated with government ministries and research institutes to align project evaluations.
-
-    - role: Research Assistant
-      time: 2016 - 2018
-      company: Department of Civil and Environmental Engineering, Seoul National University
-      details: |
-        - Designed a driving simulator training S/W to mitigate aggressive driving behaviors.
-        - Simulated traffic dynamics using advanced models, including car-following, lane-changing, and gap-acceptance models.
-        - Integrated Surrogate Safety Measures (SSMs) into the driving evaluation framework.
-        - Developed a comprehensive driver scoring system using factor analysis and principal component analysis (PCA) in R.
+    title: Experiences
+    info:
+      - role: Lead Developer
+        time: 2015 - Present
+        company: Startup Hubs, San Francisco
+        details: |
+          Describe your role here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. Donec quam felis, ultricies nec,
+          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+          error sit voluptatem accusantium doloremque laudantium, totam rem
+          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+          architecto beatae vitae dicta sunt explicabo.
+            - Bullet point
+            - Bullet point
+      - role: Senior Software Engineer
+        time: 2014 - 2015
+        company: Google, London
+        details: |
+          Describe your role here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. Donec quam felis, ultricies nec,
+          pellentesque eu, pretium quis, sem.
+            - Bullet point
+            - Bullet point
+      - role: UI Developer
+        time: 2012 - 2014
+        company: Amazon, London
+        details: |
+          Describe your role here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. Donec quam felis, ultricies nec,
+          pellentesque eu, pretium quis, sem.
+            - Bullet point
+            - Bullet point
 
 certifications:
-  title: Certifications
-  list:
-    - name: CV Builder
-      start: 2020
-      end: 2021
-      organization: Microsoft
-      credentialid: 111-222
-      credentialurl: https://www.google.com
-      credentialname: Google
-      details: |
-        Details about the certification. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Nullam eget orci purus. Nullam ultrices neque nibh. Aenean fermentum, felis vulputate suscipit accumsan,
-        sem enim bibendum augue, sed convallis arcu lacus at dui.
+      title: Certifications
+      list:
+        - name: CV Builder
+          start: 2020
+          end: 2021
+          organization: Microsoft
+          credentialid: 111-222
+          credentialurl: www.google.com
+          credentialname: Google
+          details: |
+            Details about cert. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit.
+            Nullam eget orci purus. Nullam ultrices neque nibh.
+            Aenean fermentum, felis vulputate suscipit accumsan,
+            sem enim bibendum augue, sed convallis arcu lacus at dui.
+            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+            Praesent venenatis erat non augue suscipit consectetur.
 
-    - name: Git learning
-      start: 2019
-      end: null  # set to null if no end date
-      organization: Microsoft
-      credentialid: 111-222
-      credentialurl: https://www.github.com
-      credentialname: GitHub
-      details: |
-        Older certification. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Nullam eget orci purus. Nullam ultrices neque nibh. Aenean fermentum, felis vulputate suscipit accumsan,
-        sem enim bibendum augue, sed convallis arcu lacus at dui.
+            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+            fringilla vel. Ut euismod, sem sed vulputate venenatis,
+            justo diam viverra velit, sed rhoncus leo leo eu justo.
+            Suspendisse placerat risus ante, sed porta nisi blandit at.
+        - name: Git learning
+          start: 2019
+          end:
+          organization: Microsoft
+          credentialid: 111-222
+          credentialurl: www.github.com
+          credentialname: Github
+          details: |
+            Older certification. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit.
+            Nullam eget orci purus. Nullam ultrices neque nibh.
+            Aenean fermentum, felis vulputate suscipit accumsan,
+            sem enim bibendum augue, sed convallis arcu lacus at dui.
+            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+            Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-    - title: Velocity
-      link: "#hook"
-      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    title: Projects
+    intro: >
+      You can list your side projects in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-    - title: DevStudio
-      link: "#"
-      tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
 
-    - title: Tempo
-      link: "#"
-      tagline: "A responsive website template designed to help startups promote their products or services and to attract users & investors."
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-    - title: Atom
-      link: "#"
-      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-    - title: Delta
-      link: "#"
-      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps."
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+oss:
+    title: OSS Contributions
+    intro: >
+      You can list your open source software contributions in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    contributions:
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-  title: Publications
-  intro: |
-    Here are some of the publications authored by Jooneui Hong.
-  papers:
-    - title: Implementing Surrogate Safety Measures to Driving Simulator and Evaluating the Safety Effects of Simulator-Based Training on Aggressive Driving Behaviors
-      link: "#"
-      authors: Ka, E., Kim, D., __Hong, J.__, and Lee, C.
-      conference: Journal of Advanced Transportation (2020)
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: The Art of Computer Programming
+        link: "#"
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
 
-  title: Referred Conference Proceedings
-  papers:
-    - title: **Hong, J.**, Kim, S., Ka, E., and Lee, C. (2017) Application of Support Vector Machine (SVM) to Judge the Risky Driver in Driving Simulator. 2017 Fall Korea Institute of ITS Conference, Seoul, South Korea.
-    - title: Ka, E., Ha, S., **Hong, J.**, and Lee, C. (2017) Application of Deep Learning for Demand Forecasting of Call Taxi for the Handicapped in Seoul. The 77th Korean Society of Transportation Conference, Seoul, South Korea.
-    - title: **Hong, J.**, Ka, E., Kim, S., and Lee, C. (2017) Analysis and Comparison of Drivers between South Korea and the United States of America by using Surrogate Safety Measures (SSMs). The 6th International Conference of Euro Asia Civil Engineering Forum, Seoul, South Korea.
-    - title: Ka, E., Kim, S., **Hong, J.**, and Lee, C. (2017) A Preliminary Study of Comparison with Lane Changing Model Parameters in Merging Area between Normal and Raining Conditions. The 12th International Conference of Eastern Asia's Society for Transportation Studies (EASTS), Ho Chi Minh, Vietnam.
-    - title: **Hong, J.**, Lee, S., Lee, C. (2016) Drivers’ Evaluation Indices Considering the Interaction with Surrounding Vehicles on Driving Simulator. The third International Conference on Computational Science and Engineering (ICST), Ho Chi Minh City, Vietnam.
-    - title: **Hong, J.**, Kim, J., Lee, J., Lee, C. (2016) A Statistical Method to Assess Overall Driving Risk Using Driving Simulator. 2016 Fall Korea Institute of ITS Conference, Busan, South Korea
-    - title: **Hong, J.**, Ka, E., Kim, S., Lee, C. (2016) Selecting a Variety of Surrogate Safety Measures (SSMs) Using Driving Simulator. The 75th Korean Society of Transportation Conference, Busan, South Korea. 
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        link: "#"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      - title: A syntax directed compiler for Algol 60
+        link: "#"
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
+
 skills:
-  title: "Skills & Proficiency"
-  toolset:
-    - name: Python (tensorflow)
-      level: 90%
+    title: Skills &amp; Proficiency
 
-    - name: R
-      level: 95%
+    toolset:
+      - name: Python & Django
+        level: 98%
 
-    - name: MATLAB
-      level: 90%
+      - name: Javascript & jQuery
+        level: 98%
 
-    - name: C
-      level: 60%
+      - name: Angular
+        level: 98%
 
-    - name: Fortran
-      level: 60%
+      - name: HTML5 & CSS
+        level: 95%
 
-    - name: Emme4, VISSIM, CPLEX, MS Excel, MS Access
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
 
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
