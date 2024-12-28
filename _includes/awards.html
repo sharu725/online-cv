@@ -18,15 +18,7 @@
 
   {% for award in awards.assignments %}
     <div class="item">
-
-      <span class="award-title">
-        {% if award.link %}
-        <a href="{{ project.link }}" target="_blank">{{ award.title }}</a>
-        {% else %}
-        {{ award.title }}
-        {% endif %}
-      </span>
-      
+      <span class="award-title">{{ award.title }}</span>
       {% if award.time %}
       - <span class="award-time">{{ award.time }}</span>
       {% endif %}
