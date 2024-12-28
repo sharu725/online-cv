@@ -44,7 +44,7 @@ experiences:
       time: Sep. 2023 - Present
       company: Institute of Transportation Studies, UC Irvine
       details: |
-        - Road Usage Charge (RUC) Plus: A comprehensive transportation pricing system (Caltrans)
+        - Road Usage Charge Plus: A comprehensive transportation pricing system (Caltrans)
 
     - role: Research Associate
       time: 2018 - 2022
@@ -122,25 +122,6 @@ projects:
         link: "#"
         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
       - title: Tempo
         link: "#"
         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
