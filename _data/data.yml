@@ -9,7 +9,7 @@ sidebar:
   name: Jooneui Hong
   title: Ph.D. Student in Transportation Engineering
   tagline: Transportation System Researcher
-  avatar: Portrait_Jooneui Hong_face.png  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  avatar: "Portrait_Jooneui Hong_face.png"  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: jooneuih@uci.edu
