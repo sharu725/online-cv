@@ -64,6 +64,8 @@ experiences:
         - Designed a driving simulator training S/W to mitigate aggressive driving behaviors.
         - Simulated traffic dynamics using advanced models, including car-following, lane-changing, and gap-acceptance models.
         - Integrated Surrogate Safety Measures (SSMs) into the driving evaluation framework.
+        - Developed a comprehensive driver scoring system using factor analysis and principal component analysis (PCA) in R.
+
 certifications:
       title: Certifications
       list:
@@ -152,48 +154,48 @@ oss:
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+  title: Publications
+  intro: |
+    Here are some of the publications authored by Jooneui Hong.
+  papers:
+    - title: Implementing Surrogate Safety Measures to Driving Simulator and Evaluating the Safety Effects of Simulator-Based Training on Aggressive Driving Behaviors
+      link: "#"
+      authors: Ka, E., Kim, D., __Hong, J.__, and Lee, C.
+      conference: Journal of Advanced Transportation (2020)
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      
+publications:
+  title: Referred Conference Proceedings
+  papers:
+    - title: **Hong, J.**, Kim, S., Ka, E., and Lee, C. (2017) Application of Support Vector Machine (SVM) to Judge the Risky Driver in Driving Simulator. 2017 Fall Korea Institute of ITS Conference, Seoul, South Korea.
+    - title: Ka, E., Ha, S., **Hong, J.**, and Lee, C. (2017) Application of Deep Learning for Demand Forecasting of Call Taxi for the Handicapped in Seoul. The 77th Korean Society of Transportation Conference, Seoul, South Korea.
+    - title: **Hong, J.**, Ka, E., Kim, S., and Lee, C. (2017) Analysis and Comparison of Drivers between South Korea and the United States of America by using Surrogate Safety Measures (SSMs). The 6th International Conference of Euro Asia Civil Engineering Forum, Seoul, South Korea.
+    - title: Ka, E., Kim, S., **Hong, J.**, and Lee, C. (2017) A Preliminary Study of Comparison with Lane Changing Model Parameters in Merging Area between Normal and Raining Conditions. The 12th International Conference of Eastern Asia's Society for Transportation Studies (EASTS), Ho Chi Minh, Vietnam.
+    - title: **Hong, J.**, Lee, S., Lee, C. (2016) Drivers’ Evaluation Indices Considering the Interaction with Surrounding Vehicles on Driving Simulator. The third International Conference on Computational Science and Engineering (ICST), Ho Chi Minh City, Vietnam.
+    - title: **Hong, J.**, Kim, J., Lee, J., Lee, C. (2016) A Statistical Method to Assess Overall Driving Risk Using Driving Simulator. 2016 Fall Korea Institute of ITS Conference, Busan, South Korea
+    - title: **Hong, J.**, Ka, E., Kim, S., Lee, C. (2016) Selecting a Variety of Surrogate Safety Measures (SSMs) Using Driving Simulator. The 75th Korean Society of Transportation Conference, Busan, South Korea. 
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+       - name: Python (tensorflow)
+         level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
+       - name: R
+         level: 95%
 
-      - name: Angular
-        level: 98%
+       - name: MATLAB
+         level: 90%
 
-      - name: HTML5 & CSS
-        level: 95%
+       - name: C
+         level: 60%
 
-      - name: Ruby on Rails
-        level: 85%
+       - name: Fortran
+         level: 60%
 
-      - name: Sketch & Photoshop
-        level: 60%
+       - name: Emme4, VISSIM, CPLEX, MS Excel, MS Access
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
