@@ -38,46 +38,32 @@ education:
       time: Feb.2015 - Jun.2015
 
 experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+  title: Research Experiences
+  info:
+    - role: Research Assistant
+      time: Sep. 2023 - Present
+      company: Institute of Transportation Studies, UC Irvine
+      details: |
+        - Road Usage Charge (RUC) Plus: A comprehensive transportation pricing system (Caltrans)
 
+    - role: Research Associate
+      time: 2018 - 2022
+      company: Public and Private Infrastructure Investment Management Center, Korea Development Institute
+      details: |
+        - Conducted Preliminary Feasibility Studies (PFS) for 8 government-funded road and railway projects under Korea's National Finance Act.
+        - Revised guidelines for traffic noise valuation and developed macro noise prediction models.
+        - Built weekend trip origin-destination matrices from mobile data.
+        - Estimated traffic noise costs using a damage-cost approach.
+        - Authored the 6th edition of the PFS guidelines for road and railway projects.
+        - Collaborated with government ministries and research institutes to align project evaluations.
+
+    - role: Research Assistant
+      time: 2016 - 2018
+      company: Department of Civil and Environmental Engineering, Seoul National University
+      details: |
+        - Designed a driving simulator training S/W to mitigate aggressive driving behaviors.
+        - Simulated traffic dynamics using advanced models, including car-following, lane-changing, and gap-acceptance models.
+        - Integrated Surrogate Safety Measures (SSMs) into the driving evaluation framework.
 certifications:
       title: Certifications
       list:
