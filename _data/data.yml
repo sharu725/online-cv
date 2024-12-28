@@ -149,24 +149,7 @@ conferences:
     - title: Application of Support Vector Machine (SVM) to Judge the Risky Driver in Driving Simulator
       authors: **Hong, J.**, Kim, S., Ka, E., and Lee, C.
       conference: 2017 Fall Korea Institute of ITS Conference, Seoul, South Korea (2017)
-    - title: Application of Deep Learning for Demand Forecasting of Call Taxi for the Handicapped in Seoul
-      authors:  Ka, E., Ha, S., **Hong, J.**, and Lee, C.
-      conference: The 77th Korean Society of Transportation Conference, Seoul, South Korea (2017)
-    - title: Analysis and Comparison of Drivers between South Korea and the United States of America by using Surrogate Safety Measures (SSMs)
-      authors:  **Hong, J.**, Ka, E., Kim, S., and Lee, C.
-      conference: The 6th International Conference of Euro Asia Civil Engineering Forum, Seoul, South Korea (2017)
-    - title: A Preliminary Study of Comparison with Lane Changing Model Parameters in Merging Area between Normal and Raining Conditions
-      authors:  Ka, E., Kim, S., **Hong, J.**, and Lee, C.
-      conference: The 12th International Conference of Eastern Asia &apos;s Society for Transportation Studies (EASTS), Ho Chi Minh, Vietnam (2017)
-    - title: Drivers’ Evaluation Indices Considering the Interaction with Surrounding Vehicles on Driving Simulator
-      authors:  **Hong, J.**, Lee, S., Lee, C.
-      conference: The third International Conference on Computational Science and Engineering (ICST), Ho Chi Minh City, Vietnam (2016)
-    - title: A Statistical Method to Assess Overall Driving Risk Using Driving Simulator
-      authors: **Hong, J.**, Kim, J., Lee, J., Lee, C.
-      conference: 2016 Fall Korea Institute of ITS Conference, Busan, South Korea (2016)
-    - title: Selecting a Variety of Surrogate Safety Measures (SSMs) Using Driving Simulator
-      authors: **Hong, J.**, Ka, E., Kim, S., Lee, C. 
-      conference: The 75th Korean Society of Transportation Conference, Busan, South Korea (2016)
+
 
 skills:
     title: Skills &amp; Proficiency
