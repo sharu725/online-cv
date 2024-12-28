@@ -155,8 +155,6 @@ oss:
 
 publications:
   title: Publications
-  intro: |
-    Here are some of the publications authored by Jooneui Hong.
   papers:
     - title: Implementing Surrogate Safety Measures to Driving Simulator and Evaluating the Safety Effects of Simulator-Based Training on Aggressive Driving Behaviors
       link: "#"
