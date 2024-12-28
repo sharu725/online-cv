@@ -1,6 +1,6 @@
 {% assign awards = site.data.data.awards %}
 {% if awards %}
-<section class="section awards-section">\
+<section class="section awards-section">
   
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
@@ -18,13 +18,13 @@
 
   {% for award in awards.assignments %}
     <div class="item">
-      <span class="award-title">{{ award.title }}</span>
+      <div class="award-title">{{ award.title }}</div>
       {% if award.time %}
-      - <span class="award-time">{{ award.time }}</span>
+      - <div class="award-time">{{ award.time }}</div>
       {% endif %}
       
       {% if award.tagline %}
-      - <span class="award-tagline">{{ award.tagline }}</span>
+      - <div class="award-tagline">{{ award.tagline }}</div>
       {% endif %}
 
     </div><!--//item-->
