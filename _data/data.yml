@@ -4,7 +4,7 @@ sidebar:
   position: left  # position of the sidebar: left or right
   about: false  # set to false or comment line if you want to remove the "how to use?" in the sidebar
   education: true  # set to false if you want education in main section instead of in sidebar
-  
+
   # Profile information
   name: Jooneui Hong
   title: Ph.D. Student in Transportation Engineering
