@@ -15,15 +15,24 @@
       <p>{{ awards.intro }}</p>
   </div><!--//intro-->
   {% endif %}
-  
+
   {% for award in awards.assignments %}
   <div class="item">
-    <div class="award-title">{{award.title}}</div>
-    <div class="award-time">{{award.time }}</div>
-    <div class="award-tagline">{{award.tagline}}</div>
+
+    <div class="meta">
+
+      <div class="upper-row">
+        <h3 class="award-title">{{ award.title }}</h3>
+        <div class="award_time">{{ award.time }}</div>
+      </div><!--//upper-row-->
+      {% if experience.details %}
+      <div class="award_tagline">{{ award.tagline }}</div>
+      {% endif %}
+
+    </div><!--//meta-->
+
   </div><!--//item-->
   {% endfor %}
-
 
 </section><!--//section-->
 {% endif %}
