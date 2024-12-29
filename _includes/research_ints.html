@@ -10,8 +10,15 @@
     {{ research_int.title }}
   </h2>
 
-  <div class="item"> {{research_int.item}} </div>
-  <div class="detail"> {{research_int.detail}} </div>
+  <!-- Bold research_int.item -->
+  <div class="item"><strong>{{ research_int.item }}</strong></div>
+
+  <!-- Bulleted list for research_int.detail -->
+  <ul class="detail">
+    {% for detail in research_int.detail %}
+      <li>{{ detail }}</li>
+    {% endfor %}
+  </ul>
   
 </section><!--//section-->
 {% endif %}
