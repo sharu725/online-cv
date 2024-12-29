@@ -1,0 +1,17 @@
+{% assign research_int = site.data.data.research_ints %}
+{% if research_int %}
+<section class="section researchints-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ research_int.title }}
+  </h2>
+
+  <h3 class="item"> {{research_int.item}} </h3>
+  <div class="detail"> {{research_int.detail}} </div>
+  
+</section><!--//section-->
+{% endif %}
