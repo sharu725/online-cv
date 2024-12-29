@@ -18,8 +18,8 @@
 
   {% for conference in conferences.papers %}
   <div class="item">{{ conference.title }}</div>
-  <div class="conference-authors">{{ conference.authors }}</div>
-  <div class="publication-conference">{{ conference.conference }}</div>
+  <span class="conference-authors">{{ conference.authors }}</span>
+  <span class="publication-conference">{{ conference.conference }}</span>
   </div><!--//item-->
   {% endfor %}
 
