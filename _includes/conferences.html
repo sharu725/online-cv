@@ -17,12 +17,13 @@
   {% endif %}
 
   {% for conference in conferences.papers %}
-  <span class="conference-authors">{{ conference.authors }}</span>
-  <span class="item style="font-style: italic;">{{ conference.title }}</span>
-  <span class="publication-conference" style="color: grey;">{{ conference.conference }}</span>
-  </div><!--//item-->
-  {% endfor %}
-
+  <section class="section educations-section">
+    <span class="conference-authors">{{ conference.authors }}</span>
+    <span class="item style="font-style: italic;">{{ conference.title }}</span>
+    <span class="publication-conference" style="color: grey;">{{ conference.conference }}</span>
+    </div><!--//item-->
+    {% endfor %}
+  </section>
   
 
 </section><!--//section-->
