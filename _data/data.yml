@@ -37,6 +37,10 @@ education:
       university: University of Leeds, Leeds, The United Kingdom
       time: Feb.2015 - Jun.2015
 
+research_ints:
+  item: travel demand, volume-delay function, transportation network modeling, traffic operation, data-quality
+  detail:  I love transportation!!
+
 experiences:
   title: Research Experiences
   info:
