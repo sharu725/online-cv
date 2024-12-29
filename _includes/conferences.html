@@ -17,14 +17,9 @@
   {% endif %}
 
   {% for conference in conferences.papers %}
-  <div class="item">
-    {% if conference.link %}
-      <li><a href="{{ conference.link }}">{{ conference.title }}</a></li>
-    {% else %}
-      <li>{{ conference.title }}</li>
-    {% endif %}
-    <div class="conference-authors">{{ conference.authors }}</div>
-    <div class="publication-conference">{{ conference.conference }}</div>
+  <div class="item">{{ conference.title }}</div>
+  <div class="conference-authors">{{ conference.authors }}</div>
+  <div class="publication-conference">{{ conference.conference }}</div>
   </div><!--//item-->
   {% endfor %}
 
