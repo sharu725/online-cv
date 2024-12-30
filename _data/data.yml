@@ -38,11 +38,11 @@ sidebar:
       info:
         - idiom: English
           level: Native
-
         - idiom: German
           level: A2
-
         - idiom: Hindi
+          level: Native
+        - idiom: Marathi
           level: Native
 
     interests:
@@ -64,128 +64,128 @@ career-profile:
 education:
     title: Education
     info:
+      - degree: Doctoral Researcher, Experimental Medicine
+        university: Technische Universität München (TUM), Germany
+        time: 2022 - Present
+        details: Thesis: Integrating spatial gene expression and pancreatic tumour morphology to predict tumour subtypes
       - degree: MSc in Computer Science
         university: Rutgers, The state university of New Jersey, USA
         time: 2018 - 2020
-        details: |
+        details: Coursework: Machine Learning, Computer Vision, Data Structures & Algorithms
           Copy from CV
       - degree: B.Tech in Computer Engineering
         university: Mumbai University
         time: 2014 - 2018
-        details: |
-          Copy from CV
+        details: 
 
 experiences:
     title: Experiences
     info: # copy stuff from CV
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Doctoral Researcher
+        time: 2022 - Present
+        company: Helmholtz Munich & TUM, Germany
+        details: 
+            - Image integrated tools for Spatial Transcriptomics analysis
+            - Spatial-omics, Self-supervised learning, Multi-modal learning
+      - role: Bioinformatics Analyst
+        time: 2020 - 2023
+        company: Boston University school of medicine, USA
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+            - Graph Networks and Transformers for cancer detection
+            - Self-supervised learning, Multi-cohort training to minimize batch effect, Semantic segmentation for tissue-subtyping.
+      - role: Research Assistant, MS Thesis
+        time: 2019 - 2020
+        company: Center for computational biomedicine, Rutgers University, USA
+        details: 
+            - Unsupervised shared GANs, Domain Adaptation
+            - Atrous convolutions, Multi-scale convolutions for cardiac segmentation
+      - role: Research Intern
+        time: 2017
+        company: Srujana Innovation Lab, L. V. Prasad Eye Institute
+        details: 
+            - Fractal analysis based retinal vessel density quantification
+            - Clinical validation focused statistical correlations.
 
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Ask me about the projects on the social media platforms. I am most reponsive on twitter or linkedin
     assignments:
-      - title: Velocity
+      - title: SpatialCLIP
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: "Spatialomics based contrastive pre-training improves pathology foundation models on molecular subtyping tasks"
 
-      - title: DevStudio
+      - title: CARTerrain
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Development of CAR-T cells in Pancreas using spatial resolved gene-expression profiling"
 
-      - title: Tempo
+      - title: Sphoenix
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "Generative models for multi-modal spatial-omics dataset generation."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      # - title: GRAPE-Net
+      #   link: "https://doi.org/10.1101/2023.10.16.562550"
+      #   tagline: "Graph Perceiver Network for Lung Tumor and Bronchial Premalignant Lesion Stratification from Histopathology"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      # - title: GTP 
+      #   link: "https://doi.org/10.1109/TMI.2022.3176598"
+      #   tagline: "A graph-transformer for whole slide image classification"
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      If you can't find an open-access link to the publication, ping me, I am happy to share the article. Happy reading :)
     papers:
-      - title: The Art of Computer Programming
+      - title: SpatialCLIP: Spatialomics based contrastive pre-training improves pathology foundation models on molecular subtyping tasks
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        authors: Rushin Gindra*, Mathias Nguyen*, Giovanni Palla, Manuel Tran, Dieter Saur, Tingying Peng
+        conference: "in preparation"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      - title: Current best practices for Batch Effect Correction in Histopathological analysis
         link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+        authors: Rushin Gindra*, Sayedali Boushehri*, Sophia Wagner*, Manuel Tran*, Dominik Winter, Carsten Marr, Tingying Peng
+        conference: "under review"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Graph Perceiver Network for Lung Tumor and Bronchial Premalignant Lesion Stratification from Histopathology
+        link: "https://doi.org/10.1101/2023.10.16.562550"
+        authors: Rushin Gindra, Yi Zheng, Emily J. Green, Mary E. Reid, Sarah A. Mazzilli, Daniel T. Merrick, Eric J. Burks, Vijaya B. Kolachalama, Jennifer E. Beane
+        conference: "The American Journal of Pathology 2024"
 
+      - title: A graph-transformer for whole slide image classification
+        link: "https://doi.org/10.1109/TMI.2022.3176598"
+        authors: Yi Zheng, Rushin Gindra, Emily Green, Eric J. Burks, Margrit Betke, Jennifer E. Beane, Vijaya B Kolachalama
+        conference: "IEEE Transactions on Medical Imaging 2022"
+
+      - title: Improvements on Cardiac Segmentation for cross-modality domain adaptation frameworks
+        link: "https://doi.org/doi:10.7282/t3-yrc6-rh77"
+        authors: Rushin Gindra, Dimitris Metaxas
+        conference: "Rutgers University Community Repository (RUcore) 2020"
+
+      - title: OCT angiography fractal analysis-based quantification of macular vascular density in BRVO eyes.
+        link: "https://www.ncbi.nlm.nih.gov/pubmed/31109467"
+        authors: Dave V., Pappuru R.R., Gindra R., Ananthakrishnan A., Modi S., Trivedi M., Harikumar P.
+        conference: "Canadian Journal of Ophthalmology 2019"
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python & PyTorch
+        level: 90%
+
+      - name: SpatialData, Scanpy
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Git, Wandb, Slurm, Linux
+        level: 90%
 
-      - name: Angular
-        level: 98%
+      - name: Mountain Biking
+        level: 75%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Climbing
+        level: 65%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Humour
+        level: 69%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
