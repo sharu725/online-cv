@@ -40,7 +40,7 @@ education:
 research_ints:
   title: Research Interests
   item: Link performance modeling, Network traffic modeling, Traffic data quality, Travel demand control
-  detail: Link performance functions are widely used, but their interpretation and parameter estimation lack sufficient theoretical grounding. For instance, under oversaturated conditions, link travel time vs. flow rate often resembles a fundamental diagram rather than the BPR function when using 15-minute time-resolution data, a discrepancy yet to be explained. My research seeks to uncover the principles behind this discrepancy and develop models suitable for small time-resolution contexts like DTA and congestion pricing. To achieve this, I am developing an algorithm to filter reliable, representative traffic sensor data for calibration and validation. Ultimately, I aim to explore how day-to-day departure behaviors respond to congestion pricing strategies like HOT and HOV systems using the developed model.
+  detail: Link performance functions are widely used, but their interpretation and parameter estimation lack sufficient theoretical grounding. For instance, under oversaturated conditions, link travel time vs. flow rate often resembles a fundamental diagram rather than the BPR function when using 15-minute time-resolution data, a discrepancy yet to be explained. My research seeks to uncover the principles behind this discrepancy and develop models suitable for small time-resolution contexts like DTA and congestion pricing. Ultimately, I aim to explore how day-to-day departure behaviors respond to congestion pricing strategies like HOT and HOV systems using the developed model.
   
 
 experiences:
