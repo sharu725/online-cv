@@ -92,6 +92,10 @@ publications:
 conferences:
   title: Referred Conference Proceedings
   papers:
+    - title: Detecting Traffic Sensor Malfunctions Through Lane-to-Lane Correlation Analysis: A Comparative Study using NGISM and PeMS Datasets
+      link:
+      authoors: Hong, J., Jin, W.
+      conference: Transportation Research Board 104th Annual Meeting, Washington, DC, USA (January 6, 2025) 
     - title: Application of Support Vector Machine (SVM) to Judge the Risky Driver in Driving Simulator
       link: 
       authors: Hong, J., Kim, S., Ka, E., and Lee, C.
