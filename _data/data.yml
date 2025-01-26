@@ -15,7 +15,7 @@ sidebar:
     # Sidebar links
     email: minboy.kim@gmail.com
     phone: 
-    timezone: South Korea/Seoul Timezone # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+    timezone: South Korea/Seoul # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
     citizenship:
     website: https://sites.google.com/view/mingeolkim # Include the full website URL, including "http://" or "https://".
     lab: https://sites.google.com/view/odm-lab/home
