@@ -17,8 +17,8 @@ sidebar:
     phone: 
     timezone: South Korea/Seoul # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
     citizenship:
-    website: https://sites.google.com/view/mingeolkim # Include the full website URL, including "http://" or "https://".
-    lab: https://sites.google.com/view/odm-lab/home
+    website: sites.google.com/view/mingeolkim # Include the full website URL, including "http://" or "https://".
+    lab: sites.google.com/view/odm-lab/home
     linkedin: mingeol-kim
     xing: 
     github: MingeolKim
