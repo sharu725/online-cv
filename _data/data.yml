@@ -9,22 +9,23 @@ sidebar:
 
     # Profile information
     name: Kim, Min-Geol
-    tagline: Full Stack Developer
+    tagline: Combinatorial Optimization Researcher
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: minboy.kim@gmail.com
     phone: 
-    timezone: South Korea/Seoul # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+    timezone: South Korea/Seoul Timezone # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
     citizenship:
-    website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-    linkedin: alandoe
-    xing: alandoe
-    github: jekyll
+    website: https://sites.google.com/view/mingeolkim # Include the full website URL, including "http://" or "https://".
+    lab: https://sites.google.com/view/odm-lab/home
+    linkedin: mingeol-kim
+    xing: 
+    github: MingeolKim
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@jekyllrb'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
