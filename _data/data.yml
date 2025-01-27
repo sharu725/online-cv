@@ -4,11 +4,11 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Kim, Min-Geol
+    name: Mingeol Kim
     tagline: Combinatorial Optimization Researcher
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -17,8 +17,15 @@ sidebar:
     phone: 
     timezone: South Korea/Seoul # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
     citizenship:
-    website: sites.google.com/view/mingeolkim # Include the full website URL, including "http://" or "https://".
-    lab: sites.google.com/view/odm-lab/home
+    # website: https://sites.google.com/view/mingeolkim/home # Include the full website URL, including "http://" or "https://".
+    website:
+      text: "Personal Website"
+      url: "https://sites.google.com/view/mingeolkim"
+
+    lab_homepage:
+      text: "Lab Homepage"
+      url: "https://sites.google.com/view/odm-lab/home"
+      
     linkedin: mingeol-kim
     xing: 
     github: MingeolKim
@@ -37,61 +44,45 @@ sidebar:
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Korean
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+        - idiom: English
+          level: Intermediate
 
     interests:
       title: Interests
       info:
-        - item: Climbing
-          link:
+        - item: Combinatorial Optimization
+          
 
-        - item: Snowboarding
-          link:
+        - item: Production Planning
 
-        - item: Cooking
-          link:
+        - item: Production Scheduling
 
-career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+        - item: Simulation Optimization
+          
+
+# career-profile:
+#     title: Career Profile
+#     summary: |
+#       Summarise your career here lorem ipsum dolor sit amet, consectetuer
+#       adipiscing elit. You can [download this free resume/CV template here]().
+#       Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+#       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+#       Donec quam felis, ultricies nec, pellentesque eu.
+#       Second paragraph if required.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: M.S. student in Industrial & Management Engineering
+        university: Hanyang University ERICA
+        time: 2024 - Present
+        
+      - degree: B.S., Double Major in Industrial and Management and AI-Software
+        university: Gachon University
+        time: 2018 - 2024
+        
 
 experiences:
     title: Experiences
@@ -247,22 +238,22 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: CPLAEX
         level: 98%
 
-      - name: Angular
+      - name: GUROBI
         level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
+      - name: C
         level: 85%
 
-      - name: Sketch & Photoshop
+      - name: JAVA
+        level: 85%
+
+      - name: CSS & JavaScript
         level: 60%
 
 footer: >

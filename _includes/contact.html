@@ -31,10 +31,26 @@
     </li>
     {% endif %}
 
-    {% if sidebar.website %}
+    <!-- {% if sidebar.website %}
     <li class="website"><i class="fas fa-globe-americas"></i>
       <a href="{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
     </li>
+    {% endif %} -->
+
+    {% if sidebar.website %}
+      {% if sidebar.website.text and sidebar.website.url %}
+        <li><i class="fas fa-globe-americas"></i> <a href="{{ sidebar.website.url }}">{{ sidebar.website.text }}</a></li>
+      {% else %}
+        <li><i class="fas fa-globe-americas"></i> <a href="{{ sidebar.website }}">{{ sidebar.website }}</a></li>
+        {% endif %}
+    {% endif %}
+
+    {% if sidebar.lab_homepage %}
+      {% if sidebar.lab_homepage.text and sidebar.lab_homepage.url %}
+        <li><i class="fas fa fa-flask"></i> <a href="{{ sidebar.lab_homepage.url }}">{{ sidebar.lab_homepage.text }}</a></li>
+      {% else %}
+        <li><i class="fas fa fa-flask"></i> <a href="{{ sidebar.lab_homepage }}">{{ sidebar.lab_homepage }}</a></li>
+      {% endif %}
     {% endif %}
 
     {% if sidebar.linkedin %}
