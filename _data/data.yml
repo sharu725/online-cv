@@ -13,22 +13,25 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
+    email: example@email.com
     phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
     citizenship:
-    website: blog.webjeda.com #do not add http://
+    website: https://example.com/ # Include the full website URL, including "http://" or "https://".
     linkedin: alandoe
     xing: alandoe
-    github: sharu725
+    github: jekyll
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@jekyllrb'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    mastodon:  # Please include your full Mastodon link here.
+    hackerrank: # Please provide your HackerRank username.
+    leetcode: # Please provide your LeetCode username.
+    pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
     languages:
       title: Languages
