@@ -267,11 +267,12 @@ skills:
 recommendations:
     title: Recommendations
     list:
-      - person: p4irin
-        contact: "phone:012 345 6789, email:p4irin@example.com"
+      - person: John Doe
+        email: john.doe@example.com
+        phone: 012 345 6789
         role: General Director at example.com     
         recommendation: |
-          sharu725 is a super employee!
+           Alan Doe is a super employee!
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

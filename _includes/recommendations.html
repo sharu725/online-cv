@@ -16,7 +16,23 @@
 
       <div class="upper-row">
         <h3 class="recommendation">{{ recommendation.person }}</h3>
-        <div class="recommendation-contact">{{ recommendation.contact }}</div>
+        {% if recommendation.email %}
+          <div class="recommendation-contact">
+            <nobr>
+              <i class="fas fa-envelope"></i>
+              <a class="recommendation-contact" href="mailto:{{recommendation.email}}">{{ recommendation.email }}</a>
+            </nobr>
+          </div>
+        {% endif %}
+        {% if recommendation.phone %}
+          <div class="recommendation-contact">
+            <nobr>
+              &nbsp;
+              <i class="fas fa-phone"></i>
+              <a class="recommendation-contact" href="tel:{{recommendation.phone}}">{{ recommendation.phone }}</a>
+            </nobr>
+          </div>
+        {% endif %}
       </div><!--//upper-row-->
 
       <div class="recommendation-role">{{ recommendation.role }}</div>
