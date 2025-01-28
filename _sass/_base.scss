@@ -192,9 +192,9 @@ p {
     display: flex;
   }
   .job-title,
-  .recommendation,
   .degree,
-  .cert-title{
+  .cert-title,
+  .recommendation-person {
     color: $text-color;
     font-size: 16px;
     margin-top: 0;
@@ -202,6 +202,7 @@ p {
     font-weight: 500;
     flex: 75%;
   }
+ 
   .time,
   .cert-url {
     position: absolute;
@@ -211,7 +212,6 @@ p {
     flex: 25%;
   }
   .company,
-  .recommendation-contact,
   .recommendation-role,
   .university,
   .cert-org {
@@ -296,4 +296,3 @@ p {
     color: $heart;
   }
 }
-
