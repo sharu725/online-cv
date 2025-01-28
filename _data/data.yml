@@ -264,5 +264,15 @@ skills:
       - name: Sketch & Photoshop
         level: 60%
 
+recommendations:
+    title: Recommendations
+    list:
+      - person: John Doe
+        email: john.doe@example.com
+        phone: 012 345 6789
+        role: General Director at example.com     
+        recommendation: |
+           Alan Doe is a super employee!
+
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
