@@ -155,6 +155,23 @@ oss:
       - title: SD.Next
         link: "https://github.com/vladmandic/automatic"
         tagline: "All-in-one for AI generative image/video generation. I contribute to the project by providing feedback, testing and provide some support on the discord server. If you check the commits, you'll see my name on a tiny one..." 
+recommendations:
+  title: Recommendations
+  list:
+  - person: Yareli Perez
+    email: perezyareli@example.com
+    phone: 012 345 6789
+    role: General Director at example.com
+    recommendation: |
+      Alan Doe is a super employee!
+  - person: Lara Henderson
+    email: larah@example.com
+    phone: 012 345 6789
+    role: General Director at example.com
+    recommendation: |
+      I would like to work with Alan Doe again!
+
+      He is a great employee!
 
 skills:
     title: Skills &amp; Proficiency
@@ -168,7 +185,7 @@ skills:
         level: 80%
       - name: Penetration Testing {I}
         level: 40%
-      - name: Endpoint Security {E}]        
+      - name: Endpoint Security {E}]
         level: 80%
       - name: Role Based Access Control (RBAC) {E}
         level: 80%
@@ -328,5 +345,7 @@ education:
         time: 2002 - 2003
         details: |
           High school equivalency diploma. College courses as High School student.
+
+
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
