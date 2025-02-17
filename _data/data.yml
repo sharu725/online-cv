@@ -57,7 +57,7 @@ education:
 experiences:
     title: EXPERIENCES
     info:
-      - role: "The 1st AI Semiconductor Technology<br>Talent Selection Competition"
+      - role: The 1st AI Semiconductor Technology  Talent Selection Competition
         time: September 2024 - December 2024
         company: CSDL HW TEAM
         details: |
@@ -155,23 +155,23 @@ publications:
     papers:
       - title: Low-Power Encoding for PAM-3 DRAM Bus
         authors: J. Nam, J. Han, and H. Kim
-        #conference: 27th DDECS in Kielce, Poland, April 3-5, 2024
+        conference: 20th SMACD in Volos, Greece, July 2-5, 2024
 
 skills:
     title: SKILLS & PROFICIENCY
 
     toolset:
       - name: Python
-        level: 50%
+        level: 60%
 
       - name: C/C++
-        level: 50%
+        level: 60%
 
       - name: Verilog
         level: 50%
 
       - name: Linux
-        level: 50%
+        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
