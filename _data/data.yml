@@ -57,7 +57,7 @@ education:
 experiences:
     title: EXPERIENCES
     info:
-      - role: The 1st AI Semiconductor Technology Talent Selection Competition
+      - role: The 1st AI Semiconductor Technology\nTalent Selection Competition
         time: September 2024 - December 2024
         company: CSDL HW TEAM
         details: |
