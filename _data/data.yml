@@ -57,6 +57,11 @@ education:
 experiences:
     title: EXPERIENCES
     info:
+      - role: The 1st AI Semiconductor Technology Talent Selection Competition
+        time: September 2024 - December 2024
+        company: CSDL HW TEAM
+        details: |
+          - Implementation of HW blocks and application interfaces supporting ImageNet inference for ResNet-18/34/50/101/152.
       - role: Undergraduate Research Intern
         time: August 2022 - July 2023
         company: IoT Laboratory, in Hanyang University
