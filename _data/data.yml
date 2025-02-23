@@ -122,7 +122,7 @@ projects:
   #   These are some of my projects
   assignments:
     - title: Veterinary Services Provider
-      details: 2023
+      details: 2023 - 2025
       # link: #
       tagline: |
         A global leader in veterinary services, delivering animal care in around 2,500 locations across 20 countries.
@@ -138,7 +138,7 @@ projects:
           - Maintaining high test coverage for all new features
 
         **Technologies:**
-        .NET 6, Azure Functions, Azure Cosmos DB, Azure App Configuration, Terraform, Twilio, NSubstitute
+        .NET 8, Azure Functions, Azure Cosmos DB, Azure App Configuration, Terraform, Twilio, NSubstitute
 
     - title: Ascend Analytics
       details: 2022
