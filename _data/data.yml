@@ -8,279 +8,193 @@ sidebar:
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: Víctor Escobar González
+  tagline: Principal Software Engineer
+  avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  email: victorescobargonza@gmail.com
+  phone: 622657110
+  city: Granada
+  website: #https://example.com/ # Include the full website URL, including "http://" or "https://".
+  linkedin: victor-escobar-gonzalez
+  github: vistiyos
 
   languages:
     title: Languages
     info:
-    - idiom: English
+    - idiom: Spanish
       level: Native
 
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
+    - idiom: English
+      level: Fluent
 
   interests:
     title: Interests
     info:
-    - item: Climbing
-      link:
-
-
-    - item: Snowboarding
-      link:
-
-
-    - item: Cooking
-      link:
+    - item: Videogames
+    - item: Fitness
+    - item: Music
 
 
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Experienced Principal Software Engineer with a strong hands-on background in both frontend and backend development, driven by a SecDevOps mindset. 
+    I specialize in building scalable, cloud-native applications using JVM-based languages such as **Java** and **Kotlin** for backend services, and 
+    **TypeScript** with **Angular** on the frontend.
+
+    Deeply involved in the **entire software development lifecycle**, I've contributed from gathering user requirements and incorporating feedback, 
+    to deploying, running, and operating production systems. I bring a holistic approach to software engineering that balances technical excellence 
+    with real-world impact.
+
+    In my leadership role, I actively **mentor and coach** engineers to support their career development, and I regularly give **internal tech talks**
+    —covering both cutting-edge technologies and effective team collaboration strategies.
+
+    Naturally curious and always eager to learn, I thrive in dynamic environments and embrace new challenges. I'm a strong believer in **team empowerment 
+    and psychological safety**—fostering open communication, embracing failure as a learning opportunity, and promoting a **culture of knowledge sharing** 
+    and continuous improvement.
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+  - degree: Bachelor in Computer Engineering
+    university: University of Granada
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Principal Software Engineer
+    time: 2018 - Present
+    company: Novatec Software
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      Joined as a **Senior Software Engineer** to contribute to a strategic project for one of Germany's leading automotive companies. 
+      The mission was to **decommission a legacy monolith** in the aftersales department and modernize it into a **cloud-native microservices 
+      platform**. The backend was re-architected using **Spring Boot**, while the frontend was built with **Angular**. **Asynchronous communication** 
+      between services was established via **RabbitMQ**, enabling scalable and decoupled workflows.
+
+      Initially deployed on an **on-premises Kubernetes cluster**, the platform underwent multiple infrastructure evolutions. The first major 
+      **cloud migration to IBM Cloud** included a successful **database migration**, followed by a second migration to **Amazon Web Services (AWS)**. 
+      As part of this transition, we introduced **performance and load testing using Gatling** to validate system stability and ensure a smooth 
+      migration process.
+
+      In 2023, I was promoted to **Principal Software Engineer** and took over as **Technical Lead** for a critical product within the same platform 
+      that was transitioned from a previous supplier. My responsibilities included:
+
+      - **Forming and onboarding a new team** of 10 engineers.
+      - **Auditing the existing codebase** and establishing a clear technical roadmap.
+      - **Improving code quality and maintainability**, particularly through the introduction of automated testing practices (**JUnit**, **TestContainers**, and **Playwright**).
+      - **Integrating SonarQube** to track code coverage and maintain continuous quality standards.
+
+      In 2024, I led the **greenfield development of a new MVP** within a different business domain. Working in close collaboration with business 
+      stakeholders, we incorporated **market feedback** into the design to ensure alignment with user needs. After just 9 months, the solution was 
+      **successfully rolled out globally**, and I've continued to lead its evolution and scaling.
+
+      The project's infrastructure includes **observability and monitoring tools** such as **Instana** for performance insights and **OpenSearch** for 
+      centralized logging, ensuring robust operations and fast incident response.
+       
+  - role: Lead Software Engineer
+    time: 2013 - 2018
+    company: Jensen Technologies
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+      Software consultant for small and medium international companies from different industries such as tourism, HR or TV broadcasting. 
+      Lead Developer of in-house products focused on developer's productivity and digital marketing.
+
+      ---
+
+      **Continuous Feedback Systems for Enterprise Clients**
+      
+      Led the design, development, and deployment of scalable feedback platforms tailored for large organizations, built and delivered as 
+      startup-style products. Worked within a Kanban framework to ensure agile, iterative delivery and continuous improvement.
+
+      **Key Technologies & Tools**:
+      - **Frontend & Backend**: PHP (Symfony), Angular, HTML, CSS
+      - **Testing**: PHPUnit
+      - **Infrastructure**: MySQL, NGINX, PHP-FPM, cPanel
+
+      ---
+
+      **TV Broadcasting Card Management Platform**
+      Designed and developed a custom platform for a TV broadcasting company to manage TV cards and third-party satellite service integrations. 
+      The system enabled administrators to assign and unassign TV packages efficiently across various providers. Followed a Waterfall development 
+      model to deliver structured and well-documented project phases.
+
+      **Key Technologies & Tools**:
+      - **Frontend & Backend**: PHP (Symfony), Angular, HTML, CSS
+      - **Testing**: PHPUnit
+      - **Infrastructure**: MySQL, NGINX, PHP-FPM, cPanel
+
+      ---
+
+      **SEO & Visibility Platform for Digital Marketing Agencies**
+      Enhanced and extended a platform designed to boost digital marketing agencies' visibility across multiple search engines. 
+      Implemented new features and integrated payment systems into existing Joomla-based solutions. Worked within a Kanban environment 
+      to support iterative delivery and ongoing platform improvements.
+
+      **Key Technologies & Tools**:
+      - **Frontend & Backend**: PHP (Symfony), Angular, HTML, CSS
+      - **Testing**: PHPUnit
+      - **Infrastructure**: MySQL, NGINX, PHP-FPM, cPanel
+
+
+  - role: Web Developer
+    time: 2012 - 2013
+    company: Freelancer
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-
-certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+      Developing small web-based projects.
+  - role: Developer
+    time: 2011 - 2012
+    company: Area Binaria Soluciones Integrales
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
+      Developing small web-based projects and integrate OpenERP software solution for medium size companies.
+  - role: Developer
+    time: 2011 - 2011
+    company: Grupo Escudero Dueso
     details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
-
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+      Developing e-commerce solutions for small companies and creating small software solutions for internal use.
 
 skills:
-  title: Skills &amp; Proficiency
+  title: Main Skills
 
   toolset:
-  - name: Python & Django
-    level: 98%
+    - title: Backend
+      skills:  
+      - name: Java
+        level: 90%
+      - name: Kotlin
+        level: 90%
+      - name: Spring Boot
+        level: 90%
+      - name: Spring Cloud
+        level: 90%
+      - name: Testing
+        level: 90%
+    - title: Frontend
+      skills:
+      - name: TypeScript
+        level: 80%
+      - name: Angular
+        level: 80%
+    - title: Infrastructure
+      skills:
+      - name: Docker
+        level: 70%
+      - name: Kubernetes
+        level: 70%
+      - name: AWS
+        level: 50%
+      - name: RabbitMQ
+        level: 60%
+      - name: PostgreSQL
+        level: 75%
+      - name: Redis
+        level: 50%
+    - title: Others
+      skills:
+      - name: Github Actions
+        level: 70%
+      - name: OpenSearch
+        level: 70%
 
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
-    level: 95%
-
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
-    level: 60%
-
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+# footer: >
+#   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
