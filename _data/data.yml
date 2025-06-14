@@ -8,74 +8,52 @@ sidebar:
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
+  name: Zainal Azman Shaari
+  tagline: Senior QA Sofware Engineer
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  email: zainal.shaari@yahoo.com
+  phone: +6(019)219-9949
+  timezone: Asia/Kuala Lumpur (GMT+8)
+  citizenship: Malaysian
+  website: https://zainalshaari.github.io
+  linkedin: @zainalshaari
 
   languages:
     title: Languages
     info:
     - idiom: English
+      level: Professional
+
+    - idiom: Malay
       level: Native
-
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
 
   interests:
     title: Interests
     info:
-    - item: Climbing
-      link:
-
-
-    - item: Snowboarding
-      link:
-
-
-    - item: Cooking
-      link:
-
+    - item: Amateur Radio
+      link: https://qrz.com/db/9w2zsh
 
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+- Management: Responsible for hiring and training PMR Support Specialists and Application 
+Developers. Manage focus customers and business partners. 
+- Experience: 31 years of IT experiences including managerial role, software QA engineer, 
+programmer, system analyst, support specialist, technical sales, products evangelist, and 
+regional Linux sales lead. 
+- Strong record: Build the Cloud Application Developer team to develop MVP for Watson APIs 
+awareness to customers and business partners. 
+- Results: Responsible to handle ICA with 5 Business Units on WorldWide PMR Support team for 5 
+years
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: B.Sc. in Computer Science
+    university: Texas A&M University, Kingsville, Texas (TAMUK)
+    time: 1986 - 1988
     details: |
       Describe your study here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -84,9 +62,9 @@ education:
       pretium quis, sem.
         - Bullet point
         - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
+  - high school: Sijil Pelajaran Malaysia
+    university: Sekolah Menengah Teknik Kuala Lumpur (TIKL)
+    time: 1983 -1984
     details: |
       Describe your study here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -99,21 +77,16 @@ education:
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Software Senior QA Engineer
+    time: Oct 2020 – Present
+    company: Quest Software Technology Systems Inc.
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
+    Responsibility
+    - Work with Software Developers to improve software products during development. 
+    - Create and design detail, comprehensive and well-structured test plans and test cases 
+    - Run tests including regression testing, on software or applications and analyze defects in order to 
+improve products 
+    - Maintaining full Microsoft Windows enterprise environment on Azure VM.
   - role: Senior Software Engineer
     time: 2014 - 2015
     company: Google, London
