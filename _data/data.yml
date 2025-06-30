@@ -4,283 +4,222 @@
 
 sidebar:
   position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
+  name: Mike Chambers
+  tagline: Site Reliability Engineer
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
+  email: mike@cyberchambers.org
+  phone: 740.972.8037
+  timezone: America/New York # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  citizenship: United States
+  website: https://cyberchambers.org/ # Include the full website URL, including "http://" or "https://".
+  linkedin: cyberchambers
+  # xing: alandoe
+  github: cyberchambers
+  # telegram: # add your nickname without '@' sign
+  # gitlab:
+  # bitbucket:
+  # bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
+  # twitter: '@jekyllrb'
+  # stack-overflow: # Number/Username, e.g. 123456/alandoe
+  # codewars:
+  # goodreads: # Number-Username, e.g. 123456-alandoe
+  # mastodon: # Please include your full Mastodon link here.
+  # hackerrank: # Please provide your HackerRank username.
+  # leetcode: # Please provide your LeetCode username.
   pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
-  languages:
-    title: Languages
-    info:
-    - idiom: English
-      level: Native
+  # languages:
+    # title: Languages
+    # info:
+    # - idiom: English
+    #  level: Native
 
-    - idiom: French
-      level: Professional
+    #- idiom: French
+     # level: Professional
 
-    - idiom: Spanish
-      level: Professional
+    #- idiom: Spanish
+     # level: Professional
 
-  interests:
-    title: Interests
-    info:
-    - item: Climbing
-      link:
-
-
-    - item: Snowboarding
-      link:
+  #interests:
+  #  title: Interests
+  #  info:
+   # - item: Climbing
+    #  link:
 
 
-    - item: Cooking
-      link:
+    #- item: Snowboarding
+     # link:
 
 
-career-profile:
-  title: Career Profile
-  summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    #- item: Cooking
+     # link:
+
+
+# career-profile:
+#  title: Career Profile
+#  summary: |
+#    Summarise your career here lorem ipsum dolor sit amet, consectetuer
+#    adipiscing elit. You can [download this free resume/CV template here]().
+#    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+#    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+#    Donec quam felis, ultricies nec, pellentesque eu.
+#    Second paragraph if required.
 education:
-  title: Education
+  title: Education & Certificates
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-
+  - degree: AWS Certified Developer
+    university: Amazon
+  - degree: MCSE (Microsoft Certified Systems Engineer)
+    university: Microsoft
+  - degree: Bachelor of Education
+    university: Miami University, Oxford, Ohio
+    #time: 2011 - 2012
+    # details: |
+      # Describe your study here
+      #  - Bullet point
 experiences:
-  title: Experiences
+  title: Experience
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Senior Site Reliability Engineer
+    time: April, 2021 - Present
+    company: Chase Bank
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      - Managed a team of SRE Engineers leveraging Agile processes and DevOps principles
+      - Reduced virtual desktop operating costs by $3M through infrastructure refactoring and optimization
+      - Implemented self-healing processes leveraging Camunda, PowerShell execution pools, and python
+      - Wrote Flask and Django API’s to support SRE and DevOps efforts for automation and toil reduction
+      - Rewrote in-house desktop support software from C# and PowerShell-based desktop client to cloud-ready API-driven web application interfacing with Splunk, ServiceNow, and Citrix Director
+      - Improved error budgets and service level objectives (SLO) in the Citrix VDI space through increased telemetry and trend analysis
+      - Leveraged Databricks, Spark SQL, Grafana, and Splunk to create executive-level dashboards displaying firm-wide Key Performance Indicators (KPI)
+      - Collaborated with application developers to integrate UberAgent monitoring data into a new data and insights application suite
+      - Integrated Django models with Cassandra and MySQL databases leveraging ORM
+      - Increased application cloud-readiness by containerizing applications using Docker
+      - Integrated token-based authorization to API endpoints leveraging Auth0
+      - Automated CI/CD pipelines leveraging BitBucket, GitHub and Jenkins
+  - role: Major Incident Manager
+    time: January, 2018 – March, 2021
+    company: Chase Bank
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+      - Managed a team of SRE Engineers leveraging Agile processes and DevOps principles
+      - Coordinated technical teams to resolve major incidents impacting multiple lines of business
+      - Facilitated emergency change implementation within a global technology infrastructure
+      - Managed critical milestone activities during high-severity technology incidents
+      - Created Kanban workflows for Priority One Management process improvement
+  - role: Infrastructure Engineer
+    time: December, 2013 – December 2017
+    company: Chase Bank
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-
-certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+      - Lead transition to Agile methodology as Scrum Master for Public Cloud Enablement team
+      - Leveraged DevOps principles to assist developers with YAML and JSON Cloudformation templates
+      - Created CD/CI pipeline to AWS Service Catalog utilizing Python, Boto3, Jenkins, and BitBucket
+      - Automated Create/Read/Update/Delete (CRUD) processes for onboarding and offboarding users in a  time-critical, high-turnover application
+      - Automated Private Key Infrastructure (PKI) certificate management for 3000 servers throughout the US
+  - role: System Administrator
+    time: April, 2011 - December, 2013
+    company: Columbus Zoo and Aquarium
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+      - Upgraded Microsoft Exchange 2003 to Microsoft Exchange 2010
+      - Administered Microsoft Exchange for multiple departments in several campuses throughout Ohio
+      - Migrated physical servers to Hyper-V infrastructure including Exchange, IIS and SQL environments
+      - Automated cash room procedures, reducing cash counting errors and increasing staff efficiency
+      - Created PowerShell scripts integrating vendor hardware, concession sales, and ticket data
+      - Implemented diskless imaging procedure for workstation deployments
+      - Migrated storage infrastructure to NetApp Network Attached Storage
+#certifications:
+#  title: Certifications
+#  list:
+#  - name: CV Builder
+#    start: 2020
+#    end: 2021
+#    organization: Microsoft
+#    credentialid: 111-222
+#    credentialurl: www.google.com
+#    credentialname: Google
+#    details: |
+#      Details about cert. Lorem ipsum dolor sit amet, consectetur
+#      adipiscing elit.
+#      Nullam eget orci purus. Nullam ultrices neque nibh.
+#      Aenean fermentum, felis vulputate suscipit accumsan,
+#      sem enim bibendum augue, sed convallis arcu lacus at dui.
+#      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#      Praesent venenatis erat non augue suscipit consectetur.
+#
+#      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+#      fringilla vel. Ut euismod, sem sed vulputate venenatis,
+#      justo diam viverra velit, sed rhoncus leo leo eu justo.
+#      Suspendisse placerat risus ante, sed porta nisi blandit at.
+#  - name: Git learning
+#    start: 2019
+#    end:
+#    organization: Microsoft
+#    credentialid: 111-222
+#    credentialurl: www.github.com
+#    credentialname: Github
+#    details: |
+#      Older certification. Lorem ipsum dolor sit amet, consectetur
+#      adipiscing elit.
+#      Nullam eget orci purus. Nullam ultrices neque nibh.
+#      Aenean fermentum, felis vulputate suscipit accumsan,
+#      sem enim bibendum augue, sed convallis arcu lacus at dui.
+#      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#      Praesent venenatis erat non augue suscipit consectetur.
 
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+#projects:
+#  title: Projects
+#  intro: >
+#    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#  assignments:
+#  - title: Velocity
+#    link: "https://mmistakes.github.io/blog/2021/06/29/welcome-to-jekyll.html"
+#    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+#
+#  - title: DevStudio
+#    link: "#"
+#    tagline: "A responsive website template designed to help web developers/designers market their services."
+#
+#  - title: Tempo
+#    link: "#"
+#    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#
+#  - title: Atom
+#    link: "#"
+#    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+#  - title: Delta
+#    link: "#"
+#    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
-
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
-
-skills:
-  title: Skills &amp; Proficiency
-
-  toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
-    level: 95%
-
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
-    level: 60%
+#skills:
+#  title: Skills &amp; Proficiency
+#
+#  toolset:
+#  - name: Python & Django
+#    level: 98%
+#
+#  - name: Javascript & jQuery
+#    level: 98%
+#
+#  - name: Angular
+#    level: 98%
+#
+#  - name: HTML5 & CSS
+#    level: 95%
+#
+#  - name: Ruby on Rails
+#    level: 85%
+#
+#  - name: Sketch & Photoshop
+#    level: 60%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
