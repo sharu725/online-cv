@@ -9,7 +9,7 @@ function print() {
 
 function generatePDF() {
   // Get the print layout URL
-  const printURL = window.location.origin + "/print";
+  const printURL = new URL("print", window.location.href).href;
 
   // Fetch the print layout content
   fetch(printURL)
