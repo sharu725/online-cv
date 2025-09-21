@@ -30,27 +30,30 @@ sidebar:
   languages:
     title: Languages
     info:
-    - idiom: English
+    - idiom: Ukranian
       level: Native
 
-    - idiom: French
-      level: Professional
+    - idiom: Russia
+      level: Native
 
-    - idiom: Spanish
-      level: Professional
+    - idiom: English
+      level: Advanced
 
-  interests:
-    title: Interests
-    info:
-    - item: Climbing
-      link:
+    - idiom: Croatian
+      level: Intermediate 
+
+  #interests:
+   # title: Interests
+    #info:
+   # - item: Climbing
+     # link:
 
 
-    - item: Snowboarding
-      link:
+   # - item: Snowboarding
+      #link:
 
 
-    - item: Cooking
+   # - item: Cooking
       link:
 
 
@@ -275,5 +278,5 @@ skills:
   - name: Sketch & Photoshop
     level: 60%
 
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+footer: 
+# Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
