@@ -17,7 +17,7 @@ sidebar:
   phone: +385919891134
   timezone: CEST, GMT+2 # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   citizenship:
-  website: https://onlynov.github.io/CV/ # Include the full website URL, including "http://" or "https://".
+  website: # Include the full website URL, including "http://" or "https://".
   linkedin: vity1244
   github: OnlyNov
   telegram: Only_Nov # add your nickname without '@' sign
