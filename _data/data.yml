@@ -54,18 +54,14 @@ sidebar:
 
 
    # - item: Cooking
-      link:
+     # link:
 
 
 career-profile:
-  title: Career Profile
+  title: About Me
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    My name is Viktor and I'm a Back-end developer and Database Engineer, curently searching for a job in such fields.
+    I started learning how to code since I was 14 years old and curently studing IT and Computing in Online Business School(OBS).
 education:
   title: Education
   info:
