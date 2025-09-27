@@ -20,7 +20,13 @@
       </div><!--//upper-row-->
 
       <div class="company">{{ experience.company }}</div>
-
+      {% if experience.website %}
+      <div class="website">
+        <a href="{{ experience.website }}" target="_blank" rel="noopener" title="{{ experience.company }} Website">
+          <i class="fas fa-external-link-alt"></i> Website
+        </a>
+      </div>
+      {% endif %}
     </div><!--//meta-->
 
     {% if experience.details %}
