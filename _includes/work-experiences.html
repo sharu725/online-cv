@@ -19,14 +19,16 @@
         <div class="time">{{ experience.time }}</div>
       </div><!--//upper-row-->
 
-      <div class="company">{{ experience.company }}</div>
-      {% if experience.website %}
-      <div class="website">
-        <a href="{{ experience.website }}" target="_blank" rel="noopener" title="{{ experience.company }} Website">
-          <i class="fas fa-external-link-alt"></i> Website
+      {% if experience.link %}
+      <div class="company">
+        <a href="{{ experience.link }}" target="_blank" rel="noopener" title="Visit {{ experience.company }}">
+          {{ experience.company }} <i class="fas fa-external-link-alt"></i>
         </a>
       </div>
+      {% else %}
+      <div class="company">{{ experience.company }}</div>
       {% endif %}
+      
     </div><!--//meta-->
 
     {% if experience.details %}
