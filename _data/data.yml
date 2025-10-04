@@ -3,230 +3,237 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  position: right # position of the sidebar : left or right
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Alessandro Lollo
-    tagline: Data Engineering Manager
-    avatar: ale.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Alessandro Lollo
+  tagline: Data Engineering Manager
+  avatar: ale.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: alessandro.lollo@gmail.com
-    #phone:
-    timezone: Europe/Rome
-    citizenship:
-    #website:
-    linkedin: AlessandroLollo
-    github: AlessandroLollo
-    twitter: '@ale_lollo87'
-    stack-overflow:
-    #codewars:
-    #goodreads:
-    #pdf:
+  # Sidebar links
+  email: alessandro.lollo@gmail.com
+  #phone:
+  timezone: Europe/Rome
+  citizenship:
+  #website:
+  linkedin: AlessandroLollo
+  github: AlessandroLollo
+  twitter: '@ale_lollo87'
+  #stack-overflow:
+  #codewars:
+  #goodreads:
+  #pdf:
 
-    languages:
-      title: Languages
-      info:
-        - idiom: Italian
-          level: Native
+  languages:
+    title: Languages
+    info:
+      - idiom: Italian
+        level: Native
 
-        - idiom: English
-          level: Professional
+      - idiom: English
+        level: Professional
 
-    interests:
-      title: Interests
-      info:
-        - item: Music (especially indie, funk, alternative, electronic)
-          #link:
-        - item: Craft beer
-        - item: Food travel
+  interests:
+    title: Interests
+    info:
+      - item: Music (especially indie, funk, alternative, electronic)
+        #link:
+      - item: Craft beer
+      - item: Food travel
 
 career-profile:
-    title: Career Profile
-    summary: |
-      10+ years experience in Data Engineering, BI & Analytics.  
-      I use data, technology and modern approaches to help businesses
-      make better, data-driven decisions.  
-      Eager to learn, grow and help others growing.  
-      Remote work enthusiast.
+  title: Career Profile
+  summary: |
+    15+ years experience in Data Engineering, BI & Analytics.  
+    I use data, technology and modern approaches to help businesses
+    make better, data-driven decisions.  
+    Eager to learn, grow and help others growing.  
+    Remote work enthusiast.
 
 education:
-    title: Education
-    info:
-      - degree: BSc in Computer Science
-        university: Università degli studi di Padova
-        time: 2006 - 2009
-        #details: |
+  title: Education
+  info:
+    - degree: BSc in Computer Science
+      university: Università degli studi di Padova
+      time: 2006 - 2009
+      #details: |
 
 experiences:
-    title: Experiences
-    info:
-      - role: Data Engineering Manager
-        time: 2020 - Present
-        company: Cloud Academy
-        link: "https://cloudacademy.com/"
-        details: |
-          I've created and currently lead and mentor the Data Engineering & Data Analytics Teams.
-
-          Lead and implemented the Data Engineering infrastructure
-          to ingest, process, and transform data from several sources
-          that are being used to serve analytics to both internal stakeholders
-          and enterprise customers.
-
-          Defined and implemented best practices for:
-          - Data Lake/DWH design and implementation.
-          - Dimensional modeling. Data pipelines design and implementation.
-          - Data pipeline design and implementation using Software Engineering principles.
-          - Integration of Data Quality Monitoring into data pipelines.
-          - Dashboard/reporting design and implementation.
-          - Design and implementation of an analytics solution to serve
-            enterprise clients data needs.
-
-          Lead initiatives to:
-          - Hire, train, and mentor Data Engineers and Data Analysts.
-          - Define career ladder for Data Engineers and Data Analysts.
-          - Management of data needs coming from internal stakeholders
-            and enterprise clients.
-          - Selection of tools and vendors to implement the analytics solution used
-            by internal stakeholders and enterprise clients.
-          - Train internal stakeholders on how to use the internal BI platform.
-          
-          I've been working with internal stakeholders such as Engineering, Product,
-          and Content Teams to help them identifying the most appropriate KPIs to track how
-          users are using product features and how they use the content
-          available in the platform.
-          Lead initiatives to:
-          - Collect business requirements.
-          - Select appropriate datasources to build the single source of truth.
-          - Define and validate KPIs.
-          - Design and implement reporting for internal stakeholders.
+  title: Experiences
+  info:
+    - role: Senior Data Engineer
+      time: 2025 - Present
+      company: LocalStack
+      link: "https://localstack.cloud"
+      details: |
+        TODO
 
 
-      - role: Data Governance Manager
-        time: 2018 - 2020
-        company: Cuebiq
-        link: "https://www.cuebiq.com/"
-        details: |
-          I have established Data Governance policies to improve the
-          corporate data management strategy.
+    - role: Data Engineering Manager
+      time: 2020 - 2024
+      company: Cloud Academy
+      link: "https://cloudacademy.com/"
+      details: |
+        I've created, led, and mentor the Data Engineering & Analytics Team.
 
-          I established and led the Data Quality team which was in charge,
-          together with Product Data Owners, for the definition,
-          implementation and monitoring of Data Quality indicators to help
-          the Product team to better understand and manage the quality of
-          several data products.
-          I've worked and led the technical implementation and deployment of
-          the following solutions:
-           - a Data Catalog, which was being used by 150+ people to find
-             information and metadata about the datasets they need to do their job.
-           - a corporate Data Warehouse, which was being used as the single
-             source of truth for certified, high quality and trusted data used to analyze and monitor company performances.
+        Designed, implemented, and evolved the Data Engineering infrastructure
+        to ingest, process, and transform data from several sources
+        to serve data to internal stakeholders and enterprise customers.
 
-      - role: Chief Data Officer
-        time: 2017 - 2018
-        company: Linear Assicurazioni
-        link: "https://www.linear.it/"
-        details: |
-          I led the Data Center & Business Intelligence Team which was in
-          charge of the development, implementation and maintenance of data
-          analytics solutions used for monitoring company performances,
-          with a focus on revenues generated by car and life insurance
-          subscribers.
+        Introduced and applied best practices for:
+        - Data Lake & Data Warehouse design and implementation.
+        - Data modeling.
+        - Data pipeline design and implementation inspired from Software Engineering principles.
+        - Integration of Data Quality monitoring as a first class component of the data platform.
+        - Dashboard/reporting design and implementation.
+        - Design and implementation of analytics solutions to serve
+          data to enterprise customers.
 
-          I worked together with the Head of IT Department,
-          the General Manager and the senior management to develop
-          the company long-term data strategy.
+        Led initiatives to:
+        - Hire, train, and mentor Data Engineers and Data Analysts.
+        - Define career ladder for Data Engineers and Data Analysts.
+        - Management of data needs coming from internal stakeholders
+          and enterprise clients.
+        - Vendors and tools selection to implement the analytics solution used
+          by internal stakeholders and enterprise clients.
+        - Train internal stakeholders on how to use the internal BI platform.
+        
+        I've been working with internal stakeholders such as Engineering, Product,
+        and Content Teams to help them identifying the most appropriate KPIs to track how
+        users are using product features and how they use the content
+        available in the platform.
+        Lead initiatives to:
+        - Collect business requirements.
+        - Select appropriate datasources to build the single source of truth.
+        - Define and validate KPIs.
+        - Design and implement reporting for internal stakeholders.
 
-      - role: Senior Solution Designer & Analyst
-        time: 2013 - 2017
-        company: IConsulting
-        link: "https://www.iconsulting.biz/"
-        details: |
-          I was responsible for the design, implementation and optimization
-          of Business Analytics solutions for a variety of customers including
-          multinational holdings, banks, B2C and B2B, fashion.
 
-          As a Tech Team Leader I focused on the technical side of projects
-          such as the design and implementation of ETL and BI solutions and
-          the management of the development team.
+    - role: Data Governance Manager
+      time: 2018 - 2020
+      company: Cuebiq
+      link: "https://www.cuebiq.com/"
+      details: |
+        I have established Data Governance policies to improve the
+        corporate data management strategy.
 
-          I've also worked on business facing activities, like functional
-          analysis, business requirements definitions and UATs.
+        I established and led the Data Quality team which was in charge,
+        together with Product Data Owners, for the definition,
+        implementation and monitoring of Data Quality indicators to help
+        the Product team to better understand and manage the quality of
+        several data products.
+        I've worked and led the technical implementation and deployment of
+        the following solutions:
+          - a Data Catalog, which was being used by 150+ people to find
+            information and metadata about the datasets they need to do their job.
+          - a corporate Data Warehouse, which was being used as the single
+            source of truth for certified, high quality and trusted data used to analyze and monitor company performances.
 
-          I regularly held tech training for both my team members and customers.
+    - role: Chief Data Officer
+      time: 2017 - 2018
+      company: Linear Assicurazioni
+      link: "https://www.linear.it/"
+      details: |
+        I led the Data Center & Business Intelligence Team which was in
+        charge of the development, implementation and maintenance of data
+        analytics solutions used for monitoring company performances,
+        with a focus on revenues generated by car and life insurance
+        subscribers.
 
-      - role: Other roles
-        time: 2010 - 2013
-        company: CINECA, CSP S.p.a.
+        I worked together with the Head of IT Department,
+        the General Manager and the senior management to develop
+        the company long-term data strategy.
+
+    - role: Senior Solution Designer & Analyst
+      time: 2013 - 2017
+      company: ICONSULTING
+      link: "https://www.iconsulting.biz/"
+      details: |
+        I was responsible for the design, implementation and optimization
+        of Business Analytics solutions for a variety of customers including
+        multinational holdings, banks, B2C and B2B, fashion.
+
+        As a Tech Team Leader I focused on the technical side of projects
+        such as the design and implementation of ETL and BI solutions and
+        the management of the development team.
+
+        I've also worked on business facing activities, like functional
+        analysis, business requirements definitions and UATs.
+
+        I regularly held tech training for both my team members and customers.
+
+    - role: Other roles
+      time: 2010 - 2013
+      company: CINECA, CSP S.p.a.
 
 certifications:
-      title: Certifications
-      list:
-        - name: Prefect Associate Certification
-          start: June 2023
-          # end: TODO
-          organization: Prefect
-          credentialid: 76213076
-          credentialurl: credential.net/183b74b2-aeee-49c2-b792-1170eb2e650c#gs.0iq41w
-          credentialname: Prefect Associate Certification
-          #details: |
+  title: Certifications
+  list:
+    - name: Prefect Associate Certification
+      start: June 2023
+      # end: TODO
+      organization: Prefect
+      credentialid: 76213076
+      credentialurl: credential.net/183b74b2-aeee-49c2-b792-1170eb2e650c#gs.0iq41w
+      credentialname: Prefect Associate Certification
+      #details: |
 
 oss:
-    title: OSS Contributions
-    intro: >
-      As a data professional, I know that many of the tools I use everyday are built
-      using open source software that someone out there is maintaining.
-      I strongly believe in open source principles, and back in 2020 I started contributing
-      actively on open source projects.
-    contributions:
-      - title: "Cube.dev Prefect Collection"
-        link: "alessandrolollo.github.io/prefect-cubejs/"
-        tagline: "Prefect tasks that can be used to easily interact with Cube.dev APIs."
-      - title: "SodaSQL Prefect Collection"
-        link: "sodadata.github.io/prefect-soda-core/"
-        tagline: "Prefect tasks that can be used to run Data Quality Checks using SodaSQL and SodaCL."
-      - title: "Sifflet Prefect Collection"
-        link: "siffletapp.github.io/prefect-sifflet/"
-        tagline: "Prefect tasks that can be used to trigger Sifflet Data Quality rules."
-      - title: "First version of dbt Cloud task for Prefect v1"
-        link: "github.com/PrefectHQ/prefect/pull/5085"
-        tagline: "Prefect v1 task that can be used to interact with dbt Cloud APIs."
-      - title: "Other contributions to Prefect v1"
-        link: "github.com/PrefectHQ/prefect/pulls?q=author%3Aalessandrolollo"
-        tagline: "List of PRs I've contributed to Prefect since 2020."
+  title: OSS Contributions
+  intro: >
+    As a data professional, I know that many of the tools I use everyday are built
+    using open source software that someone out there is maintaining.
+    I strongly believe in open source principles, and back in 2020 I started contributing
+    actively on open source projects.
+  contributions:
+    - title: "Cube.dev Prefect Collection"
+      link: "alessandrolollo.github.io/prefect-cubejs/"
+      tagline: "Prefect tasks that can be used to easily interact with Cube.dev APIs."
+    - title: "SodaSQL Prefect Collection"
+      link: "sodadata.github.io/prefect-soda-core/"
+      tagline: "Prefect tasks that can be used to run Data Quality Checks using SodaSQL and SodaCL."
+    - title: "Sifflet Prefect Collection"
+      link: "siffletapp.github.io/prefect-sifflet/"
+      tagline: "Prefect tasks that can be used to trigger Sifflet Data Quality rules."
+    - title: "First version of dbt Cloud task for Prefect v1"
+      link: "github.com/PrefectHQ/prefect/pull/5085"
+      tagline: "Prefect v1 task that can be used to interact with dbt Cloud APIs."
+    - title: "Other contributions to Prefect v1"
+      link: "github.com/PrefectHQ/prefect/pulls?q=author%3Aalessandrolollo"
+      tagline: "List of PRs I've contributed to Prefect since 2020."
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Data modeling for Data Warehouse (dimensional modeling using Kimball methodology)
-        level: 100%
-      
-      - name: SQL &amp; OLAP databases
-        level: 100%
+  toolset:
+    - name: Data modeling for Data Warehouse (dimensional modeling using Kimball methodology)
+      level: 100%
+    
+    - name: SQL &amp; OLAP databases
+      level: 100%
 
-      - name: Prefect (mainly open source version)
-        level: 90%
-      
-      - name: dbt
-        level: 90%
+    - name: Prefect (mainly open source version)
+      level: 90%
+    
+    - name: dbt
+      level: 90%
 
-      - name: Python for Data Engineering
-        level: 80%
-      
-      - name: Cloud services for Data Engineering (mainly AWS)
-        level: 80%
+    - name: Python for Data Engineering
+      level: 80%
+    
+    - name: Cloud services for Data Engineering (mainly AWS)
+      level: 80%
 
-      - name: Data viz tools &amp; reporting (Apache Superset, Hex, PowerBI, Tableau, Excel, Google Sheets)
-        level: 80%
+    - name: Data viz tools &amp; reporting (Apache Superset, Hex, PowerBI, Tableau, Excel, Google Sheets)
+      level: 80%
 
-      - name: Docker
-        level: 70%
+    - name: Docker
+      level: 70%
 
-      - name: Terraform
-        level: 20%
+    - name: Terraform
+      level: 20%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

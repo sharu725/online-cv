@@ -177,12 +177,8 @@ p {
     margin-bottom: 60px;
   }
 
-  //.experiences-section,
-  .experiences-section {
-    .company-link{
-      color: $theme-color
-    }
-  }
+  .experiences-section,
+  .recommendations-section,
   .educations-section {
     .item {
       margin-bottom: 30px;
@@ -197,7 +193,8 @@ p {
   }
   .job-title,
   .degree,
-  .cert-title{
+  .cert-title,
+  .recommendation-person {
     color: $text-color;
     font-size: 16px;
     margin-top: 0;
@@ -205,6 +202,7 @@ p {
     font-weight: 500;
     flex: 75%;
   }
+
   .time,
   .cert-url {
     position: absolute;
@@ -214,6 +212,7 @@ p {
     flex: 25%;
   }
   .company,
+  .recommendation-role,
   .university,
   .cert-org {
     margin-bottom: 10px;
@@ -228,6 +227,14 @@ p {
     color: darken($theme-color, 15%);
   }
   .projects-section {
+    .intro {
+      margin-bottom: 30px;
+    }
+    .item {
+      margin-bottom: 15px;
+    }
+  }
+  .oss-section {
     .intro {
       margin-bottom: 30px;
     }
@@ -290,3 +297,38 @@ p {
   }
 }
 
+.pdf-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  background: $theme-color;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: darken($theme-color, 10%);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  &:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  &:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+
+  .fas {
+    margin-right: 5px;
+  }
+}

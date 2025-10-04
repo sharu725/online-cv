@@ -21,7 +21,7 @@
 
     {% if sidebar.timezone %}
     <li class="timezone"><i class="fas fa-clock"></i>
-      <a href="">{{ sidebar.timezone }}</a>
+      <a href="https://worldtimeapi.org/timezone/{{ sidebar.timezone }}" target="_blank">{{ sidebar.timezone }} Timezone</a>
     </li>
     {% endif %}
 
@@ -33,7 +33,7 @@
 
     {% if sidebar.website %}
     <li class="website"><i class="fas fa-globe-americas"></i>
-      <a href="http://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
+      <a href="{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
     </li>
     {% endif %}
 
@@ -51,25 +51,39 @@
 
     {% if sidebar.github %}
     <li class="github"><i class="fab fa-github"></i>
-      <a href="http://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
+      <a href="https://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.gitlab %}
     <li class="gitlab"><i class="fab fa-gitlab"></i>
-      <a href="http://gitlab.com/{{ sidebar.gitlab }}" target="_blank">{{ sidebar.gitlab }}</a>
+      <a href="https://gitlab.com/{{ sidebar.gitlab }}" target="_blank">{{ sidebar.gitlab }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.bitbucket %}
     <li class="bitbucket"><i class="fab fa-bitbucket"></i>
-      <a href="http://bitbucket.com/{{ sidebar.bitbucket }}" target="_blank">{{ sidebar.bitbucket }}</a>
+      <a href="https://bitbucket.com/{{ sidebar.bitbucket }}" target="_blank">{{ sidebar.bitbucket }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.twitter %}
     <li class="twitter"><i class="fab fa-twitter"></i>
       <a href="https://twitter.com/{{ sidebar.twitter }}" target="_blank">{{ sidebar.twitter }}</a>
+    </li>
+    {% endif %}
+    
+    {% if sidebar.bluesky %}
+    {% assign bluesky_handle = sidebar.bluesky | remove: '@' %}
+    <li class="bluesky"><i class="fab fa-bluesky"></i>
+      <a href="https://bsky.app/profile/{{ bluesky_handle }}" target="_blank">{{ sidebar.bluesky }}</a>
+    </li>
+    {% endif %}
+    
+    {% if sidebar.mastodon %}
+    {% assign mastodon_handle = sidebar.mastodon | split: '/' %}
+    <li class="mastodon"><i class="fab fa-mastodon"></i>
+      <a href="{{ sidebar.mastodon }}" target="_blank">{{ mastodon_handle[3] }}@{{ mastodon_handle[2] }}</a>
     </li>
     {% endif %}
 
@@ -82,6 +96,18 @@
     {% if sidebar.codewars %}
     <li class="codewars"><i class="fas fa-code"></i>
       <a href="https://www.codewars.com/users/{{ sidebar.codewars }}/completed_solutions" target="_blank">{{ sidebar.codewars }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.hackerrank %}
+    <li class="hackerrank"><i class="fab fa-hackerrank"></i>
+      <a href="https://www.hackerrank.com/profile/{{ sidebar.hackerrank }}" target="_blank">{{ sidebar.hackerrank }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.leetcode %}
+    <li class="leetcode"><i class="fas fa-code"></i>
+      <a href="https://leetcode.com/u/{{ sidebar.leetcode }}" target="_blank">{{ sidebar.leetcode }}</a>
     </li>
     {% endif %}
 
