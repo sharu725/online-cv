@@ -5,11 +5,11 @@
 sidebar:
   position: right # position of the sidebar : left or right
   about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: False # set to False if you want education in main section instead of in sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
   name: Pedro do Vale
-  tagline: Back-end Developer
+  tagline: Software Developer
   avatar: pic.jpeg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -18,7 +18,7 @@ sidebar:
   timezone: Europe/Brussels
   citizenship: Portuguese
   website:
-  linkedin: pedroddvale
+  linkedin: pedrodovale
   xing:
   github: pedrodovale
   telegram: # add your nickname without '@' sign
@@ -55,14 +55,11 @@ career-profile:
   summary: |
     Hello there!
 
-    I'm Pedro. I'm a **Java** Back-end Developer with a strong focus on the 
-    **Spring Framework**, experienced in building scalable and secure 
-    applications ranging from **security** platforms to user-focused 
+    I'm Pedro, a Software developer specializing in Backend Development with a 
+    strong focus on the **Spring Framework** ecosystem, experienced in building 
+    scalable and secure applications ranging from **security** platforms to user-focused 
     **information systems**. Recognized as a team player and "team facilitator" 
     for fostering collaboration and efficiency.
-
-    Originally from Portugal, currently **based in Brussels**, and open to 
-    relocation.
 education:
   title: Education
   info:
@@ -84,20 +81,27 @@ experiences:
       company: European Commission (Brussels - Belgium)
       details: |
 
-        - My first international role
         - At European Commission Anti-Fraud Office (OLAF)
         - Initially **outsourced** by a consultancy company based in Portugal
         - Since 2021, as a **contractor**
         - deep technical expertise and adoption of modern practices such as 
         **CI/CD** and **API-first** development (with **OpenAPI Specification**)
         with focus on OAuth implementations
-        - Mostly **remote**.
+
+    - role: Online Instructor
+      time: 2022-2023
+      company: EC-Council
+      details: |
+        
+        - As a side project, I created a 5-hour online course on OpenAPI 
+        Specification 3.1
+        - I was responsible for the whole content: script, recording, quiz, etc
+        - https://learn.eccouncil.org/course/designing-apis-with-openapi
 
     - role: Junior Software Developer
       time: 2017 - 2020
       company: Multicert (Lisbon - Portugal)
       details: |
-        - My first job
         - Started as a trainee as part of the Master thesis
         - Later hired as a Junior developer
         - Mostly focused on projects related with digitally signed documents
@@ -123,14 +127,15 @@ projects:
   title: Projects
   intro:
   assignments:
+    
+    - title: Customs Joint Operations Springboot application
+      tagline: "Led the refactoring of a RESTful backend supporting collaboration across Member States in Joint Operations, as part of a 7-member Agile team applying CI/CD and Agile principles."
+
     - title: AWS S3 Streamed Upload Springboot Starter
-      tagline: "Designed and implemented a Spring Boot starter for file uploads to external storage via AWS S3 API, owning both development and architecture."
+      tagline: "Design, implement, and maintenance of a Spring Boot starter for file uploads to external storage via AWS S3 API, owning both development and architecture."
 
     - title: "OAuth DPoP Springboot Starter"
       tagline: "Spring Boot starter for OAuth2 DPoP support in a two-person team, closely following an evolving IETF draft."
-
-    - title: Customs Joint Operations Springboot application
-      tagline: "Led the refactoring of a RESTful back-end supporting collaboration across Member States in Joint Operations, as part of a 7-member Agile team applying CI/CD and Agile principles."
 
     - title: Digital Signatures Springboot application
       tagline: "Orchestrator of digital signatures for Word and PDF documents, with implemenration of an early release of the Cloud Signature Consortium (CSC) API related to Adobe Sign, Portuguese citizen card. Web, B2B, and mobile interfaces"
@@ -174,6 +179,9 @@ skills:
 
     - name: OAuth2.0
       level: 100%
+    
+    - name: GitHub
+      level: 100%
 
     - name: PKCS#11
       level: 100%
@@ -195,13 +203,13 @@ skills:
     - name: AWS SDK/CLI
       level: 100%
 
+    - name: Liquibase
+      level: 100%
+
     - name: Oracle DB
       level: 90%
 
     - name: PostgreSQL
-      level: 90%
-
-    - name: Liquibase
       level: 90%
 
     - name: Flyway
@@ -214,6 +222,9 @@ skills:
       level: 75%
 
     - name: JIRA
+      level: 75%
+
+    - name: Vaadin
       level: 75%
 
     - name: Spring Thymeleaf
