@@ -8,24 +8,24 @@ sidebar:
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
+  name: Fotopoulou Eleni
+  tagline: ERP Consultant and Accountant
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
+  email: eleni_fwtopoulou@windowslive.com
+  phone: +306972367015
+  timezone: Europe/Athens # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  citizenship: Greek
+  website: # Include the full website URL, including "http://" or "https://".
+  linkedin: eleni-fotopoulou-00b8531ba
+  xing: 
+  github: 
   telegram: # add your nickname without '@' sign
   gitlab:
   bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
+  bluesky: # Specify your full Bluesky handle
+  twitter: 
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
@@ -37,250 +37,159 @@ sidebar:
   languages:
     title: Languages
     info:
-    - idiom: English
+    - idiom: Greek
       level: Native
 
-    - idiom: French
-      level: Professional
+    - idiom: English
+      level: C2
 
     - idiom: Spanish
-      level: Professional
+      level: Comprehension
 
   interests:
     title: Interests
     info:
-    - item: Climbing
+    - item: Volunteer blood donor
       link:
-
-
-    - item: Snowboarding
-      link:
-
-
-    - item: Cooking
-      link:
-
 
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Experienced professional in accounting and ERP consulting with a strong background in customer management, financial operations, and software implementation.
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: Master Accounting in the Modern Management Environment
+    university: University of Patras
+    time: 2021 - 2022
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
+      https://mscaccount.bma.upatras.gr
+  - degree: Bachelor in Accounting
+    university: Technological Educational Institution of Patras
+    time: 2011 - 2016
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      
+  - degree: Graduate of General High School
+    university: 8th Unified High School of Patras
+    time: 2008 - 2011
+    details: |
+      
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Consulting Small Business
+    time: 2023 - Present
+    company: Entersoft S.A., Greece
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      Interface between development and customer, Identifying and managing customer’s needs (B2C, B2B, B2G), Conduct analysis of requirements regarding the development of new functions and the improvement of existing ones according to customers' needs, Conduct users acceptance testing and troubleshoot issues, Communication with customers and collaborators, Customer’s training, implementation and parameterization ERP data base.
+  - role: Assistant Accountant
+    time: 2019 - 2023
+    company: Bagiorgos S.A., Ano Kastritsi, Rio
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
+      Purchase Orders, Communication with customers-vendors-suppliers, Reconciliation of balances, Registration of documents, Credit check, Logistic, Invoicing (SAP, SEN)
+  - role: Assistant Accountant
+    time: 2018 - 2019
+    company: Paraskevopoulos Dimitrios & Co. E.E., Industrial Area, Patras
+    details: |
+      Manage orders from suppliers, Check supplier prices and competition, Credit Check, Enter invoices, Operate Symbol Scanner, Document Filing, Warehouse Management, Reflexis ERP Program
+  - role: Sales Assistance
+    time: 2017 - 2018
+    company: Achaiko Entelvais, Patras
+    details: |
+      Customer service, Sales product, Orders
+  - role: Assistant Accountant
+    time: 2015
+    company: Andriopoulos Menios, Patras
+    details: |
+      Registration of documents, Submission of tax returns, Keeping second-class books (computerized & handwritten) using the Singular Account, VAT submission, External work (Tax office, Chamber, Banks etc.), Customer service
+  - role: Secretary
     time: 2012 - 2014
-    company: Amazon, London
+    company: Dimitrakopoulos Konstadinos, Patras
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Customer service, Organization of appointments
 
 certifications:
   title: Certifications
   list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+  - name: Certified Practitioner Internal Auditor (CPIA)
+    start: 2021
+    end: 
+    organization: The Association of Certified Public Accountants International (ACPAI)
+    credentialid: 
+    credentialurl: 
+    credentialname: 
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
+      
+  - name: ICT Intermediate C
+    start: 
     end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
+    organization: 
+    credentialid: 
+    credentialurl: 
+    credentialname: 
     details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+      
 
 projects:
   title: Projects
   intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  
 
 oss:
   title: OSS Contributions
   intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    
   contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  
 
 publications:
   title: Publications
   intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
+    
   papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
-
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+  
 
 recommendations:
   title: Recommendations
   list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
+  - person: Available on request
+    email: 
+    phone: 
+    role: 
     recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+      
 
 skills:
   title: Skills &amp; Proficiency
 
   toolset:
-  - name: Python & Django
-    level: 98%
+  - name: Communication fluency
+    level: 
 
-  - name: Javascript & jQuery
-    level: 98%
+  - name: Organizational skills
+    level: 
 
-  - name: Angular
-    level: 98%
+  - name: Team spirit
+    level: 
 
-  - name: HTML5 & CSS
-    level: 95%
+  - name: SAP
+    level: 
 
-  - name: Ruby on Rails
-    level: 85%
+  - name: Singular Enterprise (SEN)
+    level: 
 
-  - name: Sketch & Photoshop
-    level: 60%
+  - name: Singular Account
+    level: 
+
+  - name: Reflexis ERP
+    level: 
+
+  - name: QuickBiz Entersoft
+    level: 
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
