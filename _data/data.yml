@@ -1,3 +1,4 @@
+```yaml
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
@@ -8,19 +9,19 @@ sidebar:
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
+  name: Ioanna Horanlli
+  tagline: Theatre Studies Graduate & Sales Professional
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
+  email: joanahoranlli@gmail.com
+  phone: (+30) 6995792855
+  timezone: Europe/Athens # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  citizenship: Greek
   website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
+  linkedin: 
+  xing: 
+  github: 
   telegram: # add your nickname without '@' sign
   gitlab:
   bitbucket:
@@ -37,250 +38,134 @@ sidebar:
   languages:
     title: Languages
     info:
-    - idiom: English
+    - idiom: Greek
       level: Native
 
-    - idiom: French
-      level: Professional
+    - idiom: Albanian
+      level: Proficient (C2)
 
-    - idiom: Spanish
-      level: Professional
+    - idiom: English
+      level: Independent (B2)
 
   interests:
     title: Interests
     info:
-    - item: Climbing
+    - item: Latin Dance (Salsa, Bachata, Rueda)
       link:
 
 
-    - item: Snowboarding
+    - item: Theatre
       link:
 
 
-    - item: Cooking
+    - item: Studying Theatre Books
+      link:
+
+
+    - item: Board Games
       link:
 
 
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Dynamic and customer-oriented professional with a background in theatre studies and hands-on experience in retail sales, beekeeping, perfume promotion, and building cleaning. Skilled in providing excellent customer service, managing inventory, and collaborating with teams to achieve sales goals. Passionate about creative performances and community initiatives, with fluency in Greek, Albanian, and English. Eager to leverage interpersonal skills and artistic perspective in dynamic environments.
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: Bachelor's in Theatre Studies
+    university: University of Patras
+    time: 2020 - 2024
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
+      Department of Theatre Studies, Patras, Greece.
+      Website: https://www.theaterst.upatras.gr/
+        - Focused on dramatic arts, performance, and cultural studies.
+        - Participated in theatrical productions and academic events.
+  - degree: Vocational Diploma in Aesthetic Art Assistant, Makeup and Nail Art
+    university: 1st EPAL Kastoria
+    time: 2018 - 2020
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Professional Lyceum, Kastoria, Greece.
+      Website: https://1epal-kastor.kas.sch.gr/
+        - Specialized training in aesthetics, makeup application, and nail techniques.
+        - Emphasized practical skills for creative and service-oriented professions.
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Sales Associate
+    time: Feb 2025 - Oct 2025
+    company: McDonald's, Patras, Greece
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      Provided exceptional customer service with politeness and prompt response to client needs, ensuring a pleasant shopping experience.
+        - Managed orders: Recorded, prepared, and processed in-store and phone orders.
+        - Promoted products: Presented and encouraged purchases of new items to boost sales.
+        - Organized displays and shelves: Arranged products to maintain an attractive and clean store image.
+        - Handled cashier duties: Processed transactions accurately, including cash counting and receipt issuance.
+        - Maintained hygiene and safety: Complied with food standards to ensure cleanliness.
+        - Monitored inventory: Checked and replenished stock daily, reporting needs for reorders.
+        - Collaborated with team: Worked with bakery staff to meet sales targets and ensure smooth operations.
+  - role: Bakery Sales Associate
+    time: Sep 2024 - Feb 2025
+    company: Achaiko Choriatiko, Patras, Greece
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+      Delivered top-tier customer service, addressing needs courteously for a positive experience.
+        - Handled orders: Logged, prepared, and fulfilled in-store and telephonic requests.
+        - Promoted products: Showcased new bakery items to drive sales.
+        - Maintained displays: Organized shelves and showcases for visual appeal and cleanliness.
+        - Managed transactions: Executed accurate payments via cash register.
+        - Ensured hygiene: Adhered to food safety protocols.
+        - Oversaw stock: Daily checks and restocking to guarantee availability.
+        - Team cooperation: Contributed to group efforts for operational success.
+  - role: Beekeeping Assistant
+    time: Mar 2023 - Present
+    company: Independent, Patras, Greece
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-
-certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+      Supported apiculture operations with hands-on care and maintenance.
+        - Hive inspections: Regular checks for health and productivity.
+        - Bee and hive management: Handled populations and structures effectively.
+        - Harvested products: Collected honey and related yields.
+        - Equipment maintenance: Upkept tools and materials.
+        - Bee health protection: Monitored and safeguarded colony well-being.
+        - Produced cosmetics: Created beauty products from bee-derived ingredients.
+  - role: Perfume Promoter
+    time: 2022 - 2023
+    company: IQ Perfumerie, Patras, Greece
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
+      Specialized in fragrance sales and customer guidance.
+        - Product presentation: Demonstrated scents, notes, and longevity to aid selections.
+        - Customer service: Answered queries and matched perfumes to personal styles.
+        - Sales promotion: Pushed deals, bundles, and upsells to increase revenue.
+        - Display organization: Kept shelves clean, organized, and inviting.
+        - Inventory control: Monitored stock levels for prompt fulfillment.
+        - Team collaboration: Partnered with sales staff for collective goals.
+  - role: Building Cleaner
+    time: 2018 - 2020
+    company: Apartment Tenants, Kastoria, Greece
     details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+      Maintained cleanliness in residential and common areas.
+        - Space cleaning and disinfection: Thoroughly sanitized offices, hallways, restrooms, and waiting areas per hygiene standards.
+        - Floor maintenance: Swept, mopped, and polished all surfaces.
+        - Supplies replenishment: Checked and refilled essentials like toilet paper and soaps.
+        - Glass and surface cleaning: Polished windows, mirrors, and fixtures.
+        - Reported issues: Notified supervisors of damages for timely repairs.
 
 projects:
   title: Projects
   intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    Creative performances and artistic contributions highlighting theatrical involvement.
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-  - title: DevStudio
+  - title: "Don't Look" Performance
     link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+    tagline: "Participation in a performance at the Third International Anthropology Conference, exploring anthropological themes through theatre."
 
-  - title: Tempo
+  - title: Anti-Femicide Performance
     link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    tagline: "Involvement in a dramatic event raising awareness against gender-based violence."
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
-
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
-
-skills:
-  title: Skills &amp; Proficiency
-
-  toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
-    level: 95%
-
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
-    level: 60%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+```
