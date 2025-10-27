@@ -131,6 +131,24 @@ career-profile:
 experiences:
   title: Experiences
   info:
+
+
+  - role: IT Helpdesk Analyst
+    time: July 2025 - Present
+    company: Everience Romania
+    details: |
+      Remote: Client - Arval BNP Paribas
+      - Offer first-line IT support through ServiceNow, ensuring all incidents and requests are handled within defined SLAs.  
+      - Offer direct support for Microsoft applications (Outlook, Teams, OneDrive, SharePoint, and the Office Suite).  
+      - Manage user accounts and access rights, including creating and maintaining distribution lists (DLs), shared mailboxes (SMBs), Secure File Sharing (SFS) accounts, and Active Directory memberships.  
+      - Handle account creations, permission modifications, and access requests in compliance with internal security policies.  
+      - Support internal and proprietary company applications, diagnosing and resolving user-level errors.  
+      - Perform file share and server management tasks such as restoring deleted files/folders, resolving access issues, and re-mapping shared network drives.  
+      - Troubleshoot connectivity issues involving VPN (Cisco AnyConnect), LAN, and remote desktop access.  
+      - Execute diagnostic commands via PowerShell and Command Prompt (e.g. `ipconfig`, `flushdns`, `release/renew`, `telnet`, etc.) to resolve system and network issues.  
+      - Collaborate with higher-tier teams for escalations, ensuring efficient issue resolution and minimal downtime.  
+      - Maintain accurate documentation of resolved cases and contribute to the internal knowledge base for recurring issues.
+
   - role: Technical Support Specialist
     time: July 2024 - Present
     company: StarTech Team
