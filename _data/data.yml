@@ -8,42 +8,42 @@ sidebar:
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: Ananta kr ghosh
+  tagline: Computer Teacher
+  avatar: crop.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  email: ghosh7anta@email.com
+  phone: 9007834825
+  timezone: Rajpur,Kolkata-149
   citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
+  website: 
+  linkedin: 
+  xing: 
+  github:
+  telegram:
   gitlab:
   bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  bluesky: 
+  twitter: 
+  stack-overflow: 
   codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  goodreads: 
+  mastodon: 
+  hackerrank: 
+  leetcode: 
+  pdf: 
 
   languages:
     title: Languages
     info:
     - idiom: English
-      level: Native
-
-    - idiom: French
       level: Professional
 
-    - idiom: Spanish
+    - idiom: Hindi
+      level: Professional
+
+    - idiom: Bengali
       level: Professional
 
   interests:
@@ -53,7 +53,7 @@ sidebar:
       link:
 
 
-    - item: Snowboarding
+    - item: Reading
       link:
 
 
@@ -64,18 +64,17 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+   Dedicated Computer Teacher offering 3+ years of experience successfully teaching various 
+   computer science subjects in both CBSE and ICSE affiliated schools. Adept at curriculum design, 
+   practical lab sessions, and integrating technology 
+   to enhance classroom instruction. Seeking to leverage proven instructional techniques 
+   and curricular expertise to contribute to a progressive school environment.
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: B.Tech in Computer Science & Engineering
+    university: West Bengal University of Technology
+    time: 2012 - 20116
     details: |
       Describe your study here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -84,9 +83,9 @@ education:
       pretium quis, sem.
         - Bullet point
         - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
+  - degree: class 12 
+    university: CENTRAL BOARD OF SECONDARY EDUCATION
+    time: 2011 - 2012
     details: |
       Describe your study here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -99,33 +98,33 @@ education:
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Computer Teacher 
+    time: 2014 - Present
+    school: Future Campus School,Sonarpur
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
+      Specialized competence in teaching core programming languages for CBSE, 
+      including Python (for CS/IP) and SQL (for IP/CS), 
+      alongside foundational concepts in Data Structures and Networking.
+      Skilled in utilizing modern educational technology and virtual labs to 
+      provide hands-on practical experience for all subject codes, ensuring conceptual clarity.
+      Proven ability to integrate digital literacy, cyber safety, and emerging technologies 
+      as mandated by the CBSE framework into daily lessons.
         - Bullet point
         - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+  - role: Computer Teacher
+    time: 2020 - 2023
+    School: Welkin National School
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
+      Proven mastery in teaching Java programming (Object-Oriented Programming principles, BlueJ environment) 
+      required for the ICSE/ISC Computer Science curriculum.
+      Expert at integrating fundamental IT Application skills 
+      (including MS Word, MS Excel, and MS PowerPoint) into the curriculum, 
+      ensuring students achieve the practical, application-based proficiency emphasized by the ICSE council.
+      Skilled in developing students' computational thinking through Java problem-solving 
+      while concurrently ensuring strong digital literacy across essential office productivity tools
         - Bullet point
         - Bullet point
-  - role: UI Developer
+/*  - role: UI Developer
     time: 2012 - 2014
     company: Amazon, London
     details: |
@@ -135,50 +134,37 @@ experiences:
       nascetur ridiculus mus. Donec quam felis, ultricies nec,
       pellentesque eu, pretium quis, sem.
         - Bullet point
-        - Bullet point
+        - Bullet point*/
 
 certifications:
   title: Certifications
   list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+  - name: ASP.net
+    start: 2015
+    end: 2015
+    organization: educentre
+    credentialid: 
+    credentialurl: 
+    credentialname: 
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
+    E-Commerce Inventory Management System	[ASP.NET Core MVC, C#, SQL Server, EF Core]
+    Developed a full-stack, secure web application to automate inventory tracking and reporting.	
+    Backend: Built on ASP.NET Core MVC using C#; utilized Entity Framework Core for efficient data access and management with SQL Server.	
+    Functionality: Designed and implemented user authentication and Role-Based Access Control (RBAC) using ASP.NET Identity.	
+    Database: Created a normalized database schema and wrote complex SQL queries and stored procedures for real-time reporting.	
+    Result: Improved inventory accuracy and reduced manual error rates by 20%, demonstrating proficiency in the complete ASP.NET development lifecycle.
+  - name: Robotics
+    start: 2014
     end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
+    organization: 
+    credentialid: 
+    credentialurl: 
+    credentialname: 
     details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
+      "Designed and built an autonomous line-following robot using an Arduino Uno and IR sensors. 
+      I programmed the control logic in C++ to process sensor data and manage a dual-motor
+      drive system via an L298N motor driver. The robot successfully navigated complex, winding tracks without deviation."
+/*projects:
   title: Projects
   intro: >
     You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
@@ -258,7 +244,7 @@ recommendations:
     recommendation: |
       I would like to work with Alan Doe again!
 
-      He is a great employee!
+      He is a great employee!*/
 
 skills:
   title: Skills &amp; Proficiency
@@ -267,17 +253,14 @@ skills:
   - name: Python & Django
     level: 98%
 
-  - name: Javascript & jQuery
+  - name: Java
     level: 98%
 
-  - name: Angular
+  - name: PHP
     level: 98%
 
   - name: HTML5 & CSS
     level: 95%
-
-  - name: Ruby on Rails
-    level: 85%
 
   - name: Sketch & Photoshop
     level: 60%
