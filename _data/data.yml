@@ -11,27 +11,32 @@ sidebar:
 
   # Profile information
   name: Anton Smirnov
-  tagline: Automation Engineer
+  tagline: Software Engineer
   avatar: avatar.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: antony.s.smirnov@gmail.com
-  website: https://test-engineer.tech/
   linkedin: https://www.linkedin.com/in/vaskocuturilo
   github: https://github.com/vaskocuturilo
 
   languages:
+    - idiom: English
+      level: Upper-Intermediate
+
+    - idiom: German
+      level: Pre-Intermediate
+
+   - idiom: Polish
+      level: Pre-Intermediate
+   
     - idiom: Russian
       level: Native
-
-    - idiom: English
-      level: Intermediate
-
+      
   interests:
     - item: Publications
       link: https://leanpub.com/
 
-    - item: Testing / Programming
+    - item: Programming
       link: https://github.com/vaskocuturilo/
 
     - item: Articles
