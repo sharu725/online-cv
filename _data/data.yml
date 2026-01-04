@@ -4,28 +4,34 @@
 
 sidebar:
   # Site Settings
-  title: Anton Smirnov CV
+  title: Anton Smirnov
   url: 'https://github.com/vaskocuturilo/online-cv'
   about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
   name: Anton Smirnov
-  tagline: Automation Engineer
+  tagline: Softawre Engineer
   avatar: avatar.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: antony.s.smirnov@gmail.com
-  website: https://test-engineer.tech/
   Linkedin: https://www.linkedin.com/in/vaskocuturilo
   Github: https://github.com/vaskocuturilo
 
   languages:
+    - idiom: English
+      level: Upper-Intermediate
+    
+    - idiom: German
+      level: Pre-Intermediate
+
+    - idiom: Polish
+      level: Pre-Intermediate
+    
     - idiom: Russian
       level: Native
 
-    - idiom: English
-      level: Intermediate
 
   interests:
     - item: Publications
@@ -34,30 +40,12 @@ sidebar:
     - item: Testing / Programming
       link: https://github.com/vaskocuturilo/
 
-    - item: Travelling
-      link: https://www.instagram.com/testengineerinfo/
-
-
 career-profile:
   title: Career Profile
   summary: '<div><ul>
-            <li>10+ years overall experience in IT field.</li>
-            <li>8+ years experience in Software Testing.</li>
-            <li>5+ years experience in Test Automation.</li>
-            <li>Strong knowledge: Java 8/11/17/21, JavaScript/TypeScript, Cypress/Playwright, Selenium/Selenide, Maven/Gradle, TestNG/JUnit, Jest/Vitest, Gitlab/Github/Jenkins, Allure, Git, Docker, REST, SQL.</li>
-            <li>Experience in creating test automation frameworks / raising up automation infrastructure from scratch.</li>
-            <li><a href="https://github.com/vaskocuturilo">GitHub</a> profile</li>
-            <li>IT <a href="https://test-engineer.tech/">blogger</a></li>
-            </ul></div>
-            <div>I began my journey in the software industry as a manual tester, gradually progressing from a junior role to that of a Senior QA automation engineer. 
-            Since 2016, I have dedicated myself entirely to the realm of software test automation, encompassing web, mobile, and API testing. 
-            Over the years, I have honed my skills, developing several frameworks that have proven successful on large-scale projects</div>
-            <br>In addition to my technical contributions, I have also taken on a mentoring role, providing guidance and coaching to fellow automation engineers within local teams. 
-            I actively participate in code review processes, striving to uphold high standards of quality and efficiency.I am committed to staying abreast of the latest advancements in automation technology, continually enhancing my proficiency in Java, JavaScript, and TypeScript, and emerging web automation trends. 
-            With a robust understanding of software testing fundamentals, including testing throughout the software life cycle and various test design techniques, I am well-equipped to navigate complex testing challenges. 
-            Furthermore, I possess comprehensive knowledge of tool support for testing, ensuring effective and streamlined testing processes.'
-
-
+            <li>Experienced Software Developer with over 3 years of expertise in software development. 
+            Proficient in Java, Go, PostgreSQL, Kubernetes, and cloud platforms, specializing in microservices development, focusing on creating scalable, efficient, and user-centric solutions.</li>
+                      
 education:
   - degree: Master’s degree in software engineering for computers and computer-based systems.
     university: Saint Petersburg State University
@@ -74,12 +62,6 @@ experiences:
       link: "https://borzodelivery.com/"
       tagline: "Fast and flexible intra-city delivery for businesses and individuals. Place an order in seconds, and your customers will receive their items the same day: in 60 minutes or at a specified time."
 
-  - role: QA Automation Engineer
-    time: 2019 - 2020
-    company: Sportamix, Los Angeles
-    details:
-
-
 projects:
   title: Projects
   intro: "Here you can find a list of commercial projects I've been working on for the past 5 years.
@@ -94,35 +76,6 @@ projects:
     - title: Sportamix
       link: "https://sportamix.com/"
       tagline: "Sportamix has revolutionized networking in the sports industry by offering direct communication between athletes, coaches, recruiters, and fans around the world."
-
-    - title: Gosuslugi
-      link: "https://www.gosuslugi.ru/"
-      tagline: "Portal of public services of the Russian Federation"
-
-    - title: Farecompare
-      link: "https://www.farecompare.com/"
-      tagline: "Flight Comparison, Compare Flight Prices & Airline Tickets - FareCompare"
-
-    - title: Smava Ihr Kredit ist da
-      link: "https://www.smava.de/"
-      tagline: "SMAVA Online-Kreditvergleich | unabhängig und kundenorientiert"
-
-    - title: Uniland
-      link: "https://www.uniland.ru/"
-      tagline: "Uniland online store"
-
-    - title: Your Md
-      link: "http://yourmd.ru/"
-      tagline: "Medical center"
-
-    - title: Uralsib
-      link: "http://www.uralsib.ru/"
-      tagline: "URALSIB Bank is one of the largest universal banks of the Federal level"
-
-    - title: Ministry of Energy
-      link: "https://minenergo.gov.ru/"
-      tagline: "Ministry of energy"
-
 
 publications:
   title: Publications
