@@ -9,14 +9,14 @@ sidebar:
 
     # Profile information
     name: Cheney Wang
-    tagline: Senior Software Developer
+    tagline: Staff Software Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: i@cheney.wang
     timezone: Eastern Time, Ottawa, Canada
     citizenship:
-    website: https://www.itmanbu.com
+    website: https://cheney.wang
     linkedin: cheneywang
     xing: 
     github: cheneyveron
@@ -52,13 +52,13 @@ skills:
 
     toolset:
       - name: Java & Spring
-        level: 98%
+        level: 100%
 
       - name: Node.js & Nest.js
-        level: 98%
+        level: 100%
 
       - name: Golang & Gin
-        level: 80%
+        level: 90%
 
       - name: Python 
         level: 90%
@@ -66,10 +66,7 @@ skills:
       - name: Javascript & Vue.js & React.js
         level: 85%
 
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: MySQL & SQL Server & Oracle & Redis
+      - name: MySQL & SQL Server & Oracle & Redis & ElasticSearch
         level: 95%
 
 career-profile:
@@ -82,9 +79,9 @@ career-profile:
 experiences:
     title: Experiences
     info:
-      - role: Senior Engineer
+      - role: Staff Engineer
         time: 2020 - Present
-        company: Trend Micro. Shenzhen, China & Ottawa, Canada
+        company: Trend Micro. Nanjing, China & Ottawa, Canada
         details: |
           Achievements:
             - Take part in Sprints’ feature design, implementation, testing, code review, and RCA monthly.
@@ -93,13 +90,15 @@ experiences:
             - Solved several performance issues. Reduced DB DTU from over 70% to under 10%.
             - Prevented out-of-memory and critical data loss in policy-match. Some caches acting as DB had used up to 95% by the time monitor was added.
             - Recruited talents and helped train interns for the team.
+            - Transferred to on-premise Service Gateway team from 2022 July to 2023 April. During which replaced MicroK8S with K3S for better performance and stability.
             
           Highlighted Features:
+            - Agentic AI: Use Agentic AI for Phishing Email detection.
             - Multiple organization: One CAS account can provision multiple Office 365 services.
             - Outbound and Inline Mail Protection: Gateway solution to protect Exchange customers.
             - Migrate SharePoint and OneDrive from Service Account to Graph Token.
             - Refactor old Angular.js-based frontend to React.js and Tonic-based.
-            - Vision One Email Account Inventory development and integration with CAS.
+            - Vision One Email Account Inventory development and integration from scratch.
 
       - role: Java Developer
         time: 2018 - 2020
@@ -150,71 +149,71 @@ experiences:
             - Constructed frontend interface using Vue.js
             - Developed Paper submission and review functions.
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+# certifications:
+#       title: Certifications
+#       list:
+#         - name: CV Builder
+#           start: 2020
+#           end: 2021
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.google.com
+#           credentialname: Google
+#           details: |
+#             Details about cert. Lorem ipsum dolor sit amet, consectetur
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh.
+#             Aenean fermentum, felis vulputate suscipit accumsan,
+#             sem enim bibendum augue, sed convallis arcu lacus at dui.
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#             Praesent venenatis erat non augue suscipit consectetur.
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+#             Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+#             fringilla vel. Ut euismod, sem sed vulputate venenatis,
+#             justo diam viverra velit, sed rhoncus leo leo eu justo.
+#             Suspendisse placerat risus ante, sed porta nisi blandit at.
+#         - name: Git learning
+#           start: 2019
+#           end:
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.github.com
+#           credentialname: Github
+#           details: |
+#             Older certification. Lorem ipsum dolor sit amet, consectetur
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh.
+#             Aenean fermentum, felis vulputate suscipit accumsan,
+#             sem enim bibendum augue, sed convallis arcu lacus at dui.
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#             Praesent venenatis erat non augue suscipit consectetur.
 
-projects:
-    title: Projects
-    intro: >
-      These are my hobby 
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+# projects:
+#     title: Projects
+#     intro: >
+#       These are my hobby 
+#     assignments:
+#       - title: PH8.tech
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 oss:
     title: OSS Contributions
