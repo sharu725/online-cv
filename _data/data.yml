@@ -80,25 +80,39 @@ experiences:
     title: Experiences
     info:
       - role: Staff Engineer
-        time: 2020 - Present
-        company: Trend Micro. Nanjing, China & Ottawa, Canada
+        time: 2023 - Present
+        company: Trend Micro. Ottawa, Canada
         details: |
-          Achievements:
+          Achievements in Cloud Email and Collaboration Security Team:
+            - Infra upgrade: Helped our team transform from VM to Kubernetes. Reduced build time from 20mins to 2mins.
+            - Agentic AI: Use Agentic AI for Phishing Email detection.
+            - Migrate SharePoint and OneDrive from Service Account to Graph Token.
+            - Vision One Email Asset Inventory development and integration from scratch.
+
+      - role: Senior Engineer
+        time: 2022 - 2023
+        company: Trend Micro. Ottawa, Canada
+        details: |
+          Achievements in Service Gateway Team:
+            - Replaced MicroK8S with K3S for better performance and stability.
+            - Solved over 600 customer's problems in a year. Meeting with customers helped a lot with my English oral skill.
+            - Gained knowledge on virtualization, including ESXi, Hypver-V and KVM. 
+            
+      - role: Senior Engineer
+        time: 2020 - 2022
+        company: Trend Micro. Ottawa, China
+        details: |
+          Achievements in Cloud Email and Collaboration Security Team:
             - Take part in Sprints’ feature design, implementation, testing, code review, and RCA monthly.
             - Responsible services: policy (Spring.java, owner), policy-match (Spring.java, owner), controller (Spring.java, owner), frontend (React.js, backup), BFF (Nest.js, backup).
-            - Helped our team transform from VM to Kubernetes. Reduced build time from 20mins to 2mins.
             - Solved several performance issues. Reduced DB DTU from over 70% to under 10%.
             - Prevented out-of-memory and critical data loss in policy-match. Some caches acting as DB had used up to 95% by the time monitor was added.
             - Recruited talents and helped train interns for the team.
-            - Transferred to on-premise Service Gateway team from 2022 July to 2023 April. During which replaced MicroK8S with K3S for better performance and stability.
             
           Highlighted Features:
-            - Agentic AI: Use Agentic AI for Phishing Email detection.
             - Multiple organization: One CAS account can provision multiple Office 365 services.
             - Outbound and Inline Mail Protection: Gateway solution to protect Exchange customers.
-            - Migrate SharePoint and OneDrive from Service Account to Graph Token.
-            - Refactor old Angular.js-based frontend to React.js and Tonic-based.
-            - Vision One Email Account Inventory development and integration from scratch.
+            - Refactor old Angular.js-based frontend with React.js and Tonic-based one.
 
       - role: Java Developer
         time: 2018 - 2020
