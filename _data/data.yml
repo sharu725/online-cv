@@ -337,9 +337,11 @@ publications:
     link: "https://pubmed.ncbi.nlm.nih.gov/20937596"
     authors: "Andreas Prlic, **Spencer Bliven**, Peter W Rose, Wolfgang F. Bluhm, Chris Bizon, Adam Godzik, Philip E. Bourne"
     conference: "Bioinformatics. (2010) 26(23):2983-2985. PMID: 20937596"
+    extraclasses: break-after pb-12
 
+# Don't include on website
 # recommendations:
-#   title: Recommendations
+#   title: References
 #   list:
 #   - person: Yareli Perez
 #     email: perezyareli@example.com
