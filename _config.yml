@@ -1,9 +1,9 @@
 # Site Settings
 title: AJ Book
 url: 'https://secondbook5.github.io/'
-description: Computational biologist working across systems immunology, multimodal biology, spatial omics, computational oncology, computational pathology, and translational biomarker discovery.
+description: Computational biologist working across systems immunology, multimodal biology, spatial omics, proteomics, genomics, epigenomics, computational pathology, and translational biomarker discovery.
 
-theme_skin: ceramic
+theme_skin: olive
 chrome_mobile_color:
 
 # Tracker
