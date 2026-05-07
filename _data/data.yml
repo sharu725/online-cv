@@ -40,6 +40,8 @@ sidebar:
     info:
     - idiom: English
       level: Native
+    - idiom: Hebrew
+      level: Conversational
 
   interests:
     title: Research interests
@@ -52,7 +54,7 @@ sidebar:
       link:
     - item: Computational pathology
       link:
-    - item: Multimodal representation learning
+    - item: Proteomics-informed multimodal biology
       link:
     - item: Translational biomarker discovery
       link:
@@ -60,28 +62,28 @@ sidebar:
 career-profile:
   title: Bio
   summary: |
-    I'm a computational biologist interested in systems immunology and multimodal models of tissue state. My work uses genomics, epigenomics, spatial transcriptomics, spatial proteomics, computational pathology, medical imaging, and clinical outcomes to study how cellular systems organize, transition, and fail across disease contexts.
+    I'm a computational biologist interested in systems immunology and multimodal models of tissue state. My work uses genomics, epigenomics, spatial transcriptomics, proteomics, computational pathology, medical imaging, and clinical outcomes to study how cellular systems organize, transition, and fail across disease contexts.
 
     I am an M.S. candidate in Bioinformatics at Johns Hopkins University and a Graduate Research Assistant in the Advanced Computing and Oncology Laboratory at Memorial Sloan Kettering Cancer Center. My current thesis project, [StageBridge](https://github.com/SecondBook5/StageBridge), models cell-state transitions from cross-sectional single-cell and spatial data using receiver-centered niche encoding, optimal transport, and conditional flow matching.
 
-    Cancer is my main current application area, but not my only scientific identity. The broader problem that motivates me is how to build interpretable computational systems that connect molecular regulation, tissue architecture, immune context, and phenotype across modalities. I am especially drawn to methods that bridge systems biology, spatial biology, and machine learning while remaining biologically testable.
+    Cancer is my main current application area, but not my only scientific identity. The broader problem that motivates me is how to build interpretable computational systems that connect molecular regulation, protein-state information, tissue architecture, immune context, and phenotype across modalities. I am especially drawn to methods that bridge systems biology, spatial biology, proteomics, and machine learning while remaining biologically testable.
 
 current-focus:
-  title: What I'm thinking about
+  title: Current focus
   items:
-  - title: Systems immunology across tissue contexts
-    description: I am interested in how immune systems organize across space, time, and perturbation, including how inflammatory, stromal, epithelial, and myeloid programs reshape local tissue behavior.
-  - title: Spatial omics and computational pathology
-    description: I want to connect spatial transcriptomics, spatial proteomics, histology, imaging, and molecular data so tissue structure can be studied as a coordinated biological system rather than as separate assays.
-  - title: Cell-state transitions and disease progression
-    description: I am drawn to methods that infer how cell states move between biological regimes, especially when longitudinal data are limited and spatial context may make cross-sectional data more informative.
-  - title: Interpretable multimodal modeling
-    description: My goal is not just to build high-performing models, but to build models that generate biologically testable hypotheses about regulation, communication, immune remodeling, and phenotype.
+  - title: StageBridge and spatial transition modeling
+    description: My thesis work focuses on receiver-centered niche encoding for cell-state transitions from cross-sectional single-cell and spatial data, using lung adenocarcinoma progression as the first application.
+  - title: Spatial deconvolution and atlas sensitivity
+    description: I am working on benchmarking how deconvolution tools and reference atlases change spatial biology conclusions, especially in tumor and epithelial tissue contexts where downstream interpretation can depend heavily on the reference.
+  - title: Multimodal immune-state analysis
+    description: In my MSK work, I analyze combinations of imaging, clinical outcomes, sequencing, cytokines, flow cytometry, MDSC measurements, and immune validation data to connect tissue state with treatment response and toxicity.
+  - title: Proteomics as a bridge between RNA state and function
+    description: I am building more proteomics fluency into my work, especially spatial proteomics and mass-spectrometry-informed validation, because RNA-derived state models ultimately need protein-level interpretation and functional grounding.
 
 projects:
-  title: Current projects
+  title: Selected projects
   intro: >
-    Current work focuses on systems immunology, spatial biology, multimodal data integration, and interpretable models of cell-state transition and tissue organization.
+    Selected current and recent work across spatial systems biology, multimodal data integration, and interpretable computational modeling.
   assignments:
   - title: StageBridge
     link: "https://github.com/SecondBook5/StageBridge"
@@ -114,7 +116,7 @@ education:
 
       Master's thesis: StageBridge: Receiver-Centered Niche Encoding for Cell-State Transitions from Cross-Sectional Single-Cell and Spatial Data.
 
-      Advisors: Tafadzwa L. Chaunzwa, MD, Memorial Sloan Kettering Cancer Center; Christopher Bradburne, PhD, Johns Hopkins University / Applied Physics Laboratory.
+      Advisor: Christopher Bradburne, PhD, Department of Genetic Medicine, Johns Hopkins University School of Medicine / Johns Hopkins Applied Physics Laboratory.
 
       Selected coursework: Advanced Genomics; Gene Expression Analysis; Systems Biology; Deep Learning Using Transformers; Epigenetics; Cellular Signal Transduction.
 
@@ -218,17 +220,23 @@ recommendations:
 skills:
   title: Technical skills
   toolset:
-  - name: Python, R, Bash, SQL, Git, Linux, Docker, Conda/Mamba, Snakemake, HPC/SLURM, PostgreSQL, MongoDB
+  - name: Programming and infrastructure
     level: 95%
-  - name: bulk RNA-seq, single-cell/snRNA-seq, spatial transcriptomics, spatial proteomics, ATAC-seq/scATAC-seq, ChIP-seq, WES, low-pass WGS, TCR-seq, ctDNA
+  - name: Single-cell and spatial omics
     level: 90%
-  - name: cytokine profiling, flow cytometry, MDSC analysis, immune-state interpretation, inflammatory signaling, cross-assay immune biomarker integration
+  - name: Genomics and epigenomics
     level: 85%
-  - name: cell-state annotation, atlas mapping, spatial deconvolution, cell-cell communication, pathway analysis, biomarker discovery, survival analysis
-    level: 90%
-  - name: mathematical modeling, statistical learning, probabilistic modeling, optimal transport, conditional flow matching, uncertainty estimation, calibration
+  - name: Immune profiling and biomarker integration
     level: 85%
-  - name: representation learning, multiple-instance learning, transformers, CNNs, computational pathology, medical image segmentation, radiomics
+  - name: Proteomics and spatial proteomics interpretation
+    level: 70%
+  - name: Statistical modeling and survival analysis
+    level: 85%
+  - name: Optimal transport and transition modeling
+    level: 85%
+  - name: Deep learning and representation learning
+    level: 80%
+  - name: Computational pathology and medical imaging
     level: 80%
 
 footer: >
