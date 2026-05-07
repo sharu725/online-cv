@@ -1,0 +1,25 @@
+{% assign current_focus = site.data.data.current-focus %}
+{% if current_focus %}
+<section class="section current-focus-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-compass fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ current_focus.title }}
+  </h2>
+
+  {% for item in current_focus.items %}
+    <div class="item">
+      <div class="upper-row">
+        <h3 class="job-title">{{ item.title }}</h3>
+      </div>
+      <div class="details">
+        <p>{{ item.description }}</p>
+      </div>
+    </div>
+  {% endfor %}
+
+</section>
+{% endif %}
