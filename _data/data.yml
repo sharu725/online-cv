@@ -1,5 +1,5 @@
 #
-# Abraham J. Book - research profile
+# AJ Book - research profile
 #
 
 sidebar:
@@ -8,9 +8,9 @@ sidebar:
   education: False
 
   # Profile information
-  name: Abraham J. Book
-  tagline: Computational Biologist | M.S. Candidate in Bioinformatics
-  avatar:
+  name: AJ Book
+  tagline: Systems immunology · spatial omics · multimodal biology
+  avatar: https://avatars.githubusercontent.com/u/42758438?v=4
 
   # Sidebar links
   email:
@@ -19,6 +19,7 @@ sidebar:
   citizenship:
   website: https://secondbook5.github.io/
   linkedin: aj-abraham-book
+  orcid: 0009-0004-7058-7510
   xing:
   github: SecondBook5
   telegram:
@@ -43,48 +44,52 @@ sidebar:
   interests:
     title: Research interests
     info:
-    - item: Cancer systems biology
+    - item: Systems immunology
       link:
-    - item: Spatial and single-cell analysis
+    - item: Spatial transcriptomics and spatial proteomics
       link:
-    - item: Tumor-host interactions
+    - item: Single-cell genomics and epigenomics
       link:
-    - item: Cell-state transitions
+    - item: Computational pathology
       link:
-    - item: Immune remodeling
+    - item: Multimodal representation learning
       link:
-    - item: Multimodal biomarker discovery
+    - item: Translational biomarker discovery
       link:
 
 career-profile:
   title: Bio
   summary: |
-    I'm a computational biologist developing multimodal methods for cancer systems biology, spatial and single-cell analysis, immune profiling, and translational biomarker discovery. My research focuses on tumor-host interactions, cell-state transitions, immune remodeling, and the integration of genomics, spatial transcriptomics, imaging, and clinical outcomes.
+    I'm a computational biologist interested in systems immunology and multimodal models of tissue state. My work uses genomics, epigenomics, spatial transcriptomics, spatial proteomics, computational pathology, medical imaging, and clinical outcomes to study how cellular systems organize, transition, and fail across disease contexts.
 
-    I am an M.S. candidate in Bioinformatics at Johns Hopkins University and a Graduate Research Assistant in the Advanced Computing and Oncology Laboratory at Memorial Sloan Kettering Cancer Center. My thesis work, StageBridge, develops receiver-centered niche encoding for modeling cell-state transitions from cross-sectional single-cell and spatial data.
+    I am an M.S. candidate in Bioinformatics at Johns Hopkins University and a Graduate Research Assistant in the Advanced Computing and Oncology Laboratory at Memorial Sloan Kettering Cancer Center. My current thesis project, [StageBridge](https://github.com/SecondBook5/StageBridge), models cell-state transitions from cross-sectional single-cell and spatial data using receiver-centered niche encoding, optimal transport, and conditional flow matching.
 
-    The through-line in my work is using computational models to connect molecular state, tissue architecture, immune context, and clinically meaningful phenotypes. I am especially interested in methods that make tumor ecosystems interpretable rather than treating epithelial, stromal, immune, genomic, imaging, and clinical data as disconnected layers.
+    Cancer is my main current application area, but not my only scientific identity. The broader problem that motivates me is how to build interpretable computational systems that connect molecular regulation, tissue architecture, immune context, and phenotype across modalities. I am especially drawn to methods that bridge systems biology, spatial biology, and machine learning while remaining biologically testable.
 
 projects:
   title: What I'm working on
   intro: >
-    Current work centers on spatial systems biology, tumor-immune niche modeling, multimodal translational oncology, and interpretable machine-learning methods for cancer progression and treatment response.
+    Current work focuses on systems immunology, spatial biology, multimodal data integration, and interpretable models of cell-state transition and tissue organization.
   assignments:
   - title: StageBridge
     link: "https://github.com/SecondBook5/StageBridge"
-    tagline: "Receiver-centered niche encoding for cell-state transitions from cross-sectional single-cell and spatial data. StageBridge integrates spatial transcriptomics, single-nucleus RNA-seq, whole-exome sequencing, and dual-reference atlas context to connect epithelial transition dynamics with local immune, stromal, pathway, and genomic programs."
+    tagline: "Receiver-centered niche encoding for cell-state transitions from cross-sectional single-cell and spatial data. StageBridge integrates spatial transcriptomics, single-nucleus RNA-seq, whole-exome sequencing, and dual-reference atlas context to connect epithelial transition dynamics with local immune, stromal, pathway, genomic, and tissue-neighborhood programs."
 
-  - title: Tumor-host immune remodeling from imaging and molecular data
+  - title: Spatial deconvolution and atlas-sensitivity benchmarking
     link: "#"
-    tagline: "Multimodal analysis frameworks integrating thoracic CT, radiation dose, clinical outcomes, targeted sequencing, circulating tumor DNA, RNA-seq, flow cytometry, cytokine profiling, myeloid-derived suppressor cell measurements, and immune validation assays."
+    tagline: "Benchmarking how deconvolution method choice and reference atlas choice change downstream biological conclusions in spatial transcriptomics, with emphasis on tissue-level interpretation rather than accuracy metrics alone."
 
-  - title: Spatial and single-cell tumor ecosystem analysis
+  - title: Multimodal systems immunology workflows
     link: "#"
-    tagline: "Workflows for atlas mapping, spatial deconvolution, cell-state annotation, cell-cell communication, and interpretation of inflammatory, stromal, epithelial, and immune programs across tumor microenvironments."
+    tagline: "Integrating immune profiling, cytokines, flow cytometry, myeloid-derived suppressor cell measurements, targeted sequencing, circulating tumor DNA, RNA-seq, medical imaging, and clinical outcomes to study immune remodeling and treatment-associated phenotypes."
 
-  - title: Translational biomarker discovery
+  - title: Spatial omics and computational pathology
     link: "#"
-    tagline: "Reproducible computational pipelines, publication-grade figures, statistical analyses, and manuscript-ready results for oncology studies linking molecular state, immune context, tissue composition, and clinical outcome."
+    tagline: "Developing analysis workflows for spatial transcriptomics, spatial proteomics, cell-state annotation, cell-cell communication, tissue architecture, and pathology-informed molecular interpretation."
+
+  - title: Computational tissue-state modeling
+    link: "#"
+    tagline: "Building probabilistic and machine-learning approaches for tissue composition, transition inference, uncertainty estimation, calibration, and interpretable biomarker discovery across imaging and molecular data."
 
 education:
   title: Education
@@ -110,18 +115,18 @@ education:
       Honors thesis: Investigating the Role of MMP14, B7-H3, PTK7, and LRRC15 in Head and Neck Cancers: Implications for Antibody-Drug Conjugates.
 
 experiences:
-  title: Research experience
+  title: Experience
   info:
   - role: Graduate Research Assistant
     time: 2025 - present
     company: Advanced Computing and Oncology Lab, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center
     details: |
-      Lead conceptual development and computational strategy for translational oncology studies of tumor-host interaction, immune remodeling, thymic composition, treatment toxicity, and lung cancer outcomes.
+      Lead conceptual development and computational strategy for translational studies of tumor-host interaction, immune remodeling, thymic composition, treatment toxicity, and lung cancer outcomes.
 
       - Develop multimodal analysis frameworks integrating thoracic CT, radiation dose, clinical outcomes, targeted sequencing, circulating tumor DNA, RNA-seq, flow cytometry, cytokine profiling, and immune validation assays.
       - Build spatial and single-cell workflows for atlas mapping, spatial deconvolution, cell-state annotation, cell-cell communication, and interpretation of inflammatory, stromal, epithelial, and immune programs.
-      - Contribute to cross-group collaborations in computational oncology and translational immunology, including single-cell RNA-seq analysis of secondary lymphedema.
-      - Generate publication-grade figures, statistical analyses, reproducible workflows, abstracts, and manuscript-ready results; contribute as co-first author and primary quantitative analyst on translational oncology studies.
+      - Contribute to cross-group collaborations in computational oncology, systems immunology, and translational biology, including single-cell RNA-seq analysis of secondary lymphedema.
+      - Generate publication-grade figures, statistical analyses, reproducible workflows, abstracts, and manuscript-ready results; contribute as co-first author and primary quantitative analyst on translational studies.
 
   - role: Medical / Laboratory Assistant
     time: 2023 - 2024
@@ -203,7 +208,7 @@ skills:
   toolset:
   - name: Python, R, Bash, SQL, Git, Linux, Docker, Conda/Mamba, Snakemake, HPC/SLURM, PostgreSQL, MongoDB
     level: 95%
-  - name: bulk RNA-seq, single-cell/snRNA-seq, spatial transcriptomics, ATAC-seq/scATAC-seq, ChIP-seq, WES, low-pass WGS, TCR-seq, ctDNA
+  - name: bulk RNA-seq, single-cell/snRNA-seq, spatial transcriptomics, spatial proteomics, ATAC-seq/scATAC-seq, ChIP-seq, WES, low-pass WGS, TCR-seq, ctDNA
     level: 90%
   - name: cytokine profiling, flow cytometry, MDSC analysis, immune-state interpretation, inflammatory signaling, cross-assay immune biomarker integration
     level: 85%
@@ -211,7 +216,7 @@ skills:
     level: 90%
   - name: mathematical modeling, statistical learning, probabilistic modeling, optimal transport, conditional flow matching, uncertainty estimation, calibration
     level: 85%
-  - name: representation learning, multiple-instance learning, transformers, CNNs, medical image segmentation, radiomics
+  - name: representation learning, multiple-instance learning, transformers, CNNs, computational pathology, medical image segmentation, radiomics
     level: 80%
 
 footer: >
