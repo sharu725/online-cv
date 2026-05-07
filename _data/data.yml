@@ -66,8 +66,20 @@ career-profile:
 
     Cancer is my main current application area, but not my only scientific identity. The broader problem that motivates me is how to build interpretable computational systems that connect molecular regulation, tissue architecture, immune context, and phenotype across modalities. I am especially drawn to methods that bridge systems biology, spatial biology, and machine learning while remaining biologically testable.
 
+current-focus:
+  title: What I'm thinking about
+  items:
+  - title: Systems immunology across tissue contexts
+    description: I am interested in how immune systems organize across space, time, and perturbation, including how inflammatory, stromal, epithelial, and myeloid programs reshape local tissue behavior.
+  - title: Spatial omics and computational pathology
+    description: I want to connect spatial transcriptomics, spatial proteomics, histology, imaging, and molecular data so tissue structure can be studied as a coordinated biological system rather than as separate assays.
+  - title: Cell-state transitions and disease progression
+    description: I am drawn to methods that infer how cell states move between biological regimes, especially when longitudinal data are limited and spatial context may make cross-sectional data more informative.
+  - title: Interpretable multimodal modeling
+    description: My goal is not just to build high-performing models, but to build models that generate biologically testable hypotheses about regulation, communication, immune remodeling, and phenotype.
+
 projects:
-  title: What I'm working on
+  title: Current projects
   intro: >
     Current work focuses on systems immunology, spatial biology, multimodal data integration, and interpretable models of cell-state transition and tissue organization.
   assignments:
