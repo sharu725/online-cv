@@ -8,24 +8,24 @@ sidebar:
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: Pankaj Phalke
+  tagline: Senior QA Engineer
+  avatar: pankaj-profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
+  email: pankajphalke09@outlook.com
+  phone: +91 9096003165
+  timezone: Asia/Kolkata # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  citizenship: Indian
+  website: https://pankajphalke1409.github.io/online-resume/ # Include the full website URL, including "http://" or "https://".
+  linkedin: https://www.linkedin.com/in/pankaj-phalke-a343b5115
+  xing:
+  github: PankajPhalke1409
   telegram: # add your nickname without '@' sign
   gitlab:
   bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
+  bluesky:  # Specify your full Bluesky handle
+  twitter: 
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
@@ -38,13 +38,13 @@ sidebar:
     title: Languages
     info:
     - idiom: English
+      level: Professional
+
+    - idiom: Hindi
+      level: Professional
+
+    - idiom: Marathi
       level: Native
-
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
 
   interests:
     title: Interests
@@ -52,235 +52,224 @@ sidebar:
     - item: Climbing
       link:
 
-
-    - item: Snowboarding
+    - item: Cricket
       link:
-
 
     - item: Cooking
       link:
 
-
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Senior QA Engineer with 7.5+ years of experience in Manual and Automation Testing across Banking, Risk Analytics, ERP, and Enterprise applications. 
+    Strong expertise in Playwright with JavaScript for UI automation, framework development, regression testing, and cross-browser testing. 
+    Experienced in API Testing, SQL validation, CI/CD integration, Agile Scrum methodologies, and end-to-end software testing lifecycle. 
+    Skilled in identifying critical defects, improving software quality, and delivering stable production releases in fast-paced Agile environments. 
+    Proven ability to collaborate with cross-functional teams and deliver high-quality software solutions through strong analytical and problem-solving skills.
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: BE(IT)
+    university: Shivaji University, Kolhapur, Maharashtra
+    time: 2014
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Completed Bachelor of Engineering in Information Technology with strong fundamentals in software development, database management, and web technologies.
+      Gained practical exposure to software testing, application development, and system architecture during academic projects.
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Senior QA Engineer
+    time: Nov 2021 – Jul 2025
+    company: Tata Consultancy Services (TCS), Pune
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      Worked for Credit Suisse AG (UBS Group) on Banking and Risk Analytics applications.      
+        - Designed and executed manual and automated test cases for data-intensive applications.
+        - Automated 200+ regression scenarios using Playwright with JavaScript.
+        - Performed API testing using SoapUI/Postman and backend validation using SQL queries.
+        - Validated end-to-end data pipelines across upstream and downstream systems.
+        - Reduced regression testing effort by 40% through automation.
+        - Identified critical defects and improved release quality in Agile Scrum environment.
+        - Collaborated with developers, business analysts, and stakeholders during sprint cycles.
+  - role: Software Test & Support Engineer
+    time: Dec 2017 – Oct 2021
+    company: Redivivus Technologies Pvt. Ltd., Pune
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+      Worked on ERP, Pharma, Warehouse, HRMS, and Industrial Automation applications.
+        - Executed end-to-end STLC activities including Functional, Integration, and Regression testing.
+        - Performed database testing using SQL Server for data validation and integrity checks.
+        - Worked on industrial automation systems integrated with PLCs, printers, and cameras.
+        - Managed defect tracking using Jira and Bugzilla.
+        - Supported production deployments and client issue resolution activities.
+        - Improved defect leakage by 30% through effective testing strategies.
+  - role: Web Developer
+    time: Jun 2015 – Dec 2015
+    company: Supernova Systems, Satara
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      - Developed CMS-based web applications using HTML, CSS, Bootstrap, and MySQL.
+      - Worked on frontend UI development and database integration.
+      - Gained practical experience in web application architecture and development lifecycle.
 
 certifications:
   title: Certifications
   list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+    - name: Playwright Automation Testing
+      start: 2023
+      end: 2023
+      organization: Self Learning / Online Training
+      credentialid: Playwright-JS
 
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+    - name: Agile Scrum Fundamentals
+      start: 2022
+      end: 2022
+      organization: Internal Training / TCS
+      credentialid: Agile-Scrum
+
+    - name: API Testing with Postman & SoapUI
+      start: 2022
+      end: 2022
+      organization: Self Learning
+      credentialid: API-Testing
 
 projects:
   title: Projects
   intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    Below are some of the major projects delivered across Banking, Risk Analytics, ERP, Warehouse Management, and Industrial Automation domains using Manual Testing, Playwright Automation, API Testing, and SQL validation.
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  
+    - title: RDS (Risk Data Store)
+      link: "#"
+      tagline: "Banking and Risk Analytics application developed for Credit Suisse AG. Worked on manual testing, Playwright automation, API validation, SQL testing, and end-to-end risk data validation."
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+    - title: MYRIAD (Manage Your Risk Intelligently And Dynamically)
+      link: "#"
+      tagline: "Enterprise risk management platform used for processing Trade, Risk, and Surface data across downstream systems. Performed functional, integration, API, and database testing."
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - title: HRMS
+      link: "#"
+      tagline: "Web-based Human Resource Management System handling employee management, payroll, attendance, leave, recruitment, and performance tracking."
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    - title: rTracker
+      link: "#"
+      tagline: "Pharma Track & Trace system for supply chain tracking, government reporting, product verification, and data management for Alkem Laboratories."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - title: REOSYS - Total ERP
+      link: "#"
+      tagline: "Windows-based ERP application used for billing, inventory management, quotation handling, invoicing, stock management, and manufacturing workflows."
+
+    - title: wimaRts
+      link: "#"
+      tagline: "Warehouse Item Management and Real-Time Tracking System integrated with industrial cameras, PLCs, and printers for automation and vision inspection."
+
+    - title: iPRINT
+      link: "#"
+      tagline: "Industrial automation and vision inspection system used to automate production stages and generate real-time MIS reports using smart cameras and industrial devices."
 
 oss:
-  title: OSS Contributions
+  title: Professional Contributions
   intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    Experienced in contributing to enterprise-level Banking, Risk Analytics, ERP, Warehouse Management, and Industrial Automation applications through quality assurance, automation testing, and production support activities.
+
   contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - title: Playwright Automation Framework
+      link: "#"
+      tagline: "Developed and maintained Playwright automation framework using JavaScript, Page Object Model (POM), and reusable utilities for regression testing and cross-browser execution."
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    - title: CI/CD Test Integration
+      link: "#"
+      tagline: "Contributed to automation execution through Jenkins-based CI/CD integration for continuous testing and faster release validation."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - title: API & Database Validation
+      link: "#"
+      tagline: "Performed API testing using Postman and SoapUI along with backend SQL validation to ensure data accuracy across enterprise applications."
+
+    - title: Agile QA Process Improvement
+      link: "#"
+      tagline: "Actively contributed to Agile Scrum activities including sprint planning, defect triaging, test strategy discussions, and release quality improvements."
+
+    - title: Production Support & Defect Analysis
+      link: "#"
+      tagline: "Supported production validation, root cause analysis, and defect leakage reduction activities for enterprise and banking applications."
+
+    - title: Industrial Automation Testing
+      link: "#"
+      tagline: "Worked on industrial automation systems integrated with PLCs, smart cameras, printers, and warehouse tracking applications."
 
 publications:
-  title: Publications
+  title: Achievements
   intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
+    Key professional achievements and contributions delivered across Banking, ERP, Risk Analytics, and Automation Testing domains.
+
   papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+    - title: Playwright Automation Framework Development
+      link: "#"
+      conference: "Developed scalable UI automation framework using Playwright with JavaScript and Page Object Model."
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+    - title: Regression Automation Optimization
+      link: "#"
+      conference: "Reduced manual regression effort by 40% through automation implementation in Agile delivery environment."
 
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+    - title: Enterprise Application Testing
+      link: "#"
+      conference: "Successfully tested Banking, ERP, HRMS, Warehouse, and Industrial Automation applications."
+
+    - title: API & Database Validation
+      link: "#"
+      conference: "Performed API testing using Postman/SoapUI and backend SQL validation for enterprise systems."
+
+    - title: Agile Scrum & Production Support
+      link: "#"
+      conference: "Contributed to Agile Scrum ceremonies, defect management, UAT support, and production release validation."
 
 recommendations:
-  title: Recommendations
+  title: Professional References
   list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
 
-      He is a great employee!
+    - person: Pankaj Phalke
+      email: pankajphalke09@outlook.com
+      phone: +91-9096003165
+      role: Senior QA Automation Engineer
+      recommendation: References available upon request.
 
-skills:
-  title: Skills &amp; Proficiency
+Skills:
+  title: Skills & Proficiency
 
   toolset:
-  - name: Python & Django
-    level: 98%
+    - name: Playwright Automation (JavaScript)
+      level: 95%
 
-  - name: Javascript & jQuery
-    level: 98%
+    - name: Manual Testing
+      level: 95%
 
-  - name: Angular
-    level: 98%
+    - name: API Testing (Postman & SoapUI)
+      level: 90%
 
-  - name: HTML5 & CSS
-    level: 95%
+    - name: SQL & Database Testing
+      level: 90%
 
-  - name: Ruby on Rails
-    level: 85%
+    - name: Regression & Functional Testing
+      level: 92%
 
-  - name: Sketch & Photoshop
-    level: 60%
+    - name: Agile Scrum & STLC
+      level: 90%
+
+    - name: Jenkins & CI/CD
+      level: 85%
+
+    - name: Git & GitHub
+      level: 85%
+
+    - name: JavaScript
+      level: 80%
+
+    - name: Cross-Browser Automation Testing
+      level: 90%
+
+    - name: Jira & HP ALM
+      level: 88%
+
+    - name: Automation Framework Development
+      level: 88%
 
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  © 2026 Pankaj Phalke | Software Test Engineer | Playwright Automation Specialist
