@@ -92,55 +92,55 @@ experiences:
     time: Sep 2021 - Present
     company: Globalization Partners
     details: |
-      - Value stream lead and solutions architect working to modernize our flagship EOR product and streamline professional onboarding
-      - Drove the creation of and became technical lead for the Developer Enablement and Platform Engineering team
-      - Defining the roadmap for and building an Internal Developer Portal (IDP), templates (golden paths), exemplars, and libraries
-      - Focused on increasing developer productivity and satisfaction while reducing cognitive load
-      - Previous technical Lead for the Existing Products value stream focusing on the Time and Expense domain
-      - Led the reduction of technical debt and modernization towards an event-driven serverless architecture able to support exponential organizational growth
+      - Accelerated implementation of a key employment certificate generation feature. Exceeded legacy feature parity while pioneering an innovative development blueprint leveraging LLM-based AI Agents across the implementation and delivery phases, establishing an organizational AI workspace standard.
+      - Drove the creation of and became technical lead for the Developer Enablement and Platform Engineering team.
+      - Defined the initial roadmap for and built an Internal Developer Portal (IDP), templates (golden paths), automated CI/CD pipelines, exemplars, and libraries to streamline cloud-native deployments, significantly increasing developer productivity while reducing cognitive load.
+      - Built API-first templates for serverless microservices, including AWS API Gateway, Lambda, DynamoDB, OpenAPI, TypeScript, and Java.
+      - Developed GitHub Actions-based pipelines leveraging OIDC, secure secrets management, and IAM roles to securely build, test, and deploy resilient code to AWS.
+      - Led the Time and Expense domain through a reduction of technical debt and modernization towards an event-driven serverless architecture able to support exponential organizational growth.
+
   - role: Architect | Enterprise Architect
     time: Mar 2021 - Sep 2021
     company: Liberty Mutual, Global Retail Markets US – Service Technology
     details: |
-      - Partnering with technical SMEs and product leadership to evaluate and choose a CCaaS provider, so that we can move our telephony to the cloud, increasing agility and stability.
-      - Led the effort to define the future IVR platform, designing an API-based middleware enabling loose coupling in order to choose the best-in-class CCaaS provider.
-      - Drove consensus for a Policy Retrieve API design leveraging event-based replication to create a read-side SOE federating legacy and future rating programs.
+      - Partnered with technical SMEs and product leadership within an Agile delivery framework to evaluate and choose a CCaaS provider, moving telephony to the cloud to increase agility and stability.
+      - Analyzed complex technical challenges and led the effort to define the future IVR platform, designing an API-based middleware enabling loose coupling to choose the best-in-class CCaaS provider.
 
   - role: Architect | Solutions Architect
     time: Jul 2015 - Mar 2021
     company: Liberty Mutual, Global Retail Markets US – Third Party
     details: |
-      - Technical domain lead for partner and rater technology; ten product teams supporting partnerships and integrations for the Safeco and Liberty brands, and Book Transfer operations.
-      - Developed exemplar implementations of CDK-based AWS API Gateway, Lambda, DocumentDB, and DynamoDB stacks accelerating development and modernization efforts.
-      - Collaborated with business partners to build Liberty’s next generation partner APIs while enabling the de-coupled evolution of our core quoting architecture.
+      - Served as technical domain lead for partner and rater technology across the P&C insurance domain, directing 10 product teams supporting integrations for the Safeco and Liberty brands, and Book Transfer operations.
+      - Developed exemplar implementations of CDK-based AWS API Gateway, Lambda, DocumentDB, and DynamoDB stacks, establishing reusable patterns that accelerated cloud development and modernization efforts.
+      - Collaborated with business partners to architect next-generation partner APIs, web services (REST/SOAP), and messaging systems, enabling the decoupled, transactionally consistent evolution of our core quoting architecture.
       - Technical lead during inception of a developer enablement team (DNA) providing a framework comprised of tools, patterns, practices, and a cloud-native platform to allow teams to focus on delivering business value rapidly.
-      - Created generators that scaffold cloud-ready container-agnostic components with built-in best practices for microservices, CI/CD, Behavior-driven development (BDD), OpenAPI, consumer-driven contracts (CDC), semantic versioning, unit testing, code coverage, static code analysis, log aggregation, monitoring, distributed tracing, and fault tolerance.
-      - Jump-started a team by creating initial implementation of a loosely coupled quoting system using domain-driven design (DDD), spring boot, docker, event sourcing, CQRS, Kafka, and MongoDB.
-      - Facilitated event storming workshops to aid in modeling complex business processes and helped produce a facilitators guide for future workshops.
+      - Created generators that scaffolded cloud-ready, containerized components (Docker) with built-in observability (log aggregation, distributed tracing, monitoring), robust testing practices (BDD, unit testing, code coverage), and schema evolution best practices.
+      - Designed and configured the initial implementation of a loosely coupled quoting system utilizing an API-first design, domain-driven design (DDD), Spring Boot, Docker, event sourcing, CQRS, Kafka, and NoSQL (MongoDB).
+      - Facilitated event storming workshops to analyze complex business processes, model core workflows, and author a facilitator's guide for future cross-team knowledge sharing.
 
   - role: Technologist | System Architect
     time: Aug 2014 - Jul 2015
     company: Liberty Mutual - Personal Market IT - Products & Underwriting
     details: |
-      - Domain lead for an SOA-based set of Insurance Quoting and Endorsing Services aimed at consumers.
-      - Directed the conversion of policy writing services from heavy-weight proprietary BPEL to standard JEE services running on WAS-LP.  Accomplished this in parallel with no impact to in-flight development. Increased developer productivity and unit-testability.
-      - Created a service invocation framework, process template pattern, and custom Eclipse plugin to convert proprietary artifacts to standard java classes.
+      - Domain lead for an SOA-based set of P&C Insurance Quoting and Endorsing Services, aligning system standards with long-term business goals.
+      - Directed the conversion from proprietary BPEL to standard JEE services running on WAS-LP in parallel with no impact to in-flight development, successfully increasing developer productivity and software testing capabilities.
+      - Created a service invocation framework, process template pattern, and custom Eclipse plugin to convert proprietary artifacts to standard Java classes.
 
   - role: Technologist | System Architect
     time: May 2011 - Aug 2014
     company: Liberty Mutual - Personal Market IT - eCommerce
     details: |
-      - Technical lead for re-design of REST layer supporting eCommerce quoting and policy management applications processing 12,000 quotes (160,000 business transactions) per day.  
-      - Migrated from a legacy struts-based application to a Web 2.0 SPA using RESTful Web Services (JAX-RS) with JSON payloads, integrating SOA-based business services. 
-      - Designed and implemented an exception logging and reporting strategy, enabling a reduced failure rate from 4% of quote starts to less than 0.5% of quote starts in production, thus improving quote complete and purchase rates.  Included Introducing Splunk to the organization.
+      - Technical lead for the redesign of the RESTful Web Services layer supporting eCommerce quoting and policy management applications processing 12k quotes (160,000 business transactions) per day.
+      - Migrated from a legacy struts-based application to a Web 2.0 SPA using RESTful Web Services (JAX-RS) with JSON payloads, integrating SOA-based business services.
+      - Engineered an advanced exception logging, audit trail, and reporting strategy that reduced the failure rate from 4% of quote starts to less than 0.5%, and introduced Splunk for enhanced platform observability.
 
   - role: Principal Software Developer
     time: Oct 2008 - May 2011
     company: Liberty Mutual - Personal Market IT - Distribution & Products
     details: |
-      - Design and development for a multi-layered JEE application used to sell personal insurance.  A high-volume system with thousands of users and peak volumes over 70,000 transactions per hour.
-      - Participated in re-writing and re-architecting the service layer  from a C++ to a Java-based Service-Oriented Architecture (SOA).  Enabled processing of over 14 million policy transactions per year on a system originally built to handle 2 million, while increasing system availability from 93% to over 99%.
-      - Implemented a thread-safe response caching mechanism using IBM’s DynaCache, alleviating a CPU bottleneck, resulting in savings of approximately $250k - $300k per year of mainframe CPU costs.
+      - Designed and developed a high-volume, multi-layered Java (JEE) application with thousands of users, maintaining transactional consistency during peak volumes over 70,000 transactions per hour.
+      - Re-architected legacy C++ services to a Java-based Service-Oriented Architecture (SOA), successfully scaling capacity from 2 million to over 14 million policy transactions per year while increasing system availability from 93% to over 99%.
+      - Implemented a thread-safe response caching mechanism using IBM's DynaCache, resolving a critical CPU bottleneck and resulting in an annual savings of approximately $250k - $300k in mainframe costs.
 
   - role: Principal Software Developer
     time: Jan 2004 - Oct 2008
