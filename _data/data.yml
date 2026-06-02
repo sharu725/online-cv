@@ -170,35 +170,40 @@ publications:
   intro: |
     Selected peer-reviewed publications, preprints, and manuscripts.
   papers:
-  - title: Critical Role of Keratinocytes and PAR2 in Secondary Lymphedema Development
-    link: "#"
+  - title: Thymic Composition Predicts Radiation Pneumonitis in Locally Advanced NSCLC
+    link: "https://doi.org/10.1016/j.jtho.2026.103949"
+    authors: Chaunzwa TL, Krishnan G, Book AJ, Miller DG, Amoako-Boadu K, Garomsa B, Meng YJ, Yang E, Ma J, Chidi A, Gomez DR, Shaverdian N.
+    conference: Journal of Thoracic Oncology. 2026;103949. doi: 10.1016/j.jtho.2026.103949.
+
+  - title: Critical Role of Keratinocytes and Protease-Activated Receptor 2 in Secondary Lymphedema Development
+    link: "https://doi.org/10.1002/ctm2.70682"
     authors: Park HJ, Pal S, Chen X, Shin J, García Nores GD, Baik JE, Stull-Lane A, Book AJ, Clement CC, Encarnacion EM, Klang MG, Riedel E, Chaunzwa TL, Hespe GE, Santambrogio L, Coriddi M, Dayan JH, Mehrara BJ, Kataru RP.
-    conference: Clinical and Translational Medicine. Accepted, 2026.
+    conference: Clinical and Translational Medicine. 2026;16(6):e70682. doi: 10.1002/ctm2.70682.
 
-  - title: Thymus Composition, Disease Control, and Toxicity in Locally Advanced Lung Cancer
+  - title: Radiographic Thymic Involution Reflects a CD4-skewed, Highly Exhausted Systemic Immune Phenotype in Non-Small Cell Lung Cancer
     link: "#"
-    authors: Book AJ, Chaunzwa TL, et al.
-    conference: medRxiv, 2025.
+    authors: Miller D, Chaunzwa TL, Book AJ, Krishnan G, Amoako-Boadu K, Okamura Y, Kagami SI, Simone C, Chaft J, Gomez D, Shaverdian N.
+    conference: Manuscript under review, 2026.
 
-  - title: Thymus Composition Predicts Pneumonitis Risk in Lung Cancer Therapy
-    link: "#"
-    authors: Chaunzwa TL, Book AJ, et al.
-    conference: medRxiv, 2025. Under review.
-
-  - title: Mechanistic modeling and machine learning identifies optimum radiotherapy schedules to prevent treatment-induced metastasis
+  - title: Mechanistic Modeling and Machine Learning Identifies Optimum Radiotherapy Schedules to Prevent Treatment-Induced Metastasis
     link: "#"
     authors: Graser CJ, Zhou Z, Schürch M, Moorhead G, Chaunzwa TL, Book AJ, Dean J, Lin C, Dean JA, Gomez D, Kozono D, Lahav G, Michor F.
     conference: Manuscript under review, 2026.
 
-  - title: Cholangiocarcinoma, Sequential Chemotherapy, and Prognostic Tests
-    link: "#"
-    authors: Bruckner HW, De Jager R, et al., Book A.
-    conference: Frontiers in Oncology, 2024.
+  - title: Thymus Composition, Disease Control, and Toxicity in Locally Advanced Lung Cancer
+    link: "https://doi.org/10.1101/2025.10.20.25338395"
+    authors: Chaunzwa TL, Book AJ, Garomsa B, Meng YJ, Yang E, Krishnan G, Chidi A, Kim R, Ma J, Riely GJ, Huang J, Simone CB, Shaverdian N, Gomez DR.
+    conference: medRxiv. 2025. doi: 10.1101/2025.10.20.25338395.
 
-  - title: Actionable Tests and Treatments for Patients with Gastrointestinal Cancers and Historically Short Median Survival
-    link: "#"
-    authors: Bruckner HW, Hirschfeld A, De Jager R, Bassali F, Dusowitz E, Book A, et al.
-    conference: PLOS One, 2022.
+  - title: Cholangiocarcinoma, Sequential Chemotherapy, and Prognostic Tests
+    link: "https://doi.org/10.3389/fonc.2024.1361420"
+    authors: Bruckner HW, De Jager R, Knopf E, Bassali F, Book A, Gurell D, Nghiem V, Schwartz M, Hirschfeld A.
+    conference: Frontiers in Oncology. 2024;14:1361420. doi: 10.3389/fonc.2024.1361420.
+
+  - title: Actionable Tests and Treatments for Patients with Gastrointestinal Cancers and Historically Short Median Survival Times
+    link: "https://doi.org/10.1371/journal.pone.0276492"
+    authors: Bruckner HW, Bassali F, Dusowitz E, Gurell D, Book A, De Jager R.
+    conference: PLOS One. 2022;17(11):e0276492. doi: 10.1371/journal.pone.0276492.
 
 oss:
   title: Presentations
@@ -206,7 +211,7 @@ oss:
     Selected scientific presentations.
   contributions:
   - title: StageBridge Resolves Inflammatory-Stromal Transition Niches in Lung Adenocarcinoma Progression
-    link: "#"
+    link: "https://www.linkedin.com/posts/aj-abraham-book_computationalbiology-systemsbiology-spatialbiology-share-7464752894995779586-QZxl/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACvL30wBWX9OgfTQwwbDg57b6BkHxSkKiPI"
     tagline: "Poster presentation, Center for Tumor Immune Systems Biology Symposium, Sloan Kettering Institute, 2026. Authors: Abraham J. Book, Jung Hun Oh, Anish K. Simhal, Joseph O. Deasy, Erhan Guven, Christopher Bradburne, Tafadzwa L. Chaunzwa."
 
 certifications:
