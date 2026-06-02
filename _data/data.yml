@@ -9,7 +9,7 @@ sidebar:
 
   # Profile information
   name: AJ Book
-  tagline: Systems immunology · spatial omics · multimodal biology
+  tagline: Computational & Systems Biology · Spatial Biology · Multimodal Disease Modeling
   avatar: https://avatars.githubusercontent.com/u/42758438?v=4
 
   # Sidebar links
@@ -243,6 +243,3 @@ skills:
     level: 80%
   - name: Computational pathology and medical imaging
     level: 80%
-
-footer: >
-  Built with GitHub Pages.
