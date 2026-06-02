@@ -9,7 +9,7 @@ sidebar:
 
   # Profile information
   name: AJ Book
-  tagline: Computational & Systems Biology · Spatial Biology · Multimodal Disease Modeling
+  tagline: "Computational & Systems Biology · Spatial Biology · Multimodal Disease Modeling"
   avatar: https://avatars.githubusercontent.com/u/42758438?v=4
 
   # Sidebar links
@@ -173,12 +173,12 @@ publications:
   - title: Thymic Composition Predicts Radiation Pneumonitis in Locally Advanced NSCLC
     link: "https://doi.org/10.1016/j.jtho.2026.103949"
     authors: Chaunzwa TL, Krishnan G, Book AJ, Miller DG, Amoako-Boadu K, Garomsa B, Meng YJ, Yang E, Ma J, Chidi A, Gomez DR, Shaverdian N.
-    conference: Journal of Thoracic Oncology. 2026;103949. doi: 10.1016/j.jtho.2026.103949.
+    conference: "Journal of Thoracic Oncology. 2026;103949. doi: 10.1016/j.jtho.2026.103949."
 
   - title: Critical Role of Keratinocytes and Protease-Activated Receptor 2 in Secondary Lymphedema Development
     link: "https://doi.org/10.1002/ctm2.70682"
     authors: Park HJ, Pal S, Chen X, Shin J, García Nores GD, Baik JE, Stull-Lane A, Book AJ, Clement CC, Encarnacion EM, Klang MG, Riedel E, Chaunzwa TL, Hespe GE, Santambrogio L, Coriddi M, Dayan JH, Mehrara BJ, Kataru RP.
-    conference: Clinical and Translational Medicine. 2026;16(6):e70682. doi: 10.1002/ctm2.70682.
+    conference: "Clinical and Translational Medicine. 2026;16(6):e70682. doi: 10.1002/ctm2.70682."
 
   - title: Radiographic Thymic Involution Reflects a CD4-skewed, Highly Exhausted Systemic Immune Phenotype in Non-Small Cell Lung Cancer
     link: "#"
@@ -193,17 +193,17 @@ publications:
   - title: Thymus Composition, Disease Control, and Toxicity in Locally Advanced Lung Cancer
     link: "https://doi.org/10.1101/2025.10.20.25338395"
     authors: Chaunzwa TL, Book AJ, Garomsa B, Meng YJ, Yang E, Krishnan G, Chidi A, Kim R, Ma J, Riely GJ, Huang J, Simone CB, Shaverdian N, Gomez DR.
-    conference: medRxiv. 2025. doi: 10.1101/2025.10.20.25338395.
+    conference: "medRxiv. 2025. doi: 10.1101/2025.10.20.25338395."
 
   - title: Cholangiocarcinoma, Sequential Chemotherapy, and Prognostic Tests
     link: "https://doi.org/10.3389/fonc.2024.1361420"
     authors: Bruckner HW, De Jager R, Knopf E, Bassali F, Book A, Gurell D, Nghiem V, Schwartz M, Hirschfeld A.
-    conference: Frontiers in Oncology. 2024;14:1361420. doi: 10.3389/fonc.2024.1361420.
+    conference: "Frontiers in Oncology. 2024;14:1361420. doi: 10.3389/fonc.2024.1361420."
 
   - title: Actionable Tests and Treatments for Patients with Gastrointestinal Cancers and Historically Short Median Survival Times
     link: "https://doi.org/10.1371/journal.pone.0276492"
     authors: Bruckner HW, Bassali F, Dusowitz E, Gurell D, Book A, De Jager R.
-    conference: PLOS One. 2022;17(11):e0276492. doi: 10.1371/journal.pone.0276492.
+    conference: "PLOS One. 2022;17(11):e0276492. doi: 10.1371/journal.pone.0276492."
 
 oss:
   title: Presentations
