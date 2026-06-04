@@ -45,7 +45,7 @@ p {
 
 .sidebar-wrapper {
   grid-column: span 3;
-  order: 2;
+  order: $sidebar-order;
   background: $theme-color;
   color: #fff;
   a {
@@ -161,6 +161,7 @@ p {
 
 .main-wrapper {
   grid-column: span 7;
+  order: $resume-order;
   background: #fff;
   padding: 60px;
   .section-title {
@@ -177,19 +178,23 @@ p {
   }
 
   .experiences-section,
+  .recommendations-section,
   .educations-section {
     .item {
       margin-bottom: 30px;
     }
   }
-  .upper-row {
+  .upper-row,
+  .second-upper-row {
     position: relative;
     overflow: hidden;
     margin-bottom: 2px;
     display: flex;
   }
   .job-title,
-  .degree {
+  .degree,
+  .cert-title,
+  .recommendation-person {
     color: $text-color;
     font-size: 16px;
     margin-top: 0;
@@ -197,7 +202,9 @@ p {
     font-weight: 500;
     flex: 75%;
   }
-  .time {
+
+  .time,
+  .cert-url {
     position: absolute;
     right: 0;
     top: 0;
@@ -205,7 +212,9 @@ p {
     flex: 25%;
   }
   .company,
-  .university {
+  .recommendation-role,
+  .university,
+  .cert-org {
     margin-bottom: 10px;
     color: $text-grey;
   }
@@ -218,6 +227,14 @@ p {
     color: darken($theme-color, 15%);
   }
   .projects-section {
+    .intro {
+      margin-bottom: 30px;
+    }
+    .item {
+      margin-bottom: 15px;
+    }
+  }
+  .oss-section {
     .intro {
       margin-bottom: 30px;
     }
@@ -277,5 +294,72 @@ p {
 
   .fa-heart {
     color: $heart;
+  }
+}
+
+.print-button {
+  position: fixed;
+  top: 20px;
+  right: 120px; // Changed from 20px to make space for the PDF button
+  z-index: 1000;
+  background: $theme-color;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: darken($theme-color, 10%);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  &:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .fas {
+    margin-right: 5px;
+  }
+}
+
+.pdf-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  background: $theme-color;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: darken($theme-color, 10%);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  &:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  &:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+
+  .fas {
+    margin-right: 5px;
   }
 }
