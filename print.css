@@ -1,0 +1,50 @@
+/* print.css — PDF export.
+   data-print="ink"  → printer-friendly (ink-saver, light sidebar)
+   data-print="full" → Enhanced (full color, links stay clickable) */
+@media print {
+  @page { size: Letter portrait; margin: 13mm 11mm; }
+  html, body { background: #fff !important; }
+  body { font-size: 10.5pt; }
+
+  /* hide app chrome */
+  .topbar, .cmdk-backdrop, .twk-panel, [data-omelette-chrome],
+  .exp-expand, .filters, .status-dot, .section-rule { display: none !important; }
+
+  /* keep accent colors on paper */
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  /* shell flattens, sidebar stays as a column */
+  .resume-shell {
+    margin: 0 !important; max-width: 100% !important;
+    border: none !important; border-radius: 0 !important; box-shadow: none !important;
+    grid-template-columns: 33% 1fr !important;
+  }
+  .main { padding: 4mm 0 0 8mm !important; }
+  .section { margin-bottom: 7mm !important; break-inside: avoid; }
+  .exp, .proj, .ring-item, .sk-bucket, .skill { break-inside: avoid; }
+
+  /* show ALL experiences, expanded, regardless of the on-screen filter */
+  .exp.hidden { display: block !important; }
+  .exp-body { max-height: none !important; }
+  .exp-card { cursor: default; box-shadow: none !important; }
+  .timeline { padding-left: 22px; }
+
+  /* ---------- INK-SAVER ---------- */
+  [data-print="ink"] .sidebar { background: #fff !important; color: #111 !important; border-right: 1px solid #ccc; }
+  [data-print="ink"] .profile-block { background: transparent !important; border-bottom: 1px solid #ddd; }
+  [data-print="ink"] .s-name, [data-print="ink"] .edu-degree,
+  [data-print="ink"] .contact-list, [data-print="ink"] .contact-list a,
+  [data-print="ink"] .clock-time, [data-print="ink"] .section-title { color: #111 !important; }
+  [data-print="ink"] .s-tagline, [data-print="ink"] .s-title,
+  [data-print="ink"] .clock-loc, [data-print="ink"] .clock-zone,
+  [data-print="ink"] .contact-list i, [data-print="ink"] .clock-loc i,
+  [data-print="ink"] .edu-school, [data-print="ink"] .edu-time,
+  [data-print="ink"] .exp-time, [data-print="ink"] .exp-co a,
+  [data-print="ink"] .lang-row span:last-child { color: #555 !important; }
+  [data-print="ink"] .clock-card { background: #f4f4f4 !important; border-color: #ddd !important; }
+  [data-print="ink"] .s-chip { background: #f0f0f0 !important; color: #222 !important; border-color: #ddd !important; }
+  [data-print="ink"] .sk-fill, [data-print="ink"] .sk-seg.on { background: #333 !important; }
+  [data-print="ink"] .ring { background: conic-gradient(#333 calc(var(--p,0)*1%), #ddd 0) !important; }
+  [data-print="ink"] .tag, [data-print="ink"] .sk-chip.tier-0 { background: #f0f0f0 !important; color: #222 !important; border-color: #ddd !important; }
+  [data-print="ink"] .summary .hl { background: none !important; padding: 0 !important; }
+}
