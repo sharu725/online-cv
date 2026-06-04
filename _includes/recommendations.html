@@ -1,0 +1,43 @@
+{% assign recommendations = site.data.data.recommendations %} {% if
+recommendations %}
+<section class="section recommendations-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-medal fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ recommendations.title }}
+  </h2>
+  {% for recommendation in recommendations.list %} {% if
+  recommendation.recommendation %}
+  <div class="item">
+    <blockquote class="details">
+      {{ recommendation.recommendation | markdownify }}
+    </blockquote>
+    <!--//details-->
+
+    <div class="d-flex">
+      <div class="ml-auto">
+        <h3 class="recommendation-person">{{ recommendation.person }}</h3>
+        <p>{{ recommendation.role }}</p>
+        {% if recommendation.email %}
+        <div>
+          <a href="mailto:{{recommendation.email}}"
+            ><i class="fas fa-envelope mr-1"></i>{{ recommendation.email }}</a
+          >
+        </div>
+        {% endif %} {% if recommendation.phone %}
+        <div>
+          <a href="tel:{{recommendation.phone}}">
+            <i class="fas fa-phone mr-1"></i>{{ recommendation.phone }}</a
+          >
+        </div>
+        {% endif %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</section>
+<!--//section-->
+{% endif %}

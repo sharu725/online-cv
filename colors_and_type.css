@@ -1,0 +1,265 @@
+/* ============================================================
+   ORBIT RESUME — MODERNIZED DESIGN SYSTEM
+   colors_and_type.css
+
+   A modernization of the "Orbit" Jekyll CV theme
+   (originally by Xiaoying Riley / 3rd Wave Media,
+   ported to Jekyll by sharu725, customized by Alex Rudolph).
+
+   The original anchored on a single teal skin (#42A8C0), Roboto,
+   and Font Awesome. This system modernizes:
+   - a disciplined slate/ink neutral ramp + a distinctive OXIDE rust accent
+   - a coral "heart" accent carried over from the original footer
+   - a technical type pairing (Space Grotesk / IBM Plex Sans /
+     JetBrains Mono) suited to a DevOps engineer's resume
+   - first-class dark mode (the original was light-only)
+
+   FONT NOTE → SUBSTITUTION FLAG:
+   The original theme shipped Roboto. There were no self-hosted
+   font files in the repo, so this system pulls three Google Fonts
+   from the CDN below. If you want pixel-fidelity to the legacy
+   site, swap --font-body back to "Roboto". For production GitHub
+   Pages deploys, self-host these woff2 files under /fonts.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+:root {
+  /* ---------- NEUTRALS — slate / ink ramp ---------- */
+  --ink-950: #0B1620;   /* deepest — dark-mode bg / sidebar floor   */
+  --ink-900: #0F1E2A;   /* sidebar base                            */
+  --ink-850: #13242F;   /* raised dark surface                     */
+  --ink-800: #1A2E3B;   /* dark card                               */
+  --ink-700: #25394A;   /* dark border / hairline                  */
+  --slate-600: #3F4650; /* primary text (from original $text-color)*/
+  --slate-500: #545E6C; /* secondary text (original $text-color-2) */
+  --slate-400: #6B7785; /* muted                                   */
+  --slate-300: #97AAC3; /* grey (from original $text-grey)         */
+  --slate-200: #C5D0DC; /* faint text on dark                      */
+  --slate-150: #DCE3EA; /* strong divider                          */
+  --slate-100: #E8ECF1; /* divider (from original $divider)        */
+  --slate-50:  #F4F7F9; /* smoky white (original $smoky-white)     */
+  --white:     #FFFFFF;
+
+  /* ---------- OXIDE — primary accent (molten rust; a unique infra identity) ----------
+     Departs from the legacy Orbit teal (#42A8C0) on purpose: a warm oxide/rust
+     orange that stands apart from the sea of blue/green/teal dev tooling, while
+     pairing hot against the cool slate/ink neutrals. Coral stays as a sibling. */
+  --oxide-800: #6F2A10;
+  --oxide-700: #9A3A14;  /* link / section-title text — AA on white */
+  --oxide-600: #C0461A;
+  --oxide-500: #E2571E;  /* PRIMARY — molten oxide rust              */
+  --oxide-400: #F47A3D;  /* lighter rust — fills, dark-mode accent   */
+  --oxide-300: #F9A06A;
+  --oxide-200: #FCC6A3;
+  --oxide-100: #FCE4D4;
+  --oxide-50:  #FDF3EC;
+
+  /* ---------- CORAL — secondary accent (from original $heart) ---------- */
+  --coral-600: #F2674A;
+  --coral-500: #FB866A;  /* legacy $heart (exact)                   */
+  --coral-300: #FDB7A4;
+  --coral-100: #FEE6DE;
+
+  /* ---------- SUPPORT — skill / status hues ---------- */
+  --amber-500: #E5A53B;
+  --green-500: #3FB27F;
+  --violet-500: #7C6FD6;
+
+  /* ================= SEMANTIC TOKENS (light) ================= */
+  --bg:            var(--slate-50);
+  --surface:       var(--white);
+  --surface-sunk:  var(--slate-50);
+  --sidebar-bg:    var(--ink-900);
+  --sidebar-fg:    rgba(255,255,255,0.92);
+  --sidebar-muted: rgba(255,255,255,0.58);
+  --sidebar-line:  rgba(255,255,255,0.12);
+
+  --fg:        var(--slate-600);
+  --fg-strong: #232A33;
+  --fg-muted:  var(--slate-500);
+  --fg-subtle: var(--slate-400);
+  --fg-faint:  var(--slate-300);
+
+  --accent:        var(--oxide-500);
+  --accent-strong: var(--oxide-700);
+  --accent-soft:   var(--oxide-100);
+  --accent-on:     var(--white);
+  --heart:         var(--coral-500);
+
+  --border:        var(--slate-100);
+  --border-strong: var(--slate-150);
+  --ring:          color-mix(in srgb, var(--oxide-500) 40%, transparent);
+
+  /* ---------- ELEVATION ---------- */
+  --shadow-xs: 0 1px 2px rgba(15,30,42,0.06);
+  --shadow-sm: 0 2px 4px rgba(15,30,42,0.08);
+  --shadow-md: 0 6px 18px rgba(15,30,42,0.10);
+  --shadow-lg: 0 18px 48px rgba(15,30,42,0.16);
+  --shadow-sidebar: 0 2px 4px rgba(0,0,0,0.10);
+
+  /* ---------- RADII ---------- */
+  --r-xs: 4px;
+  --r-sm: 8px;
+  --r-md: 12px;
+  --r-lg: 18px;
+  --r-pill: 999px;
+  --r-circle: 50%;
+
+  /* ---------- SPACING (8px base) ---------- */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 32px;
+  --sp-7: 48px;
+  --sp-8: 64px;
+
+  /* ---------- MOTION ---------- */
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 140ms;
+  --dur: 240ms;
+  --dur-slow: 800ms; /* skill-bar fill, matching legacy main.js */
+
+  /* ---------- TYPE FAMILIES ---------- */
+  --font-display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  /* ---------- TYPE SCALE ---------- */
+  --fs-display: 40px;  /* sidebar name              */
+  --fs-h1: 30px;
+  --fs-h2: 22px;       /* section titles            */
+  --fs-h3: 17px;       /* job title / degree        */
+  --fs-lead: 16px;
+  --fs-body: 15px;
+  --fs-sm: 13.5px;
+  --fs-xs: 12px;
+  --fs-mono: 12.5px;   /* tags / metrics / clock    */
+
+  --lh-tight: 1.15;
+  --lh-snug: 1.35;
+  --lh-body: 1.6;
+
+  --tracking-caps: 0.12em;  /* uppercase section titles  */
+  --tracking-mono: 0.02em;
+}
+
+/* ================= DARK MODE ================= */
+[data-theme="dark"] {
+  --bg:            var(--ink-950);
+  --surface:       var(--ink-850);
+  --surface-sunk:  var(--ink-900);
+  --sidebar-bg:    #08111A;
+  --sidebar-fg:    rgba(255,255,255,0.90);
+  --sidebar-muted: rgba(255,255,255,0.50);
+  --sidebar-line:  rgba(255,255,255,0.10);
+
+  --fg:        var(--slate-200);
+  --fg-strong: #EAF1F6;
+  --fg-muted:  var(--slate-300);
+  --fg-subtle: #7E8C9C;
+  --fg-faint:  #5C6A7A;
+
+  --accent:        var(--oxide-400);
+  --accent-strong: var(--oxide-300);
+  --accent-soft:   rgba(226,87,30,0.18);
+  --accent-on:     var(--ink-950);
+
+  --border:        var(--ink-700);
+  --border-strong: #2F4555;
+
+  --shadow-xs: 0 1px 2px rgba(0,0,0,0.4);
+  --shadow-sm: 0 2px 6px rgba(0,0,0,0.45);
+  --shadow-md: 0 8px 22px rgba(0,0,0,0.5);
+  --shadow-lg: 0 22px 52px rgba(0,0,0,0.6);
+}
+
+/* ================= SEMANTIC ELEMENT STYLES ================= */
+/* Use as a reference; opt in by adding the .ds- scope or copy
+   individual rules into your component CSS. */
+
+.ds-type body, .ds-scope {
+  font-family: var(--font-body);
+  color: var(--fg);
+  background: var(--bg);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ds-scope h1, .ds-scope h2, .ds-scope h3,
+.ds-scope h4, .ds-scope h5, .ds-scope h6 {
+  font-family: var(--font-display);
+  color: var(--fg-strong);
+  line-height: var(--lh-tight);
+  margin: 0 0 var(--sp-3);
+}
+
+.ds-name {            /* sidebar identity */
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--fs-display);
+  letter-spacing: -0.01em;
+  line-height: 1.05;
+}
+.ds-tagline {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: var(--fs-sm);
+  letter-spacing: var(--tracking-mono);
+}
+.ds-section-title {   /* "EXPERIENCE", "PROJECTS" … */
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: var(--fs-h2);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-caps);
+  color: var(--accent-strong);
+}
+.ds-h3 {              /* job title / degree */
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: var(--fs-h3);
+  color: var(--fg-strong);
+}
+.ds-p {
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--fg);
+}
+.ds-meta {            /* company • time */
+  font-family: var(--font-body);
+  font-size: var(--fs-sm);
+  color: var(--fg-subtle);
+}
+.ds-mono, .ds-tag, .ds-clock {
+  font-family: var(--font-mono);
+  font-size: var(--fs-mono);
+  letter-spacing: var(--tracking-mono);
+}
+.ds-tag {             /* tech chip */
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 9px;
+  border-radius: var(--r-sm);
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  font-weight: 500;
+}
+.ds-link {
+  color: var(--accent-strong);
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+  transition: color var(--dur-fast) var(--ease),
+              border-color var(--dur-fast) var(--ease);
+}
+.ds-link:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
