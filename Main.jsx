@@ -118,6 +118,73 @@ function Projects({ d }) {
   );
 }
 
+function ContractCard({ c, open, onToggle }) {
+  return (
+    <div className={"exp" + (open ? " open" : "")}>
+      <span className="exp-dot"></span>
+      <div className="exp-card" onClick={onToggle}>
+        <div className="exp-top">
+          <p className="exp-role">{c.role}</p>
+        </div>
+        <p className="exp-co">
+          {c.company}
+          {c.locationLabel ? " · " + c.locationLabel : ""}
+          <span style={{ color: "var(--fg-faint)", fontWeight: 400 }}> via {c.agency}</span>
+        </p>
+        <div className="exp-body">
+          <p className="exp-desc">{c.details}</p>
+          <div className="tag-row">
+            {c.stack.map((s, i) => <span className="tag" key={i}>{s}</span>)}
+          </div>
+        </div>
+        <p className="exp-expand">
+          <i className="fas fa-chevron-down"></i> {open ? "Show less" : "Show details & stack"}
+        </p>
+      </div>
+    </div>
+  );
+}
+
+function Contracts({ d }) {
+  const [openIdx, setOpenIdx] = useStateM(0);
+  if (!d.contracts || !d.contracts.length) return null;
+  return (
+    <section className="section" id="contracts">
+      <SectionHead title="Contracts" />
+      <div className="timeline">
+        {d.contracts.map((c, i) => (
+          <ContractCard
+            key={i}
+            c={c}
+            open={openIdx === i}
+            onToggle={() => setOpenIdx(openIdx === i ? -1 : i)}
+          />
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function Certifications({ d }) {
+  if (!d.certifications || !d.certifications.length) return null;
+  return (
+    <section className="section" id="certifications">
+      <SectionHead title="Certifications" />
+      <div className="proj-grid">
+        {d.certifications.map((c, i) => (
+          <a className="proj" key={i} href={c.file} target="_blank" rel="noopener">
+            <span className="proj-ico"><i className={"fas " + (c.icon || "fa-certificate")}></i></span>
+            <span>
+              <p className="proj-title">{c.title} <i className="fas fa-arrow-up-right-from-square"></i></p>
+              <p className="proj-tag">{c.issuer}</p>
+            </span>
+          </a>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 const SK_ACCENTS = {
   oxide: { "--skill-fill": "linear-gradient(90deg,var(--oxide-500),var(--oxide-400))", "--skill-solid": "var(--oxide-500)" },
   mono:  { "--skill-fill": "linear-gradient(90deg,var(--slate-500),var(--slate-400))", "--skill-solid": "var(--slate-500)" },
@@ -258,9 +325,11 @@ function Main({ d, t }) {
       <CareerProfile d={d} />
       <Experience d={d} />
       <Projects d={d} />
+      <Contracts d={d} />
+      <Certifications d={d} />
       <Skills d={d} t={t} />
     </main>
   );
 }
 
-Object.assign(window, { Main, CareerProfile, Experience, ExperienceCard, Projects, Skills, SectionHead });
+Object.assign(window, { Main, CareerProfile, Experience, ExperienceCard, Projects, ContractCard, Contracts, Certifications, Skills, SectionHead });

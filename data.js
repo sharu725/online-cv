@@ -156,6 +156,57 @@ window.RESUME = {
     { name: "AWS", level: 60, cat: "cloud" }
   ],
 
+  contracts: [
+    {
+      role: "Senior DevOps Engineer",
+      company: "Steris",
+      agency: "Elevate Digital",
+      locationLabel: "Remote",
+      cats: ["cloud", "cicd", "iac"],
+      details: "Designed and implemented a Pulumi IaC architecture for an Azure-based platform using Azure Container Apps and Application Gateway. Built GitHub Actions pipelines for CI/CD across the stack.",
+      stack: ["Azure", "Azure Container Apps", "App Gateway", "Pulumi", "GitHub Actions"]
+    },
+    {
+      role: "Senior DevOps Engineer",
+      company: "Costco",
+      agency: "CDW",
+      locationLabel: "Remote",
+      cats: ["cloud", "cicd"],
+      details: "Built pipelines and workflows on Azure and Azure DevOps to automate build, test, and deployment processes across the organization.",
+      stack: ["Azure", "Azure DevOps", "Pipelines"]
+    }
+  ],
+
+  certifications: [
+    {
+      title: "Claude Code in Action",
+      issuer: "Anthropic",
+      file: "assets/pdf/anthropic-claude-code-in-action.pdf",
+      icon: "fa-robot"
+    },
+    {
+      title: "Claude with the Anthropic API",
+      issuer: "Anthropic",
+
+      file: "assets/pdf/anthropic-claude-with-the-api.pdf",
+      icon: "fa-code"
+    },
+    {
+      title: "Introduction to Model Context Protocol",
+      issuer: "Anthropic",
+
+      file: "assets/pdf/anthropic-intro-to-mcp.pdf",
+      icon: "fa-plug"
+    },
+    {
+      title: "Introduction to Agent Skills",
+      issuer: "Anthropic",
+
+      file: "assets/pdf/anthropic-intro-to-agent-skills.pdf",
+      icon: "fa-wand-magic-sparkles"
+    }
+  ],
+
   education: [
     { degree: "MBA, Information Systems", school: "Southern New Hampshire University", time: "2010 — 2011" },
     { degree: "BS, Technical Management", school: "Southern New Hampshire University", time: "2008 — 2009" },

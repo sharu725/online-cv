@@ -33,6 +33,8 @@ function CommandPalette({ d, onClose, toggleTheme }) {
       { group: "Navigate", icon: "fa-user", label: "Career Profile", sub: "about", run: () => scrollTo("about") },
       { group: "Navigate", icon: "fa-briefcase", label: "Experience", sub: "experience", run: () => scrollTo("experience") },
       { group: "Navigate", icon: "fa-folder-open", label: "Projects", sub: "projects", run: () => scrollTo("projects") },
+      { group: "Navigate", icon: "fa-file-signature", label: "Contracts", sub: "contracts", run: () => scrollTo("contracts") },
+      { group: "Navigate", icon: "fa-certificate", label: "Certifications", sub: "certifications", run: () => scrollTo("certifications") },
       { group: "Navigate", icon: "fa-chart-simple", label: "Skills & Proficiency", sub: "skills", run: () => scrollTo("skills") },
     ];
     const actions = [
