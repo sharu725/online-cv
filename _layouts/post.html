@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<section class="section blog-post-section">
+    <a class="back-to-blog" href="{{ '/blog' | relative_url }}">&larr; Back to blog</a>
+    <h2 class="section-title"><i class="fa fa-pencil"></i>{{ page.title }}</h2>
+    <div class="meta">
+        <div class="time">{{ page.date | date: "%B %-d, %Y" }}</div>
+    </div><!--//meta-->
+    {% if page.tags.size > 0 %}
+    <div class="post-tags">
+        {% for tag in page.tags %}
+        <a class="post-tag" href="{{ '/tags' | relative_url }}#{{ tag | slugify }}">#{{ tag }}</a>
+        {% endfor %}
+    </div><!--//post-tags-->
+    {% endif %}
+    <div class="post-content">
+        {{ content }}
+    </div><!--//post-content-->
+</section><!--//section-->

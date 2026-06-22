@@ -1,0 +1,36 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+<section class="section blog-section">
+    <h2 class="section-title"><i class="fa fa-pencil"></i>Blog</h2>
+    <div class="intro">
+        <p>Notes and learnings on platform engineering, reliability, and whatever else I'm digging into.</p>
+    </div><!--//intro-->
+
+    {% if site.posts.size > 0 %}
+        {% for post in site.posts %}
+        <div class="item">
+            <div class="meta">
+                <div class="upper-row">
+                    <h3 class="job-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+                    <div class="time">{{ post.date | date: "%B %-d, %Y" }}</div>
+                </div><!--//upper-row-->
+            </div><!--//meta-->
+            <div class="details">
+                <p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+                {% if post.tags.size > 0 %}
+                <div class="post-tags">
+                    {% for tag in post.tags %}
+                    <a class="post-tag" href="{{ '/tags' | relative_url }}#{{ tag | slugify }}">#{{ tag }}</a>
+                    {% endfor %}
+                </div><!--//post-tags-->
+                {% endif %}
+            </div><!--//details-->
+        </div><!--//item-->
+        {% endfor %}
+    {% else %}
+        <div class="intro"><p>No posts yet — check back soon.</p></div>
+    {% endif %}
+</section><!--//section-->

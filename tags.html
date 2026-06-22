@@ -1,0 +1,33 @@
+---
+layout: default
+title: Tags
+permalink: /tags/
+---
+<section class="section tags-section">
+    <h2 class="section-title"><i class="fa fa-tags"></i>Tags</h2>
+
+    {% if site.tags.size > 0 %}
+    <div class="intro">
+        <p>
+        {% for tag in site.tags %}
+            <a class="post-tag" href="#{{ tag[0] | slugify }}">#{{ tag[0] }} ({{ tag[1].size }})</a>
+        {% endfor %}
+        </p>
+    </div><!--//intro-->
+
+    {% for tag in site.tags %}
+    <div class="item">
+        <h3 class="job-title" id="{{ tag[0] | slugify }}">#{{ tag[0] }}</h3>
+        <div class="details">
+            <ul class="list-unstyled">
+            {% for post in tag[1] %}
+                <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <span class="time">{{ post.date | date: "%b %-d, %Y" }}</span></li>
+            {% endfor %}
+            </ul>
+        </div><!--//details-->
+    </div><!--//item-->
+    {% endfor %}
+    {% else %}
+    <div class="intro"><p>No tags yet.</p></div>
+    {% endif %}
+</section><!--//section-->
