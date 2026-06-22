@@ -1,6 +1,16 @@
 ---
 layout: default
 ---
+<style>
+.blog-post-section .post-content table { border-collapse: collapse; width: 100%; margin: 1.5em 0; font-size: 0.95em; }
+.blog-post-section .post-content th,
+.blog-post-section .post-content td { border: 1px solid #e0e0e0; padding: 8px 12px; text-align: left; vertical-align: top; }
+.blog-post-section .post-content thead th { background: #f5f7f8; font-weight: 600; }
+.blog-post-section .post-content tbody tr:nth-child(even) { background: #fafbfc; }
+.blog-post-section .post-content code { background: #f4f4f4; padding: 1px 5px; border-radius: 3px; font-size: 0.9em; }
+.blog-post-section .post-content pre { background: #f6f8fa; padding: 14px 16px; border-radius: 6px; overflow-x: auto; }
+.blog-post-section .post-content pre code { background: none; padding: 0; }
+</style>
 <section class="section blog-post-section">
     <a class="back-to-blog" href="{{ '/blog' | relative_url }}">&larr; Back to blog</a>
     <h2 class="section-title"><i class="fa fa-pencil"></i>{{ page.title }}</h2>
