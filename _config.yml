@@ -1,6 +1,8 @@
 
-title: My Resume
-url: 'www.lalet.me'
+title: Lalet Scaria
+description: Staff Engineer (Platform/Reliability) — notes on cloud platforms, Kubernetes, and reliability.
+author: Lalet Scaria
+url: 'https://lalet.me'
 baseurl: '' #change it according to your repository name
 
 
@@ -14,13 +16,12 @@ baseurl: '' #change it according to your repository name
 
 #Profile information
 name: Lalet Scaria
-tagline: Master's Student
+tagline: Staff Engineer — Platform / Reliability
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
 email: laletscaria+site@gmail.com
-phone: 514-295-24(eight)(eight)
-website: 'www.lalet.me'  #do not add http://
+website: 'lalet.me'  #do not add http://
 linkedin: laletscaria
 github: lalet
 twitter: '@laletscaria'
@@ -28,4 +29,9 @@ twitter: '@laletscaria'
 
 # Tracker
 analytics: #UA-83979019-1
+
+# Plugins (GitHub Pages whitelisted)
+plugins:
+  - jekyll-feed
+
 #Update all the sections by editing the files inside _includes folder.

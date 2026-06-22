@@ -19,10 +19,8 @@
                     
                     {% if site.phone %}
                     <li class="phone"><i class="fa fa-phone"></i><a href="tel:{{site.phone}}">{{site.phone}}</a></li>
-                    {% else %}
-                    <li class="phone"><i class="fa fa-phone"></i><a href="tel:012 345 6789">012 345 6789</a></li>
                     {% endif %}
-                    
+
                     {% if site.website %}
                     <li class="website"><i class="fa fa-globe"></i><a href="http://{{site.website}}" target="_blank">{{site.website}}</a></li>
                     {% else %}
@@ -49,7 +47,17 @@
                     
                 </ul>
             </div><!--//contact-container-->
+
+            <div class="nav-container container-block">
+                <ul class="list-unstyled nav-list">
+                    <li><i class="fa fa-home"></i><a href="{{ '/' | relative_url }}">Home</a></li>
+                    <li><i class="fa fa-pencil"></i><a href="{{ '/blog' | relative_url }}">Blog</a></li>
+                    <li><i class="fa fa-rss"></i><a href="{{ '/feed.xml' | relative_url }}">RSS</a></li>
+                </ul>
+            </div><!--//nav-container-->
+
            {% include education.html %}
+           {% include certifications.html %}
            {% include language.html %}
            {% include interests.html %}
            {% include about.html %}
