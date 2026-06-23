@@ -6,7 +6,7 @@ tags: [homelab, infrastructure, proxmox, kubernetes]
 ---
 
 First post in a series on building out my homelab. The goal is to run the same
-kind of infrastructure I work on (Kubernetes, GitOps, observability) without
+kind of infrastructure I work on ([Kubernetes](https://kubernetes.io/), GitOps, observability) without
 paying a cloud bill for every experiment. Part 1 is the hardware.
 
 ## How it started
@@ -15,7 +15,7 @@ I ran a homelab on a couple of Raspberry Pis for a while. They were great for
 poking at things: small, cheap, low power, and hard to break in any permanent
 way.
 
-Then I wanted to run models locally with Ollama, and the Pis ran out of room
+Then I wanted to run models locally with [Ollama](https://ollama.com/), and the Pis ran out of room
 fast. Fine for tinkering, not for anything memory hungry. I wanted a real
 multi-node setup I could run a proper Kubernetes cluster on, and host local LLMs
 without paying per token.
@@ -37,7 +37,7 @@ The two workhorses, plex1 and plex2. They're identical:
 | RAM | 24 GB |
 | Boot disk | ~256 GB NVMe |
 | Data disk | 2 TB SSD |
-| Hypervisor | Proxmox VE 9 |
+| Hypervisor | [Proxmox VE](https://www.proxmox.com/en/proxmox-virtual-environment/overview) 9 |
 
 A 35 W CPU sips power and stays quiet, but six cores and 24 GB are plenty for a
 few VMs, with enough headroom left for Ollama. I picked two boxes instead of one
@@ -47,7 +47,7 @@ learn how multi-node setups behave.
 ### 2x Raspberry Pi 5
 
 The Pis are still here, and they're not just tinkering boxes anymore. Both run
-Talos Linux as full members of the Kubernetes cluster (Part 3 covers that). One
+[Talos Linux](https://www.talos.dev/) as full members of the Kubernetes cluster (Part 3 covers that). One
 is a third control-plane node, the tie-breaker that gives etcd an odd-numbered
 quorum. The other is an arm64 worker. A Pi makes a good tie-breaker: low power,
 and unlike a laptop it comes back on by itself after an outage.
