@@ -54,9 +54,13 @@ clustering — the whole point of the exercise.
 
 ### 2× Raspberry Pi 5 — where it all started
 
-The Pis are still around. They were the original homelab and my first set of
-experiments, and they've earned a permanent spot. These days they handle the
-lighter, always-on bits while the OptiPlex nodes do the heavy lifting.
+The Pis are still around — they were the original homelab and my first set of
+experiments, and they've earned a permanent spot. But they're no longer just
+tinkering boxes: both now run **Talos Linux** as full members of the Kubernetes
+cluster (much more on that in Part 3). One serves as a **third control-plane
+node** — the tie-breaker that gives etcd a proper odd-numbered quorum — and the
+other runs as an **arm64 worker**. A Pi makes a great control-plane tie-breaker:
+it sips power and, unlike a laptop, powers itself back on after an outage.
 
 ### Storage: Buffalo TeraStation 5200 NVR
 
