@@ -1,0 +1,40 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<style>
+  body { background: #f5f5f5; }
+  .blog-page { max-width: 820px; margin: 0 auto; padding: 0 15px; }
+  .blog-header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; padding: 22px 4px; }
+  .blog-brand { font-weight: 700; color: #2d7788; font-size: 19px; text-decoration: none; }
+  .blog-topnav a { color: #2d7788; text-decoration: none; margin-left: 20px; font-size: 14px; }
+  .blog-topnav a:hover, .blog-brand:hover { text-decoration: underline; }
+  .blog-main.main-wrapper { background: #fff; padding: 45px; border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08); margin-bottom: 30px; }
+  .blog-main .post-tag { color: #2d7788; text-decoration: none; margin-right: 10px; font-size: 13px; }
+  .blog-main .post-tag:hover { text-decoration: underline; }
+  .blog-main .back-to-blog { color: #97AAC3; text-decoration: none; font-size: 14px; }
+  .blog-main .back-to-blog:hover { color: #2d7788; }
+  @media (max-width: 600px) { .blog-main.main-wrapper { padding: 25px; } }
+</style>
+<body>
+    <div class="blog-page">
+        <header class="blog-header">
+            <a class="blog-brand" href="{{ '/' | relative_url }}">{{ site.name }}</a>
+            <nav class="blog-topnav">
+                <a href="{{ '/' | relative_url }}">Home</a>
+                <a href="{{ '/blog' | relative_url }}">Blog</a>
+                <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+            </nav>
+        </header>
+        <div class="main-wrapper blog-main">
+            {{ content }}
+        </div><!--//blog-main-->
+    </div><!--//blog-page-->
+
+{% include footer.html %}
+{% include scripts.html %}
+</body>
+</html>
