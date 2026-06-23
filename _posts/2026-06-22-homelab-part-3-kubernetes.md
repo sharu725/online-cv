@@ -7,8 +7,9 @@ tags: [homelab, kubernetes, talos, cilium, gitops]
 
 [Part 1]({{ '/2026/06/21/homelab-part-1-hardware.html' | relative_url }}) covered
 the hardware and [Part 2]({{ '/2026/06/22/homelab-part-2-proxmox.html' | relative_url }})
-got Proxmox running. This is where it comes together: a Kubernetes cluster spread
-across the Proxmox VMs and the Raspberry Pis, running Talos Linux.
+got Proxmox running. This is where it comes together: a
+[Kubernetes](https://kubernetes.io/) cluster spread across the Proxmox VMs and
+the Raspberry Pis, running [Talos Linux](https://www.talos.dev/).
 
 ## Why Talos
 
@@ -30,7 +31,7 @@ Seven nodes, mixed on purpose:
 | worker | worker4 | Raspberry Pi (arm64) |
 
 Three control planes, not two. Part 2 ended on the two-node quorum problem, and
-this is the fix: etcd wants an odd number, so a third control plane (a Pi) lets
+this is the fix: [etcd](https://etcd.io/) wants an odd number, so a third control plane (a Pi) lets
 the cluster survive losing any one of them. The control planes sit on different
 machines, and a floating virtual IP is the API endpoint, so kubectl talks to the
 cluster rather than to one node. The amd64 VMs and the arm64 Pis run side by
@@ -40,7 +41,7 @@ side, which keeps me honest about multi-arch images.
 
 A few things cost me real time.
 
-Cilium dropped traffic between nodes. With the default overlay, pods on the same
+[Cilium](https://cilium.io/) dropped traffic between nodes. With the default overlay, pods on the same
 node could talk but pods on different nodes couldn't, and it failed silently. On
 Proxmox the fix was switching Cilium to native routing.
 
@@ -59,8 +60,9 @@ local-path on the SSDs for anything that needs to be quick.
 
 ## What runs on it
 
-Everything is GitOps through ArgoCD, so the cluster's state is just a Git repo.
-On top of that sits the reason for the whole upgrade: Ollama for local LLMs, and
+Everything is GitOps through [ArgoCD](https://argo-cd.readthedocs.io/en/stable/),
+so the cluster's state is just a Git repo. On top of that sits the reason for the
+whole upgrade: [Ollama](https://ollama.com/) for local LLMs, and
 Plex with the iGPU passed through for transcoding.
 
 ## What's next

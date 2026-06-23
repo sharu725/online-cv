@@ -6,7 +6,7 @@ tags: [homelab, proxmox, infrastructure]
 ---
 
 [Part 1]({{ '/2026/06/21/homelab-part-1-hardware.html' | relative_url }}) covered
-the hardware. This one is about Proxmox VE, the thing that turns those two mini
+the hardware. This one is about [Proxmox VE](https://www.proxmox.com/en/proxmox-virtual-environment/overview), the thing that turns those two mini
 PCs into boxes I can carve VMs out of. Both nodes run version 9.
 
 ## Installing it
@@ -34,8 +34,9 @@ on, so each node got a 2 TB SSD for the VM disks.
 | local-lvm | 256 GB NVMe | small system disks |
 | local-ssd | 2 TB SSD | the actual VM disks |
 
-I used LVM-thin rather than ZFS. These are single-disk nodes without much spare
-RAM, and ZFS wants more of both than this setup has to give.
+I used LVM-thin rather than [ZFS](https://openzfs.org/). These are single-disk
+nodes without much spare RAM, and ZFS wants more of both than this setup has to
+give.
 
 ## Networking
 
