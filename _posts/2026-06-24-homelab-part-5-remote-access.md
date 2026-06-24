@@ -36,8 +36,7 @@ email code, or a real identity provider.
 
 One honest caveat: Access only gets you to the door. The apps still have their own
 login behind it. Making one login cover everything means wiring each app to an
-identity provider, which is [Authentik](https://goauthentik.io/), and that's a job
-for later.
+identity provider, which is Authentik, and that's a job for later.
 
 ## Door two: the command line
 
