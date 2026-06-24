@@ -20,6 +20,7 @@ permalink: /blog/
             </div><!--//meta-->
             <div class="details">
                 <p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+                <a class="read-more" href="{{ post.url | relative_url }}">Continue reading &rarr;</a>
                 {% if post.tags.size > 0 %}
                 <div class="post-tags">
                     {% for tag in post.tags %}
