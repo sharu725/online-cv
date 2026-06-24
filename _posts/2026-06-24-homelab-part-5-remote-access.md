@@ -6,63 +6,62 @@ tags: [homelab, cloudflare, tailscale, networking, security]
 ---
 
 [Part 4]({{ '/2026/06/23/homelab-part-4-argocd.html' | relative_url }}) got the
-cluster running itself. Good. But it only lived on the home network. Grug want to
-check cluster from couch. From phone. From cafe with borrowed wifi. Home network
-say no.
+cluster running itself, but it only lived on the home network. I wanted to check
+it from the couch, from my phone, from a cafe on borrowed wifi. So I set up two
+ways in, for two different jobs, and neither one opens a port on the home router.
+That last part matters.
 
-So I built two doors, for two different jobs. Neither one opens a port on the
-home router. That part matters.
+## Door one: dashboards from any browser
 
-## Door one: see the dashboards from any browser
-
-Sometimes I just want to open a web UI on whatever machine is in front of me. No
-client to install, no VPN. For that I use a
+Sometimes I just want to pull up a web UI on whatever machine is in front of me,
+with no client to install. For that I use a
 [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/).
 
-A small agent runs inside the cluster. It dials out to Cloudflare and holds the
-door open from the inside. Nothing listens on the router. The home address stays
-hidden. That agent can reach both the in-cluster services and the other boxes on
-the network, so there is no load balancer and no port forwarding to babysit.
+A small agent runs inside the cluster and dials out to Cloudflare, holding the
+connection open from the inside. Nothing listens on the router, and the home
+address stays hidden. That agent can reach both the in-cluster services and the
+other boxes on the network, so there's no load balancer or port forwarding to
+babysit.
 
-One fight with the cave: my home gateway blocks the fast protocol the tunnel
-wants (the UDP one). Tunnel just refused to connect. Stared at it for a while,
-confused. The fix was to force the tunnel onto the older TCP path. Then it
-worked. Router happy, grug happy.
+The thing that tripped me up: my home gateway blocks the fast UDP protocol the
+tunnel prefers, so it just wouldn't connect, and it took me a while to spot. The
+fix was forcing the tunnel onto the older TCP path, and then it came right up.
 
-## The guard at the door
+## The guard
 
-Public is fine only if someone checks faces. So the tunnel sits behind
-[Cloudflare Access](https://developers.cloudflare.com/cloudflare-one/policies/access/).
-Access decides who you are at the edge, before any traffic reaches the cluster:
-an email code, or a real identity provider.
+Public access is only fine if something checks who you are. So the tunnel sits
+behind [Cloudflare Access](https://developers.cloudflare.com/cloudflare-one/policies/access/),
+which authenticates you at the edge, before any traffic reaches the cluster: an
+email code, or a real identity provider.
 
-Honest bit: Access only gets you to the door. The apps still have their own login
-behind it. One login for everything means wiring each app to an identity
-provider. That is [Authentik](https://goauthentik.io/), and that is a job for
-later.
+One honest caveat: Access only gets you to the door. The apps still have their own
+login behind it. Making one login cover everything means wiring each app to an
+identity provider, which is [Authentik](https://goauthentik.io/), and that's a job
+for later.
 
-## Door two: drive the cluster from the command line
+## Door two: the command line
 
-Browsers are for looking. For actually running things, a public URL is the wrong
-tool. I want the machine to trust the device, not just check a password.
+Browsers are for looking. For actually running things (kubectl, the Talos API), a
+public URL is the wrong tool. I'd rather the cluster trust the device than check a
+password.
 
-So every node joins a private mesh with
-[Tailscale](https://tailscale.com/), and my laptop joins the same mesh. Now the
-command line works from anywhere, like the cluster is on the desk next to me, and
-none of it touches the public internet.
+So every node joins a private mesh with [Tailscale](https://tailscale.com/), and
+my laptop is on the same mesh. The command line works from anywhere, like the
+cluster is sitting on the desk next to me, and none of it is exposed to the public
+internet.
 
-One trap cost real time: the cluster's API would not trust the mesh until I added
-the nodes' mesh addresses to its certificate. Before that, every connection from
-the mesh got rejected. Add the addresses, regenerate the cert, done.
+This one cost me an afternoon: the cluster's API wouldn't trust the mesh until I
+added the nodes' mesh addresses to its certificate. Until then, every connection
+from the mesh got rejected. Add the addresses, regenerate the cert, and it works.
 
 ## Two doors, on purpose
 
-Public browser door for the quick "let me just check it" moments. Private mesh
-door for the real admin work. Different trust, different jobs. Neither one opens a
-hole in the home router, which was the whole point.
+The public browser door is for the quick "let me just check it" moments. The
+private mesh door is for real admin work. Different trust, different jobs, and
+neither one opens a hole in the home router, which was the whole point.
 
-## Next
+## What's next
 
-Right now the outer guard and the apps each ask for a login, so I sign in twice.
-The next job is making them agree: one sign-on with Authentik, so it is one face
-at the gate instead of two.
+Right now the guard and the apps each ask for a login, so I end up signing in
+twice. Next up is making them agree: single sign-on with Authentik, so it's one
+face at the gate instead of two.
