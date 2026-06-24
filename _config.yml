@@ -17,7 +17,7 @@ baseurl: '' #change it according to your repository name
 #Profile information
 name: Lalet Scaria
 tagline: Staff Engineer — Platform / Reliability
-pic: profile-incf.png  #place a 100x100 picture inside /assets/images/ folder
+pic: profile-cloaked.png  #place a 100x100 picture inside /assets/images/ folder
 
 #sidebar links
 email: laletscaria+site@gmail.com
