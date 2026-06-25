@@ -14,3 +14,4 @@ gem "base64"
 gem "bigdecimal"
 gem "logger"
 gem "ostruct"
+gem "webrick"   # `jekyll serve` web server; unbundled from Ruby 3+
