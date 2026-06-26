@@ -84,8 +84,8 @@ scratch space at startup instead of mounting it frozen.
 
 ### The graphs with no numbers
 
-The node CPU and memory widget just said "API Error." It turns out Homepage asks
-the cluster for live usage numbers, and nothing in mine was producing them.
+The node CPU and memory widget just said "API Error." Homepage asks the cluster
+for live usage numbers, and nothing in mine was producing them.
 [Talos](https://www.talos.dev/) doesn't ship the little component that does
 ([metrics-server](https://github.com/kubernetes-sigs/metrics-server)), and when
 you add it by hand it needs one extra flag to trust Talos's self-signed internal
@@ -122,9 +122,8 @@ the leader falls over.
 
 I almost reached for three. But CloudNativePG doesn't need a third for a clean
 handoff. It leans on Kubernetes itself to decide who leads, so there's no tie to
-break, and a third instance is really just a spare for the spare. For a home
-setup that's a pod and a disk I don't need. Two is the honest amount of paranoia
-here.
+break, and a third instance is just a spare for the spare. For a home setup
+that's a pod and a disk I don't need. Two is the honest amount of paranoia here.
 
 ## What's next
 
