@@ -30,7 +30,7 @@ portal), plus a small widget showing each node's CPU and memory, and I had a
 front page for the whole house.
 
 <figure>
-  <img src="https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif" alt="mind blown reaction" loading="lazy">
+  <img src="https://media.giphy.com/media/2QSvHa1pqlcmBOeI77/giphy.gif" alt="woman doing a chef's kiss with MAGNIFICENT caption" loading="lazy">
   <figcaption>One page, every box. Should have done this months ago.</figcaption>
 </figure>
 
@@ -60,8 +60,8 @@ code by email.
 That second option staying put is deliberate, and it's the whole trick.
 
 <figure>
-  <img src="https://media.giphy.com/media/QMHoU66sBXqqLqYvGO/giphy.gif" alt="this is fine dog in a burning room" loading="lazy">
-  <figcaption>Authentik is down and it's the only way in. Don't be this dog.</figcaption>
+  <img src="https://media.giphy.com/media/LRVnPYqM8DLag/giphy.gif" alt="Jordan Peele sweating nervously" loading="lazy">
+  <figcaption>Authentik is down and it's the only way in. Start sweating.</figcaption>
 </figure>
 
 If I made Authentik the only way in, then the day it breaks I'm locked out of
@@ -92,7 +92,7 @@ you add it by hand it needs one extra flag to trust Talos's self-signed internal
 certificates. One flag, and the bars filled in.
 
 <figure>
-  <img src="https://media.giphy.com/media/hQKJwKAzq5NERlLf8L/giphy.gif" alt="confused math lady" loading="lazy">
+  <img src="https://media.giphy.com/media/oaXRLIMnkGBnuQOBzE/giphy.gif" alt="thousand yard stare" loading="lazy">
   <figcaption>Reading scrape configs for an hour when the answer was "install the thing that makes the numbers."</figcaption>
 </figure>
 
@@ -102,7 +102,7 @@ A small one. The ArgoCD tile showed a broken image while every other icon
 loaded. The icon set calls it argo-cd, and I'd written argocd. One hyphen.
 
 <figure>
-  <img src="https://media.giphy.com/media/HDQ26psL97H8K2qoUU/giphy.gif" alt="Picard facepalm" loading="lazy">
+  <img src="https://media.giphy.com/media/3xz2BLBOt13X9AgjEA/giphy.gif" alt="Batman facepalm" loading="lazy">
   <figcaption>An hour of my life, one missing hyphen.</figcaption>
 </figure>
 
