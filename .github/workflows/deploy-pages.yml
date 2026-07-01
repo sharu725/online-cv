@@ -1,0 +1,57 @@
+name: Deploy Pages
+
+# Fires on every push to gh-pages -- both normal content merges and the
+# PR Preview workflow's own commits into pr-preview/pr-<n>/. Replaces
+# GitHub's classic "build from branch" deployment (build_type: legacy),
+# which rebuilt from scratch on every push with no visibility or control.
+
+on:
+  push:
+    branches: [gh-pages]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      # Ruby 3.2+ removed Object#tainted?, which the pinned Liquid 4.0.3
+      # (from the github-pages gem) still calls. Pin 3.1 instead of the
+      # RUBYOPT shim bin/serve needs locally on newer Rubies.
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.1"
+          bundler-cache: true
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build -d ./_site/
+
+      # pr-preview/ in the checked-out branch is already-built static HTML
+      # from active PR previews (excluded from the Jekyll build above) --
+      # carry it forward as-is so previews stay reachable after this deploy.
+      - name: Carry forward active PR previews
+        run: |
+          if [ -d pr-preview ]; then
+            mkdir -p _site/pr-preview
+            cp -r pr-preview/. _site/pr-preview/
+          fi
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site/
+
+      - uses: actions/deploy-pages@v4
+        id: deployment

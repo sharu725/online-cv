@@ -34,4 +34,23 @@ analytics: #UA-83979019-1
 plugins:
   - jekyll-feed
 
+# Jekyll 3.x REPLACES its default exclude list with this one instead of
+# merging (that only changed in Jekyll 4), so the built-in defaults have to
+# be listed explicitly alongside pr-preview -- otherwise vendor/bundle/ gets
+# un-excluded and Jekyll tries to build the jekyll gem's own template files.
+# pr-preview/ itself holds pre-built static HTML from the PR Preview
+# workflow, not Jekyll source, so the root build shouldn't process it either.
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - pr-preview
+
 #Update all the sections by editing the files inside _includes folder.
