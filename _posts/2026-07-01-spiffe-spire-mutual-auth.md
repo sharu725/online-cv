@@ -7,11 +7,21 @@ tags: [cilium, spiffe, spire, kubernetes, security]
 
 Most Kubernetes network policy answers one question: can this IP reach that IP, on this port. It never asks who's actually on the other end. [SPIFFE](https://spiffe.io/) and [SPIRE](https://spiffe.io/docs/latest/spire-about/spire-concepts/) exist to answer that second question, and I ended up wiring them into my own cluster to gate a specific pod-to-pod link. Here's what they are, and how the build went.
 
+<figure>
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3lpdGhleHp0dzNncmYzYWhkZzgxZXZ6cnd1YW9wcWMzN2F5czNpeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l4dLyz1rYq1eK2AIsD/giphy.gif" alt="A bouncer standing with arms crossed, guarding a door" loading="lazy">
+  <figcaption>Basically what mutual authentication does at every hop, minus the beret.</figcaption>
+</figure>
+
 ## The problem with IP-based trust
 
 A Kubernetes `NetworkPolicy` (or its Cilium equivalent) typically allows traffic based on labels and namespaces, which the control plane resolves down to IP addresses under the hood. That works, but it's trusting the network, not the workload. If something compromises a node or spoofs a source IP, a policy built purely on "traffic from this subnet is fine" has nothing left to check.
 
 SPIFFE flips that around. Every workload gets a cryptographic identity, independent of where it happens to be running, and services can require proof of that identity before talking to each other. It's the same idea behind mutual TLS, standardized so any workload orchestrator can plug into it.
+
+<figure>
+  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3bGxucW0wdWNxcTMycWEyNDVpOWRmNTR4N2J0djQ4dWxsanN6Y3pkeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/lL7kQLUCBD7a4LGwZS/giphy.gif" alt="Line drawing of a dog with the caption 'IAM is hard.' and hashtag HeckinIAM" loading="lazy">
+  <figcaption>Identity and access management in one honest sentence.</figcaption>
+</figure>
 
 ## What SPIFFE and SPIRE actually are
 
@@ -36,9 +46,19 @@ The rollout was mostly turning the feature on and writing one policy rule with `
 
 Neither is a flaw in the design so much as normal early-days friction with a feature that's still marked beta upstream. Once past that, the behavior was exactly as advertised: kill the identity provider mid-flight, and covered traffic fails closed rather than falling back to trusting the network.
 
+<figure>
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGMwYnA3d3didG9xa3FvM3lqM3k5ajB2cjVxYWgzbWxseGNzZGhkaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/pgcz9Arntj2Zq/giphy.gif" alt="A black cat filing its claws with a nail file" loading="lazy">
+  <figcaption>Me, sharpening my policy rules after the second gotcha.</figcaption>
+</figure>
+
 ## Why bother
 
 The honest case for this is defense in depth, not paranoia. Namespace isolation and network policy already cover most of what a homelab needs. SPIFFE/SPIRE is for the specific case where you have one link you want to be genuinely sure about, cryptographically, not just topologically, and you're willing to run the extra control plane to get it. For everything else, a solid default-deny policy and a service account with no permissions does most of the actual work.
+
+<figure>
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGMwYnA3d3didG9xa3FvM3lqM3k5ajB2cjVxYWgzbWxseGNzZGhkaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/WSrPRXyADD2SUpb5in/giphy.gif" alt="A finger poking a black paw, claws extending in response" loading="lazy">
+  <figcaption>The claws only need to come out for the link that actually matters.</figcaption>
+</figure>
 
 ## References
 
