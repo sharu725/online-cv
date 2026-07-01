@@ -1,0 +1,39 @@
+name: PR Preview
+
+on:
+  pull_request:
+    branches: [gh-pages]
+    types: [opened, reopened, synchronize, closed]
+
+concurrency:
+  group: preview-${{ github.ref }}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Ruby 3.2+ removed Object#tainted?, which the pinned Liquid 4.0.3 (from
+      # the github-pages gem) still calls. Pin 3.1 here instead of reaching
+      # for the RUBYOPT shim bin/serve needs locally on newer Rubies.
+      - uses: ruby/setup-ruby@v1
+        if: github.event.action != 'closed'
+        with:
+          ruby-version: "3.1"
+          bundler-cache: true
+
+      # Override baseurl so relative_url-filtered links resolve under the
+      # preview subpath (pr-preview/pr-<n>/) instead of the site root, which
+      # is what _config.yml's baseurl: '' normally produces for production.
+      - name: Build Jekyll site
+        if: github.event.action != 'closed'
+        run: bundle exec jekyll build -d ./_site/ --baseurl "/pr-preview/pr-${{ github.event.number }}"
+
+      - uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: ./_site/
