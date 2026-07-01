@@ -34,4 +34,9 @@ analytics: #UA-83979019-1
 plugins:
   - jekyll-feed
 
+# pr-preview/ holds pre-built static HTML from the PR Preview workflow, not
+# Jekyll source -- exclude it so the root build doesn't try to process it.
+exclude:
+  - pr-preview
+
 #Update all the sections by editing the files inside _includes folder.
