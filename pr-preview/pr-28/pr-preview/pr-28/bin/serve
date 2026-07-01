@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Local Jekyll preview wrapper.
+# Ruby 3.2+ removed Object#tainted?, which the pinned Liquid 4.0.3 still calls.
+# The github-pages gem runs in safe mode, so a _plugins shim is ignored; inject
+# it via RUBYOPT instead. GitHub Pages is unaffected (this is local-only).
+# Usage: bin/serve [extra jekyll serve flags]   e.g. bin/serve --livereload
+set -euo pipefail
+cd "$(dirname "$0")/.."
+shim="${TMPDIR:-/tmp}/jekyll-taint-shim.rb"
+cat >"$shim" <<'RUBY'
+class Object
+  def tainted?; false; end
+  def taint; self; end
+  def untaint; self; end
+end
+RUBY
+RUBYOPT="-r$shim" bundle exec jekyll serve "$@"

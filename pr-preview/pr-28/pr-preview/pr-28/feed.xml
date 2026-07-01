@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://lalet.me/pr-preview/pr-28/feed.xml" rel="self" type="application/atom+xml" /><link href="https://lalet.me/pr-preview/pr-28/" rel="alternate" type="text/html" /><updated>2026-07-01T17:47:03+00:00</updated><id>https://lalet.me/pr-preview/pr-28/feed.xml</id><title type="html">Lalet Scaria</title><subtitle>Staff Engineer (Platform/Reliability) — notes on cloud platforms, Kubernetes, and reliability.</subtitle><author><name>Lalet Scaria</name></author><entry><title type="html">Give Yourself a Chat Bot: OpenRouter + OpenClaw + Telegram</title><link href="https://lalet.me/pr-preview/pr-28/2026/07/01/openrouter-openclaw-telegram-setup.html" rel="alternate" type="text/html" title="Give Yourself a Chat Bot: OpenRouter + OpenClaw + Telegram" /><published>2026-07-01T00:00:00+00:00</published><updated>2026-07-01T00:00:00+00:00</updated><id>https://lalet.me/pr-preview/pr-28/2026/07/01/openrouter-openclaw-telegram-setup</id><content type="html" xml:base="https://lalet.me/pr-preview/pr-28/2026/07/01/openrouter-openclaw-telegram-setup.html"><![CDATA[<p>I wanted an AI assistant I could just text like a friend. Not a browser tab, not an app, just Telegram. Turns out you can wire that up in about twenty minutes with two free accounts and one open-source project. Here’s the whole thing, start to finish.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://lalet.me/pr-preview/pr-28/feed.xml" rel="self" type="application/atom+xml" /><link href="https://lalet.me/pr-preview/pr-28/" rel="alternate" type="text/html" /><updated>2026-07-01T17:40:52+00:00</updated><id>https://lalet.me/pr-preview/pr-28/feed.xml</id><title type="html">Lalet Scaria</title><subtitle>Staff Engineer (Platform/Reliability) — notes on cloud platforms, Kubernetes, and reliability.</subtitle><author><name>Lalet Scaria</name></author><entry><title type="html">Give Yourself a Chat Bot: OpenRouter + OpenClaw + Telegram</title><link href="https://lalet.me/pr-preview/pr-28/2026/07/01/openrouter-openclaw-telegram-setup.html" rel="alternate" type="text/html" title="Give Yourself a Chat Bot: OpenRouter + OpenClaw + Telegram" /><published>2026-07-01T00:00:00+00:00</published><updated>2026-07-01T00:00:00+00:00</updated><id>https://lalet.me/pr-preview/pr-28/2026/07/01/openrouter-openclaw-telegram-setup</id><content type="html" xml:base="https://lalet.me/pr-preview/pr-28/2026/07/01/openrouter-openclaw-telegram-setup.html"><![CDATA[<p>I wanted an AI assistant I could just text like a friend. Not a browser tab, not an app, just Telegram. Turns out you can wire that up in about twenty minutes with two free accounts and one open-source project. Here’s the whole thing, start to finish.</p>
 
 <h2 id="what-youre-building">What you’re building</h2>
 
@@ -101,21 +101,11 @@ openclaw config <span class="nb">set</span> <span class="nt">--replace</span> <s
 
 <p>That’s the whole setup. No monthly bill, and a bot in my pocket that only knows what I told it.</p>]]></content><author><name>Lalet Scaria</name></author><category term="openclaw" /><category term="openrouter" /><category term="telegram" /><category term="selfhosted" /><category term="ai" /><summary type="html"><![CDATA[I wanted an AI assistant I could just text like a friend. Not a browser tab, not an app, just Telegram. Turns out you can wire that up in about twenty minutes with two free accounts and one open-source project. Here’s the whole thing, start to finish.]]></summary></entry><entry><title type="html">Workload Identity for Pods: A SPIFFE/SPIRE Primer</title><link href="https://lalet.me/pr-preview/pr-28/2026/07/01/spiffe-spire-mutual-auth.html" rel="alternate" type="text/html" title="Workload Identity for Pods: A SPIFFE/SPIRE Primer" /><published>2026-07-01T00:00:00+00:00</published><updated>2026-07-01T00:00:00+00:00</updated><id>https://lalet.me/pr-preview/pr-28/2026/07/01/spiffe-spire-mutual-auth</id><content type="html" xml:base="https://lalet.me/pr-preview/pr-28/2026/07/01/spiffe-spire-mutual-auth.html"><![CDATA[<p>Most Kubernetes network policy answers one question: can this IP reach that IP, on this port. It never asks who’s actually on the other end. <a href="https://spiffe.io/">SPIFFE</a> and <a href="https://spiffe.io/docs/latest/spire-about/spire-concepts/">SPIRE</a> exist to answer that second question, and I ended up wiring them into my own cluster to gate a specific pod-to-pod link. Here’s what they are, and how the build went.</p>
 
-<figure>
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3lpdGhleHp0dzNncmYzYWhkZzgxZXZ6cnd1YW9wcWMzN2F5czNpeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l4dLyz1rYq1eK2AIsD/giphy.gif" alt="A bouncer standing with arms crossed, guarding a door" loading="lazy" />
-  <figcaption>Basically what mutual authentication does at every hop, minus the beret.</figcaption>
-</figure>
-
 <h2 id="the-problem-with-ip-based-trust">The problem with IP-based trust</h2>
 
 <p>A Kubernetes <code class="language-plaintext highlighter-rouge">NetworkPolicy</code> (or its Cilium equivalent) typically allows traffic based on labels and namespaces, which the control plane resolves down to IP addresses under the hood. That works, but it’s trusting the network, not the workload. If something compromises a node or spoofs a source IP, a policy built purely on “traffic from this subnet is fine” has nothing left to check.</p>
 
 <p>SPIFFE flips that around. Every workload gets a cryptographic identity, independent of where it happens to be running, and services can require proof of that identity before talking to each other. It’s the same idea behind mutual TLS, standardized so any workload orchestrator can plug into it.</p>
-
-<figure>
-  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3bGxucW0wdWNxcTMycWEyNDVpOWRmNTR4N2J0djQ4dWxsanN6Y3pkeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/lL7kQLUCBD7a4LGwZS/giphy.gif" alt="Line drawing of a dog with the caption 'IAM is hard.' and hashtag HeckinIAM" loading="lazy" />
-  <figcaption>Identity and access management in one honest sentence.</figcaption>
-</figure>
 
 <h2 id="what-spiffe-and-spire-actually-are">What SPIFFE and SPIRE actually are</h2>
 
@@ -142,19 +132,9 @@ openclaw config <span class="nb">set</span> <span class="nt">--replace</span> <s
 
 <p>Neither is a flaw in the design so much as normal early-days friction with a feature that’s still marked beta upstream. Once past that, the behavior was exactly as advertised: kill the identity provider mid-flight, and covered traffic fails closed rather than falling back to trusting the network.</p>
 
-<figure>
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGMwYnA3d3didG9xa3FvM3lqM3k5ajB2cjVxYWgzbWxseGNzZGhkaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/pgcz9Arntj2Zq/giphy.gif" alt="A black cat filing its claws with a nail file" loading="lazy" />
-  <figcaption>Me, sharpening my policy rules after the second gotcha.</figcaption>
-</figure>
-
 <h2 id="why-bother">Why bother</h2>
 
 <p>The honest case for this is defense in depth, not paranoia. Namespace isolation and network policy already cover most of what a homelab needs. SPIFFE/SPIRE is for the specific case where you have one link you want to be genuinely sure about, cryptographically, not just topologically, and you’re willing to run the extra control plane to get it. For everything else, a solid default-deny policy and a service account with no permissions does most of the actual work.</p>
-
-<figure>
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGMwYnA3d3didG9xa3FvM3lqM3k5ajB2cjVxYWgzbWxseGNzZGhkaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/WSrPRXyADD2SUpb5in/giphy.gif" alt="A finger poking a black paw, claws extending in response" loading="lazy" />
-  <figcaption>The claws only need to come out for the link that actually matters.</figcaption>
-</figure>
 
 <h2 id="references">References</h2>
 
