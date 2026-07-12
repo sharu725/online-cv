@@ -3,7 +3,7 @@ sidebar:
   education: true
   name: Claudiu Milea
   tagline: Senior Backend and Data Engineer specializing in Python
-  avatar:
+  avatar: pozaClaudiu2.png
   email: claudius.milea@gmail.com
   phone: +40-732-409-311
   location: Bucharest, Romania
@@ -26,7 +26,7 @@ career-profile:
 
     Proven background in QA automation and test engineering, building robust automation frameworks and CI/CD practices that improve quality, speed of delivery, and system stability.
 
-    Comfortable working across the stack of modern backend development with relational and vector databases, messaging systems, container orchestration, and cloud-native tooling, with hands-on exposure to RAG workflows and document processing.
+    Comfortable working across the stack of modern backend development with relational and vector databases, messaging systems, container orchestration, and cloud-native tooling, with hands-on experience in Python, FastAPI, Django, Flask, PostgreSQL, Qdrant, Redis, Docker, Kubernetes, and AWS.
 
 education:
   title: Education
@@ -93,7 +93,7 @@ experiences:
         - Refactored the backend to AWS Lambda, AWS Step Functions, and API Gateway for improved scalability and performance.
         - Migrated legacy code from Weaviate to Qdrant.
         - Implemented auth for REST APIs using AWS Cognito and IAM.
-      technologies: AWS, S3, Lambda, Step Functions, ECS, EC2, Cognito, RDS, CloudWatch, IAM, Textract, OpenAI, Cohere, Unstructured.ai, Qdrant, Weaviate, Google Document AI, Python, FastAPI, Pydantic, Alembic, SQLAlchemy, Postgres, PyMuPDF, PyPDF2, boto3, TypeScript, Node.js, Next.js, tRPC, Jest
+      technologies: AWS, S3, Lambda, Step Functions, ECS, EC2, Cognito, RDS, CloudWatch, IAM, Textract, OpenAI, Cohere, Unstructured.ai, Qdrant, Weaviate, Google Document AI, Python, FastAPI, Pydantic, SQLAlchemy, Alembic, MySQL, TypeScript, Next.js, GraphQL, Redis
 
     - role: Senior Python Developer
       time: 2023-06 - 2024-09
@@ -218,7 +218,7 @@ projects:
     - title: Prompt Master — LLM Prompt-Engineering Platform
       tagline: Created an end-to-end prompt-engineering platform for authoring, versioning, critique, rewriting, execution, export, and cost visibility.
     - title: Escheatment Legal Monitor — AI-Assisted Compliance Crawler
-      tagline: Built an AI-assisted compliance crawler monitoring all 50 US state unclaimed-property websites with change detection, escalation strategies, audit trail, and human approval workflow.
+      tagline: Built an AI-assisted compliance crawler monitoring all 50 US state unclaimed-property websites with change detection, escalation strategies, audit trail, and human approval workflows.
     - title: AI First Issuer Processing Platform
       tagline: Delivered platform capabilities around Cognito/IAM auth, Python and TypeScript services, GraphQL, and AWS serverless/data infrastructure.
     - title: Austrian Law RAG Application
