@@ -1,14 +1,14 @@
 sidebar:
-  position: Senior Backend and Data Engineer
-  about: true
+  about: false
   education: true
   name: Claudiu Milea
   tagline: Senior Backend and Data Engineer specializing in Python
   avatar:
   email: claudius.milea@gmail.com
-  phone: tel:+40-732-409-311
+  phone: +40-732-409-311
   location: Bucharest, Romania
-  interests:
+  linkedin: claudiumilea
+  github: claudiumilea
   languages:
     title: Languages
     info:
@@ -16,10 +16,6 @@ sidebar:
         level: Advanced
       - idiom: German
         level: Lower Intermediate
-  social:
-    - item: linkedin
-      link: https://www.linkedin.com/in/claudiumilea
-      title: claudiumilea
 
 career-profile:
   title: Summary
@@ -35,29 +31,29 @@ career-profile:
 education:
   title: Education
   info:
-    - degree: BS
+    - degree: BS in Computer Science
       university: Romanian American University
       time: 1995-10 - 1999-05
-      details: Computer Science, Bucharest, Romania
+      details: Bucharest, Romania
 
 certifications:
   title: Certificates
   list:
     - name: Certified Python Programmer PCEP-30-01
       start: 2021-02
-      end: 2021-02
+      end:
       organization: Credly
-      credentialid: 
+      credentialid:
       credentialurl: https://www.credly.com/badges/c96c8aa9-3a03-4347-a5cf-1544b96531d3?source=linked_in_profile
-      credentialname: Certified Python Programmer PCEP-30-01
+      credentialname: View credential
       details: Python certification
     - name: Microsoft Technology Associate 98-381 Introduction to Programming Using Python
       start: 2021-02
-      end: 2021-02
+      end:
       organization: Microsoft
       credentialid: H758-8762
-      credentialurl: 
-      credentialname: Introduction to Programming Using Python
+      credentialurl:
+      credentialname:
       details: Microsoft Technology Associate certification
 
 experiences:
@@ -67,45 +63,44 @@ experiences:
       time: 2025-06 - Present
       company: Endava, Romania
       details: |
-        - Citizen Developer Enablement (enable non-technical or semi-technical employees) and applications refactoring (coding) and deployment (devops tasks).
-        - Support Risk Analysts and Quant Developers in building data pipelines and data products for a leading global Energy and Commodity groups.
-        - Refactor and prepare python code for data pipelines to be deployed in production.
-        - Code optimization for best practices and performance.
-        - Implement data pipelines using Kubernetes, ArgoWorkflows, ArgoCD, Dagster.
-        - Add OIDC, SSO, OAuth to existing Dash, Dash Enterprise, Flask solutions.
-      technologies: Docker, Kubernetes, Python, ArgoCD, ArgoWorkflows, Dagster, Minio, Postgres, Vault, Azure, Ansible, Streamlit, Dash Enterprise, SSO, OIDC, Entra ID
+        - Citizen Developer Enablement for non-technical or semi-technical employees, plus application refactoring and deployment support.
+        - Support Risk Analysts and Quant Developers in building data pipelines and data products for a leading global energy and commodity group.
+        - Refactor and prepare Python code for production deployment.
+        - Optimize code for best practices and performance.
+        - Implement data pipelines using Kubernetes, Argo Workflows, Argo CD, and Dagster.
+        - Add OIDC, SSO, and OAuth to existing Dash, Dash Enterprise, and Flask solutions.
+      technologies: Docker, Kubernetes, Python, ArgoCD, ArgoWorkflows, Dagster, MinIO, Postgres, Vault, Azure, Ansible, Streamlit, Dash Enterprise, SSO, OIDC, Entra ID
 
     - role: Senior Python Developer
       time: 2024-01 - 2025-06
       company: Endava, Romania
       details: |
-        - Developed an SDWAN provisioning solution for satellite communication for a global communication company with a Python engineering team of seven members.
-        - Architected and implemented new microservices for the SDWAN provisioning solution.
+        - Developed an SDWAN provisioning solution for satellite communications with a seven-engineer Python team.
+        - Architected and implemented new microservices for the platform.
         - Improved deployment efficiency and reduced operational costs by optimizing the service-oriented architecture.
-        - Improved metrics and monitoring for the SDWAN provisioning solution.
+        - Improved metrics and monitoring for the solution.
       technologies: Docker, Kubernetes, Python, FastAPI, asyncio, Postgres, RabbitMQ, Redis, AWS, OpenStack, Linux, Jenkins, CircleCI
 
     - role: Senior Python Developer
       time: 2024-09 - 2025-04
       company: Omnisource Technologies (Client Quench.ai), San Francisco, CA, USA
       details: |
-        - Developed a RAG Application for Physician-Engineered Generative AI to revolutionize medical documentation.
-        - Architected and implemented OCR and NLP services for medical documentation processing.
-        - Architected and implemented the backend relational and vector databases for the RAG application.
+        - Developed a RAG application for physician-engineered generative AI focused on medical documentation.
+        - Architected and implemented OCR and NLP services for medical document processing.
+        - Built relational and vector database backends for the RAG platform.
         - Implemented backend services and endpoints for PDF processing, repository management, and AI services using Python and FastAPI.
         - Implemented backend endpoints for AI services and data processing using TypeScript and Next.js.
-        - Refactored the existing backend codebase to AWS Lambda, AWS Step Functions and API Gateway for improved scalability and performance.
-        - Refactored existing codebase for AI services to improve performance and scalability.
-        - Migrated legacy code from Weaviate to Qdrant vector database for improved performance.
+        - Refactored the backend to AWS Lambda, AWS Step Functions, and API Gateway for improved scalability and performance.
+        - Migrated legacy code from Weaviate to Qdrant.
         - Implemented auth for REST APIs using AWS Cognito and IAM.
-      technologies: S3, Lambda, Step Functions, ECS, EC2, Cognito, RDS, CloudWatch, IAM, Textract, OpenAI, Cohere, AWS Textract, Unstructured.ai, Qdrant, Weaviate, Google Document AI, Python, FastAPI, Pydantic, Alembic, SQLAlchemy, Postgres, PyMuPDF, PyPDF2, boto3, TypeScript, Node.js, Next.js, tRPC, Jest
+      technologies: AWS, S3, Lambda, Step Functions, ECS, EC2, Cognito, RDS, CloudWatch, IAM, Textract, OpenAI, Cohere, Unstructured.ai, Qdrant, Weaviate, Google Document AI, Python, FastAPI, Pydantic, Alembic, SQLAlchemy, Postgres, PyMuPDF, PyPDF2, boto3, TypeScript, Node.js, Next.js, tRPC, Jest
 
     - role: Senior Python Developer
       time: 2023-06 - 2024-09
       company: Omnisource Technologies (Client TailFin), New York, NY, USA
       details: |
-        - Developed a solution for management of refunds and escheatment based on a rule-based engine with different rules for all states in the USA.
-        - Implemented a rules-based engine that automated the end-to-end process, reduced errors, and increased the speed of processing refunds to within 24 hours.
+        - Developed a refunds and escheatment management solution using a rules engine for all US states.
+        - Implemented a rules-based engine that automated the end-to-end process, reduced errors, and improved refund processing speed to within 24 hours.
         - Implemented auth for REST APIs using AWS Cognito and IAM.
       technologies: Python, FastAPI, Pydantic, Alembic, Django, AWS, Cognito, IAM, REST, MySQL, Node.js
 
@@ -113,35 +108,35 @@ experiences:
       time: 2022-11 - 2023-05
       company: Omnisource Technologies (Client Score Connection), New York, NY, USA
       details: |
-        - Built a credit scoring solution for end customers and multiple partners for white labeling.
-        - Developed new features for a Django backend, improving performance and aligning with best practices.
-        - Implemented server-side code optimization resulting in a 20-40% improvement in response times.
+        - Built a credit scoring solution for end customers and white-label partners.
+        - Developed new Django backend features, improving performance and alignment with best practices.
+        - Implemented server-side optimizations resulting in a 20–40% improvement in response times.
       technologies: Python, Django, asyncio, AWS, REST, MySQL, Node.js
 
     - role: Python Developer
       time: 2022-07 - 2023-03
       company: Vega Protocol, London, UK
       details: |
-        - Implemented end-to-end integration and system tests for a blockchain-based DeFi platform for trading financial products.
+        - Implemented end-to-end integration and system tests for a blockchain-based DeFi trading platform.
         - Contributed to infrastructure optimization.
-        - Eliminated manual testing through fully automated tests in a CI/CD pipeline.
+        - Eliminated manual testing through fully automated CI/CD tests.
       technologies: Python, asyncio, PyTest, REST, GraphQL, k6
 
     - role: Python Developer
       time: 2022-06 - 2022-09
       company: Publicis Sapient, Bucharest, Romania
       details: |
-        - Developed Python scripts to scrape data from large e-commerce stores in Romania using BeautifulSoup, Requests, and related tooling.
+        - Developed Python scripts to scrape data from major Romanian e-commerce stores.
         - Created Flask web applications to manage collected data efficiently.
-        - Improved customer data aggregation, resulting in a 30% increase in customer sign-ups.
+        - Improved customer data aggregation, contributing to a 30% increase in customer sign-ups.
       technologies: Python, Flask, BeautifulSoup, Requests, REST, MySQL, HTML, CSS, JavaScript, Postgres
 
     - role: Software Engineer in Test with TypeScript and Python
       time: 2021-11 - 2022-07
       company: Annalise AI, Sydney, Australia
       details: |
-        - Developed and implemented a QA automation framework for the React frontend using TypeScript, Jest, and Puppeteer.
-        - Created a robust QA automation framework for the backend utilizing Python and PyTest.
+        - Developed a QA automation framework for the React frontend using TypeScript, Jest, and Puppeteer.
+        - Created a backend QA automation framework using Python and PyTest.
         - Reduced manual test cycle time by 90%, improved test coverage by 50%, and increased overall test accuracy by 50%.
       technologies: Python, PyTest, TypeScript, Jest, Puppeteer, React, AWS, REST, GraphQL, Node.js
 
@@ -157,26 +152,26 @@ experiences:
       time: 2019-09 - 2020-09
       company: Tracr, London, UK
       details: |
-        - Development for distributed diamond blockchain tamper-proof source assurance.
+        - Contributed to a distributed blockchain platform for tamper-proof diamond source assurance.
       technologies: Python, FastAPI, Pydantic, Alembic, AWS, REST, JavaScript, Docker, Kubernetes, GitLab
 
     - role: Tech Lead / CTO
       time: 2009-08 - 2019-09
       company: Euro-Testing, Bucharest, Romania
       details: |
-        - Developed various software solutions for clients in the UK, Middle East and Romania using Python, Java, C#.
-        - Developed internal tooling using Python and C#.
+        - Developed software solutions for clients in the UK, Middle East, and Romania using Python, Java, and C#.
+        - Built internal tooling using Python and C#.
         - Established and managed QA automation using Java, Python, and JavaScript.
         - Led software projects to successful completion as a Tech Lead.
-        - Oversaw infrastructure in Romania R&D center and managed a QA team of 9 people.
+        - Oversaw infrastructure in the Romania R&D center and managed a QA team of 9 people.
       technologies: Java, Python, JavaScript, C#, UFT Developer, Selenium, Cucumber, REST, Locust, JMeter, LoadRunner, Postman, Burp Suite, Appium, Android Studio, Xcode, Jira, Confluence
 
     - role: Technical Project Manager
       time: 2010-10 - 2015-10
       company: Vodafone Romania, Bucharest, Romania
       details: |
-        - CRM Transformation.
-        - Application integration projects EAI, Informatica, Oracle Exadata.
+        - CRM transformation.
+        - Application integration projects using EAI, Informatica, and Oracle Exadata.
         - Billing system transformation.
         - IVR/USSD redesign and upgrade.
         - Various billing and commercial offers projects.
@@ -190,17 +185,17 @@ experiences:
 
     - role: Project Manager
       time: 2006-07 - 2007-11
-      company: Romtelecom - incumbent wireline telco in Romania, Bucharest, Romania
+      company: Romtelecom, Bucharest, Romania
       details: |
-        - Partner Billing System Upgrade.
-        - Partner Billing System Integration.
+        - Partner Billing System upgrade.
+        - Partner Billing System integration.
         - Managed a team of 15 people.
 
     - role: Testing Manager
       time: 2005-01 - 2006-06
       company: Bluespace Federal, London, UK / Austin, TX, USA
       details: |
-        - Spearheaded testing for three successful product releases for Bluespace Federal.
+        - Spearheaded testing for three successful product releases.
         - Coordinated testing strategies across multiple locations and platforms.
 
     - role: QA Manager | Test Manager | Test Lead | Test Automation Engineer
@@ -210,34 +205,34 @@ experiences:
         - Managed a QA team of 75 people.
         - Implemented QA strategies and processes across multiple projects.
         - Functional and non-functional testing for BSS projects.
-        - Implemented testing strategies and processes across multiple projects (CRM, Selfcare, Billing, IVR, USSD, EAI, Data Warehouse, BSS).
+        - Implemented testing strategies and processes across CRM, Selfcare, Billing, IVR, USSD, EAI, Data Warehouse, and BSS projects.
 
 projects:
   title: Projects
   intro: Selected product, platform, and AI/data engineering projects.
   assignments:
     - title: Talent–Job Matching RAG Platform
-      tagline: Built a full-stack RAG platform that parses CVs and job descriptions with Claude, indexes them via hybrid retrieval (pgvector, BM25, reranker), and surfaces evidence-backed candidate↔role matches.
+      tagline: Built a full-stack RAG platform that parses CVs and job descriptions with Claude, indexes them via hybrid retrieval, and surfaces evidence-backed candidate-to-role matches.
     - title: YouTube Summarizer
-      tagline: Self-hosted full-stack app that turns long-form YouTube videos into searchable, taggable summaries with timestamps, per-video Q&A, and multi-format export.
+      tagline: Built a self-hosted full-stack application that turns long-form YouTube videos into searchable summaries with timestamps, Q&A, and export options.
     - title: Prompt Master — LLM Prompt-Engineering Platform
-      tagline: End-to-end prompt-engineering platform covering authoring, versioning, critique, rewrite, execution, export, and cost visibility with CLI/UI parity.
+      tagline: Created an end-to-end prompt-engineering platform for authoring, versioning, critique, rewriting, execution, export, and cost visibility.
     - title: Escheatment Legal Monitor — AI-Assisted Compliance Crawler
-      tagline: AI-assisted compliance crawler monitoring all 50 US state unclaimed-property websites with change detection, escalation strategies, audit trail, and human approval workflow.
+      tagline: Built an AI-assisted compliance crawler monitoring all 50 US state unclaimed-property websites with change detection, escalation strategies, audit trail, and human approval workflow.
     - title: AI First Issuer Processing Platform
-      tagline: Built platform capabilities around Cognito/IAM auth, Python and TypeScript services, GraphQL, and AWS serverless/data infrastructure.
+      tagline: Delivered platform capabilities around Cognito/IAM auth, Python and TypeScript services, GraphQL, and AWS serverless/data infrastructure.
     - title: Austrian Law RAG Application
-      tagline: Legal RAG application for an Austrian law firm using OCR, LLM, NLP, FastAPI, Redis, and vector databases.
+      tagline: Built a legal RAG application for an Austrian law firm using OCR, LLM, NLP, FastAPI, Redis, and vector databases.
     - title: RAG Application for document classification
       tagline: Developed a RAG application for identifying and classifying documents using OCR and NLP services.
     - title: LSEG QA Automation and Data Integration
-      tagline: QA automation and data integration for projects with 2000+ data sources using Python/PyTest, Azure Databricks, and Data Factory.
+      tagline: Delivered QA automation and data integration for projects with 2000+ data sources using Python/PyTest, Azure Databricks, and Data Factory.
     - title: Siemens Energy QA Automation
-      tagline: Backend and frontend QA automation frameworks for a blockchain-based Clean Energy Certificates platform using Python/PyTest and Dart/Flutter.
+      tagline: Built backend and frontend QA automation frameworks for a blockchain-based clean energy certificates platform using Python/PyTest and Dart/Flutter.
     - title: ID now
-      tagline: Performance testing for ID Now's solution using Locust and Gatling, plus new Python features for QA automation frameworks with PyTest, Robot, and Jenkins.
+      tagline: Performed performance testing using Locust and Gatling and extended Python QA automation frameworks with PyTest, Robot, and Jenkins.
     - title: Swibeco
-      tagline: Performance testing and QA automation for an e-commerce platform using K6, Playwright, and TypeScript to improve UI/API validation and resolve bottlenecks.
+      tagline: Delivered performance testing and QA automation for an e-commerce platform using K6, Playwright, and TypeScript.
 
 oss:
   title: OSS Contributions
