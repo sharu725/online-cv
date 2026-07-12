@@ -220,7 +220,7 @@ projects:
     - title: Escheatment Legal Monitor — AI-Assisted Compliance Crawler
       tagline: Built an AI-assisted compliance crawler monitoring all 50 US state unclaimed-property websites with change detection, escalation strategies, audit trail, and human approval workflows.
     - title: AI First Issuer Processing Platform
-      tagline: Delivered platform capabilities around Cognito/IAM auth, Python and TypeScript services, GraphQL, and AWS serverless/data infrastructure.
+      tagline: Contributed to platform IAM infrastructure and backend services supporting a distributed payments platform. Implemented Cognito integration, token management, and access control across REST and gRPC services. Built and maintained microservices in Python (Starlette, FastAPI, Falcon) for authentication, customer account management, and payment workflows. Worked with AWS serverless infrastructure (Lambda, ECS, DynamoDB) and supported data pipeline work.
     - title: Austrian Law RAG Application
       tagline: Built a legal RAG application for an Austrian law firm using OCR, LLM, NLP, FastAPI, Redis, and vector databases.
     - title: RAG Application for document classification
