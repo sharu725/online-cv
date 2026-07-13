@@ -244,56 +244,309 @@ publications:
   papers: []
 
 skill_categories:
-  - category_title: Core Engineering Skills
+  - category_title: Web frameworks
     skills:
-      - title: Backend and APIs
+      - title: FastAPI
         toolset:
-          - name: Python
-            level: 98%
           - name: FastAPI
             level: 95%
           - name: Django
             level: 88%
           - name: Flask
             level: 88%
-          - name: REST APIs
-            level: 95%
-          - name: GraphQL
-            level: 80%
-      - title: Data and AI
+          - name: Dash
+            level: 82%
+          - name: Streamlit
+            level: 82%
+      - title: Python libraries
         toolset:
-          - name: PostgreSQL
-            level: 92%
+          - name: Boto3
+            level: 88%
           - name: SQLAlchemy
             level: 92%
-          - name: Qdrant / Weaviate / pgvector
-            level: 86%
-          - name: RAG Systems
-            level: 88%
-          - name: OCR / Document Processing
+          - name: Pydantic
+            level: 92%
+          - name: Pydantic Settings
             level: 85%
-      - title: Cloud and DevOps
+          - name: Alembic
+            level: 88%
+          - name: Jinja2
+            level: 82%
+          - name: Celery
+            level: 80%
+          - name: Requests
+            level: 92%
+          - name: HTTPX
+            level: 86%
+          - name: urllib3
+            level: 82%
+          - name: lxml
+            level: 80%
+          - name: psycopg2
+            level: 84%
+          - name: asyncpg
+            level: 82%
+          - name: aiofiles
+            level: 80%
+          - name: pyodbc
+            level: 78%
+          - name: hvac
+            level: 78%
+      - title: Code quality
+        toolset:
+          - name: typing
+            level: 92%
+          - name: black
+            level: 90%
+          - name: pylint
+            level: 88%
+          - name: mypy
+            level: 86%
+          - name: pyright
+            level: 84%
+          - name: Flake8
+            level: 85%
+
+  - category_title: Cloud Computing and CI/CD
+    skills:
+      - title: Platforms and delivery
         toolset:
           - name: AWS
             level: 90%
           - name: Docker
             level: 92%
+          - name: GitHub
+            level: 92%
+          - name: GitLab
+            level: 86%
+          - name: ArgoCD
+            level: 84%
+          - name: Argo Workflows
+            level: 84%
+          - name: Jenkins
+            level: 86%
           - name: Kubernetes
             level: 86%
-          - name: CI/CD
+          - name: CircleCI
+            level: 82%
+          - name: GitLab CI
+            level: 82%
+          - name: GitHub Actions
+            level: 84%
+          - name: Temporal.io
+            level: 76%
+      - title: AWS services
+        toolset:
+          - name: S3
+            level: 90%
+          - name: Lambda
+            level: 90%
+          - name: Step Functions
+            level: 86%
+          - name: ECS
             level: 88%
+          - name: EC2
+            level: 86%
+          - name: EKS
+            level: 82%
+          - name: Cognito
+            level: 90%
+          - name: RDS
+            level: 86%
+          - name: CloudWatch
+            level: 86%
+          - name: IAM
+            level: 88%
+          - name: Textract
+            level: 82%
+      - title: IaC and cloud tools
+        toolset:
           - name: Terraform
             level: 78%
-      - title: QA and Performance
+          - name: Ansible
+            level: 80%
+          - name: Azure
+            level: 78%
+          - name: Databricks
+            level: 76%
+          - name: Microsoft Entra ID
+            level: 82%
+          - name: OAuth2/OIDC
+            level: 88%
+          - name: HashiCorp Vault
+            level: 82%
+          - name: MinIO
+            level: 84%
+
+  - category_title: RAG and Data Processing
+    skills:
+      - title: LLM and retrieval stack
+        toolset:
+          - name: OpenAI
+            level: 88%
+          - name: Anthropic Claude API
+            level: 86%
+          - name: LangChain
+            level: 82%
+          - name: LangGraph
+            level: 78%
+          - name: Cohere
+            level: 80%
+          - name: Hugging Face
+            level: 78%
+          - name: Unstructured.ai
+            level: 82%
+          - name: Qdrant
+            level: 86%
+          - name: Weaviate
+            level: 84%
+      - title: Document and data processing
+        toolset:
+          - name: AWS Textract
+            level: 82%
+          - name: PyMuPDF
+            level: 80%
+          - name: PyPDF2
+            level: 80%
+          - name: openpyxl
+            level: 82%
+          - name: pandas
+            level: 88%
+          - name: dask
+            level: 76%
+
+  - category_title: Languages, APIs, and Databases
+    skills:
+      - title: Programming languages and APIs
+        toolset:
+          - name: Python
+            level: 98%
+          - name: TypeScript
+            level: 84%
+          - name: JavaScript
+            level: 82%
+          - name: Java
+            level: 74%
+          - name: REST APIs
+            level: 95%
+          - name: GraphQL
+            level: 80%
+          - name: gRPC
+            level: 78%
+          - name: tRPC
+            level: 72%
+      - title: Database technologies
+        toolset:
+          - name: Postgres
+            level: 92%
+          - name: MySQL
+            level: 88%
+          - name: MongoDB
+            level: 78%
+          - name: Qdrant
+            level: 86%
+          - name: Weaviate
+            level: 84%
+          - name: pgvector
+            level: 82%
+
+  - category_title: QA Automation and Testing
+    skills:
+      - title: QA automation using Python
         toolset:
           - name: PyTest
             level: 95%
-          - name: Playwright / Cypress / Puppeteer
+          - name: PyTest-BDD
+            level: 86%
+          - name: pytest-playwright
+            level: 82%
+          - name: freezegun
+            level: 80%
+          - name: pytest-cov
+            level: 84%
+          - name: pytest-mock
+            level: 84%
+          - name: Selenium
             level: 88%
-          - name: Locust / k6 / JMeter / Gatling
+          - name: Cucumber
+            level: 84%
+          - name: REST
+            level: 92%
+          - name: JSON
+            level: 92%
+          - name: Faker
+            level: 82%
+      - title: QA automation using JavaScript or TypeScript
+        toolset:
+          - name: Playwright
+            level: 88%
+          - name: Cypress
+            level: 88%
+          - name: Puppeteer
+            level: 88%
+          - name: Detox
+            level: 72%
+          - name: TestCafe
+            level: 74%
+          - name: Jest
+            level: 84%
+          - name: Jasmine
+            level: 76%
+          - name: Chai
+            level: 76%
+      - title: Performance and testing tools
+        toolset:
+          - name: k6
             level: 85%
-          - name: Test Automation Frameworks
-            level: 94%
+          - name: Locust
+            level: 85%
+          - name: JMeter
+            level: 84%
+          - name: Gatling
+            level: 82%
+          - name: LoadRunner
+            level: 80%
+          - name: LoadRunner Developer
+            level: 78%
+          - name: Postman
+            level: 90%
+          - name: Burp Suite
+            level: 82%
+          - name: Charles
+            level: 76%
+          - name: Fiddler
+            level: 76%
+          - name: Appium
+            level: 78%
+          - name: Android Studio
+            level: 72%
+          - name: Xcode
+            level: 70%
+
+  - category_title: Tooling and Collaboration
+    skills:
+      - title: IDE and tooling
+        toolset:
+          - name: PyCharm
+            level: 92%
+          - name: VS Code
+            level: 90%
+          - name: Copilot
+            level: 88%
+          - name: ChatGPT
+            level: 90%
+          - name: Claude
+            level: 88%
+      - title: Agile tooling
+        toolset:
+          - name: Jira
+            level: 92%
+          - name: Confluence
+            level: 90%
+          - name: Notion
+            level: 82%
+          - name: Miro
+            level: 80%
 
 design:
   theme: classic
