@@ -5,9 +5,30 @@
       <h3>{{ skills.title }}</h3>
       <div class="skillset">
         {% for skill in skills.toolset %}
+          {% assign skill_level_number = skill.level | remove: '%' | plus: 0 %}
+          {% if skill_level_number >= 90 %}
+            {% assign skill_level_label = 'Expert' %}
+          {% elsif skill_level_number >= 80 %}
+            {% assign skill_level_label = 'Advanced' %}
+          {% elsif skill_level_number >= 70 %}
+            {% assign skill_level_label = 'Intermediate' %}
+          {% else %}
+            {% assign skill_level_label = 'Working knowledge' %}
+          {% endif %}
           <div class="item">
-            <h4 class="level-title">{{ skill.name }}</h4>
-            <div class="level-bar">
+            <div class="skill-meta">
+              <h4 class="level-title">{{ skill.name }}</h4>
+              <span class="level-value">{{ skill.level }} — {{ skill_level_label }}</span>
+            </div>
+            <div
+              class="level-bar"
+              role="meter"
+              aria-label="{{ skill.name }} proficiency"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              aria-valuenow="{{ skill_level_number }}"
+              aria-valuetext="{{ skill.level }} — {{ skill_level_label }}"
+            >
               <div class="level-bar-inner" data-level="{{ skill.level }}"></div>
             </div><!--//level-bar-->
           </div><!--//item-->
