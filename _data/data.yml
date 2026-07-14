@@ -1,286 +1,253 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output.
+# AJ Book - research profile
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  position: right
+  about: False
+  education: False
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: AJ Book
+  tagline: "Spatial Regulatory Biology · Systems Immunology · Cell-State Dynamics"
+  avatar: https://avatars.githubusercontent.com/u/42758438?v=4
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  email:
+  phone:
+  timezone:
   citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
+  website: https://secondbook5.github.io/
+  linkedin: aj-abraham-book
+  orcid: 0009-0004-7058-7510
+  xing:
+  github: SecondBook5
+  telegram:
   gitlab:
   bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  bluesky:
+  twitter:
+  stack-overflow:
   codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  goodreads:
+  mastodon:
+  hackerrank:
+  leetcode:
+  pdf:
 
   languages:
     title: Languages
     info:
     - idiom: English
       level: Native
-
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
+    - idiom: Hebrew
+      level: Conversational
 
   interests:
-    title: Interests
+    title: Research interests
     info:
-    - item: Climbing
+    - item: Spatial regulatory biology
       link:
-
-
-    - item: Snowboarding
+    - item: Systems immunology
       link:
-
-
-    - item: Cooking
+    - item: Cell-state dynamics and tissue-state transitions
       link:
-
+    - item: Gene regulation and regulatory genomics
+      link:
+    - item: Single-cell and spatial multi-omics
+      link:
+    - item: Mechanistic machine learning and universal differential equations
+      link:
+    - item: Translational biomarker discovery
+      link:
 
 career-profile:
-  title: Career Profile
+  title: Bio
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    I am a computational biologist working at the intersection of spatial regulatory biology, systems immunology, and cell-state dynamics. My central scientific interest is how regulatory programs—including transcription factors, RNA-binding proteins, microRNAs, and chromatin architecture—interact with immune and tissue context to determine which cellular states emerge, persist, transition, or fail in disease.
+
+    I am an M.S. candidate in Bioinformatics at Johns Hopkins University and a Graduate Research Assistant in the [Advanced Computing and Oncology Laboratory](https://www.mskcc.org/research-areas/labs/members/abraham-aj-book) at Memorial Sloan Kettering Cancer Center. My thesis project, [StageBridge](https://github.com/SecondBook5/StageBridge), develops niche-conditioned models of cell-state transition from cross-sectional single-cell and spatial transcriptomic data. In parallel, my work at MSK integrates quantitative imaging, immune profiling, tumor genomics, circulating biomarkers, and clinical outcomes to study how host biology shapes treatment response and disease trajectory.
+
+    Across these projects, I aim to move from static molecular description toward mechanistically interpretable models of biological change. I am especially interested in computational frameworks that connect gene-regulatory programs to spatial organization and cell-state transitions, and in universal differential equations and other hybrid mechanistic-learning approaches that can incorporate known biology while learning the dynamics that remain unknown. This is the research direction I intend to develop through Ph.D. training.
+
+current-focus:
+  title: Current focus
+  items:
+  - title: Spatial regulatory biology and cell-state dynamics
+    description: I study how local niche context and regulatory programs shape cell-state transitions across premalignant, malignant, inflammatory, and tissue-remodeling settings. StageBridge is the current methodological foundation for this direction, combining receiver-centered niche representations with progression-aware transition modeling.
+  - title: Systems immunology and host response
+    description: Through HostBio and the broader thymic-reserve program, I investigate how systemic immune architecture and host tissue state modify treatment response, toxicity, recurrence, and survival. This work connects quantitative imaging with longitudinal immune phenotyping, tumor genomics, radiation exposure, and clinical outcomes across multiple lung cancer cohorts.
+  - title: Collaborative disease biology
+    description: I contribute computational analysis and model development to collaborations in secondary lymphedema, myasthenia gravis and thymoma, cGAS-STING biology, and head and neck squamous cell carcinoma. These projects provide complementary systems in which to study immune regulation, tissue remodeling, and disease-associated cell states.
+  - title: Mechanistic models of biological dynamics
+    description: A growing methods focus is the use of universal differential equations and other hybrid mechanistic-machine-learning models to represent biological systems whose governing structure is partly known but whose context-dependent dynamics must be learned from data.
+  - title: Research software as scientific infrastructure
+    description: I build reproducible, configuration-driven platforms for single-cell analysis, quantitative imaging, microbiome research, and cancer genomics. The goal is not software for its own sake, but infrastructure that makes complex biological questions auditable, scalable, and testable across datasets.
+
+projects:
+  title: Selected projects
+  intro: >
+    Together, these projects form a connected research program: learning how cell states are regulated in tissue context, quantifying host and immune biology from clinical data, and building rigorous computational infrastructure that can carry those questions across cohorts and modalities.
+  assignments:
+  - title: StageBridge
+    link: "https://github.com/SecondBook5/StageBridge"
+    tagline: "A thesis-driven framework for inferring how local immune and stromal niches reshape epithelial cell-state trajectories during lung adenocarcinoma progression. StageBridge integrates dual-reference atlas mapping, receiver-centered set representations, optimal transport, conditional flow matching, spatial transcriptomics, and evolutionary context to move beyond static stage comparisons toward niche-conditioned models of transition."
+
+  - title: HostBio
+    link: "https://github.com/Advanced-Computing-and-Oncology-Lab/HostBio"
+    tagline: "A scalable platform for extracting biologically interpretable host phenotypes from routine CT and MRI. HostBio combines organ segmentation, scan-adaptive tissue-composition modeling, cohort-scale workflow orchestration, and quantitative quality control to measure thymic, muscle, liver, and tumor-associated states and connect them to immune function, treatment response, toxicity, and survival."
+
+  - title: CellQuorum
+    link: "https://github.com/SecondBook5/CellQuorum"
+    tagline: "A reproducible, GPU-aware single-cell RNA-seq workflow engine built to make advanced analysis scalable without sacrificing auditability or scientific discipline. CellQuorum combines strict configuration validation, fail-loud data contracts, provenance tracking, backend-aware execution, ambient-RNA correction, quality control, normalization, integration, clustering, and annotation, with regulatory-network, communication, and trajectory modules under active development."
+
+  - title: Thymus nnUNetv2 Segmentation
+    link: "https://github.com/Advanced-Computing-and-Oncology-Lab/Thymus-nnUNetv2-Segmentation"
+    tagline: "A pretrained five-fold nnUNetv2 framework for 3D thymus segmentation on thoracic CT, with standalone inference, fold-wise evaluation, quantitative metrics, multiplanar overlays, and GPU/CPU support. The model provides the segmentation backbone for scalable radiographic thymic phenotyping within HostBio."
+
+  - title: Secondary Lymphedema Single-Cell Analysis
+    link: "https://github.com/SecondBook5/lymphedema_keratinocyte_par2"
+    tagline: "A collaboration with the Mehrara Lab using paired normal and lymphedematous human skin to resolve disease-associated keratinocyte states and tissue remodeling. The published PAR2 study established a keratinocyte-centered mechanism in secondary lymphedema; ongoing work extends the analysis across epithelial, immune, and stromal compartments with donor-aware inference and cross-dataset validation."
+
+  - title: Dysbioscope
+    link: "https://github.com/SecondBook5/Dysbioscope"
+    tagline: "A collaboration with the Mehrara Lab and a reproducible multi-cohort framework for discovering convergent and context-dependent microbiome responses. Dysbioscope links raw 16S processing, dual taxonomic classification, compositional differential-abundance methods, functional prediction, cross-cohort concordance, and publication-grade visualization in a single Snakemake workflow."
+
+  - title: Cosmic-IMPACT
+    link: "https://github.com/SecondBook5/Cosmic-IMPACT"
+    tagline: "A cancer-genomics toolkit that unifies MSK-IMPACT tissue sequencing and MSK-ACCESS cell-free DNA analysis. The platform integrates mutation annotation, tumor mutational burden, genomic instability, mutational signatures, clonality, driver discovery, ctDNA estimation, and longitudinal clonal-evolution summaries to connect genomic state with clinical trajectory. Research use only; not a clinical diagnostic tool."
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: M.S. in Bioinformatics
+    university: Johns Hopkins University
+    time: 2024 - 2026 expected
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
+      GPA: 4.0
+
+      Master's thesis: StageBridge: Context-Residual Inference of Cell-State-Resolved Niche Effects in Premalignant Epithelial Transitions.
+
+      Advisor: Christopher Bradburne, PhD, Department of Genetic Medicine, Johns Hopkins University School of Medicine / Johns Hopkins Applied Physics Laboratory.
+
+      Selected coursework: Advanced Genomics; Gene Expression Analysis; Systems Biology; Deep Learning Using Transformers; Epigenetics; Cellular Signal Transduction.
+
+  - degree: B.A. in Biochemistry and Mathematics
+    university: Yeshiva University
+    time: 2019 - 2023
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Summa Cum Laude, GPA 3.9.
+
+      Honors thesis: Investigating the Role of MMP14, B7-H3, PTK7, and LRRC15 in Head and Neck Cancers: Implications for Antibody-Drug Conjugates.
 
 experiences:
-  title: Experiences
+  title: Experience
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Graduate Research Assistant
+    time: 2025 - present
+    company: Advanced Computing and Oncology Lab, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      Lead conceptual development and computational strategy for translational studies of tumor-host interaction, immune remodeling, thymic composition, treatment toxicity, and lung cancer outcomes.
+
+      - Develop multimodal analysis frameworks integrating thoracic CT, radiation dose, clinical outcomes, targeted sequencing, circulating tumor DNA, RNA-seq, flow cytometry, cytokine profiling, and immune validation assays.
+      - Build spatial and single-cell workflows for reference-atlas mapping, spatial deconvolution, cell-state annotation, regulatory-network analysis, cell-cell communication, and interpretation of inflammatory, stromal, epithelial, and immune programs.
+      - Contribute to cross-group collaborations in secondary lymphedema, myasthenia gravis and thymoma, cGAS-STING biology, head and neck squamous cell carcinoma, and translational systems immunology.
+      - Develop reusable research software for cohort-scale quantitative imaging, single-cell analysis, microbiome comparison, and cancer genomics.
+      - Generate publication-grade figures, statistical analyses, reproducible workflows, abstracts, and manuscript-ready results; contribute as co-first author and primary quantitative analyst on translational studies.
+
+  - role: Medical / Laboratory Assistant
+    time: 2023 - 2024
+    company: The Center for Skin Surgery, Cornwall, NY
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+      Supported Mohs micrographic surgery workflow, clinical documentation, tissue handling, and dermatopathology preparation for squamous and basal cell carcinoma cases.
+
+      - Prepared frozen tissue sections and H&E-stained slides.
+      - Assisted with immunohistochemistry-associated workflows and surgical pathology review preparation.
+
+  - role: Honors Thesis Research
+    time: Jan - Jul 2023
+    company: Department of Biology, Yeshiva University
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Analyzed TCGA and GEO transcriptomic datasets in R and Bioconductor to study tumor immune microenvironment programs in head and neck squamous cell carcinoma, with emphasis on cancer-associated fibroblast and cancer stem-like cell states.
 
-certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+      - Integrated differential expression, pathway enrichment, survival analysis, cell-cell communication evidence, and structural biology context to prioritize candidate antibody-drug conjugate targets.
+
+  - role: Research Assistant
+    time: 2019
+    company: Bruckner Oncology, Bronx, NY
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      Built and maintained a clinical oncology research database, performed retrospective survival analyses, and contributed to peer-reviewed studies of prognostic factors and treatment outcomes in gastrointestinal cancers.
 
 publications:
   title: Publications
   intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
+    Selected peer-reviewed publications, preprints, and manuscripts.
   papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+  - title: Thymic Composition Predicts Radiation Pneumonitis in Locally Advanced NSCLC
+    link: "https://doi.org/10.1016/j.jtho.2026.103949"
+    authors: Chaunzwa TL, Krishnan G, Book AJ, Miller DG, Amoako-Boadu K, Garomsa B, Meng YJ, Yang E, Ma J, Chidi A, Gomez DR, Shaverdian N.
+    conference: "Journal of Thoracic Oncology. 2026;103949. doi: 10.1016/j.jtho.2026.103949."
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+  - title: Critical Role of Keratinocytes and Protease-Activated Receptor 2 in Secondary Lymphedema Development
+    link: "https://doi.org/10.1002/ctm2.70682"
+    authors: Park HJ, Pal S, Chen X, Shin J, García Nores GD, Baik JE, Stull-Lane A, Book AJ, Clement CC, Encarnacion EM, Klang MG, Riedel E, Chaunzwa TL, Hespe GE, Santambrogio L, Coriddi M, Dayan JH, Mehrara BJ, Kataru RP.
+    conference: "Clinical and Translational Medicine. 2026;16(6):e70682. doi: 10.1002/ctm2.70682."
 
-  - title: A syntax directed compiler for Algol 60
+  - title: Mechanistic Modeling and Machine Learning Identifies Optimum Radiotherapy Schedules to Prevent Treatment-Induced Metastasis
     link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+    authors: Graser CJ, Zhou Z, Schürch M, Moorhead G, Chaunzwa TL, Book AJ, Dean J, Lin C, Dean JA, Gomez D, Kozono D, Lahav G, Michor F.
+    conference: Manuscript under review, 2026.
+
+  - title: Thymus Composition, Disease Control, and Toxicity in Locally Advanced Lung Cancer
+    link: "https://doi.org/10.1101/2025.10.20.25338395"
+    authors: Chaunzwa TL, Book AJ, Garomsa B, Meng YJ, Yang E, Krishnan G, Chidi A, Kim R, Ma J, Riely GJ, Huang J, Simone CB, Shaverdian N, Gomez DR.
+    conference: "medRxiv. 2025. doi: 10.1101/2025.10.20.25338395."
+
+  - title: Cholangiocarcinoma, Sequential Chemotherapy, and Prognostic Tests
+    link: "https://doi.org/10.3389/fonc.2024.1361420"
+    authors: Bruckner HW, De Jager R, Knopf E, Bassali F, Book A, Gurell D, Nghiem V, Schwartz M, Hirschfeld A.
+    conference: "Frontiers in Oncology. 2024;14:1361420. doi: 10.3389/fonc.2024.1361420."
+
+  - title: Actionable Tests and Treatments for Patients with Gastrointestinal Cancers and Historically Short Median Survival Times
+    link: "https://doi.org/10.1371/journal.pone.0276492"
+    authors: Bruckner HW, Bassali F, Dusowitz E, Gurell D, Book A, De Jager R.
+    conference: "PLOS One. 2022;17(11):e0276492. doi: 10.1371/journal.pone.0276492."
+
+oss:
+  title: Presentations
+  intro: >
+    Selected scientific presentations.
+  contributions:
+  - title: StageBridge Resolves Inflammatory-Stromal Transition Niches in Lung Adenocarcinoma Progression
+    link: "https://www.linkedin.com/posts/aj-abraham-book_computationalbiology-systemsbiology-spatialbiology-share-7464752894995779586-QZxl/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACvL30wBWX9OgfTQwwbDg57b6BkHxSkKiPI"
+    tagline: "Poster presentation, Center for Tumor Immune Systems Biology Symposium, Sloan Kettering Institute, 2026. Authors: Abraham J. Book, Jung Hun Oh, Anish K. Simhal, Joseph O. Deasy, Erhan Guven, Christopher Bradburne, Tafadzwa L. Chaunzwa."
+
+certifications:
+  title:
+  list: []
 
 recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+  title:
+  list: []
 
 skills:
-  title: Skills &amp; Proficiency
-
+  title: Technical skills
   toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
+  - name: Programming and infrastructure
     level: 95%
-
-  - name: Ruby on Rails
+  - name: Single-cell and spatial omics
+    level: 90%
+  - name: Genomics and epigenomics
     level: 85%
-
-  - name: Sketch & Photoshop
-    level: 60%
-
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  - name: Immune profiling and biomarker integration
+    level: 85%
+  - name: Proteomics and spatial proteomics interpretation
+    level: 70%
+  - name: Statistical modeling and survival analysis
+    level: 85%
+  - name: Optimal transport and transition modeling
+    level: 85%
+  - name: Deep learning and representation learning
+    level: 80%
+  - name: Computational pathology and medical imaging
+    level: 80%

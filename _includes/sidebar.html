@@ -4,7 +4,11 @@
   <div class="profile-container">
 
     {% if sidebar.avatar %}
-    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+      {% if sidebar.avatar contains 'http' %}
+      <img class="avatar" src="{{ sidebar.avatar }}" alt="profile picture" />
+      {% else %}
+      <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+      {% endif %}
     {% endif %}
 
     {% if sidebar.name %}
