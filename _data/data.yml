@@ -27,7 +27,7 @@ career-profile:
 
     Proven background in QA automation and test engineering, building robust automation frameworks and CI/CD practices that improve quality, speed of delivery, and system stability.
 
-    Comfortable working across the stack of modern backend development with relational and vector databases, messaging systems, container orchestration, and cloud-native tooling, with hands-on experience in Python, FastAPI, Django, Flask, PostgreSQL, Qdrant, Redis, Docker, Kubernetes, and AWS.
+    Comfortable working across the stack of modern backend development with relational and vector databases, messaging systems, container orchestration, and cloud-native tooling, with hands-on exposure to RAG workflows and document processing.
 
 education:
   title: Education
@@ -92,9 +92,10 @@ experiences:
         - Implemented backend services and endpoints for PDF processing, repository management, and AI services using Python and FastAPI.
         - Implemented backend endpoints for AI services and data processing using TypeScript and Next.js.
         - Refactored the backend to AWS Lambda, AWS Step Functions, and API Gateway for improved scalability and performance.
+        - Refactored existing codebase for AI services to improve performance and scalability.
         - Migrated legacy code from Weaviate to Qdrant.
         - Implemented auth for REST APIs using AWS Cognito and IAM.
-      technologies: AWS, S3, Lambda, Step Functions, ECS, EC2, Cognito, RDS, CloudWatch, IAM, Textract, OpenAI, Cohere, Unstructured.ai, Qdrant, Weaviate, Google Document AI, Python, FastAPI, Pydantic, SQLAlchemy, Postgres, pgvector, TypeScript, Next.js
+      technologies: AWS, S3, Lambda, Step Functions, ECS, EC2, Cognito, RDS, CloudWatch, IAM, Textract, OpenAI, Cohere, Unstructured.ai, Qdrant, Weaviate, Google Document AI, Python, FastAPI, Pydantic, SQLAlchemy, Postgres, pgvector, TypeScript, Next.js, tRPC, Jest, Node.js, PyMuPDF, PyPDF2, boto3, alembic
 
     - role: Senior Python Developer
       time: 2023-06 - 2024-09
@@ -213,44 +214,66 @@ projects:
   intro: Selected product, platform, and AI/data engineering projects.
   assignments:
     - title: Talent–Job Matching RAG Platform
-      tagline: Built a full-stack RAG platform that parses CVs and job descriptions with Claude, indexes them via hybrid retrieval, and surfaces evidence-backed candidate-to-role matches.
+      bullets:
+        - Built a full-stack RAG platform that parses CVs and job descriptions with Claude (versioned tool-schema prompts) and indexes them in a hybrid retriever — pgvector dense embeddings, BM25 keyword, dimension-weighted scoring and a cross-encoder reranker — surfacing evidence-backed candidate-to-role matches.
+        - Designed an "LLM emits structured query plan, Python renders it" pipeline that turns a JD or CV into deterministic Google X-ray and native-search queries for LinkedIn, GitHub, Indeed, Glassdoor, Wellfound, WWR and HN, paired with a Chrome MV3 extension and a Playwright fallback to scrape and import results back into the app.
+        - Owned the system end-to-end: schema and migrations, repository pattern, scoring-preset framework, configurable dimensions, evidence panels, debug reports, PDF export and a multi-page React UI with localStorage-persisted state.
+        - Agentic AI spec-based development using Claude Code.
+      tech_stack: Python, FastAPI, Postgres/pgvector, SQLAlchemy, Alembic, Claude tool-use, React, TypeScript, Vite, Playwright, Chrome MV3.
     - title: YouTube Summarizer
-      tagline: Built a self-hosted full-stack application that turns long-form YouTube videos into searchable summaries with timestamps, Q&A, and export options.
+      bullets:
+        - Self-hosted full-stack app that turns long-form YouTube videos into searchable, taggable summaries with a generated table of contents, deep-link timestamps, per-video Q&A and batch export to MD/PDF/TXT/JSON/ZIP.
+        - Three-tier architecture: React 19 + TypeScript + Vite SPA, FastAPI / Pydantic v2 REST backend on PostgreSQL 17 with SQLAlchemy 2.0 + Alembic, async pipeline via FastAPI BackgroundTasks (pending → fetching → processing → completed/failed).
+        - Integrates OpenAI chat completions with chunked recursive summarization beyond ~20k tokens, and YouTube Data API + transcript API behind Google OAuth 2.0 + PKCE; per-call LLM cost tracking persisted to Postgres and surfaced as a daily/monthly/per-model dashboard.
+        - Deployable locally via docker-compose (Postgres only) or to AWS Lambda via Terraform.
+        - Agentic AI spec-based development using Claude Code.
+      tech_stack: Python, FastAPI, Pydantic v2, PostgreSQL 17, SQLAlchemy 2.0, Alembic, OpenAI, YouTube Data API, Google OAuth 2.0 + PKCE, React 19, TypeScript, Vite, Docker Compose, Terraform, AWS Lambda.
     - title: Prompt Master — LLM Prompt-Engineering Platform
-      tagline: Created an end-to-end prompt-engineering platform for authoring, versioning, critique, rewriting, execution, export, and cost visibility.
+      bullets:
+        - End-to-end prompt-engineering tool covering the full lifecycle — author, version, critique, rewrite, run and export — with per-call cost visibility, deterministic round-trip import/export, and full CLI/UI parity so every action works headless.
+        - Backend: Python (FastAPI, SQLAlchemy 2.x, Pydantic v2), Postgres 17, Alembic migrations, Typer CLI; strict layered architecture (API / services / repositories / domain / providers) with enforced boundaries.
+        - Frontend: React 19 + Vite + TypeScript, React Router, drag-and-drop composer with debounced live render and multi-format exports.
+        - LLM integration via Anthropic SDK behind a Provider ABC; every model call wrapped to persist an llm_costs row (operation label, tokens, USD). Versioned meta-prompts as YAML.
+        - Rendering with Jinja2 (trusted env for user content, ImmutableSandboxedEnvironment for imported content), block composition with cycle detection and reproducibility markers.
+        - Features: typed block composer, append-only version history with diff, LLM critique + rewrite with accept/reject, deterministic quality scoring + linter, structured (round-trip) and LLM-parsed import paths, value-set vocabularies for reusable variable picks, snapshots, agent-file builders (CLAUDE.md / AGENTS.md / SKILL.md), exports (Markdown / JSON / Anthropic Messages / PDF).
+        - Agentic AI spec-based development using Claude Code.
+      tech_stack: Python, FastAPI, SQLAlchemy 2.x, Pydantic v2, Postgres 17, Alembic, Typer, Jinja2, Anthropic SDK, React 19, TypeScript, Vite, React Router.
     - title: Escheatment Legal Monitor — AI-Assisted Compliance Crawler
-      tagline: Built an AI-assisted compliance crawler monitoring all 50 US state unclaimed-property websites with change detection, escalation strategies, audit trail, and human approval workflows.
+      bullets:
+        - Designed and built an AI-assisted compliance crawler that monitors all 50 US state unclaimed-property (escheatment) websites for regulatory and procedural changes affecting corporate holder-reporting obligations.
+        - Implemented a three-tier crawler escalation chain (httpx → Playwright → stealth → ScrapingBee) and a swappable strategy-pattern architecture across crawl / extract / classify / summarize / storage layers, with raw-HTML hash-based change detection and a three-gate human approval workflow plus full audit trail.
+        - LLM summarization via Anthropic APIs with an enforced monthly cost ceiling and versioned prompts.
+      tech_stack: Python 3.12, FastAPI, asyncio, Scrapy, Playwright, PostgreSQL, SQLAlchemy, Anthropic API, Supabase, Render, Docker.
     - title: AI First Issuer Processing Platform
-      tagline: Contributed to platform IAM infrastructure and backend services supporting a distributed payments platform. Implemented Cognito integration, token management, and access control across internal tools and APIs.
+      bullets:
+        - Contributed to platform IAM infrastructure and backend services supporting a distributed payments platform. Implemented Cognito-based authentication using AWS Cognito and IAM, SSO, OIDC; token management and access control across internal tools and APIs.
+        - Agentic AI spec-based development using Claude Code.
+      tech_stack: Python, TypeScript, FastAPI, GraphQL; AWS Lambda, DynamoDB, S3, Step Functions, ECS, EC2, RDS, CloudWatch, IAM, API Gateway, SES; Terraform, AWS CodeDeploy, AWS CodePipeline, Bitbucket.
     - title: Austrian Law RAG Application
-      tagline: Built a legal RAG application for an Austrian law firm using OCR, LLM, NLP, FastAPI, Redis, and vector databases.
+      bullets:
+        - Legal RAG application for an Austrian law firm using OCR, LLM and NLP services.
+      tech_stack: Python, TypeScript, Vue.js 3, Celery, asyncio, Docker, Docker Compose, SQLAlchemy, FastAPI, Redis, Azure OpenAI, LiteLLM, Pinecone, Qdrant.
     - title: RAG Application for document classification
-      tagline: Developed a RAG application for identifying and classifying documents using OCR and NLP services.
+      bullets:
+        - Developed a RAG application identifying and classifying documents using OCR and NLP services.
     - title: LSEG QA Automation and Data Integration
-      tagline: Delivered QA automation and data integration for projects with 2000+ data sources using Python/PyTest, Azure Databricks, and Data Factory.
+      bullets:
+        - QA automation and data integration for projects with 2000+ data sources, building Python/PyTest frameworks and leveraging Azure Databricks and Data Factory for scalable processing.
     - title: Siemens Energy QA Automation
-      tagline: Built backend and frontend QA automation frameworks for a blockchain-based clean energy certificates platform using Python/PyTest and Dart/Flutter.
+      bullets:
+        - Backend and frontend QA automation frameworks for a blockchain-based Clean Energy Certificates platform, using Python/PyTest and Dart/Flutter.
     - title: ID now
-      tagline: Performed performance testing using Locust and Gatling and extended Python QA automation frameworks with PyTest, Robot, and Jenkins.
+      bullets:
+        - Performance testing using Locust and Gatling, and developed new Python features for QA automation frameworks using PyTest, Robot, and Jenkins.
     - title: Swibeco
-      tagline: Delivered performance testing and QA automation for an e-commerce platform using K6, Playwright, and TypeScript.
-
-oss:
-  title: OSS Contributions
-  contributions: []
-
-publications:
-  title: Publications
-  intro: ""
-  papers: []
+      bullets:
+        - Performance testing and QA automation for Swibeco's e-commerce platform using K6, Playwright, and TypeScript, enabling comprehensive UI/API validation and resolving performance bottlenecks.
 
 skill_categories:
   - category_title: Web frameworks
     skills:
       - title: FastAPI
         toolset:
-          - name: FastAPI
-            level: 95%
           - name: Django
             level: 88%
           - name: Flask
@@ -292,6 +315,14 @@ skill_categories:
           - name: pyodbc
             level: 78%
           - name: hvac
+            level: 78%
+          - name: BeautifulSoup (bs4)
+            level: 82%
+          - name: asyncio
+            level: 88%
+          - name: threading
+            level: 78%
+          - name: multiprocessing
             level: 78%
       - title: Code quality
         toolset:

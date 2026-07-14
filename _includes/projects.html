@@ -27,8 +27,20 @@
         {% endif %}
       </span>
 
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+      {% if project.summary %}
+      <div class="project-tagline">{{ project.summary }}</div>
+      {% endif %}
+
+      {% if project.bullets %}
+      <ul>
+        {% for bullet in project.bullets %}
+        <li>{{ bullet }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+      {% if project.tech_stack %}
+      <div class="details"><strong>Tech Stack:</strong> {{ project.tech_stack }}</div>
       {% endif %}
 
     </div><!--//item-->
