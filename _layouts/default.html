@@ -13,7 +13,11 @@
 
     <div class="main-wrapper">
         {{ content }}
-        <div class="last-updated">Last updated: {{ site.time | date: "%B %-d, %Y" }}</div>
+        <div class="last-updated">
+          <div>Last updated: {{ site.time | date: "%B %-d, %Y" }}</div>
+          <div>CV version: {{ site.cv_version }}</div>
+          <div>Timestamp: {{ site.time | date: "%Y-%m-%d %H:%M:%S %Z" }}</div>
+        </div>
     </div>
   </div>
 
