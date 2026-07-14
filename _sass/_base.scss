@@ -177,6 +177,14 @@ p {
     margin-bottom: 60px;
   }
 
+  .last-updated {
+    color: $text-grey;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-top: 20px;
+    text-align: right;
+  }
+
   .experiences-section,
   .educations-section {
     .item {
