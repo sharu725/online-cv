@@ -6,6 +6,7 @@ sidebar:
   avatar: pozaClaudiu2.png
   email: claudius.milea@gmail.com
   phone: +40-732-409-311
+  phone2: +40-724-850-806
   location: Bucharest, Romania
   linkedin: claudiumilea
   github: claudiumilea
@@ -93,7 +94,7 @@ experiences:
         - Refactored the backend to AWS Lambda, AWS Step Functions, and API Gateway for improved scalability and performance.
         - Migrated legacy code from Weaviate to Qdrant.
         - Implemented auth for REST APIs using AWS Cognito and IAM.
-      technologies: AWS, S3, Lambda, Step Functions, ECS, EC2, Cognito, RDS, CloudWatch, IAM, Textract, OpenAI, Cohere, Unstructured.ai, Qdrant, Weaviate, Google Document AI, Python, FastAPI, Pydantic, SQLAlchemy, Alembic, MySQL, TypeScript, Next.js, GraphQL, Redis
+      technologies: AWS, S3, Lambda, Step Functions, ECS, EC2, Cognito, RDS, CloudWatch, IAM, Textract, OpenAI, Cohere, Unstructured.ai, Qdrant, Weaviate, Google Document AI, Python, FastAPI, Pydantic, SQLAlchemy, Postgres, pgvector, TypeScript, Next.js
 
     - role: Senior Python Developer
       time: 2023-06 - 2024-09
@@ -220,7 +221,7 @@ projects:
     - title: Escheatment Legal Monitor — AI-Assisted Compliance Crawler
       tagline: Built an AI-assisted compliance crawler monitoring all 50 US state unclaimed-property websites with change detection, escalation strategies, audit trail, and human approval workflows.
     - title: AI First Issuer Processing Platform
-      tagline: Contributed to platform IAM infrastructure and backend services supporting a distributed payments platform. Implemented Cognito integration, token management, and access control across REST and gRPC services. Built and maintained microservices in Python (Starlette, FastAPI, Falcon) for authentication, customer account management, and payment workflows. Worked with AWS serverless infrastructure (Lambda, ECS, DynamoDB) and supported data pipeline work.
+      tagline: Contributed to platform IAM infrastructure and backend services supporting a distributed payments platform. Implemented Cognito integration, token management, and access control across internal tools and APIs.
     - title: Austrian Law RAG Application
       tagline: Built a legal RAG application for an Austrian law firm using OCR, LLM, NLP, FastAPI, Redis, and vector databases.
     - title: RAG Application for document classification
