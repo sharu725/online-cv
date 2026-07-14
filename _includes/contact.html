@@ -13,6 +13,12 @@
     </li>
     {% endif %}
 
+    {% if sidebar.phone2 %}
+    <li class="phone"><i class="fas fa-phone"></i>
+      <a href="tel:{{ sidebar.phone2 }}">{{ sidebar.phone2 }}</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.citizenship %}
     <li class="phone"><i class="fas fa-passport"></i>
       <a href="">{{ sidebar.citizenship }}</a>
