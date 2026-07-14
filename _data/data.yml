@@ -9,7 +9,7 @@ sidebar:
 
   # Profile information
   name: AJ Book
-  tagline: "Computational & Systems Biology · Spatial Biology · Multimodal Disease Modeling"
+  tagline: "Spatial Regulatory Biology · Systems Immunology · Cell-State Dynamics"
   avatar: https://avatars.githubusercontent.com/u/42758438?v=4
 
   # Sidebar links
@@ -46,15 +46,17 @@ sidebar:
   interests:
     title: Research interests
     info:
+    - item: Spatial regulatory biology
+      link:
     - item: Systems immunology
       link:
-    - item: Spatial transcriptomics and spatial proteomics
+    - item: Cell-state dynamics and tissue-state transitions
       link:
-    - item: Single-cell genomics and epigenomics
+    - item: Gene regulation and regulatory genomics
       link:
-    - item: Computational pathology
+    - item: Single-cell and spatial multi-omics
       link:
-    - item: Proteomics-informed multimodal biology
+    - item: Mechanistic machine learning and universal differential equations
       link:
     - item: Translational biomarker discovery
       link:
@@ -62,50 +64,58 @@ sidebar:
 career-profile:
   title: Bio
   summary: |
-    I'm a computational biologist interested in systems immunology and multimodal models of tissue state. My work uses genomics, epigenomics, spatial transcriptomics, proteomics, computational pathology, medical imaging, and clinical outcomes to study how cellular systems organize, transition, and fail across disease contexts.
+    I am a computational biologist working at the intersection of spatial regulatory biology, systems immunology, and cell-state dynamics. My central scientific interest is how regulatory programs—including transcription factors, RNA-binding proteins, microRNAs, and chromatin architecture—interact with immune and tissue context to determine which cellular states emerge, persist, transition, or fail in disease.
 
-    I am an M.S. candidate in Bioinformatics at Johns Hopkins University and a Graduate Research Assistant in the [Advanced Computing and Oncology Laboratory](https://www.mskcc.org/research-areas/labs/members/abraham-aj-book) at Memorial Sloan Kettering Cancer Center. My current thesis project, [StageBridge](https://github.com/SecondBook5/StageBridge), develops receiver-centered methods for studying cell-state-resolved niche effects from cross-sectional single-cell and spatial data, with optimal transport and conditional flow matching used in the current transition-modeling framework.
+    I am an M.S. candidate in Bioinformatics at Johns Hopkins University and a Graduate Research Assistant in the [Advanced Computing and Oncology Laboratory](https://www.mskcc.org/research-areas/labs/members/abraham-aj-book) at Memorial Sloan Kettering Cancer Center. My thesis project, [StageBridge](https://github.com/SecondBook5/StageBridge), develops niche-conditioned models of cell-state transition from cross-sectional single-cell and spatial transcriptomic data. In parallel, my work at MSK integrates quantitative imaging, immune profiling, tumor genomics, circulating biomarkers, and clinical outcomes to study how host biology shapes treatment response and disease trajectory.
 
-    Cancer is my main current application area, but not my only scientific identity. The broader problem that motivates me is how to build interpretable computational systems that connect molecular regulation, protein-state information, tissue architecture, immune context, and phenotype across modalities. I am especially drawn to methods that bridge systems biology, spatial biology, proteomics, and machine learning while remaining biologically testable.
+    Across these projects, I aim to move from static molecular description toward mechanistically interpretable models of biological change. I am especially interested in computational frameworks that connect gene-regulatory programs to spatial organization and cell-state transitions, and in universal differential equations and other hybrid mechanistic-learning approaches that can incorporate known biology while learning the dynamics that remain unknown. This is the research direction I intend to develop through Ph.D. training.
 
 current-focus:
   title: Current focus
   items:
-  - title: StageBridge and progression-aligned niche modeling
-    description: My thesis project develops receiver-centered representations and progression-aligned models for cross-sectional single-cell and spatial transcriptomic data, using premalignant-to-invasive lung adenocarcinoma as the primary test case.
-  - title: HostBio and radiographic thymic reserve
-    description: At MSK, I study how CT-derived thymic and body-composition phenotypes relate to systemic immune state, treatment response, toxicity, and survival across lung cancer cohorts by integrating imaging with clinical, genomic, and immune data.
-  - title: Single-cell tissue remodeling in secondary lymphedema
-    description: I develop paired single-cell analyses of epithelial, immune, and stromal remodeling in lymphedematous skin, with current work focused on keratinocyte states, mechanosensory signaling, and reproducible cross-dataset validation.
-  - title: Reproducible computational biology software
-    description: I build configuration-driven research software for paired single-cell analysis, multi-cohort microbiome studies, and clinical cancer genomics, with emphasis on provenance, validation, and manuscript-ready outputs.
+  - title: Spatial regulatory biology and cell-state dynamics
+    description: I study how local niche context and regulatory programs shape cell-state transitions across premalignant, malignant, inflammatory, and tissue-remodeling settings. StageBridge is the current methodological foundation for this direction, combining receiver-centered niche representations with progression-aware transition modeling.
+  - title: Systems immunology and host response
+    description: Through HostBio and the broader thymic-reserve program, I investigate how systemic immune architecture and host tissue state modify treatment response, toxicity, recurrence, and survival. This work connects quantitative imaging with longitudinal immune phenotyping, tumor genomics, radiation exposure, and clinical outcomes across multiple lung cancer cohorts.
+  - title: Collaborative disease biology
+    description: I contribute computational analysis and model development to collaborations in secondary lymphedema, myasthenia gravis and thymoma, cGAS-STING biology, and head and neck squamous cell carcinoma. These projects provide complementary systems in which to study immune regulation, tissue remodeling, and disease-associated cell states.
+  - title: Mechanistic models of biological dynamics
+    description: A growing methods focus is the use of universal differential equations and other hybrid mechanistic-machine-learning models to represent biological systems whose governing structure is partly known but whose context-dependent dynamics must be learned from data.
+  - title: Research software as scientific infrastructure
+    description: I build reproducible, configuration-driven platforms for single-cell analysis, quantitative imaging, microbiome research, and cancer genomics. The goal is not software for its own sake, but infrastructure that makes complex biological questions auditable, scalable, and testable across datasets.
 
 projects:
   title: Selected projects
   intro: >
-    Selected current research programs and open-source computational projects across spatial systems biology, tumor-host phenotyping, single-cell analysis, microbiome research, and cancer genomics.
+    Together, these projects form a connected research program: learning how cell states are regulated in tissue context, quantifying host and immune biology from clinical data, and building rigorous computational infrastructure that can carry those questions across cohorts and modalities.
   assignments:
   - title: StageBridge
     link: "https://github.com/SecondBook5/StageBridge"
-    tagline: "Thesis project developing receiver-centered niche representations and progression-aligned transition models for cross-sectional single-cell and spatial transcriptomic data. The lung adenocarcinoma application integrates snRNA-seq, Visium, reference-atlas mapping, and stage-aware modeling to investigate how local immune and stromal context relates to epithelial state change."
+    tagline: "A thesis-driven framework for inferring how local immune and stromal niches reshape epithelial cell-state trajectories during lung adenocarcinoma progression. StageBridge integrates dual-reference atlas mapping, receiver-centered set representations, optimal transport, conditional flow matching, spatial transcriptomics, and evolutionary context to move beyond static stage comparisons toward niche-conditioned models of transition."
 
-  - title: "HostBio: CT-Derived Host Immune-Metabolic Phenotyping"
-    link: "https://doi.org/10.1016/j.jtho.2026.103949"
-    tagline: "Translational research program integrating radiographic thymic reserve, muscle composition, radiation exposure, immune profiling, tumor genomics, and clinical outcomes to study how host state modifies treatment response, toxicity, and survival in lung cancer."
+  - title: HostBio
+    link: "https://github.com/Advanced-Computing-and-Oncology-Lab/HostBio"
+    tagline: "A scalable platform for extracting biologically interpretable host phenotypes from routine CT and MRI. HostBio combines organ segmentation, scan-adaptive tissue-composition modeling, cohort-scale workflow orchestration, and quantitative quality control to measure thymic, muscle, liver, and tumor-associated states and connect them to immune function, treatment response, toxicity, and survival."
 
-  - title: Single-Cell Systems Biology of Secondary Lymphedema
+  - title: CellQuorum
+    link: "https://github.com/SecondBook5/CellQuorum"
+    tagline: "A reproducible, GPU-aware single-cell RNA-seq workflow engine built to make advanced analysis scalable without sacrificing auditability or scientific discipline. CellQuorum combines strict configuration validation, fail-loud data contracts, provenance tracking, backend-aware execution, ambient-RNA correction, quality control, normalization, integration, clustering, and annotation, with regulatory-network, communication, and trajectory modules under active development."
+
+  - title: Thymus nnUNetv2 Segmentation
+    link: "https://github.com/Advanced-Computing-and-Oncology-Lab/Thymus-nnUNetv2-Segmentation"
+    tagline: "A pretrained five-fold nnUNetv2 framework for 3D thymus segmentation on thoracic CT, with standalone inference, fold-wise evaluation, quantitative metrics, multiplanar overlays, and GPU/CPU support. The model provides the segmentation backbone for scalable radiographic thymic phenotyping within HostBio."
+
+  - title: Secondary Lymphedema Single-Cell Analysis
     link: "https://github.com/SecondBook5/lymphedema_keratinocyte_par2"
-    tagline: "Paired single-cell analysis of normal and lymphedematous human skin, focused on keratinocyte state remodeling, inflammatory signaling, and reproducible donor-aware inference. This work includes the published PAR2/keratinocyte study and ongoing cross-cohort state validation."
-
-  - title: paired_sc
-    link: "https://github.com/SecondBook5/paired-single-cell-pipeline"
-    tagline: "Reusable, configuration-driven workflow for paired single-cell studies, including matrix loading, quality control, normalization, integration, annotation, donor-aware analysis, and standardized figure and table generation."
+    tagline: "A collaboration with the Mehrara Lab using paired normal and lymphedematous human skin to resolve disease-associated keratinocyte states and tissue remodeling. The published PAR2 study established a keratinocyte-centered mechanism in secondary lymphedema; ongoing work extends the analysis across epithelial, immune, and stromal compartments with donor-aware inference and cross-dataset validation."
 
   - title: Dysbioscope
-    tagline: "Snakemake-based multi-cohort 16S rRNA workflow for taxonomic classification, compositional analysis, functional prediction, and cross-study concordance. The current application compares microbiome remodeling across PI3K-driven lymphatic dysfunction and diet-induced metabolic perturbation."
+    link: "https://github.com/SecondBook5/Dysbioscope"
+    tagline: "A collaboration with the Mehrara Lab and a reproducible multi-cohort framework for discovering convergent and context-dependent microbiome responses. Dysbioscope links raw 16S processing, dual taxonomic classification, compositional differential-abundance methods, functional prediction, cross-cohort concordance, and publication-grade visualization in a single Snakemake workflow."
 
   - title: Cosmic-IMPACT
-    tagline: "Research software for MSK-IMPACT and MSK-ACCESS analysis, including mutation annotation, tumor mutational burden, genomic instability, mutational signatures, clonality, ctDNA tracking, and longitudinal evolutionary summaries. Research use only; not a clinical diagnostic tool."
+    link: "https://github.com/SecondBook5/Cosmic-IMPACT"
+    tagline: "A cancer-genomics toolkit that unifies MSK-IMPACT tissue sequencing and MSK-ACCESS cell-free DNA analysis. The platform integrates mutation annotation, tumor mutational burden, genomic instability, mutational signatures, clonality, driver discovery, ctDNA estimation, and longitudinal clonal-evolution summaries to connect genomic state with clinical trajectory. Research use only; not a clinical diagnostic tool."
 
 education:
   title: Education
@@ -116,7 +126,7 @@ education:
     details: |
       GPA: 4.0
 
-      Master's thesis: StageBridge: Receiver-Centered Niche Encoding for Cell-State Transitions from Cross-Sectional Single-Cell and Spatial Data.
+      Master's thesis: StageBridge: Context-Residual Inference of Cell-State-Resolved Niche Effects in Premalignant Epithelial Transitions.
 
       Advisor: Christopher Bradburne, PhD, Department of Genetic Medicine, Johns Hopkins University School of Medicine / Johns Hopkins Applied Physics Laboratory.
 
@@ -140,8 +150,9 @@ experiences:
       Lead conceptual development and computational strategy for translational studies of tumor-host interaction, immune remodeling, thymic composition, treatment toxicity, and lung cancer outcomes.
 
       - Develop multimodal analysis frameworks integrating thoracic CT, radiation dose, clinical outcomes, targeted sequencing, circulating tumor DNA, RNA-seq, flow cytometry, cytokine profiling, and immune validation assays.
-      - Build spatial and single-cell workflows for atlas mapping, spatial deconvolution, cell-state annotation, cell-cell communication, and interpretation of inflammatory, stromal, epithelial, and immune programs.
-      - Contribute to cross-group collaborations in computational oncology, systems immunology, and translational biology, including single-cell RNA-seq analysis of secondary lymphedema.
+      - Build spatial and single-cell workflows for reference-atlas mapping, spatial deconvolution, cell-state annotation, regulatory-network analysis, cell-cell communication, and interpretation of inflammatory, stromal, epithelial, and immune programs.
+      - Contribute to cross-group collaborations in secondary lymphedema, myasthenia gravis and thymoma, cGAS-STING biology, head and neck squamous cell carcinoma, and translational systems immunology.
+      - Develop reusable research software for cohort-scale quantitative imaging, single-cell analysis, microbiome comparison, and cancer genomics.
       - Generate publication-grade figures, statistical analyses, reproducible workflows, abstracts, and manuscript-ready results; contribute as co-first author and primary quantitative analyst on translational studies.
 
   - role: Medical / Laboratory Assistant
