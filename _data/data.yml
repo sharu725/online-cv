@@ -64,12 +64,7 @@ sidebar:
 career-profile:
   title: Quantum Communications
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Physics Grad with focus on QKD and Quantum Networks, aspiring to do masters focusing in this field and work towards roles in it.
 education:
   title: Education
   info:
@@ -77,11 +72,7 @@ education:
     university: University of Delhi
     time: 2022 - 2026
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
+      4 Year Physics course, with 8 Semester courses in C.S
         - Bullet point
         - Bullet point
   - degree: #BSc in Applied Mathematics
@@ -96,17 +87,11 @@ experiences:
     time: June 2026 - Present
     company: SAG, Defense Research and Development Organization, India
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
+      Working at Scientific Analysis Group in DRDO, New Delhi. Working under the guidance of scientist, Devendra KY.
+      - Modified and extended the CHSH algorithm from my bachelor’s thesis to 7, 15 and 50 node meshes.
+      - Analysing shortcomings of simple routing algorthitms.
+      - Studying key papers on routing protocols, purification metrics and path selection policies.
+      - Working on purification based routing algorithm implementation on a dynamic mesh (PRESENT
   - role: Co-Author and Research Assistant
     time: March 2026 - May 2026
     company: Fujitsu Quantum Simulator Challenge
@@ -116,145 +101,224 @@ experiences:
       Cum sociis natoque penatibus et magnis dis parturient montes,
       nascetur ridiculus mus. Donec quam felis, ultricies nec,
       pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+        - Worked in a multidisciplinary team to execute 16-qubit simulations on IQM’s Sirius 24-qubit 
+        superconducting processor, mapping the 2D potential energy surface (32 × 32 grid) of H2O
+        - Co-authored a research article demonstrating the integration of Density Matrix Embedding Theory
+        (DMET) in fragment-based molecular simulations to scale them according to industrial limits while
+        maintaining chemical accuracy
+        - Formulated a comprehensive literature review on Sample-based Quantum Diagonalization (SQD)
+        frameworks, establishing the theoretical baseline for the molecular electronic structure simulations
+        - We evaluated the ansatz expressivity and gate-depth trade-offs between hardware-efficient LUCJ and
+        chemically motivated LCNot-UCCSD.
   - role: Bachelor Thesis
     time: August 2025 - May 2026
     company: Kirori Mal College, University of Delhi
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Working under supervision of Prof. Bipin Singh Koranga.
+        - Thesis has two investigative projects: 1) simulation and modelling of errors, vulnerabilities and
+        mitigation strategies in BB84, and 2) modelling E91-based entanglement network and a simple quantum
+        routing algorithm.
+        - Developed BB84 protocol simulations in Python to establish error-free baseline QBER, quantify channel
+        attenuation and single-photon detector (SPD) noise, and model pulse vulnerabilities under Photon
+        Number Splitting (PNS) attacks.
+        - Evaluated error mitigation strategies for BB84 using decoy-state protocols, and developed a Multi-Layer
+        Perceptron (MLP) machine learning model in Python to eliminate environmental drift in CVQKD
+        systems.
+        - Learned quantum networking concepts, including entanglement swapping topologies, quantum
+        memory, state purification mechanics, and localized fidelity tracking.
+        - Built discrete-event simulations in NetSquid to model a) quantum teleportation, b) E91-CHSH
+        verification loops, and c) Centralized CHSH Bottleneck Routing algorithm utilizing max-min graph
+        optimization for a simple 5-node mesh.
+        - Skills: Quantum Key Distribution, Quantum Networks, Python, Qiskit, NetSquid, Machine Learning
 
 certifications:
   title: Certifications
   list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+  - name: IBM Qiskit Fall Fest '25 - BB84 Challenge Winner
+    start: 2025
+    end: 2025
+    organization: PES University & IBM Qiskit
+    credentialid: ""
+    credentialurl: https://drive.google.com/file/d/12qrTWVFG7unlJFQuZm9aEmK3u4kF9ti8/view?usp=drive_link
+    credentialname: Google Drive
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
+      Won the BB84 Simulation Challenge at the IBM Qiskit Fall Fest '25 hosted by PES University. 
+      Simulated QKD and analyzed Quantum Bit Error Rate (QBER).
+  - name: MIT iQuHack 2026 - IonQ Entanglement Distillation Challenge
+    start: 2026
+    end: 2026
+    organization: MIT (IonQ Challenge)
+    credentialid: ""
+    credentialurl: https://drive.google.com/file/d/1UhgnL-0bHe_pJuDjC89yWmyACc7BtJb4/view?usp=sharing
+    credentialname: Google Drive
     details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+      Participated in the MIT iQuHack 2026 hackathon under the IonQ Entanglement 
+      Distillation Challenge track..
+  - name: QWorld QSilver Diploma
+    start: 2026
+    end: 2026
+    organization: QWorld
+    credentialid: ""
+    credentialurl: https://drive.google.com/file/d/15ulz6xWAXyOI7GoNbZ6B6zQZ3xaMTft0/view?usp=sharing
+    credentialname: Google Drive
+    details: |
+      Completed the advanced-level QSilver curriculum covering multi-qubit systems, 
+      quantum Fourier transform, quantum phase estimation, and implementation of complex 
+      quantum algorithms.
+  - name: QWorld QBronze Diploma
+    start: 2024
+    end: 2024
+    organization: QWorld
+    credentialid: ""
+    credentialurl: https://drive.google.com/file/d/1qlh45RfYkmYi1S9b79xrxjj_t-_OTYkF/view?usp=sharing
+    credentialname: Google Drive
+    details: |
+      Completed the foundational QBronze curriculum, focusing on quantum programming 
+      using Qiskit, state vectors, superposition, entanglement, and basic quantum protocols.
+  - name: FDP MeitY - Quantum Computing & Post-Quantum Cryptography
+    start: 2025
+    end: 2025
+    organization: Ministry of Electronics and Information Technology (MeitY)
+    credentialid: ""
+    credentialurl: https://drive.google.com/file/d/1vK7pY8jSO_Se-cMZho1_OPCLAzQ-5ral/view?usp=drive_link
+    credentialname: Google Drive
+    details: |
+      Completed the Faculty Development Programme on Quantum Computing and Post-Quantum 
+      Cryptography, gaining deep exposure to post-quantum cryptographic primitives 
+      and security standards.
+  - name: IBM Quantum - Qiskit Global Summer School 2025
+    start: 2025
+    end: 2025
+    organization: IBM Quantum
+    credentialid: ""
+    credentialurl: https://www.credly.com/go/mgq33rYu
+    credentialname: Credly
+    details: |
+      Earned the Qiskit Global Summer School 2025 badge after completing hands-on 
+      lab modules covering foundational quantum algorithms, simulation techniques, and 
+      quantum hardware mapping workflows.
+  - name: WISER Summer Program - Quantum Algorithms
+    start: 2025
+    end: 2025
+    organization: WISER Summer Program
+    credentialid: df1f731d-9f73-4a5e-a0d8-8adc937ba692
+    credentialurl: https://www.virtualbadge.io/certificate-validator?credential=df1f731d-9f73-4a5e-a0d8-8adc937ba692
+    credentialname: VirtualBadge
+    details: |
+      Completed the WISER Summer Program track on Quantum Algorithms..
+  - name: WISER Summer Program - Non-Linear Problems
+    start: 2025
+    end: 2025
+    organization: WISER Summer Program
+    credentialid: b7e72824-11e3-4e30-80f4-0c6b4627f698
+    credentialurl: https://www.virtualbadge.io/certificate-validator?credential=b7e72824-11e3-4e30-80f4-0c6b4627f698
+    credentialname: VirtualBadge
+    details: |
+      Completed specialized training on leveraging quantum approaches to model 
+      and solve non-linear equations and physical processes.
+  - name: IQM Quantum School
+    start: 2025
+    end: 2025
+    organization: IQM Quantum Computers
+    credentialid: ""
+    credentialurl: https://www.credly.com/go/mgq33rYu
+    credentialname: Credly
+    details: |
+      Short Winter School by IQM! Learnt about qubit pulse maipulation technology.
+  - name: TryHackMe Cybersecurity Challenge
+    start: 2025
+    end: 2025
+    organization: TryHackMe
+    credentialid: ""
+    credentialurl: ""
+    credentialname: TryHackMe
+    details: |
+      Completed month-long daily hands-on security rooms and labs on TryHackMe..
 
 projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  title: #Projects
+  intro: #>
+    #You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  - title: #Velocity
+    link: #"#hook"
+    tagline: #"A responsive website template designed to help startups promote, market and sell their products."
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+  - title: #DevStudio
+    link: #"#"
+    tagline: #"A responsive website template designed to help web developers/designers market their services."
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  - title: #Tempo
+    link: #"#"
+    tagline: #"A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+  - title: #Atom
+    link: #"#"
+    tagline: #"A comprehensive website template solution for startups/developers to market their mobile apps."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  - title: #Delta
+    link: #"#"
+    tagline: #"A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  title: #OSS Contributions
+  intro: #>
+    #You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  - title: #Tempo
+    link: #"#"
+    tagline: #"A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+  - title: #Atom
+    link: #"#"
+    tagline: #"A comprehensive website template solution for startups/developers to market their mobile apps."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  - title: #Delta
+    link: #"#"
+    tagline: #"A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
   title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
+  intro: #|
+    #You can list your publications in this section. Lorem ipsum dolor sit
+    #amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    #bibendum fringilla a eu lectus.
   papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+  - title: Quantum Key Distribution: Introduction, Protocols and Current Challenges
+    link: https://cdn1.get-qr.com/files/69fb596d7d8e1c5126b38feb/1778080190583-6e7bcf104ac7c1827c25163873fa022c.pdf
+    authors: Astha Yadav
+    conference: Physics Insights April 2026, Ramjas College
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+  - title: #"Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+    link: #"#"
+    authors: #Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+    conference: #"Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+  - title: #A syntax directed compiler for Algol 60
+    link: #"#"
+    authors: #Edgar T. Irons
+    conference: #"Comm. ACM 4 (1961), 51–55"
 
 recommendations:
-  title: Recommendations
+  title: #Recommendations
   list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
+  - person: #Yareli Perez
+    email: #perezyareli@example.com
+    phone: #012 345 6789
+    role: #General Director at example.com
+    recommendation: #|
+      #Alan Doe is a super employee!
+  - person: #Lara Henderson
+    email: #larah@example.com
+    phone: #012 345 6789
+    role: #General Director at example.com
+    recommendation: #|
+      #I would like to work with Alan Doe again!
 
-      He is a great employee!
+      #He is a great employee!
 
 skills:
-  title: Skills &amp; Proficiency
+  title: #Skills &amp; Proficiency
 
   toolset:
   - name: Python & Django
