@@ -8,61 +8,61 @@ sidebar:
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
+  name: Astha Yadav
   tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  avatar: ash_passport_3 #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  email: astha04.yadav@gmail.com
+  phone: +91 99589 27107
+  timezone: India/New Delhi (GMT+5.30) # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
+  website: https://serpious.github.io # Include the full website URL, including "http://" or "https://".
+  linkedin: asthaashray
+  xing: #alandoe
+  github: serpious
   telegram: # add your nickname without '@' sign
   gitlab:
   bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
+  bluesky: #'@jekyllrb.bsky.social' # Specify your full Bluesky handle
+  twitter: #'@jekyllrb'
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
   mastodon: # Please include your full Mastodon link here.
   hackerrank: # Please provide your HackerRank username.
   leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  pdf: ./cv_13_july # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   languages:
     title: Languages
     info:
-    - idiom: English
+    - idiom: Hindi, Awadhi
       level: Native
 
-    - idiom: French
-      level: Professional
+    - idiom: English
+      level: Fluent
 
-    - idiom: Spanish
-      level: Professional
+    - idiom: French
+      level: A1 certificate, Conversational
 
   interests:
     title: Interests
     info:
-    - item: Climbing
+    - item: Skating, Skateboarding
       link:
 
 
-    - item: Snowboarding
+    - item: Guitar, Piano
       link:
 
 
-    - item: Cooking
+    - item: Video Editing
       link:
 
 
 career-profile:
-  title: Career Profile
+  title: Quantum Communications
   summary: |
     Summarise your career here lorem ipsum dolor sit amet, consectetuer
     adipiscing elit. You can [download this free resume/CV template here]().
@@ -73,9 +73,9 @@ career-profile:
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: BSc Honors in Physics with Minor in Computer Science
+    university: University of Delhi
+    time: 2022 - 2026
     details: |
       Describe your study here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -84,24 +84,17 @@ education:
       pretium quis, sem.
         - Bullet point
         - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+  - degree: #BSc in Applied Mathematics
+    university: #Bristol University
+    time: #2007 - 2011
+    details: 
 
 experiences:
-  title: Experiences
+  title: Work and Research Experience
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Summer Intern
+    time: June 2026 - Present
+    company: SAG, Defense Research and Development Organization, India
     details: |
       Describe your role here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -114,9 +107,9 @@ experiences:
       architecto beatae vitae dicta sunt explicabo.
         - Bullet point
         - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+  - role: Co-Author and Research Assistant
+    time: March 2026 - May 2026
+    company: Fujitsu Quantum Simulator Challenge
     details: |
       Describe your role here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -125,9 +118,9 @@ experiences:
       pellentesque eu, pretium quis, sem.
         - Bullet point
         - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+  - role: Bachelor Thesis
+    time: August 2025 - May 2026
+    company: Kirori Mal College, University of Delhi
     details: |
       Describe your role here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
