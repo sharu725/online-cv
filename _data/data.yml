@@ -10,7 +10,8 @@ sidebar:
   # Profile information
   name: Spencer Bliven
   tagline: Data, Code, and Open Science
-  avatar: 1a6d_D4.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  #avatar: 1a6d_D4.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  avatar: "20260503 Spencer Portrait 200x200.jpg"
 
   # Sidebar links
   email: spencer.bliven@gmail.com
@@ -65,7 +66,7 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Senior research data expert and bioinformatician with 18+ years of experience in open science, both as a computational biologist and a service provider for scientific computing infrastructure. Passionate about accellerating research through open science practices and robust data management, with experience in software architecture and programming, large-scale computing, big data, leadership, and strategic planning. Strong communicator, able to translate the needs of researchers into technical solutions.
+    Senior research data expert and bioinformatician with 18+ years of experience in open science, both as a computational biologist and a developer of scientific computing infrastructure. Passionate about accelerating research through open science practices and robust data management, with experience in software architecture and programming, large-scale computing, big data, leadership, and strategic planning. Strong communicator, able to translate the needs of researchers into technical solutions.
 
 education:
   title: Education
@@ -121,7 +122,7 @@ experiences:
     details: |
       - Project coordinator for OpenEM (openem.ch). Created an open research data (ORD) infrastructure for Swiss electron microscopy facilities. Wrote ETH and swissuniversities grants leading to 2.4 million CHF, then led a distributed team of 7 developers implementing the infrastructure.
       - Represented PSI in ORD committees and consortiums (ETH-ORD Expert Group for Services and Infrastructure, 2021-Present; ETH Research Data Services Explorer Steering Committee, 2024-Present)
-      - Scientific software projects, including full-stack web apps, high-performance computing, and devops deployment. (Typescript, Angular 2, Python, Go, C++, ansible, kubernetes)
+      - Scientific software projects, including full-stack web apps, high-performance computing, and devops deployment. (Typescript, Angular 2, Python, Go, C++, ansible, kubernetes). Joint Project Leader, [SciCat Project](https://www.scicatproject.org/), 2026-Present
       - Created data collection and processing pipelines for the PSI electron microscopy facility. (Slurm, relion, cryoSPARC, hardware purchasing and installation, network configuration)
     extraclasses: break-after pb-8 sidebar-margin
 
@@ -168,7 +169,7 @@ certifications:
     #credentialurl: www.google.com
     #credentialname: Google
     #details: |
-  - name: Deutsch B2 (results pending)
+  - name: Deutsch B2
     start: 2026
     end:
     organization: TELC
@@ -176,14 +177,14 @@ certifications:
     #credentialurl: www.github.com
     #credentialname: Github
     #details: |
-  - name: Deutsch A2
-    start: 2019
-    end:
-    organization: TELC
-    #credentialid: 111-222
-    #credentialurl: www.github.com
-    #credentialname: Github
-    #details: |
+  # - name: Deutsch A2
+  #   start: 2019
+  #   end:
+  #   organization: TELC
+  #   #credentialid: 111-222
+  #   #credentialurl: www.github.com
+  #   #credentialname: Github
+  #   #details: |
 
 
 # projects:
@@ -242,11 +243,12 @@ publications:
   - title: "OpenEM: An open data repository for electron microscopy"
     authors: "Andrzej Rzepiela, Despoina Adamopoulou, Attila Nacsa, Sofya Laskina, Yves Tittes, David Wiessner, Philipp Wissmann, David Kalbermatter, Robbie Loewith, Henning Stahlberg, **Spencer Bliven**"
     conference: "In preparation."
-    extraclasses: break-after pb-4
+    #extraclasses: break-after pb-4
 
-  - title: Cryo-EM structure of a single-chain β1-adrenoceptor – AmpC β-lactamase fusion protein
-    authors: "Gabriella Collu, Inayathulla Mohammed, Aleix Lafita, Tobias Bierig, Emiliya Poghosyan, **Spencer Bliven**, Pavel Afanasyev, Roger Marc Benoit"
-    conference: "J Struct Biol. (2026) Under review."
+  - title: "Cryo-EM structure of a single-chain β1-adrenoceptor – AmpC β-lactamase fusion protein"
+    authors: "Gabriella Collu, Inayathulla Mohammed, Aleix Lafita, Tobias Bierig, Emiliya Poghosyan, **Spencer Bliven**, Julius Rabl, Pavel Afanasyev, Roger M Benoit"
+    link: "https://doi.org/10.1016/j.jsb.2026.108349"
+    conference: "J Struct Biol. (2026) 218(3):108349. DOI: 10.1016/j.jsb.2026.108349"
 
   - title: Low-pass spectral analysis of time-resolved serial femtosecond crystallography data
     link: "https://doi.org/10.1063/4.0000178"
