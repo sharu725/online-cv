@@ -321,16 +321,16 @@ skills:
 
   toolset:
   - name: Python
-    level: 85%
+    level: 95%
 
   - name: Qiskit Framework
-    level: 70%
+    level: 80%
 
   - name: NetSquid Library
-    level: 65%
+    level: 75%
 
   - name: SeQUeNCe Framework
-    level: 75%
+    level: 60%
 
   # - name: #Ruby on Rails
   #   level: #85%
