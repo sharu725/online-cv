@@ -95,11 +95,6 @@ experiences:
     time: March 2026 - May 2026
     company: Fujitsu Quantum Simulator Challenge
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
         - Worked in a multidisciplinary team to execute 16-qubit simulations on IQM’s Sirius 24-qubit 
         superconducting processor, mapping the 2D potential energy surface (32 × 32 grid) of H2O
         - Co-authored a research article demonstrating the integration of Density Matrix Embedding Theory
