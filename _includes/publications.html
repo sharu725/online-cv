@@ -1,4 +1,5 @@
-{% assign publications = site.data.data.publications %}
+{% include setup-cv-data.html %}
+{% assign publications = cv_data.publications %}
 {% if publications %}
 <section class="section publications-section">
 

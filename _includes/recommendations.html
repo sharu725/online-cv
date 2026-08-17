@@ -1,4 +1,5 @@
-{% assign recommendations = site.data.data.recommendations %} {% if
+{% include setup-cv-data.html %}
+{% assign recommendations = cv_data.recommendations %} {% if
 recommendations %}
 <section class="section recommendations-section">
   <h2 class="section-title">

@@ -1,0 +1,156 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Stanislas POSTEL
+    tagline: Cloud Architect, DevOps & SRE
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: stanislas.postel@gmail.com
+    phone: 06.79.76.59.80
+    citizenship: Français
+    website:  #do not add http://
+    linkedin: stanislaspostel
+    xing: 
+    github: 
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: 
+    location: Rouen
+
+    languages:
+      title: Langues
+      info:
+        - idiom: Français
+          level: Langue maternelle
+
+        - idiom: Anglais
+          level: TOEIC 950
+
+    interests:
+      title: Centres d'intérêts
+      info:
+        - item: VTT
+          link:
+
+        - item: Moto
+          link:
+
+        - item: Musique
+          link:
+    permis:
+      title: Permis
+      info:
+        - item: B
+        - item: A
+
+career-profile:
+    title: Profil
+    summary: |
+      Ingénieur DevOps, SRE et Cloud Architect avec 4 ans d'expérience, spécialisé dans la conception et l'automatisation d'infrastructures hautement sécurisées, multi-datacenter et multi-cluster. Fort d'une expertise allant du bare-metal (L1) aux applications (L7), j'applique les principes Zero-Trust et l'IaC pour délivrer des environnements fiables et conformes aux exigences industrielles les plus strictes (ISO 27001). Passionné par l'innovation (IA, automatisation), j'aime travailler en équipe pour accroître l'efficacité collective.
+
+education:
+    title: Formation
+    info:
+      - degree: Certification Professional Cloud Architect
+        university: Google Cloud
+        time: 2023
+      - degree: Diplôme d'ingénieur en informatique, Spécialité "Network and Cloud Infrastructure"
+        university: EFREI Paris
+        time: 2019 - 2022
+        details: |
+          Formation initiale de la L3 au M1 suivie d'un M2 en contrat de professionalisation chez Ercom / Thales.
+          Spécialité "Network and Cloud Infrastructures", enseignée en anglais. 
+      - degree: Bachelor of Engineering Science
+        university: EFREI Paris
+        time: 2019 - 2020
+      - degree: Échange Universitaire à APU
+        university: APU, Kuala Lumpur, Malaisie
+        time: 2020
+        details: |
+          Échange universitaire d'un semestre à APU, Kuala Lumpur, Malaisie
+      - degree: Licence Sciences, Technologies, Santé, Mention Informatique
+        university: Université Gustave Eiffel, Créteil (94)
+        time: 2019 - 2020
+        details: |
+          Équivalence suite à une année de L3 à l'EFREI Paris
+      - degree: CPGE TSI
+        university: Lycée Marcel Sembat, Sotteville-Lès-Rouen (76)
+        time: 2016 - 2018
+      - degree: Baccalauréat STI2D
+        university: Lycée Les Fontenelles, Louviers (27)
+        time: 2016
+experiences:
+    title: Experiences
+    info:
+      - role: Cloud Architect
+        time: Juillet 2023 - Présent
+        company: S3ns / Thales, Paris
+        details: |
+          Chez S3ns, filiale de Thales en partenariat avec Google Cloud. Conception et sécurisation d'architectures cloud souveraines de pointe.
+          * **Automatisation & IaC :** Conception de modules Terraform et de scripts Python réutilisables pour automatiser les déploiements complexes. Réduction des procédures d'infrastructure à une commande unique, optimisant le temps d'ingénierie et améliorant la résilience du système.
+          * **Kubernetes Multi-Cluster & Multi-Datacenter :** Déploiement d'une infrastructure cloud on-premise (bare-metal) complète, de la couche physique L1 aux applications L7. Déploiement de Kubernetes sur 3 datacenters distincts via Cilium Cluster Mesh pour garantir une interconnexion inter-cluster fluide et sécurisée.
+          * **Sécurité Zero-Trust & Conformité ISO 27001 :** Mise en œuvre de mTLS systématique pour tous les flux inter-pod et inter-datacenter. Rédaction d'ADR (Architecture Decision Records) et collaboration avec les équipes de cybersécurité pour s'aligner sur les standards ISO 27001 et automatiser la validation des flux.
+          * **MCO & Astreintes (SRE) :** Garantie de la haute disponibilité de la plateforme par la participation active aux astreintes de maintien en condition opérationnelle (MCO).
+          * **Optimisation de workflows & IA :** Intégration et standardisation de Gemini dans les processus de l'équipe pour accélérer le delivery et accroître l'autonomie.
+      - role: Ingénieur DevOps alternant
+        time: 2021 - 2022
+        company: Ercom / Thales, Paris
+        details: |
+          Chez Ercom, filiale de Thales, DevOps dans une équipe de 6 personnes pour des solutions sécurisées de 
+          messagerie et de partage de fichiers, à vocation d’être certifiées par l’ANSSI.
+      - role: Ingénieur sécurité pour solution de messagerie collaborative
+        time: 2021
+        company: Thales SIX GTS, Paris
+        details: |
+          Stage de M1 chez Thales dans l’équipe de cybersécurité pour une solution de messagerie sécurisée.
+projects:
+    title: Projets
+    assignments:
+      - title: Mutualisation de ressources cloud / kubernetes
+        tagline: |
+          Mutualisation de ressources Kubernetes pour l'application Citadel Team tout en garantissant le même niveau de sécurité afin
+          de diminuer le nombre de VMs nécessaire et faciliter grandement les opérations sur les clusters des clients. Lien étroit avec 
+          l'équipe de QA. Rédaction de documentation, déploiements d'environnements de test, rédaction de procédures de test.
+      - title: Maintien en condition opérationnelle / patching des infrastructures clientes
+        tagline: Dépannage des infrastructures Citadel Team des clients
+      - title: Déploiement / mise à l’échelle / monitoring d’infrastructures cloud pour les clients Citadel Team
+        tagline: Création, scaling et monitoring des infrastructures clientes
+      - title: Mise à jour de scripts de déploiement d'infrastructure client
+        tagline: |
+          Suite à des mises à jour de l'API du cloud provider (OVH), adapter les scripts de déploiement de VMs. 
+      - title: Évolution des infrastructures clientes existantes
+        tagline: |
+          afin de faciliter les opérations de maintenance et de déploiement. 
+          Recherche et tests de solutions à la problématique
+          Garantir le même niveau de sécurité (certificats mTLS entre micro-services, application de la philosophie "zero trust")
+      - title: Déploiement d'un outil d'analyse de logs
+        tagline: |
+          Détection de comportement suspicieux grâce à de l'analyse de logs en utilisant ElasticSearch dans l'équipe cybersécurité. L'objectif est de prévenir
+          une attaque en bloquant l'utilisateur froduleux.
+      - title: Architecture réseau & VPN sécurisés (Projet Personnel)
+        tagline: |
+          Mise en place d'architectures réseau personnalisées et sécurisées basées sur WireGuard.
+      - title: Automatisation de workflows & Intégrations (Projet Personnel)
+        tagline: |
+          Conception et déploiement de pipelines d'automatisation de tâches et d'intégration de services en utilisant l'outil n8n.
+
+skills:
+    title: Compétences
+
+    details: |
+      Kubernetes, Terraform, Python, Cilium, WireGuard, Prometheus, Velero, HAProxy, KubeVirt, Docker, Helm, Ansible, Openstack, Rancher, Istio, Git, CI/CD, n8n, GCP (Google Cloud), Linux, Bash, Nginx, StorageOS, Vault, ElasticSearch, Grafana, Jira, Agile
+
+footer: >
+  CV réalisé en utilisant le CI/CD de Github

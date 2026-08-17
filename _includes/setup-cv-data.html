@@ -1,0 +1,5 @@
+{% if page.cv_data %}
+  {% assign cv_data = site.data[page.cv_data] %}
+{% else %}
+  {% assign cv_data = site.data.data %}
+{% endif %}
