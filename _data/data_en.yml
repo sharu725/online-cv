@@ -120,7 +120,11 @@ skills:
     title: Skills
 
     details: |
-      Kubernetes, Terraform, Python, Cilium, WireGuard, Prometheus, Velero, HAProxy, KubeVirt, Docker, Helm, Ansible, Openstack, Rancher, Istio, Git, CI/CD, n8n, GCP (Google Cloud), Linux, Bash, Nginx, StorageOS, Vault, ElasticSearch, Grafana, Jira, Agile
+      * **Cloud & Orchestration:** Kubernetes, Cilium, Helm, OpenStack, KubeVirt, Rancher, GCP (Google Cloud)
+      * **IaC & Automation:** Terraform, Ansible, Python, Bash, CI/CD, n8n, Git, Docker
+      * **Security & Observability:** mTLS (Istio/Cilium), Vault, Prometheus, Grafana, ElasticSearch, Velero
+      * **Networking & Systems:** Linux, HAProxy, Nginx, WireGuard, StorageOS
+      * **Methodology & Tools:** Jira, Agile
 
 footer: >
   CV built using GitHub CI/CD
