@@ -135,13 +135,18 @@ projects:
         tagline: |
           Détection de comportement suspicieux grâce à de l'analyse de logs en utilisant ElasticSearch dans l'équipe cybersécurité. L'objectif est de prévenir
           une attaque en bloquant l'utilisateur froduleux.
+      - title: Architecture réseau & VPN sécurisés (Projet Personnel)
+        tagline: |
+          Mise en place d'architectures réseau personnalisées et sécurisées basées sur WireGuard.
+      - title: Automatisation de workflows & Intégrations (Projet Personnel)
+        tagline: |
+          Conception et déploiement de pipelines d'automatisation de tâches et d'intégration de services en utilisant l'outil n8n.
 
 skills:
     title: Compétences
 
     details: |
-      Helm, DevOps, Ansible, Openstack, Kubernetes, Rancher, Istio, Git, Artifactory, ElasticSearch, CI/CD, Grafana, Linux, Agile,
-      Bash, Docker, Nginx, StorageOS, Vault, Jira
+      Kubernetes, Terraform, Python, Cilium, WireGuard, Docker, Helm, Ansible, Openstack, Rancher, Istio, Git, CI/CD, n8n, GCP (Google Cloud), Linux, Bash, Nginx, StorageOS, Vault, ElasticSearch, Grafana, Jira, Agile
 
 footer: >
   CV réalisé en utilisant le CI/CD de Github
