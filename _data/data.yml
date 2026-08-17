@@ -92,10 +92,14 @@ experiences:
     title: Experiences
     info:
       - role: Cloud Architect
-        time: Juillet 2023 - 
+        time: Juillet 2023 - Présent
         company: S3ns / Thales, Paris
         details: |
-          Chez S3ns, filiale de Thales née du partenariat entre celui-ci et Google.
+          Chez S3ns, filiale de Thales en partenariat avec Google Cloud. Conception et sécurisation d'architectures cloud souveraines de pointe.
+          * **Automatisation & IaC :** Conception de modules Terraform et de scripts Python réutilisables pour automatiser les déploiements complexes. Réduction des procédures d'infrastructure à une commande unique, optimisant le temps d'ingénierie et améliorant la résilience du système.
+          * **Kubernetes Multi-Cluster & Multi-Datacenter :** Déploiement d'une infrastructure cloud on-premise (bare-metal) complète, de la couche physique L1 aux applications L7. Déploiement de Kubernetes sur 3 datacenters distincts via Cilium Cluster Mesh pour garantir une interconnexion inter-cluster fluide et sécurisée.
+          * **Sécurité Zero-Trust & Conformité ISO 27001 :** Mise en œuvre de mTLS systématique pour tous les flux inter-pod et inter-datacenter. Rédaction d'ADR (Architecture Decision Records) et collaboration avec les équipes de cybersécurité pour s'aligner sur les standards ISO 27001 et automatiser la validation des flux.
+          * **Optimisation de workflows & IA :** Intégration et standardisation de Gemini dans les processus de l'équipe pour accélérer le delivery et accroître l'autonomie.
       - role: Ingénieur DevOps
         company: Experis France, Rouen
         time: Janvier 2023 - Juin 2023
