@@ -13,16 +13,16 @@ sidebar:
 
   # Sidebar links
   email: astha04.yadav@gmail.com
-  phone: +91 99589 27107
+  # phone: +91 99589 27107
   timezone: India/New Delhi (GMT+5.30) # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship: Indian
+  # citizenship: Indian
   website: https://serpious.github.io # Include the full website URL, including "http://" or "https://".
   linkedin: asthaashray
-  #xing: #alandoe
+  # xing: #alandoe
   github: serpious
   telegram: # add your nickname without '@' sign
-  #gitlab:
-  #bitbucket:
+  # gitlab:
+  # bitbucket:
   # bluesky: #'@jekyllrb.bsky.social' # Specify your full Bluesky handle
   # twitter: #'@jekyllrb'
   # stack-overflow: # Number/Username, e.g. 123456/alandoe
@@ -31,7 +31,7 @@ sidebar:
   # mastodon: # Please include your full Mastodon link here.
   # hackerrank: # Please provide your HackerRank username.
   leetcode: serpious
-  pdf: ./cv_15_july.pdf # Add a PDF link here if you want to include a PDF custom version in your resume.
+  pdf: /assets/cv_15_july.pdf # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   languages:
     title: Languages
