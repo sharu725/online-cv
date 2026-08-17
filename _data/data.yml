@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Stanislas POSTEL
-    tagline: Ingénieur DevOps
+    tagline: Cloud Architect, DevOps & SRE
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -58,7 +58,7 @@ sidebar:
 career-profile:
     title: Profil
     summary: |
-      Ingénieur DevOps avec une année d'expérience en alternance. Curieux de découvertes et d'apprentissages, j'aime travailler en équipe.
+      Ingénieur DevOps, SRE et Cloud Architect avec 4 ans d'expérience, spécialisé dans la conception et l'automatisation d'infrastructures hautement sécurisées, multi-datacenter et multi-cluster. Fort d'une expertise allant du bare-metal (L1) aux applications (L7), j'applique les principes Zero-Trust et l'IaC pour délivrer des environnements fiables et conformes aux exigences industrielles les plus strictes (ISO 27001). Passionné par l'innovation (IA, automatisation), j'aime travailler en équipe pour accroître l'efficacité collective.
 
 education:
     title: Formation
