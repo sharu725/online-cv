@@ -102,6 +102,7 @@ experiences:
           * **Automatisation & IaC :** Conception de modules Terraform et de scripts Python réutilisables pour automatiser les déploiements complexes. Réduction des procédures d'infrastructure à une commande unique, optimisant le temps d'ingénierie et améliorant la résilience du système.
           * **Kubernetes Multi-Cluster & Multi-Datacenter :** Déploiement d'une infrastructure cloud on-premise (bare-metal) complète, de la couche physique L1 aux applications L7. Déploiement de Kubernetes sur 3 datacenters distincts via Cilium Cluster Mesh pour garantir une interconnexion inter-cluster fluide et sécurisée.
           * **Sécurité Zero-Trust & Conformité ISO 27001 :** Mise en œuvre de mTLS systématique pour tous les flux inter-pod et inter-datacenter. Rédaction d'ADR (Architecture Decision Records) et collaboration avec les équipes de cybersécurité pour s'aligner sur les standards ISO 27001 et automatiser la validation des flux.
+          * **MCO & Astreintes (SRE) :** Garantie de la haute disponibilité de la plateforme par la participation active aux astreintes de maintien en condition opérationnelle (MCO).
           * **Optimisation de workflows & IA :** Intégration et standardisation de Gemini dans les processus de l'équipe pour accélérer le delivery et accroître l'autonomie.
       - role: Ingénieur DevOps alternant
         time: 2021 - 2022
