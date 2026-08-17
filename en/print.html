@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: print
 lang: en
 cv_data: data_en
+permalink: /en/print
 ---
-{% assign cv_data = site.data[page.cv_data] %}
-
+{% include setup-cv-data.html %}
 
 {% include career-profile.html %}
 

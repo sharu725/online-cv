@@ -4,9 +4,11 @@ permalink: /print
 ---
 
 
+{% include setup-cv-data.html %}
+
 {% include career-profile.html %}
 
-{% unless site.data.data.sidebar.education %}
+{% unless cv_data.sidebar.education %}
   {% include education.html %}
 {% endunless %}
 
