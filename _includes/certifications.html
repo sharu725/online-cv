@@ -1,4 +1,5 @@
-{% assign certifications = site.data.data.certifications %} {% if certifications %}
+{% include setup-cv-data.html %}
+{% assign certifications = cv_data.certifications %} {% if certifications %}
 <section class="section certifications-section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">

@@ -28,6 +28,9 @@
   {% include footer.html %}
 
   {% include scripts.html %}
+  <script>
+    window.cvPrintUrl = "{{ site.baseurl }}/{% if page.lang == 'en' %}en/print{% else %}print{% endif %}";
+  </script>
   <script src="{{ site.baseurl }}/assets/js/pdf-generator.js"></script>
 </body>
 
