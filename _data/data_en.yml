@@ -99,54 +99,34 @@ experiences:
         company: S3ns / Thales, Paris
         details: |
           At S3ns, a joint venture between Thales and Google Cloud. Designing and securing cutting-edge sovereign cloud architectures.
+          * **Automation & IaC:** Designed modular Terraform and reusable Python scripts to automate complex deployments. Reduced manual infrastructure deployment procedures down to a single command, optimizing engineering time and boosting system resilience.
+          * **Multi-Datacenter & Multi-Cluster Kubernetes:** Deployed a complete on-premise (bare-metal) cloud infrastructure from Layer 1 (physical) up to Layer 7 (application). Managed Kubernetes across 3 separate datacenters using Cilium Cluster Mesh to establish seamless and secure cross-cluster communication.
+          * **Zero-Trust Security & ISO 27001 Compliance:** Implemented systematic mTLS for all pod-to-pod and cross-datacenter traffic to enforce zero-trust security. Drove Architectural Decision Records (ADRs) and collaborated cross-functionally with cybersecurity teams to meet ISO 27001 standards and automated traffic verification.
+          * **MCO & On-Call (SRE):** Guaranteed platform high availability by actively participating in on-call rotations for Maintenance in Operational Condition (MCO).
+          * **Workflow Optimization & AI Tooling:** Integrated and standardized Gemini into team workflows to accelerate project delivery and increase team autonomy.
       - role: Apprentice DevOps Engineer
         time: 2021 - 2022
         company: Ercom / Thales, Paris
         details: |
-          At Ercom, a Thales subsidiary, worked as a DevOps Engineer within a 6-person team on secure messaging and file-sharing solutions, targeting ANSSI certifications.
+          At Ercom, a Thales subsidiary, worked as a DevOps Engineer within a 6-person team on secure messaging and file-sharing solutions, targeting ANSSI certifications (Citadel Team).
+          * **Resource Pooling:** Pooled Kubernetes resources for the Citadel Team application while maintaining the same high level of security, reducing the number of required VMs and greatly facilitating operations on client clusters.
+          * **Deployment, Scaling & Monitoring:** Created, scaled, and monitored client cloud infrastructures.
+          * **Infrastructure Evolution:** Researched and tested solutions to evolve existing client infrastructures (applying the "Zero-Trust" philosophy, managing mTLS certificates between microservices).
+          * **MCO & Patching:** Troubleshooting, maintenance, and patching of client Citadel Team infrastructures.
+          * **Automation Scripting:** Adapted VM deployment scripts in response to API updates from the cloud provider (OVH).
       - role: Security Engineer Intern
         time: 2021
         company: Thales SIX GTS, Paris
         details: |
           M1 internship at Thales within the cybersecurity team for a secure messaging solution.
+          * **Log Analysis:** Detected suspicious behavior via log analysis using Elasticsearch, aiming to prevent attacks by blocking fraudulent users.
 projects:
-    title: Projects
+    title: Personal Projects
     assignments:
-      - title: Automation & IaC (S3ns / Thales)
-        tagline: |
-          Designed modular Terraform and reusable Python scripts to automate complex deployments. Reduced manual infrastructure deployment procedures down to a single command, optimizing engineering time and boosting system resilience.
-      - title: Multi-Datacenter & Multi-Cluster Kubernetes (S3ns / Thales)
-        tagline: |
-          Deployed a complete on-premise (bare-metal) cloud infrastructure from Layer 1 (physical) up to Layer 7 (application). Managed Kubernetes across 3 separate datacenters using Cilium Cluster Mesh to establish seamless and secure cross-cluster communication.
-      - title: Zero-Trust Security & ISO 27001 Compliance (S3ns / Thales)
-        tagline: |
-          Implemented systematic mTLS for all pod-to-pod and cross-datacenter traffic to enforce zero-trust security. Drove Architectural Decision Records (ADRs) and collaborated cross-functionally with cybersecurity teams to meet ISO 27001 standards and automated traffic verification.
-      - title: MCO & On-Call - SRE (S3ns / Thales)
-        tagline: |
-          Guaranteed platform high availability by actively participating in on-call rotations for Maintenance in Operational Condition (MCO).
-      - title: Workflow Optimization & AI Tooling (S3ns / Thales)
-        tagline: |
-          Integrated and standardized Gemini into team workflows to accelerate project delivery and increase team autonomy.
-      - title: Cloud / Kubernetes Resource Pooling
-        tagline: |
-          Pooled Kubernetes resources for the Citadel Team application while maintaining the same high level of security, reducing the number of required VMs and greatly facilitating operations on client clusters. Worked closely with the QA team. Drafted documentation, deployed test environments, and wrote testing procedures.
-      - title: Maintenance in Operational Condition & Patching
-        tagline: Troubleshooting and maintenance of client Citadel Team infrastructures.
-      - title: Deployment, Scaling & Monitoring
-        tagline: Created, scaled, and monitored client cloud infrastructures.
-      - title: Infrastructure Deployment Script Updates
-        tagline: |
-          Adapted VM deployment scripts in response to API updates from the cloud provider (OVH).
-      - title: Evolving Existing Client Infrastructures
-        tagline: |
-          To facilitate maintenance and deployment operations. Researched and tested solutions. Ensured the same level of security (mTLS certificates between microservices, applying the "zero trust" philosophy).
-      - title: Log Analysis Tool Deployment
-        tagline: |
-          Detected suspicious behavior via log analysis using ElasticSearch within the cybersecurity team, aiming to prevent attacks by blocking fraudulent users.
-      - title: Secure Network Architecture & VPNs (Personal Project)
+      - title: Secure Network Architecture & VPNs
         tagline: |
           Designed and implemented custom, secure network architectures based on WireGuard.
-      - title: Workflow Automation & Integrations (Personal Project)
+      - title: Workflow Automation & Integrations
         tagline: |
           Designed and deployed automation pipelines and service integrations using n8n.
 

@@ -99,60 +99,34 @@ experiences:
         company: S3ns / Thales, Paris
         details: |
           Chez S3ns, filiale de Thales en partenariat avec Google Cloud. Conception et sécurisation d'architectures cloud souveraines de pointe.
+          * **Automatisation & IaC :** Conception de modules Terraform et de scripts Python réutilisables pour automatiser les déploiements complexes. Réduction des procédures d'infrastructure à une commande unique, optimisant le temps d'ingénierie et améliorant la résilience du système.
+          * **Kubernetes Multi-Cluster & Multi-Datacenter :** Déploiement d'une infrastructure cloud on-premise (bare-metal) complète, de la couche physique L1 aux applications L7. Déploiement de Kubernetes sur 3 datacenters distincts via Cilium Cluster Mesh pour garantir une interconnexion inter-cluster fluide et sécurisée.
+          * **Sécurité Zero-Trust & Conformité ISO 27001 :** Mise en œuvre de mTLS systématique pour tous les flux inter-pod et inter-datacenter. Rédaction d'ADR (Architecture Decision Records) et collaboration avec les équipes de cybersécurité pour s'aligner sur les standards ISO 27001 et automatiser la validation des flux.
+          * **MCO & Astreintes (SRE) :** Garantie de la haute disponibilité de la plateforme par la participation active aux astreintes de maintien en condition opérationnelle (MCO).
+          * **Optimisation de workflows & IA :** Intégration et standardisation de Gemini dans les processus de l'équipe pour accélérer le delivery et accroître l'autonomie.
       - role: Ingénieur DevOps alternant
         time: 2021 - 2022
         company: Ercom / Thales, Paris
         details: |
-          Chez Ercom, filiale de Thales, DevOps dans une équipe de 6 personnes pour des solutions sécurisées de 
-          messagerie et de partage de fichiers, à vocation d’être certifiées par l’ANSSI.
+          Chez Ercom, filiale de Thales, DevOps dans une équipe de 6 personnes pour des solutions sécurisées de messagerie et de partage de fichiers, à vocation d’être certifiées par l’ANSSI (Citadel Team).
+          * **Mutualisation de ressources :** Mutualisation de ressources Kubernetes pour l'application Citadel Team tout en garantissant le même niveau de sécurité afin de diminuer le nombre de VMs nécessaires et de faciliter les opérations sur les clusters.
+          * **Déploiement & Monitoring :** Création, mise à l'échelle (scaling) et supervision (monitoring) des infrastructures cloud des clients Citadel Team.
+          * **Évolution d'infrastructure :** Recherche, test et intégration de solutions pour faire évoluer les architectures existantes (application de la philosophie "Zero-Trust", gestion des certificats mTLS entre microservices).
+          * **MCO & Patching :** Maintien en condition opérationnelle, dépannage (troubleshooting) et application des correctifs (patching) sur les infrastructures Citadel Team des clients.
+          * **Automatisation & Scripting :** Adaptation et mise à jour des scripts de déploiement de machines virtuelles suite aux évolutions des APIs du fournisseur cloud (OVH).
       - role: Ingénieur sécurité pour solution de messagerie collaborative
         time: 2021
         company: Thales SIX GTS, Paris
         details: |
           Stage de M1 chez Thales dans l’équipe de cybersécurité pour une solution de messagerie sécurisée.
+          * **Analyse de logs :** Déploiement d'un outil d'analyse de logs avec Elasticsearch pour détecter les comportements suspects et prévenir les cyberattaques en bloquant les utilisateurs frauduleux.
 projects:
-    title: Projets
+    title: Projets Personnels
     assignments:
-      - title: Automatisation & IaC (S3ns / Thales)
-        tagline: |
-          Conception de modules Terraform et de scripts Python réutilisables pour automatiser les déploiements complexes. Réduction des procédures d'infrastructure à une commande unique, optimisant le temps d'ingénierie et améliorant la résilience du système.
-      - title: Kubernetes Multi-Cluster & Multi-Datacenter (S3ns / Thales)
-        tagline: |
-          Déploiement d'une infrastructure cloud on-premise (bare-metal) complète, de la couche physique L1 aux applications L7. Déploiement de Kubernetes sur 3 datacenters distincts via Cilium Cluster Mesh pour garantir une interconnexion inter-cluster fluide et sécurisée.
-      - title: Sécurité Zero-Trust & Conformité ISO 27001 (S3ns / Thales)
-        tagline: |
-          Mise en œuvre de mTLS systématique pour tous les flux inter-pod et inter-datacenter. Rédaction d'ADR (Architecture Decision Records) et collaboration avec les équipes de cybersécurité pour s'aligner sur les standards ISO 27001 et automatiser la validation des flux.
-      - title: MCO & Astreintes - SRE (S3ns / Thales)
-        tagline: |
-          Garantie de la haute disponibilité de la plateforme par la participation active aux astreintes de maintien en condition opérationnelle (MCO).
-      - title: Optimisation de workflows & IA (S3ns / Thales)
-        tagline: |
-          Intégration et standardisation de Gemini dans les processus de l'équipe pour accélérer le delivery et accroître l'autonomie.
-      - title: Mutualisation de ressources cloud / kubernetes
-        tagline: |
-          Mutualisation de ressources Kubernetes pour l'application Citadel Team tout en garantissant le même niveau de sécurité afin
-          de diminuer le nombre de VMs nécessaire et faciliter grandement les opérations sur les clusters des clients. Lien étroit avec 
-          l'équipe de QA. Rédaction de documentation, déploiements d'environnements de test, rédaction de procédures de test.
-      - title: Maintien en condition opérationnelle / patching des infrastructures clientes
-        tagline: Dépannage des infrastructures Citadel Team des clients
-      - title: Déploiement / mise à l’échelle / monitoring d’infrastructures cloud pour les clients Citadel Team
-        tagline: Création, scaling et monitoring des infrastructures clientes
-      - title: Mise à jour de scripts de déploiement d'infrastructure client
-        tagline: |
-          Suite à des mises à jour de l'API du cloud provider (OVH), adapter les scripts de déploiement de VMs. 
-      - title: Évolution des infrastructures clientes existantes
-        tagline: |
-          afin de faciliter les opérations de maintenance et de déploiement. 
-          Recherche et tests de solutions à la problématique
-          Garantir le même niveau de sécurité (certificats mTLS entre micro-services, application de la philosophie "zero trust")
-      - title: Déploiement d'un outil d'analyse de logs
-        tagline: |
-          Détection de comportement suspicieux grâce à de l'analyse de logs en utilisant ElasticSearch dans l'équipe cybersécurité. L'objectif est de prévenir
-          une attaque en bloquant l'utilisateur froduleux.
-      - title: Architecture réseau & VPN sécurisés (Projet Personnel)
+      - title: Architecture réseau & VPN sécurisés
         tagline: |
           Mise en place d'architectures réseau personnalisées et sécurisées basées sur WireGuard.
-      - title: Automatisation de workflows & Intégrations (Projet Personnel)
+      - title: Automatisation de workflows & Intégrations
         tagline: |
           Conception et déploiement de pipelines d'automatisation de tâches et d'intégration de services en utilisant l'outil n8n.
 
