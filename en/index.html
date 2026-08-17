@@ -1,7 +1,7 @@
 ---
 layout: default
-lang: fr
-cv_data: data
+lang: en
+cv_data: data_en
 ---
 {% assign cv_data = site.data[page.cv_data] %}
 
@@ -14,14 +14,8 @@ cv_data: data
 
 {% include experiences.html %}
 
-{% include certifications.html %}
-
 {% include projects.html %}
 
-{% include oss-contributions.html %}
-
 {% include publications.html %}
-
-{% include recommendations.html %}
 
 {% include skills.html %}

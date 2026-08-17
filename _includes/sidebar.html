@@ -1,5 +1,18 @@
-{% assign sidebar = site.data.data.sidebar %}
+{% if page.cv_data %}
+  {% assign cv_data = site.data[page.cv_data] %}
+{% else %}
+  {% assign cv_data = site.data.data %}
+{% endif %}
+{% assign sidebar = cv_data.sidebar %}
 <div class="sidebar-wrapper">
+
+  <div class="language-switcher d-print-none text-center" style="margin-top: 15px; margin-bottom: 15px; padding: 0 20px;">
+    {% if page.lang == 'en' %}
+      <a href="{{ site.baseurl }}/" class="btn btn-sm btn-outline-light" style="font-weight: bold; width: 100%; border-color: rgba(255,255,255,0.4);"><i class="fas fa-globe"></i> Version Française</a>
+    {% else %}
+      <a href="{{ site.baseurl }}/en/" class="btn btn-sm btn-outline-light" style="font-weight: bold; width: 100%; border-color: rgba(255,255,255,0.4);"><i class="fas fa-globe"></i> English Version</a>
+    {% endif %}
+  </div>
 
   <div class="profile-container">
 

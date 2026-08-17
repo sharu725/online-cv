@@ -1,4 +1,5 @@
-{% assign career-profile = site.data.data.career-profile %}
+{% include setup-cv-data.html %}
+{% assign career-profile = cv_data.career-profile %}
 {% if career-profile %}
 <section class="section summary-section">
 

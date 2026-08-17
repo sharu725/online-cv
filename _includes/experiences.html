@@ -1,4 +1,5 @@
-{% assign experiences = site.data.data.experiences %}
+{% include setup-cv-data.html %}
+{% assign experiences = cv_data.experiences %}
 {% if experiences %}
 <section class="section experiences-section">
   <h2 class="section-title">

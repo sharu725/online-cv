@@ -1,4 +1,5 @@
-{% assign skills = site.data.data.skills %}
+{% include setup-cv-data.html %}
+{% assign skills = cv_data.skills %}
 {% if skills %}
 <section class="skills-section section">
 
