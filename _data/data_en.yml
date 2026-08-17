@@ -99,11 +99,6 @@ experiences:
         company: S3ns / Thales, Paris
         details: |
           At S3ns, a joint venture between Thales and Google Cloud. Designing and securing cutting-edge sovereign cloud architectures.
-          * **Automation & IaC:** Designed modular Terraform and reusable Python scripts to automate complex deployments. Reduced manual infrastructure deployment procedures down to a single command, optimizing engineering time and boosting system resilience.
-          * **Multi-Datacenter & Multi-Cluster Kubernetes:** Deployed a complete on-premise (bare-metal) cloud infrastructure from Layer 1 (physical) up to Layer 7 (application). Managed Kubernetes across 3 separate datacenters using Cilium Cluster Mesh to establish seamless and secure cross-cluster communication.
-          * **Zero-Trust Security & ISO 27001 Compliance:** Implemented systematic mTLS for all pod-to-pod and cross-datacenter traffic to enforce zero-trust security. Drove Architectural Decision Records (ADRs) and collaborated cross-functionally with cybersecurity teams to meet ISO 27001 standards and automated traffic verification.
-          * **MCO & On-Call (SRE):** Guaranteed platform high availability by actively participating in on-call rotations for Maintenance in Operational Condition (MCO).
-          * **Workflow Optimization & AI Tooling:** Integrated and standardized Gemini into team workflows to accelerate project delivery and increase team autonomy.
       - role: Apprentice DevOps Engineer
         time: 2021 - 2022
         company: Ercom / Thales, Paris
@@ -117,6 +112,21 @@ experiences:
 projects:
     title: Projects
     assignments:
+      - title: Automation & IaC (S3ns / Thales)
+        tagline: |
+          Designed modular Terraform and reusable Python scripts to automate complex deployments. Reduced manual infrastructure deployment procedures down to a single command, optimizing engineering time and boosting system resilience.
+      - title: Multi-Datacenter & Multi-Cluster Kubernetes (S3ns / Thales)
+        tagline: |
+          Deployed a complete on-premise (bare-metal) cloud infrastructure from Layer 1 (physical) up to Layer 7 (application). Managed Kubernetes across 3 separate datacenters using Cilium Cluster Mesh to establish seamless and secure cross-cluster communication.
+      - title: Zero-Trust Security & ISO 27001 Compliance (S3ns / Thales)
+        tagline: |
+          Implemented systematic mTLS for all pod-to-pod and cross-datacenter traffic to enforce zero-trust security. Drove Architectural Decision Records (ADRs) and collaborated cross-functionally with cybersecurity teams to meet ISO 27001 standards and automated traffic verification.
+      - title: MCO & On-Call - SRE (S3ns / Thales)
+        tagline: |
+          Guaranteed platform high availability by actively participating in on-call rotations for Maintenance in Operational Condition (MCO).
+      - title: Workflow Optimization & AI Tooling (S3ns / Thales)
+        tagline: |
+          Integrated and standardized Gemini into team workflows to accelerate project delivery and increase team autonomy.
       - title: Cloud / Kubernetes Resource Pooling
         tagline: |
           Pooled Kubernetes resources for the Citadel Team application while maintaining the same high level of security, reducing the number of required VMs and greatly facilitating operations on client clusters. Worked closely with the QA team. Drafted documentation, deployed test environments, and wrote testing procedures.
