@@ -31,7 +31,7 @@ sidebar:
   # mastodon: # Please include your full Mastodon link here.
   # hackerrank: # Please provide your HackerRank username.
   leetcode: serpious
-  pdf: /assets/cv_15_july.pdf # Add a PDF link here if you want to include a PDF custom version in your resume.
+  pdf: assets/cv_15_july.pdf # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   languages:
     title: Languages
