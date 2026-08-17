@@ -72,25 +72,11 @@ education:
         details: |
           Initial training from L3 to M1 followed by an M2 work-study program at Ercom / Thales.
           Specialization in "Network and Cloud Infrastructures", taught in English.
-      - degree: Bachelor of Engineering Science
-        university: EFREI Paris
-        time: 2019 - 2020
       - degree: University Exchange Program
         university: APU, Kuala Lumpur, Malaysia
         time: 2020
         details: |
           One-semester university exchange program at APU, Kuala Lumpur, Malaysia.
-      - degree: Bachelor of Science, Computer Science
-        university: Université Gustave Eiffel, Créteil (94)
-        time: 2019 - 2020
-        details: |
-          Equivalency obtained following a 3rd year (L3) at EFREI Paris.
-      - degree: CPGE TSI (Preparatory Class for Engineering Schools)
-        university: Lycée Marcel Sembat, Sotteville-Lès-Rouen (76)
-        time: 2016 - 2018
-      - degree: High School Diploma in Science and Technologies of Industry and Sustainable Development (STI2D)
-        university: Lycée Les Fontenelles, Louviers (27)
-        time: 2016
 experiences:
     title: Experience
     info:

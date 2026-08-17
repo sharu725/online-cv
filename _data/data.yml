@@ -72,25 +72,11 @@ education:
         details: |
           Formation initiale de la L3 au M1 suivie d'un M2 en contrat de professionalisation chez Ercom / Thales.
           Spécialité "Network and Cloud Infrastructures", enseignée en anglais. 
-      - degree: Bachelor of Engineering Science
-        university: EFREI Paris
-        time: 2019 - 2020
       - degree: Échange Universitaire à APU
         university: APU, Kuala Lumpur, Malaisie
         time: 2020
         details: |
           Échange universitaire d'un semestre à APU, Kuala Lumpur, Malaisie
-      - degree: Licence Sciences, Technologies, Santé, Mention Informatique
-        university: Université Gustave Eiffel, Créteil (94)
-        time: 2019 - 2020
-        details: |
-          Équivalence suite à une année de L3 à l'EFREI Paris
-      - degree: CPGE TSI
-        university: Lycée Marcel Sembat, Sotteville-Lès-Rouen (76)
-        time: 2016 - 2018
-      - degree: Baccalauréat STI2D
-        university: Lycée Les Fontenelles, Louviers (27)
-        time: 2016
 experiences:
     title: Experiences
     info:
