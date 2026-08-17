@@ -63,6 +63,9 @@ career-profile:
 education:
     title: Formation
     info:
+      - degree: Certification Professional Cloud Architect
+        university: Google Cloud
+        time: 2023
       - degree: Diplôme d'ingénieur en informatique, Spécialité "Network and Cloud Infrastructure"
         university: EFREI Paris
         time: 2019 - 2022
