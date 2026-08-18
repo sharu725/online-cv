@@ -12,6 +12,7 @@ sidebar:
   avatar: ash_passport_3.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
+  pdf: assets/cv_15_july.pdf # Add a PDF link here if you want to include a PDF custom version in your resume.
   email: astha04.yadav@gmail.com
   # phone: +91 99589 27107
   timezone: India/New Delhi (GMT+5.30) # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
@@ -31,7 +32,6 @@ sidebar:
   # mastodon: # Please include your full Mastodon link here.
   # hackerrank: # Please provide your HackerRank username.
   leetcode: serpious
-  pdf: assets/cv_15_july.pdf # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   languages:
     title: Languages
