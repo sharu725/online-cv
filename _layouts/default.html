@@ -9,13 +9,15 @@
 {% include head.html %}
 
 <body>
-  <button onclick="windows.print()" class="print-button d-print-none">
-    <i class="fas fa-file-pdf"></i>Print
-  </button>
+<!-- Print Link -->
+<a href="assets/astha_cv.pdf" target="_blank" class="print-button d-print-none">
+  <i class="fas fa-print"></i>Print
+</a>
 
-  <button onclick="generatePDF()" class="pdf-button d-print-none" id="pdfButton">
-    <i class="fas fa-file-pdf"></i>PDF
-  </button>
+<!-- PDF Link -->
+<a href="assets/astha_cv.pdf" target="_blank" class="pdf-button d-print-none" id="pdfButton">
+  <i class="fas fa-file-pdf"></i>PDF
+</a>
 
   <div class="wrapper">
     {% include sidebar.html %}
