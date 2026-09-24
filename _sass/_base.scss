@@ -297,37 +297,6 @@ p {
   }
 }
 
-.print-button {
-  position: fixed;
-  top: 20px;
-  right: 120px; // Changed from 20px to make space for the PDF button
-  z-index: 1000;
-  background: $theme-color;
-  color: #fff;
-  padding: 8px 15px;
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
-  font-size: 14px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-  transition: all 0.3s ease;
-
-  &:hover {
-    background: darken($theme-color, 10%);
-    transform: translateY(-1px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-
-  &:active {
-    transform: translateY(0);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-
-  .fas {
-    margin-right: 5px;
-  }
-}
-
 .pdf-button {
   position: fixed;
   top: 20px;
@@ -342,6 +311,7 @@ p {
   font-size: 14px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
   transition: all 0.3s ease;
+  visibility: hidden;
 
   &:hover {
     background: darken($theme-color, 10%);

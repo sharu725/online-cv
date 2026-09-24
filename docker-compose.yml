@@ -5,6 +5,7 @@ services:
     command: jekyll serve --watch --force_polling --verbose --livereload --host 0.0.0.0
     volumes:
       - .:/srv/jekyll:Z
+    working_dir: /srv/jekyll
     environment:
       JEKYLL_VERSION: 3.8
     ports:

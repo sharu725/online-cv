@@ -21,8 +21,9 @@ function generatePDF() {
 
       // Get name from the DOM (as defined in data.yml)
       const name = document.querySelector(".name").textContent;
-      // Format filename: replace spaces with underscores and append _resume.pdf
-      const filename = `${name.replace(/\s+/g, "_")}_Resume.pdf`;
+      const today = new Date().toISOString().split('T')[0];
+      // Format filename: replace spaces with underscores and append _resume.pdf and today's date
+      const filename = `${name.replace(/\s+/g, "_")}_resume_${today}.pdf`;
 
       // Configure pdf options
       const opt = {

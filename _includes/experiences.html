@@ -18,8 +18,11 @@
         <h3 class="job-title">{{ experience.role }}</h3>
         <div class="time">{{ experience.time }}</div>
       </div><!--//upper-row-->
-
+      {% if experience.link %}
+      <a href="{{ experience.link }}" target="_blank"><div class="company-link">{{ experience.company }}</div></a>
+      {% else %}
       <div class="company">{{ experience.company }}</div>
+      {% endif %}
 
     </div><!--//meta-->
 
@@ -30,6 +33,7 @@
     {% endif %}
 
   </div><!--//item-->
+
   {% endfor %}
 
 </section><!--//section-->

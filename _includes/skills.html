@@ -21,6 +21,11 @@
     <!--//item-->
     {% endfor %}
   </div>
+  {% if skills.details %}
+  <div class="details">
+    {{ skills.details | markdownify }}
+  </div><!--//details-->
+  {% endif %}
 </section>
 <!--//skills-section-->
 {% endif %}
