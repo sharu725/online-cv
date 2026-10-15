@@ -7,19 +7,13 @@
     {{ skills_sidebar.title }}
   </h1>
 
-  {% for category in skills_sidebar.categories %}
-  <h4 class="container-block-subtitle">
-    {{ category.title }}
-  </h4>
-
   <ul class="list-unstyled interests-list">
-    {% for skill in category.info %}
+    {% for skill in skills_sidebar.info %}
     <li>
       <span class="lang-desc">{{ skill.level }}</span>&nbsp;&nbsp;&nbsp;&nbsp;{{ skill.idiom }}
     </li>
     {% endfor %}
   </ul>
-  {% endfor %}
 
 </div><!--//skills-->
 {% endif %}
