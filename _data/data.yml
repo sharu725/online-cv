@@ -50,7 +50,7 @@ sidebar:
 education:
   title: Education
   info:
-  - degree: BA in Applied Mathemtics 
+  - degree: BA in Applied Mathematics
     university: CUNY Queens College
   - degree: BA in Economics
     university: SUNY Stony Brook
@@ -58,17 +58,32 @@ education:
 experiences:
   title: Experiences
   info:
+  - role: Data Engineer
+    time: June 2025 - Present
+    company: Lucina
+    details: |
+      - Developed and deployed new data pipelines in Azure Databricks using Python, SQL, and Databricks Workflows
+      - Created new CI/CD pipelines in Azure DevOps and maintained existing ones
+      - Helped migrate existing Azure DevOps infrastructure to Terraform
+      - Containerized the Databricks environment with Docker for use on Databricks clusters
+      - Researched medical claims data from both the payer and provider perspectives
+      - Helped implement and deploy machine learning models built by the data science team
+      - Translating existing PySpark pipeline code into dbt models for a proof of concept, in collaboration with the data science team, to replace large portions of the current pipeline code
+      - Collaborated with the data team of an acquired sister company and used their Snowflake data warehouse as a data source
+      - Used AI tools for documentation generation, code review, and writing tests
   - role: Senior Data Engineer
-    time: June 2024 - Present
+    time: June 2024 to June 2025
     company: New York Blood Center
     details: |
-      - Developed and maintained data pipelines in Azure Data Factory and Databricks
+      - Developed and maintained ETL pipelines in Azure Data Factory, Databricks and Azure Data Lake Storage 2 using Python and SQL
+      - Implemented Databricks warehouse proof of concept for eventual migration from Azure SQL Server
       - Designed and optimized data models for analytics and reporting
       - Built and maintained Tableau dashboards for operational insights
-      - Managed and updated SSIS packages in SQL Server
-      - Wrote and optimized stored procedures to improve database performance
-      - Helped tune and optimize performance of SQL Server data warehouse
+      - Managed and updated SSIS packages on-prem SQL Server
+      - Wrote and optimized stored procedures to improve Azure SQL Server database performance
+      - Helped tune and optimize performance of Azure SQL Server data warehouse
       - Assisted in migrating on-premises data infrastructure to the cloud
+      - Communicated with stakeholders and managed their expectations while learning the blood banking industry
   - role: Data Engineer
     time: January 2022 to June 2024
     company: Crowdstreet
@@ -77,7 +92,10 @@ experiences:
       - Developed and deployed ETL pipelines using Meltano on AWS Elastic Container Service
       - Implemented data extractions with AWS Lambda
       - Designed and maintained data pipelines connecting the data warehouse to Salesforce and HubSpot
-      - Modeled and transformed data from multiple sources using dbt
+      - Modeled and transformed data from multiple sources using dbt, including financial, site traffic, in-house web application, third-party market (stocks, interest rates), Salesforce, and Zoom data
+      - Used dbt testing extensively to validate data quality across models
+      - Maintained dbt YAML files as a data dictionary, documenting models with descriptions and metadata
+      - Managed Amazon S3 Data Lake
       - Partnered with data scientists to train machine learning models in AWS SageMaker
       - Containerized and deployed machine learning models using Docker and AWS Elastic Container Service
       - Provisioned and managed AWS infrastructure with Terraform
@@ -85,6 +103,8 @@ experiences:
       - Worked closely with data analysts to support reporting and insights
       - Administered and maintained Looker projects and dashboards
       - Engaged with executives and stakeholders across departments to align data solutions with business needs
+      - Implemented ingestion to Snowflake warehouse using Snowpipe
+      - Rewrote a legacy data warehouse in Snowflake using incremental loading strategies, significantly reducing compute costs and avoiding full table scans by leveraging dbt models, partitioning, and change data capture techniques
       - Managed Snowflake data warehouse security, implementing role-based access controls to protect PII
       - Developed data pipelines and transformations in Azure Data Factory and Databricks
       - Built interactive dashboards in Power BI for business reporting
@@ -100,7 +120,7 @@ experiences:
       - Managed infrastructure monitoring and alerts with AWS CloudWatch
       - Built a rule engine to automatically tag and categorize orders
       - Worked closely with stakeholders to define and implement new features
-      - Collaborated closely with stakeholders when implementing features
+      - Used Splunk to monitor application
       - Participated in architectural design decisions to improve system scalability and maintainability
       - Documented workflows, technical designs, and best practices in Atlassian Confluence
       - Tracked development tasks and project progress using Atlassian JIRA
@@ -114,10 +134,10 @@ experiences:
       - Created web scrapers with Selenium and Scrapy to automate geospatial data collection for analysts
       - Documented applications and workflows to support maintainability and knowledge sharing
   - role: Software Engineer in Test
-    time: March 2019 to August 2020
+    time: March 2019 to December 2019
     company: dv01
     details: |
-      - Used R and Scala with Apache Spark to detect anomalies in financial data
+      - Used R, Scala with Apache Spark and Azure Data Lake Storage 2 to detect anomalies in financial data
       - Built Spring Boot microservices to expose analytical data to other teams
       - Developed R libraries to support data analysts in their workflows
       - Created scrapers to extract data from PDF reports
