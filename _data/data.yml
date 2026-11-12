@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Germ&aacute;n Mart&iacute;nez-Ayuso
-    tagline: Senior Software Engineer
+    tagline: Senior Software Engineer @ Synopsys (ex-Ansys)
     avatar: ger3.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -38,13 +38,16 @@ sidebar:
       - idiom: Spanish
         level: Native
 
+      - idiom: French
+        level: Elementary
+
     interests:
       title: Interests
       info:
       - item: Running
         link:
 
-      - item: Playing football
+      - item: Football
         link:
 
       - item: Gym 
@@ -58,106 +61,102 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Senior Software Engineer at ANSYS specializing in Python, DevOps, and CI/CD.
-      Core contributor to PyMAPDL with 472+ GitHub stars.
-      Focused on AI automation and intelligent systems.
-  
+      Senior software engineer with 5+ years building production developer tooling for simulation software at Ansys (now Synopsys).
+      I'm the main maintainer of [PyMAPDL](https://github.com/ansys/pymapdl) (500+ GitHub stars, 17,000+ monthly downloads), the open-source Python interface to the MAPDL solver, and the developer of [PyMAPDL MCP](https://github.com/ansys/pymapdl-mcp) (3,000+ monthly downloads).
+
+      My work spans C++ solver code and gRPC services, Python APIs, Docker images, CI/CD and releases, and I care about testing: I took PyMAPDL's coverage from 70% to 90%. Lately I've also been building AI-assisted developer tooling, including MCP server integrations.
+
+      Before industry I did a PhD in Civil Engineering (computational mechanics, FEM) at Swansea University and two research posts applying machine learning to materials and biomedical data at UCL and Swansea. That background means I'm comfortable where software meets numerical computing and messy real-world data.
+
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills &amp; Tools
 
     toolset:
 
-      - name: Python
-        details: NumPy/Pandas/pytest
-        level: 80%
+      - name: Languages
+        details: Python, C++, SQL, TypeScript
 
-      - name: Software Design
-        details: OOP/Testing/Design Patterns
-        level: 80%
-
-      - name: Project Management
-        details: Git/Agile/Coordination
-        level: 70%
-
-      - name: API Development
-        details: gRPC/REST/FastAPI
-        level: 70%
+      - name: Systems &amp; APIs
+        details: gRPC, REST APIs, distributed services, client/server architecture
 
       - name: DevOps
-        details: Docker/CI-CD/GitHub Actions
-        level: 70%
+        details: Docker (multi-stage builds, custom base images), CI/CD, GitHub Actions, Linux (Ubuntu), release engineering
 
-      - name: Cloud
-        details: Azure/Linux/Bash
-        level: 60%
+      - name: Testing &amp; Quality
+        details: pytest, test coverage, release QA, documentation
 
-      - name: Frontend
-        details: JavaScript/React/HTML-CSS
-        level: 55%
+      - name: AI Tooling
+        details: MCP (Model Context Protocol) servers, AI-assisted development workflows, automation
 
-      - name: AI Systems
-        details: RAG/Automation/LLM Integration
-        level: 60%
-
-      - name: Machine Learning
-        details: TensorFlow/scikit-learn
-        level: 55%
+      - name: Scientific Computing
+        details: Finite element method, simulation software (Ansys MAPDL), machine learning, data analysis
 
 
 experiences:
     title: Experiences
     info:
-    - role: Senior R&D Engineer
-      time: 2023 - Present
-      company: Ansys Inc, Remote
+    - role: Senior Research and Development Engineer
+      time: Jul 2025 - Present
+      company: Synopsys Inc, Córdoba, Spain (remote)
       details: |
-          PyAnsys Ecosystem - Main Maintainer of PyMAPDL
-          - Lead maintainer of [PyMAPDL](https://github.com/ansys/pymapdl) (472+ stars): gRPC API development for Python-C++ interface
-          - Architected CI/CD pipelines with GitHub Actions for automated testing and deployment
-          - Docker containerization: [MAPDL solver Ubuntu image](https://github.com/ansys/pymapdl/pkgs/container/pymapdl%2Fmapdl) for cloud deployment
-          - Managed 200+ issues/PRs with comprehensive documentation and code reviews
-          - Mentoring engineers and supporting customer engagements
+          Continuation of my Ansys role following Synopsys' acquisition of Ansys (July 2025). Main maintainer of [PyMAPDL](https://github.com/ansys/pymapdl), the open-source Python interface to the MAPDL solver (500+ GitHub stars, 17,000+ monthly downloads).
 
-    - role: R&D Engineer
-      time: 2021 - 2023
-      company: Ansys Inc, Córdoba, Spain
+          - **PyMAPDL MCP:** designed and developed the [PyMAPDL MCP](https://github.com/ansys/pymapdl-mcp) server, letting AI assistants and agents drive MAPDL simulations directly (3,000+ monthly downloads)
+          - **PyMAPDL development:** drove major growth of the library, including a new command-line interface (CLI), new and improved features, and extensive documentation improvements
+          - **C++ & gRPC:** design and implement features in the C++ gRPC server inside the MAPDL solver and in the Python client that drives it
+          - **Docker:** redesigned the MAPDL Docker images, cutting image size by up to 10x and improving startup and execution times; built and maintain multiple image variants for different product combinations and Ubuntu versions
+          - **CI/CD:** reworked PyMAPDL's CI/CD pipelines for faster runs, reproducible builds and fewer failures
+          - **Testing:** raised PyMAPDL test coverage from 70% to 90%
+          - **Releases & collaboration:** own the maintenance cycle from GitHub issue triage to patch releases; improved versioning, documentation and release QA; work with HPC, backend and solver teams; mentor colleagues on Python, Docker and gRPC
+
+    - role: Senior Research and Development Engineer
+      time: Apr 2023 - Jul 2025
+      company: Ansys, Remote, Spain
       details: |
-          PyAnsys Ecosystem - Core Contributor
-          - Developed Python libraries for ANSYS products: [PyMAPDL](https://github.com/ansys/pymapdl), [ansys/actions](https://github.com/ansys/actions), [ansys-tools-path](https://github.com/ansys/ansys-tools-path), [ansys-sphinx-theme](https://github.com/ansys/ansys-sphinx-theme)
+          - Main maintainer of PyMAPDL: gRPC API development for the Python-C++ interface; improved the MAPDL codebase and its gRPC interface
+          - Built CI/CD pipelines with GitHub Actions for automated testing and deployment
+          - Built and maintained the [MAPDL solver Ubuntu Docker image](https://github.com/ansys/pymapdl/pkgs/container/pymapdl%2Fmapdl) for CI and cloud deployment
+          - Managed 200+ issues/PRs with documentation and code reviews
+          - Mentored engineers and supported customer engagements
+
+    - role: Research and Development Engineer
+      time: Sep 2021 - Apr 2023
+      company: Ansys, Córdoba, Spain
+      details: |
+          - Core contributor to the PyAnsys ecosystem: developed Python libraries including [PyMAPDL](https://github.com/ansys/pymapdl), [ansys/actions](https://github.com/ansys/actions), [ansys-tools-path](https://github.com/ansys/ansys-tools-path) and [ansys-sphinx-theme](https://github.com/ansys/ansys-sphinx-theme)
           - Implemented gRPC-based APIs for client-server communication
-          - Built automated testing frameworks and CI/CD pipelines
-          - Created developer tools and comprehensive documentation
-          - Drove technological transformation with code best practices
+          - Built automated testing frameworks and CI/CD pipelines; developed and improved the MAPDL Docker image for internal use and testing
+          - Created developer tools and documentation; promoted coding best practices across the team
 
-    - role: Research Officer
-      time: 2020
+    - role: Research Officer in Data Science
+      time: Aug 2020 - Aug 2021
       company: Medical School, Swansea University, Swansea, UK
       details: |
-          - Applied machine learning algorithms (clustering and deep learning) to detect abnormal behavior in cardiac cells optical data
-          - Developed Python-based GUI workflow for microscope image analysis and data extraction  
+          - Applied machine learning (clustering and deep learning) to detect outliers and abnormal behaviour in cardiac cell optical data and fluorescent calcium measurements
+          - Extracted image features with ML; processed proprietary microscope file formats
+          - Built an in-house Python GUI workflow for microscope image analysis and data extraction
 
-    - role: Research Fellow
-      time: 2019 - 2020
-      company: Institute of Materials Discovery, University College of London, London, UK
+    - role: Research Fellow, Materials Modelling and Machine Learning
+      time: Nov 2019 - Aug 2020
+      company: Institute of Materials Discovery, University College London, London, UK
       details: |
-          - Applied FEM and ML techniques to optimize industrial composites (honeycomb, recycled aggregates)
-          - Collaborated on ML for materials property prediction and text mining research databases
-          - Co-developed web platform for industry access to materials modeling expertise (EU-funded, Fraunhofer/Enthought/Bosch) 
+          - Co-developed an EU-funded web platform giving industry access to materials modelling expertise (partners included Fraunhofer, Enthought and Bosch)
+          - Applied FEM and neural networks to predict and optimise properties of industrial composites (honeycomb, recycled aggregates); contributed to text mining of research databases
+          - Co-supervised master's projects on optimising industrial composites
 
     - role: Project Officer
-      time: 2018 - 2019
-      company: ASTUTE2020, Swansea University, Swansea, UK
+      time: Jul 2018 - Oct 2019
+      company: ASTUTE 2020, Swansea University, Swansea, UK
       details: |
-          - Applied data science techniques (neural networks, multi-constraint optimization) to reduce costs in steel manufacturing
-          - Developed Python/JavaScript addon for ANSYS to simplify continuum mechanics calculations
-          - Built Python scripts to analyze machinery performance data and propose optimizations
-          - Created numerical models for manufacturing process improvement 
+          - Developed a Python/JavaScript add-on integrated into the Ansys user interface to simplify continuum mechanics calculations
+          - Applied data science (neural networks, multi-constraint optimisation) to reduce costs in steel manufacturing
+          - Built scripts to analyse machinery performance data and numerical models to improve manufacturing processes
 
 projects:
     title: Data Science Projects
     intro: A (small) list of projects, repositories and/or ideas I am involved in.
     assignments:
-      - title: Machine learning for damage detection
+      - title: Machine learning for damage detection in rolling bearings
         link: "https://github.com/germa89/Machine_Learning_for_damage_detection_in_rolling_bearings"
         tagline: "Machine learning algorithms such as Principal Component Analysis (PCA) and Gaussian Mixture Models (GMM) 
          for damage detection in rolling bearings."
@@ -166,9 +165,9 @@ projects:
         link: "https://github.com/germa89/Financial_Fraud_Detection"
         tagline: Using machine learning algorithms (boosted decision trees) to detect fraud in credit cards records.
 
-      - title: Marketig campaing prediction
+      - title: Marketing campaign prediction
         link: "https://github.com/germa89/Finance-Marketing-Prediction-ML"
-        tagline: Predict the success rate of a marketing campaing given previous records. 
+        tagline: Predict the success rate of a marketing campaign given previous records.
 
 
 # oss:
@@ -197,34 +196,57 @@ publications:
       # amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
       # bibendum fringilla a eu lectus.
     papers:
-      - title: Multi-objective Optimisation of Electric Arc Furnace Using the NSGA-II Evolutionary Algorithm
+      - title: Multi-objective optimization of electric arc furnace using the non-dominated sorting genetic algorithm II
         link: https://ieeexplore.ieee.org/abstract/document/9600818
-        authors: Matteus Torquato, Germán Martínez-Ayuso, Hoceine Matallah, Ashraf Fahmy
-        conference: #Addison-Wesley, 1968
+        authors: Matteus F Torquato, Germán Martínez-Ayuso, Ashraf A Fahmy, Jose Sienz
+        conference: IEEE Access 9, 149715-149731 (2021)
+
+      - title: Experimental validation of an impact off-resonance energy harvester
+        authors: G Martinez-Ayuso, MI Friswell, H Haddad Khodaparast, S Adhikari
+        conference: The European Physical Journal Special Topics 228 (7), 1635-1646 (2019)
 
       - title: Electric field distribution in porous piezoelectric materials during polarization
         link: https://www.sciencedirect.com/science/article/abs/pii/S135964541930223X
         authors: Germán Martínez-Ayuso, Michael I Friswell, Hamed H Khodaparast, JI Roscow, CR Bowen
-        conference: #Addison-Wesley, 1968
+        conference: Acta Materialia 173, 332-341 (2019)
 
-      - title: Other papers in my Google scholar profile.
+      - title: Model validation of a porous piezoelectric energy harvester using vibration test data
+        authors: G Martínez-Ayuso, H Haddad Khodaparast, Y Zhang, CR Bowen, et al.
+        conference: Vibration 1 (1), 123-137 (2018)
+
+      - title: Modelling of Porous Piezoelectric Material and Potential Applications to Vibration Energy Harvesting
+        authors: G Martínez-Ayuso
+        conference: PhD thesis, Swansea University (2018)
+
+      - title: Energy harvesting using porous piezoelectric beam with impacts
+        authors: G Martínez-Ayuso, MI Friswell, S Adhikari, H Haddad Khodaparast, et al.
+        conference: X International Conference on Structural Dynamics, EURODYN 2017
+
+      - title: Homogenization of porous piezoelectric materials
+        authors: G Martínez-Ayuso, MI Friswell, S Adhikari, HH Khodaparast, H Berger
+        conference: International Journal of Solids and Structures 113, 218-229 (2017)
+
+      - title: Experimental Validation of a Porous Piezoelectric Energy Harvester
+        authors: G Martínez-Ayuso, H Haddad Khodaparast, MI Friswell, AD Shaw, et al.
+        conference: VIII ECCOMAS Thematic Conference on Smart Structures and Materials, SMART 2017
+
+      - title: Porous piezoelectric materials for energy harvesting
+        authors: G Martinez-Ayuso, M Friswell, S Adhikari, H Haddad Khodaparast, et al.
+        conference: 2016
+
+      - title: Full list in my Google Scholar profile.
         link: "https://scholar.google.co.uk/citations?user=1MqmJ0sAAAAJ&hl=en"
 
-      # - title: Machine learning for  (In Review)
-      #   link: ""
-      #   authors: Matteus Torquato, Germán Martínez-Ayuso, Hoceine Matallah, Ashraf Fahmy
-      #   conference: #Addison-Wesley, 1968
-      
 education:
     title: Education
     info:
     - degree: PhD in Civil Engineering
       university: Swansea University
-      time: 2015 - 2019
+      time: 2015 - 2018
       details: |
-        Micro to macro-scale material modelling using numerical techniques for energy harvesting applications. Fully-funded scholarship
-        * Developed my own non-linear finite element code in Matlab for piezoelectric harvesters based on Euler-Bernoulli beams. Validated experimentally. 
-        * Used commercial finite element packages to obtain the equivalent mechanical properties of micro composite structures (Homogenization). 
+        Micro to macro-scale material modelling for energy harvesting. Fully-funded scholarship.
+        * Wrote a non-linear finite element code (Matlab) for piezoelectric harvesters, validated experimentally.
+        * Homogenisation of porous piezoelectric microstructures.
     
     - degree: M.Sc. in Structures
       university: University of Granada, Spain
@@ -232,17 +254,23 @@ education:
       details: |
         Strong background in numerical methods and programming.
 
-    - degree: M.Eng. in Civil Engineering
+    - degree: M.Eng. in Civil Engineering (Ingeniero de Caminos, Canales y Puertos)
       university: University of Alicante, Spain
       time: 2010 - 2013
       details: |
         Strong background in numerical methods.
 
-    - degree: B.Eng. in Civil Engineering
+    - degree: B.Eng. in Civil Engineering (Ingeniero Técnico de Obras Públicas)
       university: University of Cordoba, Spain
       time: 2007 - 2010
       details: |
-        Special award, Graduated with honours. Best student record award.
+        Graduated with honours. Best student record award.
+
+    - degree: Expert in Financial Management (course)
+      university: University of Cordoba, Spain
+      time: 2025
+      details: |
+        Postgraduate course in financial management.
 
 footer: >
     *References* upon request.
