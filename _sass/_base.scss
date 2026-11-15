@@ -268,8 +268,14 @@ p {
   .item {
     margin-bottom: 15px;
     overflow: hidden;
+    display: grid;
+    grid-template-columns: 170px 1fr;
+    column-gap: 16px;
+    align-items: baseline;
   }
   .level-title {
+    float: none;
+    width: auto;
     font-size: 14px;
     margin-top: 0;
     margin-bottom: 12px;

@@ -34,8 +34,8 @@
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .skillset .level-title {
-    float: left;
-    width: 30%;
+    float: none;
+    width: auto;
     margin-bottom: 0;
   }
 
