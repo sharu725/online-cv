@@ -4,7 +4,7 @@ body {
     color: $text-color-secondary;
     background: $smoky-white;
     font-size: 14px;
-    padding: 30px;
+    padding: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -29,17 +29,18 @@ p {
 }
 
 .wrapper {
-    background:$theme-color;
+    background: #fff;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 0;
     position: relative;
+    min-height: 100vh;
     @include box-shadow(0px 2px 4px rgba(0,0,0,0.1));
 }
 
 .sidebar-wrapper {
     background: $theme-color;
     position: absolute;
-    right: 0;
+    left: 0;
     width: 280px;
     height: 100%;
     min-height: 800px;
@@ -49,6 +50,8 @@ p {
     }
     .profile-container {
         padding: 30px;
+        padding-top: 63px; // .main-wrapper top padding (60px) + gap above the first heading's capitals
+        padding-bottom: 0;
         //background: darken($theme-color, 10%);
         //background: rgba(0, 0, 0, 0.2);
         text-align: center;
@@ -79,16 +82,31 @@ p {
         border-radius: 100%;
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     }
+    .contact-container.container-block {
+        padding-top: 38px;
+    }
     .contact-list {
-        .fas, .fab, .far {
-            margin-right: 5px;
-            font-size: 18px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 18px;
+        margin: 0;
+        .fas, .fab, .far, .ai {
+            font-size: 22px;
             vertical-align: middle;
         }
-        li {
-            margin-bottom: 15px;
-            &:last-child {
-                margin-bottom: 0;
+        .cv-text {
+            font-size: 17px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            vertical-align: middle;
+        }
+        a {
+            opacity: 0.85;
+            transition: opacity 0.15s ease;
+            &:hover, &:focus {
+                opacity: 1;
+                text-decoration: none;
             }
         }
     }
@@ -155,8 +173,11 @@ p {
 
 .main-wrapper {
     background: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     padding: 60px;
-    padding-right: 340px;
+    padding-left: 340px;
     .section-title {
         text-transform: uppercase;
         font-size: 20px;
@@ -264,6 +285,7 @@ p {
 
 
 .footer {
+    margin-top: auto;
     padding-top: 30px;
     .copyright {
         line-height: 1.6;

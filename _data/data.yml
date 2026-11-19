@@ -46,7 +46,7 @@ projects:
                  twin using MTA Open Data that can compare a variety of interventions to understand design effective interventions and understand what factors drive performance. 
                  This summer I worked with the MTA to test the framework on internal data, finding that targeting bus spacing is often more effective than faster speeds or boardings.<br></br> 
 
-      - title: Optimization for Fisheries Managements
+      - title: Optimization for Fisheries Management
         tagline: Fishery income is highly variable, where low income years can heavily impact small communities and result in millions of dollars of government support.
                  Diversification in multiple fisheries can reduce income variability, but fisherman may not diversify due to financial costs, difficultly obtaining 
                  new skills, or uncertainty about future risk. Working with fisheries ecologist Suresh Sethi, I developed an optimization framework to explore 
@@ -81,4 +81,4 @@ projects:
 
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Adapted from <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
