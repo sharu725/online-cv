@@ -23,7 +23,7 @@ jobs:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::671370548051:role/github-infra-ftw-role
+          role-to-assume: arn:aws:iam::671370548051:role/github-deploy-online-cv
           aws-region: us-east-1
 
       - name: Copy files to the test website with the AWS CLI
