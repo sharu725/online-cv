@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - master
+  workflow_dispatch: # manual "Run workflow" button
 
 jobs:
   deploy:
@@ -17,8 +18,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1' # Gemfile.lock pins Jekyll 4.0 / Liquid 4.0.x, which don't run on Ruby 3.2+
+          bundler-cache: true # bundle install from Gemfile.lock, cached between runs
+
       - name: Jekyll Build
-        uses: jerryjvl/jekyll-build-action@v1
+        run: bundle exec jekyll build
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
