@@ -12,6 +12,8 @@
     .sidebar-wrapper {
         position: static;
         width: inherit;
+        height: auto;
+        min-height: 0;
     }
 
     .sidebar-wrapper .profile-container {
