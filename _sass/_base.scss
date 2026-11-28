@@ -184,12 +184,52 @@ p {
       margin-bottom: 30px;
     }
   }
+
+  // Vertical timeline for chronological sections
+  .experiences-section,
+  .educations-section,
+  .projects-section {
+    .item {
+      position: relative;
+      margin-bottom: 0;
+      padding-left: 24px;
+      padding-bottom: 28px;
+      border-left: 2px solid $divider;
+      &:before {
+        content: "";
+        position: absolute;
+        left: -7px;
+        top: 4px;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: #fff;
+        border: 2px solid $theme-color;
+      }
+      &:last-child {
+        padding-bottom: 0;
+        border-left-color: transparent;
+      }
+    }
+    // Highlight the most recent entry
+    .section-title + .item:before,
+    .intro + .item:before {
+      background: $theme-color;
+    }
+    .details p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
   .upper-row,
   .second-upper-row {
     position: relative;
     overflow: hidden;
     margin-bottom: 2px;
     display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
   }
   .job-title,
   .degree,
@@ -200,10 +240,22 @@ p {
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 500;
-    flex: 75%;
+    flex: 1 1 auto;
   }
 
-  .time,
+  // Date shown as a pill next to the title
+  .time {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.6;
+    padding: 1px 10px;
+    border-radius: 999px;
+    color: darken($theme-color, 5%);
+    background: rgba($theme-color, 0.08);
+  }
+
   .cert-url {
     position: absolute;
     right: 0;
@@ -221,17 +273,25 @@ p {
 
   .project-title {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     margin-top: 0;
-    margin-bottom: 5px;
-    color: darken($theme-color, 15%);
+    margin-bottom: 0;
+    color: $text-color;
+    flex: 1 1 auto;
+    a {
+      color: darken($theme-color, 15%);
+    }
+  }
+  .project-tagline {
+    display: block;
+    margin-top: 6px;
   }
   .projects-section {
     .intro {
       margin-bottom: 30px;
     }
     .item {
-      margin-bottom: 15px;
+      padding-bottom: 20px;
     }
   }
   .oss-section {

@@ -17,14 +17,10 @@
     padding: 30px;
   }
 
-  .main-wrapper .time {
-    position: static;
-    display: block;
-    margin-top: 5px;
-  }
-
   .main-wrapper .upper-row {
-    margin-bottom: 0;
+    flex-wrap: wrap;
+    gap: 4px 12px;
+    margin-bottom: 4px;
   }
 }
 /* Small devices (tablets, 768px and up) */

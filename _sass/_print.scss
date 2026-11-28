@@ -15,11 +15,13 @@
   //     filter: grayscale(1);
   //     -webkit-filter: greyscale(1);
   //   }
-  .main-wrapper .time {
-    padding: 10px 30px 10px 10px;
-    //  float: right;
-    //  color: black !important;
+  .main-wrapper .time,
+  .main-wrapper .item:before {
     -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .main-wrapper .item {
+    break-inside: avoid;
   }
   .sidebar-wrapper {
     position: static;
