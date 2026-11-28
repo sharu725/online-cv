@@ -2,7 +2,7 @@
 {% if projects %}
 <section class="section projects-section">
 
-  <h2 class="section-title">
+  <h2 id="projects" class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
@@ -17,18 +17,26 @@
   {% endif %}
 
   {% for project in projects.assignments %}
-    <div class="item">
+    {% assign time_lower = project.time | downcase %}
+    <div class="item{% if time_lower contains 'present' or time_lower contains 'current' %} item-current{% endif %}">
 
-      <span class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-        {{ project.title }}
+      <div class="upper-row">
+        <h3 class="project-title">
+          {% if project.link and project.link != "" %}
+          <a href="{{ project.link }}" target="_blank" rel="noreferrer nofollow noopener">{{ project.title }}</a>
+          {% else %}
+          {{ project.title }}
+          {% endif %}
+        </h3>
+        {% if project.time %}
+        <div class="time">{{ project.time }}</div>
         {% endif %}
-      </span>
+      </div><!--//upper-row-->
 
       {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+      <span class="project-tagline">
+        {{ project.tagline }}
+      </span>
       {% endif %}
 
     </div><!--//item-->

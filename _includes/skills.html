@@ -1,4 +1,5 @@
-{% assign skills = site.data.data.skills %} {% if skills %}
+{% assign skills = site.data.data.skills %}
+{% if skills %}
 <section class="skills-section section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
@@ -8,19 +9,25 @@
     {{ skills.title }}
   </h2>
 
-  <div class="skillset">
-    {% for skill in skills.toolset %}
-    <div class="item">
-      <h3 class="level-title">{{ skill.name }}</h3>
-      {% assign skill_level = 'width: ' | append: skill.level %}
-      <div class="level-bar">
-        <div class="level-bar-inner" style="{{skill_level}}"></div>
-      </div>
-      <!--//level-bar-->
-    </div>
-    <!--//item-->
+  {% comment %}
+    Skills are grouped by their `category` field in _data/data.yml.
+    Groups appear in the order their first skill appears in the list.
+  {% endcomment %}
+  {% assign skill_groups = skills.toolset | group_by: "category" %}
+  <div class="skill-groups">
+    {% for group in skill_groups %}
+    <div class="skill-group">
+      {% if group.name and group.name != "" %}
+      <h3 class="skill-group-title">{{ group.name }}</h3>
+      {% endif %}
+      <ul class="skill-tags list-unstyled">
+        {% for skill in group.items %}
+        <li class="skill-tag">{{ skill.name }}</li>
+        {% endfor %}
+      </ul>
+    </div><!--//skill-group-->
     {% endfor %}
-  </div>
+  </div><!--//skill-groups-->
 </section>
 <!--//skills-section-->
 {% endif %}

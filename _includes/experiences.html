@@ -10,7 +10,8 @@
   </h2>
 
   {% for experience in experiences.info %}
-  <div class="item">
+  {% assign time_lower = experience.time | downcase %}
+  <div class="item{% if time_lower contains 'present' or time_lower contains 'current' %} item-current{% endif %}">
 
     <div class="meta">
 

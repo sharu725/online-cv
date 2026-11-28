@@ -1,4 +1,5 @@
-{% assign certifications = site.data.data.certifications %} {% if certifications %}
+{% assign certifications = site.data.data.certifications %}
+{% if certifications %}
 <section class="section certifications-section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
@@ -8,41 +9,61 @@
     {{ certifications.title }}
   </h2>
 
-  {% for certifications in certifications.list %}
-  <div class="item">
-    <div class="meta">
-      <div class="upper-row">
-        <h3 class="cert-title">{{ certifications.name }}</h3>
-        <div class="time">
-          {{ certifications.start }} {% if certifications.end %} - {{
-          certifications.end }} {% endif %}
-        </div>
-      </div>
-      <!--//upper-row-->
+  {% if certifications.intro %}
+  <div class="intro">
+    {{ certifications.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
 
-      <div class="second-upper-row">
-        <div class="cert-org">
-          {{ certifications.organization }} {% if certifications.credentialid %}
-          ({{ certifications.credentialid }}) {% endif %}
-        </div>
-        {% if certifications.credentialurl %}
-        <div class="cert-url">
-          <a
-            href="//{{ certifications.credentialurl }}"
-            target="_blank"
-            rel="noreferrer nofollow noopener"
-            >{{ certifications.credentialname }}</a
-          >
+  {% if certifications.list %}
+    {% for certification in certifications.list %}
+    <div class="item">
+      <div class="meta">
+        <div class="upper-row">
+          <h3 class="cert-title">{{ certification.name }}</h3>
+          {% if certification.start or certification.end %}
+          <div class="time">
+            {{ certification.start }}{% if certification.end %} - {{ certification.end }}{% endif %}
+          </div>
+          {% endif %}
+        </div><!--//upper-row-->
+
+        {% if certification.organization or certification.credentialid or certification.credentialurl %}
+        <div class="second-upper-row">
+          {% if certification.organization or certification.credentialid %}
+          <div class="cert-org">
+            {{ certification.organization }}{% if certification.credentialid %} ({{ certification.credentialid }}){% endif %}
+          </div>
+          {% endif %}
+          {% if certification.credentialurl %}
+          {% if certification.credentialurl contains '://' %}
+          {% assign credential_url = certification.credentialurl %}
+          {% else %}
+          {% assign credential_url = '//' | append: certification.credentialurl %}
+          {% endif %}
+          <div class="cert-url">
+            <a href="{{ credential_url }}" target="_blank" rel="noreferrer nofollow noopener">{{ certification.credentialname }}</a>
+          </div>
+          {% endif %}
         </div>
         {% endif %}
-      </div>
-    </div>
-    <!--//meta-->
+      </div><!--//meta-->
 
-    <div class="details">{{ certifications.details | markdownify }}</div>
-  </div>
-  <!--//item-->
-  {% endfor %}
-</section>
-<!--//section-->
+      {% if certification.details %}
+      <div class="details">{{ certification.details | markdownify }}</div>
+      {% endif %}
+    </div><!--//item-->
+    {% endfor %}
+  {% elsif certifications.papers %}
+    {% for certification in certifications.papers %}
+    <div class="item">
+      {% if certification.link %}
+      <div class="cert-title"><a href="{{ certification.link }}" target="_blank" rel="noreferrer nofollow noopener">{{ certification.title }}</a></div>
+      {% else %}
+      <div class="cert-title">{{ certification.title }}</div>
+      {% endif %}
+    </div><!--//item-->
+    {% endfor %}
+  {% endif %}
+</section><!--//section-->
 {% endif %}
