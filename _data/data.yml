@@ -213,6 +213,9 @@ skills:
     - name: Infrastructure as Code
       category: Cloud
 
+    - name: Artificial Intelligence
+      category: Cloud
+
     - name: Windows
       category: Infrastructure
 
@@ -238,9 +241,6 @@ skills:
       category: Scripting & security
 
     - name: IT Security
-      category: Scripting & security
-
-    - name: Artificial Intelligence
       category: Scripting & security
 
     - name: Presenting
