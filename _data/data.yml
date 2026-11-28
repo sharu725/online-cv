@@ -9,7 +9,7 @@ sidebar:
 
   # Profile information
   name: Audun Solemdal
-  tagline: Cloud platform engineering consultant
+  tagline: Cloud Platform Engineering Consultant
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -61,65 +61,65 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    I work with DevOps and Azure. Special interest for cloud computing.
-    I see myself as a good all-rounder, and enjoy seeing the bigger picture together with using technical skills.
-    Microsoft Partner since May 2022
+    I work with platform engineering and Azure, with a special interest in cloud computing.
+    I see myself as a good all-rounder who enjoys combining hands-on technical skills with seeing the bigger picture.
+    Microsoft Partner since May 2022.
 
 education:
   title: Education
   info:
-    - degree: BSc in IT operations
+    - degree: BSc in IT Operations
       university: NTNU
       time: 2016 - 2019
       details: |
-        Involves subjects such as operating and maintenance of computer systems (Windows and Linux),
-        cloud services, system development, information security, virtual machines and programming.
+        Covered subjects such as operation and maintenance of computer systems (Windows and Linux),
+        cloud services, system development, information security, virtual machines, and programming.
 
-        My bachelor's thesis was titled "Modernization of a business critical integration platform using containers in Azure Cloud".
-        The project was part of a larger, actual customer project assigned to Innofactor's department in Trondheim,
-        who are specialists in Azure Cloud.
+        My bachelor's thesis was titled "Modernization of a business-critical integration platform using containers in Azure Cloud".
+        The project was part of a larger customer project assigned to Innofactor's department in Trondheim,
+        which specializes in Microsoft Azure.
 
 experiences:
-  title: Experiences
+  title: Experience
   info:
-    - role: Cloud consultant
-      time: June 2022 - Present
+    - role: Platform Engineering Consultant
+      time: Jun 2022 - Present
       company: Solom AS
       details: |
-        Contract work for The Norwegian Environment Agency. Member of the CCoE / Cloud platform team.
-        My main responsibility is further development of the Kubernetes (AKS) portion of the platform.
+        Contract work for the Norwegian Environment Agency as a member of the CCoE / Cloud Platform team.
+        My main responsibility is platform engineering and further developing the Kubernetes (AKS) part of the platform.
 
-    - role: CSP indirect reseller
+    - role: CSP Indirect Reseller
       time: May 2022 - Present
       company: Solom AS
       details: |
-        CSP indirect reseller through Arrow Electronics. Contact me if you are interested in having a CSP!
+        CSP indirect reseller through Arrow Electronics. Feel free to contact me if you are looking for a CSP partner!
 
-    - role: DevOps consultant
-      time: Sept 2021 - June 2022
+    - role: DevOps Consultant
+      time: Sep 2021 - Jun 2022
       company: Solom AS
       details: |
-        Sub-contracting DevOps consultant for Helsedirektoratet, department Helseregistrene
+        Subcontracted DevOps consultant for Helsedirektoratet (Helseregistrene department).
 
-        Formerly contracted under "Solemdal Consulting"
+        Formerly contracted under "Solemdal Consulting".
 
-    - role: Cloud & DevOps consultant
+    - role: Cloud & DevOps Consultant
       time: Apr 2021 - Dec 2022
       company: Solom AS
       details: |
-        DevOps and Azure consultant for Elekt in my spare time
+        Part-time DevOps and Azure consultant for Elekt:
           - Azure
           - DevOps
 
-        Formerly contracted under "Solemdal Consulting"
+        Formerly contracted under "Solemdal Consulting".
 
     - role: Consultant
-      time: June 2019 - Aug 2021
+      time: Jun 2019 - Aug 2021
       company: Bouvet ASA, Trondheim
       details: |
-        DevOps and Azure consultant for Equinor
+        DevOps and Azure consultant for Equinor:
           - Azure
-          - Kubernetes & cloud native
+          - Kubernetes & cloud-native
           - IT operations (Linux and Windows)
           - .NET and database development
           - Task automation
@@ -128,7 +128,7 @@ certifications:
   title: Certifications
   intro: |
     Certifications taken in my spare time.
-    You can validate my certifications by clicking the name of each certification
+    You can verify each certification by clicking its name.
   papers:
     - title: Azure Solutions Architect Expert (2020-)
       link: https://learn.microsoft.com/en-us/users/audunsolemdal/credentials/860965f4fa3b67d7
@@ -144,57 +144,57 @@ certifications:
 projects:
   title: Projects
   intro: >
-    All projects since September 2021 are done through Solom.
+    All projects since September 2021 have been carried out through Solom AS.
   assignments:
-    - title: Riksantikvaren - Cloud assistance.
+    - title: Riksantikvaren - Cloud Assistance
       link: ""
-      tagline: "As Miljødirektoratet has responsibility for Riksantikvaren, I assist with cloud related tasks for them. This mostly involes migration to Azure and implementation on Azure Kubernetes Service."
-      time: May 2025 - current
+      tagline: "As Miljødirektoratet has responsibility for Riksantikvaren, I assist them with cloud-related tasks. This mostly involves migration to Azure and implementation on Azure Kubernetes Service."
+      time: May 2025 - Present
 
-    - title: Artsdatabanken - Cloud assistance.
+    - title: Artsdatabanken - Cloud Assistance
       link: ""
-      tagline: "As Miljødirektoratet has responsibility for Artsdatabanken, I assist with cloud related tasks for them. This mostly involves Azure advisory, improving security, developer experience on Azure"
-      time: May 2023 - current
+      tagline: "As Miljødirektoratet has responsibility for Artsdatabanken, I assist them with cloud-related tasks. This mostly involves Azure advisory, improving security, and enhancing the developer experience."
+      time: May 2023 - Present
 
-    - title: Miljødirektoratet - Cloud Platform team
+    - title: Miljødirektoratet - Cloud Platform Team
       link: ""
-      tagline: "Main responsiblity is further development and ease of usage for AKS in Miljødirektoratet's Cloud Platform. I also assist with continious improvement of the platform in general. "
-      time: June 2022 - current
+      tagline: "My main responsibility is the further development and usability of AKS in Miljødirektoratet's Cloud Platform. I also assist with continuous improvement of the platform in general."
+      time: Jun 2022 - Present
 
     - title: Helsedirektoratet - KPR2024
       link: ""
-      tagline: "Freelance project. Solving problems within the Azure and DevOps realms for Helsedirektoratet."
-      time: Sep 2021 - June 2022
+      tagline: "Freelance project solving Azure and DevOps challenges for Helsedirektoratet."
+      time: Sep 2021 - Jun 2022
 
     - title: Elekt AS - Elisa
       link: ""
-      tagline: "Freelance project. Solving problems within the Azure and DevOps realms for Elekt AS."
+      tagline: "Freelance project solving Azure and DevOps challenges for Elekt AS."
       time: Apr 2021 - Dec 2023
 
     - title: Equinor - Centuries
       link: ""
-      tagline: "Azure, ASP.NET Core development, Entity Framework Core, Azure SQL DB, SOX Audit automation, Azure DevOps, Terraform. Centuries co-locates production estimates for various plants in Equinor, and is used both for historical data and data forecasts. The project also provided me experience working with audits for sensitive financial data under the SOX act"
+      tagline: "Azure, ASP.NET Core development, Entity Framework Core, Azure SQL DB, SOX audit automation, Azure DevOps, Terraform. Centuries consolidates production estimates for various Equinor plants and is used for both historical data and forecasts. The project also gave me experience working with audits for sensitive financial data under the Sarbanes-Oxley Act (SOX)."
       time: May 2020 - Aug 2021
 
     - title: Equinor - SDP Tools
       link: https://github.com/equinor/sdp-flux
-      tagline: "Azure, Kubernetes, Docker, Linux, GitOps. Maintaining apps running on internal infrastructure. Migrations from on-prem and AWS to Azure and Azure AKS. Our Kubernetes infrastructure is open source, available: "
-      time: June 2019 - Aug 2021
+      tagline: "Azure, Kubernetes, Docker, Linux, GitOps. Maintained apps running on internal infrastructure and handled migrations from on-prem and AWS to Azure and AKS. Our Kubernetes infrastructure is open source (see the project link above)."
+      time: Jun 2019 - Aug 2021
 
     - title: Equinor - Toolbox Admin
       link: ""
-      tagline: "Admin for Equinor's GitHub, Gitlab, Azure DevOps, Snyk (IT security tool), Power Platform. From time to time I assist the Toolbox admin team with technical expertise. Implementing new products and features providing value to Equinor's 1000+ developers."
+      tagline: "Admin for Equinor's GitHub, GitLab, Azure DevOps, Snyk (IT security tool), and Power Platform. Assisted the Toolbox Admin team with technical expertise, implementing new products and features that delivered value to Equinor's 1,000+ developers."
       time: Jan 2020 - Aug 2021
 
     - title: Equinor - iPlant
       link: ""
-      tagline: ".NET development, Windows server. Maintenance and further development of apps fetching sensor data from multiple Equinor plants. I've lead a pilot to migrate the service from depending on on-prem infrastructure and OracleDB to using a timeseries API running in Azure."
-      time: Sept 2019 - Dec 2020
+      tagline: ".NET development, Windows Server. Maintenance and further development of apps fetching sensor data from multiple Equinor plants. I led a pilot to migrate the service from on-prem infrastructure and Oracle DB to a time-series API running in Azure."
+      time: Sep 2019 - Dec 2020
 
     - title: Equinor - CES to Omnia
       link: ""
-      tagline: "Advisory role on how to migrate a container based platform from Amazon to Equinor's data platform on Azure."
-      time: October 2019 - December 2019
+      tagline: "Advisory role on how to migrate a container-based platform from AWS to Equinor's data platform on Azure."
+      time: Oct 2019 - Dec 2019
 
 skills:
   title: Skills &amp; Proficiency
@@ -202,6 +202,9 @@ skills:
   # Groups are shown in the order their first skill appears below.
   toolset:
     - name: Azure
+      category: Cloud
+
+    - name: Platform Engineering
       category: Cloud
 
     - name: Containers & Kubernetes
@@ -225,32 +228,32 @@ skills:
     - name: SQL
       category: Infrastructure
 
-    - name: .NET development
+    - name: .NET Development
       category: Development
 
-    - name: Web development (HTML, CSS, JS)
+    - name: Web Development (HTML, CSS, JS)
       category: Development
 
     - name: REST APIs
       category: Development
 
     - name: PowerShell
-      category: Scripting & security
+      category: Scripting & Security
 
     - name: Bash
-      category: Scripting & security
+      category: Scripting & Security
 
     - name: IT Security
-      category: Scripting & security
+      category: Scripting & Security
 
     - name: Presenting
-      category: Personal skills
+      category: Personal Skills
 
     - name: Leadership
-      category: Personal skills
+      category: Personal Skills
 
     - name: Teamwork
-      category: Personal skills
+      category: Personal Skills
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
