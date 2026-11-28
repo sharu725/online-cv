@@ -264,24 +264,37 @@ p {
   }
 }
 
-.skillset {
-  .item {
-    margin-bottom: 15px;
-    overflow: hidden;
-  }
-  .level-title {
-    font-size: 14px;
-    margin-top: 0;
-    margin-bottom: 12px;
-  }
-  .level-bar {
-    height: 12px;
-    background: $smoky-white;
-  }
-  .level-bar-inner {
-    height: 12px;
-    background: lighten($theme-color, 15%);
-  }
+.skill-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 24px 32px;
+}
+
+.skill-group-title {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: $text-color;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+}
+
+.skill-tag {
+  font-size: 13px;
+  line-height: 1.4;
+  padding: 4px 10px;
+  border-radius: 999px;
+  color: darken($theme-color, 10%);
+  background: rgba($theme-color, 0.08);
+  border: 1px solid rgba($theme-color, 0.2);
 }
 
 .footer {

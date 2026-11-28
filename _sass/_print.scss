@@ -36,14 +36,14 @@
     display: none;
   }
 
-  .skillset,
+  .skill-group,
   .container-block {
     break-inside: avoid;
   }
 
-  .skillset .level-bar-inner {
-    background-color: $theme-color !important;
+  .skill-tag {
     -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
 
    .fa-inverse,
