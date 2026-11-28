@@ -17,7 +17,8 @@
   {% endif %}
 
   {% for project in projects.assignments %}
-    <div class="item">
+    {% assign time_lower = project.time | downcase %}
+    <div class="item{% if time_lower contains 'present' or time_lower contains 'current' %} item-current{% endif %}">
 
       <div class="upper-row">
         <h3 class="project-title">

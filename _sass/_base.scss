@@ -240,9 +240,8 @@ p {
         border-left-color: transparent;
       }
     }
-    // Highlight the most recent entry
-    .section-title + .item:before,
-    .intro + .item:before {
+    // Highlight ongoing/current entries
+    .item-current:before {
       background: $theme-color;
     }
     .details p:last-child {
