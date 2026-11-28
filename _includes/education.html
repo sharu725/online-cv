@@ -8,7 +8,8 @@
     </h2>
 
     {% for graduation in education.info %}
-    <div class="item">
+    {% assign time_lower = graduation.time | downcase %}
+    <div class="item{% if time_lower contains 'present' or time_lower contains 'current' %} item-current{% endif %}">
       <h4 class="degree">{{ graduation.degree }}</h4>
       <h5 class="meta">{{ graduation.university }}</h5>
       <div class="time">{{ graduation.time }}</div>
@@ -28,7 +29,8 @@
     </h2>
 
     {% for graduation in education.info %}
-    <div class="item">
+    {% assign time_lower = graduation.time | downcase %}
+    <div class="item{% if time_lower contains 'present' or time_lower contains 'current' %} item-current{% endif %}">
 
       <div class="meta">
 

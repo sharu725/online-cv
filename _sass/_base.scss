@@ -213,12 +213,51 @@ p {
       margin-bottom: 30px;
     }
   }
+
+  // Vertical timeline for chronological sections
+  .experiences-section,
+  .educations-section,
+  .projects-section {
+    .item {
+      position: relative;
+      margin-bottom: 0;
+      padding-left: 24px;
+      padding-bottom: 28px;
+      border-left: 2px solid $divider;
+      &:before {
+        content: "";
+        position: absolute;
+        left: -7px;
+        top: 4px;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: #fff;
+        border: 2px solid $theme-color;
+      }
+      &:last-child {
+        padding-bottom: 0;
+        border-left-color: transparent;
+      }
+    }
+    // Highlight ongoing/current entries
+    .item-current:before {
+      background: $theme-color;
+    }
+    .details p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
   .upper-row,
   .second-upper-row {
     position: relative;
     overflow: hidden;
     margin-bottom: 2px;
     display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
   }
   .job-title,
   .degree,
@@ -229,10 +268,22 @@ p {
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 500;
-    flex: 75%;
+    flex: 1 1 auto;
   }
 
-  .time,
+  // Date shown as a pill next to the title
+  .time {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.6;
+    padding: 1px 10px;
+    border-radius: 999px;
+    color: darken($theme-color, 5%);
+    background: rgba($theme-color, 0.08);
+  }
+
   .cert-url {
     position: absolute;
     right: 0;
@@ -252,17 +303,25 @@ p {
 
   .project-title {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     margin-top: 0;
-    margin-bottom: 5px;
-    color: darken($theme-color, 15%);
+    margin-bottom: 0;
+    color: $text-color;
+    flex: 1 1 auto;
+    a {
+      color: darken($theme-color, 15%);
+    }
+  }
+  .project-tagline {
+    display: block;
+    margin-top: 6px;
   }
   .projects-section {
     .intro {
       margin-bottom: 30px;
     }
     .item {
-      margin-bottom: 15px;
+      padding-bottom: 20px;
     }
   }
   .oss-section {
@@ -295,24 +354,37 @@ p {
   }
 }
 
-.skillset {
-  .item {
-    margin-bottom: 15px;
-    overflow: hidden;
-  }
-  .level-title {
-    font-size: 14px;
-    margin-top: 0;
-    margin-bottom: 12px;
-  }
-  .level-bar {
-    height: 12px;
-    background: $smoky-white;
-  }
-  .level-bar-inner {
-    height: 12px;
-    background: lighten($theme-color, 15%);
-  }
+.skill-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 24px 32px;
+}
+
+.skill-group-title {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: $text-color;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+}
+
+.skill-tag {
+  font-size: 13px;
+  line-height: 1.4;
+  padding: 4px 10px;
+  border-radius: 999px;
+  color: darken($theme-color, 10%);
+  background: rgba($theme-color, 0.08);
+  border: 1px solid rgba($theme-color, 0.2);
 }
 
 .footer {

@@ -198,53 +198,56 @@ projects:
 
 skills:
   title: Skills &amp; Proficiency
+  # Skills are rendered as tags, grouped by `category`.
+  # Groups are shown in the order their first skill appears below.
   toolset:
     - name: Azure
-      #level: 85%
+      category: Cloud
 
     - name: Docker & Kubernetes
-      #level: 80%
+      category: Cloud
 
     - name: GitOps / Infrastructure as Code
-      #level: 80%
-
-    - name: Presentations
-      #level: 75%
-
-    - name: Leadership
-      #level: 70%
-
-    - name: Teamwork
-      #level: 70%
-
-    - name: .NET development
-      #level: 60%
-
-    - name: Web development (HTML, CSS, JS)
-      #level: 40%
-
-    - name: Rest APIs
-      #level: 60%
+      category: Cloud
 
     - name: Windows
-      #level: 80%
+      category: Infrastructure
 
     - name: Linux
-      #level: 65%
+      category: Infrastructure
 
     - name: SQL
-      #level: 70%
+      category: Infrastructure
 
-    - name: Powershell
-      #level: 75%
+    - name: .NET development
+      category: Development
 
-    - name: IT Security
-      #level: 60%
+    - name: Web development (HTML, CSS, JS)
+      category: Development
 
-    - name: Artifical Intelligence
+    - name: REST APIs
+      category: Development
+
+    - name: PowerShell
+      category: Scripting & security
 
     - name: Bash
-      #level: 50%
+      category: Scripting & security
+
+    - name: IT Security
+      category: Scripting & security
+
+    - name: Artificial Intelligence
+      category: Scripting & security
+
+    - name: Presentations
+      category: Personal skills
+
+    - name: Leadership
+      category: Personal skills
+
+    - name: Teamwork
+      category: Personal skills
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
