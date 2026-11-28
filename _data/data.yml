@@ -204,10 +204,13 @@ skills:
     - name: Azure
       category: Cloud
 
-    - name: Docker & Kubernetes
+    - name: Containers & Kubernetes
       category: Cloud
 
-    - name: GitOps / Infrastructure as Code
+    - name: GitOps
+      category: Cloud
+
+    - name: Infrastructure as Code
       category: Cloud
 
     - name: Windows
@@ -240,7 +243,7 @@ skills:
     - name: Artificial Intelligence
       category: Scripting & security
 
-    - name: Presentations
+    - name: Presenting
       category: Personal skills
 
     - name: Leadership
