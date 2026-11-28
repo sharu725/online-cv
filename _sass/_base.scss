@@ -1,9 +1,12 @@
 /* ======= Base ======= */
 body {
-  font-family: "Roboto", sans-serif;
+  // Roboto was referenced but never loaded; use a system font stack so the
+  // CV renders consistently without pulling in external fonts.
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
   color: $text-color-secondary;
   background: $smoky-white;
-  font-size: 14px;
+  font-size: 15px;
   padding: 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -30,7 +33,7 @@ a {
 }
 
 p {
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .wrapper {
@@ -40,7 +43,9 @@ p {
   max-width: 1000px;
   margin: 0 auto;
   position: relative;
-  @include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
+  border-radius: 8px;
+  overflow: hidden;
+  @include box-shadow(0 10px 30px rgba(0, 0, 0, 0.08));
 }
 
 .sidebar-wrapper {
@@ -77,22 +82,26 @@ p {
 
   .avatar {
     //used for profile image
-    max-width: 100px;
-    margin-bottom: 15px;
-    border: 0px solid #fff;
+    max-width: 120px;
+    margin-bottom: 18px;
+    border: 4px solid rgba(255, 255, 255, 0.25);
     border-radius: 100%;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   }
   .contact-list {
     .fas,
     .fab,
     .far {
-      margin-right: 5px;
-      font-size: 18px;
+      width: 22px;
+      margin-right: 8px;
+      font-size: 16px;
+      text-align: center;
       vertical-align: middle;
+      opacity: 0.85;
     }
     li {
-      margin-bottom: 15px;
+      margin-bottom: 12px;
+      overflow-wrap: anywhere;
       &:last-child {
         margin-bottom: 0;
       }
@@ -103,10 +112,13 @@ p {
   }
   .container-block-title {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
+    letter-spacing: 0.08em;
     margin-top: 0;
     margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
   .degree {
     font-size: 14px;
@@ -163,18 +175,35 @@ p {
   grid-column: span 7;
   order: $resume-order;
   background: #fff;
-  padding: 60px;
+  padding: 50px;
   .section-title {
     text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
     color: darken($theme-color, 15%);
     position: relative;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid $divider;
+    // Accent bar under the heading
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -2px;
+      width: 48px;
+      height: 3px;
+      border-radius: 2px;
+      background: $theme-color;
+    }
   }
   .section {
-    margin-bottom: 60px;
+    margin-bottom: 48px;
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 
   .experiences-section,
@@ -216,7 +245,9 @@ p {
   .university,
   .cert-org {
     margin-bottom: 10px;
-    color: $text-grey;
+    // $text-grey is too light on white (~2.3:1); use the secondary text colour
+    color: $text-color-secondary;
+    font-weight: 500;
   }
 
   .project-title {
